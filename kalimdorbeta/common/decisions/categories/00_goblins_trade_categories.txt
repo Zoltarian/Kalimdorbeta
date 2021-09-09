@@ -1,0 +1,111 @@
+Trade_union_war_trade_category = {
+	
+	icon = hol_gateway_to_europe
+
+	allowed = {
+		OR = {
+		original_tag = BOO 
+		original_tag = STC 
+		original_tag = TVC 
+		original_tag = TIN 
+		original_tag = BIL
+		}
+		has_dlc = "Man the Guns"
+	}
+
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	priority = {
+		base = 10
+	}
+
+		custom_icon = {
+		tag = STO
+		value = eng_gateway_to_europe_icon_value
+		desc = eng_gateway_to_europe_full_influence_breakdown
+
+		visible = {
+			country_exists = STO
+		}
+	}
+	
+	custom_icon = {
+		tag = BRC
+		value = ger_gateway_to_europe_icon_value
+		desc = ger_gateway_to_europe_full_influence_breakdown
+
+		visible = {
+			country_exists = BRC
+		}
+	}
+
+	visible_when_empty = yes
+
+	visible = {
+		#BRC = {
+		#	has_war_with = STO
+		#	is_in_faction = yes
+		#}
+		#STO = {
+		#	has_war_with = BRC
+		#}
+
+		
+			#if = {
+			#	limit = {
+			#		original_tag = BOO
+			#	}
+			#	NOT = { 
+			#		BOO = {
+			#			is_in_faction_with = { BRC STO } 
+			#			has_war = yes
+			#		}
+			#	}
+			#}
+			#if = {
+			#	limit = {
+			#		original_tag = TVC
+			#	}
+			#	NOT = { 
+			#		TVC = {
+			 #			is_in_faction_with = { BRC STO } 
+			#			has_war = yes
+			#		}
+			#	}
+			#}
+			#if = {
+			#	limit = {
+			#		original_tag = BIL
+			#	}
+			#	NOT = { 
+			#		BIL = {
+			 #			is_in_faction_with = { BRC STO } 
+			#			has_war = yes
+			#		}
+			#	}
+			#}
+			#if = {
+			#	limit = {
+			#		original_tag = TIN
+			#	}
+			#	NOT = { 
+			#		TIN = {
+			 #			is_in_faction_with = { BRC STO } 
+			#			has_war = yes
+			#		}
+			#	}
+			#}
+			#if = {
+			#	limit = {
+			#		original_tag = STC
+			#	}
+			#	NOT = { 
+			#		STC = {
+			 #			is_in_faction_with = { BRC STO } 
+			#			has_war = yes
+			#		}
+			#	}
+			#}
+
+	}
+}
+

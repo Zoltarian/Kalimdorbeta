@@ -1,0 +1,907 @@
+﻿###########################
+#stormwind
+###########################
+
+add_namespace = stormwind
+
+#aftermath of the gurubashi war focus event
+country_event = {
+	id = stormwind.1
+	title = stormwind.1.t
+	desc = stormwind.1.d
+	picture = GFX_goldshire_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = { #protect itself from future threats
+        name = stormwind.1.option.1
+		
+		trigger = {
+			ROOT = { controls_state = 327 }
+		}
+
+		ai_chance = { factor = 50 }
+
+		add_war_support = 0.1
+		
+		22 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+
+
+	}
+    option = { #rebuild and prosper
+        name = stormwind.1.option.2
+		
+		trigger = {
+			ROOT = { controls_state = 327 }
+		}
+
+		ai_chance = { factor = 50 }
+
+		add_stability = 0.1
+		
+		322 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+
+	}
+
+}
+
+#city or coutnryside event
+country_event = {
+	id = stormwind.2
+	title = stormwind.2.t
+	desc = stormwind.2.d
+	picture = GFX_northshire_abbey_event
+
+	is_triggered_only = yes
+
+    option = { #city
+        name = stormwind.2.option.1
+
+		ai_chance = { factor = 50 }
+
+		set_country_flag = STO_repair_the_city
+
+	}
+
+    option = { #countryside
+        name = stormwind.2.option.2
+
+		ai_chance = { factor = 50 }
+
+		set_country_flag = STO_repair_the_kingdom
+	}
+}
+
+#investmentspay off
+country_event = {
+	id = stormwind.3
+	title = stormwind.3.t
+	desc = stormwind.3.d
+	picture = GFX_cathedral_of_light_event
+
+	is_triggered_only = yes
+
+    option = { # long term repayments
+        name = stormwind.3.option.1
+
+		ai_chance = { factor = 50 }
+
+		remove_ideas = STO_westfall_investment_idea_4
+		remove_ideas = STO_brightwood_investment_idea_4
+		remove_ideas = STO_redridge_investment_idea_4
+		add_ideas = STO_kingdom_rebuilt
+		add_timed_idea = {
+			idea = STO_long_term_payments
+			days = 600
+		}
+
+	}
+
+    option = { # short term repayments
+        name = stormwind.3.option.2
+
+		ai_chance = { factor = 40 }
+
+		remove_ideas = STO_westfall_investment_idea_4
+		remove_ideas = STO_brightwood_investment_idea_4
+		remove_ideas = STO_redridge_investment_idea_4
+		add_ideas = STO_kingdom_rebuilt
+		add_timed_idea = {
+			idea = STO_short_term_payments
+			days = 300
+		}
+
+	}
+
+    option = { # pay now
+        name = stormwind.3.option.3
+
+		ai_chance = { factor = 10 }
+
+		remove_ideas = STO_westfall_investment_idea_4
+		remove_ideas = STO_brightwood_investment_idea_4
+		remove_ideas = STO_redridge_investment_idea_4
+		add_ideas = STO_kingdom_rebuilt
+		add_political_power = -600
+
+	}
+}
+
+#stormwind trade policy
+country_event = {
+	id = stormwind.4
+	title = stormwind.4.t
+	desc = stormwind.4.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = { #priortize imports
+        name = stormwind.4.option.1
+	
+		add_ideas = STO_internal_trade
+
+	}
+	
+    option = { #priortize exports
+        name = stormwind.4.option.2
+
+		add_ideas = STO_export_focus
+		add_offsite_building = { type = industrial_complex level = 4 }
+
+	}
+}
+
+#The Noble Council
+country_event = {
+	id = stormwind.5
+	title = stormwind.5.t
+	desc = stormwind.5.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = stormwind.5.option.1
+		hidden_effect = {
+			complete_national_focus = STO_extend_noble_privilages
+		}
+    }
+	option = {
+		name = stormwind.5.option.2
+		hidden_effect = {
+			complete_national_focus = STO_curtail_the_nobles
+		}
+	}
+}
+
+#Neutral support civil war
+country_event = {
+	id = stormwind.6
+	title = stormwind.6.t
+	desc = stormwind.6.d
+
+	is_triggered_only = no
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_completed_focus = STO_address_noble_concerns
+		neutral > 0.8 
+	}
+
+	option = {
+		name = stormwind.6.option.1
+		start_civil_war = {
+			ideology = neutral
+			size = 0.75
+			capital = 325
+			keep_unit_leaders = {
+				61800 61801 61802
+			}
+		}
+    }
+}
+
+country_event = {
+	id = stormwind.7
+	title = stormwind.7.t
+	desc = stormwind.7.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = stormwind.7.option.1
+
+		if = {
+			limit = {
+				country_exists = DSK
+					AND = {
+						is_puppet_of = STO
+						DSK = { controls_state = 309 }
+					}
+			}
+			DSK = {
+				load_oob = "DSK_rangers"
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = stormwind.8
+	title = stormwind.8.t
+	desc = stormwind.8.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = stormwind.8.option.1
+
+		if = {
+			limit = {
+				country_exists = RDR
+					AND = {
+						is_puppet_of = STO
+						RDR = { controls_state = 361 }
+					}
+			}
+			RDR = {
+				load_oob = "RDR_redridge_militia"
+			}
+		}
+
+	}
+}
+
+country_event = {  #blackrock annexes mountain pass in redridge
+	id = stormwind.9
+	title = stormwind.9.t
+	desc = stormwind.9.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = stormwind.9.option.1
+
+	}
+}
+
+country_event = {  #blackrock annexes tower of ilgalar
+	id = stormwind.10
+	title = stormwind.10.t
+	desc = stormwind.10.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = stormwind.10.option.1
+
+	}
+}
+
+
+
+
+country_event = {  #test event
+	id = stormwind.11
+	title = stormwind.11.t
+	desc = stormwind.11.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = stormwind.10.option.1
+		
+		load_focus_tree = stormwind_second_war
+
+	}
+}
+
+
+
+
+
+
+country_event = { #dawn of first war event
+	id = stormwind.15
+	title = stormwind.15.t
+	desc = stormwind.15.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = stormwind.15.option.1
+
+	}
+
+}
+
+country_event = {
+	id = stormwind.16
+	title = stormwind.16.t
+	desc = stormwind.16.d
+	picture = GFX_report_event_german_parade_paris
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = STO
+		or = {
+			any_other_country = {
+				controls_state = 349 #Northshire
+				has_idea = orc_primary_race
+				has_war_with = STO
+			}
+			any_other_country = {
+				controls_state = 326 #Mirror Lake
+				has_idea = orc_primary_race
+				has_war_with = STO
+			}
+			any_other_country = {
+				controls_state = 325 #Goldshire
+				has_idea = orc_primary_race
+				has_war_with = STO
+			}
+
+		}
+	}
+
+	immediate = {
+		set_country_flag = Rally_HasTriggered
+	}
+
+	option = {
+		name = stormwind.16.option.1
+		add_timed_idea = { idea = STO_rally_the_troops days = 90 } #Rally the troops for 90 days
+		ai_chance = { factor = 80 }
+	}
+
+    option = {
+		name = stormwind.16.option.2
+		add_ideas = STO_coward_king #Permanent coward king
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes # if we are being historical, this shouldn't happen
+			}
+		}
+	}
+}
+
+# attending meeting of the seven kingdoms
+country_event = {
+	id = stormwind.17
+	title = stormwind.17.t
+	desc = stormwind.17.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+    name = stormwind.17.option.1
+  }
+}
+
+
+# rumors in the east
+country_event = {
+	id = stormwind.18
+	title = stormwind.18.t
+	desc = stormwind.18.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+    name = stormwind.18.option.1
+  }
+}
+
+
+
+#Feudal Reform Civil War
+country_event = {
+	id = stormwind.21
+	title = stormwind.21.t
+	desc = stormwind.21.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = stormwind.21.option.1
+		annex_country = {
+			target = ELW
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = WST
+			transfer_troops = yes
+		}
+		start_civil_war = {
+			ideology = neutral
+			size = 0.5
+			capital = 325
+			keep_unit_leaders = {
+				61800 61801 61802
+			}
+		}
+    }
+}
+
+#The Troublemakers
+country_event = {
+	id = stormwind.22
+	title = stormwind.22.t
+	desc = stormwind.22.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = stormwind.22.option.1
+    }
+}
+
+
+
+
+###########################
+# stormwind send emissaries chain
+###########################
+
+add_namespace = stormwind_SendEmissaries
+
+country_event = { #"Stormwind seeks aid", triggered by "STO_send_emissaries_to_north"
+	id = stormwind_SendEmissaries.0
+	title = stormwind_SendEmissaries.0.t
+	desc = stormwind_SendEmissaries.0.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = { #Dragons choose to interfere
+		name = stormwind_SendEmissaries.0.option.1
+		BLF = { add_ideas = BLF_interfering_emissary }
+		LOR = { country_event = { days = 2 id = stormwind_SendEmissaries.1 } }
+		ALT = { country_event = { days = 4 id = stormwind_SendEmissaries.1 } }
+		KUL = { country_event = { days = 6 id = stormwind_SendEmissaries.1 } }
+		DAL = { country_event = { days = 8 id = stormwind_SendEmissaries.1 } }
+		STR = { country_event = { days = 10 id = stormwind_SendEmissaries.1 } }
+		GIL = { country_event = { days = 12 id = stormwind_SendEmissaries.1 } }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes # if we are being historical, this should ALWAYS happen
+			}
+		}
+		STO = {country_event = {days = 20 id = stormwind_SendEmissaries.3 } }
+	}
+
+	option = { #Dragons choose to not interfere
+		name = stormwind_SendEmissaries.0.option.2
+		hidden_effect = {
+			BLF = { remove_ideas = BLF_interfering_emissary }
+		}
+		LOR = { country_event = { days = 0 id = stormwind_SendEmissaries.1 } }
+		ALT = { country_event = { days = 0 id = stormwind_SendEmissaries.1 } }
+		KUL = { country_event = { days = 0 id = stormwind_SendEmissaries.1 } }
+		DAL = { country_event = { days = 0 id = stormwind_SendEmissaries.1 } }
+		STR = { country_event = { days = 0 id = stormwind_SendEmissaries.1 } }
+		GIL = { country_event = { days = 0 id = stormwind_SendEmissaries.1 } }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				NOT = { is_historical_focus_on = yes } # if we are NOT being historical, this should ALWAYS happen BECAUSE ITS FUN LOL
+			}
+		}
+		STO = {country_event = {days = 20 id = stormwind_SendEmissaries.3 } }
+	}
+}
+
+country_event = { #"Stormwind seeks aid"
+	id = stormwind_SendEmissaries.1
+	title = stormwind_SendEmissaries.1.t
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	desc = { #Dragons have interfered
+		text = stormwind_SendEmissaries.1.ddrag
+		trigger = {
+			BLF = {has_idea = BLF_interfering_emissary}
+		}
+	}
+
+	desc = { #Dragons have NOT interfered
+		text = stormwind_SendEmissaries.1.dnodrag
+		trigger = {
+			NOT = { BLF = {has_idea = BLF_interfering_emissary} }
+		}
+	}
+
+	option = { #Dragons have interfered, Not send help, Not LOR
+		name =  stormwind_SendEmissaries.1.option.1drag
+		trigger = {
+			BLF = {has_idea = BLF_interfering_emissary}
+			NOT = { tag = LOR }
+		}
+		country_event = stormwind_SendEmissaries.8
+		ai_chance = { factor = 1 }
+	}
+
+	option = { #Dragons have interfered, Not send help, is LOR
+		name =  stormwind_SendEmissaries.1.option.LOR1drag
+		trigger = {
+			BLF = {has_idea = BLF_interfering_emissary}
+			tag = LOR
+		}
+		country_event = stormwind_SendEmissaries.8
+		ai_chance = { factor = 1 }
+	}
+
+	option = { #Dragons have interfered, send help
+		name =  stormwind_SendEmissaries.1.option.2drag
+		trigger = {
+			BLF = {has_idea = BLF_interfering_emissary}
+		}
+		country_event = stormwind_SendEmissaries.2
+		add_ideas = Stormwind_First_War_Aid
+		ai_chance = { factor = 0 }
+	}
+
+	option = { #Dragons have NOT interfered, Not send help
+		name =  stormwind_SendEmissaries.1.option.1nodrag
+		trigger = {
+			NOT = { BLF = {has_idea = BLF_interfering_emissary} }
+		}
+		country_event = stormwind_SendEmissaries.8
+		ai_chance = { factor = 0 }
+	}
+
+	option = { #Dragons have NOT interfered, send help
+		name =  stormwind_SendEmissaries.1.option.2nodrag
+		trigger = {
+			NOT = { BLF = {has_idea = BLF_interfering_emissary} }
+		}
+		ai_chance = { factor = 1 }
+		country_event = stormwind_SendEmissaries.2
+		add_ideas = Stormwind_First_War_Aid
+	}
+}
+
+country_event = { #"Stormwind recieves aid"
+	id = stormwind_SendEmissaries.2
+	title = stormwind_SendEmissaries.2.t
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		trigger = {
+			tag = LOR
+		}
+		STO = {
+			add_ideas = Stormwind_Help_from_LOR
+			add_opinion_modifier = { target = LOR modifier = lordaeron_offers_aid }
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = ALT
+		}
+		STO = {
+			add_ideas = Stormwind_Help_from_ALT
+			add_opinion_modifier = { target = ALT modifier = alterac_offers_aid }
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = KUL
+		}
+		STO = {
+			add_ideas = Stormwind_Help_from_KUL
+			add_opinion_modifier = { target = KUL modifier = kultiras_offers_aid }
+		}
+
+	}
+
+	option = {
+		trigger = {
+			tag = DAL
+		}
+		STO = {
+			add_ideas = Stormwind_Help_from_DAL
+			add_opinion_modifier = { target = DAL modifier = dalaran_offers_aid }
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = STR
+		}
+		STO = {
+			add_ideas = Stormwind_Help_from_STR
+			add_opinion_modifier = { target = STR modifier = stromgarde_offers_aid }
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = GIL
+		}
+		STO = {
+			add_ideas = Stormwind_Help_from_GIL
+			add_opinion_modifier = { target = GIL modifier = gilneas_offers_aid }
+		}
+	}
+
+}
+
+country_event = { #"Stormwind aid refused"
+	id = stormwind_SendEmissaries.8
+	title = stormwind_SendEmissaries.8.t
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		trigger = {
+			tag = LOR
+		}
+		STO = {
+			add_opinion_modifier = { target = LOR modifier = lordaeron_refuses_to_help }
+		}
+		LOR = {
+			add_ideas = LOR_Valad_Toreps
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = ALT
+		}
+		STO = {
+			add_opinion_modifier = { target = ALT modifier = alterac_refuses_to_help }
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = KUL
+		}
+		STO = {
+			add_opinion_modifier = { target = KUL modifier = kultiras_refuses_to_help }
+		}
+
+	}
+
+	option = {
+		trigger = {
+			tag = DAL
+		}
+		STO = {
+			add_opinion_modifier = { target = DAL modifier = dalaran_refuses_to_help }
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = STR
+		}
+		STO = {
+			add_opinion_modifier = { target = STR modifier = stromgarde_refuses_to_help }
+		}
+	}
+
+	option = {
+		trigger = {
+			tag = GIL
+		}
+		STO = {
+			add_opinion_modifier = { target = GIL modifier = gilneas_refuses_to_help }
+		}
+	}
+
+}
+
+country_event = { #"Aid outcome"
+	id = stormwind_SendEmissaries.3
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	title = stormwind_SendEmissaries.3.t
+
+	desc = { #Dragons have interfered
+		text = stormwind_SendEmissaries.3.ddrag
+		trigger = {
+			BLF = {has_idea = BLF_interfering_emissary}
+			NOT = {
+				OR = {
+					has_idea = Stormwind_Help_from_LOR
+					has_idea = Stormwind_Help_from_ALT
+					has_idea = Stormwind_Help_from_KUL
+					has_idea = Stormwind_Help_from_DAL
+					has_idea = Stormwind_Help_from_STR
+					has_idea = Stormwind_Help_from_GIL
+				}
+			}
+		}
+	}
+
+	desc = { #Dragons have NOT interfered
+		text = stormwind_SendEmissaries.3.dnodrag
+		trigger = {
+			NOT = { BLF = {has_idea = BLF_interfering_emissary} }
+			NOT = {
+				OR = {
+					has_idea = Stormwind_Help_from_LOR
+					has_idea = Stormwind_Help_from_ALT
+					has_idea = Stormwind_Help_from_KUL
+					has_idea = Stormwind_Help_from_DAL
+					has_idea = Stormwind_Help_from_STR
+					has_idea = Stormwind_Help_from_GIL
+				}
+			}
+		}
+	}
+
+	desc = { #Dragons have interfered
+		text = stormwind_SendEmissaries.4.ddrag
+		trigger = {
+			BLF = {has_idea = BLF_interfering_emissary}
+			OR = {
+				has_idea = Stormwind_Help_from_LOR
+				has_idea = Stormwind_Help_from_ALT
+				has_idea = Stormwind_Help_from_KUL
+				has_idea = Stormwind_Help_from_DAL
+				has_idea = Stormwind_Help_from_STR
+				has_idea = Stormwind_Help_from_GIL
+			}
+		}
+	}
+
+	desc = { #Dragons have NOT interfered
+		text = stormwind_SendEmissaries.4.dnodrag
+		trigger = {
+			NOT = { BLF = {has_idea = BLF_interfering_emissary} }
+			OR = {
+				has_idea = Stormwind_Help_from_LOR
+				has_idea = Stormwind_Help_from_ALT
+				has_idea = Stormwind_Help_from_KUL
+				has_idea = Stormwind_Help_from_DAL
+				has_idea = Stormwind_Help_from_STR
+				has_idea = Stormwind_Help_from_GIL
+			}
+		}
+	}
+
+	option = { #Dragons choose to not interfere
+		name = stormwind_SendEmissaries.3.option.1
+		trigger = {
+			NOT = {
+				OR = {
+					has_idea = Stormwind_Help_from_LOR
+					has_idea = Stormwind_Help_from_ALT
+					has_idea = Stormwind_Help_from_KUL
+					has_idea = Stormwind_Help_from_DAL
+					has_idea = Stormwind_Help_from_STR
+					has_idea = Stormwind_Help_from_GIL
+				}
+			}
+		}
+	}
+
+	option = { #Dragons choose to not interfere
+		name = stormwind_SendEmissaries.4.option.1
+		trigger = {
+			OR = {
+				has_idea = Stormwind_Help_from_LOR
+				has_idea = Stormwind_Help_from_ALT
+				has_idea = Stormwind_Help_from_KUL
+				has_idea = Stormwind_Help_from_DAL
+				has_idea = Stormwind_Help_from_STR
+				has_idea = Stormwind_Help_from_GIL
+			}
+		}
+	}
+}
+
+country_event = { #Stormwind invites country to the Allience
+	id = stormwind_SendEmissaries.5
+	title = stormwind_SendEmissaries.5.t
+	desc = stormwind_SendEmissaries.5.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = { #Country joins the Allience
+		name = stormwind_SendEmissaries.5.option.1
+		STO = {
+			add_to_faction = ROOT
+			country_event = {days = 3 id = stormwind_SendEmissaries.6 }
+
+		}
+		ai_chance = { factor = 1 }
+	}
+
+	option = { #Country doesn't join
+		name = stormwind_SendEmissaries.5.option.2
+		country_event = {days = 7 id = stormwind_SendEmissaries.7 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = { #Event stormwind recieves if the country chooses to join the allience
+	id = stormwind_SendEmissaries.6
+	title = stormwind_SendEmissaries.6.t
+	desc = stormwind_SendEmissaries.6.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_SendEmissaries.6.option.1
+	}
+}
+
+country_event = { #Event stormwind recieves if the country chooses to NOT join the allience
+	id = stormwind_SendEmissaries.7
+	title = stormwind_SendEmissaries.7.t
+	desc = stormwind_SendEmissaries.7.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_SendEmissaries.7.option.1
+	}
+}

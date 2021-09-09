@@ -1,0 +1,182 @@
+﻿capital = 119
+
+set_research_slots = 3
+
+oob = "STH_600"
+set_naval_oob = "STH_600_naval"
+
+set_convoys = 50
+
+add_ideas = {
+	
+	kingdom
+	
+	human_primary_race
+	primary_trait_diplomatic
+	primary_trait_human_spirit
+	primary_trait_perception
+	
+	primary_religion_the_church_of_the_holy_light
+}
+
+set_cosmetic_tag = STH_puppet
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+	
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+	
+	catapult_equipment_tech_1 = 1
+	
+	
+	
+	
+	
+	naval_transport_1 = 1
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+}
+set_politics = {	
+	ruling_party = alliance
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 100
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 0
+}
+
+596.1.1 = {
+	set_technology = {
+		footman_weapons_tech_2 = 1
+		
+		
+		
+		
+		
+		
+		naval_transport_2 = 1
+		aviary_tech = 1
+		
+		
+		blueprints_1 = 1
+		
+		
+		
+		
+		
+		
+		
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}	
+	
+	set_politics = {		
+		ruling_party = alliance
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+    set_popularities = {
+        alliance = 100
+        horde = 0
+        death = 0
+        fel = 0
+        old_gods = 0
+        titans = 0
+        neutral = 100
+    }
+}
+
+create_country_leader = {
+	name = "Archbishop Alonsus Faol"
+	desc = "POLITICS_MAGISTRATE_SOLOMON_DESC"
+	picture = "alonsus.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Archbishop Alonsus Faol"
+	desc = "POLITICS_MAGISTRATE_SOLOMON_DESC"
+	picture = "alonsus.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Archbishop Alonsus Faol"
+	desc = "POLITICS_MAGISTRATE_SOLOMON_DESC"
+	picture = "alonsus.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Archbishop Alonsus Faol"
+	desc = "POLITICS_MAGISTRATE_SOLOMON_DESC"
+	picture = "alonsus.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Archbishop Alonsus Faol"
+	desc = "POLITICS_MAGISTRATE_SOLOMON_DESC"
+	picture = "alonsus.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Saidan Dathrohan"
+	picture = "saidan.dds"
+	traits = {  }
+	id = 61200
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alexandros Mograine"
+	picture = "alexandros.dds"
+	traits = {  }
+	id = 61201
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

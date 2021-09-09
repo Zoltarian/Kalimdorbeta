@@ -1,0 +1,33 @@
+
+state={
+	id=1039
+	name="STATE_1039"
+	resources={
+		wheat=5
+		ores=7
+		wood=5
+		gunpowder=3
+	}
+
+	history={
+		owner = PAL
+		victory_points = {
+			9982 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = PAL
+
+	}
+
+	provinces={
+		9685 9973 9974 9978 9982 9990 9994 9999 
+	}
+	manpower=29000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

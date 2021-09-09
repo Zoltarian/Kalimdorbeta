@@ -1,0 +1,2245 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = Gurubashi_First_War
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GUR
+		}
+	}
+
+	default = no
+	continuous_focus_position = {
+		x = 1725
+		y = 1350
+	}
+	focus = {
+		id = GUR_politic_start
+		icon = GFX_focus_chi_examination_yuan
+		cost = 5.00
+		x = 9
+		y = 0
+		completion_reward = {
+			add_political_power = 100
+			create_country_leader = {
+				name = "Jin'do"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = "gfx/leaders/GUR/jindo.dds"
+				expire = "1965.1.1"
+				ideology = neutral_type
+				traits = { }
+			}
+		}
+
+	}
+	focus = {
+		id = GUR_industrial_start
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 38
+		y = 0
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+								is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GUR_rumble_in_jungle
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_politic_start
+		}
+		x = 3
+		y = 1
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = GUR_wayward_bros
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_rumble_in_jungle
+		}
+		x = 2
+		y = 2
+		completion_reward = {
+			country_event = { id = gurubashi.3 days = 1 }
+		}
+	}
+	focus = {
+		id = GUR_goblin_nuisance
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_rumble_in_jungle
+		}
+		bypass = {
+			BOO = {
+				OR = {
+					exists = no
+					has_war_with = GUR
+				}
+			}
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BOO
+			}
+		}
+	}
+	focus = {
+		id = GUR_seal_the_way
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_wayward_bros
+		}
+		prerequisite = {
+			focus = GUR_goblin_nuisance
+		}
+		x = 3
+		y = 3
+		available = {
+			272 = {
+			is_controlled_by = ROOT
+			}
+		}
+		bypass = {
+			NOT = {
+				272 = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		completion_reward = {
+			272 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 1686
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 5872
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_mystery_greens
+		icon = GFX_focus_generic_orc_warrior
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_politic_start
+		}
+		x = 17
+		y = 1
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = GUR_troll_nohorde
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_mystery_greens
+		}
+		mutually_exclusive = {
+			focus = GUR_troll_horde
+			focus = GUR_troll_hatehorde
+		}
+		x = 7
+		y = 2
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = GUR_religious_turmoil
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_nohorde
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			add_ideas = GUR_addressing_religious_schism_1
+		}
+	}
+	focus = {
+		id = GUR_the_old_ways
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_religious_turmoil
+		}
+		mutually_exclusive = {
+			focus = GUR_atalai_1
+			focus = GUR_troll_oldgods_1
+		}
+		x = 4
+		y = 5
+		completion_reward = {
+			remove_ideas = GUR_addressing_religious_schism_1
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = GUR_atalai_1
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_religious_turmoil
+		}
+		mutually_exclusive = {
+			focus = GUR_troll_oldgods_1
+			focus = GUR_the_old_ways
+		}
+		x = 7
+		y = 5
+		completion_reward = {
+			remove_ideas = GUR_addressing_religious_schism_1
+			add_stability = -0.1
+			#was going to make hakkar your religion
+		}
+	}
+	focus = {
+		id = GUR_loa_secrets
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_seal_the_way
+			focus = GUR_the_old_ways
+			focus = GUR_atalai_1
+		}
+		x = 2
+		y = 6
+		completion_reward = {
+			add_ideas = GUR_allow_curses
+		}
+	}
+	focus = {
+		id = GUR_mass_sac
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_atalai_1
+		}
+		x = 6
+		y = 7
+		available= {
+		has_manpower > 10000
+		}
+		completion_reward = {
+			add_manpower = -10000
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = GUR_enslave_loa
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_atalai_1
+		}
+		x = 8
+		y = 7
+		completion_reward ={
+			add_timed_idea = {
+				idea = GUR_wrath_of_the_loa
+				days = 365
+			}
+			add_stability = 0.1
+			army_experience = 50
+		}
+	}
+	focus = {
+		id = GUR_atal_hakkar
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_mass_sac
+		}
+		prerequisite = {
+			focus = GUR_enslave_loa
+		}
+		x = 7
+		y = 8
+		completion_reward = {
+			annex_country = {
+				target = GTH
+			}
+		}
+	}
+	focus = {
+		id = GUR_begin_the_ritual
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_atal_hakkar
+		}
+		x = 7
+		y = 9
+		completion_reward = {
+			create_field_marshal = {
+				name = "Essence of Hakkar"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = ""
+				traits = {}
+				skill = 1
+			}
+			add_ideas = GUR_hakkars_presence_1st_war
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+			hidden_effect = {
+				set_global_flag = hakkar_summoned
+			}
+			news_event = { id = news.703 days = 2 } # CURRENTLY UNLOCALIZED
+		}
+	}
+	focus = {
+		id = GUR_reclaim_the_empire
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_begin_the_ritual
+		}
+		x = 7
+		y = 10
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.2
+			add_state_core =48
+			add_state_core = 145
+			add_state_core = 149
+			add_state_core = 38
+			add_state_core = 144
+			add_state_core = 146
+			add_state_core = 143
+			add_state_core = 147
+			add_state_core = 374
+			add_state_core = 142
+			add_state_core = 790
+			add_state_core = 771
+			add_state_core = 44
+			add_state_core = 273
+			add_state_core = 279
+			add_state_core = 281
+			add_state_core = 280
+			add_state_core = 277
+			add_state_core = 282
+			add_state_core = 278
+			add_state_core = 276
+			add_state_core = 298
+			add_state_core = 389
+			add_state_core = 46
+			add_state_core = 301
+			add_state_core = 303
+			add_state_core = 304
+			add_state_core = 302
+			add_state_core = 40
+			add_state_core = 310
+			add_state_core = 309
+			add_state_core = 308
+			add_state_core = 306
+			add_state_core = 307
+			add_state_core = 305
+			add_state_core = 782
+			add_state_core = 366
+			add_state_core = 297
+			add_state_core = 789
+			add_state_core = 767
+			add_state_core = 300
+			add_state_core = 298
+			add_state_core = 25
+			add_state_core = 769
+			add_state_core = 406
+			add_state_core = 404
+			add_state_core = 405
+			add_state_core = 403
+			add_state_core = 407
+			add_state_core = 408
+			add_state_core = 398
+			add_state_core = 399
+			add_state_core = 400
+			add_state_core = 397
+			add_state_core = 396
+			add_state_core = 395
+			add_state_core = 74
+			add_state_core = 384
+			add_state_core = 394
+			add_state_core = 386
+			add_state_core = 395
+			add_state_core = 401
+			add_state_core = 324
+			add_state_core = 402
+			add_state_core = 43
+			add_state_core = 788
+			add_state_core = 393
+			add_state_core = 392
+			add_state_core = 386
+			add_state_core = 391
+			add_state_core = 390
+			add_state_core = 388
+			add_state_core = 387
+			add_state_core = 383
+			add_state_core = 382
+			add_state_core = 785
+			add_state_core = 381
+			add_state_core = 784
+			add_state_core = 380
+			add_state_core = 379
+			add_state_core = 378
+			add_state_core = 385
+			add_state_core = 26
+			add_state_core = 377
+		}
+	}
+	focus = {
+		id = GUR_troll_oldgods_1
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_religious_turmoil
+		}
+		mutually_exclusive = {
+			focus = GUR_atalai_1
+			focus = GUR_the_old_ways
+		}
+		x = 10
+		y = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GUR_addressing_religious_schism_1
+				add_idea = GUR_addressing_religious_schism_2
+			}
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = GUR_spread_the_word
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_oldgods_1
+		}
+		x = 9
+		y = 6
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = GUR_addressing_religious_schism_2
+				}
+				swap_ideas = {
+					remove_idea = GUR_addressing_religious_schism_2
+					add_idea = GUR_addressing_religious_schism_3
+				}
+			}
+			if = {
+				limit = {
+					has_idea = GUR_addressing_religious_schism_4
+				}
+				swap_ideas = {
+					remove_idea = GUR_addressing_religious_schism_4
+					add_idea = GUR_addressing_religious_schism_5
+				}
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = GUR_influence_loa_priests
+		icon = GFX_focus_whispers_of_the_old_gods
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_oldgods_1
+		}
+		x = 11
+		y = 6
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = GUR_addressing_religious_schism_2
+				}
+				swap_ideas = {
+					remove_idea = GUR_addressing_religious_schism_2
+					add_idea = GUR_addressing_religious_schism_4
+				}
+			}
+			if = {
+				limit = {
+					has_idea = GUR_addressing_religious_schism_3
+				}
+				swap_ideas = {
+					remove_idea = GUR_addressing_religious_schism_3
+					add_idea = GUR_addressing_religious_schism_5
+				}
+			}
+			add_ideas = whispers_of_the_old_gods_idea
+		}
+	}
+	focus = {
+		id = GUR_public_pledges
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_spread_the_word
+		}
+		prerequisite = {
+			focus = GUR_influence_loa_priests
+		}
+		available = {
+			has_government = old_gods
+		}
+		x = 10
+		y = 7
+		completion_reward = {
+			remove_ideas = GUR_addressing_religious_schism_5
+			add_stability = 0.15
+			create_country_leader = {
+				name = "Harbinger Jin'do"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = "gfx/leaders/GUR/jindo_old_gods.dds"
+				expire = "1965.1.1"
+				ideology = old_gods_type
+				traits = { }
+			}
+		}
+	}
+	focus = {
+		id = GUR_troll_faceless_ones
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_public_pledges
+		}
+		x = 10
+		y = 8
+		#TESTING
+		completion_reward = {
+		#		division_template = {
+		#		name = "Faceless Ones"
+		#			regiments = {
+		#				hoa_faceless_ones = { x = 0 y = 0 }
+		#				hoa_faceless_ones = { x = 0 y = 1 }
+		#				hoa_faceless_ones = { x = 0 y = 2 }
+		#				hoa_faceless_ones = { x = 1 y = 0 }
+		#				hoa_faceless_ones = { x = 1 y = 1 }
+		#				hoa_faceless_ones = { x = 1 y = 2 }
+		#			}
+		#		}
+		#		random_owned_state = {
+		#			create_unit = {
+		#				division = "name = \"Faceless Ones\"
+		#				division_template = \"Faceless Ones\"
+		#				start_experience_factor = 1
+		#				start_equipment_factor = 1
+		#				
+		#			}
+		#		}
+		#		set_technology = { hoa_faceless_ones_1 = 1 }
+		#	custom_effect_tooltip = gplacehold_3
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_troll_black_empire
+		icon = GFX_focus_jap_strike_south
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_faceless_ones
+		}
+		bypass = {
+			is_faction_leader = yes
+		}
+		x = 10
+		y = 10
+		completion_reward = {
+			create_faction = New_Black_Empire
+		}
+	}
+	focus = {
+		id = GUR_THC_switchsides
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_black_empire
+		}
+		x = 7
+		y = 11
+		completion_reward = {
+			THC = { country_event = { id = gurubashi.7 days = 2 } }
+		}
+	}
+	focus = {
+		id = GUR_troll_dark_iron_dwarves
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_black_empire
+		}
+		x = 9
+		y = 11
+		completion_reward = {
+			MLC = { country_event = { id = gurubashi.8 days = 2 } }
+		}
+	}
+	focus = {
+		id = GUR_aqir_remnants
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_black_empire
+		}
+		x = 11
+		y = 11
+		completion_reward = {
+			country_event = { id = gurubashi.11 days = 2 }
+			#ANQ, NRB AND MNT GET EVENT
+			custom_effect_tooltip = gplacehold_6
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_troll_horde
+		icon = GFX_focus_support_the_horde
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_mystery_greens
+		}
+		mutually_exclusive = {
+			focus = GUR_troll_nohorde
+			focus = GUR_troll_hatehorde
+		}
+		x = 17
+		y = 2
+		completion_reward = {
+			add_ideas = support_the_horde_idea
+		}
+	}
+	focus = {
+		id = GUR_staging_point
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_horde
+		}
+		x = 17
+		y = 3
+		completion_reward = {
+			BBC = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_cooperative_standpoint
+				}
+			}
+			BHC = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_cooperative_standpoint
+				}
+			}
+			BRC = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_cooperative_standpoint
+				}
+			}
+			BTG = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_cooperative_standpoint
+				}
+			}
+			DMC = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_cooperative_standpoint
+				}
+			}
+			THC = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_cooperative_standpoint
+				}
+			}
+			TSC = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_cooperative_standpoint
+				}
+			}
+			#gurubashi_cooperative_standpoint
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+			custom_effect_tooltip = gplacehold_7
+			diplomatic_relation = { give_military_access = BBC }
+			diplomatic_relation = { give_military_access = BHC }
+			diplomatic_relation = { give_military_access = BRC }
+			diplomatic_relation = { give_military_access = BTG }
+			diplomatic_relation = { give_military_access = DMC }
+			diplomatic_relation = { give_military_access = FWC }
+			diplomatic_relation = { give_military_access = THC }
+			diplomatic_relation = { give_military_access = TSC }
+		}
+	}
+	focus = {
+		id = GUR_trollhorde_war_industry
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_staging_point
+		}
+		x = 16
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				name = forge_technology_bonus
+				bonus = 0.5
+				uses = 2
+				category = forge_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_trollhorde_war_training
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_staging_point
+		}
+		x = 18
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = GUR_atal_hakkar_reconquest
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_trollhorde_war_industry
+		}
+		prerequisite = {
+			focus = GUR_trollhorde_war_training
+		}
+		x = 13
+		y = 5
+		available = {
+			has_war = no
+		}
+		completion_reward = {
+		BRC = { country_event = {id = gurubashi.12 days = 2} }
+		}
+	}
+	focus = {
+		id = GUR_masters_of_horde
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_trollhorde_war_industry
+		}
+		prerequisite = {
+			focus = GUR_trollhorde_war_training
+		}
+		mutually_exclusive = {
+			focus = GUR_armies_of_horde
+		}
+		x = 14
+		y = 6
+		completion_reward = {
+			#IMPROVE RELATIONS WITH TSC
+			custom_effect_tooltip = gplacehold_9
+			add_ideas = promise_of_power_idea
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_troll_archimonde
+		icon = GFX_focus_archimonde_2
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_masters_of_horde
+		}
+		mutually_exclusive = {
+			focus = GUR_troll_kiljaeden
+		}
+		x = 15
+		y = 7
+		completion_reward = {
+			add_popularity = {
+				ideology = fel
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = GUR_armies_of_horde
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_trollhorde_war_industry
+		}
+		prerequisite = {
+			focus = GUR_trollhorde_war_training
+		}
+		mutually_exclusive = {
+			focus = GUR_masters_of_horde
+		}
+		x = 20
+		y = 6
+		completion_reward = {
+			add_war_support = 0.1
+			#IMPROVE RELATIONS WITH ORC CLANS EXCEPT TSC
+			custom_effect_tooltip = gplacehold_10
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_hunters
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_armies_of_horde
+		}
+		x = 18
+		y = 8
+		completion_reward = {
+			#added bonus to hunter tech (deleted from game)
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_warriors
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_armies_of_horde
+		}
+		x = 17
+		y = 7
+		completion_reward = {
+			#added bonus to warrior tech (deleted from game)
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_rogues
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_armies_of_horde
+		}
+		x = 19
+		y = 7
+		completion_reward = {
+			#added bonus to rogue tech (deleted from game)
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_knights
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_armies_of_horde
+		}
+		x = 20
+		y = 8
+		completion_reward = {
+			add_tech_bonus = {
+				name = knight_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = knight_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_warlocks
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_armies_of_horde
+		}
+		x = 21
+		y = 7
+		completion_reward = {
+			#added bonus to warlock tech (deleted from game)
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_air
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_armies_of_horde
+		}
+		x = 22
+		y = 8
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_technology_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_armyxp
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_armies_of_horde
+		}
+		x = 23
+		y = 7
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	focus = {
+		id = GUR_troll_horde_brothers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_horde_warriors
+			focus = GUR_troll_horde_hunters
+			focus = GUR_troll_horde_rogues
+			focus = GUR_troll_horde_knights
+			focus = GUR_troll_horde_warlocks
+			focus = GUR_troll_horde_air
+			focus = GUR_troll_horde_armyxp
+		}
+		x = 20
+		y = 9
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.25
+			add_war_support = 0.25
+		}
+	}
+	focus = {
+		id = GUR_troll_hatehorde
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_mystery_greens
+		}
+		mutually_exclusive = {
+			focus = GUR_troll_horde
+			focus = GUR_troll_nohorde
+		}
+		x = 28
+		y = 2
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = GUR_trolls_and_humans
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_hatehorde
+		}
+		mutually_exclusive = {
+			focus = GUR_trolls_alone
+		}
+		x = 26
+		y = 3
+		completion_reward = {
+			add_political_power = -500
+			STO = { country_event = { id = gurubashi.5 days = 2 } }
+			add_ideas = GUR_violent_dissidence_1
+		}
+	}
+	focus = {
+		id = GUR_ease_tensions
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_trolls_and_humans
+		}
+		mutually_exclusive = {
+			focus = GUR_hell_no_fury
+		}
+		x = 25
+		y = 4
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GUR_violent_dissidence_1
+				add_idea = GUR_violent_dissidence_2
+			}
+			add_political_power = 50
+			STO = { add_opinion_modifier = {
+					target = GUR
+					modifier = gurubashi_coop_STO
+				}
+			}
+			custom_effect_tooltip = gplacehold_12
+		}
+	}
+	focus = {
+		id = GUR_troll_armsdeal
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_ease_tensions
+		}
+		x = 25
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_technology_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_troll_infdeal
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_ease_tensions
+		}
+		x = 27
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				name = city_growth_technology_bonus
+				bonus = 0.5
+				uses = 1
+				category = city_growth_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_dissident_problems
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_armsdeal
+			focus = GUR_troll_infdeal
+		}
+		x = 26
+		y = 6
+		completion_reward = {
+			#STARTS EVENT CHAIN
+			custom_effect_tooltip = gplacehold_13
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_human_troll_alliance
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_dissident_problems
+		}
+		x = 26
+		y = 7
+		available = {
+			NOT = {
+				has_idea = GUR_violent_dissidence_2
+				has_idea = GUR_violent_dissidence_1
+			}
+		}
+		completion_reward = {
+			create_faction = "Human-Troll Alliance"
+			STO = { country_event = {id = gurubashi.15 days = 2 } }
+		}
+	}
+	focus = {
+		id = GUR_troll_human_ships
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_human_troll_alliance
+		}
+		x = 27
+		y = 8
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_technology_bonus
+				bonus = 0.5
+				uses = 3
+				category = naval_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_troll_human_knights
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_human_ships
+		}
+		x = 27
+		y = 9
+		completion_reward = {
+			#added bonus to priests and warrior tech (deleted from game)
+		}
+	}
+	focus = {
+		id = GUR_light_trolls
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_human_knights
+		}
+		x = 26
+		y = 10
+		completion_reward = {
+			create_country_leader = {
+				name = "Jin'do, the Light of Dawn"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = "gfx/leaders/GUR/jindo_light.dds"
+				expire = "1965.1.1"
+				ideology = alliance_type
+				traits = { }
+			}
+
+			create_country_leader = {
+				name = "Jin'do, the Light of Dawn"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = "gfx/leaders/GUR/jindo_light.dds"
+				expire = "1965.1.1"
+				ideology = neutral_type
+				traits = { }
+			}
+			#was going to let you build paladins and give you the tech (removed from the game)
+		}
+	}
+	focus = {
+		id = GUR_hell_no_fury
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_trolls_and_humans
+		}
+		mutually_exclusive = {
+			focus = GUR_ease_tensions
+		}
+		x = 29
+		y = 4
+		completion_reward = {
+			remove_ideas = {
+				GUR_violent_dissidence_1
+				GUR_violent_dissidence_2
+			}
+			add_ideas = GUR_validated_isolationists
+		}
+	}
+	focus = {
+		id = GUR_trolls_alone
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_hatehorde
+		}
+		mutually_exclusive = {
+			focus = GUR_trolls_and_humans
+		}
+		x = 32
+		y = 3
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = GUR_rally_the_tribe
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_trolls_alone
+			focus = GUR_hell_no_fury
+		}
+		x = 2
+		y = 2
+		relative_position_id = GUR_trolls_alone
+		completion_reward = {
+			add_ideas = GUR_rally_tribes_idea
+		}
+	}
+	focus = {
+		id = GUR_offense_trolls
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_rally_the_tribe
+		}
+		mutually_exclusive = {
+			focus = GUR_defense_trolls
+		}
+		x = 33
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = GUR_secure_the_air
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_offense_trolls
+		}
+		x = 31
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_technology_bonus
+				bonus = 0.5
+				uses = 2
+				category = air_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_secure_the_sea
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_offense_trolls
+		}
+		x = 33
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_technology_bonus
+				bonus = 0.5
+				uses = 2
+				category = naval_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_troll_weapon_imp
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_secure_the_sea
+		}
+		x = 33
+		y = 8
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_technology_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_defense_trolls
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_rally_the_tribe
+		}
+		mutually_exclusive = {
+			focus = GUR_offense_trolls
+		}
+		x = 35
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = GUR_archer_training_trolls
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_defense_trolls
+		}
+		x = 35
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				name = archer_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = archer_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_shadow_hunter_training
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_archer_training_trolls
+		}
+		x = 35
+		y = 8
+		completion_reward = {
+			#add_ideas = specialized_troops
+		}
+	}
+	focus = {
+		id = GUR_bla_1
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_industrial_start
+		}
+		x = 36
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+										}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_bla_2
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_bla_1
+		}
+		x = 36
+		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_bla_3
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_bla_2
+		}
+		x = 36
+		y = 3
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_heavy_armour_trolls
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_defense_trolls
+		}
+		x = 37
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_technology_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_regeneration_potions
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_heavy_armour_trolls
+		}
+		x = 37
+		y = 8
+		completion_reward = {
+			add_timed_idea = {
+				idea = GUR_enhanced_regeneration
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = GUR_new_trolls_here
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_shadow_hunter_training
+		}
+		prerequisite = {
+			focus = GUR_regeneration_potions
+		}
+		x = 36
+		y = 9
+		completion_reward = {
+			add_ideas = GUR_new_troll_here
+		}
+	}
+	focus = {
+		id = GUR_work_1
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_industrial_start
+		}
+		x = 38
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+								is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_work_2
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_work_1
+		}
+		x = 38
+		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_work_3
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_work_2
+		}
+		x = 38
+		y = 3
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_hireekbless
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_the_old_ways
+		}
+		x = 4
+		y = 7
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = GUR_hethissbless
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_hireekbless
+		}
+		x = 3
+		y = 8
+		completion_reward = {
+			add_political_power	= 100
+		}
+	}
+	focus = {
+		id = GUR_bethekkbless
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_hireekbless
+		}
+		x = 5
+		y = 8
+		completion_reward = {
+			add_political_power	= 100
+		}
+	}
+	focus = {
+		id = GUR_shadrabless
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_hethissbless
+		}
+		x = 3
+		y = 9
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	focus = {
+		id = GUR_sirvallahbless
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_bethekkbless
+		}
+		x = 5
+		y = 9
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	focus = {
+		id = GUR_favour_of_loa
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_shadrabless
+		}
+		prerequisite = {
+			focus = GUR_sirvallahbless
+		}
+		x = 4
+		y = 10
+		completion_reward = {
+		add_ideas = GUR_favour_of_the_loa
+		}
+	}
+	focus = {
+		id = GUR_troll_kiljaeden
+		icon = GFX_focus_kiljaedens_council
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_masters_of_horde
+		}
+		mutually_exclusive = {
+			focus = GUR_troll_archimonde
+		}
+		x = 13
+		y = 7
+		completion_reward = {
+			add_popularity = {
+				ideology = fel
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = GUR_pledge_legion_troll
+		icon = GFX_focus_promise_of_power
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_kiljaeden
+			focus = GUR_troll_archimonde
+		}
+		x = 14
+		y = 8
+		completion_reward = {
+			remove_ideas = {
+				primary_religion_loa_spirits
+			}
+			add_ideas = {
+				primary_religion_the_fel
+			}
+		}
+	}
+	focus = {
+		id = GUR_blood_of_magtheridon
+		icon = GFX_focus_fel_blood
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_kiljaeden
+		}
+		prerequisite = {
+			focus = GUR_pledge_legion_troll
+		}
+		x = 13
+		y = 9
+		completion_reward = {
+			create_country_leader = {
+				name = "Fel Lord Jin'do"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = "gfx/leaders/GUR/jindo_fel.dds"
+				expire = "1965.1.1"
+				ideology = neutral_type
+				traits = { }
+			}
+
+			create_country_leader = {
+				name = "Fel Lord Jin'do"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = "gfx/leaders/GUR/jindo_fel.dds"
+				expire = "1965.1.1"
+				ideology = fel_type
+				traits = { }
+			}
+
+			create_field_marshal = {
+				name = "Fel Lord Jin'do"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = "gfx/leaders/GUR/jindo_fel.dds"
+				traits = {}
+				skill = 3
+			}
+		}
+	}
+	focus = {
+		id = GUR_first_of_many
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_pledge_legion_troll
+		}
+		prerequisite = {
+			focus = GUR_troll_archimonde
+		}
+		x = 15
+		y = 9
+		completion_reward = {
+			create_field_marshal = {
+				name = "Lord Kazzak"
+				desc = "POLITICS_FRITZ_PLATTEN_DESC"
+				picture = ""
+				traits = {}
+				skill = 3
+			}
+		}
+	}
+	focus = {
+		id = GUR_spread_the_gift
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_blood_of_magtheridon
+		}
+		x = 13
+		y = 10
+		completion_reward = {
+			add_ideas = GUR_fel_blessing
+		}
+	}
+	focus = {
+		id = GUR_fel_magic_troll
+		icon = GFX_focus_generic_legion_2
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_spread_the_gift
+		}
+		x = 13
+		y = 11
+		completion_reward = {
+			#added bonus to warlock tech (deleted from game)
+		}
+	}
+	focus = {
+		id = GUR_demonic_allies_troll
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_first_of_many
+		}
+		x = 15
+		y = 10
+		completion_reward = {
+			#TESTING
+			#	random_owned_state = {
+			#		create_unit = {
+			#			division = "name = \"Summoned Demons\"
+			#			division_template = \"Summoned Demons\"
+			#			start_experience_factor = 1
+			#			start_equipment_factor = 1
+			#			
+			#		}
+			#	}
+			#custom_effect_tooltip = gplacehold_15
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_legion_portals_troll
+		icon = GFX_focus_the_dark_portal
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_demonic_allies_troll
+		}
+		x = 15
+		y = 11
+		completion_reward = {
+			#TESTING
+			#division_template = {
+			#	name = "Summoned Demons"
+			#	regiments = {
+			#		hoa_summoned_demons = { x = 0 y = 0 }
+			#		hoa_summoned_demons = { x = 0 y = 1 }
+			#		hoa_summoned_demons = { x = 0 y = 2 }
+			#		hoa_summoned_demons = { x = 1 y = 0 }
+			#		hoa_summoned_demons = { x = 1 y = 1 }
+			#		hoa_summoned_demons = { x = 1 y = 2 }
+			#	}
+			#}
+			#set_technology = { hoa_summoned_demons_1 = 1 }
+			custom_effect_tooltip = gplacehold_16
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_whispers_of_old
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_THC_switchsides
+			focus = GUR_aqir_remnants
+			focus = GUR_troll_dark_iron_dwarves
+		}
+		x = 10
+		y = 12
+		completion_reward = {
+			#ALLOW BOOST PARTY POPULARITY OLD GODS
+			custom_effect_tooltip = gplacehold_17
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_trolls_and_north_humans
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_human_troll_alliance
+		}
+		x = 25
+		y = 8
+		completion_reward = {
+			#SEND FACTION EVENT TO LORDAERON
+			custom_effect_tooltip = gplacehold_18
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_zul_aman_and_humans
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_trolls_and_north_humans
+		}
+		x = 25
+		y = 9
+		completion_reward = {
+			#SEND FACTION EVENT TO AMANI TRIBE
+			custom_effect_tooltip = gplacehold_19
+			custom_effect_tooltip = GAME_FOCUS_INCOMPLETE #Tooltip to tell player focus is incomplete
+		}
+	}
+	focus = {
+		id = GUR_like_troll_scorned
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_hell_no_fury
+		}
+		prerequisite = {
+			focus = GUR_spell_shields
+		}
+		x = 29
+		y = 11
+		completion_reward = {
+			declare_war_on = {
+				target = STO
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GUR_blood_beserkers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_troll_weapon_imp
+		}
+		prerequisite = {
+			focus = GUR_razzashi_raptors
+		}
+		x = 32
+		y = 9
+		completion_reward = {
+			add_timed_idea = {
+				idea = GUR_blood_beserkers_idea
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = GUR_razzashi_raptors
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_secure_the_air
+		}
+		x = 31
+		y = 8
+		completion_reward = {
+			add_tech_bonus = {
+				name = cavalry_tech_bonus
+				bonus = 0.5
+				uses = 2
+				category = cavalry_technology
+			}
+		}
+	}
+	focus = {
+		id = GUR_spell_shields
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_new_trolls_here
+			focus = GUR_blood_beserkers
+		}
+		x = 34
+		y = 10
+		completion_reward = {
+			add_ideas = GUR_spell_shields_idea
+		}
+	}
+	focus = {
+		id = GUR_inf_1
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_industrial_start
+		}
+		x = 40
+		y = 1
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_inf_2
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_inf_1
+		}
+		x = 40
+		y = 2
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 3
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_inf_3
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_inf_2
+		}
+		x = 40
+		y = 3
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GUR_industrial_end
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GUR_bla_3
+		}
+		prerequisite = {
+			focus = GUR_work_3
+		}
+		prerequisite = {
+			focus = GUR_inf_3
+		}
+		x = 38
+		y = 4
+		completion_reward = {
+			267 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			268 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			269 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			21 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+}

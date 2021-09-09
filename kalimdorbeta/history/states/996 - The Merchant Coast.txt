@@ -1,0 +1,50 @@
+
+state={
+	id=996
+	name="STATE_996"
+	resources={
+		ores=4
+		oil=8
+		wood=2
+		wheat=2
+		gunpowder=6
+	}
+
+	history={
+		owner = SSM
+		add_core_of = SSM
+
+		victory_points = {
+			10072 10
+		}
+		victory_points = {
+			10097 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			10072 = {
+				naval_base = 3
+			}
+			10097 = {
+				naval_base = 1
+			}
+		}
+		
+		617.1.1 = {
+			owner = SFB
+			controller = SFB
+			add_core_of = SFB
+		}
+	}
+
+	provinces={
+		165 10058 10062 10071 10072 10092 10097 10104
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

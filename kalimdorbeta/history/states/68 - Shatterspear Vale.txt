@@ -1,0 +1,34 @@
+
+state={
+	id=68
+	name="STATE_68"
+	resources = {
+		wheat=10
+		mounts=6
+		ores=6
+		wood=4
+		mana=3
+	}
+
+	history={
+		owner = STS
+		victory_points = {
+			12681 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 3
+
+		}
+		add_core_of = STS
+
+	}
+
+	provinces={
+		12077 12672 12673 12677 12680 12681 12686 12688 12690 12694 12695 
+	}
+	manpower=59000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+}

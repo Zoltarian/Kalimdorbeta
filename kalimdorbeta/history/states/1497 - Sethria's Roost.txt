@@ -1,0 +1,32 @@
+
+state={
+	id=1497
+	name="STATE_1497"
+	resources = {
+		ores=7
+		wheat=9
+		wood=3
+	}
+
+	history={
+		owner = BST
+		victory_points = {
+			13566 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = BST
+
+	}
+
+	provinces={
+		13566 14903 14913 14917 14931 14932 14949 14952 
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

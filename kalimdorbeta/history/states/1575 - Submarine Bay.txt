@@ -1,0 +1,27 @@
+
+state={
+	id=1575
+	name="STATE_1575"
+
+	history={
+		
+		add_core_of = GNO
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		617.1.1 = {
+			owner = LEP
+			controller = LEP
+			add_core_of = LEP
+		}
+	}
+
+	provinces={
+		1070 1087 3665 3670 3675 3703 3708
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

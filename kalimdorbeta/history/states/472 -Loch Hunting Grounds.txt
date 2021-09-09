@@ -1,0 +1,36 @@
+
+state={
+	id=472
+	name="STATE_472"
+	resources={
+		wood =14.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			
+			controller = BHC
+			add_core_of = BHC
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = BHC
+
+		}
+
+	}
+
+	provinces={
+		1012 3533 3534 3535 3536 3539 3540 3544 3545 3547 3551 3552 3555 
+	}
+	manpower=10875
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

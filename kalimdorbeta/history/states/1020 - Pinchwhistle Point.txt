@@ -1,0 +1,41 @@
+
+state={
+	id=1020
+	name="STATE_1020"
+	resources={
+		ores=4
+		wood =8
+		oil=18
+	}
+
+	history={
+		
+		add_core_of = SHC
+
+		victory_points = {
+			10411 5
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10411 = {
+				naval_base = 2
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SHC
+		}
+	}
+
+	provinces={
+		9824 10410 10411 10412 10413 10414 10415 10417 10849
+	}
+	manpower=26000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

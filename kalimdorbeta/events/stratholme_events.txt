@@ -1,0 +1,20 @@
+﻿###########################
+# stratholme
+###########################
+
+add_namespace = stratholme
+
+# attending meeting of the seven kingdoms
+country_event = {
+	id = stratholme.1
+	title = stratholme.1.t
+	desc = stratholme.1.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+    name = stratholme.1.option.1
+  }
+}

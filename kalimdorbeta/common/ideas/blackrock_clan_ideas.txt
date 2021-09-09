@@ -1,0 +1,597 @@
+ideas = {
+
+	advisor = {
+	
+		BRC_urukal_blackhand = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_tagorr_the_dread = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_neeralak = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_murdunk = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_homurk = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_ner_gosh_the_shadow = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_utroka_the_keymistress = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_throk_feroth = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_mazrigos = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+
+		
+	}
+	
+	council_member = {
+	
+		BRC_tharbek = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_khanzo = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_jubei_thos = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_haomarush = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_genjuros = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_bloodeye_redfist = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_gath_ilzogg = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_tharil_zun = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+		
+		BRC_barbarius = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRC
+			}
+		
+		}
+	
+	}
+	
+	country = {
+	
+		BRC_ogrim_doomhammer = {
+		
+			picture = generic_race_orc
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.15
+			}
+			
+		}
+		
+		BRC_solog_roark = {
+		
+			picture = generic_race_orc
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				destroyer_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			equipment_bonus = {
+				light_frigate_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			equipment_bonus = {
+				heavy_frigate_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			equipment_bonus = {
+				juggernaught_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			equipment_bonus = {
+				battleship_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			equipment_bonus = {
+				dreadnaught_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			equipment_bonus = {
+				carrier_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			equipment_bonus = {
+				submarine_equipment = {
+					build_cost_ic = -0.15 instant = yes				
+				}
+			}
+			
+		}
+	
+		BRC_dreadmaul_clan_1 = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+		
+		BRC_dreadmaul_clan_2 = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_infantry_attack_factor = 0.1
+			}
+			
+		}
+		
+		BRC_dreadmaul_clan_3 = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_infantry_attack_factor = 0.1
+					stability_factor = 0.05
+			}
+			
+		}
+		
+		BRC_firegut_clan_1 = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+		
+		BRC_firegut_clan_2 = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+            equipment_bonus = {
+                mage_equipment = {
+                    soft_attack = 0.15
+                    instant = yes
+                }
+            }
+			
+		}
+		
+		BRC_firegut_clan_3 = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+            equipment_bonus = {
+                mage_equipment = {
+                    soft_attack = 0.15
+                    instant = yes
+                }
+            }
+			
+			modifier = {
+				war_support_factor = 0.05
+			}
+			
+		}
+		
+		BRC_stormwind_pillaged_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+			
+		}
+		
+		BRC_stormwinds_treasury_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		
+		}
+		
+		BRC_mobile_army_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				cavalry_attack_factor = 0.1
+				cavalry_defence_factor = 0.1
+			}
+			
+		}
+		
+		BRC_infantry_army_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_infantry_attack_factor = 0.1
+				army_infantry_defence_factor = 0.1
+			}
+			
+		}
+		
+		BRC_a_new_world = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.2
+				research_speed_factor = 0.10
+			}
+			
+		}
+		
+		BRC_blade_masters = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_infantry_attack_factor = 0.05
+			}
+			
+		}
+		
+		BRC_pillaged_settlements = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			
+		}
+		
+		BRC_the_blackrock_war_machine = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.2
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+
+		BRC_steel_weapon = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				footman = {
+                    build_cost_ic = -0.1 instant = yes				
+                }
+			}
+		}
+		
+		BRC_push_into_the_city_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = { tag = STO attack_bonus_against = 0.1 }
+		}
+		
+		BRC_forced_aging = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				training_time_factor = -0.25
+				conscription_factor = 0.05
+			}
+		}
+		
+		BRC_cut_off_stromgarde_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = { tag = STR attack_bonus_against = 0.1 }
+		}
+		
+		BRC_push_for_capital_city_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = { tag = LOR attack_bonus_against = 0.1 }
+		}
+		
+		BRC_victory_in_stromgarde_idea = {
+		
+			allowed = {
+				original_tag = BRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_speed_factor = 0.05
+			}
+		}
+	}
+}

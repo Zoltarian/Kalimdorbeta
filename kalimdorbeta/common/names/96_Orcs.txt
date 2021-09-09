@@ -1,0 +1,135 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+# Blackrock Clan
+BRC = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Redfist" }
+	callsigns = { "The Forger" }
+}
+
+# Twilight's Hammer Clan
+THC = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = {  }
+		callsigns = {  }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Blackhorn" }
+	callsigns = { "Bringer of Twilight" }
+}
+
+# Burning Blade Clan
+BBC = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Fireblade" }
+	callsigns = { "Blademaster" }
+}
+
+# Frostwolf Clan
+FWC = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Wolfheart" }
+	callsigns = { "The Howler" }
+}
+
+# The Shadow Council
+TSC = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Baneshadow" }
+	callsigns = { "Shadowlord" }
+}
+
+# Black Tooth Grin
+BTG = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Blackgrin" }
+	callsigns = { "Toothless" }
+}
+
+# Dragonmaw Clan
+DMC = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Dragonbreath" }
+	callsigns = { "Drake's Head" }
+
+}
+
+#bleeding hollow clan
+BHC = {
+	male = {
+		names = { "Crogg" "Grukk" "Gal'tar" "Cromush" "Utok" "Taz'Gol" "Kreth" "Throm" "Iko" "Brakk" "Krash" "Orkus" "Telkar" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lorka" "Gretch" "Zashe" "Nisha" "Emm'gar" "Othana" "Zuura" "Griselda" "Runda" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Cliffshaper" "Rustbear" "Ironfist" "Bonecrag" "Ironmane" "Hellcrusher" "Skullmasher" "Bonebreaker" "Ironpride" "Stormbreath" "The Dread" "Dragonbreath" }
+	callsigns = { "Drake's Head" }
+
+}

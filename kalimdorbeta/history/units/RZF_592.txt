@@ -1,0 +1,227 @@
+﻿division_template = {
+	name = "Razorfen Defender"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razorfen Warrior"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razorfen Beast Trainer"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razorfen Geomancer"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razorfen Battleguard"
+
+	regiments = {
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
+		royal_guard = { x = 1 y = 0 }
+		royal_guard = { x = 1 y = 1 }
+		royal_guard = { x = 1 y = 2 }
+		royal_guard = { x = 1 y = 3 }
+		royal_guard = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Razorfen Defender"
+		location = 9873
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Defender"
+		location = 9873
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Defender"
+		location = 9885
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Defender"
+		location = 9885
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Defender"
+		location = 9899
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Defender"
+		location = 9899
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Defender"
+		location = 2162
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Defender"
+		location = 9909
+		division_template = "Razorfen Defender"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razorfen Warrior"
+		location = 2162
+		division_template = "Razorfen Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Warrior"
+		location = 9899
+		division_template = "Razorfen Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Warrior"
+		location = 9899
+		division_template = "Razorfen Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Warrior"
+		location = 9885
+		division_template = "Razorfen Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Warrior"
+		location = 9873
+		division_template = "Razorfen Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Warrior"
+		location = 9873
+		division_template = "Razorfen Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Warrior"
+		location = 9909
+		division_template = "Razorfen Warrior"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razorfen Beast Trainer"
+		location = 2162
+		division_template = "Razorfen Beast Trainer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Beast Trainer"
+		location = 2162
+		division_template = "Razorfen Beast Trainer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Beast Trainer"
+		location = 9909
+		division_template = "Razorfen Beast Trainer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Beast Trainer"
+		location = 9909
+		division_template = "Razorfen Beast Trainer"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razorfen Geomancer"
+		location = 9873
+		division_template = "Razorfen Geomancer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Geomancer"
+		location = 9885
+		division_template = "Razorfen Geomancer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razorfen Geomancer"
+		location = 9899
+		division_template = "Razorfen Geomancer"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razorfen Battleguard"
+		location = 9885
+		division_template = "Razorfen Battleguard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Razorfen Battleguard"
+		location = 9899
+		division_template = "Razorfen Battleguard"
+		start_experience_factor = 0.3
+	}
+
+}

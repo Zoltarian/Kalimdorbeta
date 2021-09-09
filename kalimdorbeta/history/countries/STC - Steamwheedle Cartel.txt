@@ -1,0 +1,284 @@
+﻿capital = 818
+
+oob = "STC_592"
+
+set_naval_oob = "STC_592_naval"
+
+set_convoys = 75
+
+set_stability = 0.5
+set_war_support = 0.25
+
+add_ideas = {
+	
+	city_state
+	limited_conscription
+	early_military_development
+	free_trade
+
+	goblin_primary_race
+
+	primary_religion_irreligious
+}
+
+set_research_slots = 3
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+	catapult_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+	large_frames = 1
+	battleship_tech_1 = 1
+	dreadnaught_tech_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = BOO
+		autonomous_state = trade_coalition_member
+		freedom_level = 0.5
+	}
+	else = {
+		puppet = BOO
+	}
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+596.1.1 = {
+
+	set_convoys = 130
+
+	set_stability = 0.6
+	set_war_support = 0.6
+
+	add_ideas = {
+		
+		city_state
+		extensive_conscription
+		war_economy
+		export_focus
+
+		goblin_primary_race
+
+		primary_religion_irreligious
+	}
+
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+		
+
+
+
+
+		naval_transport_2 = 1
+		aviary_tech = 1
+
+
+		blueprints_1 = 1
+
+
+
+
+
+
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+
+	set_politics = {
+		ruling_party = horde
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+    alliance = 0
+    horde = 100
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 0
+  }
+}
+
+617.1.1 = {
+
+	#Leave the Horde (maybe move to an earlier start date)
+	leave_faction = yes
+
+	set_politics = {
+		ruling_party = neutral
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+  }
+
+	#Gadgetzan
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = GAD
+			autonomous_state = trade_coalition_member
+			freedom_level = 0.5
+		}
+		else = {
+			puppet = GAD
+		}
+	}
+
+	#Ratchet
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = RAT
+			autonomous_state = trade_coalition_member
+			freedom_level = 0.5
+		}
+		else = {
+			puppet = RAT
+		}
+	}
+
+	#Overlook
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = EVR
+			autonomous_state = trade_coalition_member
+			freedom_level = 0.5
+		}
+		else = {
+			puppet = EVR
+		}
+	}
+}
+
+create_country_leader = {
+	name = "Trade Prince Steamwheedle"
+	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
+	picture = "steemwheedle.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Trade Prince Steamwheedle"
+	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
+	picture = "steemwheedle.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Trade Prince Steamwheedle"
+	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
+	picture = "steemwheedle.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Trade Prince Steamwheedle"
+	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
+	picture = "steemwheedle.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Trade Prince Steamwheedle"
+	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
+	picture = "steemwheedle.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "The Great Pisani"
+	picture = "pisani.dds"
+	traits = {  }
+	id = 60900
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+
+}
+create_navy_leader = {
+	name = "Trade Baron Silversnap"
+	picture = "silversnap.dds"
+	traits = {  }
+	id = 60901
+	skill = 3
+}

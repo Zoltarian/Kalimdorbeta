@@ -1,0 +1,40 @@
+
+state={
+	id=200
+	name="STATE_200"
+	resources={
+		gunpowder=46.000
+	}
+
+	history={
+		
+		victory_points = {
+			4694 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			4694 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ZUL
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = ZUL
+		}
+
+	}
+
+	provinces={
+		446 4692 4694 4698 4701 4702 4705 5678 5680 5684 5691 5696 
+	}
+	manpower=26050
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

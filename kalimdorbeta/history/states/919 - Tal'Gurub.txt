@@ -1,0 +1,27 @@
+
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		
+		victory_points = {
+			8821 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = ZAN
+
+	}
+
+	provinces={
+		8701 8808 8811 8814 8820 8821 8822 8833 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

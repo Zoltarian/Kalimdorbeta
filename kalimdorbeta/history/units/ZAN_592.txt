@@ -1,0 +1,203 @@
+﻿division_template = {
+	name = "Zandalari Warriors"
+
+	regiments = {
+
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Zandalari Scouts"
+
+	regiments = {
+
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Zandalari Spearman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Zandalari Raptor Rider"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1st Zandalari Warriors"
+		location = 8788
+		division_template = "Zandalari Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Zandalari Warriors"
+		location = 8802
+		division_template = "Zandalari Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Zandalari Warriors"
+		location = 8760
+		division_template = "Zandalari Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Zandalari Warriors"
+		location = 8796
+		division_template = "Zandalari Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Zandalari Warriors"
+		location = 8848
+		division_template = "Zandalari Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Zandalari Spearman"
+		location = 8690
+		division_template = "Zandalari Spearman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Zandalari Spearman"
+		location = 8785
+		division_template = "Zandalari Spearman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Zandalari Spearman"
+		location = 8834
+		division_template = "Zandalari Spearman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Zandalari Scouts"
+		location = 8855
+		division_template = "Zandalari Scouts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Zandalari Scouts"
+		location = 8819
+		division_template = "Zandalari Scouts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Zandalari Scouts"
+		location = 8855
+		division_template = "Zandalari Scouts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Zandalari Raptor Rider"
+		location = 8786
+		division_template = "Zandalari Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Zandalari Raptor Rider"
+		location = 8704
+		division_template = "Zandalari Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Zandalari Raptor Rider"
+		location = 1140
+		division_template = "Zandalari Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+###############################
+#ISLE OF GIANTS
+###############################
+
+	division = {
+		name = "6th Zandalari Warriors"
+		location = 8721
+		division_template = "Zandalari Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Zandalari Scouts"
+		location = 8716
+		division_template = "Zandalari Scouts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Zandalari Scouts"
+		location = 8719
+		division_template = "Zandalari Scouts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Zandalari Raptor Rider"
+		location = 8725
+		division_template = "Zandalari Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Zandalari Raptor Rider"
+		location = 8738
+		division_template = "Zandalari Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+
+
+
+
+
+}

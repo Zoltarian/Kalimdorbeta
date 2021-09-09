@@ -1,0 +1,33 @@
+
+state={
+	id=80
+	name="STATE_80"
+	resources = {
+		wheat=9
+		mounts=8
+		ores=3
+		wood=7
+		mana=3
+	}
+
+	history={
+		owner = RKH
+		victory_points = {
+			11929 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		add_core_of = RKH
+
+	}
+
+	provinces={
+		107 820 11929 11934 11937 11942 11943 11944 11948 11953 11954 11956 11961 11962
+	}
+	manpower=34000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

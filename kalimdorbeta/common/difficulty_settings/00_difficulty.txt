@@ -1,0 +1,26 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_sto"
+		modifier = diff_strong_ai_generic
+		countries = { STO }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_brc"
+		modifier = diff_strong_ai_generic
+		countries = { BRC }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_iro"
+		modifier = diff_strong_ai_generic
+		countries = { IRO }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_lor"
+		modifier = diff_strong_ai_generic
+		countries = { LOR }
+		multiplier = 2.0
+	}
+}

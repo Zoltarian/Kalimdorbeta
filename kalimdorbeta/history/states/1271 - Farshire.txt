@@ -1,0 +1,27 @@
+
+state={
+	id=1271
+	name="STATE_1271"
+
+	history={
+		
+		add_core_of = KLK
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		620.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+		}
+	}
+
+	provinces={
+		8240 8250 8251 8891 8933
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

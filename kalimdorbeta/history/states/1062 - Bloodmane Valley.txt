@@ -1,0 +1,42 @@
+
+state={
+	id=1062
+	name="STATE_1062"
+	resources={
+		ores=8
+		gunpowder=4
+	}
+
+	history={
+		
+		add_core_of = SHC
+
+		victory_points = {
+			10495 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			10495 = {
+				naval_base = 3
+			}
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SHC
+		}
+	}
+
+	provinces={
+		10416 10490 10491 10492 10493 10495 10496 10497 10500 10850
+	}
+	manpower=38000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

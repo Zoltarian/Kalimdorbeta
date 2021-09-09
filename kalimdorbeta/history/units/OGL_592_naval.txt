@@ -1,0 +1,49 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Ogri'la Fleet"			
+		naval_base = 6309
+		task_force = {
+			name = "Ogri'la Fleet"			
+			location = 6309
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

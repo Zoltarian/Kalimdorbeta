@@ -1,0 +1,39 @@
+
+state={
+	id=1536
+	name="STATE_1536"
+
+	history={
+		
+		victory_points = {
+			4090 5
+		}
+		buildings = {
+			infrastructure = 4
+			4176 = {
+				bunker = 5
+
+			}
+			4093 = {
+				bunker = 5
+
+			}
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+
+		}
+		
+	}
+
+	provinces={
+		590 4090 4093 4176 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

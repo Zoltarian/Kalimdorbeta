@@ -1,0 +1,34 @@
+state={
+	id=1327
+	name="STATE_1327"
+	resources={
+		wood = 2
+		ores = 4
+	}
+
+	history={
+		owner = BDT
+		add_core_of = BDT
+		victory_points = {
+			12318 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		
+		616.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		12017 12286 12302 12318 12337 12344 12353
+	}
+	manpower=5800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

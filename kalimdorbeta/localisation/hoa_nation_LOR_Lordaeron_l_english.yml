@@ -1,0 +1,64 @@
+﻿l_english:
+
+###############################
+#leaders
+###############################
+POLITICS_KING_TERENAS_MENETHIL_II_DESC:0 "Wise King of Lordaeron, Terenas Menethil II is a statesman and a just king greatly loved by his people; he is no warrior, and has reigned for over fifty years and his long reign has seen peace and prosperity for his kingdom. However, darkness creeps at the doorstep of his realm and many wonder if the Old King will be strong enough to protect the world from the coming darkness."
+POLITICS_KING_TERENAS_MENETHIL_II_DESC_POST_SECOND_WAR:0 "Wise King of Lordaeron and Lord of the Alliance of the same name. Terenas Menethil II is a statesman and a just king greatly loved by his people; he is no warrior, and has reigned for over fifty years and his long reign has seen peace and prosperity for his kingdom. However, darkness creeps at the doorstep of his realm and many wonder if the Old King will be strong enough to protect the world from the coming darkness."
+###############################
+#units
+###############################
+LOR_heroic_infantry:0 "Templar"
+LOR_paladin:0 "Paladin"
+LOR_arch_mage:0 "Archmage"
+LOR_hoa_spellcaster:0 "Mage"
+LOR_hoa_healer:0 "Priest"
+LOR_scouts:0 "Rogue"
+
+###############################
+#advisors
+###############################
+
+###############################
+#ideas
+###############################
+ LOR_Valad_Toreps:0 "Lord Valad Toreps"
+ LOR_Valad_Toreps_desc:0 "The noble Lord Valad Toreps, visiting from Stormwind, has won the support of many nobles and has the ability to sway many of our political decisions."
+
+ LOR_lianne_menethil:0 "Lady Lianne Menethil"
+ LOR_prince_arthas_menethil:0 "Prince Arthas Menethil"
+ LOR_princess_calia_menethil:0 "Princess Calia Menethil"
+
+ LOR_era_of_peace:0 "Era of Peace"
+ LOR_era_of_peace_desc:0 "Era of Peace"
+ LOR_mothballed_fleet:0 "Mothballed Fleet"
+ LOR_mothballed_fleet_desc:0 "Having not seen combat in decades Lordaerons fleet has been made obsolete, it sits in her ports undermanned with barely enough supplies to carry out missions against Murlocs and pirates."
+ LOR_courts_of_lordaeron:0 "Courts of Lordaeron"
+ LOR_courts_of_lordaeron_desc:0 "Courts of Lordaeron"
+ LOR_poor_administration:0 "Poor Administration"
+ LOR_poor_administration_desc:0 "Poor Administration"
+###############################
+#focus tree
+###############################
+
+###############################
+#events
+###############################
+
+lordaeron.3.t:0 "The Meeting of the Seven Kingdoms"
+lordaeron.3.d:0 "While we have already established the Alliance, the handful of Stormwind’s refugees and the full commitment of the Kirin Tor won’t be enough to stop the coming Horde. We must call upon all the Human kingdoms and win them over to our side, should we fail the coming war may be over before it can even begin."
+lordaeron.3.option.1:0 "Summon their Leaders."
+
+###############################
+#decisions
+###############################
+meeting_of_the_seven_kingdoms:0 "Meeting of the Seven Kingdoms"
+meeting_of_the_seven_kingdoms_desc:0 ""
+secure_the_frontier:0 "Secure the Frontier"
+secure_the_frontier_desc:0 ""
+formalize_our_alliance_with_STR:0 "Formalize our Alliance with Stromgarde"
+formalize_our_alliance_with_STR_desc:0 ""
+secure_the_seas:0 "Secure the Seas"
+secure_the_seas_desc:0 ""
+formalize_our_alliance_with_KUL:0 "Formalize our Alliance with Kul Tiras"
+formalize_our_alliance_with_KUL_desc:0 ""

@@ -1,0 +1,38 @@
+
+state={
+	id=1065
+	name="STATE_1065"
+	resources={
+		mounts=12.000
+		mana=8.000
+	}
+
+	history={
+		
+		add_core_of = SHC
+
+		victory_points = {
+			10514 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SHC
+		}
+	}
+
+	provinces={
+		10426 10513 10514 10518 10522 10524 10527
+	}
+	manpower=67000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

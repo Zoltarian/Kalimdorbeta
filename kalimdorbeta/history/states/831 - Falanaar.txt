@@ -1,0 +1,32 @@
+
+state={
+	id=831
+	name="STATE_831"
+	resources={
+		mana=32.000
+		ores=16.000
+		wood=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			8474 15 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 5
+
+		}
+		add_core_of = FAL
+
+	}
+
+	provinces={
+		8389 8443 8450 8453 8457 8461 8465 8474 8482 8496 8509 8524 
+	}
+	manpower=103000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

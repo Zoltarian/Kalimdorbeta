@@ -1,0 +1,51 @@
+ideologies = {
+
+	titans = {
+
+		types = {
+
+			titans_type  = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_TITANS_1"
+			"FACTION_NAME_TITANS_2"
+			"FACTION_NAME_TITANS_3"
+			"FACTION_NAME_TITANS_4"
+			"FACTION_NAME_TITANS_5"
+		}
+
+		color = { 159 255 249 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_declare_war_on_same_ideology = no
+			can_guarantee_other_ideologies = yes
+		}
+
+		war_impact_on_world_tension = -1
+		faction_impact_on_world_tension = -1
+
+		modifiers = { # More rules for the ideology
+			generate_wargoal_tension = 0.85
+			join_faction_tension = 0.85
+			lend_lease_tension = 0.85
+			send_volunteers_tension = 0.85
+			guarantee_tension = 0.85
+			justify_war_goal_when_in_major_war_time = -0.95
+		}
+
+		can_be_boosted = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+		}
+	}

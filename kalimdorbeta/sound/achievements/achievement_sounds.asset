@@ -1,0 +1,32 @@
+category = {
+	name = "OWB_UI"
+
+	soundeffects = {
+		earned_achievement
+	}
+
+	compressor = {
+		enabled = yes
+		pregain = 3.0
+		postgain = 1.0
+		ratio = 2.0
+		threshold = -10.0
+		attacktime = 0.03
+		releasetime = 0.0
+	}
+}
+
+sound = {
+	name = "earned_achievement"
+	file = "earned_achievement.wav"
+	always_load = yes
+	volume = 3
+}
+
+soundeffect = {
+	name = earned_achievement
+	volume = 1
+	sounds = {
+		sound = earned_achievement
+	}
+}

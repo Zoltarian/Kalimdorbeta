@@ -1,0 +1,20 @@
+state={
+	id=1997
+	name="STATE_1997"
+	impassable = yes
+
+	history={
+		owner = BST
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BST
+	}
+
+	provinces={
+		312
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

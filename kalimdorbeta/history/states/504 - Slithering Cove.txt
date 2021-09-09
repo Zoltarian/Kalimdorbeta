@@ -1,0 +1,40 @@
+
+state={
+	id=504
+	name="STATE_504"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			5015 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			DMC = {
+				set_province_controller = 5004
+				set_province_controller = 4999
+				set_province_controller = 4990
+				set_province_controller = 5810
+				set_province_controller = 5007
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		241 4990 4999 5004 5007 5008 5011 5015 5016 5022 5024 5810 
+	}
+	manpower=8425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

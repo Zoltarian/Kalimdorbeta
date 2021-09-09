@@ -1,0 +1,26 @@
+
+state={
+	id=642
+	name="STATE_642"
+	
+	resources={
+		gunpowder=18.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KUL
+
+	}
+
+	provinces={
+		582 7039 7041 7042 7047 7050 7221 7222 
+	}
+	manpower=8150
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

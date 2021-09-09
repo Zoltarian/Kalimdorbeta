@@ -1,0 +1,52 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+
+	orc_tier_technology
+	peon_technology
+	peon_tool_technology
+	orc_city_development
+	pig_farm_technology
+	war_mill_technology
+
+
+
+
+	orc_resource_building_technology
+
+
+
+
+	orc_support_technology
+
+	#orc infantry
+	orc_barracks_technology
+	grunt_technology
+	overseer_technology
+	spearman_technology
+	dire_orc_technology
+
+	warlock_technology
+	necrolyte_technology
+
+	shaman_technology
+	restoration_shaman_technology
+
+
+	#orc cav
+	beastiary_technology
+	dire_wolf_technology
+	raider_technology
+	outrider_technology
+
+	#orc siege
+	demolisher_technology
+	orc_catapult_technology
+
+	#orc support
+	blade_master_technology
+	warlord_technology
+	orc_death_knight_technology
+	far_seer_technology
+}

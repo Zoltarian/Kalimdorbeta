@@ -1,0 +1,51 @@
+sub_units = {
+	captain = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 50
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		# Important Ability
+		initiative = 0.20
+		
+		essential = {
+			human_support_equipment
+			footman_equipment
+		}
+
+		need = {
+			human_support_equipment = 20
+			footman_equipment = 10
+		}
+
+	}
+}
+

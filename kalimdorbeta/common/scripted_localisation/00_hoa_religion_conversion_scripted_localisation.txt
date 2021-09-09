@@ -1,0 +1,1424 @@
+defined_text = {
+	name = GetReligionProgress
+
+	text = {
+		trigger = {
+			set_temp_variable = { progress_rate = religion_conversion_progress }
+			add_to_temp_variable = { progress_rate = 91 }
+			divide_temp_variable = { progress_rate = 90 }
+		}
+		localization_key = [?progress_rate|%1Y]
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = GetStateReligionName
+	text = {
+		trigger = {
+			check_variable = { religion = 0 }
+		}
+		localization_key = "No Religion"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 1 }
+		}
+		localization_key = "The Church of the Holy Light"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 2 }
+		}
+		localization_key = "The Naaru"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 3 }
+		}
+		localization_key = "Scarlet Church"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 4 }
+		}
+		localization_key = "Argent Church"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 5 }
+		}
+		localization_key = "Order of the Blood Knights"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 6 }
+		}
+		localization_key = "The Disciples of Rhukmar"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 7 }
+		}
+		localization_key = "Necrolytes"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 8 }
+		}
+		localization_key = "Voodoo"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 9 }
+		}
+		localization_key = "The Cult of the Forgotten Shadows"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 10 }
+		}
+		localization_key = "The Disciples of Anzu"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 11 }
+		}
+		localization_key = "The Void"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 12 }
+		}
+		localization_key = "Arcane Studies"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 13 }
+		}
+		localization_key = "The Sunwell"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 14 }
+		}
+		localization_key = "The Nightwell"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 15 }
+		}
+		localization_key = "Druidism"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 16 }
+		}
+		localization_key = "The Disciples of Ursoc"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 17 }
+		}
+		localization_key = "The Disciples of Logosh"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 18 }
+		}
+		localization_key = "The Disciples of Agamaggan"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 19 }
+		}
+		localization_key = "The Disciples of Avianna"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 20 }
+		}
+		localization_key = "The Disciples of Tortolla"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 21 }
+		}
+		localization_key = "August Celestial"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 22 }
+		}
+		localization_key = "Thornspeakers"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 23 }
+		}
+		localization_key = "Harvest Withcraft"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 24 }
+		}
+		localization_key = "Natural Magic"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 25 }
+		}
+		localization_key = "Gurubashi Loa"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 26 }
+		}
+		localization_key = "Amani Loa"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 27 }
+		}
+		localization_key = "Zandalari Loa"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 28 }
+		}
+		localization_key = "Darkspear Loa"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 29 }
+		}
+		localization_key = "Farraki Loa"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 30 }
+		}
+		localization_key = "Drakkari Loa"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 31 }
+		}
+		localization_key = "The Fel"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 32 }
+		}
+		localization_key = "Demonology"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 33 }
+		}
+		localization_key = "Necromancy"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 34 }
+		}
+		localization_key = "The Disciples of the Lich King"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 35 }
+		}
+		localization_key = "The Followers of Helya"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 36 }
+		}
+		localization_key = "Drust"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 37 }
+		}
+		localization_key = "The Followers of Y'Shaarj"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 38 }
+		}
+		localization_key = "The Followers of N'Zoth"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 39 }
+		}
+		localization_key = "The Followers of Yogg-Saron"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 40 }
+		}
+		localization_key = "The Followers of C'Thun"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 41 }
+		}
+		localization_key = "The Hour of Twilight"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 42 }
+		}
+		localization_key = "The Dark Conclave"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 43 }
+		}
+		localization_key = "The Follower of G'Huun"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 44 }
+		}
+		localization_key = "The Mystery of the Makers"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 45 }
+		}
+		localization_key = "The Followers of Odyn"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 46 }
+		}
+		localization_key = "The Titans"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 47 }
+		}
+		localization_key = "Chi"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 48 }
+		}
+		localization_key = "The Elemental Furies"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 49 }
+		}
+		localization_key = "Shamanism"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 50 }
+		}
+		localization_key = "Dark Shamanism"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 51 }
+		}
+		localization_key = "The Followers of the Firelord"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 52 }
+		}
+		localization_key = "The Followers of the Tidehunter"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 53 }
+		}
+		localization_key = "The Followers of the Stormmother"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 54 }
+		}
+		localization_key = "The Followers of the Windlord"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 55 }
+		}
+		localization_key = "Geomancy"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 56 }
+		}
+		localization_key = "Pyromancy"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 57 }
+		}
+		localization_key = "The Followers of Ordos"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 58 }
+		}
+		localization_key = "The Followers of Gurok"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 59 }
+		}
+		localization_key = "The Followers of the Tidemother"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 60 }
+		}
+		localization_key = "Waterspeaking"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 61 }
+		}
+		localization_key = "The Sisterhood of Elune"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 62 }
+		}
+		localization_key = "Tauren Mythology"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 63 }
+		}
+		localization_key = "Pandaren Folklore"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 64 }
+		}
+		localization_key = "Mogu Mythology"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 65 }
+		}
+		localization_key = "Luckydos"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 66 }
+		}
+		localization_key = "Followers of Volcanoth"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 67 }
+		}
+		localization_key = "Followers of Mazu"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 68 }
+		}
+		localization_key = "Followers of Kros"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 69 }
+		}
+		localization_key = "Tuskarr Mythology"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 70 }
+		}
+		localization_key = "Ancient Nerubian"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 71 }
+		}
+		localization_key = "Gahz'Rilla"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 72 }
+		}
+		localization_key = "The Wyrmcult"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 73 }
+		}
+		localization_key = "Gronn Worship"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 74 }
+		}
+		localization_key = "Magnataur Worship"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 75 }
+		}
+		localization_key = "Followers of Zar'Jira"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 76 }
+		}
+		localization_key = "Followers of Borrok"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 77 }
+		}
+		localization_key = "Genesaur Worship"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 78 }
+		}
+		localization_key = "Disciples of Naraxas"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 79 }
+		}
+		localization_key = "Disciples of Jorhuttam"
+	}
+	text = {
+		trigger = {
+			check_variable = { religion = 80 }
+		}
+		localization_key = "Irreligious"
+	}
+}
+
+defined_text = {
+	name = GetMainReligionVariable
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_church_of_the_holy_light
+		}
+		localization_key = "1"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_naaru
+		}
+		localization_key = "2"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_scarlet_church
+		}
+		localization_key = "3"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_argent_church
+		}
+		localization_key = "4"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_order_of_the_blood_knights
+		}
+		localization_key = "5"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_rukhmar
+		}
+		localization_key = "6"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_necrolytes
+		}
+		localization_key = "7"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_voodoo
+		}
+		localization_key = "8"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_cult_of_the_forgotten_shadows
+		}
+		localization_key = "9"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_anzu
+		}
+		localization_key = "10"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_void
+		}
+		localization_key = "11"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_arcane_studies
+		}
+		localization_key = "12"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_sun_well
+		}
+		localization_key = "13"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_night_well
+		}
+		localization_key = "14"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_druidism
+		}
+		localization_key = "15"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_ursoc
+		}
+		localization_key = "16"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_logosh
+		}
+		localization_key = "17"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_agamaggan
+		}
+		localization_key = "18"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_avianna
+		}
+		localization_key = "19"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_tortolla
+		}
+		localization_key = "20"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_august_celestial
+		}
+		localization_key = "21"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_thornspeakers
+		}
+		localization_key = "22"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_harvest_witchcraft
+		}
+		localization_key = "23"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_natural_magic
+		}
+		localization_key = "24"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_loa_spirits
+		}
+		localization_key = "25"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_fel
+		}
+		localization_key = "26"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_demonology
+		}
+		localization_key = "27"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_necromancy
+		}
+		localization_key = "28"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_the_lich_king
+		}
+		localization_key = "29"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_helya
+		}
+		localization_key = "30"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_drust
+		}
+		localization_key = "31"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_yshaarj
+		}
+		localization_key = "32"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_nzoth
+		}
+		localization_key = "33"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_yogg_saron
+		}
+		localization_key = "34"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_cthun
+		}
+		localization_key = "35"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_hour_of_twilight
+		}
+		localization_key = "36"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_dark_conclave
+		}
+		localization_key = "37"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_ghuun
+		}
+		localization_key = "38"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_mystery_of_the_makers
+		}
+		localization_key = "39"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_odyn
+		}
+		localization_key = "40"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_titans
+		}
+		localization_key = "41"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_chi
+		}
+		localization_key = "42"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_elemental_furies
+		}
+		localization_key = "43"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_shamanism
+		}
+		localization_key = "44"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_dark_shamanism
+		}
+		localization_key = "45"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_firelord
+		}
+		localization_key = "46"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_tidehunter
+		}
+		localization_key = "47"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_stonemother
+		}
+		localization_key = "48"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_windlord
+		}
+		localization_key = "49"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_geomancy
+		}
+		localization_key = "50"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_pyromancy
+		}
+		localization_key = "51"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_ordos
+		}
+		localization_key = "52"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_gurok
+		}
+		localization_key = "53"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_tidemother
+		}
+		localization_key = "54"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_waterspeaking
+		}
+		localization_key = "55"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_sisterhood_of_elune
+		}
+		localization_key = "56"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_tauren_mythology
+		}
+		localization_key = "57"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_pandaren_folklore
+		}
+		localization_key = "58"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_mogu_mythology
+		}
+		localization_key = "59"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_luckydos
+		}
+		localization_key = "60"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_volcanoth
+		}
+		localization_key = "61"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_mazu
+		}
+		localization_key = "62"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_kros
+		}
+		localization_key = "63"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_tuskarr_mythology
+		}
+		localization_key = "64"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_ancient_nerubian
+		}
+		localization_key = "65"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_gahzrilla
+		}
+		localization_key = "66"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_wyrmcult
+		}
+		localization_key = "67"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_gronn_worship
+		}
+		localization_key = "68"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_magnataur_worship
+		}
+		localization_key = "69"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_zarjira
+		}
+		localization_key = "70"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_borrok
+		}
+		localization_key = "71"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_genesaur_worship
+		}
+		localization_key = "72"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_naraxas
+		}
+		localization_key = "73"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_jorhuttam
+		}
+		localization_key = "74"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_way_of_the_jade_fist
+		}
+		localization_key = "75"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_irreligious
+		}
+		localization_key = "76"
+	}
+}
+
+defined_text = {
+	name = GetMainReligionName
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_church_of_the_holy_light
+		}
+		localization_key = "The Church of the Holy Light"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_naaru
+		}
+		localization_key = "The Naaru"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_scarlet_church
+		}
+		localization_key = "Scarlet Church"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_argent_church
+		}
+		localization_key = "Argent Church"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_order_of_the_blood_knights
+		}
+		localization_key = "Order of the Blood Knights"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_rukhmar
+		}
+		localization_key = "The Disciples of Rhukmar"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_necrolytes
+		}
+		localization_key = "Necrolytes"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_voodoo
+		}
+		localization_key = "Voodoo"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_cult_of_the_forgotten_shadows
+		}
+		localization_key = "The Cult of the Forgotten Shadows"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_anzu
+		}
+		localization_key = "The Disciples of Anzu"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_void
+		}
+		localization_key = "The Void"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_arcane_studies
+		}
+		localization_key = "Arcane Studies"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_sun_well
+		}
+		localization_key = "The Sunwell"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_night_well
+		}
+		localization_key = "The Nightwell"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_druidism
+		}
+		localization_key = "Druidism"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_ursoc
+		}
+		localization_key = "The Disciples of Ursoc"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_logosh
+		}
+		localization_key = "The Disciples of Logosh"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_agamaggan
+		}
+		localization_key = "The Disciples of Agamaggan"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_avianna
+		}
+		localization_key = "The Disciples of Avianna"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_tortolla
+		}
+		localization_key = "The Disciples of Tortolla"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_august_celestial
+		}
+		localization_key = "August Celestial"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_thornspeakers
+		}
+		localization_key = "Thornspeakers"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_harvest_witchcraft
+		}
+		localization_key = "Harvest Withcraft"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_natural_magic
+		}
+		localization_key = "Natural Magic"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_loa_spirits
+		}
+		localization_key = "Loa Spirits"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_fel
+		}
+		localization_key = "The Fel"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_demonology
+		}
+		localization_key = "Demonology"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_necromancy
+		}
+		localization_key = "Necromancy"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_the_lich_king
+		}
+		localization_key = "The Disciples of the Lich King"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_helya
+		}
+		localization_key = "The Followers of Helya"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_drust
+		}
+		localization_key = "Drust"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_yshaarj
+		}
+		localization_key = "The Followers of Y'Shaarj"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_nzoth
+		}
+		localization_key = "The Followers of N'Zoth"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_yogg_saron
+		}
+		localization_key = "The Followers of Yogg-Saron"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_cthun
+		}
+		localization_key = "The Followers of C'Thun"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_hour_of_twilight
+		}
+		localization_key = "The Hour of Twilight"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_dark_conclave
+		}
+		localization_key = "The Dark Conclave"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_ghuun
+		}
+		localization_key = "The Follower of G'Huun"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_mystery_of_the_makers
+		}
+		localization_key = "The Mystery of the Makers"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_odyn
+		}
+		localization_key = "The Followers of Odyn"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_titans
+		}
+		localization_key = "The Titans"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_chi
+		}
+		localization_key = "Chi"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_elemental_furies
+		}
+		localization_key = "The Elemental Furies"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_shamanism
+		}
+		localization_key = "Shamanism"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_dark_shamanism
+		}
+		localization_key = "Dark Shamanism"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_firelord
+		}
+		localization_key = "The Followers of the Firelord"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_tidehunter
+		}
+		localization_key = "The Followers of the Tidehunter"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_stonemother
+		}
+		localization_key = "The Followers of the Stormmother"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_windlord
+		}
+		localization_key = "The Followers of the Windlord"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_geomancy
+		}
+		localization_key = "Geomancy"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_pyromancy
+		}
+		localization_key = "Pyromancy"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_ordos
+		}
+		localization_key = "The Followers of Ordos"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_gurok
+		}
+		localization_key = "The Followers of Gurok"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_the_tidemother
+		}
+		localization_key = "The Followers of the Tidemother"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_waterspeaking
+		}
+		localization_key = "Waterspeaking"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_sisterhood_of_elune
+		}
+		localization_key = "The Sisterhood of Elune"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_tauren_mythology
+		}
+		localization_key = "Tauren Mythology"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_pandaren_folklore
+		}
+		localization_key = "Pandaren Folklore"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_mogu_mythology
+		}
+		localization_key = "Mogu Mythology"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_luckydos
+		}
+		localization_key = "Luckydos"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_volcanoth
+		}
+		localization_key = "Folowers of Volcanoth"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_mazu
+		}
+		localization_key = "Folowers of Mazu"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_kros
+		}
+		localization_key = "Followers of Kros"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_tuskarr_mythology
+		}
+		localization_key = "Tuskarr Mythology"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_ancient_nerubian
+		}
+		localization_key = "Ancient Nerubian"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_gahzrilla
+		}
+		localization_key = "Gahz'Rilla"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_the_wyrmcult
+		}
+		localization_key = "The Wyrmcult"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_gronn_worship
+		}
+		localization_key = "Gronn Worship"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_magnataur_worship
+		}
+		localization_key = "Magnataur Worship"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_zarjira
+		}
+		localization_key = "Followers of Zar'Jira"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_followers_of_borrok
+		}
+		localization_key = "Followers of Borrok"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_genesaur_worship
+		}
+		localization_key = "Genesaur Worship"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_naraxas
+		}
+		localization_key = "Disciples of Naraxas"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_disciples_of_jorhuttam
+		}
+		localization_key = "Disciples of Jorhuttam"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_way_of_the_jade_fist
+		}
+		localization_key = "Way of the Jade Fist"
+	}
+	text = {
+		trigger = {
+			has_idea = primary_religion_irreligious
+		}
+		localization_key = "Irreligious"
+	}
+}

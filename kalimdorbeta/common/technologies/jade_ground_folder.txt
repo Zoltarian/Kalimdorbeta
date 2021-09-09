@@ -1,0 +1,2204 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	jade_tiger_tech_1 = {
+
+		enable_equipments = {
+			jade_tiger_equipment_1
+		}
+
+		enable_subunits = {
+			jade_tiger
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_cohesion_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_claws_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_swift_tigers_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = jade_ground_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			jade_tiger_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_combat_tactics_1 = {
+
+		jade_tiger = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_defensive_behaviour_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_offensive_behaviour_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = jade_ground_folder
+			position = { x = -6 y = 4 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_combat_tactics_2 = {
+
+		jade_tiger = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_defensive_behaviour_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_offensive_behaviour_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 597
+		folder = {
+			name = jade_ground_folder
+			position = { x = -6 y = 8 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_combat_tactics_3 = {
+
+		jade_tiger = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_defensive_behaviour_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_offensive_behaviour_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 605
+		folder = {
+			name = jade_ground_folder
+			position = { x = -6 y = 12 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_combat_tactics_4 = {
+
+		jade_tiger = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_defensive_behaviour_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_offensive_behaviour_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 614
+		folder = {
+			name = jade_ground_folder
+			position = { x = -6 y = 16 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_combat_tactics_5 = {
+
+		jade_tiger = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_defensive_behaviour_5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_offensive_behaviour_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 622
+		folder = {
+			name = jade_ground_folder
+			position = { x = -6 y = 20 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_combat_tactics_6 = {
+
+		jade_tiger = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+
+		research_cost = 1.5
+		start_year = 630
+		folder = {
+			name = jade_ground_folder
+			position = { x = -6 y = 24 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_defensive_behaviour_1 = {
+
+		xor = { jade_offensive_behaviour_1 }
+
+		jade_tiger = {
+			defense = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = jade_ground_folder
+			position = { x = -7 y = 6 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_defensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_defensive_behaviour_2 = {
+
+		xor = { jade_offensive_behaviour_2 }
+
+		jade_tiger = {
+			defense = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 600
+		folder = {
+			name = jade_ground_folder
+			position = { x = -7 y = 10 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_defensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_defensive_behaviour_3 = {
+
+		xor = { jade_offensive_behaviour_3 }
+
+		jade_tiger = {
+			defense = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 610
+		folder = {
+			name = jade_ground_folder
+			position = { x = -7 y = 14 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_defensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_defensive_behaviour_4 = {
+
+		xor = { jade_offensive_behaviour_4 }
+
+		jade_tiger = {
+			defense = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 618
+		folder = {
+			name = jade_ground_folder
+			position = { x = -7 y = 18 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_defensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_defensive_behaviour_5 = {
+
+		xor = { jade_offensive_behaviour_5 }
+
+		jade_tiger = {
+			defense = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 626
+		folder = {
+			name = jade_ground_folder
+			position = { x = -7 y = 22 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_defensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_offensive_behaviour_1 = {
+
+		xor = { jade_defensive_behaviour_1 }
+
+		jade_tiger = {
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = jade_ground_folder
+			position = { x = -5 y = 6 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_offensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_offensive_behaviour_2 = {
+
+		xor = { jade_defensive_behaviour_2 }
+
+		jade_tiger = {
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 600
+		folder = {
+			name = jade_ground_folder
+			position = { x = -5 y = 10 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_offensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_offensive_behaviour_3 = {
+
+		xor = { jade_defensive_behaviour_3 }
+
+		jade_tiger = {
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 610
+		folder = {
+			name = jade_ground_folder
+			position = { x = -5 y = 14 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_offensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_offensive_behaviour_4 = {
+
+		xor = { jade_defensive_behaviour_4 }
+
+		jade_tiger = {
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 618
+		folder = {
+			name = jade_ground_folder
+			position = { x = -5 y = 18 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_offensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_offensive_behaviour_5 = {
+
+		xor = { jade_defensive_behaviour_5 }
+
+		jade_tiger = {
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_combat_tactics_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 626
+		folder = {
+			name = jade_ground_folder
+			position = { x = -5 y = 22 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_tactics_tech
+			jade_tiger_offensive_behaviour_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_cohesion_1 = {
+
+		land_reinforce_rate = 0.03
+
+		jade_tiger = {
+			max_organisation = 3
+		}
+
+		path = {
+			leads_to_tech = jade_cohesion_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = jade_ground_folder
+			position = { x = -3  y = 4 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_cohesion_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_cohesion_2 = {
+
+		land_reinforce_rate = 0.03
+
+		jade_tiger = {
+			max_organisation = 3
+		}
+
+		path = {
+			leads_to_tech = jade_cohesion_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 597
+		folder = {
+			name = jade_ground_folder
+			position = { x = -3  y = 8 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_cohesion_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_cohesion_3 = {
+
+		land_reinforce_rate = 0.03
+
+		jade_tiger = {
+			max_organisation = 3
+		}
+
+		path = {
+			leads_to_tech = jade_cohesion_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 605
+		folder = {
+			name = jade_ground_folder
+			position = { x = -3  y = 12 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_cohesion_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_cohesion_4 = {
+
+		land_reinforce_rate = 0.03
+
+		jade_tiger = {
+			max_organisation = 3
+		}
+
+		path = {
+			leads_to_tech = jade_cohesion_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 614
+		folder = {
+			name = jade_ground_folder
+			position = { x = -3  y = 16 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_cohesion_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_cohesion_5 = {
+
+		land_reinforce_rate = 0.03
+
+		jade_tiger = {
+			max_organisation = 3
+		}
+
+		path = {
+			leads_to_tech = jade_cohesion_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 622
+		folder = {
+			name = jade_ground_folder
+			position = { x = -3  y = 20 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_cohesion_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_cohesion_6 = {
+
+		land_reinforce_rate = 0.03
+
+		jade_tiger = {
+			max_organisation = 3
+		}
+
+		research_cost = 1.5
+		start_year = 630
+		folder = {
+			name = jade_ground_folder
+			position = { x = -3  y = 24 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_cohesion_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_claws_1 = {
+
+		jade_tiger = {
+			soft_attack = 0.03
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_sharper_claws_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_stronger_claws_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = jade_ground_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_claws_2 = {
+
+		jade_tiger = {
+			soft_attack = 0.03
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_sharper_claws_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_stronger_claws_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 597
+		folder = {
+			name = jade_ground_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_claws_3 = {
+
+		jade_tiger = {
+			soft_attack = 0.03
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_sharper_claws_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_stronger_claws_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 605
+		folder = {
+			name = jade_ground_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_claws_4 = {
+
+		jade_tiger = {
+			soft_attack = 0.03
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_sharper_claws_4
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_stronger_claws_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 614
+		folder = {
+			name = jade_ground_folder
+			position = { x = 0 y = 16 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_claws_5 = {
+
+		jade_tiger = {
+			soft_attack = 0.03
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_sharper_claws_5
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_stronger_claws_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 622
+		folder = {
+			name = jade_ground_folder
+			position = { x = 0 y = 20 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_claws_6 = {
+
+		jade_tiger = {
+			soft_attack = 0.03
+			hard_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 630
+		folder = {
+			name = jade_ground_folder
+			position = { x = 0 y = 24 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_stronger_claws_1 = {
+
+		xor = { jade_sharper_claws_1 }
+
+		jade_tiger = {
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_claws_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = jade_ground_folder
+			position = { x = -1  y = 6 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_stronger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_stronger_claws_2 = {
+
+		xor = { jade_sharper_claws_2 }
+
+		jade_tiger = {
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_claws_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 600
+		folder = {
+			name = jade_ground_folder
+			position = { x = -1  y = 10 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_stronger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_stronger_claws_3 = {
+
+		xor = { jade_sharper_claws_3 }
+
+		jade_tiger = {
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_claws_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 610
+		folder = {
+			name = jade_ground_folder
+			position = { x = -1  y = 14 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_stronger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_stronger_claws_4 = {
+
+		xor = { jade_sharper_claws_4 }
+
+		jade_tiger = {
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_claws_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 618
+		folder = {
+			name = jade_ground_folder
+			position = { x = -1  y = 18 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_stronger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_stronger_claws_5 = {
+
+		xor = { jade_sharper_claws_5 }
+
+		jade_tiger = {
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = jade_claws_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 626
+		folder = {
+			name = jade_ground_folder
+			position = { x = -1  y = 22 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_stronger_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_sharper_claws_1 = {
+
+		xor = { jade_stronger_claws_1 }
+
+		jade_tiger = {
+			soft_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = jade_claws_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = jade_ground_folder
+			position = { x = 1  y = 6 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_sharper_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_sharper_claws_2 = {
+
+		xor = { jade_stronger_claws_2 }
+
+		jade_tiger = {
+			soft_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = jade_claws_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 600
+		folder = {
+			name = jade_ground_folder
+			position = { x = 1  y = 10 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_sharper_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_sharper_claws_3 = {
+
+		xor = { jade_stronger_claws_3 }
+
+		jade_tiger = {
+			soft_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = jade_claws_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 610
+		folder = {
+			name = jade_ground_folder
+			position = { x = 1  y = 14 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_sharper_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_sharper_claws_4 = {
+
+		xor = { jade_stronger_claws_4 }
+
+		jade_tiger = {
+			soft_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = jade_claws_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 618
+		folder = {
+			name = jade_ground_folder
+			position = { x = 1  y = 18 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_sharper_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_sharper_claws_5 = {
+
+		xor = { jade_stronger_claws_5 }
+
+		jade_tiger = {
+			soft_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = jade_claws_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 626
+		folder = {
+			name = jade_ground_folder
+			position = { x = 1  y = 22 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_claw_tech
+			jade_tiger_sharper_claw_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_swift_tigers_1 = {
+
+		jade_tiger = {
+			maximum_speed = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_swift_tigers_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = jade_ground_folder
+			position = { x = 3  y = 4 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_speed_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_swift_tigers_2 = {
+
+		jade_tiger = {
+			maximum_speed = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_swift_tigers_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 597
+		folder = {
+			name = jade_ground_folder
+			position = { x = 3  y = 8 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_speed_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_swift_tigers_3 = {
+
+		jade_tiger = {
+			maximum_speed = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_swift_tigers_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 605
+		folder = {
+			name = jade_ground_folder
+			position = { x = 3  y = 12 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_speed_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_swift_tigers_4 = {
+
+		jade_tiger = {
+			maximum_speed = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_swift_tigers_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 614
+		folder = {
+			name = jade_ground_folder
+			position = { x = 3  y = 16 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_speed_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_swift_tigers_5 = {
+
+		jade_tiger = {
+			maximum_speed = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_swift_tigers_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 622
+		folder = {
+			name = jade_ground_folder
+			position = { x = 3  y = 20 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_speed_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_swift_tigers_6 = {
+
+		jade_tiger = {
+			maximum_speed = 0.01
+		}
+
+		research_cost = 1.5
+		start_year = 630
+		folder = {
+			name = jade_ground_folder
+			position = { x = 3  y = 24 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_speed_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_refined_jade_1 = {
+
+		jade_tiger = {
+			ap_attack  = 0.01
+			armor_value  = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_piercing_fangs_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_thicker_skin_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = jade_ground_folder
+			position = { x = 6 y = 4 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_refined_jade_2 = {
+
+		jade_tiger = {
+			ap_attack  = 0.01
+			armor_value  = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_piercing_fangs_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_thicker_skin_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 597
+		folder = {
+			name = jade_ground_folder
+			position = { x = 6 y = 8 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_refined_jade_3 = {
+
+		jade_tiger = {
+			ap_attack  = 0.01
+			armor_value  = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_piercing_fangs_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_thicker_skin_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 605
+		folder = {
+			name = jade_ground_folder
+			position = { x = 6 y = 12 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_refined_jade_4 = {
+
+		jade_tiger = {
+			ap_attack  = 0.01
+			armor_value  = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_piercing_fangs_4
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_thicker_skin_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 614
+		folder = {
+			name = jade_ground_folder
+			position = { x = 6 y = 16 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_refined_jade_5 = {
+
+		jade_tiger = {
+			ap_attack  = 0.01
+			armor_value  = 0.01
+		}
+
+		path = {
+			leads_to_tech = jade_piercing_fangs_5
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_thicker_skin_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 622
+		folder = {
+			name = jade_ground_folder
+			position = { x = 6 y = 20 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_refined_jade_6 = {
+
+		jade_tiger = {
+			ap_attack  = 0.01
+			armor_value  = 0.01
+		}
+
+		research_cost = 1.5
+		start_year = 630
+		folder = {
+			name = jade_ground_folder
+			position = { x = 6 y = 24 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_piercing_fangs_1 = {
+
+		xor = { jade_thicker_skin_1 }
+
+		jade_tiger = {
+			ap_attack  = 0.04
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = jade_ground_folder
+			position = { x = 5  y = 6 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_fangs_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_piercing_fangs_2 = {
+
+		xor = { jade_thicker_skin_2 }
+
+		jade_tiger = {
+			ap_attack  = 0.04
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 600
+		folder = {
+			name = jade_ground_folder
+			position = { x = 5  y = 10 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_fangs_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_piercing_fangs_3 = {
+
+		xor = { jade_thicker_skin_3 }
+
+		jade_tiger = {
+			ap_attack  = 0.04
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 610
+		folder = {
+			name = jade_ground_folder
+			position = { x = 5  y = 14 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_fangs_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_piercing_fangs_4 = {
+
+		xor = { jade_thicker_skin_4 }
+
+		jade_tiger = {
+			ap_attack  = 0.04
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 618
+		folder = {
+			name = jade_ground_folder
+			position = { x = 5  y = 18 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_fangs_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_piercing_fangs_5 = {
+
+		xor = { jade_thicker_skin_5 }
+
+		jade_tiger = {
+			ap_attack  = 0.04
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 626
+		folder = {
+			name = jade_ground_folder
+			position = { x = 5  y = 22 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_fangs_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_thicker_skin_1 = {
+
+		xor = { jade_piercing_fangs_1 }
+
+		jade_tiger = {
+			armor_value  = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = jade_ground_folder
+			position = { x = 7  y = 6 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_skin_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_thicker_skin_2 = {
+
+		xor = { jade_piercing_fangs_2 }
+
+		jade_tiger = {
+			armor_value  = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 600
+		folder = {
+			name = jade_ground_folder
+			position = { x = 7  y = 10 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_skin_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_thicker_skin_3 = {
+
+		xor = { jade_piercing_fangs_3 }
+
+		jade_tiger = {
+			armor_value  = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 610
+		folder = {
+			name = jade_ground_folder
+			position = { x = 7  y = 14 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_skin_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_thicker_skin_4 = {
+
+		xor = { jade_piercing_fangs_4 }
+
+		jade_tiger = {
+			armor_value  = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 618
+		folder = {
+			name = jade_ground_folder
+			position = { x = 7  y = 18 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_skin_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	jade_thicker_skin_5 = {
+
+		xor = { jade_piercing_fangs_5 }
+
+		jade_tiger = {
+			armor_value  = 0.02
+		}
+
+		path = {
+			leads_to_tech = jade_refined_jade_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 626
+		folder = {
+			name = jade_ground_folder
+			position = { x = 7  y = 22 }
+		}
+
+		categories = {
+			jade_tiger_tech
+			jade_tiger_jade_tech
+			jade_tiger_skin_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+}

@@ -1,0 +1,1631 @@
+ideas = {
+
+	country = {
+
+		STO_over_reliance_on_medivh_1 = {
+
+		picture = tfv_can_conscription_crisis
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			research_bonus = {
+				land_doctrine = -0.05
+			}
+
+			modifier = {
+				conscription_factor = -0.1
+				army_attack_factor = -0.09
+				army_defence_factor = -0.09
+				mobilization_speed = -0.04
+				experience_gain_army = -0.01
+			}
+
+		}
+
+		STO_over_reliance_on_medivh_2 = {
+
+		picture = tfv_can_conscription_crisis
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			research_bonus = {
+				land_doctrine = -0.1
+			}
+
+			modifier = {
+				conscription_factor = -0.2
+				army_attack_factor = -0.18
+				army_defence_factor = -0.18
+				mobilization_speed = -0.08
+				experience_gain_army = -0.01
+			}
+
+		}
+
+		STO_over_reliance_on_medivh_3 = {
+
+		picture = tfv_can_conscription_crisis
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			research_bonus = {
+				land_doctrine = -0.15
+			}
+
+			modifier = {
+				conscription_factor = -0.3
+				army_attack_factor = -0.27
+				army_defence_factor = -0.27
+				mobilization_speed = -0.12
+				experience_gain_army = -0.01
+			}
+
+		}
+
+
+		STO_over_reliance_on_medivh_4 = {
+
+			picture = tfv_can_conscription_crisis
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			research_bonus = {
+				land_doctrine = -0.2
+			}
+
+			modifier = {
+				conscription_factor = -0.4
+				army_attack_factor = -0.36
+				army_defence_factor = -0.36
+				mobilization_speed = -0.16
+				experience_gain_army = -0.01
+			}
+
+		}
+
+
+		STO_over_reliance_on_medivh_5 = {
+
+			picture = tfv_can_conscription_crisis
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			research_bonus = {
+				land_doctrine = -0.25
+			}
+
+			modifier = {
+				conscription_factor = -0.5
+				army_attack_factor = -0.45
+				army_defence_factor = -0.45
+				mobilization_speed = -0.20
+				experience_gain_army = -0.01
+			}
+
+
+		}
+
+		STO_kobolds_in_the_mines = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_race_kobold
+
+			modifier = {
+				local_resources_factor = -0.25
+			}
+
+		}
+
+		STO_unsatisfied_nobles = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				political_power_gain = -0.50
+				stability_weekly  = -0.002
+				neutral_drift = 0.2
+			}
+
+		}
+
+		STO_rebuilding_the_nation = {
+
+			removal_cost = -1
+
+			allowed = {
+				original_tag = STO
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				industry_free_repair_factor = 0.2
+			}
+
+		}
+
+		STO_legacy_of_gurubashi_war_1 = {
+
+			picture = generic_race_jungle_troll
+
+			allowed = {
+				original_tag = STO
+			}
+
+			modifier = {
+				offence = -0.1
+				army_core_defence_factor = 0.05
+				stability_factor = 0.10
+			}
+
+		}
+
+		STO_legacy_of_gurubashi_war_2 = {
+
+			picture = generic_race_jungle_troll
+
+			allowed = {
+				original_tag = STO
+			}
+
+			modifier = {
+				offence = -0.05
+				army_core_defence_factor = 0.05
+				stability_factor = 0.10
+			}
+
+		}
+
+		STO_gnoll_attacks = {
+
+			picture = generic_race_gnoll
+
+			removal_cost = -1
+
+			allowed = {
+				original_tag = STO
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				conscription = -0.005
+				experience_gain_army = 0.01
+			}
+
+		}
+
+		STO_westfall_investment_idea_1 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				monthly_population = 0.05
+			}
+
+		}
+
+		STO_westfall_investment_idea_2 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				monthly_population = 0.1
+			}
+
+		}
+
+		STO_westfall_investment_idea_3 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				monthly_population = 0.15
+			}
+
+		}
+
+		STO_westfall_investment_idea_4 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.25
+				monthly_population = 0.2
+			}
+
+		}
+
+		STO_brightwood_investment_idea_1 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				local_resources_factor = 0.02
+			}
+
+		}
+
+		STO_brightwood_investment_idea_2 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				local_resources_factor = 0.04
+			}
+
+		}
+
+		STO_brightwood_investment_idea_3 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				local_resources_factor = 0.06
+			}
+
+		}
+
+		STO_brightwood_investment_idea_4 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.25
+				local_resources_factor = 0.08
+			}
+
+		}
+
+		STO_redridge_investment_idea_1 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				conscription_factor = 0.01
+			}
+
+		}
+
+		STO_redridge_investment_idea_2 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				conscription_factor = 0.02
+			}
+
+		}
+
+		STO_redridge_investment_idea_3 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				conscription_factor = 0.03
+			}
+
+		}
+
+		STO_redridge_investment_idea_4 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.25
+				conscription_factor = 0.04
+			}
+
+		}
+
+		STO_long_term_payments = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+			}
+
+		}
+
+		STO_short_term_payments = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -1.0
+			}
+
+		}
+
+		STO_kingdom_rebuilt = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				monthly_population = 0.25
+				local_resources_factor = 0.1
+				conscription_factor = 0.05
+			}
+
+		}
+
+		STO_internal_trade = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				local_resources_factor = -0.1
+			}
+
+		}
+
+		STO_export_focus = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				local_resources_factor = 0.05
+			}
+
+		}
+
+		STO_cathedral_of_light = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			equipment_bonus = {
+					human_support_equipment = {
+                    build_cost_ic = -0.1 instant = yes
+                }
+			}
+
+		}
+
+		STO_jewel_of_the_south_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = 0.5
+				consumer_goods_factor = -0.05
+			}
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		STO_trade_and_commerce_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				min_export = -0.15
+			}
+
+		}
+
+		STO_stonemasons_guild = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				production_speed_bunker_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.15
+			}
+
+		}
+
+		STO_house_of_nobles_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+
+		STO_raised_taxes_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.1
+			}
+		}
+
+		STO_northern_kingdoms_alliance_support = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				alliance_drift = 0.15
+			}
+		}
+
+		STO_raise_the_banners_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription = 0.01
+				training_time_factor = -0.1
+			}
+
+		}
+
+		STO_stand_alone = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = 0.25
+			}
+
+		}
+
+		STO_defenders_of_mankind = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.15
+			}
+
+		}
+
+		STO_blackblood_hunters = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				recon_factor = 0.05
+			}
+
+		}
+
+		STO_legacy_of_arathor = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription = 0.02
+				army_org_Factor = 0.05
+			}
+
+		}
+
+		STO_si7 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+		}
+
+		STO_counter_attack = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_core_attack_factor = 0.15
+			}
+
+		}
+
+		STO_rebuild_the_country_idea = {
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.30
+			}
+		}
+
+		STO_brotherhood_of_the_horse_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			research_bonus = {
+				cavalry_tech = 0.25
+				paladin_tech = 0.25
+			}
+
+		}
+
+		STO_cavalry_focus_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				cavalry_attack_factor = 0.1
+				cavalry_defence_factor = 0.1
+			}
+
+		}
+
+		STO_infantry_focus_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_infantry_attack_factor = 0.1
+				army_infantry_defence_factor = 0.1
+			}
+
+		}
+
+		STO_coward_king = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				war_support_factor = -0.4
+			}
+		}
+
+		STO_rally_the_troops = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				war_support_factor = 0.4
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		STO_pillaged_settlements = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+
+		}
+
+		STO_first_war_aid = {
+			allowed = {
+				original_tag = LOR
+				original_tag = STR
+				original_tag = ALT
+				original_tag = GIL
+				original_tag = KUL
+				original_tag = DAL
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				alliance_drift = 0.2
+			}
+		}
+
+		STO_medivhs_presence = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.15
+				army_org_Factor = 0.15
+			}
+
+		}
+
+		STO_khadgars_presence = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_org_Factor = 0.05
+			}
+
+		}
+
+		STO_hillsbrad_militias_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				training_time_factor = -0.25
+			}
+
+		}
+
+		STO_first_war_veterans_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_org_Factor = 0.1
+			}
+
+		}
+
+		STO_gnomish_technolodgy_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+
+		}
+
+		STO_submarine_fleet_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+
+			}
+
+		}
+
+		STO_escort_fleet_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+
+			}
+
+		}
+
+		STO_order_of_the_silver_hand = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription = 0.01
+				army_core_defence_factor = 0.05
+
+			}
+
+		}
+
+		STO_regency_for_varian = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = -0.1
+			}
+
+		}
+
+		STO_government_in_exile = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+			}
+
+		}
+
+		STO_feudal_reform = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = 0.20
+				conscription = 0.015
+				MONTHLY_POPULATION = 0.2
+			}
+
+		}
+
+		STO_house_of_nobles = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				neutral_drift = 0.2
+			}
+
+		}
+
+		STO_house_of_nobles_2 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				neutral_drift = 0.2
+				political_power_gain = -0.1
+				drift_defence_factor = 0.85
+			}
+
+		}
+
+		STO_house_of_nobles_3 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				neutral_drift = 0.25
+				drift_defence_factor = 0.85
+				consumer_goods_factor = 0.05
+			}
+
+		}
+
+		STO_house_of_nobles_4 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_weekly = 0.02
+				political_power_factor = 0.15
+			}
+
+		}
+
+		STO_house_of_nobles_5 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_weekly = 0.02
+				war_support_factor = -0.1
+				consumer_goods_factor = -0.02
+				political_power_factor = 0.25
+			}
+
+		}
+
+		STO_noble_schemes = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				drift_defence_factor = -0.2
+				neutral_drift = 0.1
+				political_power_gain = -1
+			}
+
+		}
+
+		STO_noble_schemes_2 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				drift_defence_factor = -0.1
+				neutral_drift = 0.05
+				political_power_gain = -0.75
+			}
+
+		}
+
+		STO_laws_of_loyalty = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				alliance_drift = 0.05
+			}
+
+		}
+
+		STO_titles_revoked = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_weekly = -0.01
+				political_power_gain = -0.05
+			}
+
+		}
+
+		STO_purges_among_the_noble_elite = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_leader_cost_factor = 2
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+			}
+
+		}
+
+		STO_initial_army_reforms = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				experience_gain_army = 0.05
+			}
+
+		}
+
+		STO_lothars_reforms_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				experience_gain_army = 0.05
+			}
+
+		}
+
+		STO_professional_army_idea = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				offence = 0.05
+				defence = 0.05
+				experience_gain_army = 0.1
+				conscription_factor = -0.2
+			}
+
+		}
+
+#############################################
+# Ideas given to puppets
+#############################################
+
+	STO_noble_administration_idea = {
+
+		allowed = {
+			OR = {
+				original_tag = ELW
+				original_tag = WST
+			}
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		modifier = {
+			political_power_gain = -0.50
+			ai_focus_defense_factor = 0.2
+			monthly_population = 0.05
+		}
+	}
+
+	STO_homeland_defense_idea = {
+
+		allowed = {
+			OR = {
+				original_tag = ELW
+				original_tag = WST
+			}
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		modifier = {
+			army_core_defence_factor = 0.1
+		}
+	}
+
+	STO_economic_aid_idea = {
+
+		allowed = {
+			OR = {
+				original_tag = ELW
+				original_tag = WST
+			}
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		modifier = {
+			production_speed_buildings_factor = 0.2
+		}
+	}
+
+#############################################
+#government
+#############################################
+
+#############################################
+#balor focus tree
+#############################################
+
+
+		STO_balor_overpopulated_1 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+
+		STO_balor_overpopulated_2 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		STO_balor_overpopulated_3 = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		STO_balor_humiliated_military = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			research_bonus = {
+				land_doctrine = -0.5
+			}
+
+			modifier = {
+				offence = -0.2
+			}
+
+		}
+
+		STO_balor_operation_landfall = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.2
+			}
+		}
+
+###########################
+# stormwind first war capituation ideas
+###########################
+
+		Stormwind_Rally_the_troops = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				war_support_factor = 0.4
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		Stormwind_Coward_king = {
+
+			allowed = {
+				original_tag = STO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				war_support_factor = -0.4
+			}
+		}
+
+###########################
+# stormwind help from X ideas
+###########################
+
+		Stormwind_Help_from_LOR = {
+			allowed = {
+				original_tag = STO
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+		}
+
+		Stormwind_Help_from_ALT = {
+			allowed = {
+				original_tag = STO
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+		}
+
+		Stormwind_Help_from_KUL = {
+			allowed = {
+				original_tag = STO
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+		}
+
+		Stormwind_Help_from_DAL = {
+			allowed = {
+				original_tag = STO
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+		}
+
+		Stormwind_Help_from_STR = {
+			allowed = {
+				original_tag = STO
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+		}
+
+		Stormwind_Help_from_GIL = {
+			allowed = {
+				original_tag = STO
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+		}
+
+		Stormwind_First_War_Aid = {
+			allowed = {
+				original_tag = LOR
+				original_tag = STR
+				original_tag = ALT
+				original_tag = GIL
+				original_tag = KUL
+				original_tag = DAL
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				alliance_drift = 0.2
+			}
+		}
+
+	}
+
+###########################
+#Advisors
+###########################
+
+	advisor = {
+
+
+
+	}
+
+}

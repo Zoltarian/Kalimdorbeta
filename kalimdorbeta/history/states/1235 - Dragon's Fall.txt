@@ -1,0 +1,28 @@
+
+state={
+	id=1235
+	name="STATE_1235"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+		add_core_of = AZJ
+
+		620.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+
+	}
+
+	provinces={
+		10941 13429 13455 13460 13467 13477
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

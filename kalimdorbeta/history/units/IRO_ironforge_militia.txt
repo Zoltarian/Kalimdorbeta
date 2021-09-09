@@ -1,0 +1,101 @@
+division_template = {
+	name = "Ironforge Militia"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 2 y = 0 }
+		footman = { x = 2 y = 1 }
+		footman = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Ironforge Militia Pikes"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 2 y = 0 }
+		pikeman = { x = 2 y = 1 }
+		pikeman = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Ironforge Militia Archers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 2 y = 0 }
+		archer = { x = 2 y = 1 }
+		archer = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st Ironforge Militia"
+		location = 3793
+		division_template = "Ironforge Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Ironforge Militia"
+		location = 3817
+		division_template = "Ironforge Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Ironforge Militia"
+		location = 1024
+		division_template = "Ironforge Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Ironforge Militia Pikes"
+		location = 4063
+		division_template = "Ironforge Militia Pikes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Ironforge Militia Pikes"
+		location = 6104
+		division_template = "Ironforge Militia Pikes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Ironforge Militia Pikes"
+		location = 3780
+		division_template = "Ironforge Militia Pikes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Ironforge Militia Archers"
+		location = 3772
+		division_template = "Ironforge Militia Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2ndIronforge Militia Archers"
+		location = 3814
+		division_template = "Ironforge Militia Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Ironforge Militia Archers"
+		location = 1037
+		division_template = "Ironforge Militia Archers"
+		start_experience_factor = 0.2
+	}
+}

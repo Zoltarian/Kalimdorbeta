@@ -1,0 +1,40 @@
+
+state={
+	id=87
+	name="STATE_87"
+	resources={
+		ores=6
+		mounts=8
+		wood=2
+		wheat=5
+		eggs=4
+		mana=4
+	}
+
+	history={
+		owner = STP
+		victory_points = {
+			13674 30 
+		}
+		victory_points = {
+			13638 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			13638 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = STP
+
+	}
+
+	provinces={
+		10670 12968 13211 13638 13641 13642 13652 13653 13657 13658 13662 13664 13667 13670 13674 13678 13681 13682 13684 13686 13688 13690 13695 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

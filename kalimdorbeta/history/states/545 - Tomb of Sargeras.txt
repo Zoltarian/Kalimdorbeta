@@ -1,0 +1,30 @@
+
+state={
+	id=545
+	name="STATE_545"
+	resources={
+		mana=100.000
+	}
+
+	history={
+		
+		victory_points = {
+			6079 30 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = TMB
+
+	}
+
+	provinces={
+		6060 6067 6069 6072 6077 6079 6080 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

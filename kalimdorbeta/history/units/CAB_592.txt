@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Imps"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+division_template = {
+	name = "Cabal Warlocks"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+
+units = {
+	#grunts
+	division = {
+		name = "1st Imps"
+		location = 10707
+		division_template = "Imps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Imps"
+		location = 10707
+		division_template = "Imps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Warlocks"
+		location = 10707
+		division_template = "Cabal Warlocks"
+		start_experience_factor = 0.2
+	}
+	
+}

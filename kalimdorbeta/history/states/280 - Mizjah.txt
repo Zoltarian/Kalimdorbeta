@@ -1,0 +1,36 @@
+
+state={
+	id=280
+	name="STATE_280"
+	resources={
+		wood=12.000
+		oil=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			5574 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = BLO
+		617.1.1 = {
+			owner = MOC
+			controller = MOC
+			add_core_of = MOC
+
+		}
+
+	}
+
+	provinces={
+		121 1646 1647 2726 5346 5574 
+	}
+	manpower=21800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

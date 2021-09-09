@@ -1,0 +1,32 @@
+
+state={
+	id=1294
+	name="STATE_1294"
+	resources = {
+		wheat=6
+		mounts=3
+		ores=2
+	}
+
+	history={
+		owner = SPY
+		victory_points = {
+			10999 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = SPY
+
+	}
+
+	provinces={
+		10999 11809 11818
+	}
+	manpower=39000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

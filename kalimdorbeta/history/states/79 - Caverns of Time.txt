@@ -1,0 +1,33 @@
+
+state={
+	id=79
+	name="STATE_79"
+	resources={
+		ores=18.000
+		mana=106.000
+		mounts=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			9436 30 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 8
+
+		}
+		add_core_of = BRF
+
+	}
+
+	provinces={
+		9409 9413 9416 9423 9427 9429 9436 
+	}
+	manpower=79000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

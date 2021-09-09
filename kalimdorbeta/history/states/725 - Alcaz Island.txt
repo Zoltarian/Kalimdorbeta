@@ -1,0 +1,43 @@
+
+state={
+	id=725
+	name="STATE_725"
+	resources={
+		wood=7
+		ores=5
+		oil=6
+	}
+
+	history={
+		owner = MIR
+		victory_points = {
+			9121 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9114 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = MIR
+		617.1.1 = {
+			
+			controller = AZS
+			add_core_of = AZS
+			remove_core_of = MIR
+
+		}
+
+	}
+
+	provinces={
+		9109 9114 9118 9121 9126 9130 9134 
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

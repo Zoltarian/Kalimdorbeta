@@ -1,0 +1,44 @@
+
+state={
+	id=397
+	name="STATE_397"
+
+	resources={
+		wood =4.000
+		mounts=12.000
+	}
+
+	history={
+		
+		add_core_of = TSW
+
+		victory_points = {
+			951 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+		}
+
+		617.1.1 = {
+			
+			controller = TSW
+			add_core_of = TSW
+		}
+	}
+
+	provinces={
+		768 951 2659 2671 2677 2679 2683 2684
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

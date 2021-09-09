@@ -1,0 +1,33 @@
+
+state={
+	id=1320
+	name="STATE_1320"
+	resources = {
+		ores=4
+		wood=3
+	}
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+		victory_points = {
+			12099 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		
+		616.1.1 = {
+			owner = GRM
+			controller = GRM
+			add_core_of = GRM
+		}
+	}
+
+	provinces={
+		12008 12088 12092 12095 12096 12099 12103
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

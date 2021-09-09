@@ -1,0 +1,40 @@
+
+state={
+	id=1070
+	name="STATE_1070"
+	resources={
+		oil=4
+		mana=6
+	}
+
+	history={
+		
+		add_core_of = MOK
+
+		victory_points = {
+			10578 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10578 = {
+				naval_base = 1
+			}
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = MOK
+		}
+	}
+
+	provinces={
+		876 8672 10577 10578
+	}
+	manpower=7600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

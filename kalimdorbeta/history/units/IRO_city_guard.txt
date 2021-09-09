@@ -1,0 +1,29 @@
+division_template = {
+	name = "City Guard"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 2 y = 0 }
+		footman = { x = 2 y = 1 }
+		footman = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st City Guard"
+		location = 3793
+		division_template = "City Guard"
+		start_experience_factor = 0.2
+		}	
+	division = {
+		name = "2nd City Guard"
+		location = 3793
+		division_template = "City Guard"
+		start_experience_factor = 0.2
+		}
+}

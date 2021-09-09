@@ -1,0 +1,31 @@
+
+state={
+	id=1165
+	name="STATE_1165"
+	resources = {
+		oil=5
+		ores=4
+		mana=2
+	}
+
+	history={
+		owner = ZUK
+		victory_points = {
+			11334 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = ZUK
+
+	}
+
+	provinces={
+		807 6846 11327 11328 11333 11334 11338 11339 11345 11346 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1508
+	name="STATE_1508"
+	resources = {
+		wheat=7
+		ores=5
+		wood=7
+	}
+
+	history={
+		owner = FSY
+		victory_points = {
+			11371 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = FSY
+
+	}
+
+	provinces={
+		11349 11351 11359 11360 11371 
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,297 @@
+guiTypes = {
+	containerWindowType = {
+		name = "religion_conversion_message_bg"
+		position = { x = 0 y = 0 }
+		size = { width=100%% height=100%% }
+
+		gridboxtype = {
+			name = "religion_conversion_check_popup_window_list"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			slotsize = { width = 0 height = 0 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+		gridboxtype = {
+			name = "religion_conversion_cancel_popup_window_list"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			slotsize = { width = 0 height = 0 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+		gridboxtype = {
+			name = "religion_conversion_complete_popup_window_list"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			slotsize = { width = 0 height = 0 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+	}
+
+	containerWindowType = {
+		name = "religion_conversion_check_popup_bg_window"
+		position = { x = 0 y = 0 }
+		size = { width=100%% height=100%% }
+
+		containerWindowType = {
+			name = "religion_conversion_check_popup_window"
+			position = { x = -225 y = -160 }
+			size = { width = 500 height = 260 }
+			orientation= center
+			moveable = yes
+			fade_time = 200
+			fade_type = linear
+			#show_sound = research_complete
+			hide_sound = menu_close_window
+			click_to_front = yes
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_bg"
+			}
+
+			iconType = {
+				name ="diplo_popup_header_bg"
+				spriteType = "GFX_diplo_popup_header_bg"
+				position = { x= 1 y = 8 }
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "title"
+				position = { x = 98 y = 29 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "RELIGION_CONVERSION_CHECK_POPUP_TITLE"
+				format = center
+				maxWidth = 300
+				maxHeight = 24
+			}
+
+			instantTextBoxType = {
+				name = "tech_name"
+				position = { x = 70 y = 90 }
+				font = "hoi_18mbs"
+				text = "RELIGION_CONVERSION_CHECK_POPUP_DESC"
+				maxWidth = 360
+				maxHeight = 120
+				format = center
+			}
+
+			iconType = {
+				name ="diplo_popup_bottom"
+				spriteType = "GFX_diplo_popup_bottom"
+				position = { x= 3 y = 189 }
+			}
+
+			buttonType = {
+				name = "religion_conversion_check_cancel_button"
+				position = { x=40 y = 203}
+				quadTextureSprite ="GFX_button_123x34"
+				buttonText = "CANCEL"
+				buttonFont = "hoi_16mbs"
+				shortcut = "ESCAPE"
+				clicksound = click_close
+			}
+
+			buttonType = {
+				name = "religion_conversion_check_ok_button"
+				position = { x=340 y =203}
+				quadTextureSprite ="GFX_button_123x34"
+				buttonText = "OK"
+				buttonFont = "hoi_16mbs"
+				shortcut = "RETURN"
+				clicksound = click_default
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "religion_conversion_cancel_popup_bg_window"
+		position = { x = 0 y = 0 }
+		size = { width=100%% height=100%% }
+
+		containerWindowType = {
+			name = "RELIGION_CONVERSION_CANCEL_popup_window"
+			position = { x = -225 y = -160 }
+			size = { width = 500 height = 260 }
+			orientation= center
+			moveable = yes
+			fade_time = 200
+			fade_type = linear
+			#show_sound = research_complete
+			hide_sound = menu_close_window
+			click_to_front = yes
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_bg"
+			}
+
+			iconType = {
+				name ="diplo_popup_header_bg"
+				spriteType = "GFX_diplo_popup_header_bg"
+				position = { x= 1 y = 8 }
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "title"
+				position = { x = 98 y = 29 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "RELIGION_CONVERSION_CANCEL_POPUP_TITLE"
+				format = center
+				maxWidth = 300
+				maxHeight = 24
+			}
+
+			instantTextBoxType = {
+				name = "tech_name"
+				position = { x = 70 y = 90 }
+				font = "hoi_18mbs"
+				text = "RELIGION_CONVERSION_CANCEL_POPUP_DESC"
+				maxWidth = 360
+				maxHeight = 120
+				format = center
+			}
+
+			iconType = {
+				name ="diplo_popup_bottom"
+				spriteType = "GFX_diplo_popup_bottom"
+				position = { x= 3 y = 189 }
+			}
+
+			buttonType = {
+				name = "religion_conversion_cancel_cancel_button"
+				position = { x=40 y = 203}
+				quadTextureSprite ="GFX_button_123x34"
+				buttonText = "CANCEL"
+				buttonFont = "hoi_16mbs"
+				shortcut = "ESCAPE"
+				clicksound = click_close
+			}
+
+			buttonType = {
+				name = "religion_conversion_cancel_ok_button"
+				position = { x=340 y =203}
+				quadTextureSprite ="GFX_button_123x34"
+				buttonText = "OK"
+				buttonFont = "hoi_16mbs"
+				shortcut = "RETURN"
+				clicksound = click_default
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "religion_conversion_complete_popup_bg_window"
+		position = { x = 0 y = 0 }
+		size = { width=100%% height=100%% }
+
+		containerWindowType = {
+			name = "religion_conversion_complete_popup_window"
+			position = { x = -225 y = -160 }
+			size = { width = 500 height = 320 }
+			orientation= center
+			moveable = yes
+			fade_time = 200
+			fade_type = linear
+			show_sound = diplomatic_notification
+			hide_sound = menu_close_window
+			click_to_front = yes
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_bg"
+			}
+
+			iconType = {
+				name ="diplo_popup_header_bg"
+				spriteType = "GFX_diplo_popup_header_bg"
+				position = { x= 3 y = 8 }
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "title"
+				position = { x = 110 y = 36 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "RELIGION_CONVERSION_COMPLETE_POPUP_TITLE"
+				maxWidth = 280
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+			}
+
+			iconType = {
+				name = "sender_flag"
+				quadTextureSprite ="GFX_flag_small2"
+				position = { x= 24 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="sender_flag_frame"
+				spriteType = "GFX_diplo_countrylist_flag_frame"
+				position = { x= 20 y = 26 }
+			}
+
+			iconType = {
+				name = "receiver_flag"
+				quadTextureSprite ="GFX_flag_small2"
+				position = { x= 434 y = 29 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="receiver_flag_frame"
+				spriteType = "GFX_diplo_countrylist_flag_frame"
+				position = { x= 431 y = 26 }
+			}
+
+			instantTextBoxType = {
+				name = "message"
+				position = { x = 27 y = 90 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "RELIGION_CONVERSION_COMPLETE_POPUP_DESC"
+				maxWidth = 438
+				maxHeight = 150
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+
+			iconType = {
+				name ="diplo_popup_bottom"
+				spriteType = "GFX_diplo_popup_bottom"
+				position = { x= 3 y = 249 }
+			}
+
+			buttonType = {
+				name = "religion_conversion_complete_goto_button"
+				position = { x=80 y =265}
+				quadTextureSprite ="GFX_button_123x34"
+				buttonText = "Goto"
+				buttonFont = "hoi_18mbs"
+				shortcut = "ESCAPE"
+			}
+
+			buttonType = {
+				name = "religion_conversion_complete_ok_button"
+				position = { x=280 y =265}
+				quadTextureSprite ="GFX_button_123x34"
+				buttonText = "OK"
+				buttonFont = "hoi_18mbs"
+				shortcut = "RETURN"
+			}
+		}
+	}
+}

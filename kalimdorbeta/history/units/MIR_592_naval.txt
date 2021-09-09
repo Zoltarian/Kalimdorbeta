@@ -1,0 +1,19 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Mirefin Transport Fleet"			
+		naval_base = 9129
+		task_force = {
+			name = "Mirefin Transport Fleet"			
+			location = 9129
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MIR } }
+			}
+			
+		}
+	}
+}

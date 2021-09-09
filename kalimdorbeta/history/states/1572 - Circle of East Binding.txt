@@ -1,0 +1,28 @@
+
+state={
+	id=1572
+	name="STATE_1572"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+
+		add_core_of = STR
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		606 608 2021 2025 2052 2055 2060 2062
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

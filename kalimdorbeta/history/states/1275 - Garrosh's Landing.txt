@@ -1,0 +1,28 @@
+
+state={
+	id=1275
+	name="STATE_1275"
+
+	history={
+		
+		add_core_of = KLK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		620.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+
+	}
+
+	provinces={
+		3098 6395 10971
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

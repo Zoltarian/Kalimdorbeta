@@ -1,0 +1,37 @@
+
+state={
+	id=1318
+	name="STATE_1318"
+
+	resources={
+		wheat = 1
+		ores = 6
+		wood = 3
+	}
+
+	history={
+		owner = WSH
+		add_core_of = WSH
+		victory_points = {
+			12183 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+		616.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+		}
+	}
+
+	provinces={
+		12013 12165 12177 12183 12188 12195 12201 12217
+	}
+	manpower=4700
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Bladespire Brutes"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Bladespire Brutes"
+		location = 6110
+		division_template = "Bladespire Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bladespire Brutes"
+		location = 5903
+		division_template = "Bladespire Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bladespire Brutes"
+		location = 6110
+		division_template = "Bladespire Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bladespire Brutes"
+		location = 6110
+		division_template = "Bladespire Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Bladespire Brutes"
+		location = 5903
+		division_template = "Bladespire Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Bladespire Brutes"
+		location = 5903
+		division_template = "Bladespire Brutes"
+		start_experience_factor = 0.2
+	}
+	
+}

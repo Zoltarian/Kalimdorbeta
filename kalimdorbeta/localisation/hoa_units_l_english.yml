@@ -1,0 +1,218 @@
+﻿l_english:
+
+########################
+#categorys
+########################
+ category_hoa_army:0 "Ground Units"
+ category_hoa_infantry:0 "Infantry Units"
+ category_infantry_idea_and_mounted:0 "Infantry & Mounted Infantry Units"
+ category_hoa_frontline_units:0 "Frontline Units"
+ category_hoa_support_units:0 "Support Units"
+ category_hoa_siege_units:0 "Siege Units"
+ category_spellcasters:0 "Spellcaster Units"
+ category_spellcasters_and_siege:0 "Siege & Spellcaster Units"
+
+ category_hoa_all_cavalry:0 "Cavalry Units"
+ category_hoa_light_cavalry:0 "Mounted Infantry Units"
+ category_hoa_heavy_cavalry:0 "Heavy Cavalry Units"
+
+########################
+#Human admin tree
+########################
+ peasant:0 "Peasant"
+ peasant_desc:0 "Peasants accompany soldiers into battle to construct the necessary infrastructure for our armies."
+ militia:0 "Militia"
+ militia_desc:0 "An armed peasant, Militia are the cheapest unit in the Human arsenal. Good for quick or emergency situations militia are also excellent at suppressing rebellions."
+ blacksmith_unit:0 "Blacksmith"
+ blacksmith_unit_desc:0 "Blacksmiths who accompany the army to battle will allow us to salvage minor damage to armor and weapons so our soldiers can return to service, saving resources at home."
+ rogue:0 "Rogue"
+ rogue_desc:0 "Rogues gather intel about our enemies before battle allowing us to catch them off-guard."
+
+########################
+#Human infnatry tree
+########################
+ footman:0 "Footman"
+ footman_desc:0 "Footmen are the backbone of any army. They utilize broadswords and durable shields to control the battlefield."
+ captain:0 "Captain"
+ captain_desc:0 "Captains stand beside regular troops relaying orders from generals and keeping morale high."
+ pikeman:0 "Pikeman"
+ pikeman_desc:0 "A subclass of Footmen, Pikemen specialize in combat against cavalry and large monsters."
+ guard:0 "Guard"
+ guard_desc:0 "Guards keep cities protected from revolts and suppress other races."
+ archer:0 "Archer"
+ archer_desc:0 "Archers are equipped with powerful bows that can reach enemies at a distance. In addition to providing support to the infantry, they are specially trained in targeting enemy air units."
+ archer_support:0 "Archer (Support)"
+ archer_support_desc:0 "Archers are equipped with powerful bows that can reach enemies at a distance. In addition to providing support to the infantry, they are specially trained in targeting enemy air units."
+ mage:0 "Mage"
+ mage_desc:0 "Mage"
+ mage_support:0 "Mage (Support)"
+ mage_support_desc:0 "0 "Mage (Support)"
+ priest:0 "Priest"
+ priest_desc:0 "Priests accompany our soldiers to battle healing wounds to keep our soldiers in battle longer."
+
+########################
+#Human Cavalry tree
+########################
+ knight:0 "Knight"
+ knight_desc:0 "Knights are the elite soldiers of the king's army. They are equipped with hardened steel armor and ride on strong warhorses to meet their foe. They have excellent defensive capabilities and can easily break through enemy lines."
+
+ mounted_footman:0 "Mounted Footman"
+ mounted_footman_desc:0 "Mounted Footmen are excellent for harassing the enemy, however, they lack the stronger armor of knights."
+
+
+########################
+#Human siege engine
+########################
+ catapult:0 "Catapult"
+ catapult_desc:0 "Catapults are siege units and among the most powerful weapons in the King's arsenal. Their powerful shots can devastate entrenched enemies or fortifications."
+ catapult_support:0 "Catapult (Support)"
+ catapult_support_desc:0 "Catapults are siege units and among the most powerful weapons in the King's arsenal. Their powerful shots can devastate entrenched enemies or fortifications."
+
+ horse_drawn_catapult:0 "Horse-Drawn Catapult"
+ horse_drawn_catapult_desc:0 "Horse-Drawn Catapults are to be used in mounted armies as to not slow down the division."
+ supply_wagon:0 "Supply Wagon"
+ supply_wagon_desc:0 "Supply Wagons guarantee that our armies stay well-supplied no matter how long we march and fight."
+ 
+#might want for dwarfs
+#hoa_siege_tank:0 "Siege Tank"
+#hoa_siege_tank_desc:0 "Siege Tanks are the ultimate defense and will stop any army in its tracks."
+
+########################
+#Human Heroic Units
+########################
+ royal_guard:0 "Royal Guard"
+ royal_guard_desc:0 "Royal Guards are veterans of combat that won't give the enemy a inch in a defensive formation."
+ paladin:0 "Paladin"
+ paladin_desc:0 "Paladins are masters of the saddle and can only be matched by wielders of unholy magic."
+ arch_mage:0 "Archmage"
+ arch_mage_desc:0 "Archmages wield destructive magical powers capable of leveling cities, but are vulnerable to all types of troops."
+
+
+###############################################################
+#Orc
+###############################################################
+
+########################
+#orc admin tree
+########################
+ peon:0 "Peon"
+ peon_desc:0 "Peon"
+ forge_master:0 "Forge Master"
+ forge_master_desc:0 "Forge Master"
+
+########################
+#orc infantry tree
+########################
+ grunt:0 "Grunt"
+ grunt_desc:0 "Grunt"
+ overseer:0 "Overseer"
+ overseer_desc:0 "Overseer"
+ spearman:0 "Spearman"
+ spearman_desc:0 "Spearman"
+ dire_orc:0 "Dire Orc"
+ dire_orc_desc:0 "Dire Orc"
+ warlock:0 "Warlock"
+ warlock_desc:0 "Warlock"
+ necrolyte:0 "Necrolyte"
+ necrolyte_desc:0 "Necrolyte"
+ shaman:0 "Shaman"
+ shaman_desc:0 "Shaman"
+ restoration_shaman:0 "Restoration Shaman"
+ restoration_shaman_desc:0 "Restoration Shaman"
+
+########################
+#orc cavalry tree
+########################
+ dire_wolf:0 "Dire Wolf"
+ dire_wolf_desc:0 "Dire Wolf"
+ raider:0 "Raider"
+ raider_desc:0 "Raider"
+ outrider:0 "Outrider"
+ outrider_desc:0 "Outrider"
+########################
+#orc siege weapons tree
+########################
+ demolisher:0 "Demolisher"
+ demolisher_desc:0 "Demolisher"
+ orc_catapult:0 "Catapult"
+ orc_catapult_desc:0 "Catapult"
+
+########################
+#orc support tree
+########################
+ blade_master:0 "Blademaster"
+ blade_master_desc:0 "Blademaster"
+ warlord:0 "Warlord"
+ warlord_desc:0 "Warlord"
+ orc_death_knight:0 "Death Knight"
+ orc_death_knight_desc:0 "Death Knight"
+ far_seer:0 "Farseer"
+ far_seer_desc:0 "Farseer"
+
+###############################################################
+#Dragon
+###############################################################
+
+########################
+#dragon admin tree
+########################
+ peon:0 "Peon"
+ peon_desc:0 "Peon"
+ forge_master:0 "Forge Master"
+ forge_master_desc:0 "Forge Master"
+
+########################
+#dragon ground tree
+########################
+ whelp:0 "Whelp"
+ whelp_desc:0 "Whelp"
+ dragonspawn:0 "Dragonspawn"
+ dragonspawn_desc:0 "Dragonspawn"
+ dragonspawn_sorceress:0 "Dragonspawn Sorceress"
+ dragonspawn_sorceress_desc:0 "Dragonspawn Sorceress"
+ drakonid:0 "Drakonid"
+ drakonid_desc:0 "Drakonid"
+ dragon:0 "Dragon"
+ dragon_desc:0 "Dragon"
+
+#######################
+#Jade
+#######################
+jade_tiger:0 "Jade Tiger"
+jade_tiger_tech_desc:0 ""
+
+#######################
+#old stuff
+#######################
+# may be used later
+#hoa_faceless_ones:0 "Faceless One"
+#hoa_faceless_ones_desc:0 "The N'raqi, sometimes called 'Faceless Ones', are a ancient, shambling race of monstrosities birthed from the very flesh of the old gods: They are powerful fighters and will crush anything in their way."
+#hoa_summoned_demons:0 "Summoned Demons"
+#hoa_summoned_demons_desc:0 "Ered'ruin, Aranasi, Mo'arg and countless other species make up what are referred to as 'demons'. Stronger than an average mortal and effectively immortal, these creatures can turn the tide of a battle in the name of the Legion."
+
+#######################
+#ships
+#######################
+destroyer:0 "Destroyer"
+submarine:0 "Submarine"
+light_frigate:0 "Light Frigate"
+heavy_frigate:0 "Heavy Frigate"
+juggernaught:0 "Juggernaught"
+battleship:0 "Battleship"
+dreadnaught:0 "Dreadnaught"
+carrier:0 "Carrier"
+
+########################
+#aircraft
+########################
+
+fighter:0 "Fighter"
+fighter_desc:0 "Fighter"
+cas:0 "Close Air Support"
+cas_desc:0 ""
+bomber:0 "Bomber"
+bomber_desc:0 ""
+naval_bomber:0 "Naval Bomber"
+naval_bomber_desc:0 ""
+air_transport:0 "Air Transport"
+air_transport_desc:0 ""

@@ -1,0 +1,39 @@
+
+state={
+	id=985
+	name="STATE_985"
+	resources={
+		oil=16
+		ores=6
+		gunpowder=4
+	}
+
+	history={
+		owner = WWT
+		add_core_of = WWT
+
+		victory_points = {
+			10348 10
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+		}
+		
+		617.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+		}
+	}
+
+	provinces={
+		2160 5339 10272 10275 10281 10285 10297 10301 10302 10311 10313 10315 10321 10325 10326 10334 10341 10343 10344 10348 10354
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

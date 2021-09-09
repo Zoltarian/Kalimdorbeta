@@ -1,0 +1,26 @@
+death_generic_historical = {
+	name = "Death generic plan"
+	desc = "Default focus tree death plan"
+
+	enable = {
+		is_historical_focus_on = yes
+		death > 0.5
+	}
+
+	ai_national_focuses = {
+		serving_higher_powers
+		in_service_of_death
+	}
+
+	focus_factors = {
+		pick_a_side = 0
+		stay_neutral = 0
+	}
+
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

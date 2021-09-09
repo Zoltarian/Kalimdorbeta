@@ -1,0 +1,31 @@
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		ores=32.000
+		gunpowder=4.000
+	}
+
+	history={
+		victory_points = {
+			173 25 
+		}
+		
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 5
+
+		}
+		add_core_of = VIL
+
+	}
+
+	provinces={
+		173 1109 1110 3821 3822 3824 3826 3828 3830 3831 3836 3839 3841 3843 3846 3854 3861 3869 3872 3878 5308 5309 5311 5312 5392 
+	}
+	manpower=130975
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

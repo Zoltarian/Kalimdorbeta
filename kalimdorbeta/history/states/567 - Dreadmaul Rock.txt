@@ -1,0 +1,35 @@
+
+state={
+	id=567
+	name="STATE_567"
+
+	history={
+		
+		victory_points = {
+			4640 15
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+		617.1.1 = {
+			owner = FGC
+			controller = FGC
+			add_core_of = FGC
+		}
+	}
+
+	provinces={
+		915 4601 4607 4613 4614 4625 4626 4627 4629 4640 4642 4648 4652 4657
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

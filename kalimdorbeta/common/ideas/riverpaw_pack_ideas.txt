@@ -1,0 +1,92 @@
+ideas = {
+
+	country = {
+	
+		RPP_aftermath_of_the_gnoll_wars = {
+
+		picture = generic_race_gnoll
+
+			allowed = {
+				original_tag = RPP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.25
+				conscription_factor = -0.1
+			}
+
+		}
+		
+		RPP_caravan_raids = {
+
+		picture = generic_race_gnoll
+
+			allowed = {
+				original_tag = RPP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+					footman = {
+                    build_cost_ic = -0.25 instant = yes				
+                }
+			}
+			
+			modifier = {
+				research_speed_factor = -0.15
+			}
+
+		}
+		
+		RPP_scattered_tribe = {
+
+		picture = generic_race_gnoll
+
+			allowed = {
+				original_tag = RPP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.5
+				conscription_factor = -0.1
+			}
+
+		}
+		
+		RPP_clever_minds = {
+
+		picture = generic_race_gnoll
+
+			allowed = {
+				original_tag = RPP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.75
+			}
+
+		}
+		
+	}
+	
+	advisor = {
+
+	}
+	
+}

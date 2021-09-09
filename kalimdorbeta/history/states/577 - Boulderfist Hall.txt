@@ -1,0 +1,35 @@
+
+state={
+	id=577
+	name="STATE_577" #Arathi Hollow/ Boulderfist Hall
+	resources={
+		ores=28.000
+	}
+
+	history={
+		
+		victory_points = {
+			5123 10
+		}
+		add_core_of = STR
+		add_core_of = WBT
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		
+		617.1.1 = {
+			
+			controller = BFC
+			add_core_of = BFC
+		}
+	}
+
+	provinces={
+		1136 1995 1996 1997 1998 1999 2030 5123
+	}
+	manpower=8175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

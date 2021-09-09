@@ -1,0 +1,490 @@
+﻿l_english:
+
+###################################################
+# Localisation for all shared research trees
+# (Doctrines, naval, etc...)
+# Race specific research trees have their own files
+###################################################
+
+#######################################
+# tier/dlc requirements
+#######################################
+ tier_2_tech:0 "Tier 2"
+ tier_3_tech:0 "Tier 3"
+ man_the_guns_dlc_tech:0 "Man the Guns DLC"
+
+ lumber_mill_tech_global:0 "Lumber Mill Tech"
+
+#######################################
+# Naval Research Tree
+#######################################
+
+ naval_facilities:0 "Naval Facilities"
+ naval_facilities_desc:0 "Separated into 2 facilities, §Yshipyards§! allow us to dock our active naval vessels and import supplies. While §Ydockyards§! allows us to produce and deploy naval vessels."
+
+ small_frames:0 "Small Frames"
+ small_frames_desc:0 "The first step in shipbuilding will be to familiarize ourselves with smaller boat frames."
+
+ destroyer_tech_1:0 "Destroyer I"
+
+ destroyer_equipment:0 "Destroyers"
+ destroyer_equipment_desc:0 "Destroyers are the smallest and quickest ships in our arsenal, excelling at recon tasks."
+ destroyer_equipment_1:0 "Destroyer I"
+ destroyer_equipment_1_desc:0 "Destroyers are the smallest and quickest ships in our arsenal, excelling at recon tasks."
+ destroyer_equipment_2:0 "Destroyer II"
+ destroyer_equipment_2_desc:0 "Destroyers are the smallest and quickest ships in our arsenal, excelling at recon tasks."
+ destroyer_equipment_3:0 "Destroyer III"
+ destroyer_equipment_3_desc:0 "Destroyers are the smallest and quickest ships in our arsenal, excelling at recon tasks."
+ destroyer_equipment_4:0 "Destroyer IV"
+ destroyer_equipment_4_desc:0 "Destroyers are the smallest and quickest ships in our arsenal, excelling at recon tasks."
+
+ submarine_equipment:0 "Submarines"
+ submarine_equipment_desc:0 "A recent invention that grants us a kind of warfare that has so far been inconceivable: From below the waves!"
+ submarine_equipment_1:0 "Submarine I"
+ submarine_equipment_1_desc:0 "A recent invention that grants us a kind of warfare that has so far been inconceivable: From below the waves!"
+ submarine_equipment_2:0 "Submarine II"
+ submarine_equipment_2_desc:0 "A recent invention that grants us a kind of warfare that has so far been inconceivable: From below the waves!"
+ submarine_equipment_3:0 "Submarine III"
+ submarine_equipment_3_desc:0 "A recent invention that grants us a kind of warfare that has so far been inconceivable: From below the waves!"
+ submarine_equipment_4:0 "Submarine IV"
+ submarine_equipment_4_desc:0 "A recent invention that grants us a kind of warfare that has so far been inconceivable: From below the waves!"
+
+ submarine_snorkel_1:0 "Submarine Snorkel I"
+ submarine_snorkel_1_desc:0 "A gadget to help us stay underwater longer, making the submarine harder to find."
+ submarine_snorkel_2:0 "Submarine Snorkel II"
+ submarine_snorkel_2_desc:0 "A gadget to help us stay underwater longer, making the submarine harder to find.""
+
+ light_frigate_equipment:0 "Light Frigates"
+ light_frigate_equipment_desc:0 "Light Frigates are bigger than the tiny Destroyers, but in comparison to other ship types still quite nimble."
+ light_frigate_equipment_1:0 "Light Frigate I"
+ light_frigate_equipment_1_desc:0 "Light Frigates are bigger than the tiny Destroyers, but in comparison to other ship types still quite nimble."
+ light_frigate_equipment_2:0 "Light Frigate II"
+ light_frigate_equipment_2_desc:0 "Light Frigates are bigger than the tiny Destroyers, but in comparison to other ship types still quite nimble."
+ light_frigate_equipment_3:0 "Light Frigate III"
+ light_frigate_equipment_3_desc:0 "Light Frigates are bigger than the tiny Destroyers, but in comparison to other ship types still quite nimble."
+ light_frigate_equipment_4:0 "Light Frigate IV"
+ light_frigate_equipment_4_desc:0 "Light Frigates are bigger than the tiny Destroyers, but in comparison to other ship types still quite nimble."
+
+ heavy_frigate_equipment:0 "Heavy Frigates"
+ heavy_frigate_equipment_desc:0 "The Heavy Frigate is the only small-framed ship that can fight heavy ships somewhat efficiently."
+ heavy_frigate_equipment_1:0 "Heavy Frigate I"
+ heavy_frigate_equipment_1_desc:0 "The Heavy Frigate is the only small-framed ship that can fight heavy ships somewhat efficiently."
+ heavy_frigate_equipment_2:0 "Heavy Frigate II"
+ heavy_frigate_equipment_2_desc:0 "The Heavy Frigate is the only small-framed ship that can fight heavy ships somewhat efficiently."
+ heavy_frigate_equipment_3:0 "Heavy Frigate III"
+ heavy_frigate_equipment_3_desc:0 "The Heavy Frigate is the only small-framed ship that can fight heavy ships somewhat efficiently."
+ heavy_frigate_equipment_4:0 "Heavy Frigate IV"
+ heavy_frigate_equipment_4_desc:0 "The Heavy Frigate is the only small-framed ship that can fight heavy ships somewhat efficiently."
+
+ naval_transport_1:0 "Naval Transport I"
+ naval_transport_1_desc:0 "One of the most basic naval vessels, transports are required to ferry our troops across the great seas."
+ naval_transport_2:0 "Naval Transport II"
+ naval_transport_2_desc:0 "Further improvements to the size of our transport vessels will improved our naval invasion capabilities."
+ naval_transport_3:0 "Naval Transport III"
+ naval_transport_3_desc:0 "Further improvements to the size of our transport vessels will improved our naval invasion capabilities."
+ naval_transport_4:0 "Naval Transport IV"
+ naval_transport_4_desc:0 "Further improvements to the size of our transport vessels will improved our naval invasion capabilities."
+
+ large_frames:0 "Large Frames"
+ large_frames_desc:0 "Larger Frames enable us to build ship types of a wholly different magnitude."
+
+ juggernaught_tech_1:0 "Juggernaught I"
+
+ juggernaught_equipment:0 "Juggernaughts"
+ juggernaught_equipment_desc:0 "The smallest of the large ships, the Juggernaught is a more durable variation of the Heavy Frigate."
+ juggernaught_equipment_1:0 "Juggernaught I"
+ juggernaught_equipment_1_desc:0 "The smallest of the large ships, the Juggernaught is a more durable variation of the Heavy Frigate."
+ juggernaught_equipment_2:0 "Juggernaught II"
+ juggernaught_equipment_2_desc:0 "The smallest of the large ships, the Juggernaught is a more durable variation of the Heavy Frigate."
+ juggernaught_equipment_3:0 "Juggernaught III"
+ juggernaught_equipment_3_desc:0 "The smallest of the large ships, the Juggernaught is a more durable variation of the Heavy Frigate."
+ juggernaught_equipment_4:0 "Juggernaught IV"
+ juggernaught_equipment_4_desc:0 "The smallest of the large ships, the Juggernaught is a more durable variation of the Heavy Frigate."
+
+ battleship_equipment:0 "Battleships"
+ battleship_equipment_desc:0 "The Battleship is the first of our vessels to be a true heavyweight, capable of dealing and withstanding damage on a whole new level."
+ battleship_equipment_1:0 "Battleship I"
+ battleship_equipment_1_desc:0 "The Battleship is the first of our vessels to be a true heavyweight, capable of dealing and withstanding damage on a whole new level."
+ battleship_equipment_2:0 "Battleship II"
+ battleship_equipment_2_desc:0 "The Battleship is the first of our vessels to be a true heavyweight, capable of dealing and withstanding damage on a whole new level."
+ battleship_equipment_3:0 "Battleship III"
+ battleship_equipment_3_desc:0 "The Battleship is the first of our vessels to be a true heavyweight, capable of dealing and withstanding damage on a whole new level."
+ battleship_equipment_4:0 "Battleship IV"
+ battleship_equipment_4_desc:0 "The Battleship is the first of our vessels to be a true heavyweight, capable of dealing and withstanding damage on a whole new level."
+
+ dreadnaught_equipment:0 "Dreadnaughts"
+ dreadnaught_equipment_desc:0 "Dreadnaughts are an even heavier variety of the Battleship, behaving less like a ship and more like a floating fortress."
+ dreadnaught_equipment_1:0 "Dreadnaught I"
+ dreadnaught_equipment_1_desc:0 "Dreadnaughts are an even heavier variety of the Battleship, behaving less like a ship and more like a floating fortress."
+ dreadnaught_equipment_2:0 "Dreadnaught II"
+ dreadnaught_equipment_2_desc:0 "Dreadnaughts are an even heavier variety of the Battleship, behaving less like a ship and more like a floating fortress."
+ dreadnaught_equipment_3:0 "Dreadnaught III"
+ dreadnaught_equipment_3_desc:0 "Dreadnaughts are an even heavier variety of the Battleship, behaving less like a ship and more like a floating fortress."
+ dreadnaught_equipment_4:0 "Dreadnaught IV"
+ dreadnaught_equipment_4_desc:0 "Dreadnaughts are an even heavier variety of the Battleship, behaving less like a ship and more like a floating fortress."
+
+ carrier_equipment:0 "Carriers"
+ carrier_equipment_1:0 "Carrier I"
+ carrier_equipment_1_desc:0 "As the name suggests, Carriers fulfill a special role in our navy: Bringing our flyers into naval combat."
+ carrier_equipment_2:0 "Carrier II"
+ carrier_equipment_2_desc:0 "As the name suggests, Carriers fulfill a special role in our navy: Bringing our flyers into naval combat."
+ carrier_equipment_3:0 "Carrier III"
+ carrier_equipment_3_desc:0 "As the name suggests, Carriers fulfill a special role in our navy: Bringing our flyers into naval combat."
+ carrier_equipment_4:0 "Carrier IV"
+ carrier_equipment_4_desc:0 "As the name suggests, Carriers fulfill a special role in our navy: Bringing our flyers into naval combat."
+
+ naval_academy:0 "Naval Academy"
+ naval_academy_desc:0 "Our naval officers need a proper institution in which they can discuss and teach strategies and tactics."
+
+ navigator_tech:0 "Navigator"
+ navigator_tech_desc:0 "Navigators help our crews to take the easiest routes and plot the best courses."
+ navigator_tech_training_1:0 "Navigator Training I"
+ navigator_tech_training_1_desc:0 "There are a lot of factors at play when directing a ship, these need to be understood and practised at our academy."
+ navigator_tech_training_2:0 "Navigator Training II"
+ navigator_tech_training_2_desc:0 "There are a lot of factors at play when directing a ship, these need to be understood and practised at our academy."
+ navigator_tech_training_3:0 "Navigator Training III"
+ navigator_tech_training_3_desc:0 "There are a lot of factors at play when directing a ship, these need to be understood and practised at our academy."
+
+ spotter_tech:0 "Spotter"
+ spotter_tech_desc:0 "Spotters are not concerned with general navigation, but with identifyting hostile ships as early as possible."
+ spotter_tech_training_1:0 "Spotter Training I"
+ spotter_tech_training_1_desc:0 "Our academy can train Spotters to look for the most subtle hints of enemy presence in the water."
+ spotter_tech_training_2:0 "Spotter Training II"
+ spotter_tech_training_2_desc:0 "Our academy can train Spotters to look for the most subtle hints of enemy presence in the water."
+ spotter_tech_training_3:0 "Spotter Training III"
+ spotter_tech_training_3_desc:0 "Our academy can train Spotters to look for the most subtle hints of enemy presence in the water."
+
+ deckhand_tech:0 "Deckhand"
+ deckhand_tech_desc:0 "Even the simple crewmen need to be chosen carefully, seeing as we depend on their strength of character as much as their technical skill to keep our ships afloat in the most dire circumstances."
+ deckhand_tech_training_1:0 "Deckhand Training I"
+ deckhand_tech_training_1_desc:0 "Deckhands can profit greatly from being taught about basic naval engineering, encompassing the fields of geometry, mechanics and kinetics."
+ deckhand_tech_training_2:0 "Deckhand Training II"
+ deckhand_tech_training_2_desc:0 "Deckhands can profit greatly from being taught about basic naval engineering, encompassing the fields of geometry, mechanics and kinetics."
+ deckhand_tech_training_3:0 "Deckhand Training III"
+ deckhand_tech_training_3_desc:0 "Deckhands can profit greatly from being taught about basic naval engineering, encompassing the fields of geometry, mechanics and kinetics."
+
+ oil_refinery:0 "Oil Refinery"
+ oil_refinery_desc:0 "The seas are rich in oil, a most valuable resource! We need to establish refineries to process it."
+ oil_tanker_1:0 "Oil Tanker"
+ oil_tanker_1_desc:0 "Tankers are used to both pump oil themselves and also transport it to where it needs to go, raising the efficiency of our refineries."
+ oil_tanker_2:0 "Improved Oil Tanker I"
+ oil_tanker_2_desc:0 "More storage and better pumps can increase the throughput of our tankers."
+ oil_tanker_3:0 "Improved Oil Tanker II"
+ oil_tanker_3_desc:0 "More storage and better pumps can increase the throughput of our tankers."
+ oil_tanker_4:0 "Improved Oil Tanker III"
+ oil_tanker_4_desc:0 "More storage and better pumps can increase the throughput of our tankers."
+
+ foundry:0 "Foundry"
+ foundry_desc:0 "The Foundry is a dedicated naval workshop where we can construct better cannons."
+
+ naval_cannons:0 "Naval Cannons"
+ naval_cannons_desc:0 "Ships of different sizes need the right calibre of cannon to be most effective."
+
+ light_canon_1:0 "Light Cannons I"
+ light_canon_1_desc:0 "Smaller Cannons can easily be loaded with a wide variety of specialized ammunition like grapshot or chainshot, giving our ships more tactical options."
+ light_canon_2:0 "Light Cannons II"
+ light_canon_2_desc:0 "Smaller Cannons can easily be loaded with a wide variety of specialized ammunition like grapshot or chainshot, giving our ships more tactical options."
+ light_canon_3:0 "Light Cannons III"
+ light_canon_3_desc:0 "Smaller Cannons can easily be loaded with a wide variety of specialized ammunition like grapshot or chainshot, giving our ships more tactical options."
+
+ heavy_canon_1:0 "Heavy Cannons I"
+ heavy_canon_1_desc:0 "Our heavy ships can mount equally-heavy cannons to smash through the sturdiest of defenses."
+ heavy_canon_2:0 "Heavy Cannons II"
+ heavy_canon_2_desc:0 "Our heavy ships can mount equally-heavy cannons to smash through the sturdiest of defenses."
+ heavy_canon_3:0 "Heavy Cannons III"
+ heavy_canon_3_desc:0 "Our heavy ships can mount equally-heavy cannons to smash through the sturdiest of defenses."
+
+ reinforced_frames_1:0 "Reinforced Frames I"
+ reinforced_frames_1_desc:0 "All our ships, no matter which size, can benefit from better building materials and advanced redundant constructions."
+ reinforced_frames_2:0 "Reinforced Frames II"
+ reinforced_frames_2_desc:0 "All our ships, no matter which size, can benefit from better building materials and advanced redundant constructions."
+ reinforced_frames_3:0 "Reinforced Frames III"
+ reinforced_frames_3_desc:0 "All our ships, no matter which size, can benefit from better building materials and advanced redundant constructions."
+ reinforced_frames_4:0 "Reinforced Frames IV"
+ reinforced_frames_4_desc:0 "All our ships, no matter which size, can benefit from better building materials and advanced redundant constructions."
+
+ depth_charges:0 "Depth Charges"
+ depth_charges_desc:0 "Depth Charges are the most effective way for our surface vessels to combat threats from below the waves."
+ improved_depth_charges_1:0 "Improved Depth Charges I"
+ improved_depth_charges_1_desc:0 "Increasing the spread of our charges makes it easier to deal critical damage to submarines."
+ improved_depth_charges_2:0 "Improved Depth Charges II"
+ improved_depth_charges_2_desc:0 "Increasing the spread of our charges makes it easier to deal critical damage to submarines."
+ improved_depth_charges_3:0 "Improved Depth Charges III"
+ improved_depth_charges_3_desc:0 "Increasing the spread of our charges makes it easier to deal critical damage to submarines."
+
+ torpedo_tech:0 "Torpedos"
+ torpedo_tech_desc:0 "Another recent invention, Torpedos will revolutionize naval battles!"
+ improved_torpedos_1:0 "Improved Torpedos I"
+ improved_torpedos_1_desc:0 "Better-designed shapes and bigger charges make our Torpedos more devastating."
+ improved_torpedos_2:0 "Improved Torpedos II"
+ improved_torpedos_2_desc:0 "Better-designed shapes and bigger charges make our Torpedos more devastating."
+ improved_torpedos_3:0 "Improved Torpedos III"
+ improved_torpedos_3_desc:0 "Better-designed shapes and bigger charges make our Torpedos more devastating."
+ 
+ naval_mines:0 "Naval Mines"
+ naval_mines_desc:0 "The ability to deploy mines adds a whole new chapter to naval warfare."
+ improved_naval_mines_1:0 "Improved Naval Mines I"
+ improved_naval_mines_1_desc:0 "Mines are the kind of weapon for which the saying 'Bigger is Better' still holds true."
+ improved_naval_mines_2:0 "Improved Naval Mines II"
+ improved_naval_mines_2_desc:0 "Mines are the kind of weapon for which the saying 'Bigger is Better' still holds true."
+ improved_naval_mines_3:0 "Improved Naval Mines III"
+ improved_naval_mines_3_desc:0 "Mines are the kind of weapon for which the saying 'Bigger is Better' still holds true."
+
+##################################
+#Naval doctrine
+##################################
+
+ TITLE_HOA_FLEET_IN_BEING:0 "Fleet in Being"
+ HOA_FLEET_IN_BEING_DESC:0 ""
+ TITLE_HOA_PRIVATEERING:0 "Privateering"
+ HOA_PRIVATEERING_DESC:0 ""
+ TITLE_HOA_COMMERCE_FLEET:0 "Commerce Fleet"
+ HOA_COMMERCE_FLEET_DESC:0 ""
+
+##################################
+# Air Research Tree
+##################################
+
+ AIR_TITLE_ORGANIC_FLIGHT:0 "Organic Flight"
+ AIR_TITLE_MECHANICAL_FLIGHT:0 "Mechanical Flight"
+
+ aviary_tech:0 "Aviary"
+ aviary_tech_desc:0 ""
+ organic_flight:0 "Organic Flight"
+ organic_flight_desc:0 "For as long as it can be remembered, taming large beasts to carry warriors into the skies has and will remain the standard for aerial warfare."
+
+ #General Equipment
+ fighter_equipment:0 "Fighters"
+ cas_equipment:0 "Close Air Supports"
+ bomber_equipment:0 "Bombers"
+ naval_bomber_equipment:0 "Naval Bombers"
+ air_transport_equipment:0 "Air Transports"
+
+ #Organic Flight
+
+ swift_breeds:0 "Swift Breeds"
+ swift_breeds_desc:0 "Swift breeds are capable of going in and out of combat both in the air and the ground, allowing us to dominate the battlefield."
+
+ fighter_breeds_1:0 "Figther I"
+ cas_breeds_1:0 "Close Air Support I"
+
+ organic_fighter_equipment_1:0 "Fighter I"
+ organic_fighter_equipment_1_desc:0 ""
+ organic_fighter_equipment_2:0 "Fighter II"
+ organic_fighter_equipment_2_desc:0 ""
+ organic_fighter_equipment_3:0 "Fighter III"
+ organic_fighter_equipment_3__desc:0 ""
+
+ organic_cas_equipment_1:0 "Close Air Support I"
+ organic_cas_equipment_1_desc:0 ""
+ organic_cas_equipment_2:0 "Close Air Support II"
+ organic_cas_equipment_2_desc:0 ""
+ organic_cas_equipment_3:0 "Close Air Support III"
+ organic_cas_equipment_3_desc:0 ""
+
+ endurance_breeds:0 "Endurance Breeds"
+ endurance_breeds_desc:0 ""
+
+ bomber_breeds_1:0 "Bomber I"
+ naval_breeds_1:0 "Naval Bomber I"
+
+ organic_bomber_equipment_1:0 "Bomber I"
+ organic_bomber_equipment_1_desc:0 ""
+ organic_bomber_equipment_2:0 "Bomber II"
+ organic_bomber_equipment_2_desc:0 ""
+ organic_bomber_equipment_3:0 "Bomber III"
+ organic_bomber_equipment_3_desc:0 ""
+
+ organic_naval_bomber_equipment_1:0 "Naval Bomber I"
+ organic_naval_bomber_equipment_1_desc:0 ""
+ organic_naval_bomber_equipment_2:0 "Naval Bomber II"
+ organic_naval_bomber_equipment_2_desc:0 ""
+ organic_naval_bomber_equipment_3:0 "Naval Bomber III"
+ organic_naval_bomber_equipment_3_desc:0 ""
+
+ support_breeds:0 "Support Breeds"
+ support_breeds_desc:0 ""
+
+ scouting_breeds_1:0 "Scout Breeds I"
+ transport_breeds_1:0 "Transport Breeds"
+
+ organic_scout_plane_equipment_1:0 "Scout Breeds I"
+ organic_scout_plane_equipment_1_desc:0 ""
+ organic_scout_plane_equipment_2:0 "Scout Breeds II"
+ organic_scout_plane_equipment_2_desc:0 ""
+ organic_scout_plane_equipment_3:0 "Scout Breeds III"
+ organic_scout_plane_equipment_3_desc:0 ""
+
+ organic_air_transport_equipment_1:0 "Transport Breeds"
+ organic_air_transport_equipment_1_desc:0 ""
+
+ #Mechanical Flight
+
+ mechanical_flight:0 "Mechanical Flight"
+ mechanical_flight_desc:0 "The days of beasts is soon coming to an end. Our engineers have made a breakthrough allowing us to have machines soar through the skies. Skipping out on training time these machines are faster to produce and easily replaceable."
+
+ small_air_frames:0 "Small Airframes"
+ small_air_frames_desc:0 ""
+
+ fighter_air_frames_1:0 "Fighter I"
+ cas_air_frames_1:0 "Close Air Support I"
+
+ mechanical_fighter_equipment_1:0 "Fighter I"
+ mechanical_fighter_equipment_1_desc:0 ""
+ mechanical_fighter_equipment_2:0 "Fighter II"
+ mechanical_fighter_equipment_2_desc:0 ""
+ mechanical_fighter_equipment_3:0 "Fighter III"
+ mechanical_fighter_equipment_3_desc:0 ""
+
+ mechanical_cas_equipment_1:0 "Close Air Support I"
+ mechanical_cas_equipment_1_desc:0 ""
+ mechanical_cas_equipment_2:0 "Close Air Support II"
+ mechanical_cas_equipment_2_desc:0 ""
+ mechanical_cas_equipment_3:0 "Close Air Support III"
+ mechanical_cas_equipment_3_desc:0 ""
+
+ large_air_frames:0 "Large Airframes"
+ large_air_frames_desc:0 ""
+
+ mechanical_bomber_1:0 "Bomber I"
+ mechanical_naval_bomber_1:0 "Naval Bomber I"
+
+ mechanical_bomber_equipment_1:0 "Bomber I"
+ mechanical_bomber_equipment_1_desc:0 ""
+ mechanical_bomber_equipment_2:0 "Bomber II"
+ mechanical_bomber_equipment_2_desc:0 ""
+ mechanical_bomber_equipment_3:0 "Bomber III"
+ mechanical_bomber_equipment_3_desc:0 ""
+
+ mechanical_naval_bomber_equipment_1:0 "Naval Bomber I"
+ mechanical_naval_bomber_equipment_1_desc:0 ""
+ mechanical_naval_bomber_equipment_2:0 "Naval Bomber II"
+ mechanical_naval_bomber_equipment_2_desc:0 ""
+ mechanical_naval_bomber_equipment_3:0 "Naval Bomber III"
+ mechanical_naval_bomber_equipment_3_desc:0 ""
+
+ support_air_frames:0 "Support Airframes"
+ support_air_frames_desc:0 ""
+
+ mechanical_scout_plane_1:0 "Scout Plane I"
+ mechanical_air_transport_1:0 "Mechanical Transport"
+
+ mechanical_scout_plane_equipment_1:0 "Scout Plane I"
+ mechanical_scout_plane_equipment_1_desc:0 ""
+ mechanical_scout_plane_equipment_2:0 "Scout Plane II"
+ mechanical_scout_plane_equipment_2_desc:0 ""
+ mechanical_scout_plane_equipment_3:0 "Scout Plane III"
+ mechanical_scout_plane_equipment_3_desc:0 ""
+
+ mechanical_air_transport_equipment_1:0 "Mechanical Transport"
+ mechanical_air_transport_equipment_1_desc:0 ""
+
+#######################################
+# Shared research tree subtitles
+#######################################
+
+#######################################
+# Technology Tags
+#######################################
+ land_doctrine:0 "Land Doctrine"
+
+ naval_technology:0 "Naval Technologies"
+ small_frame_technology:0 "Small Frame Technologies"
+ large_frame_technology:0 "Large Frame Technologies"
+
+ destroyer_technology:0 "Destroyer Technologies"
+ submarine_technology:0 "Submarine Technologies"
+ snorkel_technology:0 "Snorkel Technologies"
+ frigate_technology:0 "Frigate Technologies"
+ light_frigate_technology:0 "Light Frigate Technologies"
+ heavy_frigate_technology:0 "Heavy Frigate Technologies"
+ naval_transport_technology:0 "Naval Transport Technologies"
+
+ juggernaught_technology:0 "Juggernaught Technologies"
+ battleship_technology:0 "Battleship Technologies"
+ dreadnaught_technology:0 "Dreadnaught Technologies"
+ carrier_technology:0 "Carrier Technologies"
+
+ naval_academy_technology:0 "Naval Academy Technologies"
+ navigator_technology:0 "Navigator Technologies"
+ spotter_technology:0 "Spotter Technologies"
+ deckhand_technology:0 "Deckhand Technologies"
+
+ oil_technology:0 "Oil Technologies"
+
+ foundry_technology:0 "Foundry Technologies"
+ naval_cannon_technology:0 "Naval Cannon Technologies"
+ light_cannon_technology:0 "Light Cannon Technologies"
+ heavy_cannon_technology:0 "Heavy Cannon Technologies"
+ reinforced_frames_technology:0 "Reinforced Frames Technologies"
+ naval_mines_technology:0 "Naval Mines Technologies"
+ depth_charge_technology:0 "Depth Charge Technologies"
+ torpedo_technology:0 "Torpedo Technologies"
+
+ naval_doctrine:0 "Naval Doctrine"
+
+ air_technology:0 "Air Technologies"
+ organic_air_technology:0 "Organic Air Technologies"
+ mechanical_air_technology:0 "Mechanical Air Technologies"
+ fighter_technology:0 "Fighter Technologies"
+ cas_technology:0 "Close Air Support Technologies"
+ bomber_technology:0 "Bomber Technologies"
+ naval_bomber_technology:0 "Naval Bomber Technologies"
+ scout_plane_technology:0 "Scout Plane Technologies"
+ air_transport_technology:0 "Air Transport Technologies"
+
+ air_doctrine:0 "Air Doctrine"
+
+##########################################
+# Below that may contains outdated content
+##########################################
+
+##################################
+#administration
+##################################
+ hoa_production:0 "Production"
+ INDUSTRY_BUILDINGS:0 "Buildings"
+ AGRICULTURE_TITLE:0 "Agriculture"
+ INDUSTRY_PEASENT_TOOLS:0 "Peasant Tools"
+ TITLE_MANA_BOMB:0 "Mana Bomb"
+ title_town_hall:0 "Town Hall"
+
+ hoa_mana_reactor_tech:0 "Mana Reactor"
+ hoa_mana_reactor_tech_desc:0 "Mana reactors allow us to siphon raw power from leylines and compact them for use in weapons."
+ hoa_mana_bomb:0 "Mana Bomb"
+ hoa_mana_bomb_desc:0 "The mana bomb is a destructive weapon capable of leveling cities and destroying all life. Be careful when using these lest the whole world turn against you."
+
+#################################
+#infantry
+#################################
+
+INFANTRY_TITLE_SUPPORT_EQUIPMENT:0 "Support Equipment"
+
+##################################
+#Air doctrine
+##################################
+fighter_doctrine:0 "Fighter Doctrine"
+fighter_escort_effort:0 "Escort Effort"
+fighter_detection:0 "Fighter Detection"
+fighter_agility:0 "Fighter Agility"
+fighter_air_superiority_1:0 "Air Superiority I"
+fighter_air_superiority_2:0 "Air Superiority II"
+fighter_intercept_1:0 "Interception I"
+fighter_intercept_2:0 "Interception II"
+fighter_rule_the_skies:0 "Rule the Skies"
+cas_doctrine:0 "Land Support Doctrine"
+cas_agility:0 "Agility bonus"
+cas_master_riders:0 "Master Riders"
+cas_efficiency:0 "Ground Support Efficiency"
+cas_naval_missions:0 "Naval Missions"
+cas_defence:0 "Defensive Formations"
+cas_ground_support:0 "Improved Land Support"
+bomber_doctrine:0 "Bomber Doctrine"
+bomber_defence:0 "Defensive Formations"
+bomber_night_attacks:0 "Night Raids"
+bomber_stealth:0 "Stealth Missions"
+bomber_land_focus:0 "Land Focus"
+bomber_land_damage:0 "Land Support"
+bomber_naval_focus:0 "Naval Focus"
+bomber_naval_damage:0 "Naval Support"
+bomber_ground_support:0 "Ground Support"

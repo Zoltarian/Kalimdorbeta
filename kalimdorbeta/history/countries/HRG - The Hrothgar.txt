@@ -1,0 +1,113 @@
+﻿capital = 1743
+
+oob = "HRG_592"
+
+set_naval_oob = "HRG_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	
+	clan
+	recruit_adventurers
+	peacetime_economy
+	limited_exports
+
+	kvaldir_primary_race
+
+	primary_religion_followers_of_helya
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 100
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 0
+}
+
+set_politics = {
+	ruling_party = death
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Drottinn Hrothgar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Drottinn Hrothgar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Drottinn Hrothgar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Drottinn Hrothgar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Drottinn Hrothgar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Drottinn Hrothgar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=411
+	name="STATE_411"
+	resources={
+		oil = 12
+		ores= 8
+		gunpowder = 4
+	}
+
+	history={
+		
+		victory_points = {
+			2149 20
+		}
+		victory_points = {
+			5454 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			1704 = {
+				naval_base = 1
+			}
+
+		}
+		617.1.1 = {
+			owner = BSB
+			controller = BSB
+			add_core_of = BSB
+
+		}
+		add_core_of = BFT
+
+
+	}
+
+	provinces={
+		879 1704 1710 2149 5437 5439 5442 5444 5451 5453 5454 5455 5457 
+	}
+	manpower=33000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

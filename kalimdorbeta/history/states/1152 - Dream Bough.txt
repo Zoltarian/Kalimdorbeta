@@ -1,0 +1,33 @@
+
+state={
+	id=1152
+	name="STATE_1152"
+	resources = {
+		eggs=6
+		wheat=6
+		mana=6
+		wood=7
+	}
+
+	history={
+		owner = GDD
+		victory_points = {
+			11533 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = GDD
+
+	}
+
+	provinces={
+		10897 10898 11342 11533 11535 11539 11541 11542
+	}
+	manpower=47000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

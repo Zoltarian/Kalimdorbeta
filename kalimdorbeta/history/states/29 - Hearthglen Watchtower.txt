@@ -1,0 +1,37 @@
+
+state={
+	id=29
+	name="STATE_29"
+
+	history={
+		
+		victory_points = {
+			3470 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+
+		}
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		3465 3470 3473 4364 4394 5412 5418 5785 5788 7468 
+	}
+	manpower=5250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

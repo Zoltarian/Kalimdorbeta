@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Bloodmaul Brutes"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Bloodmaul Brutes"
+		location = 5893
+		division_template = "Bloodmaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bloodmaul Brutes"
+		location = 6309
+		division_template = "Bloodmaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bloodmaul Brutes"
+		location = 5966
+		division_template = "Bloodmaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bloodmaul Brutes"
+		location = 6039
+		division_template = "Bloodmaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Bloodmaul Brutes"
+		location = 5893
+		division_template = "Bloodmaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Bloodmaul Brutes"
+		location = 5966
+		division_template = "Bloodmaul Brutes"
+		start_experience_factor = 0.2
+	}
+	
+}

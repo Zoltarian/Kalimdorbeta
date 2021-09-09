@@ -1,0 +1,38 @@
+
+state={
+	id=337
+	name="STATE_337"
+	resources={
+		ores=18
+		gunpowder=14
+	}
+
+	history={
+		
+		add_core_of = LSC
+
+		victory_points = {
+			10634 20
+		}
+
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LSC
+		}
+	}
+
+	provinces={
+		9834 10621 10622 10623 10624 10628 10629 10631 10632 10634 10636 10637 10639 10640 10641 10642 10645 10647 10662
+	}
+	manpower=113000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

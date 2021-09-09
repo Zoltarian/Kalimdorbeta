@@ -1,0 +1,34 @@
+
+state={
+	id=41
+	name="STATE_41"
+
+	impassable = yes
+	history={
+		
+		add_core_of = RRP
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+		}
+
+		617.1.1 = {
+			
+			controller = RRP
+			add_core_of = RRP
+		}
+	}
+
+	provinces={
+		5501
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

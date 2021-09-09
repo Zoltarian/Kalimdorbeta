@@ -1,0 +1,54 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		ores=16.000
+		oil=6.000
+		gunpowder=10.000
+	}
+
+	history={
+		
+		victory_points = {
+			1714 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			1714 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+		617.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+
+		}
+		add_core_of = WST
+
+	}
+
+	provinces={
+		611 1709 1714 1720 1721 5524 6905 
+	}
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

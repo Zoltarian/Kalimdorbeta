@@ -1,0 +1,46 @@
+﻿division_template = {
+	name = "Highborne Charlatan"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Highborne Sorcerer"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 0 y = 3 }
+		arch_mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+
+units = {
+
+	division = {
+		name = "Highborne Charlatan"
+		location = 12153
+		division_template = "Highborne Charlatan"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Highborne Sorcerer"
+		location = 12148
+		division_template = "Highborne Sorcerer"
+		start_experience_factor = 0.3
+	}
+
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=967
+	name="STATE_967"
+	resources={
+		wheat=4
+		eggs=3
+		ores=5
+	}
+
+	history={
+		owner = FGH
+		controller = FGH
+		add_core_of = FGH
+
+		victory_points = {
+			9939 5
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		620.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+
+			set_state_name = "Fort Triumph"
+		}
+	}
+
+	provinces={
+		9664 9926 9929 9936 9939 9944 9955 9956
+	}
+	manpower=13500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

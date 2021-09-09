@@ -1,0 +1,44 @@
+
+state={
+	id=284
+	name="STATE_284" #Darkspear Village/ S. Savage Coast/ Hardwrench Hideway
+	resources={
+		oil=48.000
+	}
+
+	history={
+		
+
+		victory_points = {
+			2734 10
+		}
+
+		buildings = {
+			infrastructure = 3
+			2734 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DST
+		596.1.1 = {
+			
+			controller = GUR
+			add_core_of = GUR
+			remove_core_of = DST
+
+		}
+		
+		617.1.1 = {
+			owner = BSB
+			controller = BSB
+			add_core_of = BSB
+		}
+	}
+
+	provinces={
+		747 2720 2721 2723 2729 2731 2734 2738 5586 5589
+	}
+	manpower=14325
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

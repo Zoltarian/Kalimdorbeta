@@ -1,0 +1,212 @@
+###########################################################
+# Contains scripted effects relating to controlling an area with directly OR VIA PUPPETS
+# Useful for formable nations decisions mainly
+# NOT ALL ARE PRESENT, ADD IF NEEDED
+# Please sort by continent / alphabeticaly for better usage
+###########################################################
+
+# State trigger to check if the state is controlled by ROOT or one of its puppets
+owned_and_controlled_by_ROOT_or_puppets = {
+  OR = {
+    is_owned_and_controlled_by = ROOT
+    owner = {
+      is_subject_of = ROOT
+    }
+    controller = {
+      is_subject_of = ROOT
+    }
+  }
+}
+
+####################
+# Kalimdor
+####################
+
+#Desolace
+control_desolace_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_desolace_directly_or_puppets_tt
+    83 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1176 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1177 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1178 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1179 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1180 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1181 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1182 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1183 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1184 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1185 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1187 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1188 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1189 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1190 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1191 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1192 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1193 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1194 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1195 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1196 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1197 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1198 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1295 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1996 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+
+#Durotar
+control_durotar_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_durotar_directly_or_puppets_tt
+    61 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    588 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    589 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    590 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    591 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    592 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    594 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    595 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    596 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    597 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    599 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    600 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    608 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    609 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    610 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    611 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    612 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1005 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1006 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1623 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1624 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Mulgore
+control_mulgore_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_mulgore_directly_or_puppets_tt
+    81 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    997 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    998 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    999 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1000 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1001 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1002 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1031 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1032 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1033 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1034 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1035 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1036 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1037 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1038 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1039 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1040 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1042 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1043 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1044 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1045 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1046 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1047 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1048 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Northern Barrens
+control_northern_barrens_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_northern_barrens_directly_or_puppets_tt
+    979 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    980 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    981 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    982 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    983 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    984 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    985 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    986 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    987 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    988 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    989 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    990 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    991 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    992 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    993 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    994 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    995 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    996 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Orgrimmar
+control_orgrimmar_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_orgrimmar_directly_or_puppets_tt
+    587 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    598 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    602 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    604 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    605 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    606 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    607 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1003 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1004 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Southern Barrens
+control_southern_barrens_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_southern_barrens_directly_or_puppets_tt
+    70 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    962 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    963 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    964 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    965 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    966 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    967 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    968 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    969 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    970 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    971 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    972 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    973 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    974 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    975 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    976 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    977 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    978 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Uldum
+control_uldum_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_uldum_directly_or_puppets_tt
+    80 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    569 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1128 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1129 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1130 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1131 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1132 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1133 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1134 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1135 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1136 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1137 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1138 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1139 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1140 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1141 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1142 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1143 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1144 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1145 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1294 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2001 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2002 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2109 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}

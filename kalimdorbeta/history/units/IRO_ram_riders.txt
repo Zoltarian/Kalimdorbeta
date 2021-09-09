@@ -1,0 +1,30 @@
+﻿division_template = {
+	name = "Iron Ram Riders"
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }	
+	}
+	support = {
+#       hoa_healer = { x = 0 y = 0 }
+		captain = { x = 0 y = 1 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st Iron Ram Riders"
+		location = 4043
+		division_template = "Iron Ram Riders"
+		start_experience_factor = 0.3
+		}	
+	division = {
+		name = "2nd Iron Ram Riders"
+		location = 4043
+		division_template = "Iron Ram Riders"
+		start_experience_factor = 0.3
+		}
+}

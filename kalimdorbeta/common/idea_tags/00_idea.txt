@@ -1,0 +1,76 @@
+idea_categories = {
+
+	hidden_ideas = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+	}
+
+	country = {
+		national_spirit = yes
+
+		cost = 0
+		removal_cost = -1
+	}
+
+	government_tab = {
+		slot = government_type
+		slot = mobilization_laws
+		slot = trade_laws
+		slot = economy
+		slot = placeholder
+		slot = placeholder
+
+		cost = 150
+		removal_cost = 0
+	}
+
+	advisors = {
+		slot = advisor
+		slot = advisor
+		slot = advisor
+		slot = council_member
+		slot = council_member
+		slot = council_member
+
+		cost = 150
+		removal_cost = 0
+	}
+
+	races = {
+		slot = primary_race
+		slot = secondary_race
+		slot = secondary_race
+		slot = secondary_race
+		slot = secondary_race
+		slot = secondary_race
+
+		cost = 150
+		removal_cost = 0
+	}
+
+	racial_traits = {
+		slot = primary_racial_trait
+		slot = primary_racial_trait
+		slot = primary_racial_trait
+		slot = secondary_racial_trait
+		slot = secondary_racial_trait
+		slot = secondary_racial_trait
+
+		cost = 150
+		removal_cost = 0
+
+	}
+
+	religion_tab = {
+		slot = primary_religion
+		slot = secondary_religion
+		slot = secondary_religion
+
+		cost = 150
+		removal_cost = 0
+
+	}
+
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=300
+	name="STATE_300"
+	resources={
+		wood =14.000
+		mana=22.000
+		mounts=18.000
+	}
+
+	history={
+		victory_points = {
+			2097 20 
+		}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 4
+
+		}
+		add_core_of = GTG
+
+	}
+
+	provinces={
+		796 2081 2089 2092 2094 2097 2103 5458 
+	}
+	manpower=39000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

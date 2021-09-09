@@ -1,0 +1,29 @@
+
+state={
+	id=1450
+	name="STATE_1450"
+
+	history={
+		owner = MNT
+		add_core_of = MNT
+		victory_points = {
+			13194 10
+		}
+		buildings = {
+			infrastructure = 4
+		}
+
+		616.1.1 = {
+			owner = WNT
+			controller = WNT
+			add_core_of = WNT
+		}
+	}
+
+	provinces={
+		2287 13191 13192 13194
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

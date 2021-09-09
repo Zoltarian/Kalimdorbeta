@@ -1,0 +1,37 @@
+
+state={
+	id=999
+	name="STATE_999"
+	resources={
+		ores=6
+		gunpowder=6
+		wood=3
+	}
+
+	history={
+		owner = BRI
+		add_core_of = BRI
+
+		victory_points = {
+			10060 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		617.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+		}
+	}
+
+	provinces={
+		9689 10013 10018 10029 10037 10044 10060 10078
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

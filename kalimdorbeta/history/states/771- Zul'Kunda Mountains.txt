@@ -1,0 +1,23 @@
+
+state={
+	id=771
+	name="STATE_771"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BLO
+
+	}
+
+	provinces={
+		5634 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

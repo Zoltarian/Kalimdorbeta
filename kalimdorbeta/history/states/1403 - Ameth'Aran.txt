@@ -1,0 +1,30 @@
+
+state={
+	id=1403
+	name="STATE_1403"
+	resources = {
+		wheat=4
+		mana=8
+		wood=6
+	}
+
+	history={
+		owner = AME
+		add_core_of = AME
+		victory_points = {
+			12578 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		1379 12569 12572 12573 12577 12578 12584 12587 12593
+	}
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

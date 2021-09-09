@@ -1,0 +1,28 @@
+
+state={
+	id=513
+	name="STATE_513" #Crimson Hollow/ Glopgut's Hollow
+	
+		resources={
+			ores=8
+		}
+
+	history={
+		victory_points = { 5045 15 }
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = NRT
+
+	}
+
+	provinces={
+		1072 5026 5033 5040 5045 5050 5053 5064 
+	}
+	manpower=8375
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

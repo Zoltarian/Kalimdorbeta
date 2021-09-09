@@ -1,0 +1,41 @@
+
+state={
+	id=156
+	name="STATE_156"
+	resources={
+		wood=32.000
+	}
+
+	history={
+		
+		victory_points = {
+			3460 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+
+		}
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		642 2996 3456 3458 3460 3461 5398 
+	}
+	manpower=8750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

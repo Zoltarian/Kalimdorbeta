@@ -1,0 +1,65 @@
+﻿division_template = {
+	name = "Screeching Harpy"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Screeching Windcaller"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Screeching Harpy"
+		location = 9564
+		division_template = "Screeching Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Screeching Harpy"
+		location = 9564
+		division_template = "Screeching Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Screeching Windcaller"
+		location = 9564
+		division_template = "Screeching Windcaller"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+air_wings = {
+	### twilight bulwark
+	954 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "SCR"
+			amount = 15
+		}
+
+	}
+
+}

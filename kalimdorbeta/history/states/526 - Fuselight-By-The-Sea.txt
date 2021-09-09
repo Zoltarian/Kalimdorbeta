@@ -1,0 +1,50 @@
+
+state={
+	id=526
+	name="STATE_526" #The Dusty Shore/ Fuselight-By-The-Sea
+	resources={
+		oil=28.000
+	}
+
+	history={
+		
+		victory_points = {
+			4831 5 
+		}
+		buildings = {
+			infrastructure = 3
+			4831 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+			buildings = {
+				dockyard = 1
+
+			}
+			add_manpower = 10000
+			add_extra_state_shared_building_slots = 1
+
+		}
+		617.1.1 = {
+			owner = ONY
+			controller = ONY
+			add_core_of = ONY
+
+		}
+
+	}
+
+	provinces={
+		977 4831 4844 6195 6196 6197 
+	}
+	manpower=9800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

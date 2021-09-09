@@ -1,0 +1,30 @@
+
+state={
+	id=419
+	name="STATE_419"
+	resources={
+		wood=22.000
+	}
+
+	history={
+		
+		victory_points = {
+			1400 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		1102 1399 1400 1407 1408 1409 1415 1416 
+	}
+	manpower=34750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

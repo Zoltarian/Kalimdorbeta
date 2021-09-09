@@ -1,0 +1,37 @@
+
+state={
+	id=968
+	name="STATE_968"
+	resources={
+		wood =8
+		ores=4
+		mounts=3
+	}
+
+	history={
+		owner = BRI
+		add_core_of = BRI
+
+		victory_points = {
+			9987 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		617.1.1 = {
+			owner = THB
+			controller = THB
+			add_core_of = THB
+		}
+	}
+
+	provinces={
+		9666 9961 9962 9967 9972 9975 9979 9980 9983 9987 9989 10000 10008 10010
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

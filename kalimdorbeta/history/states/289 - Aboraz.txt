@@ -1,0 +1,42 @@
+
+state={
+	id=289
+	name="STATE_289"
+	resources={
+		oil=18.000
+		mana=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			2714 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			2714 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = GUR
+		617.1.1 = {
+			owner = ZNZ
+			controller = ZNZ
+			add_core_of = ZNZ
+
+		}
+
+	}
+
+	provinces={
+		2712 2714 2717 
+	}
+	manpower=28250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

@@ -1,0 +1,382 @@
+﻿###########################
+# Gurubashi
+###########################
+
+add_namespace = gurubashi
+
+country_event = {
+	id = gurubashi.3
+	title = gurubashi.3.t
+	desc = gurubashi.3.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Annex War
+		name = gurubashi.3.option.1
+		ai_chance = {
+			factor = 25
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = BLO
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = SKU
+		}
+	}
+	option = { #Diplo solution
+		name = gurubashi.3.option.2
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				OR = {
+					BLO = { is_ai = no }
+					SKU = { is_ai = no }
+				}
+			}
+		}
+		BLO = { country_event = { days = 1 id = gurubashi.4 } }
+		SKU = { country_event = { days = 1 id = gurubashi.17 } }
+	}
+}
+
+country_event = {
+	id = gurubashi.4
+	title = gurubashi.4.t
+	desc = gurubashi.4.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = gurubashi.4.option.1
+		ai_chance = {
+			factor = 50
+		}
+		ZAN = { country_event = { days = 1 id = zandalari.1 } }
+	}
+	option = {
+		name = gurubashi.4.option.2
+		GUR = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 10
+				NOT = {
+					has_opinion = {
+						target = GUR
+						value > 80
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+	
+	option = {
+		name = gurubashi.4.option.3
+		GUR = {
+			puppet = ROOT
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 5
+				NOT = {
+					has_opinion = {
+						target = GUR
+						value > 40
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Begins the event chain for the Human Troll Alliance
+	id = gurubashi.5 
+	title = gurubashi.5.t
+	desc = gurubashi.5.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # Stormwind accepts
+		name = gurubashi.5.option.1
+		add_ideas = GUR_shaky_alliance
+		GUR = { add_ideas = GUR_shaky_alliance }
+	}
+
+	option = { # Stormwind Declines, nothing happens
+		name = gurubashi.5.option.2
+		GUR = { country_event = {id = gurubashi.6 days = 2} }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				has_opinion = {
+					target = GUR
+					value < 30 
+				}
+			}
+		}
+	}
+}
+
+country_event = { # If stormwind declines
+	id = gurubashi.6
+	title = gurubashi.6.t
+	desc = gurubashi.6.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = gurubashi.6.option.1
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Invite to THC to join the New Black Empire
+	id = gurubashi.7
+	title = gurubashi.7.t
+	desc = gurubashi.7.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Join the New Black Empire
+		name = gurubashi.7.option.1
+		ai_chance = {
+			factor = 100
+		}
+		leave_faction = yes
+		GUR = { add_to_faction = THC }
+	}
+	
+	option = { #Stay with the horde
+		name = gurubashi.7.option.2
+		ai_chance = {
+			factor = 0
+		}
+		GUR = { country_event = {id =gurubashi.9 days = 2} }
+		#Does nothing
+	}
+}
+
+country_event = { # Invite to MLC to join the New Black Empire
+	id = gurubashi.8
+	title = gurubashi.8.t 
+	desc = gurubashi.8.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { # Join the New Black Empire
+		name = gurubashi.8.option.1
+		ai_chance = { factor = 100 }
+		leave_faction = yes
+		GUR = { 
+			add_to_faction = MLC
+			add_to_faction = DIC
+		}
+	}
+	option = { # Do nothing
+		name = gurubashi.8.option.2
+		ai_chance = { factor = 0 }
+		GUR = { country_event = {id =gurubashi.10 days = 2} }
+		# Does nothing
+	}
+}
+
+country_event = { # THC reject
+	id = gurubashi.9
+	title = gurubashi.9.t
+	desc = gurubashi.9.d 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = gurubashi.9.option.1 }
+}
+
+country_event = { # MLC reject
+	id = gurubashi.10
+	title = gurubashi.10.t
+	desc = gurubashi.10.d 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = gurubashi.10.option.1 }
+}
+
+country_event = {
+	id = gurubashi.11
+	title = gurubashi.11.t
+	desc = gurubashi.11.d 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = gurubashi.11.option.1
+		add_manpower = 1000000
+	}
+}
+
+country_event = { # BRC event to cede some of the swamp of sorrows
+	id = gurubashi.12
+	title = gurubashi.12.t
+	desc = gurubashi.12.d 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { # cede
+		GUR = {
+			transfer_state = 43
+			transfer_state = 396
+			transfer_state = 397
+			transfer_state = 400
+			country_event = gurubashi.13
+		}
+	}
+	option = { # do not 
+		GUR = { country_event = {id =gurubashi.14 days = 2} }
+	}
+}
+
+country_event = { # BRC accept 
+	id = gurubashi.13
+	title = gurubashi.13.t
+	desc = gurubashi.13.d 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { 
+		name = gurubashi.13.option.1
+		create_wargoal = {
+			type = annex_everything
+			target = GTH
+		}
+	}
+}
+
+country_event = { # BRC reject
+	id = gurubashi.14
+	title = gurubashi.14.t
+	desc = gurubashi.14.d 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = gurubashi.14.option.1 }
+}
+
+country_event = { # Invites Stormwind to the 'Human-Troll Alliance'
+	id = gurubashi.15 
+	title = gurubashi.15.t
+	desc = gurubashi.15.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # Stormwind must accept
+		name = gurubashi.15.option.1
+		if = {
+			limit = {
+				STO = { is_in_faction = yes }
+			}   
+			STO = { add_to_faction = GUR }
+		}
+		else_if = {
+			limit = {
+				GUR = { is_in_faction = yes }
+			}
+			GUR = { 
+				add_to_faction = STO
+			}
+		}
+		else = {
+			GUR = { 
+				create_faction = Human_Troll_Alliance
+				add_to_faction = STO
+			}
+		}
+		remove_ideas = GUR_shaky_alliance
+		GUR = { remove_ideas = GUR_shaky_alliance }
+	}
+}
+
+country_event = { # Invites Lordaeron to the 'Human_Troll_Alliance'
+	id = gurubashi.16
+	title = gurubashi.16.t
+	desc = gurubashi.16.d 
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { # Lordaeron accepts
+	# Scarlet Crusade breaks off, stability is affected
+	}
+	option = { # Lordaeron conditionally accepts
+	# 
+	}
+	option = { # Lordaeron refuses
+	
+	}
+}
+
+country_event = {
+	id = gurubashi.17
+	title = gurubashi.17.t
+	desc = gurubashi.17.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = gurubashi.17.option.1
+		ai_chance = {
+			factor = 50
+		}
+		ZAN = { country_event = { days = 1 id = zandalari.2 } }
+	}
+	option = {
+		name = gurubashi.17.option.2
+		GUR = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 10
+				NOT = {
+					has_opinion = {
+						target = GUR
+						value > 80
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+	
+	option = {
+		name = gurubashi.17.option.3
+		GUR = {
+			puppet = ROOT
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 5
+				NOT = {
+					has_opinion = {
+						target = GUR
+						value > 40
+					}
+				}
+			}
+		}
+	}
+}

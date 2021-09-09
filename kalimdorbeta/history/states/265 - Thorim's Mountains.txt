@@ -1,0 +1,23 @@
+
+state={
+	id=265
+	name="STATE_265"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = DRK
+
+	}
+
+	provinces={
+		8585 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

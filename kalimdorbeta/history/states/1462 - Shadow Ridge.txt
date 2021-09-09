@@ -1,0 +1,30 @@
+
+state={
+	id=1462
+	name="STATE_1462"
+	resources={
+		wheat=2
+		ores=2
+		gunpowder=2
+	}
+
+	history={
+		owner = NWT
+		victory_points = {
+			13609 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+		add_core_of = NWT
+	}
+
+	provinces={
+		12948 13609 13611 13624 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

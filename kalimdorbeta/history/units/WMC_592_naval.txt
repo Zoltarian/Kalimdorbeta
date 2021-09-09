@@ -1,0 +1,24 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Warmaul Transport Fleet"			
+		naval_base = 9850
+		task_force = {
+			name = "Warmaul Transport Fleet"			
+			location = 9850
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,54 @@
+﻿division_template = {
+	name = "Mirefin Murloc"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Mirefin Murloc"
+		location = 9129
+		division_template = "Mirefin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mirefin Murloc"
+		location = 9114
+		division_template = "Mirefin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mirefin Murloc"
+		location = 9143
+		division_template = "Mirefin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mirefin Murloc"
+		location = 9095
+		division_template = "Mirefin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mirefin Murloc"
+		location = 8881
+		division_template = "Mirefin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mirefin Murloc"
+		location = 9066
+		division_template = "Mirefin Murloc"
+		start_experience_factor = 0.2
+	}
+	
+}

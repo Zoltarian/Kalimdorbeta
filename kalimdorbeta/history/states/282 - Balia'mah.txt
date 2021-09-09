@@ -1,0 +1,31 @@
+
+state={
+	id=282
+	name="STATE_282"
+	resources={
+		wood =18.000
+		mounts=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			2705 15
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = SKU
+
+	}
+
+	provinces={
+		752 753 2694 2697 2698 2704 2705 
+	}
+	manpower=48500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

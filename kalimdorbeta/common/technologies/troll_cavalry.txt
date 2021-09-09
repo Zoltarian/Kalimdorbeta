@@ -1,0 +1,23 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	troll_dino_pen_tech = {
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 8 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			
+		}
+	}
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=118
+	name="STATE_118"
+	resources={
+		gunpowder=17.000
+		ores=42.000
+	}
+
+	history={
+		
+		victory_points = {
+			1899 10 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ALT
+		617.1.1 = {
+			owner = CRC
+			controller = CRC
+			add_core_of = CRC
+
+		}
+
+	}
+
+	provinces={
+		597 1822 1887 1896 1899 1902 1905 5195 5196 
+	}
+	manpower=46975
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

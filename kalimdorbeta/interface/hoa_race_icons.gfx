@@ -1,0 +1,817 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ancients"
+		texturefile = "gfx/interface/ideas/race_ancients.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ankoan"
+		texturefile = "gfx/interface/ideas/race_ankoan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_anubisath"
+		texturefile = "gfx/interface/ideas/race_anubisath.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_aqir"
+		texturefile = "gfx/interface/ideas/race_aqir.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_arakkoa"
+		texturefile = "gfx/interface/ideas/race_arakkoa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_black_dragon"
+		texturefile = "gfx/interface/ideas/race_black_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_blood_elf"
+		texturefile = "gfx/interface/ideas/race_blood_elf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_blood_troll"
+		texturefile = "gfx/interface/ideas/race_blood_troll.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_blue_dragon"
+		texturefile = "gfx/interface/ideas/race_blue_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_bog_beasts"
+		texturefile = "gfx/interface/ideas/race_bog_beasts.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_botani"
+		texturefile = "gfx/interface/ideas/race_botani.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_broken"
+		texturefile = "gfx/interface/ideas/race_broken.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_bronze_dragon"
+		texturefile = "gfx/interface/ideas/race_bronze_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_centaur"
+		texturefile = "gfx/interface/ideas/race_centaur.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_chromatic_dragon"
+		texturefile = "gfx/interface/ideas/race_chromatic_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_colossus"
+		texturefile = "gfx/interface/ideas/race_colossus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_crystal_nymph"
+		texturefile = "gfx/interface/ideas/race_crystal_nymph.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_crystal_satyr"
+		texturefile = "gfx/interface/ideas/race_crystal_satyr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_dark_iron_dwarf"
+		texturefile = "gfx/interface/ideas/race_dark_iron_dwarf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_dark_troll"
+		texturefile = "gfx/interface/ideas/race_dark_troll.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_demons"
+		texturefile = "gfx/interface/ideas/race_demons.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_draenei"
+		texturefile = "gfx/interface/ideas/race_draenei.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_drogbar"
+		texturefile = "gfx/interface/ideas/race_drogbar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_drust"
+		texturefile = "gfx/interface/ideas/race_drust.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_dryad"
+		texturefile = "gfx/interface/ideas/race_dryad.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_dwarf"
+		texturefile = "gfx/interface/ideas/race_dwarf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_earth_elementals"
+		texturefile = "gfx/interface/ideas/race_earth_elemental.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_earthen"
+		texturefile = "gfx/interface/ideas/race_earthen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ethereals"
+		texturefile = "gfx/interface/ideas/race_ethereals.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ettins"
+		texturefile = "gfx/interface/ideas/race_ettin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_faceless_ones"
+		texturefile = "gfx/interface/ideas/race_faceless_ones.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_faerie_dragon"
+		texturefile = "gfx/interface/ideas/race_faerie_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_fal_dorei"
+		texturefile = "gfx/interface/ideas/race_fal_dorei.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_fel_orc"
+		texturefile = "gfx/interface/ideas/race_fel_orc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_felblood_elf"
+		texturefile = "gfx/interface/ideas/race_felblood_elf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_felborne"
+		texturefile = "gfx/interface/ideas/race_felborne.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_fire_elemental"
+		texturefile = "gfx/interface/ideas/race_fire_elemental.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ice_giant"
+		texturefile = "gfx/interface/ideas/race_ice_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_forest_troll"
+		texturefile = "gfx/interface/ideas/race_forest_troll.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_frost_giant"
+		texturefile = "gfx/interface/ideas/race_frost_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_frost_nymph"
+		texturefile = "gfx/interface/ideas/race_frost_nymph.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_frost_vrykul"
+		texturefile = "gfx/interface/ideas/race_frost_vrykul.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_frostborn"
+		texturefile = "gfx/interface/ideas/race_frostborn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_fungal_giant"
+		texturefile = "gfx/interface/ideas/race_fungal_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_fungal_monster"
+		texturefile = "gfx/interface/ideas/race_fungal_monster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_fungarians"
+		texturefile = "gfx/interface/ideas/race_fungarians.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_furbolg"
+		texturefile = "gfx/interface/ideas/race_furbolg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ghost"
+		texturefile = "gfx/interface/ideas/race_ghost.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_gilgoblin"
+		texturefile = "gfx/interface/ideas/race_gilgoblin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_gnoll"
+		texturefile = "gfx/interface/ideas/race_gnoll.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_gnomes"
+		texturefile = "gfx/interface/ideas/race_gnomes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_goblin"
+		texturefile = "gfx/interface/ideas/race_goblin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_goren"
+		texturefile = "gfx/interface/ideas/race_goren.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_gorilla"
+		texturefile = "gfx/interface/ideas/race_gorilla.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_gorloc"
+		texturefile = "gfx/interface/ideas/race_gorloc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_green_dragon"
+		texturefile = "gfx/interface/ideas/race_green_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_grell"
+		texturefile = "gfx/interface/ideas/race_grell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_gronn"
+		texturefile = "gfx/interface/ideas/race_gronn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_grummle"
+		texturefile = "gfx/interface/ideas/race_grummle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_harpy"
+		texturefile = "gfx/interface/ideas/race_harpy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_high_arrakoa"
+		texturefile = "gfx/interface/ideas/race_high_arakkoa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_high_elves"
+		texturefile = "gfx/interface/ideas/race_high_elf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_highborne"
+		texturefile = "gfx/interface/ideas/race_highborne.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_highmountain_tauren"
+		texturefile = "gfx/interface/ideas/race_highmountain_tauren.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_hobgoblin"
+		texturefile = "gfx/interface/ideas/race_hobgoblin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_hozen"
+		texturefile = "gfx/interface/ideas/race_hozen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_human"
+		texturefile = "gfx/interface/ideas/race_human.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ice_giant"
+		texturefile = "gfx/interface/ideas/race_ice_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ice_troll"
+		texturefile = "gfx/interface/ideas/race_ice_troll.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_infinite_dragon"
+		texturefile = "gfx/interface/ideas/race_infinite_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_iron_dwarf"
+		texturefile = "gfx/interface/ideas/race_iron_dwarf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_iron_giant"
+		texturefile = "gfx/interface/ideas/race_iron_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_iron_vrykul"
+		texturefile = "gfx/interface/ideas/race_iron_vrykul.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_jade_statue"
+		texturefile = "gfx/interface/ideas/race_jade_statue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_jinyu"
+		texturefile = "gfx/interface/ideas/race_jinyu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_jungle_troll"
+		texturefile = "gfx/interface/ideas/race_jungle_troll.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_junker_gnome"
+		texturefile = "gfx/interface/ideas/race_junker_gnome.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_kobold"
+		texturefile = "gfx/interface/ideas/race_kobold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_kvaldir"
+		texturefile = "gfx/interface/ideas/race_kvaldir.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_lasher"
+		texturefile = "gfx/interface/ideas/race_lasher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_lasher"
+		texturefile = "gfx/interface/ideas/race_lasher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_leper_gnome"
+		texturefile = "gfx/interface/ideas/race_leper_gnome.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_light_forged_draenei"
+		texturefile = "gfx/interface/ideas/race_light_forged_draenei.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_lobstrok"
+		texturefile = "gfx/interface/ideas/race_lobstrok.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_lost_ones"
+		texturefile = "gfx/interface/ideas/race_lost_ones.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_maghar_orc"
+		texturefile = "gfx/interface/ideas/race_maghar_orc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_magnataur"
+		texturefile = "gfx/interface/ideas/race_magnataur.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_makrura"
+		texturefile = "gfx/interface/ideas/race_makrura.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_mana_surge"
+		texturefile = "gfx/interface/ideas/race_mana_surge.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_mantid"
+		texturefile = "gfx/interface/ideas/race_mantid.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_mecha_gnome"
+		texturefile = "gfx/interface/ideas/race_mecha_gnome.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_mist_lurker"
+		texturefile = "gfx/interface/ideas/race_mist_lurker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_mogu"
+		texturefile = "gfx/interface/ideas/race_mogu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_mok_nathal"
+		texturefile = "gfx/interface/ideas/race_mok_nathal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_mountain_giant"
+		texturefile = "gfx/interface/ideas/race_mountain_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_murloc"
+		texturefile = "gfx/interface/ideas/race_murloc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_naga"
+		texturefile = "gfx/interface/ideas/race_naga.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_nerubian"
+		texturefile = "gfx/interface/ideas/race_nerubian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_netherwing_dragon"
+		texturefile = "gfx/interface/ideas/race_netherwing_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_night_elf"
+		texturefile = "gfx/interface/ideas/race_night_elf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_nightborne"
+		texturefile = "gfx/interface/ideas/race_nightborne.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_nightfallen"
+		texturefile = "gfx/interface/ideas/race_nightfallen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_nightmare_dragon"
+		texturefile = "gfx/interface/ideas/race_nightmare_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ogre"
+		texturefile = "gfx/interface/ideas/race_ogre.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ogron"
+		texturefile = "gfx/interface/ideas/race_ogron.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_orc"
+		texturefile = "gfx/interface/ideas/race_orc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_pale_orc"
+		texturefile = "gfx/interface/ideas/race_orc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_pale_orc"
+		texturefile = "gfx/interface/ideas/race_pale_orc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_pandaren"
+		texturefile = "gfx/interface/ideas/race_pandaren.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_pygmy"
+		texturefile = "gfx/interface/ideas/race_pygmy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_qiraji"
+		texturefile = "gfx/interface/ideas/race_qiraji.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_quilboar"
+		texturefile = "gfx/interface/ideas/race_quilboar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_ranishu"
+		texturefile = "gfx/interface/ideas/race_ranishu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_red_dragon"
+		texturefile = "gfx/interface/ideas/race_red_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_rock_flayer"
+		texturefile = "gfx/interface/ideas/race_rock_flayer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_saberon"
+		texturefile = "gfx/interface/ideas/race_saberon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sanlayn"
+		texturefile = "gfx/interface/ideas/race_sanlayn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sand_gnome"
+		texturefile = "gfx/interface/ideas/race_sand_gnome.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sand_troll"
+		texturefile = "gfx/interface/ideas/race_sand_troll.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_satyr"
+		texturefile = "gfx/interface/ideas/race_satyr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_saurok"
+		texturefile = "gfx/interface/ideas/race_saurok.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sea_giant"
+		texturefile = "gfx/interface/ideas/race_sea_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sethrak"
+		texturefile = "gfx/interface/ideas/race_sethrak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sha"
+		texturefile = "gfx/interface/ideas/race_sha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_silithid"
+		texturefile = "gfx/interface/ideas/race_silithid.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_siren"
+		texturefile = "gfx/interface/ideas/race_siren.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_snobold"
+		texturefile = "gfx/interface/ideas/race_snobold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sporeling"
+		texturefile = "gfx/interface/ideas/race_sporeling.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_sprite"
+		texturefile = "gfx/interface/ideas/race_sprite.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_stone_dragon"
+		texturefile = "gfx/interface/ideas/race_stone_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_stone_giant"
+		texturefile = "gfx/interface/ideas/race_stone_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_stone_trogg"
+		texturefile = "gfx/interface/ideas/race_stone_trogg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_storm_dragon"
+		texturefile = "gfx/interface/ideas/race_storm_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_storm_giant"
+		texturefile = "gfx/interface/ideas/race_storm_giant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_taunka"
+		texturefile = "gfx/interface/ideas/race_taunka.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_tauren"
+		texturefile = "gfx/interface/ideas/race_tauren.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_titan_watcher"
+		texturefile = "gfx/interface/ideas/race_titan_watcher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_tolvir"
+		texturefile = "gfx/interface/ideas/race_tolvir.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_tortollan"
+		texturefile = "gfx/interface/ideas/race_tortollan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_trogg"
+		texturefile = "gfx/interface/ideas/race_trogg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_tuskarr"
+		texturefile = "gfx/interface/ideas/race_tuskarr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_twilight_dragon"
+		texturefile = "gfx/interface/ideas/race_twilight_dragon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_undead"
+		texturefile = "gfx/interface/ideas/race_undead.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_valarjar"
+		texturefile = "gfx/interface/ideas/race_valarjar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_valkyr"
+		texturefile = "gfx/interface/ideas/race_valkyr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_vrykul"
+		texturefile = "gfx/interface/ideas/race_vrykul.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_vargul"
+		texturefile = "gfx/interface/ideas/race_vargul.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_virmen"
+		texturefile = "gfx/interface/ideas/race_virmen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_void_elf"
+		texturefile = "gfx/interface/ideas/race_void_elf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_void_walker"
+		texturefile = "gfx/interface/ideas/race_void_walker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_vrykul"
+		texturefile = "gfx/interface/ideas/race_vrykul.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_vulpera"
+		texturefile = "gfx/interface/ideas/race_vulpera.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_water_elemental"
+		texturefile = "gfx/interface/ideas/race_water_elemental.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_wendigo"
+		texturefile = "gfx/interface/ideas/race_wendigo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_wildkin"
+		texturefile = "gfx/interface/ideas/race_wildkin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_wind_elemental"
+		texturefile = "gfx/interface/ideas/race_wind_elemental.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_withered"
+		texturefile = "gfx/interface/ideas/race_withered.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_wolvar"
+		texturefile = "gfx/interface/ideas/race_wolvar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_worgen"
+		texturefile = "gfx/interface/ideas/race_worgen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_wretched"
+		texturefile = "gfx/interface/ideas/race_wretched.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_yaungol"
+		texturefile = "gfx/interface/ideas/race_yaungol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_yeti"
+		texturefile = "gfx/interface/ideas/race_yeti.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_race_zandalari_troll"
+		texturefile = "gfx/interface/ideas/race_zandalari_troll.dds"
+	}
+}

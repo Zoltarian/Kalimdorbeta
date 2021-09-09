@@ -1,0 +1,90 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	gnoll_camp = {
+
+		path = {
+			leads_to_tech = gnoll_outpost
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = gnoll_administration_folder
+			position = { x = -2 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			gnoll_tier_technology
+		}
+	}
+
+	gnoll_outpost = {
+
+		research_speed_factor = 0.025
+		global_building_slots_factor = 0.15
+
+		on_research_complete = {
+			set_technology = {
+				tier_2_tech = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = gnoll_fort
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 594
+		folder = {
+			name = gnoll_administration_folder
+			position = { x = -2 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			gnoll_tier_technology
+		}
+	}
+
+	gnoll_fort = {
+
+		research_speed_factor = 0.025
+		global_building_slots_factor = 0.15
+
+		on_research_complete = {
+			set_technology = {
+				tier_3_tech = 1
+			}
+		}
+
+		research_cost = 1.5
+
+		start_year = 600
+		folder = {
+			name = gnoll_administration_folder
+			position = { x = -2 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			gnoll_tier_technology
+		}
+
+	}
+
+}

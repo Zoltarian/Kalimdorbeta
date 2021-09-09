@@ -1,0 +1,33 @@
+
+state={
+	id=288
+	name="STATE_288" #E. Jubuwal/Explorers' League Digsite
+	resources={
+		ores=14.000
+	}
+
+	history={
+		
+		victory_points = {
+			2716 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GUR
+
+		617.1.1 = {
+			owner = ZNZ
+			controller = ZNZ
+			add_core_of = ZNZ
+		}
+	}
+
+	provinces={
+		2716 2719 2733 5585 5590 5593
+	}
+	manpower=9550
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

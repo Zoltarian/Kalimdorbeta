@@ -1,0 +1,32 @@
+
+state={
+	id=1609
+	name="STATE_1609"
+
+	history={
+		
+		add_core_of = BLO
+		victory_points = {
+			524 5
+		}
+		buildings = {
+			infrastructure = 4
+			524 = {
+				naval_base = 1
+			}
+		}
+
+		617.1.1 = {
+			
+			controller = ZAN
+			add_core_of = ZAN
+		}
+	}
+
+	provinces={
+		524 5436
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

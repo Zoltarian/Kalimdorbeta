@@ -1,0 +1,34 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Deep Strider Fishing Fleet"			
+		naval_base = 11487
+		task_force = {
+			name = "Deep Strider Fishing Fleet"			
+			location = 11487
+			
+			ship = {
+				name = "1st Deep Strider Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DSG } }
+			}
+			ship = {
+				name = "2nd Deep Strider Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DSG } }
+			}
+			ship = {
+				name = "3rd Deep Strider Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DSG } }
+			}
+			ship = {
+				name = "4th Deep Strider Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DSG } }
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=376
+	name="STATE_376"  #Havenshire Mine/Archeus: The Ebon Hold
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			4301 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		3005 4248 4265 4271 4294 4301 7492 
+	}
+	manpower=5775
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

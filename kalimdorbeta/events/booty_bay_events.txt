@@ -1,0 +1,96 @@
+﻿###########################
+#Booty Bay
+###########################
+
+add_namespace = boogurwar
+add_namespace = bootybay
+
+country_event = {
+	id = boogurwar.1
+	title = boogurwar.1.t
+	desc = boogurwar.1.d 
+	fire_only_once = yes
+	trigger = {
+		tag = BOO 
+		BOO = { has_defensive_war_with = GUR }
+		
+	}
+	option = {
+		name = boogurwar.1.option.1
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = boogurwar.1.option.2
+		GUR = { country_event = { days = 0 id = boogurwar.2 } }
+		ai_chance = {
+			factor = 80
+		}
+	}
+}
+
+country_event = {
+	id = boogurwar.2
+	title = boogurwar.2.t
+	desc = boogurwar.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = boogurwar.2.option.1
+		BOO = { country_event = boogurwar.3 }
+		ai_chance = {
+			factor = 80
+		}		
+	}
+	option = {
+		name = boogurwar.2.option.2
+		white_peace = BOO 
+		white_peace = STC
+		add_ideas = GUR_booty_bay_tribute_get
+		BOO = { 
+			add_ideas = GUR_booty_bay_tribute_provide 
+			country_event = boogurwar.4
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = boogurwar.3
+	title = boogurwar.3.t
+	desc = boogurwar.3.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = boogurwar.3.option.1
+	}
+
+}
+
+country_event = {
+	id = boogurwar.4
+	title = boogurwar.4.t
+	desc = boogurwar.4.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = boogurwar.4.option.1
+	}
+}
+
+country_event = {
+	id = boogurwar.5
+	title = boogurwar.5.t
+	desc = boogurwar.5.d 
+	fire_only_once = yes
+	hidden = yes # Optional : if set to "yes" no one will see the event
+}

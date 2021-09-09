@@ -1,0 +1,30 @@
+
+state={
+	id=255
+	name="STATE_255"
+	resources={
+		mounts = 12
+		ores = 6
+	}
+
+	history={
+		
+		victory_points = {
+			8201 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = OOM
+
+	}
+
+	provinces={
+		766 8201 8210 8212 8220 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

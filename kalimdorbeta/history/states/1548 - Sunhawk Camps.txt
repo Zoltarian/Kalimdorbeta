@@ -1,0 +1,32 @@
+
+state={
+	id=1548
+	name="STATE_1548"
+	resources={
+		wheat=1
+		ores=5
+		wood=2
+	}
+
+	history={
+		owner = AXS
+		victory_points = {
+			3418 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = AXS
+
+	}
+
+	provinces={
+		3418 15118 15123 15126 15127 
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

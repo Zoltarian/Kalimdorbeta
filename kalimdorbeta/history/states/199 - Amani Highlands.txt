@@ -1,0 +1,37 @@
+
+state={
+	id=199
+	name="STATE_199"
+	resources={
+		ores=62.000
+	}
+
+	history={
+		
+		victory_points = {
+			4697 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ZUL
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = ZUL
+
+		}
+
+	}
+
+	provinces={
+		669 4689 4690 4691 4693 4695 4696 4697 4699 4703 4704 
+	}
+	manpower=21800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

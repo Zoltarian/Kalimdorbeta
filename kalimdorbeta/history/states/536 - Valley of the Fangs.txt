@@ -1,0 +1,37 @@
+
+state={
+	id=536
+	name="STATE_536" #Valley of the Fangs/ Scar of the Worldbreaker
+	resources={
+		ores=8.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+		}
+
+		617.1.1 = {
+			
+			controller = STC
+			add_core_of = STC
+		}
+	}
+
+	provinces={
+		970 4809 4822 4824 4838 6188 6258
+	}
+	manpower=9300
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

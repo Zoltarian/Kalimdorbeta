@@ -1,0 +1,39 @@
+
+state={
+	id=1334
+	name="STATE_1334"
+	resources = {
+		gunpowder=7
+		oil=4
+		wood=2
+		ores=5
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			12483 10
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			12510 = {
+				naval_base = 2
+			}
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		1552 12483 12489 12496 12499 12507 12509 12510
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

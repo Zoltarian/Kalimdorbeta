@@ -1,0 +1,37 @@
+
+state={
+	id=502
+	name="STATE_502"
+	
+			resources={
+		wood =8
+		mounts = 14
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			4948 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1044 4920 4928 4931 4935 4937 4940 4943 4947 4948 4950 4952 4955 4956 4964 
+	}
+	manpower=9450
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,76 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+
+	#generic folder tags
+
+	administration_technology
+	infantry_technology
+	cavalry_technology
+	siege_works_technology
+	altar_technology
+	air_technology
+	naval_technology
+
+	#land doc
+	land_doctrine
+
+	#ships
+	#naval_technology
+	small_frame_technology
+	large_frame_technology
+
+	destroyer_technology
+	submarine_technology
+	snorkel_technology
+	frigate_technology
+	light_frigate_technology
+	heavy_frigate_technology
+	naval_transport_technology
+
+	juggernaught_technology
+	battleship_technology
+	dreadnaught_technology
+	carrier_technology
+
+	naval_academy_technology
+	navigator_technology
+	spotter_technology
+	deckhand_technology
+	
+	oil_technology
+
+	foundry_technology
+	naval_cannon_technology
+	light_cannon_technology
+	heavy_cannon_technology
+	reinforced_frames_technology
+	naval_mines_technology
+	depth_charge_technology
+	torpedo_technology
+
+	naval_doctrine
+	cat_base_strike
+	cat_trade_interdiction
+	cat_fleet_in_being
+	convoy_defense_tree
+	fleet_in_being_tree
+	submarine_doctrine
+	trade_interdiction_tree
+	base_strike_main
+
+	#air stuff
+	air_technology
+	organic_air_technology
+	mechanical_air_technology
+	fighter_technology
+	cas_technology
+	bomber_technology
+	naval_bomber_technology
+	scout_plane_technology
+	air_transport_technology
+
+	air_doctrine
+
+}

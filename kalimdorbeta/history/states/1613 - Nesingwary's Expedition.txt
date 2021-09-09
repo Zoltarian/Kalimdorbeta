@@ -1,0 +1,25 @@
+
+state={
+	id=1613
+	name="STATE_1613" #Tkashi River/Nesingwary's Expedition
+
+	history={
+		
+		victory_points = {
+			5575 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = BLO
+
+	}
+
+	provinces={
+		1675 1677 5575 5662 6942 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=1012
+	name="STATE_1012"
+	resources={
+		mounts = 8
+	}
+
+	history={
+		
+		add_core_of = WSC
+
+		victory_points = {
+			10436 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WSC
+		}
+	}
+
+	provinces={
+		6451 9801 9856 9857 10436 10438 10442 10445
+	}
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

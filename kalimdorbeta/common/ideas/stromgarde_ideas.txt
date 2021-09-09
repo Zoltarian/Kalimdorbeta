@@ -1,0 +1,173 @@
+ideas = {
+
+	advisor = {
+
+		STR_vikki_lonsav = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+			
+			#traits = { merchant_idea_2 }
+
+		}
+
+		STR_emily_jackson = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+
+		}
+
+		STR_hammon_karwn = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+			
+			#traits = { merchant_idea_1 }
+
+		}
+
+		STR_androd_fadran = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+
+			#traits = { merchant_idea_3 }
+
+		}
+
+
+		STR_carettaker_alaric = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+			
+			traits = { nationalist_idea }
+
+		}
+
+		STR_carettaker_weston = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+			
+			traits = { alliance_sympathiser }
+
+		}
+
+	}
+	
+	council_member = {
+	# Military Advisors
+	
+		STR_deneb_walker = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+			
+			traits = { medic_idea_1 } 
+
+		}
+		
+		STR_orman_of_stromgarde = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+			
+			traits = { infantry_idea_3 } 
+
+		}
+		
+		STR_kenata_dabyrie = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+
+			traits = { infantry_idea_1 }
+
+		}
+		
+		STR_fardel_dabyrie = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+
+			traits = { recruiter_idea_2 }
+
+		}
+
+		STR_marcel_dabyrie = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+
+			traits = { trainer_idea_1 }
+
+		}
+		
+		STR_carettaker_nevlin = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STR
+			}
+			
+			traits = { guardian_2 }
+
+		}
+
+
+	
+	}
+
+	country = {
+
+		STR_attented_the_meeting_of_the_seven_kingdoms = {
+
+			allowed = {
+				original_tag = STR
+			}
+
+			modifier = {
+				alliance_drift = 0.1
+			}
+
+		}
+
+	}
+
+}

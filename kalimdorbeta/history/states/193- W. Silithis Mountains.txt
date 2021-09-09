@@ -1,0 +1,21 @@
+
+state={
+	id=193
+	name="STATE_193"
+	impassable = yes
+
+	history={
+		owner = HAS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HAS
+	}
+
+	provinces={
+		672 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

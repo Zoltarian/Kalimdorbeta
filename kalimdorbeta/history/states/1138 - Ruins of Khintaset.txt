@@ -1,0 +1,33 @@
+
+state={
+	id=1138
+	name="STATE_1138"
+	resources = {
+		mana=7
+		wheat=5
+		mounts=3
+		ores=6
+	}
+
+	history={
+		owner = RKH
+		victory_points = {
+			10868 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = RKH
+
+	}
+
+	provinces={
+		10868 10869 10874 11947 11949 11950 11951 11952 11958 11959 11960 11964 11965 11967 11968 11969
+	}
+	manpower=19000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

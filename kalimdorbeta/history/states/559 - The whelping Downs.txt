@@ -1,0 +1,30 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		
+		victory_points = {
+			6291 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+	}
+
+	provinces={
+		911 4587 4588 4591 4592 6291 
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

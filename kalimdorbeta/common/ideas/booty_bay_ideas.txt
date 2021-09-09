@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+
+		BOO_Steamwheedle_cartel = {
+			
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = BOO
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+		}
+
+		BOO_Blackwater_raiders = {
+			
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = BOO
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+		}
+	}
+
+	advisor = {
+
+	}
+	
+}

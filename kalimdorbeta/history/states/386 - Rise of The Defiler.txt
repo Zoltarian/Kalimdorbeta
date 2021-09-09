@@ -1,0 +1,48 @@
+
+state={
+	id=386
+	name="STATE_386"
+	resources={
+		ores=28.000
+	}
+
+	history={
+		
+		victory_points = {
+			2893 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		add_core_of = BRC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = BRC
+
+		}
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			owner = DRM
+			controller = DRM
+			add_core_of = DRM
+		}
+
+	}
+
+	provinces={
+		2887 2890 2893 2899 2901 2905 4348
+	}
+	manpower=40500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

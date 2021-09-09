@@ -1,0 +1,34 @@
+
+state={
+	id=4
+	name="STATE_4"
+	resources={
+		oil=22.000
+	}
+
+	history={
+		
+		victory_points = {
+			1392 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 3
+			1392 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		1375 1377 1382 1385 1392 
+	}
+	manpower=95000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

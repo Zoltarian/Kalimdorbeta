@@ -1,0 +1,36 @@
+
+state={
+	id=409
+	name="STATE_409"
+	resources={
+		wood =6
+		gunpowder=6
+		mounts=4
+	}
+
+	history={
+		
+		victory_points = {
+			5481 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			arms_factory = 1
+			5481 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = BFT
+
+	}
+
+	provinces={
+		803 880 5441 5443 5466 5467 5469 5473 5475 5477 5479 5481 5482 5666 
+	}
+	manpower=41000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

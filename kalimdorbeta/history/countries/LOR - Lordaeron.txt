@@ -1,0 +1,290 @@
+capital = 10
+
+oob = "LOR_592"
+set_naval_oob = "LOR_592_naval"
+
+set_convoys = 140
+
+set_research_slots = 3
+
+set_stability = 0.75
+set_war_support = 0.3
+
+add_ideas = {
+	
+	kingdom
+	recruit_guards
+	isolation
+	free_trade
+
+	human_primary_race
+	primary_trait_diplomatic
+	primary_trait_human_spirit
+	primary_trait_perception
+
+	primary_religion_the_church_of_the_holy_light
+
+	LOR_era_of_peace
+	LOR_mothballed_fleet
+	LOR_courts_of_lordaeron
+	LOR_poor_administration
+}
+
+give_guarantee = DAL
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+	large_frames = 1
+	battleship_tech_1 = 1
+	carrier_tech_1 = 1
+
+	aviary_tech = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+592.1.1 = {
+
+	set_politics = {
+	ruling_party = alliance
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+	}
+
+  set_popularities = {
+    alliance = 100
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 0
+  }
+}
+
+596.1.1 = {
+
+	set_stability = 0.75
+	set_war_support = 0.3
+
+	add_ideas = {
+		
+		kingdom
+		limited_conscription
+		early_military_development
+		free_trade
+
+		human_primary_race
+		primary_trait_diplomatic
+		primary_trait_human_spirit
+		primary_trait_perception
+
+		primary_religion_the_church_of_the_holy_light
+	}
+
+	create_faction = Alliance_of_Lordaeron
+	add_to_faction = STO
+	add_to_faction = STH
+	add_to_faction = HEA
+	add_to_faction = DAL
+
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+		
+		naval_transport_2 = 1
+
+		blueprints_1 = 1
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+
+600.1.1 = {
+	oob = "LOR_600"
+	set_naval_oob = "LOR_600_naval"
+
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = STH
+			autonomous_state = autonomy_personal_union
+			freedom_level = 0.01
+		}
+		else = {
+			puppet = STH
+		}
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = HEA
+			autonomous_state = autonomy_personal_union
+			freedom_level = 0.01
+		}
+		else = {
+			puppet = HEA
+		}
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = STO
+			autonomous_state = autonomy_personal_union
+			freedom_level = 0.01
+		}
+		else = {
+			puppet = STO
+		}
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = ALT
+			autonomous_state = autonomy_personal_union
+			freedom_level = 0.01
+		}
+		else = {
+			puppet = ALT
+		}
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = NET
+			autonomous_state = autonomy_personal_union
+			freedom_level = 0.01
+		}
+		else = {
+			puppet = NET
+		}
+	}
+
+	create_country_leader = {
+		name = "King Terenas Menethil II"
+		desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC_POST_SECOND_WAR"
+		picture = "Terenas_Menethil_II.dds"
+		expire = "1965.1.1"
+		ideology = alliance_type
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "King Terenas Menethil II"
+		desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC_POST_SECOND_WAR"
+		picture = "Terenas_Menethil_II.dds"
+		expire = "1965.1.1"
+		ideology = neutral_type
+		traits = {
+			#
+		}
+	}
+}
+
+617.1.1 = {
+	# LOR doesn't exist at Classic start date
+	# Dissolve Alliance of Lordaeron (to make place for The Alliance)
+	dismantle_faction = yes
+}
+
+create_country_leader = {
+	name = "King Terenas Menethil II"
+	desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC"
+	picture = "Terenas_Menethil_II.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Terenas Menethil II"
+	desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC"
+	picture = "Terenas_Menethil_II.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Arthas Menethil"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Uther the Lightbringer"
+	picture = "Uther_the_Lightbringer.dds"
+	traits = {  }
+	id = 38400
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Turalyon"
+	picture = "turalyon.dds"
+	traits = {  }
+	id = 38401
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Othmar Garithos"
+	picture = "Garithos.dds"
+	traits = {  }
+	id = 38402
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

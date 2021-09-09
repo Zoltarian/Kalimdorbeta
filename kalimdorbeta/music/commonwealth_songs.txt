@@ -1,0 +1,34 @@
+
+music = {
+	song = "londoninflames"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+		}
+		modifier = {
+			factor = 5
+		}		
+	}
+}
+
+music = {
+	song = "operationcompas"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+		}
+	}
+}
+
+music = {
+	song = "heroesofelalamein"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+
+		}		
+	}
+}

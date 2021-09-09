@@ -1,0 +1,35 @@
+
+state={
+	id=1458
+	name="STATE_1458"
+	resources={
+		wheat=4
+		wood=4
+		oil=3
+		gunpowder=3
+	}
+
+	history={
+		owner = SIL
+		victory_points = {
+			13578 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			13578 = {
+				naval_base = 2
+			}
+		}
+
+		add_core_of = SIL
+	}
+
+	provinces={
+		12909 13578 13585 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

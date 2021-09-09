@@ -1,0 +1,66 @@
+﻿division_template = {
+	name = "Moonguard Guard"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Moonguard Guard"
+		location = 8405
+		division_template = "Moonguard Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Moonguard Guard"
+		location = 8511
+		division_template = "Moonguard Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Moonguard Guard"
+		location = 8547
+		division_template = "Moonguard Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Moonguard Guard"
+		location = 8552
+		division_template = "Moonguard Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Moonguard Guard"
+		location = 8529
+		division_template = "Moonguard Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Moonguard Guard"
+		location = 8405
+		division_template = "Moonguard Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Moonguard Guard"
+		location = 8405
+		division_template = "Moonguard Guard"
+		start_experience_factor = 0.2
+	}
+}

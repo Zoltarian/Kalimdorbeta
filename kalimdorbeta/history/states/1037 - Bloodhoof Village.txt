@@ -1,0 +1,35 @@
+
+state={
+	id=1037
+	name="STATE_1037"
+	resources={
+		wheat=4
+		wood=4
+	}
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+
+		victory_points = {
+			9997 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		617.1.1 = {
+			owner = THB
+			controller = THB
+			add_core_of = THB
+		}
+	}
+
+	provinces={
+		6831 9687 9729 9997 10002 10017 10376 10377
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,517 @@
+guiTypes = {
+	containerWindowType = {
+		name = "state_religion_container"
+		position = {x=75 y=159}
+		size = { width=780 height=496 }
+
+		iconType = {
+			name = "state_religion_church_of_the_holy_light"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_holy_light
+			pdx_tooltip = "CHURCH_OF_THE_HOLY_LIGHT_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_naaru"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_naaru
+			pdx_tooltip = "THE_NARUU_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_scarlet_church"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_scarlet_light
+			pdx_tooltip = "SCARLET_CHURCH_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_argent_church"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_argent_light
+			pdx_tooltip = "ARGENT_CHURCH_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_order_of_the_blood_knights"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_blood_knights
+			pdx_tooltip = "ORDER_OF_THE_BLOOD_KNIGHTS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_rukhmar"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_rukhmar
+			pdx_tooltip = "DISCIPLES_OF_RUKHMAR_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_necrolytes"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_necrolytes
+			pdx_tooltip = "NECROLYTES_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_voodoo"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_voodoo
+			pdx_tooltip = "VOODOO_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_cult_of_the_forgotten_shadows"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_forgotten_shadow
+			pdx_tooltip = "CULT_OF_THE_FORKARTEN_SHADOWS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_anzu"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_anzu
+			pdx_tooltip = "DISCIPLES_OF_ANZU_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_void"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_the_void
+			pdx_tooltip = "THE_VOID_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_arcane_studies"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_arcane
+			pdx_tooltip = "ARCANE_STUDIES_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_sun_well"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_sunwell
+			pdx_tooltip = "THE_SUN_WELL_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_night_well"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_nightwell
+			pdx_tooltip = "THE_NIGHT_WELL_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_druidism"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_druidism
+			pdx_tooltip = "DRUIDISM_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_ursoc"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_ursoc
+			pdx_tooltip = "DISCIPLES_OF_URSOC_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_logosh"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_logosh
+			pdx_tooltip = "DISCIPLES_OF_LOGOSH_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_agamaggan"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_agamaggan
+			pdx_tooltip = "DISCIPLES_OF_AGAMAGGAN_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_avianna"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_avianna
+			pdx_tooltip = "DISCIPLES_OF_AVIANNA_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_tortolla"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_tortolla
+			pdx_tooltip = "DISCIPLES_OF_TORTOLLA_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_august_celestial"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_august_celestial
+			pdx_tooltip = "august_celestial_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_thornspeakers"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_thornspeakers
+			pdx_tooltip = "THORNSPEAKERS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_harvest_witchcraft"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_harvest_witchcraft
+			pdx_tooltip = "HARVEST_WITCHCRAFT_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_natural_magic"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_natural_magic
+			pdx_tooltip = "NATURAL_MAGIC_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_loa_spirits"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_loa_spirits
+			pdx_tooltip = "LOA_SPIRITS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_fel"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_fel
+			pdx_tooltip = "THE_FEL_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_demonology"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_demonology
+			pdx_tooltip = "DEMONOLOGY_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_necromancy"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_necromancy
+			pdx_tooltip = "NECROMANCY_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_the_lich_king"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_lich_king
+			pdx_tooltip = "DISCIPLES_OF_THE_LICH_KING_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_helya"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_helya
+			pdx_tooltip = "FOLLOWERS_OF_HELYA_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_drust"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_drust
+			pdx_tooltip = "DRUST_RELIGION_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_yshaarj"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_yshaarj
+			pdx_tooltip = "FOLLOWERS_OF_YSHAARJ_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_nzoth"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_nzoth
+			pdx_tooltip = "FOLLOWERS_OF_NZOTH_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_yogg_saron"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_yoggsaron
+			pdx_tooltip = "FOLLOWERS_OF_YOGG_SARON_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_cthun"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_cthun
+			pdx_tooltip = "FOLLOWERS_OF_CTHUN_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_hour_of_twilight"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_hour_of_twilight
+			pdx_tooltip = "THE_HOUR_OF_TWILIGHT_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_dark_conclave"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_dark_conclave
+			pdx_tooltip = "THE_DARK_CONCLAVE_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_ghuun"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_ghuun
+			pdx_tooltip = "FOLLOWERS_OF_GHUUN_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_mystery_of_the_makers"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_mystery_of_the_makers
+			pdx_tooltip = "MYSTERY_OF_THE_MAKERS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_odyn"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_odyn
+			pdx_tooltip = "FOLLOWERS_OF_ODYN_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_titans"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_titans
+			pdx_tooltip = "THE_TITANS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_chi"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_chi
+			pdx_tooltip = "CHI_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_elemental_furies"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_elemental_furies
+			pdx_tooltip = "THE_ELEMENTAL_FURIES_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_shamanism"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_shamanism
+			pdx_tooltip = "SHAMANISM_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_dark_shamanism"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_dark_shamanism
+			pdx_tooltip = "DARK_SHAMANISM_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_the_firelord"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_firelord
+			pdx_tooltip = "FOLLOWERS_OF_THE_FIRELORD_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_the_tidehunter"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_tidehunter
+			pdx_tooltip = "FOLLOWERS_OF_THE_TIDEHUNTER_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_the_stonemother"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_stonemother
+			pdx_tooltip = "FOLLOWERS_OF_THE_STONEMOTHER_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_the_windlord"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_windlord
+			pdx_tooltip = "FOLLOWERS_OF_THE_WINDLORD_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_geomancy"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_geomancy
+			pdx_tooltip = "GEOMANCY_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_pyromancy"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_pyromancy
+			pdx_tooltip = "PYROMANCY_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_ordos"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_ordos
+			pdx_tooltip = "FOLLOWERS_OF_ORDOS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_gurok"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_gurok
+			pdx_tooltip = "FOLLOWERS_OF_GUROK_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_the_tidemother"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_tidemother
+			pdx_tooltip = "FOLLOWERS_OF_THE_TIDEMOTHER_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_waterspeaking"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_waterspeaking
+			pdx_tooltip = "WATERSPEAKING_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_sisterhood_of_elune"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_sisterhood_of_elune
+			pdx_tooltip = "THE_SISTERHOOD_OF_ELUNE_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_tauren_mythology"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_tauren_mythology
+			pdx_tooltip = "TAUREM_MYTHOLOGY_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_pandaren_folklore"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_pandaren_folklore
+			pdx_tooltip = "PANDAREN_FOLKLORE_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_mogu_mythology"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_mogu_mythology
+			pdx_tooltip = "MOGU_MYTHOLOGY_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_luckydos"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_luckydo
+			pdx_tooltip = "LUCKYDOS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_volcanoth"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_volcanoth
+			pdx_tooltip = "FOLLOWERS_OF_VOLCANOTH_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_mazu"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_mazu
+			pdx_tooltip = "FOLLOWERS_OF_MAZU_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_kros"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_kros
+			pdx_tooltip = "FOLLOWERS_OF_KROS_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_tuskarr_mythology"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_tuskarr_mythology
+			pdx_tooltip = "TUSKARR_MYTHOLOGY_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_ancient_nerubian"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_ancient_nerubian
+			pdx_tooltip = "ANCIENT_NERUBIAN_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_gahzrilla"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_gahzrilla
+			pdx_tooltip = "FOLLOWERS_OF_GAHZRILLA_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_the_wyrmcult"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_wyrmcult
+			pdx_tooltip = "THE_WYRMCULT_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_gronn_worship"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_gronn
+			pdx_tooltip = "GRONN_WORSHIP_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_magnataur_worship"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_magnataur
+			pdx_tooltip = "MAGNATAUR_WORSHIP_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_zarjira"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_zarjira
+			pdx_tooltip = "FOLLOWERS_OF_ZARJIRA_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_followers_of_borrok"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_borrok
+			pdx_tooltip = "FOLLOWERS_OF_BORROK_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_genesaur_worship"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_genesaur
+			pdx_tooltip = "GENESAUR_WORSHIP_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_naraxas"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_naraxas
+			pdx_tooltip = "DISCIPLES_OF_NARAXAS_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_disciples_of_jorhuttam"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_jorhuttam
+			pdx_tooltip = "DISCIPLES_OF_JORHUTTAM_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_way_of_the_jade_fist"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_way_of_the_jade_fist
+			pdx_tooltip = "WAY_OF_THE_JADE_FIST_STATE_VIEW_TOOLTIP"
+		}
+		iconType = {
+			name = "state_religion_irreligious"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_irreligious
+			pdx_tooltip = "IRRELIGIOUS_STATE_VIEW_TOOLTIP"
+		}
+
+	}
+
+	containerWindowType = {
+		name = "religion_conversion_button_container"
+		position = { x = 185 y = 147 }
+		size = { width = 780 height = 496 }
+		clipping = yes
+
+		buttonType = {
+			name = "religion_conversion_button"
+			spriteType = "GFX_race_convert_state_convert_button"
+			frame = 1
+			position = { x = 62 y = 18 }
+			font = "hoi_16mbs"
+			format = center
+			text = "RELIGION"
+			pdx_tooltip = "CONVERT_STATE_RELIGION_TT"
+		}
+	}
+
+	containerWindowType = {
+		name = "convert_religion_progress"
+		position = { x = 0 y = 0 }
+		size = { width = 780 height = 496 }
+		scale = 1
+
+		iconType = {
+			name = "religion_conversion_bar_bg"
+			spriteType = "GFX_race_convert_progress_bar_bg"
+			position = { x = 268 y = 200 }
+			pdx_tooltip = "RELIGION_CONVERSION_INFO"
+		}
+		containerWindowType = {
+			name = "religion_conversion_progress_bar"
+			position = { x = 268 y = 200 }
+			size = { width=88 height=17 }
+			orientation = upper_left
+			clipping = yes
+
+			iconType = {
+				name = "RELIGION_conversion_bar"
+				spriteType = "GFX_race_convert_progress_bar"
+				position = { x=-1 y=-17 }
+				alwaystransparent = yes
+			}
+		}
+		buttonType ={
+			name ="religion_conversion_cancel"
+			spriteType = "GFX_closebutton_16"
+			pdx_tooltip = "CONVERSION_CANCEL_INFO"
+			position = { x = 240 y = 200 }
+		}
+	}
+}

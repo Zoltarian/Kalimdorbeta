@@ -1,0 +1,27 @@
+
+state={
+	id=603
+	name="STATE_603"
+
+	history={
+		
+		victory_points = {
+			8802 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ZAN
+
+	}
+
+	provinces={
+		8699 8790 8794 8800 8802 8806 8810 8816 
+	}
+	manpower=56000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

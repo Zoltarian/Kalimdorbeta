@@ -1,0 +1,30 @@
+
+state={
+	id=1040
+	name="STATE_1040"
+	resources={
+		ores=7
+		gunpowder=4
+	}
+
+	history={
+		owner = PAL
+		victory_points = {
+			10034 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PAL
+
+	}
+
+	provinces={
+		9690 10014 10016 10027 10030 10034 
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

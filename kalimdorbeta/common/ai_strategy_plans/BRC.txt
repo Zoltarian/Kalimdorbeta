@@ -1,0 +1,27 @@
+blackrockclan_historical = {
+	name = "Blackrock Clan historical plan"
+	desc = "Essentially historical behaviour for Blackrock Clan"
+
+	enable = {
+		original_tag = BRC
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		BRC_a_new_world
+		BRC_discipline_peons
+		BRC_a_new_foundry
+		BRC_steel_weapons
+		BRC_the_blackrock_war_machine
+		BRC_discipline_the_war_band
+		BRC_found_stonard	
+		BRC_develop_the_swamps
+		BRC_the_pink_skins
+		BRC_send_scouts_north
+		BRC_raid_border_settlements
+		BRC_dawn_of_the_first_war
+		BRC_pillage_redridge
+	}
+
+}
+

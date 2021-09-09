@@ -1,0 +1,39 @@
+
+state={
+	id=641
+	name="STATE_641"
+	
+	resources={
+		ores=30.000
+		wood = 12.000
+	}
+
+	history={
+		
+		victory_points = {
+			7116 10
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1		
+			radar_station = 1
+			7116 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+			7115 = {
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = KUL
+
+	}
+
+	provinces={
+		7095 7097 7104 7105 7108 7115 7116 7122 7128 
+	}
+	manpower=24300
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

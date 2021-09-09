@@ -1,0 +1,129 @@
+﻿capital = 741
+
+oob = "AUC_592"
+
+set_research_slots = 3
+
+set_stability = 0.6
+set_war_support = 0.7
+
+add_ideas = {
+	
+	council
+	limited_conscription
+	preparing_for_war
+	limited_exports
+	
+	draenei_primary_race
+	
+	primary_religion_the_naaru
+}
+
+set_technology = {
+
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+	
+	arch_mage_equipment_tech_1 = 1
+	
+	support_equipment_tech = 1
+	
+	
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+	
+	
+	naval_transport_1 = 1
+	
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+}
+
+set_politics = {	
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Exarch Maladaar"
+	desc = "POLITICS_EXARCH_MALADAAR_DESC"
+	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Exarch Maladaar"
+	desc = "POLITICS_EXARCH_MALADAAR_DESC"
+	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Exarch Maladaar"
+	desc = "POLITICS_EXARCH_MALADAAR_DESC"
+	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Exarch Maladaar"
+	desc = "POLITICS_EXARCH_MALADAAR_DESC"
+	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Exarch Maladaar"
+	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
+	traits = {  }
+	id = 2100
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Levixus the Soul Caller"
+	picture = "gfx/leaders/AUC/levixus_the_soul_caller.dds"
+	traits = {  }
+	id = 2101
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

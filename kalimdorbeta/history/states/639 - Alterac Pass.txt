@@ -1,0 +1,28 @@
+
+state={
+	id=639
+	name="STATE_639"
+
+	history={
+		
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+
+		}
+
+	}
+
+	provinces={
+		5393 5395 5396 5399 7447 7448 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

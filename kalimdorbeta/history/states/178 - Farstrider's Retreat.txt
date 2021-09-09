@@ -1,0 +1,30 @@
+
+state={
+	id=178
+	name="STATE_178"
+	resources={
+		mana=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			3210 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		3191 3197 3204 3210 3217 3224 5733 
+	}
+	manpower=21600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

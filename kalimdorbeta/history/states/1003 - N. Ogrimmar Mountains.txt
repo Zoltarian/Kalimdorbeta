@@ -1,0 +1,30 @@
+
+state={
+	id=1003
+	name="STATE_1003"
+
+	impassable = yes
+	history={
+		owner = DWT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = DWT
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+			remove_core_of = DWT
+
+		}
+
+	}
+
+	provinces={
+		9771
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

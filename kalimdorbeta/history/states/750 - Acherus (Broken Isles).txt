@@ -1,0 +1,31 @@
+
+state={
+	id=750
+	name="STATE_750"
+	resources={
+		oil=6.000
+	}
+
+	history={
+		
+		add_core_of = SFT
+
+		victory_points = {
+			6078 5
+		}
+
+		buildings = {
+			infrastructure = 1
+			6078 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		6078 6090
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

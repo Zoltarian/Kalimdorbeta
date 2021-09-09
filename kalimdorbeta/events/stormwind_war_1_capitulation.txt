@@ -1,0 +1,577 @@
+﻿###########################
+# stormwind first war capitulations
+###########################
+
+add_namespace = stormwind_capitulation
+
+country_event = { #Gul'Dans Horde distribute land
+	id = stormwind_capitulation.99
+	title = stormwind_capitulation.99.t
+	desc = stormwind_capitulation.99.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		BRC = {
+			white_peace = STO
+			transfer_state = 365
+			transfer_state = 364
+			transfer_state = 367
+			transfer_state = 368
+			transfer_state = 363
+			transfer_state = 362
+			transfer_state = 360
+			transfer_state = 361
+			transfer_state = 370
+			transfer_state = 358
+			transfer_state = 359
+			transfer_state = 39
+			transfer_state = 355
+			transfer_state = 356
+			transfer_state = 357
+			transfer_state = 354
+			transfer_state = 353
+			transfer_state = 352
+			transfer_state = 351
+			transfer_state = 312
+			transfer_state = 326
+			transfer_state = 325
+			transfer_state = 349
+			transfer_state = 327
+			transfer_state = 666
+			transfer_state = 315
+			transfer_state = 316
+			transfer_state = 317
+			transfer_state = 318
+			transfer_state = 319
+			transfer_state = 320
+			transfer_state = 321
+			transfer_state = 22
+			transfer_state = 322
+			transfer_state = 794
+			transfer_state = 347
+			transfer_state = 792
+			transfer_state = 793
+			transfer_state = 791
+			transfer_state = 375
+
+			if = {
+				limit = {
+					41 = {
+						is_owned_by = STO
+					}
+				}
+				transfer_state = 41
+			}
+			if = {
+				limit = {
+					372 = {
+						is_owned_by = STO
+					}
+				}
+				transfer_state = 372
+			}
+			if = {
+				limit = {
+					373 = {
+						is_owned_by = STO
+					}
+				}
+				transfer_state = 373
+			}
+
+			if = {
+				limit = {
+					350 = {
+						is_owned_by = STO
+					}
+				}
+				transfer_state = 350
+			}
+
+			if = {
+				limit = {
+					350 = {
+						is_owned_by = STO
+					}
+				}
+				transfer_state = 311
+			}
+
+		}
+		TSC = {
+			white_peace = STO
+		}
+		BHC = {
+			white_peace = STO
+			transfer_state = 789
+			transfer_state = 366
+			transfer_state =782
+			transfer_state = 374
+			transfer_state = 790
+			transfer_state = 310
+			transfer_state = 309
+			transfer_state = 308
+			transfer_state = 306
+			transfer_state = 307
+			transfer_state = 40
+			transfer_state = 305
+			transfer_state = 304
+			transfer_state = 302
+			transfer_state = 301
+			transfer_state = 303
+			transfer_state = 147
+			transfer_state = 146
+			transfer_state = 149
+			transfer_state = 148
+			transfer_state = 145
+			transfer_state = 38
+			transfer_state = 143
+			transfer_state = 142
+			transfer_state = 144
+			transfer_state = 296
+			transfer_state = 42
+			transfer_state = 297
+		}
+		THC = {
+			white_peace = STO
+		}
+		FWC = {
+			white_peace = STO
+		}
+	}
+}
+
+country_event = { #Lordeaon Ceeds Land
+	id = stormwind_capitulation.98
+	title = stormwind_capitulation.98.t
+	desc = stormwind_capitulation.98.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		STO = {
+			transfer_state = 122
+			transfer_state = 15
+			transfer_state = 32
+			transfer_state = 721
+			transfer_state = 123
+			transfer_state = 124
+			transfer_state = 722
+			transfer_state = 35
+			transfer_state = 124
+			transfer_state = 755
+			set_capital = 122
+		}
+		LOR = {
+			create_faction = Alliance_of_Lordaeron
+			add_to_faction = DAL
+			add_to_faction = ALT
+			add_to_faction = STO
+			add_to_faction = GIL
+			add_to_faction = STR
+			add_to_faction = KUL
+		}
+
+		DAL = {
+			set_politics = {
+				ruling_party = alliance
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = alliance
+				popularity = 1
+			}
+		}
+		ALT = {
+			set_politics = {
+				ruling_party = alliance
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = alliance
+				popularity = 1
+			}
+		}
+		GIL = {
+			set_politics = {
+				ruling_party = alliance
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = alliance
+				popularity = 1
+			}
+		}
+		STR = {
+			set_politics = {
+				ruling_party = alliance
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = alliance
+				popularity = 1
+			}
+		}
+		KUL = {
+			set_politics = {
+				ruling_party = alliance
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = alliance
+				popularity = 1
+			}
+		}
+
+	}
+}
+
+# Capitulation events
+country_event = {
+	id = stormwind_capitulation.101
+	title = stormwind_capitulation.101.t
+	desc = stormwind_capitulation.101.d
+	picture = GFX_report_event_german_parade_paris
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = {
+		country_event = stormwind_capitulation.99 # Orcs get Stormwind land instantly
+		if = {
+			limit = { #if we have a coward king
+				has_idea = STO_coward_king
+			}
+			country_event = stormwind_capitulation.130
+			else = { #if we don't have a coward king
+				if = {
+					limit = {
+						and = {
+							has_country_flag = Rally_HasTriggered
+							not = {has_idea = STO_rally_the_troops}
+						}
+					}
+					country_event = stormwind_capitulation.120
+					else = {
+						country_event = stormwind_capitulation.110
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Elwynn_Lost_2
+	id = stormwind_capitulation.102
+	title = stormwind_capitulation.102.t
+	desc = stormwind_capitulation.102.d
+	picture = GFX_report_event_german_parade_paris
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = STO
+		and = {
+			has_country_flag = Rally_HasTriggered
+			not = {has_idea = STO_rally_the_troops}
+			not = {has_idea = STO_coward_king}
+			or = {
+				any_other_country = {
+					controls_state = 349 #Northshire
+					has_war_with = STO
+				}
+				any_other_country = {
+					controls_state = 326 #Mirror Lake
+					has_war_with = STO
+				}
+				any_other_country = {
+					controls_state = 325 #Goldshire
+					has_war_with = STO
+				}
+
+			}
+		}
+	}
+
+	option = {
+		name = stormwind_capitulation.102.option.1
+		country_event = { days = 0 id = stormwind_capitulation.103 }
+	}
+}
+
+country_event = { #King_Llane_Dies_1
+	id = stormwind_capitulation.103
+	title = stormwind_capitulation.103.t
+	desc = stormwind_capitulation.103.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.103.option.1
+		STO = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Regent Lord Anduin Lothar"
+				desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+				picture = "Anduin_Lothar.dds"
+				expire = "1965.1.1"
+				ideology = alliance_type
+				traits = {
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Stormwind_Capitulates_2
+	id = stormwind_capitulation.120
+	title = stormwind_capitulation.120.t
+	desc = stormwind_capitulation.120.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.120.option.1
+		LOR = { country_event = { days = 0 id = stormwind_capitulation.121 } }
+	}
+}
+
+country_event = { #Cede_land_to_Stormwind_2
+	id = stormwind_capitulation.121
+	title = stormwind_capitulation.121.t
+	desc = stormwind_capitulation.121.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.121.option.1
+		STO = {country_event = { days = 0 id = stormwind_capitulation.201 } } #Lordaeron_accepts_2
+		ai_chance = { factor = 1 }
+	}
+	option = {
+		name = stormwind_capitulation.121.option.2
+		STO = {country_event = { days = 0 id = stormwind_capitulation.202 } } #Lordaeron_con_accepts_2
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = stormwind_capitulation.121.option.3
+		STO = {country_event = { days = 0 id = stormwind_capitulation.203 } } #Lordaeron_refuses_2
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = { #Lordaeron_accepts_2
+	id = stormwind_capitulation.201
+	title = stormwind_capitulation.201.t
+	desc = stormwind_capitulation.201.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.201.option.1
+		country_event = { days = 0 id = stormwind_capitulation.98 }
+		set_cosmetic_tag = STO_REF
+	}
+}
+
+country_event = { #Lordaeron_con_accepts_2
+	id = stormwind_capitulation.202
+	title = stormwind_capitulation.202.t
+	desc = stormwind_capitulation.202.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.202.option.1
+		country_event = { days = 0 id = stormwind_capitulation.98 }
+		LOR = { transfer_state = 323 } # Lordaeron gets Balor
+		# Lordaeron gets Anduin Lothar as a Field Marshal
+		# Lordaeron gets idea [Stormwind_Refugees]
+	}
+}
+
+country_event = { #Lordaeron_refuses_2
+	id = stormwind_capitulation.203
+	title = stormwind_capitulation.203.t
+	desc = stormwind_capitulation.203.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.203.option.1
+		STO = {
+			set_capital = 323
+			add_ideas = STO_balor_overpopulated_1
+			add_ideas = STO_balor_humiliated_military
+			set_cosmetic_tag = STO_BAL
+			#ADD IDEA "DEFIENT"
+		}
+			323 = {
+					add_manpower = 3000000
+			}
+	}
+	option = {
+		name = stormwind_capitulation.203.option.2
+		#ARMISTICE
+	}
+}
+
+country_event = { #Stormwind_Capitulates_3
+	id = stormwind_capitulation.130
+	title = stormwind_capitulation.130.t
+	desc = stormwind_capitulation.130.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.130.option.1
+		#???ORC ARMISTICE LIKELY
+	}
+
+	option = {
+		name = stormwind_capitulation.130.option.2
+		LOR = { country_event = { days = 0 id = stormwind_capitulation.301 } }
+	}
+}
+
+country_event = { #Cede_land_to_Stormwind_3
+	id = stormwind_capitulation.301
+	title = stormwind_capitulation.301.t
+	desc = stormwind_capitulation.301.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.301.option.1
+		STO = {country_event = { days = 0 id = stormwind_capitulation.310 } }
+		ai_chance = { factor = 1 }
+	}
+	option = {
+		name = stormwind_capitulation.301.option.2
+		STO = {country_event = { days = 0 id = stormwind_capitulation.320 } }
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = stormwind_capitulation.301.option.3
+		STO = {country_event = { days = 0 id = stormwind_capitulation.330 } }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = { #Lordaeron_accepts_3
+	id = stormwind_capitulation.310
+	title = stormwind_capitulation.310.t
+	desc = stormwind_capitulation.310.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.310.option.1
+		ai_chance = { factor = 1 }
+		country_event = { days = 0 id = stormwind_capitulation.98 }
+		set_cosmetic_tag = STO_REF
+		#LORDAERON GETS IDEA [OUTRAGED CITIZENS]
+	}
+	option = {
+		name = stormwind_capitulation.310.option.2
+		ai_chance = { factor = 0 }
+		country_event = { days = 0 id = stormwind_capitulation.98 }
+		LOR = { country_event = { days = 0 id = stormwind_capitulation.311 } } #insult lordaeron
+		#set_cosmetic_tag = HILLSBRAD
+	}
+}
+
+country_event = { #Stormwind_insults_us_LAND
+	id = stormwind_capitulation.311
+	title = stormwind_capitulation.311.t
+	desc = stormwind_capitulation.311.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.311.option.1
+		#ARATHI
+	}
+}
+
+country_event = { #Lordaeron_con_accepts_3
+	id = stormwind_capitulation.320
+	title = stormwind_capitulation.320.t
+	desc = stormwind_capitulation.320.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.320.option.1
+		country_event = { days = 0 id = stormwind_capitulation.98 }
+		LOR = { transfer_state = 323 } # Lordaeron gets Balor
+		# Lordaeron gets Anduin Lothar as a Field Marshal and Llane Wrynn as a Field Marshal
+		# Lordaeron gets idea [Stormwind_Refugees]
+	}
+
+	option = {
+		name = stormwind_capitulation.320.option.2
+		#ARMISTICE DEAL
+	}
+}
+
+country_event = { #Lordaeron_refuses_3
+	id = stormwind_capitulation.330
+	title = stormwind_capitulation.330.t
+	desc = stormwind_capitulation.330.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.330.option.1
+		#ARMISTICE
+	}
+	option = {
+		name = stormwind_capitulation.330.option.2 #Game ends
+		TSC = { transfer_state = 323 } # TSC gets Balor
+	}
+}
+
+country_event = { #Stormwind_Capitulates_1
+	id = stormwind_capitulation.110
+	title = stormwind_capitulation.110.t
+	desc = stormwind_capitulation.110.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	option = {
+		name = stormwind_capitulation.110.option.1
+		LOR = { country_event = { days = 0 id = stormwind_capitulation.121 } }
+		 STO = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Regent Lord Anduin Lothar"
+				desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+				picture = "Anduin_Lothar.dds"
+				expire = "1965.1.1"
+				ideology = alliance_type
+				traits = {
+				}
+			}
+		}
+	}
+}

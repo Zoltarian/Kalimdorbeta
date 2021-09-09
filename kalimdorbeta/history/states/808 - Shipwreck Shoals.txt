@@ -1,0 +1,31 @@
+
+state={
+	id=808
+	name="STATE_808"
+	resources={
+		oil=32.000
+	}
+
+	history={
+		
+		victory_points = {
+			8213 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = AZS
+
+	}
+
+	provinces={
+		8150 8199 8202 8213 8217 8219 8223 8225 
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

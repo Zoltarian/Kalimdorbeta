@@ -1,0 +1,33 @@
+
+state={
+	id=863
+	name="STATE_863"
+	resources={
+		oil=8.000
+		gunpowder=2.000
+	}
+
+	history={
+		
+		victory_points = {
+			9282 5 
+		}
+		buildings = {
+			infrastructure = 1
+			9288 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = TID
+
+	}
+
+	provinces={
+		8619 9288 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

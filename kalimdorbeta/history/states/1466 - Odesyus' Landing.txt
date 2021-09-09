@@ -1,0 +1,33 @@
+
+state={
+	id=1466
+	name="STATE_1466"
+	resources={
+		wood=3
+		oil=2
+		ores=2
+	}
+
+	history={
+		owner = BLT
+		victory_points = {
+			13595 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13595 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = BLT
+	}
+
+	provinces={
+		12928 13594 13595 13597 13598 13602 13608 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

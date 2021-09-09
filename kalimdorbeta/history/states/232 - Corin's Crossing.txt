@@ -1,0 +1,41 @@
+
+state={
+	id=232
+	name="STATE_232"
+	resources={
+		mounts=24.000
+	}
+
+	history={
+		
+		victory_points = {
+			4194 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		233 727 3349 4105 4107 4113 4120 4126 4142 4150 4153 4158 4182 4194 4197 4198 5543 5803 
+	}
+	manpower=30250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

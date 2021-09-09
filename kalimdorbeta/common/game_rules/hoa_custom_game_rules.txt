@@ -1,0 +1,58 @@
+race_conversion_ai = {
+	name = "RACE_CONVERSION_AI"
+	group = "RULE_GROUP_HOA_RULES"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_CONVERTING_RACE_DESC"
+	}
+	option = {
+		name = NO_CONVERTING
+		text = "RULE_OPTION_NO_CONVERTING_RACE"
+		desc = "RULE_OPTION_NO_CONVERTING_RACE_DESC"
+	}
+}
+religion_conversion_ai = {
+	name = "RELIGION_CONVERSION_AI"
+	group = "RULE_GROUP_HOA_RULES"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_CONVERTING_RELIGION_DESC"
+	}
+	option = {
+		name = NO_CONVERTING
+		text = "RULE_OPTION_NO_CONVERTING_RELIGION"
+		desc = "RULE_OPTION_NO_CONVERTING_RELIGION_DESC"
+	}
+}
+coring_ai = {
+	name = "CORING_AI"
+	group = "RULE_GROUP_HOA_RULES"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_CORING_DESC"
+	}
+	option = {
+		name = NO_CORING
+		text = "RULE_OPTION_NO_CORING"
+		desc = "RULE_OPTION_NO_CORING_DESC"
+	}
+}
+hoa_allow_achievements = {
+	name = "RULE_ALLOW_HOA_CUSTOM_ACHIEVEMENTS"
+	group = "RULE_GROUP_HOA_RULES"
+	default = {
+		name = ENABLED
+		text = "RULE_ALLOW_HOA_CUSTOM_ACHIEVEMENTS_ENABLED"
+		desc = "RULE_ALLOW_HOA_CUSTOM_ACHIEVEMENTS_ENABLED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DISABLED
+		text = "RULE_ALLOW_HOA_CUSTOM_ACHIEVEMENTS_DISABLED"
+		desc = "RULE_ALLOW_HOA_CUSTOM_ACHIEVEMENTS_DISABLED_DESC"
+		allow_achievements = no
+	}
+}

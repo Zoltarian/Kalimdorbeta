@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Black Tooth Grin Grunts"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Black Tooth Grin Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Black Tooth Grin Raiders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+
+units = {
+	division = {
+		name = "1st Black Tooth Grin Grunts"
+		location = 2876
+		division_template = "Black Tooth Grin Grunts"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "2nd Black Tooth Grin Grunts"
+		location = 2854
+		division_template = "Black Tooth Grin Grunts"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "1st Black Tooth Grin Spearman"
+		location = 2876
+		division_template = "Black Tooth Grin Spearman"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "1st Black Tooth Grin Raiders"
+		location = 2878
+		division_template = "Black Tooth Grin Raiders"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "2nd Black Tooth Grin Raiders"
+		location = 2894
+		division_template = "Black Tooth Grin Raiders"
+		start_experience_factor = 0.2
+		}
+		
+}

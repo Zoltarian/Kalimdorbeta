@@ -1,0 +1,24 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Blacksilt Fishing Fleet"			
+		naval_base = 3399
+		task_force = {
+			name = "Blacksilt Fishing Fleet"			
+			location = 3399 #arathi colony
+			
+			ship = {
+				name = "1st Blacksilt Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = BLS } }
+			}
+			ship = {
+				name = "2nd Blacksilt Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = BLS } }
+			}
+			
+		}
+	}
+}

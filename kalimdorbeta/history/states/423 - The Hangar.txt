@@ -1,0 +1,42 @@
+
+state={
+	id=423
+	name="STATE_423"
+	resources={
+		oil=24.000
+	}
+
+	history={
+		
+		add_core_of = GNO
+
+		victory_points = {
+			1025 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		
+		596.1.1 = {
+			buildings = {
+				air_base = 2
+			}
+		}
+
+		617.1.1 = {
+			owner = LEP
+			controller = LEP
+			add_core_of = LEP
+		}
+	}
+
+	provinces={
+		1025 1339 1342 1347 1348 1355 1360
+	}
+	manpower=16950
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=537
+	name="STATE_537"
+	resources={
+		gunpowder=12.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		978 4801 4802 4806 4812 4814 4815 4821 4827 4829
+	}
+	manpower=6800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

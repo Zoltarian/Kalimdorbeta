@@ -1,0 +1,126 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Ironfist Fleet"			
+		naval_base = 9798
+		task_force = {
+			name = "Ironfist Fleet"			
+			location = 9798 #Ironfist harbor
+			
+			ship = {
+				name = "1st Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+	
+	fleet = {				
+		name = "Highmaul Fleet"			
+		naval_base = 2239
+		task_force = {
+			name = "Highmaul Fleet"			
+			location = 2239 #Ironfist harbor
+			
+			ship = {
+				name = "3rd Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "6th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "7th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+	
+	
+	fleet = {				
+		name = "Ashran Fleet"			
+		naval_base = 6530
+		task_force = {
+			name = "Ashran Fleet"			
+			location = 6530 #warspear
+			
+			ship = {
+				name = "6th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "8th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "9th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

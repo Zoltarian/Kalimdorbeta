@@ -1,0 +1,57 @@
+﻿capital = 1456
+
+oob = "FMG_592"
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+
+	clan
+	recruit_adventurers
+	peacetime_economy
+	limited_exports
+
+	ice_giant_primary_race
+
+	primary_trait_imposing_size
+	primary_trait_living_glacier
+
+	primary_religion_followers_of_the_stonemother
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+
+}
+
+create_country_leader = {
+	name = "Kashoch the Reaver"
+	desc = "POLITICS_KASOCH_THE_REAVER_DESC"
+	picture = "kasoch_the_reaver.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

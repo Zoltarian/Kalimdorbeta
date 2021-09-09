@@ -1,0 +1,30 @@
+swampwalkers_historical = {
+	name = "Swampwalkers historical plan"
+	desc = "Stops swampwalkers stopping the first war by being way too powerful"
+
+	enable = {
+		original_tag = TSW
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		TSW_tremors_in_the_roots
+		TSW_expand_the_swamp
+		TSW_deeper_roots
+		TSW_murky_waters
+		TSW_vegetation_overgrowth
+	}
+
+	focus_factors = {
+		TSW_call_from_below = 0
+	}
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+

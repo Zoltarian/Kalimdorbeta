@@ -1,0 +1,54 @@
+
+state={
+	id=382
+	name="STATE_382" #Frostwolf Encampment/ The Tainted Shore/ Surwich
+	resources={
+		oil=10
+		mounts = 18
+	}
+
+	history={
+		
+		add_core_of = FWC
+
+		victory_points = {
+			2695 10
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+
+						2695 = {
+				naval_base = 1
+			}
+		}
+
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = FWC
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			owner = RCP
+			controller = RCP
+			add_core_of = RCP
+		}
+	}
+
+	provinces={
+		923 2692 2695 2701 2702 2809
+	}
+	manpower=113750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

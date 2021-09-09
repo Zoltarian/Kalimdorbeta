@@ -1,0 +1,99 @@
+﻿capital = 908
+
+set_research_slots = 3
+
+add_ideas = {
+	
+	tribe
+
+	murloc_primary_race
+	primary_trait_spawning_pools
+	primary_trait_mrglgl
+	primary_trait_one_with_the_sea
+	
+	primary_religion_followers_of_the_tidehunter
+}
+
+set_politics = {	
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Blazzablurgml"
+	desc = "POLITICS_LORD_ELLO_EBONLOCKE_DESC"
+	picture = "murloc1.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Blazzablurgml"
+	desc = "POLITICS_LORD_ELLO_EBONLOCKE_DESC"
+	picture = "murloc1.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Blazzablurgml"
+	desc = "POLITICS_LORD_ELLO_EBONLOCKE_DESC"
+	picture = "murloc1.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Blazzablurgml"
+	desc = "POLITICS_LORD_ELLO_EBONLOCKE_DESC"
+	picture = "murloc1.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Blazzablurgml"
+	desc = "POLITICS_LORD_ELLO_EBONLOCKE_DESC"
+	picture = "murloc1.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Blazzablurgml"
+	picture = "murloc1.dds"
+	traits = {  }
+	id = 54900
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

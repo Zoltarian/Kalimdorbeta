@@ -1,0 +1,62 @@
+﻿division_template = {
+	name = "Emerald Guardians"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+	}
+	
+#	support = {
+#		hoa_spellcaster = { x = 0 y = 0 }
+#	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Emerald Guardians"
+		location = 8173
+		division_template = "Emerald Guardians"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Emerald Guardians"
+		location = 8173
+		division_template = "Emerald Guardians"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Emerald Guardians"
+		location = 8173
+		division_template = "Emerald Guardians"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+#air_wings = {
+#	### Emerald grove
+#	202 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "GDF" 
+#			amount = 26
+#		}
+#		
+#		cas_equipment_1 = {
+#			owner = "GDF" 
+#			amount = 26
+#		}
+#		
+#		fighter_equipment_2 = {
+#			owner = "GDF" 
+#			amount =34
+#		}
+#	}
+#}

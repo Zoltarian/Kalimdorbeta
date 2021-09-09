@@ -1,0 +1,174 @@
+scripted_gui = {
+	religion_conversion_message_bg = {
+		context_type = player_context
+		window_name = "religion_conversion_message_bg"
+
+		visible = {
+			OR = {
+				check_variable = { religion_conversion_check_popup^num > 0 }
+				check_variable = { religion_conversion_cancel_popup^num > 0 }
+				check_variable = { religion_conversion_complete_popup^num > 0 }
+			}
+		}
+
+		dynamic_lists = {
+			religion_conversion_check_popup_window_list = {
+				array = religion_conversion_check_popup
+				change_scope = yes
+				entry_container = religion_conversion_check_popup_bg_window
+				ai_weights = {
+					religion_conversion_check_cancel_button_click = {
+						ai_will_do = {
+							factor = 0
+						}
+					}
+					religion_conversion_check_ok_button_click = {
+						ai_will_do = {
+							factor = 200
+						}
+					}
+				}
+			}
+			religion_conversion_cancel_popup_window_list = {
+				array = religion_conversion_cancel_popup
+				change_scope = yes
+				entry_container = religion_conversion_cancel_popup_bg_window
+				ai_weights = {
+					religion_conversion_cancel_cancel_button_click = {
+						ai_will_do = {
+							factor = 200
+						}
+					}
+					religion_conversion_cancel_ok_button_click = {
+						ai_will_do = {
+							factor = 0
+						}
+					}
+				}
+			}
+			religion_conversion_complete_popup_window_list = {
+				array = religion_conversion_complete_popup
+				change_scope = yes
+				entry_container = religion_conversion_complete_popup_bg_window
+				ai_weights = {
+					religion_conversion_complete_goto_button_click = {
+						ai_will_do = {
+							factor = 0
+						}
+					}
+					religion_conversion_complete_ok_button_click = {
+						ai_will_do = {
+							factor = 200
+						}
+					}
+				}
+			}
+		}
+
+		properties = {
+			sender_flag = {
+				image = "[This.Owner.GetFlag]"
+			}
+			receiver_flag = {
+				image = "[ROOT.GetFlag]"
+			}
+		}
+
+		effects = {
+			religion_conversion_check_cancel_button_click = {
+				remove_from_array = {
+					array = ROOT.religion_conversion_check_popup
+					index = i
+				}
+			}
+			religion_conversion_check_ok_button_click = {
+				remove_from_array = {
+					array = ROOT.religion_conversion_check_popup
+					index = i
+				}
+				set_temp_variable = { cost = ROOT.religion_conversion_cost }
+				multiply_temp_variable = { cost = -1 }
+				ROOT = { add_political_power = cost }
+				set_variable = { religion_conversion_daily_progress = 90 }
+				multiply_temp_variable = { temp_cost_modifier = 90 }
+				divide_variable = { religion_conversion_daily_progress = temp_cost_modifier }
+				set_variable = { religion_conversion_progress = -91 }
+				set_variable = { religion_conversion_country = ROOT }
+				for_each_scope_loop = {
+					array = ROOT.religion_conversion_check_popup
+					if = {
+						limit = {
+							check_variable = { ROOT.political_power < religion_conversion_cost }
+						}
+						add_to_temp_array = { remove_popup = THIS }
+					}
+				}
+				for_each_scope_loop = {
+					array = remove_popup
+					remove_from_array = { ROOT.religion_conversion_check_popup = THIS }
+				}
+			}
+			religion_conversion_cancel_cancel_button_click = {
+				remove_from_array = {
+					array = ROOT.religion_conversion_cancel_popup
+					index = i
+				}
+			}
+			religion_conversion_cancel_ok_button_click = {
+				remove_from_array = {
+					array = ROOT.religion_conversion_cancel_popup
+					index = i
+				}
+				ROOT = { add_political_power = religion_conversion_cost }
+				clear_variable = religion_conversion_progress
+				clear_variable = religion_conversion_daily_progress
+				clear_variable = religion_conversion_country
+			}
+			religion_conversion_complete_goto_button_click = {
+				ROOT = {
+					goto_state = PREV
+					remove_from_array = {
+						array = religion_conversion_complete_popup
+						index = i
+					}
+				}
+			}
+			religion_conversion_complete_ok_button_click = {
+				ROOT = {
+					remove_from_array = {
+						array = religion_conversion_complete_popup
+						index = i
+					}
+				}
+			}
+		}
+
+		triggers = {
+			religion_conversion_check_cancel_button_click_enabled = {
+				check_variable = { ROOT.religion_conversion_check_popup^num > 0 }
+			}
+			religion_conversion_check_ok_button_click_enabled = {
+				check_variable = { ROOT.religion_conversion_check_popup^num > 0 }
+			}
+			religion_conversion_cancel_cancel_button_click_enabled = {
+				check_variable = { ROOT.religion_conversion_cancel_popup^num > 0 }
+			}
+			religion_conversion_cancel_ok_button_click_enabled = {
+				check_variable = { ROOT.religion_conversion_cancel_popup^num > 0 }
+			}
+			religion_conversion_complete_goto_button_click_enabled = {
+				check_variable = { ROOT.religion_conversion_complete_popup^num > 0 }
+			}
+			religion_conversion_complete_ok_button_click_enabled = {
+				check_variable = { ROOT.religion_conversion_complete_popup^num > 0 }
+			}
+		}
+
+		ai_enabled = {
+			always = yes
+		}
+
+		ai_test_interval = 24
+		ai_test_variance = 0.2
+	}
+}

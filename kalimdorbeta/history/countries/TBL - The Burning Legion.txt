@@ -1,0 +1,68 @@
+﻿capital = 1049
+
+oob = "TBL_592"
+
+set_research_slots = 3
+
+add_ideas = {
+	
+    tyrant
+	
+	demons_primary_race
+	primary_trait_the_burning_crusade
+	primary_trait_titan_forging
+	primary_trait_destructive_nature
+	
+	primary_religion_the_fel
+}
+
+set_politics = {	
+	ruling_party = fel 
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 100
+    old_gods = 0
+    titans = 0
+    neutral = 0
+}
+
+create_country_leader = {
+	name = "Sargeras"
+	desc = "POLITICS_SARGERAS_DESC"
+	picture = "gfx/leaders/TBL/sargeras.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Redeemed Sargeras"
+	desc = "POLITICS_SARGERAS_DESC"
+	picture = "gfx/leaders/TBL/sargeras.dds"
+	expire = "1965.1.1"
+	ideology = titans_type
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Sargeras"
+	picture = "gfx/leaders/TBL/sargeras.dds"
+	traits = {  }
+	id = 63600
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

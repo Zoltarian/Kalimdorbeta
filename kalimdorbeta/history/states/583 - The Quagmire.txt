@@ -1,0 +1,34 @@
+
+state={
+	id=583
+	name="STATE_583"
+	resources={
+		ores=4
+		wood =5
+		oil=4.000
+	}
+
+	history={
+		owner = ONY
+		victory_points = {
+			9030 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			9043 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = ONY
+
+	}
+
+	provinces={
+		9008 9013 9017 9020 9022 9025 9026 9027 9028 9029 9030 9033 9034 9036 9037 9038 9043 9721 
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

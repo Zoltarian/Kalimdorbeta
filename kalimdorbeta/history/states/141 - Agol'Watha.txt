@@ -1,0 +1,30 @@
+
+state={
+	id=141
+	name="STATE_141"
+	resources={
+		wood=14.000
+		mounts=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			3909 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = AER
+
+	}
+
+	provinces={
+		3897 3898 3908 3909 5798 
+	}
+	manpower=14550
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

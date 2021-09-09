@@ -1,0 +1,35 @@
+
+state={
+	id=1151
+	name="STATE_1151"
+	resources = {
+		wheat=6
+		eggs=8
+		ores=5
+		mana=3
+		wood=4
+	}
+
+	history={
+		owner = NST
+		victory_points = {
+			11528 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base=2
+
+		}
+		add_core_of = NST
+
+	}
+
+	provinces={
+		740 10895 11460 11461 11478 11484 11528 11529 11531 11532 11534 11538 11738
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

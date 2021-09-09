@@ -1,0 +1,74 @@
+﻿###########
+#northeron
+###########
+
+add_namespace = northeron
+
+country_event = {
+	id = northeron.1
+	title = northeron.1.t
+	desc = northeron.1.d
+	picture = GFX_report_event_german_parade_paris
+	fire_only_once = yes
+	trigger = {
+        AND = {
+            has_start_date > 595.12.31
+            has_start_date < 596.01.02
+        }
+		tag = NRT
+		OR = {
+			any_other_country = {
+				controls_state = 507
+				controls_state = 503
+				controls_state = 512
+				has_idea = orc_primary_race
+				has_war_with = NRT
+			}
+		}
+	}
+	option = {
+		name = northeron.1.a
+		DMC = {
+			white_peace = NRT
+			transfer_state = 503
+			transfer_state = 504
+			transfer_state = 505
+			transfer_state = 506
+			transfer_state = 507
+			transfer_state = 514
+			transfer_state = 513
+			transfer_state = 511
+			transfer_state = 512
+			transfer_state = 510
+			transfer_state = 24
+			transfer_state = 673
+			transfer_state = 172
+			transfer_state = 674
+			
+		}
+		BHC = {
+			white_peace = NRT
+		}
+		BRC = {
+			white_peace = NRT
+		}
+		BBC = {
+			white_peace = NRT
+		}
+		SRC = {
+			white_peace = NRT
+		}
+		THC = {
+			white_peace = NRT
+		}
+		BTG = {
+			white_peace = NRT
+		}
+		RDF = {
+			country_event = { id = reddragonflight.1 }
+		}
+		hidden_effect = {
+			news_event = { hours = 1 id = news.521 }
+		}
+	}
+}

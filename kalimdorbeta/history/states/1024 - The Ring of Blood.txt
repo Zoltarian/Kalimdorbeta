@@ -1,0 +1,37 @@
+state={
+	id=1024
+	name="STATE_1024"
+	resources={
+		wood =6
+		ores=10
+	}
+
+	history={
+		
+		add_core_of = WMC
+
+		victory_points = {
+			6552 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WMC
+		}
+	}
+
+	provinces={
+		6351 6552 6622 6655 6799 6806 6854 9854 10407 10408 10409
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

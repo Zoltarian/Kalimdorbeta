@@ -1,0 +1,124 @@
+﻿division_template = {
+	name = "Steamwheedle Bruiser"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Steamwheedle Pikeman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Steamwheedle Rocketeer"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1st Steamwheedle Bruiser"
+		location = 8260
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Steamwheedle Bruiser"
+		location = 8292
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Steamwheedle Bruiser"
+		location = 8277
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Steamwheedle Bruiser"
+		location = 8255
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Steamwheedle Bruiser"
+		location = 8260
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Steamwheedle Bruiser"
+		location = 8253
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Steamwheedle Bruiser"
+		location = 8120
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Steamwheedle Bruiser"
+		location = 8287
+		division_template = "Steamwheedle Bruiser"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Steamwheedle Pikeman"
+		location = 8260
+		division_template = "Steamwheedle Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Steamwheedle Pikeman"
+		location = 8292
+		division_template = "Steamwheedle Pikeman"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Steamwheedle Rocketeer"
+		location = 8277
+		division_template = "Steamwheedle Rocketeer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Steamwheedle Rocketeer"
+		location = 8260
+		division_template = "Steamwheedle Rocketeer"
+		start_experience_factor = 0.2
+	}
+	
+
+}

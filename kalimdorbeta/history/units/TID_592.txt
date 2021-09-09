@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Tideskorn Defender"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "1st Tideskorn Defender"
+		location = 9250
+		division_template = "Tideskorn Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Tideskorn Defender"
+		location = 9267
+		division_template = "Tideskorn Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Tideskorn Defender"
+		location = 9211
+		division_template = "Tideskorn Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Tideskorn Defender"
+		location = 9201
+		division_template = "Tideskorn Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Tideskorn Defender"
+		location = 9288
+		division_template = "Tideskorn Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Tideskorn Defender"
+		location = 9298
+		division_template = "Tideskorn Defender"
+		start_experience_factor = 0.2
+	}
+
+
+}

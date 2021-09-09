@@ -1,0 +1,35 @@
+
+state={
+	id=302
+	name="STATE_302" #W. Bright Bank /W. Darkened Bank
+	resources={
+		wood=22.000
+	}
+
+	history={
+		
+		add_core_of = STO
+		buildings = {
+			infrastructure = 3
+
+		}
+		596.1.1 = {
+			owner = SFC
+			controller = SFC
+			add_core_of = SFC
+		}
+		
+		600.1.1 = {
+			
+			controller = STO
+		}
+
+	}
+
+	provinces={
+		795 2087 2104 2107 2112 2150 2513 2962 6049 6918 6967 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

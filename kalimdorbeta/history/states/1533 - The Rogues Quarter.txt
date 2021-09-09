@@ -1,0 +1,31 @@
+
+state={
+	id=1533
+	name="STATE_1533"
+
+	history={
+		
+		victory_points = {
+			4219 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+
+		}
+		
+	}
+
+	provinces={
+		4094 4096 4200 4219 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=132
+	name="STATE_132"
+	resources={
+		mounts=16.000
+		wood =6.000
+	}
+
+	history={
+		
+		add_core_of = STR
+		add_core_of = WBT
+
+		victory_points = {
+			2024 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		2023 2024 2026 2027
+	}
+	manpower=24450
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

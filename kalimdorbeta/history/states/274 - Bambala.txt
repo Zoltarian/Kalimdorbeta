@@ -1,0 +1,30 @@
+
+state={
+	id=274
+	name="STATE_274"
+	resources={
+		wood =16.000
+		mounts=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			6937 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GUR
+
+	}
+
+	provinces={
+		754 762 2168 2170 2171 2174 2175 6937 
+	}
+	manpower=49250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

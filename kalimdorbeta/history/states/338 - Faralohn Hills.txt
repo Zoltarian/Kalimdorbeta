@@ -1,0 +1,32 @@
+
+state={
+	id=338
+	name="STATE_338"
+	resources={
+		wood=6.000
+	}
+
+	history={
+		
+		add_core_of = LSC
+		buildings = {
+			infrastructure = 3
+
+		}
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LSC
+
+		}
+
+	}
+
+	provinces={
+		836 901 905 5478 5510 5529 5643 5648 6907 6908 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

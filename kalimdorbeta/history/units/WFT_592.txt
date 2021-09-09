@@ -1,0 +1,111 @@
+﻿division_template = {
+	name = "Windfury Harpy"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Windfury Sorceress"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+
+units = {
+	
+	division = {
+		name = "Windfury Harpy"
+		location = 10043
+		division_template = "Windfury Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Harpy"
+		location = 10118
+		division_template = "Windfury Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Harpy"
+		location = 10177
+		division_template = "Windfury Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Harpy"
+		location = 10173
+		division_template = "Windfury Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Harpy"
+		location = 12083
+		division_template = "Windfury Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Harpy"
+		location = 10089
+		division_template = "Windfury Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Sorceress"
+		location = 10043
+		division_template = "Windfury Sorceress"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Sorceress"
+		location = 10118
+		division_template = "Windfury Sorceress"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Windfury Sorceress"
+		location = 10177
+		division_template = "Windfury Sorceress"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+air_wings = {
+	81 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "WFT"
+			amount = 50
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "WFT"
+			amount = 25
+		}
+
+	}
+}

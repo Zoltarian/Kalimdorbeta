@@ -1,0 +1,209 @@
+is_lordaeron_country = {
+	capital_scope = { 
+		OR = {
+			state = 6 #Crestfall
+			state = 7 #Zul'Dare
+			state = 8 #Purgation Isle
+			state = 9 #Channel Isles
+			
+			region = 4 #Tirisfal Glades
+			region = 2 #Silverpine Forest
+			region = 1 #Gilneas
+			region = 13 #Tol'Barad
+			region = 144 #Stormsong Valley
+			region = 143 #Tirigarde Sound
+			region = 56 #Drustvar	
+			region = 12 #Hillsbrad Foothills
+			region = 14 #Arathi Highlands
+			region = 13 #The Hinterlands
+			region = 11 #Alterac Mountains
+			region = 3 #Western Plaguelands
+			region = 5 #Northern Lordaeron	
+			region = 6 #Eastern Plaguelands
+			region = 8 #Ghostlands
+			region = 7 #Zul'Aman
+			region = 9 #Eversong Woods
+			region = 10 #Isle of Quel'danas
+		}
+	}
+}
+
+is_khaz_modan_country = {
+	capital_scope = { 
+		OR = {
+			region = 20 #gnomeregan
+			region = 19 #dun morough
+			region = 18 #ironforge
+			region = 15 #The Wetlands
+			region = 17 #Twilight Highlands
+			region = 16 #Loch Modan
+			region = 21 #The Badlands
+			region = 22 #Searing Gorge
+			region = 23 #Blackrock mountain
+			region = 24 #swamp of sorrows
+			region = 37 #Blasted Lands
+		}
+	}
+}
+
+is_azeroth_region_country = {
+	capital_scope = { 
+		OR = {
+			state = 323 #balor
+			
+			region = 36 #stormwind mountains
+			region = 27 #stormwind city
+			region = 26 #Elwynn Forest
+			region = 28 #Westfall
+			region = 29 #Duskwood
+			region = 25 #redridge mountains
+			region = 33 #deadwind pass
+			region = 34 #swamp of sorrows
+			region = 35 #Blasted Lands
+			region = 31 #Zul'Gurub
+			region = 30 #N. Stranglethorn
+			region = 32 #S. Stranglethorn
+		}
+	}
+}
+
+is_kalimdor_country = {
+	capital_scope = { 
+		OR = {
+			state = 961 #tanaris islands
+			
+			region = 95 #Ahn'qiraj
+			region = 96 #Silithus
+			region = 97 #Ungoro crator
+			region = 94 #Uldum
+			region = 98 #Tanaris
+			region = 99 #Zul'Farak
+			region = 100 #Thousand Needles
+			region = 112 #Feralas
+			region = 174 #Desolance
+			region = 102 #Mulgore
+			region = 103 # S. Barrens
+			region = 105 # Dustwallow Marsh
+			region = 106 # N. Barrens
+			region = 104 # Durotar
+			region = 108 # Ogrimmar
+			region = 111 # Stonetalon
+			region = 110 # Ashenvale
+			region = 109 # Azshara
+			region = 114 # Mount Hyjal
+			region = 113 # Felwood
+			region = 111 # Darkshore
+			region = 116 # Moonglade
+			region = 115 # Winterspring
+			region = 118 # Teldrassil
+			region = 119 # Azuremyst Isle
+			region = 120 # Bloodmyst Isle
+		}
+	}
+}
+
+is_outland_country = {
+	capital_scope = { 
+		OR = {
+			region = 38 #hellfire Peninsula
+			region = 44 #Zangar Marsh
+			region = 43 #nagrand (outland)
+			region = 39 #Terrokar Forrest
+			region = 40 #Shadowmoon Valley (outland)
+			region = 45 #Blades'edge Mountains
+			region = 42 #Nether Storm
+		}
+	}
+}
+
+is_draenor_country = {
+	capital_scope = { 
+		OR = {
+			region = 46 #Ashran
+			region = 41 #Farahlon
+			region = 52 #Gorgrond
+			region = 53 #Frostfire Ridge
+			region = 50 #Nagrand (Draenor)
+			region = 49 #Talador
+			region = 47 #Spires of Arak
+			region = 48 #Shadowmoon Valley (Draenor)
+			region = 51 #Tanaan Jungle
+		}
+	}
+}
+
+is_pandaria_country = {
+	capital_scope = { 
+		OR = {
+			region = 83 #island of thunder
+			region = 91 #towlong Steppes
+			region = 92 #dread wastes
+			region = 90 #Karsarang Wilds
+			region = 89 #Vale of the four winds
+			region = 88 #Vale of Eternal Blossom
+			region = 87 #Kun-lai Summit
+			region = 84 #Isle of Giants
+			region = 86 #jade Forest
+			region = 85 #Timelost Isle
+		}
+	}	
+}
+
+is_northrend_country = {
+	capital_scope = { 
+		OR = {
+			region = 79 #Borean Tundra
+			region = 77 #Sholzar Basin
+			region = 78 #Wintergrasp
+			region = 72 #Dragonblight
+			region = 76 #Icecrown
+			region = 73 #Crystalsong Forest
+			region = 74 #Storm Peaks
+			region = 75 #Ulduar
+			region = 71 #Zul'Drak
+			region = 70 #Grizzly Hills
+			region = 69 #Howling Fjord
+		}
+	}	
+}
+
+is_the_great_sea_country = {
+	capital_scope = { 
+		OR = {
+			state = 839 #Shield's Rest
+			
+			region = 64 #Broken Shore
+			region = 62 #Eye of Azshara
+			region = 60 #Azsuna
+			region = 65 #Suramar
+			region = 66 #Val'Sharah
+			region = 67 #Highmountain
+			region = 68 #Stormheim
+
+			state = 292 #Central Darkspear Islands
+			state = 293 #N. Darkspear Islands
+			state = 294 #S. Darkspear Islands
+			state = 295 #W. Darkspear Islands
+			
+			region = 93 #Tel'Abim
+			region = 81 #Lost Isles
+			region = 82 #Kezan
+			region = 61 #Vol'Dun
+			region = 174 #Nazmir
+			region = 59 #Zuldazar
+			region = 129 #isle of dr lapadis
+			region = 128 #Gilijims Isle
+			region = 54 #Plunder isle
+		}
+	}	
+}
+
+is_argus_country = {
+	capital_scope = { 
+		OR = {
+			
+			region = 166 #argus
+
+		}
+	}	
+}

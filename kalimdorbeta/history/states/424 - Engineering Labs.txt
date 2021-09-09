@@ -1,0 +1,36 @@
+
+state={
+	id=424
+	name="STATE_424"
+	resources={
+		gunpowder=56.000
+	}
+
+	history={
+		
+		add_core_of = GNO
+
+		victory_points = {
+			1358 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+		}
+
+		617.1.1 = {
+			owner = LEP
+			controller = LEP
+			add_core_of = LEP
+		}
+	}
+
+	provinces={
+		1045 1105 1106 1354 1358 1361 1362 1363 1364
+	}
+	manpower=15925
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

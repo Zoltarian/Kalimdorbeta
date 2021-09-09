@@ -1,0 +1,32 @@
+
+state={
+	id=1140
+	name="STATE_1140"
+	resources = {
+		mana=8
+		ores=5
+		wood=4
+	}
+
+	history={
+		owner = SPY
+		victory_points = {
+			11827 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = SPY
+
+	}
+
+	provinces={
+		10866 11811 11812 11814 11815 11816 11817 11819 11820 11821 11822 11823 11824 11825 11826 11827 11828 11829 11830 11831 11832 11833
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

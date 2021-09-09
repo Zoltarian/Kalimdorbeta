@@ -1,0 +1,24 @@
+﻿###########################
+#burning_blade
+###########################
+
+add_namespace = burning_blade
+
+country_event = { #discipline the burning base
+	id = burning_blade.1
+	title = burning_blade.1.t
+	desc = burning_blade.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = burning_blade.1.option.1
+		
+		add_ideas = BBC_discipline_the_burning_blade_idea
+
+	}
+
+}

@@ -1,0 +1,16 @@
+guiTypes = {
+	containerWindowType = {
+		name = "move_capital_button_container"
+		position = { x = 17 y = 20 }
+		clipping = no
+
+		buttonType ={
+			name ="move_capital_button"
+			quadTextureSprite = "GFX_move_capital"
+			position = { x=0 y=0 }
+			format = center
+			text = "MOVE_CAPITAL"
+			pdx_tooltip = "MOVE_CAPITAL_TT"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+bookmarks = {
+	bookmark = {
+		name = "DRAENOR_INVASION_NAME"
+		desc = "DRAENOR_INVASION_DESC"
+		date = 600.1.1.12
+		picture = "GFX_select_date_select_date_invasion_of_draenor"
+		default_country = "LOR"
+		default = yes
+		
+		"LOR"={
+			history = "LOR_DRAENOR_INVASION_DESC"
+			ideology = alliance
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+
+		"---"={
+			history = "OTHER_DRAENOR_INVASION_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

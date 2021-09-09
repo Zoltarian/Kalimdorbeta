@@ -1,0 +1,35 @@
+
+state={
+	id=7
+	name="STATE_7"
+	
+		resources={
+		ores=4
+		wood =26
+	}
+
+	history={
+		
+		victory_points = { 261 5 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 1
+			radar_station = 1
+			261 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = KUL
+		add_core_of = ZLD
+
+	}
+
+	provinces={
+		134 137 261 518 519 1164 
+	}
+	manpower=72250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

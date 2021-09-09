@@ -1,0 +1,20 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+FRT = {
+	male = {
+		names = { "Han" "Moo" "Slad" "Drak" "Mal" "Zul'" "Atal'" "Zol'" "Kutube'" "Ga'" "Chulo" "Grik" "Bara" "Kor" "Gan'" "Kril" "Drek" }
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = {  }
+	#	surnames = { }
+	#	callsigns = {  }
+	#}
+	surnames = { "'jin" "'fon" "Maz" "'Sa" "Wanil" "'Nir" "Gun" "Rabi" "'fu" "'Rak" "'Jo" }
+	callsigns = { "Frost Lord" "Frozen Shaman" "Snowstrider" "Shadowcaster" "Soothsayer" "Prophet of" }
+}

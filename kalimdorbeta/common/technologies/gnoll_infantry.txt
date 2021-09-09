@@ -1,0 +1,602 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	war_hut_tech = {
+
+		path = {
+			leads_to_tech = flailpaw_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = poacher_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 4 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+		}
+	}
+
+	flailpaw_tech = {
+
+		enable_subunits = {
+			flailpaw
+		}
+
+		on_research_complete = {
+			set_technology = {
+				flailpaw_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = flailpaw_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = overseer_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 2 y = 2 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	flailpaw_equipment_tech_1 = {
+
+		enable_equipments = {
+			flailpaw_equipment_1
+		}
+
+		path = {
+			leads_to_tech = flailpaw_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = flailpaw_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 2 y = 4 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	flailpaw_tier_1_upgrade_placeholder_1 = {
+
+		xor = { flailpaw_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = flailpaw_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 1 y = 6 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	flailpaw_tier_1_upgrade_placeholder_2 = {
+
+		xor = { flailpaw_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = flailpaw_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 3 y = 6 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	flailpaw_equipment_tech_2 = {
+
+		enable_equipments = {
+			flailpaw_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = flailpaw_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = flailpaw_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 2 y = 8 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	flailpaw_tier_2_upgrade_placeholder_1 = {
+
+		xor = { flailpaw_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = flailpaw_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 1 y = 10 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	flailpaw_tier_2_upgrade_placeholder_2 = {
+
+		xor = { flailpaw_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = flailpaw_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 3 y = 10 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	flailpaw_equipment_tech_3 = {
+
+		enable_equipments = {
+			flailpaw_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 2 y = 12 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			flailpaw_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_tech = {
+
+		enable_subunits = {
+			poacher
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				poacher_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = poacher_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 6 y = 2 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_equipment_tech_1 = {
+
+		enable_equipments = {
+			poacher_equipment_1
+		}
+
+		path = {
+			leads_to_tech = poacher_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = poacher_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 6 y = 4 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_tier_1_upgrade_placeholder_1 = {
+
+		xor = { poacher_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = poacher_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 5 y = 6 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_tier_1_upgrade_placeholder_2 = {
+
+		xor = { poacher_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = poacher_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 7 y = 6 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_equipment_tech_2 = {
+
+		enable_equipments = {
+			poacher_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = poacher_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = poacher_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 6 y = 8 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_tier_2_upgrade_placeholder_1 = {
+
+		xor = { poacher_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = poacher_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 5 y = 10 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_tier_2_upgrade_placeholder_2 = {
+
+		xor = { poacher_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = poacher_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 7 y = 10 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	poacher_equipment_tech_3 = {
+
+		enable_equipments = {
+			poacher_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = gnoll_infantry_folder
+			position = { x = 6 y = 12 }
+		}		
+		
+		categories = {
+			gnoll_infnatry_technology
+			war_hut_technology
+			poacher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+}

@@ -1,0 +1,37 @@
+state={
+	id=1078
+	name="STATE_1078"
+	resources={
+		wood =6
+		gunpowder=4
+	}
+
+	history={
+		
+		add_core_of = STM
+
+		victory_points = {
+			10587 10
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = STM
+		}
+	}
+
+	provinces={
+		6810 6814 10487 10582 10584 10586 10587 10597
+	}
+	manpower=26600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

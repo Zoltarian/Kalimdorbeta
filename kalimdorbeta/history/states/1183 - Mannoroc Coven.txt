@@ -1,0 +1,37 @@
+
+state={
+	id=1183
+	name="STATE_1183"
+	resources = {
+		ores=5
+		mana=5
+		wheat=2
+		oil=6
+	}
+
+	history = {
+		owner = GLC
+		add_core_of = GLC
+		victory_points = {
+			11573 15
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
+		617.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+		}
+	}
+
+	provinces={
+		222 11549 11551 11552 11553 11557 11561 11564 11565 11567 11569 11573 11577 11579 11580 11583 11585 11588 11591 11593 11597 11602 11604 12139 12141
+	}
+	manpower=31000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,3624 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = Blackrock_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BRC
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = {
+		x = 0
+		y = 1750
+	}
+
+	focus = {
+		id = BRC_a_new_world
+		icon = GFX_focus_the_dark_portal
+		cost = 5.00
+		x = 6
+		y = 0
+
+		completion_reward = {
+			add_political_power = 120
+
+			add_timed_idea = {
+				idea =  BRC_a_new_world
+				days = 365
+			}
+			DMC = {
+				country_event = { id = dragonmaw.1 }
+			}
+			BHC = {
+				country_event = { id = bleeding_hollow.1 }
+			}
+		}
+
+	}
+
+	focus = {
+		id = BRC_discipline_peons
+		icon = GFX_focus_CZE_german_puppet
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_new_world
+		}
+		x = 3
+		y = 1
+
+		completion_reward = {
+
+			add_tech_bonus = {
+				name = peasant_tools_technology_bonus
+				bonus = 0.5
+				uses = 1
+				category = peasant_tools_technology
+			}
+		}
+
+	}
+
+	focus = {
+		id = BRC_a_new_foundry
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_discipline_peons
+		}
+		x = 2
+		y = 2
+
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+
+	}
+
+	focus = {
+		id = BRC_steel_weapons
+		icon = GFX_focus_secret_rearmament
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_new_foundry
+		}
+		mutually_exclusive = {
+			focus = BRC_thorium_weapons
+		}
+		x = 2
+		y = 3
+
+		completion_reward = {
+			add_ideas = BRC_steel_weapon
+		}
+
+	}
+	focus = {
+		id = BRC_thorium_deposits
+		icon = GFX_goal_generic_construction2
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_discipline_peons
+		}
+		x = 4
+		y = 2
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+			394 = {
+				add_resource = {
+   				 type = ores
+    			 amount = 8
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_thorium_weapons
+		icon = GFX_focus_RAJ_indian_gurkhas
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_thorium_deposits
+		}
+		mutually_exclusive = {
+			focus = BRC_steel_weapons
+		}
+		x = 4
+		y = 3
+
+		completion_reward = {
+			add_tech_bonus = {
+    			ahead_reduction = 1
+   				uses = 1
+    		    #category = footman_tech
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_the_blackrock_war_machine
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_steel_weapons
+			focus = BRC_thorium_weapons
+		}
+		x = 3
+		y = 4
+
+		completion_reward = {
+				add_ideas = BRC_the_blackrock_war_machine
+		}
+
+	}
+
+	focus = {
+		id = BRC_the_fall_of_stormwind
+		icon = GFX_focus_stormwind_crest
+		cost = 5.00
+
+		x = 23
+		y = 2
+
+		available = {
+			has_country_flag = fall_of_stormwind
+		}
+
+		bypass = {
+			has_country_flag = fall_of_stormwind
+		}
+
+	}
+
+	focus = {
+		id = BRC_doomhammers_horde
+		icon = GFX_focus_hun_assassinate_horthy
+		cost = 5.00
+		mutually_exclusive = {
+			focus = BRC_blackhands_horde
+		}
+		x = 27
+		y = 0
+
+		available = {
+			has_country_flag = doomhammers_horde
+		}
+
+		bypass = {
+			has_country_flag = doomhammers_horde
+		}
+
+	}
+	focus = {
+		id = BRC_blackhands_horde
+		icon = GFX_focus_ger_assassinate_mussolini
+		cost = 5.00
+		mutually_exclusive = {
+			focus = BRC_doomhammers_horde
+		}
+		x = 19
+		y = 0
+
+		available = {
+			has_country_flag = blackhands_horde
+		}
+
+		bypass = {
+			has_country_flag = blackhands_horde
+		}
+
+	}
+
+	focus = {
+		id = BRC_expand_dreadmaul_hold
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_blackrock_war_machine
+		}
+		x = 1
+		y = 5
+
+		available = {
+        	OR = {
+        		BRC = {
+        			controls_state = 384
+        		}
+
+        		384 = {
+        			owner = { is_subject_of = BRC }
+        		}
+        	}
+   		}
+
+		completion_reward = {
+			384 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = arms_factory
+    				level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_dreadmaul_brutes
+		icon = GFX_focus_smiling_buddha
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_dreadmaul_hold
+		}
+		x = 0
+		y = 6
+
+		completion_reward = {
+
+			if = {
+				limit = {
+					has_idea = BRC_dreadmaul_clan_1
+				}
+				swap_ideas = {
+					remove_idea = BRC_dreadmaul_clan_1
+					add_idea = BRC_dreadmaul_clan_2
+				}
+
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_construct_ogre_mounds
+		icon = GFX_goal_generic_fortify_city
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_dreadmaul_hold
+		}
+		x = 2
+		y = 6
+
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
+
+
+	}
+	focus = {
+		id = BRC_discipline_the_war_band
+		icon = GFX_focus_generic_orc_warrior
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_new_world
+		}
+		x = 9
+		y = 1
+
+		completion_reward = {
+			army_experience = 25
+		}
+
+	}
+	focus = {
+		id = BRC_found_stonard
+		icon = GFX_focus_generic_self_management
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_discipline_the_war_band
+		}
+		x = 6
+		y = 3
+
+		available = {
+			OR = {
+				controls_state = 395
+				AND = {
+					is_in_faction_with = 395:controller
+					395 = { 
+						controller = {
+							controls_state = 395
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			country_event = blackrock.3
+		}
+
+	}
+	#focus = {
+	#	id = BRC_clash_with_the_hakkari
+	#	icon = GFX_focus_generic_provoke_border_clashes
+	#	cost = 5.00
+	#	prerequisite = {
+	#		focus = BRC_found_stonard
+	#	}
+	#	x = 6
+	#	y = 3
+
+	#	bypass = {
+	#		OR = {
+	#			has_war_with = HAK
+	#			has_country_flag = hakkari_defeated
+	#			NOT = {
+	#				country_exists = HAK
+	#			}
+	#		}
+	#	}
+
+	#	completion_reward = {
+
+	#		add_named_threat = { threat = 3 name = BRC_clash_with_the_hakkari}
+	#		create_wargoal = {
+	#			type = annex_everything
+	#			target = HAK
+	#		}
+	#		HAK = { country_event = hakkari.2 }
+
+	#	}
+
+	#}
+	focus = {
+		id = BRC_develop_the_swamps
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_found_stonard
+		}
+		x = 5
+		y = 4
+
+		available = {
+			AND = {
+				OR = {
+					controls_state = 395
+					AND = {
+						395 = { 
+							owner = {
+								controls_state = 395
+							}
+						}
+						is_in_faction_with = 395:owner
+					}
+				}
+				OR = {
+					controls_state = 43
+					AND = {
+						43 = { 
+							owner = {
+								controls_state = 43
+							}
+						}
+						is_in_faction_with = 43:owner
+					}
+				}
+				OR = {
+					controls_state = 396
+					AND = {
+						396 = { 
+							owner = {
+								controls_state = 396
+							}
+						}
+						is_in_faction_with = 396:owner
+					}
+				}
+				OR = {
+					controls_state = 398
+					AND = {
+						398 = { 
+							owner = {
+								controls_state = 398
+							}
+						}
+						is_in_faction_with = 398:owner
+					}
+				}
+				OR = {
+					controls_state = 397
+					AND = {
+						397 = { 
+							owner = {
+								controls_state = 397
+							}
+						}
+						is_in_faction_with = 397:owner
+					}
+				}
+				OR = {
+					controls_state = 399
+					AND = {
+						399 = { 
+							owner = {
+								controls_state = 399
+							}
+						}
+						is_in_faction_with = 399:owner
+					}
+				}
+			}
+
+		}
+
+		completion_reward = {
+
+			395 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+			}
+			43 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+
+			}
+			396 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+			}
+			398 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+			}
+			397 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+			}
+			399 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_the_pink_skins
+		icon = GFX_focus_generic_little_entente
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_blackrock_war_machine
+		}
+		prerequisite = {
+			focus = BRC_develop_the_swamps
+		}
+		mutually_exclusive = {
+			focus = BRC_identity_crisis
+		}
+		x = 4
+		y = 5
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+
+	}
+	focus = {
+		id = BRC_identity_crisis
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_develop_the_swamps
+		}
+		prerequisite = {
+			focus = BRC_the_blackrock_war_machine
+		}
+		mutually_exclusive = {
+			focus = BRC_the_pink_skins
+		}
+		x = 6
+		y = 5
+
+		completion_reward = {
+			country_event = blackrock.6
+		}
+
+	}
+	focus = {
+		id = BRC_hakkari_tablets
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_found_stonard
+		}
+		x = 7
+		y = 4
+
+		available = {
+			AND = {
+				OR = {
+					controls_state = 395
+					AND = {
+						395 = { 
+							owner = {
+								controls_state = 395
+							}
+						}
+						is_in_faction_with = 395:owner
+					}
+				}
+				OR = {
+					controls_state = 43
+					AND = {
+						43 = { 
+							owner = {
+								controls_state = 43
+							}
+						}
+						is_in_faction_with = 43:owner
+					}
+				}
+				OR = {
+					controls_state = 396
+					AND = {
+						396 = { 
+							owner = {
+								controls_state = 396
+							}
+						}
+						is_in_faction_with = 396:owner
+					}
+				}
+				OR = {
+					controls_state = 398
+					AND = {
+						398 = { 
+							owner = {
+								controls_state = 398
+							}
+						}
+						is_in_faction_with = 398:owner
+					}
+				}
+				OR = {
+					controls_state = 397
+					AND = {
+						397 = { 
+							owner = {
+								controls_state = 397
+							}
+						}
+						is_in_faction_with = 397:owner
+					}
+				}
+				OR = {
+					controls_state = 399
+					AND = {
+						399 = { 
+							owner = {
+								controls_state = 399
+							}
+						}
+						is_in_faction_with = 399:owner
+					}
+				}
+			}
+
+		}
+
+		completion_reward = {
+
+			BRC = {
+				country_event = { id = blackrock.5 }
+			}
+			BHC = {
+				country_event = { id = blackrock.5 }
+			}
+			DMC = {
+				country_event = { id = blackrock.5 }
+			}
+			TSC = {
+				country_event = { id = blackrock.5 }
+			}
+			BTG = {
+				country_event = { id = blackrock.5 }
+			}
+			BBC = {
+				country_event = { id = blackrock.5 }
+			}
+			THC = {
+				country_event = { id = blackrock.5 }
+			}
+			FWC = {
+				country_event = { id = blackrock.5 }
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_adapting_to_azeroth
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_discipline_the_war_band
+		}
+		x = 11
+		y = 2
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doctrine_bonus
+				bonus = 0.25
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_grunt_equipment
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_adapting_to_azeroth
+		}
+		x = 9
+		y = 3
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = grunt_equipment_bonus
+				bonus = 0.5
+				uses = 1
+				#category = footman_tech
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_infantry_army
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_grunt_equipment
+		}
+		mutually_exclusive = {
+			focus = BRC_mobile_army
+		}
+		x = 9
+		y = 4
+
+		completion_reward = {
+			add_ideas = BRC_infantry_army_idea
+		}
+
+	}
+	focus = {
+		id = BRC_support_weapons
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_infantry_army
+		}
+		x = 8
+		y = 5
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+   			category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_improved_catapults
+		icon = GFX_goal_generic_army_artillery2
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_support_weapons
+		}
+		x = 6
+		y = 6
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+   			category = catapult_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_blackrock_raiders
+		icon = GFX_goal_generic_cavalry
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_adapting_to_azeroth
+		}
+		x = 11
+		y = 3
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = knight_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_mobile_army
+		icon = GFX_focus_generic_license_production
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_raiders
+		}
+		mutually_exclusive = {
+			focus = BRC_infantry_army
+		}
+		x = 11
+		y = 4
+
+		completion_reward = {
+		add_ideas = BRC_mobile_army_idea
+		}
+
+	}
+	focus = {
+		id = BRC_blackrock_warlocks
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_infantry_army
+			focus = BRC_mobile_army
+		}
+		x = 10
+		y = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = mage_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_worg_breeding
+		icon = GFX_goal_generic_army_doctrines
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_mobile_army
+		}
+		x = 12
+		y = 5
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = dire_wolf_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_blackrock_warlords
+		icon = GFX_goal_generic_army_tanks
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_worg_breeding
+		}
+		x = 12
+		y = 6
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.75
+    		uses = 1
+    		category = altar_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_constuct_roosts
+		icon = GFX_focus_ger_reichskommisariats
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_adapting_to_azeroth
+		}
+		x = 13
+		y = 3
+
+		completion_reward = {
+			BRC = {
+				random_owned_state = {
+					add_building_construction = {
+    					type = air_base
+    					level = 2
+    					instant_build = yes
+					}
+				}
+				random_owned_state = {
+					add_building_construction = {
+    					type = air_base
+    					level = 2
+    					instant_build = yes
+					}
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_dragonwmaw_rylaks
+		icon = GFX_focus_chi_flying_tigers
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_constuct_roosts
+		}
+		x = 13
+		y = 4
+
+		completion_reward = {
+			add_tech_bonus = {
+   			bonus = 0.5
+    		uses = 1
+    		category = air_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_mobile_catapults
+		icon = GFX_focus_NZL_bob_semple_tank
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_worg_breeding
+		}
+		x = 14
+		y = 6
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = catapult_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_embrace_the_fel
+		icon = GFX_focus_fel_blood
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackhands_horde
+		}
+		x = 18
+		y = 1
+
+		completion_reward = {
+
+			remove_ideas = orc_primary_race
+			add_ideas = fel_orc_primary_race
+
+		}
+	}
+	focus = {
+		id = BRC_renew_forced_aging
+		icon = GFX_focus_YUG_pan_slavic_congress
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_embrace_the_fel
+		}
+		x = 17
+		y = 2
+
+		completion_reward = {
+			add_ideas = BRC_forced_aging
+		}
+	}
+	focus = {
+		id = BRC_assimilate_the_shadow_council
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_embrace_the_fel
+		}
+		x = 19
+		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+			ahead_reduction = 1
+			uses = 1
+			category = mage_technology
+			}
+		}
+	}
+
+	focus = {
+		id = BRC_the_journey_north
+		icon = GFX_focus_jap_cast_the_die
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_assimilate_the_shadow_council
+		}
+		prerequisite = {
+			focus = BRC_renew_forced_aging
+		}
+		prerequisite = {
+			focus = BRC_the_fall_of_stormwind
+		}
+		x = 18
+		y = 3
+		
+		completion_reward = {
+			declare_war_on = { target = DIC type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = BRC_a_home_in_the_spire
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_journey_north
+		}
+		x = 18
+		y = 4
+		
+		completion_reward = {
+			country_event = blackrock.31
+		}
+
+	}
+	focus = {
+		id = BRC_under_a_single_banner
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_home_in_the_spire
+		}
+		x = 19
+		y = 5
+		
+		completion_reward = {
+			country_event = blackrock.32
+		}
+
+	}
+	focus = {
+		id = BRC_settle_the_steppes
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_home_in_the_spire
+		}
+		x = 17
+		y = 5
+		
+		available = {
+			BRC = {
+				controls_state = 561
+				controls_state = 560
+			}
+		}
+		
+		completion_reward = {
+			561 = {
+				add_manpower = 25000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+    				type = arms_factory
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			560 = {
+				add_manpower = 25000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+    				type = arms_factory
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_the_shrine_of_storms
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_settle_the_steppes
+		}
+		x = 16
+		y = 6
+		available = {
+			BRC = {
+				controls_state = 556
+			}
+		}
+		
+		completion_reward = {
+			556 = {
+				add_manpower = 35000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 2
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_fire_up_the_cauldron
+		icon = GFX_goal_generic_construction
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_settle_the_steppes
+		}
+		x = 18
+		y = 6
+		
+		available = {
+			BRC = {
+				controls_state = 554
+				controls_state = 556
+			}
+		}
+		
+		completion_reward = {
+			554 = {
+				add_manpower = 10000
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 2
+    				instant_build = yes
+				}
+				add_building_construction = {
+    				type = arms_factory
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			556 = {
+				add_manpower = 10000
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 2
+    				instant_build = yes
+				}
+				add_building_construction = {
+    				type = arms_factory
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+
+	focus = {
+		id = BRC_incorporate_the_blacktooth_grin_clan
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackhands_horde
+		}
+		x = 20
+		y = 1
+
+		completion_reward = {
+			BTG = {
+				country_event = { id = black_tooth_grin.2 }
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_the_thorium_brotherhood
+		icon = GFX_focus_generic_military_mission
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_under_a_single_banner
+		}
+		x = 20
+		y = 6
+
+		completion_reward = {
+			declare_war_on = { target = THR type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = BRC_pillage_the_city
+		icon = GFX_goal_generic_soviet_construction
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_fall_of_stormwind
+		}
+		x = 23
+		y = 3
+
+		completion_reward = {
+			add_ideas = BRC_stormwind_pillaged_idea
+		}
+
+	}
+	focus = {
+		id = BRC_human_maps
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_pillage_the_city
+		}
+		x = 21
+		y = 4
+
+		completion_reward = {
+			#add_tech_bonus = {
+			#	bonus = 0.5
+			#	uses = 1
+			#	category = encryption_decryption_technology
+			#}
+		}
+
+	}
+	focus = {
+		id = BRC_the_gnolls
+		icon = GFX_focus_AST_squander_bug
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_human_maps
+		}
+		x = 21
+		y = 5
+
+		available = {
+			OR = {
+				country_exists = RRP
+				country_exists = RPP
+				country_exists = ELK
+			}
+
+		}
+		
+		bypass = {
+			NOT = {
+				OR = {
+					country_exists = RRP
+					country_exists = RPP
+					country_exists = ELK
+				}
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					country_exists = RRP
+				}
+				declare_war_on = { target = RRP type = annex_everything }
+			}
+			if = {
+				limit = {
+					country_exists = RPP
+				}
+				declare_war_on = { target = RPP type = annex_everything }
+			}
+			if = {
+				limit = {
+					country_exists = ELK
+				}
+				declare_war_on = { target = ELK type = annex_everything }
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_call_the_draenor_clans_to_war
+		icon = GFX_focus_AST_squander_bug
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_doomhammers_horde
+			focus = BRC_blackhands_horde
+		}
+		x = 23
+		y = 1
+
+		completion_reward = {
+			country_event = blackrock.13
+		}
+
+	}
+	focus = {
+		id = BRC_human_tools
+		icon = GFX_goal_generic_production
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_pillage_the_city
+		}
+		x = 23
+		y = 4
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = construction_tools_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_human_masonry
+		icon = GFX_goal_generic_fortify_city
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_human_tools
+		}
+		x = 23
+		y = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = fortification_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_deal_with_the_trade_prince
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_pillage_the_city
+		}
+		x = 25
+		y = 4
+
+		available = {
+			has_country_flag = doomhammers_horde
+		}
+
+		completion_reward = {
+			STC = {
+				country_event = { id = steamwheedle.1 }
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_ban_fel_magic
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_doomhammers_horde
+		}
+		x = 26
+		y = 1
+
+		completion_reward = {
+			country_event = { id = blackrock.15 }
+		}
+
+	}
+	focus = {
+		id = BRC_hunt_the_shadow_council
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_deal_with_rend
+		}
+		prerequisite = {
+			focus = BRC_ban_fel_magic
+		}
+		x = 27
+		y = 2
+
+		completion_reward = {
+			TSC = {
+				country_event = shadow_council.6
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_the_fate_of_guldan
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_hunt_the_shadow_council
+		}
+		prerequisite = {
+			focus = BRC_the_fall_of_stormwind
+		}
+		x = 27
+		y = 3
+
+		completion_reward = {
+			TSC = {
+				country_event = shadow_council.8
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_take_over_the_spire
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_fate_of_guldan
+		}
+		x = 27
+		y = 5
+		
+		completion_reward = {
+			country_event = blackrock.20
+		}
+
+	}
+	focus = {
+		id = BRC_distribute_lands
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_take_over_the_spire
+		}
+		x = 25
+		y = 6
+		
+		completion_reward = {
+			country_event = blackrock.27
+		}
+
+	}
+	focus = {
+		id = BRC_the_battle_for_khaz_modan
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_distribute_lands
+			focus = BRC_the_thorium_brotherhood
+		}
+		x = 23
+		y = 7
+
+		available = {
+			NOT = {
+				has_war = yes
+			}
+
+			any_country = {
+				AND = {
+					OR = {
+						is_in_faction_with = BRC
+						tag = BRC
+					}
+					is_neighbor_of = IRO
+				}
+			}
+
+		}
+
+		completion_reward = {
+			add_named_threat = { threat = 15 name = BRC_battle_for_khaz_modan}
+			declare_war_on = { target = IRO type = annex_everything }
+
+		}
+
+	}
+	focus = {
+	id = BRC_expand_the_spire
+	icon = GFX_focus_generic_the_giant_wakes
+	cost = 5.00
+	prerequisite = {
+		focus = BRC_the_battle_for_khaz_modan
+	}
+	x = 14
+	y = 8
+
+	available = {
+		BRC = {
+			controls_state = 524
+			controls_state = 807
+			controls_state = 28
+		}
+	}
+
+		completion_reward = {
+			524 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+				}
+				add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+				}
+			}
+
+			807 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+			}
+			28 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRC_develop_the_burning_steppes
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_the_spire
+		}
+		x = 12
+		y = 9
+
+		available = {
+			BRC = {
+				controls_state = 556
+				controls_state = 558
+				controls_state = 523
+				controls_state = 559
+				controls_state = 562
+				controls_state = 563
+				controls_state = 565
+			}
+		}
+
+		completion_reward = {
+			556 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			558 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			523 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			559 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			562 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			563 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			565 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRC_expand_blackrock_stronghold
+		icon = GFX_goal_generic_construct_military
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_develop_the_burning_steppes
+		}
+		x = 11
+		y = 10
+
+		available = {
+			BRC = {
+				controls_state = 560
+			}
+		}
+
+		completion_reward = {
+			560 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRC_found_black_tooth_hovel
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_develop_the_burning_steppes
+		}
+		x = 13
+		y = 10
+
+		available = {
+			BRC = {
+				controls_state = 561
+			}
+		}
+
+		completion_reward = {
+			561 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_name = "Blacktooth Hovel"
+			}
+		}
+	}
+	focus = {
+		id = BRC_alliance_with_the_frostmane
+		icon = GFX_focus_chi_cooperation_with_the_nationalists
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_battle_for_khaz_modan
+		}
+		x = 26
+		y = 8
+		
+		completion_reward = {
+			FRT = {
+				country_event = frostmane.1
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_alliance_with_the_dark_iron
+		icon = GFX_focus_generic_military_mission
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_take_over_the_spire
+		}
+		x = 28
+		y = 6
+		
+		available = {
+			has_country_flag = comming_soon
+		}
+		
+		completion_reward = {
+			country_event = { id = blackrock.22 }
+		}
+
+	}
+	focus = {
+		id = BRC_prepare_the_fleet
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_battle_for_khaz_modan
+		}
+		x = 23
+		y = 8
+
+		available = {
+			controls_state = 47
+			controls_state = 36
+			controls_state = 484
+		}
+
+
+
+		completion_reward = {
+
+			818 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+			}
+			36 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			484 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_lessons_of_the_first_war
+		icon = GFX_goal_generic_build_tank
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_battle_for_khaz_modan
+		}
+		x = 34
+		y = 8
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = BRC_tame_giant_turtles
+		icon = GFX_goal_generic_navy_submarine
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_prepare_the_fleet
+		}
+		prerequisite = {
+			focus = BRC_lessons_of_the_first_war
+		}
+		x = 28
+		y = 9
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = submarine_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_blackrock_shipwright
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_prepare_the_fleet
+		}
+		x = 20
+		y = 9
+		
+		completion_reward = {
+			add_ideas = BRC_solog_roark
+		}
+
+	}
+	focus = {
+		id = BRC_transport_ships
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_shipwright
+		}
+		x = 19
+		y = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.75
+			uses = 1
+			category = naval_transport_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_blackrock_sailors
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_shipwright
+		}
+		x = 21
+		y = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.75
+			uses = 1
+			category = grunt_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_dreadmaul_juggernauts
+		icon = GFX_goal_generic_navy_battleship
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_prepare_the_fleet
+		}
+		x = 22
+		y = 9
+		
+		completion_reward = {
+			country_event = blackrock.28
+		}
+
+	}
+	focus = {
+		id = BRC_steamwheedle_battleships
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_prepare_the_fleet
+		}
+		x = 24
+		y = 9
+		
+		available = {
+			is_in_faction_with = STC
+		}
+		
+		completion_reward = {
+			country_event = blackrock.29
+		}
+
+	}
+	focus = {
+		id = BRC_deal_with_rend
+		icon = GFX_focus_genric_rend_blackhand
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_doomhammers_horde
+		}
+		x = 28
+		y = 1
+
+		completion_reward = {
+			BTG = {
+				country_event = { id = black_tooth_grin.3 }
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_blacktooth_scouts
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_deal_with_rend
+		}
+		x = 29
+		y = 2
+
+		available = {
+			has_country_flag = rends_loyalty
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+			ahead_reduction = 0.50
+			uses = 1
+			category = rogue_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_elite_forces
+		icon = GFX_focus_generic_japanese_imperial_glory
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_lessons_of_the_first_war
+		}
+		x = 30
+		y = 9
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = altar_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_blackrock_sergeants
+		icon = GFX_focus_chi_army_reform
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_elite_forces
+		}
+		x = 29
+		y = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = captain_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_blackrock_occupation_forces
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_elite_forces
+		}
+		x = 31
+		y = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = guard_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_study_human_tomes
+		icon = GFX_goal_continuous_increase_nu
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_sergeants
+		}
+		prerequisite = {
+			focus = BRC_blackrock_occupation_forces
+		}
+		x = 30
+		y = 11
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = mage_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_human_formations
+		icon = GFX_focus_generic_little_entente
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_lessons_of_the_first_war
+		}
+		x = 34
+		y = 9
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = BRC_night_assaults
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_human_formations
+		}
+		x = 33
+		y = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			#category = lantern_tech
+			}
+		}
+	}
+	focus = {
+		id = BRC_infantry_weapons
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_night_assaults
+		}
+		x = 33
+		y = 11
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = infantry_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_blackrock_uniforms
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_human_formations
+		}
+		x = 35
+		y = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			#category = uniform_tech
+			}
+		}
+	}
+	focus = {
+		id = BRC_improved_armor
+		icon = GFX_goal_generic_defence
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_uniforms
+		}
+		x = 35
+		y = 11
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = armor_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_improved_raider_equipment
+		icon = GFX_goal_generic_cavalry
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_infantry_weapons
+			focus = BRC_improved_armor
+		}
+		x = 34
+		y = 12
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = knight_technology
+			}
+		}
+	}
+	focus = {
+		id = BRC_keep_them_in_check
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_lessons_of_the_first_war
+		}
+		x = 39
+		y = 9
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+
+	}
+	focus = {
+		id = BRC_oversee_dragonmaw_breeding
+		icon = GFX_focus_chi_flying_tigers
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_keep_them_in_check
+		}
+		x = 37
+		y = 10
+
+		completion_reward = {
+			DMC = {
+				country_event = { id = dragonmaw.3 }
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_keep_chogall_busy
+		icon = GFX_focus_smiling_buddha
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_keep_them_in_check
+		}
+		x = 39
+		y = 10
+
+		completion_reward = {
+			THC = {
+				country_event = { id = twilights_hammer.2 }
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_discipline_the_burning_blade
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_keep_chogall_busy
+		}
+		x = 39
+		y = 11
+
+		completion_reward = {
+			BBC = {
+				country_event = { id = burning_blade.1 }
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_send_scouts_north
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_pink_skins
+			focus = BRC_identity_crisis
+		}
+		x = 4
+		y = 6
+
+		available = {
+			AND = {
+				NOT = {
+					has_war = yes
+				}
+				OR = {
+					RDR = { controls_state = 365 }
+					STO = { controls_state = 365 }
+				}
+				OR = {
+					RDR = { controls_state = 793 }
+					STO = { controls_state = 793 }
+				}
+			}
+		}
+
+		bypass = {
+			OR = {
+				has_war_with = STO
+				is_in_faction_with = STO
+				NOT = {
+					365 = {
+						controller = {
+							OR = {
+								original_tag = STO
+								original_tag = RDR
+							}
+						}
+						owner = {
+							OR = {
+								original_tag = STO
+								original_tag = RDR
+							}
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+
+			BRC = {
+				transfer_state = 365
+				transfer_state = 793
+			}
+
+			BHC = {
+				transfer_state = 789
+				transfer_state = 296
+				transfer_state = 42
+				transfer_state = 297
+			}
+
+			365 = {
+				set_demilitarized_zone = no
+			}
+
+			296 = {
+				set_demilitarized_zone = no
+			}
+			42 = {
+				set_demilitarized_zone = no
+			}
+
+			STO = {
+				country_event = { id = stormwind.9 }
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_raid_border_settlements
+		icon = GFX_focus_generic_tank_production
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_send_scouts_north
+		}
+		x = 4
+		y = 7
+
+		available = {
+			has_war = no
+
+			AND = {
+				OR = {
+					RDR = { controls_state = 367 }
+					STO = { controls_state = 367 }
+				}
+			}
+		}
+
+		bypass = {
+			OR = {
+				has_war_with = STO
+				is_in_faction_with = STO
+				NOT = {
+					367 = {
+						controller = {
+							original_tag = STO
+						}
+						owner = {
+							original_tag = STO
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+
+			BRC = {
+				transfer_state = 367
+			}
+			STO = {
+				country_event = { id = stormwind.10 }
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_a_deal_with_the_amani
+		icon = GFX_focus_generic_military_academy
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_fall_of_humanity
+		}
+		x = 28
+		y = 11
+		
+		completion_reward = {
+			country_event = blackrock.36
+		}
+
+	}
+	focus = {
+		id = BRC_fall_of_humanity
+		icon = GFX_goal_tfv_can_forced_quebec_conscription
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_shipwright
+			focus = BRC_dreadmaul_juggernauts
+			focus = BRC_steamwheedle_battleships
+			focus = BRC_frostmane_destroyers
+		}
+		x = 23
+		y = 10
+
+		completion_reward = {
+			add_named_threat = { threat = 20 name = BRC_the_second_war}
+			declare_war_on = { target = LOR type = annex_everything }
+
+		}
+
+	}
+	focus = {
+		id = BRC_deal_with_alterac
+		icon = GFX_focus_alterac_kingdom_of_alterac
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_fall_of_humanity
+		}
+		x = 19
+		y = 11
+		
+		completion_reward = {
+			country_event = blackrock.33
+		}
+
+	}
+	focus = {
+		id = BRC_pillage_redridge
+		icon = GFX_goal_anti_comintern_pact
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_dawn_of_the_first_war
+		}
+		x = 2
+		y = 9
+
+		available = {
+			AND = {
+				OR = {
+					BRC = { controls_state = 793 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 793
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 365 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 365
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 791 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 791
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 364 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 364
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 363 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 363
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 367 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 367
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 792 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 792
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 370 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 370
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 361 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 361
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 360 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 360
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 362 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 365
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 363 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 365
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 368 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 368
+						}
+					}
+				}
+			}
+        }	
+			
+		completion_reward = {
+				country_event = { id = blackrock.9 }
+		}
+
+	}
+	focus = {
+		id = BRC_firegut_flamespeakers
+		icon = GFX_focus_wonderweapons
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_dreadmaul_brutes
+		}
+		x = 0
+		y = 7
+
+		completion_reward = {
+
+			if = {
+				limit = {
+					has_idea = BRC_firegut_clan_1
+				}
+				swap_ideas = {
+					remove_idea = BRC_firegut_clan_1
+					add_idea = BRC_firegut_clan_2
+				}
+
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_blademasters
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_support_weapons
+		}
+		x = 8
+		y = 6
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.75
+    		uses = 1
+   			category = altar_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_necrolytes
+		icon = GFX_goal_generic_secret_weapon
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_warlocks
+		}
+		x = 10
+		y = 6
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = priest_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_reinforced_armor
+		icon = GFX_goal_generic_military_sphere
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_human_drills
+		}
+		x = 5
+		y = 11
+
+		completion_reward = {
+		add_tech_bonus = {
+    		ahead_reduction = 0.5
+    		uses = 1
+   			category = armor_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_study_human_tactics
+		icon = GFX_focus_generic_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_dawn_of_the_first_war
+		}
+		x = 7
+		y = 9
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.25
+    		uses = 1
+    		category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_blackrock_spearman
+		icon = GFX_goal_generic_small_arms
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_study_human_tactics
+		}
+		x = 9
+		y = 10
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = pikeman_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_pillage_elwynn
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_lakeshire_great_hall
+		}
+		prerequisite = {
+			focus = BRC_stonewatch_barracks
+		}
+		x = 2
+		y = 11
+		
+		available = {
+			AND = {
+				OR = {
+					BRC = { controls_state = 359 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 359
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 358 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 359
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 39 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 359
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 355 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 359
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 356 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 359
+						}
+					}
+				}
+				OR = {
+					BRC = { controls_state = 357 }
+					any_country = {	
+						AND = {
+							is_in_faction_with = BRC
+							controls_state = 359
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			country_event = { id = blackrock.10 }
+			hidden_effect = {
+				TSC = {
+					country_event = { id = shadow_council.5 }
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_dawn_of_the_first_war
+		icon = GFX_goal_generic_political_pressure
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_raid_border_settlements
+		}
+		x = 4
+		y = 8
+
+		completion_reward = {
+			add_named_threat = { threat = 10 name = BRC_the_first_war}
+			declare_war_on = { target = STO type = annex_everything }
+			declare_war_on = { target = DSK type = annex_everything }
+			declare_war_on = { target = RDR type = annex_everything }
+
+		}
+
+	}
+	focus = {
+		id = BRC_witherbark_witch_doctors
+		icon = GFX_focus_AST_rats_tobruk
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_deal_with_the_amani
+		}
+		x = 30
+		y = 12
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = priest_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_vilebranch_axe_throwers
+		icon = GFX_goal_generic_small_arms
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_deal_with_the_amani
+		}
+		x = 28
+		y = 12
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = archer_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_frostmane_destroyers
+		icon = GFX_focus_generic_destroyer
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_alliance_with_the_frostmane
+		}
+		prerequisite = {
+			focus = BRC_prepare_the_fleet
+		}
+		x = 26
+		y = 9
+		
+		available = {
+			is_in_faction_with = FRT
+		}
+		
+		completion_reward = {
+			country_event = blackrock.30
+		}
+
+	}
+	focus = {
+		id = BRC_alliance_intel
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_deal_with_alterac
+		}
+		x = 18
+		y = 12
+		
+		available = {
+			has_country_flag = alterac_will_join_horde
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_ogre_forges
+		icon = GFX_goal_generic_construction
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_construct_ogre_mounds
+		}
+		x = 2
+		y = 7
+
+		completion_reward = {
+
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = forge_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_stonewatch_barracks
+		icon = GFX_goal_generic_build_tank
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_pillage_redridge
+		}
+		x = 3
+		y = 10
+
+		available = {
+        	BRC = {
+        	 controls_state = 368
+        	}
+        }
+
+		completion_reward = {
+			368 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_lakeshire_great_hall
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_pillage_redridge
+		}
+		x = 1
+		y = 10
+
+		available = {
+        	BRC = {
+        	 controls_state = 361
+        	}
+        }
+
+		completion_reward = {
+			361 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 3
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_adapted_army
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blademasters
+			focus = BRC_blackrock_warlords
+		}
+		x = 10
+		y = 7
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.3
+    		uses = 2
+    		category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_blackrock_assassins
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_study_human_tactics
+		}
+		x = 7
+		y = 10
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = rogue_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_human_drills
+		icon = GFX_focus_generic_little_entente
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_study_human_tactics
+		}
+		x = 5
+		y = 10
+
+		completion_reward = {
+		add_tech_bonus = {
+    		bonus = 0.5
+   			uses = 1
+   			category = land_doctrine
+			}
+		}
+
+
+	}
+	focus = {
+		id = BRC_blackrock_lancers
+		icon = GFX_focus_CZE_military_research_institute
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_blackrock_spearman
+		}
+		x = 9
+		y = 11
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = knight_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_amani_frigates
+		icon = GFX_focus_generic_cruiser2
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_a_deal_with_the_amani
+		}
+		x = 26
+		y = 12
+		
+		completion_reward = {
+			country_event = blackrock.37
+		}
+
+	}
+	focus = {
+		id = BRC_tyrs_hand_revolt
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_deal_with_alterac
+		}
+		x = 20
+		y = 12
+		
+		available = {
+			has_country_flag = alterac_will_join_horde
+		}
+		
+		completion_reward = {
+			country_event = blackrock.34
+		}
+
+	}
+	focus = {
+		id = BRC_the_time_has_come
+		icon = GFX_focus_ger_accept_british_naval_dominance
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_alliance_intel
+		}
+		prerequisite = {
+			focus = BRC_tyrs_hand_revolt
+		}
+		x = 19
+		y = 13
+		
+		available = {
+			has_country_flag = alterac_will_join_horde
+		}
+		
+		completion_reward = {
+			country_event = blackrock.35
+		}
+
+	}
+	focus = {
+		id = BRC_keep_an_eye_on_guldan
+		icon = GFX_focus_chi_legislative_yuan
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_keep_them_in_check
+		}
+		x = 41
+		y = 10
+
+		completion_reward = {
+			SRC = {
+				country_event = { id = stormreaver.2 }
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_grant_the_ogres_autonomy
+		icon = GFX_focus_smiling_buddha
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_dreadmaul_rock
+		}
+		mutually_exclusive = {
+			focus = BRC_strenghthen_ties
+		}
+		x = 11
+		y = 12
+		completion_reward = {
+			country_event = { id = blackrock.26 }
+		}
+
+	}
+	focus = {
+		id = BRC_expand_the_cauldron
+		icon = GFX_goal_generic_construction
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_outpost_in_the_gorge
+		}
+		x = 15
+		y = 10
+
+		available = {
+			BRC = {
+				controls_state = 554
+				controls_state = 556
+			}
+		}
+
+		completion_reward = {
+			554 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+				}
+			}
+			556 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BRC_dreadmaul_rock
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_blackrock_stronghold
+		}
+		prerequisite = {
+			focus = BRC_found_black_tooth_hovel
+		}
+		x = 12
+		y = 11
+
+		available = {
+			BRC = {
+				controls_state = 567
+			}
+		}
+
+		completion_reward = {
+			567 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BRC_strenghthen_ties
+		icon = GFX_goal_generic_national_unity
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_dreadmaul_rock
+		}
+		mutually_exclusive = {
+			focus = BRC_grant_the_ogres_autonomy
+		}
+		x = 13
+		y = 12
+		
+		available = {
+			AND = {
+				has_idea = BRC_dreadmaul_clan_2
+				has_idea = BRC_firegut_clan_2
+			}
+		
+		}
+		
+		completion_reward = {
+		
+			swap_ideas = {
+				remove_idea = BRC_dreadmaul_clan_2
+				add_idea = BRC_dreadmaul_clan_3
+			}
+			swap_ideas = {
+				remove_idea = BRC_firegut_clan_2
+				add_idea = BRC_firegut_clan_3
+			}
+		
+		}
+
+	}
+	focus = {
+		id = BRC_dark_iron_tools
+		icon = GFX_goal_generic_air_production
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_the_cauldron
+		}
+		x = 15
+		y = 11
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = resource_tools_technology
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_dark_iron_ore
+		icon = GFX_focus_generic_steel
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_dark_iron_tools
+		}
+		x = 15
+		y = 12
+
+		available = {
+			BRC = {
+				controls_state = 554
+				controls_state = 548
+				controls_state = 544
+				controls_state = 546
+			}
+		}
+
+		completion_reward = {
+			554 = {
+				add_resource = {
+						type = ores
+						amount = 8
+				}
+			}
+			548 = {
+				add_resource = {
+						type = ores
+						amount = 8
+				}
+			}
+			544 = {
+				add_resource = {
+						type = gunpowder
+						amount = 8
+				}
+			}
+			546 = {
+				add_resource = {
+						type = gunpowder
+						amount = 8
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRC_outpost_in_the_gorge
+		icon = GFX_goal_generic_territory_or_war
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_the_spire
+		}
+		x = 16
+		y = 9
+
+		available = {
+			BRC = {
+				controls_state = 73
+			}
+		}
+
+		completion_reward = {
+			73 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRC_expand_supply_network
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_outpost_in_the_gorge
+		}
+		x = 17
+		y = 10
+
+		available = {
+			BRC = {
+				controls_state = 73
+				controls_state = 542
+				controls_state = 544
+				controls_state = 546
+				controls_state = 554
+				controls_state = 558
+				controls_state = 781
+			}
+		}
+
+		completion_reward = {
+			73 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			542 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			544 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			546 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			554 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			558 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			781 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRC_construct_watch_towers
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_supply_network
+		}
+		x = 17
+		y = 11
+
+		available = {
+			BRC = {
+				controls_state = 554
+				controls_state = 548
+				controls_state = 544
+				controls_state = 546
+			}
+		}
+
+		completion_reward = {
+			554 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			544 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			546 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BRC_tol_barad_invasion_force
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_cut_off_stromgarde
+		}
+		x = 22
+		y = 12
+		
+		completion_reward = {
+			country_event = blackrock.38
+		}
+
+	}
+	focus = {
+		id = BRC_invasion_of_hillsbrad
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_cut_off_stromgarde
+		}
+		x = 24
+		y = 12
+		
+		completion_reward = {
+			country_event = blackrock.39
+		}
+
+	}
+	focus = {
+		id = BRC_push_into_the_hinterlands
+		icon = GFX_goal_generic_political_pressure
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_amani_frigates
+		}
+		prerequisite = {
+			focus = BRC_vilebranch_axe_throwers
+		}
+		prerequisite = {
+			focus = BRC_witherbark_witch_doctors
+		}
+		prerequisite = {
+			focus = BRC_invasion_of_hillsbrad
+		}
+		x = 28
+		y = 13
+
+		available = {
+			any_country = {
+				AND = {
+					OR = {
+						is_in_faction_with = BRC
+						tag = BRC
+					}
+					is_neighbor_of = AER
+				}
+			}
+
+		}
+
+		completion_reward = {
+			declare_war_on = { target = AER type = annex_everything }
+
+		}
+	}
+	focus = {
+		id = BRC_the_invasion_of_quelthalas
+		icon = GFX_focus_generic_italy_first
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_push_into_the_hinterlands
+		}
+		x = 28
+		y = 14
+		
+		available = {
+			any_country = {
+				AND = {
+					OR = {
+						is_in_faction_with = BRC
+						tag = BRC
+					}
+					is_neighbor_of = QUE
+				}
+			}
+
+		}
+
+		completion_reward = {
+			declare_war_on = { target = QUE type = annex_everything }	
+		}
+
+	}
+	focus = {
+		id = BRC_push_for_capital_city
+		icon = GFX_focus_generic_tank_production
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_the_invasion_of_quelthalas
+			focus = BRC_the_fall_of_stromgarde
+			focus = BRC_the_time_has_come
+		}
+		x = 23
+		y = 15
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea =  BRC_push_for_capital_city_idea 
+				days = 183
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_tol_barad_oil_refineries
+		icon = GFX_goal_generic_oil_refinery
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_tol_barad_invasion_force
+		}
+		x = 22
+		y = 13
+		
+		available = {
+        	BRC = {
+				controls_state = 13
+			}
+		
+		}
+		completion_reward = {
+			13 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 2
+    				instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BRC_cut_off_stromgarde
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_fall_of_humanity
+		}
+		x = 23
+		y = 11
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea =  BRC_cut_off_stromgarde_idea
+				days = 183
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_the_fall_of_stromgarde
+		icon = GFX_focus_CZE_german_puppet
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_invasion_of_hillsbrad
+		}
+		prerequisite = {
+			focus = BRC_tol_barad_invasion_force
+		}
+		x = 24
+		y = 13
+		
+		available = {
+        	OR = {
+        		BRC = {
+        			controls_state = 12
+        		}
+
+        		12 = {
+        			owner = { is_in_faction_with = BRC }
+        		}
+        	}
+   		}
+		
+		completion_reward = {
+			add_ideas = BRC_victory_in_stromgarde_idea
+		}
+
+	}
+	focus = {
+		id = BRC_push_into_the_city
+		icon = GFX_focus_generic_license_production
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_pillage_elwynn
+		}
+		x = 2
+		y = 12
+
+		completion_reward = {
+			add_timed_idea = {
+				idea =  BRC_push_into_the_city_idea
+				days = 183
+			}
+
+		}
+
+	}
+	focus = {
+		id = BRC_roosts_in_blackwing_decent
+		icon = GFX_focus_red_dragon_flight
+		cost = 5.00
+		prerequisite = {
+			focus = BRC_expand_the_spire
+		}
+		x = 14
+		y = 9
+
+		available = {
+			BRC = {
+				controls_state = 807
+			}
+		}
+
+		completion_reward = {
+			BRC = {
+				807 = {
+					add_building_construction = {
+    					type = air_base
+    					level = 5
+    					instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}

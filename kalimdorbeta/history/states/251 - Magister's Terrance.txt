@@ -1,0 +1,36 @@
+
+state={
+	id=251
+	name="STATE_251"
+	resources={
+		mana=32.000
+	}
+
+	history={
+		
+		victory_points = {
+			1950 20
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			radar_station = 1
+			1950 = {
+				bunker = 3
+
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		1950 1971 2961 5752 5753 5754 
+	}
+	manpower=49250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

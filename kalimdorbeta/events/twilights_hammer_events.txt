@@ -1,0 +1,85 @@
+﻿###########################
+#twilights_hammer
+###########################
+
+add_namespace = twilights_hammer
+
+country_event = {
+	id = twilights_hammer.1
+	title = twilights_hammer.1.t
+	desc = twilights_hammer.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = twilights_hammer.1.option.1
+		
+		transfer_state = 378
+		transfer_state = 379
+		transfer_state = 784
+
+		381 = {
+			add_core_of = THC
+			remove_core_of = TSC
+		}
+		
+		382 = {
+			add_core_of = THC
+			remove_core_of = TSC
+		}
+
+		785 = {
+			add_core_of = THC
+			remove_core_of = TSC
+		}
+
+	}
+
+}
+
+country_event = { #keep cho'gall busy
+	id = twilights_hammer.2
+	title = twilights_hammer.2.t
+	desc = twilights_hammer.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = twilights_hammer.2.option.1
+		
+		add_timed_idea  = {
+			idea = THC_keep_chogall_busy_idea
+			days = 365
+		}
+
+	}
+
+}
+
+country_event = { #distribute lands
+	id = twilights_hammer.3
+	title = twilights_hammer.3.t
+	desc = twilights_hammer.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = twilights_hammer.2.option.1
+		
+		add_timed_idea  = {
+			idea = THC_keep_chogall_busy_idea
+			days = 365
+		}
+
+	}
+
+}

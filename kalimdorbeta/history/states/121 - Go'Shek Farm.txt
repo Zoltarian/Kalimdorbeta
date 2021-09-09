@@ -1,0 +1,35 @@
+
+state={
+	id=121
+	name="STATE_121" #Eastfold Farm/Go'Shek Farm
+	resources={
+		mounts=64.000
+	}
+
+	history={
+		
+		victory_points = {
+			2043 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+
+		}
+		add_core_of = STR
+		add_core_of = WBT
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		292 2038 2039 2040 2043 2048 3662 3681 5340
+	}
+	manpower=44225
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

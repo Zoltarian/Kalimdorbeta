@@ -1,0 +1,35 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+DIC = {
+	male = {
+		names = { "Jengur" "Rudrom" "Kulful" "Brugdahr" "Raldig" }
+		surnames = { "Redcave" "Battlebeard" "Coldfist" "Sternbrow" "Cragdust" }
+		callsigns = {  }
+	}
+	female = {
+		names = { "Avenda" "Bessahra" "Thesha" "Eryhmyss" }
+		surnames = { "Icehammer" "Grimshaper" "Oldgrip" "Firefeast" "Deephonor" }
+		callsigns = {  }
+	}
+	surnames = {  }
+	callsigns = { "The Eternal Flame" "The Red" "The Warden" "Firestorm" }
+}
+
+THR = {
+	male = {
+		names = { "Jengur" "Rudrom" "Kulful" "Brugdahr" "Raldig" }
+		surnames = { "Redcave" "Battlebeard" "Coldfist" "Sternbrow" "Cragdust" }
+		callsigns = {  }
+	}
+	female = {
+		names = { "Avenda" "Bessahra" "Thesha" "Eryhmyss" }
+		surnames = { "Icehammer" "Grimshaper" "Oldgrip" "Firefeast" "Deephonor" }
+		callsigns = {  }
+	}
+	surnames = {  }
+	callsigns = { "The Eternal Flame" "The Red" "The Warden" "Firestorm" }
+}

@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "Duskwood Rangers"
+
+	regiments = {
+		ranger = { x = 0 y = 0 }
+		ranger = { x = 0 y = 1 }
+		ranger = { x = 0 y = 2 }
+		ranger = { x = 1 y = 0 }
+		ranger = { x = 1 y = 1 }
+		ranger = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#darkshire
+	division = {
+		name = "Duskwood Rangers"
+		location = 2195
+		division_template = "Duskwood Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Duskwood Rangers"
+		location = 2195
+		division_template = "Duskwood Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Duskwood Rangers"
+		location = 2195
+		division_template = "Duskwood Rangers"
+		start_experience_factor = 0.2
+	}
+	#raven hill
+	division = {
+		name = "Duskwood Rangers"
+		location = 2080
+		division_template = "Duskwood Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Duskwood Rangers"
+		location = 2080
+		division_template = "Duskwood Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Duskwood Rangers"
+		location = 2080
+		division_template = "Duskwood Rangers"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+

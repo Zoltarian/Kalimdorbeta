@@ -1,0 +1,89 @@
+﻿division_template = {
+	name = "Lapadis Warriors"
+
+	regiments = {
+
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Lapadis Spearman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Lapadis Archers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Lapadis Raptor Rider"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1st Lapadis Warriors"
+		location = 5568
+		division_template = "Lapadis Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Lapadis Warriors"
+		location = 5660
+		division_template = "Lapadis Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Lapadis Archers"
+		location = 5642
+		division_template = "Lapadis Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Lapadis Spearman"
+		location = 5299
+		division_template = "Lapadis Spearman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Lapadis Raptor Rider"
+		location = 5271
+		division_template = "Lapadis Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+
+
+}

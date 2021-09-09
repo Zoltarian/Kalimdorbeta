@@ -1,0 +1,837 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	farstrider_enclave_tech = {
+
+		path = {
+			leads_to_tech = farstrider_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = magister_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sun_knight_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 584
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 12 y = 0 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	farstrider_tech = {
+
+		enable_subunits = {
+			royal_guard
+		}
+
+		on_research_complete = {
+			set_technology = {
+				footman_weapons_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 8 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = farstrider_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+	}
+
+	farstrider_equipment_tech_1 = {
+
+		enable_equipments = {
+			royal_guard_equipment_1
+		}
+
+		path = {
+			leads_to_tech = high_elf_overpower_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_intercept_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 8 y = 4 }
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_overpower_tech = {
+
+		royal_guard = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		xor = { high_elf_intercept_tech }
+
+		path = {
+			leads_to_tech = farstrider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 7 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_intercept_tech = {
+
+		royal_guard = {
+			maximum_speed = 0.2
+		}
+
+		xor = { high_elf_overpower_tech }
+
+		path = {
+			leads_to_tech = farstrider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 9 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	farstrider_equipment_tech_2 = {
+
+		enable_equipments = {
+			royal_guard_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_shield_wall_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_last_stand_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 8 y = 8 }
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_last_stand_tech = {
+
+		royal_guard = {
+			max_organisation = 5
+			default_morale = 0.25
+		}
+
+		xor = { high_elf_shield_wall_tech }
+
+		path = {
+			leads_to_tech = farstrider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 9 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_shield_wall_tech = {
+
+		royal_guard = {
+			defense = 0.25
+			breakthrough = 0.1
+		}
+
+		xor = { high_elf_last_stand_tech }
+
+		path = {
+			leads_to_tech = farstrider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 7 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	farstrider_equipment_tech_3 = {
+
+		enable_equipments = {
+			royal_guard_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 8 y = 12 }
+		}
+
+		categories = {
+			altar_technology
+			royal_guard_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	sun_knight_tech = {
+
+		enable_subunits = {
+			paladin
+		}
+
+		on_research_complete = {
+			set_technology = {
+				sun_knight_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 12 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = sun_knight_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+	}
+
+	sun_knight_equipment_tech_1 = {
+
+		enable_equipments = {
+			paladin_equipment_1
+		}
+
+		path = {
+			leads_to_tech = high_elf_divine_steeds_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_divine_shield_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 12 y = 4 }
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_divine_steeds_tech = {
+
+		paladin = {
+			maximum_speed = 0.2
+			breakthrough = 0.05
+		}
+
+		xor = { high_elf_divine_shield_tech }
+
+		path = {
+			leads_to_tech = sun_knight_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 11 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_divine_shield_tech = {
+
+		paladin = {
+			armor_value = 0.15
+			breakthrough = 0.15
+		}
+
+		xor = { high_elf_divine_steeds_tech }
+
+		path = {
+			leads_to_tech = sun_knight_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 13 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	sun_knight_equipment_tech_2 = {
+
+		enable_equipments = {
+			paladin_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_blessing_of_kings_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_templars_verdict_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 12 y = 8 }
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_blessing_of_kings_tech = {
+
+		paladin = {
+			max_organisation = 5
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		xor = { high_elf_templars_verdict_tech }
+
+		path = {
+			leads_to_tech = sun_knight_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 11 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_templars_verdict_tech = {
+
+		paladin = {
+			ap_attack = 0.15
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		xor = { high_elf_blessing_of_kings_tech }
+
+		path = {
+			leads_to_tech = sun_knight_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 13 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	sun_knight_equipment_tech_3 = {
+
+		enable_equipments = {
+			paladin_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 12 y = 12 }
+		}
+
+		categories = {
+			altar_technology
+			paladin_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	magister_tech = {
+
+		enable_subunits = {
+			arch_mage
+		}
+
+		on_research_complete = {
+			set_technology = {
+				magister_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 16 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = magister_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+	}
+
+	magister_equipment_tech_1 = {
+
+		enable_equipments = {
+			arch_mage_equipment_1
+		}
+
+		path = {
+			leads_to_tech = high_elf_blizzard_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_phoenixs_flames_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 16 y = 4 }
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_blizzard_tech = {
+
+		arch_mage = {
+			ap_attack = 0.2
+			breakthrough = 0.25
+		}
+
+		xor = { high_elf_phoenixs_flames_tech }
+
+		path = {
+			leads_to_tech = magister_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 15 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_phoenixs_flames_tech = {
+
+		arch_mage = {
+			anti_air_attack = 0.2
+			soft_attack = 0.1
+		}
+
+		xor = { high_elf_blizzard_tech }
+
+		path = {
+			leads_to_tech = magister_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 17 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	magister_equipment_tech_2 = {
+
+		enable_equipments = {
+			arch_mage_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_ice_block_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_pyroblast_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 16 y = 8 }
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_ice_block_tech = {
+
+		arch_mage = {
+			defense = 0.2
+			max_organisation = 2.5
+		}
+
+		xor = { high_elf_pyroblast_tech }
+
+		path = {
+			leads_to_tech = magister_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 15 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_pyroblast_tech = {
+
+		arch_mage = {
+			hard_attack = 0.1
+			fort = {
+				attack = 0.33
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = human_pyroblast
+		}
+
+
+		xor = { high_elf_ice_block_tech }
+
+		path = {
+			leads_to_tech = magister_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 17 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	magister_equipment_tech_3 = {
+
+		enable_equipments = {
+			arch_mage_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = high_elf_support_folder
+			position = { x = 16 y = 12 }
+		}
+
+		categories = {
+			altar_technology
+			arch_mage_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+}

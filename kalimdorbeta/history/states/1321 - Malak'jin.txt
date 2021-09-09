@@ -1,0 +1,34 @@
+
+state={
+	id=1321
+	name="STATE_1321"
+	resources = {
+		ores=4
+		gunpowder=2
+	}
+
+	history={
+		owner = WFT
+		add_core_of = WFT
+		victory_points = {
+			12083 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		1548 12080 12082 12083 12087
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

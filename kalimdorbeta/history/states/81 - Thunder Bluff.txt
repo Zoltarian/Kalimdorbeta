@@ -1,0 +1,50 @@
+
+state={
+	id=81
+	name="STATE_81"
+	resources={
+		wheat=8
+		eggs=8
+		ores=6
+		mana=5
+	}
+	
+	history={
+		owner = WFT
+		victory_points = {
+			10043 30 
+		}
+		victory_points = {
+			10140 10
+		}
+		victory_points = {
+			10089 10
+		}
+		victory_points = {
+			9694 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = WFT
+		612.1.1 = {
+			owner = THB
+			controller = THB
+			add_core_of = THB
+			remove_core_of = WFT
+
+		}
+
+	}
+	
+	provinces={
+		9694 10043 10050 10077 10089 10093 10105 10106 10111 10123 10125 10129 10132 10140 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

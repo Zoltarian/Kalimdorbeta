@@ -1,0 +1,41 @@
+
+state={
+	id=696
+	name="STATE_696"
+	resources={
+		oil=8
+		wood =6
+	}
+
+	history={
+		
+		add_core_of = SMC
+
+		victory_points = {
+			6682 10
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			6792 = {
+				naval_base = 3
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SMC
+		}
+	}
+
+	provinces={
+		6682 6768 6772 6779 6783 6784 6789 6792 6801 6818 11007
+	}
+	manpower=33000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

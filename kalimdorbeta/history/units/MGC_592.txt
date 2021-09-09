@@ -1,0 +1,117 @@
+﻿division_template = {
+	name = "Magram Centaur"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Magram Marauder"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Magram Khan's Guard"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		paladin = { x = 1 y = 0 }
+		paladin = { x = 1 y = 1 }
+		paladin = { x = 1 y = 2 }
+		paladin = { x = 1 y = 3 }
+		paladin = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Magram Centaur"
+		location = 11592
+		division_template = "Magram Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Magram Centaur"
+		location = 11592
+		division_template = "Magram Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Magram Centaur"
+		location = 11739
+		division_template = "Magram Centaur"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Magram Centaur"
+		location = 11739
+		division_template = "Magram Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Magram Centaur"
+		location = 11575
+		division_template = "Magram Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Magram Centaur"
+		location = 11575
+		division_template = "Magram Centaur"
+		start_experience_factor = 0.2
+	}	
+
+	division = {
+		name = "Magram Marauder"
+		location = 11592
+		division_template = "Magram Marauder"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Magram Marauder"
+		location = 11575
+		division_template = "Magram Marauder"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Magram Khan's Guard"
+		location = 11592
+		division_template = "Magram Khan's Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Magram Khan's Guard"
+		location = 11575
+		division_template = "Magram Khan's Guard"
+		start_experience_factor = 0.3
+	}
+	
+}

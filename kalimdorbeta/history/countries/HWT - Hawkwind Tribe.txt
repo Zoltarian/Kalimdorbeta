@@ -1,0 +1,157 @@
+﻿capital = 1031
+
+oob = "HWT_592"
+
+set_research_slots = 3
+
+set_stability = 0.50
+set_war_support = 0.15
+
+add_ideas = {
+	tribe
+	recruit_adventurers
+	early_military_development
+	free_trade
+
+	tauren_primary_race
+
+	primary_trait_war_stomping
+	primary_trait_nature_resistance
+	primary_trait_endurance
+
+	primary_religion_tauren_mythology
+
+	HWT_farwanders_tribe
+	HWT_cloudsong_tribe
+	HWT_steelrage_tribe
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	support_equipment_tech = 1
+	militia_equipment_tech_1 = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	blacksmith_unit_tech_1 = 1
+	farm_tech = 1
+	mines_tech = 1
+	lumber_mill_tech = 1
+	tailor_tech = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	guard_tech = 1
+	pikeman_tech = 1
+	pikeman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+
+	siege_works = 1
+	supply_wagon_tech = 1
+
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Chief Hawkwind"
+	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
+	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Hawkwind"
+	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
+	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Hawkwind"
+	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
+	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rissen Chief Hawkwind"
+	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
+	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Corrupted Chief Hawkwind"
+	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
+	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Chief Hawkwind"
+	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
+	traits = {  }
+	id = 34500
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kador Cloudsong"
+	picture = "gfx/leaders/HWT/kador_cloudsong.dds"
+	traits = {  }
+	id = 34501
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

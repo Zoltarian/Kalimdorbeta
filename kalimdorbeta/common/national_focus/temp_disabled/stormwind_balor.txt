@@ -1,0 +1,457 @@
+focus_tree = {
+	id = Stormwind_balor
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 50 y = 2200 }
+	
+	focus = {
+		id = SWB_destroy_stormwind_harbor
+		icon = GFX_focus_jap_strike_south
+		cost = 10.00
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = SWB_secure_our_new_home
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_destroy_stormwind_harbor
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = SWB_settle_rural_balor
+		icon = GFX_focus_generic_industry_3
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_secure_our_new_home
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = SWB_rural_farms
+		icon = GFX_focus_generic_industry_1
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_settle_rural_balor
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = SWB_fishing_villages
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_settle_rural_balor
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = SWB_expand_balor_city
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_secure_our_new_home
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = SWB_prospect_for_iron
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_expand_balor_city
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = SWB_balor_armory
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_prospect_for_iron
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = SWB_modernize_balor_docks
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_secure_our_new_home
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = SWB_construct_shipyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_modernize_balor_docks
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = SWB_escort_ships
+		icon = GFX_focus_generic_destroyer
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_construct_shipyards
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = SWB_stabilize_balor
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_fishing_villages
+		}
+		prerequisite = {
+			focus = SWB_rural_farms
+		}
+		prerequisite = {
+			focus = SWB_balor_armory
+		}
+		prerequisite = {
+			focus = SWB_escort_ships
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = SWB_rule_the_waves
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_stabilize_balor
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = SWB_seek_kultiran_support
+		icon = GFX_focus_ger_accept_british_naval_dominance
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_rule_the_waves
+		}
+		mutually_exclusive = {
+			focus = SWB_stand_alone
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = SWB_stand_alone
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_rule_the_waves
+		}
+		mutually_exclusive = {
+			focus = SWB_seek_kultiran_support
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = SWB_colonization
+		icon = GFX_focus_generic_industry_1
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_stand_alone
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = SWB_gilijims_isle
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_colonization
+		}
+		x = 0
+		y = 9
+
+	}
+	focus = {
+		id = SWB_restore_si7
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_stand_alone
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = SWB_lessons_of_the_first_war
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_stand_alone
+			focus = SWB_seek_kultiran_support
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = SWB_remains_of_medivhs_knowledge
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_lessons_of_the_first_war
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = SWB_kultiran_sailors
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_seek_kultiran_support
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = SWB_purchase_capital_ships
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_seek_kultiran_support
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = SWB_the_maritime_alliance
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_kultiran_sailors
+		}
+		prerequisite = {
+			focus = SWB_purchase_capital_ships
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = SWB_secure_stromgarde
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_the_maritime_alliance
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = SWB_the_blood_pact
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_secure_stromgarde
+		}
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = SWB_expand_south
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_secure_stromgarde
+		}
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = SWB_the_gilnean_question
+		icon = GFX_focus_chi_mission_to_germany
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_the_blood_pact
+		}
+		prerequisite = {
+			focus = SWB_expand_south
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = SWB_restore_the_army
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_knights_of_balor
+		}
+		prerequisite = {
+			focus = SWB_improved_siege_weapons
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = SWB_operation_landfall
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_southern_gryphons
+		}
+		prerequisite = {
+			focus = SWB_spys_on_the_mainland
+		}
+		prerequisite = {
+			focus = SWB_plunder_isle
+		}
+		prerequisite = {
+			focus = SWB_restore_the_army
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = SWB_holy_order
+		icon = GFX_focus_ger_revive_kaiserreich
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_lessons_of_the_first_war
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = SWB_plunder_isle
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_gilijims_isle
+		}
+		x = 0
+		y = 10
+
+	}
+	focus = {
+		id = SWB_restore_stormwind
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_operation_landfall
+			focus = SWB_the_gilnean_question
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = SWB_knights_of_balor
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_holy_order
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = SWB_improved_siege_weapons
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_remains_of_medivhs_knowledge
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = SWB_rule_the_skies_and_sea
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_colonization
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = SWB_spys_on_the_mainland
+		icon = GFX_focus_chi_one_china_policy
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_restore_si7
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = SWB_southern_gryphons
+		icon = GFX_focus_ger_reichskommisariats
+		cost = 10.00
+		prerequisite = {
+			focus = SWB_gilijims_isle
+		}
+		prerequisite = {
+			focus = SWB_rule_the_skies_and_sea
+		}
+		x = 2
+		y = 10
+
+	}
+}

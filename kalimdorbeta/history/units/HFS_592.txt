@@ -1,0 +1,69 @@
+﻿division_template = {
+	name = "Hatefury Satyr"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hatefury Shadowstalker"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Hatefury Satyr"
+		location = 10918
+		division_template = "Hatefury Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hatefury Satyr"
+		location = 10918
+		division_template = "Hatefury Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hatefury Satyr"
+		location = 11698
+		division_template = "Hatefury Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hatefury Satyr"
+		location = 11698
+		division_template = "Hatefury Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Hatefury Shadowstalker"
+		location = 10918
+		division_template = "Hatefury Shadowstalker"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hatefury Shadowstalker"
+		location = 11698
+		division_template = "Hatefury Shadowstalker"
+		start_experience_factor = 0.1
+	}
+
+}

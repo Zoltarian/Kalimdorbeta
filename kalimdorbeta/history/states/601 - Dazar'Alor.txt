@@ -1,0 +1,38 @@
+
+state={
+	id=601
+	name="STATE_601"
+	resources={
+		mana=24.000
+		oil=50.000
+		wood=38.000
+		ores=48.000
+		gunpowder=15.000
+		mounts=29.000
+	}
+
+	history={
+		
+		victory_points = {
+			8788 30 
+		}
+		victory_points = {
+			8819 10 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 3
+
+		}
+		add_core_of = ZAN
+
+	}
+
+	provinces={
+		8698 8772 8778 8783 8788 8791 8797 8804 
+	}
+	manpower=213000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_11
+}

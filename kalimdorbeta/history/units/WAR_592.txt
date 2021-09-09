@@ -1,0 +1,114 @@
+﻿division_template = {
+	name = "Watcher's Sentrys"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Watcher's Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Watcher's Lancers"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Watcher's Priestess'"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Watcher's Wardens"
+
+	regiments = {
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
+		royal_guard = { x = 1 y = 0 }
+		royal_guard = { x = 2 y = 1 }
+		royal_guard = { x = 3 y = 2 }
+		royal_guard = { x = 4 y = 3 }
+		royal_guard = { x = 5 y = 4 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Watcher's Wardens"
+		location = 15101
+		division_template = "Watcher's Wardens"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Watcher's Wardens"
+		location = 15101
+		division_template = "Watcher's Wardens"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Watcher's Wardens"
+		location = 15101
+		division_template = "Watcher's Wardens"
+		start_experience_factor = 0.3
+	}
+
+
+}
+
+air_wings = {
+	### Hyjal barrow Den
+	1487 = {
+		organic_fighter_equipment_1 = {
+			owner = "WAR"
+			amount = 40
+		}
+		organic_cas_equipment_1 = {
+			owner = "WAR"
+			amount = 10
+		}
+	}
+}

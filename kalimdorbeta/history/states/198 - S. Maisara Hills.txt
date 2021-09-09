@@ -1,0 +1,43 @@
+
+state={
+	id=198
+	name="STATE_198"
+	resources={
+		mounts=16.000
+		wood=96.000
+	}
+
+	history={
+		
+		victory_points = {
+			4760 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 4
+			dockyard = 1
+			5716 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = FTT
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = FTT
+
+		}
+
+	}
+
+	provinces={
+		4743 4744 4746 4747 4749 4750 4753 4754 4755 4757 4760 5716 5721 13724 
+	}
+	manpower=137500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

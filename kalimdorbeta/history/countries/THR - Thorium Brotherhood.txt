@@ -1,0 +1,112 @@
+﻿capital = 553
+
+oob = "THR_592"
+
+set_research_slots = 3
+
+set_stability = 0.45
+set_war_support = 0.2
+
+add_ideas = {
+	
+	city_state
+	limited_conscription
+	early_military_development
+	free_trade
+	
+	dark_iron_dwarf_primary_race
+	primary_trait_forged_in_flames
+	primary_trait_mass_production
+	primary_trait_might_of_the_mountain
+	
+	primary_religion_mystery_of_the_makers
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+	
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+	catapult_equipment_tech_1 = 1
+	
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+}
+
+set_politics = {	
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Overseer Oilfist"
+	desc = "POLITICS_OVERSEER_OILFIST_DESC"
+	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Overseer Oilfist"
+	desc = "POLITICS_OVERSEER_OILFIST_DESC"
+	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Overseer Oilfist"
+	desc = "POLITICS_OVERSEER_OILFIST_DESC"
+	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Overseer Oilfist"
+	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
+	traits = {  }
+	id = 65100
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Malyfous Darkhammer"
+	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_4.dds"
+	traits = {  }
+	id = 65101
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=710
+	name="STATE_710"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AER
+	}
+
+	provinces={
+		5549 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,59 @@
+﻿capital = 10
+
+oob = "TML_592"
+
+set_naval_oob = "TML_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+
+	tyrant
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	bog_beasts_primary_race
+	
+	primary_trait_murky_waters
+	primary_trait_natural_predators
+	primary_trait_deep_roots
+
+	primary_religion_natural_magic
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+
+}
+
+create_country_leader = {
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

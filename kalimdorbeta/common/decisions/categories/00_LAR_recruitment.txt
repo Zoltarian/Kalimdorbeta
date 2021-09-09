@@ -1,0 +1,141 @@
+lar_local_recruitment = {
+	allowed = { has_dlc = "La Resistance" }
+
+	visible = { has_done_agency_upgrade = upgrade_training_centers }
+
+	visibility_type = map_and_decisions_view
+	
+	on_map_area = {
+		state = 344
+		name = LAR_recruitment_lordaeron
+		zoom = 650
+		
+		target_root_trigger = {
+			OR = {
+				has_country_flag = lordaeron_recruitment_unlocked
+				capital_scope = { is_on_continent = lordaeron }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 458
+		name = LAR_recruitment_khaz_modan
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = khaz_modan_recruitment_unlocked
+				capital_scope = { is_on_continent = khaz_modan }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 309
+		name = LAR_recruitment_azeroth
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = azeroth_recruitment_unlocked
+				capital_scope = { is_on_continent = azeroth }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 1322
+		name = LAR_recruitment_kalimdor
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = kalimdor_recruitment_unlocked
+				capital_scope = { is_on_continent = kalimdor }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 682
+		name = LAR_recruitment_outland
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = outland_recruitment_unlocked
+				capital_scope = { is_on_continent = outland }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 1089
+		name = LAR_recruitment_draenor
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = draenor_recruitment_unlocked
+				capital_scope = { is_on_continent = draenor }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 1870
+		name = LAR_recruitment_pandaria
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = pandaria_recruitment_unlocked
+				capital_scope = { is_on_continent = pandaria }
+			}
+		}
+	}
+	
+	on_map_area = {
+		state = 1628
+		name = LAR_recruitment_northrend
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = northrend_recruitment_unlocked
+				capital_scope = { is_on_continent = northrend }
+			}
+		}
+	}
+	
+	on_map_area = {
+		state = 1786
+		name = LAR_recruitment_the_great_sea
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = the_great_sea_recruitment_unlocked
+				capital_scope = { is_on_continent = the_great_sea }
+			}
+		}
+	}
+	
+	on_map_area = {
+		state = 1049
+		name = LAR_recruitment_argus
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = argus_recruitment_unlocked
+				capital_scope = { is_on_continent = argus }
+			}
+		}
+	}
+
+
+
+
+}

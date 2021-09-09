@@ -1,0 +1,43 @@
+
+state={
+	id=595
+	name="STATE_595"
+	resources={
+		ores=6
+		oil=6
+		wheat=2
+	}
+
+	history={
+		owner = SSM
+		victory_points = {
+			1128 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 1
+			1128 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SSM
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+			remove_core_of = SSM
+
+		}
+
+	}
+
+	provinces={
+		1128 10283 10296 10299 10314 
+	}
+	manpower=19000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

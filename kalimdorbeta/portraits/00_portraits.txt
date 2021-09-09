@@ -1,0 +1,66 @@
+default = {
+	army = {
+		male = {
+			"gfx/leaders/generic/generic_human_1.dds"
+			"gfx/leaders/generic/generic_human_2.dds"
+			"gfx/leaders/generic/generic_human_3.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/generic_human_1.dds"
+			"gfx/leaders/generic/generic_human_2.dds"
+			"gfx/leaders/generic/generic_human_3.dds"
+		}
+	}
+
+	political = {
+		nuetral = {
+				male = { 
+					"gfx/leaders/generic/generic_human_1.dds"
+			}
+		}
+		alliance = {
+				male = { 
+					"gfx/leaders/generic/generic_human_1.dds"
+			}
+		}
+		horde = {
+				male = { 
+					"gfx/leaders/generic/generic_human_1.dds"
+			}
+		}
+		old_gods = {
+				male = { 
+					"gfx/leaders/generic/generic_human_1.dds"
+			}
+		}
+		fel = {
+				male = { 
+					"gfx/leaders/generic/generic_human_1.dds"
+			}
+		}
+		death = {
+				male = { 
+					"gfx/leaders/generic/generic_human_1.dds"
+			}
+		}
+		titans = {
+				male = { 
+					"gfx/leaders/generic/generic_human_1.dds"
+			}
+		}
+	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/operative_unknown.dds"
+		}
+		female = {
+			"gfx/leaders/operative_unknown.dds"
+		}
+	}
+	
+}
+

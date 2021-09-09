@@ -1,0 +1,36 @@
+
+state={
+	id=116
+	name="STATE_116"
+	resources={
+		wood =6.000
+	}
+
+	history={
+		
+		victory_points = {
+			599 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = ALT
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+
+		}
+
+	}
+
+	provinces={
+		599 1906 1907 1911 5673 5859 7480 
+	}
+	manpower=33500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

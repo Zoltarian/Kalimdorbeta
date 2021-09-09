@@ -1,0 +1,33 @@
+
+state={
+	id=1046
+	name="STATE_1046"
+	resources={
+		wheat=5
+		eggs=5
+		ores=4
+		wood=2
+	}
+
+	history={
+		owner = WFT
+		victory_points = {
+			10173 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = WFT
+
+	}
+
+	provinces={
+		9706 10154 10169 10173 10183 10192 
+	}
+	manpower=16500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

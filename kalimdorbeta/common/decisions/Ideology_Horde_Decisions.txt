@@ -1,0 +1,2676 @@
+Horde_Demand_Respect = {
+
+	Horde_Respect_Upgrade1to2 = {
+	
+		available = {
+			has_idea = Clan_Respect_Level1
+			has_army_experience > 49
+		}
+		
+		visible = {
+			has_country_flag = Horde_Demand_Respect
+		}
+		
+		cost = 100
+		
+		days_remove = 180
+		
+		complete_effect = {
+			army_experience = -50
+		}
+			
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = Clan_Respect_Level1
+				add_idea = Clan_Respect_Level2
+			}
+			
+		
+		}
+		
+	}
+	
+	
+	Horde_Respect_Upgrade2to3 = {
+	
+		available = {
+			has_idea = Clan_Respect_Level2
+			has_army_experience > 74
+		}
+		
+		visible = {
+			has_country_flag = Horde_Demand_Respect
+		}
+		
+		cost = 125
+		
+		days_remove = 270
+		
+		complete_effect = {
+			army_experience = -75
+		}
+			
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = Clan_Respect_Level2
+				add_idea = Clan_Respect_Level3
+			}
+			
+		
+		}
+		
+		
+		
+		
+	}
+	
+	
+	Horde_Respect_Upgrade3to4 = {
+	
+		available = {
+			has_idea = Clan_Respect_Level3
+			has_army_experience > 124
+		}
+		
+		visible = {
+			has_country_flag = Horde_Demand_Respect
+		}
+		
+		cost = 150
+	
+		days_remove = 360
+		
+		complete_effect = {
+			army_experience = -125
+		}
+			
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = Clan_Respect_Level3
+				add_idea = Clan_Respect_Level4
+			}
+			
+		
+		}
+		
+		
+		
+		
+	}
+	
+	
+	
+	Horde_Respect_Upgrade4to5 = {
+	
+		available = {
+			has_idea = Clan_Respect_Level4
+			has_army_experience > 174
+		}
+		
+		visible = {
+			has_country_flag = Horde_Demand_Respect
+		}
+		
+		cost = 200
+		
+		days_remove = 540
+		
+		complete_effect = {
+			army_experience = -175
+		}
+			
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = Clan_Respect_Level4
+				add_idea = Clan_Respect_Level5
+			}
+			
+		
+		}
+		
+		
+		
+		
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Horde_Wartime_Fervour = {
+
+	Horde_Charge_Level1 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_army_experience > 44
+			
+			has_war = yes
+			
+			NOT = {
+			has_country_flag = Horde_Charge_Active
+			}
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Wartime_Fervour
+			
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 60
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = Horde_Assault_Idea_Level1
+				days = 60
+			}
+			
+			army_experience = -45
+			
+			set_country_flag = Horde_Charge_Active
+
+		}
+		
+		remove_effect = {
+			clr_country_flag = Horde_Charge_Active
+		}
+
+
+
+	}
+	
+	
+	Horde_Charge_Level2 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_army_experience > 59
+			
+			has_war = yes
+			
+			
+			NOT = {
+			has_country_flag = Horde_Charge_Active
+			}			
+			
+			
+			OR = {
+            has_idea = Clan_Respect_Level3
+            has_idea = Clan_Respect_Level4
+            has_idea = Clan_Respect_Level5
+			}
+
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Wartime_Fervour
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 60
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = Horde_Assault_Idea_Level2
+				days = 60
+			}
+			
+			army_experience = -60
+			
+			set_country_flag = Horde_Charge_Active
+
+		}
+		
+		
+		remove_effect = {
+			clr_country_flag = Horde_Charge_Active
+		}
+
+
+	}
+	
+	
+	Horde_Charge_Level3 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_army_experience > 74
+			
+			has_war = yes
+			
+			
+			NOT = {
+			has_country_flag = Horde_Charge_Active
+			}			
+			
+			has_idea = Clan_Respect_Level5
+
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Wartime_Fervour
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 60
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = Horde_Assault_Idea_Level3
+				days = 60
+			}
+			
+			army_experience = -75
+			
+			set_country_flag = Horde_Charge_Active
+
+		}
+		
+		
+		remove_effect = {
+			clr_country_flag = Horde_Charge_Active
+		}
+
+
+	}
+	
+	
+	Forge_Belows_Level1 = {
+	
+		icon = generic_prepare_civil_war
+
+		available = {
+			
+			has_war = yes
+		
+			OR = {
+			has_idea = Clan_Respect_Level3
+			has_idea = Clan_Respect_Level4
+			has_idea = Clan_Respect_Level5
+			}
+
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Wartime_Fervour
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		modifier = {
+			industrial_capacity_factory = 0.25
+		}
+		
+		days_remove = 140
+		days_re_enable = 280
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			set_country_flag = Horde_Forges_Active
+		}
+		
+		remove_effect = {
+			clr_country_flag = Horde_Forges_Active
+		}
+	
+	
+	
+	}
+	
+	
+	Forge_Belows_Level2 = {
+	
+		icon = generic_prepare_civil_war
+
+		available = {
+			
+			has_war = yes
+		
+			OR = {
+			has_idea = Clan_Respect_Level4
+			has_idea = Clan_Respect_Level5
+			}
+			
+			has_country_flag = Horde_Forges_Active
+
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Wartime_Fervour
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		modifier = {
+			industrial_capacity_factory = 0.35
+			political_power_gain = -0.50
+		}
+		
+		days_remove = 70
+		days_re_enable = 280
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			set_country_flag = Horde_Forges_Fueled
+		}
+		
+		remove_effect = {
+			clr_country_flag = Horde_Forges_Fueled
+		}
+	
+	
+	
+	}
+	
+	
+	Forge_Belows_Level3 = {
+	
+		icon = generic_prepare_civil_war
+
+		available = {
+			
+			has_war = yes
+		
+			has_idea = Clan_Respect_Level5
+			
+			has_country_flag = Horde_Forges_Fueled
+
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Wartime_Fervour
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		modifier = {
+			industrial_capacity_factory = 0.75
+			production_speed_buildings_factor = -0.75
+		}
+		
+		days_remove = 45
+		days_re_enable = 280
+		
+		fire_only_once = no
+		
+	
+	}
+	
+	
+	
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Horde_Peacetime_Preparations = {
+
+
+
+	Rally_The_Clan_Level1 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level1
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			MONTHLY_POPULATION = 0.5
+			industrial_capacity_factory = -0.35
+			production_speed_buildings_factor = -0.35
+		}
+		
+		cancel_trigger = { 
+		
+		OR = {
+		has_war = yes 
+		has_idea = Clan_Respect_Level2
+		}
+		
+		}
+
+	}
+	
+	
+	Rally_The_Clan_Level2 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level2
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			MONTHLY_POPULATION = 0.75
+			industrial_capacity_factory = -0.30
+			production_speed_buildings_factor = -0.30
+		}
+		
+		cancel_trigger = { 
+		
+		OR = {
+		has_war = yes 
+		has_idea = Clan_Respect_Level3
+		}
+		
+		}
+
+	}
+	
+	
+	
+	Rally_The_Clan_Level3 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level3
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			MONTHLY_POPULATION = 1.25
+			industrial_capacity_factory = -0.25
+			production_speed_buildings_factor = -0.25
+		}
+		
+		cancel_trigger = { 
+		
+		OR = {
+		has_war = yes 
+		has_idea = Clan_Respect_Level4
+		}
+		
+		}
+
+	}
+	
+	
+	Rally_The_Clan_Level4 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level4
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			MONTHLY_POPULATION = 1.5
+			industrial_capacity_factory = -0.20
+			production_speed_buildings_factor = -0.20
+		}
+		
+		cancel_trigger = { 
+		
+		OR = {
+		has_war = yes 
+		has_idea = Clan_Respect_Level5
+		}
+		
+		}
+
+	}
+	
+	
+	
+	
+	Rally_The_Clan_Level5 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level5
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			MONTHLY_POPULATION = 2.0
+			industrial_capacity_factory = -0.15
+			production_speed_buildings_factor = -0.15
+		}
+		
+		cancel_trigger = {
+		has_war = yes 
+		
+		}
+
+	
+	}
+
+
+
+	Smack_Heads_Together_Level1 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level1
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			stability_weekly = 0.006
+			war_support_weekly = -0.015
+		}
+		
+		cancel_trigger = { 
+		
+		has_idea = Clan_Respect_Level2
+		
+		
+		}
+	
+	
+	}
+	
+	
+	Smack_Heads_Together_Level2 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level2
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			stability_weekly = 0.008
+			war_support_weekly = -0.012
+		}
+		
+		cancel_trigger = { 
+		
+		has_idea = Clan_Respect_Level3
+		
+		
+		}
+	
+	
+	}
+	
+	
+	Smack_Heads_Together_Level3 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level3
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			stability_weekly = 0.01
+			war_support_weekly = -0.01
+		}
+		
+		cancel_trigger = { 
+		
+		has_idea = Clan_Respect_Level4
+		
+		
+		}
+	
+	
+	}
+	
+	
+	Smack_Heads_Together_Level4 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level4
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 90
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			stability_weekly = 0.012
+			war_support_weekly = -0.008
+		}
+		
+		cancel_trigger = { 
+		
+		has_idea = Clan_Respect_Level5
+		
+		
+		}
+	
+	
+	}
+	
+	
+	Smack_Heads_Together_Level5 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			has_idea = Clan_Respect_Level5
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 70
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			stability_weekly = 0.015
+			war_support_weekly = -0.006
+		}
+		
+		cancel_trigger = { 
+		
+		}
+	
+	
+	}
+	
+	
+	Beat_The_Drums_Level1 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			
+			OR = {
+			has_idea = Clan_Respect_Level1
+			has_idea = Clan_Respect_Level2
+			}
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 70
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			political_power_gain = -0.5
+			war_support_weekly = 0.01
+			army_org_factor = -0.20
+			experience_gain_army = 0.15
+		}
+		
+		cancel_trigger = { 
+		has_idea = Clan_Respect_Level3
+		}
+	
+	}
+	
+	
+	Beat_The_Drums_Level2 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			
+			OR = {
+			has_idea = Clan_Respect_Level3
+			has_idea = Clan_Respect_Level4
+			}
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 70
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			political_power_gain = -0.35
+			war_support_weekly = 0.015
+			army_org_factor = -0.15
+			experience_gain_army = 0.35
+		}
+		
+		cancel_trigger = { 
+		has_idea = Clan_Respect_Level5
+		}
+	
+	}
+	
+	
+	Beat_The_Drums_Level3 = {
+	
+		available = {
+			
+			has_war = no
+			
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Peacetime_Preparations
+			
+			has_idea = Clan_Respect_Level5
+			
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		days_remove = 70
+		days_re_enable = 210
+		
+		fire_only_once = no
+		
+		modifier = {
+			political_power_gain = -0.20
+			war_support_weekly = 0.020
+			army_org_factor = -0.10
+			experience_gain_army = 0.50
+		}
+		
+		cancel_trigger = { 
+		}
+	
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Horde_Forge_Homeland = {
+
+	Horde_Building_Addition_BuildingSlots = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+			
+			has_country_flag = Horde_Forge_Homeland
+			
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland	
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 180
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {
+		
+					random_owned_controlled_state = {
+							limit = {
+								state_population > 1000
+								is_capital = yes
+								}
+							add_extra_state_shared_building_slots = 5
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 3
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 3
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							limit = {
+								is_in_home_area = yes
+								state_population > 1000
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+
+					clr_country_flag = Horde_Homeland_Construction
+				}
+				
+	
+	}
+	
+	
+	Horde_Building_Addition_Infrastructure = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 270
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					is_capital = yes
+				}
+					
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+						
+			}
+						
+					random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = infrastructure
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+								
+						}
+						
+						clr_country_flag = Horde_Homeland_Construction
+						
+					
+		}
+				
+	
+	}
+	
+	
+	
+	Horde_Building_Addition_ArmsFactories = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 270
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {
+					random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								is_capital = yes
+								}
+								
+							add_extra_state_shared_building_slots = 5
+							
+							add_building_construction = {
+									type = arms_factory
+									level = 5
+									instant_build = yes
+								}
+								
+						}
+						
+					random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							add_extra_state_shared_building_slots = 3
+							
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+								
+						}
+						
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							add_extra_state_shared_building_slots = 3
+							
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+								
+						}
+						
+						random_owned_controlled_state = {
+					
+							limit = {
+								free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								state_population > 1000
+								}
+								
+							add_extra_state_shared_building_slots = 3
+							
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+								
+						}
+						
+						clr_country_flag = Horde_Homeland_Construction
+						
+						
+						
+					
+		}
+				
+	
+	}
+	
+	
+	Horde_Building_Addition_CivilianFactories = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 270
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					is_capital = yes
+				}
+						
+				add_extra_state_shared_building_slots = 5
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+						
+			}
+						
+			random_owned_controlled_state = {
+			
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+				}
+						
+				add_extra_state_shared_building_slots = 3
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+						
+			}
+						
+						
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+				}
+					
+				add_extra_state_shared_building_slots = 3
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+					
+			}
+						
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+				}
+					
+				add_extra_state_shared_building_slots = 3
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+					
+			}
+			
+			clr_country_flag = Horde_Homeland_Construction
+	
+		}
+	}
+	
+	Horde_Building_Addition_IronSource = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+			
+			has_tech = mines_tech
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 135
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {		
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = iron_mine
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = iron_mine
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					is_capital = no
+				}
+					
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = iron_mine
+					level = 2
+					instant_build = yes
+				}
+					
+			}
+						
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = iron_mine
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = iron_mine
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+				}
+					
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = iron_mine
+					level = 2
+					instant_build = yes
+				}
+			}
+			clr_country_flag = Horde_Homeland_Construction					
+		}		
+	}
+	
+	Horde_Building_Addition_SulferSource = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+			
+			has_tech = mines_tech
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 135
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = sulfur_mine
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = sulfur_mine
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+						state_population > 1000
+						is_capital = no
+					}
+								
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = sulfur_mine
+					level = 2
+					instant_build = yes
+				}
+								
+			}
+						
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = sulfur_mine
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = 	{
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+											building = sulfur_mine
+											size > 0
+											include_locked = yes
+									}
+								is_in_home_area = yes
+								}	
+							}
+						}
+					}
+					state_population > 1000
+				}
+					
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+						type = sulfur_mine
+						level = 2
+						instant_build = yes
+				}	
+			}		
+			clr_country_flag = Horde_Homeland_Construction		
+
+		}		
+	}
+	
+	
+	
+	Horde_Building_Addition_AnimalsSource = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+			
+			has_tech = stable_tech_1
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 135
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {	
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = stable
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = stable
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					is_capital = no
+				}
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = stable
+					level = 2
+					instant_build = yes
+				}
+					
+			}
+						
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = stable
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = stable
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					}
+					
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = stable
+					level = 2
+					instant_build = yes
+				}
+					
+			}				
+			clr_country_flag = Horde_Homeland_Construction
+		
+		}
+				
+	}
+
+	Horde_Building_Addition_MagicSource = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+			
+			has_tech = arcane_tower_tech
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 135
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arcane_tower
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arcane_tower
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					is_capital = no
+					}
+					
+				add_extra_state_shared_building_slots = 2
+			
+				add_building_construction = {
+					type = mage_tower
+					level = 2
+					instant_build = yes
+				}			
+			}
+						
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arcane_tower
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arcane_tower
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					}
+					
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = mage_tower
+					level = 2
+					instant_build = yes
+				}
+					
+			}
+			clr_country_flag = Horde_Homeland_Construction
+		
+		}
+			
+	}
+
+	Horde_Building_Addition_WoodSource = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+			
+			has_tech = lumber_mill_tech
+		}
+		
+		allowed = {
+				always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 135
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = lumber_mill
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = lumber_mill
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}	
+					}
+					state_population > 1000
+					is_capital = no
+				}	
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = lumber_mill
+					level = 2
+					instant_build = yes
+				}
+					
+			}
+						
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = lumber_mill
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = lumber_mill
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					}
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = lumber_mill
+					level = 2
+					instant_build = yes
+				}
+					
+			}
+			clr_country_flag = Horde_Homeland_Construction
+		
+		}
+			
+	}
+	
+	Horde_Building_Addition_OilSource = {
+	
+		available = {
+			
+			has_war = no
+			
+			NOT = {
+			has_country_flag = Horde_Homeland_Construction
+			}
+			
+			has_tech = mines_tech
+		}
+		
+		allowed = {
+			always = yes
+		}
+		
+		visible = {
+			has_country_flag = Horde_Forge_Homeland
+		}
+		
+		cost = 50
+		
+		modifier = {
+			production_speed_buildings_factor = -0.50
+			local_resources_factor = -0.25
+		}
+	
+		days_remove = 135
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_country_flag = Horde_Homeland_Construction
+		}
+	
+		remove_effect = {
+			random_owned_controlled_state = {
+		
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+											building = synthetic_refinery
+											size > 0
+											include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					state_population > 1000
+					is_capital = no
+				}
+					
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes	
+				}
+			}
+						
+			random_owned_controlled_state = {
+				limit = {
+				free_building_slots = {
+							building = synthetic_refinery
+							size > 0
+							include_locked = yes
+						}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = synthetic_refinery
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				state_population > 1000
+				}
+					
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+			clr_country_flag = Horde_Homeland_Construction		
+		}
+	}
+	
+}
+
+
+
+
+
+
+

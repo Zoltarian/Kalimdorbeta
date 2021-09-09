@@ -1,0 +1,44 @@
+
+state={
+	id=146
+	name="STATE_146"
+	resources={
+		wood =8.000
+		mounts =5.000
+	}
+
+	history={
+		victory_points = {
+			2197 15 
+		}
+		
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			radar_station = 1
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+		add_core_of = WST
+
+	}
+
+	provinces={
+		614 2184 2190 2191 2194 2196 2197 2201 2202 
+	}
+	manpower=23500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

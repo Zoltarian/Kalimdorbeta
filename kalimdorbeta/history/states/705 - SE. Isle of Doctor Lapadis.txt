@@ -1,0 +1,27 @@
+
+state={
+	id=705
+	name="STATE_705"
+	resources={
+		mounts=13
+		wood =9
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = LAP
+
+	}
+
+	provinces={
+		5545 5546 5547 5548 5550 5551 5554 5555 5559 5560 5605 
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

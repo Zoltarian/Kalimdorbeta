@@ -1,0 +1,39 @@
+
+state={
+	id=1180
+	name="STATE_1180"
+	resources = {
+		oil=6
+		ores=3
+		gunpowder=3
+	}
+
+	history={
+		owner = DRY
+		add_core_of = DRY
+		victory_points = {
+			11601 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+			11601 = {
+				naval_base = 1
+			}
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		11594 11601 11609
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

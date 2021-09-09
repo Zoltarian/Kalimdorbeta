@@ -1,0 +1,38 @@
+
+state={
+	id=707
+	name="STATE_707"
+	resources={
+		mounts=8
+		gunpowder=4
+	}
+
+	history={
+		
+		add_core_of = TLC
+
+		victory_points = {
+			6052 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TLC
+		}
+	}
+
+	provinces={
+		5899 5958 5960 5961 6029 6044 6051 6052 6053 6322
+	}
+	manpower=56000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

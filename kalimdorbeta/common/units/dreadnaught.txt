@@ -1,0 +1,14 @@
+sub_units = {
+	dreadnaught = {
+		sprite = battleship
+		map_icon_category = ship
+		priority = 10
+		active = yes
+		type = { capital_ship }
+		need = { dreadnaught_equipment = 1 }
+
+		max_organisation = 40
+		supply_consumption = 0.12
+		
+	}
+}

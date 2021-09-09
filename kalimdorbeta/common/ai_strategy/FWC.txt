@@ -1,0 +1,38 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+FWC_help_horde_with_stormwind = {
+	enable = {
+		tag = FWC
+		is_in_faction_with = BRC
+		has_war_with = STO
+		
+	}
+
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "BHC"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "BRC"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "TSC"
+		value = 100
+	}
+
+}

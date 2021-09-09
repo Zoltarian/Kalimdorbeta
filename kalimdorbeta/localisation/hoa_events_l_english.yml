@@ -1,0 +1,468 @@
+﻿l_english:
+#t = title
+#d = description
+#option.x = option
+#keep alphabetical
+
+#GAME_FOCUS_INCOMPLETE:0 "§RThis perticular focus is fully or partially incomplete.§!"
+
+###########################
+#Racials
+###########################
+racials.1.t:0 "Inner Peace Restored"
+racials.2.t:0 "Inner Peace Broken!"
+#############################################
+#Ideology change events
+#############################################
+
+ ideology_switch.1.t:0 "Our alignment has changed"
+ ideology_switch.1.d:0 "Following recent events, it seems the goals of our nation are now aligned with those of the Alliance."
+ ideology_switch.1.option.1:0 "For the Alliance!"
+
+ ideology_switch.2.t:0 "Our alignment has changed"
+ ideology_switch.2.d:0 "Following recent events, it seems the goals of our nation are now aligned with those of the Horde."
+ ideology_switch.2.option.1:0 "For the Horde!"
+
+ ideology_switch.3.t:0 "Our alignment has changed"
+ ideology_switch.3.d:0 "Following recent events, it seems the goals of our nation are now aligned with those of the Scourge."
+ ideology_switch.3.option.1:0 "For the Scourge!"
+
+ ideology_switch.4.t:0 "Our alignment has changed"
+ ideology_switch.4.d:0 "Following recent events, it seems the goals of our nation are now aligned with those of the Burning Legion."
+ ideology_switch.4.option.1:0 "All worlds shall burn!"
+
+ ideology_switch.5.t:0 "Our alignment has changed"
+ ideology_switch.5.d:0 "Following recent events, it seems the goals of our nation are now aligned with those of the Old Gods."
+ ideology_switch.5.option.1:0 "Bring on the Hour of Twilight!"
+
+ ideology_switch.6.t:0 "Our alignment has changed"
+ ideology_switch.6.d:0 "Following recent events, it seems the goals of our nation are now aligned with those of the Titans."
+ ideology_switch.6.option.1:0 "Order must be preserved!"
+
+ ideology_switch.7.t:0 "Our alignment has changed"
+ ideology_switch.7.d:0 "Following recent events, it seems the goals of our nation are no longer aligned with anyone else in particular."
+ ideology_switch.7.option.1:0 "We will persevere."
+
+#############################################
+#Generic Human focus tree events
+#(event generic_human.1 to generic_human.3 are in hoa_generic_human_focus_tree_l_english.yml)
+#############################################
+ generic_human.4.t:0 "Beyond the Veil"
+ generic_human.4.d:0 "Now that we are followers of the forces of Death, we need to change our religious practices and adopt a religion according to our new alignement."
+ generic_human.4.option.1:0 "We shall serve the Lich King."
+ generic_human.4.option.2:0 "We will dwelve into the mysteries of Necromancy."
+ generic_human.4.option.3:0 "We shall be mighty warriors of Helya."
+
+ generic_human.5.t:0 "Serving the Legion"
+ generic_human.5.d:0 "We are now proud disciples of the Legion, it is therefore the most important that we leave the ways of old and adopt new religious practices to please our new masters."
+ generic_human.5.option.1:0 "Embracing Fel is the way to go."
+ generic_human.5.option.2:0 "Demonology sounds fun."
+
+ generic_human.6.t:0 "Our New Masters"
+ generic_human.6.d:0 "Forbidden and ancient knowledge, eldritch whispers and vision of the Black Empire. Our new allegiance to the forces of the Old Gods have shown us many truths. It is time for us to choose who, or what, shall sit on top of our pantheon."
+ generic_human.6.option.1:0 "One of the Old Gods will be our master!"
+ generic_human.6.option.1.d:0 "One of the Old Gods will be our master!"
+ generic_human.6.option.2:0 "We shall bring the Hour of Twilight!"
+ generic_human.6.option.3:0 "Let's dwelve into the secrets of the Void."
+ generic_human.6.option.4:0 "G'huun, God of Blood and Pestilence."
+
+ generic_human.7.t:0 "One of the Old Gods"
+ generic_human.7.d:0 "We have decided to serve one of the original Old Gods, and it shall be..."
+ generic_human.7.option.1:0 "Y'Shaarj, the Old One."
+ generic_human.7.option.2:0 "N'zoth, the Corruptor."
+ generic_human.7.option.3:0 "Yogg'Saron, God of Death."
+ generic_human.7.option.4:0 "C'thun, Lord of Madness."
+
+##############################
+#news events
+##############################
+
+ news.500.t:0 "Fall of Stormwind Keep"
+ news.501.t:0 "Fall of The Cathedral of Light"
+ news.502.t:0 "Fall of The Trade District"
+ news.503.t:0 "Fall of Stormwind Harbor"
+ news.504.t:0 "Fall of Goldshire"
+ news.505.t:0 "Fall of Northsire Abbey"
+ news.506.t:0 "Fall of Moonbrook"
+ news.507.t:0 "Fall of Darkshire"
+ news.508.t:0 "Fall of Lakeshire"
+ news.509.t:0 "Fall of Stonewatch"
+ news.510.t:0 "Fall of Kharazhan"
+ news.511.t:0 "Fall of Ironforge"
+ news.512.t:0 "Medivh is hosting his last party."
+ news.512.d:0 "Your host, the great magus Medivh, invites you to party at Kharazhan. We've got a feast like you've never seen before. Play life-size chess, but don't you dare cheat! Most of all, throw your worries away. Dive right in - you'll never be the same!"
+ news.512.a:0 "We shall send a delegation to attend Medivh's party."
+ news.512.b:0 "The invitations have been sent!"
+ news.512.c:0 "We didn't get invited..."
+ news.513.t:0 "The Opera Event!"
+ news.513.d:0 "The grand Opera at Kharazhan performed the play Red Riding Hood, a tragedy starring the hungry Wolf himself."
+ news.513.a:0 "It was beautiful!"
+ news.513.b:0 "Those fools won't know what hit them."
+ news.514.t:0 "The Opera Event!"
+ news.514.d:0 "The grand Opera at Kharazhan performed the play Wizard of Oz, starring Dorothee and her dog Tito, Tinhead, Strawman, the lion Road, and the evil Crone."
+ news.514.a:0 "It was beautiful!"
+ news.514.b:0 "Those fools won't know what hit them."
+ news.515.t:0 "The Opera Event!"
+ news.515.d:0 "The grand Opera at Kharazhan performed the play Romulon and Julianne, a tale of forbidden love."
+ news.515.a:0 "It was beautiful!"
+ news.515.b:0 "Those fools won't know what hit them."
+ news.516.t:0 "Kharazhan Conundrum"
+ news.516.d.dalaran:0 "Massive explosions have been reported near Deadwind Pass. Our mages have felt ripples of arcane energy across Azeroth. What is Medivh up to? "
+ news.516.d.orcs:0 "Our wolf rider scouts have reported explosions on the skirts of our lands to the North. We must be wary of these human sorcerors as we prepare our invasion."
+ news.516.d.global:0 "The noble dignataries we sent to attend the Guardian's event have yet to return. Whatever went on truely must have been a spectacle to have taken them this long..."
+ news.516.a:0 "We must find out!"
+ news.516.b:0 "Those explosions were near orcs lands!"
+ news.516.c:0 "I'm sure the Guardian knows what he is doing..."
+ news.517.t:0 "New Apprentice"
+ news.517.d:1 "Dalaran has decided to send the young mage Khadgar to apprentice under the Guardian, Medivh. I wonder if this has anything to do with the recent events happening around Kharazhan..."
+ news.517.a:0 "Interesting"
+ news.518.t:0 "Coalition of Khaz Modan Forms"
+ news.518.d:0 "Fearful that the Orcish Horde will soon make its way to Khaz’Modan, Ironforge has formed a defensive alliance with Gnomeregan and Northeron."
+ news.518.a:0 "Dwarf"
+ news.518.b:0 "Global"
+ news.520.t:0 "Defend The Gates!"
+ news.520.d:0 "The Horde has managed to push in and capture Dun Morogh! The Gnomes and Dwarves, left with few defensive positions, have decided to retreat into their mountain cities and seal the gates. After trying to push into the cities, the death toll proved too horrendous even for the Orcs, who have decided to call of the sieges of Gnomeregan and Ironforge. With the Bleeding Hollow Clan now tasked with making sure the Dwarves and Gnomes stayed locked within their mountains, where will Warchief Orgrim Doomhammer turn to next?"
+ news.520.a:0 "Interesting"
+ news.520.b:0 "Defend the city to our last!"
+ news.520.c:0 "Lok-tar ogar!"
+ news.521.t:0 "Defend The Gates!"
+ news.521.d:0 "The Dragonmaw have managed to annihilate the Wildhammer dwarves residing in the Highlands. The clan's hordes are now free to focus on other targets, but who is next?"
+ news.521.a:0 "Interesting"
+ news.521.b:0 "Our Dwarven brothers have fallen."
+ news.521.c:0 "Lok-tar ogar!"
+
+ news.701.t:0 "First contact"
+ news.701.not_orc:0 "Hunters and fishermen working in the Swamp of Sorrows have started reporting sightings of strange, green monsters lurking in the dark. Some have speculated that these are a kind of strange breed of forest troll, a claim supported by their supposed aggression and bloodlust. The Kingdom of Stormwind has said it will remain vigilant, but does not see the monsters as a threat to settlements in Redridge."
+ news.701.orc:0 "Our scouts have come into contact with some of the inhabitants of this new world. Weak, pink skinned creatures, similar in appearence to the Draenei but lacking horns, reel in terror as we approach them. We slaughter as many as we can, but a few of them have escaped here and there. It is of no concern; they are too weak to rule this world, it is ours for the taking!"
+ news.701.a:0 "An interesting development..."
+
+ news.702.t:0 "The Holy Order of Northshire"
+ news.702.a:0 "Light bless us!"
+ news.702.b:0 "They send men in dresses to fight us?"
+ news.702.c:0 "Light be with them."
+ news.702.d:0 "As the Horde descends upon the Elwynn Forest, the Abbot of Northshire Abbey has ordered the Holy Order of Northshire Clerics to enter the fray as front line soldiers. Prior to this, the Northshire Clerics had been simply healers and medics, working to treat the injured in the rear guard of the Stormwind army. Now, the Brotherhood descends upon the Orcish forces, wielding the destructive powers of the light to smite their foes."
+ news.702.e:0 "An interesting development..." news.701.t_not_orc:0 "Rumours of swamp monsters"
+
+ news.700.t:0 "Fighting comes to an end"
+ news.700.d_orcwin_canon:0 "After an intense war, the Orcish Horde has routed the defenders of Stormwind and sacked the city. [LOR.GetLeader] has agreed to cede the area of Hillsbrad to [STO.GetLeader] and the remnants of Stormwind's population, where they fled as the city finally fell. The Horde, having defeated their first major foe, look onwards to different pastures."
+ news.700.d_orcwin_stormintegrate:0 "After an intense war, the Orcish Horde has routed the defenders of Stormwind and sacked the city. [LOR.GetLeader] has agreed to allow the remnants of the population of Stormwind to settle within the borders of [LOR.GetName], effectively ending the existence of the Kingdom of Stormwind as we knew it. The Horde, having defeated their first major foe, look onwards to different pastures."
+ news.700.d_orcwin_stormbalor:0 "After an intense war, the Orcish Horde has routed the defenders of Stormwind and sacked the city. Though [STO.GetLeader] pleaded [LOR.GetLeader] to lend them aid in their time of greatest need, it seems that [LOR.GetName] has abandoned the once mighty kingdom to its fate. Fighting on through adversity, [STO.GetLeader] has fled with what remains of the population of Stormwind to the remote island of Balor to lick their wounds and rebuild. The Horde, having defeated their first major foe, look onwards to different pastures."
+ news.700.d_orcwin_hillsbrad:0 "After an intense war, the Orcish Horde has routed the defenders of Stormwind and sacked the city. [LOR.GetLeader] agreed to cede the area of Hillsbrad to [STO.GetLeader] and the remnants of the Stormwind population, but it seems that this deal has not gone as planned. [STO.GetLeader] has renounced the Kingdom of Stormwind and declared himself the leader of the newly founded Kingdom of Hillsbrad, much to the dismay of the citizens of [LOR.GetName]. Only time will tell how this new development will play out. The Horde, having defeated their first major foe, look onwards to different pastures."
+ news.700.d_orcwin_armistice:0 ""After an intense war, the Orcish Horde has routed the defenders of Stormwind. [TSC.GetLeader] and [BRC.GetLeader] have made a deal with [STO.GetLeader] to allow him to retain control of the city and the Elwynn Forest in return for their total dedication to their cause. With the Humans integrated into their ranks, the Horde now looks onwards to different pastures"
+ news.700.d_stormwin:0 "The Kingdom of Stormwind has successfully defended its lands and pushed the Orcish Horde back to the barren wasteland that was once the Black Morass and through the great gate from whence they came!"
+ news.700.a:0 "For the Horde!"
+ news.700.b:0 "For Stormwind!"
+ news.700.c:0 "We will have vengeance!"
+ news.700.e:0 "We did what we had to."
+ news.700.f:0 "Worrying..."
+
+#############################################
+#Stormwind first war capitulation events
+#############################################
+
+ stormwind_capitulation.12.t:0 "Orcs on the doorstep!"
+ stormwind_capitulation.12.d:0 "The Orcish Horde is on our very doorstep! With the fall of Elwynn, we have lost our final holding outside of the city itself. It seems we are staring defeat in the face. What should we do, my King?"
+ stormwind_capitulation.12.option.1:0 "Rally the troops! We make our final stand!"
+ stormwind_capitulation.12.option.2:0 "The end is nigh... All is lost!"
+
+ stormwind_capitulation.102.t:0 "Pushed back to the city"
+ stormwind_capitulation.102.d:0 "Bad news, sire. The clans are united under [BRC.GetLeader] in this assault. They will stand together until Stormwind has fallen. [TSC.GetLeader] is bringing up his warlocks by nightfall. Until then, the [BRC.GetName] will be trying to take the eastern wall."
+ stormwind_capitulation.102.option.1:0 "And we will hold until the reinforcements come. As long as men with stout hearts are manning the walls and the throne, Stormwind will hold."
+
+ stormwind_capitulation.103.t:0 "Garona's betrayal"
+ stormwind_capitulation.103.d:0 "The orc leaders agree with your assessment."
+ stormwind_capitulation.103.option.1:0 "Wait, wha-?"
+
+ stormwind_capitulation.120.t:0 "Our counterattack failed"
+ stormwind_capitulation.120.d:0 "Our city has fallen, King Llane is dead and the Azeroth region is controlled by the damnable Orcs. Continuing the fight now will only lead to the loss of more lives. Regent Lord Anduin Lothar has issued a plea to our old friends in [LOR.GetName], we can only hope they show us mercy."
+ stormwind_capitulation.120.option.1:0 "We will have our revenge..."
+
+ stormwind_capitulation.121.t:0 "[STO.GetName] seeks our aid!"
+ stormwind_capitulation.121.d:0 "Though the Kingdom of Stormwind was almost successful in pushing back the encroaching Orcish forces, they have finally succumbed to their overwhelming might. Their new Regent Lord, [STO.GetLeader], has come to us with a plea for aid. Prince Arthas is good friends with their heir apparent, Varian Wrynn, and begs you to show them mercy."
+ stormwind_capitulation.121.option.1:0 "Very well, they shall have the lands of Hillsbrad for themselves."
+ stormwind_capitulation.121.option.2:0 "We cannot spare the land, but the citizens of Stormwind are welcome in [LOR.GetName]."
+ stormwind_capitulation.121.option.3:0 "Weakness will not be tolerated in this great Kingdom. Begone!"
+
+ stormwind_capitulation.130.t:0 "We are routed"
+ stormwind_capitulation.130.d:0 "It is as we feared; the Orcs have taken our beloved city, meeting little resistance from our once proud armies. Now, we must decide what to do with ourselves."
+ stormwind_capitulation.130.option.1:0 "Surely our friends in [LOR.GetName] will take us in!"
+ stormwind_capitulation.130.option.2:0 "Perhaps we got off on the wrong foot..."
+
+ stormwind_capitulation.201.t:0 "[LOR.GetName] cedes land!"
+ stormwind_capitulation.201.d:0 "It was wise to trust in our old friends; they have given us the lands of Hillsbrad, from which to base ourselves while we recover and prepare to take back our home."
+ stormwind_capitulation.201.option.1:0 "Long live Stormwind!"
+
+ stormwind_capitulation.202.t:0 "[LOR.GetName grants us refuge!"
+ stormwind_capitulation.202.d:0 "The Kingdom of [LOR.GetName] has offered to grant sanctuary to our citizens. We shall support them in any way we can while they try to retake our beloved homelands for us!"
+ stormwind_capitulation.202.option.1:0 "For Lordaeron!"
+
+ stormwind_capitulation.203.t:0 "[LOR.GetName] refuses to aid us!"
+ stormwind_capitulation.203.d:0 "Those treacherous dogs! The Kingdom of [LOR.GetName] refuses to grant us aid in our most desperate hour! There is only one thing we can do now..."
+ stormwind_capitulation.203.option.1:0 "Retreat to our most secluded domain..."
+ stormwind_capitulation.203.option.2:0 "Hope the Orcs show us mercy..."
+
+ stormwind_capitulation.301.t:0 "[STO.GetName] begs for help"
+ stormwind_capitulation.301.d:0 "The cowardly Kingdom of Stormwind has capitulated to the Orcish horde with barely a fight! Their lands lay in ruins, their armies are decimated and yet they crawl pitifuly to our doorstep begging for our aid! Though we have historically seen fairly eye to eye with [STO.GetLeader], not to mention Prince Arthas's friendship with Prince Varian, it seems almost preposterous that we should help them given what they've done."
+ stormwind_capitulation.301.option.1:0 "The power of the Horde was overwhelming, they cannot be blamed; we shall cede the lands of Hillsbrad to them."
+ stormwind_capitulation.301.option.2:0 "Regardless of their failings, the citizens of [STO.GetName] are welcome in [LOR.GetName]."
+ stormwind_capitulation.301.option.3:0 "Cowardice will not be tolerated in this great Kingdom. Begone!"
+
+ stormwind_capitulation.310.t:0 "[LOR.GetName] cedes land!"
+ stormwind_capitulation.310.d:0 "Against all odds, our old friend the merciful [LOR.GetLeader] has seen fit to cede the lands of Hillsbrad to us!"
+ stormwind_capitulation.310.option.1:0 "Perhaps we'll have a chance to recover"
+ stormwind_capitulation.310.option.2:0 "Perhaps this is a chance to start anew?"
+
+ stormwind_capitulation.320.t:0 "[LOR.GetName] grants us refuge!"
+ stormwind_capitulation.320.d:0 "The Kingdom of [LOR.GetName] has offered to grant sanctuary to our citizens."
+ stormwind_capitulation.320.option.1:0 "For [LOR.GetName]!"
+ stormwind_capitulation.320.option.2:0 "This isn't what we had in mind..."
+
+ stormwind_capitulation.330.t:0 "[LOR.GetName] refuses to aid us!"
+ stormwind_capitulation.330.d:0 "As we thought, we are far too pitiful for [LOR.GetName] to consider taking us in. Now, there is only one thing we can do..."
+ stormwind_capitulation.330.option.1:0 "Hope the Orcs show us mercy..."
+ stormwind_capitulation.330.option.2:0 "End it all."
+
+ stormwind_capitulation.110.t:0 "We have failed."
+ stormwind_capitulation.110.d:0 "Despite our best efforts, the city of Stormwind itself has been lost. King Llane Wrynn died heroically alongside the men and women of Stormwind's army in a last ditch attempt to stop the encroachment of the Orcish Horde on our land. It seems as though all is lost, we can only hope the Orcs show some uncharacteristic mercy."
+ stormwind_capitulation.110.option.1:0 "No... It can't be..."
+
+ stormwind_capitulation.98.t:0 "[LOR.GetName] cedes southern coast to the Stormwind refugees"
+ stormwind_capitulation.99.t:0 "Stormwind's land distributed among the Horde"
+
+##############################
+# Send emissaries to the north (Stormwind First war tech tree chain)
+##############################
+
+stormwind_SendEmissaries.0.t:0 "Stormwind seeks aid"
+stormwind_SendEmissaries.0.d:0 "Onyxia has informed us that the worms in Stormwind are to beg the kingdoms of the north for aid against these 'Orcs'. We are in a prime position to secure their downfall, master."
+stormwind_SendEmissaries.0.option.1:0 "Perfect, the weaklings will perish and the Hour of Twilight will fall!"
+stormwind_SendEmissaries.0.option.2:0 "The time is not right, I shall say nothing. For now..."
+
+stormwind_SendEmissaries.1.t:0 "[STO.GetName] requests [Root.GetAdjective] aid"
+stormwind_SendEmissaries.1.dnodrag:0 "[STO.GetLeader] has sent a delegation to the courts of [Root.GetNameDefCap] asking for aid against an encroaching threat of barbaric monsters on their southern border. Their evidence seems compelling and the threat these beasts pose appears great..."
+stormwind_SendEmissaries.1.ddrag:0 "[STO.GetLeader] has sent a delegation to the courts of [Root.GetNameDefCap] asking for aid against an encroaching threat of barbaric monsters on their southern border. Valrad Toreps, a Stormwind Noble in residence at Lordaeron, has publicly scoffed at this, informing us that this is merely a peasants revolt. What should we do about this?" # only if black dragons interfered
+stormwind_SendEmissaries.1.option.1drag:0 "This is clearly a ruse." # only if black dragons interfered
+stormwind_SendEmissaries.1.option.LOR1drag:0 "We'd trust Valrad over [STO.GetLeader] any day." # only if black dragons interfered and nation is Lordaeron
+stormwind_SendEmissaries.1.option.2drag:0 "Regardless of what Lord Toreps says, all humans must stand together againt such dire threats" # only if black dragons interfered
+stormwind_SendEmissaries.1.option.1nodrag:0 "They never would have sent us help were we in their place!"
+stormwind_SendEmissaries.1.option.2nodrag:0 "These 'Orcs' are a threat to all of humanity!"
+
+stormwind_SendEmissaries.2.t:0 "[STO.GetName] recieves aid"
+stormwind_SendEmissaries.8.t:0 "[STO.GetName] refused aid"
+
+stormwind_SendEmissaries.3.t:0 "Aid requests outcome received!"
+stormwind_SendEmissaries.3.ddrag:0 "After a Stormwind Noble living in Lordaeron interfered and slandered us in Lordaeron's court all of the nations of the north have decided not to give us any assistance."
+stormwind_SendEmissaries.3.dnodrag:0 "The nations of the north have unanimously agreed not to send us any help. Perhaps this is the long term effects of our historical isolationism?"
+stormwind_SendEmissaries.3.option.1:0 "It seems we are on our own..."
+
+stormwind_SendEmissaries.4.ddrag:0 "Despite the best attempts of an unruly liar in the court of Lordaeron, we have recieved help from the north! (Look at your ideas to see who has offered you help)"
+stormwind_SendEmissaries.4.dnodrag:0 "The nations of the north have decided to stand by us, united by our common heritage against these savage invaders! (Look at your ideas to see who has offered you help)"
+stormwind_SendEmissaries.4.option.1:0 "Fantastic!"
+
+#Stormwind invites a country to the Allience (Received by the OTHER country)
+stormwind_SendEmissaries.5.t:0 ""
+stormwind_SendEmissaries.5.d:0 ""
+stormwind_SendEmissaries.5.option.1:0 ""
+stormwind_SendEmissaries.5.option.2:0 ""
+
+#Stormwind gets this event when a country joins the allience
+stormwind_SendEmissaries.6.t:0 ""
+stormwind_SendEmissaries.6.d:0 ""
+stormwind_SendEmissaries.6.option.1:0 ""
+
+#Stormwind gets this event when a country refuses to join the allience
+stormwind_SendEmissaries.7.t:0 ""
+stormwind_SendEmissaries.7.d:0 ""
+stormwind_SendEmissaries.7.option.1:0 ""
+
+##############################
+# Puppetmaster events
+##############################
+
+ puppetmaster.1.t:0 "Gul'dan gains power"
+ puppetmaster.1.d:0 "Gul'dan gains power. This is a hidden event. If you are seeing this event please contact a developer"
+ puppetmaster.2.t:0 "Blackhand gains power"
+ puppetmaster.2.d:0 "Blackhand gains power. This is a hidden event. If you are seeing this event please contact a developer"
+
+##############################
+# Bleeding Hollow events
+##############################
+
+ bleedinghollow.1.t:0 "Scouts return"
+ bleedinghollow.1.d1:0 "The scouts we sent into the southern jungle have returned. They speak of a dense, lush jungle much like the Tanaan of old. It would be a perfect place for our clan to settle once we've dealt with these irritating humans. However, they also tell us of a deadly race of lumbering, blue creatures who call the jungles home. It should be of no concern of course, none can stand up to our blood magic!"
+ bleedinghollow.1.d2:0 "There has been little change since we last visited the jungle to the south. Perhaps now would be a better time to strike at the 'troll' inhabitants?"
+ bleedinghollow.1.option.1:0 "We should approach [BRC.GetLeader] about this opportunity."
+ bleedinghollow.1.option.2:0 "To hell with the others, this new land is ours!"
+ bleedinghollow.1.option.3:0 "We'll investigate this further later."
+
+ bleedinghollow.2.t:0 "News from [BHC.GetLeader]"
+ bleedinghollow.2.d:0 "[BHC.GetLeader] has discovered a lush jungle to the south of their occupied territory. The [BHC.GetName] are requesting that we give them permission to divert some of their war resources into claiming this land for themselves."
+ bleedinghollow.2.option.1:0 "Very well, they shall have this new Tanaan"
+ bleedinghollow.2.option.2:0 "Perhaps we should take this new jungle for ourselves..."
+ bleedinghollow.2.option.3:0 "Out of the question, we need all Orcs dedicated to the war effort"
+ bleedinghollow.2.option.4:0 "A pointless waste of time. Tell them to save their effort"
+
+ bleedinghollow.3.t:0 "[BRC.GetLeader] replies"
+ bleedinghollow.3.d:0 "[BRC.GetLeader] is as wise as he is mighty; he has authorized our forces to begin our assault on the southern jungle. This new Tanaan is practically ours!"
+ bleedinghollow.3.option.1:0 "For the Horde!"
+
+ bleedinghollow.4.t:0 "[BRC.GetLeader] replies"
+ bleedinghollow.4.d:0 "That treacherous, base coward [BRC.GetLeader]! After hearing our report, he has decided to take the southern jungle for the [BRC.GetName]!"
+ bleedinghollow.4.option.1:0 "How dare he!?"
+ bleedinghollow.4.option.2:0 "We will have the jungle. By any means necessary!"
+ bleedinghollow.4.option.3:0 "Perhaps [TSC.GetLeader] can change his mind"
+
+ bleedinghollow.5.t:0 "[BRC.GetLeader] replies"
+ bleedinghollow.5.d1:0 "[BRC.GetLeader] has refused our request, saying we must focus on the war effort."
+ bleedinghollow.5.d2:0 "[BRC.GetLeader] has refused our request, saying that this expedition would be a waste of effort."
+ bleedinghollow.5.option.1:0 "Very well. Perhaps another time."
+ bleedinghollow.5.option.2:0 "To hell with [BRC.GetLeader], we didn't need his permission anyway."
+
+ bleedinghollow.6.t:0 "[BRC.GetLeader] asks for our backing"
+
+##############################
+# Gurubashi events
+##############################
+
+ gurubashi.1.t:0 "Da Greenskins be intrudin'"
+ gurubashi.1.d:0 "It be lookin' like da Greenskin invadas don't be satisfied wit jus' de 'uman lands. Dey be sendin' dere scouts inta our jungal!"
+ gurubashi.1.option.1:0 "We be prepared fer da worst"
+
+ gurubashi.2.t:0 "Greenskins be attackin'!"
+ gurubashi.2.d:0 "It be as we be fearin'. Da Greenskins be launchin' attacks on da borda. It don't be full war yet, but we'd best be prepared. Fer now, we'll be puttin da fear a' Hakkar inta' them at the borda!"
+ gurubashi.2.option.1:0 "Dey'll be makin' worthy sacrifices, mon"
+
+ gurubashi.3.t:0 "Wayward Bruddas"
+ gurubashi.3.d:0 "Da Bloodscalps an' da Skullsplittas split off from da tribe when we tried to summon Hakkar all dem years ago, now we 'ave ta decide 'ow we're gonna deal wit' 'em."
+ gurubashi.3.option.1:0 "Dey gonna join us again, whether dey like it or not"
+ gurubashi.3.option.2:0 "Meybe we can come to an arrangement wit' dem"
+
+ gurubashi.4.t:0 "Gurubashi Envoy"
+ gurubashi.4.d:0 "[GUR.GetLeader] 'as sent a diplomat ta us. Dey be sayin' dat we ought'ta be a part of da Gurubashi tribe again."
+ gurubashi.4.option.1:0 "We'd betta seek protection from dah Zandalari"
+ gurubashi.4.option.2:0 "We'd be hona'd ta be a part of da tribe again"
+ gurubashi.4.option.3:0 "We'll work wit ya, but we be keepin' independent"
+
+ gurubashi.17.t:0 "Gurubashi Envoy"
+ gurubashi.17.d:0 "[GUR.GetLeader] 'as sent a diplomat ta us. Dey be sayin' dat we ought'ta be a part of da Gurubashi tribe again."
+ gurubashi.17.option.1:0 "We'd betta seek protection from dah Zandalari"
+ gurubashi.17.option.2:0 "We'd be hona'd ta be a part of da tribe again"
+ gurubashi.17.option.3:0 "We'll work wit ya, but we be keepin' independent"
+
+ gurubashi.5.t:0 "Alliance with the Gurubashi?"
+ gurubashi.5.d:0 "The Gurubashi trolls of Stranglethorn have sent us an emissary: they say that the threat of the Horde is so great that our two races should come together to defend our world. How should we respond to this?"
+ gurubashi.5.option.1:0 "We remember the war. This is an outrage!"
+ gurubashi.5.option.2:0 "For the sake of our two nations..."
+
+ gurubashi.6.t:0 "Da 'umans decline"
+ gurubashi.6.d:0 "It be as many of us believed; da 'umans would neva agree ta such an alliance between da races, even if both a' our lands were at risk."
+ gurubashi.6.option.1:0 "Dey'll regret dis..."
+
+ gurubashi.7.t:0 "More followers of the true path"
+ gurubashi.7.d:0 "More followers of the ways of the void call out to us (Yes, yes, followers of the true path). It seems they are of this world though, can they truly wish for the Hour of Twilight? (Soon! Soon! The Hour of Twilight will fall!)."
+ gurubashi.7.option.1:0 "(Accept their plea! Join the path!)"
+ gurubashi.7.option.2:0 "The time is not yet right!"
+
+ gurubashi.8.t:0 "Request from the Trolls"
+ gurubashi.8.d:0 "The puny Trolls of the Gurubashi tribe plea for our assistance. They do serve the true masters, but is this really their will?"
+ gurubashi.8.option.1:0 "Very well, we shall assist"
+ gurubashi.8.option.2:0 "We are the true inheritors of the Empire"
+
+ gurubashi.9.t:0 "Da Twilight's 'Ammer reject us"
+ gurubashi.9.d:0 "Da worshippas of da void in da Horde refuse ta see past dere petty war wit da alliance and see us as da true heritas of da Black Empire. Dey've refused our invitation ta da Empire!"
+ gurubashi.9.option.1:0 "We don't be needin' dem"
+
+ gurubashi.10.t:0 "Da Dwarves reject us"
+ gurubashi.10.d:0 "Da Dwarves seemed ta be receptive ta our cause, but suddenly dey changed dere minds as if dey were controlled by a higher power. Could it be we ain't da true heritas?"
+ gurubashi.10.option.1:0 "Dey just be delusional"
+
+ gurubashi.11.t:0 "Aqir send manpower"
+ gurubashi.11.d:0 "Da Aqir, da original minions of da true mastas, 'ave sent some of dere forces from Kalimdor, Pandaria and Northrend ta help us wit our conquest of Azeroth! (Dis be a placeholder event, mon)"
+ gurubashi.11.option.1:0 "Even da placeholdas are in da accent?"
+
+ gurubashi.12.t:0 "The Gurubashi ask for control of the Swamp of Sorrows"
+ gurubashi.12.d:0 "Our Azerothian allies, the Gurubashi Trolls, ask that we cede the land in the Swamp of Sorrows to them for them to wage war on the Green Dragons who occupy one of their sacred sites. They served the Horde well in the war, should we allow this?"
+ gurubashi.12.option.1:0 "Very well, we know much of such injustice"
+ gurubashi.12.option.2:0 "Our land will remain our own!"
+
+ gurubashi.13.t:0 "Da Blackrocks accept!"
+ gurubashi.13.d:0 "Da Orcs 'ave decided ta give us da land from which we can be reclaimin' da Temple of Atal'Hakkar."
+ gurubashi.13.option.1:0 "Da temple will be ours again!"
+
+ gurubashi.14.t:0 "Da Blackrocks reject!"
+ gurubashi.14.d:0 "Despite our efforts in da war against da 'umans, da orcs tink dey can be denyin' us our bloodright!"
+ gurubashi.14.option.1:0 "Dis be an outrage, mon!"
+
+
+ # Gurubashi placeholder events
+ gplacehold.1.t:0 "Incomplete Focus"
+ gplacehold.1.d:0 "This focus will trigger an event chain to allow you to either declare war on, puppet or integrate the Bloodscalp and Skullsplitter tribes."
+ gplacehold.2.d:0 "In addition to current changes, this focus will also change your religion to 'Blood Worship'"
+ gplacehold.3.d:0 "This focus will allow you to use Faceless Ones as a specialist unit akin to Marines, Mountaineers etc"
+ gplacehold.4.d:0 "This focus will give the Twilight's Hammer clan the opportunity to defect and join your faction"
+ gplacehold.5.d:0 "This focus will invite the Forces of Ragnaros and their puppet, the Dark Iron Dwarves, to your faction"
+ gplacehold.6.d:0 "This focus will invite Ahn'Qiraj, Azjol'Nerub and Manti'vess into your faction. As of writing this placeholder they are not in the game yet"
+ gplacehold.7.d:0 "This focus will increase your diplomatic relationship with the orc clans"
+ gplacehold.8.d:0 "This focus will give the Horde the option to cede the Swamp of Sorrows to you"
+ gplacehold.9.d:0 "This focus will increase your diplomatic relationship with the Twilight Council"
+ gplacehold.10.d:0 "This focus will increase your diplomatic relationship with the orc clans except for the Twilight Council"
+ gplacehold.11.d:0 "This focus will give Stormwind an event to give you a non aggression pact and agree to mutual cooperation, they won't yet join your faction"
+ gplacehold.12.d:0 "This focus will increase your diplomatic relationship with Stormwind"
+ gplacehold.13.d:0 "This focus will start an event chain where you will decide how to deal with the dissidents, at the end of this you'll lose the dissidence debuff."
+ gplacehold.14.d:0 "This focus will invite Stormwind to your faction through an event"
+ gplacehold.15.d:0 "This focus will spawn some units comprised as demons. Demons are a specialist unit akin to marines, mountaineers etc"
+ gplacehold.16.d:0 "This focus will allow you to use the demons mentioned previously in unit templates"
+ gplacehold.17.d:0 "This focus will allow you to boost party popularity for Old Gods on any other nation"
+ gplacehold.18.d:0 "This focus will invite Lordaeron to your faction"
+ gplacehold.19.d:0 "This focus will invite the Amani Tribe to your faction"
+ gplacehold.20.d:0 "This focus will add infrastructure to your states"
+ gplacehold.21.d:0 "This focus will add infrastructure, military factories and civilian factories to your states"
+ gplacehold.1.option.1:0 "OK"
+
+ # Gurubashi / Booty Bay war events
+ boogurwar.1.t:0 "[GUR.GetName] declares war!"
+ boogurwar.1.d:0 "I knew those trolls would be nothing but trouble, they're coming to kill us! What should we do boss?"
+ boogurwar.1.option.1:0 "We fight to the bitter end!"
+ boogurwar.1.option.2:0 "Maybe some dough'll get 'em off us."
+
+ boogurwar.2.t:0 "[BOO.GetLeader] begs for mercy"
+ boogurwar.2.d:0 "Da cowardly [BOO.GetLeader] be sendin us a messenger. He be sayin dat if we stop attackin' dem, dey'll give us a portion of dere gold. What do ya tink we should be doin'?"
+ boogurwar.2.option.1:0 "Do ya tink we be Goblins? Kill em!"
+ boogurwar.2.option.2:0 "We'll let ya off da hook, fer now..."
+
+ boogurwar.3.t:0 "[GUR.GetName] refuses our offer"
+ boogurwar.3.d:0 "Looks like they went and killed the guy we sent out to negotiate peace. Maybe we should have expected this?"
+ boogurwar.3.option.1:0 "Ah, hell..."
+
+ boogurwar.4.t:0 "[GUR.GetName] accepts our offer"
+ boogurwar.4.d:0 "Seems they like cash more than they let on! The Gurubashi are gettin' outta our land. It's drilled a helluva hole in our pockets though..."
+ boogurwar.4.option.1:0 "My poor wallet..."
+
+ ##############################
+ # Shadow Council events
+ ##############################
+ frostwolf_fate.1.t:0 "The Fate of the Frostwolves"
+ frostwolf_fate.1.d:0 "Time time has come to deal with Durotan and his lackeys. We could quietly banish them from the Horde and allow them to die in the wilderness of this world or we could replace their leaders with an orc less likely to oppose us. The other orcs may be angered if we simply kill Durotan though..."
+ frostwolf_fate.1.option.1:0 "Durotan, you and your clan are no longer a part of the Horde."
+ frostwolf_fate.1.option.2:0 "To hell with what the other clans think, a change of leadership is in order."
+
+ frostwolf_fate.2.t:0 "Banishment"
+ frostwolf_fate.2.d:0 "Gul'dan has approached us and informed us that we are no longer a part of the Horde. We have two options at our feet, we could follow the visions of Drek'thar and attempt to find a new home in the far north or we could go to war with our brother Orcs"
+ frostwolf_fate.2.option.1:0 "Drek'thar has not led us astray yet, we ride to Alterac."
+ frostwolf_fate.2.option.2:0 "Gul'dan is not the leader of the Horde! The other clans must hear of this!"
+
+ frostwolf_fate.3.t:0 "Durotan is dead!"
+ frostwolf_fate.3.d:0 "The assassins of the Shadow Council came in the night and murdered Chieftain Durotan and his mate Draka, who was pregnant with their child. We must choose now choose a new chieftain. Drek'thar was loyal to Durotan and would surely have us wage war with the Shadow Council. On the other hand; Fenris Wolfbrother of the Thunderlords, Durotan's brother, may be willing to merge our two clans and become our Chieftain, keeping us in the Horde."
+ frostwolf_fate.3.option.1:0 "Drek'thar is the obvious choice, Gul'dan will have hell to pay!"
+ frostwolf_fate.3.option.2:0 "Fenris is heir by blood, we must remain a part of the Horde!"
+
+ frostwolf_fate.4.t1:0 "Gul'dan threatens the Frostwolves with war!"
+ frostwolf_fate.4.t2:0 "Gul'dan murders the chieftain of the Frostwolves!"
+ frostwolf_fate.4.d1:0 "Durotan of the Frostwolves has been a vocal opponent of Gul'dan's methods from the very birth of the Horde. Now, Gul'dan has struck out against their clan and threatens war. We must now decide where our loyalties lie."
+ frostwolf_fate.4.d2:0 "Durotan of the Frostwolves was a vocal opponent of Gul'dan's methods from the very birth of the Horde. Now, Gul'dan has struck out against their clan and murdered Durotan in cold blood! We must now decide where our loyalties lie."
+ frostwolf_fate.4.option.1:0 "Gul'dan's plan brought us to this new world. Me must remain loyal to the Horde."
+ frostwolf_fate.4.option.2:0 "Gul'dan clearly has no honour! We must aid our Frostwolf brothers!"
+ frostwolf_fate.4.option.1brc:0 "Gul'dan's methods are dishonourable, but necessary"
+ frostwolf_fate.4.option.2brc:0 "Gul'dan has gone behind our back for the last time. We must end him."
+ frostwolf_fate.4.option.1thc:0 "We remain loyal to Gul'dan, for now..."
+ frostwolf_fate.4.option.2thc:0 "Chaos beckons! Cleave the Horde in twain!"

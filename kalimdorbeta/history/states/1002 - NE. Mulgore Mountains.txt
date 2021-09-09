@@ -1,0 +1,28 @@
+
+state={
+	id=1002
+	name="STATE_1002"
+
+	impassable = yes
+	history={
+		owner = BRI
+		add_core_of = BRI
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		617.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+		}
+	}
+
+	provinces={
+		9719
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

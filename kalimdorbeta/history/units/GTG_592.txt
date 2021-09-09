@@ -1,0 +1,51 @@
+﻿division_template = {
+	name = "Twilight Guardians"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Guardians"
+		location = 2097
+		division_template = "Twilight Guardians"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "2nd Guardians"
+		location = 2097
+		division_template = "Twilight Guardians"
+		start_experience_factor = 0.2
+		}
+}
+		
+#air_wings = {
+#	### twilight grove
+#	300 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "GTG" 
+#			amount = 14
+#		}
+#		
+#		cas_equipment_1 = {
+#			owner = "GTG" 
+#			amount = 14
+#		}
+#		
+#		fighter_equipment_2 = {
+#			owner = "GTG" 
+#			amount = 20
+#		}
+#	}
+#}

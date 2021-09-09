@@ -1,0 +1,35 @@
+generic_sensible = {
+	name = "General sensible plan"
+	desc = "Sensible behaviour for everyone else"
+
+	enable = {
+		NOT = {
+			tag = DMC
+			tag = BTG
+			tag = BBC
+			tag = TSC
+			tag = STO
+			tag = GUR
+			tag = BRC
+			tag = AMA
+			tag = VIL
+		}
+	}
+	
+	focus_factors = {
+		pick_a_side = 3
+		serving_higher_powers = 3
+		to_the_skies = 1
+		Naval_Ambitions = 0
+		stay_neutral = 5
+		arming_the_nation = 4
+	}
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}
+

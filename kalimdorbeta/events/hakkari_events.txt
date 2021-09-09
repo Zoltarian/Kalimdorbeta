@@ -1,0 +1,93 @@
+﻿###########################
+# Hakkari Tribe
+###########################
+
+add_namespace = hakkari
+
+#blackrock settle stonard
+country_event = {
+	id = hakkari.1
+	title = hakkari.1.t
+	desc = hakkari.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = hakkari.1.option.1
+		
+		add_ideas = HAK_prepare_for_war
+
+	}
+
+}
+#orcs declare war
+country_event = {
+	id = hakkari.2
+	title = hakkari.2.t
+	desc = hakkari.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = hakkari.2.option.1
+		
+	}
+
+}
+#hakkari surrender
+country_event = {
+	id = hakkari.3
+	title = hakkari.3.t
+	desc = hakkari.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HAK
+
+			any_other_country = {
+				has_war_with = HAK
+					AND = {
+						controls_state = 397
+						has_idea = orc_primary_race
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+					}
+			}
+	}
+	
+	option = {
+		name = hakkari.3.option.1
+		
+		HAK = {
+			set_capital = 1095
+		}
+		BRC = { country_event = blackrock.4 }
+			
+	}
+	
+}
+#hakkari defeat the horde
+country_event = {
+	id = hakkari.4
+	title = hakkari.4.t
+	desc = hakkari.4.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = hakkari.4.option.1
+		
+	}
+
+}

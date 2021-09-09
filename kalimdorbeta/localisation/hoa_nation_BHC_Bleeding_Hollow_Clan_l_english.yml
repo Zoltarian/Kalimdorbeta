@@ -1,0 +1,83 @@
+﻿l_english:
+
+###############################
+#leaders
+###############################
+POLITICS_KILROGG_DEADEYE_DESC:0 "Born to the then fleeting clan of the bleeding hollow in the savage Tanaan jungles, Kilrogg, on behest of his father, did an ancient clan sacrifice sacrificing his left eye to receive a vision of the future. He saw his clan rising to greatness again and he foresaw his own death. After this vision he killed his father and took over the roll as Chieftain and leads them fearlessly into any situation knowing that the moment of his death wouldn’t be that one. Now as one of the oldest living chieftains he leads the Bleeding Hollow following the Horde trying to claim an area that is similar to their home of the Tanaan Jungle."
+###############################
+#units
+###############################
+
+###############################
+#advisors
+###############################
+
+###############################
+#ideas
+###############################
+BHC_clearout_the_swamps:0 "Clear-out the Swamps"
+BHC_clearout_the_swamps_desc:0 "The Bleeding Hollow Clan has been tasked to clear out the swamps. They will be doing this task alone and not call in their allies."
+BHC_splinter_fist_clan:0 "Splinter Fist Clan"
+BHC_splinter_fist_clan_desc:0 "The Splinter Fist Clan is a clan of Ogres residing inside the Bleeding Hollow Clan."
+BHC_mogrosh_clan:0 "Mo'grosh Clan"
+BHC_mogrosh_clan_desc:0 "The Mo'grosh Clan is a clan of Ogres residing inside the Bleeding Hollow Clan."
+BHC_moshogg_clan:0 "Mosh'Ogg Clan"
+BHC_moshogg_clan_desc:0 "The Mosh'Ogg Clan is a clan of Ogres residing inside the Bleeding Hollow Clan."
+BHC_deadwind_clan:0 "Deadwind Clan"
+BHC_deadwind_clan_desc:0 "The Deadwind Clan is a clan of Ogres residing inside the Bleeding Hollow Clan."
+
+###############################
+#focus tree
+###############################
+BHC_kilroggs_vision:0 "Kilrogs Vision"
+BHC_the_jungle_fortress:0 "Turn Splinterspear Into A Fortress"
+BHC_prepare_for_battle:0 "Prepare for Battle"
+BHC_swamp_mines:0 "Expand the Swamps Mines"
+BHC_pig_farms:0 "Construct Pig Farms"
+BHC_harvest_the_jungle:0 "Harvest Timber From The Swamps"
+BHC_develope_the_jungle:0 "Construct Roads"
+BHC_watch_towers:0 "Watch Tower Improvements"
+BHC_bleeding_hollow_strongholds:0 "Bleeding Hollow Strongholds"
+BHC_research_effort:0 "Research Effort"
+BHC_weapon_improvements:0 "Improve Weapons"
+BHC_war_axes:0 "War Axes"
+BHC_improved_catapults:0 "Improved Catapults"
+BHC_improved_bows:0 "Improved Bows"
+BHC_jungle_hunters:0 "Jungle Hunters"
+BHC_expand_west:0 "Expand West"
+BHC_the_duskwood_campaign:0 "The Duskwood Campaign"
+BHC_sacred_rituals:0 "Sacred Rituals"
+BHC_bleeding_hollow_brutes:0 "Bleeding Hollow Brutes"
+BHC_the_jungles_of_stranglethorn:0 "The Jungles of Stranglethorn"
+BHC_stand_with_the_warchief:0 "Stand With The Warchief"
+BHC_frostwolf_riders:0 "Frostwolf Riders"
+BHC_black_tooth_grin_scouts:0 "Black Tooth Grin Scouts"
+BHC_dragonmaw_rylaks:0 "Dragonmaw Rylaks"
+BHC_burning_blade_masters:0 "Burning Blade Masters"
+BHC_blackrock_forges:0 "Blackrock Forges"
+BHC_ask_for_guldans_help:0 "Ask Guldan for help"
+BHC_shadow_council_warlocks:0 "Shadow Council Warlocks"
+BHC_summon_felguards:0 "Summon Felguards"
+BHC_shadow_council_spies:0 "Shadow Council Spies"
+BHC_shadow_council_assassins:0 "Shadow Council Assassins"
+BHC_escalate_the_war:0 "Escalate The War"
+BHC_pillage_duskwood:0 "Pillage Duskwood"
+BHC_zulhollow:0 "Found Zul'Hollow"
+BHC_bleeding_hollow_spearman:0 "Bleeding Hollow Spearman"
+BHC_adapt_war_plan:0 "Adapt War Plans"
+BHC_mounted_footman:0 "Train Scout Cavalry"
+BHC_double_nights_watch:0 "Double The Nights Watch"
+BHC_besiege_stormwind:0 "Besiege Stormwind City"
+BHC_enslave_the_gurubashi:0 "Enslave The Gurubashi"
+BHC_human_agriculture:0 "Study Human Agriculture"
+BHC_study_human_armor:0 "Study Human Armor"
+
+###############################
+#events
+###############################
+bleeding_hollow.1.t:0 "Blackhands Orders"
+bleeding_hollow.1.d:0 "Warchief Blackhand has charged us with clearing out and domesticating these swamps, rumors have been reported by some members of our clan that they have seen the swamps come to life and shift shapes. These cowards will be the first sent to the work camps to chop down the swamp."
+bleeding_hollow.1.option.1:0 "For the Warchief!"
+bleeding_hollow.2.t:0 "Victory over the Bog Beasts"
+bleeding_hollow.2.d:0 "Despite the rumors of the swamp being alive, we have triumphed over these so-called bog beasts and claimed the swamp for the clan. We will begin construction of infrastructure and lodgings for the coming war."
+bleeding_hollow.2.option.1:0 "Glory to the Bleeding Hollow!"

@@ -1,0 +1,408 @@
+spriteTypes = {
+
+##############################
+#Alterac Folder
+##############################
+
+	SpriteType = {
+		name = "GFX_focus_alterac_kingdom_of_alterac"
+		texturefile = "gfx/interface/focus_tree/alterac/focus_alterac_kingdom_of_alterac.dds"
+	}
+
+##############################
+#Quel'thalas Folder
+##############################
+
+	SpriteType = {
+		name = "GFX_focus_quelthalas_alleria_windrunner"
+		texturefile = "gfx/interface/focus_tree/quelthalas/focus_quelthalas_alleria_windrunner.dds"
+	}
+
+##############################
+#Shen'dralar Focus
+##############################
+
+	SpriteType = {
+		name = "GFX_focus_shendralar_dream"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_focus_dream_bough.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_shendralar_dream_bough_tree"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_focus_dream_bough_tree.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_shendralar_azshara"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_azshara.dds"
+	}
+
+##############################
+#Maraudon Focus
+##############################
+
+	SpriteType = {
+		name = "GFX_focus_maraudon_theradras"
+		texturefile = "gfx/interface/focus_tree/maraudon/MAU_theradras.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_maraudon_favoring_magram"
+		texturefile = "gfx/interface/focus_tree/maraudon/MAU_favoring_magram.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_maraudon_favoring_gelkis"
+		texturefile = "gfx/interface/focus_tree/maraudon/MAU_favoring_gelkis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_maraudon_ending_magram"
+		texturefile = "gfx/interface/focus_tree/maraudon/MAU_ending_magram.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_maraudon_ending_gelkis"
+		texturefile = "gfx/interface/focus_tree/maraudon/MAU_ending_gelkis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_maraudon_ungrateful_children"
+		texturefile = "gfx/interface/focus_tree/maraudon/MAU_ungrateful_children.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_maraudon_old_hatreds"
+		texturefile = "gfx/interface/focus_tree/maraudon/MAU_old_hatreds.dds"
+	}
+
+##############################
+#Stormwind Focus
+##############################
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_alliance"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_alliance.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_generic"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_diplomatic.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_diplomatic"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_generic.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_aid_from_alterac"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_aid_from_alterac.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_aid_from_dalaran"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_aid_from_dalaran.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_aid_from_gilneas"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_aid_from_gilneas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_aid_from_lordaeron"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_aid_from_lordaeron.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_aid_from_stromgarde"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_aid_from_stromgarde.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_barracks"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_blacksmith"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_bunker_i"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_bunker_i.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_bunker_ii"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_bunker_ii.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_castle"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_crest"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_crest.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_develope_the_kingdom"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_develope_the_kingdom.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_farm"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_farm.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_gates_of_stormwind"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_gates_of_stormwind.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_inn"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_inn.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_mage_tower"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_mage_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_scout_tower"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_tent"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_tent.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_town_hall"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stormwind_varian"
+		texturefile = "gfx/interface/focus_tree/stormwind/focus_stormwind_varian.dds"
+	}
+
+
+
+##############################
+#Generic Focus
+##############################
+
+	SpriteType = {
+		name = "GFX_focus_faction_kaldorei"
+		texturefile = "gfx/interface/focus_tree/focus_generic_faction_kaldorei.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_attack_kaldorei"
+		texturefile = "gfx/interface/focus_tree/focus_generic_attack_kaldorei.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_alliance_symbol"
+		texturefile = "gfx/interface/focus_tree/focus_generic_alliance_symbol.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_archimonde_1"
+		texturefile = "gfx/interface/focus_tree/focus_generic_archimonde_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_archimonde_2"
+		texturefile = "gfx/interface/focus_tree/focus_generic_archimonde_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_book_1"
+		texturefile = "gfx/interface/focus_tree/focus_generic_book_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_book_2"
+		texturefile = "gfx/interface/focus_tree/focus_generic_book_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_book_3"
+		texturefile = "gfx/interface/focus_tree/focus_generic_book_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_chosen_of_the_light"
+		texturefile = "gfx/interface/focus_tree/focus_generic_chosen_of_the_light.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_construction_blue"
+		texturefile = "gfx/interface/focus_tree/focus_generic_construction_blue.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_construction_brown"
+		texturefile = "gfx/interface/focus_tree/focus_generic_construction_brown.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_construction_green"
+		texturefile = "gfx/interface/focus_tree/focus_generic_construction_green.dds"
+	}
+
+	SpriteType = {
+		name = "focus_generic_doomguard"
+		texturefile = "gfx/interface/focus_tree/focus_generic_doomguard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_fel_blood"
+		texturefile = "gfx/interface/focus_tree/focus_generic_fel_blood.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_gryphons"
+		texturefile = "gfx/interface/focus_tree/focus_generic_gryphons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_horde_symbol"
+		texturefile = "gfx/interface/focus_tree/focus_generic_horde_symbol.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_illidan"
+		texturefile = "gfx/interface/focus_tree/focus_generic_illidan.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_kiljaeden_1"
+		texturefile = "gfx/interface/focus_tree/focus_generic_kiljaeden_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_kiljaeden_2"
+		texturefile = "gfx/interface/focus_tree/focus_generic_kiljaeden_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_legion_faction_1"
+		texturefile = "gfx/interface/focus_tree/focus_generic_legion_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_legion_faction_2"
+		texturefile = "gfx/interface/focus_tree/focus_generic_legion_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_legion_faction_3"
+		texturefile = "gfx/interface/focus_tree/focus_generic_legion_faction_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_magic_infused_weapons"
+		texturefile = "gfx/interface/focus_tree/focus_generic_magic_infused_weapons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_mobile_siege_weapons"
+		texturefile = "gfx/interface/focus_tree/focus_generic_mobile_siege_weapons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_orc_warrior"
+		texturefile = "gfx/interface/focus_tree/focus_generic_orc_warrior.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_pick_a_side"
+		texturefile = "gfx/interface/focus_tree/focus_generic_pick_a_side.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_promise_of_power"
+		texturefile = "gfx/interface/focus_tree/focus_generic_promise_of_power.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_ragnaros"
+		texturefile = "gfx/interface/focus_tree/focus_generic_ragnaros.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_red_dragon_flight"
+		texturefile = "gfx/interface/focus_tree/focus_generic_red_dragon_flight.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_scroll_1"
+		texturefile = "gfx/interface/focus_tree/focus_generic_scroll_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_scroll_2"
+		texturefile = "gfx/interface/focus_tree/focus_generic_scroll_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_scroll_3"
+		texturefile = "gfx/interface/focus_tree/focus_generic_scroll_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_siege_weapons"
+		texturefile = "gfx/interface/focus_tree/focus_generic_siege_weapons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_spellcaster_support"
+		texturefile = "gfx/interface/focus_tree/focus_generic_spellcaster_support.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_support_the_horde"
+		texturefile = "gfx/interface/focus_tree/focus_generic_support_the_horde.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_dark_portal"
+		texturefile = "gfx/interface/focus_tree/focus_generic_the_dark_portal.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_whispers_of_the_old_gods"
+		texturefile = "gfx/interface/focus_tree/focus_generic_whispers_of_the_old_gods.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_genric_rend_blackhand"
+		texturefile = "gfx/interface/focus_tree/focus_genric_rend_blackhand.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_genric_skeletal_warriors"
+		texturefile = "gfx/interface/focus_tree/focus_genric_skeletal_warriors.dds"
+	}
+
+
+
+
+
+
+
+
+
+
+}

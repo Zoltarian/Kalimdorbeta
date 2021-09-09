@@ -1,0 +1,113 @@
+equipments = {
+
+	submarine_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = submarine
+		group_by = archetype
+		priority = 2500
+		interface_category = interface_category_other_ships
+
+		upgrades = { }
+		module_slots = { }
+		module_count_limit = { }
+		default_modules = { }
+
+		surface_visibility = 1
+		torpedo_attack = 16
+		naval_range = 2500
+		reliability = 0.48
+		sub_detection = 30
+		surface_detection = 30
+
+		naval_speed = 14.7
+		max_strength = 10
+
+		build_cost_ic = 420
+
+		manpower = 10 #static
+
+		resources = {
+			ores = 2
+			wood = 1
+			oil = 1
+			gunpowder =1
+		}
+	}
+
+	submarine_equipment_1 = {
+		year = 584
+
+		archetype = submarine_equipment
+		priority = 2500
+		
+		module_slots = inherit
+	}
+
+	submarine_equipment_2 = {
+		year = 592
+
+		archetype = submarine_equipment
+		priority = 2500
+		parent = submarine_equipment_1
+		module_slots = inherit
+
+		surface_visibility = 1
+		torpedo_attack = 28
+		naval_range = 4000
+		reliability = 0.56
+		sub_detection = 40
+		surface_detection = 25
+
+		naval_speed = 19.9
+		max_strength = 20
+
+		build_cost_ic = 500
+
+	}
+
+	submarine_equipment_3 = {
+		year = 595
+
+		archetype = submarine_equipment
+		priority = 2500
+		parent = submarine_equipment_2
+		module_slots = inherit
+
+		surface_visibility = 1
+		torpedo_attack = 44
+		naval_range = 5000
+		reliability = 0.6
+		sub_detection = 50
+		surface_detection = 15
+
+		naval_speed = 22
+		max_strength = 30
+
+		build_cost_ic = 620
+	}
+	
+	submarine_equipment_4 = {
+		year = 601
+
+		archetype = submarine_equipment
+		priority = 2500
+		parent = submarine_equipment_3
+		module_slots = inherit
+
+		surface_visibility = 1
+		torpedo_attack = 56
+		naval_range = 6000
+		reliability = 0.64
+		sub_detection = 70
+		surface_detection = 10
+
+		naval_speed = 22
+		max_strength = 35
+
+		build_cost_ic = 690
+	}
+
+}

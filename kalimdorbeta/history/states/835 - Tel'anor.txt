@@ -1,0 +1,32 @@
+
+state={
+	id=835
+	name="STATE_835"
+	resources={
+		mana=6.000
+		ores=4.000
+		wood =16.000
+	}
+
+	history={
+		
+		victory_points = {
+			8512 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = WIT
+
+	}
+
+	provinces={
+		8403 8475 8487 8515 8521 8533 8536 8537 
+	}
+	manpower=63000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

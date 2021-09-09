@@ -1,0 +1,41 @@
+
+state={
+	id=395
+	name="STATE_395"
+	resources={
+		mounts=18.000
+		wood =6.000
+	}
+
+	history={
+		
+		add_core_of = TSW
+		victory_points = {
+			2639 20
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		2624 2626 2627 2635 2639 2931
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

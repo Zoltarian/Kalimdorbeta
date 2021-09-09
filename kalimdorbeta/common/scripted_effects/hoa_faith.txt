@@ -1,0 +1,19 @@
+faith_max = {
+	if = {
+		limit = {
+			OR = {
+				check_variable = {
+					faith_points < 0
+				}
+				check_variable = {
+					faith_points > 500
+				}
+			}
+		}
+		clamp_variable = {
+			var = faith_points 
+			min = 0
+			max = 500
+		}
+	}
+}

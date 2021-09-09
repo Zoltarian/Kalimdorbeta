@@ -1,0 +1,51 @@
+﻿units = {
+
+### Naval OOB ###
+	fleet = {				
+		name = "Dreadmaul Juggernaut Fleet"			
+		naval_base = 525
+		task_force = {
+			name = "1st Fleet"			
+			location = 525 #menethil harbor
+		
+			ship = {
+				name = "1st Dreadmaul Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Dreadmaul Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Dreadmaul Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Dreadmaul Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Dreadmaul Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Dreadmaul Juggernaut"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_2 = { amount = 1  } }
+			}
+			
+		}
+	
+	}
+			
+}

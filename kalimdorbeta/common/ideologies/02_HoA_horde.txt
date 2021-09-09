@@ -1,0 +1,47 @@
+ideologies = {
+
+	horde = {
+
+		types = {
+
+			horde_type = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_HORDE_1"
+			"FACTION_NAME_HORDE_2"
+			"FACTION_NAME_HORDE_3"
+			"FACTION_NAME_HORDE_4"
+			"FACTION_NAME_HORDE_5"
+		}
+
+		color = { 255 0 0 }
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+
+		modifiers = {
+			generate_wargoal_tension = 0.25
+			send_volunteers_tension = 0.20
+			guarantee_tension = 0.20
+			justify_war_goal_when_in_major_war_time = -0.5
+		}
+
+		can_be_boosted = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+	}
+}

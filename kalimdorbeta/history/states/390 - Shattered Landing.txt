@@ -1,0 +1,49 @@
+
+state={
+	id=390
+	name="STATE_390"
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		add_core_of = BBC
+
+		victory_points = {
+			2865 10
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = BBC
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			owner = RCP
+			controller = RCP
+			add_core_of = RCP
+		}
+	}
+
+	provinces={
+		930 2844 2845 2848 2852 2861 2865 5322 5355 5357
+	}
+	manpower=48500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

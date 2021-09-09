@@ -1,0 +1,34 @@
+﻿#division_template = {
+#	name = "Valarjar Champion"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+#units = {
+#	
+#	division = {
+#		name = "1st Valarjar Champion"
+#		location = 9180
+#		division_template = "Valarjar Champion"
+#		start_experience_factor = 0.2
+#	}
+#	
+#	division = {
+#		name = "2nd Valarjar Champion"
+#		location = 9180
+#		division_template = "Valarjar Champion"
+#		start_experience_factor = 0.2
+#	}
+#	
+#}
+		
+

@@ -1,0 +1,259 @@
+ideas = {
+	country = {
+		GUR_addressing_religious_schism_1 = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.5
+			}
+		}
+		GUR_addressing_religious_schism_2 = { # BEGIN OLD GODS
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.5
+				old_gods_drift = 0.05
+			}
+		}
+		GUR_addressing_religious_schism_3 = { # SPREAD WORD FIRST
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.25
+				old_gods_drift = 0.05
+			}
+		}
+		GUR_addressing_religious_schism_4 = { # INFLUENCE FIRST
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.25
+				old_gods_drift = 0.1
+			}
+		}
+		GUR_addressing_religious_schism_5 = { # SPREAD WORD AND INFLUENCE
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				old_gods_drift = 0.1
+			}
+		}
+		GUR_wrath_of_the_loa = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -1.0
+			}
+		}
+		GUR_hakkars_presence_1st_war = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 0.02
+				army_defence_factor = 0.02
+				land_reinforce_rate = 0.02
+			}
+		}
+		GUR_favour_of_the_loa = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		GUR_fel_blessing = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 0.1
+				army_morale_factor = -0.08
+			}
+		}
+		GUR_blood_beserkers_idea = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				offence = 0.2
+			}
+		}
+		GUR_enhanced_regeneration = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_morale_factor = 0.2
+			}
+		}
+		GUR_spell_shields_idea = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				defence = 0.05
+			}
+		}
+		GUR_violent_dissidence_1 = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.4
+				political_power_gain = -0.5
+			}
+		}
+		GUR_violent_dissidence_2 = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.3
+				political_power_gain = -0.5
+			}
+		}
+		GUR_validated_isolationists = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				improve_relations_maintain_cost_factor = 0.8
+				drift_defence_factor = 0.5
+			}
+		}
+		GUR_booty_bay_tribute_get = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		GUR_booty_bay_tribute_provide = {
+			allowed = {
+				original_tag = BOO
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		GUR_shaky_alliance = {
+			allowed = {
+				OR = {
+					original_tag = GUR
+					original_tag = STO
+				}
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.15
+
+			}
+		}
+	}
+	hidden_ideas = {
+		GUR_new_troll_here = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}		
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		GUR_rally_tribes_idea = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}		
+			modifier = {
+				conscription = 0.015
+			}
+		}		
+		troll_paladins = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}	
+		}
+		GUR_allow_curses = {
+			allowed = {
+				original_tag = GUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				#ALLOWS CURSES
+			}
+		}
+	}
+}

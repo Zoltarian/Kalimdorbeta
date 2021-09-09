@@ -1,0 +1,33 @@
+
+state={
+	id=1431
+	name="STATE_1431"
+	resources = {
+		wood=3
+		ores=1
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			12634 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		
+		617.1.1 = {
+			owner = DDW
+			controller = DDW
+			add_core_of = DDW
+		}
+	}
+
+	provinces={
+		12634 13077 13085 13097 13098
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

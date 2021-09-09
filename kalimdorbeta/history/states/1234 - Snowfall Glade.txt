@@ -1,0 +1,22 @@
+
+state={
+	id=1234
+	name="STATE_1234"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+		add_core_of = SWT
+
+	}
+
+	provinces={
+		433 13245 13260 13294 13301 13329 13332 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

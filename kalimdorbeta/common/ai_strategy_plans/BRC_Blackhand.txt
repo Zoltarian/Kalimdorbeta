@@ -1,0 +1,24 @@
+brc_blackhand_nonhistorical = {
+	name = "BRC goes blackhand"
+	desc = "designed for the special gamerule where BRC loves blackhand"
+
+	enable = {
+		original_tag = BRC
+		has_game_rule = {
+			rule = BRC_ai_behavior
+			option = WARCHIEF_BLACKHAND
+		}
+	}
+
+	ai_national_focuses = {
+		# grab as fast as you can if available
+		BRC_blackhands_horde
+		BRC_identity_crisis
+		BRC_found_stonard
+		BRC_develop_the_swamps
+		BRC_send_scouts_north
+		BRC_raid_border_settlements
+		BRC_dawn_of_the_first_war
+	}
+}
+

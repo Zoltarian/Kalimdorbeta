@@ -1,0 +1,58 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+STO_unit_production = {
+	enable = {
+		original_tag = STO
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 100
+	}
+}
+
+STO_ignore_DIC = {
+	enable = {
+		original_tag = STO
+	}
+	
+	abort = {
+		has_war_with = DIC
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "DIC"
+		value = 200
+	}
+}
+
+STO_ignore_GUR = {
+	enable = {
+		original_tag = STO
+	}
+	
+	abort = {
+		has_war_with = GUR
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "GUR"
+		value = 200
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=1094
+	name="STATE_1094"
+	resources = {
+		oil = 4
+		mana=8
+	}
+
+	history={
+		
+		add_core_of = BWC
+
+		victory_points = {
+			10775 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			10763 = {
+				naval_base = 1
+			}
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BWC
+		}
+	}
+
+	provinces={
+		10547 10690 10763 10767 10771 10773 10775 10778 10786
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

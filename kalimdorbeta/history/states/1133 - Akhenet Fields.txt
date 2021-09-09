@@ -1,0 +1,30 @@
+
+state={
+	id=1133
+	name="STATE_1133"
+	resources = {
+		wheat=8
+	}
+
+	history={
+
+		owner = RKH
+		victory_points = {
+			11913 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = RKH
+
+	}
+
+	provinces={
+		10860 11898 11899 11903 11904 11905 11907 11913
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

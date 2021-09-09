@@ -1,0 +1,28 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		mana=28.000
+	}
+
+	history={
+		victory_points = {
+			2966 5 
+		}
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = NRT
+
+	}
+
+	provinces={
+		763 1089 2966 5072 5075 5076 5083 6023 
+	}
+	manpower=6275
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

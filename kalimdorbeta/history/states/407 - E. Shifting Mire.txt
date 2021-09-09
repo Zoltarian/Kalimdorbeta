@@ -1,0 +1,41 @@
+
+state={
+	id=407
+	name="STATE_407"
+	resources={
+		wood =10.000
+	}
+
+	history={
+		
+		victory_points = {
+			2670 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = TSW
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+
+		}
+
+		617.1.1 = {
+			
+			controller = TSW
+			add_core_of = TSW
+		}
+	}
+
+	provinces={
+		949 2650 2653 2661 2664 2670 2676 2678 4297
+	}
+	manpower=42500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

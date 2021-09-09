@@ -1,0 +1,43 @@
+﻿division_template = {
+	name = "Darkfin Murloc"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Darkfin Murloc"
+		location = 1116
+		division_template = "Darkfin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Darkfin Murloc"
+		location = 1118
+		division_template = "Darkfin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Darkfin Murloc"
+		location = 9634
+		division_template = "Darkfin Murloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Darkfin Murloc"
+		location = 9623
+		division_template = "Darkfin Murloc"
+		start_experience_factor = 0.2
+	}
+	
+
+}

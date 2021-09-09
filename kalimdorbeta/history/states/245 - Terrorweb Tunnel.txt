@@ -1,0 +1,37 @@
+
+state={
+	id=245
+	name="STATE_245"
+	resources={
+		gunpowder=12.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		733 4327 4351 4373 7461 7462 7465 7466 7467 7469 
+	}
+	manpower=2425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

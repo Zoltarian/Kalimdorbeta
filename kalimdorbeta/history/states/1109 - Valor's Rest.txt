@@ -1,0 +1,36 @@
+
+state={
+	id=1109
+	name="STATE_1109"
+	resources = {
+		ores=7
+		mana=6
+		wheat=6
+	}
+
+	history={
+		owner = CNH
+		victory_points = {
+			11282 5
+		}
+		victory_points = {
+			11296 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 3
+			air_base = 1
+
+		}
+		add_core_of = CNH
+
+	}
+
+	provinces={
+		10824 11229 11236 11240 11259 11268 11282 11296 11319 11321
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

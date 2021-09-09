@@ -1,0 +1,145 @@
+equipments = {
+
+	carrier_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = carrier
+		sprite = carrier
+		group_by = archetype
+		priority = 1000
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = { }
+		module_slots = { }
+		module_count_limit = { }
+		default_modules = { }
+
+		sub_detection = 5
+		lg_attack = 3
+		anti_air_attack = 8.9
+		naval_range = 3000
+		armor_value = 7
+		surface_detection = 10
+		surface_visibility = 30
+		lg_armor_piercing = 5.5
+
+		naval_speed = 32.8
+		max_strength = 250
+		reliability = 0.56
+		carrier_size = 45
+		
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 9103.5
+		manpower = 225
+
+		resources = {
+			oil = 2
+			wood = 3
+			ores = 3
+			gunpowder = 2
+		}
+		
+	}
+
+	carrier_equipment_1 = {
+		year = 584
+		visual_level = 1
+		archetype = carrier_equipment	
+		priority = 1000
+		
+		module_slots = inherit
+	}
+
+	carrier_equipment_2 = {
+		year = 591
+		visual_level = 1
+		archetype = carrier_equipment
+		priority = 1000
+		parent = carrier_equipment_1
+		module_slots = inherit
+
+		sub_detection = 5
+		lg_attack = 3
+		anti_air_attack = 13
+		naval_range = 4000
+		armor_value = 9
+		surface_detection = 10
+		surface_visibility = 30
+		lg_armor_piercing = 5.5
+
+		naval_speed = 34.9
+		max_strength = 325
+		reliability = 0.64
+		carrier_size = 55
+		
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 9933
+		manpower = 250
+	}
+
+	carrier_equipment_3 = {
+		year = 594
+		visual_level = 1
+		archetype = carrier_equipment
+		priority = 1000
+		parent = carrier_equipment_2
+		module_slots = inherit
+
+		sub_detection = 5
+		lg_attack = 3
+		anti_air_attack = 13.8
+		naval_range = 5000
+		armor_value = 11
+		surface_detection = 20
+		surface_visibility = 30
+		lg_armor_piercing = 5.5
+
+		naval_speed = 35.7
+		max_strength = 350
+		reliability = 0.68
+		carrier_size = 70
+		
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 12320.5
+		manpower = 275
+	}
+
+	carrier_equipment_4 = {
+		year = 597
+		visual_level = 1
+		archetype = carrier_equipment
+		priority = 1000
+		parent = carrier_equipment_3
+		module_slots = inherit
+
+		sub_detection = 5
+		lg_attack = 3
+		anti_air_attack = 16.1
+		naval_range = 6000
+		armor_value = 13
+		surface_detection = 30
+		surface_visibility = 30
+		lg_armor_piercing = 5.5
+
+		naval_speed = 37.7
+		max_strength = 400
+		reliability = 0.72
+		carrier_size = 85
+		
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 13089.25
+		manpower = 300
+	}
+
+}

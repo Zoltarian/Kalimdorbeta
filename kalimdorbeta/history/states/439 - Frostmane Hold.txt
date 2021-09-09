@@ -1,0 +1,31 @@
+
+state={
+	id=439
+	name="STATE_439"
+	resources={
+		wood =4.000
+		ores=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			4023 15 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = FRT
+
+	}
+
+	provinces={
+		1005 1068 4013 4016 4023 8576 8577 8578 8579 8580 8582 
+	}
+	manpower=52000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

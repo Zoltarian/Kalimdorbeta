@@ -1,0 +1,3172 @@
+#!gfx:interface\hoa_focus.gfx
+shared_focus = {
+	id = our_nation
+	icon = GFX_focus_generic_home_defense
+	cost = 1
+	x = 24
+	y = 0
+
+	available = {
+	}
+
+	completion_reward = {
+		#Event giving choice between workshop, blacksmith, or infrastructure
+		country_event = {
+			id = generic_human.1
+		}
+	}
+}
+
+shared_focus = {
+	id = our_people
+	icon = GFX_goal_generic_demand_territory
+	cost = 1
+	prerequisite = {
+		focus = our_nation
+	}
+	relative_position_id = our_nation
+	x = 0
+	y = 1
+
+	available = {
+	}
+
+	completion_reward = {
+		#Event giving choice between pp bonus, construction speed or production
+		country_event = {
+			id = generic_human.2
+		}
+	}
+}
+
+shared_focus = {
+	id = how_we_fight
+	icon = GFX_goal_generic_major_war
+	cost = 1
+	prerequisite = {
+		focus = our_people
+	}
+	relative_position_id = our_people
+	x = 0
+	y = 1
+
+
+	completion_reward = {
+		#Event giving choice between attack and defence
+		country_event = {
+			id = generic_human.3
+		}
+		#Unlock other branches
+		set_country_flag = unlocked_other_branches
+		custom_effect_tooltip = unlocking_other_branches_tt
+	}
+}
+
+shared_focus = {
+	id = the_path_forward
+	icon = GFX_focus_generic_self_management
+	cost = 1
+	x = 44
+	y = 3
+
+	available = {
+		has_country_flag = unlocked_other_branches
+	}
+
+	#Prevent nations like Old Gods or Titan Watchers to change ideology
+	allow_branch = {
+      NOT = {
+					#Old Gods
+          tag = AHQ
+          tag = YOG
+					#Titan Watchers
+					has_government = titans
+      }
+  }
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+shared_focus = {
+	id = pick_a_side
+	icon = GFX_focus_pick_a_side
+	cost = 5.00
+	prerequisite = {
+		focus = the_path_forward
+	}
+	mutually_exclusive = {
+		focus = stay_neutral
+		focus = serving_higher_powers
+	}
+	x = 35
+	y = 4
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = support_the_alliance
+	icon = GFX_focus_alliance_symbol
+	cost = 5.00
+	prerequisite = {
+		focus = pick_a_side
+	}
+	mutually_exclusive = {
+		focus = support_the_horde
+		focus = support_blackhand
+	}
+	available = {
+		NOT = {
+				has_country_flag = Invasion_Clan
+		}
+	}
+	x = 32
+	y = 5
+
+	completion_reward = {
+		add_ideas = support_the_alliance_idea
+		add_ideas = Alliance_Bureaucracy_Level1
+	}
+}
+
+shared_focus = {
+	id = reform_the_bureaucracy_alliance
+	icon = GFX_focus_chosen_of_the_light
+	cost = 5.00
+	prerequisite = {
+		focus = support_the_alliance
+	}
+
+	x = 32
+	y = 6
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Alliance_Bureaucractic_Upgrade
+		set_country_flag = Alliance_Bureaucractic_Upgrade
+	}
+}
+
+shared_focus = {
+	id = economic_contingencies
+	icon = GFX_focus_chosen_of_the_light
+	cost = 5.00
+	prerequisite = {
+		focus = reform_the_bureaucracy_alliance
+	}
+
+	x = 30
+	y = 7
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Alliance_Economic_Contingencies
+		set_country_flag = Alliance_Economic_Contingencies
+	}
+}
+
+shared_focus = {
+	id = wartime_alliance
+	icon = GFX_focus_chosen_of_the_light
+	cost = 5.00
+	prerequisite = {
+		focus = reform_the_bureaucracy_alliance
+	}
+
+	x = 32
+	y = 7
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Alliance_Wartime_Measures
+		set_country_flag = Alliance_Wartime_Measures
+	}
+}
+
+shared_focus = {
+	id = prove_our_strength_alliance
+	icon = GFX_focus_chosen_of_the_light
+	cost = 5.00
+	prerequisite = {
+		focus = wartime_alliance
+	}
+
+	x = 32
+	y = 8
+
+	completion_reward = {
+		set_rule = {
+			can_send_volunteers = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = peacetime_alliance
+	icon = GFX_focus_chosen_of_the_light
+	cost = 5.00
+	prerequisite = {
+		focus = reform_the_bureaucracy_alliance
+	}
+
+	x = 34
+	y = 7
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Alliance_Peacetime_Measures
+		set_country_flag = Alliance_Peacetime_Measures
+	}
+}
+
+shared_focus = {
+	id = support_the_horde
+	icon = GFX_focus_horde_symbol
+
+	cost = 5.00
+	prerequisite = {
+		focus = pick_a_side
+	}
+	mutually_exclusive = {
+		focus = support_the_alliance
+		focus = support_blackhand
+	}
+
+	available = {
+		NOT = {
+				has_country_flag = Invasion_Clan
+		}
+	}
+
+	x = 39
+	y = 5
+
+	completion_reward = {
+		add_ideas = support_the_horde_idea
+		add_ideas = Clan_Respect_Level1
+	}
+}
+
+shared_focus = {
+	id = support_blackhand
+	icon = GFX_focus_horde_symbol
+	cost = 5.00
+	prerequisite = {
+		focus = pick_a_side
+	}
+	mutually_exclusive = {
+		focus = support_the_alliance
+		focus = support_the_horde
+	}
+
+	available = {
+		has_country_flag = Invasion_Clan
+	}
+
+	x = 37
+	y = 5
+
+	completion_reward = {
+		add_ideas = Clan_Respect_Level2
+		set_country_flag = First_War_Clan
+		set_country_flag = Horde_Not_Found_Homeland
+	}
+}
+
+shared_focus = {
+	id = horde_demand_respect
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = support_the_horde
+		focus = support_blackhand
+	}
+
+	x = 38
+	y = 6
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Horde_Demand_Respect
+		set_country_flag = Horde_Demand_Respect
+	}
+}
+
+shared_focus = {
+	id = horde_wartime_fervour
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = prove_our_strength
+	}
+
+	x = 40
+	y = 8
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Horde_Wartime_Fervour
+		set_country_flag = Horde_Wartime_Fervour
+	}
+}
+
+shared_focus = {
+	id = prove_our_strength
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = horde_demand_respect
+	}
+
+	x = 38
+	y = 7
+
+	completion_reward = {
+		set_rule = {
+			can_send_volunteers = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = horde_peacetime_preparations
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = prove_our_strength
+	}
+
+	x = 36
+	y = 8
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Horde_Peacetime_Preparations
+		set_country_flag = Horde_Peacetime_Preparations
+	}
+}
+
+shared_focus = {
+	id = horde_our_final_fate
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = prove_our_strength
+	}
+
+	available = {
+		NOT = {
+		has_country_flag = Horde_Not_Found_Homeland
+		}
+	}
+
+	x = 38
+	y = 8
+
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = horde_join_guldan
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = horde_our_final_fate
+	}
+	mutually_exclusive = {
+		focus = horde_remain_with_blackrock
+	}
+
+	available = {
+	}
+
+	x = 37
+	y = 9
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = horde_remain_with_blackrock
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = horde_our_final_fate
+	}
+	mutually_exclusive = {
+		focus = horde_join_guldan
+	}
+
+	available = {
+	}
+
+	x = 39
+	y = 9
+
+	completion_reward = {
+		unlock_decision_category_tooltip = Horde_Forge_Homeland
+		set_country_flag = Horde_Forge_Homeland
+	}
+}
+
+shared_focus = {
+	id = horde_blackhand
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = horde_remain_with_blackrock
+	}
+	mutually_exclusive = {
+		focus = horde_doomhammer
+	}
+
+	available = {
+	}
+
+	x = 38
+	y = 10
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = horde_doomhammer
+	icon = GFX_focus_support_the_horde
+	cost = 5.00
+	prerequisite = {
+		focus = horde_remain_with_blackrock
+	}
+	mutually_exclusive = {
+		focus = horde_blackhand
+	}
+
+	available = {
+	}
+
+	x = 40
+	y = 10
+
+	completion_reward = {
+	}
+}
+
+##############
+# Neutral path
+##############
+shared_focus = {
+	id = stay_neutral
+	icon = GFX_goal_generic_neutrality_focus
+	cost = 5.00
+	prerequisite = {
+		focus = the_path_forward
+	}
+	mutually_exclusive = {
+		focus = pick_a_side
+		focus = serving_higher_powers
+	}
+	relative_position_id = the_path_forward
+	x = 0
+	y = 1
+
+	available = {
+		NOT = {
+				has_country_flag = Invasion_Clan
+		}
+	}
+
+	completion_reward = {
+		add_political_power = 50
+		add_ideas = stay_neutral_idea
+	}
+}
+
+shared_focus = {
+	id = shape_our_own_destiny
+	icon = GFX_focus_generic_little_entente
+	cost = 5.00
+	prerequisite = {
+		focus = stay_neutral
+	}
+	mutually_exclusive = {
+		focus = armed_neutrality
+	}
+	relative_position_id = stay_neutral
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_war_support = 0.1
+		add_stability = 0.05
+		add_ideas = shape_our_own_destiny_idea
+	}
+}
+
+shared_focus = {
+	id = armed_neutrality
+	icon = GFX_goal_generic_military_sphere
+	cost = 5.00
+	prerequisite = {
+		focus = stay_neutral
+	}
+	mutually_exclusive = {
+		focus = shape_our_own_destiny
+	}
+	relative_position_id = stay_neutral
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_war_support = 0.05
+		add_stability = 0.1
+		add_ideas = armed_neutrality_idea
+	}
+}
+
+shared_focus = {
+	id = prepare_for_war
+	icon = GFX_goal_generic_construct_mil_factory
+	cost = 5.00
+	prerequisite = {
+		focus = shape_our_own_destiny
+	}
+	relative_position_id = shape_our_own_destiny
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_ideas = prepare_for_war_idea
+	}
+}
+
+shared_focus = {
+	id = promote_neutrality
+	icon = GFX_goal_generic_neutrality_focus
+	cost = 5.00
+	prerequisite = {
+		focus = armed_neutrality
+		focus = shape_our_own_destiny
+	}
+	relative_position_id = armed_neutrality
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_stability = 0.05
+		add_popularity = {
+	    ideology = neutral
+	    popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = secure_the_nation
+	icon = GFX_focus_generic_coastal_fort
+	cost = 5.00
+	prerequisite = {
+		focus = armed_neutrality
+	}
+	relative_position_id = armed_neutrality
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_ideas = secure_the_nation
+	}
+}
+
+shared_focus = {
+	id = aggressive_strategy
+	icon = GFX_goal_generic_major_war
+	cost = 5.00
+	prerequisite = {
+		focus = promote_neutrality
+	}
+	prerequisite = {
+		focus = prepare_for_war
+	}
+	relative_position_id = prepare_for_war
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_ideas = aggressive_strategy_idea
+	}
+}
+
+shared_focus = {
+	id = diplomatic_strategy
+	icon = GFX_goal_generic_major_alliance
+	cost = 5.00
+	prerequisite = {
+		focus = promote_neutrality
+	}
+	prerequisite = {
+		focus = secure_the_nation
+	}
+	relative_position_id = secure_the_nation
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_ideas = diplomatic_strategy_idea
+	}
+}
+
+shared_focus = {
+	id = no_gods_no_masters
+	icon = GFX_focus_generic_home_defense
+	cost = 5.00
+	prerequisite = {
+		focus = aggressive_strategy
+		focus = diplomatic_strategy
+	}
+	relative_position_id = aggressive_strategy
+	x = 1
+	y = 1
+
+	available = {
+		neutral > 0.5
+	}
+
+	bypass = {
+		has_government = neutral
+	}
+
+	completion_reward = {
+		add_political_power = 150
+		set_politics = {
+			ruling_party = neutral
+        elections_allowed = no
+		}
+	}
+}
+
+shared_focus = {
+	id = a_worthy_army
+	icon = GFX_focus_generic_little_entente
+	cost = 5.00
+	prerequisite = {
+		focus = aggressive_strategy
+	}
+	prerequisite = {
+		focus = no_gods_no_masters
+	}
+	mutually_exclusive = {
+		focus = an_unyielding_army
+	}
+	relative_position_id = no_gods_no_masters
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_ideas = worthy_army_idea
+	}
+}
+
+shared_focus = {
+	id = an_unyielding_army
+	icon = GFX_focus_generic_little_entente
+	cost = 5.00
+	prerequisite = {
+		focus = diplomatic_strategy
+	}
+	prerequisite = {
+		focus = no_gods_no_masters
+	}
+	mutually_exclusive = {
+		focus = a_worthy_army
+	}
+	relative_position_id = no_gods_no_masters
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_ideas = unyielding_army_idea
+	}
+}
+
+shared_focus = {
+	id = rise_of_a_new_faction
+	icon = GFX_goal_anschluss
+	cost = 5.00
+	prerequisite = {
+		focus = a_worthy_army
+	}
+	relative_position_id = a_worthy_army
+	x = 0
+	y = 1
+
+	completion_reward = {
+		add_political_power = 150
+		set_rule = {
+			can_create_factions = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = diplomatic_corps
+	icon = GFX_goal_generic_intelligence_exchange
+	cost = 5.00
+	prerequisite = {
+		focus = an_unyielding_army
+	}
+	relative_position_id = an_unyielding_army
+	x = 0
+	y = 1
+
+	completion_reward = {
+		add_ideas = diplomatic_corps_idea
+	}
+}
+
+shared_focus = {
+	id = prepare_our_troops
+	icon = GFX_goal_generic_small_arms
+	cost = 5.00
+	prerequisite = {
+		focus = rise_of_a_new_faction
+		focus = diplomatic_corps
+	}
+	relative_position_id = diplomatic_corps
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_ideas = intensive_training_idea
+	}
+}
+
+shared_focus = {
+	id = elite_soldiers
+	icon = GFX_goal_generic_special_forces
+	cost = 5.00
+	prerequisite = {
+		focus = prepare_our_troops
+	}
+	relative_position_id = prepare_our_troops
+	x = 0
+	y = 1
+
+	completion_reward = {
+		add_ideas = elite_soldiers_idea
+	}
+}
+
+##############
+# Old Gods / Fel / Death
+##############
+shared_focus = {
+	id = serving_higher_powers
+	icon = GFX_goal_generic_secret_weapon
+	cost = 5.00
+	prerequisite = {
+		focus = the_path_forward
+	}
+	mutually_exclusive = {
+		focus = pick_a_side
+		focus = stay_neutral
+	}
+	relative_position_id = the_path_forward
+	x = 10
+	y = 1
+
+	available = {
+		NOT = {
+			has_country_flag = Invasion_Clan
+		}
+	}
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+##############
+# Old Gods path
+##############
+shared_focus = {
+	id = whispers_of_the_old_gods
+	icon = GFX_focus_whispers_of_the_old_gods
+	cost = 5.00
+	prerequisite = {
+		focus = serving_higher_powers
+	}
+	mutually_exclusive = {
+		focus = promise_of_power
+		focus = in_service_of_death
+	}
+	relative_position_id = serving_higher_powers
+	x = -4
+	y = 1
+
+	completion_reward = {
+		add_ideas = whispers_of_the_old_gods_idea
+	}
+}
+
+shared_focus = {
+	id = convert_influential_figures
+	icon = GFX_focus_whispers_of_the_old_gods
+	cost = 5.00
+	prerequisite = {
+		focus = whispers_of_the_old_gods
+	}
+	relative_position_id = whispers_of_the_old_gods
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_stability = 0.05
+		add_popularity = {
+	    ideology = old_gods
+	    popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = influence_the_population
+	icon = GFX_focus_whispers_of_the_old_gods
+	cost = 5.00
+	prerequisite = {
+		focus = whispers_of_the_old_gods
+	}
+	relative_position_id = whispers_of_the_old_gods
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_war_support = 0.05
+		add_popularity = {
+	    ideology = old_gods
+	    popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = zealots_of_the_old_god
+	icon = GFX_focus_whispers_of_the_old_gods
+	cost = 5.00
+	prerequisite = {
+		focus = convert_influential_figures
+	}
+	prerequisite = {
+		focus = influence_the_population
+	}
+	relative_position_id = influence_the_population
+	x = -1
+	y = 1
+
+	available = {
+		old_gods > 0.5
+	}
+
+	bypass = {
+		has_government = old_gods
+	}
+
+	completion_reward = {
+		add_political_power = 150
+		set_politics = {
+			ruling_party = old_gods
+        elections_allowed = no
+		}
+	}
+}
+
+shared_focus = {
+	id = infiltrate_foreign_powers
+	icon = GFX_focus_whispers_of_the_old_gods
+	cost = 5.00
+	prerequisite = {
+		focus = zealots_of_the_old_god
+	}
+	relative_position_id = zealots_of_the_old_god
+	x = -1
+	y = 1
+
+	completion_reward = {
+		set_rule = {
+			can_send_volunteers = yes
+		}
+		set_rule = {
+			can_boost_other_ideologies = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = our_new_masters
+	icon = GFX_focus_whispers_of_the_old_gods
+	cost = 5.00
+	prerequisite = {
+		focus = zealots_of_the_old_god
+	}
+	relative_position_id = zealots_of_the_old_god
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_ideas = faceless_ones_idea
+		#Event to choose Old Gods religion (C'thun, Yogg, etc...)
+		country_event = {
+	    id = generic_human.6
+		}
+	}
+}
+
+shared_focus = {
+	id = bring_the_hour_of_twilight
+	icon = GFX_focus_whispers_of_the_old_gods
+	cost = 5.00
+	prerequisite = {
+		focus = our_new_masters
+	}
+	prerequisite = {
+		focus = infiltrate_foreign_powers
+	}
+	relative_position_id = our_new_masters
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_stability = 0.1
+		add_war_support = 0.15
+		add_ideas = bring_the_hour_of_twilight_idea
+	}
+}
+
+##############
+# Fel path
+##############
+shared_focus = {
+	id = promise_of_power
+	icon = GFX_focus_promise_of_power
+	cost = 5.00
+	prerequisite = {
+		focus = serving_higher_powers
+	}
+	mutually_exclusive = {
+		focus = whispers_of_the_old_gods
+		focus = in_service_of_death
+	}
+	relative_position_id = serving_higher_powers
+	x = 0
+	y = 1
+
+	completion_reward = {
+		add_ideas = promise_of_power_idea
+	}
+}
+
+shared_focus = {
+	id = let_them_taste_the_fel
+	icon = GFX_focus_legion_faction_1
+	cost = 5.00
+	prerequisite = {
+		focus = promise_of_power
+	}
+	relative_position_id = promise_of_power
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_stability = 0.05
+		add_popularity = {
+	    ideology = fel
+	    popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = we_will_be_conquerors
+	icon = GFX_focus_legion_faction_1
+	cost = 5.00
+	prerequisite = {
+		focus = promise_of_power
+	}
+	relative_position_id = promise_of_power
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_war_support = 0.05
+		add_popularity = {
+	    ideology = fel
+	    popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = we_serve_the_legion
+	icon = GFX_focus_legion_faction_2
+	cost = 5.00
+	prerequisite = {
+		focus = let_them_taste_the_fel
+	}
+	prerequisite = {
+		focus = we_will_be_conquerors
+	}
+	relative_position_id = we_will_be_conquerors
+	x = -1
+	y = 1
+
+	available = {
+		fel > 0.5
+	}
+
+	bypass = {
+		has_government = fel
+	}
+
+	completion_reward = {
+		add_political_power = 150
+		set_politics = {
+			ruling_party = fel
+        elections_allowed = no
+		}
+		#Event to choose Fel religion (Fel, Demonology, etc...)
+		country_event = {
+	    id = generic_human.5
+		}
+	}
+}
+
+shared_focus = {
+	id = an_army_for_sargeras
+	icon = GFX_focus_fel_blood
+	cost = 5.00
+	prerequisite = {
+		focus = we_serve_the_legion
+	}
+	relative_position_id = we_serve_the_legion
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_ideas = an_army_for_sargeras_idea
+	}
+}
+
+shared_focus = {
+	id = fel_blood
+	icon = GFX_focus_fel_blood
+	cost = 5.00
+	prerequisite = {
+		focus = we_serve_the_legion
+	}
+	relative_position_id = we_serve_the_legion
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_ideas = fel_blood_idea
+	}
+}
+
+shared_focus = {
+	id = the_burning_crusade
+	icon = GFX_focus_legion_faction_3
+	cost = 5.00
+	prerequisite = {
+		focus = fel_blood
+	}
+	prerequisite = {
+		focus = an_army_for_sargeras
+	}
+	relative_position_id = fel_blood
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_stability = 0.05
+		add_war_support = 0.15
+		add_ideas = the_burning_crusade_idea
+	}
+}
+
+##############
+# Death path
+##############
+shared_focus = {
+	id = in_service_of_death
+	icon = GFX_focus_genric_skeletal_warriors
+	cost = 5.00
+	prerequisite = {
+		focus = serving_higher_powers
+	}
+	mutually_exclusive = {
+		focus = promise_of_power
+		focus = whispers_of_the_old_gods
+	}
+	relative_position_id = serving_higher_powers
+	x = 4
+	y = 1
+
+	completion_reward = {
+		add_ideas = in_service_of_death_idea
+	}
+}
+
+shared_focus = {
+	id = organize_the_acolytes
+	icon = GFX_focus_genric_skeletal_warriors
+	cost = 5.00
+	prerequisite = {
+		focus = in_service_of_death
+	}
+	relative_position_id = in_service_of_death
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_stability = 0.05
+		add_popularity = {
+	    ideology = death
+	    popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = stir_up_the_damned
+	icon = GFX_focus_genric_skeletal_warriors
+	cost = 5.00
+	prerequisite = {
+		focus = in_service_of_death
+	}
+	relative_position_id = in_service_of_death
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_war_support = 0.05
+		add_popularity = {
+	    ideology = death
+	    popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = disciples_of_death
+	icon = GFX_focus_genric_skeletal_warriors
+	cost = 5.00
+	prerequisite = {
+		focus = stir_up_the_damned
+	}
+	prerequisite = {
+		focus = organize_the_acolytes
+	}
+	relative_position_id = stir_up_the_damned
+	x = -1
+	y = 1
+
+	available = {
+		death > 0.5
+	}
+
+	bypass = {
+		has_government = death
+	}
+
+	completion_reward = {
+		add_political_power = 150
+		set_politics = {
+			ruling_party = death
+        elections_allowed = no
+		}
+	}
+}
+
+shared_focus = {
+	id = beyond_the_veil
+	icon = GFX_focus_genric_skeletal_warriors
+	cost = 5.00
+	prerequisite = {
+		focus = disciples_of_death
+	}
+	relative_position_id = disciples_of_death
+	x = 1
+	y = 1
+
+	completion_reward = {
+		#Event to choose Death religion (Lich King, etc...)
+		country_event = {
+	    id = generic_human.4
+		}
+	}
+}
+
+shared_focus = {
+	id = undead_armies
+	icon = GFX_focus_genric_skeletal_warriors
+	cost = 5.00
+	prerequisite = {
+		focus = disciples_of_death
+	}
+	relative_position_id = disciples_of_death
+	x = -1
+	y = 1
+
+	completion_reward = {
+		#Give idea -10% attrition, -5% organization, +5% non-core manpower
+		add_ideas = undead_armies_idea
+	}
+}
+
+shared_focus = {
+	id = end_the_livings
+	icon = GFX_focus_genric_skeletal_warriors
+	cost = 5.00
+	prerequisite = {
+		focus = undead_armies
+	}
+	prerequisite = {
+		focus = beyond_the_veil
+	}
+	relative_position_id = beyond_the_veil
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_stability = 0.05
+		add_war_support = 0.15
+		set_rule = {
+			can_create_factions = yes
+		}
+		#Give idea reducing justification time -25%, -5% defence, +10% attack
+		add_ideas = end_the_livings_idea
+	}
+}
+
+##############
+#Titans path
+##############
+shared_focus = {
+	id = path_of_the_titans
+	icon = GFX_goal_support_democracy
+	cost = 5.00
+	prerequisite = {
+		focus = how_we_fight
+	}
+	relative_position_id = how_we_fight
+	x = 8
+	y = 1
+
+	allow_branch = {
+			has_government = titans
+  }
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+shared_focus = {
+	id = keep_tech_their_creations_safe
+	icon = GFX_goal_support_democracy
+	cost = 5.00
+	prerequisite = {
+		focus = path_of_the_titans
+	}
+	relative_position_id = path_of_the_titans
+	x = 0
+	y = 1
+
+	completion_reward = {
+		set_rule = {
+			can_create_factions = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = knowledge_of_the_titans
+	icon = GFX_goal_support_democracy
+	cost = 5.00
+	prerequisite = {
+		focus = keep_tech_their_creations_safe
+	}
+	relative_position_id = keep_tech_their_creations_safe
+	x = -1
+	y = 1
+
+	completion_reward = {
+		add_ideas = knowledge_of_titans
+	}
+}
+
+shared_focus = {
+	id = gift_of_the_titans
+	icon = GFX_goal_support_democracy
+	cost = 5.00
+	prerequisite = {
+		focus = keep_tech_their_creations_safe
+	}
+	relative_position_id = keep_tech_their_creations_safe
+	x = 1
+	y = 1
+
+	completion_reward = {
+		add_ideas = gift_of_titans
+	}
+}
+
+shared_focus = {
+	id = develop_the_country
+	icon = GFX_goal_generic_construct_civilian
+	cost = 5.00
+
+	x = 24
+	y = 3
+	# Offset so it looks good on SHD focus tree
+	offset = {
+		x = 7
+		y = 0
+		trigger = {
+			tag = SHD
+		}
+	}
+
+	available = {
+		has_country_flag = unlocked_other_branches
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = blacksmith_1
+	icon = GFX_goal_generic_construct_mil_factory
+	cost = 5.00
+	prerequisite = {
+		focus = develop_the_country
+	}
+	relative_position_id = develop_the_country
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 2
+	}
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = build_roads
+	icon = GFX_goal_generic_construct_infrastructure
+	cost = 5.00
+	prerequisite = {
+		focus = develop_the_country
+	}
+	relative_position_id = develop_the_country
+	x = 0
+	y = 1
+	available_if_capitulated = yes
+	bypass = {
+		custom_trigger_tooltip = {
+			tooltip = infrastructure_effort_tt
+			all_owned_state = {
+				free_building_slots = {
+					building = infrastructure
+					size < 1
+				}
+			}
+		}
+	}
+	complete_tooltip = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				OR = {
+						is_in_home_area = yes
+						NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 1
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+							owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 1
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = workshop_1
+	icon = GFX_goal_generic_construct_civ_factory
+	cost = 5.00
+	prerequisite = {
+		focus = develop_the_country
+	}
+	relative_position_id = develop_the_country
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 2
+	}
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = improved_forges
+	icon = GFX_goal_generic_construct_mil_factory
+	cost = 5.00
+	prerequisite = {
+		focus = blacksmith_1
+	}
+	relative_position_id = blacksmith_1
+	x = -1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = forge_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = prospect_the_soil
+	icon = GFX_goal_generic_construction2
+	cost = 5.00
+	prerequisite = {
+		focus = blacksmith_1
+	}
+	prerequisite = {
+		focus = build_roads
+	}
+	relative_position_id = build_roads
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 2
+	}
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_resource = {
+				type = ores
+				amount = 2
+			}
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = ores
+				amount = 2
+			}
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = gunpowder
+				amount = 1
+			}
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = gunpowder
+				amount = 1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = survey_the_land
+	icon = GFX_goal_generic_positive_trade_relations
+	cost = 5.00
+	prerequisite = {
+		focus = workshop_1
+	}
+	prerequisite = {
+		focus = build_roads
+	}
+	relative_position_id = build_roads
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 2
+	}
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_resource = {
+				type = wood
+				amount = 2
+			}
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = wood
+				amount = 2
+			}
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = mana
+				amount = 1
+			}
+		}
+		random_owned_controlled_state = {
+			add_resource = {
+				type = mana
+				amount = 1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = improved_tools
+	icon = GFX_goal_generic_construction2
+	cost = 5.00
+	prerequisite = {
+		focus = workshop_1
+	}
+	relative_position_id = workshop_1
+	x = 1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = peasant_tools_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = blacksmith_2
+	icon = GFX_goal_generic_construct_mil_factory
+	cost = 5.00
+	prerequisite = {
+		focus = improved_forges
+	}
+	relative_position_id = improved_forges
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 2
+	}
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = mining_tools
+	icon = GFX_goal_generic_construction2
+	cost = 5.00
+	prerequisite = {
+		focus = improved_forges
+	}
+	prerequisite = {
+		focus = prospect_the_soil
+	}
+	relative_position_id = improved_forges
+	x = 1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = mine_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = administration_effort
+	icon = GFX_focus_ger_strike_at_the_source
+	cost = 5.00
+	prerequisite = {
+		focus = prospect_the_soil
+	}
+	prerequisite = {
+		focus = survey_the_land
+	}
+	relative_position_id = build_roads
+	x = 0
+	y = 2
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = tier_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = improved_farming_techniques
+	icon = GFX_goal_generic_consumer_goods
+	cost = 5.00
+	prerequisite = {
+		focus = survey_the_land
+	}
+	prerequisite = {
+		focus = improved_tools
+	}
+	relative_position_id = improved_tools
+	x = -1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = agriculture_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = workshop_2
+	icon = GFX_goal_generic_construct_civ_factory
+	cost = 5.00
+	prerequisite = {
+		focus = improved_tools
+	}
+	relative_position_id = improved_tools
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 2
+	}
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = arming_the_populace
+	icon = GFX_goal_generic_small_arms
+	cost = 5.00
+	prerequisite = {
+		focus = blacksmith_2
+	}
+	prerequisite = {
+		focus = mining_tools
+	}
+	prerequisite = {
+		focus = administration_effort
+	}
+	relative_position_id = administration_effort
+	x = -2
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+		bonus = 0.50
+		uses = 1
+		category = militia_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = noble_codes
+	icon = GFX_focus_scroll_1
+	cost = 5.00
+	prerequisite = {
+		focus = administration_effort
+	}
+	relative_position_id = administration_effort
+	x = 0
+	y = 1
+	available_if_capitulated = yes
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = decryption_technology
+		}
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = encryption_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = city_planning
+	icon = GFX_focus_generic_industry_3
+	cost = 5.00
+	prerequisite = {
+		focus = administration_effort
+	}
+	prerequisite = {
+		focus = improved_farming_techniques
+	}
+	prerequisite = {
+		focus = workshop_2
+	}
+	relative_position_id = administration_effort
+	x = 2
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+		bonus = 0.50
+		uses = 1
+		category = city_growth_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = improve_production
+	icon = GFX_focus_YUG_pan_slavic_congress
+	cost = 5.00
+	prerequisite = {
+		focus = arming_the_populace
+	}
+	relative_position_id = arming_the_populace
+	x = -1
+	y = 1
+	completion_reward = {
+		add_ideas = generic_focus_improve_production_idea
+	}
+}
+
+shared_focus = {
+	id = magical_studies
+	icon = GFX_goal_generic_propaganda
+	cost = 5.00
+	prerequisite = {
+		focus = noble_codes
+	}
+	prerequisite = {
+		focus = city_planning
+	}
+	prerequisite = {
+		focus = arming_the_populace
+	}
+	relative_position_id = noble_codes
+	x = -1
+	y = 1
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = arcane_tower_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = promoting_devotion
+	icon = GFX_goal_generic_propaganda
+	cost = 5.00
+	prerequisite = {
+		focus = noble_codes
+	}
+	prerequisite = {
+		focus = city_planning
+	}
+	prerequisite = {
+		focus = arming_the_populace
+	}
+	relative_position_id = noble_codes
+	x = 1
+	y = 1
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = religion_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = standardized_tools
+	icon = GFX_goal_generic_air_production
+	cost = 5.00
+	prerequisite = {
+		focus = city_planning
+	}
+	relative_position_id = city_planning
+	x = 1
+	y = 1
+	completion_reward = {
+		add_ideas = generic_focus_standardized_tools_idea
+	}
+}
+
+shared_focus = {
+	id = education_effort
+	icon = GFX_focus_book_1
+	cost = 5.00
+	prerequisite = {
+		focus = promoting_devotion
+	}
+	prerequisite = {
+		focus = magical_studies
+	}
+	relative_position_id = noble_codes
+	x = 0
+	y = 2
+	available_if_capitulated = yes
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+
+# MILITARY TREE
+
+shared_focus = {
+	id = arming_the_nation
+	icon = GFX_goal_generic_political_pressure
+	cost = 5.00
+
+	x = 10
+	y = 3
+
+	available = {
+		has_country_flag = unlocked_other_branches
+	}
+
+	completion_reward = {
+		army_experience = 15
+		navy_experience = 15
+		air_experience = 15
+	}
+}
+
+# LAND TREE
+
+shared_focus = {
+id = army_training
+icon = GFX_goal_generic_allies_build_infantry
+cost = 5.00
+prerequisite = {
+	focus = arming_the_nation
+}
+relative_position_id = arming_the_nation
+x = 0
+y = 1
+completion_reward = {
+	army_experience = 15
+	add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = land_doctrine
+	}
+}
+}
+
+shared_focus = {
+id = infantry_training
+icon = GFX_goal_generic_small_arms
+cost = 5.00
+prerequisite = {
+	focus = army_training
+}
+relative_position_id = army_training
+x = -1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = infantry_technology
+	}
+}
+}
+
+shared_focus = {
+id = cavalry_training
+icon = GFX_goal_generic_cavalry
+cost = 5.00
+prerequisite = {
+	focus = army_training
+}
+relative_position_id = army_training
+x = 1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = cavalry_technology
+	}
+}
+}
+
+shared_focus = {
+id = train_spellcasters
+icon = GFX_focus_generic_socialist_science
+cost = 5.00
+prerequisite = {
+	focus = infantry_training
+}
+relative_position_id = infantry_training
+x = -2
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = mage_technology
+	}
+}
+}
+
+
+shared_focus = {
+id = train_archers
+icon = GFX_focus_generic_air_defense
+cost = 5.00
+prerequisite = {
+	focus = infantry_training
+}
+relative_position_id = infantry_training
+x = 0
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = archer_technology
+	}
+}
+}
+
+shared_focus = {
+id = train_knights
+icon = GFX_goal_generic_cavalry
+cost = 5.00
+prerequisite = {
+	focus = cavalry_training
+}
+relative_position_id = cavalry_training
+x = 0
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = knight_technology
+	}
+}
+}
+
+
+shared_focus = {
+id = train_mounted_footmen
+icon = GFX_goal_generic_cavalry
+cost = 5.00
+prerequisite = {
+	focus = cavalry_training
+}
+relative_position_id = cavalry_training
+x = 2
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = mounted_footman_technology
+	}
+}
+}
+
+shared_focus = {
+id = support_units
+icon = GFX_goal_generic_more_territorial_claims
+cost = 5.00
+prerequisite = {
+	focus = train_archers
+	focus = train_spellcasters
+}
+relative_position_id = train_archers
+x = -1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = support_technology
+	}
+}
+}
+
+shared_focus = {
+id = siege_weapons
+icon = GFX_goal_generic_army_artillery2
+cost = 5.00
+prerequisite = {
+	focus = infantry_training
+	focus = cavalry_training
+}
+relative_position_id = army_training
+x = 0
+y = 3
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = catapult_technology
+	}
+}
+}
+
+shared_focus = {
+id = improved_breeding_methods
+icon = GFX_goal_generic_cavalry
+cost = 5.00
+prerequisite = {
+	focus = train_knights
+	focus = train_mounted_footmen
+}
+relative_position_id = train_knights
+x = 1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = horse_technology
+	}
+}
+}
+
+shared_focus = {
+id = armor_production
+icon = GFX_goal_generic_defence
+cost = 5.00
+prerequisite = {
+	focus = siege_weapons
+}
+prerequisite = {
+	focus = support_units
+}
+relative_position_id = siege_weapons
+x = -1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = armor_technology
+	}
+}
+}
+
+shared_focus = {
+id = sword_production
+icon = GFX_goal_generic_major_war
+cost = 5.00
+prerequisite = {
+	focus = siege_weapons
+}
+prerequisite = {
+	focus = improved_breeding_methods
+}
+relative_position_id = siege_weapons
+x = 1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = sword_technology
+	}
+}
+}
+
+shared_focus = {
+id = train_heroic_units
+icon = GFX_goal_generic_special_forces
+cost = 5.00
+prerequisite = {
+	focus = sword_production
+}
+prerequisite = {
+	focus = armor_production
+}
+relative_position_id = siege_weapons
+x = 0
+y = 2
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = altar_technology
+	}
+}
+}
+
+shared_focus = {
+id = modern_doctrine
+icon = GFX_goal_generic_occupy_states_ongoing_war
+cost = 5.00
+prerequisite = {
+	focus = train_heroic_units
+}
+relative_position_id = train_heroic_units
+x = 0
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+	bonus = 1
+	uses = 1
+	category = land_doctrine
+	}
+}
+}
+
+shared_focus = {
+id = legendary_soldiers
+icon = GFX_goal_generic_attack_allies
+cost = 5.00
+prerequisite = {
+	focus = modern_doctrine
+}
+mutually_exclusive = {
+	focus = strength_in_numbers
+}
+relative_position_id = modern_doctrine
+x = -1
+y = 1
+completion_reward = {
+	add_ideas = generic_specialized_troops_idea
+	add_tech_bonus = {
+	bonus = 1
+	uses = 2
+	category = altar_technology
+}
+}
+
+}
+shared_focus = {
+id = strength_in_numbers
+icon = GFX_goal_tfv_can_forced_quebec_conscription
+cost = 5.00
+prerequisite = {
+	focus = modern_doctrine
+}
+mutually_exclusive = {
+	focus = legendary_soldiers
+}
+relative_position_id = modern_doctrine
+x = 1
+y = 1
+completion_reward = {
+	add_ideas = generic_strength_in_numbers_idea
+}
+}
+
+# NAVY TREE
+
+shared_focus = {
+id = naval_ambitions
+icon = GFX_goal_generic_build_navy
+cost = 5.00
+prerequisite = {
+	focus = arming_the_nation
+}
+relative_position_id = arming_the_nation
+x = 6
+y = 1
+completion_reward = {
+	navy_experience = 15
+	add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = naval_technology
+	}
+}
+}
+
+shared_focus = {
+id = build_dockyard_1
+icon = GFX_goal_generic_construct_naval_dockyard
+cost = 5.00
+prerequisite = {
+	focus = naval_ambitions
+}
+relative_position_id = naval_ambitions
+x = 0
+y = 1
+completion_reward = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = dockyard
+				size > 0
+				include_locked = yes
+			}
+			OR = {
+				is_in_home_area = yes
+				NOT = {
+					owner = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 0
+								include_locked = yes
+							}
+							is_in_home_area = yes
+						}
+					}
+				}
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+}
+
+shared_focus = {
+id = improving_small_frames
+icon = GFX_goal_generic_navy_submarine
+cost = 5.00
+prerequisite = {
+	focus = build_dockyard_1
+}
+relative_position_id = build_dockyard_1
+x = -1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = small_frame_technology
+	}
+}
+}
+
+shared_focus = {
+id = improving_large_frames
+icon = GFX_goal_generic_navy_battleship
+cost = 5.00
+prerequisite = {
+	focus = build_dockyard_1
+}
+relative_position_id = build_dockyard_1
+x = 1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = large_frame_technology
+	}
+}
+}
+
+shared_focus = {
+id = build_dockyard_2
+icon = GFX_goal_generic_construct_naval_dockyard
+cost = 5.00
+prerequisite = {
+	focus = improving_small_frames
+}
+prerequisite = {
+	focus = improving_large_frames
+}
+relative_position_id = build_dockyard_1
+x = 0
+y = 2
+completion_reward = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = dockyard
+				size > 0
+				include_locked = yes
+			}
+			OR = {
+				is_in_home_area = yes
+				NOT = {
+					owner = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 0
+								include_locked = yes
+							}
+							is_in_home_area = yes
+						}
+					}
+				}
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+}
+
+shared_focus = {
+id = better_cannons
+icon = GFX_goal_generic_air_naval_bomber
+cost = 5.00
+prerequisite = {
+	focus = build_dockyard_2
+}
+relative_position_id = build_dockyard_2
+x = -2
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 0.50
+		uses = 1
+		category = naval_cannon_technology
+	}
+}
+}
+
+shared_focus = {
+id = naval_strategy
+icon = GFX_goal_generic_navy_doctrines_tactics
+cost = 5.00
+prerequisite = {
+	focus = build_dockyard_2
+}
+relative_position_id = build_dockyard_2
+x = 0
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 0.50
+		uses = 1
+		category = naval_doctrine
+	}
+}
+}
+
+shared_focus = {
+id = reinforced_hulls
+icon = GFX_focus_generic_coastal_fort
+cost = 5.00
+prerequisite = {
+	focus = build_dockyard_2
+}
+relative_position_id = build_dockyard_2
+x = 2
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 0.50
+		uses = 1
+		category = reinforced_frames_technology
+	}
+}
+}
+
+shared_focus = {
+id = small_frame_focus
+icon = GFX_goal_generic_navy_submarine
+cost = 5.00
+mutually_exclusive = {
+	focus = large_frame_focus
+}
+prerequisite = {
+	focus = better_cannons
+}
+prerequisite = {
+	focus = naval_strategy
+}
+prerequisite = {
+	focus = reinforced_hulls
+}
+relative_position_id = naval_strategy
+x = -1
+y = 1
+completion_reward = {
+	add_ideas = generic_small_frame_focus_idea
+	add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = small_frame_technology
+	}
+}
+}
+
+shared_focus = {
+id = large_frame_focus
+icon = GFX_goal_generic_navy_battleship
+cost = 5.00
+mutually_exclusive = {
+	focus = small_frame_focus
+}
+prerequisite = {
+	focus = better_cannons
+}
+prerequisite = {
+	focus = naval_strategy
+}
+prerequisite = {
+	focus = reinforced_hulls
+}
+relative_position_id = naval_strategy
+x = 1
+y = 1
+completion_reward = {
+	add_ideas = generic_large_frame_focus_idea
+	add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = large_frame_technology
+	}
+}
+}
+
+shared_focus = {
+id = crew_training
+icon = GFX_goal_generic_occupy_states_coastal
+cost = 5.00
+prerequisite = {
+	focus = small_frame_focus
+	focus = large_frame_focus
+}
+relative_position_id = small_frame_focus
+x = -1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = naval_academy_technology
+	}
+}
+}
+
+shared_focus = {
+id = improve_transportation
+icon = GFX_goal_generic_navy_doctrines_tactics
+cost = 5.00
+prerequisite = {
+	focus = small_frame_focus
+	focus = large_frame_focus
+}
+relative_position_id = naval_strategy
+x = 0
+y = 2
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = naval_transport_technology
+	}
+}
+}
+
+shared_focus = {
+id = better_ship_equipment
+icon = GFX_goal_generic_navy_cruiser
+cost = 5.00
+prerequisite = {
+	focus = small_frame_focus
+	focus = large_frame_focus
+}
+relative_position_id = large_frame_focus
+x = 1
+y = 1
+completion_reward = {
+	add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = naval_mines_technology
+		category = depth_charge_technology
+		category = torpedo_technology
+	}
+}
+}
+
+# AIR TREE
+
+shared_focus = {
+	id = to_the_skies
+	icon = GFX_goal_continuous_boost_freedom
+	cost = 5.00
+	prerequisite = {
+		focus = arming_the_nation
+	}
+	relative_position_id = arming_the_nation
+	x = -7
+	y = 1
+	completion_reward = {
+		air_experience = 15
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = air_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = construct_aviaries
+	icon = GFX_goal_generic_air_fighter
+	cost = 5.00
+	prerequisite = {
+		focus = to_the_skies
+	}
+	available = {
+		has_tech = aviary_tech
+	}
+	relative_position_id = to_the_skies
+	x = -1
+	y = 1
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = air_base
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = air_base
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = air_base
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = air_base
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = construct_guard_towers
+	icon = GFX_goal_generic_construct_military
+	cost = 5.00
+	prerequisite = {
+		focus = to_the_skies
+	}
+	relative_position_id = to_the_skies
+	x = 1
+	y = 1
+	available = {
+		has_tech = guard_tower_1
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = anti_air_building
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = anti_air_building
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = anti_air_building
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = anti_air_building
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = anti_air_building
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = anti_air_building
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = fighter_improvements
+	icon = GFX_focus_jap_zero
+	cost = 5.00
+	prerequisite = {
+		focus = construct_aviaries
+	}
+	prerequisite = {
+		focus = construct_guard_towers
+	}
+	relative_position_id = construct_aviaries
+	x = -1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = fighter_technology
+		}
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = cas_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = rider_training
+	icon = GFX_focus_gryphons
+	cost = 5.00
+	prerequisite = {
+		focus = construct_aviaries
+	}
+	relative_position_id = to_the_skies
+	x = 0
+	y = 2
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = air_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = bomber_improvements
+	icon = GFX_goal_generic_air_naval_bomber
+	cost = 5.00
+	prerequisite = {
+		focus = construct_aviaries
+	}
+	prerequisite = {
+		focus = construct_guard_towers
+	}
+	relative_position_id = construct_guard_towers
+	x = 1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = bomber_technology
+		}
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = naval_bomber_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = fighting_focus
+	icon = GFX_goal_generic_air_fighter
+	cost = 5.00
+	prerequisite = {
+		focus = rider_training
+	}
+	prerequisite = {
+		focus = fighter_improvements
+	}
+	mutually_exclusive = {
+		focus = bombing_focus
+	}
+	relative_position_id = fighter_improvements
+	x = 1
+	y = 1
+	completion_reward = {
+		add_ideas = generic_fighting_focus_idea
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = fighter_technology
+		}
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = cas_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = bombing_focus
+	icon = GFX_goal_generic_occupy_start_war
+	cost = 5.00
+	prerequisite = {
+		focus = rider_training
+	}
+	prerequisite = {
+		focus = bomber_improvements
+	}
+	mutually_exclusive = {
+		focus = fighting_focus
+	}
+	relative_position_id = bomber_improvements
+	x = -1
+	y = 1
+	completion_reward = {
+		add_ideas = generic_bombing_focus_idea
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = bomber_technology
+		}
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = naval_bomber_technology
+		}
+	}
+}
+
+shared_focus = {
+	id = more_aviaries
+	icon = GFX_goal_generic_air_bomber
+	cost = 5.00
+	prerequisite = {
+		focus = fighting_focus
+		focus = bombing_focus
+	}
+	available = {
+		has_tech = aviary_tech
+	}
+	relative_position_id = fighting_focus
+	x = -1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = air_technology
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = air_base
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = air_base
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = air_base
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = air_base
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = further_training
+	icon = GFX_focus_gryphons
+	cost = 5.00
+	prerequisite = {
+		focus = fighting_focus
+		focus = bombing_focus
+	}
+	relative_position_id = rider_training
+	x = 0
+	y = 2
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = air_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = improving_guard_towers
+	icon = GFX_goal_generic_construct_military
+	cost = 5.00
+	prerequisite = {
+		focus = fighting_focus
+		focus = bombing_focus
+	}
+	relative_position_id = bombing_focus
+	x = 1
+	y = 1
+	available = {
+		has_tech = scout_tower_1
+	}
+
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 1
+			category = guard_tower_technology
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = anti_air_building
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = anti_air_building
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = anti_air_building
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = anti_air_building
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = anti_air_building
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = anti_air_building
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = focus_on_quality
+	icon = GFX_goal_generic_air_doctrine
+	cost = 5.00
+	prerequisite = {
+		focus = more_aviaries
+	}
+	prerequisite = {
+		focus = further_training
+	}
+	prerequisite = {
+		focus = improving_guard_towers
+	}
+	mutually_exclusive = {
+		focus = focus_on_quantity
+	}
+	relative_position_id = further_training
+	x = -1
+	y = 1
+	completion_reward = {
+		add_ideas = generic_focus_on_quality_idea
+	}
+}
+
+shared_focus = {
+	id = focus_on_quantity
+	icon = GFX_goal_generic_air_doctrine
+	cost = 5.00
+	prerequisite = {
+		focus = more_aviaries
+	}
+	prerequisite = {
+		focus = further_training
+	}
+	prerequisite = {
+		focus = improving_guard_towers
+	}
+	mutually_exclusive = {
+		focus = focus_on_quality
+	}
+	relative_position_id = further_training
+	x = 1
+	y = 1
+	completion_reward = {
+		add_ideas = generic_focus_on_quantity_idea
+	}
+}

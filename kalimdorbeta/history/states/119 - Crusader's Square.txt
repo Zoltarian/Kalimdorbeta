@@ -1,0 +1,43 @@
+
+state={
+	id=119
+	name="STATE_119"
+	resources={
+		mana=42.000
+	}
+
+	history={
+		
+		victory_points = {
+			4457 25 
+		}
+
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		4457 4458 4465 5431 
+	}
+	manpower=82750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

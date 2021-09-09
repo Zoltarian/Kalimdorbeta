@@ -1,0 +1,34 @@
+
+state={
+	id=1107
+	name="STATE_1107"
+	resources = {
+		eggs=10
+		wheat=9
+		ores=3
+		mana=4
+	}
+
+	history={
+		owner = HAS
+		victory_points = {
+			11287 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = HAS
+
+	}
+
+	provinces={
+		10826 11262 11267 11272 11277 11287 11291 11294 11310 11312 11315 11317
+	}
+	manpower=44000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

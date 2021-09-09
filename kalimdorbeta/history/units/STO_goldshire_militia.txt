@@ -1,0 +1,62 @@
+﻿division_template = {
+	name = "Goldshire Militia"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 2 y = 0 }
+		archer = { x = 2 y = 1 }
+		archer = { x = 2 y = 2 }
+
+	}
+	priority = 1
+}
+
+
+
+units = {
+
+########################
+#stormwind
+########################
+
+	division = {
+		name = "Golshire Militia"
+		location = 2388
+		division_template = "Goldshire Militia"
+		start_experience_factor = 0.3
+	}
+		
+	division = {
+		name = "Goldshire Militia"
+		location = 2487
+		division_template = "Goldshire Militia"
+		start_experience_factor = 0.2
+	}
+		
+	division = {
+		name = "Goldshire Militia"
+		location = 811
+		division_template = "Goldshire Militia"
+		start_experience_factor = 0.2
+	}
+		
+	division = {
+		name = "Goldshire Militia"
+		location = 2489
+		division_template = "Goldshire Militia"
+		start_experience_factor = 0.2
+	}
+		
+	division = {
+		name = "Goldshire Militia"
+		location = 2378
+		division_template = "Goldshire Militia"
+		start_experience_factor = 0.2
+	}	
+	
+}

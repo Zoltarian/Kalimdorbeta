@@ -1,0 +1,78 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Northern Lapadis Fleet"			
+		naval_base = 5271
+		task_force = {
+			name = "Northern Lapadis Fleet"			
+			location = 5271 #island of dr lapadis
+			
+			ship = {
+				name = "1st Lapadis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Lapadis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Lapadis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Lapadis Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Lapadis Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Lapadis Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Lapadis Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Lapadis Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+	fleet = {				
+		name = "Southern Lapadis Fleet"			
+		naval_base = 5642
+		task_force = {
+			name = "Southern Lapadis Fleet"			
+			location = 5642 #gilijims isle
+			
+			ship = {
+				name = "4th Lapadis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Lapadis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "6th Lapadis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+}

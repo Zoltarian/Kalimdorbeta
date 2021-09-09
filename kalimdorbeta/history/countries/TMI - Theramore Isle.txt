@@ -1,0 +1,85 @@
+﻿capital = 10
+
+oob = "TMI_592"
+
+set_naval_oob = "TMI_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	human_primary_race
+	primary_trait_diplomatic
+	primary_trait_human_spirit
+	primary_trait_perception
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+
+617.1.1 = {
+	# Maybe move to earlier start date
+	set_politics = {
+		ruling_party = alliance
+		last_election = "616.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+	    alliance = 70
+	    horde = 0
+	    death = 0
+	    fel = 0
+	    old_gods = 0
+	    titans = 0
+	    neutral = 30
+	}
+}
+
+create_country_leader = {
+	name = "Jaina Proudmoore"
+	desc = "POLITICS_JAINA_PROUDMOORE_DESC"
+	picture = "jaina.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jaina Proudmoore"
+	desc = "POLITICS_JAINA_PROUDMOORE_DESC"
+	picture = "jaina.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

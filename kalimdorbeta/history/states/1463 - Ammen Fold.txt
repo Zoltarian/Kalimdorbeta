@@ -1,0 +1,32 @@
+
+state={
+	id=1463
+	name="STATE_1463"
+	resources={
+		wood=1
+		oil=3
+		ores=2
+	}
+
+	history={
+		owner = SIL
+		victory_points = {
+			13671 5 
+		}
+		buildings = {
+			infrastructure = 2
+			13671 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SIL
+
+	}
+
+	provinces={
+		5756 12962 13632 13650 13659 13671 
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

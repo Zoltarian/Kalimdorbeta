@@ -1,0 +1,38 @@
+
+state={
+	id=1328
+	name="STATE_1328"
+	resources={
+		wood = 6
+		mana = 16
+		eggs = 10
+		wheat = 12
+	}
+
+	history={
+		owner = BDT
+		add_core_of = BDT
+		victory_points = {
+			12372 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+		}
+
+		617.1.1 = {
+			owner = KAL
+			controller = KAL
+			add_core_of = KAL
+		}
+	}
+
+	provinces={
+		12020 12347 12357 12372 12373 12390 12394 12398 12421
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,45 @@
+﻿division_template = {
+	name = "Human Volunteers"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		
+	}
+	
+#	support = {
+#       hoa_healer = { x = 0 y = 0 }
+#	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "1st Human Volunteers"
+		location = 4026
+		division_template = "Human Volunteers"
+		start_experience_factor = 0.1
+		}
+		
+	division = {
+		name = "2nd Human Volunteers"
+		location = 4026
+		division_template = "Human Volunteers"
+		start_experience_factor = 0.1
+		}
+
+	division = {
+		name = "3rd Human Volunteers"
+		location = 4026
+		division_template = "Human Volunteers"
+		start_experience_factor = 0.1
+		}
+		
+	
+
+}

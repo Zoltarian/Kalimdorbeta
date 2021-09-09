@@ -1,0 +1,34 @@
+
+state={
+	id=277
+	name="STATE_277" #Stranglethorn Quarry/Mosh'Ogg Ogre Mound
+	resources={
+		gunpowder=22.000
+	}
+
+	history={
+		
+		victory_points = {
+			2699 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = SKU
+
+		596.1.1 = {
+			owner = MOC
+			controller = MOC
+			add_core_of = MOC
+		}
+	}
+
+	provinces={
+		2699 2700 2706 2707 2708 5617
+	}
+	manpower=20525
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

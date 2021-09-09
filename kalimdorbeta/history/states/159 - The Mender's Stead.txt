@@ -1,0 +1,37 @@
+
+state={
+	id=159
+	name="STATE_159"
+
+	history={
+		
+		victory_points = {
+			3441 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		639 3429 3432 3434 3435 3438 3441 3447 3450 
+	}
+	manpower=8125
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,45 @@
+horde_generic_historical = {
+	name = "Horde historical plan"
+	desc = "Essentially historical behaviour for general horde clans, not THC, FWC, BRC, or TSC"
+
+	enable = {
+		OR = {
+			has_idea = orc_primary_race
+			has_idea = ogre_primary_race
+			has_idea = pale_orc_primary_race
+			has_idea = forest_troll_primary_race
+			tag = STC
+			tag = BOO
+		}
+		is_historical_focus_on = yes
+		NOT = {
+			tag = BRC
+		}
+	}
+
+	ai_national_focuses = {
+		pick_a_side
+		support_blackhand
+		support_the_horde
+		horde_demand_respect
+		prove_our_strength
+		horde_wartime_fervour
+		horde_peacetime_preparations
+		horde_our_final_fate
+		horde_remain_with_blackrock
+	}
+	
+	focus_factors = {
+		support_the_alliance = 0
+		stay_neutral = 0
+		serving_higher_powers = 0
+	}
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}
+

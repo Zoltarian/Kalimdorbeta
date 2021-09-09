@@ -1,0 +1,32 @@
+
+state={
+	id=1574
+	name="STATE_1574"
+
+	history={
+		
+		add_core_of = IRO
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		596.1.1 = {
+			
+			controller = BHC
+			add_core_of = BHC
+		}
+
+		600.1.1 = {
+			
+			remove_core_of = BHC
+		}
+	}
+
+	provinces={
+		3507 3517 3524 5553 5874 5888
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,242 @@
+﻿division_template = {
+	name = "Stormreaver Grunts"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Stormreaver Spearman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Stormreaver Archers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Stormreaver Catapults"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		catapult = { x = 1 y = 0 }
+		catapult = { x = 1 y = 1 }
+		catapult = { x = 2 y = 0 }
+		catapult = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Stormreaver Raiders"
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st Stormreaver Grunts"
+		location = 2405
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Stormreaver Grunts"
+		location = 2395
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Stormreaver Grunts"
+		location = 2387
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Stormreaver Grunts"
+		location = 2441
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Stormreaver Grunts"
+		location = 809
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Stormreaver Grunts"
+		location = 2388
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Stormreaver Grunts"
+		location = 2470
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Stormreaver Grunts"
+		location = 2487
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9th Stormreaver Grunts"
+		location = 805
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10th Stormreaver Grunts"
+		location = 2453
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "11th Stormreaver Grunts"
+		location = 882
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "12th Stormreaver Grunts"
+		location = 811
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "13th Stormreaver Grunts"
+		location = 2396
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "14th Stormreaver Grunts"
+		location = 813
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "15th Stormreaver Grunts"
+		location = 2427
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "16th Stormreaver Grunts"
+		location = 2323
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "17th Stormreaver Grunts"
+		location = 2363
+		division_template = "Stormreaver Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Stormreaver Archers"
+		location = 2307
+		division_template = "Stormreaver Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Stormreaver Archers"
+		location = 2332
+		division_template = "Stormreaver Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Stormreaver Archers"
+		location = 2197
+		division_template = "Stormreaver Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Stormreaver Archers"
+		location = 2346
+		division_template = "Stormreaver Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Stormreaver Archers"
+		location = 2208
+		division_template = "Stormreaver Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Stormreaver Spearman"
+		location = 2208
+		division_template = "Stormreaver Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Stormreaver Spearman"
+		location = 2316
+		division_template = "Stormreaver Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Stormreaver Spearman"
+		location = 2319
+		division_template = "Stormreaver Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Stormreaver Spearman"
+		location = 2152
+		division_template = "Stormreaver Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Stormreaver Spearman"
+		location = 2067
+		division_template = "Stormreaver Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Stormreaver Raiders"
+		location = 2208
+		division_template = "Stormreaver Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Stormreaver Raiders"
+		location = 2071
+		division_template = "Stormreaver Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Stormreaver Raiders"
+		location = 2080
+		division_template = "Stormreaver Raiders"
+		start_experience_factor = 0.2
+	}
+}

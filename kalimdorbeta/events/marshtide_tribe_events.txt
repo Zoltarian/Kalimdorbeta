@@ -1,0 +1,86 @@
+﻿###########################
+#Marshtide Murlocs
+###########################
+
+add_namespace = marshtide_tribe
+
+#marshtide_tribe declared war on us
+country_event = {
+	id = marshtide_tribe.1
+	title = marshtide_tribe.1.t
+	desc = marshtide_tribe.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = marshtide_tribe.1.option.1
+
+	}
+
+}
+
+#win dragonmaw war
+country_event = {
+	id = marshtide_tribe.2
+	title = marshtide_tribe.2.t
+	desc = marshtide_tribe.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = marshtide_tribe.2.option.1
+		
+		MTT = {
+			transfer_state = 402
+		}
+		402 = {
+			add_core_of = MTT
+		}
+
+	}
+
+}
+
+#bog beast old god corruption
+country_event = {
+	id = marshtide_tribe.3
+	title = marshtide_tribe.3.t
+	desc = marshtide_tribe.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = marshtide_tribe.3.option.1
+		
+		TSW = {	
+			puppet = MTT
+		}
+		
+	}
+	
+    option = {
+        name = marshtide_tribe.3.option.1
+		
+			start_civil_war = {
+				ideology = old_gods
+				size = 0.5
+				capital = 401
+				states = { 401 }
+			}
+		
+		TSW = {
+			declare_war_on = { target = MTT type = annex_everything }
+		}
+
+	}
+
+}

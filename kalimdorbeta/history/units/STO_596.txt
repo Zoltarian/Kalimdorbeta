@@ -1,0 +1,113 @@
+﻿division_template = {
+	name = "Hillsbrad Guard"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hillsbrad Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Scout Cavalry"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Durnholde Knights"
+
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+########################
+#stormwind
+########################
+	
+	division = {
+		name = "1st Durnholde Knights"
+		location = 1937
+		division_template = "Durnholde Knights"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Scout Cavalry"
+		location = 1806
+		division_template = "Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Scout Cavalry"
+		location = 1807
+		division_template = "Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Hillsbrad Guard"
+		location = 5141
+		division_template = "Hillsbrad Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Hillsbrad Guard"
+		location = 1820
+		division_template = "Hillsbrad Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Hillsbrad Archers"
+		location = 1783
+		division_template = "Hillsbrad Archers"
+		start_experience_factor = 0.2
+	}
+	
+
+
+	
+}
+

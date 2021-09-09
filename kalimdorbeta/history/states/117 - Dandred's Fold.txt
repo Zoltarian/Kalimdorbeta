@@ -1,0 +1,35 @@
+
+state={
+	id=117
+	name="STATE_117"
+	resources={
+		mounts=36.000
+	}
+
+	history={
+		
+		victory_points = {
+			7444 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = ALT
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+
+		}
+
+	}
+
+	provinces={
+		596 1891 1897 1910 1912 1913 5113 5191 5194 7444 
+	}
+	manpower=59400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

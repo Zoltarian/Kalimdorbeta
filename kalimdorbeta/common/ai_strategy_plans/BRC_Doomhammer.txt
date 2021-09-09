@@ -1,0 +1,25 @@
+brc_doomhammer_nonhistorical = {
+	name = "BRC goes doomhammer"
+	desc = "designed for the special gamerule where BRC loves doomhammer"
+
+	enable = {
+		original_tag = BRC
+		has_game_rule = {
+			rule = BRC_ai_behavior
+			option = WARCHIEF_DOOMHAMMER
+		}
+	}
+
+	ai_national_focuses = {
+		# grab as fast as you can if available
+		BRC_doomhammers_horde
+		BRC_the_pink_skins
+		BRC_found_stonard
+		BRC_develop_the_swamps
+		BRC_the_pink_skins
+		BRC_send_scouts_north
+		BRC_raid_border_settlements
+		BRC_dawn_of_the_first_war	
+	}
+}
+

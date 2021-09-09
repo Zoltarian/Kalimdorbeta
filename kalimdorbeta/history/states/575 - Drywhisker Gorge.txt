@@ -1,0 +1,33 @@
+
+state={
+	id=575
+	name="STATE_575"
+
+	resources={
+		ores=18
+		gunpowder=12
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = STR
+		add_core_of = WBT
+
+		617.1.1 = {
+			owner = DWK
+			controller = DWK
+			add_core_of = DWK
+		}
+	}
+
+	provinces={
+		1148 2051 2056 2057 2059
+	}
+	manpower=6775
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

@@ -1,0 +1,37 @@
+units = {
+
+  ### Naval OOB ###
+  fleet = {
+    name = "Goblin Destroyers"
+    naval_base = 3487
+    task_force = {
+      name = "Goblin Destroyers"
+      location = 3487 #hearthglen port
+
+      ship = {
+        name = "1st Goblin Destroyer"
+        definition = destroyer
+        equipment = { destroyer_equipment_2 = { amount = 1 owner = HEA } }
+      }
+
+      ship = {
+        name = "2nd Goblin Destroyer"
+        definition = destroyer
+        equipment = { destroyer_equipment_2 = { amount = 1 owner = HEA } }
+      }
+
+      ship = {
+        name = "3rd Goblin Destroyer"
+        definition = destroyer
+        equipment = { destroyer_equipment_2 = { amount = 1 owner = HEA } }
+      }
+
+      ship = {
+        name = "4th Goblin Destroyer"
+        definition = destroyer
+        equipment = { destroyer_equipment_2 = { amount = 1 owner = HEA } }
+      }
+
+    }
+  }
+}

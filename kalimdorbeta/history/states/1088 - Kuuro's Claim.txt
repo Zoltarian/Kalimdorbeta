@@ -1,0 +1,37 @@
+
+state={
+	id=1088
+	name="STATE_1088"
+	resources={
+		mana=8
+		ores=4
+		mounts=2
+	}
+
+	history={
+		
+		add_core_of = BWC
+
+		victory_points = {
+			10787 5
+		}
+
+		buildings = {
+			infrastructure = 4
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BWC
+		}
+	}
+
+	provinces={
+		829 6445 6607 10691 10692 10784 10787 10793 10794 10797
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

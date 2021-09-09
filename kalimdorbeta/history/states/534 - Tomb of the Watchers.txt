@@ -1,0 +1,39 @@
+
+state={
+	id=534
+	name="STATE_534"
+	resources={
+		mana=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			4819 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+		}
+
+		617.1.1 = {
+			owner = DBC
+			controller = DBC
+			add_core_of = DBC
+		}
+	}
+
+	provinces={
+		972 981 4810 4813 4819 4823 4835
+	}
+	manpower=10700
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

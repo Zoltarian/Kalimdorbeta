@@ -1,0 +1,37 @@
+
+state={
+	id=571
+	name="STATE_571"
+
+	history={
+		
+		victory_points = {
+			4084 10
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+			buildings = {
+				infrastructure = 2
+			}
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+		}
+	}
+
+	provinces={
+		907 908 4083 4084 4085 4086 6387
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

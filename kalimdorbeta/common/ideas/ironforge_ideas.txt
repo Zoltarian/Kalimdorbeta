@@ -1,0 +1,303 @@
+ideas = {
+
+	advisor = {
+	
+		IRO_brann_bronzebeard = {
+		
+			picture = IRO_brann_bronzebeard
+			
+			allowed = {
+				original_tag = IRO
+			}
+			
+			traits = { explorer_idea_3 }
+		
+		}
+		
+		IRO_grand_mason_marblesten = {
+		
+			picture = IRO_grand_mason_marblesten
+			
+			allowed = {
+				original_tag = IRO
+			}
+		
+			traits = { architect_idea_2 }
+			
+		}
+		
+		IRO_high_explorer_magellas = {
+		
+			picture = IRO_high_explorer_magellas
+			
+			allowed = {
+				original_tag = IRO
+			}
+		
+		}
+		
+		IRO_myolor_sunderfury = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = IRO
+			}
+		
+		}
+		
+		IRO_royal_historian_archesonus = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = IRO
+			}
+		
+		}
+		
+		IRO_advisor_belgrum = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = IRO
+			}
+			
+			#traits = { diplomat_idea_1 }
+		
+		}
+		
+		IRO_curator_thorius = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = IRO
+			}
+		
+		}
+		
+		IRO_dinita_sonemantle = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = IRO
+			}
+		
+		}
+	
+	}
+	
+	council_member = {
+
+	}
+	country = {
+	
+		IRO_madorans_legacy = {
+		
+			allowed = {
+				original_tag = IRO
+			}
+
+			removal_cost = -1
+			
+			picture = generic_race_dwarf
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+			}
+			
+		}
+		
+		IRO_stockpiling_for_war_idea = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+					footman = { build_cost_ic = -0.05 instant = yes }
+            }
+		}
+		IRO_tinkertown = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = { research_speed_factor = 0.05 }
+		}
+		IRO_human_refugees = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_race_human
+			modifier = { monthly_population = 0.05 }
+		}
+		IRO_preparing_for_the_storm_idea = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = { production_speed_buildings_factor = 0.1 }
+		}
+		IRO_in_defense_of_dun_morogh_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+		}
+		IRO_in_defense_of_dun_morogh_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		IRO_victory_in_the_khaz_modan = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+		IRO_in_defense_of_khaz_modan_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+		IRO_in_defense_of_khaz_modan_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_defence_factor = 0.08
+				army_attack_factor = 0.08
+			}
+		}
+		IRO_tinker_support = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = { research_speed_factor = 0.04 }
+		}
+		IRO_gnomish_tinkers_idea = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = { research_speed_factor = 0.08 }
+		}
+		IRO_wildhammer_riders_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+            equipment_bonus = {
+                fighter_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+            }
+		}
+		IRO_wildhammer_riders_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+            equipment_bonus = {
+                fighter_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+        	}
+		}
+		IRO_dwarven_unity_idea = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = { conscription = 0.04 }
+		}
+		IRO_desperate_defense_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+		IRO_desperate_defense_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+		}
+		IRO_thorium_brotherhood_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				pikeman_equipment = { build_cost_ic = -0.05 instant = yes }
+            }
+		}
+		IRO_thorium_brotherhood_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				pikeman_equipment = { build_cost_ic = -0.1 instant = yes }
+            }
+		}
+		IRO_hunters_of_loc_modan_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				archer_equipment = { build_cost_ic = -0.05 instant = yes }
+            }
+		}
+		IRO_hunters_of_loc_modan_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				archer_equipment = { build_cost_ic = -0.1 instant = yes }
+            }
+		}
+		IRO_redridge_refugees_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				footman = { build_cost_ic = -0.05 instant = yes }
+            }
+		}
+		IRO_redridge_refugees_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				footman = { build_cost_ic = -0.1 instant = yes }
+            }
+		}
+		IRO_push_them_back = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_attack_factor = 0.15
+			}
+		}
+	}
+}

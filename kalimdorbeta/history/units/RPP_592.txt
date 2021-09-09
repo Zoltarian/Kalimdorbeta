@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Riverpaw Outrunner"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1st Riverpaw Outrunner"
+		location = 2417
+		division_template = "Riverpaw Outrunner"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Riverpaw Outrunner"
+		location = 2417
+		division_template = "Riverpaw Outrunner"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Riverpaw Outrunner"
+		location = 799
+		division_template = "Riverpaw Outrunner"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Riverpaw Outrunner"
+		location = 2426
+		division_template = "Riverpaw Outrunner"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Riverpaw Outrunner"
+		location = 2439
+		division_template = "Riverpaw Outrunner"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Riverpaw Outrunner"
+		location = 2427
+		division_template = "Riverpaw Outrunner"
+		start_experience_factor = 0.2
+	}
+
+}

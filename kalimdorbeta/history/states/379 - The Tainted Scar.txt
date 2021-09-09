@@ -1,0 +1,49 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		mana=10.000
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			2871 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = TSC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = TSC
+
+		}
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+		}
+
+	}
+
+	provinces={
+		932 2855 2857 2862 2866 2871
+	}
+	manpower=31250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

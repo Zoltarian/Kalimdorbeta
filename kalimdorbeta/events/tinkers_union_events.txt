@@ -1,0 +1,36 @@
+﻿###########################
+# tinkers_union
+###########################
+
+add_namespace = tinkers_union
+
+#from STC_safeguard_the_tinkers_union (asking TIN to become puppet)
+country_event = {
+	id = tinkers_union.1
+	title = tinkers_union.1.t
+	desc = tinkers_union.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#accept
+  option = {
+    name = tinkers_union.1.option.1
+
+		STC = {
+			puppet = TIN
+
+			country_event = { id = steamwheedle.5 days = 1}
+		}
+	}
+
+	#refuse
+  option = {
+    name = tinkers_union.1.option.2
+
+		STC = { country_event = { id = steamwheedle.6 days = 1}}
+	}
+
+}

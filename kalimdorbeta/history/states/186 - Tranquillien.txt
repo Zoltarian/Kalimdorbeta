@@ -1,0 +1,31 @@
+
+state={
+	id=186
+	name="STATE_186"  #Sungraze Village /Tranquillien
+	resources={
+		wood=36.000
+	}
+
+	history={
+		
+		victory_points = {
+			4555 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		656 4543 4544 4555 4563 4572 4573 
+	}
+	manpower=35250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

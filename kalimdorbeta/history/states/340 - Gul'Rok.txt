@@ -1,0 +1,42 @@
+state={
+	id=340
+	name="STATE_340"
+	resources={
+		ores=6
+		oil=8
+        gunpowder=4
+	}
+
+	history={
+		
+		add_core_of = RWC
+
+		victory_points = {
+			10709 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			10805 = {
+				naval_base = 3
+			}
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = RWC
+		}
+	}
+
+	provinces={
+		6808 10676 10701 10705 10706 10709 10715 10716 10720 10805
+	}
+	manpower=85600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

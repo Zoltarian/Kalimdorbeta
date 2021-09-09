@@ -1,0 +1,19 @@
+﻿l_english:
+ HOA_WS_ZZZ:0 "[Root.GetNameDef]"
+ HOA_WS_ZZZ_desc:0 "You're playing as: §Y[Root.GetNameWithFlag]§!\n\nYour current leader is: §Y[Root.GetLeader]§!\n\nYou're bordered by: The xxx of the §R[STO.GetNameWithFlag]§!, the xxx of the §R[STO.GetNameWithFlag]§! and the §R[STO.GetNameWithFlag]§!\n\nYour race is: §G-§!\n\nYour religion is: §Y-§!\n\nYour government type is: §Y-§!"
+
+# Replace ZZZ and STO with applicable country tags.
+# Border nations should be formatted like this: ex. "The Dwarves of the [Dark Iron Clan], and [Ironforge], and the trolls of the [Frostmane Hold]." For nations with a singular leader (Medivh), ignore the racial tag.
+# Replace the faction section if the nation is not in a faction or modify it if they're only a member. "You're a member of (the) [Root.GetFactionName]"
+# The pre-history introduction section should be roughly 500 words or so. Reference the player directly such as 'My Liege' or 'Warchief'.
+
+# The History section has a variety of colors for different purposes.
+# §M§! for time; including dates, events, or just units in general like years
+# §G§! for races; use this only once per race
+# §Y§! for proper nouns; names of countries, leaders, etc. Only used for specifically named groups - '§YThe Church of the Holy Light§!' as opposed to 'the church.'
+# §R§! for villains/rivals; be sure to use the [ZZZ.GetNameWithFlag] tag when possible for countries.
+# §g§! for geographical locations; e.g. 'Khaz Modan,' 'Westfall.' Use political tags with §Y§! instead when appropriate - citizens of the §YKingdom of Lordaeron§! rather than the people of §gLordaeron§!. 
+# Use other colours if deemed appropriate, but be aware that some are unreadable like §b§! (black)
+
+# Consistency is key
+# If you have any questions be sure to contact me - ValianBlue#3492

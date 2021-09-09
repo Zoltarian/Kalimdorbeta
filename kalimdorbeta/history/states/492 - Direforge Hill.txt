@@ -1,0 +1,41 @@
+
+state={
+	id=492
+	name="STATE_492"
+	resources={
+		gunpowder=14.000
+	}
+
+	history={
+		
+		victory_points = {
+			3741 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			
+			controller = DIC
+			add_core_of = DIC
+
+		}
+
+	}
+
+	provinces={
+		1088 3721 3723 3726 3737 3741 3743 
+	}
+	manpower=9800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

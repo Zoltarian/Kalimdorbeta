@@ -1,0 +1,34 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Drekirjary Fleet"			
+		naval_base = 8464
+		task_force = {
+			name = "Drekirjary Fleet"			
+			location = 8464
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

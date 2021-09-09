@@ -1,0 +1,40 @@
+
+state={
+	id=802
+	name="STATE_802"
+	resources={
+		ores=16.000
+		gunpowder=48.000
+	}
+
+	history={
+		
+		victory_points = {
+			6219 20 
+		}
+		victory_points = {
+			6244 15 
+		}
+		victory_points = {
+			6256 5 
+		}
+		victory_points = {
+			6232 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = DIC
+
+	}
+
+	provinces={
+		6207 6219 6224 6232 6235 6236 6239 6242 6243 6244 6250 6256 6318 6337 
+	}
+	manpower=68000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

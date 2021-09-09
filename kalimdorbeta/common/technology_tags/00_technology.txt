@@ -1,0 +1,259 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_folders = {
+	
+	#generic folders
+	air_techs_folder = {
+		available = {
+			NOT = {
+				has_country_flag = dragon_technology
+			}
+		}
+	}
+	naval_folder
+	land_doctrine_folder
+	naval_doctrine_folder
+	air_doctrine_folder
+	
+	#human tech folders
+	human_administration_folder = {
+		available = {
+			NOT = {
+				OR = {
+					has_country_flag = orc_technology
+					has_country_flag = troll_technology
+					has_country_flag = dwarf_technology
+					has_country_flag = high_elf_technology
+					has_country_flag = gnoll_technology
+					has_country_flag = dragon_technology
+					original_tag = ROJ
+				}
+			}
+		}
+	}
+	human_infantry_folder = {
+		available = {
+			NOT = {
+				OR = {
+					has_country_flag = orc_technology
+					has_country_flag = troll_technology
+					has_country_flag = dwarf_technology
+					has_country_flag = high_elf_technology
+					has_country_flag = gnoll_technology
+					has_country_flag = dragon_technology
+					original_tag = ROJ
+				}
+			}
+		}
+	}
+	human_support_folder = {
+		available = {
+			NOT = {
+				OR = {
+					has_country_flag = orc_technology
+					has_country_flag = troll_technology
+					has_country_flag = dwarf_technology
+					has_country_flag = high_elf_technology
+					has_country_flag = gnoll_technology
+					has_country_flag = dragon_technology
+					original_tag = ROJ
+				}
+			}
+		}
+	}
+	human_cavalry_folder = {
+		available = {
+			NOT = {
+				OR = {
+					has_country_flag = orc_technology
+					has_country_flag = troll_technology
+					has_country_flag = dwarf_technology
+					has_country_flag = high_elf_technology
+					has_country_flag = gnoll_technology
+					has_country_flag = dragon_technology
+					original_tag = ROJ
+				}
+			}
+		}
+	}
+	human_siege_weapons_folder = {
+		available = {
+			NOT = {
+				OR = {
+					has_country_flag = orc_technology
+					has_country_flag = troll_technology
+					has_country_flag = dwarf_technology
+					has_country_flag = high_elf_technology
+					has_country_flag = gnoll_technology
+					has_country_flag = dragon_technology
+					original_tag = ROJ
+				}
+			}
+		}
+	}
+
+	#orcs
+	orc_administration_folder = {
+		available = {
+			has_country_flag = orc_technology
+		}
+	}
+	orc_infantry_folder = {
+		available = {
+			has_country_flag = orc_technology
+		}
+	}
+	orc_cavalry_folder = {
+		available = {
+			has_country_flag = orc_technology
+		}
+	}
+	orc_siege_weapons_folder = {
+		available = {
+			has_country_flag = orc_technology
+		}
+	}
+	orc_support_folder = {
+		available = {
+			has_country_flag = orc_technology
+		}
+	}
+
+	#troll
+	troll_administration_folder = {
+		available = {
+			has_country_flag = troll_technology
+		}
+	}
+	troll_infantry_folder = {
+		available = {
+			has_country_flag = troll_technology
+		}
+	}
+	troll_cavalry_folder = {
+		available = {
+			has_country_flag = troll_technology
+		}
+	}
+	troll_siege_weapons_folder = {
+		available = {
+			has_country_flag = troll_technology
+		}
+	}
+	troll_support_folder = {
+		available = {
+			has_country_flag = troll_technology
+		}
+	}
+
+	#dwarf
+	dwarf_administration_folder = {
+		available = {
+			has_country_flag = dwarf_technology
+		}
+	}
+	dwarf_infantry_folder = {
+		available = {
+			has_country_flag = dwarf_technology
+		}
+	}
+	dwarf_cavalry_folder = {
+		available = {
+			has_country_flag = dwarf_technology
+		}
+	}
+	dwarf_siege_weapons_folder = {
+		available = {
+			has_country_flag = dwarf_technology
+		}
+	}
+	dwarf_support_folder = {
+		available = {
+			has_country_flag = dwarf_technology
+		}
+	}
+
+	#high_elf
+	high_elf_administration_folder = {
+		available = {
+			has_country_flag = high_elf_technology
+		}
+	}
+	high_elf_infantry_folder = {
+		available = {
+			has_country_flag = high_elf_technology
+		}
+	}
+	high_elf_cavalry_folder = {
+		available = {
+			has_country_flag = high_elf_technology
+		}
+	}
+	high_elf_siege_weapons_folder = {
+		available = {
+			has_country_flag = high_elf_technology
+		}
+	}
+	high_elf_support_folder = {
+		available = {
+			has_country_flag = high_elf_technology
+		}
+	}
+
+	#gnoll
+	gnoll_administration_folder = {
+		available = {
+			has_country_flag = gnoll_technology
+		}
+	}
+	gnoll_infantry_folder = {
+		available = {
+			has_country_flag = gnoll_technology
+		}
+	}
+	gnoll_cavalry_folder = {
+		available = {
+			has_country_flag = gnoll_technology
+		}
+	}
+	gnoll_siege_weapons_folder = {
+		available = {
+			has_country_flag = gnoll_technology
+		}
+	}
+	gnoll_support_folder = {
+		available = {
+			has_country_flag = gnoll_technology
+		}
+	}
+
+	#Dragons
+	dragon_administration_folder = {
+		available = {
+			has_country_flag = dragon_technology
+		}
+	}
+	dragon_ground_folder = {
+		available = {
+			has_country_flag = dragon_technology
+		}
+	}
+    dragon_air_folder = {
+		available = {
+			has_country_flag = dragon_technology
+		}
+	}
+
+	#Realm of Jade
+	jade_administration_folder = {
+		available = {
+			original_tag = ROJ
+		}
+	}
+	jade_ground_folder = {
+		available = {
+			original_tag = ROJ
+		}
+	}
+}

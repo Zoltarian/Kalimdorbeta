@@ -1,0 +1,213 @@
+spriteTypes = {
+
+####################################################
+# UNITS LARGE (*_icon_medium)
+####################################################
+
+	#Default / Human units
+	spriteType = { name = "GFX_unit_militia_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_militia_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_footman_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_footman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_pikeman_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_pikeman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_archer_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_archer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mage_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_mage_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_knight_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_knight_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mounted_footman_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_mounted_footman_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_catapult_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_catapult_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_royal_guard_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_royal_guard_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_paladin_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_paladin_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_arch_mage_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_arch_mage_icon.dds" noOfFrames = 1 }
+
+	### Human support units
+
+	spriteType = { name = "GFX_unit_archer_support_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_archer_support_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mage_support_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_mage_support_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_catapult_support_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_catapult_support_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_peasant_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_peasant_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_blacksmith_unit_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_blacksmith_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_rogue_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_rogue_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_captain_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_captain_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_guard_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_guard_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_priest_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_priest_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_supply_wagon_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_supply_wagon_icon.dds" noOfFrames = 1 }
+
+	#orc units
+	spriteType = { name = "GFX_unit_grunt_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_grunt_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_spearman_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_spearman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dire_orc_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_dire_orc_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_warlock_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_warlock_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_shaman_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_shaman_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_dire_wolf_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_dire_wolf_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_raider_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_raider_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_demolisher_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_demolisher_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_orc_catapult_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_orc_catapult_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_blade_master_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_blade_master_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_warlord_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_warlord_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_orc_death_knight_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_orc_death_knight_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_far_seer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_far_seer_icon.dds" noOfFrames = 1 }
+
+	### Orc support units
+	spriteType = { name = "GFX_unit_orc_catapult_support_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_orc_catapult_support_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_peon_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_peon_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_forge_master_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_forge_master_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_overseer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_overseer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_necrolyte_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_necrolyte_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_restoration_shaman_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_restoration_shaman_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_outrider_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_outrider_icon.dds" noOfFrames = 1 }
+	
+	#gnoll units
+	spriteType = { name = "GFX_unit_flailpaw_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_flailpaw_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_poacher_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_poacher_icon.dds" noOfFrames = 1 }
+
+	#dragon units
+	spriteType = { name = "GFX_unit_whelp_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_whelp_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_dragonspawn_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_sorceress_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_dragonspawn_sorceress_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_drakonid_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_drakonid_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragon_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_dragon_icon.dds" noOfFrames = 1 }
+
+	### dragom support units
+	#dragonman craftsman
+	#dragonman infiltrator
+	#support whelp
+	#dragonspawn lieutenant
+	#broodmother
+
+
+	#Realm of Jade units
+	spriteType = { name = "GFX_unit_jade_tiger_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_hoa_jade_tiger_icon.dds" noOfFrames = 2 }
+
+####################################################
+# UNITS SMALL/ON MAP COUNTERS (*_icon_medium_white)
+####################################################
+
+	#Default / Human units
+
+	spriteType = { name = "GFX_unit_militia_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_militia_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_footman_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_footman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_pikeman_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_pikeman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_archer_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_archer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mage_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mage_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mounted_footman_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mounted_footman_icon.dds" noOfFrames = 1}
+	spriteType = { name = "GFX_unit_knight_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_knight_icon.dds" noOfFrames = 1 }
+
+
+	spriteType = { name = "GFX_unit_catapult_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_catapult_icon.dds" noOfFrames = 1}
+
+	spriteType = { name = "GFX_unit_royal_guard_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_royal_guard_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_paladin_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_paladin_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_arch_mage_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_arch_mage_icon.dds" noOfFrames = 1 }
+
+	#orc units
+	spriteType = { name = "GFX_unit_grunt_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_grunt_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_spearman_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_spearman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dire_orc_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dire_orc_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_warlock_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_warlock_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_shaman_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_shaman_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_dire_wolf_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dire_wolf_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_raider_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_raider_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_demolisher_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_demolisher_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_orc_catapult_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_orc_catapult_icon.dds" noOfFrames = 1 }
+
+
+	spriteType = { name = "GFX_unit_blade_master_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_blade_master_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_warlord_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_warlord_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_orc_death_knight_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_orc_death_knight_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_far_seer_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_far_seer_icon.dds" noOfFrames = 1 }
+
+	#gnoll units
+	spriteType = { name = "GFX_unit_flailpaw_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_flailpaw_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_poacher_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_poacher_icon.dds" noOfFrames = 1 }
+
+	#dragon units
+	spriteType = { name = "GFX_unit_whelp_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_whelp_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragonspawn_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_sorceress_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragonspawn_sorceress_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_drakonid_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_drakonid_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragon_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragon_icon.dds" noOfFrames = 1 }
+
+	#Realm of Jade units
+	spriteType = { name = "GFX_unit_jade_tiger_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_jade_tiger_icon.dds" noOfFrames = 2 }
+
+####################################################
+# TEXTICONS (*_icon_small)
+####################################################
+
+	#Default / Human units
+	spriteType = { name = "GFX_unit_militia_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_militia_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_footman_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_footman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_pikeman_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_pikeman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_archer_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_archer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mage_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mage_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mounted_footman_icon_small"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mounted_footman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_knight_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_knight_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_catapult_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_catapult_icon.dds" noOfFrames = 1}
+
+	spriteType = { name = "GFX_unit_royal_guard_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_royal_guard_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_paladin_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_paladin_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_arch_mage_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_arch_mage_icon.dds" noOfFrames = 1 }
+
+
+	#orc units
+	spriteType = { name = "GFX_unit_grunt_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_grunt_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_blade_master_icon_small"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_blade_master_icon.dds" noOfFrames = 1 }
+
+	#gnoll units
+	spriteType = { name = "GFX_unit_flailpaw_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_flailpaw_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_poacher_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_poacher_icon.dds" noOfFrames = 1 }
+
+	#dragon units
+	spriteType = { name = "GFX_unit_whelp_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_whelp_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragonspawn_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_sorceress_icon_small"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragonspawn_sorceress_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_drakonid_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_drakonid_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragon_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragon_icon.dds" noOfFrames = 1 }
+
+	#Realm of Jade units
+	spriteType = { name = "GFX_unit_jade_tiger_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_jade_tiger_icon.dds" noOfFrames = 2 }
+
+#############################################################################
+
+
+##########################################
+# ships
+##########################################
+
+	spriteType = { name = "GFX_unit_destroyer_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_destroyer.dds" }
+	spriteType = { name = "GFX_unit_frigate_icon_medium_white"							texturefile = "gfx/interface/counters/ships_small/onmap_light_cruiser.dds" }
+	spriteType = { name = "GFX_unit_dreadnaught_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_heavy_cruiser.dds" }
+	spriteType = { name = "GFX_unit_battleship_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_battleship.dds" }
+	spriteType = { name = "GFX_unit_command_ship_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_carrier.dds" }
+	spriteType = { name = "GFX_unit_submarine_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_submarine.dds" }
+
+############################################
+### On-map-counters for SHIPS - Inverted ###
+
+	spriteType = { name = "GFX_unit_destroyer_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_destroyer_inverted.dds" }
+	spriteType = { name = "GFX_unit_frigate_icon_medium_white"							texturefile = "gfx/interface/counters/ships_small/onmap_light_cruiser_inverted.dds" }
+	spriteType = { name = "GFX_unit_dreadnaught_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_heavy_cruiser_inverted.dds" }
+	spriteType = { name = "GFX_unit_battleship_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_battleship_inverted.dds" }
+	spriteType = { name = "GFX_unit_command_ship_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_carrier_inverted.dds" }
+	spriteType = { name = "GFX_unit_submarine_icon_medium_white"						texturefile = "gfx/interface/counters/ships_small/onmap_submarine_inverted.dds" }
+
+}

@@ -1,0 +1,927 @@
+####################################################################
+# Decisions to construct or reconstruct certains area (mainly ruins)
+# Mostly flavor
+####################################################################
+construction_decisions = {
+	rebuild_eldarath_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1375
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1375
+			controls_state = 1375
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1375
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = church
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+				set_state_name = "Eldarath"
+			}
+    	}
+	}
+
+	rebuild_temple_of_arkkoran_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1382
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1382
+			controls_state = 1382
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1382
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1382 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = church
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Arkkoran"
+			}
+    	}
+	}
+
+	rebuild_nordressa_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1378
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1378
+			controls_state = 1378
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1378
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1378 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = farm
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Nordressa Village"
+			}
+    	}
+	}
+
+	rebuild_eldrethar_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1324
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1324
+			controls_state = 1324
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1324
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1324 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Eldre'thar"
+			}
+    	}	
+	}
+
+	rebuild_constellas_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1421
+			controls_state = 1421
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1421
+			controls_state = 1421
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1421
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Constellas"
+			}
+    	}
+	}
+
+	#troll ruins
+	rebuild_noonshade_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			owns_state = 2127
+			controls_state = 2127
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 2127
+			controls_state = 2127
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 2127
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			2127 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Noonshade"
+			}
+    	}
+	}
+
+	rebuild_broken_pillar_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			owns_state = 940
+			controls_state = 940
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 940
+			controls_state = 940
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 940
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			940 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = church
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "The Great Pillar"
+			}
+    	}
+	}
+
+	rebuild_eastmoon_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			owns_state = 939
+			controls_state = 939
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 939
+			controls_state = 939
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 939
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			939 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Eastmoon"
+			}
+    	}
+	}
+
+	rebuild_southmoon_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			owns_state = 934
+			controls_state = 934
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 934
+			controls_state = 934
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 934
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			934 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Southmoon"
+			}
+    	}
+	}
+
+	#tol'vir ruins
+	rebuild_amthul_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			has_idea = tolvir_primary_race
+			owns_state = 1139
+			controls_state = 1139
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			num_of_civilian_factories_available_for_projects > 2
+			has_idea = tolvir_primary_race
+			owns_state = 1139
+			controls_state = 1139
+
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1139
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1139 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Am'thul"
+			}
+    	}
+	}
+
+	rebuild_khintaset_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			has_idea = tolvir_primary_race
+			owns_state = 1138
+			controls_state = 1138
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			num_of_civilian_factories_available_for_projects > 2
+			has_idea = tolvir_primary_race
+			owns_state = 1138
+			controls_state = 1138
+
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1138
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1139 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Khintaset"
+			}
+    	}
+	}
+
+	rebuild_ammon_decision = {
+		icon = GFX_decision_category_generic_industry
+
+		allowed = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		visible = {
+			has_idea = tolvir_primary_race
+			owns_state = 1129
+			controls_state = 1129
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			num_of_civilian_factories_available_for_projects > 2
+			has_idea = tolvir_primary_race
+			owns_state = 1129
+			controls_state = 1129
+
+		}
+
+		days_remove = 90
+
+		cost = 100
+
+		highlight_states = {
+			state = 1129
+		}
+
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+
+			1129 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = church
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+
+	      		set_state_name = "Ammon"
+			}
+    	}
+	}
+}

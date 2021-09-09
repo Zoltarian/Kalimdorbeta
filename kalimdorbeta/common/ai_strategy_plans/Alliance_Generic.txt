@@ -1,0 +1,43 @@
+alliance_generic_historical = {
+	name = "Alliance historical plan"
+	desc = "placeholder alliance ai"
+
+	enable = {
+		OR = {
+			has_idea = human_primary_race
+			has_idea = dwarf_primary_race
+			has_idea = gnome_primary_race
+			has_idea = high_elf_primary_race
+		}
+		is_historical_focus_on = yes
+		NOT = {
+			tag = STO
+			tag = IRO
+		}
+	}
+
+	ai_national_focuses = {
+		pick_a_side
+		support_the_alliance
+		reform_the_bureaucracy_alliance
+		economic_contingencies
+		wartime_alliance
+		peacetime_alliance
+		prove_our_strength_alliance
+	}
+	
+	focus_factors = {
+		support_the_horde = 0
+		support_blackhand = 0
+		stay_neutral = 0
+		serving_higher_powers = 0
+	}
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}
+

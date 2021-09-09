@@ -1,0 +1,35 @@
+
+state={
+	id=1196
+	name="STATE_1196"
+	resources = {
+		ores=10
+		oil=6
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			11702 20
+		}
+		buildings = {
+			infrastructure = 4
+		}
+
+		617.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+			set_state_name = "Thunder Axe Fortress"
+		}
+	}
+
+	provinces={
+		1530 11689 11695 11696 11701 11702 11703 11705 11706 11710 11713 11716 11718 11723 11725 11728 11729 12145 12146
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

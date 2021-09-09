@@ -1,0 +1,34 @@
+
+state={
+	id=812
+	name="STATE_812"
+	resources={
+		ores=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			8355 5 
+		}
+		buildings = {
+			infrastructure = 8
+			dockyard = 1
+			industrial_complex = 1
+			8352 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = SUR
+
+	}
+
+	provinces={
+		8352 8358 8365 8372 8386 
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

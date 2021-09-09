@@ -1,0 +1,28 @@
+
+state={
+	id=976
+	name="STATE_976"
+
+	impassable = yes
+	history={
+		owner = MIR
+		add_core_of = MIR
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			owner = TMI
+			controller = TMI
+			add_core_of = TMI
+		}
+	}
+
+	provinces={
+		9688
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

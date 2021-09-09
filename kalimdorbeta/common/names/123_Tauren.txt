@@ -1,0 +1,20 @@
+### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+BHT = {
+	male = {
+		names = { "Ohwe" "Awan" "Ohitekah" "Tocho" "Howi" "Lansa" "Hekli" "Akule" "Mazoo" "Tohokah" "Akecheta" "Atwe" "Paco" "Tokala" "Ohitekah" "Ahanu" "Kador" "Pala"  }
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Maya" "Tahki" "Ekye" "Nara" "Soyala" }
+	#	surnames = { }
+	#	callsigns = { }
+	#}
+	surnames = { "Ravendraft" "Gloomstride" "Longbrace" "Lonewhsiper" "Greatwood" "Roughtotem" "Mountainblade" "Riverhoof" "Eagletotem" "Springwatcher" "Wintermoon" "Fogstrider" "Loneweaver" "Eaglestride" "Stormwood" "Proudhorn" }
+	callsigns = { "Warbrave" }
+}

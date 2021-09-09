@@ -1,0 +1,134 @@
+ideas = {
+
+	advisor = {
+
+	}
+
+	country = {
+
+		SHD_arcanic_knowledge_idea = {
+
+			picture = generic_religion_arcane
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				research_speed_factor = 0.025
+			}
+		}
+
+		SHD_arcanic_knowledge_2_idea = {
+
+			picture = generic_religion_arcane
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				research_speed_factor = 0.075
+			}
+		}
+
+		SHD_remain_isolated_idea = {
+
+			picture = isolation
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				stability_weekly_factor = 0.001
+				justify_war_goal_time = 0.5
+				enemy_justify_war_goal_time = 0.5
+			}
+		}
+
+		SHD_offensive_spells_idea = {
+
+			picture = GFX_idea_generic_religion_pyromancy
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				army_attack_factor = 0.025
+				breakthrough_factor = 0.025
+			}
+		}
+
+		SHD_defensive_spells_idea = {
+
+			picture = can_send_in_the_zombies
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				army_defence_factor = 0.025
+				dig_in_speed_factor = 0.025
+			}
+		}
+
+		SHD_prepared_arcanists_idea = {
+
+			picture = tfv_can_conscription_crisis
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				experience_gain_army_factor = 0.1
+				mobilization_speed = 0.05
+			}
+		}
+
+		SHD_studying_the_ruins_idea = {
+
+			picture = generic_exploit_mines
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.025
+			}
+		}
+
+		SHD_deal_for_solarsal_SHD_idea = {
+
+			picture = generic_exploit_mines
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		SHD_deal_for_solarsal_KAL_idea = {
+
+			picture = generic_exploit_mines
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+	}
+}

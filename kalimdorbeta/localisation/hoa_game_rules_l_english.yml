@@ -1,0 +1,30 @@
+﻿l_english:
+  custom_diff_strong_sto:0 "@STO Strengthen Stormwind"
+  custom_diff_strong_brc:0 "@BRC Strengthen Blackrock Clan"
+  custom_diff_strong_iro:0 "@IRO Strengthen Ironforge"
+  custom_diff_strong_lor:0 "@LOR Strengthen Lordaeron"
+
+  STO_AI_BEHAVIOR:0 "@STO Stormwind"
+  BRC_AI_BEHAVIOR:0 "@BRC Blackrock Clan"
+  IRO_AI_BEHAVIOR:0 "@IRO Ironforge"
+
+  RULE_OPTION_BLACKHAND:0 "Blackhand's Horde"
+  RULE_OPTION_BLACKHAND_AI_DESC:0 "The Ai will try and keep Blackhand in charge of the Horde, and kill Guldan before he can further damage the Horde."
+  RULE_OPTION_DOOMHAMMER:0 "Doomhammers's Horde"
+  RULE_OPTION_DOOMHAMMER_AI_DESC:0 "The Ai will try and put Doomhammer in charge of the Horde, and focus on the war with Stormwind."
+
+  RULE_GROUP_HOA_RULES:0 "Hearts of Azeroth Game Rules"
+  RACE_CONVERSION_AI:0 "Race Conversion for the AI"
+  RULE_OPTION_DEFAULT_CONVERTING_RACE_DESC:0 "The AI will convert races in states that don't have their main or accepted races."
+  RULE_OPTION_NO_CONVERTING_RACE:0 "No AI Race Conversion"
+  RULE_OPTION_NO_CONVERTING_RACE_DESC:0 "The AI will be blocked from converting any of the races in their states that aren't their main or accepted races."
+
+  RELIGION_CONVERSION_AI:0 "Religious Conversion for the AI"
+  RULE_OPTION_DEFAULT_CONVERTING_RELIGION_DESC:0 "The AI will convert religions in states that don't have their main or accepted religions."
+  RULE_OPTION_NO_CONVERTING_RELIGION:0 "No AI Religious Conversion"
+  RULE_OPTION_NO_CONVERTING_RELIGION_DESC:0 "The AI will be blocked from converting any of the religions in their states that aren't their main or accepted religions."
+
+  CORING_AI:0 "State Coring for the AI"
+  RULE_OPTION_DEFAULT_CORING_DESC:0 "The AI will core states that aren't cores."
+  RULE_OPTION_NO_CORING:0 "No AI Coring"
+  RULE_OPTION_NO_CORING_DESC:0 "The AI will be blocked from coring states that aren't cores."

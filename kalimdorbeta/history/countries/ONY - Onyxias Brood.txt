@@ -1,0 +1,93 @@
+﻿capital = 799
+
+oob = "ONY_592"
+
+set_naval_oob = "ONY_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+
+add_ideas = {
+	
+	council
+	limited_conscription
+	preparing_for_war
+	limited_exports
+
+	black_dragon_primary_race
+	primary_trait_masters_of_the_sky
+	primary_trait_khazgoroths_blessing
+	primary_trait_masters_of_manipulation
+
+	primary_religion_followers_of_nzoth
+}
+
+set_technology = {
+
+	dragon_roost_administration = 1
+	breeding_grounds = 1
+	dragonman_tech = 1
+	dragonman_equipment_tech = 1
+	dragon_temple_tech = 1
+	dragon_forge_tech = 1
+
+	dragon_roost_ground = 1
+	whelp_tech = 1
+	whelp_equipment_tech_1 = 1
+	dragonspawn_tech = 1
+	dragonspawn_equipment_tech_1 = 1
+	dragonspawn_lieutenant_tech = 1
+	dragonspawn_sorceress_equipment_tech_1 = 1
+	drakonid_tech = 1
+	drakonid_equipment_tech_1 = 1
+	dragon_tech = 1
+	dragon_equipment_tech_1 = 1
+	broodmother_tech = 1
+
+	dragon_roost_air = 1
+	combat_drakes = 1
+	fighter_drakes_1 = 1
+	cas_drakes_1 = 1
+	bomber_drakes_1 = 1
+	naval_bomber_drakes_1 = 1
+	support_drakes = 1
+	covert_drakes_1 = 1
+	supply_drakes_1 = 1
+}
+
+set_politics = {
+	ruling_party = old_gods
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 100
+	titans = 0
+	neutral = 0
+}
+
+create_country_leader = {
+	name = "Onyxia"
+	desc = "POLITICS_ONYXIA_DESC"
+	picture = "onyxia.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

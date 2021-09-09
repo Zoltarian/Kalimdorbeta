@@ -1,0 +1,3303 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	naval_facilities = {
+
+		enable_building = {
+			building = dockyard
+			level = 25
+		}
+
+		enable_building = {
+			building = naval_base
+			level = 10
+		}
+
+		dependencies = {
+			lumber_mill_tech_global = 1
+		}
+
+		path = {
+			leads_to_tech = small_frames
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = oil_refinery
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = naval_academy
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = foundry
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			naval_transport_technology
+		}
+
+	}
+
+	small_frames = {
+
+		on_research_complete = {
+			set_technology = {
+				destroyer_tech_1 = 1
+				naval_transport_1 = 1
+			}
+		}
+
+		dependencies = {
+			wood_working_1 = 1
+		}
+
+		path = {
+			leads_to_tech = destroyer_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = submarine_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = light_frigate_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = naval_transport_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = large_frames
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 591
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = 2 }
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+		}
+
+	}
+
+	destroyer_tech_1 = {
+
+		enable_equipments = {
+			destroyer_equipment_1
+		}
+
+		path = {
+			leads_to_tech = destroyer_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			destroyer_technology
+		}
+
+	}
+
+	destroyer_tech_2 = {
+
+		enable_equipments = {
+			destroyer_equipment_2
+		}
+
+		path = {
+			leads_to_tech = destroyer_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			destroyer_technology
+		}
+
+	}
+
+	destroyer_tech_3 = {
+
+		enable_equipments = {
+			destroyer_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = destroyer_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			destroyer_technology
+		}
+
+	}
+
+	destroyer_tech_4 = {
+
+		enable_equipments = {
+			destroyer_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			destroyer_technology
+		}
+
+	}
+
+	submarine_tech_1 = {
+
+		enable_equipments = {
+			submarine_equipment_1
+		}
+
+		path = {
+			leads_to_tech = submarine_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			submarine_technology
+		}
+
+	}
+
+	submarine_tech_2 = {
+
+		enable_equipments = {
+			submarine_equipment_2
+		}
+
+		path = {
+			leads_to_tech = submarine_tech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = submarine_snorkel_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			submarine_technology
+		}
+
+	}
+
+	submarine_tech_3 = {
+
+		enable_equipments = {
+			submarine_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = submarine_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			submarine_technology
+		}
+
+	}
+
+	submarine_tech_4 = {
+
+		enable_equipments = {
+			submarine_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			submarine_technology
+		}
+
+	}
+
+	submarine_snorkel_1 = {
+
+		submarine = {
+			surface_visibility = -0.1
+		}
+
+		path = {
+			leads_to_tech = submarine_snorkel_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 6  y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			submarine_technology
+			snorkel_technology
+		}
+
+	}
+
+	submarine_snorkel_2 = {
+
+		submarine = {
+			surface_visibility = -0.1
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			submarine_technology
+			snorkel_technology
+		}
+
+	}
+
+	light_frigate_tech_1 = {
+
+		enable_equipments = {
+			light_frigate_equipment_1
+		}
+
+		path = {
+			leads_to_tech = light_frigate_tech_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = heavy_frigate_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			light_frigate_technology
+		}
+
+	}
+
+	light_frigate_tech_2 = {
+
+		enable_equipments = {
+			light_frigate_equipment_2
+		}
+
+		path = {
+			leads_to_tech = light_frigate_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			light_frigate_technology
+		}
+
+	}
+
+	light_frigate_tech_3 = {
+
+		enable_equipments = {
+			light_frigate_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = light_frigate_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			light_frigate_technology
+		}
+
+	}
+
+	light_frigate_tech_4 = {
+
+		enable_equipments = {
+			light_frigate_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			light_frigate_technology
+		}
+
+	}
+
+	heavy_frigate_tech_1 = {
+
+		enable_equipments = {
+			heavy_frigate_equipment_1
+		}
+
+		path = {
+			leads_to_tech = heavy_frigate_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			heavy_frigate_technology
+		}
+
+	}
+
+	heavy_frigate_tech_2 = {
+
+		enable_equipments = {
+			heavy_frigate_equipment_2
+		}
+
+		path = {
+			leads_to_tech = heavy_frigate_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			heavy_frigate_technology
+		}
+
+	}
+
+	heavy_frigate_tech_3 = {
+
+		enable_equipments = {
+			heavy_frigate_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = heavy_frigate_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			heavy_frigate_technology
+		}
+
+	}
+
+	heavy_frigate_tech_4 = {
+
+		enable_equipments = {
+			heavy_frigate_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			frigate_technology
+			heavy_frigate_technology
+		}
+
+	}
+
+	naval_transport_1 = {
+
+		transport_capacity = -0.5
+		naval_invasion_capacity = 10
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			naval_transport_technology
+		}
+
+		path = {
+			leads_to_tech = naval_transport_2
+			research_cost_coeff = 1
+		}
+
+	}
+
+	naval_transport_2 = {
+
+		invasion_preparation = -0.2
+		amphibious_invasion_defence = 0.2
+		amphibious_invasion = 0.075
+		naval_invasion_capacity = 10
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			naval_transport_technology
+		}
+
+		path = {
+			leads_to_tech = naval_transport_3
+			research_cost_coeff = 1
+		}
+
+	}
+
+	naval_transport_3 = {
+
+		invasion_preparation = -0.2
+		amphibious_invasion_defence = 0.2
+		amphibious_invasion = 0.075
+		naval_invasion_capacity = 10
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			naval_transport_technology
+		}
+
+		path = {
+			leads_to_tech = naval_transport_4
+			research_cost_coeff = 1
+		}
+
+	}
+
+	naval_transport_4 = {
+
+		invasion_preparation = -0.2
+		amphibious_invasion_defence = 0.2
+		amphibious_invasion = 0.075
+		naval_invasion_capacity = 10
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			small_frame_technology
+			naval_transport_technology
+		}
+
+	}
+
+	large_frames = {
+
+		on_research_complete = {
+			set_technology = {
+				juggernaught_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = juggernaught_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = battleship_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = carrier_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 591
+		folder = {
+			name = naval_folder
+			position = { x = 17 y = 2 }
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+		}
+
+	}
+
+	juggernaught_tech_1 = {
+
+		enable_equipments = {
+			juggernaught_equipment_1
+		}
+
+		path = {
+			leads_to_tech = juggernaught_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.75
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 14 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			juggernaught_technology
+		}
+
+	}
+
+	juggernaught_tech_2 = {
+
+		enable_equipments = {
+			juggernaught_equipment_2
+		}
+
+		path = {
+			leads_to_tech = juggernaught_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 14 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			juggernaught_technology
+		}
+
+	}
+
+	juggernaught_tech_3 = {
+
+		enable_equipments = {
+			juggernaught_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = juggernaught_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 14 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			juggernaught_technology
+		}
+
+	}
+
+	juggernaught_tech_4 = {
+
+		enable_equipments = {
+			juggernaught_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 14 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			juggernaught_technology
+		}
+
+	}
+
+	battleship_tech_1 = {
+
+		enable_equipments = {
+			battleship_equipment_1
+		}
+
+		path = {
+			leads_to_tech = battleship_tech_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dreadnaught_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.75
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 16 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			battleship_technology
+		}
+
+
+	}
+
+	battleship_tech_2 = {
+
+		enable_equipments = {
+			battleship_equipment_2
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 16 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			battleship_technology
+		}
+
+		path = {
+			leads_to_tech = battleship_tech_3
+			research_cost_coeff = 1
+		}
+
+	}
+
+	battleship_tech_3 = {
+
+		enable_equipments = {
+			battleship_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 16 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			battleship_technology
+		}
+
+		path = {
+			leads_to_tech = battleship_tech_4
+			research_cost_coeff = 1
+		}
+
+	}
+
+	battleship_tech_4 = {
+
+		enable_equipments = {
+			battleship_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 16 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			battleship_technology
+		}
+
+	}
+
+	dreadnaught_tech_1 = {
+
+		enable_equipments = {
+			dreadnaught_equipment_1
+		}
+
+		research_cost = 1.75
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			dreadnaught_technology
+		}
+
+		path = {
+			leads_to_tech = dreadnaught_tech_2
+			research_cost_coeff = 1
+		}
+
+	}
+
+	dreadnaught_tech_2 = {
+
+		enable_equipments = {
+			dreadnaught_equipment_2
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			dreadnaught_technology
+		}
+
+		path = {
+			leads_to_tech = dreadnaught_tech_3
+			research_cost_coeff = 1
+		}
+
+	}
+
+	dreadnaught_tech_3 = {
+
+		enable_equipments = {
+			dreadnaught_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			dreadnaught_technology
+		}
+
+		path = {
+			leads_to_tech = dreadnaught_tech_4
+			research_cost_coeff = 1
+		}
+
+		}
+
+	dreadnaught_tech_4 = {
+
+		enable_equipments = {
+			dreadnaught_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			dreadnaught_technology
+		}
+
+	}
+
+	carrier_tech_1 = {
+
+		enable_equipments = {
+			carrier_equipment_1
+		}
+
+		research_cost = 1.75
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 20 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			carrier_technology
+		}
+
+		path = {
+			leads_to_tech = carrier_tech_2
+			research_cost_coeff = 1
+		}
+
+	}
+
+	carrier_tech_2 = {
+
+		enable_equipments = {
+			carrier_equipment_2
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 20 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			carrier_technology
+		}
+
+		path = {
+			leads_to_tech = carrier_tech_3
+			research_cost_coeff = 1
+		}
+
+	}
+
+	carrier_tech_3 = {
+
+		enable_equipments = {
+			carrier_equipment_3
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 20 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			carrier_technology
+		}
+
+		path = {
+			leads_to_tech = carrier_tech_4
+			research_cost_coeff = 1
+		}
+
+	}
+
+	carrier_tech_4 = {
+
+		enable_equipments = {
+			carrier_equipment_4
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 20 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+
+		categories = {
+			naval_technology
+			large_frame_technology
+			carrier_technology
+		}
+
+	}
+
+	oil_refinery = {
+
+		enable_building = {
+			building = synthetic_refinery
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = oil_tanker_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 28 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			oil_technology
+		}
+
+	}
+
+	oil_tanker_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = oil_tanker_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 28 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			oil_technology
+		}
+
+	}
+
+	oil_tanker_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = oil_tanker_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 28 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			oil_technology
+		}
+
+	}
+
+	oil_tanker_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = oil_tanker_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 28 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			oil_technology
+		}
+
+	}
+
+	oil_tanker_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 28 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			naval_transport_technology
+		}
+
+	}
+
+	naval_academy = {
+
+		navy_leader_start_level = 1
+
+		path = {
+			leads_to_tech = navigator_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = spotter_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = deckhand_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 22 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+		}
+
+	}
+
+	navigator_tech = {
+
+		destroyer = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		submarine = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		light_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		heavy_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		juggernaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		battleship = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		dreadnaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		carrier = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+
+		naval_retreat_speed = 0.05
+		navy_max_range_factor = 0.25
+
+		path = {
+			leads_to_tech = navigator_tech_training_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+		folder = {
+			name = naval_folder
+			position = { x = 22 y = 6 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			navigator_technology
+		}
+
+	}
+
+	navigator_tech_training_1 = {
+
+		destroyer = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		submarine = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		light_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		heavy_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		juggernaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		battleship = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		dreadnaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		carrier = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+
+		naval_retreat_speed = 0.05
+		navy_max_range_factor = 0.25
+
+		path = {
+			leads_to_tech = navigator_tech_training_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 592
+		folder = {
+			name = naval_folder
+			position = { x = 22 y = 12 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			navigator_technology
+		}
+
+	}
+
+	navigator_tech_training_2 = {
+
+		destroyer = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		submarine = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		light_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		heavy_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		juggernaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		battleship = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		dreadnaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		carrier = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+
+		naval_retreat_speed = 0.05
+		navy_max_range_factor = 0.25
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = navigator_tech_training_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 595
+		folder = {
+			name = naval_folder
+			position = { x = 22 y = 18 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			navigator_technology
+		}
+
+	}
+
+	navigator_tech_training_3 = {
+
+		destroyer = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		submarine = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		light_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		heavy_frigate = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		juggernaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		battleship = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		dreadnaught = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+		carrier = {
+			naval_range = 0.5
+			naval_speed = 0.05
+		}
+
+		naval_retreat_speed = 0.05
+		navy_max_range_factor = 0.25
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+		start_year = 601
+		folder = {
+			name = naval_folder
+			position = { x = 22 y = 24 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			navigator_technology
+		}
+
+	}
+
+	spotter_tech = {
+
+		destroyer = {
+			sub_detection = 0.125
+		}
+		submarine = {
+			sub_detection = 0.125
+		}
+		light_frigate = {
+			sub_detection = 0.125
+		}
+		heavy_frigate = {
+			sub_detection = 0.125
+		}
+		juggernaught = {
+			sub_detection = 0.125
+		}
+		battleship = {
+			sub_detection = 0.125
+		}
+		dreadnaught = {
+			sub_detection = 0.125
+		}
+		carrier = {
+			sub_detection = 0.125
+		}
+
+		path = {
+			leads_to_tech = spotter_tech_training_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+		folder = {
+			name = naval_folder
+			position = { x = 24 y = 6 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			spotter_technology
+		}
+
+	}
+
+	spotter_tech_training_1 = {
+
+		destroyer = {
+			sub_detection = 0.125
+		}
+		submarine = {
+			sub_detection = 0.125
+		}
+		light_frigate = {
+			sub_detection = 0.125
+		}
+		heavy_frigate = {
+			sub_detection = 0.125
+		}
+		juggernaught = {
+			sub_detection = 0.125
+		}
+		battleship = {
+			sub_detection = 0.125
+		}
+		dreadnaught = {
+			sub_detection = 0.125
+		}
+		carrier = {
+			sub_detection = 0.125
+		}
+
+		path = {
+			leads_to_tech = spotter_tech_training_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 592
+		folder = {
+			name = naval_folder
+			position = { x = 24 y = 12 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			spotter_technology
+		}
+
+	}
+
+	spotter_tech_training_2 = {
+
+		destroyer = {
+			sub_detection = 0.125
+		}
+		submarine = {
+			sub_detection = 0.125
+		}
+		light_frigate = {
+			sub_detection = 0.125
+		}
+		heavy_frigate = {
+			sub_detection = 0.125
+		}
+		juggernaught = {
+			sub_detection = 0.125
+		}
+		battleship = {
+			sub_detection = 0.125
+		}
+		dreadnaught = {
+			sub_detection = 0.125
+		}
+		carrier = {
+			sub_detection = 0.125
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = spotter_tech_training_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 595
+		folder = {
+			name = naval_folder
+			position = { x = 24 y = 18 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			spotter_technology
+		}
+
+	}
+
+	spotter_tech_training_3 = {
+
+		destroyer = {
+			sub_detection = 0.125
+		}
+		submarine = {
+			sub_detection = 0.125
+		}
+		light_frigate = {
+			sub_detection = 0.125
+		}
+		heavy_frigate = {
+			sub_detection = 0.125
+		}
+		juggernaught = {
+			sub_detection = 0.125
+		}
+		battleship = {
+			sub_detection = 0.125
+		}
+		dreadnaught = {
+			sub_detection = 0.125
+		}
+		carrier = {
+			sub_detection = 0.125
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+		start_year = 601
+		folder = {
+			name = naval_folder
+			position = { x = 24 y = 24 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			spotter_technology
+		}
+
+	}
+
+	deckhand_tech = {
+
+		critical_receive_chance = -0.075
+		naval_critical_effect_factor = -0.075
+
+		path = {
+			leads_to_tech = deckhand_tech_training_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+		folder = {
+			name = naval_folder
+			position = { x = 26 y = 6 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			deckhand_technology
+		}
+
+	}
+
+	deckhand_tech_training_1 = {
+
+		critical_receive_chance = -0.075
+		naval_critical_effect_factor = -0.075
+
+		path = {
+			leads_to_tech = deckhand_tech_training_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 592
+		folder = {
+			name = naval_folder
+			position = { x = 26 y = 12 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			deckhand_technology
+		}
+
+	}
+
+	deckhand_tech_training_2 = {
+
+		critical_receive_chance = -0.075
+		naval_critical_effect_factor = -0.075
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = deckhand_tech_training_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 595
+		folder = {
+			name = naval_folder
+			position = { x = 26 y = 18 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			deckhand_technology
+		}
+
+	}
+
+	deckhand_tech_training_3 = {
+
+		critical_receive_chance = -0.075
+		naval_critical_effect_factor = -0.075
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+		start_year = 601
+		folder = {
+			name = naval_folder
+			position = { x = 26 y = 24 }
+		}
+
+		categories = {
+			naval_technology
+			naval_academy_technology
+			deckhand_technology
+		}
+
+	}
+
+	foundry = {
+
+		industrial_capacity_dockyard = 0.05
+
+		path = {
+			leads_to_tech = naval_cannons
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = reinforced_frames_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = naval_mines
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = depth_charges
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = torpedo_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 30 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+		}
+
+	}
+
+	naval_cannons = {
+
+		destroyer = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		light_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		heavy_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		juggernaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		dreadnaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		carrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+
+		path = {
+			leads_to_tech = light_canon_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_canon_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 31 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_cannon_technology
+		}
+
+	}
+
+	light_canon_1 = {
+
+		destroyer = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		light_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		heavy_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		juggernaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		dreadnaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		carrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+
+		path = {
+			leads_to_tech = light_canon_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 30 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_cannon_technology
+			light_cannon_technology
+		}
+
+	}
+
+	light_canon_2 = {
+
+		destroyer = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		light_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		heavy_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		juggernaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		dreadnaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		carrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = light_canon_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 30 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_cannon_technology
+			light_cannon_technology
+		}
+
+	}
+
+	light_canon_3 = {
+
+		destroyer = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		light_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		heavy_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		juggernaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		dreadnaught = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		carrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 30 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_cannon_technology
+			light_cannon_technology
+		}
+
+	}
+
+	heavy_canon_1 = {
+
+		heavy_frigate = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		juggernaught = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		dreadnaught = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+
+		path = {
+			leads_to_tech = heavy_canon_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 32 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_cannon_technology
+			heavy_cannon_technology
+		}
+
+	}
+
+	heavy_canon_2 = {
+
+		heavy_frigate = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		juggernaught = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		dreadnaught = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = heavy_canon_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 32 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_cannon_technology
+			heavy_cannon_technology
+		}
+
+	}
+
+	heavy_canon_3 = {
+
+		heavy_frigate = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		juggernaught = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		dreadnaught = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 32 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_cannon_technology
+			heavy_cannon_technology
+		}
+
+	}
+
+	reinforced_frames_1 = {
+
+		destroyer = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		light_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		heavy_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		juggernaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		battleship = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		dreadnaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		carrier = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+
+		path = {
+			leads_to_tech = reinforced_frames_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 34 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			reinforced_frames_technology
+		}
+
+	}
+
+	reinforced_frames_2 = {
+
+		destroyer = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		light_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		heavy_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		juggernaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		battleship = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		dreadnaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		carrier = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+
+		path = {
+			leads_to_tech = reinforced_frames_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 34 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			reinforced_frames_technology
+		}
+
+	}
+
+	reinforced_frames_3 = {
+
+		destroyer = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		light_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		heavy_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		juggernaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		battleship = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		dreadnaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		carrier = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = reinforced_frames_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 34 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			reinforced_frames_technology
+		}
+
+	}
+
+	reinforced_frames_4 = {
+
+		destroyer = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		light_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		heavy_frigate = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		juggernaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		battleship = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		dreadnaught = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+		carrier = {
+			max_strength = 0.05
+			armor_value = 0.05
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 34 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			reinforced_frames_technology
+		}
+
+	}
+
+	depth_charges = {
+
+		destroyer = {
+			sub_attack = 0.1
+		}
+		light_frigate = {
+			sub_attack = 0.1
+		}
+
+		path = {
+			leads_to_tech = improved_depth_charges_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 36 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			depth_charge_technology
+		}
+
+	}
+
+	improved_depth_charges_1 = {
+
+		destroyer = {
+			sub_attack = 0.1
+		}
+		light_frigate = {
+			sub_attack = 0.1
+		}
+
+		path = {
+			leads_to_tech = improved_depth_charges_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 36 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			depth_charge_technology
+		}
+
+	}
+
+	improved_depth_charges_2 = {
+
+		destroyer = {
+			sub_attack = 0.1
+		}
+		light_frigate = {
+			sub_attack = 0.1
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_depth_charges_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 36 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			depth_charge_technology
+		}
+
+	}
+
+	improved_depth_charges_3 = {
+
+		destroyer = {
+			sub_attack = 0.1
+		}
+		light_frigate = {
+			sub_attack = 0.1
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 36 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			depth_charge_technology
+		}
+
+	}
+
+	torpedo_tech = {
+
+		destroyer = {
+			torpedo_attack = 0.1
+		}
+		submarine = {
+			torpedo_attack = 0.1
+		}
+		light_frigate = {
+			torpedo_attack = 0.1
+		}
+		heavy_frigate = {
+			torpedo_attack = 0.1
+		}
+
+		naval_torpedo_reveal_chance_factor = -0.0625
+
+		path = {
+			leads_to_tech = improved_torpedos_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 38 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			torpedo_technology
+		}
+
+	}
+
+
+	improved_torpedos_1 = {
+
+		destroyer = {
+			torpedo_attack = 0.1
+		}
+		submarine = {
+			torpedo_attack = 0.1
+		}
+		light_frigate = {
+			torpedo_attack = 0.1
+		}
+		heavy_frigate = {
+			torpedo_attack = 0.1
+		}
+
+		naval_torpedo_reveal_chance_factor = -0.0625
+
+		path = {
+			leads_to_tech = improved_torpedos_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 38 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			torpedo_technology
+		}
+
+	}
+
+	improved_torpedos_2 = {
+
+		destroyer = {
+			torpedo_attack = 0.1
+		}
+		submarine = {
+			torpedo_attack = 0.1
+		}
+		light_frigate = {
+			torpedo_attack = 0.1
+		}
+		heavy_frigate = {
+			torpedo_attack = 0.1
+		}
+
+		naval_torpedo_reveal_chance_factor = -0.0625
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_torpedos_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 38 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			torpedo_technology
+		}
+
+	}
+
+	improved_torpedos_3 = {
+
+		destroyer = {
+			torpedo_attack = 0.1
+		}
+		submarine = {
+			torpedo_attack = 0.1
+		}
+		light_frigate = {
+			torpedo_attack = 0.1
+		}
+		heavy_frigate = {
+			torpedo_attack = 0.1
+		}
+
+		naval_torpedo_reveal_chance_factor = -0.0625
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 38 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			torpedo_technology
+		}
+
+	}
+	
+		naval_mines = {
+
+		destroyer = {
+			mines_planting = 1
+		}
+		submarine = {
+			mines_planting = 1
+		}
+
+		path = {
+			leads_to_tech = improved_naval_mines_1
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+			}
+			
+		research_cost = 2
+
+		start_year = 584
+
+		folder = {
+			name = naval_folder
+			position = { x = 40 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_mines_technology
+		}
+
+	}
+
+	improved_naval_mines_1 = {
+
+		naval_mines_damage_factor = 0.2
+
+		path = {
+			leads_to_tech = improved_naval_mines_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = naval_folder
+			position = { x = 40 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_mines_technology
+		}
+
+	}
+
+	improved_naval_mines_2 = {
+
+		naval_mines_damage_factor = 0.2
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_naval_mines_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = naval_folder
+			position = { x = 40 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_mines_technology
+		}
+
+	}
+
+	improved_naval_mines_3 = {
+
+		naval_mines_damage_factor = 0.2
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = naval_folder
+			position = { x = 40 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_technology
+			foundry_technology
+			naval_mines_technology
+		}
+
+	}
+
+}

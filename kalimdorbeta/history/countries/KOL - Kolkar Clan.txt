@@ -1,0 +1,161 @@
+﻿capital = 982
+
+oob = "KOL_592"
+
+set_research_slots = 3
+
+set_stability = 0.25
+set_war_support = 0.65
+
+add_ideas = {
+	
+	clan
+	limited_conscription
+	preparing_for_war
+	limited_exports
+
+	centaur_primary_race
+	primary_trait_stampede
+	primary_trait_might_of_the_khan
+	primary_trait_nomadic_people
+
+	primary_religion_shamanism
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	captain_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	guard_tech = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+	knight_tech = 1
+	knight_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	paladin_tech = 1
+	paladin_equipment_tech_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Khan Leh'Prah"
+	desc = "POLITICS_KHAN_LEHPRAH_DESC"
+	picture = "gfx/leaders/KOL/generic_khan.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khan Leh'Prah"
+	desc = "POLITICS_KHAN_LEHPRAH_DESC"
+	picture = "gfx/leaders/KOL/generic_khan.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khan Leh'Prah"
+	desc = "POLITICS_KHAN_LEHPRAH_DESC"
+	picture = "gfx/leaders/KOL/generic_khan.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khan Leh'Prah"
+	desc = "POLITICS_KHAN_LEHPRAH_DESC"
+	picture = "gfx/leaders/KOL/generic_khan.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khan Leh'Prah"
+	desc = "POLITICS_KHAN_LEHPRAH_DESC"
+	picture = "gfx/leaders/KOL/generic_khan.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khan Leh'Prah"
+	desc = "POLITICS_KHAN_LEHPRAH_DESC"
+	picture = "gfx/leaders/KOL/generic_khan.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Khan Leh'Prah"
+	picture ="gfx/leaders/KOL/generic_khan.dds"
+	traits = {  }
+	id = 36000
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Warlord Kolkanis"
+	picture = "gfx/leaders/KOL/generic_2.dds"
+	traits = {  }
+	id = 36001
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

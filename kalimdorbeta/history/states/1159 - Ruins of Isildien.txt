@@ -1,0 +1,38 @@
+
+state={
+	id=1159
+	name="STATE_1159"
+	resources = {
+		eggs=7
+		mana=4
+		ores=3
+		wood=8
+	}
+
+	history={
+		owner = FSY
+		add_core_of = FSY
+		victory_points = {
+			11336 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			
+			controller = GOR
+			add_core_of = GOR
+
+		}
+
+	}
+
+	provinces={
+		5116 11329 11330 11335 11336 11337 11340 11343 11344
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

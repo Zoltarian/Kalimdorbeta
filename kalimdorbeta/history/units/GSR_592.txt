@@ -1,0 +1,57 @@
+﻿division_template = {
+	name = "Seredane Guardians"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Guardians"
+		location = 3919
+		division_template = "Seredane Guardians"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "2nd Guardians"
+		location = 3914
+		division_template = "Seredane Guardians"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "3rd Guardians"
+		location = 3913
+		division_template = "Seredane Guardians"
+		start_experience_factor = 0.2
+		}
+}
+		
+#air_wings = {
+#	### seredame
+#	126 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "GSR" 
+#			amount = 18
+#		}
+#		
+#		cas_equipment_1 = {
+#			owner = "GSR" 
+#			amount = 18
+#		}
+#		
+#		fighter_equipment_2 = {
+#			owner = "GSR" 
+#			amount = 26
+#		}
+#	}
+#}

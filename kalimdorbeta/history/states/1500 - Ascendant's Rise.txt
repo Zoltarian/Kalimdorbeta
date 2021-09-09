@@ -1,0 +1,33 @@
+
+state={
+	id=1500
+	name="STATE_1500"
+	resources = {
+		wheat=5
+		wood=8
+		ores=5
+		gunpowder=3
+	}
+
+	history={
+		owner = STT
+		victory_points = {
+			14937 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = STT
+
+	}
+
+	provinces={
+		2472 13083 13133 14906 14912 14915 14923 14937 14950 14953 14964 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

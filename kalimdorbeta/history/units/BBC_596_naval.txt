@@ -1,0 +1,38 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Burning Blade Coastal Fleet"			
+		naval_base = 4831
+		task_force = {
+			name = "Burning Blade Coastal Fleet"			
+			location = 4831
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}		
+		}
+	}
+}

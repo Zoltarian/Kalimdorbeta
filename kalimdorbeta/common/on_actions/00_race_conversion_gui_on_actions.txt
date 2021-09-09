@@ -1,0 +1,71 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				setup_accepted_race_arrays = yes
+				set_variable = { race_conversion_cost = 50 }
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = race_conversion_ai
+						option = NO_CONVERTING
+					}
+				}
+				set_variable = { global.RACE_CONVERSION_BLOCKED = 1 }
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_variable = global.RACE_CONVERSION_BLOCKED
+							is_ai = no
+						}
+						NOT = { has_variable = global.RACE_CONVERSION_BLOCKED }
+					}
+				}
+				every_owned_state = {
+					limit = {
+						has_variable = race_conversion_progress
+					}
+					if = {
+						limit = {
+							is_owned_by = race_conversion_country
+						}
+						add_to_variable = { race_conversion_progress = 1 }
+						if = {
+							limit = {
+								check_variable = { race_conversion_progress > -1 }
+							}
+							set_state_race = yes
+							var:race_conversion_country = {
+								add_to_array = { race_conversion_complete_popup = PREV }
+							}
+							clear_variable = race_conversion_daily_progress
+							clear_variable = race_conversion_progress
+							PREV = { clear_variable = race_conversion_country }
+							set_temp_variable = { state_pop = state_population }
+							multiply_temp_variable = { state_pop = 0.20 }
+							multiply_temp_variable = { state_pop = -1 }
+							log = "Root: [Root.GetName] State Population: [?state_pop]"
+							add_manpower = state_pop
+
+							#Realm of Jade
+							realm_of_jade_conversion_effect = yes
+						}
+					}
+				}
+			}
+			else = {
+				clear_variable = race_conversion_daily_progress
+				clear_variable = race_conversion_progress
+				clear_variable = race_conversion_country
+			}
+		}
+	}
+}

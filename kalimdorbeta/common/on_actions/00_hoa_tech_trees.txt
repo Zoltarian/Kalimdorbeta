@@ -1,0 +1,38 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				#Dragon tech
+				if = {
+					limit = {
+						is_dragon_tech = yes
+					}
+					set_country_flag = dragon_technology
+				}
+				#Orc tech
+				else_if = {
+					limit = {
+						is_orc_tech = yes
+	        		}
+					set_country_flag = orc_technology
+				}
+				#Troll tech
+				#Dwarf tech
+				else_if = {
+					limit = {
+	          			is_dwarf_tech = yes
+	        		}
+					set_country_flag = dwarf_technology
+				}
+				#High Elf tech
+				else_if = {
+					limit = {
+	          			is_high_elf_tech = yes
+	        		}
+					set_country_flag = high_elf_technology
+				}
+				#Gnoll tech
+      		}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+﻿units = {
+
+### Naval OOB ###
+	fleet = {				
+		name = "Amani Frigate Fleet"			
+		naval_base = 525
+		task_force = {
+			name = "1st Fleet"			
+			location = 525 #menethil harbor
+		
+			ship = {
+				name = "1st Amani Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Amani Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Amani Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Amani Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Amani Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Amani Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+		}
+	
+	}
+			
+}

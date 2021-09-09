@@ -1,0 +1,40 @@
+
+state={
+	id=468
+	name="STATE_468"
+	resources={
+		wood =12.000
+	}
+
+	history={
+		
+		victory_points = {
+			3571 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			
+			controller = BHC
+			add_core_of = BHC
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = BHC
+
+		}
+
+	}
+
+	provinces={
+		1036 3571 3575 3579 3580 6105 
+	}
+	manpower=26175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

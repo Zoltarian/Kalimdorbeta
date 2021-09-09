@@ -1,0 +1,78 @@
+﻿division_template = {
+	name = "Stonefin Spearfin"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Stonefin Archer"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Stonefin Swordfin"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Stonefin Spearfin"
+		location = 962
+		division_template = "Stonefin Spearfin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Stonefin Spearfin"
+		location = 5889
+		division_template = "Stonefin Spearfin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Stonefin Spearfin"
+		location = 5217
+		division_template = "Stonefin Spearfin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Stonefin Spearfin"
+		location = 3515
+		division_template = "Stonefin Spearfin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Stonefin Spearfin"
+		location = 6116
+		division_template = "Stonefin Spearfin"
+		start_experience_factor = 0.2
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=281
+	name="STATE_281"
+	resources={
+		wood =22.000
+	}
+
+	history={
+		
+		victory_points = {
+			1652 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = BLO
+
+	}
+
+	provinces={
+		1652 1655 1658 1665 6421 
+	}
+	manpower=29250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

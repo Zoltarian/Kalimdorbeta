@@ -1,0 +1,38 @@
+
+state={
+	id=61
+	name="STATE_61"
+	resources={
+		gunpowder=4
+		ores=8
+		wood=1
+		wheat=3
+	}
+
+	history={
+		owner = RZM
+		add_core_of = RZM
+
+		victory_points = {
+			9640 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		687 8680 9632 9638 9640 9641 9642 9644 9645 9647 9648 9649 9653
+	}
+	manpower=7500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

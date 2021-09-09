@@ -1,0 +1,46 @@
+
+state={
+	id=22
+	name="STATE_22"
+
+	resources={
+		wheat = 3
+	}
+
+	history={
+		
+		victory_points = {
+			813 30
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			radar_station = 1
+			2386 = {
+				bunker = 4
+			}	
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+
+	}
+
+	provinces={
+		813 2386 2391 2394 2397 
+	}
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

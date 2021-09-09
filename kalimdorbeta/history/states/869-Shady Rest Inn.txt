@@ -1,0 +1,31 @@
+
+state={
+	id=869
+	name="STATE_869"
+	resources={
+		wood=6
+		oil=3
+		ores=1
+	}
+
+	history={
+		owner = TWV
+		victory_points = {
+			9040 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = TWV
+
+	}
+
+	provinces={
+		8640 9040 9042 9046 9048 9049 9054 9056 9058 9062 9064 9071 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

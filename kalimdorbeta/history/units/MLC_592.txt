@@ -1,0 +1,41 @@
+﻿division_template = {
+	name = "Fire Elementals"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Fire Elementals"
+		location = 5769
+		division_template = "Fire Elementals"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Fire Elementals"
+		location = 5778
+		division_template = "Fire Elementals"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Fire Elementals"
+		location = 6359
+		division_template = "Fire Elementals"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+

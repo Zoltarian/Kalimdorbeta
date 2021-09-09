@@ -1,0 +1,34 @@
+
+state={
+	id=516
+	name="STATE_516"
+	resources={
+		ores=6.000
+	}
+
+	history={
+		victory_points = {
+			4977 5 
+		}
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1052 4958 4960 4962 4967 4971 4973 4977 4983 4985 4987 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

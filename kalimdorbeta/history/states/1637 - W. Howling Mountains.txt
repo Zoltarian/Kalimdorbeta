@@ -1,0 +1,21 @@
+state={
+	id=1637
+	name="STATE_1637"
+	impassable = yes
+
+	history={
+		
+		add_core_of = DFC
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		13284
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

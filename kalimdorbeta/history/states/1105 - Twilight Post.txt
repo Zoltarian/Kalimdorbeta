@@ -1,0 +1,30 @@
+
+state={
+	id=1105
+	name="STATE_1105"
+	resources = {
+		ores=3
+		mana=1
+		oil=2
+	}
+
+	history={
+		owner = HAS
+		victory_points = {
+			11239 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = HAS
+
+	}
+
+	provinces={
+		10823 11216 11223 11225 11239 11247 11248 11257 11260
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

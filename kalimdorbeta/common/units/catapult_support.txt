@@ -1,0 +1,49 @@
+sub_units = {
+
+	catapult_support = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_hoa_army
+			category_hoa_siege_units
+			category_hoa_support_units
+		}
+
+		combat_width = 0
+		
+		manpower = 30
+		need = {
+			catapult_equipment = 12
+		}
+		
+		training_time = 120
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.33
+		weight = 0.1
+		
+		supply_consumption = 0.16
+
+		# Support nerfs to combat abilities
+		defense = -0.4
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.4
+
+
+		can_be_parachuted = yes
+	}
+	
+}

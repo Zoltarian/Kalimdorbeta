@@ -1,0 +1,30 @@
+
+state={
+	id=830
+	name="STATE_830"
+	resources={
+		mana=4.000
+		wood =16.000
+	}
+
+	history={
+		
+		victory_points = {
+			8470 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = FAL
+
+	}
+
+	provinces={
+		8380 8448 8459 8469 8473 8497 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

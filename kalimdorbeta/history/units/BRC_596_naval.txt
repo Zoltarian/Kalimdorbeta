@@ -1,0 +1,409 @@
+﻿units = {
+
+	### Naval OOB ###
+		fleet = {				
+		name = "1st Fleet"			
+		naval_base = 7000
+		task_force = {
+			name = "1st Fleet"			
+			location = 7000 #boralus
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "7th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "8th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "1st Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "2nd Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "3rd Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "Proudmoore's Flagship"
+				definition = carrier
+				equipment = { carrier_equipment_2 = { amount = 1  } }
+				air_wings = {
+					hoa_organic_fighter_equipment_1 =  { owner = "KUL" amount = 6 }
+				}
+			}
+	
+		}	
+	}
+	fleet = {				
+		name = "2nd Fleet"			
+		naval_base = 252
+		task_force = {
+			name = "2nd Fleet"			
+			location = 252 #anglepoint wharf
+			
+			ship = {
+				name = "9th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "10th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "11th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "12th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "13th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "7th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "8th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "9th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "5th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "6th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "1st Command Ship"
+				definition = carrier
+				equipment = { carrier_equipment_1 = { amount = 1  } }
+				air_wings = {
+					hoa_organic_fighter_equipment_1 =  { owner = "KUL" amount = 2 }
+				}
+			}
+	
+		}	
+	}
+	fleet = {						
+		name = "3rd Fleet"			
+		naval_base = 7098
+		task_force = {
+			name = "3rd Fleet"			
+			location = 7098 #sagehold
+			
+			ship = {
+				name = "14th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "15th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "16th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "17th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "14th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "15th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "16th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "17th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Command Ship"
+				definition = carrier
+				equipment = { carrier_equipment_1 = { amount = 1  } }
+				air_wings = {
+					hoa_organic_fighter_equipment_1 =  { owner = "KUL" amount = 2 }
+				}
+			}
+	
+		}	
+	}
+		fleet = {				
+		name = "4th Fleet"			
+		naval_base = 7098
+		task_force = {
+			name = "4th Fleet"			
+			location = 7098 #fallhaven
+			
+			ship = {
+				name = "18th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "19th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "20th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "18th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "19th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+					ship = {
+				name = "20th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "7th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "8th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}		
+			
+			ship = {
+				name = "9th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_2 = { amount = 1  } }
+			}
+	
+		}	
+	}
+	fleet = {				
+		name = "5th Fleet"			
+		naval_base = 117
+		task_force = {
+			name = "5th Fleet"			
+			location = 117 #crestfall
+			
+			ship = {
+				name = "21st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "22nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "23rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "21th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "22nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "10th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+	
+		}	
+	}
+	fleet = {				
+		name = "Channel Fleet"			
+		naval_base = 49 
+		task_force = {
+			name = "Channel Fleet"			
+			location = 49 #Boralus
+			
+			ship = {
+				name = "24th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "25th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "23rd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+	
+		}	
+	}
+}

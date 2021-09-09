@@ -1,0 +1,28 @@
+
+state={
+	id=1315
+	name="STATE_1315"
+
+	history={
+		
+		add_core_of = ZZT
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			owner = GPR
+			controller = GPR
+			add_core_of = GPR
+			remove_core_of = ZZT
+		}
+	}
+
+	provinces={
+		12005 12798 12803 12809 12818
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

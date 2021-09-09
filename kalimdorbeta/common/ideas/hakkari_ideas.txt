@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+	
+		HAK_prepare_for_war = {
+		
+			allowed = {
+				original_tag = HAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = 0.015
+				training_time_factor = -0.25
+			}
+			
+		}
+
+	}
+	
+	advisor = {
+
+	}
+	
+}

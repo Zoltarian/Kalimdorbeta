@@ -1,0 +1,91 @@
+﻿division_template = {
+	name = "Redwalker Grunt"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Redwalker Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Redwalker Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Redwalker Outriders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+##########################
+#nagrand (draenor)
+##########################
+	division = {
+		name = "1st Redwalker Grunt"
+		location = 10709
+		division_template = "Redwalker Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Redwalker Grunt"
+		location = 10805
+		division_template = "Redwalker Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Redwalker Spearman"
+		location = 10730
+		division_template = "Redwalker Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Redwalker Hunter"
+		location = 10732
+		division_template = "Redwalker Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Redwalker Outriders"
+		location = 10709
+		division_template = "Redwalker Outriders"
+		start_experience_factor = 0.2
+	}
+
+}

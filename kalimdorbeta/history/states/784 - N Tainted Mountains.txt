@@ -1,0 +1,41 @@
+
+state={
+	id=784
+	name="STATE_784"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TSC
+		
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = TSC
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+		}
+	}
+
+	provinces={
+		6400
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

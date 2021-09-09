@@ -1,0 +1,38 @@
+
+state={
+	id=342
+	name="STATE_342"
+	resources={
+		mana=8
+		ores=6
+	}
+
+	history={
+		
+		add_core_of = SKE
+
+		victory_points = {
+			10538 15
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SKE
+		}
+	}
+
+	provinces={
+		6348 10532 10534 10535 10538
+	}
+	manpower=49000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

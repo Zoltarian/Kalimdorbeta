@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Sethekk Ravenguard"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1st Sethekk Ravenguard"
+		location = 10539
+		division_template = "Sethekk Ravenguard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Sethekk Ravenguard"
+		location = 10539
+		division_template = "Sethekk Ravenguard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Sethekk Ravenguard"
+		location = 10539
+		division_template = "Sethekk Ravenguard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Sethekk Ravenguard"
+		location = 10539
+		division_template = "Sethekk Ravenguard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Sethekk Ravenguard"
+		location = 10539
+		division_template = "Sethekk Ravenguard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Sethekk Ravenguard"
+		location = 10539
+		division_template = "Sethekk Ravenguard"
+		start_experience_factor = 0.2
+	}
+
+
+}

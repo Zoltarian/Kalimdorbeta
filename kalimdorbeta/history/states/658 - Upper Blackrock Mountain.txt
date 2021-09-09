@@ -1,0 +1,28 @@
+
+state={
+	id=658
+	name="STATE_658"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+	}
+
+	provinces={
+		6222 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

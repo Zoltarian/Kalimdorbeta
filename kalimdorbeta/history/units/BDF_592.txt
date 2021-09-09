@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Nexus Guardians"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+	}
+
+#	support = {
+#		hoa_spellcaster = { x = 0 y = 0 }
+#	}
+
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Nexus Guardians"
+		location = 8912
+		division_template = "Nexus Guardians"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nexus Guardians"
+		location = 8896
+		division_template = "Nexus Guardians"
+		start_experience_factor = 0.2
+	}
+}
+
+#air_wings = {
+#	### coldara
+#	299 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "BDF"
+#			amount = 17
+#		}
+#
+#		cas_equipment_1 = {
+#			owner = "BDF"
+#			amount = 17
+#		}
+#
+#		fighter_equipment_2 = {
+#			owner = "BDF"
+#			amount = 36
+#		}
+#	}
+#}

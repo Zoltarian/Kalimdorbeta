@@ -1,0 +1,28 @@
+
+state={
+	id=1544
+	name="STATE_1544"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = STR
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+
+		}
+
+	}
+
+	provinces={
+		1762 1938 3004 5536 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

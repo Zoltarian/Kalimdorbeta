@@ -1,0 +1,109 @@
+ideas = {
+
+	country = {
+	
+		KAR_battle_for_control = {
+		
+			allowed = {
+				original_tag = KAR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+
+		KAR_wounded = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = idea_generic_army_problems
+
+			modifier = {
+				political_power_gain = -0.75
+			}
+		}
+		KAR_khadgar = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = race_human
+		}
+	}
+	
+	advisor = {
+	# Civilian Advisors
+	
+		KAR_moroes = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = KAR
+			}
+		
+		}
+		
+		KAR_barnes = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = KAR
+			}
+		
+		}
+		
+		KAR_maiden_of_virtue = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = KAR
+			}
+			
+			traits = { titan_herald_idea }
+		
+		}
+	}
+	
+	council_member = {
+	# Military Advisors
+	
+		KAR_attumen_the_Huntsman = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = KAR
+			}
+			
+			traits = { cavalry_idea_1 }
+		
+		}
+		
+		KAR_the_curator = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = KAR
+			}
+			
+			traits = { guardian_3 }
+		
+		}
+	}
+	
+}

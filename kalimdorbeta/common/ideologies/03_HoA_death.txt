@@ -1,0 +1,44 @@
+ideologies = {
+
+death = {
+
+		types = {
+
+			death_type = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_DEATH_1"
+			"FACTION_NAME_DEATH_2"
+			"FACTION_NAME_DEATH_3"
+			"FACTION_NAME_DEATH_4"
+			"FACTION_NAME_DEATH_5"
+
+		}
+
+		color = { 125 11 86 }
+
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_force_government = no
+		}
+
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { # More rules for the ideology
+			justify_war_goal_when_in_major_war_time = -0.80
+			drift_defence_factor = 0.5
+		}
+
+		can_be_boosted = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+	}
+}

@@ -1,0 +1,264 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_achievement_list_entry_bg"
+		texturefile = "gfx/interface/achievements/achievement_list_entry_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_achievement_list_entry_glow"
+		texturefile = "gfx/interface/achievements/achievement_list_entry_glow.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_achievement_unlocked_alert_bg"
+		texturefile = "gfx/interface/achievements/achievement_unlocked_alert_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_achievement_list_menu_button"
+		texturefile = "gfx/interface/achievements/achievement_list_menu_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_M"
+		texturefile = "gfx/keyicons/m.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_achievement_icon_red_cross"
+		texturefile = "gfx/interface/achievements/achievement_icon_red_cross.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_icon_difficulty_easy"
+		texturefile = "gfx/interface/achievements/achievement_icon_difficulty_easy.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_difficulty_normal"
+		texturefile = "gfx/interface/achievements/achievement_icon_difficulty_normal.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_difficulty_hard"
+		texturefile = "gfx/interface/achievements/achievement_icon_difficulty_hard.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_difficulty_impossible"
+		texturefile = "gfx/interface/achievements/achievement_icon_difficulty_impossible.dds"
+	}
+
+	# Achievement Icons:
+	spriteType = {
+		name = "GFX_unknown_achievement_icon"
+		texturefile = "gfx/interface/achievements/custom_achievements/unknown_achievement_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_icon_1"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_2"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_3"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_3.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_4"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_4.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_5"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_5.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_6"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_6.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_7"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_7.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_8"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_8.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_9"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_9.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_10"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_10.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_11"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_11.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_12"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_12.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_13"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_13.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_14"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_14.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_15"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_15.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_16"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_16.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_17"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_17.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_18"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_18.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_19"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_19.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_20"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_20.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_21"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_21.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_22"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_22.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_23"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_23.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_24"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_24.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_25"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_25.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_26"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_26.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_27"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_27.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_28"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_28.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_29"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_29.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_30"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_30.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_31"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_31.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_32"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_32.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_33"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_33.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_34"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_34.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_35"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_35.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_36"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_36.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_37"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_37.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_38"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_38.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_39"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_39.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_40"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_40.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_41"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_41.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_42"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_42.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_43"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_43.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_44"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_44.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_45"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_45.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_46"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_46.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_47"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_47.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_48"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_48.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_49"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_49.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_50"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_50.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_51"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_51.dds"
+	}
+	spriteType = {
+		name = "GFX_achievement_icon_52"
+		texturefile = "gfx/interface/achievements/custom_achievements/achievement_icon_52.dds"
+	}
+}

@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Dawnstrider Warriors"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Dawnstrider Warriors"
+		location = 10074
+		division_template = "Dawnstrider Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dawnstrider Warriors"
+		location = 10074
+		division_template = "Dawnstrider Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dawnstrider Warriors"
+		location = 10074
+		division_template = "Dawnstrider Warriors"
+		start_experience_factor = 0.2
+	}
+
+}

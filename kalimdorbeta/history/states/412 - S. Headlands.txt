@@ -1,0 +1,26 @@
+
+state={
+	id=412
+	name="STATE_412"
+	resources={
+		mounts=8.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		1384 1388 1389 1391 1394 1397 1405 1410 1413 1419 1420 1428 
+	}
+	manpower=31500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

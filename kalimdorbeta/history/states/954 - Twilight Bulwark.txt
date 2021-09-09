@@ -1,0 +1,32 @@
+
+state={
+	id=954
+	name="STATE_954"
+	resources={
+		wheat=5
+		eggs=4
+	}
+
+	history={
+		owner = SCR
+		victory_points = {
+			9564 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base=1
+
+		}
+		add_core_of = SCR
+
+	}
+
+	provinces={
+		168 9555 9560 9564 9567 
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

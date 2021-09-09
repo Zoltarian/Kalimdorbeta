@@ -1,0 +1,105 @@
+# All infantry equipment
+
+equipments = {
+
+	arch_mage_equipment = {
+		year = 584
+	
+		is_archetype = yes
+		picture = archetype_footman 	
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.8 #+0.5
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 19 #+3
+		breakthrough = 5 #+1.5
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 16 #+4
+		hard_attack = 16 #+6
+		ap_attack = 8 #+3
+		air_attack = 14 #+3
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		build_cost_ic = 1
+		resources = {
+			wheat = 2
+			mana = 4
+		}
+		
+	}
+	
+	arch_mage_equipment_1 = {
+		year = 590
+	
+		archetype = arch_mage_equipment
+		priority = 05
+		visual_level = 0
+	}
+
+	arch_mage_equipment_2 = {
+		year = 598
+	
+		archetype = arch_mage_equipment
+		parent = arch_mage_equipment_1
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.85 #+0.5
+
+		#Defensive Abilities
+		defense = 22 #+3
+		breakthrough = 6.5 #+1.5
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 20 #+4
+		hard_attack = 22 #+6
+		ap_attack = 11 #+3
+		air_attack = 17 #+3
+
+		build_cost_ic = 1.2
+	}
+
+	arch_mage_equipment_3 = {
+		year = 606
+	
+		archetype = arch_mage_equipment
+		parent = arch_mage_equipment_2
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9 #+0.5
+		
+		#Defensive Abilities
+		defense = 25 #+3
+		breakthrough = 8 #+1.5
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 24 #+4
+		hard_attack = 28 #+6
+		ap_attack = 14 #+3
+		air_attack = 20 #+3
+
+		build_cost_ic = 1.4
+	}
+
+}

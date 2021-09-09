@@ -1,0 +1,11353 @@
+﻿###########################
+#state_religion_setup
+###########################
+
+add_namespace = state_religion_setup
+
+country_event = { #FIRST WAR
+	id = state_religion_setup.1
+	title = state_religion_setup.1.t
+	desc = state_religion_setup.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	fire_only_once = yes
+	hidden = yes
+
+ 	option = {
+ 		name = state_religion_setup.1.a
+
+###################################################################################################################################################################################################
+#NO RELIGION PLACEHOLDER 0
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE CHURCH OF THE HOLY LIGHT 1
+###################################################################################################################################################################################################
+
+	##########################
+	#Tol'barad
+	##########################
+		13 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		173 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		420 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		421 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Zul'dare / Crestfall
+	##########################
+		6 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		7 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Stormsong Valley
+	##########################
+		331 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		628 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		640 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		641 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		642 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		644 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		645 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		646 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		647 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		649 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		670 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Tirigarde Sound
+	##########################
+		5 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		101 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		102 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		614 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		615 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		616 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		617 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		669 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		671 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		672 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Drustvar
+	##########################
+		100 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		630 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		631 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		632 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		633 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		634 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		635 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		648 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Tirisfal Glades
+	##########################
+		10 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		108 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		206 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		207 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		208 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		209 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		210 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		211 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		212 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		213 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		214 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		215 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		216 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		217 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		218 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		219 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		639 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		667 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		760 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		783 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1531 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1532 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1533 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1534 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1535 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1536 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+	##########################
+	#Silverpine Forest
+	##########################
+		31 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		109 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		10 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		162 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		163 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		164 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		165 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		166 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		167 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		708 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		717 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		718 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		719 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		720 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		764 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		765 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		796 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1096 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1537 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1538 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Northern Lordaeron
+	##########################
+		120 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		220 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		221 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Western Plaguelands
+	##########################
+		29 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		106 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		151 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		152 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		153 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		154 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		155 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		156 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		157 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		158 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		159 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		160 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		240 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		344 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		636 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		637 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		762 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1289 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1290 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Eastern Plaguelands
+	##########################
+		30 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		103 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		119 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		201 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		226 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		227 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		228 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		229 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		230 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		231 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		232 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		234 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		235 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		236 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		237 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		238 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		239 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		241 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		242 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		243 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		245 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		246 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		247 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		248 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		376 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		665 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		753 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		770 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		800 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1543 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1583 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1584 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1585 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1586 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1587 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Alterac Mountains
+	##########################
+		11 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		31 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		111 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		113 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		114 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		115 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		117 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		118 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		749 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		758 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		761 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		766 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1539 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1582 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Hillsbrad Foothills
+	##########################
+		8 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		9 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		15 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		32 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		35 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		122 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		123 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		124 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		638 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		721 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		755 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1540 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1541 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1542 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1544 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Gilneas
+	##########################
+		1 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		3 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		4 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		16 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		98 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		99 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		161 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		412 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		413 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		414 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		415 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		416 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		417 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		418 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		419 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2093 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2094 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2095 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2096 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2097 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2098 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		2099 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Arathi Highlands
+	##########################
+		12 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		127 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		128 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		129 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		130 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		131 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		132 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		133 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		574 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		575 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		576 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		577 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		578 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		579 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		580 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		581 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		691 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		698 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1544 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1566 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1567 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1568 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1569 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1570 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1571 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1572 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Stormwind
+	##########################
+		22 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		315 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		316 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		317 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		318 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		319 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		320 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		321 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		322 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		375 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		794 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Elwynn Forest
+	##########################
+		39 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		312 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		325 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		326 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		327 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		329 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		347 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		349 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		352 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		353 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		354 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		356 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		357 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		358 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		359 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		666 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1588 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1589 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Westfall
+	##########################
+		38 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		142 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		143 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		144 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		145 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		146 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		147 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		148 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		149 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		374 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		790 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1590 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1591 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1592 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1593 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1594 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1595 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1596 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1597 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Duskwood
+	##########################
+		40 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		301 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		302 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		303 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		304 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		305 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		306 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		307 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		308 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		309 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		310 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		366 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		782 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1598 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1599 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1600 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1601 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1602 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1603 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Redridge
+	##########################
+		360 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		361 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		362 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		363 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		364 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		365 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		367 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		368 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		370 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		791 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		792 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		793 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1528 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1529 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1530 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
+	#Deadwind Pass
+	##########################
+		42 = {
+			set_variable = {
+				var = religioné
+				value = 1
+			}
+		}
+		296 = {
+			set_variable = {
+				var = religioné
+				value = 1
+			}
+		}
+		297 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		789 = {
+			set_variable = {
+				var = religioné
+				value = 1
+			}
+		}
+
+
+###################################################################################################################################################################################################
+#THE NAARU 2
+###################################################################################################################################################################################################
+
+	##########################
+	#Telredor
+	##########################
+		702 = {
+			set_variable = {
+				var = religion
+				value = 2
+			}
+		}
+
+	##########################
+	#Talador
+	##########################
+		741 = {
+			set_variable = {
+				var = religion
+				value = 2
+			}
+		}
+
+###################################################################################################################################################################################################
+#SCARLET CHURCH 3
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#ARGENT CHURCH 4
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#ORDER OF THE BLOOD KNIGHTS 5
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF RHUKMAR 6
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#NECROLYTES 7
+###################################################################################################################################################################################################
+
+	##########################
+	# Shadowmoon Valley
+	##########################
+		328 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		343 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		566 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		687 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		688 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		689 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		692 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		693 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		695 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		696 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		697 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		711 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		712 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		713 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+		715 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+
+	##########################
+	#blasted lands
+	##########################
+		378 = {
+			set_variable = {
+				var = religion
+				value = 7
+			}
+		}
+
+###################################################################################################################################################################################################
+#VOODOO 8
+###################################################################################################################################################################################################
+
+	##########################
+	#Hyjal
+	##########################
+		1499 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+		1500 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+		1998 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+
+	##########################
+	#gilijims isle
+	##########################
+		746 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+		656 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+
+	##########################
+	#island of dr lapadis
+	##########################
+		704 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+		705 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+		747 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+		763 = {
+			set_variable = {
+				var = religion
+				value = 8
+			}
+		}
+###################################################################################################################################################################################################
+#THE CULT OF THE FORKARTEN SHADOWS 9
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF ANZU 10
+###################################################################################################################################################################################################
+
+	##########################
+	#Spires of Arakk
+	##########################
+		342 = {
+			set_variable = {
+				var = religion
+				value = 10
+			}
+		}
+		1057 = {
+			set_variable = {
+				var = religion
+				value = 10
+			}
+		}
+
+	##########################
+	#Talador
+	##########################
+		1081 = {
+			set_variable = {
+				var = religion
+				value = 10
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE VOID 11
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#ARCANE STUDIES 12
+###################################################################################################################################################################################################
+
+	##########################
+	#Frostfire Ridge
+	##########################
+		664 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		700 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	#Azsuna
+	##########################
+		1202 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1203 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1204 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1208 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1209 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1210 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1212 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1213 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1214 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		2118 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		2119 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		2122 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		2123 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	#Suramar
+	##########################
+		829 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		830 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		831 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		833 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		834 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	#Broken Shore
+	##########################
+		545 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	#Borean Tundra
+	##########################
+		203 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		299 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		346 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	#Wintersrping
+	##########################
+	1445 = {
+		set_variable = {
+			var = religion
+			value = 12
+		}
+	}
+
+	##########################
+	#Darkshore
+	##########################
+	1403 = {
+		set_variable = {
+			var = religion
+			value = 12
+		}
+	}
+
+	##########################
+	#Azshara
+	##########################
+		1368 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1385 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		2112 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	#Winterspring
+	##########################
+		1453 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	#Stone Talon Mountains
+	##########################
+	1324 = {
+		set_variable = {
+			var = religion
+			value = 12
+		}
+	}
+	1993 = {
+		set_variable = {
+			var = religion
+			value = 12
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+		82 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1155 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1161 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1293 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	# Dalaran
+	##########################
+		14 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+	##########################
+	# Karazhan / Deadwind Pass
+	##########################
+		25 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		298 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		769 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE SUNWELL 13
+###################################################################################################################################################################################################
+
+	##########################
+	#Northern Lordaeron
+	##########################
+		222 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+
+	##########################
+	#Quel'Danas
+	##########################
+		33 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		249 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		250 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		251 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		252 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		253 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		254 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+
+	##########################
+	#Eversong
+	##########################
+		17 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		34 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		104 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		107 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		168 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		169 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		170 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		174 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		175 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		176 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		177 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		178 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		179 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		180 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		182 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		183 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		184 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		186 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		187 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		188 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		189 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		194 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		223 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		330 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		345 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		756 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		757 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		774 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		1520 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		1521 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		1523 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		1524 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2100 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2101 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2103 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2104 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2105 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2106 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2107 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE NIGHTWELL 14
+###################################################################################################################################################################################################
+
+	##########################
+	#Suramar
+	##########################
+		573 = {
+			set_variable = {
+				var = religion
+				value = 14
+			}
+		}
+		811 = {
+			set_variable = {
+				var = religion
+				value = 14
+			}
+		}
+		812 = {
+			set_variable = {
+				var = religion
+				value = 14
+			}
+		}
+		813 = {
+			set_variable = {
+				var = religion
+				value = 14
+			}
+		}
+		814 = {
+			set_variable = {
+				var = religion
+				value = 14
+			}
+		}
+		815 = {
+			set_variable = {
+				var = religion
+				value = 14
+			}
+		}
+		835 = {
+			set_variable = {
+				var = religion
+				value = 14
+			}
+		}
+
+###################################################################################################################################################################################################
+#DRUIDISM 15
+###################################################################################################################################################################################################
+
+	##########################
+	#Hownling Fjord
+	##########################
+	1636 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1659 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1660 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1661 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+
+	##########################
+	#Dragonblight
+	##########################
+	1231 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+
+	##########################
+	#Darkshore
+	##########################
+	1404 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1405 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+
+	##########################
+	#Hyjal
+	##########################
+    1489 = {
+        set_variable = {
+            var = religion
+            value = 15
+        }
+    }
+    1491 = {
+        set_variable = {
+            var = religion
+            value = 15
+        }
+    }
+    1493 = {
+        set_variable = {
+            var = religion
+            value = 15
+        }
+    }
+    1495 = {
+        set_variable = {
+            var = religion
+            value = 15
+        }
+    }
+
+	##########################
+	#Moonglade
+	##########################
+	65 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1434 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1435 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1436 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1437 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+
+	##########################
+	#Felwood
+	##########################
+	1424 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+
+	##########################
+	#Ashenvale
+	##########################
+	1360 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+
+	##########################
+	#Silithus
+	##########################
+	1108 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	1109 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+	2003 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF URSOC 16
+###################################################################################################################################################################################################
+
+	##########################
+	#Grizzly Hills
+	##########################
+	49 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1671 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1674 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1675 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1676 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1682 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1687 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1688 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1689 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1690 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1691 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+	##########################
+	#Winterspring
+	##########################
+	67 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1440 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1441 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1442 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1443 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1451 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	2006 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+	##########################
+	#Hyjal
+	##########################
+	1497 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1997 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+	##########################
+	#Felwood
+	##########################
+	1418 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1433 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	##########################
+	#Darkshore
+	##########################
+	1394 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1406 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1410 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+	##########################
+	#Ashenvale
+	##########################
+	1344 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1345 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1348 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1512 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+	##########################
+	#Azshara
+	##########################
+	1369 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1373 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1374 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1377 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+	##########################
+	#Azuremyst
+	##########################
+	87 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1464 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1465 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1466 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1467 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1468 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1469 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1470 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1471 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1472 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1473 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1474 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1477 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+	##########################
+	#Bloodmyst
+	##########################
+	1555 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1556 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+	1557 = {
+		set_variable = {
+			var = religion
+			value = 16
+		}
+	}
+
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF LOGOSH 17
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF AGAMAGGAN 18
+###################################################################################################################################################################################################
+
+	##########################
+	#Durotar
+	##########################
+	61 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	588 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	589 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	590 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	591 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	592 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	594 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	610 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	611 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	612 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	1005 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+
+	##########################
+	#Northern Barrens
+	##########################
+	987 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	988 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	989 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	990 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+
+	##########################
+	#Southern Barrens
+	##########################
+	962 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	963 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	964 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	968 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	969 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	970 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	971 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	972 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	973 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	974 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	975 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	977 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+
+	##########################
+	#Mulgore
+	##########################
+	997 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	998 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	999 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	1000 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	1001 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+	1002 = {
+		set_variable = {
+			var = religion
+			value = 18
+		}
+	}
+
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF AVIANNA 19
+###################################################################################################################################################################################################
+
+	##########################
+	#Stormpeaks
+	##########################
+	1720 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1723 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1724 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Dragonblight
+	##########################
+	1224 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1239 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Hyjal
+	##########################
+	1490 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Stonetalon Mountains
+	##########################
+	1321 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1325 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1326 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1327 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1328 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1329 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1330 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1331 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1332 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1333 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1992 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1994 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Nothern Barrens
+	##########################
+	979 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	980 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	981 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	983 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	984 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	985 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	986 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Mulgore
+	##########################
+	81 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1034 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1035 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1044 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1045 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1046 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1047 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1048 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1150 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1151 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1154 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Thousand Needles
+	##########################
+	954 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	958 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+	##########################
+	#Durotar / Orgrimmar
+	##########################
+	587 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	596 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	597 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	598 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	599 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	600 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	602 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	604 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	605 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	606 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	607 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	608 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	609 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1003 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1004 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+	1623 = {
+		set_variable = {
+			var = religion
+			value = 19
+		}
+	}
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF TORTOLLA 20
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#AUGUST CELESTIAL 21
+###################################################################################################################################################################################################
+
+	##########################
+	#Kun'lai Summit
+	##########################
+		93 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1836 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1839 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1840 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1841 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1844 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1845 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1846 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1847 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1851 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1852 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1853 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1855 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1856 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1858 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1861 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		2007 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		2008 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		2011 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+
+	##########################
+	#Vale of Eternal Blossom
+	##########################
+		92 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1865 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1866 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1869 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1870 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1871 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1872 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1873 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+
+	##########################
+	#Valley of the Four Winds
+	##########################
+		1918 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1919 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+
+	##########################
+	#Townlong Steppes
+	##########################
+		1818 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1819 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1820 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1821 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1822 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1826 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1828 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1882 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1978 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+
+	##########################
+	#Jade Forest
+	##########################
+		59 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1940 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1941 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1944 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1946 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1947 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1948 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1949 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1950 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1951 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1952 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1955 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1956 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1957 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1960 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1964 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1965 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+
+	##########################
+	#Krasarang Wilds
+	##########################
+		1903 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1904 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+
+###################################################################################################################################################################################################
+#THORNSPEAKERS 22
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#HARVEST WITCHCRAFT 23
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#NATURAL MAGIC 24
+###################################################################################################################################################################################################
+
+	##########################
+	#Swamp of Sorrows
+	##########################
+	395 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	396 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	397 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	398 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	399 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	406 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	407 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	408 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+	##########################
+	#Azuremyst
+	##########################
+	1459 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1461 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+	##########################
+	#Bloodmyst
+	##########################
+	1560 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1561 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+	##########################
+	#Winterspring
+	##########################
+	1452 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+	##########################
+	#Ashenvale
+	##########################
+	1346 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+	##########################
+	#Dustwallow Marsh
+	##########################
+	97 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	865 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	866 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	867 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	868 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	869 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	870 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1157 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1156 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1159 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1506 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1508 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+	##########################
+	#Un'goro
+	##########################
+	1117 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1118 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1119 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1120 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1121 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1122 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1123 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1125 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1126 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+	1127 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
+
+###################################################################################################################################################################################################
+#Loa Spirits 25
+###################################################################################################################################################################################################
+
+	##########################
+	#Isle of Giants
+	##########################
+		150 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1807 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Hinterlands
+	##########################
+		19 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		134 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		137 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		138 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		139 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		233 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		225 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		313 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		442 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Nazmir
+	##########################
+		2045 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2046 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2047 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2048 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2051 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2052 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2053 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2079 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Zuldazar
+	##########################
+		257 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		601 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		603 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		618 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		619 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		620 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		624 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		625 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		626 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		915 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		916 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		917 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		918 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		919 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		920 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		921 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		923 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2083 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2085 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2086 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Grizzly Hills
+	##########################
+		1667 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1668 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1669 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1677 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1680 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1681 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1683 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1684 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Zul'Drak
+	##########################
+		50 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1693 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1694 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1695 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1696 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1697 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1698 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1699 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1700 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1702 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1703 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1704 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1705 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1706 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1707 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1708 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1709 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1710 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1711 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1712 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1713 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1714 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1715 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1716 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Dragonblight
+	##########################
+		1225 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1249 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1250 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1251 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Darkshore
+	##########################
+		68 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1390 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Swamp of Sorrows
+	##########################
+		1095 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Stranglethorn
+	##########################
+		21 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		44 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		267 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		268 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		269 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		270 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		271 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		272 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		273 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		274 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		275 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		276 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		277 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		278 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		279 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		280 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		281 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		282 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		283 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		284 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		285 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		287 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		288 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		289 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		290 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		369 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		389 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		680 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		754 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		771 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		795 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1604 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1605 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1606 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1607 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1608 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1609 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1610 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1611 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1612 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1613 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2082 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Zul'Aman
+	##########################
+	18 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	195 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	196 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	197 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	198 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	199 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	200 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	661 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	752 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	1513 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	1514 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	1515 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	1516 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	1517 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+	1518 = {
+		set_variable = {
+			var = religion
+			value = 25
+		}
+	}
+
+	##########################
+	#Eversong
+	##########################
+		181 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		190 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Ghostlands
+	##########################
+		191 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		192 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		772 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		773 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1519 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+	##########################
+	#Eastern Plaguelands
+	##########################
+		224 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+	##########################
+	#Tanaris
+	##########################
+		541 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		724 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		961 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		928 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		929 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		930 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		931 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		932 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		933 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		934 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		935 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		936 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		937 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		939 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		940 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		941 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		942 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		943 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		944 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		945 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE FEL 26
+###################################################################################################################################################################################################
+
+	##########################
+	#Argus
+	##########################
+
+
+###################################################################################################################################################################################################
+#DEMONOLOGY 27
+###################################################################################################################################################################################################
+
+	##########################
+	#Faralohn
+	##########################
+		338 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		651 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		787 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Gorgrond
+	##########################
+		244 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		337 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1066 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1067 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1068 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1069 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1071 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1072 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1073 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1074 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1075 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1076 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1077 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1078 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Frostfire Ridge
+	##########################
+		258 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		339 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		652 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		653 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		654 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		660 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		668 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		681 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		690 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		699 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		701 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		703 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		706 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		707 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		730 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1056 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Ashran
+	##########################
+		335 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		740 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		742 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		743 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Talador
+	##########################
+		547 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		732 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		734 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		744 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1010 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1080 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1082 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1083 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1085 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1086 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1087 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1088 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1089 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1090 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1091 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1092 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1093 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1094 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Tanaan Jungle
+	##########################
+		336 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		683 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		684 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		685 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		686 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		694 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		716 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		727 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		728 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		735 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		736 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		737 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		738 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		739 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Spires of Arak
+	##########################
+		733 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1020 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1059 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1060 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1061 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1062 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1063 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1064 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1065 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Nagrand (DR)
+	##########################
+		314 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		341 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		731 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1007 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1008 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1009 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1011 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1012 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1013 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1014 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1015 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1016 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1021 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1022 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1023 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1024 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		1026 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Swamp of Sorrows
+	##########################
+		43 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		402 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		403 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		404 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		405 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Blasted lands
+	##########################
+		26 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		74 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		377 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		379 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		380 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		384 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		385 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		386 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		390 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		391 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		392 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		393 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		394 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		784 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+		788 = {
+			set_variable = {
+				var = religion
+				value = 27
+			}
+		}
+
+	##########################
+	#Azuremyst Isle
+	##########################
+	1415 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1419 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1420 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1421 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1428 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	2000 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+	##########################
+	#Bloodmyst Isle
+	##########################
+	1545 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1546 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1547 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1548 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1549 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1559 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+	##########################
+	#Felwood
+	##########################
+	1415 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1419 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1420 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1421 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1428 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	2000 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+	##########################
+	#Darkshore
+	##########################
+	1398 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+	##########################
+	#Ashenvale
+	##########################
+	1352 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1353 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+	##########################
+	#Azshara
+	##########################
+	1371 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1372 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1378 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1379 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1380 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1386 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1387 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	2111 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+	##########################
+	#Desolace
+	##########################
+	1193 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1194 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1996 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1158 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1292 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+	1510 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
+
+###################################################################################################################################################################################################
+#NECROMANCY 28
+###################################################################################################################################################################################################
+
+	##########################
+	#Bloodmyst
+	##########################
+	88 = {
+		set_variable = {
+			var = religion
+			value = 28
+		}
+	}
+
+###################################################################################################################################################################################################
+#THE DISCIPLES OF THE LICH KING 29
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF HELYA 30
+###################################################################################################################################################################################################
+
+	##########################
+	#Borean Tundra
+	##########################
+	816 = {
+		set_variable = {
+			var = religion
+			value = 30
+		}
+	}
+	840 = {
+		set_variable = {
+			var = religion
+			value = 30
+		}
+	}
+	841 = {
+		set_variable = {
+			var = religion
+			value = 30
+		}
+	}
+	842 = {
+		set_variable = {
+			var = religion
+			value = 30
+		}
+	}
+	912 = {
+		set_variable = {
+			var = religion
+			value = 30
+		}
+	}
+	924 = {
+		set_variable = {
+			var = religion
+			value = 30
+		}
+	}
+	1273 = {
+		set_variable = {
+			var = religion
+			value = 30
+		}
+	}
+
+###################################################################################################################################################################################################
+#DRUST 31
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF Y'SHAARJ 32
+###################################################################################################################################################################################################
+
+	##########################
+	#Dread Wastes
+	##########################
+		91 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1881 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1883 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1884 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1887 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1888 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1890 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1892 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1893 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1895 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+		1896 = {
+			set_variable = {
+				var = religion
+				value = 32
+			}
+		}
+
+
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF N'ZOTH 33
+###################################################################################################################################################################################################
+
+	##########################
+	#Dragonblight
+	##########################
+	112 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+
+	##########################
+  #Deepholm
+  ##########################
+    1784 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    1785 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    1791 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    1792 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    1793 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    1801 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    1802 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    1803 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    2087 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    2088 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    2089 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    2090 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+    2091 = {
+      set_variable = {
+        var = religion
+        value = 33
+      }
+    }
+
+	##########################
+	#Dustwallow Marsh
+	##########################
+	291 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+	582 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+	583 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+	585 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+	586 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+	797 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+	799 = {
+		set_variable = {
+			var = religion
+			value = 33
+		}
+	}
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF YOGG-SARON 34
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF C'THUN 35
+###################################################################################################################################################################################################
+
+	##########################
+	#Southern Barrens
+	##########################
+	966 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	967 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1160 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1164 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1165 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+
+	##########################
+	#Thousand Needles
+	##########################
+	1504 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+
+	##########################
+	#Tanaris
+	##########################
+	927 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	938 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+
+	##########################
+	#Un'goro
+	##########################
+	1115 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1116 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	2005 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+
+	##########################
+	#Silithus
+	##########################
+	85 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	193 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1103 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1104 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1105 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1106 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1107 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1110 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1111 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1112 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1113 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1114 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	2004 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+
+	##########################
+	#Ahn'Qiraj
+	##########################
+	86 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	555 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1097 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1098 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1099 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1100 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1101 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1102 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+	1291 = {
+		set_variable = {
+			var = religion
+			value = 35
+		}
+	}
+
+###################################################################################################################################################################################################
+#THE HOUR OF TWILIGHT 36
+###################################################################################################################################################################################################
+
+	##########################
+	#blasted lands
+	##########################
+		383 = {
+			set_variable = {
+				var = religion
+				value = 36
+			}
+		}
+		387 = {
+			set_variable = {
+				var = religion
+				value = 36
+			}
+		}
+		388 = {
+			set_variable = {
+				var = religion
+				value = 36
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE DARK CONCLAVE 37
+###################################################################################################################################################################################################
+
+	##########################
+	#Spire of Arak
+	##########################
+		1058 = {
+			set_variable = {
+				var = religion
+				value = 37
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE FOLLOWER OF G'HUUN 38
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE MYSTERY OF THE MAKERS 39
+###################################################################################################################################################################################################
+
+	##########################
+	#Searing Gorge
+	##########################
+		552 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		553 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Wetlands
+	##########################
+		36 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		47 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		476 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		477 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		478 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		479 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		480 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		481 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		482 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		483 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		484 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		485 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		486 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		487 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		488 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		489 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		490 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		491 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		492 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		493 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		494 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		495 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		675 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		676 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		677 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		1573 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Loch Modan
+	##########################
+		37 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		454 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		461 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		462 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		464 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		465 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		466 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		467 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		468 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		469 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		470 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		471 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		472 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		474 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		678 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		679 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Dun Morogh
+	##########################
+		23 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		440 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		441 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		443 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		444 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		445 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		446 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		447 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		448 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		452 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		455 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		456 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		457 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		458 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		459 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		568 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Ironforge
+	##########################
+		429 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		430 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		431 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		433 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		434 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		435 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		436 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		549 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Badlands
+	##########################
+		529 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Hillsbrad
+	##########################
+		125 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		759 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Grizzly Hills
+	##########################
+		1666 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		1670 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+		1692 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Deepholm
+	##########################
+		1795 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF ODYN 40
+###################################################################################################################################################################################################
+
+	##########################
+	#Stornheim
+	##########################
+		265 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		839 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		843 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		844 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		845 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		846 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		848 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		849 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		850 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		851 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		852 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		853 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		854 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		855 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		856 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		857 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		858 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		859 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		860 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		861 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		862 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		863 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+
+	##########################
+	#Swamp of Sorrows
+	##########################
+		261 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		836 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+		837 = {
+			set_variable = {
+				var = religion
+				value = 40
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE TITANS 41
+###################################################################################################################################################################################################
+
+	##########################
+	#Hinterlands
+	##########################
+	126 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	768 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+
+	##########################
+	#Swamp of Sorrows
+	##########################
+		324 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+
+	##########################
+	#Duskwood
+	##########################
+	300 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	767 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+
+	##########################
+	#Wintergasp
+	##########################
+		55 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1215 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1216 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1217 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1218 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1219 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1220 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1221 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1222 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2092 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Stormpeaks / Ulduar
+	##########################
+		780 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1721 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1722 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1726 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1727 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1728 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1729 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1730 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1731 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1732 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1741 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2018 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2019 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2020 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2021 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2022 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2023 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		2024 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Sholazar Bassin
+	##########################
+		56 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1778 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Dragonblight
+	##########################
+		202 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		204 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		205 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1240 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1248 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1254 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Ashenvale
+	##########################
+		1355 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Feralas
+	##########################
+		1152 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Tanaris
+	##########################
+		79 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		925 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		926 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Un'goro
+	##########################
+		528 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1124 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+
+	##########################
+	#Uldum
+	##########################
+	80 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	569 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1128 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1129 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1130 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1131 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1132 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1133 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1134 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1135 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1136 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1137 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1138 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1139 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1141 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1142 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1143 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1144 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	1145 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	2001 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+	2109 = {
+		set_variable = {
+			var = religion
+			value = 41
+		}
+	}
+
+###################################################################################################################################################################################################
+#CHI 42
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE ELEMENTAL FURIES 43
+###################################################################################################################################################################################################
+
+	##########################
+	#Talador
+	##########################
+		340 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+		1084 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+
+	##########################
+	#Nagrand (DR)
+	##########################
+		1017 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+		1018 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+		1019 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+		1025 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+
+	##########################
+	#Gorgrond
+	##########################
+		798 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+		1070 = {
+			set_variable = {
+				var = religion
+				value = 43
+			}
+		}
+
+###################################################################################################################################################################################################
+#SHAMANISM 44
+###################################################################################################################################################################################################
+
+	##########################
+	#Arathi Highlands
+	##########################
+		751 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+
+	##########################
+	#Hinterlands
+	##########################
+		20 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		135 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		136 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		140 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		141 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		709 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		710 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		723 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		1563 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		1564 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+		1565 = {
+			set_variable = {
+				var = religion
+				value = 44
+			}
+		}
+
+	##########################
+	#Twilight Highlands
+	##########################
+
+	##########################
+	#Elwynn
+	##########################
+	311 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	350 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Redridge
+	##########################
+	41 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	372 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	373 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Howling Fjord
+	##########################
+	1658 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1662 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1664 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Grizzly Hills
+	##########################
+	1672 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Zul'Drak
+	##########################
+	1701 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Stormpeaks
+	##########################
+	1718 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1733 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1735 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Icecrown
+	##########################
+	1746 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1748 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Dragonblight
+	##########################
+	1223 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1226 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1227 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1234 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1241 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1242 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1243 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1244 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1245 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1246 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1247 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Borean Tundra
+	##########################
+	1255 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1265 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1266 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1267 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Northern Barrens
+	##########################
+	69 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	982 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	993 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	994 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Southern Barrens
+	##########################
+	978 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Stonetalon Mountains
+	##########################
+	1319 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1320 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1322 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1323 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1995 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Mulgore
+	##########################
+	1033 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1036 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1037 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1039 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1040 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Desolace
+	##########################
+	83 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1176 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1179 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1183 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1184 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1185 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1186 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1187 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1191 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Thousand Needles
+	##########################
+	952 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	955 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	956 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	957 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	960 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1162 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1163 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1166 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1509 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
+	#Uldum
+	##########################
+	1140 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1294 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	2002 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+###################################################################################################################################################################################################
+#DARK SHAMANISM 45
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF THE FIRELORD 46
+###################################################################################################################################################################################################
+
+	##########################
+	#Searing Gorge
+	##########################
+		73 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		542 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		544 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		546 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		548 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		551 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		554 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		657 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		781 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		805 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+
+	##########################
+	#Badlands
+	##########################
+		72 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		371 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		460 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		526 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		527 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		530 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		531 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		533 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		534 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		535 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		536 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		537 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		538 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		539 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		540 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		655 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		806 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1526 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+
+	##########################
+	#Blackrock Mountains
+	##########################
+		28 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		523 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		524 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		525 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		658 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		775 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		776 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		786 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		801 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		802 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		803 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		807 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1614 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1615 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1616 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1617 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1618 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1619 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1620 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1621 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		1622 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+
+	##########################
+	#Burning Steppes
+	##########################
+		543 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		556 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		557 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		558 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		559 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		560 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		561 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		562 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		563 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		564 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		565 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		567 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		570 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		571 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		572 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		662 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+		663 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+	##########################
+	#Ungoro
+	##########################
+		84 = {
+			set_variable = {
+				var = religion
+				value = 46
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF THE TIDEHUNTER 47
+###################################################################################################################################################################################################
+
+	##########################
+	#Tel'Abim
+	##########################
+	1482 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1483 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1484 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Azsuna
+	##########################
+	908 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	911 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1207 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	2114 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	2121 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Broken Shore
+	##########################
+	263 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	451 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	463 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	475 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	550 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	659 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	748 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	750 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Icecrown
+	##########################
+	1743 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1986 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Hownling Fjord
+	##########################
+	1834 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Borean Tundra
+	##########################
+	57 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1259 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Dustwallow Marsh
+	##########################
+	77 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	105 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	725 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	726 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	864 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1511 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Darkshore
+	##########################
+	1408 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1409 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Ashenvale
+	##########################
+	1339 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Azshara
+	##########################
+	62 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1375 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1376 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1388 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	1381 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1382 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1383 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1384 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1389 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Durotar
+	##########################
+	595 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1006 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1624 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Echo Isles
+	##########################
+	584 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Northern Barrens
+	##########################
+	996 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Southern Barrens
+	##########################
+	70 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	976 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Desolace
+	##########################
+	1180 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1295 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1507 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1149 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Swamp of Sorrows
+	##########################
+	400 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	401 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Stranglethorn
+	##########################
+		1478 = {
+			set_variable = {
+				var = religion
+				value = 47
+			}
+		}
+
+	##########################
+	#plunder isle
+	##########################
+		409 = {
+			set_variable = {
+				var = religion
+				value = 47
+			}
+		}
+		410 = {
+			set_variable = {
+				var = religion
+				value = 47
+			}
+		}
+		411 = {
+			set_variable = {
+				var = religion
+				value = 47
+			}
+		}
+
+	##########################
+	#Azuremyst
+	##########################
+	1458 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1463 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1475 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1476 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+	##########################
+	#Bloodmyst
+	##########################
+	1550 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1551 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1554 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+	1558 = {
+		set_variable = {
+			var = religion
+			value = 47
+		}
+	}
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF THE STONEMOTHER 48
+###################################################################################################################################################################################################
+
+	##########################
+	#Deepholm
+	##########################
+		1786 = {
+			set_variable = {
+				var = religion
+				value = 48
+			}
+		}
+		1788 = {
+			set_variable = {
+				var = religion
+				value = 48
+			}
+		}
+		1794 = {
+			set_variable = {
+				var = religion
+				value = 48
+			}
+		}
+		1799 = {
+			set_variable = {
+				var = religion
+				value = 48
+			}
+		}
+		1800 = {
+			set_variable = {
+				var = religion
+				value = 48
+			}
+		}
+		1804 = {
+			set_variable = {
+				var = religion
+				value = 48
+			}
+		}
+
+	##########################
+	#Witnerspring
+	##########################
+	1456 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+
+	##########################
+	#Desolace
+	##########################
+	1177 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+	1181 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+	1182 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+	1189 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1153 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+	2125 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF THE WINDLORD 49
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#GEOMANCY 50
+###################################################################################################################################################################################################
+
+	##########################
+	#Stonetalon Mountains
+	##########################
+		1316 = {
+			set_variable = {
+				var = religion
+				value = 50
+			}
+		}
+		1317 = {
+			set_variable = {
+				var = religion
+				value = 50
+			}
+		}
+		1318 = {
+			set_variable = {
+				var = religion
+				value = 50
+			}
+		}
+
+###################################################################################################################################################################################################
+#PYROMANCY 51
+###################################################################################################################################################################################################
+
+	##########################
+	#Stonetalon Mountains
+	##########################
+		71 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+
+	##########################
+	#Borean Tundra
+	##########################
+		1258 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1274 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1276 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1277 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1278 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1281 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1283 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1284 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+
+	##########################
+	#Thousand Needles
+	##########################
+		949 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+
+	##########################
+	#Elwynn
+	##########################
+		351 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		355 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+		1175 = {
+			set_variable = {
+				var = religion
+				value = 51
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF ORDOS 52
+###################################################################################################################################################################################################
+
+	##########################
+	#Timeless Isle
+	##########################
+		96 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1971 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1972 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1974 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+
+	##########################
+	#Townlong Steppes
+	##########################
+		90 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1823 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1824 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1825 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1976 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+		1979 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF GUROK 53
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE FOLLOWERS OF THE TIDEMOTHER 54
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#WATERSPEAKING 55
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE SISTERHOOD OF ELUNE 56
+###################################################################################################################################################################################################
+
+	##########################
+	#Azuremyst
+	##########################
+	1457 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1460 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1462 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Bloodmsyt
+	##########################
+	1552 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1553 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1562 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Hyjal
+	##########################
+	64 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1485 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1486 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1487 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1488 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1492 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1494 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1496 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1498 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1501 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1502 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1503 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1505 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1999 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	2126 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Winterspring
+	##########################
+	63 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1438 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1439 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1444 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	1446 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1447 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1448 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1449 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1450 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1454 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1455 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	2110 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Darkshore
+	##########################
+	1391 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1392 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1393 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1395 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1396 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1397 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1399 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1400 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1401 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1402 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1407 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Felwood
+	##########################
+	1414 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1416 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1417 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1422 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1423 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1425 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1426 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1427 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1429 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1430 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1431 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1432 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Ashenvale
+	##########################
+	66 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	593 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1334 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1335 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1336 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1337 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1338 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1340 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1341 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1342 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1343 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1347 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1349 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1350 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1351 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1354 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1356 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1357 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1358 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1359 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1361 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1362 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1363 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1364 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1365 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1366 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1391 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+  ##########################
+  #Azshara
+  ##########################
+	1367 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1370 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Desolace
+	##########################
+	1178 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1195 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1196 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1197 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1198 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1146 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1147 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	1148 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+	2108 = {
+		set_variable = {
+			var = religion
+			value = 56
+		}
+	}
+
+###################################################################################################################################################################################################
+#TAUREN MYTHOLOGY 57
+###################################################################################################################################################################################################
+
+	##########################
+	#Northern Barrens
+	##########################
+	991 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	992 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	995 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	##########################
+	#Southern Barrens
+	##########################
+	965 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+
+	##########################
+	#Mulgore
+	##########################
+	1031 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1032 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1038 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1041 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1042 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1043 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+
+	##########################
+	#Desolace
+	##########################
+	1188 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1190 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1192 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+
+	##########################
+	#Feralas
+	##########################
+	1167 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1168 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1169 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1170 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1171 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1172 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1173 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	1174 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+
+	##########################
+	#Thousand Needles
+	##########################
+	78 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	946 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	947 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	948 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	950 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	951 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	953 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+	959 = {
+		set_variable = {
+			var = religion
+			value = 57
+		}
+	}
+
+###################################################################################################################################################################################################
+#PANDAREN FOLKLORE 58
+###################################################################################################################################################################################################
+
+	##########################
+	#Valley of the Four Winds
+	##########################
+	1916 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1917 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1921 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1922 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1923 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1924 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1925 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1926 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1927 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1928 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1929 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1930 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1931 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1932 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+	1934 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+
+	##########################
+	#Krasarang Wilds
+	##########################
+	1915 = {
+		set_variable = {
+			var = religion
+			value = 58
+		}
+	}
+
+###################################################################################################################################################################################################
+#MOGU MYTHOLOGY 59
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#LUCKYDOS 60
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#FOLLOWERS OF VOLCANOTH 61
+###################################################################################################################################################################################################
+
+	##########################
+	#the lost isles
+	##########################
+		824 = {
+			set_variable = {
+				var = religion
+				value = 61
+			}
+		}
+		255 = {
+			set_variable = {
+				var = religion
+				value = 61
+			}
+		}
+		828 = {
+			set_variable = {
+				var = religion
+				value = 61
+			}
+		}
+		827 = {
+			set_variable = {
+				var = religion
+				value = 61
+			}
+		}
+		826 = {
+			set_variable = {
+				var = religion
+				value = 61
+			}
+		}
+		825 = {
+			set_variable = {
+				var = religion
+				value = 61
+			}
+		}
+
+###################################################################################################################################################################################################
+#FOLLOWERS OF MAZU 62
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#FOLLOWERS OF KROS 63
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#TUSKARR MYTHOLOGY 64
+###################################################################################################################################################################################################
+	##########################
+	#Howling Fjord
+	##########################
+		48 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1649 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+
+	##########################
+	#Dragonblight
+	##########################
+		1232 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1233 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+
+	##########################
+	#Borean Tundra
+	##########################
+		1263 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1268 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1269 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1270 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1271 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1272 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1275 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1279 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1282 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+		1833 = {
+			set_variable = {
+				var = religion
+				value = 64
+			}
+		}
+
+
+###################################################################################################################################################################################################
+#ANCIENT NERUBIAN 65
+###################################################################################################################################################################################################
+
+	##########################
+	#Icecrown
+	##########################
+		52 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1742 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1747 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+
+	##########################
+	#Borean Tundra
+	##########################
+		54 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1228 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1229 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1230 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1235 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1236 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1237 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+		1238 = {
+			set_variable = {
+				var = religion
+				value = 65
+			}
+		}
+
+###################################################################################################################################################################################################
+#GAHZRILLA 66
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#THE WYRMCULT 67
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#GRONN WORSHIP 68
+###################################################################################################################################################################################################
+
+	##########################
+	#Gorgrond
+	##########################
+		729 = {
+			set_variable = {
+				var = religion
+				value = 68
+			}
+		}
+		1079 = {
+			set_variable = {
+				var = religion
+				value = 68
+			}
+		}
+
+###################################################################################################################################################################################################
+#MAGNATAUR WORSHIP 69
+###################################################################################################################################################################################################
+
+	##########################
+	#Borean Toundra
+	##########################
+		1256 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1257 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1260 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1261 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1262 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1264 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1280 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+
+###################################################################################################################################################################################################
+#FOLLOWERS OF ZAR'JIRA 70
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#FOLLOWERS OF BORROK 71
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#GENESAUR WORSHIP 72
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#NARAXAS 73
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#JORHUTTAN 74
+###################################################################################################################################################################################################
+
+###################################################################################################################################################################################################
+#WAY OF THE JADE FIST 75
+###################################################################################################################################################################################################
+
+	##########################
+	#Jade Forest
+	##########################
+		1953 = {
+			set_variable = {
+				var = religion
+				value = 75
+			}
+		}
+
+###################################################################################################################################################################################################
+#IRRELIGIOUS 76
+###################################################################################################################################################################################################
+ 	}
+}

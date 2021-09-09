@@ -1,0 +1,48 @@
+
+state={
+	id=361
+	name="STATE_361"
+	resources={
+		mounts=16.000
+	}
+
+	history={
+		
+		add_core_of = STO
+
+		victory_points = {
+			895 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = BRC
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+		}
+	}
+
+	provinces={
+		895 2225 2226 2229 2230 2232 6414
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

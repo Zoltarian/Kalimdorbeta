@@ -1,0 +1,49 @@
+ideas = {
+
+	advisor = {
+	# Civilian Advisors 
+	
+		BDF_kalec = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = BDF
+			}
+			
+			#traits = { diplomat_idea_3 }
+			
+		}
+		
+		BDF_arygos = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = BDF
+			}
+			
+			traits = { heir_idea }
+			
+		}
+
+	}
+	
+	council_member = {
+	# Military Advisors
+	
+		BDF_azuregos = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = BDF
+			}
+			
+			traits = { guardian_3 }
+			
+		}
+
+	}
+	
+}

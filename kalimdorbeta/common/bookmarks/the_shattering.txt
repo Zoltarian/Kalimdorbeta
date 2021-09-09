@@ -1,0 +1,92 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_SHATTERING_NAME"
+		desc = "THE_SHATTERING_DESC"
+		date = 620.1.1.12
+		picture = "GFX_select_date_the_shattering"
+		default_country = "BLF"
+		default = yes
+		
+		"BLF"={
+			history = "BLF_THE_SHATTERING_DESC"
+			ideology = old_gods
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"STO"={
+			history = "STO_THE_SHATTERING_DESC"
+			ideology = alliance
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"IRO"={
+			history = "IRO_THE_SHATTERING_DESC"
+			ideology = alliance
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"KAL"={
+			history = "KAL_THE_SHATTERING_DESC"
+			ideology = alliance
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"OGR"={
+			history = "OGR_THE_SHATTERING_DESC"
+			ideology = horde
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"THB"={
+			history = "THB_THE_SHATTERING_DESC"
+			ideology = horde
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"FSK"={
+			history = "FSK_THE_SHATTERING_DESC"
+			ideology = horde
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+
+		"---"={
+			history = "OTHER_THE_SHATTERING_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

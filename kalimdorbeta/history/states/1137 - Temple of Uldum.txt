@@ -1,0 +1,33 @@
+
+state={
+	id=1137
+	name="STATE_1137"
+	resources = {
+		mana=15
+		ores=6
+		oil=3
+	}
+	
+
+	history={
+
+		owner = ORS
+		victory_points = {
+			10865 15
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		add_core_of = ORS
+
+	}
+
+	provinces={
+		10865 11931 11932 11933 11938 11939
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

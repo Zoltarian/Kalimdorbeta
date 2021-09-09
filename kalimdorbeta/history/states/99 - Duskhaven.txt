@@ -1,0 +1,48 @@
+
+state={
+	id=99
+	name="STATE_99"
+	resources={
+		mounts=36.000
+		ores=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			1538 20 
+		}
+		victory_points = {
+			1534 10
+		}
+		victory_points = {
+			1520 10
+		}
+		victory_points = {
+			531 5
+		}
+		victory_points = {
+			1367 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			1520 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		531 1367 1520 1522 1524 1526 1528 1531 1532 1533 1534 1535 1536 1537 1538 1543 2956 5242 5243 5824 
+	}
+	manpower=167500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

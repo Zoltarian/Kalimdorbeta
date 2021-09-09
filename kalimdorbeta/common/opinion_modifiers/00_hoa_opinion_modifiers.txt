@@ -1,0 +1,134 @@
+opinion_modifiers = {
+
+	same_race = {
+		value = 15
+	}
+
+	different_race = {
+		value = -15
+	}
+
+	started_neutual_party = {
+		value = 35
+	}
+
+	same_religion = {
+		value = 10
+	}
+
+	different_religion = {
+		value = -10
+	}
+
+	lordaeron_refuses_to_help = {
+		value = -75
+	}
+
+	lordaeron_offers_aid = {
+		value = 50
+	}
+
+	dalaran_refuses_to_help = {
+		value = -75
+	}
+
+	dalaran_offers_aid = {
+		value = 50
+	}
+
+	alterac_refuses_to_help = {
+		value = -75
+	}
+
+	alterac_offers_aid = {
+		value = 50
+	}
+
+	stromgarde_refuses_to_help = {
+		value = -75
+	}
+
+	stromgarde_offers_aid = {
+		value = 50
+	}
+
+	gilneas_refuses_to_help = {
+		value = -75
+	}
+
+	gilneas_offers_aid = {
+		value = 50
+	}
+
+	kultiras_refuses_to_help = {
+		value = -75
+	}
+
+	kultiras_offers_aid = {
+		value = 50
+	}
+
+	gurubashi_cooperative_standpoint = {
+		value = 25
+	}
+
+	gurubashi_coop_STO = {
+		value = 50
+	}
+
+	remnants_trollwar = {
+		value = -30
+	}
+
+	remnants_threehammerswar = {
+		value = -30
+	}
+
+	kinship_threehammerswar = {
+		value = 30
+	}
+
+	DAL_help_HEA = {
+		value = 30
+	}
+
+	DAL_refuse_to_help_HEA = {
+		value = -30
+	}
+
+	AER_help_HEA = {
+		value = 30
+	}
+
+	AER_refuse_to_help_HEA = {
+		value = -30
+	}
+
+	align_alterac = {
+		value = 30
+	}
+
+	envoy_to_quelthalas = {
+		value = 30
+	}
+
+	attented_the_meeting_of_the_seven_kingdoms = {
+		value = 25
+	}
+
+	not_attented_the_meeting_of_the_seven_kingdoms = {
+		value = -50
+	}
+
+	STC_trade_with_the_natives_opinion = {
+		value = 50
+	}
+
+	hoa_mortal_enemies = {
+		value = -75
+	}
+
+	hoa_mother_of_the_centaur = {
+		value = 15
+	}
+}

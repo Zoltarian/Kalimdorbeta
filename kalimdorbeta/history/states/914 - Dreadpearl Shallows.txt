@@ -1,0 +1,25 @@
+
+state={
+	id=914
+	name="STATE_914"
+
+	history={
+		
+		add_core_of = SQT
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8736 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		8689 8736 8739 8747 8749
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

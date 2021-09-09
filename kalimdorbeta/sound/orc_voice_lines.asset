@@ -1,0 +1,1479 @@
+category = {
+ name = "Voices"
+ soundeffects = {
+	BBC_infantry_idle
+	BBC_infantry_neutral_combat
+	BBC_infantry_positive_combat
+	BBC_infantry_retreat
+	BBC_infantry_move_out
+	
+	BCC_infantry_idle
+	BCC_infantry_neutral_combat
+	BCC_infantry_positive_combat
+	BCC_infantry_retreat
+	BCC_infantry_move_out
+	
+	BHC_infantry_idle
+	BHC_infantry_neutral_combat
+	BHC_infantry_positive_combat
+	BHC_infantry_retreat
+	BHC_infantry_move_out
+	
+	BRC_infantry_idle
+	BRC_infantry_neutral_combat
+	BRC_infantry_positive_combat
+	BRC_infantry_retreat
+	BRC_infantry_move_out
+	
+	BTG_infantry_idle
+	BTG_infantry_neutral_combat
+	BTG_infantry_positive_combat
+	BTG_infantry_retreat
+	BTG_infantry_move_out
+
+	BWC_infantry_idle	
+	BWC_infantry_neutral_combat
+	BWC_infantry_positive_combat
+	BWC_infantry_retreat
+	BWC_infantry_move_out
+	
+	CAB_infantry_idle
+	CAB_infantry_neutral_combat
+	CAB_infantry_positive_combat
+	CAB_infantry_retreat
+	CAB_infantry_move_out
+	
+	DMC_infantry_idle	
+	DMC_infantry_neutral_combat
+	DMC_infantry_positive_combat
+	DMC_infantry_retreat
+	DMC_infantry_move_out
+	
+	FWC_infantry_idle	
+	FWC_infantry_neutral_combat
+	FWC_infantry_positive_combat
+	FWC_infantry_retreat
+	FWC_infantry_move_out
+	
+	GAR_infantry_idle	
+	GAR_infantry_neutral_combat
+	GAR_infantry_positive_combat
+	GAR_infantry_retreat
+	GAR_infantry_move_out
+	
+	LBC_infantry_idle
+	LBC_infantry_neutral_combat
+	LBC_infantry_positive_combat
+	LBC_infantry_retreat
+	LBC_infantry_move_out
+	
+	LSC_infantry_idle
+	LSC_infantry_neutral_combat
+	LSC_infantry_positive_combat
+	LSC_infantry_retreat
+	LSC_infantry_move_out
+	
+	RWC_infantry_idle
+	RWC_infantry_neutral_combat
+	RWC_infantry_positive_combat
+	RWC_infantry_retreat
+	RWC_infantry_move_out
+	
+	SHC_infantry_idle
+	SHC_infantry_neutral_combat
+	SHC_infantry_positive_combat
+	SHC_infantry_retreat
+	SHC_infantry_move_out
+	
+	SMC_infantry_idle
+	SMC_infantry_neutral_combat
+	SMC_infantry_positive_combat
+	SMC_infantry_retreat
+	SMC_infantry_move_out
+
+	SRC_infantry_idle
+	SRC_infantry_neutral_combat
+	SRC_infantry_positive_combat
+	SRC_infantry_retreat
+	SRC_infantry_move_out
+
+	THC_infantry_idle
+	THC_infantry_neutral_combat
+	THC_infantry_positive_combat
+	THC_infantry_retreat
+	THC_infantry_move_out
+
+	
+	TLC_infantry_idle
+	TLC_infantry_neutral_combat
+	TLC_infantry_positive_combat
+	TLC_infantry_retreat
+	TLC_infantry_move_out
+	
+	TSC_infantry_idle
+	TSC_infantry_neutral_combat
+	TSC_infantry_positive_combat
+	TSC_infantry_retreat
+	TSC_infantry_move_out
+	
+	WSC_infantry_idle
+	WSC_infantry_neutral_combat
+	WSC_infantry_positive_combat
+	WSC_infantry_retreat
+	WSC_infantry_move_out
+
+ }
+
+}
+
+########## BBC
+
+soundeffect = {
+    name = "BBC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BBC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BBC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BBC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BBC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BCC
+
+soundeffect = {
+    name = "BCC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BCC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BCC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BCC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BCC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BHC
+
+soundeffect = {
+    name = "BHC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BHC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BRC
+
+soundeffect = {
+    name = "BRC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BRC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BRC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BRC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BRC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BTG
+
+soundeffect = {
+    name = "BTG_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BTG_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BTG_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BTG_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+}
+soundeffect = {
+    name = "BTG_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+}
+
+########## BWC
+
+soundeffect = {
+    name = "BWC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BWC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BWC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BWC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BWC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## CAB
+
+soundeffect = {
+    name = "CAB_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "CAB_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "CAB_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "CAB_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "CAB_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DMC
+
+soundeffect = {
+    name = "DMC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DMC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DMC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DMC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DMC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## FWC
+
+soundeffect = {
+    name = "FWC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "FWC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FWC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FWC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FWC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GAR
+
+soundeffect = {
+    name = "GAR_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GAR_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GAR_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GAR_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GAR_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## LBC
+
+soundeffect = {
+    name = "LBC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "LBC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LBC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LBC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LBC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## LSC
+
+soundeffect = {
+    name = "LSC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "LSC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LSC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LSC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LSC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## RWC
+
+soundeffect = {
+    name = "RWC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "RWC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RWC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RWC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RWC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SHC
+
+soundeffect = {
+    name = "SHC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SHC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SHC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SHC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SHC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SMC
+
+soundeffect = {
+    name = "SMC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SMC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SMC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SMC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SMC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SRC
+
+soundeffect = {
+    name = "SRC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SRC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SRC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SRC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SRC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## THC
+
+soundeffect = {
+    name = "THC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "THC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## TLC
+
+soundeffect = {
+    name = "TLC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "TLC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TLC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TLC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TLC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## TSC
+
+soundeffect = {
+    name = "TSC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "TSC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TSC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TSC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TSC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## WSC
+
+soundeffect = {
+    name = "WSC_infantry_idle"
+    sounds = {
+		sound = Orc_Idle_001
+        sound = Orc_Idle_002
+        sound = Orc_Idle_003
+        sound = Orc_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "WSC_infantry_neutral_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WSC_infantry_positive_combat"
+    sounds = {
+        sound = Orc_Combat_001
+        sound = Orc_Combat_002
+        sound = Orc_Combat_003
+		sound = Orc_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WSC_infantry_retreat"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WSC_infantry_move_out"
+    sounds = {
+        sound = Orc_Move_001
+        sound = Orc_Move_002
+        sound = Orc_Move_003
+		sound = Orc_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Orc_Idle_001"
+	file = "voice_lines/orc/Grunt_Idle_1.wav"
+}
+sound = {
+	name = "Orc_Idle_002"
+	file = "voice_lines/orc/Grunt_Idle_2.wav"
+}
+sound = {
+	name = "Orc_Idle_003"
+	file = "voice_lines/orc/Grunt_Idle_3.wav"
+}
+sound = {
+	name = "Orc_Idle_004"
+	file = "voice_lines/orc/Grunt_Idle_4.wav"
+}
+
+sound = {
+	name = "Orc_Combat_001"
+	file = "voice_lines/orc/Grunt_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Orc_Combat_002"
+	file = "voice_lines/orc/Grunt_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Orc_Combat_003"
+	file = "voice_lines/orc/Grunt_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Orc_Combat_004"
+	file = "voice_lines/orc/Grunt_Attack_4.wav"
+}
+
+sound = {
+	name = "Orc_Move_001"
+	file = "voice_lines/orc/Grunt_Move_1.wav"
+}
+sound = {
+	name = "Orc_Move_002"
+	file = "voice_lines/orc/Grunt_Move_2.wav"
+}
+sound = {
+	name = "Orc_Move_003"
+	file = "voice_lines/orc/Grunt_Move_3.wav"
+}
+sound = {
+	name = "Orc_Move_004"
+	file = "voice_lines/orc/Grunt_Move_4.wav"
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=722
+	name="STATE_722"
+
+	history={
+		
+		victory_points = {
+			1960 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ALT
+
+		617.1.1 = {
+			
+			controller = LOR
+			add_core_of = LOR
+
+		}
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+
+		}
+
+	}
+
+	provinces={
+		1960 1967 1974 5261 5844 7454 
+	}
+	manpower=1447
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

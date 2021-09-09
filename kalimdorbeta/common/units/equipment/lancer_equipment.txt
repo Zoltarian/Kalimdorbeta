@@ -1,0 +1,119 @@
+equipments = {
+	
+	lancer_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_light_tank_equipment			
+		is_buildable = no
+		type = { 
+			armor
+			anti_tank
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+
+		#Misc Abilities
+		maximum_speed = 2
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 20
+		hardness = 0.8
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 8
+		hard_attack = 30
+		ap_attack = 10
+		air_attack = 0
+		
+		build_cost_ic = 12
+		resources = {
+			mounts = 2
+			ores = 3
+		}
+		
+	}
+	
+	lancer_equipment_1 = {
+		year = 584
+
+		archetype = lancer_equipment
+		priority = 40
+		visual_level = 0
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 28
+		hardness = 0.8
+		armor_value = 10
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 35
+		ap_attack = 15
+		air_attack = 0
+		
+		build_cost_ic = 12
+	}
+
+	lancer_equipment_2 = {
+		year = 591
+
+		archetype = lancer_equipment
+		parent = lancer_equipment_1
+		priority = 40
+		visual_level = 1
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 36
+		hardness = 0.8
+		armor_value = 15
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 40
+		ap_attack = 20
+		air_attack = 0
+		
+		build_cost_ic = 12
+	}
+	
+	lancer_equipment_3 = {
+		year = 594
+		archetype = lancer_equipment
+		parent = lancer_equipment_2
+		priority = 40
+		visual_level = 1
+		
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 44
+		hardness = 0.8
+		armor_value = 20
+
+		#Offensive Abilities
+		soft_attack = 26
+		hard_attack = 45
+		ap_attack = 25
+		air_attack = 0
+		
+		build_cost_ic = 12
+	}
+
+}

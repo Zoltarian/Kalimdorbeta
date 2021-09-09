@@ -1,0 +1,25 @@
+
+state={
+	id=1122
+	name="STATE_1122"
+
+	history={
+		owner = BPL
+		victory_points = {
+			11270 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = BPL
+
+	}
+
+	provinces={
+		10838 11226 11231 11250 11254 11270 11271 11280 11293 11302 11309
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

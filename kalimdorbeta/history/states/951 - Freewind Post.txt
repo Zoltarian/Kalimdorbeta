@@ -1,0 +1,37 @@
+
+state={
+	id=951
+	name="STATE_951"
+	resources={
+		ores=14
+		mounts=4
+	}
+
+	history={
+		owner = GRM
+		add_core_of = GRM
+
+		victory_points = {
+			9574 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		9561 9562 9569 9572 9574 9577 9582
+	}
+	manpower=29000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

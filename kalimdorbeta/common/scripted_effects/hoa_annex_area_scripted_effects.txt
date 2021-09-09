@@ -1,0 +1,198 @@
+###########################################################
+# Contains scripted effects to annex an entire area (for core, see hoa_core_area_scripted_effects.txt)
+# Useful for formable nations decisions mainly
+# NOT ALL ARE PRESENT, ADD IF NEEDED
+# Please sort by continent / alphabeticaly for better usage
+###########################################################
+
+####################
+# Kalimdor
+####################
+
+#Desolace
+annex_desolace = {
+  custom_effect_tooltip = annex_desolace_tt
+  hidden_effect = {
+    set_state_owner = 83
+    set_state_owner = 1176
+    set_state_owner = 1177
+    set_state_owner = 1178
+    set_state_owner = 1179
+    set_state_owner = 1180
+    set_state_owner = 1181
+    set_state_owner = 1182
+    set_state_owner = 1183
+    set_state_owner = 1184
+    set_state_owner = 1185
+    set_state_owner = 1187
+    set_state_owner = 1188
+    set_state_owner = 1189
+    set_state_owner = 1190
+    set_state_owner = 1191
+    set_state_owner = 1192
+    set_state_owner = 1193
+    set_state_owner = 1194
+    set_state_owner = 1195
+    set_state_owner = 1196
+    set_state_owner = 1197
+    set_state_owner = 1198
+    set_state_owner = 1295
+    set_state_owner = 1996
+  }
+}
+
+#Durotar
+annex_durotar = {
+  custom_effect_tooltip = annex_durotar_tt
+  hidden_effect = {
+    set_state_owner = 61
+    set_state_owner = 588
+    set_state_owner = 589
+    set_state_owner = 590
+    set_state_owner = 591
+    set_state_owner = 592
+    set_state_owner = 594
+    set_state_owner = 595
+    set_state_owner = 596
+    set_state_owner = 597
+    set_state_owner = 599
+    set_state_owner = 600
+    set_state_owner = 608
+    set_state_owner = 609
+    set_state_owner = 610
+    set_state_owner = 611
+    set_state_owner = 612
+    set_state_owner = 1005
+    set_state_owner = 1006
+    set_state_owner = 1623
+    set_state_owner = 1624
+  }
+}
+
+#Mulgore
+annex_mulgore = {
+  custom_effect_tooltip = annex_mulgore_tt
+  hidden_effect = {
+    set_state_owner = 81
+    set_state_owner = 997
+    set_state_owner = 998
+    set_state_owner = 999
+    set_state_owner = 1000
+    set_state_owner = 1001
+    set_state_owner = 1002
+    set_state_owner = 1031
+    set_state_owner = 1032
+    set_state_owner = 1033
+    set_state_owner = 1034
+    set_state_owner = 1035
+    set_state_owner = 1036
+    set_state_owner = 1037
+    set_state_owner = 1038
+    set_state_owner = 1039
+    set_state_owner = 1040
+    set_state_owner = 1042
+    set_state_owner = 1043
+    set_state_owner = 1044
+    set_state_owner = 1045
+    set_state_owner = 1046
+    set_state_owner = 1047
+    set_state_owner = 1048
+  }
+}
+
+#Northern Barrens
+annex_northern_barrens = {
+  custom_effect_tooltip = annex_northern_barrens_tt
+  hidden_effect = {
+    set_state_owner = 979
+    set_state_owner = 980
+    set_state_owner = 981
+    set_state_owner = 982
+    set_state_owner = 983
+    set_state_owner = 984
+    set_state_owner = 985
+    set_state_owner = 986
+    set_state_owner = 987
+    set_state_owner = 988
+    set_state_owner = 989
+    set_state_owner = 990
+    set_state_owner = 991
+    set_state_owner = 992
+    set_state_owner = 993
+    set_state_owner = 994
+    set_state_owner = 995
+    set_state_owner = 996
+  }
+}
+
+#Orgrimmar
+annex_orgrimmar = {
+  custom_effect_tooltip = annex_orgrimmar_tt
+  hidden_effect = {
+    set_state_owner = 587
+    set_state_owner = 598
+    set_state_owner = 602
+    set_state_owner = 604
+    set_state_owner = 605
+    set_state_owner = 606
+    set_state_owner = 607
+    set_state_owner = 1003
+    set_state_owner = 1004
+  }
+}
+
+#Southern Barrens
+annex_southern_barrens = {
+  custom_effect_tooltip = annex_southern_barrens_tt
+  hidden_effect = {
+    set_state_owner = 70
+    set_state_owner = 962
+    set_state_owner = 963
+    set_state_owner = 964
+    set_state_owner = 965
+    set_state_owner = 966
+    set_state_owner = 967
+    set_state_owner = 968
+    set_state_owner = 969
+    set_state_owner = 970
+    set_state_owner = 971
+    set_state_owner = 972
+    set_state_owner = 973
+    set_state_owner = 974
+    set_state_owner = 975
+    set_state_owner = 976
+    set_state_owner = 977
+    set_state_owner = 978
+  }
+}
+
+#Uldum
+annex_uldum = {
+  custom_effect_tooltip = annex_uldum_tt
+  hidden_effect = {
+    set_state_owner = 80
+    set_state_owner = 569
+    set_state_owner = 1128
+    set_state_owner = 1129
+    set_state_owner = 1130
+    set_state_owner = 1131
+    set_state_owner = 1132
+    set_state_owner = 1133
+    set_state_owner = 1134
+    set_state_owner = 1135
+    set_state_owner = 1136
+    set_state_owner = 1137
+    set_state_owner = 1138
+    set_state_owner = 1139
+    set_state_owner = 1140
+    set_state_owner = 1141
+    set_state_owner = 1142
+    set_state_owner = 1143
+    set_state_owner = 1144
+    set_state_owner = 1145
+    set_state_owner = 1294
+    set_state_owner = 2001
+    set_state_owner = 2002
+    set_state_owner = 2109
+  }
+}

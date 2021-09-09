@@ -1,0 +1,296 @@
+﻿division_template = {
+	name = "Stromgarde Footman"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+
+	priority = 1
+}
+
+#division_template = {
+#	name = "Stromgarde Royal Guards"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#
+#	}
+#
+#	priority = 1
+#}
+
+division_template = {
+	name = "Stromgarde Pikeman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Stromgarde Sailors"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		hoa_sailor = { x = 0 y = 1 }
+		hoa_sailor = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		hoa_sailor = { x = 1 y = 1 }
+		hoa_sailor = { x = 1 y = 2 }
+
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Stromgarde Scout Cavalry"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Stromgarde Knights"
+
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+#		hoa_lancer = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+#		hoa_lancer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+########################
+#Arathi highlands
+########################
+#	division = {
+#		name = "1st Arathi Royal Guards"
+#		location = 1729
+#		division_template = "Stromgarde Royal Guards"
+#		start_experience_factor = 0.3
+#	}
+
+	division = {
+		name = "1st Arathi Scout Cavalry"
+		location = 2006
+		division_template = "Stromgarde Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Arathi Scout Cavalry"
+		location = 2044
+		division_template = "Stromgarde Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Arathi Scout Cavalry"
+		location = 2039
+		division_template = "Stromgarde Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Arathi Knights"
+		location = 1730
+		division_template = "Stromgarde Knights"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Arathi Knights"
+		location = 1921
+		division_template = "Stromgarde Knights"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Arathi Knights"
+		location = 1996
+		division_template = "Stromgarde Knights"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Arathi Knights"
+		location = 2005
+		division_template = "Stromgarde Knights"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Arathi Knights"
+		location = 2058
+		division_template = "Stromgarde Knights"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Arathi Sailors"
+		location = 1766
+		division_template = "Stromgarde Sailors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Arathi Pikeman"
+		location = 1743
+		division_template = "Stromgarde Pikeman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Arathi Pikeman"
+		location = 1751
+		division_template = "Stromgarde Pikeman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Arathi Pikeman"
+		location = 1749
+		division_template = "Stromgarde Pikeman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Arathi Pikeman"
+		location = 1747
+		division_template = "Stromgarde Pikeman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Arathi Pikeman"
+		location = 2020
+		division_template = "Stromgarde Pikeman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Arathi Footman"
+		location = 1748
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Arathi Footman"
+		location = 1149
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Arathi Footman"
+		location = 1857
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Arathi Footman"
+		location = 5143
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Arathi Footman"
+		location = 1857
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Arathi Footman"
+		location = 2058
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Arathi Footman"
+		location = 2024
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "8th Arathi Footman"
+		location = 2011
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "9th Arathi Footman"
+		location = 5143
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "10th Arathi Footman"
+		location = 292
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "11th Arathi Footman"
+		location = 1750
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "12th Arathi Footman"
+		location = 1729
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "13th Arathi Footman"
+		location = 1729
+		division_template = "Stromgarde Footman"
+		start_experience_factor = 0.2
+	}
+
+}

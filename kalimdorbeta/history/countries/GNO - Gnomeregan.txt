@@ -1,0 +1,215 @@
+﻿capital = 422
+
+oob = "GNO_592"
+
+set_stability = 0.65
+set_war_support = 0.1
+
+add_ideas = {
+	
+	kingdom
+	recruit_adventurers
+	isolation
+	free_trade
+
+	gnome_primary_race
+
+	primary_religion_irreligious
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+
+	royal_guard_tech = 1
+
+	catapult_equipment_tech_1 = 1
+
+	aviary_tech = 1
+	mechanical_flight = 1
+
+	
+	
+	
+	
+	naval_transport_1 = 1
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+	superior_firepower = 1
+}
+
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 30
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 70
+}
+
+596.1.1 = {
+	oob = "GNO_597"
+
+	set_stability = 0.60
+	set_war_support = 0.4
+
+	add_ideas = {
+		
+		kingdom
+		limited_conscription
+		war_economy
+		export_focus
+
+		gnome_primary_race
+
+		primary_religion_irreligious
+
+	}
+
+	set_technology = {
+		footman_weapons_tech_2 = 1
+		
+
+		
+		catapult_equipment_tech_2 = 1
+
+		
+		
+		
+		
+		naval_transport_2 = 1
+
+		
+		
+
+		
+		
+		blueprints_1 = 1
+		
+		
+		
+		
+		
+		
+		
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+
+617.1.1 = {
+	# Maybe move to earlier start date
+	set_politics = {
+		ruling_party = alliance
+		last_election = "616.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+	    alliance = 100
+	    horde = 0
+	    death = 0
+	    fel = 0
+	    old_gods = 0
+	    titans = 0
+	    neutral = 0
+	}
+}
+
+create_country_leader = {
+	name = "Gelbin Mekkatorque"
+	desc = "POLITICS_GELBIN_MEKKATORQUE_DESC"
+	picture = "mekkatorque.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gelbin Mekkatorque"
+	desc = "POLITICS_GELBIN_MEKKATORQUE_DESC"
+	picture = "mekkatorque.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gelbin Mekkatorque"
+	desc = "POLITICS_GELBIN_MEKKATORQUE_DESC"
+	picture = "mekkatorque.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sicco Thermaplugg"
+	desc = "POLITICS_GELBIN_MEKKATORQUE_DESC"
+	picture = "Sicco Thermaplugg.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sicco Thermaplugg"
+	desc = "POLITICS_GELBIN_MEKKATORQUE_DESC"
+	picture = "Sicco Thermaplugg.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Gelbin Mekkatorque"
+	picture = "mekkatorque.dds"
+	traits = {  }
+	id = 27600
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sicco Thermaplugg"
+	picture = "Sicco Thermaplugg.dds"
+	traits = {  }
+	id = 27601
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

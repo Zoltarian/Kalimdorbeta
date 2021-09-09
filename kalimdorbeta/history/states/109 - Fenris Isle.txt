@@ -1,0 +1,37 @@
+
+state={
+	id=109
+	name="STATE_109"
+	resources={
+		wood=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			1846 20 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			radar_station = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = RHP
+			controller = RHP
+			add_core_of = RHP
+
+		}
+
+	}
+
+	provinces={
+		333 1842 1843 1844 1845 1846 1847 1848 1852 11331 
+	}
+	manpower=26975
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

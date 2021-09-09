@@ -1,0 +1,46 @@
+ideologies = {
+
+	fel = {
+
+		types = {
+
+			fel_type = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_FEL_1"
+			"FACTION_NAME_FEL_2"
+			"FACTION_NAME_FEL_3"
+			"FACTION_NAME_FEL_4"
+			"FACTION_NAME_FEL_5"
+		}
+
+		color = { 25 174 28 }
+
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+			can_guarantee_other_ideologies = no
+		}
+
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { # More rules for the ideology
+			drift_defence_factor = 0.5
+			annex_cost_factor = -0.25
+			justify_war_goal_when_in_major_war_time = -0.80
+		}
+
+		can_be_boosted = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+	}
+}

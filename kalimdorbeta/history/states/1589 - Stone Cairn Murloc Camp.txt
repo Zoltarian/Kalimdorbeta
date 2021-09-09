@@ -1,0 +1,36 @@
+
+state={
+	id=1589
+	name="STATE_1589"
+
+	history={
+		
+		add_core_of = STO
+		add_core_of = ELW
+		victory_points = {
+			2571 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+		596.1.1 = {
+			
+			controller = THC
+			add_core_of = THC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = THC
+		}
+	}
+
+	provinces={
+		177 2559 2563 2571 2574 2578
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

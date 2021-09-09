@@ -1,0 +1,195 @@
+﻿###########################
+#Bog Beasts
+###########################
+
+add_namespace = swampwalkers
+
+#swampwalkers declared war on us
+country_event = {
+	id = swampwalkers.1
+	title = swampwalkers.1.t
+	desc = swampwalkers.1.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.1.option.1
+
+	}
+
+}
+
+#win war agaisnt bleeding hollow
+country_event = {
+	id = swampwalkers.2
+	title = swampwalkers.2.t
+	desc = swampwalkers.2.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.2.option.1
+		
+		TSW = {
+			transfer_state = 405
+			transfer_state = 404
+			transfer_state = 403
+		}
+
+	}
+
+}
+
+#bleeding hollow race change
+country_event = {
+	id = swampwalkers.3
+	title = swampwalkers.3.t
+	desc = swampwalkers.3.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.3.option.1
+		
+		405 = {
+			set_variable = {
+				var = race
+				value = 7
+			}
+		}
+		404 = {
+			set_variable = {
+				var = race
+				value = 7
+			}
+		}
+		403 = {
+			set_variable = {
+				var = race
+				value = 7
+			}
+		}
+
+	}
+
+}
+
+#infested wolves
+country_event = {
+	id = swampwalkers.4
+	title = swampwalkers.4.t
+	desc = swampwalkers.4.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.4.option.1
+		
+		load_oob = "TSW_infested_wolves"
+
+	}
+
+}
+
+#night stalkers
+country_event = {
+	id = swampwalkers.5
+	title = swampwalkers.5.t
+	desc = swampwalkers.5.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.5.option.1
+		
+		load_oob = "TSW_night_stalkers"
+
+	}
+
+}
+
+#fen lurkers
+country_event = {
+	id = swampwalkers.6
+	title = swampwalkers.6.t
+	desc = swampwalkers.6.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.6.option.1
+		
+		load_oob = "TSW_fen_lurkers"
+
+	}
+
+}
+
+#swamp lurkers
+country_event = {
+	id = swampwalkers.7
+	title = swampwalkers.7.t
+	desc = swampwalkers.7.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.7.option.1
+		
+		load_oob = "TSW_swamp_lurkers"
+
+	}
+
+}
+
+#call from below
+country_event = {
+	id = swampwalkers.8
+	title = swampwalkers.8.t
+	desc = swampwalkers.8.d
+	picture = GFX_swamp_of_sorrows_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = swampwalkers.8.option.1
+		
+		add_popularity = {
+		  ideology = old_gods
+		  popularity = 1
+		}
+
+		set_politics = {
+			ruling_party = old_gods
+		}
+
+	}
+
+}
+
+
+
+

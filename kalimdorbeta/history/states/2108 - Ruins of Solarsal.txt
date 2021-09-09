@@ -1,0 +1,42 @@
+
+state={
+	id=2108
+	name="STATE_2108"
+	resources = {
+		wheat=4
+		oil=5
+		wood=8
+		ores=2
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			11377 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			11377 = {
+				naval_base = 3
+			}
+
+		}
+		617.1.1 = {
+			owner = HCT
+			controller = HCT
+			add_core_of = HCT
+
+		}
+
+	}
+
+	provinces={
+		11377 11394 11400 11427 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

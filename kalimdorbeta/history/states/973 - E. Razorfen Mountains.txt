@@ -1,0 +1,23 @@
+
+state={
+	id=973
+	name="STATE_973"
+
+	impassable = yes
+	history={
+		owner = RZF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RZF
+
+	}
+
+	provinces={
+		9680
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=221
+	name="STATE_221"
+	resources={
+		ores=24.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		710 4410 4413 4415 4419 4420 4426 4429 4438 4441 4442 4445 4447 4455 4460 4464 4470 5420 5423 5425 5426 5432 7493 7494 7496 8674 
+	}
+	manpower=21750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

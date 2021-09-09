@@ -1,0 +1,622 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	troll_barracks_tech = {
+
+		path = {
+			leads_to_tech = troll_axeman_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = head_hunter_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dire_troll_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 8 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+		}
+	}
+
+	troll_axeman_tech = {
+
+		enable_subunits = {
+			troll_axeman
+		}
+	
+		path = {
+			leads_to_tech = troll_axeman_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				troll_axeman_equipment_tech_1 = 1
+			}
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 2 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	troll_axeman_equipment_tech_1 = {
+	
+		enable_equipments = {
+			troll_axeman_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = troll_axeman_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = troll_axeman_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 2 y = 4 }
+		}		
+		
+		categories = {
+			troll_barracks_technology
+			infantry_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	troll_axeman_tier_1_upgrade_placeholder_1 = {
+	
+		xor = { troll_axeman_tier_1_upgrade_placeholder_2 } 
+	
+		path = {
+			leads_to_tech = troll_axeman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 1 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	troll_axeman_tier_1_upgrade_placeholder_2 = {
+	
+		xor = { troll_axeman_tier_1_upgrade_placeholder_1 } 
+	
+		path = {
+			leads_to_tech = troll_axeman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 3 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	troll_axeman_equipment_tech_2 = {
+	
+		enable_equipments = {
+			troll_axeman_equipment_2
+		}
+	
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = troll_axeman_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = troll_axeman_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 2 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	troll_axeman_tier_2_upgrade_placeholder_1 = {
+	
+		xor = { troll_axeman_tier_2_upgrade_placeholder_2 } 
+	
+		path = {
+			leads_to_tech = troll_axeman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 1 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	troll_axeman_tier_2_upgrade_placeholder_2 = {
+	
+		xor = { troll_axeman_tier_2_upgrade_placeholder_1 } 
+	
+		path = {
+			leads_to_tech = troll_axeman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 3 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	troll_axeman_equipment_tech_3 = {
+	
+		enable_equipments = {
+			troll_axeman_equipment_3
+		}
+	
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 2 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			troll_axeman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	head_hunter_tech = {
+
+		enable_subunits = {
+			head_hunter
+		}
+	
+		path = {
+			leads_to_tech = head_hunter_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				head_hunter_equipment_tech_1 = 1
+			}
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 8 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	head_hunter_equipment_tech_1 = {
+	
+		enable_equipments = {
+			head_hunter_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = head_hunter_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = head_hunter_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 8 y = 4 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	head_hunter_tier_1_upgrade_placeholder_1 = {
+	
+		xor = { head_hunter_tier_1_upgrade_placeholder_2 } 
+	
+		path = {
+			leads_to_tech = head_hunter_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 7 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	head_hunter_tier_1_upgrade_placeholder_2 = {
+	
+		xor = { head_hunter_tier_1_upgrade_placeholder_1 } 
+	
+		path = {
+			leads_to_tech = head_hunter_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 9 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	head_hunter_equipment_tech_2 = {
+	
+		enable_equipments = {
+			head_hunter_equipment_2
+		}
+	
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = head_hunter_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = head_hunter_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 8 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	head_hunter_tier_2_upgrade_placeholder_1 = {
+	
+		xor = { head_hunter_tier_2_upgrade_placeholder_2 } 
+	
+		path = {
+			leads_to_tech = head_hunter_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 7 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	head_hunter_tier_2_upgrade_placeholder_2 = {
+	
+		xor = { head_hunter_tier_2_upgrade_placeholder_1 } 
+	
+		path = {
+			leads_to_tech = head_hunter_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 9 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	head_hunter_equipment_tech_3 = {
+	
+		enable_equipments = {
+			head_hunter_equipment_3
+		}
+	
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 8 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			troll_barracks_technology
+			head_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	troll_spirit_lodge_tech = {
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = troll_infantry_folder
+			position = { x = 26 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			troll_spirit_lodge_technology
+		}
+	}
+
+}

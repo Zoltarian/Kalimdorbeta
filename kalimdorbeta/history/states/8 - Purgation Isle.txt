@@ -1,0 +1,39 @@
+
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		
+		add_core_of = KUL
+		victory_points = {
+			65 5 
+		}
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+			65 = {
+				naval_base = 1
+
+			}
+
+		}
+		617.1.1 = {
+			owner = PIG
+			controller = PIG
+			add_core_of = PIG
+
+		}
+
+	}
+
+	provinces={
+		61 65 66 69 
+	}
+	manpower=3400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

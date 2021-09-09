@@ -1,0 +1,35 @@
+
+state={
+	id=65
+	name="STATE_65"
+	resources = {
+		wheat=20
+		mana=18
+		wood=4
+		mounts=8
+		eggs=6
+	}
+
+	history={
+		owner = CEN
+		victory_points = {
+			13140 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = CEN
+
+	}
+
+	provinces={
+		12701 13131 13140 13164 13171 
+	}
+	manpower=56000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+}

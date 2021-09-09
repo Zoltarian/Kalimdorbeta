@@ -1,0 +1,30 @@
+
+state={
+	id=276
+	name="STATE_276"
+	resources={
+		mounts=10.000
+		wood=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			2696 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = SKU
+
+	}
+
+	provinces={
+		2693 2696 2764 2769 
+	}
+	manpower=21225
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

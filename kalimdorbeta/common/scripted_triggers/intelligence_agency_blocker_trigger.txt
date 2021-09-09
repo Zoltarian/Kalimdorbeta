@@ -1,0 +1,9 @@
+# By Yard1 updated for Hearts of Azeroth
+
+can_create_intelligence_agency = {
+	or = {
+		has_tech = rogues_guild
+		has_tech = assassins_den_tech
+	}
+
+}

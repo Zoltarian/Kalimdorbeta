@@ -1,0 +1,40 @@
+
+state={
+	id=70
+	name="STATE_70"
+	resources = {
+		ores=6
+		oil=5
+		gunpowder=3
+	}
+
+	history={
+		owner = MIR
+		add_core_of = MIR
+		victory_points = {
+			10011 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10001 = {
+				naval_base = 1
+			}
+
+		}
+		617.1.1 = {
+			owner = TMI
+			controller = TMI
+			add_core_of = TMI
+
+		}
+
+	}
+
+	provinces={
+		9992 9993 10001 10006 10009 10011 10021 10022 10025 10028 10039 10041 10042 10045 10047 10049 10056 10057 10378 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

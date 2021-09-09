@@ -1,0 +1,36 @@
+
+state={
+	id=1075
+	name="STATE_1075"
+	resources={
+		wood =6
+		mounts=8
+	}
+
+	history={
+		
+		add_core_of = LSC
+
+		victory_points = {
+			10555 5
+		}
+
+		buildings = {
+			infrastructure = 3
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LSC
+		}
+	}
+
+	provinces={
+		1581 1760 1983 3351 10480 10483 10555 10557 10560
+	}
+	manpower=8313
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

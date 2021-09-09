@@ -1,0 +1,86 @@
+﻿division_template = {
+	name = "Hive'Regal Ambusher"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hive'Regal Spitfire"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Hive'Regal Ambusher"
+		location = 11101
+		division_template = "Hive'Regal Ambusher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Regal Ambusher"
+		location = 11101
+		division_template = "Hive'Regal Ambusher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Regal Ambusher"
+		location = 11193
+		division_template = "Hive'Regal Ambusher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Regal Spitfire"
+		location = 11101
+		division_template = "Hive'Regal Spitfire"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Regal Spitfire"
+		location = 11193
+		division_template = "Hive'Regal Spitfire"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Regal Spitfire"
+		location = 11193
+		division_template = "Hive'Regal Spitfire"
+		start_experience_factor = 0.2
+	}
+	
+}
+
+air_wings = {
+	### southwind Village
+	1113 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "HRE"
+			amount = 30
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "HRE"
+			amount = 15
+		}
+
+	}
+
+}

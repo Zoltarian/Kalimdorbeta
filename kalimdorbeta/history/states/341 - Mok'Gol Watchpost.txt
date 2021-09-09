@@ -1,0 +1,39 @@
+
+state={
+	id=341
+	name="STATE_341"
+	resources={
+		wood =16
+		mounts=10
+		oil=6
+	}
+
+	history={
+		
+		add_core_of = WSC
+
+		victory_points = {
+			6748 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WSC
+		}
+	}
+
+	provinces={
+		6343 6544 6748 9843 9844 9865 9889 9901 9904 9913 9916 9917
+	}
+	manpower=68000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

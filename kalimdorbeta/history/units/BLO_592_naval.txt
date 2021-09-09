@@ -1,0 +1,19 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Bloodscalp Fleet"			
+		naval_base = 1698
+		task_force = {
+			name = "Bloodscalp Fleet"			
+			location = 1698 #Zuuldaia
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1173
+	name="STATE_1173"
+	resources = {
+		wood=5
+		mana=2
+		ores=3
+	}
+
+	history={
+		owner = SPH
+		add_core_of = SPH
+		victory_points = {
+			11423 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			owner = KAL
+			controller = KAL
+			add_core_of = KAL
+
+		}
+
+	}
+
+	provinces={
+		10885 11414 11423 11426 11439 11449
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

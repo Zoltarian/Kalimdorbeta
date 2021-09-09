@@ -1,0 +1,49 @@
+
+state={
+	id=580
+	name="STATE_580"
+
+	history={
+		
+		victory_points = {
+			1748 15
+		}
+		buildings = {
+			infrastructure = 7
+			radar_station = 1
+			1149 = {
+				bunker = 3
+			}
+			1747 = {
+				bunker = 3
+			}
+			1748 = {
+				bunker = 3
+			}
+			1749 = {
+				bunker = 3
+			}
+			1750 = {
+				bunker = 3
+			}
+			1751 = {
+				bunker = 3
+			}
+		}
+		add_core_of = STR
+
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+		}
+
+	}
+
+	provinces={
+		1149 1747 1748 1749 1750 1751
+	}
+	manpower=80
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

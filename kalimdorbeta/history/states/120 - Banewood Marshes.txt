@@ -1,0 +1,45 @@
+
+state={
+	id=120
+	name="STATE_120"
+	resources={
+		oil=28.000
+	}
+
+	history={
+		
+		victory_points = {
+			4535 10 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			4535 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		378 4448 4480 4494 4495 4496 4499 4502 4504 4508 4509 4513 4515 4521 4527 4530 4535 5428 5429 5430 5433 5434 5435 8677 8678 
+	}
+	manpower=26500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

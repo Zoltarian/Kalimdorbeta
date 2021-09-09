@@ -1,0 +1,30 @@
+
+state={
+	id=845
+	name="STATE_845"
+	resources={
+		mana=120.000
+	}
+
+	history={
+		
+		victory_points = {
+			9180 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = VAL
+
+	}
+
+	provinces={
+		8596 9165 9180 9192 
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

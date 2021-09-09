@@ -1,0 +1,43 @@
+
+state={
+	id=195
+	name="STATE_195"
+	resources={
+		ores=12.000
+		oil=42.000
+	}
+
+	history={
+		
+		victory_points = {
+			4778 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 3
+			4777 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = SMR
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = SMR
+
+		}
+
+	}
+
+	provinces={
+		454 678 4771 4775 4776 4777 4778 4779 4780 4781 5729 5730 7129 13725 
+	}
+	manpower=256750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_12
+}

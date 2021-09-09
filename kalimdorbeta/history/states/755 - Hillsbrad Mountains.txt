@@ -1,0 +1,40 @@
+
+state={
+	id=755
+	name="STATE_755"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LOR
+		596.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = STO
+
+		}
+		617.1.1 = {
+			owner = HIB
+			controller = HIB
+			add_core_of = HIB
+		}
+
+
+	}
+
+	provinces={
+		5260 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

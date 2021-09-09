@@ -1,0 +1,45 @@
+
+state={
+	id=15
+	name="STATE_15"
+	resources={
+		ores=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			1783 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = LOR
+		596.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = STO
+
+		}
+		617.1.1 = {
+			owner = HIB
+			controller = HIB
+			add_core_of = HIB
+
+		}
+
+	}
+
+	provinces={
+		520 1782 1783 1796 1799 
+	}
+	manpower=11450
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

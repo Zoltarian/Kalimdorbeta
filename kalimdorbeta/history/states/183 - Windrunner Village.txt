@@ -1,0 +1,50 @@
+
+state={
+	id=183
+	name="STATE_183"
+	
+	resources={
+		mana=12
+		oil = 36
+		wood = 24
+	}
+
+	history={
+		
+		victory_points = {
+			4510 20
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 1
+			radar_station = 1
+			
+			4510 = {
+				naval_base = 5
+			}
+			
+			715 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = QUE
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+		
+	}
+
+	provinces={
+		654 715 4497 4503 4510 4517 4528 4537 4539 4547 4549 
+	}
+	manpower=92375
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,2871 @@
+ideas = {
+
+	primary_religion = {
+
+		################################################
+		#Light religions
+		################################################
+
+		primary_religion_the_church_of_the_holy_light = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_holy_light
+
+		}
+
+		primary_religion_the_naaru = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_naaru
+
+		}
+
+		primary_religion_scarlet_church = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_scarlet_light
+
+		}
+
+		primary_religion_argent_church = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_argent_light
+
+		}
+
+		primary_religion_order_of_the_blood_knights = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_blood_knights
+
+		}
+
+		primary_religion_disciples_of_rukhmar = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_rukhmar
+
+		}
+
+		################################################
+		#Shadow Religions
+		################################################
+
+		primary_religion_necrolytes = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_necrolytes
+
+		}
+
+		primary_religion_the_voodoo = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_voodoo
+
+		}
+
+		primary_religion_cult_of_the_forgotten_shadows = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_forgotten_shadow
+
+		}
+
+		primary_religion_disciples_of_anzu = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_anzu
+
+		}
+
+		primary_religion_the_void = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_the_void
+
+		}
+
+		################################################
+		#The Arcane Religions
+		################################################
+
+		primary_religion_arcane_studies = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_arcane
+
+		}
+
+		primary_religion_the_sun_well = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_sunwell
+
+		}
+
+		primary_religion_the_night_well = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_nightwell
+
+		}
+
+		################################################
+		#Nature Religions
+		################################################
+
+		primary_religion_druidism = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_druidism
+
+		}
+
+		primary_religion_disciples_of_ursoc = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ursoc
+
+		}
+
+		primary_religion_disciples_of_logosh = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_logosh
+
+		}
+
+		primary_religion_disciples_of_agamaggan = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_agamaggan
+
+		}
+
+		primary_religion_disciples_of_avianna = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_avianna
+
+		}
+
+		primary_religion_disciples_of_tortolla = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tortolla
+
+		}
+
+		primary_religion_august_celestial = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_august_celestial
+
+		}
+
+		primary_religion_thornspeakers = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_thornspeakers
+
+		}
+
+		primary_religion_harvest_witchcraft = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_harvest_witchcraft
+
+		}
+
+		primary_religion_natural_magic = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_natural_magic
+
+		}
+
+		primary_religion_loa_spirits = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_loa_spirits
+
+		}
+
+		################################################
+		#Fel Religions
+		################################################
+
+		primary_religion_the_fel = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_fel
+
+		}
+
+		primary_religion_demonology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_demonology
+
+		}
+
+		################################################
+		#Death Religions
+		################################################
+
+		primary_religion_necromancy = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_necromancy
+
+		}
+
+		primary_religion_disciples_of_the_lich_king = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_lich_king
+
+		}
+
+		primary_religion_followers_of_helya = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_helya
+
+		}
+
+		primary_religion_drust = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_drust
+
+		}
+
+		################################################
+		#Old Gods Religions
+		################################################
+
+		primary_religion_followers_of_yshaarj = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_yshaarj
+
+		}
+
+		primary_religion_followers_of_nzoth = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_nzoth
+
+		}
+
+		primary_religion_followers_of_yogg_saron = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_yoggsaron
+
+		}
+
+		primary_religion_followers_of_cthun = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_cthun
+
+		}
+
+		primary_religion_the_hour_of_twilight = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_hour_of_twilight
+
+		}
+
+		primary_religion_the_dark_conclave = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_dark_conclave
+
+		}
+
+		primary_religion_followers_of_ghuun = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ghuun
+
+		}
+
+		################################################
+		#titanic Religions
+		################################################
+
+		primary_religion_mystery_of_the_makers = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_mystery_of_the_makers
+
+		}
+
+		primary_religion_followers_of_odyn = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_odyn
+
+		}
+
+		primary_religion_the_titans = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_titans
+
+		}
+
+		################################################
+		#spiritual religions
+		################################################
+
+		primary_religion_chi = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_chi
+
+		}
+
+		primary_religion_the_elemental_furies = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			picture = generic_religion_elemental_furies
+
+		}
+
+		primary_religion_shamanism = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_shamanism
+
+		}
+
+		primary_religion_dark_shamanism = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_dark_shamanism
+
+		}
+
+		primary_religion_followers_of_the_firelord = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_firelord
+
+		}
+
+		primary_religion_followers_of_the_tidehunter = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tidehunter
+
+		}
+
+		primary_religion_followers_of_the_stonemother = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_stonemother
+
+		}
+
+		primary_religion_followers_of_the_windlord = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_windlord
+
+		}
+
+		primary_religion_geomancy = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_geomancy
+
+		}
+
+		primary_religion_pyromancy = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_pyromancy
+
+		}
+
+		primary_religion_followers_of_ordos = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ordos
+
+		}
+
+		primary_religion_followers_of_gurok = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_gurok
+
+		}
+
+		primary_religion_followers_of_the_tidemother = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tidemother
+
+		}
+
+		primary_religion_waterspeaking = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_waterspeaking
+
+		}
+
+		################################################
+		#kalimdor religions
+		################################################
+
+		primary_religion_the_sisterhood_of_elune = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_sisterhood_of_elune
+
+		}
+
+		primary_religion_tauren_mythology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tauren_mythology
+
+		}
+
+		################################################
+		#primitive religions
+		################################################
+
+		primary_religion_pandaren_folklore = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_pandaren
+
+		}
+
+		primary_religion_mogu_mythology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_mogu_mythology
+
+		}
+
+		primary_religion_luckydos = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_luckydo
+
+		}
+
+		primary_religion_followers_of_volcanoth = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_volcanoth
+
+		}
+
+		primary_religion_followers_of_mazu = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_mazu
+
+		}
+
+		primary_religion_followers_of_kros = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_kros
+
+		}
+
+		primary_religion_tuskarr_mythology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tuskarr_mythology
+
+		}
+
+		primary_religion_ancient_nerubian = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ancient_nerubian
+
+		}
+
+		primary_religion_followers_of_gahzrilla = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_gahzrilla
+
+		}
+
+		primary_religion_the_wyrmcult = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_wyrmcult
+
+		}
+
+		primary_religion_gronn_worship = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_gronn
+
+		}
+
+		primary_religion_magnataur_worship = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_magnataur
+
+		}
+
+		primary_religion_followers_of_zarjira = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_zarjira
+
+		}
+
+		primary_religion_followers_of_borrok = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_borrok
+
+		}
+
+		primary_religion_genesaur_worship = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_genesaur
+
+		}
+
+		primary_religion_disciples_of_naraxas = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_naraxas
+
+		}
+
+		primary_religion_disciples_of_jorhuttam = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_jorhuttam
+
+		}
+
+		primary_religion_way_of_the_jade_fist = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_way_of_the_jade_fist
+
+		}
+
+		################################################
+		#no Religion
+		################################################
+
+		primary_religion_irreligious = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_irreligious
+
+		}
+
+	}
+
+	secondary_religion = {
+
+		################################################
+		#Light religions
+		################################################
+
+		secondary_religion_the_church_of_the_holy_light = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_holy_light
+
+		}
+
+		secondary_religion_the_naaru = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_naaru
+
+		}
+
+		secondary_religion_scarlet_church = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_scarlet_light
+
+		}
+
+		secondary_religion_argent_church = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_argent_light
+
+		}
+
+		secondary_religion_order_of_the_blood_knights = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_blood_knights
+
+		}
+
+		secondary_religion_disciples_of_rukhmar = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_rukhmar
+
+		}
+
+		################################################
+		#Shadow Religions
+		################################################
+
+		secondary_religion_necrolytes = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_necrolytes
+
+		}
+
+		secondary_religion_the_voodoo = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_voodoo
+
+		}
+
+		secondary_religion_cult_of_the_forgotten_shadows = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_forgotten_shadow
+
+		}
+
+		secondary_religion_disciples_of_anzu = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_anzu
+
+		}
+
+		secondary_religion_the_void = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_the_void
+
+		}
+
+		################################################
+		#The Arcane Religions
+		################################################
+
+		secondary_religion_arcane_studies = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			picture = generic_religion_arcane
+
+		}
+
+		secondary_religion_the_sun_well = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_sunwell
+
+		}
+
+		secondary_religion_the_night_well = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_nightwell
+
+		}
+
+		################################################
+		#Nature Religions
+		################################################
+
+		secondary_religion_druidism = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_druidism
+
+		}
+
+		secondary_religion_disciples_of_ursoc = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ursoc
+
+		}
+
+		secondary_religion_disciples_of_logosh = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_logosh
+
+		}
+
+		secondary_religion_disciples_of_agamaggan = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_agamaggan
+
+		}
+
+		secondary_religion_disciples_of_avianna = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_avianna
+
+		}
+
+		secondary_religion_disciples_of_tortolla = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tortolla
+
+		}
+
+		secondary_religion_august_celestial = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_august_celestial
+
+		}
+
+		secondary_religion_thornspeakers = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_thornspeakers
+
+		}
+
+		secondary_religion_harvest_witchcraft = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_harvest_witchcraft
+
+		}
+
+		secondary_religion_natural_magic = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_natural_magic
+
+		}
+
+		secondary_religion_loa_spirits = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_loa_spirits
+
+		}
+
+		################################################
+		#Fel Religions
+		################################################
+
+		secondary_religion_the_fel = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_fel
+
+		}
+
+		secondary_religion_demonology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_demonology
+
+		}
+
+		################################################
+		#Death Religions
+		################################################
+
+		secondary_religion_necromancy = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_necromancy
+
+		}
+
+		secondary_religion_disciples_of_the_lich_king = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_lich_king
+
+		}
+
+		secondary_religion_followers_of_helya = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_helya
+
+		}
+
+		secondary_religion_drust = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_drust
+
+		}
+
+		################################################
+		#Old Gods Religions
+		################################################
+
+		secondary_religion_followers_of_yshaarj = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_yshaarj
+
+		}
+
+		secondary_religion_followers_of_nzoth = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_nzoth
+
+		}
+
+		secondary_religion_followers_of_yogg_saron = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_yoggsaron
+
+		}
+
+		secondary_religion_followers_of_cthun = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_cthun
+
+		}
+
+		secondary_religion_the_hour_of_twilight = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_hour_of_twilight
+
+		}
+
+		secondary_religion_the_dark_conclave = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_dark_conclave
+
+		}
+
+		secondary_religion_followers_of_ghuun = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ghuun
+
+		}
+
+		################################################
+		#titanic Religions
+		################################################
+
+		secondary_religion_mystery_of_the_makers = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_mystery_of_the_makers
+
+		}
+
+		secondary_religion_followers_of_odyn = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_odyn
+
+		}
+
+		secondary_religion_the_titans = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_titans
+
+		}
+
+		################################################
+		#spiritual religions
+		################################################
+
+		secondary_religion_chi = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_chi
+
+		}
+
+		secondary_religion_the_elemental_furies = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_elemental_furies
+
+		}
+
+		secondary_religion_shamanism = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_shamanism
+
+		}
+
+		secondary_religion_dark_shamanism = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_dark_shamanism
+
+		}
+
+		secondary_religion_followers_of_the_firelord = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_firelord
+
+		}
+
+		secondary_religion_followers_of_the_tidehunter = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tidehunter
+
+		}
+
+		secondary_religion_followers_of_the_stonemother = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_stonemother
+
+		}
+
+		secondary_religion_followers_of_the_windlord = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_windlord
+
+		}
+
+		secondary_religion_geomancy = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_geomancy
+
+		}
+
+		secondary_religion_pyromancy = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_pyromancy
+
+		}
+
+		secondary_religion_followers_of_ordos = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ordos
+
+		}
+
+		secondary_religion_followers_of_gurok = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_gurok
+
+		}
+
+		secondary_religion_followers_of_the_tidemother = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tidemother
+
+		}
+
+		secondary_religion_waterspeaking = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_waterspeaking
+
+		}
+
+		################################################
+		#kalimdor religions
+		################################################
+
+		secondary_religion_the_sisterhood_of_elune = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_sisterhood_of_elune
+
+		}
+
+		secondary_religion_tauren_mythology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tauren_mythology
+
+		}
+
+		################################################
+		#primitive religions
+		################################################
+
+		secondary_religion_pandaren_folklore = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_pandaren_folklore
+
+		}
+
+		secondary_religion_mogu_mythology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_mogu_mythology
+
+		}
+
+		secondary_religion_luckydos = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_luckydo
+
+		}
+
+		secondary_religion_followers_of_volcanoth = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_volcanoth
+
+		}
+
+		secondary_religion_followers_of_mazu = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_mazu
+
+		}
+
+		secondary_religion_followers_of_kros = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_kros
+
+		}
+
+		secondary_religion_tuskarr_mythology = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_tuskarr_mythology
+
+		}
+
+		secondary_religion_ancient_nerubian = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_ancient_nerubian
+
+		}
+
+		secondary_religion_followers_of_gahzrilla = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_gahzrilla
+
+		}
+
+		secondary_religion_the_wyrmcult = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_wyrmcult
+
+		}
+
+		secondary_religion_gronn_worship = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_gronn
+
+		}
+
+		secondary_religion_magnataur_worship = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_magnataur
+
+		}
+
+		secondary_religion_followers_of_zarjira = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_zarjira
+
+		}
+
+		secondary_religion_followers_of_borrok = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_borrok
+
+		}
+
+		secondary_religion_genesaur_worship = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_genesaur
+
+		}
+
+		secondary_religion_disciples_of_naraxas = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_naraxas
+
+		}
+
+		secondary_religion_disciples_of_jorhuttam = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_jorhuttam
+
+		}
+
+		secondary_religion_way_of_the_jade_fist = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_way_of_the_jade_fist
+
+		}
+
+		################################################
+		#no Religion
+		################################################
+
+		secondary_religion_irreligious = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_irreligious
+
+		}
+
+	}
+
+	country = {
+
+		divine_warriors_idea = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_irreligious
+
+			modifier = {
+				#core
+			}
+
+		}
+
+	}
+
+}

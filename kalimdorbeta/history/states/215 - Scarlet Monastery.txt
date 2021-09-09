@@ -1,0 +1,36 @@
+
+state={
+	id=215
+	name="STATE_215" #Tirisfal Monastery/Scarlet Monastery
+	resources={
+		mana=14.000
+	}
+
+	history={
+		
+		victory_points = {
+			4355 20 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		705 4331 4355 4360 4379 4393 4398 5371 6963 
+	}
+	manpower=26500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,2017 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	barracks_tech = {
+
+		dependencies = {
+			blacksmith_tech = 1
+		}
+
+		path = {
+			leads_to_tech = footman_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pikeman_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = archer_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 9 y = 0 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	footman_tech = {
+
+		enable_subunits = {
+			footman
+		}
+
+		on_research_complete = {
+			set_technology = {
+				footman_weapons_tech_1 = 1
+			}
+		}
+
+		research_cost = 1
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 6 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = footman_weapons_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = captain_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = guard_tech
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	footman_weapons_tech_1 = {
+
+		enable_equipments = {
+			footman_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 6 y = 4 }
+		}
+
+		path = {
+			leads_to_tech = defend_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = charge_tech
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	defend_tech = {
+
+		footman = {
+			defense = 0.05
+			soft_attack = 0.05
+		}
+
+		xor = { charge_tech }
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 5 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = footman_weapons_tech_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	charge_tech = {
+
+		footman = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
+
+		xor = { defend_tech }
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 7 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = footman_weapons_tech_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	footman_weapons_tech_2 = {
+
+		enable_equipments = {
+			footman_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = human_infantry_folder
+			position = { x = 6 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = support_pistols
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rallying_cry_tech
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+
+	support_pistols = {
+
+		footman = {
+			ap_attack = 0.25
+			hard_attack = 0.5
+		}
+
+		xor = { rallying_cry_tech }
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 5 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = footman_weapons_tech_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	rallying_cry_tech = {
+
+		footman = {
+			max_organisation = 5
+		}
+
+		xor = { support_pistols }
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 7 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = footman_weapons_tech_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	footman_weapons_tech_3 = {
+
+		enable_equipments = {
+			footman_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = human_infantry_folder
+			position = { x = 6 y = 12 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			footman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "594.1.1"
+			}
+		}
+	}
+
+	captain_tech = {
+
+		enable_subunits = {
+			captain
+		}
+
+		path = {
+			leads_to_tech = improved_captain_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = standard_bearer_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 3 y = 2 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			support_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_captain_1 = {
+
+		captain = {
+			initiative = 0.09
+		}
+
+		path = {
+			leads_to_tech = improved_captain_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 3 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			support_technology
+		}
+	}
+
+	improved_captain_2 = {
+
+		captain = {
+			initiative = 0.09
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_captain_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_infantry_folder
+			position = { x = 3 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			support_technology
+		}
+	}
+
+	improved_captain_3 = {
+
+		captain = {
+			initiative = 0.09
+		}
+
+		path = {
+			leads_to_tech = improved_captain_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 3 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			support_technology
+		}
+	}
+
+	improved_captain_4 = {
+
+		captain = {
+			initiative = 0.09
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_infantry_folder
+			position = { x = 3 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			support_technology
+		}
+	}
+
+	standard_bearer_1 = {
+
+		land_reinforce_rate = 0.03
+
+		path = {
+			leads_to_tech = standard_bearer_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 1 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			banner_technology
+			support_technology
+		}
+	}
+
+	standard_bearer_2 = {
+
+		land_reinforce_rate = 0.03
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = standard_bearer_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_infantry_folder
+			position = { x = 1 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			banner_technology
+			support_technology
+		}
+	}
+
+	standard_bearer_3 = {
+
+		land_reinforce_rate = 0.03
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_infantry_folder
+			position = { x = 1 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			captain_technology
+			banner_technology
+			support_technology
+		}
+	}
+
+	pikeman_tech = {
+
+		enable_subunits = {
+			pikeman
+		}
+
+		on_research_complete = {
+			set_technology = {
+				pikeman_weapons_tech_1 = 1
+			}
+		}
+
+		research_cost = 1
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 14 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = pikeman_weapons_tech_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	pikeman_weapons_tech_1 = {
+
+		enable_equipments = {
+			pikeman_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 14 y = 4 }
+		}
+
+		path = {
+			leads_to_tech = tower_shields
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = square_formation
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "585.1.1"
+			}
+		}
+	}
+
+	tower_shields = {
+
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.1
+		}
+
+		xor = { square_formation }
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 13 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = pikeman_weapons_tech_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	square_formation = {
+
+		pikeman = {
+			defense = 0.1
+			hard_attack = 0.1
+		}
+
+		xor = { tower_shields }
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 15 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = pikeman_weapons_tech_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	pikeman_weapons_tech_2 = {
+
+		enable_equipments = {
+			pikeman_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = human_infantry_folder
+			position = { x = 14 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = pike_and_shot
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = halberds
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "592.1.1"
+			}
+		}
+	}
+
+	pike_and_shot = {
+
+		pikeman = {
+			hard_attack = 0.2
+			ap_attack = 0.25
+		}
+
+		xor = { halberds }
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 13 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = pikeman_weapons_tech_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	halberds = {
+
+		pikeman = {
+			soft_attack = 0.5
+		}
+
+		xor = { pike_and_shot }
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 15 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = pikeman_weapons_tech_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	pikeman_weapons_tech_3 = {
+
+		enable_equipments = {
+			pikeman_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = human_infantry_folder
+			position = { x = 14 y = 12 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			pikeman_technology
+			melee_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "595.1.1"
+			}
+		}
+	}
+
+	guard_tech = {
+
+		enable_subunits = {
+			guard
+		}
+
+		path = {
+			leads_to_tech = improved_guard_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nights_watch_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 9 y = 2 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			support_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_guard_1 = {
+
+		guard = {
+			suppression_factor = 0.075
+		}
+
+		path = {
+			leads_to_tech = improved_guard_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 9 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			support_technology
+		}
+	}
+
+	improved_guard_2 = {
+
+		guard = {
+			suppression_factor = 0.075
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_guard_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_infantry_folder
+			position = { x = 9 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			support_technology
+		}
+	}
+
+	improved_guard_3 = {
+
+		guard = {
+			suppression_factor = 0.075
+		}
+
+		path = {
+			leads_to_tech = improved_guard_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 9 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			support_technology
+		}
+	}
+
+	improved_guard_4 = {
+
+		guard = {
+			suppression_factor = 0.075
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_infantry_folder
+			position = { x = 9 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			support_technology
+		}
+	}
+
+	nights_watch_1 = {
+
+		land_night_attack = 0.1
+
+		path = {
+			leads_to_tech = nights_watch_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 11 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			nights_watch_technology
+			support_technology
+		}
+
+	}
+
+	nights_watch_2 = {
+
+		land_night_attack = 0.1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = nights_watch_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_infantry_folder
+			position = { x = 11 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			nights_watch_technology
+			support_technology
+		}
+
+	}
+
+	nights_watch_3 = {
+
+		land_night_attack = 0.1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_infantry_folder
+			position = { x = 11 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			guard_technology
+			nights_watch_technology
+			support_technology
+		}
+
+	}
+
+	archer_tech = {
+
+		enable_subunits = {
+			archer
+			archer_support
+		}
+
+		on_research_complete = {
+			set_technology = {
+				archer_weapons_tech_1 = 1
+			}
+		}
+
+		research_cost = 1
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 18 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = archer_weapons_tech_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	archer_weapons_tech_1 = {
+
+		enable_equipments = {
+			archer_equipment_1
+		}
+
+		path = {
+			leads_to_tech = sharpened_arrows
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = animal_companions
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 18 y = 4 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "585.1.1"
+			}
+		}
+	}
+
+	sharpened_arrows = {
+
+		archer = {
+			soft_attack = 0.1
+			ap_attack = 0.2
+		}
+
+		xor = { animal_companions }
+
+		path = {
+			leads_to_tech = archer_weapons_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 17 y = 6 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "585.1.1"
+			}
+		}
+	}
+
+	animal_companions = {
+		archer = {
+			soft_attack = 0.05
+			breakthrough = 0.25
+		}
+
+		xor = { sharpened_arrows }
+
+		path = {
+			leads_to_tech = archer_weapons_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 19 y = 6 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "585.1.1"
+			}
+		}
+	}
+
+	archer_weapons_tech_2 = {
+
+		enable_equipments = {
+			archer_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 2
+		}
+
+		path = {
+			leads_to_tech = fire_arrows
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = precise_shots
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = human_infantry_folder
+			position = { x = 18 y = 8 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "592.1.1"
+			}
+		}
+	}
+
+	fire_arrows = {
+		archer = {
+			fort = {
+				attack = 0.25
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = human_fire_arrows
+		}
+
+		xor = { precise_shots }
+
+		path = {
+			leads_to_tech = archer_weapons_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = human_infantry_folder
+			position = { x = 17 y = 10 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "592.1.1"
+			}
+		}
+	}
+
+	precise_shots = {
+		archer = {
+			air_attack = 0.25
+		}
+
+		xor = { fire_arrows }
+
+		path = {
+			leads_to_tech = archer_weapons_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 591
+		folder = {
+			name = human_infantry_folder
+			position = { x = 19 y = 10 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "592.1.1"
+			}
+		}
+	}
+
+	archer_weapons_tech_3 = {
+
+		enable_equipments = {
+			archer_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 594
+		folder = {
+			name = human_infantry_folder
+			position = { x = 18 y = 12 }
+		}
+
+		categories = {
+			infantry_technology
+			barracks_technology
+			archer_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "595.1.1"
+			}
+		}
+	}
+
+	mage_tower_tech = {
+
+		dependencies = {
+			blacksmith_tech = 1
+		}
+
+		path = {
+			leads_to_tech = mage_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = priest_tech
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			arcane_tower_tech = 1
+		}
+
+		research_cost = 1
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 23 y = 0 }
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mage_tech = {
+
+		enable_subunits = {
+			mage
+			mage_support
+		}
+
+		on_research_complete = {
+			set_technology = {
+				mage_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = mage_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 22 y = 2 }
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mage_equipment_tech_1 = {
+
+		enable_equipments = {
+			mage_equipment_1
+		}
+
+		path = {
+			leads_to_tech = fire_blast
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ice_lance
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 22 y = 4 }
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "585.1.1"
+			}
+		}
+	}
+
+	fire_blast = {
+
+		mage = {
+			hard_attack = 0.1
+		}
+
+		xor = { ice_lance }
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 21 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = mage_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	ice_lance = {
+
+		mage = {
+			hard_attack = 0.05
+			anti_air_attack = 0.5
+		}
+
+		xor = { fire_blast }
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 23 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = mage_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mage_equipment_tech_2 = {
+
+		enable_equipments = {
+			mage_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = blazing_barrier
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = arcane_missles
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = human_infantry_folder
+			position = { x = 22 y = 8 }
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "585.1.1"
+			}
+		}
+	}
+
+	blazing_barrier = {
+
+		mage = {
+			defense = 0.2
+			max_organisation = 2
+		}
+
+		xor = { arcane_missles }
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 21 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = mage_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	arcane_missles = {
+
+		mage = {
+			soft_attack = 0.33
+			breakthrough = 0.25
+		}
+
+		xor = { blazing_barrier }
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 23 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = mage_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mage_equipment_tech_3 = {
+
+		enable_equipments = {
+			mage_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = human_infantry_folder
+			position = { x = 22 y = 12 }
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			mage_technology
+			ranged_infantry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 10
+				date > "585.1.1"
+			}
+		}
+	}
+
+	priest_tech = {
+
+		enable_subunits = {
+			priest
+		}
+
+		path = {
+			leads_to_tech = improved_priest_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_infantry_folder
+			position = { x = 25 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			priest_technology
+			support_technology
+		}
+	}
+
+	improved_priest_1 = {
+
+		priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		path = {
+			leads_to_tech = improved_priest_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_infantry_folder
+			position = { x = 25 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			priest_technology
+			support_technology
+		}
+	}
+
+	improved_priest_2 = {
+
+		priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_priest_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_infantry_folder
+			position = { x = 25 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			priest_technology
+			support_technology
+		}
+	}
+
+	improved_priest_3 = {
+
+		priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		path = {
+			leads_to_tech = improved_priest_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_infantry_folder
+			position = { x = 25 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			priest_technology
+			support_technology
+		}
+	}
+
+	improved_priest_4 = {
+
+		priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_infantry_folder
+			position = { x = 25 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			mage_tower_technology
+			priest_technology
+			support_technology
+		}
+	}
+
+}

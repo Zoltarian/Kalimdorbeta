@@ -1,0 +1,32 @@
+
+state={
+	id=809
+	name="STATE_809"
+	resources={
+		mana=16.000
+		mounts=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			8138 30 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+
+		}
+		add_core_of = AZS
+
+	}
+
+	provinces={
+		8124 8138 8180 8183 8186 8187 
+	}
+	manpower=96000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

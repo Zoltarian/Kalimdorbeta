@@ -1,0 +1,50 @@
+
+state={
+	id=328
+	name="STATE_328"
+	resources={
+		mana=16.000
+	}
+
+	history={
+		
+		add_core_of = SMC
+		victory_points = {
+			6735 20 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			6735 = {
+				naval_base = 6
+
+			}
+			6725 = {
+				naval_base = 3
+
+			}
+			6743 = {
+				naval_base = 3
+
+			}
+
+		}
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SMC
+
+		}
+
+	}
+
+	provinces={
+		6673 6715 6721 6722 6725 6731 6732 6735 6736 6743 6746 6749 6750 6823 6824 
+	}
+	manpower=114000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

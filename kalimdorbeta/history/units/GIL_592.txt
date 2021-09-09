@@ -1,0 +1,238 @@
+﻿division_template = {
+	name = "Gilnean City Guard"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Silverpine Guard"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+#division_template = {
+#	name = "Gilnean Royal Guards"
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+division_template = {
+	name = "Gilnean Sailors"
+	regiments = {
+		hoa_sailor = { x = 0 y = 0 }
+		hoa_sailor = { x = 0 y = 1 }
+		hoa_sailor = { x = 0 y = 2 }
+		hoa_sailor = { x = 1 y = 0 }
+		hoa_sailor = { x = 1 y = 1 }
+		hoa_sailor = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Gilnean Pikeman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Gilnean Knights"
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+#division_template = {
+#	name = "Gilnean Lancers"
+#	regiments = {
+#		hoa_lancer = { x = 0 y = 0 }
+#		hoa_lancer = { x = 0 y = 1 }
+#		hoa_lancer = { x = 0 y = 2 }
+#		hoa_lancer = { x = 1 y = 0 }
+#		hoa_lancer = { x = 1 y = 1 }
+#		hoa_lancer = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+division_template = {
+	name = "Gilnean Scout Cavalry"
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+units = {
+#	division = {
+#		name = "1st Gilnean Royal Guards"
+#		location = 874
+#		division_template = "Gilnean Royal Guards"
+#		start_experience_factor = 0.3
+#	}
+	division = {
+		name = "1st Gilnean City Guard"
+		location = 1133
+		division_template = "Gilnean City Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Gilnean City Guard"
+		location = 513
+		division_template = "Gilnean City Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Gilnean City Guard"
+		location = 296
+		division_template = "Gilnean City Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Gilnean City Guard"
+		location = 872
+		division_template = "Gilnean City Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Gilnean City Guard"
+		location = 1550
+		division_template = "Gilnean City Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Gilnean City Guard"
+		location = 1464
+		division_template = "Gilnean City Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Gilnean Knights"
+		location = 874
+		division_template = "Gilnean Knights"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Gilnean Knights"
+		location = 1498
+		division_template = "Gilnean Knights"
+		start_experience_factor = 0.2
+	}
+#	division = {
+#		name = "1st Gilnean Lancers"
+#		location = 1498
+#		division_template = "Gilnean Lancers"
+#		start_experience_factor = 0.2
+#	}
+	division = {
+		name = "1st Silverpine Guard"
+		location = 2130
+		division_template = "Silverpine Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Silverpine Guard"
+		location = 2137
+		division_template = "Silverpine Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Silverpine Guard"
+		location = 2137
+		division_template = "Silverpine Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Silverpine Knights"
+		location = 2138
+		division_template = "Gilnean Knights"
+		start_experience_factor = 0.2
+	}
+#	division = {
+#		name = "1st Silverpine Lancers"
+#		location = 2138
+#		division_template = "Gilnean Lancers"
+#		start_experience_factor = 0.2
+#	}
+	division = {
+		name = "1st Silverpine Scout Cavalry"
+		location = 2141
+		division_template = "Gilnean Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Gilnean Sailors"
+		location = 1392
+		division_template = "Gilnean Sailors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Gilnean Sailors"
+		location = 2125
+		division_template = "Gilnean Sailors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Gilnean Sailors"
+		location = 1522
+		division_template = "Gilnean Sailors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Gilnean Pikemen"
+		location = 1533
+		division_template = "Gilnean Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Gilnean Pikemen"
+		location = 1423
+		division_template = "Gilnean Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Gilnean Pikemen"
+		location = 1101
+		division_template = "Gilnean Pikeman"
+		start_experience_factor = 0.2
+	}
+########################
+#Navy
+########################
+	
+
+
+
+}

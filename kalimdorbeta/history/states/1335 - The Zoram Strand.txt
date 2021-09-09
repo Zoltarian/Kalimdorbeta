@@ -1,0 +1,40 @@
+
+state={
+	id=1335
+	name="STATE_1335"
+	resources = {
+		mana=6
+		wheat=2
+		oil=8
+		gunpowder=5
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			12549 20
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			12530 = {
+				naval_base = 3
+			}
+		}
+		617.1.1 = {
+			
+			controller = AZS
+			add_core_of = AZS
+
+		}
+
+	}
+
+	provinces={
+		12520 12524 12530 12531 12540 12542 12545 12547 12548 12549 12550 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

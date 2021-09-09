@@ -1,0 +1,29 @@
+
+state={
+	id=449
+	name="STATE_449"
+	resources={
+		wood=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			3978 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = FRT
+
+	}
+
+	provinces={
+		991 1115 3668 3978 3979 3981 3982 8571 8572 
+	}
+	manpower=19050
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

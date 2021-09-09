@@ -1,0 +1,35 @@
+
+state={
+	id=519
+	name="STATE_519"
+	resources={
+		mounts=18.000
+	}
+
+	history={
+		victory_points = {
+			4970 5 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1054 4965 4966 4970 4972 4974 4975 4979 4981 4988 4993 
+	}
+	manpower=13175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

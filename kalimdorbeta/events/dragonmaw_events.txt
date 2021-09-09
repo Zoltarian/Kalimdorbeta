@@ -1,0 +1,203 @@
+﻿###########################
+# dragonmaw
+###########################
+
+add_namespace = dragonmaw
+
+#declare war on marshtide tribe
+country_event = {
+	id = dragonmaw.1
+	title = dragonmaw.1.t
+	desc = dragonmaw.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.1.option.1
+		
+		DMC = {
+			declare_war_on = {
+				target = MTT
+				type = take_state_focus
+				generator = { 400 401 } 
+			}
+			add_ideas = DMC_marshtide_war
+		}
+		
+		MTT = {
+			country_event = { id = marshtide_tribe.1 }
+		}
+
+	}
+
+}
+
+country_event = {
+	id = dragonmaw.2
+	title = dragonmaw.2.t
+	desc = dragonmaw.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.2.option.1
+		
+		DMC = {
+			transfer_state = 401
+			transfer_state = 400
+			400 = {
+				add_core_of = DMC
+			}
+			401 = {
+				add_core_of = DMC
+			}
+			remove_ideas = DMC_marshtide_war
+		}
+
+	}
+
+}
+
+country_event = {
+	id = dragonmaw.3
+	title = dragonmaw.3.t
+	desc = dragonmaw.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.3.option.1
+		
+		add_ideas = DMC_oversee_dragonmaw_breeding_idea
+
+	}
+
+}
+
+country_event = { #puppet alexstraza
+	id = dragonmaw.4
+	title = dragonmaw.4.t
+	desc = dragonmaw.4.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+    option = {
+        name = dragonmaw.4.option.1
+		
+		RDF = {
+			leave_faction = yes
+		}
+		
+		DMC = {
+			transfer_state = 500
+			transfer_state = 777
+			transfer_state = 499
+			set_capital = 500
+			puppet = RDF
+			
+		}
+	}  
+	
+}
+	
+#dream of dragons
+country_event = {
+	id = dragonmaw.5
+	title = dragonmaw.5.t
+	desc = dragonmaw.5.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.5.option.1
+
+    }
+
+}
+
+#ysera blow up temple of atal'hakar/dragons are real
+country_event = {
+	id = dragonmaw.6
+	title = dragonmaw.6.t
+	desc = dragonmaw.6.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.6.option.1
+
+    }
+
+}
+
+#blackrock orc(deathwing) tells us of dragon in redridge
+country_event = {
+	id = dragonmaw.7
+	title = dragonmaw.7.t
+	desc = dragonmaw.7.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.7.option.1
+
+    }
+
+}
+
+#Orastrasz’s Lair (obtain dragon soul)
+country_event = {
+	id = dragonmaw.8
+	title = dragonmaw.8.t
+	desc = dragonmaw.8.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.8.option.1
+
+    }
+
+}
+
+#they call it the dragon soul (Nekros figures out what it is)
+country_event = {
+	id = dragonmaw.9
+	title = dragonmaw.9.t
+	desc = dragonmaw.9.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = dragonmaw.9.option.1
+
+    }
+
+}

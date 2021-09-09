@@ -1,0 +1,23 @@
+
+state={
+	id=1865
+	name="STATE_1865"
+	impassable = yes
+
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TGL
+
+	}
+
+	provinces={
+		13677 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

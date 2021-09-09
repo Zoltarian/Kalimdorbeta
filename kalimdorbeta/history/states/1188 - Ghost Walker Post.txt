@@ -1,0 +1,36 @@
+
+state={
+	id=1188
+	name="STATE_1188"
+	resources = {
+		wheat=6
+		mounts=5
+		ores=2
+	}
+
+	history={
+		owner = WIL
+		add_core_of = WIL
+		victory_points = {
+			2118 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		
+		617.1.1 = {
+			owner = THB
+			controller = THB
+			add_core_of = THB
+		}
+	}
+
+	provinces={
+		2118 11635 11638 11645
+	}
+	manpower=38000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

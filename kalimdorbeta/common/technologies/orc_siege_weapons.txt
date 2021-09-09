@@ -1,0 +1,548 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	orc_siege_works = {
+
+		path = {
+			leads_to_tech = demolisher_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = orc_catapult_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			siege_works_technology
+		}
+	}
+
+	demolisher_tech = {
+
+		enable_subunits = {
+			demolisher
+		}
+
+		on_research_complete = {
+			set_technology = {
+				demolisher_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = demolisher_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -2 y = 2 }
+		}		
+		
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	demolisher_equipment_tech_1 = {
+
+		enable_equipments = {
+			demolisher_equipment_1
+		}
+
+		path = {
+			leads_to_tech = demolisher_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = demolisher_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -2 y = 4 }
+		}
+
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	demolisher_tier_1_upgrade_placeholder_1 = {
+
+		xor = { demolisher_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = demolisher_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -3 y = 6 }
+		}
+
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	demolisher_tier_1_upgrade_placeholder_2 = {
+
+		xor = { demolisher_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = demolisher_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -1 y = 6 }
+		}
+
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	demolisher_equipment_tech_2 = {
+
+		enable_equipments = {
+			demolisher_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = demolisher_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = demolisher_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -2 y = 8 }
+		}
+
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	demolisher_tier_2_upgrade_placeholder_1 = {
+
+		xor = { demolisher_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = demolisher_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -3 y = 10 }
+		}
+
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	demolisher_tier_2_upgrade_placeholder_2 = {
+
+		xor = { demolisher_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = demolisher_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -1 y = 10 }
+		}
+
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	demolisher_equipment_tech_3 = {
+
+		enable_equipments = {
+			demolisher_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = -2 y = 12 }
+		}
+
+		categories = {
+			siege_works_technology
+			demolisher_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	orc_catapult_tech = {
+
+		enable_subunits = {
+			orc_catapult
+		}
+
+		on_research_complete = {
+			set_technology = {
+				orc_catapult_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = orc_catapult_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 2 y = 2 }
+		}		
+		
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	orc_catapult_equipment_tech_1 = {
+
+		enable_equipments = {
+			orc_catapult_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = orc_catapult_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = orc_catapult_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 2 y = 4 }
+		}
+	
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	orc_catapult_tier_1_upgrade_placeholder_1 = {
+	
+		xor = { orc_catapult_tier_1_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = orc_catapult_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 1 y = 6 }
+		}
+	
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_catapult_tier_1_upgrade_placeholder_2 = {
+	
+		xor = { orc_catapult_tier_1_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = orc_catapult_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 3 y = 6 }
+		}
+	
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_catapult_equipment_tech_2 = {
+	
+		enable_equipments = {
+			orc_catapult_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = orc_catapult_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = orc_catapult_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 2 y = 8 }
+		}
+	
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	orc_catapult_tier_2_upgrade_placeholder_1 = {
+	
+		xor = { orc_catapult_tier_2_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = orc_catapult_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 1 y = 10 }
+		}
+	
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_catapult_tier_2_upgrade_placeholder_2 = {
+	
+		xor = { orc_catapult_tier_2_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = orc_catapult_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 3 y = 10 }
+		}
+	
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_catapult_equipment_tech_3 = {
+	
+		enable_equipments = {
+			orc_catapult_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_siege_weapons_folder
+			position = { x = 2 y = 12 }
+		}
+	
+		categories = {
+			siege_works_technology
+			orc_catapult_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

@@ -1,0 +1,47 @@
+
+state={
+	id=356
+	name="STATE_356"
+	resources={
+		mana=18.000
+	}
+
+	history={
+		
+		add_core_of = STO
+		add_core_of = ELW
+
+		victory_points = {
+			2545 10
+		}
+
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+		}
+
+		596.1.1 = {
+			
+			controller = THC
+			add_core_of = THC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = THC
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+		}
+	}
+
+	provinces={
+		892 2536 2537 2540 2543 2545 2550 2552 2553 2555 2558 2562 2565
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

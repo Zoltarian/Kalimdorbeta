@@ -1,0 +1,117 @@
+﻿capital = 340
+
+oob = "RWC_592"
+set_naval_oob = "RWC_592_naval"
+
+set_research_slots = 3
+
+	set_convoys = 15
+	set_stability = 0.65
+	set_war_support = 0.15
+
+	add_ideas = {
+		
+		clan
+		limited_conscription
+		preparing_for_war
+		limited_exports
+
+		orc_primary_race
+
+		primary_religion_the_elemental_furies
+	}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Chieftan Redwalker"
+	desc = "POLITICS_CHIEF_REDWALKER_DESC"
+	picture = "gfx/leaders/RWC/chieftan_redwalker.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chieftan Redwalker"
+	desc = "POLITICS_CHIEF_REDWALKER_DESC"
+	picture = "gfx/leaders/RWC/chieftan_redwalker.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chieftan Redwalker"
+	desc = "POLITICS_CHIEF_REDWALKER_DESC"
+	picture = "gfx/leaders/RWC/chieftan_redwalker.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Chieftan Redwalker"
+	picture = "gfx/leaders/RWC/chieftan_redwalker.dds"
+	traits = {  }
+	id = 51000
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Redwalker Warlord"
+	picture = "gfx/leaders/RWC/redwalker_warlord.dds"
+	traits = {  }
+	id = 51001
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

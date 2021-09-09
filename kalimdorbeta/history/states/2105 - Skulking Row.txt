@@ -1,0 +1,31 @@
+
+state={
+	id=2105
+	name="STATE_2105"
+
+	history={
+		
+		victory_points = {
+			3255 10
+		}
+		buildings = {
+			infrastructure = 4
+			3247 = {
+				bunker = 5
+			}
+			3270 = {
+				bunker = 5
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		3247 3253 3255 3260 3270 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

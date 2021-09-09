@@ -1,0 +1,42 @@
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		oil=48.000
+	}
+
+	history={
+		
+		victory_points = {
+			4722 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 3
+			4726 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ZUL
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = ZUL
+
+		}
+
+	}
+
+	provinces={
+		445 4706 4707 4712 4715 4722 4725 4726 4731 4732 
+	}
+	manpower=55250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

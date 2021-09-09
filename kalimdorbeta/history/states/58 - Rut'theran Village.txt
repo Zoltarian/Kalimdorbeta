@@ -1,0 +1,30 @@
+
+state={
+	id=58
+	name="STATE_58"
+
+	history={
+		
+		add_core_of = ZZT
+		victory_points = {
+			12707 10
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			owner = KAL
+			controller = KAL
+			add_core_of = KAL
+			remove_core_of = ZZT
+		}
+	}
+
+	provinces={
+		682 12704 12705 12706 12707
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

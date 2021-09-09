@@ -1,0 +1,46 @@
+
+state={
+	id=429
+	name="STATE_429"
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = { 3780 20 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			6104 = {
+				bunker = 7
+			}	
+			
+			4063 = {
+				bunker = 7
+			}	
+			
+			3778 = {
+				bunker = 5
+			}	
+			
+			3772 = {
+				bunker = 5
+			}	
+			
+			3767 = {
+				bunker = 5
+			}	
+
+		}
+		add_core_of = IRO
+
+	}
+
+	provinces={
+		1027 3765 3767 3768 3771 3772 3778 3780 3783 3790 3791 4063 6104 
+	}
+	manpower=103750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

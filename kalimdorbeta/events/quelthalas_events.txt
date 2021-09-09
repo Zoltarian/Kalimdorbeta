@@ -1,0 +1,57 @@
+﻿###########################
+#quelthalas
+###########################
+
+add_namespace = quelthalas
+
+country_event = {
+  id = quelthalas.1
+  title = quelthalas.1.t
+  desc = quelthalas.1.d
+
+  is_triggered_only = yes
+
+  fire_only_once = yes
+
+  option = {
+    name = quelthalas.1.option.1
+    add_timed_idea = {
+      idea = QUE_hearthglen_envoy
+      days = 365
+    }
+
+    add_opinion_modifier = {
+      target = HEA
+      modifier = envoy_to_quelthalas
+    }
+
+    HEA = {
+      add_opinion_modifier = {
+        target = QUE
+        modifier = envoy_to_quelthalas
+      }
+    }
+  }
+
+}
+
+country_event = { # the blood pact
+  id = quelthalas.2
+  title = quelthalas.2.t
+  desc = quelthalas.2.d
+
+  is_triggered_only = yes
+
+  fire_only_once = yes
+
+  option = { #honor the blood pact
+    name = quelthalas.2.option.1
+
+  }
+  
+   option = { #dishonor the blood pact
+    name = quelthalas.2.option.2
+
+  }
+
+}

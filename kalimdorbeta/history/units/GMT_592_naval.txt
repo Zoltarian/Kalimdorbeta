@@ -1,0 +1,24 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Greymist Fishing Fleet"			
+		naval_base = 12856
+		task_force = {
+			name = "Greymist Fishing Fleet"			
+			location = 12856
+			
+			ship = {
+				name = "1st Greymist Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = GMT } }
+			}
+			ship = {
+				name = "2nd Greymist Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = GMT } }
+			}
+			
+		}
+	}
+}

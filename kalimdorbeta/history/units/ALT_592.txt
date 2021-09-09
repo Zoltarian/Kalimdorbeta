@@ -1,0 +1,213 @@
+﻿division_template = {
+	name = "Alterac City Guard"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Alterac Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+#division_template = {
+#	name = "Alterac Royal Guards"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+#division_template = {
+#	name = "Alterac Mountaineer"
+#
+#	regiments = {
+#		ranger = { x = 0 y = 0 }
+#		ranger = { x = 0 y = 1 }
+#		ranger = { x = 0 y = 2 }
+#		ranger = { x = 1 y = 0 }
+#		ranger = { x = 1 y = 1 }
+#		ranger = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+#division_template = {
+#	name = "Alterac Scout Cavalry"
+#
+#	regiments = {
+#		mounted_footman = { x = 0 y = 0 }
+#		mounted_footman = { x = 0 y = 1 }
+#		mounted_footman = { x = 0 y = 2 }
+#		mounted_footman = { x = 1 y = 0 }
+#		mounted_footman = { x = 1 y = 1 }
+#		mounted_footman = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+
+units = {
+
+########################
+#Ironforge
+########################
+
+#	division = {
+#		name = "1st Alterac Royal Guards"
+#		location = 1880
+#		division_template = "Alterac Royal Guards"
+#		start_experience_factor = 0.3
+#	}
+
+#	division = {
+#		name = "1st Alterac Scout Cavalry"
+#		location = 1906
+#		division_template = "Alterac Scout Cavalry"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "2nd Alterac Scout Cavalry"
+#		location = 1893
+#		division_template = "Alterac Scout Cavalry"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "1st Alterac Mountaineer"
+#		location = 1821
+#		division_template = "Alterac Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "2nd Alterac Mountaineer"
+#		location = 1818
+#		division_template = "Alterac Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "3rd Alterac Mountaineer"
+#		location = 1821
+#		division_template = "Alterac Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "4th Alterac Mountaineer"
+#		location = 1822
+#		division_template = "Alterac Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "5th Alterac Mountaineer"
+#		location = 1869
+#		division_template = "Alterac Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "6th Alterac Mountaineer"
+#		location = 1833
+#		division_template = "Alterac Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+	division = {
+		name = "1st Alterac City Guard"
+		location = 1913
+		division_template = "Alterac City Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Alterac City Guard"
+		location = 1895
+		division_template = "Alterac City Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Alterac City Guard"
+		location = 1872
+		division_template = "Alterac City Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Alterac City Guard"
+		location = 1896
+		division_template = "Alterac City Guard"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Western Plaguelands
+########################
+	division = {
+		name = "1st Alterac Archers"
+		location = 4299
+		division_template = "Alterac Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Alterac Archers"
+		location = 2989
+		division_template = "Alterac Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Alterac Archers"
+		location = 1901
+		division_template = "Alterac Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Alterac City Guard"
+		location = 2976
+		division_template = "Alterac City Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Alterac City Guard"
+		location = 1916
+		division_template = "Alterac City Guard"
+		start_experience_factor = 0.2
+	}
+
+
+}

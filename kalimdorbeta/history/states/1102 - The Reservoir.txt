@@ -1,0 +1,32 @@
+
+state={
+	id=1102
+	name="STATE_1102"
+	resources = {
+		wheat=2
+		mana=7
+		ores=3
+	}
+
+	history={
+		owner = AHQ
+		victory_points = {
+			10814 5
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+
+		}
+		add_core_of = AHQ
+
+	}
+
+	provinces={
+		10814 11032 11042 11044 11046 11048 11052 
+	}
+	manpower=62500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

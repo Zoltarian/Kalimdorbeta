@@ -1,0 +1,157 @@
+﻿capital = 711
+
+set_research_slots = 3
+
+oob = "SMC_592"
+set_naval_oob = "SMC_592_naval"
+
+set_convoys = 60
+
+set_stability = 0.6
+set_war_support = 0.1
+
+add_ideas = {
+	
+	clan
+	recruit_adventurers
+	early_military_development
+	limited_exports
+
+	orc_primary_race
+
+	primary_religion_necrolytes
+	secondary_religion_demonology
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+	large_frames = 1
+	dreadnaught_tech_1 = 1
+	battleship_tech_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = fel
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 100
+    old_gods = 0
+    titans = 0
+    neutral = 0
+}
+
+create_country_leader = {
+	name = "Ner'zhul"
+	desc = "POLITICS_NERZHUL_DESC"
+	picture = "gfx/leaders/SMC/nerzhul.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ner'zhul"
+	desc = "POLITICS_NERZHUL_DESC"
+	picture = "gfx/leaders/SMC/nerzhul.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ner'zhul"
+	desc = "POLITICS_NERZHUL_DESC"
+	picture = "gfx/leaders/SMC/nerzhul.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ner'zhul"
+	desc = "POLITICS_NERZHUL_DESC"
+	picture = "gfx/leaders/SMC/nerzhul.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Ner'zhul"
+	picture = "gfx/leaders/SMC/nerzhul.dds"
+	traits = {  }
+	id = 56700
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Dentarg"
+	picture = "gfx/leaders/SMC/dentarg.dds"
+	traits = {  }
+	id = 56701
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kelidan the Breaker"
+	picture = "gfx/leaders/SMC/kelidan_the_breaker.dds"
+	traits = {  }
+	id = 56702
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sadana Bloodfury"
+	picture = "gfx/leaders/SMC/sadana_bloodfury.dds"
+	traits = {  }
+	id = 56703
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

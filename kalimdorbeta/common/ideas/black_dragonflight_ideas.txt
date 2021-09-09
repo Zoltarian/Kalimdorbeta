@@ -1,0 +1,48 @@
+ideas = {
+	
+	country = {
+	
+#############################################
+#events
+#############################################
+
+		BLF_interfering_emissary = {
+		
+			allowed = {
+				original_tag = BLF
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			modifier = {
+				political_power_gain = -0.4
+			}
+		}
+		
+		BLF_infilitrate_the_horde = {
+		
+			allowed = {
+				original_tag = BLF
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			modifier = {
+				political_power_gain = -0.4
+			}
+		}
+		
+	}
+}

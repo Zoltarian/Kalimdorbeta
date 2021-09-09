@@ -1,0 +1,77 @@
+﻿capital = 1352
+
+oob = "FMC_592"
+
+set_research_slots = 3
+
+add_ideas = {
+	clan
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	satyr_primary_race
+
+	primary_trait_the_shadows_call
+
+	primary_religion_demonology
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+	rogues_guild = 1
+	rogue_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 100
+}
+
+create_country_leader = {
+	name = "Felhoof"
+	desc = "POLITICS_FELHOOF_DESC"
+	picture = "felhoof.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

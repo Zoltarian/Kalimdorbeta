@@ -1,0 +1,33 @@
+
+state={
+	id=1474
+	name="STATE_1474"
+	resources={
+		wood=4
+		mana=3
+		oil=1
+	}
+
+	history={
+		owner = STP
+		victory_points = {
+			13706 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			13710 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = STP
+	}
+
+	provinces={
+		13064 13706 13710 13715 
+	}
+	manpower=8500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

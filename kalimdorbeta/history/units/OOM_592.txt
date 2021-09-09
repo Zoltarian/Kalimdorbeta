@@ -1,0 +1,66 @@
+﻿division_template = {
+	name = "Oomlot Warrior"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Oomlot Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+
+units = {
+	
+	division = {
+		name = "Oomlot Warrior"
+		location = 8218
+		division_template = "Oomlot Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Warrior"
+		location = 8194
+		division_template = "Oomlot Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Warrior"
+		location = 8232
+		division_template = "Oomlot Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Spearman"
+		location = 8201
+		division_template = "Oomlot Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Spearman"
+		location = 766
+		division_template = "Oomlot Spearman"
+		start_experience_factor = 0.2
+	}
+	
+
+}

@@ -1,0 +1,132 @@
+﻿###########################
+#alterac
+###########################
+
+add_namespace = alterac
+
+country_event = {
+  id = alterac.1
+  title = alterac.1.t
+  desc = alterac.1.d
+
+  is_triggered_only = yes
+
+  fire_only_once = yes
+
+  option = {
+    name = alterac.1.option.1
+    add_timed_idea = {
+      idea = ALT_align_alterac_idea
+      days = 365
+    }
+
+    add_opinion_modifier = {
+      target = HEA
+      modifier = align_alterac
+    }
+
+    HEA = {
+      add_opinion_modifier = {
+        target = ALT
+        modifier = align_alterac
+      }
+    }
+  }
+
+}
+
+# attending meeting of the seven kingdoms
+country_event = {
+	id = alterac.2
+	title = alterac.2.t
+	desc = alterac.2.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  # attend
+	option = {
+    name = alterac.2.option.1
+
+    set_country_flag = attended_meeting_of_seven_kingdoms
+
+    add_ideas = ALT_attented_the_meeting_of_the_seven_kingdoms
+
+    LOR = {
+      add_opinion_modifier = {
+        target = ALT
+        modifier = attented_the_meeting_of_the_seven_kingdoms
+      }
+    }
+  }
+
+  # refuse
+  option = {
+    name = alterac.2.option.2
+
+    LOR = {
+      add_opinion_modifier = {
+        target = ALT
+        modifier = not_attented_the_meeting_of_the_seven_kingdoms
+      }
+    }
+  }
+}
+
+#alterac joins horde
+country_event = {
+	id = alterac.3
+	title = alterac.3.t
+	desc = alterac.3.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = alterac.3.option.1
+
+	}
+}
+
+#blackrock deal with alterac
+country_event = {
+	id = alterac.4
+	title = alterac.4.t
+	desc = alterac.4.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = alterac.4.option.1
+
+    BRC = {
+      country_event = blackrock.40
+    }
+
+    every_enemy_country = {
+      limit = {
+        is_in_faction_with = BRC
+      }
+      white_peace = ALT
+    }
+
+    diplomatic_relation = {
+      country = BRC
+      relation = non_aggression_pact
+      active = yes
+    }
+
+	}
+
+  option = {
+    name = alterac.4.option.2
+
+    BRC = { country_event = blackrock.41 }
+	}
+}

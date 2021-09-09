@@ -1,0 +1,42 @@
+﻿division_template = {
+	name = "Sand Pygmy"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Sand Pygmy"
+		location = 10999
+		division_template = "Sand Pygmy"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Sand Pygmy"
+		location = 10999
+		division_template = "Sand Pygmy"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Sand Pygmy"
+		location = 10999
+		division_template = "Sand Pygmy"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Sand Pygmy"
+		location = 11827
+		division_template = "Sand Pygmy"
+		start_experience_factor = 0.1
+	}
+
+}

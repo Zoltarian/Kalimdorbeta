@@ -1,0 +1,36 @@
+
+state={
+	id=174
+	name="STATE_174"
+	resources={
+		oil=46.000
+	}
+
+	history={
+		
+		victory_points = {
+			662 15 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 3
+			radar_station = 1
+			662 = {
+				naval_base = 7
+
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		662 668 3172 3173 5727 
+	}
+	manpower=61000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

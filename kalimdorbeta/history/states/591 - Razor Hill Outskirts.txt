@@ -1,0 +1,32 @@
+
+state={
+	id=591
+	name="STATE_591"
+	resources={
+		ores=4
+		gunpowder=2
+		wheat=6
+	}
+
+	history={
+		owner = RZM
+		victory_points = {
+			9714 5
+		}	
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = RZM
+
+	}
+
+	provinces={
+		1056 9711 9712 9713 9714 9715 9736 
+	}
+	manpower=10200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=855
+	name="STATE_855"
+	resources={
+		ores=4.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SRD
+
+	}
+
+	provinces={
+		8610 9241 9247 9258 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

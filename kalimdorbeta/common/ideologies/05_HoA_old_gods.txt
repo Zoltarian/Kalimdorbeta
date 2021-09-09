@@ -1,0 +1,47 @@
+ideologies = {
+
+	old_gods= {
+
+		types = {
+
+			old_gods_type = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_OLD_GODS_1"
+			"FACTION_NAME_OLD_GODS_2"
+			"FACTION_NAME_OLD_GODS_3"
+			"FACTION_NAME_OLD_GODS_4"
+			"FACTION_NAME_OLD_GODS_5"
+		}
+
+		color = { 69 19 86 }
+
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = no
+		}
+
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = {
+			drift_defence_factor = 0.9
+			puppet_cost_factor = -0.5
+			justify_war_goal_when_in_major_war_time = -0.80
+		}
+
+		can_be_boosted = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+
+	}
+}

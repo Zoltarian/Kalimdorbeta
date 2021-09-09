@@ -1,0 +1,29 @@
+division_template = {
+	name = "Emergency Guard"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		catapult = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		catapult = { x = 1 y = 2 }
+		pikeman = { x = 2 y = 0 }
+		pikeman = { x = 2 y = 1 }
+		catapult = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st Emergency Guard"
+		location = 3793
+		division_template = "Emergency Guard"
+		start_experience_factor = 0.3
+		}	
+	division = {
+		name = "2nd Emergency Guard"
+		location = 3793
+		division_template = "Emergency Guard"
+		start_experience_factor = 0.3
+		}
+}

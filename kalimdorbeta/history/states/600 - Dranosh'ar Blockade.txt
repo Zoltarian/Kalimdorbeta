@@ -1,0 +1,37 @@
+
+state={
+	id=600
+	name="STATE_600"
+	resources={
+		ores=5
+		wood=1
+	}
+
+	history={
+		owner = DWT
+		victory_points = {
+			10355 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = DWT
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+			remove_core_of = DWT
+
+		}
+
+	}
+
+	provinces={
+		240 9752 10331 10339 10349 10352 10355 10363 10364 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

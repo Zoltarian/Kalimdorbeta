@@ -1,0 +1,177 @@
+﻿division_template = {
+	name = "Eastweald Footman"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Eastweald Pikeman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Eastweald Archers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Eastweald Sailors"
+	regiments = {
+		hoa_sailor = { x = 0 y = 0 }
+		hoa_sailor = { x = 0 y = 1 }
+		hoa_sailor = { x = 0 y = 2 }
+		hoa_sailor = { x = 1 y = 0 }
+		hoa_sailor = { x = 1 y = 1 }
+		hoa_sailor = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+#division_template = {
+#	name = "Eastweald Royal Guards"
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+division_template = {
+	name = "Eastweald Knights"
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+#division_template = {
+#	name = "Eastweald Lancers"
+#	regiments = {
+#		hoa_lancer = { x = 0 y = 0 }
+#		hoa_lancer = { x = 0 y = 1 }
+#		hoa_lancer = { x = 0 y = 2 }
+#		hoa_lancer = { x = 1 y = 0 }
+#		hoa_lancer = { x = 1 y = 1 }
+#		hoa_lancer = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+division_template = {
+	name = "Eastweald Scout Cavalry"
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Eastweald Catapults"
+	regiments = {
+		catapult = { x = 0 y = 0 }
+		catapult = { x = 0 y = 1 }
+		catapult = { x = 0 y = 2 }
+		catapult = { x = 1 y = 0 }
+		catapult = { x = 1 y = 1 }
+		catapult = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st Stratholme Sailors"
+		location = 5870
+		division_template = "Eastweald Sailors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Eastweald Footmen"
+		location = 647
+		division_template = "Eastweald Footman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Eastweald Footmen"
+		location = 4243
+		division_template = "Eastweald Footman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Eastweald Footmen"
+		location = 4194
+		division_template = "Eastweald Footman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Eastweald Pikemen"
+		location = 4149
+		division_template = "Eastweald Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Eastweald Pikemen"
+		location = 4089
+		division_template = "Eastweald Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Eastweald Archers"
+		location = 4101
+		division_template = "Eastweald Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Eastweald Archers"
+		location = 4457
+		division_template = "Eastweald Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Stratholme Knights"
+		location = 4430
+		division_template = "Eastweald Knights"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Stratholme Knights"
+		location = 4462
+		division_template = "Eastweald Knights"
+		start_experience_factor = 0.2
+	}
+#	division = {
+#		name = "1st Stratholme Lancers"
+#		location = 4430
+#		division_template = "Eastweald Lancers"
+#		start_experience_factor = 0.2
+#	}	
+	
+}

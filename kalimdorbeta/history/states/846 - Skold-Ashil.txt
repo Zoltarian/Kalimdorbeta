@@ -1,0 +1,37 @@
+
+state={
+	id=846
+	name="STATE_846"
+	resources={
+		wood =4.000
+		ores=6.000
+		mana=30.000
+	}
+
+	history={
+		
+		victory_points = {
+			9174 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			9182 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = VAK
+
+	}
+
+	provinces={
+		9158 9171 9174 9182 9205 
+	}
+	manpower=54000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

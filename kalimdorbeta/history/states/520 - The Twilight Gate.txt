@@ -1,0 +1,33 @@
+
+state={
+	id=520
+	name="STATE_520" #N. Verrall Cliffs / The Twilight Gate
+	
+	resources={
+		ores=4
+	}
+
+	history={
+		victory_points = { 5918 20 }
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1039 4916 4925 4926 4933 4941 4949 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

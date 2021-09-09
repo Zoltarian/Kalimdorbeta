@@ -1,0 +1,184 @@
+﻿capital = 86
+
+oob = "AHQ_592"
+
+add_ideas = {
+	qiraji_primary_race
+	silithid_secondary_race
+	anubisath_secondary_race
+
+	primary_religion_followers_of_cthun
+}
+
+set_research_slots = 3
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	nesting_grounds_tech = 1
+	church_tech = 1
+	wall_tech_1 = 1
+	wall_tech_2 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+	guard_tower_1 = 1
+	rogues_guild = 1
+	rogue_tech = 1
+	encryption_1 = 1
+	decryption_1 = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	captain_tech = 1
+	guard_tech = 1
+	pikeman_tech = 1
+	pikeman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+	priest_tech = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+	knight_tech = 1
+	knight_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+	paladin_tech = 1
+	paladin_equipment_tech_1 = 1
+	arch_mage_tech = 1
+	arch_mage_equipment_tech_1 = 1
+
+	aviary_tech = 1
+	organic_flight = 1
+	swift_breeds = 1
+	fighter_breeds_1 = 1
+	cas_breeds_1 = 1
+	endurance_breeds = 1
+	bomber_breeds_1 = 1
+	naval_breeds_1 = 1
+	support_breeds = 1
+	scouting_breeds_1 = 1
+	transport_breeds_1 = 1
+
+}
+
+create_faction = disciples_of_cthun
+add_to_faction = HAS
+add_to_faction = HZO
+add_to_faction = HRE
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HAS
+		autonomous_state = autonomy_puppet_dlc
+		freedom_level = 0.01
+	}
+	else = {
+		puppet = HAS
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HZO
+		autonomous_state = autonomy_puppet_dlc
+		freedom_level = 0.01
+	}
+	else = {
+		puppet = HZO
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HRE
+		autonomous_state = autonomy_puppet_dlc
+		freedom_level = 0.01
+	}
+	else = {
+		puppet = HRE
+	}
+}
+
+set_politics = {
+	ruling_party = old_gods
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 100
+    titans = 0
+    neutral = 0
+}
+
+create_country_leader = {
+	name = "C'thun"
+	desc = "POLITICS_CTHUN_DESC"
+	picture = "gfx/leaders/AHQ/cthun.dds"
+	ideology = old_gods_type
+	traits = {
+		old_gods_imprisoned_leader_trait
+	}
+}
+
+create_field_marshal = {
+	name = "Emperor Vek'lor"
+	picture = "gfx/leaders/AHQ/emperor_veklor.dds"
+	traits = {  }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Emperor Vek'nilash"
+	picture = "gfx/leaders/AHQ/emperor_veknilash.dds"
+	traits = {  }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Ouro"
+	picture = "gfx/leaders/AHQ/ouro.dds"
+	traits = {  }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+596.1.1 = {}

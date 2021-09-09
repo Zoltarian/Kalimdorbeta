@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Palemane Poacher"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1st Palemane Poacher"
+		location = 9982
+		division_template = "Palemane Poacher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Palemane Poacher"
+		location = 9968
+		division_template = "Palemane Poacher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Palemane Poacher"
+		location = 10034
+		division_template = "Palemane Poacher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Palemane Poacher"
+		location = 9970
+		division_template = "Palemane Poacher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Palemane Poacher"
+		location = 9997
+		division_template = "Palemane Poacher"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Palemane Poacher"
+		location = 9982
+		division_template = "Palemane Poacher"
+		start_experience_factor = 0.2
+	}
+
+}

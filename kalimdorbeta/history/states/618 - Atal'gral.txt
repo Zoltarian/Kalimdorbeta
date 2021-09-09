@@ -1,0 +1,35 @@
+
+state={
+	id=618
+	name="STATE_618"
+
+	history={
+		
+		victory_points = {
+			8796 10 
+		}
+		victory_points = {
+			8763 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			8796 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = ZAN
+
+	}
+
+	provinces={
+		2356 8769 8781 8784 8789 8796 8798 8799 8805 8813 
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

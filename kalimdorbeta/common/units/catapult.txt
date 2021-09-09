@@ -1,0 +1,74 @@
+sub_units = {
+	
+	orc_catapult = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = infantry
+		
+		categories = {
+			category_hoa_army
+			category_hoa_siege_units
+			category_spellcasters_and_siege
+		}
+
+		combat_width = 3
+
+		manpower = 50
+		need = {
+			orc_catapult_equipment = 36
+		}
+		
+		max_strength = 1
+		max_organisation = 5
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.2
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.5
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	
+}

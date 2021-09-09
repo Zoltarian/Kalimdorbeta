@@ -1,0 +1,29 @@
+﻿###########################
+#gnomeregan
+###########################
+
+add_namespace = gnomeregan
+
+country_event = {
+	id = gnomeregan.1
+	title = gnomeregan.1.t
+	desc = gnomeregan.1.d
+	picture = GFX_report_event_german_parade_paris
+	fire_only_once = yes
+	trigger = {
+		tag = GNO
+		or = {
+			any_other_country = {
+				controls_state = 440
+				has_idea = orc_primary_race
+				has_war_with = GNO
+			}
+		}
+	}
+	option = {
+		name = gnomeregan.1.a
+			hidden_effect = {
+				load_oob = "GNO_gate_guard"
+			}
+	}
+}

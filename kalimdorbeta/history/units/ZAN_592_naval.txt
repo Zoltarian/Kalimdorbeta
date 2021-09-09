@@ -1,0 +1,277 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Dazar'Alor Fleet"			
+		naval_base = 8753
+		task_force = {
+			name = "Dazar'Alor Fleet"			
+			location = 8753 #port of zuldazar
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "7th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "1st Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+	fleet = {				
+		name = "Zeb'Ahari Fleet"			
+		naval_base = 8856
+		task_force = {
+			name = "Zeb'Ahari Fleet"			
+			location = 8856 #Zeb'Ahari
+			
+			ship = {
+				name = "8th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "9th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+	fleet = {				
+		name = "Tusk Fleet"			
+		naval_base = 7415
+		task_force = {
+			name = "Tusk Fleet"			
+			location = 7415 #tusk isle fleet
+			
+			ship = {
+				name = "10th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "11th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "7th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "8th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+	fleet = {				
+		name = "Dazar'Alor Fleet"			
+		naval_base = 8753
+		task_force = {
+			name = "Dazar'Alor Fleet"			
+			location = 8753 #isle of fangs fleet
+			
+			ship = {
+				name = "12th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "13th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "9th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "10th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+	fleet = {				
+		name = "Zandalari Expeditionary Fleet"			
+		naval_base = 8716
+		task_force = {
+			name = "Zandalari Expeditionary Fleet"			
+			location = 8716 #isle of giants
+			
+			ship = {
+				name = "14th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "15th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "16th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "17th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "18th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "11th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "12th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "13th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "7th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

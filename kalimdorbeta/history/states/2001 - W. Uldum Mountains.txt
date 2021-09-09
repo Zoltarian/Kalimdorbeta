@@ -1,0 +1,20 @@
+state={
+	id=2001
+	name="STATE_2001"
+	impassable = yes
+
+	history={
+		owner = ORS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ORS
+	}
+
+	provinces={
+		347
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

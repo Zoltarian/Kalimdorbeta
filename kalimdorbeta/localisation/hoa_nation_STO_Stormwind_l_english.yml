@@ -1,0 +1,695 @@
+﻿l_english:
+
+###############################
+# Leaders
+###############################
+ POLITICS_KING_LLANE_WYRNN_DESC:0 "King Llane Wrynn was born the Prince of Stormwind, son of King Barathen, where he grew up alongside Medivh. Despite being a mischevious child, the Kingdom of Stormwind adored Prince Llane. While his friend Medivh was in a coma, Llane had been prepared to take his father's throne when it was necessary, while his other friend, Anduin Lothar, became a Knight of Stormwind. However, when the Gurubashi Tribes had begun attacking Stormwind's territory, his father preferred a more peaceful approach, while Prince Llane wanted to invade the Gurubashi Tribes to the south. Medivh, Llane, and Lothar infiltrated Gurubashi lands and slayed their leader, Jok'non. Later, Llane and his people had to defend Stormwind from the Gurubashi counter-attack who had united the Tribes and marched to Stormwind itself. Llane's father launched a counter-attack which cost him his life. After his father's death, Prince Llane was crowned King of Stormwind. "
+ POLITICS_REGENT_LORD_ANDUIN_LOTHAR_DESC:0 "Anduin Lothar was the last true descendant of the Arathi bloodline. A Knight-Champion whose renown spread through the Eastern Kingdoms, he was known as the "Lion of Stormwind" and one of the closest friends to King Llane Wrynn and the Last Guardian of Tirisfal, Medivh."
+
+###############################
+# Units
+###############################
+
+###############################
+# Advisors
+###############################
+
+################################
+# Ideas
+################################
+ STO_Rally_the_troops:0 "Rallied the troops"
+ STO_Coward_king:0 "Cowardly King"
+ STO_raise_the_banners_idea:0 "Raise the Banners"
+ STO_stand_alone:0 "Stand Alone"
+ STO_stand_alone_desc:0 "For better or worse, we must stand alone against these monsters"
+ STO_legacy_of_the_gurubashi_war_2_desc:0 "Stormwinds industry still hasn't fully recovered from the destruction caused by the Gurubashi War."
+ STO_legacy_of_the_gurubashi_war_3:0 "Legacy of the Gurubashi War"
+ STO_legacy_of_the_gurubashi_war_3_desc:0 "Stormwinds industry still hasn't fully recovered from the destruction caused by the Gurubashi War."
+ STO_over_reliance_on_medivh_1:0 "Over Reliance on Medivh"
+ STO_over_reliance_on_medivh_1_desc:0 "The Guardian Medivh single-handedly ended the Gurubashi War when all hope was lost, our military and politics have since grown over-reliant on his protection."
+ STO_over_reliance_on_medivh_2:0 "Over Reliance on Medivh"
+ STO_over_reliance_on_medivh_2_desc:0 "The Guardian Medivh single-handedly ended the Gurubashi War when all hope was lost, our military and politics have since grown over-reliant on his protection."
+ STO_over_reliance_on_medivh_3:0 "Over Reliance on Medivh"
+ STO_over_reliance_on_medivh_3_desc:0 "The Guardian Medivh single-handedly ended the Gurubashi War when all hope was lost, our military and politics have since grown over-reliant on his protection."
+ STO_over_reliance_on_medivh_4:0 "Over Reliance on Medivh"
+ STO_over_reliance_on_medivh_4_desc:0 "The Guardian Medivh single-handedly ended the Gurubashi War when all hope was lost, our military and politics have since grown over-reliant on his protection."
+ STO_over_reliance_on_medivh_5:0 "Over Reliance on Medivh"
+ STO_over_reliance_on_medivh_5_desc:0 "The Guardian Medivh single-handedly ended the Gurubashi War when all hope was lost, our military and politics have since grown over-reliant on his protection."
+
+ STO_pillaged_settlements:0 "Pillaged Settlements"
+ STO_loan_from_nobles:0 "Loan from Nobles"
+
+ STO_blacblood_hunters:0 "Blackblood Hunters"
+ STO_blessed_weapons:0 "Blessed Weapons"
+ STO_blessed_weapons_desc:0 "Stormwind has blessed all of their weapons in the Church of the Holy Light."
+ STO_war_taxes_2:0 "War Taxes"
+ STO_war_taxes_1:0 "War Taxes"
+ STO_first_war_aid:0 "Providing aid to Stormwind"
+ STO_first_war_aid_desc:0 "We have begun to provide aid to the Kingdom of Stormwind, aligning our goals with their own."
+ STO_medivhs_presence:0 "Medivh's Presence"
+ STO_medivhs_presence_desc:0 "Medivh's Presence on the battlefield has raised the morale of our troops."
+ STO_khadgars_presence:0 "Khadgar's Presence"
+ STO_khadgars_presence_desc:0 "Medivh's Apprentice is proving himself to be quite a competent mage and has raised the morale of our troops."
+
+ Stormwind_Rally_the_troops:0 "Rallied the troops"
+ Stormwind_Coward_king:0 "Cowardly King"
+ Stormwind_Help_from_LOR:0 "Help from Lordaeron"
+ Stormwind_Help_from_LOR_desc:0 "Lordaeron has pledged their assistance to us."
+ Stormwind_Help_from_ALT:0 "Help from Alterac"
+ Stormwind_Help_from_ALT_desc:0 "Alterac has pledged their assistance to us."
+ Stormwind_Help_from_KUL:0 "Help from Kul'Tiras"
+ Stormwind_Help_from_KUL_desc:0 "Kul'Tiras has pledged their assistance to us."
+ Stormwind_Help_from_DAL:0 "Help from Dalaran"
+ Stormwind_Help_from_DAL_desc:0 "Dalaran has pledged their assistance to us."
+ Stormwind_Help_from_STR:0 "Help from Stromgarde"
+ Stormwind_Help_from_STR_desc:0 "Stromgarde has pledged their assistance to us."
+ Stormwind_Help_from_GIL:0 "Help from Gilneas"
+ Stormwind_Help_from_GIL_desc:0 "Gilneas has pledged their assistance to us."
+ Stormwind_First_War_Aid:0 "Providing aid to Stormwind"
+ Stormwind_First_War_Aid_desc:0 "We have begun to provide aid to the Kingdom of Stormwind, aligning our goals with their own."
+
+ STO_trade_and_commerce_idea:0 "Trade and Commerce"
+ STO_stonemasons_guild:0 "Stonemasons Guild"
+ STO_house_of_nobles_idea:0 "Stormwind House of Nobles"
+ STO_raised_taxes_idea:0 "Raised Taxes"
+
+ STO_rebuild_the_country_idea:0 "Rebuild the Country"
+ STO_rebuild_the_country_idea_desc:0 ""
+
+ STO_brotherhood_of_the_horse_idea:0 "Brotherhood of the Horse"
+ STO_brotherhood_of_the_horse_idea_desc:0 "Brotherhood of the Horse"
+ STO_infantry_focus_idea:0 "Infantry Focus"
+ STO_cavalry_focus_idea:0 "Cavalry Focus"
+
+ STO_first_war_veterans_idea:0 "First War Veterans"
+ STO_first_war_veterans_idea_desc:0 ""
+
+ STO_hillsbrad_militias_idea:0 "Hillsbrad Militia"
+ STO_hillsbrad_militias_idea_desc:0 ""
+
+ STO_escort_fleet_idea:0 "Escort Fleet"
+ STO_escort_fleet_idea_desc:0 ""
+
+ STO_submarine_fleet_idea:0 "Submarine Fleet"
+ STO_submarine_fleet_idea_desc:0 ""
+
+ STO_gnomish_technolodgy_idea:0 "Gnomish Technology"
+ STO_gnomish_technolodgy_idea_desc:0 ""
+
+ STO_order_of_the_silver_hand:0 "Order of the Silver Hand"
+ STO_order_of_the_silver_hand_desc:0 ""
+
+ STO_regency_for_varian:0 "Regency: Varian Wrynn"
+ STO_regency_for_varian_desc:0 "After the assassination of King Llane Wrynn, the crown of Stormwind was transferred to his son Varian. While the line of succession is safe for now, Varian is just a boy and Stormwind will be without a true king until the year 600."
+ STO_government_in_exile:0 "Government in Exile"
+ STO_government_in_exile_desc:0 "While Lordaeron has granted us administration of the Hillsbrad Foothills, The Kingdom of Stormwind is a shadow of its former glory. We will find it hard for many nations to accept our claims to the continent of Azeroth until Stormwind is retaken."
+
+
+ STO_kobolds_in_the_mines:0 "Kobold Nuisance"
+ STO_kobolds_in_the_mines_desc:0 "Kobolds have occupied the Elwynn Mines, hampering our ability to excavate necessary resources to bolster our military."
+ STO_unsatisfied_nobles:0 "Unsatisfied Nobles"
+ STO_unsatisfied_nobles_desc:0 "Stormwind is a large nation, yet the king had managed to remain in direct rule of its lands. The nobles have grown envious of the Kingdoms in the North and are actively hampering the nation's politics and spreading dissent amongst its citizens."
+ STO_gnoll_attacks:0 "Gnoll Attacks"
+ STO_gnoll_attacks_desc:0 "The Gnolls have been raiding our villages and crippling our internal trade. Our intel has managed to locate the two packs responsible for these attacks, namely the Redridge and Riverpaw Gnolls. We have rallied the militias in the neighbouring towns to defend their denizens."
+ STO_rebuilding_the_nation:0 "Rebuilding The Nation"
+ STO_rebuilding_the_nation_desc:0 "Ever since the Gurubashi War, the Kingdom of Stormwind has been focused on rebuilding the nation. Despite entering a period of prosperity, the majority of its public works have been focused on repair and reclamation of what once belonged to its people."
+ STO_legacy_of_gurubashi_war_1:0 "Legacy of the Gurubashi War"
+ STO_legacy_of_gurubashi_war_1_desc:0 "The shadow of the Gurubashi War still drives this nation’s politics."
+ STO_legacy_of_gurubashi_war_2:0 "Legacy of the Gurubashi War"
+ STO_legacy_of_gurubashi_war_2_desc:0 "The shadow of the Gurubashi War still drives this nation’s politics."
+
+
+ STO_westfall_investment_idea_1:0 "Westfall Investment"
+ STO_westfall_investment_idea_2:0 "Moonbrook Investment"
+ STO_westfall_investment_idea_3:0 "Fields Revitalised"
+ STO_westfall_investment_idea_4:0 "Westfall Excavated"
+
+ STO_brightwood_investment_idea_1:0 "Brightwood Investment"
+ STO_brightwood_investment_idea_2:0 "Sunnyglade Fortified"
+ STO_brightwood_investment_idea_3:0 "Brightwood Roads Improved"
+ STO_brightwood_investment_idea_4:0 "Grand Hamlet Expansion"
+
+ STO_redridge_investment_idea_1:0 "Redridge Investment"
+ STO_redridge_investment_idea_2:0 "Stonewatch Keep Refurbished"
+ STO_redridge_investment_idea_3:0 "New Redridge Mines"
+ STO_redridge_investment_idea_4:0 "Burden No More"
+
+ STO_long_term_payments:0 "Long Term Payments"
+ STO_short_term_payments:0 "Short Term Payments"
+ STO_kingdom_rebuilt:0 "Kingdom Rebuilt"
+ STO_internal_trade:0 "Internal Trade"
+ STO_export_focus:0 "Export Focus"
+ STO_cathedral_of_light:0 "Cathedral of Light"
+ STO_jewel_of_the_south_idea:0 "Jewel of the South"
+ STO_feudal_reform_idea:0 "Feudal Reform"
+ STO_noble_administration_idea:0 "Noble Administration"
+ STO_homeland_defense_idea:0 "Homeland Defense"
+ STO_economic_aid_idea:0 "Economic Aid"
+ STO_house_of_nobles:0 "The House of Nobles"
+ STO_house_of_nobles_2:0 "The House of Nobles"
+ STO_house_of_nobles_3:0 "The House of Nobles"
+ STO_house_of_nobles_4:0 "The House of Nobles"
+ STO_house_of_nobles_5:0 "The House of Nobles"
+ STO_noble_schemes:0 "Noble Schemes"
+ STO_noble_schemes_2:0 "Noble Schemes"
+ STO_laws_of_loyalty:0 "Laws of Loyalty"
+ STO_titles_revoked:0 "Titles Revoked!"
+
+ STO_initial_army_reforms:0 "Initial Army Reforms"
+ STO_lothars_reforms_idea:0 "Lothar's Army Reforms"
+ STO_professional_army_idea:0 "Professional Army"
+###############################
+# Decisions
+###############################
+ stormwind_elwynn_militia:0 "Elwynn Militia"
+ STO_fargodeep_mine_kobolds_decision:0 "Clear out Fargodeep Mine"
+ STO_fargodeep_mine_kobolds_maintain_control_decision:0 "Clearing out Fargodeep Mine"
+ STO_fargodeep_mine_kobolds_maintain_control_mission_explanation:0 "In order to remove these Kobolds from our mine we must occupy it with soldiers."
+ STO_fargodeep_mine_control_tt:0 "Our soldiers are hunting down every last Kobold inside Fargodeep Mine. They must remain here for 180 days to fully remove them."
+
+ STO_jasperlode_mine_kobolds_decision:0 "Clear out Jasperlode Mine"
+ STO_jasperlode_mine_kobolds_maintain_control_decision:0 "Clearing out Jasperlode Mine"
+ STO_jasperlode_mine_kobolds_maintain_control_mission_explanation:0 "In order to remove these Kobolds from our mine we must occupy it with soldiers."
+ STO_jasperlode_mine_control_tt:0 "Our soldiers are hunting down every last Kobold inside Jasperlode Mine. They must remain here for 180 days to fully remove them."
+
+ stormwind_army_reforms:0 "Stormwind's Army Reforms"
+ STO_continued_army_reforms_decision:0 "Continued Army Reforms"
+
+###############################
+# Focus tree
+###############################
+ Stormwind_Focus:0 "Stormwind National Focus"
+
+ STO_legacy_of_the_gurubashi_war:0 "Legacy of the Gurubashi War"
+ STO_legacy_of_the_gurubashi_war_desc:0 "The Gurubashi have been defeated through sacrifice of our soldiers and timely help of Medivh. We must ensure that the Gurubashi will never again threaten the safety of our kingdom."
+ STO_rebuild_the_nation:0 "Rebuild the Nation"
+ STO_rebuild_the_nation_desc:0 "Despite the Gurubashi War having taken place 17 years ago, large parts of the nation are still in the process of reconstruction. In order to ensure the prosperity of our nation we should expedite these repairs."
+ STO_repair_the_kingdom:0 "Repair the Kingdom"
+ STO_repair_the_kingdom_desc:0 "In order to truly return our nation to its former glory, we must prioritize our investments."
+ STO_westfall_investments:0 "Westfall Investments"
+ STO_westfall_investments_desc:0 "Westfall is the breadbasket of our kingdom, developing the area would help us bolster against future famines as well as ensure growth of our kingdom’s population."
+ STO_brightwood_investments:0 "Brightwood Investments"
+ STO_brightwood_investments_desc:0 "The Brightwood is our border region with the Gurubashi. Whilst we have defeated them in our last war, we can never again allow the trolls to terrorize our people and force us back to the very gates of Stormwind! Brightwood needs to be fortified and its supply lines extended if we wish to defend our people."
+ STO_sunnyglade_fortifications:0 "Sunnyglade Fortifications"
+ STO_sunnyglade_fortifications_desc:0 "Sunnyglade is an incredibly prosperous town. Its wealth is far above that of any neighboring towns. We should ensure that it is never again left vulnerable against any raiders, be it the trolls, the gnolls or even the kobolds."
+ STO_improve_the_roads:0 "Improve the Roads"
+ STO_improve_the_roads_desc:0 "Brightwood has but a single disrepaired road connecting all the major settlements. Repairing this road would not only improve the local trade and resource excavation, but also provide the army with much needed supply should the Gurubashi attack again."
+ STO_expand_the_quarry_desc:0 ""
+ STO_expand_grand_hamlet:0 "Expand Grand Hamlet"
+ STO_expand_grand_hamlet_desc:0 "Grand Hamlet is an important agricultural center of Brightwood. By expanding it we fuel not only one of the most underdeveloped region of our nation but also improve our ability to maintain a larger garrison in Brightwood itself."
+ STO_redridge_investments:0 "Redridge Investments"
+ STO_redridge_investments_desc:0 "Redridge is home to many Stormwind citizens. Even though mostly unaffected by the Gurubashi conflict itself, the ripples of the war had caused pain and suffering to many of its citizens, even allowing Gnolls to take over the mountainous regions. In order to have any hope of changing this situation, we must ensure Redridge is no longer a burden on the rest of the Kingdom."
+ STO_refurbish_stonewatch:0 "Refurbish Stonewatch Keep"
+ STO_refurbish_stonewatch_desc:0 "Stonewatch Keep is in a state of disrepair, lack of funding combined with lessened enthusiasm for civilian conscription as the legacy of Gurubashi War burnt itself into the memory of the Stormwind denizens. In order to bring law back to the region, we must ensure its bastion can stand tall during a time of need once again."
+ STO_open_new_mines:0 "Open New Mines"
+ STO_open_new_mines_desc:0 "There is no use in building new smithies and fortifications if we do not have the minerals to create the new weapons and armor for our soldiers. According to the rumors of the peasants, there are mineral deposits in the Lakeshire mountains, we must investigate if this is true. Let the workers start digging."
+ STO_burden_no_more:0 "Burden No More"
+ STO_burden_no_more_desc:0 "Redridge has been an economic burden on our nation for too long. By developing the countryside industry we should hopefully provide the area with enough resources in order for it to sustain itself without aid from other provinces."
+ STO_repair_the_city:0 "Repair the City"
+ STO_repair_the_city_desc:0 "In order to truly return our nation to its former glory, we must prioritize our investments."
+ STO_expand_the_trade_district:0 "Expand the Trade District"
+ STO_expand_the_trade_district_desc:0 "The Trade District has always been an important source of wealth for the kingdom. If we expand it and more merchants can establish their businesses in it, that means that we collect more taxes, which will allow us to continue paying for the rest of reconstructions in the city."
+ STO_citywide_infastructure:0 "Citywide Infrastructure"
+ STO_citywide_infastructure_desc:0 "The different districts of Stormwind are connected by a series of streets and canals, but there are not enough. Bottlenecks are common during festivities and hours of high traffic density, we must improve our infrastructure to speed up the flow of people, animals and carriages in the city. I have already signed the royal decree to start construction immediately."
+ STO_stormwind_dock_investments:0 "Royal Docks of Stormwind"
+ STO_stormwind_dock_investments_desc:0 "One of the keys for the Kingdom to survive is to maintain a fleet capable of protecting our trade routes with the northern nations. I have approved funds for the construction of dockyards that will allow us to build ships that will take care of the task of keeping our waters safe."
+ STO_reorganise_the_dwarven_district:0 "Reorganise the Dwarven District"
+ STO_reorganise_the_dwarven_district_desc:0 "Historically the dwarven district had been primarily funded by Ironforge. Whilst a dwarven enclave, these dwarves live within Stormwind and as such should be treated as its citizens. By investing funds into the district we should be able to convince the dwarven crafters and blacksmiths to work for the city… With our subsidies of course."
+ STO_fund_the_cathedral:0 "Fund the Cathedral"
+ STO_fund_the_cathedral_desc:0 "Archbishop Benedictus of the Church of the Holy Light has expressed interest in constructing a grand Cathedral within Stormwind City itself. Whilst the project was originally going to be put on hold until a later date, subsidizing the cathedral's construction would not only drive many young men and women of Stormwind to become Priests but also give our citizens a place to turn to during troubling times."
+ STO_fortify_the_keep:0 "Fortify the Keep"
+ STO_fortify_the_keep_desc:0 "My father died because of my mistake, I will not put my family at risk again, so I will do everything necessary in my power to keep us safe, I have given the order to reinforce the inner castle where the throne resides, if necessary that would be the place where we would fall back to give our last stand."
+ STO_fortress_stormwind:0 "Fortress Stormwind"
+ STO_fortress_stormwind_desc:0 "As Stormwind City becomes an impenetrable fortress, many people flock behind its walls, fearful of once again losing their families and livelihoods."
+ STO_address_noble_concerns:0 "Address Noble Concerns"
+ STO_address_noble_concerns_desc:0 "For years after the Gurubashi Conflict and the King’s humiliation to have to rely upon the strength of the Guardian in order to defend his nation from invaders, the nobles have perceived the King’s Rule to be weak. Though their outcries have not been made local, many have begun making moves to undermine our rule and garner more power for themselves. We shall organize a meeting with the nobles and address their concerns. We must discern between friend and foe and address this issue before it’s too late."
+ STO_extend_noble_privilages:0 "Extend Noble Privilages"
+ STO_extend_noble_privilages_desc:0 "The nobles hold too much power to be challenged."
+ STO_feudal_reform:0 "Feudal Reform"
+ STO_feudal_reform_desc:0 "With King Llane’s decision to allow the nobles to keep their power, he had come to a wise conclusion that allowed the nobles to govern his lands for him, making the governing of the kingdom far more effective than it currently is. Giving the nobles overlordship of their lands however would make organizing an army far more difficult and leave parts of our nation prone to corruption."
+ STO_curtail_the_nobles:0 "Curtail the Nobles"
+ STO_curtail_the_nobles_desc:0 "The nobles hold too much power, we must ensure they will never again be strong enough to challenge King Llane’s Rule!"
+ STO_found_the_house_of_nobles:0 "Found the House of Nobles"
+ STO_found_the_house_of_nobles_desc:0 "The House of Nobles shall be established as an entity comprised of the most powerful bloodlines of the Kingdom of Stormwind. By reducing the power of lesser nobles and instead promoting a few nobles to help run the kingdom’s affairs we’d be able to manage our resources much more effectively whilst still appeasing everyone who matters."
+ STO_state_patronage:0 "State Patronage"
+ STO_state_patronage_desc:0 "In order to ensure that the powerful Families of Stormwind commit to being a part of the House of Nobles, we must ensure there are benefits to their membership. These benefits should take the form of financial incentives."
+ STO_exempt_nobles_from_taxation:0 "Exempt Nobles from Taxation"
+ STO_exempt_nobles_from_taxation_desc:0 "One of the financial benefits the nobles shall enjoy from now on is exemption from taxation on the noble families. Whilst this will put a dent in the treasury, we will benefit from increased loyalty among the nobility."
+ STO_a_noble_council:0 "A Noble Council"
+ STO_a_noble_council_desc:0 "In order to ensure that the powerful Families of Stormwind commit to being a part of the House of Nobles, we must ensure there are benefits to their membership. These benefits should take the form of political influence and governing positions across the lands of the Kingdom."
+ STO_raise_taxes:0 "Raise Taxes"
+ STO_raise_taxes_desc:0 "With a more efficient administration of the realm and noble overseers across the kingdom, we have been able to raise the taxes. Whilst most of this income goes directly to the families, we too benefit from this surge of money. This does however make commonfolk far more keen to be home by harvest to ensure they have the ability to pay said taxes."
+ STO_the_noble_veto:0 "The Noble Veto"
+ STO_the_noble_veto_desc:0 "Through the means of the House of Nobles, we have given the Nobility the power to cast a “Noble Veto”, limiting the power of the monarch in certain internal matters such as distributing harvests as well as local policies."
+ STO_investigate_the_troublemakers:0 "Investigate the Troublemakers"
+ STO_investigate_the_troublemakers_desc:0 "During these times of strife and hardships we have no time or mercy for those who wish to profit off of others' detriment. We must investigate the noble ranks and determine who is loyal and who needs to be taken care of."
+ STO_reward_loyalty:0 "Reward Loyalty"
+ STO_reward_loyalty_desc:0 "Despite not having a solid lead against the troublemakers, we have through the process of elimination discerned who are some of the most loyal nobles in the land. In order to sway others to rally to the King’s side, we shall reward those who have shown their loyalty even in these dire times. This should hinder the schemes of these who dare plot against us."
+ STO_expose_the_traitorous_dissent:0 "Expose the Traitorous Dissent"
+ STO_expose_the_traitorous_dissent_desc:0 "The time has come to pass new laws. In the past, traitors were merely exiled from our nation. However, with these new codes we shall be able to institute the death penalty to any traitor to our nation. Whilst this verdict is made to address all men of the nation, it should send a clear message to the nobles."
+ STO_deal_with_the_troublemakers:0 "Deal with the Troublemakers"
+ STO_deal_with_the_troublemakers_desc:0 "Deal with the Troublemakers"
+ STO_revoke_their_titles:0 "Revoke their Titles"
+ STO_revoke_their_titles_desc:0 "Revoke their Titles"
+ STO_a_series_of_unfortunate_events:0 "A Series of Unfortunate Events"
+ STO_a_series_of_unfortunate_events_desc:0 "A Series of Unfortunate Events"
+ STO_rumours_in_the_east:0 "Rumours in the East"
+ STO_rumours_in_the_east_desc:0 "Rumours in the East"
+ STO_expedition_into_the_swamps:0 "Expedition into the Swamps"
+ STO_expedition_into_the_swamps_desc:0 "Expedition into the Swamps"
+ STO_end_isolationism:0 "End Isolationism"
+ STO_end_isolationism_desc:0 "End Isolationism"
+ STO_establish_diplomatic_ties_in_the_north:0 "Establish Diplomatic Ties in the North"
+ STO_establish_diplomatic_ties_in_the_north_desc:0 "Establish Diplomatic Ties in the North"
+ STO_send_emissaries_to_quelthalas:0 "Send Emissaries to Quel'thalas"
+ STO_send_emissaries_to_quelthalas_desc:0 "Send Emissaries to Quel'thalas"
+ STO_early_intervention:0 "Early Intervention"
+ STO_early_intervention_desc:0 "Early Intervention"
+ STO_rally_the_troops:0 "Rally the Troops"
+ STO_rally_the_troops_desc:0 "Rally the Troops"
+ STO_conscription_initiative:0 "Conscription Initiative"
+ STO_conscription_initiative_desc:0 "Conscription Initiative"
+ STO_expand_the_supply_lines:0 "Expand the Supply Lines"
+ STO_expand_the_supply_lines_desc:0 "Expand the Supply Lines"
+ STO_preemptive_strike:0 "Preemptive Strike"
+ STO_preemptive_strike_desc:0 "Preemptive Strike"
+ STO_stand_firm:0 "Stand Firm"
+ STO_stand_firm_desc:0 "Stand Firm"
+ STO_armed_isolationism:0 "Armed Isolationism"
+ STO_armed_isolationism_desc:0 "Armed Isolationism"
+ STO_expand_military_industry:0 "Expand Military Industry"
+ STO_expand_military_industry_desc:0 "Expand Military Industry"
+ STO_protector_of_the_south:0 "Protector of the South"
+ STO_protector_of_the_south_desc:0 "Protector of the South"
+ STO_a_lions_pride:0 "A Lions Pride"
+ STO_a_lions_pride_desc:0 "A Lions Pride"
+ STO_bulwark_of_mankind:0 "Bulwark of Mankind"
+ STO_bulwark_of_mankind_desc:0 "Bulwark of Mankind"
+ STO_legacy_of_arathor:0 "Legacy of Arathor"
+ STO_legacy_of_arathor_desc:0 "Legacy of Arathor"
+ STO_elwynn_security:0 "Elwynn Security"
+ STO_elwynn_security_desc:0 "Elwynn Forest is the heart of the kingdom, therefore we must protect it from future dangers. Our army is battered after the bloody war against the Gurubashi trolls. So for now, the people must protect themselves."
+ STO_clear_out_the_mines:0 "Clear out the Mines"
+ STO_deal_with_hogger:0 "Deal with Hogger"
+ STO_deal_with_hogger_desc:0 "Along the south-southwest river of Elwynn Forest, there is a Gnoll warlord named Hogger who is gathering his kind under the Riverpaw Pack’s banner. For the moment, he has limited himself to attacking caravans along the roads, but it is only a matter of time before he sets his hungry eyes on bigger objectives like Goldshire or even Stormwind! We cannot afford this, we must act immediately and end this problem before it gets out of hand."
+ STO_clash_in_redridge_pass:0 "Clash in Redridge Pass"
+ STO_intergrate_redridge:0 "Intergrate Redridge"
+ STO_protect_the_caravans:0 "Protect the Caravans"
+ STO_reform_the_military:0 "Reform the Military"
+ STO_reform_the_military_desc:0 "As it currently stands, the military is in disarray. Too many of our men have never seen combat and these who have are often complacent and all too willing to rest their hopes on Medivh. We must begin drilling our troops and reinstitute discipline amongst the ranks of our men if we are to withstand another crisis."
+ STO_revitalise_military_industry:0 "Revitalise Military Industry"
+ STO_revitalise_military_industry_desc:0 "Ever since the Gurubashi War we have focused on little more than rebuilding our great nation and trying to bring it back to its former glory. During this time we have primarily relied on the stockpiles of equipment already in our stocks. It is time to revitalize our military industry and ensure we have the weapons to fight the next war."
+ STO_anduin_lothars_reforms:0 "Anduin Lothar's Reforms"
+ STO_anduin_lothars_reforms_desc:0 "Anduin Lothar took charge of Stormwind's Military. Though not much is clear about the future, he realized the weaknesses that plague our army and took it upon himself to re-educate the troops and reform the army from the ground up into a force capable of protecting the kingdom."
+ STO_a_professional_army:0 "A Professional Army"
+ STO_a_professional_army_desc:0 "The nation should be guarded by a small but elite force of troops, trained and battle-hardened, capable of taking out any enemy that dares go against our interests. They shall stand as heroes to protect their families, their leaders - their nation."
+ STO_develop_the_mage_quarter:0 "Develop the Mage Quarter"
+ STO_develop_the_mage_quarter_desc:0 "Develop the Mage Quarter"
+ STO_recruit_the_clerics_of_northshire:0 "Recruit the Clerics of Northshire"
+ STO_recruit_the_clerics_of_northshire_desc:0 "Recruit the Clerics of Northshire"
+ STO_lower_conscription_standards:0 "Lower Conscription Standards"
+ STO_lower_conscription_standards_desc:0 "Lower Conscription Standards"
+ STO_establish_mandatory_military_service:0 "Establish Mandatory Military Service"
+ STO_establish_mandatory_military_service_desc:0 "Establish Mandatory Military Service"
+ STO_construct_local_fortifications:0 "Consctruct Local Fortifications"
+ STO_construct_local_fortifications_desc:0 "Consctruct Local Fortifications"
+ STO_peasant_militias:0 "Peasant Militias"
+ STO_peasant_militias_desc:0 "Peasant Militias"
+ STO_empower_local_garrisons:0 "Empower Local Garrisons"
+ STO_empower_local_garrisons:0 "Empower Local Garrisons"
+ STO_jewel_of_the_south:0 "Jewel of the South"
+ STO_jewel_of_the_south_desc:0 "Finally the reconstruction of the city is finished, trade flows, its people are safe behind the new and reinforced walls, the forge of the Dwarven district does not stop producing weapons and armor, the new ports include a large number of merchants from different places, the cathedral is visited by the faithful from every corner of the kingdom. If my father were alive, he would surely be proud of what Stormwind is today, the Jewel of the South!"
+ STO_rebuild_moonbrook:0 "Rebuild Moonbrook"
+ STO_rebuild_moonbrook_desc:0 "Moonbrook is the sister town of Goldshire and Westfall’s center of government, therefore it must be fit to direct the rebuilding of the area! We have already allocated funds to the mayor to start the project right away."
+ STO_revitalise_the_fields:0 "Revitalise the Fields"
+ STO_revitalise_the_fields_desc:0 "With Moonbrook rebuilt, it's time to start focusing on what makes Westfall what it is, its farms. With the right infrastructure, we can begin to increase production of the grain we need to keep our people and soldiers well-fed."
+ STO_excavate_the_deadmines:0 "Excavate the Deadmines"
+ STO_excavate_the_deadmines_desc:0 "The foremen report that there are mineral deposits in Westfall, we must exploit them and take advantage of their riches, so that we do not have to depend on those greedy Dwarven merchants from the north."
+ STO_rural_prosperity:0 "Rural Prosperity"
+ STO_rural_prosperity_desc:0 "The recovery is finished. The Kingdom is prosperous once more!"
+ STO_finish_gurubashi_recovery:0 "Finish Gurubashi Recovery"
+ STO_finish_gurubashi_recovery_desc:0 "Finish Gurubashi Recovery"
+ STO_noble_administration:0 "Noble Administration"
+ STO_noble_administration_desc:0 "Noble Administration"
+ STO_vassal_consessions:0 "Vassal Consessions"
+ STO_vassal_consessions_desc:0 "Vassal Consessions"
+ STO_invest_in_local_garrisons:0 "Invest in Local Garrisons"
+ STO_invest_in_local_garrisons_desc:0 "Invest in Local Garrisons"
+ STO_fortify_our_vassals:0 "Fortify our Vassals"
+ STO_fortify_our_vassals_desc:0 "Fortify our Vassals"
+ STO_develop_our_vassals:0 "Develop our Vassals"
+ STO_develop_our_vassals_desc:0 "Develop our Vassals"
+ STO_end_political_turmoil:0 "End Political Turmoil"
+ STO_end_political_turmoil_desc:0 "End Political Turmoil"
+ STO_a_nation_rebuilt:0 "A Nation Rebuilt"
+ STO_a_nation_rebuilt_desc:0 "A Nation Rebuilt"
+ STO_educational_initiative:0 "Educational Initiative"
+ STO_educational_initiative_desc:0 "Educational Initiative"
+ STO_school_of_warfare:0 "School of Warfare"
+ STO_school_of_warfare_desc:0 "School of Warfare"
+ STO_school_of_magic:0 "School of Magic"
+ STO_school_of_magic_desc:0 "School of Magic"
+ STO_replicate_dwarven_war_machines:0 "Replicate Dwarven War Machines"
+ STO_replicate_dwarven_war_machines_desc:0 "Replicate Dwarven War Machines"
+ STO_scholarly_initiative:0 "Scholarly Initiative"
+ STO_scholarly_initiative_desc:0 "Scholarly Initiative"
+ STO_research_grants:0 "Research Grants"
+ STO_research_grants_desc:0 "Research Grants"
+ STO_stormwind_research_guild:0 "Stormwind Research Guild"
+ STO_stormwind_research_guild_desc:0 "Stormwind Research Guild"
+ STO_establish_si7:0 "Establish Si7"
+ STO_establish_si7_desc:0 "Establish Si7"
+ STO_espionage_efforts:0 "Espionage Efforts"
+ STO_espionage_efforts_desc:0 "Espionage Efforts"
+ STO_monitor_internal_affairs:0 "Monitor Internal Affairs"
+ STO_monitor_internal_affairs_desc:0 "Monitor Internal Affairs"
+ STO_stormwind_intelligence_services:0 "Stormwind Intelligence Services"
+ STO_stormwind_intelligence_services_desc:0 "Stormwind Intelligence Services"
+ STO_the_southern_bastion:0 "The Southern Bastion"
+ STO_the_southern_bastion_desc:0 "The Southern Bastion"
+ STO_queldorei_rangers:0 "Quel'dorei Rangers"
+ STO_queldorei_rangers_desc:0 "Quel'dorei Rangers"
+ STO_send_emissaries_to_ironforge:0 "Send Emissaries to Ironforge"
+ STO_send_emissaries_to_ironforge_desc:0 "Send Emissaries to Ironforge"
+ STO_dwarven_riflemen:0 "Dwarven Riflemen"
+ STO_dwarven_riflemen_desc:0 "Dwarven Riflemen"
+ STO_send_emissaries_to_lordaeron:0 "Send Emissaries to Lordaeron"
+ STO_send_emissaries_to_lordaeron_desc:0 "Send Emissaries to Lordaeron"
+ STO_lordaeron_knights:0 "Lordaeron Knights"
+ STO_lordaeron_knights_desc:0 "Lordaeron Knights"
+ STO_pact_of_mutual_defense:0 "Pact of Mutual Defense"
+ STO_pact_of_mutual_defense_desc:0 "Pact of Mutual Defense"
+ STO_foundations_of_the_stormwind_alliance:0 "Foundations of the Stormwind Alliance"
+ STO_foundations_of_the_stormwind_alliance_desc:0 "Foundations of the Stormwind Alliance"
+ STO_expand_the_alliance:0 "Expand the Alliance"
+ STO_expand_the_alliance_desc:0 "Expand the Alliance"
+ STO_towards_the_black_morass:0 "Towards the Black Morass"
+ STO_towards_the_black_morass_desc:0 "Towards the Black Morass"
+ STO_swamp_of_sorrows_offensive:0 "Swamp of Sorrows Offensive"
+ STO_swamp_of_sorrows_offensive_desc:0 "Swamp of Sorrows Offensive"
+ STO_into_the_black_morass:0 "Into the Black Morass"
+ STO_into_the_black_morass_desc:0 "Into the Black Morass"
+ STO_back_to_whence_they_came:0 "Back to Whence They Came"
+ STO_back_to_whence_they_came_desc:0 "Back to Whence They Came"
+ STO_fortify_deadwind_pass:0 "Fortify Deadwind Pass"
+ STO_fortify_deadwind_pass_desc:0 "Fortify Deadwind Pass"
+ STO_sabotage_orc_supply_lines:0 "Sabotage Orc Supply Lines"
+ STO_sabotage_orc_supply_lines_desc:0 "Sabotage Orc Supply Lines"
+ STO_rig_orcish_military_industry:0 "Rig Orcish Military Industry"
+ STO_rig_orcish_military_industry_desc:0 "Rig Orcish Military Industry"
+
+ STO_triumphant_victory:0 "Triumphant Victory"
+ STO_triumphant_victory_desc:0 "Triumphant Victory"
+ STO_the_dark_portal_question:0 "The Dark Portal Question"
+ STO_the_dark_portal_question_desc:0 "The Dark Portal Question"
+ STO_fortify_the_portal:0 "Fortify the Portal"
+ STO_fortify_the_portal_desc:0 "Fortify the Portal"
+ STO_beyond_the_dark_portal:0 "Beyond the Dark Portal"
+ STO_beyond_the_dark_portal_desc:0 "Beyond the Dark Portal"
+ STO_academy_of_arcane_arts_and_sciences:0 "Academy of Arcane Arts and Sciences"
+ STO_academy_of_arcane_arts_and_sciences_desc:0 "Academy of Arcane Arts and Sciences"
+ STO_brotherhood_of_the_horse:0 "Brotherhood of the Horse"
+ STO_brotherhood_of_the_horse_desc:0 "Brotherhood of the Horse"
+ STO_flanking_manouvers:0 "Flanking Manouvers"
+ STO_flanking_manouvers_desc:0 "Flanking Manouvers"
+ STO_no_man_left_behind:0 "No Man Left Behind"
+ STO_no_man_left_behind_desc:0 "No Man Left Behind"
+ STO_stormwind_royal_guard:0 "Stormwind Royal Guard"
+ STO_stormwind_royal_guard_desc:0 "Stormwind Royal Guard"
+ STO_elevate_the_brotherhood_of_the_horse:0 "Elevate the Brotherhood of the Horse"
+ STO_elevate_the_brotherhood_of_the_horse_desc:0 "Elevate the Brotherhood of the Horse"
+ STO_empower_the_royal_guard:0 "Empower the Royal Guard"
+ STO_empower_the_royal_guard_desc:0 "Empower the Royal Guard"
+ STO_call_of_adventure:0 "Call of Adventure"
+ STO_call_of_adventure_desc:0 "Call of Adventure"
+ STO_recruit_local_heroes:0 "Recruit Local Heroes"
+ STO_recruit_local_heroes_desc:0 "Recruit Local Heroes"
+ STO_wartime_levy:0 "Wartime Levy"
+ STO_wartime_levy_desc:0 "Wartime Levy"
+ STO_a_sword_in_every_hand:0 "A Sword in Every Hand"
+ STO_a_sword_in_every_hand_desc:0 "A Sword in Every Hand"
+ STO_expand_the_chain_of_command:0 "Expand the Chain of Command"
+ STO_expand_the_chain_of_command_desc:0 "Expand the Chain of Command"
+ STO_finalise_the_reforms:0 "Finalise the Reforms"
+ STO_finalise_the_reforms_desc:0 "Finalise the Reforms"
+ STO_trust_in_medivh:0 "Trust in Medivh"
+ STO_trust_in_medivh_desc:0 "Trust in Medivh"
+ STO_the_last_guardian:0 "The Last Guardian"
+ STO_the_last_guardian_desc:0 "The Last Guardian"
+ STO_develop_military_industry:0 "Develop Military Industry"
+ STO_develop_military_industry_desc:0 "Develop Military Industry"
+ STO_establish_new_flight_paths:0 "Establish New Flight Paths"
+ STO_establish_new_flight_paths_desc:0 "Establish New Flight Paths"
+ STO_gryphon_breeding_initiative:0 "Gryphon Breeding Initiative"
+ STO_gryphon_breeding_initiative_desc:0 "Gryphon Breeding Initiative"
+ STO_stormwind_aviary:0 "Stormwind Aviary"
+ STO_stormwind_aviary_desc:0 "Stormwind Aviary"
+ STO_war_gryphons:0 "War Gryphons"
+ STO_war_gryphons_desc:0 "War Gryphons"
+ STO_stormwind_dry_docks:0 "Stormwind Dry Docks"
+ STO_stormwind_dry_docks_desc:0 "Stormwind Dry Docks"
+ STO_improve_naval_wood_standards:0 "Improve Naval Wood Standards"
+ STO_improve_naval_wood_standards_desc:0 "Improve Naval Wood Standards"
+ STO_establish_new_coastal_bases:0 "Establish New Coastal Bases"
+ STO_establish_new_coastal_bases_desc:0 "Establish New Coastal Bases"
+ STO_gnomish_submarines:0 "Gnomish Submarines"
+ STO_gnomish_submarines_desc:0 "Gnomish Submarines"
+
+ #stormwind second war
+ STO_second_war_prepare_for_the_next_war:0 "Prepare for the Next War"
+ STO_second_war_prepare_for_the_next_war_desc:0 "Stormwind has fallen, but its people remain in high spirit. Bolstered by our new allies in the Alliance, we are poised to bring war to the orcs. Preparations must be made in due time as the orcs will not sit idly by."
+
+ STO_second_war_develop_hillsbrad:0 "Develop Hillsbrad"
+ STO_second_war_develop_hillsbrad_desc:0 "New infastructure lines to support the Alliance are needed before invasion plans can be drawn. The Hillsbrad Foothills is the perfect region to start; being as it's the southernmost region of the Lordaeronian Kingdom and has port access to Baradin Bay."
+
+ STO_second_war_modernize_durholde:0 "Modernize Durnholde Keep"
+ STO_second_war_modernize_durholde_desc:0 "Durnholde Keep served as an important base on the border with Stromgarde. By diverting resources to restoring it, we can turn it into a proper stronghold that can protect Hillsbrad."
+
+ STO_second_war_first_war_veterans:0 "First War Veterans"
+ STO_second_war_first_war_veterans_desc:0 "Many paid the ultimate sacrifice defending their homes, but survivors still remain. Their experience will give a valuable insight to new recruits and improve the army's cohesion as well."
+
+ STO_second_war_durnholde_smiths:0 "Durnholde Smiths"
+ STO_second_war_durnholde_smiths_desc:0 "Local smiths have offered to work for us by providing new equipment for our troops."
+
+ STO_second_war_durnholde_knights:0 "Durnholde Knights"
+ STO_second_war_durnholde_knights_desc:0 "Most of our heavy equipment had to be left behind. With training from our veterans and new smiths producing arms and armor, we can train more soldiers into becoming knights on the field."
+
+ STO_second_war_develop_tarren_mill:0 "Develop Tarren Mill"
+ STO_second_war_develop_tarren_mill_desc:0 "A thriving town just northeast of Southshore, Tarren Mill is an essential supply hub for the eastern side of Hillsbrad. Sending some of our settlers up there will allow Tarren Mill to expand its operations."
+
+ STO_second_war_grain_silos:0 "Expand the Grain Silos"
+ STO_second_war_grain_silos_desc:0 "With new settlers comes the new for larger grain silos to store away supplies. Having a larger stockpile will also insure the army will have enough to eat should they be cut off."
+
+ STO_second_war_hillsbrad_watch_towers:0 "Construct Watch Towers"
+ STO_second_war_hillsbrad_watch_towers_desc:0 "The Kul Tiran navy is not to be trifled with, but with the Horde looming ever closer the need for watch towers has increased."
+
+ #needs review
+ STO_second_war_ravenholdt_manor:0 "Ravenholdt Manor"
+ STO_second_war_ravenholdt_manor_desc:0 "Ravenholdt Manor"
+
+ #needs review
+ STO_second_war_si7_operatives:0 "Si7 Operatives"
+ STO_second_war_si7_operatives_desc:0 "Si7 Operatives"
+
+ STO_second_war_develop_hillsbrad_fields:0 "Develop Hillsbrad Fields"
+ STO_second_war_develop_hillsbrad_fields_desc:0 "The entire region is supplied by Hillsbrad Fields. New settlers from Stormwind put a stress on local resources. Sending the rest of our settlers along with new builders to expand the town will ensure that the area is properly supplied."
+
+ STO_second_war_hillsbrad_militias:0 "Hillsbrad Militias"
+ STO_second_war_hillsbrad_militias_desc:0 "New supplies and infastructure afford the opportunity to raise new militias from the local populace. A more ample pool of recruits eases the burden of training new soldiers for the Alliance."
+
+ STO_second_war_azureload_mine:0 "Expand the Azureload Mine"
+ STO_second_war_azureload_mine_desc:0 "The Azureload mine has an abundant amount of iron that would be well-suited for our war prepartions."
+
+ STO_second_war_hillsbrad_armory:0 "Hillsbrad Armory"
+ STO_second_war_hillsbrad_armory_desc:0 "An armory is required to equip our new recruits with the weapons and armor that they need."
+
+ STO_second_war_fortify_southshore:0 "Fortify Southshore"
+ STO_second_war_fortify_southshore_desc:0 "Southshore is the heart of our war effort. It is one of our first priorities to see that it is fortified against an attack by the orcs."
+
+ STO_second_war_southshore_docks:0 "Southshore Docks"
+ STO_second_war_southshore_docks_desc:0 "Updating the navy facilities at Southshore is needed for launching naval strikes and amphibious landings."
+
+ STO_second_war_southshore_oil:0 "Southshore Oil"
+ STO_second_war_southshore_oil_desc:0 "Our scouts have located oil deposits that will go a long way in fueling our warships."
+
+ STO_second_war_centralized_port:0 "Centralized Port"
+ STO_second_war_centralized_port_desc:0 "Southshore will serve as a fine port for reestablishing our admiralty. Focusing our overseas trade and warships from here will be more efficient and allow us to harry the Horde."
+
+ STO_second_war_submarine_fleet:0 "Submarine Fleet"
+ STO_second_war_submarine_fleet_desc:0 "Developing a fleet of experimental submarines can provide an excellent defensive screen, although we will not be able to reclaim our land through a strong navy alone."
+
+ STO_second_war_diplomatic_relations:0 "Diplomatic Relations"
+ STO_second_war_diplomatic_relations_desc:0 "In our precarious situation it is paramount that we maintain our alliances. The Dwarves, the Humans, and the High Elves must stand united."
+
+ STO_second_war_send_diplomat_to_aerie_peak:0 "Send Diplomat to Aerie Peak"
+ STO_second_war_send_diplomat_to_aerie_peak_desc:0 "While the dwarves and gnomes of Khaz Modan are eager to help us, the Wildhammer dwarves will need careful persuasion. Yet with the Horde on the horizon they certainly will be more amiable."
+
+ STO_second_war_gnomish_technolodgy:0 "Gnomish Technolodgy"
+ STO_second_war_gnomish_technolodgy_desc:0 "The gnomes can provide us with invaluable insights. By utilizing their warcraft, we can claim dominance in the skies and below the seas."
+
+ STO_second_war_gnomish_submarines:0 "Gnomish Submarines"
+ STO_second_war_gnomish_submarines_desc:0 "The ingenious gnomes have devised plans for submersible watercraft. We can enhance these designs by adding more firepower and make them suitable for human crews."
+
+ STO_second_war_flying_machines:0 "Construct Flying Machines"
+ STO_second_war_flying_machines_desc:0 "No man would have ever thought that we would be able to soar in the air in mechanical birds. The gnomes have made a breakthrough, seemingly against the laws of nature itself that will grant us an advantage in the war."
+
+ STO_second_war_secure_the_stormpike_clan:0 "Secure the Stormpike Clan"
+ STO_second_war_secure_the_stormpike_clan_desc:0 "A smaller faction of dwarves known as the Stormpikes reside just south-east of Southshore. By recruiting them into the Alliance, we stand a better chance of pushing back the Horde."
+
+ STO_second_war_aviary_construction:0 "Aviary Construction"
+ STO_second_war_aviary_construction_desc:0 "The Aerie dwarves come with their mighty beasts of the air - Gryphons. In order to allow them to secure a tactical advantage for us, we must construct new aviary sites for their mounts to roost and recover."
+
+ STO_second_war_gryphon_riders:0 " Wildhammer Gryphon Riders"
+ STO_second_war_gryphon_riders_desc:0 "Some of the Wildhammers have offered to join our own ranks. Taking them in will prove useful for training potential recruits to control gryphons and use them effectively in battle."
+
+ STO_second_war_order_of_the_silver_hand:0 "The Order of the Silver Hand"
+ STO_second_war_order_of_the_silver_hand_desc:0 "Archbishop Alonsus Faol has argued in favor of new reforms for our battle clerics. Looking at our losses from the war, he has suggested the creation of a new organization to accomplish two tasks - to train noble knights how to wield the Light, and to give clerics proper martial training and equipment. His suggestion as to what we shall call this group of righteous warriors is the "Order of the Silver Hand", in memory of Tyr."
+
+ STO_second_war_kirin_tor_training:0 "Kirin Tor Training"
+ STO_second_war_kirin_tor_training_desc:0 "The magi of Dalaran are fairly reclusive and reluctant to train potential students, but the call for war has suspended these detachments. Even a few mages can turn the tide of a battle, and this is an opportunity we must beseech from the Kirin Tor."
+
+ STO_second_war_lordaeron_administration:0 "Lordaeronian Administration"
+ STO_second_war_lordaeron_administration_desc:0 "While we have been graciously given refuge in Lordaeron, we must tighten the bureacracy and further utilize our resources to their fullest potential. Some of the lesser Lordaeronian nobles can give valuable advice for this undertaking."
+
+ STO_second_war_stromgardian_warrior_training:0 "Stromgardian Warrior Training"
+ STO_second_war_stromgardian_warrior_training_desc:0 "Stromgarde has a reputation for the strongest warriors of all the human kingdoms. Some of their experienced veterans can train our units to be better fighters."
+
+ STO_second_war_gilnean_intel:0 "Gilnean Inteligence"
+ STO_second_war_gilnean_intel_desc:0 "Gilneas has always been reluctant to join our cause, but they can provide something to our effort. Their scouts and agents are among the best of the Eastern Kingdoms and utilizing this to our own ends will give us an edge over the Horde."
+
+ STO_second_war_alteran_mountaineers:0 "Alteran Mountaineers"
+ STO_second_war_alteran_mountaineers_desc:0 "Before Stormwind lies Khaz Modan, a highly dangerous region due to its extreme terrain. While the Bronzebeard dwarves are accustomed to this, our human soldiers are not. The Alteran troops who have spent their entire lives in the mountains will allow us to patch this weak spot in our army."
+
+ STO_second_war_the_blood_pact:0 "The Blood Pact"
+ STO_second_war_the_blood_pact_desc:0 "The high elves swore an ancient oath to the Arathi bloodline. As you, Sir Anduin Lothar, are a descendant of this bloodline you can hold the elves up to their offer and bring them into our ranks."
+
+ STO_second_war_elven_ranger_training:0 "Elven Ranger Training"
+ STO_second_war_elven_ranger_training_desc:0 "Elven Rangers are the elite. While we can't possibly ever hope to match them, we can improve the effectiveness of our rangers by having them train under the watch of ranger captains."
+
+ STO_second_war_ballista_schematics:0 "Ballista Schematics"
+ STO_second_war_ballista_schematics_desc:0 "Siegecraft allowes us to smash through enemy fortifications with ease. If we are to retake our home, we are to expect that the Horde has reinforced their positions. In order to offset this, we will need modernized siege weapons that can smash through their defenses."
+
+ #Needs review
+ STO_second_war_spellbreakers:0 "Spellbreakers"
+ STO_second_war_spellbreakers_desc:0 ""
+
+ STO_second_war_escort_fleet:0 "Escort Fleet"
+ STO_second_war_escort_fleet_desc:0 "Rebuilding our surface fleet is a necessity for reclaiming our kingdom, albeit they are more vulnerable than submarines."
+
+ STO_second_war_kultiran_marines:0 "Kul Tiran Marines"
+ STO_second_war_kultiran_marines_desc:0 "Regardless of the path we chose, the Kul Tiran fleet can aid us in amphibious landings and in supplying our troops via the sea."
+
+
+
+
+
+
+
+
+ #stormwind_balor
+
+
+
+###############################
+#events
+###############################
+
+ stormwind.1.t:0 "Aftermath of the Gurubashi War"
+ stormwind.1.d:0 "The Gurubashi war had seen the Kingdom of Stormwind on its knees with the grand city of Stormwind itself besieged and on its last legs. Countless men had died in the fight against the Gurubashi Tribe, including King Barathen Wrynn. Though Medivh had saved the nation, the war had left a mark upon the Kingdom, forcing the young prince Llane Wrynn to take the crown and rebuild the nation. Entrusted with the future of his nation, King Llane Wrynn had made sure that Stormwind could…"
+ stormwind.1.option.1:0 "Protect Itself from Future Threats"
+ stormwind.1.option.2:0 "Rebuild and Prosper"
+
+ stormwind.2.t:0 "City or the Countryside?"
+ stormwind.2.d:0 "The rebuilding efforts undertaken by our nation have done wonders. Over time however, these efforts have also made it clear that our nation cannot afford to subsidize both the development of the city and the countryside at the same time. As such we must make a difficult choice between repairing the city and repairing the countryside. Repairing the city would take less time and could provide a strong economical backbone off of which we could further subsidize the countryside in the future, yet it would hinder the exploitation of important resources and establishing a strong and reliable industry across the kingdom."
+ stormwind.2.option.1:0 "Repair the City"
+ stormwind.2.option.2:0 "Repair the Kingdom"
+
+ stormwind.3.t:0 "Investments Pay Off!"
+ stormwind.3.d:0 "Despite the royal coffers feeling lighter than ever, the investments have greatly improved the condition of the countryside. Once again Stormwind is a prosperous nation whose denizens can take pride in their kingdom. As the investments wrap up however, we must decide how we shall repay the debts we now owe to the banks."
+ stormwind.3.option.1:0 "Long Term Repayment"
+ stormwind.3.option.2:0 "Short Term Repayment"
+ stormwind.3.option.3:0 "Pay Immediately"
+
+ stormwind.4.t:0 "Stormwind Trade Policy"
+ stormwind.4.d:0 "As we once again rebuild Stormwind and its trade infrastructure, we must decide whether to prioritize trade within our borders or attempt to turn the city into a southern trade hub. With sea access and connection to important land routes, it could prove quite lucrative to prioritize exports, however should we prioritize internal trade, many of the resources could prove to be useful in any sort of military conflict in the future."
+ stormwind.4.option.1:0 "Internal Trade"
+ stormwind.4.option.2:0 "Export Focus"
+
+ stormwind.5.t:0 "The Noble Council"
+ stormwind.5.d:0 "For years after the Gurubashi Conflict and the King’s humiliation to have to rely upon the strength of the Guardian in order to defend his nation from invaders, the nobles have perceived the King’s Rule to be weak. Though their outcries have not been made local, many have begun making moves to undermine our rule and garner more power for themselves. We shall organize a meeting with the nobles and address their concerns. We must discern between friend and foe and address this issue before it’s too late."
+ stormwind.5.option.1:0 "The nobles hold too much power to be challenged. We must extend their privileges!"
+ stormwind.5.option.2:0 "The nobles hold too much power, we must ensure they will never again be strong enough to challenge King Llane’s Rule!"
+
+ stormwind.6.t:0 ""
+
+ stormwind.7.t:0 "Brightwood Rangers"
+ stormwind.7.d:0 "Brightwood suffers many threats from constant animal attacks in the untamed forests. Instead of a formal army or militia we will train the hunters in the region into rangers and have them defend our vassal."
+ stormwind.7.option.1:0 "Lets put these rangers to good use."
+
+ stormwind.8.t:0 "Lakeshire Militia"
+ stormwind.8.d:0 "In order for our vassal in Redridge to protect itself we have sent advisors to Lakeshire in order to train a militia to defend the region from the Redridge pack of Gnolls."
+ stormwind.8.option.1:0 "Lets hope this militia is enough."
+
+ stormwind.9.t:0 "Rumors in the East"
+ stormwind.9.d:0 "Rumors have made their way to the city of large green creatures in Redridge. While nothing may come of these rumors perhaps, should we investigate them?"
+ stormwind.9.option.1:0 "Could the Gurubashi extend this far into our lands?"
+
+ stormwind.10.t:0 "Pillaged Settlements in Redridge"
+ stormwind.10.d:0 "A battalion of soldiers from Stonewatch Keep have discovered that many small villages in the east of Redridge have been raided, nothing remaining of these settlements but ash and corpses. These soldiers have reported finding a corpse of a large green creature that they don’t recognize. While this is likely local gossip to cover up Bandits or Gnolls, perhaps we should send more troops to Stonewatch Keep to watch over the villages in Redridge."
+ stormwind.10.option.1:0 "We will hunt down those responsible."
+
+ stormwind.18.t:0 "Rumors in the East"
+ stormwind.18.d:0 "Rumors have been circling in the kingdom of strange creatures roaming near eastern Redridge or even in Deadwind Pass. While these are likely peasant rumors, we can never be too careful."
+ stormwind.18.option.1:0 "Question the Peasants."
+
+ stormwind.22.t:0 "The Troublemakers"
+ stormwind.22.d:0 "After his speech, King Llane had dispatched multiple spies all across the country to monitor the nobles. It is during times like these, when they are under threat, that they shall make moves against his majesty after all. Though no concrete information has been extracted as of yet, it is only a matter of time before one of them slips up."
+ stormwind.22.option.1:0 "We shall bide our time and await the news."
+
+ # OUTDATED ?
+
+ #stormwind.2.t:0 "Expedition to Karazhan"
+ #stormwind.2.d:0 "Lothar, Garona and Khadgar have taken a troop of our forces to Karazhan to confront Medivh. Lothar is convinced that Medivh is working against us and seeks to put a stop to it."
+ #stormwind.2.option.Llane:0 "Surely our old friend couldn't have betrayed us..." #If Llane is King
+ #stormwind.2.option.Lothar:0 "We will root out this corruption once and for all!" #If Lothar is Regent Lord
+
+ #stormwind.3.t:0 "Medivh Replies"
+ #stormwind.3.d:0 "Reports have come in that many small villages in eastern Redridge have been raided. Could the Gurubashi stretch out this far? Or is some other threat on the horizon."
+ #stormwind.3.option.1:0 "Lets hope his apprentice can turn the tide"
+
+ #stormwind.15.t:0 "Dawn of the First War"
+ #stormwind.15.d:0 "The source behind our raided settlements Was worse then we could have thought. Green barbaric monsters riding giant wolves and wield dark magic have started to dive deeper into our lands. We must mobilize our army to deal with this threat."
+ #stormwind.15.option.1:0 "Prepare our defenses."
+
+ #stormwind.16.t:0 "Orcs on the doorstep!"
+ #stormwind.16.d:0 "The Orcish Horde is on our very doorstep! With the fall of Elwynn, we have lost our final holding outside of the city itself. It seems we are staring defeat in the face. What should we do, my King?"
+ #stormwind.16.option.1:0 "Rally the troops! We make our final stand!"
+ #stormwind.16.option.2:0 "The end is nigh... All is lost!"
+
+###############################
+#country flags/oobs
+###############################
+STO_kings_champions_knights_infantry:0 "Knigts & Royal Guards"
+STO_kings_champions_knights_mages:0 "Knigts & Mages"
+STO_kings_champions_infantry_mages:0 "Royal Guards & Mages"
+STO_7th_fleet_balanced_fleet:0 "Balanced Fleet"
+STO_7th_fleet_capital_ships:0 "Capital Ships"
+STO_7th_fleet_light_ships:0 "Light Ships"
+
+STO_fargodeep_mine_kobolds:0 "Kobolds in Fargodeep Mine"
+STO_jasperlode_mine_kobolds:0 "Kobolds in Jasperlode Mine"
+
+###############################
+#Tooltips
+###############################
+
+ STO_second_war_modernize_durholde_tt:0 "We will add a building slot to Durholde Keep and reinforce the Keep with level 2 walls."
+ STO_second_war_fortify_southshore_tt:0 "We will fortify Southshore with Level 2 walls and coastal defense."
+ STO_second_war_centralized_port_tt:0 "We will construct two naval bases in Southshore."
+ STO_repair_the_kingdom_tt:0 "Repair the Kingdom"
+ STO_repair_the_city_tt:0 "Repair the City"
+ STO_address_noble_concerns_tt:0 "§RIf you reach 80% support for Neutrality, The nobles will start a civil war!§!\n"
+ STO_feudal_reform_tt:0 "§R If these vassals are ever annexed, we will face a civil war!"
+ STO_vassal_consessions_tt:0 "Spawn §G2 knights division§! (§Y10 Width§!) and §G8 footmen division§! (§Y20 Width§!)"
+ STO_invest_in_local_garrisons_tt:0 "Spawn §G8 militia division§! with §Gpriest squad support§! (§Y10 Width§!)"
+ STO_fortress_stormwind_fortify_harbor_tt:0 "   Add §Y2 Coastal Defense§! on each province bordering the sea. "

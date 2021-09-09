@@ -1,0 +1,39 @@
+equipments = {
+
+	troll_support_equipment = {
+		year = 584
+
+		is_archetype = yes
+		picture = archetype_troll_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			wheat = 1
+			ores = 1
+			wood = 1
+			mana = 1
+		}
+	}
+	
+	troll_support_equipment_1 = {
+		year = 584
+
+		archetype = troll_support_equipment
+		priority = 50
+
+	}
+
+}

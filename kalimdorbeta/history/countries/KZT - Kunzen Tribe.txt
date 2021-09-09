@@ -1,0 +1,101 @@
+capital = 1936
+
+oob = "KZT_592"
+
+set_naval_oob = "KZT_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	tribe
+	
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	hozen_primary_race
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Chief Yip-Yip"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Yip-Yip"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Yip-Yip"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Yip-Yip"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Yip-Yip"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Yip-Yip"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = { }
+
+create_corps_commander = { }

@@ -1,0 +1,38 @@
+
+state={
+	id=694
+	name="STATE_694"
+	resources={
+		wood =4
+		mounts=10
+	}
+
+	history={
+		
+		add_core_of = BCC
+
+		victory_points = {
+			6598 15
+		}
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BCC
+		}
+	}
+
+	provinces={
+		6469 6472 6577 6587 6598 6606 6611 6620 6626 10405
+	}
+	manpower=61000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=229
+	name="STATE_229"
+	resources={
+		mana=96.000
+	}
+
+	history={
+		
+		victory_points = {
+			4243 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = ARD
+			controller = ARD
+			add_core_of = ARD
+
+		}
+
+	}
+
+	provinces={
+		648 4159 4189 4199 4233 4243 4264 5814 5820 
+	}
+	manpower=24350
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

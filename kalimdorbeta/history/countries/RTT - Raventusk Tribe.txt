@@ -1,0 +1,95 @@
+﻿capital = 134
+
+set_research_slots = 3
+
+add_ideas = {
+	tribe
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	forest_troll_primary_race
+	primary_trait_path_finders
+	primary_trait_persistence
+	primary_trait_regeneration
+
+	primary_religion_loa_spirits
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+
+	catapult_equipment_tech_1 = 1
+
+	
+	
+	
+	
+	naval_transport_1 = 1
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+}
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 10
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 90
+}
+
+596.1.1 = {
+	set_technology = {
+		footman_weapons_tech_2 = 1
+		
+		
+		
+		
+		
+		
+		naval_transport_2 = 1
+		aviary_tech = 1
+			
+		blueprints_1 = 1
+		
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+
+617.1.1 = {
+	# Maybe move some stuff here to earlier start date
+
+	set_politics = {
+		ruling_party = horde
+		last_election = "616.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+    alliance = 0
+    horde = 90
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 10
+	}
+}

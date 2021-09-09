@@ -1,0 +1,43 @@
+
+state={
+	id=652
+	name="STATE_652"
+	resources={
+		gunpowder=2
+		ores=6
+		oil=4
+	}
+
+	history={
+		
+		add_core_of = BMC
+
+		victory_points = {
+			5986 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			5986 = {
+				naval_base = 4
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BMC
+		}
+	}
+
+	provinces={
+		2361 2969 5986 5992 6000 6028 6032 6310 6495 6968
+	}
+	manpower=135000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

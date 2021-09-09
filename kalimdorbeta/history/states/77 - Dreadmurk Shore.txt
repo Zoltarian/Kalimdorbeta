@@ -1,0 +1,43 @@
+
+state={
+	id=77
+	name="STATE_77"
+	resources={
+		wheat=7
+		wood =3
+		oil=5
+		gunpowder=7
+	}
+
+	history={
+		owner = MIR
+		victory_points = {
+			9129 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 2
+			9129 = {
+				naval_base = 3
+			}
+			9143 = {
+				naval_base = 1
+			}
+			9095 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = MIR
+
+	}
+
+	provinces={
+		1294 8644 9095 9102 9104 9113 9117 9123 9125 9127 9129 9135 9139 9142 9143 
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

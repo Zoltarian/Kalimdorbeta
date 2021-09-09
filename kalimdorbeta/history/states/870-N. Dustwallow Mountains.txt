@@ -1,0 +1,28 @@
+
+state={
+	id=870
+	name="STATE_870"
+
+	impassable = yes
+	history={
+		owner = TWV
+		add_core_of = TWV
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			
+			controller = STM
+			add_core_of = STM
+		}
+	}
+
+	provinces={
+		1463
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

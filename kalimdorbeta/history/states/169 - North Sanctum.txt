@@ -1,0 +1,29 @@
+
+state={
+	id=169
+	name="STATE_169"
+	resources={
+		mana=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			3239 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		645 3215 3219 3237 3239 5450 
+	}
+	manpower=13275
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

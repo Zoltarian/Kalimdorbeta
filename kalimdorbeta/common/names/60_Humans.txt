@@ -1,0 +1,20 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+STO = { #changed from default to stormwind need to make seperate entrys for every human nation (leaving as default would mix in with other races)
+	male = {
+		names = { "John" "Robert" "Lucas" "Marcus" "Alexander" "Alexston" "Peter" "Jonas" "Jim" "Mathia" "Vincent" "Jarod" "Rodney" "Gryan" "Mathias" "Nielas" "Othmar" "Falric" "Marwyn" "Maxwell"}
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Juliette" "Anna" "Miranda" "Louisa" "Emily" "Vanessa" "Jessica" "Claudia" "Emma" "Althea" "Morgan" "Mary" "Clara" }
+	#	surnames = { }
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	#}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" "Westwind" "Edwards" "Fairweather" "Hainsworth" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}

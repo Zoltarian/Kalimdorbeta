@@ -1,0 +1,25 @@
+﻿division_template = {
+	name = "Arcane Golems"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#heroic infantry
+	division = {
+		name = "1st Arcane Golems"
+		location = 2789
+		division_template = "Arcane Golems"
+		start_experience_factor = 0.2
+		}
+
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=462
+	name="STATE_462"
+	resources={
+		ores=8.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			
+			controller = BHC
+			add_core_of = BHC
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = BHC
+
+		}
+		
+		617.1.1 = {
+			owner = SSP
+			controller = SSP
+			add_core_of = SSP
+		}
+	}
+
+	provinces={
+		3490 3491 3496 3499 3502 3512 3513 5880 5891 6075
+	}
+	manpower=9675
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

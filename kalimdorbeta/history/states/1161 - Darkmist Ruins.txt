@@ -1,0 +1,33 @@
+
+state={
+	id=1161
+	name="STATE_1161"
+	resources = {
+		wheat=4
+		mana=6
+		ores=3
+		wood=4
+	}
+
+	history={
+		owner = DMG
+		victory_points = {
+			11362 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = DMG
+
+	}
+
+	provinces={
+		10879 11358 11362 11367
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

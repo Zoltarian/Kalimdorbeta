@@ -1,0 +1,41 @@
+
+state={
+	id=480
+	name="STATE_480"
+	resources={
+		gunpowder=22.000
+	}
+
+	history={
+		
+		victory_points = {
+			3641 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1066 1074 3630 3633 3638 3641 3645 3653 3667 3683 5994 6008 
+	}
+	manpower=13550
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

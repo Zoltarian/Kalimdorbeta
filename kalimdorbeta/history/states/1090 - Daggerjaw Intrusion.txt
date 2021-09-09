@@ -1,0 +1,36 @@
+
+state={
+	id=1090
+	name="STATE_1090"
+	resources = {
+		wood =6
+		mounts=6
+	}
+
+	history={
+		
+		add_core_of = BWC
+
+		victory_points = {
+			10777 5
+		}
+
+		buildings = {
+			infrastructure = 5
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BWC
+		}
+	}
+
+	provinces={
+		10546 10686 10689 10761 10762 10772 10777 10783 10806 11008
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

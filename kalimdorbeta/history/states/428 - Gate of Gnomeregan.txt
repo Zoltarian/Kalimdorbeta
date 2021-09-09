@@ -1,0 +1,36 @@
+
+state={
+	id=428
+	name="STATE_428"
+
+	history={
+		
+		add_core_of = GNO
+
+		buildings = {
+			infrastructure = 6
+				1014 = {
+					bunker = 7
+				}
+				1343 = {
+					bunker = 7
+				}
+				1336 = {
+					bunker = 5
+				}
+		}
+		
+		617.1.1 = {
+			owner = LEP
+			controller = LEP
+			add_core_of = LEP
+		}
+	}
+
+	provinces={
+		1014 1336 1337 1343
+	}
+	manpower=750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

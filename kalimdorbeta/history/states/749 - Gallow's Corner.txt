@@ -1,0 +1,35 @@
+
+state={
+	id=749
+	name="STATE_749"
+	resources={
+		gunpowder=3.000
+	}
+
+	history={
+		
+		victory_points = {
+			1884 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = ALT
+		617.1.1 = {
+			owner = CRC
+			controller = CRC
+			add_core_of = CRC
+
+		}
+
+	}
+
+	provinces={
+		1879 1884 1885 3462 5185 5188 
+	}
+	manpower=13225
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=826
+	name="STATE_826"
+	resources={
+		wood = 18
+		mounts = 6
+	}
+
+	history={
+		
+		add_core_of = OOM
+
+		victory_points = {
+			8194 10
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			8148 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		8148 8194 8197 8203 8205 8206 8208 8211
+	}
+	manpower=36000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

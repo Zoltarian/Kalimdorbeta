@@ -1,0 +1,27 @@
+
+state={
+	id=1248
+	name="STATE_1248"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = BRF
+
+		620.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+		}
+	}
+
+	provinces={
+		10935 13336 13342 13350 13365 13392 13400 13414 13420
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

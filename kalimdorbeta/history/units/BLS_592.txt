@@ -1,0 +1,45 @@
+﻿division_template = {
+	name = "Blacksilt Shorestriker"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Blacksilt Shorestriker"
+		location = 3399
+		division_template = "Blacksilt Shorestriker"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Blacksilt Shorestriker"
+		location = 13185
+		division_template = "Blacksilt Shorestriker"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Blacksilt Shorestriker"
+		location = 12067
+		division_template = "Blacksilt Shorestriker"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Blacksilt Shorestriker"
+		location = 2980
+		division_template = "Blacksilt Shorestriker"
+		start_experience_factor = 0.0
+	}
+
+}

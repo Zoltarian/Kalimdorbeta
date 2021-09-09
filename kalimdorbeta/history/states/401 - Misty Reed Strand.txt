@@ -1,0 +1,46 @@
+
+state={
+	id=401
+	name="STATE_401" #S. Misty Reed Strand/ Misty Reed Strand
+	resources={
+		oil=12.000
+		wood =10.000
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			2641 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			2641 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = MTT
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+		}
+
+		617.1.1 = {
+			
+			controller = MTT
+			add_core_of = MTT
+		}
+	}
+
+	provinces={
+		944 2632 2633 2640 2641 2642 2647 2648 2652 2657
+	}
+	manpower=36750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

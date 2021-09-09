@@ -1,0 +1,117 @@
+﻿division_template = {
+	name = "Galak Centaur"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Galak Marauder"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Galak Khan's Guard"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		paladin = { x = 1 y = 0 }
+		paladin = { x = 1 y = 1 }
+		paladin = { x = 1 y = 2 }
+		paladin = { x = 1 y = 3 }
+		paladin = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Galak Centaur"
+		location = 9598
+		division_template = "Galak Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Galak Centaur"
+		location = 9598
+		division_template = "Galak Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Galak Centaur"
+		location = 9615
+		division_template = "Galak Centaur"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Galak Centaur"
+		location = 9615
+		division_template = "Galak Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Galak Centaur"
+		location = 9620
+		division_template = "Galak Centaur"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Galak Centaur"
+		location = 9604
+		division_template = "Galak Centaur"
+		start_experience_factor = 0.2
+	}	
+
+	division = {
+		name = "Galak Marauder"
+		location = 9598
+		division_template = "Galak Marauder"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Galak Marauder"
+		location = 9615
+		division_template = "Galak Marauder"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Galak Khan's Guard"
+		location = 9598
+		division_template = "Galak Khan's Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Galak Khan's Guard"
+		location = 9615
+		division_template = "Galak Khan's Guard"
+		start_experience_factor = 0.3
+	}
+	
+}

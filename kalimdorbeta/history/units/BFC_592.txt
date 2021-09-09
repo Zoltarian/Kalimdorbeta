@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Boulderfist Brutes"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Boulderfist Brutes"
+		location = 10451
+		division_template = "Boulderfist Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Boulderfist Brutes"
+		location = 10451
+		division_template = "Boulderfist Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Boulderfist Brutes"
+		location = 10451
+		division_template = "Boulderfist Brutes"
+		start_experience_factor = 0.2
+	}
+	
+}

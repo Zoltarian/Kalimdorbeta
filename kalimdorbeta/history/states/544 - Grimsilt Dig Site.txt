@@ -1,0 +1,37 @@
+
+state={
+	id=544
+	name="STATE_544"
+
+	history={
+		
+		victory_points = {
+			3966 10
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = DIC
+		add_core_of = THR
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+		617.1.1 = {
+			
+			controller = DIC
+			add_core_of = DIC
+		}
+	}
+
+	provinces={
+		974 3945 3947 3953 3964 3966 6230 6263
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

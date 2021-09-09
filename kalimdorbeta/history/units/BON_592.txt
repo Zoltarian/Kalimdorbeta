@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "Bonespeaker Runeaxe"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Runeaxe"
+		location = 9253
+		division_template = "Bonespeaker Runeaxe"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Runeaxe"
+		location = 9226
+		division_template = "Bonespeaker Runeaxe"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Runeaxe"
+		location = 9217
+		division_template = "Bonespeaker Runeaxe"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "4th Runeaxe"
+		location = 9191
+		division_template = "Bonespeaker Runeaxe"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+

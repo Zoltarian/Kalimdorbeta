@@ -1,0 +1,49 @@
+
+state={
+	id=530
+	name="STATE_530"
+	resources={
+		gunpowder=22.000
+		ores=26.000
+	}
+
+	history={
+		
+		add_core_of = DIC
+
+		victory_points = {
+			4858 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+			buildings = {
+				industrial_complex = 2
+				arms_factory = 2
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+
+		617.1.1 = {
+			
+			controller = DIC
+			add_core_of = DIC
+		}
+	}
+
+	provinces={
+		984 4841 4855 4858 4861 6268
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

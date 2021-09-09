@@ -1,0 +1,24 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Siltfin Fishing Fleet"			
+		naval_base = 13712
+		task_force = {
+			name = "Siltfin Fishing Fleet"			
+			location = 13712
+			
+			ship = {
+				name = "1st Siltfin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SIL } }
+			}
+			ship = {
+				name = "2nd Siltfin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SIL } }
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=418
+	name="STATE_418"
+	resources={
+		ores=42.000
+	}
+
+	history={
+		
+		victory_points = {
+			1403 10
+		}
+		victory_points = {
+			1404 5 
+		}
+		buildings = {
+			industrial_complex = 3
+			infrastructure = 4
+			1101 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		175 1101 1395 1403 1404 1411 1414 1426 1427 
+	}
+	manpower=18475
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

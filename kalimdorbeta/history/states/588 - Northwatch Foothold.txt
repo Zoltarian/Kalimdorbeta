@@ -1,0 +1,50 @@
+
+state={
+	id=588
+	name="STATE_588"
+	resources={
+		gunpowder=3
+		ores=5
+		oil=3
+	}
+
+	history={
+		owner = RZM
+		add_core_of = RZM
+
+		victory_points = {
+			9629 5
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			9626 = {
+				naval_base = 1
+			}
+		}
+
+		617.1.1 = {
+			owner = KOL
+			controller = KOL
+			add_core_of = KOL
+
+			set_state_name = "Kolkar Crag"
+		}
+
+		620.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+
+			set_state_name = "Northwatch Foothold"
+		}
+	}
+
+	provinces={
+		1041 9626 9629 9631 9660
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

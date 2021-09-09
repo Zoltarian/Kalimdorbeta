@@ -1,0 +1,38 @@
+
+state={
+	id=1058
+	name="STATE_1058"
+	resources={
+		mana=4
+		ores=8
+	}
+
+	history={
+		
+		add_core_of = TDC
+
+		victory_points = {
+			10427 10
+		}
+
+		buildings = {
+			infrastructure = 5
+      		industrial_complex = 2
+			arms_factory = 2
+    	}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TDC
+		}
+	}
+
+	provinces={
+		10427 10428 10430 10431 10432
+	}
+	manpower=52500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

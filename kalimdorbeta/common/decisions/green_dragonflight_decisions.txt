@@ -1,0 +1,51 @@
+emerald_nightmare_decisions = {
+
+	cleanse_nightmare_corruption = {
+
+		allowed = {
+			original_tag = GDF
+		}
+
+		available = {
+
+			OR = {
+				has_idea = GDF_emerald_nightmare_1
+				has_idea = GDF_emerald_nightmare_2
+				has_idea = GDF_emerald_nightmare_3
+				has_idea = GDF_emerald_nightmare_4
+				has_idea = GDF_emerald_nightmare_5
+			}
+
+		}
+
+		visible = {
+			GDF = {
+				AND = {
+					has_government = titans
+					OR = {
+						has_idea = GDF_emerald_nightmare_1
+						has_idea = GDF_emerald_nightmare_2
+						has_idea = GDF_emerald_nightmare_3
+						has_idea = GDF_emerald_nightmare_4
+						has_idea = GDF_emerald_nightmare_5
+					}
+				}
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 75
+		days_remove = 90
+		days_re_enable = 180
+
+		complete_effect = {
+		
+			add_popularity = {
+				ideology = titans
+				popularity = 0.15
+			}
+			
+		}
+	}
+}

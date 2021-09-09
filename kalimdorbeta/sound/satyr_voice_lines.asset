@@ -1,0 +1,757 @@
+category = {
+ name = "Voices"
+    soundeffects = {
+        AXS_infantry_idle
+        AXS_infantry_neutral_combat
+        AXS_infantry_positive_combat
+        AXS_infantry_retreat
+        AXS_infantry_move_out
+
+        DTR_infantry_idle
+        DTR_infantry_neutral_combat
+        DTR_infantry_positive_combat
+        DTR_infantry_retreat
+        DTR_infantry_move_out
+
+        FMC_infantry_idle
+        FMC_infantry_neutral_combat
+        FMC_infantry_positive_combat
+        FMC_infantry_retreat
+        FMC_infantry_move_out
+
+        HDC_infantry_idle
+        HDC_infantry_neutral_combat
+        HDC_infantry_positive_combat
+        HDC_infantry_retreat
+        HDC_infantry_move_out
+
+        HFS_infantry_idle
+        HFS_infantry_neutral_combat
+        HFS_infantry_positive_combat
+        HFS_infantry_retreat
+        HFS_infantry_move_out
+
+        JFT_infantry_idle
+        JFT_infantry_neutral_combat
+        JFT_infantry_positive_combat
+        JFT_infantry_retreat
+        JFT_infantry_move_out
+
+        LEG_infantry_idle
+        LEG_infantry_neutral_combat
+        LEG_infantry_positive_combat
+        LEG_infantry_retreat
+        LEG_infantry_move_out
+
+        NZS_infantry_idle
+        NZS_infantry_neutral_combat
+        NZS_infantry_positive_combat
+        NZS_infantry_retreat
+        NZS_infantry_move_out
+
+        WSS_infantry_idle
+        WSS_infantry_neutral_combat
+        WSS_infantry_positive_combat
+        WSS_infantry_retreat
+        WSS_infantry_move_out
+
+        XAV_infantry_idle
+        XAV_infantry_neutral_combat
+        XAV_infantry_positive_combat
+        XAV_infantry_retreat
+        XAV_infantry_move_out
+
+    }
+
+}
+
+########## AXS
+
+soundeffect = {
+    name = "AXS_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "AXS_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AXS_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AXS_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AXS_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DTR
+
+soundeffect = {
+    name = "DTR_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DTR_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DTR_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DTR_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DTR_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## FMC
+
+soundeffect = {
+    name = "FMC_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "FMC_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FMC_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FMC_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FMC_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## HDC
+
+soundeffect = {
+    name = "HDC_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "HDC_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HDC_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HDC_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HDC_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## HFS
+
+soundeffect = {
+    name = "HFS_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "HFS_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HFS_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HFS_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HFS_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## JFT
+
+soundeffect = {
+    name = "JFT_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "JFT_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "JFT_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "JFT_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "JFT_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## LEG
+
+soundeffect = {
+    name = "LEG_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "LEG_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LEG_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LEG_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LEG_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## NZS
+
+soundeffect = {
+    name = "NZS_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "NZS_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NZS_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NZS_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NZS_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## WSS
+
+soundeffect = {
+    name = "WSS_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "WSS_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WSS_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WSS_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WSS_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## XAV
+
+soundeffect = {
+    name = "XAV_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "XAV_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "XAV_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "XAV_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "XAV_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Satyr_Idle_001"
+	file = "voice_lines/satyr/Satyr_Idle_1.wav"
+}
+sound = {
+	name = "Satyr_Idle_002"
+	file = "voice_lines/satyr/Satyr_Idle_2.wav"
+}
+sound = {
+	name = "Satyr_Idle_003"
+	file = "voice_lines/satyr/Satyr_Idle_3.wav"
+}
+
+sound = {
+	name = "Satyr_Combat_001"
+	file = "voice_lines/satyr/Satyr_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Satyr_Combat_002"
+	file = "voice_lines/satyr/Satyr_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Satyr_Combat_003"
+	file = "voice_lines/satyr/Satyr_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Satyr_Combat_004"
+	file = "voice_lines/satyr/Satyr_Attack_4.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "Satyr_Move_001"
+	file = "voice_lines/satyr/Satyr_Move_1.wav"
+}
+sound = {
+	name = "Satyr_Move_002"
+	file = "voice_lines/satyr/Satyr_Move_2.wav"
+}
+sound = {
+	name = "Satyr_Move_003"
+	file = "voice_lines/satyr/Satyr_Move_3.wav"
+}
+sound = {
+	name = "Satyr_Move_004"
+	file = "voice_lines/satyr/Satyr_Move_4.wav"
+}

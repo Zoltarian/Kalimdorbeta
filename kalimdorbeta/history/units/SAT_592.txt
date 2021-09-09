@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Saltspittle Warrior"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Saltspittle Warrior"
+		location = 12479
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Saltspittle Warrior"
+		location = 12479
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+
+}

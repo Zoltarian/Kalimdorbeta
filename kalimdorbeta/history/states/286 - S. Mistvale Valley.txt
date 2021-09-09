@@ -1,0 +1,35 @@
+
+state={
+	id=286
+	name="STATE_286"
+	resources={
+		wood =12.000
+		mounts=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			1633 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		617.1.1 = {
+			owner = BSB
+			controller = BSB
+			add_core_of = BSB
+
+		}
+		add_core_of = BOO
+
+	}
+
+	provinces={
+		1628 1629 1631 1633 1688 5577 5579 6947 
+	}
+	manpower=11200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

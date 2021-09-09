@@ -1,0 +1,39 @@
+
+state={
+	id=458
+	name="STATE_458"
+	resources={
+		gunpowder=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			4041 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = IRO
+		
+		596.1.1 = {
+			BHC = {
+				set_province_controller = 6092
+				set_province_controller = 4018
+				set_province_controller = 4029
+			} 
+
+		}
+
+	}
+
+	provinces={
+		4015 4018 4029 4041 6071 6092 
+	}
+	manpower=27250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

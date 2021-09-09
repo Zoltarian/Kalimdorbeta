@@ -1,0 +1,146 @@
+﻿division_template = {
+	name = "Laughing Skull Grunt"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Laughing Skull Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Laughing Skull Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Laughing Skull Outriders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+##########################
+#northern gorgrond
+##########################
+
+	division = {
+		name = "1st Laughing Skull Grunt"
+		location = 10643
+		division_template = "Laughing Skull Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Laughing Skull Grunt"
+		location = 10648
+		division_template = "Laughing Skull Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Laughing Skull Grunt"
+		location = 10634
+		division_template = "Laughing Skull Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Laughing Skull Spearman"
+		location = 10643
+		division_template = "Laughing Skull Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Laughing Skull Outriders"
+		location = 10637
+		division_template = "Laughing Skull Outriders"
+		start_experience_factor = 0.2
+	}
+
+##########################
+#southern gorgrond
+##########################
+	division = {
+		name = "2nd Laughing Skull Spearman"
+		location = 10559
+		division_template = "Laughing Skull Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Laughing Skull Spearman"
+		location = 10566
+		division_template = "Laughing Skull Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Laughing Skull Hunter"
+		location = 10553
+		division_template = "Laughing Skull Hunter"
+		start_experience_factor = 0.2
+	}
+
+##########################
+#farahlohn
+##########################
+	division = {
+		name = "4th Laughing Skull Grunt"
+		location = 786
+		division_template = "Laughing Skull Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Laughing Skull Hunter"
+		location = 5487
+		division_template = "Laughing Skull Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Laughing Skull Hunter"
+		location = 5488
+		division_template = "Laughing Skull Hunter"
+		start_experience_factor = 0.2
+	}
+
+##########################
+#hellfire
+##########################
+	division = {
+		name = "4th Laughing Skull Spearman"
+		location = 6478
+		division_template = "Laughing Skull Spearman"
+		start_experience_factor = 0.2
+	}	
+
+}

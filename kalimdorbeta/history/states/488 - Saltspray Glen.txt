@@ -1,0 +1,41 @@
+
+state={
+	id=488
+	name="STATE_488"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			3757 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			owner = FDW
+			controller = FDW
+			add_core_of = FDW
+
+		}
+
+	}
+
+	provinces={
+		345 366 1067 3374 3735 3747 3751 3753 3754 3757 
+	}
+	manpower=5650
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

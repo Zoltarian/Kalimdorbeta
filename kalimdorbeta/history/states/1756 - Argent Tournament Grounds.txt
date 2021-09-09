@@ -1,0 +1,33 @@
+
+state={
+	id=1756
+	name="STATE_1756"
+
+	history={
+		
+		add_core_of = YHC
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+		}
+
+		620.1.1 = {
+			owner = ARD
+			controller = ARD
+			add_core_of = ARD
+		}
+	}
+
+	provinces={
+		8929
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

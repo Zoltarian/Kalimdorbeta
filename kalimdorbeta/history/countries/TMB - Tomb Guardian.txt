@@ -1,0 +1,84 @@
+﻿capital = 545
+
+oob = "TMB_592"
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.1
+
+add_ideas = {
+	
+	tyrant
+	recruit_guards
+	isolation
+	export_focus
+	
+	human_primary_race
+	primary_trait_diplomatic
+	primary_trait_human_spirit
+	primary_trait_perception
+	
+	primary_religion_arcane_studies
+}
+
+set_technology = {
+
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+	
+	arch_mage_equipment_tech_1 = 1
+	arch_mage_equipment_tech_2 = 1
+	
+	
+
+	mount_taming_1 = 1
+	
+	
+	naval_transport_1 = 1
+	
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+	
+	
+	
+	
+}
+
+set_politics = {	
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Aegwynn"
+	desc = "POLITICS_AEGWYNN_DESC"
+	picture = "gfx/leaders/TMB/Aegwynn.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Aegwynn"
+	picture = "gfx/leaders/TMB/Aegwynn.dds"
+	traits = {   }
+	id = 67500
+	skill = 3
+}

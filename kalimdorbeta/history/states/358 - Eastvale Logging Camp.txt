@@ -1,0 +1,50 @@
+
+state={
+	id=358
+	name="STATE_358"
+
+	resources={
+		mounts = 28
+		wood = 62
+	}
+
+	history={
+		
+		
+		add_core_of = ELW
+		add_core_of = STO
+
+		victory_points = {
+			2547 5
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+		596.1.1 = {
+			
+			controller = THC
+			add_core_of = THC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = THC
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+		}
+	}
+
+	provinces={
+		893 2218 2535 2538 2541 2547 2548 2549 2554 2560
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

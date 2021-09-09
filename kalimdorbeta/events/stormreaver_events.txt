@@ -1,0 +1,201 @@
+﻿###########################
+# stormreaver
+###########################
+
+add_namespace = stormreaver
+
+#stormreaver given land
+country_event = {
+	id = stormreaver.1
+	title = stormreaver.1.t
+	desc = stormreaver.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = stormreaver.1.option.1
+		
+		SRC = {
+			transfer_state = 790
+			transfer_state = 142
+			transfer_state = 374
+			transfer_state = 147
+			transfer_state = 143
+			transfer_state = 146
+			transfer_state = 38
+			transfer_state = 144
+			transfer_state = 145
+			transfer_state = 149
+			transfer_state = 148
+			transfer_state = 312
+			transfer_state = 326
+			transfer_state = 325
+			transfer_state = 351
+			transfer_state = 352
+			transfer_state = 375
+			transfer_state = 316
+			transfer_state = 317
+			transfer_state = 318
+			transfer_state = 319
+			transfer_state = 320
+			transfer_state = 321
+			transfer_state = 22
+			transfer_state = 322
+			transfer_state = 315
+			transfer_state = 794
+			transfer_state = 323
+			
+			transfer_state = 301
+			transfer_state = 302
+			transfer_state = 303
+			transfer_state = 304
+			transfer_state = 782
+			
+			if = {
+				limit = {
+					350 = {
+						is_owned_by = BRC
+					}
+				}
+				transfer_state = 350
+				350 = {
+					add_core_of = SRC
+				}
+			}
+			
+			if = {
+				limit = {
+					311 = {
+						is_owned_by = BRC
+					}
+				}
+				transfer_state = 311
+				311 = {
+					add_core_of = SRC
+				}
+			}
+
+		}
+		
+		790 = {
+			add_core_of = SRC
+		}
+		142 = {
+			add_core_of = SRC
+		}
+		374 = {
+			add_core_of = SRC
+		}
+		147 = {
+			add_core_of = SRC
+		}
+		143 = {
+			add_core_of = SRC
+		}
+		146 = {
+			add_core_of = SRC
+		}
+		38 = {
+			add_core_of = SRC
+		}
+		144 = {
+			add_core_of = SRC
+		}
+		145 = {
+			add_core_of = SRC
+		}
+		149 = {
+			add_core_of = SRC
+		}
+		148 = {
+			add_core_of = SRC
+		}
+		312 = {
+			add_core_of = SRC
+		}
+		326 = {
+			add_core_of = SRC
+		}
+		325 = {
+			add_core_of = SRC
+		}
+		351 = {
+			add_core_of = SRC
+		}
+		352 = {
+			add_core_of = SRC
+		}
+		375 = {
+			add_core_of = SRC
+		}
+		316 = {
+			add_core_of = SRC
+		}
+		317 = {
+			add_core_of = SRC
+		}
+		318 = {
+			add_core_of = SRC
+		}
+		319 = {
+			add_core_of = SRC
+		}
+		320 = {
+			add_core_of = SRC
+		}
+		321 = {
+			add_core_of = SRC
+		}
+		22 = {
+			add_core_of = SRC
+		}
+		322 = {
+			add_core_of = SRC
+		}
+		315 = {
+			add_core_of = SRC
+		}
+		794 = {
+			add_core_of = SRC
+		}
+		323 = {
+			add_core_of = SRC
+		}
+		301 = {
+			add_core_of = SRC
+		}
+		302 = {
+			add_core_of = SRC
+		}
+		303 = {
+			add_core_of = SRC
+		}
+		304 = {
+			add_core_of = SRC
+		}
+		782 = {
+			add_core_of = SRC
+		}
+	}
+}
+country_event = {
+	id = stormreaver.2
+	title = stormreaver.2.t
+	desc = stormreaver.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = stormreaver.2.option.1
+		
+		add_ideas = SRC_keep_an_eye_of_guldan_idea
+
+	}
+
+}

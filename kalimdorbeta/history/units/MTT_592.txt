@@ -1,0 +1,75 @@
+﻿division_template = {
+	name = "Marshtide Spearfin"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Marshtide Archer"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Marshtide Swordfin"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Marshtide Spearfin"
+		location = 2641
+		division_template = "Marshtide Spearfin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Marshtide Spearfin"
+		location = 2666
+		division_template = "Marshtide Spearfin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Marshtide Archer"
+		location = 952
+		division_template = "Marshtide Archer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Marshtide Archer"
+		location = 2640
+		division_template = "Marshtide Archer"
+		start_experience_factor = 0.2
+	}
+	
+
+
+}

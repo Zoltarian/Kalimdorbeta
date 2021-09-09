@@ -1,0 +1,35 @@
+
+state={
+	id=128
+	name="STATE_128"
+	resources={
+		mounts=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			2011 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = STR
+
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+		}
+	}
+
+	provinces={
+		1858 2007 2010 2011 2013 2014
+	}
+	manpower=67050
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

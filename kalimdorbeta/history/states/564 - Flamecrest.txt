@@ -1,0 +1,35 @@
+
+state={
+	id=564
+	name="STATE_564"
+
+	history={
+		
+		victory_points = {
+			4654 10
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		921 4654 4655 4656 7504 7506
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

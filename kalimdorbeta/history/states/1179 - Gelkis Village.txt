@@ -1,0 +1,32 @@
+state={
+	id=1179
+	name="STATE_1179"
+	resources = {
+		mounts=10
+		wheat=8
+		ores=6
+		oil=4
+	}
+
+	history = {
+		owner = GLC
+		victory_points = {
+			11546 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 3
+
+		}
+		add_core_of = GLC
+
+	}
+
+	provinces={
+		10907 11543 11544 11546 11548 11550 11555 11558 11560 11566 11576 11578 11587 
+	}
+	manpower=76000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+}

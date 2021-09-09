@@ -1,0 +1,39 @@
+
+state={
+	id=216
+	name="STATE_216" #Brightwater Outpost/Crusader Outpost
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			4326 5 
+		}
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+			5379 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		2801 4326 4336 4350 4357 4372 4376 4377 4396 5376 5379 6964 
+	}
+	manpower=14725
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

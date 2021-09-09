@@ -1,0 +1,35 @@
+
+state={
+	id=443
+	name="STATE_443"
+	resources={
+		mana=4.000
+		wood =6.000
+	}
+
+	history={
+		victory_points = {
+			4064 15
+		}
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IRO
+		add_core_of = FRT
+
+		617.1.1 = {
+			
+			controller = FRT
+			add_core_of = FRT
+		}
+	}
+
+	provinces={
+		1016 4055 4059 4064 4069 4071 4073 6100 6102
+	}
+	manpower=18075
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

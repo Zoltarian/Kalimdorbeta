@@ -1,0 +1,50 @@
+
+state={
+	id=299
+	name="STATE_299"
+	resources={
+		mana=200.000
+		mounts=30.000
+		ores=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			8912 30 
+		}
+		victory_points = {
+			8942 10 
+		}
+		victory_points = {
+			8932 10 
+		}
+		victory_points = {
+			8906 10 
+		}
+		victory_points = {
+			434 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 1
+			air_base = 6
+			8896 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BDF
+
+	}
+
+	provinces={
+		434 8895 8896 8897 8898 8901 8902 8906 8907 8910 8912 8913 8915 8917 8919 8920 8923 8924 8927 8928 8932 
+	}
+	manpower=56000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

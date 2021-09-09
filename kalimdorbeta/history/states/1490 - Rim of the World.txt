@@ -1,0 +1,34 @@
+
+state={
+	id=1490
+	name="STATE_1490"
+	resources = {
+		wheat=4
+		eggs=8
+		wood=3
+		ores=2
+	}
+
+	history={
+		owner = WOR
+		victory_points = {
+			15113 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = WOR
+
+	}
+
+	provinces={
+		15052 15113 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

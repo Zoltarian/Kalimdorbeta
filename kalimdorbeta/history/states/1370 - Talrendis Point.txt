@@ -1,0 +1,31 @@
+
+state={
+	id=1370
+	name="STATE_1370"
+	resources = {
+		wood=4
+		wheat=4
+		ores=2
+	}
+
+	history={
+		owner = KAL
+		victory_points = {
+			4853 10
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		add_core_of = KAL
+
+	}
+
+	provinces={
+		387 3960 3965 3967 4658 4853 5343 6380 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

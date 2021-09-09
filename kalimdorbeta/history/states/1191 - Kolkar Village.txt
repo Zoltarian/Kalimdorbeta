@@ -1,0 +1,33 @@
+
+state={
+	id=1191
+	name="STATE_1191"
+	resources = {
+		wheat=8
+		mounts=8
+		ores=6
+		mana=4
+	}
+
+	history = {
+		owner = KOL
+		victory_points = {
+			11648 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+
+		}
+		add_core_of = KOL
+
+	}
+
+	provinces={
+		10914 11628 11629 11631 11637 11644 11648 11651 11657 11659 11660 11664 11666 11671 11745 11746 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

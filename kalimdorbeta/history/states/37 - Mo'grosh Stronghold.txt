@@ -1,0 +1,45 @@
+
+state={
+	id=37
+	name="STATE_37" #Stonewrought Quarry/Mo'grosh Stronghold
+	resources={
+		gunpowder=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			1031 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			
+			controller = BHC
+			add_core_of = BHC
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = BHC
+
+		}
+
+		617.1.1 = {
+			owner = MOG
+			controller = MOG
+			add_core_of = MOG
+		}
+	}
+
+	provinces={
+		1031 3557 3558 3559 3565 3568 3573 3574
+	}
+	manpower=21800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

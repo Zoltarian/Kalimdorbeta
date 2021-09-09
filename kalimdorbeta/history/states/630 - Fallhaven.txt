@@ -1,0 +1,32 @@
+
+state={
+	id=630
+	name="STATE_630"
+	
+		resources={
+		mounts=16.000
+		wood =14.000
+	}
+
+	history={
+		
+		victory_points = {
+			7195 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			7199 = {
+				naval_base = 2
+			}
+		}
+	add_core_of = KUL
+	}
+
+	provinces={
+		7138 7191 7195 7199 7202 7204 
+	}
+	manpower=3575
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

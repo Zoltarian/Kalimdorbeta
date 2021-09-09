@@ -1,0 +1,32 @@
+
+state={
+	id=448
+	name="STATE_448"
+	resources={
+		ores=8.000
+		gunpowder=4.000
+	}
+
+	history={
+		victory_points = {
+			993 15 
+		}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = IRO
+		add_core_of = FRT
+
+	}
+
+	provinces={
+		993 3977 3983 3986 3987 3988 4079 8573 8574 
+	}
+	manpower=67500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

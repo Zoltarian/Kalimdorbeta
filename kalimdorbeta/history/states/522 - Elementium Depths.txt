@@ -1,0 +1,32 @@
+
+state={
+	id=522
+	name="STATE_522"
+	
+			resources={
+		gunpowder=26
+		}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		998 4888 4890 4892 4897 4900 
+	}
+	manpower=5200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

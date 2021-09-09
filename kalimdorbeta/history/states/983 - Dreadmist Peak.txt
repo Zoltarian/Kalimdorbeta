@@ -1,0 +1,39 @@
+
+state={
+	id=983
+	name="STATE_983"
+	resources={
+		wood=3
+		wheat=2
+		eggs=2
+		ores=7
+	}
+
+	history={
+		owner = WWT
+		add_core_of = WWT
+
+		victory_points = {
+			10246 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		617.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+		}
+	}
+
+	provinces={
+		9675 10223 10230 10236 10238 10246 10249 10253 10259 10266 10278 10284
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

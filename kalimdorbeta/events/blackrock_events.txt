@@ -1,0 +1,1565 @@
+﻿###########################
+#blackrockclan
+###########################
+add_namespace = blackrock
+#dragonmaw lost to marshtide tribe
+country_event = {
+	id = blackrock.1
+	title = blackrock.1.t
+	desc = blackrock.1.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.1.option.1
+	}
+}
+
+#bog beasts kill bleeding hollow
+country_event = {
+	id = blackrock.2
+	title = blackrock.2.t
+	desc = blackrock.2.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.2.option.1
+	}
+}
+
+#stonard
+country_event = {
+	id = blackrock.3
+	title = blackrock.3.t
+	desc = blackrock.3.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.3.option.1
+		BRC = {
+			transfer_state = 395
+			395 = {
+				add_core_of = BRC
+			}
+		}
+		hidden_effect = {
+			HAK = {
+				country_event = hakkari.1
+			}
+			GTG = {
+				country_event = twilightgrove.1
+			}
+		}
+	}
+}
+
+# defeated hakkari
+country_event = {
+	id = blackrock.4
+	title = blackrock.4.t
+	desc = blackrock.4.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.4.option.1
+		BRC = {
+			white_peace = HAK
+			transfer_state = 43
+			transfer_state = 396
+			transfer_state = 398
+			transfer_state = 397
+			transfer_state = 399
+			43 = {
+				add_core_of = BRC
+			}
+			396 = {
+				add_core_of = BRC
+			}
+			398 = {
+				add_core_of = BRC
+			}
+			397 = {
+				add_core_of = BRC
+			}
+			399 = {
+				add_core_of = BRC
+			}
+			set_country_flag = hakkari_defeated
+		}
+		DMC = {
+			white_peace = HAK
+		}
+		BHC = {
+			white_peace = HAK
+		}
+		BBC = {
+			white_peace = HAK
+		}
+		TSC = {
+			white_peace = HAK
+		}
+		THC = {
+			white_peace = HAK
+		}
+		BTG = {
+			white_peace = HAK
+		}
+		FWC = {
+			white_peace = HAK
+		}
+	}
+}
+
+#hakkari tablets
+country_event = {
+	id = blackrock.5
+	title = blackrock.5.t
+	desc = blackrock.5.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.5.option.1
+			#used to change tech group
+	}
+}
+
+#identity crisis horde civil war
+country_event = {
+	id = blackrock.6
+	title = blackrock.6.t
+	desc = blackrock.6.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.6.option.1
+		TSC = {
+			country_event = {
+				id = shadow_council.1
+			}
+			create_faction = "guldans_horde"
+		}
+		BRC = {
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+			declare_war_on = {
+				target = TSC
+				type = annex_everything
+			}
+		}
+		BHC = {
+			country_event = {
+				id = blackrock.7
+			}
+		}
+		DMC = {
+			country_event = {
+				id = blackrock.7
+			}
+		}
+		BBC = {
+			country_event = {
+				id = blackrock.7
+			}
+		}
+		THC = {
+			country_event = {
+				id = blackrock.7
+			}
+		}
+		FWC = {
+			country_event = {
+				id = frostwolf.1
+			}
+		}
+		BTG = {
+			country_event = {
+				id = black_tooth_grin.1
+			}
+		}
+	}
+}
+
+#join blackhand
+country_event = {
+	id = blackrock.7
+	title = blackrock.7.t
+	desc = blackrock.7.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	option = {
+		#side with blackhand
+		name = blackrock.7.option.1
+		set_politics = {
+			ruling_party = horde
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = horde
+			popularity = 1
+		}
+		declare_war_on = {
+			target = TSC
+			type = annex_everything
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 10
+				tag = BHC
+			}
+			modifier = {
+				factor = 10
+				tag = DMC
+			}
+		}
+	}
+	option = {
+		#side with guldan
+		name = blackrock.7.option.2
+		leave_faction = yes
+		TSC = {
+			add_to_faction = ROOT
+		}
+		declare_war_on = {
+			target = BRC
+			type = annex_everything
+		}
+		if = {
+			limit = {
+				tag = THC
+			}
+			load_oob = "THC_horde_civil_war"
+			add_manpower = 7000
+		}
+		if = {
+			limit = {
+				tag = BBC
+			}
+			load_oob = "BBC_horde_civil_war"
+			add_manpower = 7000
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				tag = BBC
+			}
+			modifier = {
+				factor = 100
+				tag = THC
+			}
+		}
+	}
+}
+
+#victory in civil war
+country_event = {
+	id = blackrock.8
+	title = blackrock.8.t
+	desc = blackrock.8.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.8.option.1
+		set_country_flag = blackhands_horde
+	}
+}
+
+#pillage redridge
+country_event = {
+	id = blackrock.9
+	title = blackrock.9.t
+	desc = blackrock.9.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.9.option.1
+		BRC = {
+			793 = {
+				add_core_of = BRC
+			}
+			365 = {
+				add_core_of = BRC
+			}
+			791 = {
+				add_core_of = BRC
+			}
+			364 = {
+				add_core_of = BRC
+			}
+			363 = {
+				add_core_of = BRC
+			}
+			367 = {
+				add_core_of = BRC
+			}
+			792 = {
+				add_core_of = BRC
+			}
+			370 = {
+				add_core_of = BRC
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			361 = {
+				add_core_of = BRC
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			360 = {
+				add_core_of = BRC
+			}
+			362 = {
+				add_core_of = BRC
+			}
+			363 = {
+				add_core_of = BRC
+			}
+			368 = {
+				add_core_of = BRC
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			add_offsite_building = {
+				type = arms_factory
+				level = 2
+			}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 3
+			}
+			if = {
+				limit = {
+					BRC = {
+						controls_state = 41
+					}
+				}
+				41 = {
+					add_core_of = BRC
+				}
+			}
+			if = {
+				limit = {
+					BRC = {
+						controls_state = 372
+					}
+				}
+				372 = {
+					add_core_of = BRC
+					remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					BRC = {
+						controls_state = 373
+					}
+				}
+				373 = {
+					add_core_of = BRC
+					remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						BRC = {
+							has_country_flag = blackhands_horde
+						}
+					}
+				}
+			}
+			FWC = {
+				country_event = frostwolf.2
+			}
+		}
+	}
+}
+
+#pillage elwynn
+country_event = {
+	id = blackrock.10
+	title = blackrock.10.t
+	desc = blackrock.10.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.10.option.1
+		359 = {
+			add_core_of = BRC
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		add_offsite_building = {
+			type = arms_factory
+			level = 1
+		}
+		358 = {
+			add_core_of = BRC
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		add_offsite_building = {
+			type = industrial_complex
+			level = 1
+		}
+		39 = {
+			add_core_of = BRC
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		356 = {
+			add_core_of = BRC
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		add_offsite_building = {
+			type = industrial_complex
+			level = 1
+		}
+	}
+}
+
+#fall of stormwind
+country_event = {
+	id = blackrock.11
+	title = blackrock.11.t
+	desc = blackrock.11.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.11.option.1
+	}
+}
+
+#black tooth grin refuses annex
+country_event = {
+	id = blackrock.12
+	title = blackrock.12.t
+	desc = blackrock.12.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.12.option.1
+	}
+}
+
+#call draenor clans to war
+country_event = {
+	id = blackrock.13
+	title = blackrock.13.t
+	desc = blackrock.13.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.13.option.1
+		every_country = {
+			limit = {
+				AND = {
+					OR = {
+						has_idea = orc_primary_race
+						has_idea = ogre_primary_race
+					}
+					NOT = {
+						AND = {
+							is_in_faction_with = BRC
+							tag = BRC
+						}
+					}
+				}
+			}
+			country_event = blackrock.14
+		}
+	}
+}
+
+#draenor clans event
+country_event = {
+	id = blackrock.14
+	title = blackrock.14.t
+	desc = blackrock.14.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	option = {
+		name = blackrock.14.option.1
+		BRC = {
+			add_to_faction = ROOT
+		}
+		if = {
+			limit = {
+				BRC = {
+					has_government = fel
+				}
+			}
+			set_politics = {
+				ruling_party = fel
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = fel
+				popularity = 1
+			}
+		}
+		if = {
+			limit = {
+				BRC = {
+					has_government = horde
+				}
+			}
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+		}
+	}
+	option = {
+		name = blackrock.14.option.2
+	}
+}
+
+#ban fel magic
+country_event = {
+	id = blackrock.15
+	title = blackrock.15.t
+	desc = blackrock.15.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.15.option.1
+		remove_ideas = primary_religion_demonology
+		remove_ideas = secondary_religion_necrolytes
+		add_ideas = primary_religion_necrolytes
+		every_country = {
+			if = {
+				limit = {
+					AND = {
+						is_in_faction_with = BRC
+						OR = {
+							has_idea = primary_religion_demonology
+							has_idea = secondary_religion_demonology
+						}
+					}
+				}
+				country_event = blackrock.16
+			}
+		}
+	}
+}
+
+#ban fel magic recieve event
+country_event = {
+	id = blackrock.16
+	title = blackrock.16.t
+	desc = blackrock.16.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.16.option.1
+		if = {
+			limit = {
+				OR = {
+					has_idea = primary_religion_demonology
+					has_idea = secondary_religion_demonology
+				}
+			}
+			remove_ideas = primary_religion_demonology
+			remove_ideas = secondary_religion_necrolytes
+			add_ideas = primary_religion_necrolytes
+		}
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = -100
+				tag = TSC
+			}
+			modifier = {
+				factor = -100
+				tag = THC
+			}
+		}
+	}
+	option = {
+		name = blackrock.16.option.2
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 100
+				tag = TSC
+			}
+			modifier = {
+				factor = 100
+				tag = THC
+			}
+		}
+	}
+}
+
+#shadow council gives land in blased lands
+country_event = {
+	id = blackrock.17
+	title = blackrock.17.t
+	desc = blackrock.17.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.17.option.1
+		transfer_state = 378
+		transfer_state = 379
+		transfer_state = 784
+		378 = {
+			add_core_of = BRC
+			remove_core_of = TSC
+		}
+		379 = {
+			add_core_of = BRC
+			remove_core_of = TSC
+		}
+		784 = {
+			add_core_of = BRC
+			remove_core_of = TSC
+		}
+	}
+}
+
+#MokGora historical
+country_event = {
+	id = blackrock.18
+	title = blackrock.18.t
+	desc = blackrock.18.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.18.option.1
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = BRC
+				}
+				country_event = blackrock.19
+			}
+		}
+	}
+}
+
+#Doomhammer wins Mok'Gora
+country_event = {
+	id = blackrock.19
+	title = blackrock.19.t
+	desc = blackrock.19.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.19.option.1
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Warchief Ogrim Doomhammer "
+			desc = "POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC"
+			picture = "Ogrim_Doomhammer.dds"
+			expire = "1965.1.1"
+			ideology = horde_type
+			traits = {
+				tactical_genius_trait
+			}
+		}
+		set_politics = {
+			ruling_party = horde
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = horde
+			popularity = 1
+		}
+		remove_ideas = {
+			BRC_ogrim_doomhammer
+		}
+		set_country_flag = doomhammers_horde
+		every_country = {
+			limit = {
+				is_in_faction_with = BRC
+				NOT = {
+					tag = BRC
+				}
+			}
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+		}
+	}
+}
+
+#take over the spire
+country_event = {
+	id = blackrock.20
+	title = blackrock.20.t
+	desc = blackrock.20.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.20.option.1
+		BRC = {
+			transfer_state = 524
+			transfer_state = 807
+			transfer_state = 658
+			set_capital = 524
+		}
+		524 = {
+			add_core_of = BRC
+			remove_core_of = TSC
+		}
+		807 = {
+			add_core_of = BRC
+			remove_core_of = TSC
+		}
+		658 = {
+			add_core_of = BRC
+			remove_core_of = TSC
+		}
+		SRC = {
+			country_event = stormreaver.1
+		}
+	}
+}
+
+#deal with the tarde prince
+country_event = {
+	id = blackrock.21
+	title = blackrock.21.t
+	desc = blackrock.21.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.21.option.1
+		STC = {
+			country_event = steamwheedle.1
+		}
+	}
+}
+
+#dark iron accepts alliance
+country_event = {
+	id = blackrock.22
+	title = blackrock.22.t
+	desc = blackrock.22.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.22.option.1
+	}
+}
+
+#dark iron rejects alliance
+country_event = {
+	id = blackrock.23
+	title = blackrock.23.t
+	desc = blackrock.23.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.24.option.1
+	}
+}
+
+#frostmane accepts alliance
+country_event = {
+	id = blackrock.24
+	title = blackrock.24.t
+	desc = blackrock.24.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.24.option.1
+	}
+}
+
+#frostmane rejects alliance
+country_event = {
+	id = blackrock.25
+	title = blackrock.25.t
+	desc = blackrock.25.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.25.option.1
+	}
+}
+
+#grant ogres autonomy
+country_event = {
+	id = blackrock.26
+	title = blackrock.26.t
+	desc = blackrock.26.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.26.option.1
+		DRM = {
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+			transfer_state = 543
+			transfer_state = 567
+			567 = {
+				add_core_of = DRM
+			}
+		}
+		BRC = {
+			puppet = DRM
+		}
+	}
+}
+
+#distribute lands
+country_event = {
+	id = blackrock.27
+	title = blackrock.27.t
+	desc = blackrock.27.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.27.option.1
+		THC = {
+			transfer_state = 347
+			transfer_state = 327
+			transfer_state = 666
+			transfer_state = 349
+			transfer_state = 353
+			transfer_state = 354
+			transfer_state = 355
+			transfer_state = 356
+			transfer_state = 357
+			transfer_state = 39
+			transfer_state = 358
+			transfer_state = 359
+			if = {
+				limit = {
+					BRC = {
+						controls_state = 1175
+					}
+				}
+				transfer_state = 1175
+				1175 = {
+					add_core_of = THC
+				}
+			}
+			347 = {
+				add_core_of = THC
+			}
+			327 = {
+				add_core_of = THC
+			}
+			66 = {
+				add_core_of = THC
+			}
+			349 = {
+				add_core_of = THC
+			}
+			353 = {
+				add_core_of = THC
+			}
+			354 = {
+				add_core_of = THC
+			}
+			355 = {
+				add_core_of = THC
+			}
+			356 = {
+				add_core_of = THC
+			}
+			357 = {
+				add_core_of = THC
+			}
+			358 = {
+				add_core_of = THC
+			}
+			359 = {
+				add_core_of = THC
+			}
+			310 = {
+				add_core_of = THC
+			}
+			set_capital = 327
+			BBC = {
+				transfer_state = 806
+				transfer_state = 540
+				transfer_state = 539
+				transfer_state = 538
+				transfer_state = 536
+				transfer_state = 533
+				806 = {
+					add_core_of = BBC
+				}
+				540 = {
+					add_core_of = BBC
+				}
+				539 = {
+					add_core_of = BBC
+				}
+				538 = {
+					add_core_of = BBC
+				}
+				536 = {
+					add_core_of = BBC
+				}
+				533 = {
+					add_core_of = BBC
+				}
+				72 = {
+					add_core_of = BBC
+				}
+				655 = {
+					add_core_of = BBC
+				}
+				537 = {
+					add_core_of = BBC
+				}
+				530 = {
+					add_core_of = BBC
+				}
+				529 = {
+					add_core_of = BBC
+				}
+				531 = {
+					add_core_of = BBC
+				}
+				371 = {
+					add_core_of = BBC
+				}
+				526 = {
+					add_core_of = BBC
+				}
+				527 = {
+					add_core_of = BBC
+				}
+				535 = {
+					add_core_of = BBC
+				}
+				460 = {
+					add_core_of = BBC
+				}
+				534 = {
+					add_core_of = BBC
+				}
+			}
+			BTG = {
+				transfer_state = 785
+				transfer_state = 381
+				transfer_state = 382
+				transfer_state = 383
+				transfer_state = 387
+				transfer_state = 388
+				transfer_state = 390
+				transfer_state = 391
+				transfer_state = 788
+				transfer_state = 393
+				transfer_state = 392
+				transfer_state = 394
+				transfer_state = 74
+				transfer_state = 384
+				transfer_state = 386
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 784
+				785 = {
+					add_core_of = BTG
+				}
+				381 = {
+					add_core_of = BTG
+				}
+				382 = {
+					add_core_of = BTG
+				}
+				383 = {
+					add_core_of = BTG
+				}
+				387 = {
+					add_core_of = BTG
+				}
+				388 = {
+					add_core_of = BTG
+				}
+				390 = {
+					add_core_of = BTG
+				}
+				391 = {
+					add_core_of = BTG
+				}
+				788 = {
+					add_core_of = BTG
+				}
+				393 = {
+					add_core_of = BTG
+				}
+				392 = {
+					add_core_of = BTG
+				}
+				394 = {
+					add_core_of = BTG
+				}
+				74 = {
+					add_core_of = BTG
+				}
+				384 = {
+					add_core_of = BTG
+				}
+				386 = {
+					add_core_of = BTG
+				}
+				378 = {
+					add_core_of = BTG
+				}
+				379 = {
+					add_core_of = BTG
+				}
+				380 = {
+					add_core_of = BTG
+				}
+				784 = {
+					add_core_of = BTG
+				}
+			}
+			BHC = {
+				461 = {
+					add_core_of = BHC
+				}
+				679 = {
+					add_core_of = BHC
+				}
+				462 = {
+					add_core_of = BHC
+				}
+				464 = {
+					add_core_of = BHC
+				}
+				678 = {
+					add_core_of = BHC
+				}
+				467 = {
+					add_core_of = BHC
+				}
+				468 = {
+					add_core_of = BHC
+				}
+				469 = {
+					add_core_of = BHC
+				}
+				470 = {
+					add_core_of = BHC
+				}
+				465 = {
+					add_core_of = BHC
+				}
+				466 = {
+					add_core_of = BHC
+				}
+				454 = {
+					add_core_of = BHC
+				}
+				37 = {
+					add_core_of = BHC
+				}
+				471 = {
+					add_core_of = BHC
+				}
+				472 = {
+					add_core_of = BHC
+				}
+				473 = {
+					add_core_of = BHC
+				}
+				474 = {
+					add_core_of = BHC
+				}
+			}
+			DMC = {
+				171 = {
+					add_core_of = DMC
+				}
+				502 = {
+					add_core_of = DMC
+				}
+				501 = {
+					add_core_of = DMC
+				}
+				518 = {
+					add_core_of = DMC
+				}
+				519 = {
+					add_core_of = DMC
+				}
+				516 = {
+					add_core_of = DMC
+				}
+				517 = {
+					add_core_of = DMC
+				}
+				521 = {
+					add_core_of = DMC
+				}
+				522 = {
+					add_core_of = DMC
+				}
+				453 = {
+					add_core_of = DMC
+				}
+				75 = {
+					add_core_of = DMC
+				}
+				520 = {
+					add_core_of = DMC
+				}
+				515 = {
+					add_core_of = DMC
+				}
+				508 = {
+					add_core_of = DMC
+				}
+				509 = {
+					add_core_of = DMC
+				}
+			}
+		}
+	}
+}
+
+#dreadmaul juggernaughts
+country_event = {
+	id = blackrock.28
+	title = blackrock.28.t
+	desc = blackrock.28.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.28.option.1
+		load_oob = "BRC_dreadmaul_juggernauts"
+	}
+}
+
+#steamwheedle battleships
+country_event = {
+	id = blackrock.29
+	title = blackrock.29.t
+	desc = blackrock.29.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.29.option.1
+		load_oob = "BRC_steamwheedle_battleships"
+	}
+}
+
+#frostmane destroyers
+country_event = {
+	id = blackrock.30
+	title = blackrock.30.t
+	desc = blackrock.30.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.30.option.1
+		load_oob = "BRC_frostmane_destroyers"
+	}
+}
+
+#a home in the spire
+country_event = {
+	id = blackrock.31
+	title = blackrock.31.t
+	desc = blackrock.31.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.31.option.1
+		add_state_core = 28
+		add_state_core = 73
+		add_state_core = 523
+		add_state_core = 524
+		add_state_core = 525
+		add_state_core = 533
+		add_state_core = 536
+		add_state_core = 538
+		add_state_core = 539
+		add_state_core = 540
+		add_state_core = 542
+		add_state_core = 543
+		add_state_core = 544
+		add_state_core = 546
+		add_state_core = 548
+		add_state_core = 551
+		add_state_core = 554
+		add_state_core = 556
+		add_state_core = 557
+		add_state_core = 558
+		add_state_core = 559
+		add_state_core = 560
+		add_state_core = 561
+		add_state_core = 562
+		add_state_core = 563
+		add_state_core = 564
+		add_state_core = 565
+		add_state_core = 567
+		add_state_core = 570
+		add_state_core = 571
+		add_state_core = 572
+		add_state_core = 657
+		add_state_core = 658
+		add_state_core = 662
+		add_state_core = 663
+		add_state_core = 775
+		add_state_core = 776
+		add_state_core = 781
+		add_state_core = 786
+		add_state_core = 801
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 804
+		add_state_core = 805
+		add_state_core = 806
+		add_state_core = 807
+		set_capital = 524
+	}
+}
+
+#under a single banner
+country_event = {
+	id = blackrock.32
+	title = blackrock.32.t
+	desc = blackrock.32.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.32.option.1
+		set_cosmetic_tag = BRC_the_Horde
+		every_other_country = {
+			limit = {
+				AND = {
+					is_in_faction_with = BRC
+					is_puppet = no
+				}
+			}
+			country_event = {
+				id = blackrock.42
+				days = 1
+			}
+		}
+	}
+}
+
+#deal_with_alterac
+country_event = {
+	id = blackrock.33
+	title = blackrock.33.t
+	desc = blackrock.33.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.33.option.1
+		ALT = {
+			country_event = alterac.4
+		}
+	}
+}
+
+#tyrs hand revolt
+country_event = {
+	id = blackrock.34
+	title = blackrock.34.t
+	desc = blackrock.34.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.34.option.1
+		LOR = {
+			country_event = lordaeron.4
+		}
+		TYR = {
+			transfer_state = 30
+			transfer_state = 226
+			transfer_state = 227
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+			set_politics = {
+				ruling_party = horde
+			}
+			load_oob = "TYR_tyrs_hand_revolt"
+			declare_war_on = {
+				target = LOR
+				type = annex_everything
+			}
+		}
+		BRC = {
+			add_to_faction = TYR
+		}
+	}
+}
+
+#alterac joins horde
+country_event = {
+	id = blackrock.35
+	title = blackrock.35.t
+	desc = blackrock.35.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.35.option.1
+		ALT = {
+			country_event = alterac.3
+			leave_faction = yes
+			declare_war_on = {
+				target = LOR
+				type = annex_everything
+			}
+		}
+		BRC = {
+			add_to_faction = ALT
+		}
+	}
+}
+
+#deal with the amani
+country_event = {
+	id = blackrock.36
+	title = blackrock.36.t
+	desc = blackrock.36.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.36.option.1
+		#send event to ask to join the horde
+		AMA = {
+			country_event = blackrock.43
+		}
+		VIL = {
+			country_event = blackrock.43
+		}
+		WBT = {
+			country_event = blackrock.43
+		}
+	}
+}
+
+#amani frigates
+country_event = {
+	id = blackrock.37
+	title = blackrock.37.t
+	desc = blackrock.37.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.37.option.1
+		load_oob = "BRC_amani_frigates"
+	}
+}
+
+#tolbarad invasion
+country_event = {
+	id = blackrock.38
+	title = blackrock.38.t
+	desc = blackrock.38.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.38.option.1
+		load_oob = "BRC_tol_barad_invasion"
+	}
+}
+
+#invasion of hillsbrad
+country_event = {
+	id = blackrock.39
+	title = blackrock.39.t
+	desc = blackrock.39.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.39.option.1
+		load_oob = "BRC_hillsbrad_invasion"
+	}
+}
+
+#alterac accepts
+country_event = {
+	id = blackrock.40
+	title = blackrock.40.t
+	desc = blackrock.40.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.40.option.1
+		set_country_flag = alterac_will_join_horde
+	}
+}
+
+#alterac refuses
+country_event = {
+	id = blackrock.41
+	title = blackrock.41.t
+	desc = blackrock.41.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = blackrock.41.option.1
+	}
+}
+
+#blackhands make united horde (sent to Horde members when blackrock.32 is triggered)
+country_event = {
+	id = blackrock.42
+	title = blackrock.42.t
+	desc = blackrock.42.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	#accepts
+	option = {
+		name = blackrock.42.option.1
+		BRC = {
+			puppet = ROOT
+		}
+	}
+	#refuses
+	option = {
+		name = blackrock.42.option.2
+		leave_faction = yes
+		declare_war_on = {
+			target = BRC
+			type = annex_everything
+		}
+	}
+}
+
+#deal with Amani (sent to AMA / VIL / WBT when blackrock.36 is triggered)
+country_event = {
+	id = blackrock.43
+	title = blackrock.43.t
+	desc = blackrock.43.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	#accepts
+	option = {
+		name = blackrock.43.option.1
+		leave_faction = yes
+		declare_war_on = {
+			target = LOR
+			type = annex_everything
+		}
+		BRC = {
+			add_to_faction = ROOT
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 110
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	#refuses
+	option = {
+		name = blackrock.43.option.2
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = -110
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

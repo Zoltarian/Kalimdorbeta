@@ -1,0 +1,224 @@
+﻿division_template = {
+	name = "Bleeding Hollow Grunts"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bleeding Hollow Spearman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bleeding Hollow Archers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bleeding Hollow Catapults"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		catapult = { x = 1 y = 0 }
+		catapult = { x = 1 y = 1 }
+		catapult = { x = 2 y = 0 }
+		catapult = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st Bleeding Hollow Grunts"
+		location = 1013
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bleeding Hollow Grunts"
+		location = 1013
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bleeding Hollow Grunts"
+		location = 996
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bleeding Hollow Grunts"
+		location = 1036
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "5th Bleeding Hollow Grunts"
+		location = 3583
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Bleeding Hollow Grunts"
+		location = 3504
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "7th Bleeding Hollow Grunts"
+		location = 3583
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Bleeding Hollow Grunts"
+		location = 3503
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "9th Bleeding Hollow Grunts"
+		location = 5877
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "10th Bleeding Hollow Grunts"
+		location = 6105
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "11th Bleeding Hollow Grunts"
+		location = 1031
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "12th Bleeding Hollow Grunts"
+		location = 3519
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "13th Bleeding Hollow Grunts"
+		location = 3495
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "14th Bleeding Hollow Grunts"
+		location = 5876
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "15th Bleeding Hollow Grunts"
+		location = 3488
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "16th Bleeding Hollow Grunts"
+		location = 6285
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "17th Bleeding Hollow Grunts"
+		location = 1031
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "1st Bleeding Hollow Spearman"
+		location = 1013
+		division_template = "Bleeding Hollow Spearman"
+		start_experience_factor = 0.2
+		}	
+	division = {
+		name = "2nd Bleeding Hollow Spearman"
+		location = 3582
+		division_template = "Bleeding Hollow Spearman"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "3rd Bleeding Hollow Spearman"
+		location = 3581
+		division_template = "Bleeding Hollow Spearman"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "4th Bleeding Hollow Spearman"
+		location = 3571
+		division_template = "Bleeding Hollow Spearman"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "5th Bleeding Hollow Spearman"
+		location = 6285
+		division_template = "Bleeding Hollow Spearman"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "1st Bleeding Hollow Archers"
+		location = 1013
+		division_template = "Bleeding Hollow Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bleeding Hollow Archers"
+		location = 5896
+		division_template = "Bleeding Hollow Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bleeding Hollow Archers"
+		location = 3567
+		division_template = "Bleeding Hollow Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bleeding Hollow Archers"
+		location = 3510
+		division_template = "Bleeding Hollow Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Bleeding Hollow Archers"
+		location = 996
+		division_template = "Bleeding Hollow Archers"
+		start_experience_factor = 0.2
+	}		
+	division = {
+		name = "1st Bleeding Hollow Catapults"
+		location = 1013
+		division_template = "Bleeding Hollow Catapults"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bleeding Hollow Catapults"
+		location = 1031
+		division_template = "Bleeding Hollow Catapults"
+		start_experience_factor = 0.2
+	}
+}

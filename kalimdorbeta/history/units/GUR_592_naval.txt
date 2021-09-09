@@ -1,0 +1,31 @@
+﻿units = {
+
+	### Naval OOB ###
+		fleet = {				
+		name = "Gurubashi Fleet"			
+		naval_base = 2714
+		task_force = {
+			name = "Gurubashi Fleet"			
+			location = 2714 #Zuuldaia
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

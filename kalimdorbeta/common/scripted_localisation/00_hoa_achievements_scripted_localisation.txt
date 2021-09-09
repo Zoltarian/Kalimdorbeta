@@ -1,0 +1,1016 @@
+# Title of Achievement
+defined_text = {
+	name = GetAchievementTitle
+
+	# Achievements:
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = ACHIEVEMENT_1
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = ACHIEVEMENT_2
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = ACHIEVEMENT_3
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = ACHIEVEMENT_4
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = ACHIEVEMENT_5
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = ACHIEVEMENT_6
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = ACHIEVEMENT_7
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = ACHIEVEMENT_8
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }
+		}
+		localization_key = ACHIEVEMENT_9
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 10 }
+		}
+		localization_key = ACHIEVEMENT_10
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 11 }
+		}
+		localization_key = ACHIEVEMENT_11
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 12 }
+		}
+		localization_key = ACHIEVEMENT_12
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 13 }
+		}
+		localization_key = ACHIEVEMENT_13
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 14 }
+		}
+		localization_key = ACHIEVEMENT_14
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 15 }
+		}
+		localization_key = ACHIEVEMENT_15
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 16 }
+		}
+		localization_key = ACHIEVEMENT_16
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 17 }
+		}
+		localization_key = ACHIEVEMENT_17
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 18 }
+		}
+		localization_key = ACHIEVEMENT_18
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 19 }
+		}
+		localization_key = ACHIEVEMENT_19
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 20 }
+		}
+		localization_key = ACHIEVEMENT_20
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 21 }
+		}
+		localization_key = ACHIEVEMENT_21
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 22 }
+		}
+		localization_key = ACHIEVEMENT_22
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 23 }
+		}
+		localization_key = ACHIEVEMENT_23
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 24 }
+		}
+		localization_key = ACHIEVEMENT_24
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 25 }
+		}
+		localization_key = ACHIEVEMENT_25
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 26 }
+		}
+		localization_key = ACHIEVEMENT_26
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 27 }
+		}
+		localization_key = ACHIEVEMENT_27
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 28 }
+		}
+		localization_key = ACHIEVEMENT_28
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 29 }
+		}
+		localization_key = ACHIEVEMENT_29
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 30 }
+		}
+		localization_key = ACHIEVEMENT_30
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 31 }
+		}
+		localization_key = ACHIEVEMENT_31
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 32 }
+		}
+		localization_key = ACHIEVEMENT_32
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 33 }
+		}
+		localization_key = ACHIEVEMENT_33
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 34 }
+		}
+		localization_key = ACHIEVEMENT_34
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 35 }
+		}
+		localization_key = ACHIEVEMENT_35
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 36 }
+		}
+		localization_key = ACHIEVEMENT_36
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 37 }
+		}
+		localization_key = ACHIEVEMENT_37
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 38 }
+		}
+		localization_key = ACHIEVEMENT_38
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 39 }
+		}
+		localization_key = ACHIEVEMENT_39
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 40 }
+		}
+		localization_key = ACHIEVEMENT_40
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 41 }
+		}
+		localization_key = ACHIEVEMENT_41
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 42 }
+		}
+		localization_key = ACHIEVEMENT_42
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 43 }
+		}
+		localization_key = ACHIEVEMENT_43
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 44 }
+		}
+		localization_key = ACHIEVEMENT_44
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 45 }
+		}
+		localization_key = ACHIEVEMENT_45
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 46 }
+		}
+		localization_key = ACHIEVEMENT_46
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 47 }
+		}
+		localization_key = ACHIEVEMENT_47
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 48 }
+		}
+		localization_key = ACHIEVEMENT_48
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 49 }
+		}
+		localization_key = ACHIEVEMENT_49
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 50 }
+		}
+		localization_key = ACHIEVEMENT_50
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 51 }
+		}
+		localization_key = ACHIEVEMENT_51
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 52 }
+		}
+		localization_key = ACHIEVEMENT_52
+	}
+
+	# Fallback:
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "Unknown Achievement"
+	}
+}
+
+# Desc of Achievement
+defined_text = {
+	name = GetAchievementDesc
+
+	# Achievements:
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = ACHIEVEMENT_1_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = ACHIEVEMENT_2_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = ACHIEVEMENT_3_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = ACHIEVEMENT_4_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = ACHIEVEMENT_5_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = ACHIEVEMENT_6_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = ACHIEVEMENT_7_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = ACHIEVEMENT_8_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }
+		}
+		localization_key = ACHIEVEMENT_9_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 10 }
+		}
+		localization_key = ACHIEVEMENT_10_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 11 }
+		}
+		localization_key = ACHIEVEMENT_11_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 12 }
+		}
+		localization_key = ACHIEVEMENT_12_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 13 }
+		}
+		localization_key = ACHIEVEMENT_13_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 14 }
+		}
+		localization_key = ACHIEVEMENT_14_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 15 }
+		}
+		localization_key = ACHIEVEMENT_15_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 16 }
+		}
+		localization_key = ACHIEVEMENT_16_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 17 }
+		}
+		localization_key = ACHIEVEMENT_17_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 18 }
+		}
+		localization_key = ACHIEVEMENT_18_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 19 }
+		}
+		localization_key = ACHIEVEMENT_19_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 20 }
+		}
+		localization_key = ACHIEVEMENT_20_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 21 }
+		}
+		localization_key = ACHIEVEMENT_21_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 22 }
+		}
+		localization_key = ACHIEVEMENT_22_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 23 }
+		}
+		localization_key = ACHIEVEMENT_23_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 24 }
+		}
+		localization_key = ACHIEVEMENT_24_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 25 }
+		}
+		localization_key = ACHIEVEMENT_25_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 26 }
+		}
+		localization_key = ACHIEVEMENT_26_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 27 }
+		}
+		localization_key = ACHIEVEMENT_27_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 28 }
+		}
+		localization_key = ACHIEVEMENT_28_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 29 }
+		}
+		localization_key = ACHIEVEMENT_29_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 30 }
+		}
+		localization_key = ACHIEVEMENT_30_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 31 }
+		}
+		localization_key = ACHIEVEMENT_31_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 32 }
+		}
+		localization_key = ACHIEVEMENT_32_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 33 }
+		}
+		localization_key = ACHIEVEMENT_33_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 34 }
+		}
+		localization_key = ACHIEVEMENT_34_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 35 }
+		}
+		localization_key = ACHIEVEMENT_35_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 36 }
+		}
+		localization_key = ACHIEVEMENT_36_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 37 }
+		}
+		localization_key = ACHIEVEMENT_37_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 38 }
+		}
+		localization_key = ACHIEVEMENT_38_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 39 }
+		}
+		localization_key = ACHIEVEMENT_39_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 40 }
+		}
+		localization_key = ACHIEVEMENT_40_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 41 }
+		}
+		localization_key = ACHIEVEMENT_41_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 42 }
+		}
+		localization_key = ACHIEVEMENT_42_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 43 }
+		}
+		localization_key = ACHIEVEMENT_43_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 44 }
+		}
+		localization_key = ACHIEVEMENT_44_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 45 }
+		}
+		localization_key = ACHIEVEMENT_45_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 46 }
+		}
+		localization_key = ACHIEVEMENT_46_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 47 }
+		}
+		localization_key = ACHIEVEMENT_47_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 48 }
+		}
+		localization_key = ACHIEVEMENT_48_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 49 }
+		}
+		localization_key = ACHIEVEMENT_49_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 50 }
+		}
+		localization_key = ACHIEVEMENT_50_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 51 }
+		}
+		localization_key = ACHIEVEMENT_51_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 52 }
+		}
+		localization_key = ACHIEVEMENT_52_DESC
+	}
+
+	# Fallback:
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "Unknown Achievement"
+	}
+}
+
+# Icon of Achievement
+defined_text = {
+	name = GetAchievementIcon
+
+	# Achievements:
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "GFX_achievement_icon_1"
+	}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 2 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_2"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 3 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_3"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 4 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_4"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 5 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_5"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 6 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_6"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 7 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_7"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 8 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_8"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 9 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_9"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 10 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_10"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 11 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_11"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 12 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_12"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 13 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_13"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 14 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_14"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 15 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_15"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 16 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_16"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 17 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_17"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 18 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_18"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 19 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_19"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 20 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_20"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 21 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_21"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 22 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_22"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 23 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_23"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 24 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_24"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 25 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_25"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 26 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_26"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 27 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_27"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 28 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_28"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 29 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_29"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 30 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_30"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 31 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_31"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 32 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_32"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 33 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_33"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 34 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_34"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 35 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_35"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 36 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_36"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 37 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_37"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 38 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_38"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 39 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_39"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 40 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_40"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 41 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_41"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 42 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_42"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 43 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_43"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 44 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_44"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 45 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_45"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 46 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_46"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 47 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_47"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 48 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_48"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 49 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_49"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 50 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_50"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 51 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_51"
+	#}
+	#text = {
+	#	trigger = {
+	#		check_variable = { v = 52 }
+	#	}
+	#	localization_key = "GFX_achievement_icon_52"
+	#}
+
+	# Fallback:
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "GFX_unknown_achievement_icon"
+	}
+}
+
+# Unlock Date of Achievement
+defined_text = {
+	name = GetAchievementUnlockDate
+
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = {
+					set_temp_variable = { achievement_unlock_date = unlock_date_achievements_[ENTRY] }
+				}
+				ENTRY = "[?v]"
+			}
+			always = yes
+		}
+		localization_key = "[?achievement_unlock_date.GetDateStringNoHourLong]"
+	}
+}
+
+# Debug Info about Achievements
+defined_text = {
+	name = GetAchievementDebugInfo
+
+	text = {
+		trigger = {
+			is_debug = yes
+		}
+		localization_key = string_achievement_debug_info_tt
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = ""
+	}
+}

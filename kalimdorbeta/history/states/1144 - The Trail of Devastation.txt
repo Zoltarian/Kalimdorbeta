@@ -1,0 +1,30 @@
+
+state={
+	id=1144
+	name="STATE_1144"
+	resources = {
+		oil=7
+		ores=1
+	}
+
+	history={
+		owner = ULD
+		victory_points = {
+			11760 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = ULD
+
+	}
+
+	provinces={
+		823 11757 11758 11760 11762 11763
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

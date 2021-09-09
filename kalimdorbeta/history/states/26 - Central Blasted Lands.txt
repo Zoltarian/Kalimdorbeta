@@ -1,0 +1,37 @@
+
+state={
+	id=26
+	name="STATE_26"
+	resources={
+		ores=4.000
+	}
+
+	history={
+		
+		add_core_of = BTG
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+		}
+	}
+
+	provinces={
+		136 2864 2878 2881 2883 2888 5329 5334 5344 6934
+	}
+	manpower=29250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

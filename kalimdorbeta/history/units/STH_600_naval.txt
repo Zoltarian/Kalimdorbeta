@@ -1,0 +1,79 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Stratholme Fleet"			
+		naval_base = 5870
+		task_force = {
+			name = "Stratholme Fleet"			
+			location = 5870 #stratholme
+			
+			ship = {
+				name = "1st Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1 owner = STH } }
+			}
+			
+			ship = {
+				name = "2nd Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1 owner = STH } }
+			}
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = STH } }
+			}
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = STH } }
+			}
+		}
+	}
+	fleet = {				
+		name = "Eastern Fleet"			
+		naval_base = 3031
+		task_force = {
+			name = "Eastern Fleet"			
+			location = 3031 #stratholme
+			
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = STH } }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = STH } }
+			}
+			ship = {
+				name = "3rd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = STH } }
+			}
+			ship = {
+				name = "3rd Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1 owner = STH } }
+			}
+		}
+	}
+}

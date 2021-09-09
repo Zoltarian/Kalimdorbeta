@@ -1,0 +1,623 @@
+
+buildmacro_infrastructure = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = infrastructure
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_arms_factory = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = arms_factory
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_industrial_complex = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = industrial_complex
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_air_base = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = air_base
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = air_base
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_mage_tower = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = arcane_tower
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = mage_tower
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_sulfur_mine = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = sulfur_mine
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = sulfur_mine
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_stable = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = stable
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = stable
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_dockyard = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = dockyard
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_anti_air_building = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = anti_air_building
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = anti_air_building
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_radar_station = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = radar_station
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = radar_station
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_nuclear_reactor = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = nuclear_reactor
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = nuclear_reactor
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_synthetic_refinery = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = synthetic_refinery
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = synthetic_refinery
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_lumber_mill = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = lumber_mill
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = lumber_mill
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+ 
+buildmacro_iron_mine = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = iron_mine
+				size > 0
+				include_locked = yes
+			}
+			
+			is_in_home_area = yes
+			
+			NOT = { has_state_category = building_slots_0 } #Ususally impassable terrain
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = iron_mine
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+get_best_alliance_match_alliance_effect = { 
+	set_temp_variable = { best_leader = 0 }
+	set_temp_variable = { best_leader_score = 0 }
+	if = {
+		limit = {
+			all_other_country = {
+				is_faction_leader = yes
+				is_major = yes
+				has_government = alliance
+				not = { has_war_with = ROOT }
+				set_temp_variable = { this.leader_score = num_of_factories }
+				add_to_temp_variable = { this.leader_score = num_battalions }
+				all_of_scopes = {
+					array = allies
+					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+					add_to_temp_variable = { PREV.leader_score = num_battalions }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							is_on_continent = ROOT
+						}
+					}
+					multiply_temp_variable = { leader_score = 2 }
+				}
+				if = {
+					limit = {
+						any_neighbor_country = { tag = ROOT }
+					}
+					multiply_temp_variable = { leader_score = 1.25 }
+				}
+				if = {
+					limit = {
+						check_variable = { ROOT.best_leader_score < leader_score }
+						set_temp_variable = { ROOT.best_leader = this }
+						set_temp_variable = { ROOT.best_leader_score = leader_score }
+					}
+				}
+			}
+		}
+	}		
+}
+
+get_best_alliance_match_horde_effect = { 
+	set_temp_variable = { best_leader = 0 }
+	set_temp_variable = { best_leader_score = 0 }
+	if = {
+		limit = {
+			all_other_country = {
+				is_faction_leader = yes
+				is_major = yes
+				has_government = horde
+				not = { has_war_with = ROOT }
+				set_temp_variable = { this.leader_score = num_of_factories }
+				add_to_temp_variable = { this.leader_score = num_battalions }
+				all_of_scopes = {
+					array = allies
+					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+					add_to_temp_variable = { PREV.leader_score = num_battalions }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							is_on_continent = ROOT
+						}
+					}
+					multiply_temp_variable = { leader_score = 2 }
+				}
+				if = {
+					limit = {
+						any_neighbor_country = { tag = ROOT }
+					}
+					multiply_temp_variable = { leader_score = 1.25 }
+				}
+				if = {
+					limit = {
+						check_variable = { ROOT.best_leader_score < leader_score }
+						set_temp_variable = { ROOT.best_leader = this }
+						set_temp_variable = { ROOT.best_leader_score = leader_score }
+					}
+				}
+			}
+		}
+	}		
+}
+
+get_best_alliance_match_fel_effect = { 
+	set_temp_variable = { best_leader = 0 }
+	set_temp_variable = { best_leader_score = 0 }
+	if = {
+		limit = {
+			all_other_country = {
+				is_faction_leader = yes
+				is_major = yes
+				has_government = fel
+				not = { has_war_with = ROOT }
+				set_temp_variable = { this.leader_score = num_of_factories }
+				add_to_temp_variable = { this.leader_score = num_battalions }
+				all_of_scopes = {
+					array = allies
+					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+					add_to_temp_variable = { PREV.leader_score = num_battalions }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							is_on_continent = ROOT
+						}
+					}
+					multiply_temp_variable = { leader_score = 2 }
+				}
+				if = {
+					limit = {
+						any_neighbor_country = { tag = ROOT }
+					}
+					multiply_temp_variable = { leader_score = 1.25 }
+				}
+				if = {
+					limit = {
+						check_variable = { ROOT.best_leader_score < leader_score }
+						set_temp_variable = { ROOT.best_leader = this }
+						set_temp_variable = { ROOT.best_leader_score = leader_score }
+					}
+				}
+			}
+		}
+	}		
+}
+
+get_best_alliance_match_death_effect = { 
+	set_temp_variable = { best_leader = 0 }
+	set_temp_variable = { best_leader_score = 0 }
+	if = {
+		limit = {
+			all_other_country = {
+				is_faction_leader = yes
+				is_major = yes
+				has_government = death
+				not = { has_war_with = ROOT }
+				set_temp_variable = { this.leader_score = num_of_factories }
+				add_to_temp_variable = { this.leader_score = num_battalions }
+				all_of_scopes = {
+					array = allies
+					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+					add_to_temp_variable = { PREV.leader_score = num_battalions }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							is_on_continent = ROOT
+						}
+					}
+					multiply_temp_variable = { leader_score = 2 }
+				}
+				if = {
+					limit = {
+						any_neighbor_country = { tag = ROOT }
+					}
+					multiply_temp_variable = { leader_score = 1.25 }
+				}
+				if = {
+					limit = {
+						check_variable = { ROOT.best_leader_score < leader_score }
+						set_temp_variable = { ROOT.best_leader = this }
+						set_temp_variable = { ROOT.best_leader_score = leader_score }
+					}
+				}
+			}
+		}
+	}		
+}
+
+get_best_alliance_match_titans_effect = { 
+	set_temp_variable = { best_leader = 0 }
+	set_temp_variable = { best_leader_score = 0 }
+	if = {
+		limit = {
+			all_other_country = {
+				is_faction_leader = yes
+				is_major = yes
+				has_government = titans
+				not = { has_war_with = ROOT }
+				set_temp_variable = { this.leader_score = num_of_factories }
+				add_to_temp_variable = { this.leader_score = num_battalions }
+				all_of_scopes = {
+					array = allies
+					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+					add_to_temp_variable = { PREV.leader_score = num_battalions }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							is_on_continent = ROOT
+						}
+					}
+					multiply_temp_variable = { leader_score = 2 }
+				}
+				if = {
+					limit = {
+						any_neighbor_country = { tag = ROOT }
+					}
+					multiply_temp_variable = { leader_score = 1.25 }
+				}
+				if = {
+					limit = {
+						check_variable = { ROOT.best_leader_score < leader_score }
+						set_temp_variable = { ROOT.best_leader = this }
+						set_temp_variable = { ROOT.best_leader_score = leader_score }
+					}
+				}
+			}
+		}
+	}		
+}
+
+get_best_alliance_match_old_gods_effect = { 
+	set_temp_variable = { best_leader = 0 }
+	set_temp_variable = { best_leader_score = 0 }
+	if = {
+		limit = {
+			all_other_country = {
+				is_faction_leader = yes
+				is_major = yes
+				has_government = old_gods
+				not = { has_war_with = ROOT }
+				set_temp_variable = { this.leader_score = num_of_factories }
+				add_to_temp_variable = { this.leader_score = num_battalions }
+				all_of_scopes = {
+					array = allies
+					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+					add_to_temp_variable = { PREV.leader_score = num_battalions }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							is_on_continent = ROOT
+						}
+					}
+					multiply_temp_variable = { leader_score = 2 }
+				}
+				if = {
+					limit = {
+						any_neighbor_country = { tag = ROOT }
+					}
+					multiply_temp_variable = { leader_score = 1.25 }
+				}
+				if = {
+					limit = {
+						check_variable = { ROOT.best_leader_score < leader_score }
+						set_temp_variable = { ROOT.best_leader = this }
+						set_temp_variable = { ROOT.best_leader_score = leader_score }
+					}
+				}
+			}
+		}
+	}		
+}
+
+get_best_alliance_match_neutral_effect = { 
+	set_temp_variable = { best_leader = 0 }
+	set_temp_variable = { best_leader_score = 0 }
+	if = {
+		limit = {
+			all_other_country = {
+				is_faction_leader = yes
+				is_major = yes
+				has_government = neutral
+				not = { has_war_with = ROOT }
+				set_temp_variable = { this.leader_score = num_of_factories }
+				add_to_temp_variable = { this.leader_score = num_battalions }
+				all_of_scopes = {
+					array = allies
+					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+					add_to_temp_variable = { PREV.leader_score = num_battalions }
+				}
+				if = {
+					limit = {
+						capital_scope = {
+							is_on_continent = ROOT
+						}
+					}
+					multiply_temp_variable = { leader_score = 2 }
+				}
+				if = {
+					limit = {
+						any_neighbor_country = { tag = ROOT }
+					}
+					multiply_temp_variable = { leader_score = 1.25 }
+				}
+				if = {
+					limit = {
+						check_variable = { ROOT.best_leader_score < leader_score }
+						set_temp_variable = { ROOT.best_leader = this }
+						set_temp_variable = { ROOT.best_leader_score = leader_score }
+					}
+				}
+			}
+		}
+	}		
+}

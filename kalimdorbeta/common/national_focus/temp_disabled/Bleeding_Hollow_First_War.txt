@@ -1,0 +1,1077 @@
+focus_tree = {
+	id = bleeding_hollow_clan
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 50 y = 1200 }
+	
+	focus = {
+		id = BHC_kilroggs_vision
+		icon = GFX_goal_generic_secret_weapon
+		cost = 5.00
+		x = 14
+		y = 0
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = BHC_the_jungle_fortress
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		x = 2
+		y = 0
+		
+		available = {
+			405 = { is_owned_and_controlled_by = ROOT }
+		}
+		
+		bypass = {
+			NOT = {
+				405 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+
+		completion_reward = {
+		
+			405 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 948
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BHC_prepare_for_battle
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		cost = 5.00
+		x = 7
+		y = 0
+		
+		completion_reward = {
+		
+			army_experience = 15
+		
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = BHC_swamp_mines
+		icon = GFX_goal_generic_construction2
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_the_jungle_fortress
+		}
+		x = 0
+		y = 1
+		
+		available = {
+			404 = { is_owned_and_controlled_by = ROOT }
+			406 = { is_owned_and_controlled_by = ROOT }
+		}
+		
+		bypass = {
+			NOT = {
+				404 = { is_owned_and_controlled_by = ROOT }
+				406 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		
+		completion_reward = {
+		
+        	modify_building_resources = {
+        	   building = sulfur_mine
+        	   resource = gunpowder
+        	   amount = 1
+        	}
+        	modify_building_resources = {
+        	   building = iron_mine
+        	   resource = ores
+        	   amount = 1
+        	}
+		
+			404 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = iron_mine
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = iron_mine
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			406 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = iron_mine
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = iron_mine
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = BHC_pig_farms
+		icon = GFX_focus_generic_industry_1
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_the_jungle_fortress
+		}
+		available = {
+			407 = { is_owned_and_controlled_by = ROOT }
+			408 = { is_owned_and_controlled_by = ROOT }
+		}
+		
+		bypass = {
+			NOT = {
+				407 = { is_owned_and_controlled_by = ROOT }
+				408 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		x = 2
+		y = 1
+		completion_reward = {
+			407 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			408 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			add_tech_bonus = {
+				uses = 1
+				bonus = 0.2
+				category = agriculture_technology
+			}
+		}
+	}
+	focus = {
+		id = BHC_harvest_the_jungle
+		icon = GFX_goal_generic_soviet_construction
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_the_jungle_fortress
+		}
+		x = 4
+		y = 1
+		
+		available = {
+			407 = { is_owned_and_controlled_by = ROOT }
+			408 = { is_owned_and_controlled_by = ROOT }
+		}
+		
+		bypass = {
+			NOT = {
+				407 = { is_owned_and_controlled_by = ROOT }
+				408 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		
+		completion_reward = {
+		
+			407 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = lumber_mill
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = lumber_mill
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			408 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = lumber_mill
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = lumber_mill
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = BHC_develope_the_jungle
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_swamp_mines
+		}
+		prerequisite = {
+			focus = BHC_harvest_the_jungle
+		}
+		prerequisite = {
+			focus = BHC_pig_farms
+		}
+		available = {
+			403 = { is_owned_and_controlled_by = ROOT }
+			407 = { is_owned_and_controlled_by = ROOT }
+			408 = { is_owned_and_controlled_by = ROOT }
+		}
+		
+		bypass = {
+			NOT = {
+				403 = { is_owned_and_controlled_by = ROOT }
+				407 = { is_owned_and_controlled_by = ROOT }
+				408 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		x = 2
+		y = 2
+		completion_reward = {
+			403 = {
+				if = {
+					limit = { 
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			407 = {
+				if = {
+					limit = { 
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			408 = {
+				if = {
+					limit = { 
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = BHC_watch_towers
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_develope_the_jungle
+		}
+		available = {
+			403 = { is_owned_and_controlled_by = ROOT }
+		}
+		
+		bypass = {
+			NOT = {
+				403 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		x = 1
+		y = 3
+		completion_reward = {
+			403 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.25
+				category = guard_tower_technology
+			}
+		}
+	}
+	focus = {
+		id = BHC_bleeding_hollow_strongholds
+		icon = GFX_goal_generic_fortify_city
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_develope_the_jungle
+		}
+		x = 3
+		y = 3
+		completion_reward = {
+			add_ideas = BHC_stronghold_focus
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.01
+				category = town_hall_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_research_effort
+		icon = GFX_focus_research
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_watch_towers
+		}
+		prerequisite = {
+			focus = BHC_bleeding_hollow_strongholds
+		}
+		x = 2
+		y = 4
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = BHC_weapon_improvements
+		icon = GFX_focus_generic_combined_arms
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_prepare_for_battle
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.5
+				category = infantry_technology
+			}
+		}
+	}
+	focus = {
+		id = BHC_war_axes
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_weapon_improvements
+		}
+		prerequisite = {
+			focus = BHC_harvest_the_jungle
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			add_ideas = BHC_swords_focus
+		}
+	}
+	focus = {
+		id = BHC_improved_catapults
+		icon = GFX_goal_generic_army_artillery2
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_weapon_improvements
+		}
+		x = 7
+		y = 2
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = catapult_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = catapult_technology
+			}		
+		}
+	}
+	focus = {
+		id = BHC_improved_bows
+		icon = GFX_focus_generic_air_defense
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_prepare_for_battle
+		}
+		x = 9
+		y = 1
+		
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = archer_tech_bonus
+				bonus = 0.75
+				uses = 1
+				category = archer_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_jungle_hunters
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_improved_bows
+		}
+		x = 9
+		y = 2
+		completion_reward = {
+			load_oob = BHC_jungle_hunter
+		}
+	}
+	focus = {
+		id = BHC_expand_west
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_war_axes
+			focus = BHC_improved_catapults
+		}
+		prerequisite = {
+			focus = BHC_jungle_hunters
+		}
+		bypass = {
+			has_war_with = STO
+		}
+		x = 1
+		y = 1
+		relative_position_id = BHC_war_axes
+		completion_reward = {
+			BHC = {
+				transfer_state = 789
+				transfer_state = 296
+				transfer_state = 42
+				transfer_state = 297
+			}
+			789 = { add_core_of = BHC }
+			296 = { add_core_of = BHC set_demilitarized_zone = no }
+			42 = { add_core_of = BHC set_demilitarized_zone = no }
+			297 = { add_core_of = BHC }
+		}
+	}
+	focus = {
+		id = BHC_the_duskwood_campaign
+		icon = GFX_focus_chi_one_china_policy
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_expand_west
+		}
+		bypass = {
+			has_war_with = STO
+		}
+		x = 5
+		y = 4
+		completion_reward = {
+			BHC = { declare_war_on = { target = STO type = annex_everything } }
+		}
+	}
+	focus = {
+		id = BHC_sacred_rituals
+		icon = GFX_focus_AST_squander_bug
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_kilroggs_vision
+		}
+		x = 11
+		y = 1
+		
+		completion_reward = {
+			add_stability = 0.15		
+		}
+	}
+	focus = {
+		id = BHC_bleeding_hollow_brutes
+		icon = GFX_goal_generic_CAS
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_sacred_rituals
+		}
+		x = 11
+		y = 2
+		completion_reward = {
+			add_ideas = BHC_hollow_brutes
+		}
+	}
+	focus = {
+		id = BHC_the_jungles_of_stranglethorn
+		icon = GFX_focus_generic_army_tanks2
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_expand_west
+		}
+		prerequisite = {
+			focus = BHC_bleeding_hollow_brutes
+		}
+		x = 9
+		y = 4
+		
+		available = {
+			305 = { is_owned_and_controlled_by = ROOT }
+			
+		}
+		
+	completion_reward = {	
+				
+		BHC = { 
+			transfer_state = 680
+			transfer_state = 272
+		}
+		
+	}
+
+	}
+	focus = {
+		id = BHC_stand_with_the_warchief
+		icon = GFX_focus_generic_join_comintern
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_kilroggs_vision
+		}
+		mutually_exclusive = {
+			focus = BHC_ask_for_guldans_help
+		}
+		x = 14
+		y = 1
+		completion_reward = {
+			BRC = { country_event = puppetmaster.2 }
+			#drift idea
+		}
+	}
+	focus = {
+		id = BHC_frostwolf_riders
+		icon = GFX_goal_generic_wolf_pack
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_stand_with_the_warchief
+		}
+		mutually_exclusive = {
+			focus = BHC_black_tooth_grin_scouts
+		}
+		x = 13
+		y = 2
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = knight_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = knight_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_black_tooth_grin_scouts
+		icon = GFX_focus_AST_rats_tobruk
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_stand_with_the_warchief
+		}
+		mutually_exclusive = {
+			focus = BHC_frostwolf_riders
+		}
+		x = 15
+		y = 2
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = mounted_footman_tech_bonus
+				bonus = 0.25
+				uses = 1
+				#category = mounted_footman_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_dragonmaw_rylaks
+		icon = GFX_focus_jap_zero
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_frostwolf_riders
+			focus = BHC_black_tooth_grin_scouts
+		}
+		x = 13
+		y = 3
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = hoa_air_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = hoa_air_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_burning_blade_masters
+		icon = GFX_focus_chi_army_reform
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_black_tooth_grin_scouts
+			focus = BHC_frostwolf_riders
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				ahead_reduction = 1
+				#category = footman_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_blackrock_forges
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_dragonmaw_rylaks
+		}
+		prerequisite = {
+			focus = BHC_burning_blade_masters
+		}
+		x = 14
+		y = 4
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = forge_technology_bonus
+				bonus = 0.25
+				uses = 1
+				category = forge_technology
+			}
+		}
+	}
+	focus = {
+		id = BHC_ask_for_guldans_help
+		icon = GFX_goal_generic_attack_allies
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_kilroggs_vision
+		}
+		mutually_exclusive = {
+			focus = BHC_stand_with_the_warchief
+		}
+		x = 18
+		y = 1
+		completion_reward = {
+			TSC = { country_event = puppetmaster.1 }
+			#idea
+		}
+	}
+	focus = {
+		id = BHC_shadow_council_warlocks
+		icon = GFX_focus_cze_german_puppet
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_ask_for_guldans_help
+		}
+		x = 18
+		y = 2
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = warlock_tech_bonus
+				ahead_reduction = 1
+				uses = 1
+				category = warlock_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_summon_felguards
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_shadow_council_warlocks
+		}
+		x = 17
+		y = 3
+		completion_reward = {
+			add_ideas = BHC_summon_felguards
+		}
+	}
+	focus = {
+		id = BHC_shadow_council_spies
+		icon = GFX_focus_prc_remove_chiang_kai_shek
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_shadow_council_warlocks
+		}
+		x = 19
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.25
+				category = encryption_decryption_technology
+			}
+		}
+	}
+	focus = {
+		id = BHC_shadow_council_assassins
+		icon = GFX_focus_hun_assassinate_horthy
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_summon_felguards
+		}
+		prerequisite = {
+			focus = BHC_shadow_council_spies
+		}
+		x = 18
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.5
+				category = rogue_technology
+			}
+		}
+	}
+	focus = {
+		id = BHC_escalate_the_war
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_the_jungles_of_stranglethorn
+		}
+		x = 9
+		y = 5
+		available = {
+			272 = { is_owned_and_controlled_by = ROOT }
+			has_war_with = GUR
+		}
+		completion_reward = {
+			declare_war_on = { target = GUR type = annex_everything }
+			declare_war_on = { target = BLO type = annex_everything }
+			declare_war_on = { target = SKU type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = BHC_pillage_duskwood
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_the_duskwood_campaign
+		}
+		available = {
+			301 = { is_owned_and_controlled_by = ROOT }
+			303 = { is_owned_and_controlled_by = ROOT }
+			782 = { is_owned_and_controlled_by = ROOT }
+			304 = { is_owned_and_controlled_by = ROOT }
+			302 = { is_owned_and_controlled_by = ROOT }
+			305 = { is_owned_and_controlled_by = ROOT }
+			306 = { is_owned_and_controlled_by = ROOT }
+			366 = { is_owned_and_controlled_by = ROOT }
+			308 = { is_owned_and_controlled_by = ROOT }
+			309 = { is_owned_and_controlled_by = ROOT }
+			307 = { is_owned_and_controlled_by = ROOT }
+			40 = { is_owned_and_controlled_by = ROOT }
+			310 = { is_owned_and_controlled_by = ROOT }
+		}
+		x = 5
+		y = 5
+		completion_reward = {
+			add_ideas = BHC_pillage_duskwood
+		}
+	}
+	focus = {
+		id = BHC_zulhollow
+		icon = GFX_focus_man_claim_the_mandate_of_heaven
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_enslave_the_gurubashi
+		}
+		prerequisite = {
+			focus = BHC_double_nights_watch
+		}
+		available = {
+			269 = { is_owned_and_controlled_by = ROOT }
+			268 = { is_owned_and_controlled_by = ROOT }
+			267 = { is_owned_and_controlled_by = ROOT }
+			270 = { is_owned_and_controlled_by = ROOT }
+			21 = { is_owned_and_controlled_by = ROOT }
+		}
+		x = 9
+		y = 8
+		completion_reward = {
+			set_capital = 21
+			21 = { add_core_of = BHC }
+			269 = { add_core_of = BHC }
+			268 = { add_core_of = BHC }
+			267 = { add_core_of = BHC }
+			270 = { add_core_of = BHC }
+		}
+	}
+	focus = {
+		id = BHC_bleeding_hollow_spearman
+		icon = GFX_focus_secret_rearmament
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_adapt_war_plan
+		}
+		prerequisite = {
+			focus = BHC_pillage_duskwood
+		}
+		x = 4
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.5
+				category = pikeman_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_adapt_war_plan
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_escalate_the_war
+			focus = BHC_pillage_duskwood
+		}
+		x = 7
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.5
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = BHC_mounted_footman
+		icon = GFX_goal_generic_cavalry
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_adapt_war_plan
+		}
+		prerequisite = {
+			focus = BHC_pillage_duskwood
+		}
+		x = 6
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 0.5
+				#category = mounted_footman_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_besiege_stormwind
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_bleeding_hollow_spearman
+		}
+		prerequisite = {
+			focus = BHC_mounted_footman
+		}
+		x = 5
+		y = 8
+		completion_reward = {
+			add_ideas = BHC_besiege_stormwind
+		}
+	}
+	focus = {
+		id = BHC_double_nights_watch
+		icon = GFX_goal_generic_special_forces
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_adapt_war_plan
+		}
+		prerequisite = {
+			focus = BHC_escalate_the_war
+		}
+		prerequisite = {
+			focus = BHC_escalate_the_war
+		}
+		x = 8
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				#name
+				uses = 1
+				bonus = 1
+				category = watchman_tech
+			}
+		}
+	}
+	focus = {
+		id = BHC_enslave_the_gurubashi
+		icon = GFX_focus_cze_german_puppet
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_adapt_war_plan
+		}
+		prerequisite = {
+			focus = BHC_escalate_the_war
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = BHC_human_agriculture
+		icon = GFX_focus_generic_industry_1
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_pillage_duskwood
+		}
+		prerequisite = {
+			focus = BHC_research_effort
+		}
+		x = 3
+		y = 6
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = agriculture_technology_bonus
+				ahead_reduction = 1
+				uses = 1
+				category = agriculture_technology
+			}
+		}
+	}
+	focus = {
+		id = BHC_study_human_armor
+		icon = GFX_goal_generic_defence
+		cost = 5.00
+		prerequisite = {
+			focus = BHC_pillage_duskwood
+		}
+		prerequisite = {
+			focus = BHC_research_effort
+		}
+		x = 1
+		y = 6
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_technology_bonus
+				ahead_reduction = 1
+				uses = 1
+				category = armor_technology
+			}
+		}
+	}
+}

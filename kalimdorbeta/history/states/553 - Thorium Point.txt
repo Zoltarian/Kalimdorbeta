@@ -1,0 +1,42 @@
+
+state={
+	id=553
+	name="STATE_553"
+	resources={
+		ores=18.000
+		gunpowder=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			983 20
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = THR
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+		617.1.1 = {
+			
+			controller = THR
+			add_core_of = THR
+		}
+	}
+
+	provinces={
+		983 3968 3973 6376 6378
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

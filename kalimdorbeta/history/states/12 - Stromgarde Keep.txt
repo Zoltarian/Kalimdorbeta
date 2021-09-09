@@ -1,0 +1,40 @@
+
+state={
+	id=12
+	name="STATE_12"
+	resources={
+		mana=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			1729 30 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 5
+			industrial_complex = 6
+			radar_station = 1
+			1734 = {
+				bunker = 4
+			}
+			5146 = {
+				bunker = 4
+			}
+			1732 = {
+				bunker = 4
+			}
+
+		}
+		add_core_of = STR
+
+	}
+
+	provinces={
+		1729 1732 1734 1735 5146 
+	}
+	manpower=418525
+	buildings_max_level_factor=1.000
+	state_category=building_slots_12
+}

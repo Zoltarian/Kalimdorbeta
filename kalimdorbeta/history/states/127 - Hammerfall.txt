@@ -1,0 +1,37 @@
+
+state={
+	id=127
+	name="STATE_127"
+
+	history={
+		
+		add_core_of = STR
+		add_core_of = WBT
+
+		victory_points = {
+			2058 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+
+			set_state_name = "Hammerfall"
+		}
+	}
+
+
+	provinces={
+		2045 2046 2049 2050 2053 2054 2058 2061 2063
+	}
+	manpower=120525
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

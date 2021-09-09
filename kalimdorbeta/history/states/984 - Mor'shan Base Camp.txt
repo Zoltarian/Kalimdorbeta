@@ -1,0 +1,41 @@
+
+state={
+	id=984
+	name="STATE_984"
+	resources={
+		wood = 7
+		ores = 4
+	}
+
+	history={
+		owner = WWT
+		add_core_of = WWT
+
+		victory_points = {
+			10318 10
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+
+			set_province_name = {
+		    id = 10318
+		    name = "Mor'shan Base Camp"
+			}
+		}
+	}
+
+	provinces={
+		9678 10114 10264 10271 10280 10288 10289 10300 10304 10310 10318 10330 10333
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

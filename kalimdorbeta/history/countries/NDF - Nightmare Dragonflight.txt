@@ -1,0 +1,67 @@
+﻿capital = 10
+
+oob = "NDF_592"
+
+set_convoys = 60
+
+set_research_slots = 3
+
+set_stability = 0.6
+set_war_support = 0.25
+
+add_ideas = {
+	
+	council
+	limited_conscription
+	peacetime_economy
+	export_focus
+	
+	nightmare_dragon_primary_race
+	
+	primary_religion_followers_of_nzoth
+	
+}
+set_technology = {}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 100
+	titans = 0
+	neutral = 0
+}
+
+set_politics = {
+	ruling_party = old_gods
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Corrupted Ysera"
+	desc = "POLITICS_CORRUPTED_YSERA_DESC"
+	picture = "corrupted_ysera.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Corrupted Ysera"
+	picture = "corrupted_ysera.dds"
+	traits = {  }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+
+}

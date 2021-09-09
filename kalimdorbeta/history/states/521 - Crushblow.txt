@@ -1,0 +1,33 @@
+
+state={
+	id=521
+	name="STATE_521" #S. Verrall Cliffs/ Crushblow
+	
+	resources={
+		ores=8
+	}
+
+	history={
+		
+		victory_points = { 4893 5 }
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1018 4893 4901 4904 4907 4914 4915 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,124 @@
+﻿###########################
+# Black Tooth Grin Clan
+###########################
+
+add_namespace = black_tooth_grin
+
+#identity crisis
+country_event = {
+	id = black_tooth_grin.1
+	title = black_tooth_grin.1.t
+	desc = black_tooth_grin.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = black_tooth_grin.1.option.1
+		
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+		
+			declare_war_on = { target = TSC type = annex_everything }
+
+
+	}
+
+}
+#blackrock annex
+country_event = {
+	id = black_tooth_grin.2
+	title = black_tooth_grin.2.t
+	desc = black_tooth_grin.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = black_tooth_grin.2.option.1
+		
+		BRC = {
+			BTG = {
+				every_unit_leader = {
+					set_nationality = BRC
+				}
+				every_owned_state = {
+					add_core_of = BRC
+				}
+			}
+			annex_country = { target = BTG transfer_troops = yes }
+			BRC = { country_event = blackrock.11 }
+		}
+
+	}
+	
+    option = {
+        name = black_tooth_grin.2.option.2
+		
+		BRC = { country_event = blackrock.12 }
+		
+	}
+
+}
+#deal with rend
+country_event = {
+	id = black_tooth_grin.3
+	title = black_tooth_grin.3.t
+	desc = black_tooth_grin.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = black_tooth_grin.3.option.1
+
+		BRC = {
+			set_country_flag = rends_loyalty
+		}
+
+	}
+	
+    option = {
+        name = black_tooth_grin.3.option.2
+
+
+	}
+
+}
+
+country_event = {
+	id = black_tooth_grin.4
+	title = black_tooth_grin.4.t
+	desc = black_tooth_grin.4.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = black_tooth_grin.4.option.1
+		
+		transfer_state = 380
+
+		380 = {
+			add_core_of = BRC
+			remove_core_of = TSC
+		}
+	}
+	
+}
+
+

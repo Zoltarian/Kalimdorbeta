@@ -1,0 +1,27 @@
+﻿division_template = {
+	name = "Swamp Lurkers"
+
+	regiments = {
+		hoa_sailor = { x = 0 y = 0 }
+		hoa_sailor = { x = 0 y = 1 }
+		hoa_sailor = { x = 0 y = 2 }
+		hoa_sailor = { x = 1 y = 0 }
+		hoa_sailor = { x = 1 y = 1 }
+		hoa_sailor = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Swamp Lurkers"
+		location = 2625
+		division_template = "Swamp Lurkers"
+		start_experience_factor = 0.2
+	}
+
+}
+		
+

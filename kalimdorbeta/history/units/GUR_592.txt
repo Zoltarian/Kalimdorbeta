@@ -1,0 +1,124 @@
+﻿division_template = {
+	name = "Gurubashi Berserkers"
+
+	regiments = {
+
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Gurubashi Scouts"
+
+	regiments = {
+
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Gurubashi Raptor Rider"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1st Gurubashi Berserkers"
+		location = 399
+		division_template = "Gurubashi Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Gurubashi Berserkers"
+		location = 126
+		division_template = "Gurubashi Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Gurubashi Berserkers"
+		location = 2170
+		division_template = "Gurubashi Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Gurubashi Berserkers"
+		location = 2744
+		division_template = "Gurubashi Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Gurubashi Berserkers"
+		location = 2714
+		division_template = "Gurubashi Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Gurubashi Berserkers"
+		location = 2591
+		division_template = "Gurubashi Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Gurubashi Scouts"
+		location = 1682
+		division_template = "Gurubashi Scouts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Gurubashi Scouts"
+		location = 2724
+		division_template = "Gurubashi Scouts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Gurubashi Raptor Rider"
+		location = 2587
+		division_template = "Gurubashi Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Gurubashi Raptor Rider"
+		location = 6946
+		division_template = "Gurubashi Raptor Rider"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Gurubashi Raptor Rider"
+		location = 5609
+		division_template = "Gurubashi Raptor Rider"
+		start_experience_factor = 0.2
+	}
+}

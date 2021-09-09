@@ -1,0 +1,73 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Frostwall Fleet"			
+		naval_base = 5668
+		task_force = {
+			name = "Frostwall Fleet"			
+			location = 5668 #frostwall harbor
+			
+			ship = {
+				name = "1st Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "6th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+}

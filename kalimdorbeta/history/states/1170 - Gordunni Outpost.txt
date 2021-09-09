@@ -1,0 +1,31 @@
+
+state={
+	id=1170
+	name="STATE_1170"
+	resources = {
+		ores=5
+		gunpowder=3
+		wood=1
+	}
+
+	history={
+		owner = GRM
+		victory_points = {
+			10889 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GRM
+
+	}
+
+	provinces={
+		10889 11485 11489 11497 11498
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,875 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	orc_beastiary_tech = {
+
+		enable_building = {
+			building = stable
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = dire_wolf_breeding_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dire_wolf_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 6 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			cavalry_technology
+			beastiary_technology
+			orc_resource_building_technology
+		}
+	}
+
+	dire_wolf_breeding_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dire_wolf_breeding_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 592
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 6 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			beastiary_technology
+			orc_resource_building_technology
+		}
+
+	}
+
+	dire_wolf_breeding_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dire_wolf_breeding_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 595
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 6 y = 6 }
+		}
+
+		categories = {
+			cavalry_technology
+			beastiary_technology
+			orc_resource_building_technology
+		}
+
+	}
+
+	dire_wolf_breeding_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dire_wolf_breeding_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 598
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 6 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			beastiary_technology
+			orc_resource_building_technology
+		}
+
+	}
+
+	dire_wolf_breeding_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 601
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 6 y = 10 }
+		}
+
+		categories = {
+			cavalry_technology
+			beastiary_technology
+			orc_resource_building_technology
+		}
+
+	}
+
+	dire_wolf_tech = {
+
+		enable_subunits = {
+			dire_wolf
+		}
+
+		on_research_complete = {
+			set_technology = {
+				dire_wolf_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dire_wolf_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = raider_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 9 y = 0 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dire_wolf_equipment_tech_1 = {
+
+		enable_equipments = {
+			dire_wolf_equipment_1
+		}
+
+		path = {
+			leads_to_tech = iron_claws_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = bite_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 9 y = 2 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	iron_claws_tech = {
+
+		dire_wolf = {
+			hard_attack = 0.25
+			ap_attack = 0.5
+		}
+		raider = {
+			hard_attack = 0.25
+			ap_attack = 0.5
+		}
+
+		xor = { bite_tech }
+
+		path = {
+			leads_to_tech = dire_wolf_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 8 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	bite_tech = {
+
+		dire_wolf = {
+			soft_attack = 0.1
+			breakthrough = 0.1
+		}
+		raider = {
+			soft_attack = 0.1
+			breakthrough = 0.1
+		}
+
+		xor = { iron_claws_tech }
+
+		path = {
+			leads_to_tech = dire_wolf_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 10 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_wolf_equipment_tech_2 = {
+
+		enable_equipments = {
+			dire_wolf_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = pack_leader_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dash_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 9 y = 6 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pack_leader_tech = {
+
+		dire_wolf = {
+			max_organisation = 5
+		}
+		raider = {
+			max_organisation = 5
+		}
+
+		xor = { dash_tech }
+
+		path = {
+			leads_to_tech = dire_wolf_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 8 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dash_tech = {
+
+		dire_wolf = {
+			maximum_speed = 0.1
+		}
+		raider = {
+			maximum_speed = 0.1
+		}
+
+		xor = { pack_leader_tech }
+
+		path = {
+			leads_to_tech = dire_wolf_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 10 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_wolf_equipment_tech_3 = {
+
+		enable_equipments = {
+			dire_wolf_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 9 y = 10 }
+		}
+
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raider_tech = {
+
+		enable_subunits = {
+			raider
+		}
+
+		on_research_complete = {
+			set_technology = {
+				raider_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = raider_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = outrider_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 13 y = 0 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raider_equipment_tech_1 = {
+
+		enable_equipments = {
+			raider_equipment_1
+		}
+
+		path = {
+			leads_to_tech = ensnare_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pillage_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 13 y = 2 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ensnare_tech = {
+
+		raider = {
+			soft_attack = 0.1
+		}
+
+		xor = { pillage_tech }
+
+		path = {
+			leads_to_tech = raider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 12 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	pillage_tech = {
+
+		raider = {
+			fort = {
+				attack = 0.2
+			}
+		}
+
+		xor = { ensnare_tech }
+
+		path = {
+			leads_to_tech = raider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 14 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	raider_equipment_tech_2 = {
+
+		enable_equipments = {
+			raider_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = raider_reinforced_armor_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = kill_command_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 13 y = 6 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raider_reinforced_armor_tech = {
+
+		raider = {
+			armor_value = 0.1
+		}
+
+		xor = { kill_command_tech }
+
+		path = {
+			leads_to_tech = raider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 12 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	kill_command_tech = {
+
+		raider = {
+			breakthrough = 0.1
+		}
+
+		xor = { raider_reinforced_armor_tech }
+
+		path = {
+			leads_to_tech = raider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 14 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	raider_equipment_tech_3 = {
+
+		enable_equipments = {
+			raider_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 13 y = 10 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	outrider_tech = {
+
+		enable_subunits = {
+			outrider
+		}
+
+		path = {
+			leads_to_tech = improved_outrider_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 16 y = 0 }
+		}
+
+		categories = {
+			cavalry_technology
+			outrider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_outrider_1 = {
+
+		outrider = {
+			recon = 1.5
+		}
+
+		path = {
+			leads_to_tech = improved_outrider_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 16 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_outrider_2 = {
+
+		outrider = {
+			recon = 1.5
+		}
+
+		path = {
+			leads_to_tech = improved_outrider_3
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 16 y = 6 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_outrider_3 = {
+
+		outrider = {
+			recon = 1.5
+		}
+
+		path = {
+			leads_to_tech = improved_outrider_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 16 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_outrider_4 = {
+
+		outrider = {
+			recon = 1.5
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_cavalry_folder
+			position = { x = 16 y = 10 }
+		}
+
+		categories = {
+			cavalry_technology
+			raider_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1036
+	name="STATE_1036"
+	resources={
+		wheat=5
+		ores=5
+		wood=3
+	}
+
+	history={
+		owner = PAL
+		victory_points = {
+			9968 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = PAL
+
+	}
+
+	provinces={
+		9684 9968 9970 9971 10375 
+	}
+	manpower=26000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,148 @@
+﻿division_template = {
+	name = "Shatterred Hand Grunt"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Shatterred Hand Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Shatterred Hand Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Shatterred Hand Raiders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "1st Shatterred Hand Grunt"
+		location = 10525
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Shatterred Hand Grunt"
+		location = 10525
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Shatterred Hand Grunt"
+		location = 10514
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Shatterred Hand Grunt"
+		location = 10517
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Shatterred Hand Grunt"
+		location = 10411
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Shatterred Hand Grunt"
+		location = 10495
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Shatterred Hand Grunt"
+		location = 10499
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Shatterred Hand Grunt"
+		location = 10504
+		division_template = "Shatterred Hand Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Shatterred Hand Spearman"
+		location = 10425
+		division_template = "Shatterred Hand Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Shatterred Hand Spearman"
+		location = 10419
+		division_template = "Shatterred Hand Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Shatterred Hand Spearman"
+		location = 10503
+		division_template = "Shatterred Hand Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Shatterred Hand Spearman"
+		location = 10515
+		division_template = "Shatterred Hand Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Shatterred Hand Raiders"
+		location = 10517
+		division_template = "Shatterred Hand Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Shatterred Hand Raiders"
+		location = 10411
+		division_template = "Shatterred Hand Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Shatterred Hand Raiders"
+		location = 10525
+		division_template = "Shatterred Hand Raiders"
+		start_experience_factor = 0.2
+	}		
+
+}

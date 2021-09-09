@@ -1,0 +1,91 @@
+bookmarks = {
+	bookmark = {
+		name = "OLD_HATREDS_NAME"
+		desc = "OLD_HATREDS_DESC"
+		date = 617.1.1.12
+		picture = "GFX_select_date_old_hatreds"
+		default_country = "STO"
+		default = yes
+
+		"SRG"={
+			history = "SRG_OLD_HATREDS_DESC"
+			ideology = death
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		"STO"={
+			history = "STO_OLD_HATREDS_DESC"
+			ideology = alliance
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"IRO"={
+			history = "IRO_OLD_HATREDS_DESC"
+			ideology = alliance
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"KAL"={
+			history = "KAL_OLD_HATREDS_DESC"
+			ideology = alliance
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"OGR"={
+			history = "OGR_OLD_HATREDS_DESC"
+			ideology = horde
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"THB"={
+			history = "THB_OLD_HATREDS_DESC"
+			ideology = horde
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"FSK"={
+			history = "FSK_OLD_HATREDS_DESC"
+			ideology = horde
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"---"={
+			history = "OTHER_OLD_HATREDS_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

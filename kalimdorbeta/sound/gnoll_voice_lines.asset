@@ -1,0 +1,313 @@
+category = {
+ name = "Voices"
+ soundeffects = {
+
+	PAL_infantry_idle
+	PAL_infantry_neutral_combat
+	PAL_infantry_positive_combat
+	PAL_infantry_retreat
+	PAL_infantry_move_out
+
+	RPP_infantry_idle
+	RPP_infantry_neutral_combat
+	RPP_infantry_positive_combat
+	RPP_infantry_retreat
+	RPP_infantry_move_out
+
+	RRP_infantry_idle
+	RRP_infantry_neutral_combat
+	RRP_infantry_positive_combat
+	RRP_infantry_retreat
+	RRP_infantry_move_out
+
+	WPT_infantry_idle
+	WPT_infantry_neutral_combat
+	WPT_infantry_positive_combat
+	WPT_infantry_retreat
+	WPT_infantry_move_out
+	
+ }
+
+}
+
+########## PAL
+
+soundeffect = {
+    name = "PAL_infantry_idle"
+    sounds = {
+		sound = Gnoll_Idle_001
+        sound = Gnoll_Idle_002
+        sound = Gnoll_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "PAL_infantry_neutral_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "PAL_infantry_positive_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "PAL_infantry_retreat"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "PAL_infantry_move_out"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## RPP
+
+soundeffect = {
+    name = "RPP_infantry_idle"
+    sounds = {
+		sound = Gnoll_Idle_001
+        sound = Gnoll_Idle_002
+        sound = Gnoll_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "RPP_infantry_neutral_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RPP_infantry_positive_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RPP_infantry_retreat"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RPP_infantry_move_out"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## RRP
+
+soundeffect = {
+    name = "RRP_infantry_idle"
+    sounds = {
+		sound = Gnoll_Idle_001
+        sound = Gnoll_Idle_002
+        sound = Gnoll_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "RRP_infantry_neutral_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RRP_infantry_positive_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RRP_infantry_retreat"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RRP_infantry_move_out"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## WPT
+
+soundeffect = {
+    name = "WPT_infantry_idle"
+    sounds = {
+		sound = Gnoll_Idle_001
+        sound = Gnoll_Idle_002
+        sound = Gnoll_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "WPT_infantry_neutral_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WPT_infantry_positive_combat"
+    sounds = {
+        sound = Gnoll_Combat_001
+        sound = Gnoll_Combat_002
+        sound = Gnoll_Combat_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WPT_infantry_retreat"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WPT_infantry_move_out"
+    sounds = {
+        sound = Gnoll_Move_001
+        sound = Gnoll_Move_002
+        sound = Gnoll_Move_003
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Gnoll_Idle_001"
+	file = "voice_lines/gnoll/Gnoll_Idle_1.wav"
+}
+sound = {
+	name = "Gnoll_Idle_002"
+	file = "voice_lines/gnoll/Gnoll_Idle_2.wav"
+}
+sound = {
+	name = "Gnoll_Idle_003"
+	file = "voice_lines/gnoll/Gnoll_Idle_3.wav"
+}
+
+sound = {
+	name = "Gnoll_Combat_001"
+	file = "voice_lines/gnoll/Gnoll_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Gnoll_Combat_002"
+	file = "voice_lines/gnoll/Gnoll_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Gnoll_Combat_003"
+	file = "voice_lines/gnoll/Gnoll_Attack_3.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "Gnoll_Move_001"
+	file = "voice_lines/gnoll/Gnoll_Move_1.wav"
+}
+sound = {
+	name = "Gnoll_Move_002"
+	file = "voice_lines/gnoll/Gnoll_Move_2.wav"
+}
+sound = {
+	name = "Gnoll_Move_003"
+	file = "voice_lines/gnoll/Gnoll_Move_3.wav"
+}

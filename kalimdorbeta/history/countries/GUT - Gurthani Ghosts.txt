@@ -1,0 +1,43 @@
+capital = 1885
+
+oob = "GUT_592"
+
+set_naval_oob = "GUT_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	ghost_primary_race
+
+	primary_trait_masters_of_infiltration
+	primary_trait_call_of_the_shadowlands
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	ideology = neutral_type
+	traits = { }
+}
+
+create_field_marshal = { }
+
+create_corps_commander = { }

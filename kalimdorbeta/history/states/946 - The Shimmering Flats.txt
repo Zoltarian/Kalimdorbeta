@@ -1,0 +1,31 @@
+
+state={
+	id=946
+	name="STATE_946"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = GRM
+		victory_points = {
+			9541 5
+		}
+		buildings = {
+			infrastructure = 2
+			9550 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = GRM
+
+	}
+
+	provinces={
+		9528 9535 9536 9539 9541 9543 9544 9548 9549 9550 9551 9553 9559 9565 9571 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

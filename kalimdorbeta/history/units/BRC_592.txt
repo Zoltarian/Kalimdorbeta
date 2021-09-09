@@ -1,0 +1,191 @@
+﻿division_template = {
+	name = "Blackrock Grunts"
+	regiments = {
+		grunt = { x = 0 y = 0 }
+		grunt = { x = 0 y = 1 }
+		grunt = { x = 0 y = 2 }
+		grunt = { x = 0 y = 3 }
+		grunt = { x = 1 y = 0 }
+		grunt = { x = 1 y = 1 }
+		grunt = { x = 1 y = 2 }
+		grunt = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Blackrock Spearman"
+	regiments = {
+		spearman = { x = 0 y = 0 }
+		spearman = { x = 0 y = 1 }
+		spearman = { x = 0 y = 2 }
+		spearman = { x = 0 y = 3 }
+		spearman = { x = 1 y = 0 }
+		spearman = { x = 1 y = 1 }
+		spearman = { x = 1 y = 2 }
+		spearman = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Blackrock Dire Orcs"
+	regiments = {
+		dire_orc = { x = 0 y = 0 }
+		dire_orc = { x = 0 y = 1 }
+		dire_orc = { x = 0 y = 2 }
+		dire_orc = { x = 0 y = 3 }
+		dire_orc = { x = 1 y = 0 }
+		dire_orc = { x = 1 y = 1 }
+		dire_orc = { x = 1 y = 2 }
+		dire_orc = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Blackrock Dire Wolves"
+	regiments = {
+		dire_wolf = { x = 0 y = 0 }
+		dire_wolf = { x = 0 y = 1 }
+		dire_wolf = { x = 0 y = 2 }
+		dire_wolf = { x = 1 y = 0 }
+		dire_wolf = { x = 1 y = 1 }
+		dire_wolf = { x = 1 y = 2 }
+		raider = { x = 2 y = 0 }
+		raider = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Blackrock Raiders"
+	regiments = {
+		dire_wolf = { x = 0 y = 0 }
+		dire_wolf = { x = 0 y = 1 }
+		dire_wolf = { x = 0 y = 2 }
+		dire_wolf = { x = 1 y = 0 }
+		dire_wolf = { x = 1 y = 1 }
+		dire_wolf = { x = 1 y = 2 }
+		raider = { x = 2 y = 0 }
+		raider = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Blackrock Catapults"
+	regiments = {
+		orc_catapult = { x = 0 y = 0 }
+		orc_catapult = { x = 0 y = 1 }
+		orc_catapult = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1st Blackrock Grunts"
+		location = 2926
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Blackrock Grunts"
+		location = 2893
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Blackrock Grunts"
+		location = 2891
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Blackrock Grunts"
+		location = 2914
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Blackrock Grunts"
+		location = 2930
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Blackrock Grunts"
+		location = 2928
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Blackrock Grunts"
+		location = 2876
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Blackrock Grunts"
+		location = 2854
+		division_template = "Blackrock Grunts"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Blackrock Spearman"
+		location = 2930
+		division_template = "Blackrock Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Blackrock Spearman"
+		location = 6922
+		division_template = "Blackrock Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Blackrock Spearman"
+		location = 6922
+		division_template = "Blackrock Spearman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Blackrock Catapults"
+		location = 2926
+		division_template = "Blackrock Catapults"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Blackrock Catapults"
+		location = 2891
+		division_template = "Blackrock Catapults"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Blackrock Raiders"
+		location = 2891
+		division_template = "Blackrock Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Blackrock Raiders"
+		location = 2893
+		division_template = "Blackrock Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Blackrock Raiders"
+		location = 2913
+		division_template = "Blackrock Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Blackrock Raiders"
+		location = 2893
+		division_template = "Blackrock Raiders"
+		start_experience_factor = 0.2
+	}
+
+}

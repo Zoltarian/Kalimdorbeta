@@ -1,0 +1,40 @@
+
+state={
+	id=493
+	name="STATE_493"
+	resources={
+		wood=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			3684 10 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			
+			controller = VMR
+			add_core_of = VMR
+
+		}
+
+	}
+
+	provinces={
+		1073 3650 3655 3664 3671 3677 3680 3684 3697 3704 3707 3709 5317 5362 
+	}
+	manpower=7600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

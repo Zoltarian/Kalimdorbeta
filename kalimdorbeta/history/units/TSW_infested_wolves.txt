@@ -1,0 +1,27 @@
+﻿division_template = {
+	name = "Infested Wolves"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Infested Wolves"
+		location = 948
+		division_template = "Infested Wolves"
+		start_experience_factor = 0.2
+	}
+
+}
+		
+

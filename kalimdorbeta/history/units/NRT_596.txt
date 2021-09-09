@@ -1,0 +1,288 @@
+﻿division_template = {
+	name = "Wildhammer Footmen"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 2 y = 0 }
+		footman = { x = 2 y = 1 }
+		footman = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Foothills Guard"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 2 y = 0 }
+		pikeman = { x = 2 y = 1 }
+		pikeman = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+#division_template = {
+#	name = "Mountain Kings"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+division_template = {
+	name = "Northeron Mountaineer"
+	regiments = {
+		ranger = { x = 0 y = 0 }
+		ranger = { x = 0 y = 1 }
+		ranger = { x = 0 y = 2 }
+		ranger = { x = 1 y = 0 }
+		ranger = { x = 1 y = 1 }
+		ranger = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Wildhammer Catapults"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		catapult = { x = 0 y = 1 }
+		catapult = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		catapult = { x = 1 y = 1 }
+		catapult = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Dwarven Rangers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Scout Rams"
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Ram Riders of Thundermar"
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+#	division = {
+#		name = "1st Mountain Kings"
+#		location = 5042
+#		division_template = "Mountain Kings"
+#		start_experience_factor = 0.2
+#	}
+	division = {
+		name = "1st Foothills Guard"
+		location = 5907
+		division_template = "Foothills Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Wildhammer Footmen"
+		location = 5805
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Foothills Guard"
+		location = 4997
+		division_template = "Foothills Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Wildhammer Footmen"
+		location = 5797
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Foothills Guard"
+		location = 5025
+		division_template = "Foothills Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Wildhammer Footmen"
+		location = 5030
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Foothills Guard"
+		location = 241
+		division_template = "Foothills Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Wildhammer Footmen"
+		location = 5810
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Wildhammer Footmen"
+		location = 4976
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Wildhammer Footmen"
+		location = 4982
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Wildhammer Footmen"
+		location = 5002
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Wildhammer Footmen"
+		location = 5018
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Wildhammer Footmen"
+		location = 1077
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9th Wildhammer Footmen"
+		location = 5028
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10th Wildhammer Footmen"
+		location = 5007
+		division_template = "Wildhammer Footmen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Foothills Guard"
+		location = 4990
+		division_template = "Foothills Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Kirthaven Mountaineers"
+		location = 4994
+		division_template = "Northeron Mountaineer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Kirthaven Mountaineers"
+		location = 4976
+		division_template = "Northeron Mountaineer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Thundermar Catapults"
+		location = 5042
+		division_template = "Wildhammer Catapults"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Thundermar Rangers"
+		location = 5042
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Hollow Rangers"
+		location = 5045
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Humboldt Rangers"
+		location = 5060
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Drakgor Rangers"
+		location = 6022
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Drakgor Rangers"
+		location = 5085
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Kirthaven Rangers"
+		location = 1086
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Dragonmaw Rangers"
+		location = 5801
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+}
+#air_wings = {
+#	507 = { #Thundermar
+#		cas_equipment_1 =  { owner = "NRT" amount = 75 }
+#		fighter_equipment_2 = { owner = "NRT" amount = 75 }
+#	}
+#	503 = { #Dragonmaw
+#		cas_equipment_1 =  { owner = "NRT" amount = 75 }
+#		fighter_equipment_2 = { owner = "NRT" amount = 75 }
+#	}
+#	24 = { #Kirthaven
+#		cas_equipment_1 =  { owner = "NRT" amount = 75 }
+#		fighter_equipment_2 = { owner = "NRT" amount = 75 }
+#	}
+#}
+		
+

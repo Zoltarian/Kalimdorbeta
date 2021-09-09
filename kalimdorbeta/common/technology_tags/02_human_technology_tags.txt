@@ -1,0 +1,79 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+
+	#Human admin Tags
+	tier_technology
+	peasant_technology
+	peasant_tools_technology #both tools
+	construction_tools_technology
+	resource_tools_technology
+	militia_technology
+	workshop_technology
+	city_growth_technology
+	blacksmith_technology
+	blacksmith_unit_technology
+	sword_technology
+	plate_armor_technology
+	forge_technology
+	blueprint_technology
+	agriculture_technology
+	nesting_ground_technology
+	mine_technology
+	religion_technology
+	wall_technology
+	scout_tower_technology
+	guard_tower_technology
+	arcane_tower_technology
+	woodworking_technology
+	rogues_guild_technology
+	encryption_technology
+	decryption_technology
+	rogue_technology
+	tailor_technology
+	cloth_armor_technology
+	tabard_technology
+	cloak_technology
+	leather_armor_technology
+
+	support_technology #includes all support units
+	armor_technology #includes all armor
+	fortification_technology #walls & towers
+	tower_technology #all towers
+	resource_building_technology #all resource buildings/upgrades
+
+	#human infantry tags
+	barracks_technology
+	footman_technology
+	captain_technology
+	banner_technology
+	guard_technology
+	nights_watch_technology
+	pikeman_technology
+	archer_technology
+
+	mage_tower_technology
+	mage_technology
+	priest_technology
+
+	infantry_technology
+	ranged_infantry_technology
+	melee_infantry_technology
+
+	#human cavalry tags
+	stable_technology
+	mounted_footman_technology
+	horse_technology
+	knight_technology
+
+	#human siege weapons tags
+	supply_wagon_technology
+	catapult_technology
+
+	#human support tags
+	royal_guard_technology
+	paladin_technology
+	arch_mage_technology
+
+}

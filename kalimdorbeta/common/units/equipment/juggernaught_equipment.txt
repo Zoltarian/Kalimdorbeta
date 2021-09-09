@@ -1,0 +1,142 @@
+equipments = {
+
+	juggernaught_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		interface_category = interface_category_screen_ships
+		priority = 1900
+
+		upgrades = { }
+		module_slots = { }
+		module_count_limit = { }
+		default_modules = { }
+
+		sub_detection = 5
+		lg_attack = 6.3
+		hg_attack = 25.2	
+		anti_air_attack = 6.8
+		naval_range = 3000
+		armor_value = 20
+
+		surface_detection = 12
+		surface_visibility = 33
+		lg_armor_piercing = 5.5
+		hg_armor_piercing = 31
+		
+		naval_speed = 32.9
+		max_strength = 367.5
+		reliability = 0.64		
+		
+		build_cost_ic = 8437.5
+		resources = {
+			wood = 2
+			ores = 2
+			gunpowder = 2
+			oil = 2
+		}
+		
+		manpower = 175
+	}
+	
+	juggernaught_equipment_1 = {
+		year = 584
+		visual_level = 0
+		archetype = juggernaught_equipment
+		priority = 1850
+		module_slots = inherit
+
+	}
+	
+	juggernaught_equipment_2 = {
+		year = 591
+		visual_level = 1
+		archetype = juggernaught_equipment
+		priority = 1800
+		parent = juggernaught_equipment_1
+		module_slots = inherit
+
+		sub_detection = 5 #0
+		lg_attack = 6.3 #0
+		hg_attack = 26.25 #+ 1.05	
+		anti_air_attack = 10.4 #+ 3.6
+		naval_range = 4000 #+ 1000
+		armor_value = 37.5 #+ 17.5
+
+		surface_detection = 18.5 #+6.5
+		surface_visibility = 33 #+0
+		lg_armor_piercing = 5.5 #+0
+		hg_armor_piercing = 32.25 #+1.25
+		
+		naval_speed = 34 #+1.1
+		max_strength = 393.75 #+26.25
+		reliability = 0.68 #+4 per tier		
+		
+		build_cost_ic = 9577.75 #+1,140.25
+		
+		manpower = 187 #+12.5 per tier (rounded down [rounded up to whole numbers like 50 or 100])
+
+	}
+	
+	juggernaught_equipment_3 = {
+		year = 594
+		visual_level = 1
+		archetype = juggernaught_equipment
+		priority = 1800
+		parent = juggernaught_equipment_2
+		module_slots = inherit
+
+		sub_detection = 5 #0
+		lg_attack = 6.3 #0
+		hg_attack = 27.3 #+ 1.05	
+		anti_air_attack = 14 #+ 3.6
+		naval_range = 5000 #+ 1000
+		armor_value = 55 #+ 17.5
+
+		surface_detection = 25 #+6.5
+		surface_visibility = 33 #+0
+		lg_armor_piercing = 5.5 #+0
+		hg_armor_piercing = 33.5 #+1.25
+		
+		naval_speed = 35.1 #+1.1
+		max_strength = 440 #+26.25
+		reliability = 0.72 #+4 per tier		
+		
+		build_cost_ic = 10718 #+1,140.25
+		
+		manpower = 200 #+12.5 per tier (rounded down [rounded up to whole numbers like 50 or 100])
+
+	}
+	
+	juggernaught_equipment_4 = {
+		year = 597
+		visual_level = 1
+		archetype = juggernaught_equipment
+		priority = 1800
+		parent = juggernaught_equipment_3
+		module_slots = inherit
+
+		sub_detection = 5 #0
+		lg_attack = 6.3 #0
+		hg_attack = 28.35 #+ 1.05	
+		anti_air_attack = 17.6 #+ 3.6
+		naval_range = 6000 #+ 1000
+		armor_value = 72.5 #+ 17.5
+
+		surface_detection = 31.5 #+6.5
+		surface_visibility = 33 #+0
+		lg_armor_piercing = 5.5 #+0
+		hg_armor_piercing = 34.75 #+1.25
+		
+		naval_speed = 36.2 #+1.1
+		max_strength = 466.25 #+26.25
+		reliability = 0.76 #+4 per tier		
+		
+		build_cost_ic = 11858.25 #+1,140.25
+		
+		manpower = 212 #+12.5 per tier (rounded down [rounded up to whole numbers like 50 or 100])
+	}
+	
+}

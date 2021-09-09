@@ -1,0 +1,71 @@
+state={
+	id=5
+	name="STATE_5"
+	resources={
+		mana=24.000
+		mounts=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			529 30 
+		}
+		victory_points = {
+			6990 15
+		}
+		victory_points = {
+			563 10
+		}
+		victory_points = {
+			7000 5
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 3
+			air_base = 6
+			radar_station = 1
+			529 = {
+				coastal_bunker = 5
+			}
+			562 = {
+				coastal_bunker = 5
+				naval_base = 5
+			}
+			6999 = {
+				naval_base = 3
+			}
+			7000 = {
+				coastal_bunker = 3
+				naval_base = 7
+			}
+			6997 = {
+				coastal_bunker = 4
+				naval_base = 9
+			}
+			6994 = {
+				coastal_bunker = 4
+				naval_base = 9
+			}
+			6991 = {
+				coastal_bunker = 3
+				naval_base = 7
+			}
+			7002 = {
+				coastal_bunker = 3
+				naval_base = 3
+			}
+		}
+		add_core_of = KUL
+
+	}
+
+	provinces={
+		529 536 548 562 563 566 6987 6988 6990 6991 6992 6993 6994 6995 6996 6997 6999 7000 7001 7002 7003 7004 
+	}
+	manpower=161475
+	buildings_max_level_factor=1.000
+	state_category=building_slots_12
+}

@@ -1,0 +1,1384 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	aviary_tech = {
+
+		enable_building = {
+        building = air_base
+        level = 10
+    }
+
+		path = {
+			leads_to_tech = organic_flight
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mechanical_flight
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 22 y = 2 }
+		}
+
+		categories = {
+			air_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	organic_flight = {
+
+		xor = { mechanical_flight }
+
+		path = {
+			leads_to_tech = swift_breeds
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = endurance_breeds
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_breeds
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0.1
+
+		start_year = 584
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 4 }
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	swift_breeds = {
+
+		on_research_complete = {
+			set_technology = {
+				fighter_breeds_1 = 1
+				cas_breeds_1 = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 584
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = fighter_breeds_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cas_breeds_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			fighter_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+
+	fighter_breeds_1 = {
+
+		enable_equipments = {
+			organic_fighter_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = fighter_breeds_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			fighter_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	fighter_breeds_2 = {
+
+		enable_equipments = {
+			organic_fighter_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = fighter_breeds_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			fighter_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	fighter_breeds_3 = {
+
+		enable_equipments = {
+			organic_fighter_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			fighter_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	cas_breeds_1 = {
+
+		enable_equipments = {
+			organic_cas_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = cas_breeds_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	cas_breeds_2 = {
+
+		enable_equipments = {
+			organic_cas_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = cas_breeds_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	cas_breeds_3 = {
+
+		enable_equipments = {
+			organic_cas_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	endurance_breeds = {
+
+		on_research_complete = {
+			set_technology = {
+				bomber_breeds_1 = 1
+				naval_breeds_1 = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 584
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = bomber_breeds_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = naval_breeds_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			bomber_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	bomber_breeds_1 = {
+
+		enable_equipments = {
+			organic_bomber_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = bomber_breeds_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	naval_breeds_1 = {
+
+		enable_equipments = {
+			organic_naval_bomber_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = naval_breeds_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	bomber_breeds_2 = {
+
+		enable_equipments = {
+			organic_bomber_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = bomber_breeds_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	naval_breeds_2 = {
+
+		enable_equipments = {
+			organic_naval_bomber_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = naval_breeds_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	bomber_breeds_3 = {
+
+		enable_equipments = {
+			organic_bomber_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	naval_breeds_3 = {
+
+		enable_equipments = {
+			organic_naval_bomber_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	support_breeds = {
+
+		on_research_complete = {
+			set_technology = {
+				scouting_breeds_1 = 1
+				transport_breeds_1 = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 584
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 18 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = scouting_breeds_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = transport_breeds_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			scout_plane_technology
+			air_transport_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	scouting_breeds_1 = {
+
+		enable_equipments = {
+			organic_scout_plane_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 16 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = scouting_breeds_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			scout_plane_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	scouting_breeds_2 = {
+
+		enable_equipments = {
+			organic_scout_plane_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 16 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = scouting_breeds_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			scout_plane_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	scouting_breeds_3 = {
+
+		enable_equipments = {
+			organic_scout_plane_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 16 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			scout_plane_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	transport_breeds_1 = {
+
+		enable_equipments = {
+			organic_air_transport_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 20 y = 8 }
+		}
+
+		categories = {
+			air_technology
+			organic_air_technology
+			air_transport_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	mechanical_flight = {
+
+		xor = { organic_flight }
+
+		path = {
+			leads_to_tech = small_air_frames
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_air_frames
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_air_frames
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0.1
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 34 y = 4 }
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	small_air_frames = {
+
+		on_research_complete = {
+			set_technology = {
+				fighter_air_frames_1 = 1
+				cas_air_frames_1 = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 26 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = fighter_air_frames_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cas_air_frames_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			fighter_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	fighter_air_frames_1 = {
+
+		enable_equipments = {
+			mechanical_fighter_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 24 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = fighter_air_frames_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			fighter_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	fighter_air_frames_2 = {
+
+		enable_equipments = {
+			mechanical_fighter_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 24 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = fighter_air_frames_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			fighter_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	fighter_air_frames_3 = {
+
+		enable_equipments = {
+			mechanical_fighter_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 24 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			fighter_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	cas_air_frames_1 = {
+
+		enable_equipments = {
+			mechanical_cas_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 28 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = cas_air_frames_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	cas_air_frames_2 = {
+
+		enable_equipments = {
+			mechanical_cas_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 28 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = cas_air_frames_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	cas_air_frames_3 = {
+
+		enable_equipments = {
+			mechanical_cas_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 28 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			cas_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	large_air_frames = {
+
+		on_research_complete = {
+			set_technology = {
+				mechanical_bomber_1 = 1
+				mechanical_naval_bomber_1 = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 34 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_bomber_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mechanical_naval_bomber_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			bomber_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_bomber_1 = {
+
+		enable_equipments = {
+			mechanical_bomber_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 32 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_bomber_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_bomber_2 = {
+
+		enable_equipments = {
+			mechanical_bomber_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 32 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_bomber_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_bomber_3 = {
+
+		enable_equipments = {
+			mechanical_bomber_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 32 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_naval_bomber_1 = {
+
+		enable_equipments = {
+			mechanical_naval_bomber_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 36 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_naval_bomber_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_naval_bomber_2 = {
+
+		enable_equipments = {
+			mechanical_bomber_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 36 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_naval_bomber_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_naval_bomber_3 = {
+
+		enable_equipments = {
+			mechanical_bomber_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 36 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			naval_bomber_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	support_air_frames = {
+
+		on_research_complete = {
+			set_technology = {
+				mechanical_scout_plane_1 = 1
+				mechanical_air_transport_1 = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 42 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_scout_plane_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mechanical_air_transport_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			scout_plane_technology
+			air_transport_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_scout_plane_1 = {
+
+		enable_equipments = {
+			mechanical_scout_plane_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 40 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_scout_plane_2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			scout_plane_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_scout_plane_2 = {
+
+		enable_equipments = {
+			mechanical_scout_plane_equipment_2
+		}
+
+		dependencies = {
+			tier_2_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 40 y = 10 }
+		}
+
+		path = {
+			leads_to_tech = mechanical_scout_plane_3
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			scout_plane_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_scout_plane_3 = {
+
+		enable_equipments = {
+			mechanical_scout_plane_equipment_3
+		}
+
+		dependencies = {
+			tier_3_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 40 y = 12 }
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			scout_plane_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	mechanical_air_transport_1 = {
+
+		enable_equipments = {
+			mechanical_air_transport_equipment_1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 44 y = 8 }
+		}
+
+		categories = {
+			air_technology
+			mechanical_air_technology
+			air_transport_technology
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

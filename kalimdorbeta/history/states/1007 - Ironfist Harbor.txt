@@ -1,0 +1,41 @@
+
+state={
+	id=1007
+	name="STATE_1007"
+	resources={
+		gunpowder=4
+		oil=18
+	}
+
+	history={
+		
+		add_core_of = WSC
+
+		victory_points = {
+			9798 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 2
+			9798 = {
+				naval_base = 6
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WSC
+		}
+	}
+
+	provinces={
+		9796 9797 9798 9799 9800 9804
+	}
+	manpower=64000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

@@ -1,0 +1,117 @@
+﻿###########################
+#holidays
+###########################
+
+add_namespace = holiday
+
+#country_event = { #Midsummer fire festival
+#	id = holiday.1
+#	title = holiday.1.t
+#	desc = holiday.1.d
+#	picture = GFX_report_event_german_parade_paris
+#	
+#	hidden = yes
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		if = {
+#			limit = {
+#				NOT = {
+#					OR = {
+#						has_idea = orc_primary_race
+#						has_idea = murloc_primary_race
+#						has_idea = naga_primary_race
+#						has_idea = withered_primary_race
+#						has_idea = valkyr_primary_race
+#					}
+#				}
+#			}
+#			add_timed_idea = { idea = midsummer_fire_festival days = 14 }
+#		}
+#	}
+#	
+#   option = {
+#		country_event = { id = holiday.1 days = 365}
+#	}
+#}
+
+#country_event = { #brewfest
+#	id = holiday.2
+#	title = holiday.2.t
+#	desc = holiday.2.d
+#	picture = GFX_report_event_german_parade_paris
+#	
+#	hidden = yes
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		if = {
+#			limit = {
+#				OR = {
+#					has_idea = dwarf_primary_race
+#					has_idea = human_primary_race
+#					has_idea = high_elf_primary_race
+#				}
+#			}
+#			add_timed_idea = { idea = brewfest days = 17 }
+#		}
+#	}
+#	
+#    option = {
+#		country_event = { id = holiday.2 days = 365}
+#	}
+#}
+
+#country_event = { #hallows_end
+#	id = holiday.3
+#	title = holiday.3.t
+#	desc = holiday.3.d
+#	picture = GFX_report_event_german_parade_paris
+#	
+#	hidden = yes
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		if = {
+#			limit = {
+#				has_idea = human_primary_race
+#			}
+#			add_timed_idea = { idea = hallows_end days = 14 }
+#		}
+#	}
+#	
+#    option = {
+#		country_event = { id = holiday.3 days = 365}
+#	}
+#}
+
+#country_event = { #lunar_festival
+#	id = holiday.4
+#	title = holiday.4.t
+#	desc = holiday.4.d
+#	picture = GFX_report_event_german_parade_paris
+#	
+#	hidden = yes
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		if = {
+#			limit = {
+#				NOT = {
+#					OR = {
+#						has_idea = orc_primary_race
+#						has_idea = murloc_primary_race
+#						has_idea = naga_primary_race
+#						has_idea = withered_primary_race
+#						has_idea = valkyr_primary_race
+#					}
+#				}
+#			}
+#			add_timed_idea = { idea = lunar_festival days = 15 }
+#		}
+#	}
+#	
+#    option = {
+#		country_event = { id = holiday.4 days = 365}
+#	}
+#}

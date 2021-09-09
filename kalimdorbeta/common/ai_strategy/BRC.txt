@@ -1,0 +1,48 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+BRC_unit_production = {
+	enable = {
+		original_tag = BRC
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 100
+	}
+}
+
+BRC_conquer_stormwind = {
+	enable = {
+		original_tag = BRC
+	}
+	abort = {
+		OR = {
+			NOT = {
+				country_exists = STO
+			}
+			STO = {
+				has_country_flag = sto_refugees
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "STO"
+		value = 100
+	}	
+}

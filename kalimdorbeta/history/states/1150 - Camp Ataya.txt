@@ -1,0 +1,30 @@
+
+state={
+	id=1150
+	name="STATE_1150"
+	resources = {
+		wood=3
+	}
+
+	history={
+		owner = NST
+		victory_points = {
+			11524 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = NST
+
+	}
+
+	provinces={
+		11518 11524 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=596
+	name="STATE_596"
+	resources={
+		ores=4
+		gunpowder=5
+		oil=6
+	}
+
+	history={
+		owner = DWT
+		victory_points = {
+			1134 10 
+		}
+		buildings = {
+			infrastructure = 3
+			1134 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = DWT
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+			remove_core_of = DWT
+
+		}
+
+	}
+
+	provinces={
+		1134 10353 10360 10368 10369 10371 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

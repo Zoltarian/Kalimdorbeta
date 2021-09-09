@@ -1,0 +1,555 @@
+category = {
+ name = "Voices"
+ soundeffects = {
+	IRO_infantry_idle
+	IRO_infantry_neutral_combat
+	IRO_infantry_positive_combat
+	IRO_infantry_retreat
+	IRO_infantry_move_out
+	
+	DUN_infantry_idle
+	DUN_infantry_neutral_combat
+	DUN_infantry_positive_combat
+	DUN_infantry_retreat
+	DUN_infantry_move_out
+	
+	NRT_infantry_idle
+	NRT_infantry_neutral_combat
+	NRT_infantry_positive_combat
+	NRT_infantry_retreat
+	NRT_infantry_move_out
+	
+	AER_infantry_idle
+	AER_infantry_neutral_combat
+	AER_infantry_positive_combat
+	AER_infantry_retreat
+	AER_infantry_move_out
+	
+	DIC_infantry_idle
+	DIC_infantry_neutral_combat
+	DIC_infantry_positive_combat
+	DIC_infantry_retreat
+	DIC_infantry_move_out
+
+	THR_infantry_idle	
+	THR_infantry_neutral_combat
+	THR_infantry_positive_combat
+	THR_infantry_retreat
+	THR_infantry_move_out
+	
+	SPC_infantry_idle	
+	SPC_infantry_neutral_combat
+	SPC_infantry_positive_combat
+	SPC_infantry_retreat
+	SPC_infantry_move_out
+
+ }
+
+}
+
+########## IRO
+
+soundeffect = {
+    name = "IRO_infantry_idle"
+    sounds = {
+		sound = Dwarf_Idle_001
+        sound = Dwarf_Idle_002
+        sound = Dwarf_Idle_003
+        sound = Dwarf_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "IRO_infantry_neutral_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "IRO_infantry_positive_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "IRO_infantry_retreat"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "IRO_infantry_move_out"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DUN
+
+soundeffect = {
+    name = "DUN_infantry_idle"
+    sounds = {
+		sound = Dwarf_Idle_001
+        sound = Dwarf_Idle_002
+        sound = Dwarf_Idle_003
+        sound = Dwarf_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DUN_infantry_neutral_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DUN_infantry_positive_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DUN_infantry_retreat"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DUN_infantry_move_out"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## NRT
+
+soundeffect = {
+    name = "NRT_infantry_idle"
+    sounds = {
+		sound = Dwarf_Idle_001
+        sound = Dwarf_Idle_002
+        sound = Dwarf_Idle_003
+        sound = Dwarf_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "NRT_infantry_neutral_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NRT_infantry_positive_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NRT_infantry_retreat"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NRT_infantry_move_out"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## AER
+
+soundeffect = {
+    name = "AER_infantry_idle"
+    sounds = {
+		sound = Dwarf_Idle_001
+        sound = Dwarf_Idle_002
+        sound = Dwarf_Idle_003
+        sound = Dwarf_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "AER_infantry_neutral_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AER_infantry_positive_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AER_infantry_retreat"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AER_infantry_move_out"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DIC
+
+soundeffect = {
+    name = "DIC_infantry_idle"
+    sounds = {
+		sound = Dwarf_Idle_001
+        sound = Dwarf_Idle_002
+        sound = Dwarf_Idle_003
+        sound = Dwarf_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DIC_infantry_neutral_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DIC_infantry_positive_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DIC_infantry_retreat"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+    }
+	volume = 1
+	max_audible = 1
+}
+soundeffect = {
+    name = "DIC_infantry_move_out"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+}
+
+########## THR
+
+soundeffect = {
+    name = "THR_infantry_idle"
+    sounds = {
+		sound = Dwarf_Idle_001
+        sound = Dwarf_Idle_002
+        sound = Dwarf_Idle_003
+        sound = Dwarf_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "THR_infantry_neutral_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THR_infantry_positive_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THR_infantry_retreat"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THR_infantry_move_out"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SPC
+
+soundeffect = {
+    name = "SPC_infantry_idle"
+    sounds = {
+		sound = Dwarf_Idle_001
+        sound = Dwarf_Idle_002
+        sound = Dwarf_Idle_003
+        sound = Dwarf_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SPC_infantry_neutral_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SPC_infantry_positive_combat"
+    sounds = {
+        sound = Dwarf_Combat_001
+        sound = Dwarf_Combat_002
+        sound = Dwarf_Combat_003
+		sound = Dwarf_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SPC_infantry_retreat"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SPC_infantry_move_out"
+    sounds = {
+        sound = Dwarf_Move_001
+        sound = Dwarf_Move_002
+        sound = Dwarf_Move_003
+		sound = Dwarf_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Dwarf_Idle_001"
+	file = "voice_lines/dwarf/Dwarf_Idle_1.wav"
+}
+sound = {
+	name = "Dwarf_Idle_002"
+	file = "voice_lines/dwarf/Dwarf_Idle_2.wav"
+}
+sound = {
+	name = "Dwarf_Idle_003"
+	file = "voice_lines/dwarf/Dwarf_Idle_3.wav"
+}
+sound = {
+	name = "Dwarf_Idle_004"
+	file = "voice_lines/dwarf/Dwarf_Idle_4.wav"
+}
+
+sound = {
+	name = "Dwarf_Combat_001"
+	file = "voice_lines/dwarf/Dwarf_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Dwarf_Combat_002"
+	file = "voice_lines/dwarf/Dwarf_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Dwarf_Combat_003"
+	file = "voice_lines/dwarf/Dwarf_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Dwarf_Combat_004"
+	file = "voice_lines/dwarf/Dwarf_Attack_4.wav"
+}
+
+sound = {
+	name = "Dwarf_Move_001"
+	file = "voice_lines/dwarf/Dwarf_Move_1.wav"
+}
+sound = {
+	name = "Dwarf_Move_002"
+	file = "voice_lines/dwarf/Dwarf_Move_2.wav"
+}
+sound = {
+	name = "Dwarf_Move_003"
+	file = "voice_lines/dwarf/Dwarf_Move_3.wav"
+}
+sound = {
+	name = "Dwarf_Move_004"
+	file = "voice_lines/dwarf/Dwarf_Move_4.wav"
+}

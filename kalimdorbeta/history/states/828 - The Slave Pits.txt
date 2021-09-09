@@ -1,0 +1,33 @@
+
+state={
+	id=828
+	name="STATE_828"
+	resources={
+		oil = 12
+	}
+
+	history={
+		
+		victory_points = {
+			8232 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			8232 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = OOM
+
+	}
+
+	provinces={
+		8155 8227 8229 8232 
+	}
+	manpower=6400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=320
+	name="STATE_320"
+
+	resources={
+		mounts = 8
+		wheat = 18
+	}
+
+	history={
+		
+		add_core_of = STO
+		victory_points = { 
+			2401 5
+		}
+		buildings = {
+			infrastructure = 6
+		}
+
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+		}
+	}
+
+	provinces={
+		815 2401 2402 2404 2406 2407 2408 2410 2412 2413 2414 2415 2416
+	}
+	manpower=19000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

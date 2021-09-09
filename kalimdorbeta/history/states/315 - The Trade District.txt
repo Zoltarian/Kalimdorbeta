@@ -1,0 +1,59 @@
+
+state={
+	id=315
+	name="STATE_315"
+	resources={
+		wheat=10.000
+	}
+
+	history={
+		
+		add_core_of = STO
+		victory_points = {
+			2487 15 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			radar_station = 1
+			air_base = 1
+			2469 = {
+				bunker = 3
+
+			}
+			2465 = {
+				bunker = 3
+
+			}
+			2480 = {
+				bunker = 2
+
+			}
+			805 = {
+				bunker = 2
+
+			}
+
+		}
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+
+	}
+
+	provinces={
+		805 808 2465 2469 2480 2487 2490 2495 2497 5502 6413 
+	}
+	manpower=63000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

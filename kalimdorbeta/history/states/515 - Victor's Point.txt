@@ -1,0 +1,33 @@
+
+state={
+	id=515
+	name="STATE_515" #Verrall Falls/ Victor's Point
+	
+		resources={
+			wood =8
+		}
+
+	history={
+		victory_points = { 4961 5 }
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1051 4954 4959 4961 4963 4969 
+	}
+	manpower=9275
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=417
+	name="STATE_417"
+
+	history={
+		
+		victory_points = {
+			1492 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			1095 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		28 473 1095 1368 1485 1490 1492 1495 1500 1501 1503 
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

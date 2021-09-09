@@ -1,0 +1,153 @@
+ideas = {
+
+	government_type = {
+
+		#Used by "wasteland nations" like Teldrassil or Outland at First War
+		no_government = {
+
+			picture = isolation
+
+			removal_cost = -1
+
+			visible = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+				political_power_factor = -100
+				stability_factor = -100
+				war_support_factor = -100
+				command_power_gain_mult = -100
+				enemy_justify_war_goal_time = 100
+		  		neutral_drift = 100
+			}
+
+		}
+
+		city_state = {
+
+			removal_cost = -1
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+				army_core_defence_factor = 0.1
+				enemy_justify_war_goal_time = 0.5
+			}
+
+			picture = government_city_state
+
+		}
+
+		clan = {
+
+			removal_cost = -1
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+				justify_war_goal_time = -0.2
+			}
+
+			picture = government_clan
+
+		}
+
+		council = {
+
+			removal_cost = -1
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+			drift_defence_factor = 0.5
+			max_planning = 0.25
+			}
+
+			picture = government_council
+
+		}
+
+		cult = {
+
+			removal_cost = -1
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+				supply_consumption_factor = -0.2
+				non_core_manpower = 0.05
+			}
+
+			picture = government_cult
+
+		}
+
+		kingdom = {
+
+			removal_cost = -1
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+				political_power_gain = 0.25
+
+			}
+
+			picture = government_kingdom
+
+		}
+
+		tribe = {
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+			army_speed_factor = 0.1
+			local_resources_factor = 0.15
+			}
+
+			removal_cost = -1
+
+			picture = government_tribe
+
+		}
+
+		tyrant = {
+
+			removal_cost = -1
+
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			picture = government_tyrant
+
+		}
+	}
+
+}

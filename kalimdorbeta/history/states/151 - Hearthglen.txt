@@ -1,0 +1,47 @@
+
+state={
+	id=151
+	name="STATE_151"
+	resources={
+		gunpowder=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			3472 20 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			3487 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+
+		}
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		643 3468 3469 3472 3474 3476 3478 3479 3480 3482 3483 3487 5413 7453 8667 
+	}
+	manpower=47250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

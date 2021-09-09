@@ -1,0 +1,31 @@
+
+state={
+	id=21
+	name="STATE_21"
+	resources={
+		mana=20.000
+		mounts=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			399 30 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		add_core_of = GUR
+
+	}
+
+	provinces={
+		399 680 1328 2597 5625 
+	}
+	manpower=130250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

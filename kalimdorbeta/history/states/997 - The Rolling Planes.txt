@@ -1,0 +1,36 @@
+
+state={
+	id=997
+	name="STATE_997"
+	resources={
+		ores=2
+		wood=4
+	}
+
+	history={
+		owner = BRI
+		add_core_of = BRI
+
+		victory_points = {
+			10391 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		617.1.1 = {
+			owner = WFT
+			controller = WFT
+			add_core_of = WFT
+		}
+	}
+
+	provinces={
+		190 9969 9981 9984 9988 9991 9996 10007 10391 10392
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

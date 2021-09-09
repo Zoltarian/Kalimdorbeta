@@ -1,0 +1,31 @@
+
+state={
+	id=267
+	name="STATE_267"
+	resources={
+		mana=86.000
+		mounts=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			2599 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = GUR
+
+	}
+
+	provinces={
+		757 2595 2596 2598 2599 2601 2602 
+	}
+	manpower=156750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

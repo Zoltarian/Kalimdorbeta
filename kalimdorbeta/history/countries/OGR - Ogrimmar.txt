@@ -1,0 +1,98 @@
+﻿capital = 602
+
+oob = "OGR_592"
+
+set_naval_oob = "OGR_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	orc_primary_race
+}
+
+617.1.1 = {
+
+	# Maybe move to earlier start date
+	create_faction = "The Horde"
+	add_to_faction = DST
+	add_to_faction = THB
+	add_to_faction = FSK
+	add_to_faction = FWC
+	add_to_faction = RTT
+
+	add_ideas = {
+		clan
+		
+
+		orc_primary_race
+
+		primary_religion_shamanism
+	}
+
+	set_politics = {
+		ruling_party = horde
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+  set_popularities = {
+    alliance = 0
+    horde = 100
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 0
+  }
+
+	create_country_leader = {
+		name = "Warchief Thrall"
+		desc = "POLITICS_THRALL_DESC"
+		picture = "warchief_thrall_vanilla.dds"
+		expire = "1965.1.1"
+		ideology = horde_type
+		traits = {
+			#
+		}
+	}
+
+}
+
+620.1.1 = {
+	#Taunka tribes
+	add_to_faction = TKT
+	add_to_faction = ICM
+	add_to_faction = OQW
+	add_to_faction = CWT
+
+	create_country_leader = {
+		name = "Warchief Thrall"
+		desc = "POLITICS_THRALL_DESC"
+		picture = "warchief_thrall_cataclysm.dds"
+		expire = "1965.1.1"
+		ideology = horde_type
+		traits = {
+			#
+		}
+	}
+
+}
+
+621.1.1 = {
+
+	create_country_leader = {
+		name = "Warchief Garrosh Hellscream"
+		desc = "POLITICS_WARCHIEF_GARROSH_HELLSCREAM_DESC"
+		picture = "warchief_garrosh_hellscream.dds"
+		expire = "1965.1.1"
+		ideology = horde_type
+		traits = {
+			#
+		}
+	}
+
+}

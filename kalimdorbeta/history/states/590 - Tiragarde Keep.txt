@@ -1,0 +1,42 @@
+
+state={
+	id=590
+	name="STATE_590"
+	resources={
+		ores=2
+		wood=4
+		oil=6
+		gunpowder=6
+	}
+
+	history={
+		owner = RZM
+		add_core_of = RZM
+		victory_points = {
+			9652 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9651 = {
+				naval_base = 3
+			}
+
+		}
+		617.1.1 = {
+			
+			controller = KUL
+			add_core_of = KUL
+
+			set_state_name = "Tiragarde Keep"
+		}
+
+	}
+
+	provinces={
+		1060 9650 9651 9652 9654 9655 9657
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

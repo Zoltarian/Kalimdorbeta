@@ -1,0 +1,37 @@
+
+state={
+	id=479
+	name="STATE_479"
+	resources={
+		wood=12.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			owner = MHT
+			controller = MHT
+			add_core_of = MHT
+
+		}
+
+	}
+
+	provinces={
+		1047 3610 3613 3616 3621 3622 5368 
+	}
+	manpower=6825
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

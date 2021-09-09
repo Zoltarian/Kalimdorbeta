@@ -1,0 +1,38 @@
+
+state={
+	id=524
+	name="STATE_524"
+
+	history={
+		
+		victory_points = {
+			958 30 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+			remove_core_of = DIC
+			buildings = {
+				infrastructure = 9
+				industrial_complex = 5
+				arms_factory = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		958 2725 6179 6194 6200 6205 
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

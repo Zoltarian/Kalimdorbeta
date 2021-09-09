@@ -1,0 +1,50 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Orsis Fishing Fleet"			
+		naval_base = 10856
+		task_force = {
+			name = "Orsis Fishing Fleet"			
+			location = 10856
+			
+			ship = {
+				name = "1st Orsis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = ORS } }
+			}
+
+			ship = {
+				name = "2nd Orsis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = ORS } }
+			}
+
+			ship = {
+				name = "3rd Orsis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = ORS } }
+			}
+
+			ship = {
+				name = "4th Orsis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = ORS } }
+			}
+
+			ship = {
+				name = "5th Orsis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = ORS } }
+			}
+
+			ship = {
+				name = "6th Orsis Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = ORS } }
+			}
+			
+		}
+	}
+
+}

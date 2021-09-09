@@ -1,0 +1,11 @@
+﻿l_english:
+ RELIGION_CONVERSION_INFO:0 "§Y[?religion_conversion_country.GetName]§! is currently working on converting the religion in §Y[This.GetName]§!. Religious conversion progress so far is [This.GetReligionProgress]."
+ RELIGION_CONVERSION_CANCEL_INFO:0 "§YConvert Religion§!\nSpend political power to convert the religion in this state."
+ CONVERT_STATE_RELIGION_TT:0 "Convert this states Religion for £pol_power [?Root.religion_conversion_cost]"
+ #Conversion Popup Window
+ RELIGION_CONVERSION_CHECK_POPUP_TITLE:0 "Convert Religion"
+ RELIGION_CONVERSION_CHECK_POPUP_DESC:0 "Do you wish to convert the religion of §Y[This.GetName]§! into §Y[Root.GetMainReligionName]§!? \nThe cost of converting §Y[This.GetName]§! religion is £pol_power [?Root.religion_conversion_cost] . \nIt will take 180 days."
+ RELIGION_CONVERSION_CANCEL_POPUP_TITLE:0 "Cancel Religion Conversion"
+ RELIGION_CONVERSION_CANCEL_POPUP_DESC:0 "Do you wish to cancel converting the §Y[This.GetName]§!'s religion into §Y[Root.GetMainReligionName]§!? \nIf you cancel the religious conversion, part of the political power you used will be returned."
+ RELIGION_CONVERSION_COMPLETE_POPUP_TITLE:0 "Religion converted"
+ RELIGION_CONVERSION_COMPLETE_POPUP_DESC:0 "We have converted §Y[This.GetName]§!'s religion into §Y[Root.GetMainReligionName]§!. \n\n§Y[This.GetName]§! is now filled with §Y[Root.GetMainReligionName]§! instead of the previous owners."

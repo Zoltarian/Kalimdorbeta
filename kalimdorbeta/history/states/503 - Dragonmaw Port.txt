@@ -1,0 +1,44 @@
+
+state={
+	id=503
+	name="STATE_503"
+	resources={
+		oil=46.000
+	}
+
+	history={
+		victory_points = {
+			5801 15 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 2
+			4873 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+			buildings = {
+				air_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4871 4872 4873 4875 4877 5801 
+	}
+	manpower=21325
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

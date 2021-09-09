@@ -1,0 +1,47 @@
+
+state={
+	id=301
+	name="STATE_301"
+	resources={
+		mana=10.000
+	}
+
+	history={
+		
+		add_core_of = STO
+
+		victory_points = {
+			2080 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		596.1.1 = {
+			owner = SFC
+			controller = SFC
+			add_core_of = SFC
+		}
+		
+		600.1.1 = {
+			
+			controller = STO
+		}
+
+		617.1.1 = {
+			owner = RHU
+			controller = RHU
+			add_core_of = RHU
+		}
+	}
+
+	provinces={
+		794 2078 2080 2083 5584
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

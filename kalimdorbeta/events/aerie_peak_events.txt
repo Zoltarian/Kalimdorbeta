@@ -1,0 +1,73 @@
+﻿###########################
+# aeriepeak
+###########################
+
+add_namespace = aeriepeak
+
+country_event = {
+  id = aeriepeak.1
+  title = aeriepeak.1.t
+  desc = aeriepeak.1.d
+
+  is_triggered_only = yes
+
+	fire_only_once = yes
+
+  #help HEA with fighters
+  option = {
+    name = aeriepeak.1.option.1
+
+    HEA = {
+      country_event = { id = hearthglen.6 hours = 1 }
+    }
+  }
+
+  #help HEA with bombers
+  option = {
+    name = aeriepeak.1.option.2
+
+    HEA = {
+      country_event = { id = hearthglen.7 hours = 1 }
+    }
+  }
+
+  #help HEA with cas
+  option = {
+    name = aeriepeak.1.option.3
+
+    HEA = {
+      country_event = { id = hearthglen.8 hours = 1 }
+    }
+  }
+
+  #don't help
+  option = {
+    name = aeriepeak.1.option.4
+
+    HEA = {
+      country_event = { id = hearthglen.9 hours = 1 }
+    }
+  }
+
+}
+
+country_event = { # stormwind invites us to the alliance
+  id = aeriepeak.2
+  title = aeriepeak.2.t
+  desc = aeriepeak.2.d
+
+  is_triggered_only = yes
+
+  fire_only_once = yes
+
+  option = { #join the alliance
+    name = aeriepeak.2.option.1
+
+  }
+  
+   option = { #better off alone
+    name = aeriepeak.2.option.2
+
+  }
+
+}

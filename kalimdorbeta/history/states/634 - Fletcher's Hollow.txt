@@ -1,0 +1,30 @@
+
+state={
+	id=634
+	name="STATE_634"
+	
+	resources={
+		ores=4.000
+		wood =12.000
+	}
+
+	history={
+		
+		victory_points = {
+			7167 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+	add_core_of = KUL
+	}
+
+	provinces={
+		7133 7145 7149 7150 7154 7155 7160 7162 7167 
+	}
+	manpower=25550
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

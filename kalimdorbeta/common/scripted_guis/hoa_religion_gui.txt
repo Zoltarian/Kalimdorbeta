@@ -1,0 +1,25 @@
+scripted_gui = {
+
+	faith_points = {
+		context_type = player_context
+		window_name = "faith_points_container"
+		effects = {
+			faith_points_bg_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = show_faith_points_box
+						}
+					}
+					set_variable = {
+						show_faith_points_box = 1
+					}
+				}
+				else = {
+					clear_variable = show_faith_points_box
+				}
+			}
+		}
+	} 
+
+}

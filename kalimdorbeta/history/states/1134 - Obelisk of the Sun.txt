@@ -1,0 +1,33 @@
+
+state={
+	id=1134
+	name="STATE_1134"
+	resources = {
+		mana=16
+		ores=7
+		gunpowder=13
+	}
+
+	history={
+
+		owner = NEF
+		victory_points = {
+			11975 10
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = NEF
+
+	}
+
+	provinces={
+		11892 11893 11895 11896 11897 11901 11902 11974 11975 11977 11981 11982 11983 11984
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

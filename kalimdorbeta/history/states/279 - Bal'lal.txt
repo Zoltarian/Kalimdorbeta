@@ -1,0 +1,35 @@
+
+state={
+	id=279
+	name="STATE_279"
+	resources={
+		wood =6.000
+		oil=22.000
+	}
+
+	history={
+		victory_points = {
+			1661 10
+		}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			1661 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = BLO
+
+	}
+
+	provinces={
+		760 1656 1661 1664 1668 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

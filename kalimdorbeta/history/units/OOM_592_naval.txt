@@ -1,0 +1,19 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Oomlot Fishing Boat"			
+		naval_base = 8232
+		task_force = {
+			name = "Oomlot Fishing Boat"			
+			location = 8232
+			
+			ship = {
+				name = "Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

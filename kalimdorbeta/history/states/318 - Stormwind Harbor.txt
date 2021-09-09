@@ -1,0 +1,55 @@
+
+state={
+	id=318
+	name="STATE_318"
+	
+	resources={
+		oil = 24
+		wheat = 4
+	}
+
+	history={
+	victory_points = { 
+		2395 15
+ 	}
+		
+		buildings = {
+			infrastructure = 8	
+			dockyard = 6
+			radar_station = 1
+			
+			2405 = {
+				naval_base = 4
+			}
+			2395 = {
+				naval_base = 6
+			}
+			2387 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = STO
+		
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+
+	}
+
+	provinces={
+		810 2381 2387 2390 2395 2399 2403 2405 2409 2411 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

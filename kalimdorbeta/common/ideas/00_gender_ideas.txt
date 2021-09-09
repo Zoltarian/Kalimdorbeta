@@ -1,0 +1,46 @@
+ideas = {
+	hidden_ideas = {
+
+        all_female_nation = {
+            picture = generic_communist_army
+
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                female_random_operative_chance = 1000.0
+                female_random_country_leader_chance = 1000.0
+                female_random_army_leader_chance = 1000.0
+                female_random_admiral_chance = 1000.0
+            }
+        }
+
+        equal_gender_nation = {
+            picture = generic_communist_army
+
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = { #this is somewhere near 50%
+				female_random_operative_chance = 1
+				female_random_country_leader_chance = 1
+				female_random_army_leader_chance = 1
+				female_random_admiral_chance = 1
+            }
+        }
+    }
+}

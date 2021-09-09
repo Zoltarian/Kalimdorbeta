@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Rustmaul Ravager"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Rustmaul Ravager"
+		location = 9538
+		division_template = "Rustmaul Ravager"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Rustmaul Ravager"
+		location = 9538
+		division_template = "Rustmaul Ravager"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Rustmaul Ravager"
+		location = 9538
+		division_template = "Rustmaul Ravager"
+		start_experience_factor = 0.2
+	}
+	
+}

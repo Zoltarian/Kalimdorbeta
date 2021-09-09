@@ -1,0 +1,485 @@
+﻿###########################
+# steamwheedle
+###########################
+
+add_namespace = steamwheedle
+
+#deal with the trade prince
+country_event = {
+	id = steamwheedle.1
+	title = steamwheedle.1.t
+	desc = steamwheedle.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = steamwheedle.1.option.1
+
+		BRC = {
+			add_to_faction = STC
+		}
+
+		STC = {
+			add_ideas = BRC_stormwinds_treasury_idea
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+		}
+
+		BOO = {
+			add_ideas = BRC_stormwinds_treasury_idea
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+		}
+
+		if = {
+			limit = {
+        		STC = {
+        			controls_state = 818
+        		}
+			}
+			818 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+
+		}
+
+		if = {
+			limit = {
+        		BOO = {
+        			controls_state = 46
+        		}
+			}
+			46 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+
+		}
+
+
+	}
+
+    option = {
+        name = steamwheedle.1.option.2
+
+
+	}
+
+}
+
+#invitation to the Kezan Trade Coalition
+country_event = {
+	id = steamwheedle.2
+	title = steamwheedle.2.t
+	desc = steamwheedle.2.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#accepting
+  option = {
+    name = steamwheedle.2.option.1
+
+		STC = {
+			add_to_faction = PREV
+		}
+	}
+
+	#refusing
+  option = {
+    name = steamwheedle.2.option.2
+	}
+
+}
+
+#STC_the_sands_of_tanaris
+country_event = {
+	id = steamwheedle.3
+	title = steamwheedle.3.t
+	desc = steamwheedle.3.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = steamwheedle.3.option.1
+
+		transfer_state = 944
+		FAR = {
+			country_event = { id = farraki.1 days = 1}
+		}
+	}
+
+}
+
+#STC_found_gadgetzan
+country_event = {
+	id = steamwheedle.4
+	title = steamwheedle.4.t
+	desc = steamwheedle.4.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#found gadgetzan and give them land in Tanaris
+  option = {
+    name = steamwheedle.4.option.1
+
+		GAD = {
+			transfer_state = 943
+			transfer_state = 944
+			transfer_state = 945
+		}
+
+		#transfer all eventual other owned states in Tanaris
+		if = {
+			limit = {
+				controls_state = 79
+			}
+			GAD = { transfer_state = 79 }
+		}
+		if = {
+			limit = {
+				controls_state = 541
+			}
+			GAD = { transfer_state = 541 }
+		}
+		if = {
+			limit = {
+				controls_state = 724
+			}
+			GAD = { transfer_state = 724 }
+		}
+		if = {
+			limit = {
+				controls_state = 925
+			}
+			GAD = { transfer_state = 925 }
+		}
+		if = {
+			limit = {
+				controls_state = 926
+			}
+			GAD = { transfer_state = 926 }
+		}
+		if = {
+			limit = {
+				controls_state = 927
+			}
+			GAD = { transfer_state = 927 }
+		}
+		if = {
+			limit = {
+				controls_state = 928
+			}
+			GAD = { transfer_state = 928 }
+		}
+		if = {
+			limit = {
+				controls_state = 929
+			}
+			GAD = { transfer_state = 929 }
+		}
+		if = {
+			limit = {
+				controls_state = 930
+			}
+			GAD = { transfer_state = 930 }
+		}
+		if = {
+			limit = {
+				controls_state = 931
+			}
+			GAD = { transfer_state = 931 }
+		}
+		if = {
+			limit = {
+				controls_state = 932
+			}
+			GAD = { transfer_state = 932 }
+		}
+		if = {
+			limit = {
+				controls_state = 933
+			}
+			GAD = { transfer_state = 933 }
+		}
+		if = {
+			limit = {
+				controls_state = 934
+			}
+			GAD = { transfer_state = 934 }
+		}
+		if = {
+			limit = {
+				controls_state = 935
+			}
+			GAD = { transfer_state = 935 }
+		}
+		if = {
+			limit = {
+				controls_state = 936
+			}
+			GAD = { transfer_state = 936 }
+		}
+		if = {
+			limit = {
+				controls_state = 937
+			}
+			GAD = { transfer_state = 937 }
+		}
+		if = {
+			limit = {
+				controls_state = 938
+			}
+			GAD = { transfer_state = 938 }
+		}
+		if = {
+			limit = {
+				controls_state = 939
+			}
+			GAD = { transfer_state = 939 }
+		}
+		if = {
+			limit = {
+				controls_state = 940
+			}
+			GAD = { transfer_state = 940 }
+		}
+		if = {
+			limit = {
+				controls_state = 941
+			}
+			GAD = { transfer_state = 941 }
+		}
+		if = {
+			limit = {
+				controls_state = 942
+			}
+			GAD = { transfer_state = 942 }
+		}
+		if = {
+			limit = {
+				controls_state = 961
+			}
+			GAD = { transfer_state = 961 }
+		}
+
+		puppet = GAD
+	}
+
+	#found gadgetzan and play as them
+	option = {
+    name = steamwheedle.4.option.2
+
+				GAD = {
+					transfer_state = 943
+					transfer_state = 944
+					transfer_state = 945
+				}
+
+				#transfer all eventual other owned states in Tanaris
+				if = {
+					limit = {
+						controls_state = 79
+					}
+					GAD = { transfer_state = 79 }
+				}
+				if = {
+					limit = {
+						controls_state = 541
+					}
+					GAD = { transfer_state = 541 }
+				}
+				if = {
+					limit = {
+						controls_state = 724
+					}
+					GAD = { transfer_state = 724 }
+				}
+				if = {
+					limit = {
+						controls_state = 925
+					}
+					GAD = { transfer_state = 925 }
+				}
+				if = {
+					limit = {
+						controls_state = 926
+					}
+					GAD = { transfer_state = 926 }
+				}
+				if = {
+					limit = {
+						controls_state = 927
+					}
+					GAD = { transfer_state = 927 }
+				}
+				if = {
+					limit = {
+						controls_state = 928
+					}
+					GAD = { transfer_state = 928 }
+				}
+				if = {
+					limit = {
+						controls_state = 929
+					}
+					GAD = { transfer_state = 929 }
+				}
+				if = {
+					limit = {
+						controls_state = 930
+					}
+					GAD = { transfer_state = 930 }
+				}
+				if = {
+					limit = {
+						controls_state = 931
+					}
+					GAD = { transfer_state = 931 }
+				}
+				if = {
+					limit = {
+						controls_state = 932
+					}
+					GAD = { transfer_state = 932 }
+				}
+				if = {
+					limit = {
+						controls_state = 933
+					}
+					GAD = { transfer_state = 933 }
+				}
+				if = {
+					limit = {
+						controls_state = 934
+					}
+					GAD = { transfer_state = 934 }
+				}
+				if = {
+					limit = {
+						controls_state = 935
+					}
+					GAD = { transfer_state = 935 }
+				}
+				if = {
+					limit = {
+						controls_state = 936
+					}
+					GAD = { transfer_state = 936 }
+				}
+				if = {
+					limit = {
+						controls_state = 937
+					}
+					GAD = { transfer_state = 937 }
+				}
+				if = {
+					limit = {
+						controls_state = 938
+					}
+					GAD = { transfer_state = 938 }
+				}
+				if = {
+					limit = {
+						controls_state = 939
+					}
+					GAD = { transfer_state = 939 }
+				}
+				if = {
+					limit = {
+						controls_state = 940
+					}
+					GAD = { transfer_state = 940 }
+				}
+				if = {
+					limit = {
+						controls_state = 941
+					}
+					GAD = { transfer_state = 941 }
+				}
+				if = {
+					limit = {
+						controls_state = 942
+					}
+					GAD = { transfer_state = 942 }
+				}
+				if = {
+					limit = {
+						controls_state = 961
+					}
+					GAD = { transfer_state = 961 }
+				}
+
+				puppet = GAD
+				if = {
+					limit = {
+						is_ai = no
+					}
+					GAD = { change_tag_from = ROOT }
+				}
+		}
+}
+
+#TIN accept to become puppet (from STC_safeguard_the_tinkers_union)
+country_event = {
+	id = steamwheedle.5
+	title = steamwheedle.5.t
+	desc = steamwheedle.5.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = steamwheedle.5.option.1
+	}
+}
+
+#TIN refuse to become puppet (from STC_safeguard_the_tinkers_union)
+country_event = {
+	id = steamwheedle.6
+	title = steamwheedle.6.t
+	desc = steamwheedle.6.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = steamwheedle.6.option.1
+	}
+}

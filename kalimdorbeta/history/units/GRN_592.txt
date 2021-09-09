@@ -1,0 +1,67 @@
+﻿division_template = {
+	name = "Ogronn Brutes"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Ogronn Brutes"
+		location = 10612
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Ogronn Brutes"
+		location = 10612
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Ogronn Brutes"
+		location = 10612
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Ogronn Brutes"
+		location = 10612
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Ogronn Brutes"
+		location = 10590
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Ogronn Brutes"
+		location = 10590
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Ogronn Brutes"
+		location = 10590
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "th Ogronn Brutes"
+		location = 10590
+		division_template = "Ogronn Brutes"
+		start_experience_factor = 0.2
+	}
+	
+}

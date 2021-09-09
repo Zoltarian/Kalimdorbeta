@@ -1,0 +1,47 @@
+﻿capital = 1234
+
+oob = "SWT_592"
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	
+	tribe
+	limited_conscription
+	peacetime_economy
+	limited_exports
+
+	wolvar_primary_race
+
+	primary_religion_shamanism
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+
+}
+
+create_country_leader = {
+	name = "Loguhn"
+	desc = "POLITICS_LOGUHN_DESC"
+	picture = "loguhn.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=563
+	name="STATE_563" #E. Pillar of Ash/ Pillar of Ash/ Chiselgrip
+
+	history={
+		
+		victory_points = {
+			188 10
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+	}
+
+	provinces={
+		188 910 4590 4595 4600 4605 4609 4616 4621 6311 
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,178 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+
+	hostile_status = { #special used for civil wars that are on hold and blocks faction stuff
+		value = -100
+	}
+
+	unstable_alliance = {
+		value = -10
+	}
+
+	holds_our_cores = {
+		value = -30
+	}
+	
+	holds_our_claims = {
+		value = -15
+	}
+
+	claims_on_us = { 
+		value = -10
+	}
+
+	at_war_with_faction = {
+		value = -25
+	}
+	
+	justifying_war_goal = {
+		value = -10
+		min_trust = -10
+		days = 10
+		decay = 1
+	}
+
+	protest_action_light = {
+		value = -10
+		months = 12
+		decay = 1
+	}
+
+	protest_action = {
+		value = -25
+		months = 12
+		decay = 1
+	}
+
+	protest_action_strong = {
+		value = -50
+		months = 12
+	}
+
+	improve_relation = {
+		value = 0
+		months = 0
+		decay = 3
+		max_trust = 100
+	}
+	
+	guarantee = {
+		value = 15
+	}
+	
+	guarantee = {
+		target = yes
+		value = 75
+	}
+	
+	betrayed_guarantee = {
+		value = -100
+		months = 36
+	}
+	
+	at_war = {
+		value = -75
+	}
+	
+	in_faction = {
+		value = 100
+	}
+	
+	military_access = {
+		value = 30
+	}
+	
+	non_aggression_pact = {
+		value = 25
+	}
+
+	refused_help = {
+		value = -30
+		months = 36
+		decay = 1
+	}
+
+	took_stand_for_us = {
+		value = 50
+		decay = 1
+	}
+	
+	same_ruling_party = {
+		value = 10
+	}
+	
+	similar_ruling_party = {
+		value = 5
+	}
+	
+	different_party_types = {
+		value = -45
+	}
+	
+	long_term_trade_partner = {
+		value = 1
+	}
+	
+	puppet_opinion = {
+		value = 200
+	}
+
+	small_decrease = {
+		value = -10
+	}
+
+	medium_decrease = {
+		value = -25
+	}
+
+	large_decrease = {
+		value = -50
+	}
+
+	small_increase = {
+		value = 10
+	}
+
+	medium_increase = {
+		value = 25
+	}
+
+	large_increase = {
+		value = 50
+	}
+	
+	huge_increase = {
+		value = 100
+	}
+
+	##### TRADE MODIFIERS
+	embargo = {
+		trade = yes
+		value = -100
+	}
+	sanctions = {
+		trade = yes
+		value = -40
+	}
+	minor_sanctions = {
+		trade = yes
+		value = -20
+	}
+
+	unholy_alliance_opinion = {
+		value = 40
+	}
+	unholy_alliance_trade = {
+		trade = yes
+		value = 20
+	}
+}	

@@ -1,0 +1,42 @@
+
+state={
+	id=743
+	name="STATE_743"
+	resources={
+		oil=8
+		wood =6
+	}
+
+	history={
+		
+		add_core_of = WSC
+
+		victory_points = {
+			6529 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			6530 = {
+				naval_base = 5
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WSC
+		}
+	}
+
+	provinces={
+		6490 6528 6529 6530 6531 6532
+	}
+	manpower=54000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

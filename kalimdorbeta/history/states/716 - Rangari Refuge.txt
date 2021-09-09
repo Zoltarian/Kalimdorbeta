@@ -1,0 +1,36 @@
+
+state={
+	id=716
+	name="STATE_716"
+	resources={
+		wood =4
+	}
+
+	history={
+		
+		add_core_of = BCC
+
+		victory_points = {
+			6568 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BCC
+		}
+	}
+
+	provinces={
+		6464 6551 6563 6568 6572
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

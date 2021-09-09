@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Withered"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Withered"
+		location = 8498
+		division_template = "Withered"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withered"
+		location = 8498
+		division_template = "Withered"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withered"
+		location = 8498
+		division_template = "Withered"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withered"
+		location = 8512
+		division_template = "Withered"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withered"
+		location = 8512
+		division_template = "Withered"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withered"
+		location = 8512
+		division_template = "Withered"
+		start_experience_factor = 0.2
+	}
+
+}

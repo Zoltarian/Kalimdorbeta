@@ -1,0 +1,42 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		wood=3
+		oil=12
+		ores=5
+		gunpowder=7
+	}
+
+	history={
+		owner = MIR
+		add_core_of = MIR
+		victory_points = {
+			8881 20 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			8877 = {
+				naval_base = 1
+			}
+
+		}
+		617.1.1 = {
+			owner = TMI
+			controller = TMI
+			add_core_of = TMI
+
+		}
+
+	}
+
+	provinces={
+		76 528 8683 8876 8877 8878 8879 8880 8881 8882 8883 9053 9055 9060 9065 9070 9732 
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=135
+	name="STATE_135"
+
+	resources={
+		wood = 8
+		mana = 12
+	}
+
+	history={
+		
+		add_core_of = AER
+
+		victory_points = {
+			3885 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+
+		617.1.1 = {
+			owner = HIV
+			controller = HIV
+			add_core_of = HIV
+		}
+	}
+
+	provinces={
+		625 3885 3888 3896 3901 3905
+	}
+	manpower=21800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

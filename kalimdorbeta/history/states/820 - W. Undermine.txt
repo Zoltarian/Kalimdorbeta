@@ -1,0 +1,31 @@
+
+state={
+	id=820
+	name="STATE_820"
+	resources={
+		ores=32
+		gunpowder=16
+	}
+
+	history={
+		
+		victory_points = {
+			8280 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 3
+
+		}
+		add_core_of = TVC
+
+	}
+
+	provinces={
+		8119 8269 8273 8278 8280 8285 8295 
+	}
+	manpower=122000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_11
+}

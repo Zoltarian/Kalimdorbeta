@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Veridian Whelp"
+
+	regiments = {
+		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 0 y = 4 }
+
+	}
+	priority = 1
+
+}
+
+units = {
+	#
+	division = {
+		name = "Veridian Whelp"
+		location = 11526
+		division_template = "Veridian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Veridian Whelp"
+		location = 11526
+		division_template = "Veridian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Veridian Whelp"
+		location = 11526
+		division_template = "Veridian Whelp"
+		start_experience_factor = 0.2
+	}
+
+}
+
+air_wings = {
+	### onyxias lair
+	88 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "RZB"
+			amount = 30
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "RZB"
+			amount = 10
+		}
+
+	}
+
+}

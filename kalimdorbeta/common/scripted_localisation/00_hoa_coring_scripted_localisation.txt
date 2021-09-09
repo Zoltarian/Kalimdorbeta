@@ -1,0 +1,15 @@
+defined_text = {
+	name = GetCoringProgress
+
+	text = {
+		trigger = {
+			set_temp_variable = { progress_rate = coring_progress }
+			add_to_temp_variable = { progress_rate = 91 }
+			divide_temp_variable = { progress_rate = 90 }
+		}
+		localization_key = [?progress_rate|%1Y]
+	}
+	text = {
+		localization_key = ""
+	}
+}

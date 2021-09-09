@@ -1,0 +1,36 @@
+
+state={
+	id=1573
+	name="STATE_1573"
+
+	history={
+		
+		add_core_of = IRO
+
+		buildings = {
+			infrastructure = 4
+			3691 = {
+				naval_base = 1
+			}
+		}
+
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+		}
+
+		617.1.1 = {
+			owner = TLF
+			controller = TLF
+			add_core_of = TLF
+		}
+	}
+
+	provinces={
+		2934 2935 3691
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=1048
+	name="STATE_1048"
+	resources={
+		ores=7
+		gunpowder=5
+	}
+
+	history={
+		owner = WFT
+		add_core_of = WFT
+
+		victory_points = {
+			10081 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		617.1.1 = {
+			owner = THB
+			controller = THB
+			add_core_of = THB
+		}
+	}
+
+	provinces={
+		9693 10069 10076 10081 10083 10095
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

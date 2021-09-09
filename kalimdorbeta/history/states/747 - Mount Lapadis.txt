@@ -1,0 +1,31 @@
+
+state={
+	id=747
+	name="STATE_747"
+	resources={
+		mana=17
+		ores=23
+	}
+
+	history={
+		
+		victory_points = {
+			5568 20
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+
+		}
+		add_core_of = LAP
+	}
+
+	provinces={
+		1327 2950 5556 5561 5562 5564 5565 5566 5567 5568 5569 5570 5571 
+	}
+	manpower=84500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+}

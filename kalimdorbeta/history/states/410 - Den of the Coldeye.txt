@@ -1,0 +1,29 @@
+
+state={
+	id=410
+	name="STATE_410"
+	resources={
+		wood =8
+		mounts=8
+	}
+
+	history={
+		
+		victory_points = {
+			5530 5
+		}
+		buildings = {
+			infrastructure = 2
+			
+		}
+		add_core_of = BFT
+
+	}
+
+	provinces={
+		842 2245 5484 5493 5509 5516 5526 5528 5530 6914 
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=486
+	name="STATE_486"
+	resources={
+		oil=38.000
+		wood =4.000
+	}
+
+	history={
+		
+		add_core_of = IRO
+
+		victory_points = {
+			3706 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3744 = {
+				naval_base = 2
+			}
+		}
+
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+		}
+
+		617.1.1 = {
+			owner = FDW
+			controller = FDW
+			add_core_of = FDW
+		}
+	}
+
+	provinces={
+		2751 3606 3706 3713 3718 3731 3739 3744 3745 5972 5981
+	}
+	manpower=10475
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=180
+	name="STATE_180"
+	resources={
+		mana=32.000
+	}
+
+	history={
+		
+		victory_points = {
+			5732 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+			radar_station = 1
+			3244 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		3230 3243 3244 3257 3258 5732 5737 
+	}
+	manpower=18025
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

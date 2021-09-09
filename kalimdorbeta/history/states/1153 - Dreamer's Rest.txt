@@ -1,0 +1,32 @@
+
+state={
+	id=1153
+	name="STATE_1153"
+	resources = {
+		mana=5
+		wood=2
+		ores=1
+	}
+
+	history={
+		owner = RBG
+		victory_points = {
+			11514 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = RBG
+
+	}
+
+	provinces={
+		10892 11514
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

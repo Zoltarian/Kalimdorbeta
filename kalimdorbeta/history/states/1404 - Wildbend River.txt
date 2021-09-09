@@ -1,0 +1,33 @@
+
+state={
+	id=1404
+	name="STATE_1404"
+	resources = {
+		wood=12
+		ores=2
+		wheat=1
+	}
+
+	history={
+		owner = CEN
+		add_core_of = CEN
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+		617.1.1 = {
+			owner = KAL
+			controller = KAL
+			add_core_of = KAL
+		}
+	}
+
+	provinces={
+		12066 12556 12559 12854 12855 12857 12858 12860
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

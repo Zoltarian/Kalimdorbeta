@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Thunderhorn Warriors"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Thunderhorn Warriors"
+		location = 10053
+		division_template = "Thunderhorn Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Thunderhorn Warriors"
+		location = 10053
+		division_template = "Thunderhorn Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Thunderhorn Warriors"
+		location = 10053
+		division_template = "Thunderhorn Warriors"
+		start_experience_factor = 0.2
+	}
+
+}

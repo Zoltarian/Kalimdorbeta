@@ -1,0 +1,39 @@
+
+state={
+	id=687
+	name="STATE_687"
+	resources={
+		wood =2
+		mounts=4
+		mana=6
+	}
+
+	history={
+		
+		add_core_of = SMC
+
+		victory_points = {
+			6753 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SMC
+		}
+	}
+
+	provinces={
+		6678 6734 6740 6744 6745 6751 6753 6757 6760 6761 6804 6822
+	}
+	manpower=39000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

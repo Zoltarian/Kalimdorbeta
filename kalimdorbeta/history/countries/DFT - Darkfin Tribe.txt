@@ -1,0 +1,126 @@
+﻿capital = 584
+
+oob = "DFT_592"
+
+set_naval_oob = "DFT_592_naval"
+
+set_convoys = 30
+
+set_research_slots = 3
+
+add_ideas = {
+	
+	tribe
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	murloc_primary_race
+	primary_trait_spawning_pools
+	primary_trait_mrglgl
+	primary_trait_one_with_the_sea
+
+	primary_religion_followers_of_the_tidehunter
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	naval_transport_1 = 1
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Old Fin Eye"
+	desc = "POLITICS_OLD_FIN_EYE_DESC"
+	picture = "old_fin_eye.dds"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Old Fin Eye"
+	desc = "POLITICS_OLD_FIN_EYE_DESC"
+	picture = "old_fin_eye.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Old Fin Eye"
+	desc = "POLITICS_OLD_FIN_EYE_DESC"
+	picture = "old_fin_eye.dds"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Old Fin Eye"
+	desc = "POLITICS_OLD_FIN_EYE_DESC"
+	picture = "old_fin_eye.dds"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Old Fin Eye"
+	desc = "POLITICS_OLD_FIN_EYE_DESC"
+	picture = "old_fin_eye.dds"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Old Fin Eye"
+	picture = "gfx/leaders/generic/BI_Murloc/murloc1.dds"
+	traits = {  }
+	id = 15000
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Darkfin Warlord"
+	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
+	traits = {  }
+	id = 15001
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

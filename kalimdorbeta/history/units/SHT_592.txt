@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Shadethicket Bark Ripper"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Shadethicket Bark Ripper"
+		location = 12461
+		division_template = "Shadethicket Bark Ripper"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadethicket Bark Ripper"
+		location = 12461
+		division_template = "Shadethicket Bark Ripper"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadethicket Bark Ripper"
+		location = 12461
+		division_template = "Shadethicket Bark Ripper"
+		start_experience_factor = 0.2
+	}
+	
+}

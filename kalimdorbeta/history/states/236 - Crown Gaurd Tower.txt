@@ -1,0 +1,41 @@
+
+state={
+	id=236
+	name="STATE_236"
+	resources={
+		wood=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			4162 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		726 3333 3485 4116 4130 4136 4157 4162 4167 4204 4223 
+	}
+	manpower=7625
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

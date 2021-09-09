@@ -1,0 +1,60 @@
+﻿capital = 1382
+
+oob = "MAK_592"
+
+set_naval_oob = "MAK_591_naval_legacy"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	tribe
+	limited_conscription
+	peacetime_economy
+	limited_exports
+
+	makrura_primary_race
+
+	primary_trait_big_meaty_claws
+	primary_trait_coast_striders
+	primary_trait_life_in_the_ocean
+
+	primary_religion_followers_of_the_tidehunter
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 100
+}
+
+create_country_leader = {
+	name = "Sandsnap"
+	desc = "POLITICS_SANDSNAP_DESC"
+	picture = "sandsnap.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

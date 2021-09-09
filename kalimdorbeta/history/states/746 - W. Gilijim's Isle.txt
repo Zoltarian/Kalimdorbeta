@@ -1,0 +1,34 @@
+
+state={
+	id=746
+	name="STATE_746"
+	resources={
+		oil=9.000
+		ores=4.000
+	}
+
+	history={
+		
+		victory_points = {
+			5642 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			5642 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = LAP
+
+	}
+
+	provinces={
+		1324 1576 2909 5623 5626 5631 5633 5638 5642 5644 5646 5647 5661 5665 6418 6419 6420 6422 
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

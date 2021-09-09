@@ -1,0 +1,43 @@
+﻿division_template = {
+	name = "Broken Ones"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Broken Ones"
+		location = 9819
+		division_template = "Broken Ones"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Broken Ones"
+		location = 9819
+		division_template = "Broken Ones"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Broken Ones"
+		location = 9822
+		division_template = "Broken Ones"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Broken Ones"
+		location = 9822
+		division_template = "Broken Ones"
+		start_experience_factor = 0.2
+	}
+	
+}

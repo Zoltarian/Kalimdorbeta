@@ -1,0 +1,38 @@
+
+state={
+	id=1085
+	name="STATE_1085"
+	resources= {
+		mounts=4
+		wood =4
+	}
+
+	history={
+		
+		add_core_of = BWC
+
+		victory_points = {
+			10545 15
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}	
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BWC
+		}
+	}
+
+	provinces={
+		1856 10545 10685 10748 10753 10755 10757 10758 10760 10770 10774 10851
+	}
+	manpower=33000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

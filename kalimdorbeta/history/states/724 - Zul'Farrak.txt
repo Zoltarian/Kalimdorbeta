@@ -1,0 +1,38 @@
+
+state={
+	id=724
+	name="STATE_724"
+	resources={
+		ores=26
+		mana = 28
+		mounts = 22
+	}
+
+	history={
+		owner = FAR
+		victory_points = {
+			9518 25 
+		}
+		victory_points = {
+			9522 20 
+		}
+		victory_points = {
+			9521 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 3
+
+		}
+		add_core_of = FAR
+
+	}
+
+	provinces={
+		225 9504 9505 9507 9508 9509 9510 9511 9512 9513 9514 9515 9516 9517 9518 9519 9520 9521 9522 9523 
+	}
+	manpower=212000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

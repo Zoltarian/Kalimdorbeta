@@ -1,0 +1,34 @@
+
+state={
+	id=704
+	name="STATE_704"
+	resources={
+		gunpowder=6
+		oil=3
+	}
+
+	history={
+		
+		victory_points = {
+			5299 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			5299 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = LAP
+
+	}
+
+	provinces={
+		5291 5294 5296 5299 5535 5542 5544 5599 
+	}
+	manpower=37500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

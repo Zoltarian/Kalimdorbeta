@@ -1,0 +1,26 @@
+
+state={
+	id=1420
+	name="STATE_1420"
+	resources = {
+		wood=6
+		wheat=1
+	}
+
+	history={
+		owner = JFT
+		add_core_of = JFT
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		12532 12876 12882 12886 12888 12890 12892 13200
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

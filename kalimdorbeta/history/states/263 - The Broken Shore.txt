@@ -1,0 +1,31 @@
+
+state={
+	id=263
+	name="STATE_263"
+	resources={
+		oil=4.000
+		gunpowder=6.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			5889 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SFT
+
+	}
+
+	provinces={
+		971 5889 5934 6070 
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,104 @@
+# All infantry equipment
+
+equipments = {
+
+	royal_guard_equipment = {
+		year = 584
+	
+		is_archetype = yes
+		picture = archetype_footman 	
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 5
+
+		#Defensive Abilities
+		defense = 30 #+5
+		breakthrough = 8 #max 12
+		hardness = 0
+		armor_value = 20 #+5
+
+		#Offensive Abilities
+		soft_attack = 9 #+3
+		hard_attack = 9 #+3
+		ap_attack = 21 #+5
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		build_cost_ic = 1
+		resources = {
+			wheat = 2
+			ores = 4
+		}
+		
+	}
+	
+	royal_guard_equipment_1 = {
+		year = 584
+	
+		archetype = royal_guard_equipment
+		priority = 05
+		visual_level = 0
+	}
+
+	royal_guard_equipment_2 = {
+		year = 595
+	
+		archetype = royal_guard_equipment
+		parent = royal_guard_equipment_1
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 35 #+5
+		breakthrough = 10 #+2
+		hardness = 0
+		armor_value = 25 #+5
+
+		#Offensive Abilities
+		soft_attack = 12 #+4
+		hard_attack = 12 #+4
+		ap_attack = 26 #+5
+		air_attack = 0
+
+		build_cost_ic = 1.2
+	}
+
+	royal_guard_equipment_3 = {
+		year = 601
+	
+		archetype = royal_guard_equipment
+		parent = royal_guard_equipment_2
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+		
+		#Defensive Abilities
+		defense = 40 #+5
+		breakthrough = 12 #+2
+		hardness = 0
+		armor_value = 30 #+5
+
+		#Offensive Abilities
+		soft_attack = 16 #+4
+		hard_attack = 16 #+4
+		ap_attack = 31 #+5
+
+		build_cost_ic = 1.4
+	}
+
+}

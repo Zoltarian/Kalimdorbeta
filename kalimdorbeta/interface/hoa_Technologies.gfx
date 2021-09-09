@@ -1,0 +1,6139 @@
+spriteTypes = {
+
+
+#####################################################
+#Human administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_peasants_tech_medium"
+		texturefile = "gfx/interface/technologies/peasants.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_tools_1_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_tools_2_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_tools_3_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_tools_4_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_tools_5_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvesting_tools_1_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvesting_tools_2_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvesting_tools_3_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvesting_tools_4_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvesting_tools_5_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_support_equipment_tech_medium"
+		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peasant_1_medium"
+		texturefile = "gfx/interface/technologies/peasants_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peasant_2_medium"
+		texturefile = "gfx/interface/technologies/peasants_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peasant_3_medium"
+		texturefile = "gfx/interface/technologies/peasants_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peasant_4_medium"
+		texturefile = "gfx/interface/technologies/peasants_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_militia_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/militia_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_call_to_arms_medium"
+		texturefile = "gfx/interface/technologies/call_to_arms.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_local_militias_medium"
+		texturefile = "gfx/interface/technologies/local_militias.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_militia_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/militia_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chainmail_vests_medium"
+		texturefile = "gfx/interface/technologies/chainmail_vest.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpened_axes_medium"
+		texturefile = "gfx/interface/technologies/axe_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_militia_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/militia_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blacksmith_unit_tech_1_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_unit.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blacksmith_unit_tech_2_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_unit_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blacksmith_unit_tech_3_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_unit_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blacksmith_unit_tech_4_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_unit_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blacksmith_unit_tech_5_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_unit_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpened_blades_1_medium"
+		texturefile = "gfx/interface/technologies/sword_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpened_blades_2_medium"
+		texturefile = "gfx/interface/technologies/sword_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpened_blades_3_medium"
+		texturefile = "gfx/interface/technologies/sword_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpened_blades_4_medium"
+		texturefile = "gfx/interface/technologies/sword_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_1_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_2_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_3_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_4_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_1_medium"
+		texturefile = "gfx/interface/technologies/forge_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_2_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_3_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_4_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_5_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blueprints_1_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blueprints_2_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blueprints_3_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_industrial_society_1_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_industrial_society_2_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_industrial_society_3_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_industrial_society_4_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_industrial_society_5_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_farm_tech_medium"
+		texturefile = "gfx/interface/technologies/farm_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agrian_society_1_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agrian_society_2_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agrian_society_3_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agrian_society_4_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agrian_society_5_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hoa_grain_silo_1_medium"
+		texturefile = "gfx/interface/technologies/barn_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hoa_grain_silo_2_medium"
+		texturefile = "gfx/interface/technologies/barn_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hoa_grain_silo_3_medium"
+		texturefile = "gfx/interface/technologies/barn_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvest_golem_1_medium"
+		texturefile = "gfx/interface/technologies/harvest_golem_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvest_golem_2_medium"
+		texturefile = "gfx/interface/technologies/harvest_golem_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvest_golem_3_medium"
+		texturefile = "gfx/interface/technologies/harvest_golem_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_harvest_golem_4_medium"
+		texturefile = "gfx/interface/technologies/harvest_golem_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_nesting_grounds_tech_medium"
+		texturefile = "gfx/interface/technologies/gryphon_aviary.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_egg_breeding_1_medium"
+		texturefile = "gfx/interface/technologies/egg_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_egg_breeding_2_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_egg_breeding_3_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_egg_breeding_4_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mines_tech_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mine_cart_1_medium"
+		texturefile = "gfx/interface/technologies/minecart.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mine_cart_2_medium"
+		texturefile = "gfx/interface/technologies/minecart_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mine_cart_3_medium"
+		texturefile = "gfx/interface/technologies/minecart_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mine_cart_4_medium"
+		texturefile = "gfx/interface/technologies/minecart_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_church_tech_medium"
+		texturefile = "gfx/interface/technologies/church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devotion_tech_1_medium"
+		texturefile = "gfx/interface/technologies/devotion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devotion_tech_2_medium"
+		texturefile = "gfx/interface/technologies/devotion_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devotion_tech_3_medium"
+		texturefile = "gfx/interface/technologies/devotion_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devotion_tech_4_medium"
+		texturefile = "gfx/interface/technologies/devotion_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wall_tech_1_medium"
+		texturefile = "gfx/interface/technologies/walls_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wall_tech_2_medium"
+		texturefile = "gfx/interface/technologies/walls_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wall_tech_3_medium"
+		texturefile = "gfx/interface/technologies/walls_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wall_tech_4_medium"
+		texturefile = "gfx/interface/technologies/walls_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wall_tech_5_medium"
+		texturefile = "gfx/interface/technologies/walls_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_evocation_tech_1_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_evocation_tech_2_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_evocation_tech_3_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_evocation_tech_4_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wood_working_1_medium"
+		texturefile = "gfx/interface/technologies/woodworking_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wood_working_2_medium"
+		texturefile = "gfx/interface/technologies/woodworking_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wood_working_3_medium"
+		texturefile = "gfx/interface/technologies/woodworking_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_wood_working_4_medium"
+		texturefile = "gfx/interface/technologies/woodworking_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rogues_guild_medium"
+		texturefile = "gfx/interface/technologies/centimetric_radar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption_1_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption_2_medium"
+		texturefile = "gfx/interface/technologies/encryption_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption_3_medium"
+		texturefile = "gfx/interface/technologies/encryption_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption_4_medium"
+		texturefile = "gfx/interface/technologies/encryption_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption_1_medium"
+		texturefile = "gfx/interface/technologies/decryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption_2_medium"
+		texturefile = "gfx/interface/technologies/decryption_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption_3_medium"
+		texturefile = "gfx/interface/technologies/decryption_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption_4_medium"
+		texturefile = "gfx/interface/technologies/decryption_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rogue_tech_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rogue_tech_1_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rogue_tech_2_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rogue_tech_3_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rogue_tech_4_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tailor_tech_medium"
+		texturefile = "gfx/interface/technologies/tailoring.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tabards_1_medium"
+		texturefile = "gfx/interface/technologies/tabard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tabards_2_medium"
+		texturefile = "gfx/interface/technologies/tabard_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cloth_armor_1_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cloth_armor_2_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cloth_armor_3_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cloth_armor_4_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cloak_1_medium"
+		texturefile = "gfx/interface/technologies/cloak_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cloak_2_medium"
+		texturefile = "gfx/interface/technologies/cloak_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_leather_working_tech_medium"
+		texturefile = "gfx/interface/technologies/leatherworking.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_leather_armor_1_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_leather_armor_2_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_leather_armor_3_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_leather_armor_4_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_4.dds"
+	}
+
+#####################################################
+#Human infantry technologies
+#####################################################
+
+	SpriteType = {
+		name = "GFX_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/human_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_footman_weapons_tech_1_medium"
+		texturefile = "gfx/interface/technologies/footman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_charge_tech_medium"
+		texturefile = "gfx/interface/technologies/charge.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_defend_tech_medium"
+		texturefile = "gfx/interface/technologies/defend.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_footman_weapons_tech_2_medium"
+		texturefile = "gfx/interface/technologies/footman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_support_pistols_medium"
+		texturefile = "gfx/interface/technologies/gun_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rallying_cry_tech_medium"
+		texturefile = "gfx/interface/technologies/rallying_cry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_footman_weapons_tech_3_medium"
+		texturefile = "gfx/interface/technologies/footman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_captain_tech_medium"
+		texturefile = "gfx/interface/technologies/captain.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_captain_1_medium"
+		texturefile = "gfx/interface/technologies/captain_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_captain_2_medium"
+		texturefile = "gfx/interface/technologies/captain_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_captain_3_medium"
+		texturefile = "gfx/interface/technologies/captain_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_captain_4_medium"
+		texturefile = "gfx/interface/technologies/captain_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_standard_bearer_1_medium"
+		texturefile = "gfx/interface/technologies/human_banner.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_standard_bearer_2_medium"
+		texturefile = "gfx/interface/technologies/human_banner_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_standard_bearer_3_medium"
+		texturefile = "gfx/interface/technologies/human_banner_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guard_tech_medium"
+		texturefile = "gfx/interface/technologies/guard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_guard_1_medium"
+		texturefile = "gfx/interface/technologies/guard_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_guard_2_medium"
+		texturefile = "gfx/interface/technologies/guard_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_guard_3_medium"
+		texturefile = "gfx/interface/technologies/guard_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_guard_4_medium"
+		texturefile = "gfx/interface/technologies/guard_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_nights_watch_1_medium"
+		texturefile = "gfx/interface/technologies/night_watch.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_nights_watch_2_medium"
+		texturefile = "gfx/interface/technologies/night_watch_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_nights_watch_3_medium"
+		texturefile = "gfx/interface/technologies/night_watch_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pikeman_weapons_tech_1_medium"
+		texturefile = "gfx/interface/technologies/pikeman_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tower_shields_medium"
+		texturefile = "gfx/interface/technologies/tower_shield.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_square_formation_medium"
+		texturefile = "gfx/interface/technologies/spear.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pikeman_weapons_tech_2_medium"
+		texturefile = "gfx/interface/technologies/pikeman_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pike_and_shot_medium"
+		texturefile = "gfx/interface/technologies/gun_ammo.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_halberds_medium"
+		texturefile = "gfx/interface/technologies/halberd.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pikeman_weapons_tech_3_medium"
+		texturefile = "gfx/interface/technologies/pikeman_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archer_tech_medium"
+		texturefile = "gfx/interface/technologies/archer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archer_weapons_tech_1_medium"
+		texturefile = "gfx/interface/technologies/archer_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpened_arrows_medium"
+		texturefile = "gfx/interface/technologies/arrow_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_animal_companions_medium"
+		texturefile = "gfx/interface/technologies/animal_companion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archer_weapons_tech_2_medium"
+		texturefile = "gfx/interface/technologies/archer_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fire_arrows_medium"
+		texturefile = "gfx/interface/technologies/fire_arrow.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_precise_shots_medium"
+		texturefile = "gfx/interface/technologies/arrow_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archer_weapons_tech_3_medium"
+		texturefile = "gfx/interface/technologies/archer_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/mage_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mage_tech_medium"
+		texturefile = "gfx/interface/technologies/mage.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mage_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/mage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fire_blast_medium"
+		texturefile = "gfx/interface/technologies/fire_blast.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ice_lance_medium"
+		texturefile = "gfx/interface/technologies/ice_lance.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mage_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/mage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blazing_barrier_medium"
+		texturefile = "gfx/interface/technologies/blazing_barrier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arcane_missles_medium"
+		texturefile = "gfx/interface/technologies/arcane_missles.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mage_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/mage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_priest_tech_medium"
+		texturefile = "gfx/interface/technologies/priest.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_priest_1_medium"
+		texturefile = "gfx/interface/technologies/priest_class_icon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_priest_2_medium"
+		texturefile = "gfx/interface/technologies/priest_class_icon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_priest_3_medium"
+		texturefile = "gfx/interface/technologies/priest_class_icon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_priest_4_medium"
+		texturefile = "gfx/interface/technologies/priest_class_icon.dds"
+	}
+
+###########################################################
+#cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/stable.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_breeding_methods_1_medium"
+		texturefile = "gfx/interface/technologies/brown_horse.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_breeding_methods_2_medium"
+		texturefile = "gfx/interface/technologies/brown_horse_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_breeding_methods_3_medium"
+		texturefile = "gfx/interface/technologies/brown_horse_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_breeding_methods_4_medium"
+		texturefile = "gfx/interface/technologies/brown_horse_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mount_taming_1_medium"
+		texturefile = "gfx/interface/technologies/human_horse.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mounted_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/mounted_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dual_wield_medium"
+		texturefile = "gfx/interface/technologies/dual_wield.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gallop_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mounted_captains_medium"
+		texturefile = "gfx/interface/technologies/stormwind_banner.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dismount_tech_medium"
+		texturefile = "gfx/interface/technologies/horse.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mount_taming_2_medium"
+		texturefile = "gfx/interface/technologies/human_horse.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mount_taming_3_medium"
+		texturefile = "gfx/interface/technologies/human_horse.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_knight_tech_medium"
+		texturefile = "gfx/interface/technologies/knight.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_knight_tech_1_medium"
+		texturefile = "gfx/interface/technologies/knight_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sundering_blades_medium"
+		texturefile = "gfx/interface/technologies/sundering_blades.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_lance_medium"
+		texturefile = "gfx/interface/technologies/spear.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_knight_tech_2_medium"
+		texturefile = "gfx/interface/technologies/knight_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_stampede_tech_medium"
+		texturefile = "gfx/interface/technologies/horse_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_knight_armor_medium"
+		texturefile = "gfx/interface/technologies/plate_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_knight_tech_3_medium"
+		texturefile = "gfx/interface/technologies/knight_tech.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_lancer_tech_1_medium"
+		texturefile = "gfx/interface/technologies/lancer_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lancer_tech_2_medium"
+		texturefile = "gfx/interface/technologies/lancer_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lancer_tech_3_medium"
+		texturefile = "gfx/interface/technologies/lancer_tech.dds"
+	}
+
+
+###########################################################
+#siege_tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_siege_works_medium"
+		texturefile = "gfx/interface/technologies/siege_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_supply_wagon_tech_medium"
+		texturefile = "gfx/interface/technologies/supply_wagon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_supply_wagon_1_medium"
+		texturefile = "gfx/interface/technologies/supply_wagon_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_supply_wagon_2_medium"
+		texturefile = "gfx/interface/technologies/supply_wagon_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_supply_wagon_3_medium"
+		texturefile = "gfx/interface/technologies/supply_wagon_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_supply_wagon_4_medium"
+		texturefile = "gfx/interface/technologies/supply_wagon_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_catapult_tech_medium"
+		texturefile = "gfx/interface/technologies/human_catapult.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_catapult_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_horse_drawn_catapults_medium"
+		texturefile = "gfx/interface/technologies/horse_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_moving_mechanism_medium"
+		texturefile = "gfx/interface/technologies/gears.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_catapult_frame_medium"
+		texturefile = "gfx/interface/technologies/large_air_frames.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_catapult_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_payload_medium"
+		texturefile = "gfx/interface/technologies/rock.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_burning_oil_medium"
+		texturefile = "gfx/interface/technologies/burning_oil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_catapult_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_horse_drawn_catapult_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/mass_motorization.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_burning_oil_1_medium"
+		texturefile = "gfx/interface/technologies/artillery2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_burning_oil_2_medium"
+		texturefile = "gfx/interface/technologies/artillery2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_burning_oil_3_medium"
+		texturefile = "gfx/interface/technologies/artillery2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hoa_steam_tank_1_medium"
+		texturefile = "gfx/interface/technologies/siege_tank_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hoa_steam_tank_2_medium"
+		texturefile = "gfx/interface/technologies/siege_tank_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hoa_steam_tank_3_medium"
+		texturefile = "gfx/interface/technologies/siege_tank_tech.dds"
+	}
+
+#####################################################
+#Human Support technologies
+#####################################################
+
+	SpriteType = {
+		name = "GFX_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/altar_of_kings.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_royal_guard_tech_medium"
+		texturefile = "gfx/interface/technologies/royal_guard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_royal_guard_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/royal_guard_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_overpower_tech_medium"
+		texturefile = "gfx/interface/technologies/sword_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_intercept_tech_medium"
+		texturefile = "gfx/interface/technologies/intercept.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_royal_guard_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/royal_guard_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shield_wall_tech_medium"
+		texturefile = "gfx/interface/technologies/shield_wall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_last_stand_tech_medium"
+		texturefile = "gfx/interface/technologies/last_stand.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_royal_guard_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/royal_guard_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_paladin_tech_medium"
+		texturefile = "gfx/interface/technologies/paladin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_paladin_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/paladin_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_divine_steeds_tech_medium"
+		texturefile = "gfx/interface/technologies/divine_steed.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_divine_shield_tech_medium"
+		texturefile = "gfx/interface/technologies/divine_shield.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_paladin_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/paladin_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blessing_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/blessing_of_kings.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_templars_verdict_tech_medium"
+		texturefile = "gfx/interface/technologies/templars_verdict.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_paladin_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/paladin_equipment.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_arch_mage_tech_medium"
+		texturefile = "gfx/interface/technologies/arch_mage.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arch_mage_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/arch_mage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blizzard_tech_medium"
+		texturefile = "gfx/interface/technologies/blizzard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_phoenixs_flames_tech_medium"
+		texturefile = "gfx/interface/technologies/phoenixs_flames.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arch_mage_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/arch_mage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ice_block_tech_medium"
+		texturefile = "gfx/interface/technologies/ice_block.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pyroblast_tech_medium"
+		texturefile = "gfx/interface/technologies/pyroblast.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arch_mage_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/arch_mage_equipment.dds"
+	}
+
+#####################################################
+#air tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_aviary_tech_medium"
+		texturefile = "gfx/interface/technologies/aviary.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_organic_flight_medium"
+		texturefile = "gfx/interface/technologies/organic_flight.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_swift_breeds_medium"
+		texturefile = "gfx/interface/technologies/swift_breeds.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_endurance_breeds_medium"
+		texturefile = "gfx/interface/technologies/endurance_breeds.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_support_breeds_medium"
+		texturefile = "gfx/interface/technologies/support_breeds.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_breeds_1_medium"
+		texturefile = "gfx/interface/technologies/organic_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_breeds_2_medium"
+		texturefile = "gfx/interface/technologies/organic_fighter_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_breeds_3_medium"
+		texturefile = "gfx/interface/technologies/organic_fighter_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_breeds_1_medium"
+		texturefile = "gfx/interface/technologies/organic_cas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_breeds_2_medium"
+		texturefile = "gfx/interface/technologies/organic_cas_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_breeds_3_medium"
+		texturefile = "gfx/interface/technologies/organic_cas_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_breeds_1_medium"
+		texturefile = "gfx/interface/technologies/organic_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_breeds_2_medium"
+		texturefile = "gfx/interface/technologies/organic_bomber_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_breeds_3_medium"
+		texturefile = "gfx/interface/technologies/organic_bomber_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_breeds_1_medium"
+		texturefile = "gfx/interface/technologies/organic_naval_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_breeds_2_medium"
+		texturefile = "gfx/interface/technologies/organic_naval_bomber_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_breeds_3_medium"
+		texturefile = "gfx/interface/technologies/organic_naval_bomber_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scouting_breeds_1_medium"
+		texturefile = "gfx/interface/technologies/organic_scout.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scouting_breeds_2_medium"
+		texturefile = "gfx/interface/technologies/organic_scout_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scouting_breeds_3_medium"
+		texturefile = "gfx/interface/technologies/organic_scout_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_transport_breeds_1_medium"
+		texturefile = "gfx/interface/technologies/organic_transport.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_flight_medium"
+		texturefile = "gfx/interface/technologies/mechanical_flight.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_small_air_frames_medium"
+		texturefile = "gfx/interface/technologies/small_air_frames.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_large_air_frames_medium"
+		texturefile = "gfx/interface/technologies/large_air_frames.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_support_air_frames_medium"
+		texturefile = "gfx/interface/technologies/support_air_frames.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_air_frames_1_medium"
+		texturefile = "gfx/interface/technologies/mechanical_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_air_frames_2_medium"
+		texturefile = "gfx/interface/technologies/mechanical_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_air_frames_3_medium"
+		texturefile = "gfx/interface/technologies/mechanical_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_air_frames_1_medium"
+		texturefile = "gfx/interface/technologies/mechanical_cas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_air_frames_2_medium"
+		texturefile = "gfx/interface/technologies/mechanical_cas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_air_frames_3_medium"
+		texturefile = "gfx/interface/technologies/mechanical_cas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/mechanical_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_bomber_2_medium"
+		texturefile = "gfx/interface/technologies/mechanical_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_bomber_3_medium"
+		texturefile = "gfx/interface/technologies/mechanical_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_naval_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/mechanical_naval_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_naval_bomber_2_medium"
+		texturefile = "gfx/interface/technologies/mechanical_naval_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_naval_bomber_3_medium"
+		texturefile = "gfx/interface/technologies/mechanical_naval_bomber.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_mechanical_scout_plane_1_medium"
+		texturefile = "gfx/interface/technologies/mechanical_scout_plane.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_scout_plane_2_medium"
+		texturefile = "gfx/interface/technologies/mechanical_scout_plane.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_scout_plane_3_medium"
+		texturefile = "gfx/interface/technologies/mechanical_scout_plane.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanical_air_transport_1_medium"
+		texturefile = "gfx/interface/technologies/mechanical_transport.dds"
+	}
+
+#####################################################
+#air doc tech #human icons
+#####################################################
+
+	SpriteType = {
+		name = "GFX_fighter_doctrine_medium"
+		texturefile = "gfx/interface/technologies/air_superiority.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_escort_effort_medium"
+		texturefile = "gfx/interface/technologies/escort_relay_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_detection_medium"
+		texturefile = "gfx/interface/technologies/fighter_baiting.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_agility_medium"
+		texturefile = "gfx/interface/technologies/dogfighting_experience.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_air_superiority_1_medium"
+		texturefile = "gfx/interface/technologies/air_offense.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_intercept_1_medium"
+		texturefile = "gfx/interface/technologies/air_defence.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_air_superiority_2_medium"
+		texturefile = "gfx/interface/technologies/air_offense.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_intercept_2_medium"
+		texturefile = "gfx/interface/technologies/air_defence.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_rule_the_skies_medium"
+		texturefile = "gfx/interface/technologies/air_skirmish.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_doctrine_medium"
+		texturefile = "gfx/interface/technologies/battlefield_support.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_agility_medium"
+		texturefile = "gfx/interface/technologies/direct_ground_support.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_master_riders_medium"
+		texturefile = "gfx/interface/technologies/carousel_bombing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_efficiency_medium"
+		texturefile = "gfx/interface/technologies/combat_unit_destruction.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_naval_missions_medium"
+		texturefile = "gfx/interface/technologies/dive_bombing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_defence_medium"
+		texturefile = "gfx/interface/technologies/flying_fortress.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_ground_support_medium"
+		texturefile = "gfx/interface/technologies/air_land_battle.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_bomber_doctrine_medium"
+		texturefile = "gfx/interface/technologies/home_defence.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_defence_medium"
+		texturefile = "gfx/interface/technologies/air_defence.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_night_attacks_medium"
+		texturefile = "gfx/interface/technologies/dead_reckoning_bombing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_stealth_medium"
+		texturefile = "gfx/interface/technologies/infiltration_bombing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_land_focus_medium"
+		texturefile = "gfx/interface/technologies/infrastructure_destruction.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_land_damage_medium"
+		texturefile = "gfx/interface/technologies/hunt_and_destroy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_naval_focus_medium"
+		texturefile = "gfx/interface/technologies/base_strike.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_naval_damage_medium"
+		texturefile = "gfx/interface/technologies/base_strike.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_ground_support_medium"
+		texturefile = "gfx/interface/technologies/battlefield_support.dds"
+	}
+
+###########################################################
+#naval_technology #human icons
+###########################################################
+
+	SpriteType = {
+		name = "GFX_naval_facilities_medium"
+		texturefile = "gfx/interface/technologies/dockyard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_small_frames_medium"
+		texturefile = "gfx/interface/technologies/basic_heavy_armor_scheme.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_destroyer_tech_1_medium"
+		texturefile = "gfx/interface/technologies/destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_destroyer_tech_2_medium"
+		texturefile = "gfx/interface/technologies/destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_destroyer_tech_3_medium"
+		texturefile = "gfx/interface/technologies/destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_destroyer_tech_4_medium"
+		texturefile = "gfx/interface/technologies/destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_tech_1_medium"
+		texturefile = "gfx/interface/technologies/submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_tech_2_medium"
+		texturefile = "gfx/interface/technologies/submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_tech_3_medium"
+		texturefile = "gfx/interface/technologies/submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_tech_4_medium"
+		texturefile = "gfx/interface/technologies/submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_snorkel_1_medium"
+		texturefile = "gfx/interface/technologies/basic_submarine_snorkel.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_snorkel_2_medium"
+		texturefile = "gfx/interface/technologies/improved_submarine_snorkel.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_frigate_tech_1_medium"
+		texturefile = "gfx/interface/technologies/pirate_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_frigate_tech_2_medium"
+		texturefile = "gfx/interface/technologies/pirate_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_frigate_tech_3_medium"
+		texturefile = "gfx/interface/technologies/pirate_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_frigate_tech_4_medium"
+		texturefile = "gfx/interface/technologies/pirate_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_frigate_tech_1_medium"
+		texturefile = "gfx/interface/technologies/pirate_heavy_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_frigate_tech_2_medium"
+		texturefile = "gfx/interface/technologies/pirate_heavy_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_frigate_tech_3_medium"
+		texturefile = "gfx/interface/technologies/pirate_heavy_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_frigate_tech_4_medium"
+		texturefile = "gfx/interface/technologies/pirate_heavy_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_transport_1_medium"
+		texturefile = "gfx/interface/technologies/transport.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_transport_2_medium"
+		texturefile = "gfx/interface/technologies/transport.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_transport_3_medium"
+		texturefile = "gfx/interface/technologies/transport.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_transport_4_medium"
+		texturefile = "gfx/interface/technologies/transport.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_large_frames_medium"
+		texturefile = "gfx/interface/technologies/improved_heavy_armor_scheme.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_juggernaught_tech_1_medium"
+		texturefile = "gfx/interface/technologies/stormwind_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_juggernaught_tech_2_medium"
+		texturefile = "gfx/interface/technologies/stormwind_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_juggernaught_tech_3_medium"
+		texturefile = "gfx/interface/technologies/stormwind_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_juggernaught_tech_4_medium"
+		texturefile = "gfx/interface/technologies/stormwind_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_battleship_tech_1_medium"
+		texturefile = "gfx/interface/technologies/stormwind_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_battleship_tech_2_medium"
+		texturefile = "gfx/interface/technologies/stormwind_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_battleship_tech_3_medium"
+		texturefile = "gfx/interface/technologies/stormwind_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_battleship_tech_4_medium"
+		texturefile = "gfx/interface/technologies/stormwind_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dreadnaught_tech_1_medium"
+		texturefile = "gfx/interface/technologies/stormwind_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dreadnaught_tech_2_medium"
+		texturefile = "gfx/interface/technologies/stormwind_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dreadnaught_tech_3_medium"
+		texturefile = "gfx/interface/technologies/stormwind_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dreadnaught_tech_4_medium"
+		texturefile = "gfx/interface/technologies/stormwind_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_carrier_tech_1_medium"
+		texturefile = "gfx/interface/technologies/carrier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_carrier_tech_2_medium"
+		texturefile = "gfx/interface/technologies/carrier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_carrier_tech_3_medium"
+		texturefile = "gfx/interface/technologies/carrier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_carrier_tech_4_medium"
+		texturefile = "gfx/interface/technologies/carrier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_academy_medium"
+		texturefile = "gfx/interface/technologies/naval_academy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_navigator_tech_medium"
+		texturefile = "gfx/interface/technologies/navigator.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_navigator_tech_training_1_medium"
+		texturefile = "gfx/interface/technologies/navigator.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_navigator_tech_training_2_medium"
+		texturefile = "gfx/interface/technologies/navigator.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_navigator_tech_training_3_medium"
+		texturefile = "gfx/interface/technologies/navigator.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spotter_tech_medium"
+		texturefile = "gfx/interface/technologies/recon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spotter_tech_training_1_medium"
+		texturefile = "gfx/interface/technologies/recon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spotter_tech_training_2_medium"
+		texturefile = "gfx/interface/technologies/recon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spotter_tech_training_3_medium"
+		texturefile = "gfx/interface/technologies/recon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_deckhand_tech_medium"
+		texturefile = "gfx/interface/technologies/deckhand.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_deckhand_tech_training_1_medium"
+		texturefile = "gfx/interface/technologies/deckhand.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_deckhand_tech_training_2_medium"
+		texturefile = "gfx/interface/technologies/deckhand.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_deckhand_tech_training_3_medium"
+		texturefile = "gfx/interface/technologies/deckhand.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_oil_refinery_medium"
+		texturefile = "gfx/interface/technologies/oil_refinery.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_oil_tanker_1_medium"
+		texturefile = "gfx/interface/technologies/oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_oil_tanker_2_medium"
+		texturefile = "gfx/interface/technologies/oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_oil_tanker_3_medium"
+		texturefile = "gfx/interface/technologies/oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_oil_tanker_4_medium"
+		texturefile = "gfx/interface/technologies/oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_foundry_medium"
+		texturefile = "gfx/interface/technologies/foundry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_cannons_medium"
+		texturefile = "gfx/interface/technologies/naval_cannon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_canon_1_medium"
+		texturefile = "gfx/interface/technologies/gun_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_canon_2_medium"
+		texturefile = "gfx/interface/technologies/gun_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_canon_3_medium"
+		texturefile = "gfx/interface/technologies/gun_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_canon_1_medium"
+		texturefile = "gfx/interface/technologies/gun_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_canon_2_medium"
+		texturefile = "gfx/interface/technologies/gun_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_canon_3_medium"
+		texturefile = "gfx/interface/technologies/gun_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_frames_1_medium"
+		texturefile = "gfx/interface/technologies/hull_upgrade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_frames_2_medium"
+		texturefile = "gfx/interface/technologies/hull_upgrade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_frames_3_medium"
+		texturefile = "gfx/interface/technologies/hull_upgrade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_frames_4_medium"
+		texturefile = "gfx/interface/technologies/hull_upgrade.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_naval_mines_medium"
+		texturefile = "gfx/interface/technologies/basic_naval_mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_naval_mines_1_medium"
+		texturefile = "gfx/interface/technologies/improved_naval_mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_naval_mines_2_medium"
+		texturefile = "gfx/interface/technologies/advanced_naval_mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_naval_mines_3_medium"
+		texturefile = "gfx/interface/technologies/modern_naval_mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_depth_charges_medium"
+		texturefile = "gfx/interface/technologies/basic_depth_charges.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_depth_charges_1_medium"
+		texturefile = "gfx/interface/technologies/improved_depth_charges.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_depth_charges_2_medium"
+		texturefile = "gfx/interface/technologies/improved_depth_charges.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_depth_charges_3_medium"
+		texturefile = "gfx/interface/technologies/improved_depth_charges.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_torpedo_tech_medium"
+		texturefile = "gfx/interface/technologies/basic_torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_torpedos_1_medium"
+		texturefile = "gfx/interface/technologies/electric_torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_torpedos_2_medium"
+		texturefile = "gfx/interface/technologies/electric_torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_torpedos_3_medium"
+		texturefile = "gfx/interface/technologies/electric_torpedo.dds"
+	}
+
+#####################################################
+#Alterac administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_ALT_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_improved_militia_1_medium"
+		texturefile = "gfx/interface/technologies/alterac_militia_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_improved_militia_2_medium"
+		texturefile = "gfx/interface/technologies/alterac_militia_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_church_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/alterac_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/alterac_scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/alterac_scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/alterac_scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/alterac_scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/alterac_guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/alterac_guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/alterac_guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/alterac_guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/alterac_guard_tower_5.dds"
+	}
+
+#####################################################
+#Alterac infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_ALT_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ALT_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_mage_tower.dds"
+	}
+
+###########################################################
+#Alterac cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_ALT_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/alterac_stable.dds"
+	}
+
+###########################################################
+#Alterac Support tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_ALT_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/alterac_altar_of_kings.dds"
+	}
+
+#####################################################
+#Dalaran administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_DAL_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_improved_militia_1_medium"
+		texturefile = "gfx/interface/technologies/dalaran_militia_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_improved_militia_2_medium"
+		texturefile = "gfx/interface/technologies/dalaran_militia_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_church_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/dalaran_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/dalaran_scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/dalaran_scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/dalaran_scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/dalaran_scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/dalaran_guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/dalaran_guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/dalaran_guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/dalaran_guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/dalaran_guard_tower_5.dds"
+	}
+
+#####################################################
+#Dalaran infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_DAL_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DAL_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_mage_tower.dds"
+	}
+
+###########################################################
+#Dalaran cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_DAL_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/dalaran_stable.dds"
+	}
+
+###########################################################
+#Dalaran Support tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_DAL_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/dalaran_altar_of_kings.dds"
+	}
+
+#####################################################
+#Gilneas administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_GIL_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_improved_militia_1_medium"
+		texturefile = "gfx/interface/technologies/gilneas_militia_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_improved_militia_2_medium"
+		texturefile = "gfx/interface/technologies/gilneas_militia_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_church_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/gilneas_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/gilneas_scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/gilneas_scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/gilneas_scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/gilneas_scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/gilneas_guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/gilneas_guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/gilneas_guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/gilneas_guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/gilneas_guard_tower_5.dds"
+	}
+
+#####################################################
+#Gilneas infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_GIL_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GIL_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_mage_tower.dds"
+	}
+
+###########################################################
+#Gilneas cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_GIL_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/gilneas_stable.dds"
+	}
+
+###########################################################
+#Gilneas Support tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_GIL_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/gilneas_altar_of_kings.dds"
+	}
+
+#####################################################
+#Kul Tiras administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_KUL_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_improved_militia_1_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_militia_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_improved_militia_2_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_militia_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_church_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_guard_tower_5_medium"
+	texturefile = "gfx/interface/technologies/kul_tiras_guard_tower_5.dds"
+	}
+
+#####################################################
+#Kul Tiras infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_KUL_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KUL_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_mage_tower.dds"
+	}
+
+###########################################################
+#Kul Tiras cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_KUL_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_stable.dds"
+	}
+
+###########################################################
+#Kul Tiras Support tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_KUL_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/kul_tiras_altar_of_kings.dds"
+	}
+
+#####################################################
+#Lordaeron administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_LOR_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_improved_militia_1_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_militia_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_improved_militia_2_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_militia_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_church_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_guard_tower_5.dds"
+	}
+
+#####################################################
+#Lordaeron infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_LOR_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LOR_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_mage_tower.dds"
+	}
+
+###########################################################
+#Lordaeron cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_LOR_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_stable.dds"
+	}
+
+###########################################################
+#Lordaeron Support tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_LOR_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/lordaeron_altar_of_kings.dds"
+	}
+
+#####################################################
+#Stromgarde administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_STR_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_improved_militia_1_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_militia_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_improved_militia_2_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_militia_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_church_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_guard_tower_5.dds"
+	}
+
+#####################################################
+#Stromgarde infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_STR_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_mage_tower.dds"
+	}
+
+###########################################################
+#Stromgarde cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_STR_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_stable.dds"
+	}
+
+###########################################################
+#Stromgarde Support tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_STR_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_altar_of_kings.dds"
+	}
+
+#####################################################
+#Tol Barad administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_TOL_town_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_town_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_keep_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_keep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_castle_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_castle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_militia_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_militia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_improved_militia_1_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_militia_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_improved_militia_2_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_militia_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_church_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_arcane_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_arcane_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_guard_tower_5.dds"
+	}
+
+#####################################################
+#Tol Barad infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_TOL_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_footman_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_footman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_pikeman_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_pikeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TOL_mage_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_mage_tower.dds"
+	}
+
+###########################################################
+#Tol Barad cavalry tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_TOL_stable_tech_1_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_stable.dds"
+	}
+
+###########################################################
+#Tol Barad Support tech
+###########################################################
+
+	SpriteType = {
+		name = "GFX_TOL_altar_of_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/tol_barad_altar_of_kings.dds"
+	}
+
+#####################################################
+#Orc administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_great_hall_medium"
+		texturefile = "gfx/interface/technologies/great_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_stronghold_tech_medium"
+		texturefile = "gfx/interface/technologies/stronghold.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fortress_tech_medium"
+		texturefile = "gfx/interface/technologies/fortress.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_peon_tech_medium"
+		texturefile = "gfx/interface/technologies/peon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_tools_tech_1_medium"
+		texturefile = "gfx/interface/technologies/peon_tools_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_tools_tech_2_medium"
+		texturefile = "gfx/interface/technologies/peon_tools_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_tools_tech_3_medium"
+		texturefile = "gfx/interface/technologies/peon_tools_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_tools_tech_4_medium"
+		texturefile = "gfx/interface/technologies/peon_tools_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_tools_tech_5_medium"
+		texturefile = "gfx/interface/technologies/peon_tools_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_mines_tech_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_mine_cart_1_medium"
+		texturefile = "gfx/interface/technologies/minecart.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_mine_cart_2_medium"
+		texturefile = "gfx/interface/technologies/minecart_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_mine_cart_3_medium"
+		texturefile = "gfx/interface/technologies/minecart_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_mine_cart_4_medium"
+		texturefile = "gfx/interface/technologies/minecart_4.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_peon_equipment_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_support_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peon_1_medium"
+		texturefile = "gfx/interface/technologies/peon_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peon_2_medium"
+		texturefile = "gfx/interface/technologies/peon_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peon_3_medium"
+		texturefile = "gfx/interface/technologies/peon_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_peon_4_medium"
+		texturefile = "gfx/interface/technologies/peon_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_city_development_1_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_city_development_2_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_city_development_3_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_city_development_4_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_city_development_5_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pig_farm_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_farm.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pig_breeding_1_medium"
+		texturefile = "gfx/interface/technologies/boar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pig_breeding_2_medium"
+		texturefile = "gfx/interface/technologies/boar_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pig_breeding_3_medium"
+		texturefile = "gfx/interface/technologies/boar_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pig_breeding_4_medium"
+		texturefile = "gfx/interface/technologies/boar_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_war_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/war_mill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_forge_master_tech_medium"
+		texturefile = "gfx/interface/technologies/forge_master.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_master_1_medium"
+		texturefile = "gfx/interface/technologies/forge_master_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_master_2_medium"
+		texturefile = "gfx/interface/technologies/forge_master_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_master_3_medium"
+		texturefile = "gfx/interface/technologies/forge_master_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_forge_master_4_medium"
+		texturefile = "gfx/interface/technologies/forge_master_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_iron_weapons_tech_medium"
+		texturefile = "gfx/interface/technologies/axe_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steel_weapons_tech_medium"
+		texturefile = "gfx/interface/technologies/axe_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_thorium_weapons_tech_medium"
+		texturefile = "gfx/interface/technologies/axe_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arcanite_weapons_tech_medium"
+		texturefile = "gfx/interface/technologies/axe_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_iron_armor_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_shield_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steel_armor_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_shield_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_thorium_armor_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_shield_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arcanite_armor_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_shield_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hide_armor_tech_medium"
+		texturefile = "gfx/interface/technologies/hide_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hide_armor_tech_2_medium"
+		texturefile = "gfx/interface/technologies/hide_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hide_armor_tech_3_medium"
+		texturefile = "gfx/interface/technologies/hide_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hide_armor_tech_4_medium"
+		texturefile = "gfx/interface/technologies/hide_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_blueprints_tech_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_red.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_blueprints_tech_2_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_red_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_blueprints_tech_3_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_red_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_blueprints_tech_4_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_red_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_blueprints_tech_5_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_red_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_war_forges_tech_medium"
+		texturefile = "gfx/interface/technologies/forge_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_war_forges_tech_2_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_war_forges_tech_3_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_war_forges_tech_4_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_war_forges_tech_5_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_lumber_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_lumber_mill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_wood_working_1_medium"
+		texturefile = "gfx/interface/technologies/woodworking_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_wood_working_2_medium"
+		texturefile = "gfx/interface/technologies/woodworking_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_wood_working_3_medium"
+		texturefile = "gfx/interface/technologies/woodworking_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_wood_working_4_medium"
+		texturefile = "gfx/interface/technologies/woodworking_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_nesting_grounds_tech_medium"
+		texturefile = "gfx/interface/technologies/dragon_roost.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_improved_egg_breeding_1_medium"
+		texturefile = "gfx/interface/technologies/egg_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_improved_egg_breeding_2_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_improved_egg_breeding_3_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_improved_egg_breeding_4_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_burrow_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_burrow.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_defenses_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_burrow_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_defenses_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_burrow_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_defenses_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_burrow_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reinforced_defenses_tech_4_medium"
+		texturefile = "gfx/interface/technologies/orc_burrow_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_watch_tower_tech_medium"
+		texturefile = "gfx/interface/technologies/watch_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_signal_horn_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_horn.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_signal_horn_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_horn_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_signal_horn_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_horn_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_watch_tower_tech_2_medium"
+		texturefile = "gfx/interface/technologies/watch_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_watch_tower_tech_3_medium"
+		texturefile = "gfx/interface/technologies/watch_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_watch_tower_tech_4_medium"
+		texturefile = "gfx/interface/technologies/watch_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_watch_tower_tech_5_medium"
+		texturefile = "gfx/interface/technologies/watch_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_torches_tech_medium"
+		texturefile = "gfx/interface/technologies/night_watch.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_torches_tech_2_medium"
+		texturefile = "gfx/interface/technologies/night_watch.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_torches_tech_3_medium"
+		texturefile = "gfx/interface/technologies/night_watch.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_assassins_den_tech_medium"
+		texturefile = "gfx/interface/technologies/centimetric_radar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_encryption_1_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_encryption_2_medium"
+		texturefile = "gfx/interface/technologies/encryption_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_encryption_3_medium"
+		texturefile = "gfx/interface/technologies/encryption_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_encryption_4_medium"
+		texturefile = "gfx/interface/technologies/encryption_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_decryption_1_medium"
+		texturefile = "gfx/interface/technologies/decryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_decryption_2_medium"
+		texturefile = "gfx/interface/technologies/decryption_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_decryption_3_medium"
+		texturefile = "gfx/interface/technologies/decryption_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_decryption_4_medium"
+		texturefile = "gfx/interface/technologies/decryption_4.dds"
+	}
+
+
+#####################################################
+#Orc infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_orc_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grunt_tech_medium"
+		texturefile = "gfx/interface/technologies/grunt.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grunt_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/grunt_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grunt_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/grunt_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grunt_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/grunt_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_overseer_tech_medium"
+		texturefile = "gfx/interface/technologies/overseer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_overseer_1_medium"
+		texturefile = "gfx/interface/technologies/overseer_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_overseer_2_medium"
+		texturefile = "gfx/interface/technologies/overseer_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_overseer_3_medium"
+		texturefile = "gfx/interface/technologies/overseer_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_overseer_4_medium"
+		texturefile = "gfx/interface/technologies/overseer_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spearman_tech_medium"
+		texturefile = "gfx/interface/technologies/spearman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spearman_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/pikeman_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spearman_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/pikeman_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spearman_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/pikeman_tech.dds"
+	}
+
+
+
+
+
+	SpriteType = {
+		name = "GFX_dire_orc_tech_medium"
+		texturefile = "gfx/interface/technologies/dire_orc.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_orc_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/dire_orc_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_orc_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/dire_orc_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_orc_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/dire_orc_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_temple_of_the_damned_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_temple_of_the_damned.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_warlock_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_warlock.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_warlock_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/warlock_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_warlock_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/warlock_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_warlock_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/warlock_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_necrolyte_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_necrolyte.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_necrolyte_1_medium"
+		texturefile = "gfx/interface/technologies/orc_necrolyte_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_necrolyte_2_medium"
+		texturefile = "gfx/interface/technologies/orc_necrolyte_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_necrolyte_3_medium"
+		texturefile = "gfx/interface/technologies/orc_necrolyte_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_necrolyte_4_medium"
+		texturefile = "gfx/interface/technologies/orc_necrolyte_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demonic_ritual_tech_medium"
+		texturefile = "gfx/interface/technologies/necrolyte_icon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demonic_ritual_tech_2_medium"
+		texturefile = "gfx/interface/technologies/necrolyte_icon_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demonic_ritual_tech_3_medium"
+		texturefile = "gfx/interface/technologies/necrolyte_icon_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demonic_ritual_tech_4_medium"
+		texturefile = "gfx/interface/technologies/necrolyte_icon_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_spirit_lodge_tech_medium"
+		texturefile = "gfx/interface/technologies/spirit_lodge.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shaman_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_shaman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shaman_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/shaman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shaman_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/shaman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shaman_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/shaman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_restoration_shaman_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_restoration_shaman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_restoration_shaman_1_medium"
+		texturefile = "gfx/interface/technologies/orc_restoration_shaman_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_restoration_shaman_2_medium"
+		texturefile = "gfx/interface/technologies/orc_restoration_shaman_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_restoration_shaman_3_medium"
+		texturefile = "gfx/interface/technologies/orc_restoration_shaman_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_restoration_shaman_4_medium"
+		texturefile = "gfx/interface/technologies/orc_restoration_shaman_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_call_of_the_elements_tech_medium"
+		texturefile = "gfx/interface/technologies/shaman_icon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_call_of_the_elements_tech_2_medium"
+		texturefile = "gfx/interface/technologies/shaman_icon_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_call_of_the_elements_tech_3_medium"
+		texturefile = "gfx/interface/technologies/shaman_icon_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_call_of_the_elements_tech_4_medium"
+		texturefile = "gfx/interface/technologies/shaman_icon_4.dds"
+	}
+
+#####################################################
+#Orc cavalry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_orc_beastiary_tech_medium"
+		texturefile = "gfx/interface/technologies/beastiary.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_beastiary_tech_medium"
+		texturefile = "gfx/interface/technologies/beastiary.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_wolf_breeding_1_medium"
+		texturefile = "gfx/interface/technologies/black_dire_wolf_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_wolf_breeding_2_medium"
+		texturefile = "gfx/interface/technologies/black_dire_wolf_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_wolf_breeding_3_medium"
+		texturefile = "gfx/interface/technologies/black_dire_wolf_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_wolf_breeding_4_medium"
+		texturefile = "gfx/interface/technologies/black_dire_wolf_4.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_dire_wolf_tech_medium"
+		texturefile = "gfx/interface/technologies/black_dire_wolf.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_wolf_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/dire_wolf_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_iron_claws_tech_medium"
+		texturefile = "gfx/interface/technologies/rip.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bite_tech_medium"
+		texturefile = "gfx/interface/technologies/wolf.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_wolf_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/dire_wolf_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pack_leader_tech_medium"
+		texturefile = "gfx/interface/technologies/pack_leader.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bite_tech_medium"
+		texturefile = "gfx/interface/technologies/wolf.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dash_tech_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_wolf_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/dire_wolf_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raider_tech_medium"
+		texturefile = "gfx/interface/technologies/raider.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ensnare_tech_medium"
+		texturefile = "gfx/interface/technologies/ensnare.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pillage_tech_medium"
+		texturefile = "gfx/interface/technologies/pillage.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raider_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/raider_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raider_reinforced_armor_tech_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_kill_command_tech_medium"
+		texturefile = "gfx/interface/technologies/kill_command.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raider_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/raider_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raider_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/raider_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_outrider_tech_medium"
+		texturefile = "gfx/interface/technologies/outrider.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_outrider_1_medium"
+		texturefile = "gfx/interface/technologies/outrider_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_outrider_2_medium"
+		texturefile = "gfx/interface/technologies/outrider_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_outrider_3_medium"
+		texturefile = "gfx/interface/technologies/outrider_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_outrider_4_medium"
+		texturefile = "gfx/interface/technologies/outrider_4.dds"
+	}
+
+
+#####################################################
+#Orc siege weapons tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_orc_siege_works_medium"
+		texturefile = "gfx/interface/technologies/goblin_laboratory.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demolisher_tech_medium"
+		texturefile = "gfx/interface/technologies/demolisher.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demolisher_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/demolisher_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demolisher_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/demolisher_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_demolisher_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/demolisher_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_catapult_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_catapult.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_catapult_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_catapult_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_catapult_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+
+#####################################################
+#Orc support tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_altar_of_storms_tech_medium"
+		texturefile = "gfx/interface/technologies/altar_of_storms.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blade_master_tech_medium"
+		texturefile = "gfx/interface/technologies/blade_master.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blade_master_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/blade_master_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blade_master_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/blade_master_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_blade_master_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/blade_master_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_warlord_tech_medium"
+		texturefile = "gfx/interface/technologies/warlord.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_death_knight_tech_medium"
+		texturefile = "gfx/interface/technologies/orc_death_knight.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_death_knight_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/orc_death_knight_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_death_knight_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_death_knight_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_death_knight_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_death_knight_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_far_seer_tech_medium"
+		texturefile = "gfx/interface/technologies/far_seer.dds"
+	}
+
+#################################################
+#Orc naval icons
+#################################################
+
+	SpriteType = {
+		name = "GFX_orc_2d_destroyer_tech_1_medium"
+		texturefile = "gfx/interface/technologies/goblin_destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_destroyer_tech_2_medium"
+		texturefile = "gfx/interface/technologies/goblin_destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_destroyer_tech_3_medium"
+		texturefile = "gfx/interface/technologies/goblin_destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_destroyer_tech_4_medium"
+		texturefile = "gfx/interface/technologies/goblin_destroyer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_submarine_tech_1_medium"
+		texturefile = "gfx/interface/technologies/orc_submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_submarine_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_submarine_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_submarine_tech_4_medium"
+		texturefile = "gfx/interface/technologies/orc_submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_light_frigate_tech_1_medium"
+		texturefile = "gfx/interface/technologies/orc_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_light_frigate_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_light_frigate_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_light_frigate_tech_4_medium"
+		texturefile = "gfx/interface/technologies/orc_light_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_heavy_frigate_tech_1_medium"
+		texturefile = "gfx/interface/technologies/orc_heavy_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_heavy_frigate_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_heavy_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_heavy_frigate_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_heavy_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_heavy_frigate_tech_4_medium"
+		texturefile = "gfx/interface/technologies/orc_heavy_frigate.dds"
+	}
+
+#transport icon
+
+	SpriteType = {
+		name = "GFX_orc_2d_juggernaught_tech_1_medium"
+		texturefile = "gfx/interface/technologies/orc_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_juggernaught_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_juggernaught_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_juggernaught_tech_4_medium"
+		texturefile = "gfx/interface/technologies/orc_juggernaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_battleship_tech_1_medium"
+		texturefile = "gfx/interface/technologies/orc_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_battleship_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_battleship_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_battleship_tech_4_medium"
+		texturefile = "gfx/interface/technologies/orc_battleship.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_dreadnaught_tech_1_medium"
+		texturefile = "gfx/interface/technologies/orc_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_dreadnaught_tech_2_medium"
+		texturefile = "gfx/interface/technologies/orc_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_dreadnaught_tech_3_medium"
+		texturefile = "gfx/interface/technologies/orc_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_dreadnaught_tech_4_medium"
+		texturefile = "gfx/interface/technologies/orc_dreadnaught.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_oil_refinery_medium"
+		texturefile = "gfx/interface/technologies/orc_oil_refinery.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_oil_tanker_1_medium"
+		texturefile = "gfx/interface/technologies/orc_oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_oil_tanker_2_medium"
+		texturefile = "gfx/interface/technologies/orc_oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_oil_tanker_3_medium"
+		texturefile = "gfx/interface/technologies/orc_oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_oil_tanker_4_medium"
+		texturefile = "gfx/interface/technologies/orc_oil_tanker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_orc_2d_foundry_medium"
+		texturefile = "gfx/interface/technologies/orc_foundry.dds"
+	}
+
+#####################################################
+#Dwarf infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_mustering_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/dwarf_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_axeman_tech_medium"
+		texturefile = "gfx/interface/technologies/dwarf_axeman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rifleman_tech_medium"
+		texturefile = "gfx/interface/technologies/rifleman.dds"
+	}
+
+#####################################################
+#High Elf administration tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_high_elf_support_equipment_tech_medium"
+		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_construction_tools_1_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_construction_tools_2_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_construction_tools_3_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_construction_tools_4_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_construction_tools_5_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_harvesting_tools_1_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_harvesting_tools_2_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_harvesting_tools_3_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_harvesting_tools_4_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_harvesting_tools_5_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blacksmith_tech_medium"
+		texturefile = "gfx/interface/technologies/blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blacksmith_unit_tech_1_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blacksmith_unit_tech_2_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blacksmith_unit_tech_3_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blacksmith_unit_tech_4_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blacksmith_unit_tech_5_medium"
+		texturefile = "gfx/interface/technologies/blacksmith_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_sharpened_blades_1_medium"
+		texturefile = "gfx/interface/technologies/sword_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_sharpened_blades_2_medium"
+		texturefile = "gfx/interface/technologies/sword_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_sharpened_blades_3_medium"
+		texturefile = "gfx/interface/technologies/sword_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_sharpened_blades_4_medium"
+		texturefile = "gfx/interface/technologies/sword_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_heavy_armor_1_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_heavy_armor_2_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_heavy_armor_3_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_heavy_armor_4_medium"
+		texturefile = "gfx/interface/technologies/heavy_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_forge_1_medium"
+		texturefile = "gfx/interface/technologies/forge_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_forge_2_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_forge_3_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_forge_4_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_forge_5_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blueprints_1_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blueprints_2_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_blueprints_3_medium"
+		texturefile = "gfx/interface/technologies/blueprint_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_industrial_society_1_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_industrial_society_2_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_industrial_society_3_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_industrial_society_4_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_industrial_society_5_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_agrian_society_1_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_agrian_society_2_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_agrian_society_3_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_agrian_society_4_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_agrian_society_5_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_mines_tech_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_mine_cart_1_medium"
+		texturefile = "gfx/interface/technologies/minecart.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_mine_cart_2_medium"
+		texturefile = "gfx/interface/technologies/minecart_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_mine_cart_3_medium"
+		texturefile = "gfx/interface/technologies/minecart_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_mine_cart_4_medium"
+		texturefile = "gfx/interface/technologies/minecart_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_church_tech_medium"
+		texturefile = "gfx/interface/technologies/church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_devotion_tech_1_medium"
+		texturefile = "gfx/interface/technologies/devotion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_devotion_tech_2_medium"
+		texturefile = "gfx/interface/technologies/devotion_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_devotion_tech_3_medium"
+		texturefile = "gfx/interface/technologies/devotion_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_devotion_tech_4_medium"
+		texturefile = "gfx/interface/technologies/devotion_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wall_tech_1_medium"
+		texturefile = "gfx/interface/technologies/walls_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wall_tech_2_medium"
+		texturefile = "gfx/interface/technologies/walls_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wall_tech_3_medium"
+		texturefile = "gfx/interface/technologies/walls_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wall_tech_4_medium"
+		texturefile = "gfx/interface/technologies/walls_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wall_tech_5_medium"
+		texturefile = "gfx/interface/technologies/walls_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_scout_tower_1_medium"
+		texturefile = "gfx/interface/technologies/scout_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_scout_tower_2_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_scout_tower_3_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_scout_tower_4_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_scout_tower_5_medium"
+		texturefile = "gfx/interface/technologies/scout_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_evocation_tech_1_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_evocation_tech_2_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_evocation_tech_3_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_evocation_tech_4_medium"
+		texturefile = "gfx/interface/technologies/evocation_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_guard_tower_1_medium"
+		texturefile = "gfx/interface/technologies/guard_tower.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_guard_tower_2_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_guard_tower_3_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_guard_tower_4_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_guard_tower_5_medium"
+		texturefile = "gfx/interface/technologies/guard_tower_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_elven_mill_tech_medium"
+		texturefile = "gfx/interface/technologies/lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wood_working_1_medium"
+		texturefile = "gfx/interface/technologies/woodworking_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wood_working_2_medium"
+		texturefile = "gfx/interface/technologies/woodworking_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wood_working_3_medium"
+		texturefile = "gfx/interface/technologies/woodworking_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_wood_working_4_medium"
+		texturefile = "gfx/interface/technologies/woodworking_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_rogues_guild_medium"
+		texturefile = "gfx/interface/technologies/centimetric_radar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_encryption_1_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_encryption_2_medium"
+		texturefile = "gfx/interface/technologies/encryption_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_encryption_3_medium"
+		texturefile = "gfx/interface/technologies/encryption_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_encryption_4_medium"
+		texturefile = "gfx/interface/technologies/encryption_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_decryption_1_medium"
+		texturefile = "gfx/interface/technologies/decryption.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_decryption_2_medium"
+		texturefile = "gfx/interface/technologies/decryption_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_decryption_3_medium"
+		texturefile = "gfx/interface/technologies/decryption_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_decryption_4_medium"
+		texturefile = "gfx/interface/technologies/decryption_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_rogue_tech_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_rogue_tech_1_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_rogue_tech_2_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_rogue_tech_3_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_improved_rogue_tech_4_medium"
+		texturefile = "gfx/interface/technologies/rogue_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_tailor_tech_medium"
+		texturefile = "gfx/interface/technologies/tailoring.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_tabards_1_medium"
+		texturefile = "gfx/interface/technologies/tabard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_tabards_2_medium"
+		texturefile = "gfx/interface/technologies/tabard_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_cloth_armor_1_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_cloth_armor_2_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_cloth_armor_3_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_cloth_armor_4_medium"
+		texturefile = "gfx/interface/technologies/cloth_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_cloak_1_medium"
+		texturefile = "gfx/interface/technologies/cloak_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_cloak_2_medium"
+		texturefile = "gfx/interface/technologies/cloak_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_leather_working_tech_medium"
+		texturefile = "gfx/interface/technologies/leatherworking.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_leather_armor_1_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_leather_armor_2_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_leather_armor_3_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_leather_armor_4_medium"
+		texturefile = "gfx/interface/technologies/leather_armor_4.dds"
+	}
+
+#####################################################
+#High Elf infantry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_high_elf_barracks_tech_medium"
+		texturefile = "gfx/interface/technologies/high_elf_barracks.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_swordsman_tech_medium"
+		texturefile = "gfx/interface/technologies/captain.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_spellbreaker_tech_medium"
+		texturefile = "gfx/interface/technologies/spellbreaker.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranger_tech_medium"
+		texturefile = "gfx/interface/technologies/high_elf_ranger.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arcane_sanctum_tech_medium"
+		texturefile = "gfx/interface/technologies/arcane_sanctum.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arcane_sanctum_tech_medium"
+		texturefile = "gfx/interface/technologies/arcane_sanctum.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sorceress_tech_medium"
+		texturefile = "gfx/interface/technologies/sorceress.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_high_elf_priest_tech_medium"
+		texturefile = "gfx/interface/technologies/high_elf_priest.dds"
+	}
+
+
+#################################################
+#Gnoll administration icons
+#################################################
+
+	SpriteType = {
+		name = "GFX_gnoll_camp_medium"
+		texturefile = "gfx/interface/technologies/gnoll_camp.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gnoll_outpost_medium"
+		texturefile = "gfx/interface/technologies/gnoll_outpost.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gnoll_fort_medium"
+		texturefile = "gfx/interface/technologies/gnoll_fort.dds"
+	}
+
+
+
+#################################################
+#Gnoll infantry icons
+#################################################
+	SpriteType = {
+		name = "GFX_war_hut_tech_medium"
+		texturefile = "gfx/interface/technologies/gnoll_war_hut.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_flailpaw_tech_medium"
+		texturefile = "gfx/interface/technologies/flailpaw.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_flailpaw_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/gnoll_flail.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_poacher_tech_medium"
+		texturefile = "gfx/interface/technologies/poacher.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_poacher_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/gnoll_crossbow.dds"
+	}
+
+#################################################
+#Gnoll cavalry icons
+#################################################
+	SpriteType = {
+		name = "GFX_gnoll_kennel_tech_medium"
+		texturefile = "gfx/interface/technologies/gnoll_kennel.dds"
+	}
+
+#####################################################
+#Dragon administration icons
+#####################################################
+
+	SpriteType = {
+		name = "GFX_dragon_roost_administration_medium"
+		texturefile = "gfx/interface/technologies/dragon_roost.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_sanctum_medium"
+		texturefile = "gfx/interface/technologies/dragon_roost_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_shrine_medium"
+		texturefile = "gfx/interface/technologies/dragon_roost_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_breeding_grounds_medium"
+		texturefile = "gfx/interface/technologies/dragon_breeding_grounds.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_selective_breeding_medium"
+		texturefile = "gfx/interface/technologies/egg_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_selective_breeding_2_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_selective_breeding_3_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_selective_breeding_4_medium"
+		texturefile = "gfx/interface/technologies/egg_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_balanced_diet_medium"
+		texturefile = "gfx/interface/technologies/dragon_devour.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_balanced_diet_2_medium"
+		texturefile = "gfx/interface/technologies/dragon_devour_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_balanced_diet_3_medium"
+		texturefile = "gfx/interface/technologies/dragon_devour_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_balanced_diet_4_medium"
+		texturefile = "gfx/interface/technologies/dragon_devour_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_expanded_breeding_grounds_medium"
+		texturefile = "gfx/interface/technologies/dragon_breeding_grounds_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_expanded_breeding_grounds_2_medium"
+		texturefile = "gfx/interface/technologies/dragon_breeding_grounds_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_expanded_breeding_grounds_3_medium"
+		texturefile = "gfx/interface/technologies/dragon_breeding_grounds_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_expanded_breeding_grounds_4_medium"
+		texturefile = "gfx/interface/technologies/dragon_breeding_grounds_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_scales_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_scale.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_scales_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_scale_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_scales_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_scale_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_scales_tech_4_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_scale_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_breath_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_breath.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_breath_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_breath_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_breath_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_breath_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_breath_tech_4_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_breath_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_claws_tech_medium"
+		texturefile = "gfx/interface/technologies/rip.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_claws_tech_2_medium"
+		texturefile = "gfx/interface/technologies/rip_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_claws_tech_3_medium"
+		texturefile = "gfx/interface/technologies/rip_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_claws_tech_4_medium"
+		texturefile = "gfx/interface/technologies/rip_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_wings_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_wing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_wings_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_wing_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_wings_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_wing_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_improved_wings_tech_4_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_wing_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonman_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonman_equipment_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_infiltration_1_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_infiltration_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_infiltration_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_infiltration_4_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_craftsmanship_1_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_craftsman_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_craftsmanship_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_craftsman_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_craftsmanship_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_craftsman_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonman_craftsmanship_4_medium"
+		texturefile = "gfx/interface/technologies/red_dragonman_craftsman_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_temple_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_church.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_forge_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragon_forge_medium"
+		texturefile = "gfx/interface/technologies/forge_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragon_forge_2_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragon_forge_3_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragon_forge_4_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragon_forge_5_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_forged_tools_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_forged_tools_2_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_forged_tools_3_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_forged_tools_4_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_forged_tools_5_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_5.dds"
+	}
+
+
+
+	SpriteType = {
+		name = "GFX_dragon_fortifications_tech_medium"
+		texturefile = "gfx/interface/technologies/walls_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_fortifications_tech_2_medium"
+		texturefile = "gfx/interface/technologies/walls_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_fortifications_tech_3_medium"
+		texturefile = "gfx/interface/technologies/walls_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_fortifications_tech_4_medium"
+		texturefile = "gfx/interface/technologies/walls_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_fortifications_tech_5_medium"
+		texturefile = "gfx/interface/technologies/walls_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_mines_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+	SpriteType = {
+		name = "GFX_dragon_mines_2_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+	SpriteType = {
+		name = "GFX_dragon_mines_3_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+	SpriteType = {
+		name = "GFX_dragon_mines_4_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+	SpriteType = {
+		name = "GFX_dragon_mines_5_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+
+
+
+	SpriteType = {
+		name = "GFX_dragon_lumberyard_tech_medium"
+		texturefile = "gfx/interface/technologies/stromgarde_lumbermill.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_wood_working_medium"
+		texturefile = "gfx/interface/technologies/woodworking_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_wood_working_2_medium"
+		texturefile = "gfx/interface/technologies/woodworking_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_wood_working_3_medium"
+		texturefile = "gfx/interface/technologies/woodworking_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_wood_working_4_medium"
+		texturefile = "gfx/interface/technologies/woodworking_4.dds"
+	}
+
+#####################################################
+#Dragon ground icons
+#####################################################
+	SpriteType = {
+		name = "GFX_dragon_roost_ground_medium"
+		texturefile = "gfx/interface/technologies/dragon_roost.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_whelp_tech_medium"
+		texturefile = "gfx/interface/technologies/red_whelp.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_whelp_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/red_whelp_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_whelp_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_whelp_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_whelp_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_whelp_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_lieutenant_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_lieutenant.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonspawn_lieutenant_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_lieutenant_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonspawn_lieutenant_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_lieutenant_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonspawn_lieutenant_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_lieutenant_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_dragonspawn_lieutenant_4_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_lieutenant_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_sorceress_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_caster_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_sorceress_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_caster_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragonspawn_sorceress_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragonspawn_caster_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_drakonid_tech_medium"
+		texturefile = "gfx/interface/technologies/red_drakonid.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_drakonid_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/red_drakonid_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_drakonid_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_drakonid_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_drakonid_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_drakonid_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_tech_medium"
+		texturefile = "gfx/interface/technologies/red_dragon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dragon_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/red_dragon_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_broodmother_tech_medium"
+		texturefile = "gfx/interface/technologies/red_broodmother.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_broodmother_medium"
+		texturefile = "gfx/interface/technologies/red_broodmother_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_broodmother_2_medium"
+		texturefile = "gfx/interface/technologies/red_broodmother_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_broodmother_3_medium"
+		texturefile = "gfx/interface/technologies/red_broodmother_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_broodmother_4_medium"
+		texturefile = "gfx/interface/technologies/red_broodmother_4.dds"
+	}
+
+#####################################################
+#Dragon air icons
+#####################################################
+
+	SpriteType = {
+		name = "GFX_dragon_roost_air_medium"
+		texturefile = "gfx/interface/technologies/dragon_roost.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_combat_drakes_medium"
+		texturefile = "gfx/interface/technologies/red_drake.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_drakes_1_medium"
+		texturefile = "gfx/interface/technologies/red_drake_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_drakes_2_medium"
+		texturefile = "gfx/interface/technologies/red_drake_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter_drakes_3_medium"
+		texturefile = "gfx/interface/technologies/red_drake_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_drakes_1_medium"
+		texturefile = "gfx/interface/technologies/red_drake_cas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_drakes_2_medium"
+		texturefile = "gfx/interface/technologies/red_drake_cas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cas_drakes_3_medium"
+		texturefile = "gfx/interface/technologies/red_drake_cas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_drakes_1_medium"
+		texturefile = "gfx/interface/technologies/red_drake_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_drakes_2_medium"
+		texturefile = "gfx/interface/technologies/red_drake_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bomber_drakes_3_medium"
+		texturefile = "gfx/interface/technologies/red_drake_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_bomber_drakes_1_medium"
+		texturefile = "gfx/interface/technologies/red_drake_naval_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_bomber_drakes_2_medium"
+		texturefile = "gfx/interface/technologies/red_drake_naval_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_bomber_drakes_3_medium"
+		texturefile = "gfx/interface/technologies/red_drake_naval_bomber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_support_drakes_medium"
+		texturefile = "gfx/interface/technologies/red_drake_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_covert_drakes_1_medium"
+		texturefile = "gfx/interface/technologies/red_drake_scout.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_covert_drakes_2_medium"
+		texturefile = "gfx/interface/technologies/red_drake_scout.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_covert_drakes_3_medium"
+		texturefile = "gfx/interface/technologies/red_drake_scout.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_supply_drakes_1_medium"
+		texturefile = "gfx/interface/technologies/red_drake_transport.dds"
+	}
+
+
+#####################################################
+#Jade Administration Tech
+#####################################################
+
+SpriteType = {
+	name = "GFX_jade_lair_tech_medium"
+	texturefile = "gfx/interface/technologies/town_hall.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_hall_tech_medium"
+	texturefile = "gfx/interface/technologies/keep.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_castle_tech_medium"
+	texturefile = "gfx/interface/technologies/castle.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_workshop_tech_medium"
+	texturefile = "gfx/interface/technologies/workshop.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_blacksmith_tech_medium"
+	texturefile = "gfx/interface/technologies/blacksmith.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_improved_forge_1_medium"
+	texturefile = "gfx/interface/technologies/forge_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_improved_forge_2_medium"
+	texturefile = "gfx/interface/technologies/forge_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_improved_forge_3_medium"
+	texturefile = "gfx/interface/technologies/forge_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_improved_forge_4_medium"
+	texturefile = "gfx/interface/technologies/forge_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_improved_forge_5_medium"
+	texturefile = "gfx/interface/technologies/forge_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_blueprints_1_medium"
+	texturefile = "gfx/interface/technologies/blueprint_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_blueprints_2_medium"
+	texturefile = "gfx/interface/technologies/blueprint_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_blueprints_3_medium"
+	texturefile = "gfx/interface/technologies/blueprint_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_construction_tools_1_medium"
+	texturefile = "gfx/interface/technologies/peasant_tools_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_construction_tools_2_medium"
+	texturefile = "gfx/interface/technologies/peasant_tools_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_construction_tools_3_medium"
+	texturefile = "gfx/interface/technologies/peasant_tools_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_construction_tools_4_medium"
+	texturefile = "gfx/interface/technologies/peasant_tools_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_construction_tools_5_medium"
+	texturefile = "gfx/interface/technologies/peasant_tools_5.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_harvesting_tools_1_medium"
+	texturefile = "gfx/interface/technologies/pick_axe_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_harvesting_tools_2_medium"
+	texturefile = "gfx/interface/technologies/pick_axe_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_harvesting_tools_3_medium"
+	texturefile = "gfx/interface/technologies/pick_axe_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_harvesting_tools_4_medium"
+	texturefile = "gfx/interface/technologies/pick_axe_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_harvesting_tools_5_medium"
+	texturefile = "gfx/interface/technologies/pick_axe_5.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_industrial_society_1_medium"
+	texturefile = "gfx/interface/technologies/concentrated_industry.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_industrial_society_2_medium"
+	texturefile = "gfx/interface/technologies/concentrated_industry2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_industrial_society_3_medium"
+	texturefile = "gfx/interface/technologies/concentrated_industry3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_industrial_society_4_medium"
+	texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_industrial_society_5_medium"
+	texturefile = "gfx/interface/technologies/concentrated_industry5.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_agrian_society_1_medium"
+	texturefile = "gfx/interface/technologies/dispersed_industry.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_agrian_society_2_medium"
+	texturefile = "gfx/interface/technologies/dispersed_industry2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_agrian_society_3_medium"
+	texturefile = "gfx/interface/technologies/dispersed_industry3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_agrian_society_4_medium"
+	texturefile = "gfx/interface/technologies/dispersed_industry4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_agrian_society_5_medium"
+	texturefile = "gfx/interface/technologies/dispersed_industry5.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_mines_tech_medium"
+	texturefile = "gfx/interface/technologies/mines.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_mine_cart_1_medium"
+	texturefile = "gfx/interface/technologies/minecart.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_mine_cart_2_medium"
+	texturefile = "gfx/interface/technologies/minecart_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_mine_cart_3_medium"
+	texturefile = "gfx/interface/technologies/minecart_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_mine_cart_4_medium"
+	texturefile = "gfx/interface/technologies/minecart_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_wall_tech_1_medium"
+	texturefile = "gfx/interface/technologies/walls_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_wall_tech_2_medium"
+	texturefile = "gfx/interface/technologies/walls_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_wall_tech_3_medium"
+	texturefile = "gfx/interface/technologies/walls_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_scout_tower_1_medium"
+	texturefile = "gfx/interface/technologies/scout_tower.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_scout_tower_2_medium"
+	texturefile = "gfx/interface/technologies/scout_tower_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_scout_tower_3_medium"
+	texturefile = "gfx/interface/technologies/scout_tower_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_scout_tower_4_medium"
+	texturefile = "gfx/interface/technologies/scout_tower_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_scout_tower_5_medium"
+	texturefile = "gfx/interface/technologies/scout_tower_5.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_leyline_tech_medium"
+	texturefile = "gfx/interface/technologies/mage_tower.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_evocation_tech_1_medium"
+	texturefile = "gfx/interface/technologies/evocation_tech_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_evocation_tech_2_medium"
+	texturefile = "gfx/interface/technologies/evocation_tech_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_evocation_tech_3_medium"
+	texturefile = "gfx/interface/technologies/evocation_tech_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_evocation_tech_4_medium"
+	texturefile = "gfx/interface/technologies/evocation_tech_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_guard_tower_1_medium"
+	texturefile = "gfx/interface/technologies/guard_tower.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_guard_tower_2_medium"
+	texturefile = "gfx/interface/technologies/guard_tower_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_guard_tower_3_medium"
+	texturefile = "gfx/interface/technologies/guard_tower_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_guard_tower_4_medium"
+	texturefile = "gfx/interface/technologies/guard_tower_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_guard_tower_5_medium"
+	texturefile = "gfx/interface/technologies/guard_tower_5.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_rogues_guild_medium"
+	texturefile = "gfx/interface/technologies/centimetric_radar.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_encryption_1_medium"
+	texturefile = "gfx/interface/technologies/basic_encryption.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_encryption_2_medium"
+	texturefile = "gfx/interface/technologies/improved_encryption.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_encryption_3_medium"
+	texturefile = "gfx/interface/technologies/advanced_encryption.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_encryption_4_medium"
+	texturefile = "gfx/interface/technologies/advanced_encryption.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_decryption_1_medium"
+	texturefile = "gfx/interface/technologies/basic_decryption.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_decryption_2_medium"
+	texturefile = "gfx/interface/technologies/improved_decryption.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_decryption_3_medium"
+	texturefile = "gfx/interface/technologies/advanced_decryption.dds"
+}
+
+SpriteType = {
+	name = "GFX_jade_decryption_4_medium"
+	texturefile = "gfx/interface/technologies/advanced_decryption.dds"
+}
+
+#####################################################
+#Jade Tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_jade_tiger_tech_1_medium"
+		texturefile = "gfx/interface/technologies/jade_tiger_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_defensive_behaviour_1_medium"
+		texturefile = "gfx/interface/technologies/reinforced_shields.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_defensive_behaviour_2_medium"
+		texturefile = "gfx/interface/technologies/reinforced_shields.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_defensive_behaviour_3_medium"
+		texturefile = "gfx/interface/technologies/reinforced_shields.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_defensive_behaviour_4_medium"
+		texturefile = "gfx/interface/technologies/reinforced_shields.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_defensive_behaviour_5_medium"
+		texturefile = "gfx/interface/technologies/reinforced_shields.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_offensive_behaviour_1_medium"
+		texturefile = "gfx/interface/technologies/warrior_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_offensive_behaviour_2_medium"
+		texturefile = "gfx/interface/technologies/warrior_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_offensive_behaviour_3_medium"
+		texturefile = "gfx/interface/technologies/warrior_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_offensive_behaviour_4_medium"
+		texturefile = "gfx/interface/technologies/warrior_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_offensive_behaviour_5_medium"
+		texturefile = "gfx/interface/technologies/warrior_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_claws_1_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_claws_2_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_claws_3_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_claws_4_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_claws_5_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_claws_6_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_sharper_claws_1_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_sharper_claws_2_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_sharper_claws_3_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_sharper_claws_4_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_sharper_claws_5_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_stronger_claws_1_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_stronger_claws_2_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_stronger_claws_3_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_stronger_claws_4_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_stronger_claws_5_medium"
+		texturefile = "gfx/interface/technologies/jade_claw_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_piercing_fangs_1_medium"
+		texturefile = "gfx/interface/technologies/jade_fangs_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_piercing_fangs_2_medium"
+		texturefile = "gfx/interface/technologies/jade_fangs_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_piercing_fangs_3_medium"
+		texturefile = "gfx/interface/technologies/jade_fangs_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_piercing_fangs_4_medium"
+		texturefile = "gfx/interface/technologies/jade_fangs_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_piercing_fangs_5_medium"
+		texturefile = "gfx/interface/technologies/jade_fangs_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_cohesion_1_medium"
+		texturefile = "gfx/interface/technologies/jade_cohesion_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_cohesion_2_medium"
+		texturefile = "gfx/interface/technologies/jade_cohesion_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_cohesion_3_medium"
+		texturefile = "gfx/interface/technologies/jade_cohesion_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_cohesion_4_medium"
+		texturefile = "gfx/interface/technologies/jade_cohesion_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_cohesion_5_medium"
+		texturefile = "gfx/interface/technologies/jade_cohesion_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_cohesion_6_medium"
+		texturefile = "gfx/interface/technologies/jade_cohesion_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_swift_tigers_1_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_swift_tigers_2_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_swift_tigers_3_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_swift_tigers_4_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_swift_tigers_5_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_swift_tigers_6_medium"
+		texturefile = "gfx/interface/technologies/speed_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_refined_jade_1_medium"
+		texturefile = "gfx/interface/technologies/jade_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_refined_jade_2_medium"
+		texturefile = "gfx/interface/technologies/jade_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_refined_jade_3_medium"
+		texturefile = "gfx/interface/technologies/jade_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_refined_jade_4_medium"
+		texturefile = "gfx/interface/technologies/jade_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_refined_jade_5_medium"
+		texturefile = "gfx/interface/technologies/jade_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_refined_jade_6_medium"
+		texturefile = "gfx/interface/technologies/jade_tech.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_jade_thicker_skin_1_medium"
+		texturefile = "gfx/interface/technologies/jade_skin_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_thicker_skin_2_medium"
+		texturefile = "gfx/interface/technologies/jade_skin_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_thicker_skin_3_medium"
+		texturefile = "gfx/interface/technologies/jade_skin_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_thicker_skin_4_medium"
+		texturefile = "gfx/interface/technologies/jade_skin_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_thicker_skin_5_medium"
+		texturefile = "gfx/interface/technologies/jade_skin_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jade_combat_tactics_1_medium"
+		texturefile = "gfx/interface/technologies/schwerpunk.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_combat_tactics_2_medium"
+		texturefile = "gfx/interface/technologies/schwerpunk.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_combat_tactics_3_medium"
+		texturefile = "gfx/interface/technologies/schwerpunk.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_combat_tactics_4_medium"
+		texturefile = "gfx/interface/technologies/schwerpunk.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_combat_tactics_5_medium"
+		texturefile = "gfx/interface/technologies/schwerpunk.dds"
+	}
+	SpriteType = {
+		name = "GFX_jade_combat_tactics_6_medium"
+		texturefile = "gfx/interface/technologies/schwerpunk.dds"
+	}
+
+#####################################################
+#Other old unused/misc icons
+#####################################################
+
+
+
+
+}

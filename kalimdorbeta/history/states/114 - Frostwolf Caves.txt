@@ -1,0 +1,41 @@
+
+state={
+	id=114
+	name="STATE_114"
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			1839 15 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ALT
+		596.1.1 = {
+			
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 3
+				arms_factory = 2
+
+			}
+			add_extra_STATE_shared_building_slots = 5
+			add_core_of = FWC
+			add_manpower = 87500
+
+		}
+
+	}
+
+	provinces={
+		1835 1837 1838 1839 1840 1841 
+	}
+	manpower=10675
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

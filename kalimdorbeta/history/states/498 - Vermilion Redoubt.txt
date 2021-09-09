@@ -1,0 +1,28 @@
+
+state={
+	id=498
+	name="STATE_498"
+
+	history={
+		
+		victory_points = {
+			1078 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 5
+			arms_factory = 2
+
+		}
+		add_core_of = VMR
+
+	}
+
+	provinces={
+		1078 5092 5093 5094 5095 5096 5097 5098 5100 5102 5104 
+	}
+	manpower=81973
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

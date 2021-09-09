@@ -1,0 +1,422 @@
+scripted_gui = {
+	mod_achievements_unlocked_alert_window = {
+		context_type = player_context
+
+		window_name = "mod_achievements_unlocked_alert_window"
+
+		visible = {
+			is_ai = no
+			has_game_rule = {
+				rule = hoa_allow_achievements
+				option = ENABLED
+			}
+			check_variable = { completed_achievement_alert_array^num > 0 }
+			NOT = { has_country_flag = disabled_custom_achievement_popup }
+		}
+
+		effects = {
+			achievement_unlocked_button_click = {
+				clear_array = completed_achievement_alert_array
+				set_variable = { show_achievements = 1 }
+				if = {
+					limit = {
+						NOT = { has_variable = show_achievements_list_selection }
+					}
+					set_variable = { show_achievements_list_selection = 1 }
+				}
+			}
+			achievement_unlocked_button_right_click = {
+				remove_from_array = { completed_achievement_alert_array = v }
+			}
+			achievement_unlocked_button_control_shift_right_click = {
+				clear_array = completed_achievement_alert_array
+				set_country_flag = disabled_custom_achievement_popup
+			}
+		}
+
+		dynamic_lists = {
+			achievement_unlocked_alert_gridbox = {
+				array = completed_achievement_alert_array
+				entry_container = achievement_unlocked_alert_entry
+			}
+		}
+
+		properties = {
+			unlocked_achievement_icon = {
+				image = "[GetAchievementIcon]"
+			}
+		}
+	}
+
+	open_achievements_window = {
+		context_type = player_context
+
+		window_name = "open_achievements_window"
+		parent_window_token = top_bar
+
+		visible = {
+			is_ai = no
+			has_game_rule = {
+				rule = hoa_allow_achievements
+				option = ENABLED
+			}
+		}
+
+		effects = {
+			open_achievements_window_button_click = {
+				if = {
+					limit = {
+						has_variable = show_achievements
+					}
+					clear_variable = show_achievements
+				}
+				else = {
+					set_variable = { show_achievements = 1 }
+				}
+				if = {
+					limit = {
+						has_variable = show_achievement_sort_menu
+					}
+					clear_variable = show_achievement_sort_menu
+				}
+			}
+		}
+	}
+
+	mod_achievements_window = {
+		context_type = player_context
+
+		window_name = "mod_achievements_window"
+
+		visible = {
+			is_ai = no
+			has_game_rule = {
+				rule = hoa_allow_achievements
+				option = ENABLED
+			}
+			check_variable = { show_achievements > 0 }
+		}
+
+		effects = {
+			close_button_click = {
+				clear_variable = show_achievements
+				if = {
+					limit = {
+						has_variable = show_achievement_sort_menu
+					}
+					clear_variable = show_achievement_sort_menu
+				}
+			}
+			decrease_country_achievement_check_time_button_click = {
+				subtract_from_variable = { achievement_check_time = 1 }
+				if = {
+					limit = {
+						check_variable = { achievement_check_time < 1 }
+					}
+					set_variable = { achievement_check_time = 1 }
+				}
+				set_variable = { achievement_check_time_current = achievement_check_time }
+			}
+			decrease_country_achievement_check_time_button_shift_click = {
+				subtract_from_variable = { achievement_check_time = 10 }
+				if = {
+					limit = {
+						check_variable = { achievement_check_time < 1 }
+					}
+					set_variable = { achievement_check_time = 1 }
+				}
+				set_variable = { achievement_check_time_current = achievement_check_time }
+			}
+			decrease_country_achievement_check_time_button_control_click = {
+				set_variable = { achievement_check_time = 1 }
+				if = {
+					limit = {
+						check_variable = { achievement_check_time < 1 }
+					}
+					set_variable = { achievement_check_time = 1 }
+				}
+				set_variable = { achievement_check_time_current = achievement_check_time }
+			}
+			increase_country_achievement_check_time_button_click = {
+				add_to_variable = { achievement_check_time = 1 }
+				set_variable = { achievement_check_time_current = achievement_check_time }
+			}
+			increase_country_achievement_check_time_button_shift_click = {
+				add_to_variable = { achievement_check_time = 10 }
+				set_variable = { achievement_check_time_current = achievement_check_time }
+			}
+			show_sort_menu_button_click = {
+				set_variable = { show_achievement_sort_menu = 1 }
+			}
+			hide_sort_menu_button_click = {
+				clear_variable = show_achievement_sort_menu
+			}
+			repopulate_visible_achievement_arrays_button_click = {
+				set_all_achievements_in_visible_array = yes
+				if = {
+					limit = {
+						has_country_flag = unavailable_achievements_invisible
+					}
+					clr_country_flag = unavailable_achievements_invisible
+				}
+			}
+
+			hide_this_achievement_button_click = {
+				remove_from_array = { custom_achievements_array_visible = v }
+				add_to_array = { custom_achievements_array_hidden_manually = v }
+			}
+			hide_this_achievement_button_right_click = {
+				remove_from_array = { custom_achievements_array_visible = v }
+				add_to_array = { custom_achievements_array_visible = v }
+			}
+			hide_this_achievement_button_control_right_click = {
+				remove_from_array = { custom_achievements_array_visible = v }
+				add_to_array = { array = custom_achievements_array_visible value = v index = 0 }
+			}
+		}
+
+		triggers = {
+			decrease_country_achievement_check_time_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ACHIEVEMENT_CHECK_TIME_MORE_THAN_1
+					check_variable = { achievement_check_time > 1 }
+				}
+			}
+			decrease_country_achievement_check_time_button_shift_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ACHIEVEMENT_CHECK_TIME_MORE_THAN_1
+					check_variable = { achievement_check_time > 1 }
+				}
+			}
+			decrease_country_achievement_check_time_button_control_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ACHIEVEMENT_CHECK_TIME_MORE_THAN_1
+					check_variable = { achievement_check_time > 1 }
+				}
+			}
+			show_sort_menu_button_visible = {
+				NOT = { has_variable = show_achievement_sort_menu }
+			}
+			hide_sort_menu_button_visible = {
+				has_variable = show_achievement_sort_menu
+			}
+			repopulate_visible_achievement_arrays_button_visible = {
+				NOT = { check_variable = { custom_achievements_array_visible^num > 0 } }
+			}
+
+			hide_this_achievement_button_visible = {
+				check_variable = { custom_achievements_array_visible^num > 1 }
+			}
+			achievement_background_glow_visible = {
+				meta_trigger = {
+					text = {
+						has_country_flag = unlocked_achievements_[ENTRY]
+					}
+					ENTRY = "[?v]"
+				}
+			}
+			achievement_icon_visible = {
+				if = {
+					limit = {
+						meta_trigger = {
+							text = {
+								NOT = { has_country_flag = unlocked_achievements_[ENTRY] }
+							}
+							ENTRY = "[?v]"
+						}
+					}
+					available_conditions_met_for_current_achievement = yes
+				}
+				hidden_trigger = {
+					meta_trigger = {
+						text = {
+							has_country_flag = unlocked_achievements_[ENTRY]
+						}
+						ENTRY = "[?v]"
+					}
+				}
+			}
+			achievement_icon_grey_visible = {
+				hidden_trigger = {
+					meta_trigger = {
+						text = {
+							NOT = { has_country_flag = unlocked_achievements_[ENTRY] }
+						}
+						ENTRY = "[?v]"
+					}
+				}
+			}
+			achievement_icon_grey_click_enabled = {
+				unlock_conditions_met_for_current_achievement = yes
+				hidden_trigger = {
+					always = no
+				}
+			}
+			achievement_icon_unavailable_visible = {
+				meta_trigger = {
+					text = {
+						NOT = { has_country_flag = unlocked_achievements_[ENTRY] }
+						NOT = { available_conditions_met_for_achievement_[ENTRY] = yes }
+					}
+					ENTRY = "[?v]"
+				}
+			}
+			achievement_icon_difficulty_easy_visible = {
+				NOT = { has_country_flag = achievement_difficulty_invisible }
+				achievement_difficulty_is_easy = yes
+			}
+			achievement_icon_difficulty_normal_visible = {
+				NOT = { has_country_flag = achievement_difficulty_invisible }
+				achievement_difficulty_is_normal = yes
+			}
+			achievement_icon_difficulty_hard_visible = {
+				NOT = { has_country_flag = achievement_difficulty_invisible }
+				achievement_difficulty_is_hard = yes
+			}
+			achievement_icon_difficulty_impossible_visible = {
+				NOT = { has_country_flag = achievement_difficulty_invisible }
+				achievement_difficulty_is_impossible = yes
+			}
+		}
+
+		dynamic_lists = {
+			hoa_achievement_list_gridbox = {
+				array = custom_achievements_array_visible
+				entry_container = hoa_achievement_list_entry
+			}
+		}
+
+
+		properties = {
+			achievement_icon = {
+				image = "[GetAchievementIcon]"
+			}
+			achievement_icon_grey = {
+				image = "[GetAchievementIcon]"
+			}
+		}
+	}
+
+	achievements_sort_menu_window = {
+		context_type = player_context
+
+		window_name = "achievements_sort_menu_window"
+		parent_window_name = "mod_achievements_window"
+
+		visible = {
+			is_ai = no
+			has_game_rule = {
+				rule = hoa_allow_achievements
+				option = ENABLED
+			}
+			has_variable = show_achievement_sort_menu
+		}
+
+		effects = {
+			sort_achievements_only_available_visible_button_click = {
+				set_country_flag = unavailable_achievements_invisible
+				clr_country_flag = completed_achievements_invisible
+				sort_archievements_hide_unavailable = yes
+				clear_array = custom_achievements_array_hidden_manually
+			}
+			sort_achievements_all_visible_button_click = {
+				clr_country_flag = unavailable_achievements_invisible
+				clr_country_flag = completed_achievements_invisible
+				sort_archievements_show_unavailable = yes
+				clear_array = custom_achievements_array_hidden_manually
+			}
+			sort_completed_achievements_on_top_button_click = {
+				clr_country_flag = completed_achievements_invisible
+				sort_archievements_completed_first = yes
+			}
+			sort_completed_achievements_on_bottom_button_click = {
+				clr_country_flag = completed_achievements_invisible
+				sort_archievements_completed_last = yes
+			}
+			sort_hide_completed_achievements_button_click = {
+				set_country_flag = completed_achievements_invisible
+				sort_archievements_hide_completed = yes
+			}
+			sort_show_completed_achievements_button_click = {
+				clr_country_flag = completed_achievements_invisible
+				sort_archievements_show_completed = yes
+			}
+			sort_print_to_gamelog_button_click = {
+				print_completed_achievements_to_gamelog = yes
+			}
+			sort_print_to_gamelog_button_right_click = {
+				print_completed_achievements_to_gamelog = yes
+				every_other_country = {
+					print_completed_achievements_to_gamelog = yes
+				}
+			}
+			sort_show_manually_hidden_achievements_button_click = {
+				for_each_loop = {
+					array = custom_achievements_array_hidden_manually
+					value = v
+					add_to_array = { custom_achievements_array_visible = v }
+				}
+				clear_array = custom_achievements_array_hidden_manually
+			}
+			sort_show_achievements_difficulty_button_click = {
+				clr_country_flag = achievement_difficulty_invisible
+			}
+			sort_hide_achievements_difficulty_button_click = {
+				set_country_flag = achievement_difficulty_invisible
+			}
+			sort_achievements_after_difficulty_button_click = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = sorted_achievements_after_difficulty }
+					}
+					sort_achievements_from_difficulty_easy_to_impossible = yes
+				}
+				else = {
+					sort_achievements_from_difficulty_impossible_to_easy = yes
+				}
+			}
+		}
+
+		triggers = {
+			sort_achievements_only_available_visible_button_visible = {
+				NOT = { has_country_flag = unavailable_achievements_invisible }
+			}
+			sort_achievements_all_visible_button_visible = {
+				has_country_flag = unavailable_achievements_invisible
+			}
+			sort_completed_achievements_on_top_button_click_enabled = {
+				has_any_achievement_unlocked = yes
+			}
+			sort_completed_achievements_on_bottom_button_click_enabled = {
+				has_any_achievement_unlocked = yes
+			}
+			sort_hide_completed_achievements_button_visible = {
+				NOT = { has_country_flag = completed_achievements_invisible }
+			}
+			sort_hide_completed_achievements_button_click_enabled = {
+				has_any_achievement_unlocked = yes
+			}
+			sort_show_completed_achievements_button_visible = {
+				has_country_flag = completed_achievements_invisible
+			}
+			sort_print_to_gamelog_button_click_enabled = {
+				has_any_achievement_unlocked = yes
+			}
+			sort_print_to_gamelog_button_right_click_enabled = {
+				has_any_achievement_unlocked = yes
+			}
+			sort_show_manually_hidden_achievements_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = HAS_HIDDEN_ONE_ACHIEVEMENT_MANUALLY_IN_SELECTED_CATEGORY
+					check_variable = { custom_achievements_array_hidden_manually^num > 0 }
+				}
+			}
+			sort_show_achievements_difficulty_button_visible = {
+				has_country_flag = achievement_difficulty_invisible
+			}
+			sort_hide_achievements_difficulty_button_visible = {
+				NOT = { has_country_flag = achievement_difficulty_invisible }
+			}
+		}
+	}
+}

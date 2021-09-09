@@ -1,0 +1,35 @@
+
+state={
+	id=1197
+	name="STATE_1197"
+	resources = {
+		mana=3
+		wheat=4
+		ores=6
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			11700 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+		617.1.1 = {
+			owner = SBT
+			controller = SBT
+			add_core_of = SBT
+		}
+	}
+
+	provinces={
+		10915 11655 11658 11662 11669 11670 11675 11676 11680 11688 11692 11700
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

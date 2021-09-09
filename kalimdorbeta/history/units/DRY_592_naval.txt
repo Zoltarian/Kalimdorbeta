@@ -1,0 +1,35 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Drysnap Northern Fleet"			
+		naval_base = 11562
+		task_force = {
+			name = "Drysnap Northern Fleet"			
+			location = 11562
+			
+			ship = {
+				name = "1st Drysnap Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRY } }
+			}
+			ship = {
+				name = "2nd Drysnap Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRY } }
+			}
+			ship = {
+				name = "3rd Drysnap Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRY } }
+			}
+			ship = {
+				name = "4th Drysnap Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRY } }
+			}
+			
+		}
+	}
+
+}

@@ -1,0 +1,50 @@
+
+state={
+	id=666
+	name="STATE_666"
+	
+	resources={
+		mounts = 4
+	}
+
+	history={
+		
+		victory_points = {
+			2473 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = STO
+		add_core_of = ELW
+		596.1.1 = {
+			
+			controller = THC
+			add_core_of = THC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = THC
+
+		}
+		612.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+
+		}
+
+
+	}
+
+	provinces={
+		1256 2464 2473 2477 2478 2483 2492 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

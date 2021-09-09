@@ -1,0 +1,41 @@
+
+state={
+	id=464
+	name="STATE_464"
+	resources={
+		mounts=18.000
+	}
+
+	history={
+		
+		add_core_of = IRO
+
+		victory_points = {
+			1013 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+		}
+
+		596.1.1 = {
+			
+			controller = BHC
+			add_core_of = BHC
+		}
+		
+		600.1.1 = {
+			
+			remove_core_of = BHC
+		}
+	}
+
+	provinces={
+		1013 3523 3528 3530 3537 3538 3542 3546 3553 5896
+	}
+	manpower=116750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

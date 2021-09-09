@@ -1,0 +1,35 @@
+
+state={
+	id=1128
+	name="STATE_1128"
+	resources = {
+		gunpowder=3
+		ores=2
+		oil=7
+	}
+
+	history={
+
+		owner = ORS
+		victory_points = {
+			11973 5
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			11973 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = ORS
+
+	}
+
+	provinces={
+		10859 11971 11972 11973 11976 11978 11979 11980 11985
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

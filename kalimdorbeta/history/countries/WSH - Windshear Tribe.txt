@@ -1,0 +1,87 @@
+﻿capital = 71
+
+oob = "WSH_592"
+
+set_research_slots = 3
+set_technology = {
+
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	harvesting_tools_1 = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	mines_tech = 1
+	mine_cart_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+
+}
+
+add_ideas = {
+	tribe
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	kobold_primary_race
+
+	primary_trait_dig_tunnel_mine
+	primary_trait_you_no_take_candel
+	primary_trait_flee_scurry_run
+
+	primary_religion_pyromancy
+	secondary_religion_geomancy
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+
+}
+
+create_country_leader = {
+	name = "Nott Candle-Extinguisher"
+	desc = "POLITICS_NOTT_CANDLE_EXTINGUISHER_DESC"
+	picture = "nott_candle_extinguisher.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

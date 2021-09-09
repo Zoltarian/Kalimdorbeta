@@ -1,0 +1,31 @@
+
+state={
+	id=1461
+	name="STATE_1461"
+	resources={
+		wood=7
+		mana=4
+		ores=5
+	}
+
+	history={
+		owner = AML
+		victory_points = {
+			13655 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = AML
+
+	}
+
+	provinces={
+		701 12849 13634 13636 13637 13640 13644 13645 13646 13651 13654 13655 13656 13661 13668 13669 13672 
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

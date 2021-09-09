@@ -1,0 +1,494 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	high_elf_siege_works = {
+
+		research_cost = 1
+		start_year = 584
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			siege_works_technology
+		}
+
+		path = {
+			leads_to_tech = high_elf_supply_wagon_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ballista_tech
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_elf_supply_wagon_tech = {
+
+		enable_subunits = {
+			supply_wagon
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = -3 y = 2 }
+		}
+
+		categories = {
+			siege_works_technology
+			supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_supply_wagon_1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_improved_supply_wagon_1 = {
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = -3 y = 6 }
+		}
+
+		categories = {
+			siege_works_technology
+			supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_supply_wagon_2
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_elf_improved_supply_wagon_2 = {
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = -3 y = 8 }
+		}
+
+		categories = {
+			siege_works_technology
+			supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_supply_wagon_3
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_elf_improved_supply_wagon_3 = {
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = -3 y = 10 }
+		}
+
+		categories = {
+			siege_works_technology
+			supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_supply_wagon_4
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_elf_improved_supply_wagon_4 = {
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = -3 y = 12 }
+		}
+
+		categories = {
+			siege_works_technology
+			supply_wagon_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ballista_tech = {
+
+		enable_subunits = {
+			catapult
+			catapult_support
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 3 y = 2 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		path = {
+			leads_to_tech = ballista_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+
+	ballista_equipment_tech_1 = {
+
+		enable_equipments = {
+			catapult_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 3 y = 4 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		path = {
+			leads_to_tech = high_elf_horse_drawn_catapults
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_moving_mechanism
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = improved_ballista_frame
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_horse_drawn_catapults = {
+
+		enable_subunits = {
+			horse_drawn_catapult
+		}
+
+		dependencies = {
+			mount_taming_1 = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 6 y = 4 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_elf_improved_moving_mechanism = {
+
+		xor = { improved_ballista_frame }
+
+		catapult = {
+			maximum_speed = 0.334
+		}
+		catapult_support = {
+			maximum_speed = 0.334
+		}
+		horse_drawn_catapult = {
+			maximum_speed = 0.334
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 2 y = 6 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		path = {
+			leads_to_tech = ballista_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_ballista_frame = {
+
+		xor = { high_elf_improved_moving_mechanism }
+
+		catapult = {
+			max_organisation = 2.5
+		}
+		catapult_support = {
+			max_organisation = 2.5
+		}
+		horse_drawn_catapult = {
+			max_organisation = 2.5
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 4 y = 6 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		path = {
+			leads_to_tech = ballista_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ballista_equipment_tech_2 = {
+
+		enable_equipments = {
+			catapult_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 3 y = 8 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		path = {
+			leads_to_tech = high_elf_burning_oil
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_heavy_payload
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	high_elf_burning_oil = {
+
+		xor = { high_elf_heavy_payload }
+
+		catapult = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		catapult_support = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		horse_drawn_catapult = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 4 y = 10 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		path = {
+			leads_to_tech = ballista_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_elf_heavy_payload = {
+
+		xor = { high_elf_burning_oil }
+
+		catapult = {
+			fort = {
+				attack = 0.5
+			}
+		}
+		catapult_support = {
+			fort = {
+				attack = 0.5
+			}
+		}
+		horse_drawn_catapult = {
+			fort = {
+				attack = 0.5
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = human_high_elf_heavy_payload
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 2 y = 10 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		path = {
+			leads_to_tech = ballista_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ballista_equipment_tech_3 = {
+
+		enable_equipments = {
+			catapult_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = high_elf_siege_weapons_folder
+			position = { x = 3 y = 12 }
+		}
+
+		categories = {
+			siege_works_technology
+			catapult_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+}

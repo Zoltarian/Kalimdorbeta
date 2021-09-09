@@ -1,0 +1,83 @@
+﻿division_template = {
+	name = "Hakkari Warrior"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hakkari Pikeman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hakkari Shadow Hunter"
+
+	regiments = {
+
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hakkari Blood Priests"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "1st Hakkari Warrior"
+		location = 798
+		division_template = "Hakkari Blood Priests"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Hakkari Warrior"
+		location = 798
+		division_template = "Hakkari Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Hakkari Blood Priests"
+		location = 798
+		division_template = "Hakkari Blood Priests"
+		start_experience_factor = 0.2
+	}
+	
+}

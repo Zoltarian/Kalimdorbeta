@@ -1,0 +1,46 @@
+
+state={
+	id=294
+	name="STATE_294"
+	resources={
+		oil=6
+		wood =14
+	}
+
+	history={
+		
+		victory_points = {
+			7375 10
+		}
+		victory_points = {
+			7373 5
+		}
+		victory_points = {
+			7372 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			7375 = {
+				naval_base = 3
+			}
+			7373 = {
+				naval_base = 2
+			}
+			7372 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = DST
+
+	}
+
+	provinces={
+		764 7370 7371 7372 7373 7374 7375 7376 7377 
+	}
+	manpower=73000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

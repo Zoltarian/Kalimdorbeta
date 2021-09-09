@@ -1,0 +1,288 @@
+﻿###########################
+# Maraudon
+###########################
+
+add_namespace = maraudon
+
+# The Stone Princess (from MAU_the_stone_princess_nf)
+country_event = {
+	id = maraudon.1
+	title = maraudon.1.t
+	desc = maraudon.1.d
+	picture = GFX_maraudon_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = maraudon.1.option.1
+
+	}
+}
+
+# Request from Theradras (from MAU_favoring_the_magram_nf OR MAU_favoring_the_gelkis_nf)
+country_event = {
+	id = maraudon.2
+	title = maraudon.2.t
+	desc = maraudon.2.d
+	picture = GFX_maraudon_event
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	#Yes
+	option = {
+		name = maraudon.2.option.1
+		custom_effect_tooltip = maraudon.2.option.1.d
+
+		if = {
+			limit = {
+				tag = MGC
+			}
+			set_global_flag = MAU_magram_accepted_flag
+		}
+
+		if = {
+			limit = {
+				tag = GLC
+			}
+			set_global_flag = MAU_gelkis_accepted_flag
+		}
+
+		MAU = {
+			country_event = {
+				id = maraudon.3
+				days = 1
+			}
+		}
+
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	#No
+	option = {
+		name = maraudon.2.option.2
+
+		if = {
+			limit = {
+				tag = MGC
+			}
+			set_global_flag = MAU_magram_refused_flag
+		}
+
+		if = {
+			limit = {
+				tag = GLC
+			}
+			set_global_flag = MAU_gelkis_refused_flag
+		}
+
+		MAU = {
+			country_event = {
+				id = maraudon.4
+				days = 1
+			}
+		}
+	}
+}
+
+# Centaur tribe accepted offer (from maraudon.2)
+country_event = {
+	id = maraudon.3
+	title = maraudon.3.t
+	desc = maraudon.3.d
+	picture = GFX_maraudon_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = maraudon.3.option.1
+
+		if = {
+			limit = {
+				has_global_flag = MAU_magram_accepted_flag
+			}
+			puppet = MGC
+
+			if = {
+				limit = {
+					has_global_flag = MAU_gelkis_refused_flag
+				}
+
+				complete_national_focus = MAU_favoring_the_magram_nf
+			}
+		}
+
+		if = {
+			limit = {
+				has_global_flag = MAU_gelkis_accepted_flag
+			}
+			puppet = GLC
+
+			if = {
+				limit = {
+					has_global_flag = MAU_magram_refused_flag
+				}
+
+				complete_national_focus = MAU_favoring_the_gelkis_nf
+			}
+		}
+
+		#Clearing flags
+		clr_global_flag = MAU_magram_accepted_flag
+		clr_global_flag = MAU_gelkis_accepted_flag
+		clr_global_flag = MAU_magram_refused_flag
+		clr_global_flag = MAU_gelkis_refused_flag
+	}
+}
+
+# Centaur tribe refused offer (from maraudon.2)
+country_event = {
+	id = maraudon.4
+	title = maraudon.4.t
+	desc = maraudon.4.d
+	picture = GFX_maraudon_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Ask the other tribe (only if wasn't asked already)
+	option = {
+		name = maraudon.4.option.1
+
+		trigger = {
+			NOT = {
+				has_global_flag = MAU_magram_refused_flag
+				has_global_flag = MAU_gelkis_refused_flag
+			}
+		}
+
+		if = {
+			limit = {
+				has_global_flag = MAU_magram_refused_flag
+			}
+			GLC = {
+				country_event = {
+					id = maraudon.2
+					days = 7
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag = MAU_gelkis_refused_flag
+			}
+			MGC = {
+				country_event = {
+					id = maraudon.2
+					days = 7
+				}
+			}
+		}
+	}
+
+	#If both tribe refused
+	option = {
+		name = maraudon.4.option.2
+
+		trigger = {
+			AND = {
+				has_global_flag = MAU_magram_refused_flag
+				has_global_flag = MAU_gelkis_refused_flag
+			}
+		}
+
+		complete_national_focus = MAU_ungrateful_children_nf
+
+		#Clearing flags
+		clr_global_flag = MAU_magram_accepted_flag
+		clr_global_flag = MAU_gelkis_accepted_flag
+		clr_global_flag = MAU_magram_refused_flag
+		clr_global_flag = MAU_gelkis_refused_flag
+	}
+}
+
+# Theradras Request (from MAU_theradras_request_nf)
+country_event = {
+	id = maraudon.5
+	title = maraudon.5.t
+	desc = maraudon.5.d
+	picture = GFX_maraudon_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Yes
+	option = {
+		name = maraudon.5.option.1
+		custom_effect_tooltip = maraudon.5.option.1.d
+
+		ai_chance = {
+			factor = 100
+		}
+
+		MAU = {
+			country_event = maraudon.6
+		}
+	}
+
+	#No
+	option = {
+		name = maraudon.5.option.2
+
+		MAU = {
+			country_event = maraudon.7
+		}
+	}
+}
+
+# Request accepted (from maraudon.5)
+country_event = {
+	id = maraudon.6
+	title = maraudon.6.t
+	desc = maraudon.6.d
+	picture = GFX_maraudon_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = maraudon.6.option.1
+
+		add_political_power = 50
+		transfer_state = 1191
+		add_state_core = 1191
+
+		KOL = {
+			remove_state_core = 1191
+		}
+	}
+}
+
+# Request refused (from maraudon.5)
+country_event = {
+	id = maraudon.7
+	title = maraudon.7.t
+	desc = maraudon.7.d
+	picture = GFX_maraudon_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = maraudon.7.option.1
+
+		add_political_power = -50
+		add_state_claim = 1191
+	}
+}

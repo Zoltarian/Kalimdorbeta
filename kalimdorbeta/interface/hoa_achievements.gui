@@ -1,0 +1,503 @@
+guiTypes = {
+	containerWindowType = {
+		name = "open_achievements_window"
+		position = { x = -4 y = -1 }
+		size = { width = 100%% height = 100%% }
+
+		buttonType = {
+			name = "open_achievements_window_button"
+			spriteType = "GFX_achievements_button"
+			position = { x = -131 y = 62 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "OPEN_ACHIEVEMENTS_WINDOW_TT"
+		}
+	}
+
+	containerWindowType = {
+		name = "mod_achievements_unlocked_alert_window"
+		position = { x = 0 y = 1000 }
+		show_position = { x = 0 y = -74 }
+		size = { width = 400 height = 74 }
+		orientation = lower_left
+
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+
+		gridboxtype = {
+			name = "achievement_unlocked_alert_gridbox"
+			position = { x = 0 y = 0 }
+			size = { width = 400 height = 74 }
+			slotsize = { width = 400 height = -147 }
+			max_slots_vertical = 13
+			add_horizontal = no
+		}
+	}
+
+	containerWindowType = {
+		name = "achievement_unlocked_alert_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 400 height = 74 }
+
+		show_sound = earned_achievement
+
+		buttonType = {
+			name = "achievement_unlocked_button"
+			spriteType = "GFX_achievement_unlocked_alert_bg"
+			position = { x = 0 y = 0 }
+			pdx_tooltip_delayed = "ACHIEVEMENT_UNLOCKED_BUTTON_TT_DELAYED"
+		}
+
+		iconType = {
+			name = "button_overlay"
+			spriteType = "GFX_achievement_unlocked_alert_bg"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "unlocked_achievement_icon"
+			spriteType = "GFX_unknown_achievement_icon"
+			position = { x = 5 y = 5 }
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 80 y = 12 }
+			text = "ACHIEVEMENT_UNLOCKED_TITLE"
+			font = "hoi_24header"
+			format = left
+			maxWidth = 300
+			maxHeight = 10
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "unlocked_achievement_title"
+			position = { x = 80 y = 42 }
+			text = "UNLOCKED_ACHIEVEMENT_TITLE"
+			font = "hoi_18mbs"
+			format = left
+			maxWidth = 300
+			maxHeight = 10
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "mod_achievements_window"
+		position = { x = -480 y = -340 }
+		size = { width = 900 height = 706 }
+		orientation = center
+
+		clipping = no
+		moveable = yes
+
+		fade_time = 300
+		fade_type = linear
+
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_plain_bg"
+		}
+
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 40 y = 5 }
+			text = "ACHIEVEMENTS_TITLE"
+			font = "hoi_24header"
+			format = center
+			maxWidth = 800
+			maxHeight = 10
+			fixedsize = yes
+		}
+
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 864 y = 3 }
+			pdx_tooltip = "CLOSE"
+			shortcut = "ESCAPE"
+			clicksound = click_ok
+		}
+
+		containerWindowType = {
+			name = "achievements_info_window"
+			position = { x = 0 y = 32 }
+			size = { width = 100%% height = 115 }
+
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_1b_border"
+			}
+
+			instantTextBoxType = {
+				name = "desc"
+				position = { x = 285 y = 12 }
+				text = "ACHIEVEMENTS_DESC"
+				font = "hoi_18mbs"
+				format = left
+				maxWidth = 593
+				maxHeight = 90
+				scrollbartype = "standardtext_slider"
+			}
+
+			instantTextBoxType = {
+				name = "set_country_achievement_check_time_title"
+				position = { x = 20 y = 20 }
+				text = "SET_COUNTRY_ACHIEVEMENT_CHECK_TIME_TITLE"
+				font = "hoi_16mbs"
+				format = left
+				maxWidth = 255
+				maxHeight = 10
+				fixedsize = yes
+			}
+
+			buttonType = {
+				name = "decrease_country_achievement_check_time_button"
+				spriteType = "GFX_subtract_one"
+				position = { x = 17 y = 38 }
+				pdx_tooltip = "DECREASE_COUNTRY_ACHIEVEMENT_CHECK_TIME_TT"
+				pdx_tooltip_delayed = "DECREASE_COUNTRY_ACHIEVEMENT_CHECK_TIME_TT_DELAYED"
+			}
+
+			iconType = {
+				name = "country_achievement_check_time_bg"
+				position = { x = 50 y = 37 }
+				spriteType = "GFX_generic_box_smallest"
+				pdx_tooltip = "COUNTRY_ACHIEVEMENT_CHECK_TIME_VALUE_TT"
+			}
+
+			instantTextBoxType = {
+				name = "country_achievement_check_time_value"
+				position = { x = 52 y = 40 }
+				text = "[?achievement_check_time]"
+				font = "hoi_18mbs"
+				format = center
+				maxWidth = 65
+				maxHeight = 10
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+
+			buttonType = {
+				name = "increase_country_achievement_check_time_button"
+				spriteType = "GFX_add_one"
+				position = { x = 130 y = 38 }
+				pdx_tooltip = "INCREASE_COUNTRY_ACHIEVEMENT_CHECK_TIME_TT"
+				pdx_tooltip_delayed = "INCREASE_COUNTRY_ACHIEVEMENT_CHECK_TIME_TT_DELAYED"
+			}
+
+			# Sort Menu
+			buttonType = {
+				name = "show_sort_menu_button"
+				spriteType = "GFX_custom_set_button"
+				frame = 1
+				position = { x = 15 y = 70 }
+				shortcut = "M"
+				pdx_tooltip = "SHOW_SORT_MENU_BUTTON_TT"
+			}
+
+			buttonType = {
+				name = "hide_sort_menu_button"
+				spriteType = "GFX_custom_set_button"
+				frame = 1
+				position = { x = 15 y = 70 }
+				shortcut = "ESCAPE"
+				pdx_tooltip = "HIDE_SORT_MENU_BUTTON_TT"
+			}
+
+			buttonType = {
+				name = "repopulate_visible_achievement_arrays_button"
+				spriteType = "GFX_custom_set_button"
+				frame = 2
+				position = { x = 60 y = 70 }
+				pdx_tooltip = "REPOPULATE_VISIBLE_ACHIEVEMENT_ARRAYS_BUTTON_TT"
+				pdx_tooltip_delayed = "REPOPULATE_VISIBLE_ACHIEVEMENT_ARRAYS_BUTTON_TT_DELAYED"
+			}
+		}
+
+		containerWindowType = {
+			name = "hoa_achievements_list_window"
+			position = { x = 0 y = 132 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 bottom = 13 right = 12 left = 12 }
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_1b_border"
+			}
+
+			gridboxtype = {
+				name = "hoa_achievement_list_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 864 height = 80 }
+				slotsize = { width = 864 height = 80 }
+				add_horizontal = no
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "achievements_sort_menu_window"
+		position = { x = -245 y = 100 }
+		size = { width = 250 height = 228 }
+
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window"
+		}
+
+		buttonType = {
+			name = "sort_achievements_only_available_visible_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 15 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_ACHIEVEMENTS_ONLY_AVAILABLE_VISIBLE"
+			pdx_tooltip = "SORT_ACHIEVEMENTS_ONLY_AVAILABLE_VISIBLE_TT"
+		}
+
+		buttonType = {
+			name = "sort_achievements_all_visible_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 15 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_ACHIEVEMENTS_ALL_VISIBLE"
+			pdx_tooltip = "SORT_ACHIEVEMENTS_ALL_VISIBLE_TT"
+		}
+
+		buttonType = {
+			name = "sort_completed_achievements_on_top_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 40 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_COMPLETED_ACHIEVEMENTS_ON_TOP"
+			pdx_tooltip = "SORT_COMPLETED_ACHIEVEMENTS_ON_TOP_TT"
+			pdx_tooltip_delayed = "SORT_COMPLETED_ACHIEVEMENTS_ON_TOP_TT_DELAYED"
+		}
+
+		buttonType = {
+			name = "sort_completed_achievements_on_bottom_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 65 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_COMPLETED_ACHIEVEMENTS_ON_BOTTOM"
+			pdx_tooltip = "SORT_COMPLETED_ACHIEVEMENTS_ON_BOTTOM_TT"
+			pdx_tooltip_delayed = "SORT_COMPLETED_ACHIEVEMENTS_ON_BOTTOM_TT_DELAYED"
+		}
+
+		buttonType = {
+			name = "sort_hide_completed_achievements_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 90 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_HIDE_COMPLETED_ACHIEVEMENTS"
+			pdx_tooltip = "SORT_HIDE_COMPLETED_ACHIEVEMENTS_TT"
+			pdx_tooltip_delayed = "SORT_HIDE_COMPLETED_ACHIEVEMENTS_TT_DELAYED"
+		}
+
+		buttonType = {
+			name = "sort_show_completed_achievements_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 90 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_SHOW_COMPLETED_ACHIEVEMENTS"
+			pdx_tooltip = "SORT_SHOW_COMPLETED_ACHIEVEMENTS_TT"
+		}
+
+		buttonType = {
+			name = "sort_print_to_gamelog_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 115 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_PRINT_TO_GAMELOG"
+			pdx_tooltip = "SORT_PRINT_TO_GAMELOG_TT"
+			pdx_tooltip_delayed = "SORT_PRINT_TO_GAMELOG_TT_DELAYED"
+		}
+
+		buttonType = {
+			name = "sort_show_manually_hidden_achievements_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 140 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_SHOW_MANUALLY_HIDDEN_ACHIEVEMENTS"
+			pdx_tooltip = "SORT_SHOW_MANUALLY_HIDDEN_ACHIEVEMENTS_TT"
+			pdx_tooltip_delayed = "SORT_SHOW_MANUALLY_HIDDEN_ACHIEVEMENTS_TT_DELAYED"
+		}
+
+		buttonType = {
+			name = "sort_show_achievements_difficulty_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 165 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_SHOW_ACHIEVEMENTS_DIFFICULTY"
+			pdx_tooltip = "SORT_SHOW_ACHIEVEMENTS_DIFFICULTY_TT"
+		}
+
+		buttonType = {
+			name = "sort_hide_achievements_difficulty_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 165 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_HIDE_ACHIEVEMENTS_DIFFICULTY"
+			pdx_tooltip = "SORT_HIDE_ACHIEVEMENTS_DIFFICULTY_TT"
+		}
+
+		buttonType = {
+			name = "sort_achievements_after_difficulty_button"
+			spriteType = "GFX_tiling_sort_button"
+			frame = 1
+			size = { x = 224 y = 25 }
+			position = { x = 13 y = 190 }
+			font = "hoi_18mbs"
+			format = center
+			text = "SORT_ACHIEVEMENTS_AFTER_DIFFICULTY"
+			pdx_tooltip = "SORT_ACHIEVEMENTS_AFTER_DIFFICULTY_TT"
+		}
+	}
+
+	containerWindowType = {
+		name = "hoa_achievement_list_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 864 height = 78 }
+
+		background = {
+			name = "background"
+			spriteType = "GFX_achievement_list_entry_bg"
+		}
+
+		iconType = {
+			name = "achievement_background_glow"
+			spriteType = "GFX_achievement_list_entry_glow"
+		}
+
+		iconType = {
+			name = "achievement_icon"
+			spriteType = "GFX_unknown_achievement_icon"
+			position = { x = 7 y = 7 }
+			pdx_tooltip = "ACHIEVEMENT_UNLOCKED_TT"
+			pdx_tooltip_delayed = "ACHIEVEMENT_UNLOCKED_TT_DELAYED"
+		}
+
+		buttonType = {
+			name = "achievement_icon_grey"
+			spriteType = "GFX_unknown_achievement_icon"
+			position = { x = 7 y = 7 }
+			pdx_tooltip = "ACHIEVEMENT_LOCKED_TT"
+			pdx_tooltip_delayed = "ACHIEVEMENT_TRIGGER_TT"
+		}
+
+		iconType = {
+			name = "achievement_icon_unavailable"
+			spriteType = "GFX_achievement_icon_red_cross"
+			position = { x = 7 y = 7 }
+			pdx_tooltip = "ACHIEVEMENT_UNAVAILABLE_TT"
+			pdx_tooltip_delayed = "ACHIEVEMENT_UNAVAILABLE_CONDITIONS_TT"
+		}
+
+		iconType = {
+			name = "achievement_icon_difficulty_easy"
+			spriteType = "GFX_achievement_icon_difficulty_easy"
+			position = { x = 7 y = 50 }
+			pdx_tooltip = "ACHIEVEMENT_DIFFICULTY_EASY_TT"
+		}
+		iconType = {
+			name = "achievement_icon_difficulty_normal"
+			spriteType = "GFX_achievement_icon_difficulty_normal"
+			position = { x = 7 y = 50 }
+			pdx_tooltip = "ACHIEVEMENT_DIFFICULTY_NORMAL_TT"
+		}
+		iconType = {
+			name = "achievement_icon_difficulty_hard"
+			spriteType = "GFX_achievement_icon_difficulty_hard"
+			position = { x = 7 y = 50 }
+			pdx_tooltip = "ACHIEVEMENT_DIFFICULTY_HARD_TT"
+		}
+		iconType = {
+			name = "achievement_icon_difficulty_impossible"
+			spriteType = "GFX_achievement_icon_difficulty_impossible"
+			position = { x = 7 y = 50 }
+			pdx_tooltip = "ACHIEVEMENT_DIFFICULTY_IMPOSSIBLE_TT"
+		}
+
+		containerWindowType = {
+			name = "text_bg_window"
+			position = { x = 74 y = 6 }
+			size = { width = 785 height = 65 }
+
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_small_small"
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "title"
+				position = { x = 10 y = 3 }
+				text = "ACHIEVEMENT"
+				font = "hoi_24header"
+				format = left
+				maxWidth = 750
+				maxHeight = 10
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "desc"
+				position = { x = 13 y = 23 }
+				text = "ACHIEVEMENT_DESC"
+				font = "hoi_18mbs"
+				format = left
+				maxWidth = 760
+				maxHeight = 40
+				fixedsize = yes
+			}
+		}
+
+		buttonType = {
+			name = "hide_this_achievement_button"
+			spriteType = "GFX_NV_btn_close"
+			scale = 0.5
+			position = { x = -18 y = 3 }
+			pdx_tooltip = "HIDE_THIS_ACHIEVEMENT_BUTTON_TT"
+			pdx_tooltip_delayed = "HIDE_THIS_ACHIEVEMENT_BUTTON_TT_DELAYED"
+			orientation = upper_right
+		}
+	}
+}

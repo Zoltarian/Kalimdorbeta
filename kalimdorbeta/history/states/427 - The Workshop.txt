@@ -1,0 +1,39 @@
+
+state={
+	id=427
+	name="STATE_427"
+	resources={
+		ores=32.000
+	}
+
+	history={
+		
+		add_core_of = GNO
+
+		victory_points = {
+			1349 5
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+				1344 = {
+					bunker = 5
+				}
+		}
+
+		617.1.1 = {
+			owner = LEP
+			controller = LEP
+			add_core_of = LEP
+		}
+	}
+
+	provinces={
+		285 1026 1344 1349 1350 1357 5225 6117
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

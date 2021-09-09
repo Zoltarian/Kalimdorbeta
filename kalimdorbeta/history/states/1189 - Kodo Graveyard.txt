@@ -1,0 +1,30 @@
+
+state={
+	id=1189
+	name="STATE_1189"
+	resources = {
+		ores=6
+		oil=5
+	}
+
+	history={
+		owner = MAU
+		victory_points = {
+			11633 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+
+		}
+		add_core_of = MAU
+
+	}
+
+	provinces={
+		10912 11606 11611 11615 11622 11623 11625 11626 11632 11633 11634 11636 11646 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

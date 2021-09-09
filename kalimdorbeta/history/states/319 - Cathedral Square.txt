@@ -1,0 +1,42 @@
+
+state={
+	id=319
+	name="STATE_319"
+	resources={
+		mana = 38
+		wheat = 8
+	}
+
+	history={
+		
+		victory_points = {
+			2388 20 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+
+	}
+
+	provinces={
+		812 2379 2380 2383 2385 2388 2393 2400 
+	}
+	manpower=87000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=259
+	name="STATE_259"
+	resources={
+		ores=22.000
+		gunpowder=14.000
+	}
+
+	history={
+		
+		victory_points = {
+			8191 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = AZS
+
+	}
+
+	provinces={
+		8190 8191 8195 8198 8200 8207 
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

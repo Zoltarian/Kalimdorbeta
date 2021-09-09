@@ -1,0 +1,120 @@
+﻿###########################
+# Frostwolf Clan
+###########################
+
+add_namespace = frostwolf
+
+#identity crisis
+country_event = {
+	id = frostwolf.1
+	title = frostwolf.1.t
+	desc = frostwolf.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = frostwolf.1.option.1
+		
+		FWC = {
+		
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+		
+			declare_war_on = { target = TSC type = annex_everything }
+			load_oob = "FWC_horde_civil_war"
+			add_manpower = 2000
+			
+		}
+
+	}
+
+}
+
+#banished
+country_event = {
+	id = frostwolf.2
+	title = frostwolf.2.t
+	desc = frostwolf.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = frostwolf.2.option.1
+		
+		FWC = {
+		
+			transfer_state = 114
+			transfer_state = 761
+			
+			114 = {
+				add_core_of = FWC
+			}
+			
+			761 = {
+				add_core_of = FWC
+			}
+			
+			381 = {
+				remove_core_of = FWC
+			}
+			
+			382 = {
+				remove_core_of = FWC
+			}
+			785 = {
+				remove_core_of = FWC
+			}
+			
+			set_politics = {
+				ruling_party = neutral
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = neutral
+				popularity = 1
+			}
+			
+			add_ideas = {
+				primary_religion_shamanism
+			}
+			
+			leave_faction = yes
+			
+		}
+		
+		BRC = {
+		
+			transfer_state = 381
+			transfer_state = 382
+			transfer_state = 785
+			
+			381 = {
+				add_core_of = BRC
+
+			}
+			
+			382 = {
+				add_core_of = BRC
+			}
+			785 = {
+				add_core_of = BRC
+			}
+		
+		}
+
+	}
+
+}
+

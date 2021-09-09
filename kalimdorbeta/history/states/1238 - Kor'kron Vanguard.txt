@@ -1,0 +1,33 @@
+
+state={
+	id=1238
+	name="STATE_1238"
+
+	history={
+		
+		add_core_of = AZJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+		}
+
+		620.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+
+	}
+
+	provinces={
+		10957 13401 13487 13499
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=501
+	name="STATE_501"
+	resources={
+		mana=12.000
+		wood=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			4910 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			4894 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1023 4887 4889 4894 4898 4902 4903 4905 4910 4912 4919 4923 5911 5997 6010 
+	}
+	manpower=21175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,273 @@
+﻿###########################
+# greendragonflight
+###########################
+
+add_namespace = greendragonflight
+
+country_event = { #add courption 1
+	id = greendragonflight.1
+	title = greendragonflight.1.t
+	desc = greendragonflight.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		old_gods > 0.2
+	}
+
+	option = {
+		name = greendragonflight.1.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_1
+			add_ideas = GDF_emerald_nightmare_2
+		}
+		
+	}
+	
+}
+
+country_event = { #add courption 2
+	id = greendragonflight.2
+	title = greendragonflight.2.t
+	desc = greendragonflight.2.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		old_gods > 0.4
+	}
+
+	option = {
+		name = greendragonflight.2.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_2
+			add_ideas = GDF_emerald_nightmare_3
+		}
+		
+	}
+	
+}
+
+country_event = { #add courption 3
+	id = greendragonflight.3
+	title = greendragonflight.3.t
+	desc = greendragonflight.3.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		old_gods > 0.6
+	}
+
+	option = {
+		name = greendragonflight.3.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_3
+			add_ideas = GDF_emerald_nightmare_4
+		}
+		
+	}
+	
+}
+
+country_event = { #add courption 4
+	id = greendragonflight.4
+	title = greendragonflight.4.t
+	desc = greendragonflight.4.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		old_gods > 0.8
+	}
+
+	option = {
+		name = greendragonflight.4.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_4
+			add_ideas = GDF_emerald_nightmare_5
+		}
+		
+	}
+	
+}
+
+country_event = { #remove courption 1
+	id = greendragonflight.5
+	title = greendragonflight.5.t
+	desc = greendragonflight.5.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		AND = {
+			old_gods < 0.15
+			has_idea = GDF_emerald_nightmare_2
+		}
+	}
+
+	option = {
+		name = greendragonflight.5.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_2
+			add_ideas = GDF_emerald_nightmare_1
+		}
+		
+	}
+	
+}
+
+country_event = { #remove courption 2
+	id = greendragonflight.6
+	title = greendragonflight.6.t
+	desc = greendragonflight.6.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		AND = {
+			old_gods < 0.35
+			has_idea = GDF_emerald_nightmare_3
+		}
+	}
+
+	option = {
+		name = greendragonflight.6.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_3
+			add_ideas = GDF_emerald_nightmare_2
+		}
+		
+	}
+	
+}
+
+country_event = { #remove courption 3
+	id = greendragonflight.7
+	title = greendragonflight.7.t
+	desc = greendragonflight.7.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		AND = {
+			old_gods < 0.55
+			has_idea = GDF_emerald_nightmare_4
+		}
+	}
+
+	option = {
+		name = greendragonflight.7.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_4
+			add_ideas = GDF_emerald_nightmare_3
+		}
+		
+	}
+	
+}
+
+country_event = { #remove courption 4
+	id = greendragonflight.8
+	title = greendragonflight.8.t
+	desc = greendragonflight.8.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		AND = {
+			old_gods < 0.75
+			has_idea = GDF_emerald_nightmare_5
+		}
+	}
+
+	option = {
+		name = greendragonflight.8.option.1
+		
+		GDF = {
+			remove_ideas = GDF_emerald_nightmare_5
+			add_ideas = GDF_emerald_nightmare_4
+		}
+		
+	}
+	
+}
+
+#turn into nightmare dragonflight
+country_event = {
+	id = greendragonflight.9
+	title = greendragonflight.9.t
+	desc = greendragonflight.9.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		old_gods > 1
+	}
+
+	option = {
+		name = greendragonflight.9.option.1
+		
+		GDF = {
+			leave_faction = yes
+		}
+		
+		every_owned_state = {
+			limit = {
+				check_variable = {
+					race = 50
+				}
+			}
+			set_variable = { race = 94 }
+			add_core_of = NDF
+			remove_core_of = GDF
+		}
+		
+		NDF = {
+			annex_country = { target = GDF transfer_troops = yes }
+			change_tag_from = GDF
+			set_politics = {
+				ruling_party = old_gods
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = old_gods
+				popularity = 1
+			}
+		}
+		
+		RDF = {
+			country_event = reddragonflight.1
+		}
+	}
+	
+}

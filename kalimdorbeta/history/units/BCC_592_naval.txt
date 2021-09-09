@@ -1,0 +1,97 @@
+﻿units = {
+
+	### Naval OOB ###
+		fleet = {				
+		name = "Northern Fleet"			
+		naval_base = 6644
+		task_force = {
+			name = "Northern Fleet"			
+			location = 6644 #ironhold harbor
+			
+			ship = {
+				name = "1st Bonechewer Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Bonechewer Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Bonechewer Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+	
+			
+		}
+	}
+	
+		fleet = {				
+		name = "Southern Fleet"			
+		naval_base = 6586
+		task_force = {
+			name = "Southern Fleet"			
+			location = 6586 #dakrportal harbor
+			
+			ship = {
+				name = "2nd Bonechewer Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Bonechewer Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Bonechewer Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "6th Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "7th Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "8th Bonechewer Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+	
+			
+		}
+	}
+}

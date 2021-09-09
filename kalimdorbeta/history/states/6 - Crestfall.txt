@@ -1,0 +1,40 @@
+
+state={
+	id=6
+	name="STATE_6"
+	
+	resources={
+		mounts=22
+		gunpowder=8
+	}
+
+	history={
+		
+		victory_points = { 117 20 }
+		victory_points = { 74 5 }
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			radar_station = 1
+			117 = {
+			naval_base = 6
+			}	
+			74 = {
+			naval_base = 3
+			}	
+
+		}
+		add_core_of = KUL
+		add_core_of = CRF
+
+	}
+
+	provinces={
+		74 83 103 116 117 256 1163 
+	}
+	manpower=145500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

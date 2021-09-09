@@ -1,0 +1,119 @@
+﻿capital = 1013
+
+oob = "BFC_592"
+
+set_research_slots = 3
+
+set_stability = 0.4
+set_war_support = 0.35
+
+add_ideas = {
+	
+	clan
+	limited_conscription
+	early_military_development
+	limited_exports	
+	
+	ogre_primary_race
+	primary_trait_brute_strength
+	primary_trait_thick_skin
+	primary_trait_stubborn
+	
+	primary_religion_demonology
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+	
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+	
+	catapult_equipment_tech_1 = 1
+
+	
+	
+	
+	
+	
+	naval_transport_1 = 1
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+}
+
+set_politics = {	
+	ruling_party = fel
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 100
+    old_gods = 0
+    titans = 0
+    neutral = 0
+}
+
+create_country_leader = {
+	name = "Kor'gresh Coldrage"
+	desc = "POLITICS_KORGRESH_COLDRAGE_DESC"
+	picture = "gfx/leaders/BFC/korgresh_coldrage.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kor'gresh Coldrage"
+	desc = "POLITICS_KORGRESH_COLDRAGE_DESC"
+	picture = "gfx/leaders/BFC/korgresh_coldrage.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kor'gresh Coldrage"
+	desc = "POLITICS_KORGRESH_COLDRAGE_DESC"
+	picture = "gfx/leaders/BFC/korgresh_coldrage.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Kor'gresh Coldrage"
+	picture = "gfx/leaders/BFC/korgresh_coldrage.dds"
+	traits = {  }
+	id = 3600
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Kovork"
+	picture = "gfx/leaders/BFC/kovork.dds"
+	traits = {  }
+	id = 3601
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+

@@ -1,0 +1,58 @@
+
+state={
+	id=476
+	name="STATE_476"
+	resources={
+		ores=22.000
+		gunpowder=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			3594 20 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			buildings = {
+				air_base = 1
+
+			}
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+			BHC = {
+				set_province_controller = 5931
+				set_province_controller = 3586
+				set_province_controller = 5932
+				set_province_controller = 3588
+				set_province_controller = 6073
+				set_province_controller = 3590
+				set_province_controller = 5939
+				set_province_controller = 3591
+
+			}
+
+		}
+		617.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		1048 3586 3588 3589 3590 3591 3594 3595 5914 5931 5932 5949 5955 6073 
+	}
+	manpower=44750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

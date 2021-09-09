@@ -1,0 +1,32 @@
+
+state={
+	id=864
+	name="STATE_864"
+	resources={
+		oil=5
+		ores=3
+		wood=6
+		mana=4
+	}
+
+	history={
+		owner = MIR
+		victory_points = {
+			9098 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MIR
+
+	}
+
+	provinces={
+		189 9081 9091 9098 9099 9100 9106 9112 9728 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

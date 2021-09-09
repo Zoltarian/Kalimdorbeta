@@ -1,0 +1,33 @@
+﻿###########################
+# Farraki Tribe
+###########################
+
+add_namespace = farraki
+
+#STC_the_sands_of_tanaris (STC arrive in Tanaris)
+country_event = {
+	id = farraki.1
+	title = farraki.1.t
+	desc = farraki.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#declare war on STC
+  option = {
+    name = farraki.1.option.1
+
+		declare_war_on = {
+		    target = STC
+		    type = annex_everything
+		}
+	}
+
+	#do nothing
+	option = {
+    name = farraki.1.option.1
+	}
+
+}

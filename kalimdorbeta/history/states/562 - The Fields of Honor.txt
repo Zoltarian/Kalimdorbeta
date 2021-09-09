@@ -1,0 +1,30 @@
+
+state={
+	id=562
+	name="STATE_562"
+
+	history={
+		
+		victory_points = {
+			4635 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+	}
+
+	provinces={
+		917 4635 4639 4645 
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

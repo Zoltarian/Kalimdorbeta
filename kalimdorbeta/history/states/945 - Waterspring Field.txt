@@ -1,0 +1,40 @@
+
+state={
+	id=945
+	name="STATE_945"
+	resources={
+		wood =2
+		oil = 4
+	}
+
+	history={
+		owner = FAR
+		add_core_of = FAR
+
+		victory_points = {
+			9462 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			9462 = {
+				naval_base = 3
+			}
+		}
+
+		617.1.1 = {
+			owner = WWB
+			controller = WWB
+			add_core_of = WWB
+		}
+	}
+
+	provinces={
+		8967 9440 9449 9453 9462 9464 9465 9467 9473
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

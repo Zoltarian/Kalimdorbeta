@@ -1,0 +1,56 @@
+
+state={
+	id=222
+	name="STATE_222"
+	
+	resources={
+	gunpowder=8
+	oil=12
+	}
+
+	history={
+		
+		victory_points = {
+			4491 20
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			radar_station = 1
+			
+			4491 = {
+				naval_base = 4
+			}		
+			4475 = {
+				bunker = 2
+			}
+			4476 = {
+				bunker = 2
+			}
+			4482 = {
+				bunker = 2
+			}
+			714 = {
+				bunker = 2
+			}
+
+		}
+		add_core_of = QUE
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		714 4475 4476 4482 4491 
+	}
+	manpower=18750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

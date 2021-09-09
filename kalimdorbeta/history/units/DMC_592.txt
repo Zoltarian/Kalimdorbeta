@@ -1,0 +1,128 @@
+﻿division_template = {
+	name = "Dragonmaw Grunts"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonmaw Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonmaw Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonmaw Raiders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1st Dragonmaw Grunts"
+		location = 2610
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Dragonmaw Grunts"
+		location = 940
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "3rd Dragonmaw Grunts"
+		location = 2610
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "4th Dragonmaw Grunts"
+		location = 2619
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Dragonmaw Grunts"
+		location = 2621
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Dragonmaw Raiders"
+		location = 2610
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Dragonmaw Raiders"
+		location = 2610
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+		
+}
+
+#air_wings = {
+#	### misty reed post
+#	402 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "DMC" 
+#			amount = 3
+#		}
+#		
+#		cas_equipment_1 = {
+#			owner = "DMC" 
+#			amount = 7
+#		}
+#		
+#		fighter_equipment_2 = {
+#			owner = "DMC" 
+#			amount = 12
+#		}
+#	}
+#}

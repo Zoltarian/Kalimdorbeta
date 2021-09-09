@@ -1,0 +1,42 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	tier_2_tech = {
+
+		research_cost = 1.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+	tier_3_tech = {
+
+		research_cost = 1.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+	lumber_mill_tech_global = {
+		research_cost = 1.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+}

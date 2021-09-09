@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Mossflayer Berserkers"
+
+	regiments = {
+
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Mossflayer Spearman"
+
+	regiments = {
+
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Mossflayer Scouts"
+
+	regiments = {
+
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+#####################
+#Eastern plaguelands
+#####################
+
+	division = {
+		name = "1st Zul'Mashar Berserkers"
+		location = 4425
+		division_template = "Mossflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Zul'Mashar Berserkers"
+		location = 5675
+		division_template = "Mossflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Zul'Mashar Spearman"
+		location = 4425
+		division_template = "Mossflayer Spearman"
+		start_experience_factor = 0.2
+	}
+
+}

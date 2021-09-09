@@ -1,0 +1,21 @@
+state={
+	id=1545
+	name="STATE_1545"
+	impassable = yes
+
+	history={
+		owner = AXS
+		add_core_of = AXS
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1458
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

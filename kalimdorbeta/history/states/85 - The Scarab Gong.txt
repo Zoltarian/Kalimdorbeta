@@ -1,0 +1,30 @@
+
+state={
+	id=85
+	name="STATE_85"
+	resources = {
+		mana=13
+		ores=3
+	}
+
+	history={
+		owner = HZO
+		victory_points = {
+			11092 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = HZO
+
+	}
+
+	provinces={
+		128 11092 11093 11094 11095 11108 11109 11113 11126 11127 11128 11129 11138 11140 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

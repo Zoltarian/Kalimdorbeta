@@ -1,0 +1,29 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Lightning's Blade's Fleet"			
+		naval_base = 10488
+		task_force = {
+			name = "Lightning's Blade's Fleet"			
+			location = 10488
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=1352
+	name="STATE_1352"
+	resources = {
+		wheat=5
+		wood=8
+		ores=4
+		mana=3
+	}
+
+	history={
+		owner = FMC
+		victory_points = {
+			12383 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = FMC
+
+	}
+
+	provinces={
+		12041 12374 12383 12405 12408 12430 12431 12457 
+	}
+	manpower=54000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Thunderlord Grunt"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Thunderlord Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Thunderlord Talon"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Thunderlord Beast-Rider"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+##########################
+#nagrand (draenor)
+##########################
+	division = {
+		name = "1st Thunderlord Grunt"
+		location = 6307
+		division_template = "Thunderlord Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Thunderlord Grunt"
+		location = 6284
+		division_template = "Thunderlord Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Thunderlord Grunt"
+		location = 6052
+		division_template = "Thunderlord Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Thunderlord Grunt"
+		location = 5676
+		division_template = "Thunderlord Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Thunderlord Grunt"
+		location = 6120
+		division_template = "Thunderlord Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Thunderlord Spearman"
+		location = 9827
+		division_template = "Thunderlord Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Thunderlord Spearman"
+		location = 6624
+		division_template = "Thunderlord Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Thunderlord Spearman"
+		location = 6352
+		division_template = "Thunderlord Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Thunderlord Talon"
+		location = 1057
+		division_template = "Thunderlord Talon"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Thunderlord Talon"
+		location = 6262
+		division_template = "Thunderlord Talon"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Thunderlord Beast-Rider"
+		location = 6307
+		division_template = "Thunderlord Beast-Rider"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Thunderlord Beast-Rider"
+		location = 6284
+		division_template = "Thunderlord Beast-Rider"
+		start_experience_factor = 0.2
+	}
+	
+}

@@ -1,0 +1,25 @@
+titan_generic_historical = {
+	name = "Titan generic plan"
+	desc = "placeholder titan ai"
+
+	enable = {
+			is_historical_focus_on = yes
+			titans > 0.5
+	}
+
+	ai_national_focuses = {
+		path_of_the_titans
+	}
+
+	focus_factors = {
+		pick_a_side = 0
+		stay_neutral = 0
+	}
+
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

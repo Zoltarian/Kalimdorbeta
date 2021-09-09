@@ -1,0 +1,33 @@
+
+state={
+	id=1512
+	name="STATE_1512"
+	resources = {
+		wheat=7
+		ores=5
+		wood=6
+		mana=2
+	}
+
+	history={
+		owner = BTR
+		victory_points = {
+			12241 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 3
+
+		}
+		add_core_of = BTR
+
+	}
+
+	provinces={
+		12241 12247 12253 12257 12273 12279 12304 
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

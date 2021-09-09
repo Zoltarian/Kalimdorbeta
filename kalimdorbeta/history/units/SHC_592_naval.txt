@@ -1,0 +1,54 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Shattered Hand Fleet"			
+		naval_base = 10425
+		task_force = {
+			name = "Shattered Hand Fleet"			
+			location = 10425 #writhering mire
+			
+			ship = {
+				name = "1st Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1   } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+	
+}

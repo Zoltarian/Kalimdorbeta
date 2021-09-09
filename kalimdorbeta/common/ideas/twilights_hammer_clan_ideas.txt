@@ -1,0 +1,53 @@
+ideas = {
+
+	advisor = {
+
+	}
+
+	country = {
+
+		THC_keep_chogall_busy_idea = {
+			allowed = {
+				original_tag = THC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				horde_drift = 0.1
+				training_time_army_factor = -0.2
+			}
+		}
+		
+		THC_dunemaul_clan = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = THC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+		
+		THC_bloodeye_clan = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = THC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+	}
+
+}

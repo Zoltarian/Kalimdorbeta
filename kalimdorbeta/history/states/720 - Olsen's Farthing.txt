@@ -1,0 +1,35 @@
+
+state={
+	id=720
+	name="STATE_720"
+	resources={
+		mounts=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			2730 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		1270 1723 2064 2145 2730 5264 5272 
+	}
+	manpower=10425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=533
+	name="STATE_533"
+	resources={
+		gunpowder=8.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+		}
+
+		617.1.1 = {
+			owner = SVT
+			controller = SVT
+			add_core_of = SVT
+		}
+	}
+
+	provinces={
+		4785 4786 4788 4791 4792 4800 5758 6234 6286 6288 7505 7509 7510
+	}
+	manpower=6325
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

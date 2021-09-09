@@ -1,0 +1,33 @@
+
+state={
+	id=271
+	name="STATE_271" #Zanzil's Hollow/Kurzen's Compound
+
+		resources={
+			ores=22
+		}
+
+	history={
+		
+		victory_points = {  1711 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = GUR
+
+		617.1.1 = {
+			owner = KZC
+			controller = KZC
+			add_core_of = KZC
+		}
+	}
+
+	provinces={
+		1699 1703 1707 1711 1715 2173
+	}
+	manpower=8200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

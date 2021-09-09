@@ -1,0 +1,445 @@
+﻿division_template = {
+	name = "Quel'Thalas Swordsman"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+
+	priority = 1
+}
+
+#division_template = {
+#	name = "Quel'Thalas Royal Guards"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#	}
+#
+#	priority = 1
+#}
+
+division_template = {
+	name = "Quel'Thalas Pikeman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Quel'Thalas Rangers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Quel'Thalas Balistas"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		catapult = { x = 0 y = 2 }
+		catapult = { x = 1 y = 0 }
+		catapult = { x = 1 y = 1 }
+		catapult = { x = 1 y = 2 }
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Quel'Thalas Lancers"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+#		hoa_lancer = { x = 1 y = 1 }
+#		hoa_lancer = { x = 1 y = 2 }
+
+	}
+
+	priority = 1
+}
+
+units = {
+
+########################
+#Isle of Queldanas
+########################
+#	division = {
+#		name = "Guardians of the Sunwell"
+#		location = 3308
+#		division_template = "Quel'Thalas Royal Guards"
+#		start_experience_factor = 0.3
+#	}
+
+	division = {
+		name = "1st Quel'Danas Swordsman"
+		location = 1950
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Quel'Danas Swordsman"
+		location = 3068
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Quel'Danas Swordsman"
+		location = 3303
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Quel'Danas Swordsman"
+		location = 3295
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Quel'Danas Lancers"
+		location = 472
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Quel'Danas Rangers"
+		location = 3317
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Quel'Danas Rangers"
+		location = 3058
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+
+########################
+#Eversong Forest
+########################
+#	division = {
+#		name = "1st Quel'Thalas Royal Guards"
+#		location = 3285
+#		division_template = "Quel'Thalas Royal Guards"
+#		start_experience_factor = 0.3
+#	}
+
+	division = {
+		name = "1st Quel'Thalas Balistas"
+		location = 3169
+		division_template = "Quel'Thalas Balistas"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Quel'Thalas Balistas"
+		location = 3274
+		division_template = "Quel'Thalas Balistas"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Quel'Thalas Lancers"
+		location = 3268
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Quel'Thalas Lancers"
+		location = 3265
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Quel'Thalas Lancers"
+		location = 3015
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Quel'Thalas Lancers"
+		location = 3143
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Quel'Thalas Lancers"
+		location = 3235
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Quel'Thalas Swordsman"
+		location = 3170
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Quel'Thalas Swordsman"
+		location = 3135
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Quel'Thalas Swordsman"
+		location = 3008
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Quel'Thalas Swordsman"
+		location = 664
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Quel'Thalas Swordsman"
+		location = 3225
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Quel'Thalas Swordsman"
+		location = 646
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Quel'Thalas Swordsman"
+		location = 3254
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Quel'Thalas Rangers"
+		location = 3135
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Quel'Thalas Rangers"
+		location = 3210
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Quel'Thalas Rangers"
+		location = 3169
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Quel'Thalas Rangers"
+		location = 3187
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+
+
+########################
+#ghostlands
+########################
+
+	division = {
+		name = "8th Quel'Thalas Swordsman"
+		location = 4555
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "9th Quel'Thalas Swordsman"
+		location = 4449
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "10th Quel'Thalas Swordsman"
+		location = 4581
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "11th Quel'Thalas Swordsman"
+		location = 4577
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "12th Quel'Thalas Swordsman"
+		location = 4553
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Quel'Thalas Rangers"
+		location = 4510
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Quel'Thalas Rangers"
+		location = 4539
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Quel'Thalas Rangers"
+		location = 877
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "8th Quel'Thalas Rangers"
+		location = 4548
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "9th Quel'Thalas Rangers"
+		location = 4526
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Quel'Thalas Lancers"
+		location = 4524
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Quel'Thalas Lancers"
+		location = 654
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "8th Quel'Thalas Lancers"
+		location = 4478
+		division_template = "Quel'Thalas Lancers"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Dawnstrider Harbor
+########################
+	division = {
+		name = "1st Dawnstrider Guards"
+		location = 4491
+		division_template = "Quel'Thalas Swordsman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Dawnstrider Rangers"
+		location = 4491
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Quel'lithien Lodge
+########################
+
+	division = {
+		name = "1st Quel'lithien Rangers"
+		location = 4423
+		division_template = "Quel'Thalas Rangers"
+		start_experience_factor = 0.2
+	}
+
+}
+
+########################
+#air units
+########################
+
+#air_wings = {
+#
+#	17 = { # silvermoon city
+#		fighter_equipment_1 = {
+#			owner = "QUE"
+#			amount = 8
+#		}
+#	}
+#
+#	33 = { #sunwell
+#		fighter_equipment_1 = {
+#			owner = "QUE"
+#			amount = 4
+#		}
+#	}
+#
+#	183 = { #windrunner village
+#		fighter_equipment_1 = {
+#			owner = "QUE"
+#			amount = 2
+#		}
+#	}
+#}

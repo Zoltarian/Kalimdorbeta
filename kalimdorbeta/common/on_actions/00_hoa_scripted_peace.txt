@@ -1,0 +1,138 @@
+on_actions = {
+
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						tag = BOO
+						has_defensive_war_with = GUR
+					}
+				}
+				country_event = boogurwar.1
+			}
+		}
+	}
+
+	# ROOT is winner, FROM is loser
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { original_tag = BRC }
+					FROM = { original_tag = STO }
+				}
+				STO = { country_event = stormwind_capitulation.101 }
+				BRC = {
+					set_country_flag = fall_of_stormwind
+				}
+			}
+		}
+	}
+	# dragonmaw vs marshtide tribe (dragonmaw winner)
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+						ROOT = { original_tag = DMC }
+						FROM = { original_tag = MTT }
+					}
+				}
+				DMC = { country_event = dragonmaw.2 }
+			}
+		}
+	}
+
+	# dragonmaw vs marshtide tribe (marshtide winner)
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+						ROOT = { original_tag = MTT }
+						FROM = { original_tag = DMC }
+					}
+				}
+				MTT = { country_event = marshtide_tribe.2 }
+				BRC = { country_event = blackrock.1 }
+			}
+		}
+	}
+
+	#Bleeding Hollow vs Bog Beasts (Bleeding hollow winner)
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+						ROOT = { original_tag = BHC }
+						FROM = { original_tag = TSW }
+					}
+				}
+				BHC = { country_event = bleeding_hollow.2 }
+			}
+		}
+	}
+
+	#Bleeding Hollow vs Bog Beasts (Bog Beast winner)
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+						ROOT = { original_tag = TSW }
+						FROM = { original_tag = BHC }
+					}
+				}
+				TSW = {
+					set_country_flag = bleeding_hollow_defeated
+					country_event = swampwalkers.2
+				}
+				BRC = { country_event = blackrock.2 }
+			}
+		}
+	}
+
+	#hakkari beats the horde (Bog Beast winner)
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+						ROOT = { original_tag = HAK }
+						FROM = { original_tag = BRC }
+					}
+				}
+				HAK = { country_event = hakkari.4 }
+			}
+		}
+	}
+
+	#blakchand wins civil war
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+						ROOT = { original_tag = BRC }
+						FROM = { original_tag = TSC }
+					}
+				}
+				BRC = { country_event = blackrock.8 }
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=3
+	name="STATE_3"
+	resources={
+		wood=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			1396 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		283 1370 1371 1373 1376 1378 1380 1381 1383 1387 1390 1396 
+	}
+	manpower=11950
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

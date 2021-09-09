@@ -1,0 +1,11 @@
+﻿l_english:
+ RACE_CONVERSION_INFO:0 "§Y[?race_conversion_country.GetName]§! is currently working on converting the race in §Y[This.GetName]§!. Racial conversion progress so far is [This.GetRaceProgress]."
+ RACE_CONVERSION_CANCEL_INFO:0 "§YConvert Race§!\nSpend political power to convert the race in this state."
+ CONVERT_STATE_RACE_TT:0 "Convert this states Race for £pol_power [?Root.race_conversion_cost]"
+ #Conversion Popup Window
+ RACE_CONVERSION_CHECK_POPUP_TITLE:0 "Convert Race"
+ RACE_CONVERSION_CHECK_POPUP_DESC:0 "Do you wish to convert the race of §Y[This.GetName]§! into §Y[Root.GetMainRaceName]§!? \nThe cost of converting §Y[This.GetName]§! race is £pol_power [?Root.race_conversion_cost] . \nIt will take 180 days and remove 20% of the states population."
+ RACE_CONVERSION_CANCEL_POPUP_TITLE:0 "Cancel Race Conversion"
+ RACE_CONVERSION_CANCEL_POPUP_DESC:0 "Do you wish to cancel converting the §Y[This.GetName]§!'s race into §Y[Root.GetMainRaceName]§!? \nIf you cancel the race conversion, part of the political power you used will be returned."
+ RACE_CONVERSION_COMPLETE_POPUP_TITLE:0 "Race converted"
+ RACE_CONVERSION_COMPLETE_POPUP_DESC:0 "We have converted §Y[This.GetName]§!'s race into §Y[Root.GetMainRaceName]§!. \n\n§Y[This.GetName]§! is now filled with §Y[Root.GetMainRaceName]§! instead of the previous owners."

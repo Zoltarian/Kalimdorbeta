@@ -1,0 +1,38 @@
+
+state={
+	id=867
+	name="STATE_867"
+	resources={
+		wheat=2
+		wood=6
+		ores=3
+	}
+
+	history={
+		owner = TWV
+		add_core_of = TWV
+		victory_points = {
+			9089 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		617.1.1 = {
+			
+			controller = STM
+			add_core_of = STM
+
+		}
+
+	}
+
+	provinces={
+		8642 9074 9082 9085 9087 9089 9092 9096 9097 9101 9103 9111 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

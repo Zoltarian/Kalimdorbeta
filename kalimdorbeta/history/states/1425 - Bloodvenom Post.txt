@@ -1,0 +1,36 @@
+
+state={
+	id=1425
+	name="STATE_1425"
+	resources = {
+		wheat=2
+		wood=4
+		ores=2
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			12926 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+
+		}
+
+	}
+
+	provinces={
+		357 12921 12926 12930 12935 12938 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,34 @@
+on_actions = {
+	on_startup = { #first war
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 591.12.31
+						has_start_date < 592.01.02
+					}
+				}
+				STO = {
+					country_event = { id = state_religion_setup.1 }
+					country_event = { id = state_race_setup.1 }
+				}
+			}
+		}
+	}
+	on_startup = { #second war
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_start_date > 595.12.31
+						has_start_date < 596.01.02
+					}
+				}
+				STO = {
+					country_event = { id = state_religion_setup.2 }
+					country_event = { id = state_race_setup.2 }
+				}
+			}
+		}
+	}
+}

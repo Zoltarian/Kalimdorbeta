@@ -1,0 +1,43 @@
+
+state={
+	id=393
+	name="STATE_393" #Nethergarde Ridge/ Nethergarde Keep
+	resources={
+		mana=6.000
+		ores=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			2921 20 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = BRC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = BRC
+
+		}
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+
+		}
+
+	}
+
+	provinces={
+		2907 2908 2913 2915 2918 2919 2921 2928 2929 
+	}
+	manpower=43500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,47 @@
+
+state={
+	id=391
+	name="STATE_391"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			2886 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			2886 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BBC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = BBC
+
+		}
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+
+		}
+
+	}
+
+	provinces={
+		934 2870 2874 2875 2880 2886 2889 2902 
+	}
+	manpower=31000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

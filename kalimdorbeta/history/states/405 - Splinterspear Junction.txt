@@ -1,0 +1,43 @@
+
+state={
+	id=405
+	name="STATE_405"
+	resources={
+		wood =6.000
+		mounts=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			2636 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+
+		}
+		add_core_of = BHC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+
+	}
+
+	provinces={
+		948 2636 2649 2654 2660
+	}
+	manpower=71750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

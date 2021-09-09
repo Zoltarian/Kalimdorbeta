@@ -1,0 +1,155 @@
+﻿division_template = {
+	name = "Neferset Guard"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Neferset Champion"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Neferset Overlord"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		paladin = { x = 1 y = 0 }
+		paladin = { x = 1 y = 1 }
+		paladin = { x = 1 y = 2 }
+		paladin = { x = 1 y = 3 }
+		paladin = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Neferset Guard"
+		location = 11841
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11841
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+
+	division = {
+		name = "Neferset Guard"
+		location = 11843
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11843
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11872
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11872
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11975
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11880
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11855
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Guard"
+		location = 11858
+		division_template = "Neferset Guard"
+		start_experience_factor = 0.2
+	}	
+
+	division = {
+		name = "Neferset Champion"
+		location = 11841
+		division_template = "Neferset Champion"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Champion"
+		location = 11843
+		division_template = "Neferset Champion"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Champion"
+		location = 11975
+		division_template = "Neferset Champion"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Neferset Champion"
+		location = 11872
+		division_template = "Neferset Champion"
+		start_experience_factor = 0.2
+	}	
+
+	division = {
+		name = "Neferset Overlord"
+		location = 11841
+		division_template = "Neferset Overlord"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Neferset Overlord"
+		location = 11872
+		division_template = "Neferset Overlord"
+		start_experience_factor = 0.3
+	}
+
+
+}

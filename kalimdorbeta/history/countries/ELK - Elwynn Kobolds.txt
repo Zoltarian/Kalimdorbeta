@@ -1,0 +1,107 @@
+﻿capital = 1175
+
+oob = "ELK_592"
+
+set_research_slots = 3
+
+add_ideas = {
+	tribe
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	kobold_primary_race
+
+	primary_trait_dig_tunnel_mine
+	primary_trait_you_no_take_candel
+	primary_trait_flee_scurry_run
+
+	primary_religion_pyromancy
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+
+	support_equipment_tech = 1
+
+
+	mount_taming_1 = 1
+
+
+	naval_transport_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Goldtooth"
+	desc = "POLITICS_GOLDTOOTH_DESC"
+	picture = "gfx/leaders/ELK/goldtooth.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Goldtooth"
+	desc = "POLITICS_GOLDTOOTH_DESC"
+	picture = "gfx/leaders/ELK/goldtooth.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Goldtooth"
+	desc = "POLITICS_GOLDTOOTH_DESC"
+	picture = "gfx/leaders/ELK/goldtooth.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Goldtooth"
+	picture = "gfx/leaders/ELK/goldtooth.dds"
+	traits = {  }
+	id = 21000
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Gug Fatcandle"
+	picture = "gfx/leaders/ELK/gug_fatcandle.dds"
+	traits = {  }
+	id = 21001
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

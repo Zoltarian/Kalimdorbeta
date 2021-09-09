@@ -1,0 +1,29 @@
+
+state={
+	id=1619
+	name="STATE_1619"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+			remove_core_of = DIC
+			
+		}
+
+	}
+
+	provinces={
+		6191 6211 7502 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

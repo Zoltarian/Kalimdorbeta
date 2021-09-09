@@ -1,0 +1,29 @@
+
+state={
+	id=290
+	name="STATE_290"
+	resources={
+		ores=20.000
+	}
+
+	history={
+		
+		victory_points = {
+			2743 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = SKU
+
+	}
+
+	provinces={
+		745 2737 2741 2743 2754 
+	}
+	manpower=19725
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

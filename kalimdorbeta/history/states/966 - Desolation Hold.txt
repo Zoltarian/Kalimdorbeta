@@ -1,0 +1,40 @@
+
+state={
+	id=966
+	name="STATE_966"
+	resources={
+		wheat=6
+		eggs=5
+		ores=4
+	}
+
+	history={
+		owner = FGH
+		add_core_of = FGH
+
+		victory_points = {
+			9663 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+
+		620.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+
+			set_state_name = "Desolation Hold"
+		}
+	}
+
+	provinces={
+		9663 9924 9925 9933 9935 9941 9943 9952 9954
+	}
+	manpower=26500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

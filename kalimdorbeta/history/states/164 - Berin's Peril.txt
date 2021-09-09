@@ -1,0 +1,35 @@
+
+state={
+	id=164
+	name="STATE_164"
+	resources={
+		ores=24.000
+		wood =16.000
+	}
+
+	history={
+		
+		victory_points = {
+			1982 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GIL
+
+		617.1.1 = {
+			
+			controller = DAL
+			add_core_of = DAL
+		}
+	}
+
+	provinces={
+		594 627 1798 1803 1982 2123 2127 2128 2134 2970 2971 2972 5235
+	}
+	manpower=6200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,86 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+BLT = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+BST = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+BTR = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+BWT = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+DDW = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+FWT = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+STP = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+TIM = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+THT = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+
+WNT = {
+	male = {
+		names = { "Graw" "Marosh" "Gren" "Tur" "Ran" "Ota"}
+		surnames = { "Blackpaw" "Brownfur" "Bloodclaw" "Whiteclaw" "Blackfur" "Brownpaw" }
+		callsigns = { }
+	}
+}
+

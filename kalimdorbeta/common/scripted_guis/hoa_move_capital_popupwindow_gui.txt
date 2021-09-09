@@ -1,0 +1,85 @@
+scripted_gui = {
+	move_capital_message_bg = {
+		context_type = player_context
+		window_name = "move_capital_message_bg"
+
+		visible = {
+			check_variable = { move_capital_check_popup^num > 0 }
+		}
+
+		dynamic_lists = {
+			move_capital_check_popup_window_list = {
+				array = move_capital_check_popup
+				change_scope = yes
+				entry_container = move_capital_check_popup_bg_window
+			}
+		}
+
+		properties = {
+			sender_flag = {
+				image = "[This.Owner.GetFlag]"
+			}
+			receiver_flag = {
+				image = "[ROOT.GetFlag]"
+			}
+		}
+
+		effects = {
+			move_capital_check_cancel_button_click = {
+				remove_from_array = {
+					array = ROOT.move_capital_check_popup
+					index = i
+				}
+			}
+			move_capital_check_ok_button_click = {
+				remove_from_array = {
+					array = ROOT.move_capital_check_popup
+					index = i
+				}
+
+				ROOT = {
+					set_temp_variable = { cost = var:move_capital_cost }
+					multiply_temp_variable = { cost = -1 }
+					add_political_power = cost
+					set_capital = move_capital_state
+					clear_variable = move_capital_state
+				}
+
+				for_each_scope_loop = {
+					array = ROOT.move_capital_check_popup
+					if = {
+						limit = {
+							check_variable = { ROOT.political_power < move_capital_cost }
+						}
+						add_to_temp_array = { remove_popup = THIS }
+					}
+				}
+
+				for_each_scope_loop = {
+					array = remove_popup
+					remove_from_array = { ROOT.move_capital_check_popup = THIS }
+				}
+			}
+		}
+
+		triggers = {
+			move_capital_check_cancel_button_click_enabled = {
+				check_variable = { ROOT.move_capital_check_popup^num > 0 }
+			}
+			move_capital_check_ok_button_click_enabled = {
+				check_variable = { ROOT.move_capital_check_popup^num > 0 }
+			}
+		}
+
+		ai_enabled = {
+			always = no
+		}
+
+		ai_check = {
+			always = no
+		}
+
+		#ai_test_interval = 24
+		#ai_test_variance = 0.2
+	}
+}

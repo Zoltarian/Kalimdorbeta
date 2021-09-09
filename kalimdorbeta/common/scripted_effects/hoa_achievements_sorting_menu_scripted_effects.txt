@@ -1,0 +1,209 @@
+sort_archievements_hide_unavailable = {
+	# Achievements:
+	clear_array = custom_achievements_array_visible
+	for_each_loop = {
+		array = global.custom_achievements_array
+		value = v
+		if = {
+			limit = {
+				meta_trigger = {
+					text = {
+						available_conditions_met_for_achievement_[ENTRY] = yes
+					}
+					ENTRY = "[?v]"
+				}
+			}
+			add_to_array = { custom_achievements_array_visible = v }
+		}
+	}
+	sort_achievements_from_difficulty_easy_to_impossible = yes
+}
+sort_archievements_show_unavailable = {
+	# Achievements:
+	set_all_achievements_in_visible_array = yes
+}
+
+sort_archievements_hide_completed = {
+	# Achievements:
+	for_each_loop = {
+		array = global.custom_achievements_array
+		value = v
+		if = {
+			limit = {
+				meta_trigger = {
+					text = {
+						has_country_flag = unlocked_achievements_[ENTRY]
+					}
+					ENTRY = "[?v]"
+				}
+				is_in_array = { custom_achievements_array_visible = v }
+			}
+			remove_from_array = { custom_achievements_array_visible = v }
+		}
+	}
+}
+sort_archievements_show_completed = {
+	# Achievements:
+	for_each_loop = {
+		array = global.custom_achievements_array
+		value = v
+		if = {
+			limit = {
+				meta_trigger = {
+					text = {
+						has_country_flag = unlocked_achievements_[ENTRY]
+					}
+					ENTRY = "[?v]"
+				}
+				NOT = { is_in_array = { custom_achievements_array_visible = v } }
+			}
+			add_to_array = { custom_achievements_array_visible = v }
+			if = {
+				limit = {
+					is_in_array = { custom_achievements_array_hidden_manually = v }
+				}
+				remove_from_array = { custom_achievements_array_hidden_manually = v }
+			}
+		}
+	}
+}
+
+sort_archievements_completed_first = {
+	# Achievements:
+	for_each_loop = {
+		array = global.custom_achievements_array
+		value = v
+		if = {
+			limit = {
+				meta_trigger = {
+					text = {
+						has_country_flag = unlocked_achievements_[ENTRY]
+					}
+					ENTRY = "[?v]"
+				}
+			}
+			if = {
+				limit = {
+					is_in_array = { custom_achievements_array_visible = v }
+				}
+				remove_from_array = { custom_achievements_array_visible = v }
+			}
+			add_to_array = { array = custom_achievements_array_visible value = v index = 0 }
+			if = {
+				limit = {
+					is_in_array = { custom_achievements_array_hidden_manually = v }
+				}
+				remove_from_array = { custom_achievements_array_hidden_manually = v }
+			}
+		}
+	}
+}
+
+sort_archievements_completed_last = {
+	sort_archievements_hide_completed = yes
+	sort_archievements_show_completed = yes
+}
+
+sort_achievements_from_difficulty_easy_to_impossible = {
+	set_country_flag = sorted_achievements_after_difficulty
+	clear_temp_array = achievements_array_temp
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_easy = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_normal = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_hard = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_impossible = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	clear_array = custom_achievements_array_visible
+	for_each_loop = {
+		array = achievements_array_temp
+		value = v
+		add_to_array = { custom_achievements_array_visible = v }
+	}
+	clear_temp_array = achievements_array_temp
+}
+
+sort_achievements_from_difficulty_impossible_to_easy = {
+	clr_country_flag = sorted_achievements_after_difficulty
+	clear_temp_array = achievements_array_temp
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_impossible = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_hard = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_normal = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	for_each_loop = {
+		array = custom_achievements_array_visible
+		value = v
+		if = {
+			limit = {
+				achievement_difficulty_is_easy = yes
+			}
+			add_to_temp_array = { achievements_array_temp = v }
+		}
+	}
+	clear_array = custom_achievements_array_visible
+	for_each_loop = {
+		array = achievements_array_temp
+		value = v
+		add_to_array = { custom_achievements_array_visible = v }
+	}
+	clear_temp_array = achievements_array_temp
+}

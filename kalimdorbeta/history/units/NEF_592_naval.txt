@@ -1,0 +1,68 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Neferset Fishing Fleet"			
+		naval_base = 110
+		task_force = {
+			name = "Neferset Fishing Fleet"			
+			location = 110
+			
+			ship = {
+				name = "1st Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "2nd Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "3rd Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "4th Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "5th Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "6th Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "7th Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "8th Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+
+			ship = {
+				name = "9th Neferset Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = NEF } }
+			}
+			
+		}
+	}
+
+}

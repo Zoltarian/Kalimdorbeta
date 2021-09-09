@@ -1,0 +1,35 @@
+
+state={
+	id=1343
+	name="STATE_1343"
+	resources = {
+		eggs=8
+		mounts=6
+		wheat=16
+		wood=6
+		ores=4
+	}
+
+	history={
+		owner = KAL
+		victory_points = {
+			12407 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = KAL
+
+	}
+
+	provinces={
+		281 12345 12348 12354 12355 12368 12376 12377 12381 12385 12386 12396 12399 12400 12403 12407 12409 12416 12419 12425 12429 12433 12442 12645 13207 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

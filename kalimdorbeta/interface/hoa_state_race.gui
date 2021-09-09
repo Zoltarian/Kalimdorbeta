@@ -1,0 +1,1181 @@
+guiTypes = {
+	containerWindowType = {
+		name = "state_race_container"
+		position = {x=15 y=159}
+		size = { width=780 height=496 }
+
+		iconType = { #0
+			name = "state_race_uninhabited"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_irreligious
+			pdx_tooltip = "HOA_UNINHABITED_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #1
+			name = "state_race_ancients"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ancients
+			pdx_tooltip = "HOA_ANCIENTS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #2
+			name = "state_race_ankoan"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ankoan
+			pdx_tooltip = "HOA_ANKOAN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #3
+			name = "state_race_arakkoa"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_arakkoa
+			pdx_tooltip = "HOA_ARAKKOA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #4
+			name = "state_race_black_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_black_dragon
+			pdx_tooltip = "HOA_BLACK_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #5
+			name = "state_race_blood_elf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_blood_elf
+			pdx_tooltip = "HOA_BLOOD_ELF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #6
+			name = "state_race_blue_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_blue_dragon
+			pdx_tooltip = "HOA_BLUE_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #7
+			name = "state_race_bog_beasts"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_bog_beasts
+			pdx_tooltip = "HOA_BOG_BEASTS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #8
+			name = "state_race_botani"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_botani
+			pdx_tooltip = "HOA_BOTANI_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #9
+			name = "state_race_broken"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_broken
+			pdx_tooltip = "HOA_BROKEN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #10
+			name = "state_race_bronze_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_bronze_dragon
+			pdx_tooltip = "HOA_BRONZE_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #11
+			name = "state_race_centaur"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_centaur
+			pdx_tooltip = "HOA_CENTAUR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #12
+			name = "state_race_chromatic_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_chromatic_dragon
+			pdx_tooltip = "HOA_CHROMATIC_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #13
+			name = "state_race_colossus"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_colossus
+			pdx_tooltip = "HOA_COLOSSUS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #14
+			name = "state_race_crystal_nymphs"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_crystal_nymph
+			pdx_tooltip = "HOA_CRYSTAL_NYMPHS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #15
+			name = "state_race_crystal_satyr"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_crystal_satyr
+			pdx_tooltip = "HOA_CRYSTAL_SATYR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #16
+			name = "state_race_dark_iron_dwarf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_dark_iron_dwarf
+			pdx_tooltip = "HOA_DARK_IRON_DWARF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #17
+			name = "state_race_dark_troll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_dark_troll
+			pdx_tooltip = "HOA_DARK_TROLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #18
+			name = "state_race_demons"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_demons
+			pdx_tooltip = "HOA_DEMONS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #19
+			name = "state_race_draenei"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_draenei
+			pdx_tooltip = "HOA_DRAENEI_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #20
+			name = "state_race_drogbar"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_drogbar
+			pdx_tooltip = "HOA_DROGBAR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #21
+			name = "state_race_drust"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_drust
+			pdx_tooltip = "HOA_DRUST_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #22
+			name = "state_race_dryads"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_dryad
+			pdx_tooltip = "HOA_DRYADS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #23
+			name = "state_race_dwarf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_dwarf
+			pdx_tooltip = "HOA_DWARF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #24
+			name = "state_race_earth_elemental"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_earth_elementals
+			pdx_tooltip = "HOA_EARTH_ELEMENTAL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #25
+			name = "state_race_earthen"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_earthen
+			pdx_tooltip = "HOA_EARTHEN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #26
+			name = "state_race_ethereal"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ethereals
+			pdx_tooltip = "HOA_ETHEREAL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #27
+			name = "state_race_ettin"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ettins
+			pdx_tooltip = "HOA_ETTIN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #28
+			name = "state_race_faceless_one"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_faceless_ones
+			pdx_tooltip = "HOA_FACELESS_ONES_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #29
+			name = "state_race_faerie_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_faerie_dragon
+			pdx_tooltip = "HOA_FAERIE_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #30
+			name = "state_race_fal_dorei"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_fal_dorei
+			pdx_tooltip = "HOA_FAL_DOREI_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #31
+			name = "state_race_fel_orc"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_fel_orc
+			pdx_tooltip = "HOA_FEL_ORC_STATE_VIEW_TOOLTIP"
+		}
+
+
+		iconType = { #32
+			name = "state_race_fel_blood_elves"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_felblood_elf
+			pdx_tooltip = "HOA_FEL_BLOOD_ELVES_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #33
+			name = "state_race_felborne"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_felborne
+			pdx_tooltip = "HOA_FELBORNE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #34
+			name = "state_race_fire_elemental"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_fire_elemental
+			pdx_tooltip = "HOA_FIRE_ELEMENTAL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #35
+			name = "state_race_aqir"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_aqir
+			pdx_tooltip = "HOA_AQIR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #36
+			name = "state_race_twilight_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_twilight_dragon
+			pdx_tooltip = "HOA_TWILIGHT_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #37
+			name = "state_race_frost_vrykul"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_frost_vrykul
+			pdx_tooltip = "HOA_FROST_VRYKUL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #38
+			name = "state_race_frostborn"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_frostborn
+			pdx_tooltip = "HOA_FROSTBORN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #39
+			name = "state_race_fungal_giants"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_fungal_giant
+			pdx_tooltip = "HOA_FUNGAL_GIANTS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #40
+			name = "state_race_fungal_monster"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_fungal_monster
+			pdx_tooltip = "HOA_FUNGAL_MONSTER_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #41
+			name = "state_race_fungarians"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_fungarians
+			pdx_tooltip = "HOA_FUNGARIANS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #42
+			name = "state_race_furbolg"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_furbolg
+			pdx_tooltip = "HOA_FURBOLG_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #43
+			name = "state_race_ghost"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ghost
+			pdx_tooltip = "HOA_GHOST_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #44
+			name = "state_race_gilgoblin"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_gilgoblin
+			pdx_tooltip = "HOA_GILGOBLIN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #45
+			name = "state_race_gnoll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_gnoll
+			pdx_tooltip = "HOA_GNOLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #46
+			name = "state_race_gnome"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_gnomes
+			pdx_tooltip = "HOA_GNOME_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #47
+			name = "state_race_goblin"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_goblin
+			pdx_tooltip = "HOA_GOBLIN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #48
+			name = "state_race_goren"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_goren
+			pdx_tooltip = "HOA_GOREN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #49
+			name = "state_race_gorlocs"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_gorloc
+			pdx_tooltip = "HOA_GORLOCS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #50
+			name = "state_race_green_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_green_dragon
+			pdx_tooltip = "HOA_GREEN_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #51
+			name = "state_race_grell"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_grell
+			pdx_tooltip = "HOA_GRELL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #52
+			name = "state_race_gronn"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_gronn
+			pdx_tooltip = "HOA_GRONN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #53
+			name = "state_race_grummle"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_grummle
+			pdx_tooltip = "HOA_GRUMMLE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #54
+			name = "state_race_harpy"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_harpy
+			pdx_tooltip = "HOA_HARPY_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #55
+			name = "state_race_high_elf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_high_elves
+			pdx_tooltip = "HOA_HIGH_ELF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #56
+			name = "state_race_highmountain_tauren"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_highmountain_tauren
+			pdx_tooltip = "HOA_HIGHMOUNTAIN_TAUREN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #57
+			name = "state_race_highborne"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_highborne
+			pdx_tooltip = "HOA_HIGHBORNE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #58
+			name = "state_race_hobgoblin"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_hobgoblin
+			pdx_tooltip = "HOA_HOBGOBLIN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #59
+			name = "state_race_hozen"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_hozen
+			pdx_tooltip = "HOA_HOZEN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #60
+			name = "state_race_human"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_human
+			pdx_tooltip = "HOA_HUMAN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #61
+			name = "state_race_ice_giant"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ice_giant
+			pdx_tooltip = "HOA_ICE_GIANT_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #62
+			name = "state_race_ice_troll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ice_troll
+			pdx_tooltip = "HOA_ICE_TROLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #63
+			name = "state_race_infinite_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_infinite_dragon
+			pdx_tooltip = "HOA_INFINITE_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #64
+			name = "state_race_iron_dwarf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_iron_dwarf
+			pdx_tooltip = "HOA_IRON_DWARF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #65
+			name = "state_race_iron_giant"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_iron_giant
+			pdx_tooltip = "HOA_IRON_GIANT_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #66
+			name = "state_race_iron_vrykul"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_iron_vrykul
+			pdx_tooltip = "HOA_IRON_VRYKUL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #67
+			name = "state_race_jinyu"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_jinyu
+			pdx_tooltip = "HOA_JINYU_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #68
+			name = "state_race_jungle_troll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_jungle_troll
+			pdx_tooltip = "HOA_JUNGLE_TROLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #69
+			name = "state_race_junker_gnome"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_junker_gnome
+			pdx_tooltip = "HOA_JUNKER_GNOME_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #70
+			name = "state_race_kobold"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_kobold
+			pdx_tooltip = "HOA_KOBOLD_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #71
+			name = "state_race_kvaldir"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_kvaldir
+			pdx_tooltip = "HOA_KVALDIR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #72
+			name = "state_race_lashers"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_lasher
+			pdx_tooltip = "HOA_LASHERS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #73
+			name = "state_race_leper_gnome"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_leper_gnome
+			pdx_tooltip = "HOA_LEPER_GNOME_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #74
+			name = "state_race_light_forged_draenei"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_light_forged_draenei
+			pdx_tooltip = "HOA_LIGHT_FORGED_DRAENEI_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #75
+			name = "state_race_lobstrok"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_lobstrok
+			pdx_tooltip = "HOA_LOBSTROK_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #76
+			name = "state_race_lost_ones"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_lost_ones
+			pdx_tooltip = "HOA_LOST_ONES_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #77
+			name = "state_race_maghar_orc"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_maghar_orc
+			pdx_tooltip = "HOA_MAGHAR_ORC_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #78
+			name = "state_race_magnataur"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_magnataur
+			pdx_tooltip = "HOA_MAGNATAUR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #79
+			name = "state_race_makrura"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_makrura
+			pdx_tooltip = "HOA_MAKRURA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #80
+			name = "state_race_mana_surge"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_mana_surge
+			pdx_tooltip = "HOA_MANA_SURGE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #81
+			name = "state_race_mantid"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_mantid
+			pdx_tooltip = "HOA_MANTID_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #82
+			name = "state_race_mecha_gnome"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_mecha_gnome
+			pdx_tooltip = "HOA_MECHA_GNOME_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #83
+			name = "state_race_mist_lurker"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_mist_lurker
+			pdx_tooltip = "HOA_MIST_LURKER_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #84
+			name = "state_race_mogu"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_mogu
+			pdx_tooltip = "HOA_MOGU_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #85
+			name = "state_race_mok_nathal"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_mok_nathal
+			pdx_tooltip = "HOA_MOK_NATHAL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #86
+			name = "state_race_mountain_giant"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_mountain_giant
+			pdx_tooltip = "HOA_MOUNTAIN_GIANT_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #87
+			name = "state_race_murloc"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_murloc
+			pdx_tooltip = "HOA_MURLOC_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #88
+			name = "state_race_naga"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_naga
+			pdx_tooltip = "HOA_NAGA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #89
+			name = "state_race_nerubians"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_nerubian
+			pdx_tooltip = "HOA_NERUBIANS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #90
+			name = "state_race_netherwing_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_netherwing_dragon
+			pdx_tooltip = "HOA_NETHERWING_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #91
+			name = "state_race_night_elf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_night_elf
+			pdx_tooltip = "HOA_NIGHT_ELF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #92
+			name = "state_race_nightborne"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_nightborne
+			pdx_tooltip = "HOA_NIGHTBORNE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #93
+			name = "state_race_nightfallen"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_nightfallen
+			pdx_tooltip = "HOA_NIGHTFALLEN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #94
+			name = "state_race_nightmare_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_nightmare_dragon
+			pdx_tooltip = "HOA_NIGHTMARE_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #95
+			name = "state_race_ogre"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ogre
+			pdx_tooltip = "HOA_OGRE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #96
+			name = "state_race_orc"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_orc
+			pdx_tooltip = "HOA_ORC_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #97
+			name = "state_race_pale_orc"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_pale_orc
+			pdx_tooltip = "HOA_PALE_ORC_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #98
+			name = "state_race_pandaren"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_pandaren
+			pdx_tooltip = "HOA_PANDAREN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #99
+			name = "state_race_pygmies"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_pygmy
+			pdx_tooltip = "HOA_PYGMIES_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #100
+			name = "state_race_qiraji"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_qiraji
+			pdx_tooltip = "HOA_QIRAJI_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #101
+			name = "state_race_quilboar"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_quilboar
+			pdx_tooltip = "HOA_QUILBOAR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #102
+			name = "state_race_ranishu"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ranishu
+			pdx_tooltip = "HOA_RANISHU_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #103
+			name = "state_race_red_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_red_dragon
+			pdx_tooltip = "HOA_RED_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #104
+			name = "state_race_rock_flayer"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_rock_flayer
+			pdx_tooltip = "HOA_ROCK_FLAYER_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #105
+			name = "state_race_saberon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_saberon
+			pdx_tooltip = "HOA_SABERON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #106
+			name = "state_race_sanlayn"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sanlayn
+			pdx_tooltip = "HOA_SANLAYN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #107
+			name = "state_race_sand_gnome"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sand_gnome
+			pdx_tooltip = "HOA_SAND_GNOME_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #108
+			name = "state_race_sand_troll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sand_troll
+			pdx_tooltip = "HOA_SAND_TROLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #109
+			name = "state_race_satyr"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_satyr
+			pdx_tooltip = "HOA_SATYR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #110
+			name = "state_race_sea_giants"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sea_giant
+			pdx_tooltip = "HOA_SEA_GIANTS_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #111
+			name = "state_race_sethrak"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sethrak
+			pdx_tooltip = "HOA_SETHRAK_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #112
+			name = "state_race_sha"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sha
+			pdx_tooltip = "HOA_SHA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #113
+			name = "state_race_silithid"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_silithid
+			pdx_tooltip = "HOA_SILITHID_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #114
+			name = "state_race_siren"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_siren
+			pdx_tooltip = "HOA_SIREN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #115
+			name = "state_race_snobold"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_snobold
+			pdx_tooltip = "HOA_SNOBOLD_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #116
+			name = "state_race_sporeling"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sporeling
+			pdx_tooltip = "HOA_SPORELING_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #117
+			name = "state_race_sprite"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_sprite
+			pdx_tooltip = "HOA_SPRITE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #118
+			name = "state_race_stone_giant"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_stone_giant
+			pdx_tooltip = "HOA_STONE_GIANT_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #119
+			name = "state_race_stone_trogg"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_stone_trogg
+			pdx_tooltip = "HOA_STONE_TROGG_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #120
+			name = "state_race_storm_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_storm_dragon
+			pdx_tooltip = "HOA_STORM_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #121
+			name = "state_race_storm_giant"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_storm_giant
+			pdx_tooltip = "HOA_STORM_GIANT_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #122
+			name = "state_race_taunka"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_taunka
+			pdx_tooltip = "HOA_TAUNKA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #123
+			name = "state_race_tauren"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_tauren
+			pdx_tooltip = "HOA_TAUREN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #124
+			name = "state_race_titan_watcher"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_titan_watcher
+			pdx_tooltip = "HOA_TITAN_WATCHER_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #125
+			name = "state_race_tolvir"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_tolvir
+			pdx_tooltip = "HOA_TOLVIR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #126
+			name = "state_race_tortollan"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_tortollan
+			pdx_tooltip = "HOA_TORTOLLAN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #127
+			name = "state_race_trogg"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_trogg
+			pdx_tooltip = "HOA_TROGG_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #128
+			name = "state_race_tuskarr"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_tuskarr
+			pdx_tooltip = "HOA_TUSKARR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #129
+			name = "state_race_undead"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_undead
+			pdx_tooltip = "HOA_UNDEAD_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #130
+			name = "state_race_valarjar"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_valarjar
+			pdx_tooltip = "HOA_VALARJAR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #131
+			name = "state_race_valkyr"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_valkyr
+			pdx_tooltip = "HOA_VALKYR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #132
+			name = "state_race_vargul"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_vargul
+			pdx_tooltip = "HOA_VARGUL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #133
+			name = "state_race_virmen"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_virmen
+			pdx_tooltip = "HOA_VIRMEN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #134
+			name = "state_race_void_elf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_void_elf
+			pdx_tooltip = "HOA_VOID_ELF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #135
+			name = "state_race_void_walker"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_void_walker
+			pdx_tooltip = "HOA_VOID_WALKER_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #136
+			name = "state_race_vrykul"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_vrykul
+			pdx_tooltip = "HOA_VRYKUL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #137
+			name = "state_race_vulpera"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_vulpera
+			pdx_tooltip = "HOA_VULPERA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #138
+			name = "state_race_water_elemental"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_water_elemental
+			pdx_tooltip = "HOA_WATER_ELEMENTAL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #139
+			name = "state_race_wendigo"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_wendigo
+			pdx_tooltip = "HOA_WENDIGO_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #140
+			name = "state_race_wildkin"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_wildkin
+			pdx_tooltip = "HOA_WILDKIN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #141
+			name = "state_race_wind_elemental"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_wind_elemental
+			pdx_tooltip = "HOA_WIND_ELEMENTAL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #142
+			name = "state_race_withered"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_withered
+			pdx_tooltip = "HOA_WITHERED_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #143
+			name = "state_race_wolvar"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_wolvar
+			pdx_tooltip = "HOA_WOLVAR_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #144
+			name = "state_race_worgen"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_worgen
+			pdx_tooltip = "HOA_WORGEN_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #145
+			name = "state_race_wretched_elf"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_wretched
+			pdx_tooltip = "HOA_WRETCHED_ELF_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #146
+			name = "state_race_yaungol"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_yaungol
+			pdx_tooltip = "HOA_YUANGOL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #147
+			name = "state_race_yeti"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_yeti
+			pdx_tooltip = "HOA_YETI_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #148
+			name = "state_race_zandalari_troll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_zandalari_troll
+			pdx_tooltip = "HOA_ZANDALARI_TROLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #149
+			name = "state_race_anubisath"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_anubisath
+			pdx_tooltip = "HOA_ANUBISATH_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #150
+			name = "state_race_frost_giant"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_frost_giant
+			pdx_tooltip = "HOA_FROST_GIANT_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #151
+			name = "state_race_blood_troll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_blood_troll
+			pdx_tooltip = "HOA_BLOOD_TROLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #152
+			name = "state_race_gorilla"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_gorilla
+			pdx_tooltip = "HOA_GORILLA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #153
+			name = "state_race_forest_troll"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_forest_troll
+			pdx_tooltip = "HOA_FOREST_TROLL_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #154
+			name = "state_race_frost_nymph"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_frost_nymph
+			pdx_tooltip = "HOA_FROST_NYMPH_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #155
+			name = "state_race_ogron"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_ogron
+			pdx_tooltip = "HOA_OGRON_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #156
+			name = "state_race_high_arrakoa"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_high_arrakoa
+			pdx_tooltip = "HOA_HIGH_ARRAKOA_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #157
+			name = "state_race_jade_statue"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_jade_statue
+			pdx_tooltip = "HOA_JADE_STATUE_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #158
+			name = "state_race_saurok"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_saurok
+			pdx_tooltip = "HOA_SAUROK_STATE_VIEW_TOOLTIP"
+		}
+
+		iconType = { #159
+			name = "state_race_stone_dragon"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_race_stone_dragon
+			pdx_tooltip = "HOA_STONE_DRAGON_STATE_VIEW_TOOLTIP"
+		}
+
+	}
+
+	containerWindowType = {
+		name = "race_conversion_button_container"
+		position = { x = 90 y = 147 }
+		size = { width = 780 height = 496 }
+		clipping = yes
+
+		buttonType = {
+			name = "race_conversion_button"
+			spriteType = "GFX_race_convert_state_convert_button"
+			frame = 1
+			position = { x = 62 y = 18 }
+			font = "hoi_16mbs"
+			format = center
+			text = "RACE"
+			pdx_tooltip = "CONVERT_STATE_RACE_TT"
+		}
+	}
+
+	containerWindowType = {
+		name = "convert_race_progress"
+		position = { x = 0 y = 0 }
+		size = { width = 780 height = 496 }
+		scale = 1
+
+		buttonType ={
+			name ="race_conversion_cancel"
+			spriteType = "GFX_closebutton_16"
+			pdx_tooltip = "CONVERSION_CANCEL_INFO"
+			position = { x = 156 y = 200 }
+		}
+		iconType = {
+			name = "race_conversion_bar_bg"
+			spriteType = "GFX_race_convert_progress_bar_bg"
+			position = { x = 173 y = 200 }
+			pdx_tooltip = "RACE_CONVERSION_INFO"
+		}
+		containerWindowType = {
+			name = "race_conversion_progress_bar"
+			position = {x=185 y=185}
+			size = { width=88 height=17 }
+			orientation = upper_left
+			clipping = yes
+
+			iconType = {
+				name = "race_conversion_bar"
+				spriteType = "GFX_race_convert_progress_bar"
+				position = { x=-1 y=-17 }
+				alwaystransparent = yes
+			}
+		}
+	}
+}

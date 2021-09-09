@@ -1,0 +1,37 @@
+
+state={
+	id=1158
+	name="STATE_1158"
+	resources = {
+		wood=8
+		ores=4
+	}
+
+	history={
+		owner = WSS
+		add_core_of = WSS
+		victory_points = {
+			11393 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		617.1.1 = {
+			
+			controller = GOR
+			add_core_of = GOR
+
+		}
+
+	}
+
+	provinces={
+		5620 5628 11370 11384 11386 11393 11398 11403 11408 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

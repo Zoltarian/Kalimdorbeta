@@ -1,0 +1,39 @@
+
+state={
+	id=366
+	name="STATE_366"
+
+	impassable = yes
+	history={
+		
+		add_core_of = STO
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		596.1.1 = {
+			
+			controller = THC
+			add_core_of = THC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = THC
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+		}
+	}
+
+	provinces={
+		5447
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

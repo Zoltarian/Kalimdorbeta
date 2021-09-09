@@ -1,0 +1,20 @@
+state={
+	id=2006
+	name="STATE_2006"
+	impassable = yes
+
+	history={
+		owner = WNT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = WNT
+	}
+
+	provinces={
+		332
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

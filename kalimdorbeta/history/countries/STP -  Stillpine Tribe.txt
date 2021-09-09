@@ -1,0 +1,143 @@
+﻿capital = 1472
+
+oob = "STP_592"
+
+set_naval_oob = "STP_592_naval"
+
+set_convoys = 15
+
+set_research_slots = 3
+
+add_ideas = {
+	tribe
+	limited_conscription
+	peacetime_economy
+	limited_exports
+
+	furbolg_primary_race
+
+	primary_trait_children_of_ursoc
+	primary_trait_blessing_of_elune
+
+	primary_religion_disciples_of_ursoc
+}
+
+set_technology = {
+
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	naval_transport_1 = 1
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "High Chief Stillpine"
+	desc = "POLITICS_HIGH_CHIEF_STILLPINE_DESC"
+	picture = "high_chief_stillpine.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "High Chief Stillpine"
+	desc = "POLITICS_HIGH_CHIEF_STILLPINE_DESC"
+	picture = "high_chief_stillpine.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "High Chief Stillpine"
+	desc = "POLITICS_HIGH_CHIEF_STILLPINE_DESC"
+	picture = "high_chief_stillpine.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "High Chief Stillpine"
+	desc = "POLITICS_HIGH_CHIEF_STILLPINE_DESC"
+	picture = "high_chief_stillpine.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "High Chief Stillpine"
+	desc = "POLITICS_HIGH_CHIEF_STILLPINE_DESC"
+	picture = "high_chief_stillpine.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "High Chief Stillpine"
+	desc = "POLITICS_HIGH_CHIEF_STILLPINE_DESC"
+	picture = "high_chief_stillpine.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "High Chief Stillpine"
+	picture = "high_chief_stillpine.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+
+}

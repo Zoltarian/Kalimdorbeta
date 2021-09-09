@@ -1,0 +1,42 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		mana=128.000
+	}
+
+	history={
+		
+		add_core_of = BTG
+
+		victory_points = {
+			2854 30
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+		}
+	}
+
+	provinces={
+		931 2847 2849 2851 2854 2856 2859 2879 5333 5337 5338 5341 5349
+	}
+	manpower=46500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

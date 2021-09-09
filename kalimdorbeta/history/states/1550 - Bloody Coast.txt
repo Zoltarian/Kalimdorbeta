@@ -1,0 +1,36 @@
+
+state={
+	id=1550
+	name="STATE_1550"
+	resources={
+		wheat=5
+		oil=2
+		wood=3
+	}
+
+	history={
+		owner = BLS
+		victory_points = {
+			3399 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			3399 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = BLS
+
+	}
+
+	provinces={
+		3399 11537 11540 
+	}
+	manpower=14500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

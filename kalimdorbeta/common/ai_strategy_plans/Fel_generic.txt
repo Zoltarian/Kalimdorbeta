@@ -1,0 +1,32 @@
+fel_generic_historical = {
+	name = "Fel generic plan"
+	desc = "Default focus tree fel plan"
+
+	enable = {
+		is_historical_focus_on = yes
+		fel > 0.5
+		NOT = {
+			has_idea = orc_primary_race
+			has_idea = ogre_primary_race
+			has_idea = pale_orc_primary_race
+			has_idea = forest_troll_primary_race
+		}
+	}
+
+	ai_national_focuses = {
+		serving_higher_powers
+		promise_of_power
+	}
+
+	focus_factors = {
+		pick_a_side = 0
+		stay_neutral = 0
+	}
+
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

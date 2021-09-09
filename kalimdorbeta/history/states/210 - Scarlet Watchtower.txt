@@ -1,0 +1,32 @@
+
+state={
+	id=210
+	name="STATE_210"  # Lordamere Watchtower/Scarlet Watchtower
+
+	history={
+		
+		victory_points = {
+			4143 5 
+		}
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		2911 3339 4095 4103 4127 4143 4144 4152 4156 4168 4179 4180 4184 4192 5192 
+	}
+	manpower=14300
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

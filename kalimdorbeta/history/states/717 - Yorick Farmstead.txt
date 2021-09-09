@@ -1,0 +1,34 @@
+
+state={
+	id=717
+	name="STATE_717" #Yorick Farmstead/ Forsaken rear Guard
+	resources={
+		wood =20.000
+	}
+
+	history={
+		
+		add_core_of = LOR
+
+		victory_points = {
+			3364 10
+		}
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		617.1.1 = {
+			owner = MRP
+			controller = MRP
+			add_core_of = MRP
+		}
+	}
+
+	provinces={
+		139 3347 3355 3360 3364 3367 3372 3373 3375
+	}
+	manpower=9400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

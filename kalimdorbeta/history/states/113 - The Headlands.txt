@@ -1,0 +1,32 @@
+
+state={
+	id=113
+	name="STATE_113"
+
+	history={
+		
+		add_core_of = ALT
+
+		victory_points = {
+			5172 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+		}
+	}
+
+	provinces={
+		1818 1821 1824 1828 1926 5171 5172
+	}
+	manpower=6025
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

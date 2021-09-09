@@ -1,0 +1,36 @@
+
+state={
+	id=660
+	name="STATE_660"
+	resources={
+		oil=18.000
+	}
+
+	history={
+		
+		add_core_of = TLC
+		victory_points = {
+			9827 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TLC
+
+		}
+
+	}
+
+	provinces={
+		1939 6858 9825 9826 9827 9828 9829 9830 9831 9832 
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

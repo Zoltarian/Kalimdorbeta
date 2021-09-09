@@ -1,0 +1,139 @@
+equipments = {
+	
+	destroyer_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		interface_category = interface_category_screen_ships
+		alias = destroyer
+		priority = 2000
+
+		upgrades = { }
+		module_slots = { }
+		module_count_limit = { }
+		default_modules = { }
+
+		sub_detection = 5
+		lg_attack = 1
+		torpedo_attack = 18
+		anti_air_attack = 1.6
+		naval_range = 1500
+		reliability = 0.64
+
+		surface_detection = 20
+		surface_visibility = 10
+		lg_armor_piercing = 1
+		sub_attack = 9
+	
+		naval_speed = 34.8
+		max_strength = 25
+
+		build_cost_ic = 932.75
+
+		manpower = 12 #base game would be 12.5 rounded down to 12 for simplicty
+
+		resources = {
+			wood = 2
+			ores = 1
+			gunpowder =1
+			oil = 1
+		}
+	}
+	
+	destroyer_equipment_1 = {
+		year = 584
+
+		archetype = destroyer_equipment
+		priority = 2000
+		module_slots = inherit
+
+	}
+	
+	destroyer_equipment_2 = {
+		year = 592
+
+		archetype = destroyer_equipment
+		priority = 2000
+		parent = destroyer_equipment_1
+		module_slots = inherit
+
+		sub_detection = 10
+		lg_attack = 1.5
+		torpedo_attack = 27
+		anti_air_attack = 2.2
+		naval_range = 1800
+		reliability = 0.68
+
+		surface_detection = 25
+		surface_visibility = 10
+		lg_armor_piercing = 2
+		sub_attack = 13
+	
+		naval_speed = 38.1
+		max_strength = 40
+
+		build_cost_ic = 1189
+
+		manpower = 16 #base game would be 16.25 rounded down to 16 for simplicty
+
+	}
+	
+	destroyer_equipment_3 = {
+		year = 595
+
+		archetype = destroyer_equipment
+		priority = 2000
+		parent = destroyer_equipment_2
+		module_slots = inherit
+
+		sub_detection = 10
+		lg_attack = 2.1
+		torpedo_attack = 36
+		anti_air_attack = 3.3
+		naval_range = 2000
+		reliability = 0.72
+
+		surface_detection = 40
+		surface_visibility = 10
+		lg_armor_piercing = 2.5
+		sub_attack = 17
+	
+		naval_speed = 41.1
+		max_strength = 50
+
+		build_cost_ic = 1342.75
+
+		manpower = 20
+
+	}
+	
+	destroyer_equipment_4 = {
+		year = 601
+
+		archetype = destroyer_equipment
+		priority = 2000
+		parent = destroyer_equipment_3
+		module_slots = inherit
+
+		sub_detection = 10
+		lg_attack = 3.1
+		torpedo_attack = 45
+		anti_air_attack = 10.3
+		naval_range = 2500
+		reliability = 0.736
+
+		surface_detection = 40
+		surface_visibility = 10
+		lg_armor_piercing = 2.5
+		sub_attack = 21
+	
+		naval_speed = 42.3
+		max_strength = 60
+
+		build_cost_ic = 1491.37
+
+		manpower = 25
+	}
+}

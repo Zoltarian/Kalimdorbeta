@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Bladewind Grunt"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bladewind Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bladewind Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bladewind Raiders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+##########################
+#nagrand (draenor)
+##########################
+	division = {
+		name = "1st Bladewind Grunt"
+		location = 10779
+		division_template = "Bladewind Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bladewind Grunt"
+		location = 10711
+		division_template = "Bladewind Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bladewind Grunt"
+		location = 10747
+		division_template = "Bladewind Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bladewind Grunt"
+		location = 10545
+		division_template = "Bladewind Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Bladewind Grunt"
+		location = 10549
+		division_template = "Bladewind Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Bladewind Grunt"
+		location = 10779
+		division_template = "Bladewind Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Bladewind Spearman"
+		location = 10779
+		division_template = "Bladewind Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bladewind Spearman"
+		location = 10543
+		division_template = "Bladewind Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bladewind Spearman"
+		location = 10735
+		division_template = "Bladewind Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bladewind Spearman"
+		location = 10765
+		division_template = "Bladewind Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Bladewind Raiders"
+		location = 10777
+		division_template = "Bladewind Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bladewind Raiders"
+		location = 10734
+		division_template = "Bladewind Raiders"
+		start_experience_factor = 0.2
+	}	
+
+}

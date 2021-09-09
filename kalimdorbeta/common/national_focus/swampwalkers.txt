@@ -1,0 +1,943 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = swampwalkers
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TSW
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = {
+		x = 1100
+		y = 600
+	}
+	
+	focus = {
+		id = TSW_tremors_in_the_roots
+		icon = GFX_goal_generic_national_unity
+		cost = 5.00
+		x = 7
+		y = 0
+		
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.05
+		}
+
+	}
+	focus = {
+		id = TSW_expand_the_swamp
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_tremors_in_the_roots
+		}
+		x = 1
+		y = 1
+		
+		available = {
+			TSW = {
+				controls_state = 406
+				controls_state = 407
+				controls_state = 408
+			}
+		}
+		
+		completion_reward = {
+			406 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			407 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			408 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_deeper_roots
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_expand_the_swamp
+		}
+		x = 0
+		y = 2
+		
+		available = {
+			TSW = {
+				controls_state = 408
+			}
+		}
+		
+		completion_reward = {
+			408 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+    				type = arms_factory
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_murky_waters
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_expand_the_swamp
+		}
+		x = 2
+		y = 2
+		
+		available = {
+			TSW = {
+				controls_state = 406
+			}
+		}
+		
+		completion_reward = {
+			406 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_spawning_pools
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_deeper_roots
+		}
+		prerequisite = {
+			focus = TSW_murky_waters
+		}
+		mutually_exclusive = {
+			focus = TSW_vegetation_overgrowth
+		}
+		x = 0
+		y = 3
+		
+		available = {
+			TSW = {
+				controls_state = 406
+				controls_state = 408
+			}
+		}
+		
+		completion_reward = {
+			406 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+    				type = arms_factory
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			407 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_vegetation_overgrowth
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_murky_waters
+		}
+		prerequisite = {
+			focus = TSW_deeper_roots
+		}
+		mutually_exclusive = {
+			focus = TSW_spawning_pools
+		}
+		x = 2
+		y = 3
+		
+		available = {
+			TSW = {
+				controls_state = 406
+				controls_state = 407
+				controls_state = 408
+			}
+		}
+		
+		completion_reward = {
+			406 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			407 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			408 = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_consume_the_green_skins
+		icon = GFX_focus_AST_squander_bug
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_tremors_in_the_roots
+		}
+		x = 7
+		y = 1
+		
+		available = {
+			has_country_flag = bleeding_hollow_defeated
+		}
+		
+		completion_reward = {
+			country_event = { id = swampwalkers.3 }
+		}
+
+	}
+	focus = {
+		id = TSW_infest_peons
+		icon = GFX_goal_generic_construction2
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_consume_the_green_skins
+		}
+		x = 5
+		y = 2
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = peasant_tools_technology_bonus
+				bonus = 0.5
+				uses = 1
+				category = peasant_tools_technology
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_overgrow_their_buildings
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_infest_peons
+		}
+		x = 4
+		y = 3
+		
+		available = {
+			controls_state = 403
+			controls_state = 404	
+			controls_state = 405	
+		}
+		
+		completion_reward = {
+			403 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			404 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			405 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_restore_the_west_lands
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_infest_peons
+		}
+		x = 6
+		y = 3
+		
+		available = {
+			controls_state = 403
+			controls_state = 404	
+			controls_state = 405
+		}
+		
+		completion_reward = {
+			add_state_core = 403
+			add_state_core = 404
+			add_state_core = 405
+		}
+
+	}
+	focus = {
+		id = TSW_infest_wolves
+		icon = GFX_goal_generic_cavalry
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_consume_the_green_skins
+		}
+		x = 9
+		y = 2
+		
+		completion_reward = {
+			country_event = { id = swampwalkers.4 }
+		}
+		
+
+	}
+	focus = {
+		id = TSW_intergrate_their_weapons_into_our_bodies
+		icon = GFX_focus_generic_combined_arms
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_infest_wolves
+		}
+		x = 8
+		y = 3
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = grunt_equipment_bonus
+				bonus = 0.5
+				uses = 1
+				#category = footman_tech
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_infested_grunts
+		icon = GFX_focus_generic_little_entente
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_infest_wolves
+		}
+		x = 10
+		y = 3
+		
+		completion_reward = {
+			add_manpower = 2500
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_reclaim_the_swamp
+		icon = GFX_focus_chi_one_china_policy
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_restore_the_west_lands
+			focus = TSW_intergrate_their_weapons_into_our_bodies
+			focus = TSW_infested_grunts
+			focus = TSW_overgrow_their_buildings
+		}
+		x = 7
+		y = 4
+		
+		bypass = {
+			HAK = {
+				NOT = {
+					controls_state = 398
+					controls_state = 396
+				}
+			}
+		}
+		
+		completion_reward = {
+			declare_war_on = { target = HAK type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = TSW_consume_the_marshtide
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_reclaim_the_swamp
+		}
+		mutually_exclusive = {
+			focus = TSW_corrupt_the_marshtide
+		}
+		x = 6
+		y = 5
+		
+		bypass = {
+			NOT = {			
+				country_exists = MTT
+			}
+		}
+		
+		completion_reward = {
+			declare_war_on = { target = MTT type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = TSW_corrupt_the_marshtide
+		icon = GFX_focus_CZE_german_puppet
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_reclaim_the_swamp
+		}
+		mutually_exclusive = {
+			focus = TSW_consume_the_marshtide
+		}
+		x = 8
+		y = 5
+		
+		available = {
+			has_government = old_gods
+		}
+		
+		bypass = {
+			NOT = {			
+				country_exists = MTT
+			}
+		}
+		
+		completion_reward = {
+			MTT = {
+				country_event = { id = marshtide_tribe.3 }
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_call_from_below
+		icon = GFX_focus_whispers_of_the_old_gods
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_tremors_in_the_roots
+		}
+		mutually_exclusive = {
+			focus = TSW_heart_of_the_swamp
+		}
+		x = 12
+		y = 1
+		
+		completion_reward = {
+			add_ideas = TSW_call_from_below_idea
+			country_event = { id = swampwalkers.8 }
+			
+		}
+
+	}
+	focus = {
+		id = TSW_infest_the_wildlife
+		icon = GFX_focus_eng_global_defense
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_call_from_below
+		}
+		x = 11
+		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = knight_technology
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_void_touched_tendrils
+		icon = GFX_focus_jap_manchurian_project
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_call_from_below
+		}
+		x = 13
+		y = 2
+		
+		completion_reward = {
+			add_ideas = TSW_void_touched_tendrils_idea
+		}
+
+	}
+	focus = {
+		id = TSW_void_beasts
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_void_touched_tendrils
+		}
+		prerequisite = {
+			focus = TSW_infest_the_wildlife
+		}
+		x = 12
+		y = 3
+		
+		completion_reward = {
+			add_ideas = TSW_void_beasts_idea
+		}
+
+	}
+	focus = {
+		id = TSW_heart_of_the_swamp
+		icon = GFX_focus_generic_home_defense
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_tremors_in_the_roots
+		}
+		mutually_exclusive = {
+			focus = TSW_call_from_below
+		}
+		x = 15
+		y = 1
+		
+		completion_reward = {
+			add_ideas = TSW_heart_of_the_swamp_idea
+		}
+
+	}
+	focus = {
+		id = TSW_night_stalkers
+		icon = GFX_focus_generic_japanese_imperial_glory
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_heart_of_the_swamp
+		}
+		x = 15
+		y = 2
+		
+		completion_reward = {
+			army_experience = 5
+			country_event = { id = swampwalkers.5 }
+		}
+
+	}
+	focus = {
+		id = TSW_fen_lurkers
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_night_stalkers
+		}
+		x = 14
+		y = 3
+
+		completion_reward = {
+			army_experience = 5
+			country_event = { id = swampwalkers.6 }
+		}
+
+	}
+	focus = {
+		id = TSW_spread_to_draenor
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_terraform_the_dark_portal
+		}
+		mutually_exclusive = {
+			focus = TSW_spread_to_azeroth
+		}
+		x = 7
+		y = 11
+		
+		completion_reward = {
+			declare_war_on = { target = BCC type = annex_everything }
+			declare_war_on = { target = BWC type = annex_everything }
+			declare_war_on = { target = WSC type = annex_everything }
+			declare_war_on = { target = TLC type = annex_everything }
+			declare_war_on = { target = LSC type = annex_everything }
+			declare_war_on = { target = SMC type = annex_everything }
+			declare_war_on = { target = SHC type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = TSW_spread_to_azeroth
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_terraform_the_dark_portal
+		}
+		mutually_exclusive = {
+			focus = TSW_spread_to_draenor
+		}
+		x = 5
+		y = 11
+		
+		completion_reward = {
+			declare_war_on = { target = STO type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = TSW_swamp_lurkers
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_night_stalkers
+		}
+		x = 16
+		y = 3
+		
+		completion_reward = {
+			army_experience = 5
+			country_event = { id = swampwalkers.7 }
+		}
+
+	}
+	focus = {
+		id = TSW_further_infestation
+		icon = GFX_goal_generic_CAS
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_drive_out_the_green_skins
+		}
+		x = 9
+		y = 7
+		
+		completion_reward = {
+			add_manpower = 2500
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_drive_out_the_green_skins
+		icon = GFX_focus_generic_orc_warrior
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_corrupt_the_marshtide
+			focus = TSW_consume_the_marshtide
+		}
+		x = 7
+		y = 6
+		
+		completion_reward = {
+			declare_war_on = { target = BRC type = annex_everything }
+			declare_war_on = { target = TSC type = annex_everything }
+		}
+
+	}
+	focus = {
+		id = TSW_restore_order_to_the_black_morass
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_drive_out_the_green_skins
+		}
+		x = 6
+		y = 7
+		
+		available = {
+			controls_state = 74
+			controls_state = 384
+			controls_state = 386
+			controls_state = 392
+			controls_state = 393
+			controls_state = 395
+			controls_state = 788			
+		}
+		
+		completion_reward = {
+			add_state_core = 74
+			add_state_core = 384
+			add_state_core = 386			
+			add_state_core = 392
+			add_state_core = 393
+			add_state_core = 395
+			add_state_core = 788
+		}
+
+	}
+	focus = {
+		id = TSW_terraform_the_coastline
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_restore_order_to_the_black_morass
+		}
+		x = 7
+		y = 8
+		
+		available = {
+			controls_state = 387
+			controls_state = 388
+			controls_state = 390
+			controls_state = 391			
+		}
+		
+		completion_reward = {
+			add_state_core = 387
+			add_state_core = 388			
+			add_state_core = 390
+			add_state_core = 391
+		}
+
+	}
+	focus = {
+		id = TSW_terraform_the_west
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_restore_order_to_the_black_morass
+		}
+		x = 5
+		y = 8
+		
+		available = {
+			controls_state = 378
+			controls_state = 379
+			controls_state = 380
+			controls_state = 784			
+		}
+		
+		completion_reward = {
+			add_state_core = 378
+			add_state_core = 379		
+			add_state_core = 380
+			add_state_core = 784
+		}
+
+	}
+	focus = {
+		id = TSW_terraform_the_dark_portal
+		icon = GFX_focus_the_dark_portal
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_terraform_the_south
+		}
+		x = 6
+		y = 10
+		
+		available = {
+			controls_state = 26
+			controls_state = 377
+			controls_state = 385			
+		}
+		
+		completion_reward = {
+			add_state_core = 26
+			add_state_core = 377
+			add_state_core = 385			
+		}
+
+	}
+	focus = {
+		id = TSW_infest_the_pale
+		icon = GFX_focus_AST_rats_tobruk
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_infest_ogres
+		}
+		x = 10
+		y = 9
+		
+		completion_reward = {
+			add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+   			category = infantry_technology
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_infest_ogres
+		icon = GFX_focus_smiling_buddha
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_further_infestation
+		}
+		x = 9
+		y = 8
+		
+		completion_reward = {
+			add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+   			category = altar_technology
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_infest_warlocks
+		icon = GFX_focus_jap_strike_south
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_infest_ogres
+		}
+		x = 8
+		y = 9
+		
+		completion_reward = {
+			add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = mage_technology
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_infested_rylaks
+		icon = GFX_focus_chi_flying_tigers
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_further_infestation
+		}
+		x = 11
+		y = 8
+		
+		completion_reward = {
+			add_tech_bonus = {
+   			bonus = 0.5
+    		uses = 1
+    		category = air_technology
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_restore_the_east_lands
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_reclaim_the_swamp
+		}
+		x = 4
+		y = 5
+		
+		available = {
+			controls_state = 43
+			controls_state = 396
+			controls_state = 397
+			controls_state = 398
+			controls_state = 399			
+		}
+		
+		completion_reward = {
+			add_state_core = 43
+			add_state_core = 396
+			add_state_core = 397
+			add_state_core = 398
+			add_state_core = 399
+		}
+
+	}
+	focus = {
+		id = TSW_consume_the_temple
+		icon = GFX_goal_generic_construct_military
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_restore_the_east_lands
+		}
+		x = 3
+		y = 6
+		
+		available = {
+			controls_state = 324
+			controls_state = 1095	
+		}
+		
+		completion_reward = {
+			add_state_core = 324
+			add_state_core = 1095
+		}
+
+	}
+	focus = {
+		id = TSW_infest_the_blue_skins
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_restore_the_east_lands
+		}
+		x = 5
+		y = 6
+		
+		completion_reward = {
+			add_manpower = 2500
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = TSW_terraform_the_south
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = TSW_terraform_the_west
+		}
+		prerequisite = {
+			focus = TSW_terraform_the_coastline
+		}
+		x = 6
+		y = 9
+		
+		available = {
+			controls_state = 381
+			controls_state = 382
+			controls_state = 383
+			controls_state = 785			
+		}
+		
+		completion_reward = {
+			add_state_core = 381
+			add_state_core = 382		
+			add_state_core = 383
+			add_state_core = 785
+		}
+
+	}
+}

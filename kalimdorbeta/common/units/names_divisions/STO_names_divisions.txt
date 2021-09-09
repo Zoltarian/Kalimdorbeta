@@ -1,0 +1,167 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+STO_INF_01 = 
+{
+	name = "First War Stormwind Footman"
+
+	for_countries = { STO }
+
+	can_use = { always = yes }
+
+	division_types = { "footman" }
+
+	fallback_name = "%d. Footman"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Stormwind Footman" }
+		2 = { "%d. Westbrook Footman" }
+		3 = { "%d. Deadmines Footman" }
+		4 = { "%d. Northshire Footman" }
+		5 = { "%d. Westfall Footman" }
+		6 = { "%d. Moonbrook Footman" }
+		7 = { "%d. Goldshire Footman" }
+		8 = { "%d. Duskwood Footman" }
+		9 = { "%d. Redridge Footman" }
+		10 = { "%d. Eastvale Logging Camp Footman" }
+		11 = { "%d. King 'Llane Wrynn' Footman" }
+		12 = { "%d. Raven Hill Footman" }
+		13 = { "%d. Darkshire Footman" }
+		14 = { "%d. Dwarven District" }
+		15 = { "%d. Old Town" }
+		16 = { "%d. Mage Quarters" }
+		17 = { "%d. Tol Barad" }
+		18 = { "%d. Sentinel Hill Footman" }
+		19 = { "%d. Farmstead" }
+		20 = { "%d. Lion's Footman" }
+		21 = { "%d. Human Righteousness" }
+		22 = { "%d. Cathedral Square" }
+		23 = { "%d. Forests Edge" }
+		24 = { "%d. Arathor" }
+		25 = { "%d. Brotherhood of the Horse" }
+		26 = { "%d. Footman" }
+		27 = { "%d. Footman" }
+		28 = { "%d. Footman" }
+		29 = { "%d. Footman" }
+		30 = { "%d. Footman" }
+		31 = { "%d. Brightwood Footman" }
+		32 = { "%d. Lakeshire Footman" }
+		33 = { "%d. Stonewatch Footman" }
+
+	}
+}
+
+STO_INF_02 = 
+{
+	name = "First War Stormwind Patrols"
+
+	for_countries = { STO }
+
+	can_use = { always = yes }
+
+	division_types = { "footman" }
+
+	fallback_name = "%d. Patrol"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Stormwind Patrols" }
+		2 = { "%d. Westbrook Patrols" }
+		3 = { "%d. Deadmines Patrols" }
+		4 = { "%d. Northshire Abbey Patrols" }
+		5 = { "%d. Westfall Patrols" }
+		6 = { "%d. Moonbrook Patrols" }
+		7 = { "%d. Goldshire Patrols" }
+		8 = { "%d. Duskwood Patrols" }
+		9 = { "%d. Redridge Patrols" }
+		10 = { "%d. Eastvale Logging Camp Patrols" }
+		11 = { "%d. Patrols" }
+		12 = { "%d. Raven Hill Patrols" }
+		13 = { "%d. Darkshire Patrols" }
+		14 = { "%d. Dwarven District Patrols" }
+		15 = { "%d. Old Town Patrols" }
+		16 = { "%d. Mage Quarters Patrols" }
+		17 = { "%d. Tol Barad Patrols" }
+		18 = { "%d. Sentinel Hill Patrols" }
+		19 = { "%d. Farmstead Patrols" }
+		20 = { "%d. Lion's Patrols" }
+		21 = { "%d. Deadmines Patrols" }
+		22 = { "%d. Cathedral Square Patrols" }
+		23 = { "%d. Forests Edge Patrols" }
+		24 = { "%d. Grand Hamlet Patrols" }
+		25 = { "%d. Patrols" }
+		26 = { "%d. Patrols" }
+		27 = { "%d. Patrols" }
+		28 = { "%d. Patrols" }
+		29 = { "%d. Dagger Hills Patrols" }
+		30 = { "%d. Deadmines Patrols" }
+		31 = { "%d. Town Patrols" }
+		32 = { "%d. Main road Patrols" }
+		33 = { "%d. Brightwood Patrols" }
+		34 = { "%d. Lakeshire Patrols" }
+		35 = { "%d. Stonewatch Patrols" }
+	}
+}
+
+STO_KNI_01 = 
+{
+	name = "Brotherhood of the Horse"
+
+	for_countries = { STO }
+
+	can_use = { always = yes }
+
+	division_types = { "footman" }
+
+	fallback_name = "%d. Stormwind Knights"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Brotherhood of the Horse" }
+		2 = { "%d. Knights of the Horse" }
+		3 = { "%d. Wrynn's Knights" }
+		4 = { "%d. Knights of Azeroth" }
+		5 = { "%d. Knights of Westfall" }
+		6 = { "%d. Guardians of the Lion" }
+		7 = { "%d. Defenders of the Lion" }
+		8 = { "%d. Knights of Duskwood" }
+		9 = { "%d. Knights of Redridge" }
+	}
+}

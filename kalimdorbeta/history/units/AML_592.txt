@@ -1,0 +1,40 @@
+﻿division_template = {
+	name = "Root Trapper"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Root Trapper"
+		location = 13655
+		division_template = "Root Trapper"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Root Trapper"
+		location = 13655
+		division_template = "Root Trapper"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Root Trapper"
+		location = 13654
+		division_template = "Root Trapper"
+		start_experience_factor = 0.0
+	}
+
+
+
+}

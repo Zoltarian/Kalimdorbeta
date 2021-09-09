@@ -1,0 +1,27 @@
+state={
+	id=1995
+	name="STATE_1995"
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+	impassable = yes
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		616.1.1 = {
+			owner = GRM
+			controller = GRM
+			add_core_of = GRM
+		}
+	}
+
+	provinces={
+		12029
+	}
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=690
+	name="STATE_690"
+	resources={
+		mana=6
+		ores=8
+	}
+
+	history={
+		
+		add_core_of = TLC
+
+		victory_points = {
+			6120 20
+		}
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TLC
+		}
+	}
+
+	provinces={
+		5622 5627 5629 5632 5636 5637 5933 5948 5954 6120 6296
+	}
+	manpower=66000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

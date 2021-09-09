@@ -1,0 +1,145 @@
+equipments = {
+
+	dreadnaught_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		interface_category = interface_category_screen_ships
+		priority = 1900
+
+		upgrades = { }
+		module_slots = { }
+		module_count_limit = { }
+		default_modules = { }
+
+		sub_detection = 5 #0
+		lg_attack = 8 # doesnt follow normal increase of +2.85 to tier 2
+		hg_attack = 34.2 # +1.2
+		anti_air_attack = 12 #+5.4
+		naval_range = 3750 # +250
+		armor_value = 90 # +12
+
+		surface_detection = 10 # +5
+		surface_visibility = 40 # same
+		lg_armor_piercing = 6.5 # +0.5
+		hg_armor_piercing = 48 # +2
+		
+		naval_speed = 29.25# +0.45
+		max_strength = 550 # +110
+		reliability = 0.66 # +2		
+		
+		build_cost_ic = 17973.625 # +3239.625
+		
+		manpower = 425 #+25
+
+		resources = {
+			wood = 2
+			ores = 2
+			gunpowder = 2
+			oil = 2
+		}
+		
+	}
+	
+	dreadnaught_equipment_1 = {
+		year = 584
+		visual_level = 0
+		archetype = dreadnaught_equipment
+		priority = 1850
+		module_slots = inherit
+
+	}
+	
+	dreadnaught_equipment_2 = {
+		year = 591
+		visual_level = 1
+		archetype = dreadnaught_equipment
+		priority = 1800
+		parent = dreadnaught_equipment_1
+		module_slots = inherit
+
+		sub_detection = 5 #0
+		lg_attack = 8.4 # +2.85
+		hg_attack = 35.4 # +1.2
+		anti_air_attack = 17.4 #+5.4
+		naval_range = 4000 # +250
+		armor_value = 102 # +12
+
+		surface_detection = 15 # +5
+		surface_visibility = 40 # same
+		lg_armor_piercing = 7 # +0.5
+		hg_armor_piercing = 50 # +2
+		
+		naval_speed = 29.7# +0.45
+		max_strength = 660 # +110
+		reliability = 0.68 # +2		
+		
+		build_cost_ic = 21213.25 # +3239.625
+		
+		manpower = 450 #+25 per tier
+
+	}
+	
+	dreadnaught_equipment_3 = {
+		year = 594
+		visual_level = 1
+		archetype = dreadnaught_equipment
+		priority = 1800
+		parent = dreadnaught_equipment_2
+		module_slots = inherit
+
+		sub_detection = 5 #0
+		lg_attack = 11.25 # +2.85
+		hg_attack = 36.6 # +1.2
+		anti_air_attack = 22.8 #+5.4
+		naval_range = 4250 # +250
+		armor_value = 118 # +12
+
+		surface_detection = 20 # +5
+		surface_visibility = 40 # same
+		lg_armor_piercing = 7.5 # +0.5
+		hg_armor_piercing = 52 # +2
+		
+		naval_speed = 30.35 # +0.45
+		max_strength = 770 # +110
+		reliability = 0.7 # +2		
+		
+		build_cost_ic = 24452.875 # +3239.625
+		
+		manpower = 475 #+25 per tier
+
+	}
+	
+	dreadnaught_equipment_4 = {
+		year = 597
+		visual_level = 1
+		archetype = dreadnaught_equipment
+		priority = 1800
+		parent = dreadnaught_equipment_3
+		module_slots = inherit
+
+		sub_detection = 5 #0
+		lg_attack = 14.1 # +2.85
+		hg_attack = 37.8 # +1.2
+		anti_air_attack = 28.2 #+5.4
+		naval_range = 4500 # +250
+		armor_value = 130 # +12
+
+		surface_detection = 25 # +5
+		surface_visibility = 40 # same
+		lg_armor_piercing = 8 # +0.5
+		hg_armor_piercing = 54 # +2
+		
+		naval_speed = 30.8# +0.45
+		max_strength = 880 # +110
+		reliability = 0.72 # +2		
+		
+		build_cost_ic = 27692.5 # +3239.625
+		
+		manpower = 500 #+25 per tier
+
+	}
+	
+}

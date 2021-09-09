@@ -1,0 +1,110 @@
+scripted_gui = {
+	coring_button_container = {
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "coring_button_container"
+
+		visible = {}
+
+		effects = {
+			coring_button_click = {
+				ROOT = {
+					if = {
+						limit = {
+							NOT = { is_in_array = { coring_check_popup = PREV } }
+						}
+						add_to_array = { coring_check_popup = PREV }
+					}
+				}
+			}
+		}
+
+		triggers = {
+			coring_button_visible = {
+				NOT = { is_core_of = ROOT }
+				is_owned_and_controlled_by = ROOT
+				NOT = { has_variable = coring_progress }
+			}
+			coring_button_click_enabled = {
+				state_does_not_match_primary_or_secondary_race = no
+				state_does_not_match_primary_or_secondary_religion = no
+				ROOT = { has_political_power > coring_cost }
+			}
+		}
+
+		ai_test_scopes = test_self_owned_states
+		ai_test_interval = 24
+		ai_test_variance = 0.2
+
+		ai_enabled = {
+			always = yes
+		}
+
+		ai_check = {
+			has_political_power > 200
+		}
+
+		ai_weights = {
+			coring_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						ROOT = { has_political_power > 500 }
+						add = 10
+					}
+					modifier = {
+						is_coastal = yes
+						factor = 2
+					}
+					modifier = {
+						any_neighbor_state = {
+							has_main_race = yes
+						}
+						factor = 10
+					}
+					modifier = {
+						check_variable = { global.CORING_BLOCKED = 1 }
+						factor = 0
+					}
+				}
+			}
+		}
+	}
+
+	coring_progress = {
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "coring_progress"
+
+		visible = {
+			has_variable = coring_progress
+		}
+
+		effects = {
+			coring_cancel_click = {
+				ROOT = {
+					if = {
+						limit = {
+							NOT = { is_in_array = { coring_cancel_popup = PREV } }
+						}
+						add_to_array = { coring_cancel_popup = PREV }
+					}
+				}
+			}
+		}
+
+		triggers = {
+			coring_cancel_click_enabled = {
+			}
+			coring_cancel_visible = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+
+		properties = {
+			coring_bar = {
+				x = coring_progress
+			}
+		}
+	}
+}

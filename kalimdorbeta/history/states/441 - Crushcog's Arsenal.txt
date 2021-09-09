@@ -1,0 +1,29 @@
+
+state={
+	id=441
+	name="STATE_441"
+	
+	resources={
+		gunpowder = 26
+	}
+
+	history={
+		victory_points = { 4074 10 }
+		
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		add_core_of = IRO
+		add_core_of = FRT
+
+	}
+
+	provinces={
+		1034 4074 4075 4076 
+	}
+	manpower=10150
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

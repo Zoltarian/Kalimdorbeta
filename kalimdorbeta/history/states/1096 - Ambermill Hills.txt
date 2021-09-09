@@ -1,0 +1,31 @@
+
+state={
+	id=1096
+	name="STATE_1096"
+	resources={
+		wood =4.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			
+			controller = DAL
+			add_core_of = DAL
+
+		}
+
+	}
+
+	provinces={
+		1966 1979 5253 5254 5255 5256 6953 
+	}
+	manpower=7200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

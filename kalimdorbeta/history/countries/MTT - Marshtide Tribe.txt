@@ -1,0 +1,113 @@
+﻿capital = 400
+
+oob = "MTT_592"
+
+set_convoys = 25
+
+set_research_slots = 3
+
+set_stability = 0.45
+set_war_support = 0.2
+
+add_ideas = {
+	
+	tribe
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	murloc_primary_race
+	primary_trait_spawning_pools
+	primary_trait_mrglgl
+	primary_trait_one_with_the_sea
+
+	primary_religion_followers_of_the_tidehunter
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	support_equipment_tech = 1
+	
+
+	mount_taming_1 = 1
+
+	
+	naval_transport_1 = 1
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 5
+    titans = 0
+    neutral = 95
+}
+
+create_country_leader = {
+	name = "Fingat"
+	desc = "POLITICS_FINGAT_DESC"
+	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Corrupted Fingat"
+	desc = "POLITICS_FINGAT_DESC"
+	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rissen Fingat"
+	desc = "POLITICS_FINGAT_DESC"
+	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Fingat"
+	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
+	traits = {  }
+	id = 42900
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gilmorian"
+	picture = "gfx/leaders/generic/BI_Murloc/murloc1.dds"
+	traits = {  }
+	id = 42901
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

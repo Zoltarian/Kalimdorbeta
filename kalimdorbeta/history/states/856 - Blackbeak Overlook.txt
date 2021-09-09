@@ -1,0 +1,33 @@
+
+state={
+	id=856
+	name="STATE_856"
+	resources={
+		gunpowder=4.000
+		oil=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			9273 5 
+		}
+		buildings = {
+			infrastructure = 2
+			9281 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SRD
+
+	}
+
+	provinces={
+		8616 9273 9275 9281 9286 9299 10844 
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=2110
+	name="STATE_2110"
+	resources = {
+		ores=4
+	}
+
+	history={
+		owner = KAL
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KAL
+
+	}
+
+	provinces={
+		12919 12931 12949 12951 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

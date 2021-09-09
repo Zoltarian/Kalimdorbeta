@@ -1,0 +1,37 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		eggs=8
+		wheat=6
+		mana=4
+		wood=2
+	}
+
+	history={
+		owner = RZB
+		victory_points = {
+			11526 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+			700 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = RZB
+
+	}
+
+	provinces={
+		700 11263 11374 11390 11486 11515 11526 11530 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

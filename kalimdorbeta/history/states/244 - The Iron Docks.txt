@@ -1,0 +1,51 @@
+
+state={
+	id=244
+	name="STATE_244"
+	resources={
+		oil=22
+		gunpowder=4
+	}
+
+	history={
+		
+		add_core_of = LSC
+
+		victory_points = {
+			10648 20
+		}
+
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 3
+			10648 = {
+				coastal_bunker = 5
+				naval_base = 8
+			}
+			10656 = {
+				coastal_bunker = 3
+				naval_base = 4
+			}
+			10657 = {
+				coastal_bunker = 3
+				naval_base = 4
+			}
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LSC
+		}
+	}
+
+	provinces={
+		6253 10648 10649 10650 10651 10652 10653 10654 10655 10656 10657 10658 10663 10664 10665
+	}
+	manpower=67938
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

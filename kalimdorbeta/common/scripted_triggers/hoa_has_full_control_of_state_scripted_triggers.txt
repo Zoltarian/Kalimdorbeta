@@ -1,0 +1,366 @@
+###########################################################
+# Contains scripted effects relating to controlling an area with "has_full_control_of_state"
+# Useful for formable nations decisions mainly
+# NOT ALL ARE PRESENT, ADD IF NEEDED
+# Please sort by continent / alphabeticaly for better usage
+###########################################################
+
+####################
+# Draenor
+####################
+
+#Full control of Frostfire Ridge
+has_full_control_of_frostfire_ridge = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_frostfire_ridge_tt
+    has_full_control_of_state = 258
+    has_full_control_of_state = 339
+    has_full_control_of_state = 652
+    has_full_control_of_state = 653
+    has_full_control_of_state = 654
+    has_full_control_of_state = 660
+    has_full_control_of_state = 664
+    has_full_control_of_state = 668
+    has_full_control_of_state = 681
+    has_full_control_of_state = 690
+    has_full_control_of_state = 699
+    has_full_control_of_state = 700
+    has_full_control_of_state = 701
+    has_full_control_of_state = 703
+    has_full_control_of_state = 706
+    has_full_control_of_state = 707
+    has_full_control_of_state = 730
+    has_full_control_of_state = 1056
+  }
+}
+
+#Full control of Nagrand (Draenor)
+has_full_control_of_nagrand_draenor = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_nagrand_dr_tt
+    has_full_control_of_state = 314
+    has_full_control_of_state = 341
+    has_full_control_of_state = 731
+    has_full_control_of_state = 1007
+    has_full_control_of_state = 1008
+    has_full_control_of_state = 1009
+    has_full_control_of_state = 1011
+    has_full_control_of_state = 1012
+    has_full_control_of_state = 1013
+    has_full_control_of_state = 1014
+    has_full_control_of_state = 1015
+    has_full_control_of_state = 1016
+    has_full_control_of_state = 1017
+    has_full_control_of_state = 1018
+    has_full_control_of_state = 1019
+    has_full_control_of_state = 1021
+    has_full_control_of_state = 1022
+    has_full_control_of_state = 1023
+    has_full_control_of_state = 1024
+    has_full_control_of_state = 1025
+    has_full_control_of_state = 1026
+  }
+}
+
+#Full control of Talador
+has_full_control_of_talador = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_talador_tt
+    has_full_control_of_state = 340
+    has_full_control_of_state = 547
+    has_full_control_of_state = 732
+    has_full_control_of_state = 734
+    has_full_control_of_state = 741
+    has_full_control_of_state = 744
+    has_full_control_of_state = 1010
+    has_full_control_of_state = 1080
+    has_full_control_of_state = 1081
+    has_full_control_of_state = 1082
+    has_full_control_of_state = 1083
+    has_full_control_of_state = 1084
+    has_full_control_of_state = 1085
+    has_full_control_of_state = 1086
+    has_full_control_of_state = 1087
+    has_full_control_of_state = 1088
+    has_full_control_of_state = 1089
+    has_full_control_of_state = 1090
+    has_full_control_of_state = 1091
+    has_full_control_of_state = 1092
+    has_full_control_of_state = 1093
+    has_full_control_of_state = 1094
+  }
+}
+
+####################
+# Great Sea
+####################
+
+#Full control of Kezan
+has_full_control_of_Kezan = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_kezan_tt
+    has_full_control_of_state = 60
+    has_full_control_of_state = 817
+    has_full_control_of_state = 818
+    has_full_control_of_state = 819
+    has_full_control_of_state = 820
+    has_full_control_of_state = 821
+    has_full_control_of_state = 822
+    has_full_control_of_state = 823
+    has_full_control_of_state = 1296
+    has_full_control_of_state = 1297
+    has_full_control_of_state = 1412
+    has_full_control_of_state = 1413
+  }
+}
+
+####################
+# Kalimdor
+####################
+
+#Full control of Mulgore
+has_full_control_of_mulgore = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_mulgore_tt
+    has_full_control_of_state = 81
+    has_full_control_of_state = 997
+    has_full_control_of_state = 998
+    has_full_control_of_state = 999
+    has_full_control_of_state = 1000
+    has_full_control_of_state = 1001
+    has_full_control_of_state = 1002
+    has_full_control_of_state = 1031
+    has_full_control_of_state = 1032
+    has_full_control_of_state = 1033
+    has_full_control_of_state = 1034
+    has_full_control_of_state = 1035
+    has_full_control_of_state = 1036
+    has_full_control_of_state = 1037
+    has_full_control_of_state = 1038
+    has_full_control_of_state = 1039
+    has_full_control_of_state = 1040
+    has_full_control_of_state = 1042
+    has_full_control_of_state = 1043
+    has_full_control_of_state = 1044
+    has_full_control_of_state = 1045
+    has_full_control_of_state = 1046
+    has_full_control_of_state = 1047
+    has_full_control_of_state = 1048
+  }
+}
+
+####################
+# Pandaria
+####################
+
+#Full control of Dread Wastes
+has_full_control_of_dread_wastes = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_dread_wastes_tt
+    has_full_control_of_state = 91
+    has_full_control_of_state = 94
+    has_full_control_of_state = 1879
+    has_full_control_of_state = 1880
+    has_full_control_of_state = 1881
+    has_full_control_of_state = 1882
+    has_full_control_of_state = 1883
+    has_full_control_of_state = 1884
+    has_full_control_of_state = 1885
+    has_full_control_of_state = 1886
+    has_full_control_of_state = 1888
+    has_full_control_of_state = 1889
+    has_full_control_of_state = 1890
+    has_full_control_of_state = 1891
+    has_full_control_of_state = 1892
+    has_full_control_of_state = 1893
+    has_full_control_of_state = 1894
+    has_full_control_of_state = 1895
+    has_full_control_of_state = 1896
+  }
+}
+
+#Full control of the Jade Forest
+has_full_control_of_jade_forest = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_jade_forest_tt
+    has_full_control_of_state = 59
+    has_full_control_of_state = 1937
+    has_full_control_of_state = 1938
+    has_full_control_of_state = 1939
+    has_full_control_of_state = 1940
+    has_full_control_of_state = 1941
+    has_full_control_of_state = 1942
+    has_full_control_of_state = 1943
+    has_full_control_of_state = 1944
+    has_full_control_of_state = 1945
+    has_full_control_of_state = 1946
+    has_full_control_of_state = 1947
+    has_full_control_of_state = 1948
+    has_full_control_of_state = 1949
+    has_full_control_of_state = 1950
+    has_full_control_of_state = 1951
+    has_full_control_of_state = 1952
+    has_full_control_of_state = 1953
+    has_full_control_of_state = 1954
+    has_full_control_of_state = 1955
+    has_full_control_of_state = 1956
+    has_full_control_of_state = 1957
+    has_full_control_of_state = 1958
+    has_full_control_of_state = 1959
+    has_full_control_of_state = 1960
+    has_full_control_of_state = 1961
+    has_full_control_of_state = 1962
+    has_full_control_of_state = 1963
+    has_full_control_of_state = 1964
+    has_full_control_of_state = 1965
+    has_full_control_of_state = 1966
+    has_full_control_of_state = 1967
+    has_full_control_of_state = 1968
+    has_full_control_of_state = 1969
+    has_full_control_of_state = 1985
+  }
+}
+
+#Full control of Krasarang Wilds
+has_full_control_of_krasarang_wilds = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_krasarang_wilds_tt
+    has_full_control_of_state = 95
+    has_full_control_of_state = 1897
+    has_full_control_of_state = 1898
+    has_full_control_of_state = 1899
+    has_full_control_of_state = 1900
+    has_full_control_of_state = 1901
+    has_full_control_of_state = 1902
+    has_full_control_of_state = 1903
+    has_full_control_of_state = 1904
+    has_full_control_of_state = 1905
+    has_full_control_of_state = 1906
+    has_full_control_of_state = 1907
+    has_full_control_of_state = 1908
+    has_full_control_of_state = 1909
+    has_full_control_of_state = 1910
+    has_full_control_of_state = 1911
+    has_full_control_of_state = 1912
+    has_full_control_of_state = 1913
+    has_full_control_of_state = 1914
+    has_full_control_of_state = 1915
+  }
+}
+
+#Full control of Kunlai Summit
+has_full_control_of_kunlai_summit = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_kunlai_summit_tt
+    has_full_control_of_state = 93
+    has_full_control_of_state = 1408
+    has_full_control_of_state = 1836
+    has_full_control_of_state = 1837
+    has_full_control_of_state = 1838
+    has_full_control_of_state = 1839
+    has_full_control_of_state = 1840
+    has_full_control_of_state = 1841
+    has_full_control_of_state = 1842
+    has_full_control_of_state = 1843
+    has_full_control_of_state = 1844
+    has_full_control_of_state = 1845
+    has_full_control_of_state = 1846
+    has_full_control_of_state = 1847
+    has_full_control_of_state = 1849
+    has_full_control_of_state = 1850
+    has_full_control_of_state = 1851
+    has_full_control_of_state = 1852
+    has_full_control_of_state = 1853
+    has_full_control_of_state = 1855
+    has_full_control_of_state = 1856
+    has_full_control_of_state = 1857
+    has_full_control_of_state = 1858
+    has_full_control_of_state = 1860
+    has_full_control_of_state = 1861
+    has_full_control_of_state = 1862
+    has_full_control_of_state = 1863
+    has_full_control_of_state = 1864
+    has_full_control_of_state = 1987
+    has_full_control_of_state = 1988
+    has_full_control_of_state = 1989
+    has_full_control_of_state = 1990
+  }
+}
+
+#Full control of Townlong Steppes
+has_full_control_of_townlong_steppes = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_townlong_steppes_tt
+    has_full_control_of_state = 90
+    has_full_control_of_state = 1818
+    has_full_control_of_state = 1819
+    has_full_control_of_state = 1820
+    has_full_control_of_state = 1821
+    has_full_control_of_state = 1822
+    has_full_control_of_state = 1823
+    has_full_control_of_state = 1824
+    has_full_control_of_state = 1825
+    has_full_control_of_state = 1826
+    has_full_control_of_state = 1827
+    has_full_control_of_state = 1828
+    has_full_control_of_state = 1829
+    has_full_control_of_state = 1830
+    has_full_control_of_state = 1831
+    has_full_control_of_state = 1975
+    has_full_control_of_state = 1976
+    has_full_control_of_state = 1977
+    has_full_control_of_state = 1978
+    has_full_control_of_state = 1979
+  }
+}
+
+#Full control of the Valley of Eternal Blossoms
+has_full_control_of_vale_of_eternal_blossoms = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_vale_of_eternal_blossoms_tt
+    has_full_control_of_state = 92
+    has_full_control_of_state = 1866
+    has_full_control_of_state = 1867
+    has_full_control_of_state = 1868
+    has_full_control_of_state = 1869
+    has_full_control_of_state = 1870
+    has_full_control_of_state = 1871
+    has_full_control_of_state = 1872
+    has_full_control_of_state = 1873
+    has_full_control_of_state = 1874
+    has_full_control_of_state = 1875
+    has_full_control_of_state = 1876
+    has_full_control_of_state = 1877
+    has_full_control_of_state = 1878
+  }
+}
+
+#Full control of the Valley of the Four Winds
+has_full_control_of_valley_of_the_four_winds = {
+  custom_trigger_tooltip = {
+    tooltip = full_control_of_valley_of_the_four_winds_tt
+    has_full_control_of_state = 94
+    has_full_control_of_state = 1916
+    has_full_control_of_state = 1917
+    has_full_control_of_state = 1918
+    has_full_control_of_state = 1919
+    has_full_control_of_state = 1920
+    has_full_control_of_state = 1921
+    has_full_control_of_state = 1922
+    has_full_control_of_state = 1923
+    has_full_control_of_state = 1924
+    has_full_control_of_state = 1925
+    has_full_control_of_state = 1926
+    has_full_control_of_state = 1927
+    has_full_control_of_state = 1928
+    has_full_control_of_state = 1929
+    has_full_control_of_state = 1930
+    has_full_control_of_state = 1931
+    has_full_control_of_state = 1932
+    has_full_control_of_state = 1934
+    has_full_control_of_state = 1935
+    has_full_control_of_state = 1936
+    has_full_control_of_state = 1983
+    has_full_control_of_state = 1984
+  }
+}

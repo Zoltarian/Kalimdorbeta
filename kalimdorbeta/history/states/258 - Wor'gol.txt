@@ -1,0 +1,42 @@
+
+state={
+	id=258
+	name="STATE_258"
+	resources={
+		mounts=8
+		ores=4
+	}
+
+	history={
+		
+		add_core_of = TLC
+
+		victory_points = {
+			6284 15
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+			6334 = {
+				naval_base = 3
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TLC
+		}
+	}
+
+	provinces={
+		4863 6176 6180 6276 6277 6283 6284 6334 6341 6345 6349 6860
+	}
+	manpower=47000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

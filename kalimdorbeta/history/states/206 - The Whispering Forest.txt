@@ -1,0 +1,32 @@
+
+state={
+	id=206
+	name="STATE_206"
+	resources={
+		wood=56.000
+		mana=4.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		360 689 4132 4139 4146 4171 4175 4183 4188 4208 4213 4238 4256 4289 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

@@ -1,0 +1,205 @@
+﻿
+
+l_english:
+
+###############################################
+#notice board stuff
+###############################################
+primitive_bounty:0 "Place bounty on local menace"
+primitive_bounty_desc:0 "Take $STATE|Y$ from $TARGET|Y$"
+primitive_bounty_short_desc:0 "This wargoal will make selected states cheaper to pick at the peace conference and significantly reduces required political power."
+
+create_bounty_boards:0 "Set up bounty boards"
+create_bounty_boards_desc:0 "These bounty boards will alert the populace to local savage and primitive menaces, allowing this nation to quickly create wargoals on occupied core states."
+create_bounty_boards_tooltip:0 "Immediately sets up §YBounty Boards§! for §Y90§! days, allowing you to justify using the '§YPlace bounty on local menace§!' wargoal."
+
+###############################################
+#kingdom
+###############################################
+government_decisions:0 "Government"
+kingdom_tax_nobles:0 "Tax Nobles"
+kingdom_tax_nobles_desc:0 "We have granted several nobles lands and riches though out the kingdom. It is time for them to pay their share for the good of the kingdom."
+kingdom_grant_nobility_generalship:0 "Grant Generalship to Nobles"
+kingdom_grant_nobility_generalship_desc:0 "Seing nobles on the battlefield inspires our lowborn soldiers to fight and die for the kingdom."
+kingdom_raise_militia:0 "Raise Militia"
+kingdom_raise_militia_desc:0 "In times of war we must call on every Man to serve in the Kings army."
+kingdom_improve_peasant_standards:0 "Improve Peasant Standards"
+kingdom_improve_peasant_standards_desc:0 "By improving the living standards of the everyday man, our country will begin to stabilize."
+
+
+council_hold_elections:0 "Hold Elections"
+council_bribe_council_member:0 "Bribe Council Member"
+council_hold_diplomatic_council_meeting:0 "Hold Diplomatic Council Meeting"
+council_hold_diplomatic_council_meeting_desc:0 "To se"
+council_hold_military_council_meeting:0 "Hold Military Council Meeting"
+
+###############################################
+#recruit foreign agents
+###############################################
+ LAR_recruitment_lordaeron:0 "Recruitment in Lordaeron"
+ LAR_recruitment_khaz_modan:0 "Recruitment in Khaz Modan"
+ LAR_recruitment_azeroth:0 "Recruitment in Azeroth"
+ LAR_recruitment_kalimdor:0 "Recruitment in Kalimdor"
+ LAR_recruitment_outland:0 "Recruitment in Outland"
+ LAR_recruitment_draenor:0 "Recruitment in Draenor"
+ LAR_recruitment_pandaria:0 "Recruitment in Pandaria"
+ LAR_recruitment_northrend:0 "Recruitment in Northrend"
+ LAR_recruitment_the_great_sea:0 "Recruitment in The Great Sea"
+ LAR_recruitment_argus:0 "Recruitment in Argus"
+
+###############################################
+# Bleeding Hollow - Gurubashi War
+###############################################
+ scout_stranglethorn:0 "Send scouts to the south"
+ scout_stranglethorn_desc:0 "There appears to be a jungle to the south of the area we are currently occupying. We can send scouts to investigate this further."
+ attack_gurubashi_trolls:0 "Begin the Stranglethorn border conflict"
+ attack_gurubashi_trolls_desc:0 "If there's one thing we're good at, it's a gurellia war. These 'trolls' will never know what hit them."
+
+###############################################
+# Alliance of Lordaeron
+###############################################
+
+ alliance_of_lordaeron_decision:0 "Alliance of Lordaeron"
+
+###############################################
+# Medivh decisions
+###############################################
+ guardian_of_tirisfal_decision:0 "The Guardian of Tirisfal"
+ send_for_medivh:0 "Send for Medivh"
+
+###############################################
+# Formable nations decisions
+###############################################
+formable_category:0 "Formable Nations"
+
+form_new_empire:0 "Rise of a New Empire"
+
+form_amani_empire_category:0 "Form da Amani Empire"
+form_amani_empire_category_desc:0 "We reconquered our rightful lands, now is da time to let everyone know that we're back."
+form_union_of_three_hammers_category:0 "Form the Union of Three Hammers"
+form_union_of_three_hammers_category_desc:0 "We unified all the houses of Ironforge through diplomacy or war! We can ourselves name the Union of the Three Hammers!"
+form_wildhammer_clan_category:0 "Form the Wildhammer Clan"
+form_wildhammer_clan_category_desc:0 "We unified our old lands through diplomacy or war, it is time to reform the Wildhammer Clan"
+form_arathor_category:0 "Form the Empire of Arathor"
+form_arathor_category_desc:0 "We reconquered the lands which were rightfully ours but we've lost when all our people sought to gain more wealth and might. Today we will reform the Empire which united the Humans for eons."
+form_amani_empire:0 "Form Amani Empire"
+form_country_amani_thalassian_required_states_tt:0 "Own all §YThalassian§! states in the Eastern Kingdoms."
+form_country_amani_eastwaldian_required_states_tt:0 "Own all §YEastwealdian§! states east of Crown Guard Tower in the Eastern Kingdoms."
+form_country_amani_aerie_required_states_tt:0 "Own all §YAeriean§! states east of Aerie Peak and Wildhammer Ravine in the Eastern Kingdoms."
+form_country_amani_coring_states_tt:0 "Cores all §YAmani§! states in the Eastern Kingdoms."
+form_arathor:0 "Form the Empire of Arathor"
+form_country_arathor_lordaeron_required_states_tt:0 "Own all §YLordaeron§! states from Hillsbrad Foothills till Silverpine Forest."
+form_country_arathor_alterac_required_states_tt:0 "Own all §YAlteracian§! states in the Eastern Kingdoms."
+form_country_arathor_gilneas_required_states_tt:0 "Own all §YGilnean§! states in the Eastern Kingdoms."
+form_country_arathor_coring_states_tt:0 "Cores all §YArathorian§! states in the Eastern Kingdoms."
+form_union_of_three_hammers:0 "Form Union of the Three Hammers"
+form_country_union_of_three_hammers_ironforge_required_states_tt:0 "Controls the §YCity of Ironforge§!."
+form_country_union_of_three_hammers_coring_states_tt:0 "Cores all §YIronforge§! states in the Eastern Kingdoms.\nCores all §YNortherian§! states in the Eastern Kingdoms.\nCores all §YAeriean§! states in the Eastern Kingdoms.\nCores all §YDark Iron§! states in the Eastern Kingdoms."
+form_wildhammer_clan:0 "Form the Wildhammer Clan"
+form_country_wildhammer_required_states_aerie_tt:0 "Own all §YAeriean§! states in the Eastern Kingdoms."
+form_country_wildhammer_required_states_northeron_tt:0 "Own all §YNortheranian§! states in the Eastern Kingdoms."
+form_country_wildhammer_coring_states_tt:0 "Cores all §YAerian§! states in the Eastern Kingdoms.\nCores all §YNortheranian§! states in the Eastern Kingdoms."
+
+form_gurubashi_empire_category:0 "Restore the Gurubashi Empire"
+form_gurubashi_empire:0 "Restore the Gurubashi Empire"
+form_country_zulgurub_required_states_tt:0 "Own all states in §YZul'Gurub§!"
+form_country_northern_stranglethorn_required_states_tt:0 "Own all states in §YNorthern Stranglethorn§!"
+form_country_southern_stranglethorn_required_states_tt:0 "Own all states in §YSouthern Stranglethorn§!"
+form_country_lapadis_island_required_states_tt:0 "Own all states on §YIsland of Doctor Lapadis§!"
+form_country_gilijims_isle_required_states_tt:0 "Own all states on §YGilijim's Isle§!"
+form_country_zulgurub_coring_states_tt:0 "Core all states in §YZul'Gurub§!"
+form_country_northern_stranglethorn_coring_states_tt:0 "Core all states in §YNorthern Stranglethorn§!"
+form_country_southern_stranglethorn_coring_states_tt:0 "Core all states in §YSouthern Stranglethorn§!"
+form_country_lapadis_island_coring_states_tt:0 "Core all states on §YIsland of Doctor Lapadis§!"
+form_country_gilijims_isle_coring_states_tt:0 "Core all states on §YGilijim's Isle§!"
+
+form_kezan_category:0 "Unify Kezan"
+form_kezan_category_desc:0 "For years the Trade Princes have fought to be the richest goblin in all of Kezan. Perhaps through military conquest we can secure your name as they single Trade Prince of Kezan."
+formable_Kezan_Trade_Coalition:0 "Form the Kezan Trade Coalition"
+form_country_kezan_required_states_tt:0 "Own all states in §YKezan§!"
+form_country_kezan_coring_states_tt:0 "Core all states in §YKezan§!"
+
+form_thunder_bluff_category:0 "Form Thunder Bluff"
+form_thunder_bluff:0 "Form Thunder Bluff"
+
+restore_pandaren_empire_category:0 "Restore the Pandaren Empire"
+restore_pandaren_empire:0 "Restore the Pandaren Empire"
+
+#Core
+
+form_empire_of_jade_category:0 "Form the Empire of Jade"
+form_empire_of_jade:0 "Form the Empire of Jade"
+
+restore_jinyu_empire_category:0 "Restore the Jinyu Empire"
+restore_jinyu_empire:0 "Restore the Jinyu Empire"
+
+form_hozen_empire_category:0 "Form the Hozen Empire"
+form_hozen_empire:0 "Form the Hozen Empire"
+
+form_greater_mantid_empire_category:0 "Form the Greater Mantid Empire"
+form_greater_mantid_empire:0 "Form the Greater Mantid Empire"
+
+form_empire_of_zul_category:0 "Form the Empire of Zul"
+form_empire_of_zul:0 "Form the Empire of Zul"
+
+zul_empire_annex_and_core_gurubashi_tt:0 "Annex §Y[GUR.GetNameDef]§! and core all their core state"
+zul_empire_annex_and_core_amani_tt:0 "Annex §Y[AMA.GetNameDef]§! and core all their core state"
+zul_empire_annex_and_core_drakkari_tt:0 "Annex §Y[DRA.GetNameDef]§! and core all their core state"
+zul_empire_annex_and_core_farraki_tt:0 "Annex §Y[FAR.GetNameDef]§! and core all their core state"
+
+form_kingdom_of_uldum_category:0 "Form the Kingdom of Uldum"
+form_kingdom_of_uldum:0 "Form the Kingdom of Uldum"
+
+kingdom_of_uldum_control_of_uldum_tt:0 "Must be in control (directly or via puppets) of all of §YUldum§!"
+kingdom_of_uldum_annex_uldum_tt:0 "Annex and core all states in §YUldum§!"
+
+form_centaur_khanate_category:0 "Form the Centaur Khanate"
+form_centaur_khanate:0 "Form the Centaur Khanate"
+
+centaur_khanate_control_of_desolace_tt:0 "Must be in control (directly or via puppets) of all of §YDesolace§!"
+centaur_khanate_annex_desolace_tt:0 "Annex and core all states in §YDesolace§!"
+
+form_gorian_empire_category:0 "Form the Gorian Empire"
+form_gorian_empire:0 "Form the Gorian Empire"
+
+form_kingdom_of_agamaggan_category:0 "Form the Kingdom of Agamaggan"
+form_kingdom_of_agamaggan:0 "Form the Kingdom of Agamaggan"
+
+###############################################
+# Name Change decisions
+###############################################
+name_change:0 "Name Change"
+name_change_desc:0 "With our new government form in place, we can start showing the way our people have developed! We shall change our name for our pride!"
+
+###############################################
+# Construction decisions
+###############################################
+ongoing_construction_project_flag:0 "Ongoing construction project"
+
+rebuild_eldarath_decision:0 "Rebuild Eldarath"
+rebuild_eldarath_decision_desc:0 "Before the Sundering, Eldarath was a mighty fortified city. Rumors say that powerful artifacts used to be held here..."
+rebuild_temple_of_arkkoran_decision:0 "Rebuild Temple of Arkkoran"
+rebuild_temple_of_arkkoran_decision_desc:0 "The Ruins of Arkkoran were once a great city dedicated to Elune, now that they lie in our territory, maybe it is time for us to restore the ruins to their former glory."
+rebuild_nordressa_decision:0 "Restore Nordressa Village"
+rebuild_nordressa_decision_desc:0 "The Ruins of Nordressa stand near the northern cliffs of Azshara. Even though it was not an important location, it would still be in our interest to rebuild the little town."
+rebuild_eldrethar_decision:0 "Rebuild Eldre'thar"
+rebuild_eldrethar_decision_desc:0 "Eldre'thar used to be a highborne city before the Sundering, located within the Sishir Canyon in the Stonetalon Mountains, rebuilding the ruins into a proper city could prove to be a valuable strategic move."
+rebuild_constellas_decision:0 "Rebuild Constellas"
+rebuild_constellas_decision_desc:0 "Located on the mountains sides of Hyjal, the Ruins of Constellas lies on one of the rare path to the mountain top. It would be wise to restore this strategic area."
+
+
+rebuild_noonshade_decision:0 "Rebuild Noonshade"
+rebuild_noonshade_decision_desc:0 "Thousands of years ago Noonshade was the last trading post on the way to Zul’Farrak. In present day it lays abandoned and covered in sand. Rebuilding this trading post could help bring prosperity back to Zul”farrak and all of Tanaris."
+rebuild_broken_pillar_decision:0 "Rebuild Broken Pillar"
+rebuild_broken_pillar_decision_desc:0 "Constructed by the Gurubashi Empire thousands of years ago, The Broken pillar was once a great monument to the Loa in the western part of the empire. Now neglected and consumed by the sands of Tanaris the pillar offers little to no value to anyone. Rebuilding this great monument to the gods would be in our best interest."
+rebuild_eastmoon_decision:0 "Rebuild Eastmoon"
+rebuild_eastmoon_decision_desc:0 "Once a vibrant city in southern Tanaris, Eastmoon now lays in ruin. Repairing this once great city will help bring trade and prosperity back to Tanaris."
+rebuild_southmoon_decision:0 "Rebuild Southmoon"
+rebuild_southmoon_decision_desc:0 "Sitting at the gates of Uldum, Southmoon used to be a military garrison protecting the prospering city of Eastmoon. Abandoned thousands of years ago this garrison could once again provide useful should we choose to excavate it."
+
+rebuild_amthul_decision:0 "Rebuild Amthul"
+rebuild_amthul_decision_desc:0 "Thousands of years ago a Tol’vir known as Irmaat was tricked by Al’Akir into crafting weapons of immense power that when used blasted the city of Amtul under the sands, The time has come to restore the city to its former glory."
+rebuild_khintaset_decision:0 "Rebuild Khintaset"
+rebuild_khintaset_decision_desc:0 "Khintaset was once a bastion of Tol’vir society, however with years of neglect the sands of Uldum have destroyed much of the city, we should restore this city and incorporate it back into our nation."
+rebuild_ammon_decision:0 "Rebuild Ammon"
+rebuild_ammon_decision_desc:0 "Ammon was once a great temple, lost thousands of years ago to the sands. We should reclaim Ammon and restore the temple to its former glory."

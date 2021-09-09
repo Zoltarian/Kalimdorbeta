@@ -1,0 +1,33 @@
+
+state={
+	id=751
+	name="STATE_751"
+	resources={
+		mounts=5.000
+	}
+
+	history={
+		victory_points = { 
+			2940 5 
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			2940 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = AER
+
+	}
+
+	provinces={
+		2937 2939 2940 2942 
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

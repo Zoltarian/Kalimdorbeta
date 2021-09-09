@@ -1,0 +1,49 @@
+
+state={
+	id=254
+	name="STATE_254"
+	
+	resources={
+		mana=18
+	}
+
+	history={
+		
+		victory_points = {
+			3303 15
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			470 = {
+				bunker = 5
+			}				
+			3299 = {
+				bunker = 5
+			}	
+			3300 = {
+				bunker = 5
+			}
+			3303 = {
+				bunker = 5
+			}			
+			3304 = {
+				bunker = 5
+			}	
+			3305 = {
+				bunker = 5
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		470 3299 3300 3303 3304 3305 
+	}
+	manpower=28250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

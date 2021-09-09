@@ -1,0 +1,30 @@
+
+state={
+	id=1006
+	name="STATE_1006"
+
+	impassable = yes
+	history={
+		owner = SSM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SSM
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+			remove_core_of = SSM
+
+		}
+
+	}
+
+	provinces={
+		9716
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

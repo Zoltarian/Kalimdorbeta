@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Burning Blade Masters"
+
+	regiments = {
+		blade_master = { x = 0 y = 0 }
+		blade_master = { x = 0 y = 1 }
+		blade_master = { x = 0 y = 2 }
+		blade_master = { x = 1 y = 0 }
+		blade_master = { x = 1 y = 1 }
+		blade_master = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Burning Blade Grunts"
+	regiments = {
+		grunt = { x = 0 y = 0 }
+		grunt = { x = 0 y = 1 }
+		grunt = { x = 0 y = 2 }
+		grunt = { x = 1 y = 0 }
+		grunt = { x = 1 y = 1 }
+		grunt = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Burning Blade Masters"
+		location = 2886
+		division_template = "Burning Blade Masters"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Burning Blade Masters"
+		location = 2886
+		division_template = "Burning Blade Masters"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Burning Blade Masters"
+		location = 2865
+		division_template = "Burning Blade Masters"
+		start_experience_factor = 0.3
+	}	
+		
+	division = {
+		name = "Burning Blade Masters"
+		location = 2865
+		division_template = "Burning Blade Masters"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Burning Blade Grunts"
+		location = 2886
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Burning Blade Grunts"
+		location = 2865
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.3
+	}
+
+}

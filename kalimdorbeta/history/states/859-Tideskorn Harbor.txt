@@ -1,0 +1,36 @@
+
+state={
+	id=859
+	name="STATE_859"
+
+	history={
+		
+		victory_points = {
+			9250 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			9250 = {
+				naval_base = 5
+
+			}
+			9267 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = TID
+
+	}
+
+	provinces={
+		9237 9244 9250 9252 9263 9267 
+	}
+	manpower=55000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

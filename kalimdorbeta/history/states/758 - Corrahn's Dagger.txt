@@ -1,0 +1,28 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+
+		}
+
+	}
+
+	provinces={
+		1825 1826 1830 1832 1874 5173 
+	}
+	manpower=3824
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

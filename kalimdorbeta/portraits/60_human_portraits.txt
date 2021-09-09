@@ -1,0 +1,198 @@
+default = {
+	army = {
+		male = {
+			"gfx/leaders/generic/generic_human_1.dds"
+			"gfx/leaders/generic/generic_human_2.dds"
+			"gfx/leaders/generic/generic_human_3.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/generic_human_1.dds"
+			"gfx/leaders/generic/generic_human_2.dds"
+			"gfx/leaders/generic/generic_human_3.dds"
+		}
+	}
+}
+
+STO = {
+	army = {
+		male = {
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_land_1.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_land_2.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_land_3.dds"
+		}
+
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_sea_1.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_sea_2.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_sea_3.dds"
+		}
+	}
+}
+
+ALT = {
+	army = {
+		male = {
+			"gfx/leaders/ALT/Portrait_ALT_Generic_land_1.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/ALT/Portrait_ALT_Generic_land_1.dds"
+		}
+	}
+}
+
+STR = {
+	army = {
+		male = {
+			"gfx/leaders/STR/Portrait_STR_Generic_land_1.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_2.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_3.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_4.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/STR/Portrait_STR_Generic_land_1.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_2.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_3.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_4.dds"
+			"gfx/leaders/STR/Portrait_STR_Generic_land_5.dds"
+		}
+	}
+}
+
+LOR = {
+	army = {
+		male = {
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_1.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_2.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_3.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_4.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/LOR/Portrait_LOR_Generic_sea_1.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_sea_2.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_sea_3.dds"
+		}
+	}
+}
+
+KUL = {
+	army = {
+		male = {
+			"gfx/leaders/KUL/ktgen1.dds"
+			"gfx/leaders/KUL/ktgen2.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/KUL/ktgen1.dds"
+			"gfx/leaders/KUL/ktgen2.dds"
+		}
+	}
+}
+
+GIL = {
+	army = {
+		male = {
+			"gfx/leaders/GIL/gilgen1.dds"
+			"gfx/leaders/GIL/gilgen2.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/GIL/gilgen1.dds"
+			"gfx/leaders/GIL/gilgen2.dds"
+		}
+	}
+}
+
+TOL = {
+	army = {
+		male = {
+			"gfx/leaders/TOL/Portrait_baradin_Generic_land_1.dds"
+			"gfx/leaders/TOL/Portrait_baradin_Generic_land_2.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/TOL/Portrait_baradin_Generic_land_1.dds"
+			"gfx/leaders/TOL/Portrait_baradin_Generic_land_2.dds"
+		}
+	}
+}
+
+KAR = {
+	army = {
+		male = {
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_land_1.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_land_2.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_land_3.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_sea_1.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_sea_2.dds"
+			"gfx/leaders/STO/Portrait_Stormwind_Generic_sea_3.dds"
+		}
+	}
+}
+
+STH = {
+	army = {
+		male = {
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_1.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_2.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_3.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_4.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_land_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/LOR/Portrait_LOR_Generic_sea_1.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_sea_2.dds"
+			"gfx/leaders/LOR/Portrait_LOR_Generic_sea_3.dds"
+		}
+	}
+}
+
+HEA = {
+	army = {
+		male = {
+			"gfx/leaders/HEA/HEA_generic_1.dds"
+			"gfx/leaders/HEA/HEA_generic_2.dds"
+			"gfx/leaders/HEA/HEA_generic_3.dds"
+			"gfx/leaders/HEA/HEA_generic_4.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/HEA/HEA_generic_1.dds"
+			"gfx/leaders/HEA/HEA_generic_2.dds"
+			"gfx/leaders/HEA/HEA_generic_3.dds"
+			"gfx/leaders/HEA/HEA_generic_4.dds"
+		}
+	}
+}

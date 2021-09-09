@@ -1,0 +1,19 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Stonefin Transport Fleet"			
+		naval_base = 5889
+		task_force = {
+			name = "Stonefin Transport Fleet"			
+			location = 5889
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

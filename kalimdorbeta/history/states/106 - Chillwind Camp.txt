@@ -1,0 +1,35 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		wood=4.000
+	}
+
+	history={
+		victory_points = {
+			1916 5 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = ALT
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+
+		}
+
+	}
+
+	provinces={
+		1908 1916 1917 2983 2985 2988 2991 5197 7457 7479 7481 
+	}
+	manpower=4825
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

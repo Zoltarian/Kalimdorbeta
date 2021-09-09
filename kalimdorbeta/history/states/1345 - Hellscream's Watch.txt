@@ -1,0 +1,30 @@
+state={
+	id=1345
+	name="STATE_1345"
+	resources = {
+		ores=4
+		wood=5	
+	}
+
+	history={
+		owner = THT
+		victory_points = {
+			12456 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = THT
+
+	}
+
+	provinces={
+		12043 12437 12443 12456 12460 12465 12473 12842 
+	}
+	manpower=19000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

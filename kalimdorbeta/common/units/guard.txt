@@ -1,0 +1,53 @@
+sub_units = {
+
+	guard = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_hoa_army
+			category_hoa_support_units
+			category_hoa_frontline_units
+		}
+		
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 0	
+		default_morale = 0.3
+		manpower = 50
+		training_time = 180
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		# Important Ability
+		suppression_factor = 0.20
+		
+		essential = {
+			human_support_equipment
+			footman_equipment
+		}
+		
+		need = {
+			human_support_equipment = 10
+			footman_equipment = 40
+		}
+	}
+	
+}
+
+

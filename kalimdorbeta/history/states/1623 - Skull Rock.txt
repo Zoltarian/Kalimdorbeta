@@ -1,0 +1,33 @@
+
+state={
+	id=1623
+	name="STATE_1623"
+	resources={
+		ores=8
+		gunpowder=6
+	}
+
+	history={
+		owner = DWT
+		add_core_of = DWT
+		victory_points = {
+			1325 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		
+		617.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+		}
+	}
+
+	provinces={
+		1090 1325 5651
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

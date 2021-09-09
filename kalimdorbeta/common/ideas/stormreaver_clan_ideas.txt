@@ -1,0 +1,26 @@
+ideas = {
+
+	advisor = {
+
+	}
+
+	country = {
+
+		SRC_keep_an_eye_of_guldan_idea = {
+
+			allowed = {
+				original_tag = SRC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				horde_drift = 0.1
+			}
+		}
+
+	}
+
+}

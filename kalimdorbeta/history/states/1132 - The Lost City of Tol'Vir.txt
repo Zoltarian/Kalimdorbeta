@@ -1,0 +1,41 @@
+
+state={
+	id=1132
+	name="STATE_1132"
+	resources = {
+		wheat=14
+		oil=5
+		wood=7
+		ores=3
+		mounts=6
+	}
+
+	history={
+		owner = NEF
+		victory_points = {
+			11872 25
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			11854 = {
+				naval_base = 2
+			}
+			11837 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = NEF
+
+	}
+
+	provinces={
+		10853 11753 11837 11838 11840 11844 11849 11850 11851 11852 11854 11855 11858 11859 11861 11863 11864 11866 11868 11869 11872 11873 11876 11878 11879 11883 11886 11887 11890 11891 11894 11900
+	}
+	manpower=63000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

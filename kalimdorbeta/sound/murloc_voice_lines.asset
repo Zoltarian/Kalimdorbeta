@@ -1,0 +1,506 @@
+category = {
+ name = "Voices"
+    soundeffects = {
+        BLS_infantry_idle
+        BLS_infantry_neutral_combat
+        BLS_infantry_positive_combat
+        BLS_infantry_retreat
+        BLS_infantry_move_out
+
+		DFT_infantry_idle
+		DFT_infantry_neutral_combat
+		DFT_infantry_positive_combat
+		DFT_infantry_retreat
+		DFT_infantry_move_out
+
+		GMT_infantry_idle
+		GMT_infantry_neutral_combat
+		GMT_infantry_positive_combat
+		GMT_infantry_retreat
+		GMT_infantry_move_out
+
+		MIR_infantry_idle
+		MIR_infantry_neutral_combat
+		MIR_infantry_positive_combat
+		MIR_infantry_retreat
+		MIR_infantry_move_out
+
+		SAT_infantry_idle
+		SAT_infantry_neutral_combat
+		SAT_infantry_positive_combat
+		SAT_infantry_retreat
+		SAT_infantry_move_out
+
+		SIL_infantry_idle
+		SIL_infantry_neutral_combat
+		SIL_infantry_positive_combat
+		SIL_infantry_retreat
+		SIL_infantry_move_out
+
+    }
+
+}
+
+########## BLS
+
+soundeffect = {
+    name = "BLS_infantry_idle"
+    sounds = {
+		sound = Murloc_Idle_001
+        sound = Murloc_Idle_002
+        sound = Murloc_Idle_003
+        sound = Murloc_Idle_004
+		sound = Murloc_Generic_001
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BLS_infantry_neutral_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BLS_infantry_positive_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BLS_infantry_retreat"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BLS_infantry_move_out"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DFT
+
+soundeffect = {
+    name = "DFT_infantry_idle"
+    sounds = {
+		sound = Murloc_Idle_001
+        sound = Murloc_Idle_002
+        sound = Murloc_Idle_003
+        sound = Murloc_Idle_004
+		sound = Murloc_Generic_001
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DFT_infantry_neutral_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DFT_infantry_positive_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DFT_infantry_retreat"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DFT_infantry_move_out"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GMT
+
+soundeffect = {
+    name = "GMT_infantry_idle"
+    sounds = {
+		sound = Murloc_Idle_001
+        sound = Murloc_Idle_002
+        sound = Murloc_Idle_003
+        sound = Murloc_Idle_004
+		sound = Murloc_Generic_001
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GMT_infantry_neutral_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GMT_infantry_positive_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GMT_infantry_retreat"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GMT_infantry_move_out"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## MIR
+
+soundeffect = {
+    name = "MIR_infantry_idle"
+    sounds = {
+		sound = Murloc_Idle_001
+        sound = Murloc_Idle_002
+        sound = Murloc_Idle_003
+        sound = Murloc_Idle_004
+		sound = Murloc_Generic_001
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "MIR_infantry_neutral_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "MIR_infantry_positive_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "MIR_infantry_retreat"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "MIR_infantry_move_out"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SAT
+
+soundeffect = {
+    name = "SAT_infantry_idle"
+    sounds = {
+		sound = Murloc_Idle_001
+        sound = Murloc_Idle_002
+        sound = Murloc_Idle_003
+        sound = Murloc_Idle_004
+		sound = Murloc_Generic_001
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SAT_infantry_neutral_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SAT_infantry_positive_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SAT_infantry_retreat"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SAT_infantry_move_out"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SIL
+
+soundeffect = {
+    name = "SIL_infantry_idle"
+    sounds = {
+		sound = Murloc_Idle_001
+        sound = Murloc_Idle_002
+        sound = Murloc_Idle_003
+        sound = Murloc_Idle_004
+		sound = Murloc_Generic_001
+       	
+    }
+	volume = 1
+	max_audible = 1A
+	
+}
+soundeffect = {
+    name = "SIL_infantry_neutral_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SIL_infantry_positive_combat"
+    sounds = {
+        sound = Murloc_Combat_001
+        sound = Murloc_Combat_002
+        sound = Murloc_Combat_003
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SIL_infantry_retreat"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SIL_infantry_move_out"
+    sounds = {
+        sound = Murloc_Move_001
+        sound = Murloc_Move_002
+        sound = Murloc_Move_003
+		sound = Murloc_Move_004
+		sound = Murloc_Generic_001
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+
+sound = {
+	name = "Murloc_Idle_001"
+	file = "voice_lines/murloc/Murloc_Idle_1.wav"
+}
+sound = {
+	name = "Murloc_Idle_002"
+	file = "voice_lines/murloc/Murloc_Idle_2.wav"
+}
+sound = {
+	name = "Murloc_Idle_003"
+	file = "voice_lines/murloc/Murloc_Idle_3.wav"
+}
+sound = {
+	name = "Murloc_Idle_004"
+	file = "voice_lines/murloc/Murloc_Idle_4.wav"
+}
+
+sound = {
+	name = "Murloc_Combat_001"
+	file = "voice_lines/murloc/Murloc_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Murloc_Combat_002"
+	file = "voice_lines/murloc/Murloc_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Murloc_Combat_003"
+	file = "voice_lines/murloc/Murloc_Attack_3.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "Murloc_Move_001"
+	file = "voice_lines/murloc/Murloc_Move_1.wav"
+}
+sound = {
+	name = "Murloc_Move_002"
+	file = "voice_lines/murloc/Murloc_Move_2.wav"
+}
+sound = {
+	name = "Murloc_Move_003"
+	file = "voice_lines/murloc/Murloc_Move_3.wav"
+}
+sound = {
+	name = "Murloc_Move_004"
+	file = "voice_lines/murloc/Murloc_Move_4.wav"
+}
+
+sound = {
+	name = "Murloc_Generic_001"
+	file = "voice_lines/murloc/Murloc_Generic.wav"
+}

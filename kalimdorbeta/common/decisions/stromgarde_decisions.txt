@@ -1,0 +1,50 @@
+alliance_of_lordaeron_decision = {
+
+	STR_draw_closer = {
+		#icon =
+		cost = 50
+
+		fire_only_once = no
+
+		days_re_enable = 90
+
+		allowed = {
+		 original_tag = STR
+		}
+
+		available = {
+			has_country_flag = attended_meeting_of_seven_kingdoms
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = alliance
+				popularity = 0.05
+			}
+		}
+	}
+
+	STR_join_the_alliance = {
+		#icon =
+		cost = 0
+
+		fire_only_once = yes
+
+		allowed = {
+		 original_tag = STR
+		}
+
+		available = {
+			has_country_flag = attended_meeting_of_seven_kingdoms
+			has_government = alliance
+			alliance > 0.6
+		}
+
+		complete_effect = {
+			LOR = {
+				add_to_faction = STR
+			}
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=1393
+	name="STATE_1393"
+	resources={
+		mana=6
+		ores=4
+		wood=12
+		wheat=1
+	}
+
+	history={
+		owner = KAL
+		victory_points = {
+			12660 10
+		}	
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KAL
+
+		617.1.1 = {
+			owner = CDS
+			controller = CDS
+			add_core_of = CDS
+		}
+	}
+
+	provinces={
+		12075 12655 12659 12660 12665 12666 12671 12678 12685 12693
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,46 @@
+﻿division_template = {
+	name = "Temple Guardians"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Temple Guardians"
+		location = 2638
+		division_template = "Temple Guardians"
+		start_experience_factor = 0.3
+		}
+
+}
+		
+#air_wings = {
+#	### temple of atal hakkar
+#	324 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "GSR" 
+#			amount = 12
+#		}
+#		
+#		cas_equipment_1 = {
+#			owner = "GSR" 
+#			amount = 12
+#		}
+#		
+#		fighter_equipment_2 = {
+#			owner = "GSR" 
+#			amount = 13
+#		}
+#	}
+#}

@@ -1,0 +1,40 @@
+
+state={
+	id=944
+	name="STATE_944"
+	resources={
+		wood=6.000
+		oil=8.000
+	}
+
+	history={
+		owner = FAR
+		add_core_of = FAR
+		victory_points = {
+			9497 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+		617.1.1 = {
+			owner = GAD
+			controller = GAD
+			add_core_of = GAD
+
+			set_province_name = {
+		    id = 9497
+		    name = "Steamwheedle Port"
+			}
+		}
+
+	}
+
+	provinces={
+		9482 9497 9506 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

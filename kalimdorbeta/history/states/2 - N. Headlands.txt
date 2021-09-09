@@ -1,0 +1,30 @@
+
+state={
+	id=2
+	name="STATE_2"
+	resources={
+		mounts=12.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			1423 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		300 1406 1412 1418 1421 1423 1430 1431 1432 
+	}
+	manpower=23450
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

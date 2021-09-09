@@ -1,0 +1,2220 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	jade_lair_tech = {
+
+		path = {
+			leads_to_tech = jade_hall_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_statue_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = -2 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+	jade_hall_tech = {
+
+		research_speed_factor = 0.05
+		global_building_slots_factor = 0.25
+
+		on_research_complete = {
+			set_technology = {
+				tier_2_tech = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = jade_castle_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 594
+		folder = {
+			name = jade_administration_folder
+			position = { x = -2 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+	jade_castle_tech = {
+
+		research_speed_factor = 0.05
+		global_building_slots_factor = 0.25
+
+		on_research_complete = {
+			set_technology = {
+				tier_3_tech = 1
+			}
+		}
+
+		research_cost = 1.5
+
+		start_year = 600
+		folder = {
+			name = jade_administration_folder
+			position = { x = -2 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+	jade_statue_tech = {
+
+		path = {
+			leads_to_tech = jade_construction_tools_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_workshop_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 2 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+		}
+	}
+
+	jade_construction_tools_1 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = jade_construction_tools_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_harvesting_tools_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 2 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			construction_tools_technology
+		}
+	}
+
+	jade_construction_tools_2 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = jade_construction_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 2 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			construction_tools_technology
+		}
+	}
+
+	jade_construction_tools_3 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_construction_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 2 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			construction_tools_technology
+		}
+	}
+
+	jade_construction_tools_4 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = jade_construction_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 2 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			construction_tools_technology
+		}
+	}
+
+	jade_construction_tools_5 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 2 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			construction_tools_technology
+		}
+	}
+
+	jade_harvesting_tools_1 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = jade_harvesting_tools_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 0 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			resource_tools_technology
+		}
+	}
+
+	jade_harvesting_tools_2 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = jade_harvesting_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 0 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			resource_tools_technology
+		}
+	}
+
+	jade_harvesting_tools_3 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_harvesting_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			resource_tools_technology
+		}
+	}
+
+	jade_harvesting_tools_4 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = jade_harvesting_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 0 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			resource_tools_technology
+		}
+	}
+
+	jade_harvesting_tools_5 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 0 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			resource_tools_technology
+		}
+	}
+
+	jade_workshop_technology = {
+
+		enable_building = {
+			building = industrial_complex
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = jade_blacksmith_technology
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_industrial_society_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_agrian_society_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_mines_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_temple_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_wall_technology_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_scout_tower_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_rogues_guild
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 11 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			workshop_technology
+			city_growth_technology
+		}
+	}
+
+	jade_blacksmith_technology = {
+
+		enable_building = {
+			building = arms_factory
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = blacksmith_unit_technology_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_sharpened_blades_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_heavy_armor_11
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_improved_forge_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_blueprints_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 6 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			
+		}
+	}
+
+	jade_improved_forge_1 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		path = {
+			leads_to_tech = jade_improved_forge_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 7 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+	}
+
+	jade_improved_forge_2 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		path = {
+			leads_to_tech = jade_improved_forge_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 7 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+	}
+
+	jade_improved_forge_3 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_improved_forge_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 7 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+	}
+
+	jade_improved_forge_4 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		path = {
+			leads_to_tech = jade_improved_forge_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 7 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+	}
+
+	jade_improved_forge_5 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 7 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+	}
+
+	jade_blueprints_1 = {
+
+		line_change_production_efficiency_factor = 0.03
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.2
+
+		path = {
+			leads_to_tech = jade_blueprints_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 5 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			blueprint_technology
+		}
+	}
+
+	jade_blueprints_2 = {
+
+		line_change_production_efficiency_factor = 0.03
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.3
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_blueprints_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 610
+		folder = {
+			name = jade_administration_folder
+			position = { x = 5 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			blueprint_technology
+		}
+	}
+
+	jade_blueprints_3 = {
+
+		line_change_production_efficiency_factor = 0.04
+		production_factory_start_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.3
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 5 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			blueprint_technology
+		}
+	}
+
+	jade_industrial_society_1 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		xor = { jade_agrian_society_1 }
+
+		path = {
+			leads_to_tech = jade_industrial_society_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 10 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_industrial_society_2 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		path = {
+			leads_to_tech = jade_industrial_society_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 10 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_industrial_society_3 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		path = {
+			leads_to_tech = jade_industrial_society_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 10 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			
+		}
+	}
+
+	jade_industrial_society_4 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		path = {
+			leads_to_tech = jade_industrial_society_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 10 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_industrial_society_5 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 10 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_agrian_society_1 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+
+		xor = { jade_industrial_society_1 }
+
+		path = {
+			leads_to_tech = jade_agrian_society_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 12 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_agrian_society_2 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		path = {
+			leads_to_tech = jade_agrian_society_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 12 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_agrian_society_3 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_agrian_society_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 12 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			
+		}
+	}
+
+	jade_agrian_society_4 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		path = {
+			leads_to_tech = jade_agrian_society_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 12 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_agrian_society_5 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 12 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	jade_mines_tech = {
+
+		enable_building = {
+			building = iron_mine
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = jade_mine_cart_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 15 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	jade_mine_cart_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = jade_mine_cart_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 15 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	jade_mine_cart_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = jade_mine_cart_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 15 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	jade_mine_cart_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_mine_cart_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 15 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	jade_mine_cart_4 = {
+
+		local_resources_factor = 0.1
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 15 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	jade_temple_tech = {
+
+		enable_building = {
+			building = church
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = way_of_the_jade_fist_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 17 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	way_of_the_jade_fist_1 = {
+
+        on_research_complete = {
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+
+		path = {
+			leads_to_tech = way_of_the_jade_fist_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 17 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	way_of_the_jade_fist_2 = {
+
+        on_research_complete = {
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+
+		path = {
+			leads_to_tech = way_of_the_jade_fist_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 17 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	way_of_the_jade_fist_3 = {
+
+        on_research_complete = {
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+
+		path = {
+			leads_to_tech = way_of_the_jade_fist_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 17 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	way_of_the_jade_fist_4 = {
+
+        on_research_complete = {
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 17 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	jade_wall_technology_1 = {
+
+		enable_building = {
+			building = bunker
+			level = 2
+		}
+
+		path = {
+			leads_to_tech = jade_wall_technology_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 19 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	jade_wall_technology_2 = {
+
+		enable_building = {
+			building = bunker
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = jade_wall_technology_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 19 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	jade_wall_technology_3 = {
+
+		enable_building = {
+			building = bunker
+			level = 6
+		}
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_wall_technology_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 19 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	jade_wall_technology_4 = {
+
+		enable_building = {
+			building = bunker
+			level = 8
+		}
+
+		path = {
+			leads_to_tech = jade_wall_technology_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 19 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	jade_wall_technology_5 = {
+
+		enable_building = {
+			building = bunker
+			level = 10
+		}
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 19 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	jade_mage_tower_tech = {
+
+		enable_building = {
+			building = arcane_tower
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = jade_evocation_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 22 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mage_tower_technology
+			resource_building_technology
+		}
+	}
+
+	jade_evocation_tech_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = jade_evocation_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 22 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mage_tower_technology
+			resource_building_technology
+		}
+	}
+
+	jade_evocation_tech_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_evocation_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 22 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mage_tower_technology
+			resource_building_technology
+		}
+	}
+
+	jade_evocation_tech_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = jade_evocation_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 22 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mage_tower_technology
+			resource_building_technology
+		}
+	}
+
+	jade_evocation_tech_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 22 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mage_tower_technology
+			resource_building_technology
+		}
+	}
+
+	jade_scout_tower_1 = {
+
+		enable_building = {
+			building = radar_station
+			level = 1
+		}
+		path = {
+			leads_to_tech = jade_scout_tower_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_guard_tower_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jade_mage_tower_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 24 y = 3 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+
+	}
+
+	jade_scout_tower_2 = {
+
+		enable_building = {
+			building = radar_station
+			level = 2
+		}
+		path = {
+			leads_to_tech = jade_scout_tower_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 24 y = 5 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_scout_tower_3 = {
+
+		enable_building = {
+			building = radar_station
+			level = 3
+		}
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_scout_tower_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 24 y = 7 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_scout_tower_4 = {
+
+		enable_building = {
+			building = radar_station
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = jade_scout_tower_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 24 y = 9 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_scout_tower_5 = {
+
+		enable_building = {
+			building = radar_station
+			level = 5
+		}
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 24 y = 11 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_guard_tower_1 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 1
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = jade_guard_tower_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 26 y = 3 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_guard_tower_2 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 2
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = jade_guard_tower_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = jade_administration_folder
+			position = { x = 26 y = 5 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_guard_tower_3 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 3
+		}
+
+		industry_air_damage_factor = -0.05
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_guard_tower_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = jade_administration_folder
+			position = { x = 26 y = 7 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_guard_tower_4 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 4
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = jade_guard_tower_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = jade_administration_folder
+			position = { x = 26 y = 9 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_guard_tower_5 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 5
+		}
+
+		industry_air_damage_factor = -0.05
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = jade_administration_folder
+			position = { x = 26 y = 11 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	jade_rogues_guild = {
+
+		path = {
+			leads_to_tech = jade_encryption_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jade_decryption_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = jade_administration_folder
+			position = { x = 30 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+		}
+
+
+	}
+
+	jade_encryption_1 = {
+
+		encryption = 1
+
+		path = {
+			leads_to_tech = jade_encryption_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 29 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	jade_encryption_2 = {
+
+		encryption = 1
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_encryption_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 29 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	jade_encryption_3 = {
+
+		encryption = 1
+
+		path = {
+			leads_to_tech = jade_encryption_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 29 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	jade_encryption_4 = {
+
+		encryption = 1
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 29 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	jade_decryption_1 = {
+
+		decryption = 1
+
+		path = {
+			leads_to_tech = jade_decryption_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 31 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	jade_decryption_2 = {
+
+		decryption = 1
+
+		dependencies = {
+			jade_hall_tech = 1
+		}
+
+		path = {
+			leads_to_tech = jade_decryption_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 31 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	jade_decryption_3 = {
+
+		decryption = 1
+
+		path = {
+			leads_to_tech = jade_decryption_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 31 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	jade_decryption_4 = {
+
+		decryption = 1
+
+		dependencies = {
+			jade_castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = jade_administration_folder
+			position = { x = 31 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+}

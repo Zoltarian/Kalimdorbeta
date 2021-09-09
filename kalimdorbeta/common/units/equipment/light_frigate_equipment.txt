@@ -1,0 +1,143 @@
+equipments = {
+
+	light_frigate_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		interface_category = interface_category_screen_ships
+		priority = 1900
+
+		upgrades = { }
+		module_slots = { }
+		module_count_limit = { }
+		default_modules = { }
+
+		sub_detection = 5
+		lg_attack = 8.4
+		torpedo_attack = 20
+
+		anti_air_attack = 3.6
+		naval_range = 2500
+		armor_value = 5
+		
+
+		surface_detection = 15
+		surface_visibility = 15
+		lg_armor_piercing = 5.5
+		sub_attack = 0
+		
+		naval_speed = 27.7
+		max_strength = 120	
+		reliability = 0.64	
+		
+		build_cost_ic = 3129
+		resources = {
+			wood = 2
+			ores = 2
+			gunpowder =1
+			oil = 1
+		}
+		
+		manpower = 30
+	}
+
+	light_frigate_equipment_1 = {
+		year = 584
+		visual_level = 0
+		archetype = light_frigate_equipment
+		priority = 1900
+		module_slots = inherit
+
+	}
+
+	light_frigate_equipment_2 = {
+		year = 591
+		visual_level = 1
+		archetype = light_frigate_equipment
+		priority = 1900
+		parent = light_frigate_equipment_1
+		module_slots = inherit
+
+		sub_detection = 5
+		lg_attack = 10.5
+		torpedo_attack = 29
+		anti_air_attack = 7.5
+		naval_range = 3000
+		armor_value = 6
+		
+
+		surface_detection = 20
+		surface_visibility = 15
+		lg_armor_piercing = 7
+		sub_attack = 5
+		
+		naval_speed = 36.8
+		max_strength = 140	
+		reliability = 0.68		
+		
+		build_cost_ic = 3318
+
+		manpower = 40
+	}
+	light_frigate_equipment_3 = {
+		year = 594
+		visual_level = 1
+		archetype = light_frigate_equipment
+		priority = 1900
+		parent = light_frigate_equipment_2
+		module_slots = inherit
+		
+		sub_detection = 10
+		lg_attack = 12.6
+		torpedo_attack = 38
+		anti_air_attack = 7.5
+		naval_range = 4000
+		armor_value = 7
+		
+
+		surface_detection = 30
+		surface_visibility = 15
+		lg_armor_piercing = 8
+		sub_attack = 6
+		
+		naval_speed = 43.4
+		max_strength = 160
+		reliability = 0.72	
+		
+		build_cost_ic = 3528
+
+		manpower = 48
+	}
+	
+	light_frigate_equipment_4 = {
+		year = 597
+		visual_level = 1
+		archetype = light_frigate_equipment
+		priority = 1900
+		parent = light_frigate_equipment_3
+		module_slots = inherit
+		
+		sub_detection = 10
+		lg_attack = 15.7
+		torpedo_attack = 47
+		anti_air_attack = 10.4
+		naval_range = 4500
+		armor_value = 8
+		
+		surface_detection = 40
+		surface_visibility = 15
+		lg_armor_piercing = 9
+		sub_attack = 8
+		
+		naval_speed = 45.1
+		max_strength = 180
+		reliability = 0.736	
+		
+		build_cost_ic = 4063.5
+
+		manpower = 57
+	}
+	
+}

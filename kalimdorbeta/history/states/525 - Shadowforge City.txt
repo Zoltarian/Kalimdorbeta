@@ -1,0 +1,35 @@
+
+state={
+	id=525
+	name="STATE_525"
+	resources={
+		ores=48.000
+		mounts=12.000
+		gunpowder=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			5771 30 
+		}
+		victory_points = {
+			6251 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 3
+
+		}
+		add_core_of = DIC
+
+	}
+
+	provinces={
+		957 5563 5763 5771 6246 6251 6252 6388 
+	}
+	manpower=89000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

@@ -1,0 +1,61 @@
+﻿division_template = {
+	name = "Bog Beast"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Bog Beast"
+		location = 2625
+		division_template = "Bog Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bog Beast"
+		location = 2644
+		division_template = "Bog Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bog Beast"
+		location = 2629
+		division_template = "Bog Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bog Beast"
+		location = 2294
+		division_template = "Bog Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bog Beast"
+		location = 956
+		division_template = "Bog Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bog Beast"
+		location = 951
+		division_template = "Bog Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bog Beast"
+		location = 2670
+		division_template = "Bog Beast"
+		start_experience_factor = 0.2
+	}
+
+}

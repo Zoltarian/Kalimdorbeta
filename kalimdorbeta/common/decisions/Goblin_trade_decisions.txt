@@ -1,0 +1,663 @@
+#THIS FILE IS MISSING ITS EVENTS, UNCOMMENTING WILL CAUSE A 1 SECOND FREEZE EVERY TIME AN AI TRIES TO COMPLETE THESE DECISIONS
+#ONLY UNCOMMENT ONCE DECISIONS HAVE BEEN ADDED
+#	- ZAPEROX
+
+# Trade_union_war_trade_category = {
+
+# 	Trade_union_war_trade_alliance = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			STO = {
+# 				exists = yes
+# 				has_government = alliance
+# 			}
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = STO
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 		}
+
+# 		remove_effect = {
+# 			STO = { add_to_variable = { var = eng_gateway_to_europe_influence value = 5 } }
+# 			set_variable = { var = eng_temp_trade_influence value = STO.eng_gateway_to_europe_influence }
+# 			subtract_from_variable = { var = eng_temp_trade_influence value = BRC.ger_gateway_to_europe_influence }
+# 			set_variable = { var = ger_temp_trade_influence value = BRC.ger_gateway_to_europe_influence }
+# 			subtract_from_variable = { var = ger_temp_trade_influence value = STO.eng_gateway_to_europe_influence }
+# 			add_to_variable = { var = gateway_to_europe_influence_pp_total value = 10 }
+# 			hidden_effect = {
+# 				random_list = {
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 20 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 25 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 30 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 35 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 40 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 45 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 50 }
+# 					}
+# 				}
+# 				if = {
+# 					limit = {
+# 						STO = {
+# 							check_variable = { var = eng_temp_trade_influence value = 0 compare = greater_than }
+# 							OR = {
+# 								NOT = { has_country_flag = HOL_gateway_to_europe_britain_lead_flag }
+# 								has_country_flag = HOL_gateway_to_europe_germany_lead_flag
+# 							}
+# 						}
+# 					}
+# 					clr_country_flag = HOL_gateway_to_europe_germany_lead_flag
+# 					set_country_flag = HOL_gateway_to_europe_britain_lead_flag
+# 					#country_event = { id = mtg_netherlands.66 }
+# 					#GER = { country_event = { id = mtg_netherlands.66 } }
+# 				}
+# 				if = {
+# 					limit = {
+# 						BOO = {
+# 							check_variable = { var = ger_temp_trade_influence value = 0 compare = greater_than }
+# 							OR = {
+# 								NOT = { has_country_flag = HOL_gateway_to_europe_germany_lead_flag }
+# 								has_country_flag = HOL_gateway_to_europe_britain_lead_flag
+# 							}
+# 						}
+# 					}
+# 					clr_country_flag = HOL_gateway_to_europe_britain_lead_flag
+# 					set_country_flag = HOL_gateway_to_europe_germany_lead_flag
+# 					#country_event = { id = mtg_netherlands.67 }
+# 					#ENG = { country_event = { id = mtg_netherlands.67 } }
+# 				}
+# 			}
+# 		}
+# 	}
+
+# 	Trade_union_war_trade_horde = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			BRC = {
+# 				exists = yes
+# 				has_government = horde
+# 			}
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = BRC
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 		}
+
+# 		remove_effect = {
+# 			BRC = { add_to_variable = { var = ger_gateway_to_europe_influence value = 5 } }
+# 			set_variable = { var = ger_temp_trade_influence value = BRC.ger_gateway_to_europe_influence }
+# 			subtract_from_variable = { var = ger_temp_trade_influence value = STO.eng_gateway_to_europe_influence }
+# 			set_variable = { var = eng_temp_trade_influence value = STO.eng_gateway_to_europe_influence }
+# 			subtract_from_variable = { var = eng_temp_trade_influence value = BRC.ger_gateway_to_europe_influence }
+# 			add_to_variable = { var = gateway_to_europe_influence_pp_total value = 10 }
+# 			hidden_effect = {
+# 				random_list = {
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 20 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 25 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 30 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 35 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 40 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 45 }
+# 					}
+# 					10 = {
+# 						set_country_flag = { flag = HOL_gateway_to_europe_ai_timer_flag value = 1 days = 50 }
+# 					}
+# 				}
+# 				if = {
+# 					limit = {
+# 						BOO = {
+# 							check_variable = { var = eng_temp_trade_influence value = 0 compare = greater_than }
+# 							OR = {
+# 								NOT = { has_country_flag = HOL_gateway_to_europe_britain_lead_flag }
+# 								has_country_flag = HOL_gateway_to_europe_germany_lead_flag
+# 							}
+# 						}
+# 					}
+# 					clr_country_flag = HOL_gateway_to_europe_germany_lead_flag
+# 					set_country_flag = HOL_gateway_to_europe_britain_lead_flag
+# 					#country_event = { id = mtg_netherlands.66 }
+# 					#GER = { country_event = { id = mtg_netherlands.66 } }
+# 				}
+# 				if = {
+# 					limit = {
+# 						BOO = {
+# 							check_variable = { var = ger_temp_trade_influence value = 0 compare = greater_than }
+# 							OR = {
+# 								NOT = { has_country_flag = HOL_gateway_to_europe_germany_lead_flag }
+# 								has_country_flag = HOL_gateway_to_europe_britain_lead_flag
+# 							}
+# 						}
+# 					}
+# 					clr_country_flag = HOL_gateway_to_europe_britain_lead_flag
+# 					set_country_flag = HOL_gateway_to_europe_germany_lead_flag
+# 					#country_event = { id = mtg_netherlands.67 }
+# 					#ENG = { country_event = { id = mtg_netherlands.67 } }
+# 				}
+# 			}
+# 		}
+# 	}
+# 	################
+# ####ALLIANCE LEASES#####
+# #####################
+
+# 	Trade_union_war_trade_alliance_gun_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			STO = {
+# 				exists = yes
+# 				has_government = alliance
+# 			}
+# 			check_variable = { var = eng_temp_trade_influence value = 10 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = STO
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_guns_alliance.1}
+# 		}
+# 	}
+
+# 	Trade_union_war_trade_alliance_men_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			STO = {
+# 				exists = yes
+# 				has_government = alliance
+# 			}
+# 			check_variable = { var = eng_temp_trade_influence value = 25 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = STO
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_men_alliance.1}
+# 		}
+# 	}
+
+# 	Trade_union_war_trade_alliance_tech_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			STO = {
+# 				exists = yes
+# 				has_government = alliance
+# 			}
+# 			check_variable = { var = eng_temp_trade_influence value = 20 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = STO
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_tech_alliance.1}
+# 		}
+# 	}
+
+# 	Trade_union_war_trade_alliance_worker_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			STO = {
+# 				exists = yes
+# 				has_government = alliance
+# 			}
+# 			check_variable = { var = eng_temp_trade_influence value = 15 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = STO
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_worker_alliance.1}
+# 		}
+# 	}
+# 	###########
+# ####HORDE LEASES#####
+# #####################
+	
+# 	Trade_union_war_trade_horde_gun_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			BRC = {
+# 				exists = yes
+# 			}
+# 			check_variable = { var = ger_temp_trade_influence value = 10 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = BRC
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_guns_horde.1}
+# 		}
+# 	}
+
+# 	Trade_union_war_trade_horde_men_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			BRC = {
+# 				exists = yes
+# 			}
+# 			check_variable = { var = ger_temp_trade_influence value = 25 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = BRC
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_men_horde.1}
+# 		}
+# 	}
+
+# 	Trade_union_war_trade_horde_tech_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			BRC = {
+# 				exists = yes
+# 			}
+# 			check_variable = { var = ger_temp_trade_influence value = 20 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = BRC
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_tech_horde.1}
+# 		}
+# 	}
+
+# 	Trade_union_war_trade_horde_worker_lease = {
+
+# 		icon = eng_trade_unions_support
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		available = {
+# 			BRC = {
+# 				exists = yes
+# 			}
+# 			check_variable = { var = ger_temp_trade_influence value = 15 compare = greater_than_or_equals }
+# 		}
+
+# 		target_trigger = {
+# 			FROM = {
+# 				tag = BRC
+# 			}
+# 		}
+
+# 		days_remove = 10
+
+# 		cost = 10
+
+# 		fire_only_once = no
+
+# 		ai_will_do = {
+# 			factor = 0.1
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = BOO 
+# 				original_tag = STC 
+# 				original_tag = TVC 
+# 				original_tag = TIN 
+# 				original_tag = BIL
+# 			}
+# 		}
+
+# 		complete_effect = {
+# 			country_event = { id = goblin_trade_worker_horde.1}
+# 		}
+# 	}
+
+# }

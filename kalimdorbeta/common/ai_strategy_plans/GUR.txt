@@ -1,0 +1,34 @@
+Gurubashi_historical = {
+	name = "Gurubashi historical plan"
+	desc = "Essentially historical behaviour for Gurubashi"
+
+	enable = {
+		original_tag = GUR
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		GUR_politic_start
+		GUR_industrial_start
+		GUR_work_1
+		GUR_inf_1
+		GUR_mystery_greens
+		GUR_troll_hatehorde
+		GUR_trolls_alone
+		GUR_rally_the_tribe
+		GUR_defense_trolls
+	}
+	
+	focus_factors = {
+		GUR_rumble_in_jungle = 0
+	}
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+

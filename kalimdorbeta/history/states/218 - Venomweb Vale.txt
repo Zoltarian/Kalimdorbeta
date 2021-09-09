@@ -1,0 +1,35 @@
+
+state={
+	id=218
+	name="STATE_218"
+	
+	resources={
+		gunpowder=16
+	}
+
+	history={
+		
+		victory_points = {
+			4307 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+			
+		}
+
+	}
+
+	provinces={
+		702 4241 4242 4272 4273 4281 4304 4307 4314 
+	}
+	manpower=4825
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

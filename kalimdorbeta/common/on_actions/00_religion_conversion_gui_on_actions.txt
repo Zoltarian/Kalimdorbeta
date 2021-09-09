@@ -1,0 +1,68 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				setup_accepted_religion_arrays = yes
+				set_variable = { religion_conversion_cost = 50 }
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = religion_conversion_ai
+						option = NO_CONVERTING
+					}
+				}
+				set_variable = { global.RELIGION_CONVERSION_BLOCKED = 1 }
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_variable = global.RELIGION_CONVERSION_BLOCKED
+							is_ai = no
+						}
+						NOT = { has_variable = global.RELIGION_CONVERSION_BLOCKED }
+					}
+				}
+				every_owned_state = {
+					limit = {
+						has_variable = religion_conversion_progress
+					}
+					if = {
+						limit = {
+							is_owned_by = religion_conversion_country
+						}
+						add_to_variable = { religion_conversion_progress = 1 }
+						if = {
+							limit = {
+								check_variable = { religion_conversion_progress > -1 }
+							}
+							set_state_religion = yes
+							var:religion_conversion_country = {
+								add_to_array = { religion_conversion_complete_popup = PREV }
+							}
+							clear_variable = religion_conversion_daily_progress
+							clear_variable = religion_conversion_progress
+							PREV = { clear_variable = religion_conversion_country }
+							# set_temp_variable = { state_pop = state_population }
+							# multiply_temp_variable = { state_pop = 0.20 }
+							# multiply_temp_variable = { state_pop = -1 }
+							# log = "Root: [Root.GetName] State Population: [?state_pop]"
+							# add_manpower = state_pop
+						}
+					}
+				}
+			}
+			else = {
+				clear_variable = religion_conversion_daily_progress
+				clear_variable = religion_conversion_progress
+				clear_variable = religion_conversion_country
+			}
+		}
+	}
+}

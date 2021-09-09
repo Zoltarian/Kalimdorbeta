@@ -1,0 +1,33 @@
+
+state={
+	id=1323
+	name="STATE_1323"
+	resources = {
+		ores=5
+		gunpowder=3
+	}
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+		victory_points = {
+			12113 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		
+		616.1.1 = {
+			owner = GRM
+			controller = GRM
+			add_core_of = GRM
+		}
+	}
+
+	provinces={
+		242 12105 12107 12108 12112 12113
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,287 @@
+﻿division_template = {
+	name = "Amani Berserkers"
+
+	regiments = {
+
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Amani Spearman"
+
+	regiments = {
+
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Amani Scouts"
+
+	regiments = {
+
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Amani Bear Riders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+		knight = { x = 2 y = 0 }
+		knight = { x = 2 y = 0 }
+	}
+	priority = 1
+}
+
+units = {
+
+#####################
+#Eastern Plaguelands
+#####################
+
+	division = {
+		name = "1st Amani Berserkers"
+		location = 4425
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}
+
+#####################
+#Ghostlands
+#####################	
+	
+	division = {
+		name = "2nd Amani Berserkers"
+		location = 5692
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "3rd Amani Berserkers"
+		location = 4519
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}			
+	
+#####################
+#zul'aman
+#####################
+
+	division = {
+		name = "4th Amani Berserkers"
+		location = 4741
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "5th Amani Berserkers"
+		location = 4741
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "6th Amani Berserkers"
+		location = 5679
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Amani Berserkers"
+		location = 4720
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "8th Amani Berserkers"
+		location = 4720
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "11th Amani Berserkers"
+		location = 4720
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "12th Amani Berserkers"
+		location = 4720
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "13th Amani Berserkers"
+		location = 4720
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "14th Amani Berserkers"
+		location = 4720
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "15th Amani Berserkers"
+		location = 4772
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "16th Amani Berserkers"
+		location = 4772
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "17th Amani Berserkers"
+		location = 4772
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "18th Amani Berserkers"
+		location = 4772
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "19th Amani Berserkers"
+		location = 4772
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "20th Amani Berserkers"
+		location = 4772
+		division_template = "Amani Berserkers"
+		start_experience_factor = 0.2
+	}	
+
+	division = {
+		name = "1st Amani Scouts"
+		location =4772
+		division_template = "Amani Scouts"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "2nd Amani Scouts"
+		location = 4772
+		division_template = "Amani Scouts"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "3rd Amani Scouts"
+		location =4760
+		division_template = "Amani Scouts"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "4th Amani Scouts"
+		location = 4707
+		division_template = "Amani Scouts"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "1st Amani Bear Riders"
+		location = 4782
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "2nd Amani Bear Riders"
+		location = 4782
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Amani Bear Riders"
+		location =4710
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "4th Amani Bear Riders"
+		location = 4710
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "5th Amani Bear Riders"
+		location =4771
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "6th Amani Bear Riders"
+		location = 4771
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "7th Amani Bear Riders"
+		location =5730
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}	
+	
+	division = {
+		name = "8th Amani Bear Riders"
+		location = 5730
+		division_template = "Amani Bear Riders"
+		start_experience_factor = 0.2
+	}
+	
+
+}

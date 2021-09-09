@@ -1,0 +1,30 @@
+
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		
+		victory_points = {
+			8265 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			8259 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = TVC
+
+	}
+
+	provinces={
+		8118 8257 8258 8259 8264 8265 8267 8275 
+	}
+	manpower=44000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

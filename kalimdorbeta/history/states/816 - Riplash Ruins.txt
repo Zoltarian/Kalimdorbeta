@@ -1,0 +1,35 @@
+
+state={
+	id=816
+	name="STATE_816"
+	resources={
+		mana=14.000
+		ores=4.000
+	}
+
+	history={
+		
+		add_core_of = SKA
+
+		victory_points = {
+			8250 10
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			8239 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces={
+		8236 8237 8238 8239 8244 8245 8246
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

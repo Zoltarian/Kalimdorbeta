@@ -1,0 +1,90 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	dwarven_bunker = {
+
+		path = {
+			leads_to_tech = dwarf_hold
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = -2 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			dwarf_tier_technology
+		}
+	}
+
+	dwarf_hold = {
+
+		research_speed_factor = 0.025
+		global_building_slots_factor = 0.15
+
+		path = {
+			leads_to_tech = dwarf_great_hall
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			set_technology = {
+				tier_2_tech = 1
+			}
+		}
+
+		research_cost = 1.5
+
+		start_year = 594
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = -2 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			dwarf_tier_technology
+		}
+	}
+
+	dwarf_great_hall = {
+
+		research_speed_factor = 0.025
+		global_building_slots_factor = 0.15
+
+		on_research_complete = {
+			set_technology = {
+				tier_3_tech = 1
+			}
+		}
+
+		research_cost = 1.5
+
+		start_year = 600
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = -2 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			dwarf_tier_technology
+		}
+
+	}
+
+}

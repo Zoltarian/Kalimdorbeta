@@ -1,0 +1,30 @@
+
+state={
+	id=455
+	name="STATE_455"
+	resources={
+		mounts=22.000
+		ores=4.000
+	}
+
+	history={
+		
+		victory_points = {
+			4043 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+
+	}
+
+	provinces={
+		1011 3748 4019 4020 4024 4028 4033 4040 4043 5331 6093 6094 6097 
+	}
+	manpower=18925
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

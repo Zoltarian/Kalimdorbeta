@@ -1,0 +1,23 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+#TAG = {
+#	male = {
+#		names = { "Vyeron" "Alath" "Ithidor" "Ithevedon" "Dar'nian" "Saron" "Vya'themar" "Sa'thema" "Draeus" "Caidathenis" "Saeir" "Vaeran" "Karric" "Krenn'theol" "Vylesh" "Sanguis" "Valrad" "Velenthas" "Dra'themar" "Vor'lath" "Sartaris" "Saen" "Cain" "Valtis" "Salnath" "Dar'mir" "" }
+#		surnames = { }
+#		callsigns = { "Blood Marquis" "Blood Priest" "Blood Prince" "Lord of Blood" }
+#	}
+#	female = {
+#		names = { "Valmisa" "Cenice" "Sainla" "Noraeaeth" "Samarrin" "Darlis" "Vravelion" "Cailen" "Ithithelon" "Vyaith" "Vaevelion" "Zaith" "Saniar" }
+#		surnames = { }
+#		callsigns = { "Blood Marquess" "Blood Priestess" "Blood Princess" "Lady of Blood" }
+#	}
+#	surnames = { "Soulfury" "Blackhart" "Dualreaver" "Heartsense" "Paleshine" "Azureblade" "Dualguard" "Darksong" "Darkmind" "the Dread" "the Vile" "the Heartless" "the Merciless" "the Blooddrinker" "the Cruel" "the Reviled" "Bloodmourn" "Duskenhart" "Frozenheart" "Gloomglade"}
+#	callsigns = { "Vampyric One" "Neophyte" "Deathblade" "Bloodbearer" "Blood Knight" "Sanguine Reveler" "Darkfallen" }
+#}
+
+# DEV NOTE
+# San'layn have been modelled based on the Blood Elves.

@@ -1,0 +1,22 @@
+state={
+	id=1410
+	name="STATE_1410"
+	impassable = yes
+
+	history={
+		owner = BWT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BWT
+
+	}
+
+	provinces={
+		12057 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

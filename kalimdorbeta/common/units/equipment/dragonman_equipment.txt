@@ -1,0 +1,38 @@
+equipments = {
+
+	dragonman_equipment = {
+		year = 584
+
+		is_archetype = yes
+		picture = archetype_peon_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 3
+		resources = {
+			wheat = 1
+			eggs = 1
+			mana = 2
+		}
+	}
+	
+	dragonman_equipment_1 = {
+		year = 584
+
+		archetype = dragonman_equipment
+		priority = 50
+
+	}
+
+}

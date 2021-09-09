@@ -1,0 +1,34 @@
+
+state={
+	id=75
+	name="STATE_75" #loch Vernall/Bastion of Twilight
+	resources={
+		mana=22.000
+	}
+
+	history={
+		victory_points = {
+			5918 20 
+		}
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			
+			controller = DMC
+			add_core_of = DMC
+
+		}
+
+	}
+
+	provinces={
+		4665 4899 4906 4909 4913 4924 4932 4936 4946 5918 
+	}
+	manpower=14175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

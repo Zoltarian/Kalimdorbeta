@@ -1,0 +1,37 @@
+
+state={
+	id=98
+	name="STATE_98"
+	resources={
+		gunpowder=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			1455 15
+		}
+		victory_points = {
+			530 5
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			1455 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		530 1455 1456 1460 1461 1465 1466 1467 1471 1474 
+	}
+	manpower=110000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

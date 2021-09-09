@@ -1,0 +1,28 @@
+Stormwind_historical = {
+	name = "Stormwind historical plan"
+	desc = "Stops stormwind dealing with hogger"
+
+	enable = {
+		original_tag = STO
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		STO_legacy_of_the_gurubashi_war
+		STO_rebuild_the_nation
+		STO_repair_the_city
+	}
+
+	focus_factors = {
+		STO_elwynn_security = 0
+	}
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+

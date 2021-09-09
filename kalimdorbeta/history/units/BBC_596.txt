@@ -1,0 +1,182 @@
+﻿#division_template = {
+#	name = "Burning Blade Masters"
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+division_template = {
+	name = "Burning Blade Archers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Burning Blade Grunts"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Burning Blade Catapults"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		catapult = { x = 1 y = 0 }
+		catapult = { x = 1 y = 1 }
+		catapult = { x = 2 y = 0 }
+		catapult = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Burning Blade Spearman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+units = {
+#	division = {
+#		name = "1st Burning Blade Masters"
+#		location = 975
+#		division_template = "Burning Blade Masters"
+#		start_experience_factor = 0.3
+#		}
+#	division = {
+#		name = "2nd Burning Blade Masters"
+#		location = 3495
+#		division_template = "Burning Blade Masters"
+#		start_experience_factor = 0.3
+#		}	
+#	division = {
+#		name = "3rd Burning Blade Masters"
+#		location = 3571
+#		division_template = "Burning Blade Masters"
+#		start_experience_factor = 0.3
+#	}
+	division = {
+		name = "1st Burning Blade Grunts"
+		location = 3579
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+		}
+	division = {
+		name = "2nd Burning Blade Grunts"
+		location = 3581
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+		}		
+	division = {
+		name = "3rd Burning Blade Grunts"
+		location = 1036
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Burning Blade Grunts"
+		location = 6105
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Burning Blade Grunts"
+		location = 4819
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Burning Blade Grunts"
+		location = 3580
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Burning Blade Grunts"
+		location = 987
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8th Burning Blade Grunts"
+		location = 996
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9th Burning Blade Grunts"
+		location = 3510
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10th Burning Blade Grunts"
+		location = 5896
+		division_template = "Burning Blade Grunts"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Burning Blade Archers"
+		location = 4831
+		division_template = "Burning Blade Archers"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Burning Blade Archers"
+		location = 975
+		division_template = "Burning Blade Archers"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Burning Blade Archers"
+		location = 4784
+		division_template = "Burning Blade Archers"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Burning Blade Archers"
+		location = 4858
+		division_template = "Burning Blade Archers"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Burning Blade Spearman"
+		location = 987
+		division_template = "Burning Blade Spearman"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Burning Blade Spearman"
+		location = 4845
+		division_template = "Burning Blade Spearman"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Burning Blade Spearman"
+		location = 4796
+		division_template = "Burning Blade Spearman"
+		start_experience_factor = 0.1
+	}
+}

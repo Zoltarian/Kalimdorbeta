@@ -1,0 +1,107 @@
+guardian_of_tirisfal_decision = {
+
+#	send_for_medivh = {
+#
+#		allowed = {
+#			original_tag = STO
+#		}
+#
+#		available = {
+#
+#			country_exists = KAR
+#
+#			KAR = {
+#				has_country_flag = medivh_not_corrupted
+#			}
+#
+#		}
+#
+#		visible = {
+#			STO = {
+#				has_war = yes
+#			}
+#		}
+#
+#		fire_only_once = no
+#
+#		days_re_enable = 90
+#
+#		cost = 75
+#
+#		complete_effect = {
+#			KAR = { country_event = { id = medivh.1 } }
+#		}
+#	}
+
+}
+
+stormwind_si7_decision = {
+
+}
+
+stormwind_elwynn_militia = {
+
+}
+
+stormwind_army_reforms = {
+
+	STO_continued_army_reforms_decision = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_completed_focus = STO_anduin_lothars_reforms
+			has_army_experience > 75
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 500
+			modifier = {
+				add = 1000
+				date > 593.01.01
+			}
+		}
+		days_remove = 45
+
+		visible = {
+			OR = {
+				has_idea = STO_over_reliance_on_medivh_4
+				has_idea = STO_over_reliance_on_medivh_3
+				has_idea = STO_over_reliance_on_medivh_2
+				has_idea = STO_over_reliance_on_medivh_1
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = { has_idea = STO_over_reliance_on_medivh_4 }
+				swap_ideas = {
+					remove_idea = STO_over_reliance_on_medivh_4
+					add_idea = STO_over_reliance_on_medivh_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = STO_over_reliance_on_medivh_3 }
+				swap_ideas = {
+					remove_idea = STO_over_reliance_on_medivh_3
+					add_idea = STO_over_reliance_on_medivh_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = STO_over_reliance_on_medivh_2 }
+				swap_ideas = {
+					remove_idea = STO_over_reliance_on_medivh_2
+					add_idea = STO_over_reliance_on_medivh_1
+				}
+			}
+			else_if = {
+				limit = { has_idea = STO_over_reliance_on_medivh_1 }
+				remove_ideas = STO_over_reliance_on_medivh_1
+			}
+		}
+		complete_effect = {
+			army_experience = -75
+		}
+	}
+
+}

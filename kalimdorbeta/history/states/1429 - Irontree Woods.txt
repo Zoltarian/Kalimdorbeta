@@ -1,0 +1,39 @@
+
+state={
+	id=1429
+	name="STATE_1429"
+	resources = {
+		wood=6
+		ores=4
+		wheat=1
+		mana=5
+	}
+
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			13016 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			owner = DDW
+			controller = DDW
+			add_core_of = DDW
+
+		}
+
+	}
+
+	provinces={
+		317 12976 12981 12984 12986 12991 12993 12995 12998 13002 13003 13010 13016 13017 13026 13035 13212 
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

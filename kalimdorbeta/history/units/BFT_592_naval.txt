@@ -1,0 +1,19 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Bloodfin Transport Fleet"			
+		naval_base = 5481
+		task_force = {
+			name = "Bloodfin Transport Fleet"			
+			location = 5481
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

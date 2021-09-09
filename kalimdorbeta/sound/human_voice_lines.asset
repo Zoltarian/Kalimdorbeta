@@ -1,0 +1,914 @@
+category = {
+ name = "Voices"
+ soundeffects = {
+	LOR_infantry_idle
+	LOR_infantry_neutral_combat
+	LOR_infantry_positive_combat
+	LOR_infantry_retreat
+	LOR_infantry_move_out
+	
+	HEA_infantry_idle
+	HEA_infantry_neutral_combat
+	HEA_infantry_positive_combat
+	HEA_infantry_retreat
+	HEA_infantry_move_out
+	
+	STH_infantry_idle
+	STH_infantry_neutral_combat
+	STH_infantry_positive_combat
+	STH_infantry_retreat
+	STH_infantry_move_out
+	
+	DAL_infantry_idle
+	DAL_infantry_neutral_combat
+	DAL_infantry_positive_combat
+	DAL_infantry_retreat
+	DAL_infantry_move_out
+	
+	ALT_infantry_idle
+	ALT_infantry_neutral_combat
+	ALT_infantry_positive_combat
+	ALT_infantry_retreat
+	ALT_infantry_move_out
+
+	STR_infantry_idle	
+	STR_infantry_neutral_combat
+	STR_infantry_positive_combat
+	STR_infantry_retreat
+	STR_infantry_move_out
+	
+	GIL_infantry_idle
+	GIL_infantry_neutral_combat
+	GIL_infantry_positive_combat
+	GIL_infantry_retreat
+	GIL_infantry_move_out
+	
+	KUL_infantry_idle	
+	KUL_infantry_neutral_combat
+	KUL_infantry_positive_combat
+	KUL_infantry_retreat
+	KUL_infantry_move_out
+	
+	STO_infantry_idle	
+	STO_infantry_neutral_combat
+	STO_infantry_positive_combat
+	STO_infantry_retreat
+	STO_infantry_move_out
+	
+	RDR_infantry_idle	
+	RDR_infantry_neutral_combat
+	RDR_infantry_positive_combat
+	RDR_infantry_retreat
+	RDR_infantry_move_out
+	
+	DSK_infantry_idle
+	DSK_infantry_neutral_combat
+	DSK_infantry_positive_combat
+	DSK_infantry_retreat
+	DSK_infantry_move_out
+	
+	TOL_infantry_idle
+	TOL_infantry_neutral_combat
+	TOL_infantry_positive_combat
+	TOL_infantry_retreat
+	TOL_infantry_move_out
+
+ }
+
+}
+
+########## LOR
+
+soundeffect = {
+    name = "LOR_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "LOR_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		sound =	Human_Combat_Lordaeron_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LOR_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		sound =	Human_Combat_Lordaeron_001
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LOR_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "LOR_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## HEA
+
+soundeffect = {
+    name = "HEA_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "HEA_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		sound =	Human_Combat_Lordaeron_001
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HEA_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		sound =	Human_Combat_Lordaeron_001
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HEA_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HEA_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## STH
+
+soundeffect = {
+    name = "STH_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "STH_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		sound =	Human_Combat_Lordaeron_001
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STH_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		sound =	Human_Combat_Lordaeron_001
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STH_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STH_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DAL
+
+soundeffect = {
+    name = "DAL_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DAL_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DAL_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DAL_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DAL_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## ALT
+
+soundeffect = {
+    name = "ALT_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "ALT_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "ALT_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "ALT_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+}
+soundeffect = {
+    name = "ALT_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+}
+
+########## STR
+
+soundeffect = {
+    name = "STR_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "STR_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STR_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STR_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STR_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GIL
+
+soundeffect = {
+    name = "GIL_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GIL_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GIL_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GIL_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GIL_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## KUL
+
+soundeffect = {
+    name = "KUL_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "KUL_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "KUL_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "KUL_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "KUL_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## STO
+
+soundeffect = {
+    name = "STO_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "STO_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STO_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STO_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STO_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## RDR
+
+soundeffect = {
+    name = "RDR_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "RDR_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RDR_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RDR_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RDR_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DSK
+
+soundeffect = {
+    name = "DSK_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DSK_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DSK_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DSK_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DSK_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## TOL
+
+soundeffect = {
+    name = "TOL_infantry_idle"
+    sounds = {
+		sound = Human_Idle_001
+        sound = Human_Idle_002
+        sound = Human_Idle_003
+        sound = Human_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "TOL_infantry_neutral_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TOL_infantry_positive_combat"
+    sounds = {
+        sound = Human_Combat_001
+        sound = Human_Combat_002
+        sound = Human_Combat_003
+		
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TOL_infantry_retreat"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TOL_infantry_move_out"
+    sounds = {
+        sound = Human_Move_001
+        sound = Human_Move_002
+        sound = Human_Move_003
+		sound = Human_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Human_Idle_001"
+	file = "voice_lines/human/Human_Idle_1.wav"
+}
+sound = {
+	name = "Human_Idle_002"
+	file = "voice_lines/human/Human_Idle_2.wav"
+}
+sound = {
+	name = "Human_Idle_003"
+	file = "voice_lines/human/Human_Idle_3.wav"
+}
+sound = {
+	name = "Human_Idle_004"
+	file = "voice_lines/human/Human_Idle_4.wav"
+}
+
+sound = {
+	name = "Human_Combat_001"
+	file = "voice_lines/human/Human_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Human_Combat_002"
+	file = "voice_lines/human/Human_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Human_Combat_003"
+	file = "voice_lines/human/Human_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Human_Combat_Lordaeron_001"
+	file = "voice_lines/human/Human_Attack_Lordaeron_1.wav"
+}
+
+sound = {
+	name = "Human_Move_001"
+	file = "voice_lines/human/Human_Move_1.wav"
+}
+sound = {
+	name = "Human_Move_002"
+	file = "voice_lines/human/Human_Move_2.wav"
+}
+sound = {
+	name = "Human_Move_003"
+	file = "voice_lines/human/Human_Move_3.wav"
+}
+sound = {
+	name = "Human_Move_004"
+	file = "voice_lines/human/Human_Move_4.wav"
+}

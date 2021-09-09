@@ -1,0 +1,33 @@
+
+state={
+	id=1124
+	name="STATE_1124"
+	resources = {
+		wheat=8
+		ores=6
+		mana=10
+		wood=3
+	}
+
+	history={
+		owner = UNG
+		victory_points = {
+			10834 20
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = UNG
+
+	}
+
+	provinces={
+		10834 11174 11202
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

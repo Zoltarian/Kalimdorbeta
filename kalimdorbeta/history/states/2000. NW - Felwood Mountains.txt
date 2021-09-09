@@ -1,0 +1,20 @@
+state={
+	id=2000
+	name="STATE_2000"
+	impassable = yes
+
+	history={
+		owner = JFT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = JFT
+	}
+
+	provinces={
+		12502
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

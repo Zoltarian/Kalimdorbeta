@@ -1,0 +1,171 @@
+﻿capital = 1011
+
+set_research_slots = 3
+
+oob = "WSC_592"
+set_naval_oob = "WSC_592_naval"
+
+set_convoys = 40
+
+set_stability = 0.2
+set_war_support = 0.6
+
+add_ideas = {
+	clan
+	
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	orc_primary_race
+
+	primary_religion_demonology
+
+}
+
+give_guarantee = GAR
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+	large_frames = 1
+	battleship_tech_1 = 1
+	dreadnaught_tech_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = fel
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 100
+	old_gods = 0
+	titans = 0
+	neutral = 0
+}
+
+596.1.1 = {
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+		
+
+
+
+
+		naval_transport_2 = 1
+		aviary_tech = 1
+
+
+		blueprints_1 = 1
+
+
+
+
+
+
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+create_country_leader = {
+	name = "Grom Hellscream"
+	desc = "POLITICS_GROM_HELLSCREAM_DESC"
+	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Grom Hellscream"
+	desc = "POLITICS_GROM_HELLSCREAM_DESC"
+	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Grom Hellscream"
+	desc = "POLITICS_GROM_HELLSCREAM_DESC"
+	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Grom Hellscream"
+	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
+	traits = {  }
+	id = 74700
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Packleader Kargora"
+	picture = "gfx/leaders/WSC/packleader_kargora.dds"
+	traits = {  }
+	id = 74701
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Uruk Foecleaver"
+	picture = "gfx/leaders/WSC/uruk_foecleaver.dds"
+	traits = {  }
+	id = 74702
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Gargok"
+	picture = "gfx/leaders/WSC/gargok.dds"
+	traits = {  }
+	id = 74703
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

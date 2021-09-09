@@ -1,0 +1,30 @@
+
+state={
+	id=1413
+	name="STATE_1413"
+	resources={
+		ores=12
+		gunpowder=6
+	}
+
+	history={
+		
+		victory_points = {
+			8326 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = BIL
+
+	}
+
+	provinces={
+		8320 8323 8326 8329 8331 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

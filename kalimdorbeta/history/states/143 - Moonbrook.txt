@@ -1,0 +1,50 @@
+
+state={
+	id=143
+	name="STATE_143"
+	resources={
+		wheat=25
+	}
+
+	history={
+		
+		add_core_of = STO
+		add_core_of = WST
+
+		victory_points = {
+			2312 20
+		}
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+		}
+
+		617.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+		}
+	}
+
+	provinces={
+		2300 2302 2303 2304 2305 2306 2307 2308 2309 2310 2311 2312 2313 2740
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

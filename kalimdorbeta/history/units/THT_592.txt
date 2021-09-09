@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Thistlefur Ursa"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Thistlefur Shaman"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Thistlefur Ursa"
+		location = 12047
+		division_template = "Thistlefur Ursa"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Thistlefur Ursa"
+		location = 12047
+		division_template = "Thistlefur Ursa"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Thistlefur Ursa"
+		location = 12047
+		division_template = "Thistlefur Ursa"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Thistlefur Ursa"
+		location = 12047
+		division_template = "Thistlefur Ursa"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Thistlefur Ursa"
+		location = 12456
+		division_template = "Thistlefur Ursa"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Thistlefur Shaman"
+		location = 12047
+		division_template = "Thistlefur Shaman"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Thistlefur Shaman"
+		location = 12047
+		division_template = "Thistlefur Shaman"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Thistlefur Shaman"
+		location = 12456
+		division_template = "Thistlefur Shaman"
+		start_experience_factor = 0.1
+	}
+
+}

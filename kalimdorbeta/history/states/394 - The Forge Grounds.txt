@@ -1,0 +1,44 @@
+
+state={
+	id=394
+	name="STATE_394"
+	resources={
+		ores=6.000
+		gunpowder=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			2925 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = BRC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = BRC
+
+		}
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+
+		}
+
+	}
+
+	provinces={
+		939 2914 2916 2925 2927 2930 6922 
+	}
+	manpower=54750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

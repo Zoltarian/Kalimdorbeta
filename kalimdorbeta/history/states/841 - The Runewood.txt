@@ -1,0 +1,33 @@
+
+state={
+	id=841
+	name="STATE_841"
+	resources={
+		mana=16.000
+		wood =28.000
+	}
+
+	history={
+		
+		victory_points = {
+			9191 10 
+		}
+		victory_points = {
+			9217 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = BON
+
+	}
+
+	provinces={
+		8602 9206 9218 9226 9236 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

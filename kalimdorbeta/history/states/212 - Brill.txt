@@ -1,0 +1,36 @@
+
+state={
+	id=212
+	name="STATE_212"
+	resources={
+		mounts=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			4259 15 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+
+		}
+
+	}
+
+	provinces={
+		24 4201 4202 4210 4224 4229 4234 4259 4260 4279 4286 4688 6959 7449 
+	}
+	manpower=32500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

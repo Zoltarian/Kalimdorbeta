@@ -1,0 +1,37 @@
+
+state={
+	id=1010
+	name="STATE_1010"
+	resources={
+		mana=16
+	}
+
+	history={
+		
+		add_core_of = CAB
+
+		victory_points = {
+			10707 15
+		}
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = CAB
+		}
+	}
+
+	provinces={
+		6805 10707 10710
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

@@ -1,0 +1,66 @@
+﻿###########################
+#frostmane
+###########################
+
+add_namespace = frostmane
+
+#join horde faction
+country_event = {
+	id = frostmane.1
+	title = frostmane.1.t
+	desc = frostmane.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = { #accept
+        name = frostmane.1.option.1
+		
+		set_politics = {
+			ruling_party = horde
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = horde
+			popularity = 1
+		}
+		
+		BRC = {
+			add_to_faction = ROOT
+			country_event = { id = blackrock.24 }
+		}
+		
+		ai_chance = {
+			factor = 90
+			
+			modifier = {
+				factor = -110
+				is_historical_focus_on = yes
+			}
+			
+		}
+		
+	}
+	
+    option = { #reject
+        name = frostmane.1.option.2
+		
+		BRC = {
+			country_event = { id = blackrock.25 }
+		}
+		
+		ai_chance = {
+			factor = 10
+			
+			modifier = {
+				factor = 190
+				is_historical_focus_on = yes
+			}
+			
+		}
+		
+	} 
+	
+}

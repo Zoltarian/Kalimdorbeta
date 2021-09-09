@@ -1,0 +1,73 @@
+﻿division_template = {
+	name = "Tyr's Hand Militia"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Tyr's Hand Militia"
+		location = 4101
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Tyr's Hand Militia"
+		location = 4101
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Tyr's Hand Militia"
+		location = 4101
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Tyr's Hand Militia"
+		location = 4218
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Tyr's Hand Militia"
+		location = 4218
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Tyr's Hand Militia"
+		location = 4218
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Tyr's Hand Militia"
+		location = 647
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Tyr's Hand Militia"
+		location = 4101
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9th Tyr's Hand Militia"
+		location = 4101
+		division_template = "Tyr's Hand Militia"
+		start_experience_factor = 0.2
+	}
+	
+}

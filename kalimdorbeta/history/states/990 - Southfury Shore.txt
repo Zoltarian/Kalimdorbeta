@@ -1,0 +1,38 @@
+
+state={
+	id=990
+	name="STATE_990"
+	resources={
+		gunpowder=6
+		wood =1
+		ores=4
+		wheat=2
+	}
+
+	history={
+		owner = RZM
+		add_core_of = RZM
+		victory_points = {
+			10204 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+
+		}
+
+	}
+
+	provinces={
+		10182 10186 10191 10196 10203 10204 10214 10215 10221 10222 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=406
+	name="STATE_406"
+	resources={
+		mana=6.000
+	}
+
+	history={
+		
+		add_core_of = TSW
+
+		victory_points = {
+			2625 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+		}
+
+		617.1.1 = {
+			
+			controller = TSW
+			add_core_of = TSW
+		}
+	}
+
+	provinces={
+		942 946 2622 2625 2628 2634
+	}
+	manpower=5500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

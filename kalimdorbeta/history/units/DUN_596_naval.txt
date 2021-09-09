@@ -1,0 +1,24 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Dun Modr Coastal Fleet"			
+		naval_base = 525
+		task_force = {
+			name = "Dun Modr Coastal Fleet"			
+			location = 525 #menethil harbor
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+}

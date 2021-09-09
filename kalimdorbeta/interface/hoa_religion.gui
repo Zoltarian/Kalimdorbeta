@@ -1,0 +1,60 @@
+guiTypes = {
+	containerWindowType = {
+		name = "faith_points_container"
+		position = { x = 975 y = 4 }
+		
+		buttonType ={
+			name ="faith_points_bg_click"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+			shortcut = "ctrl+k"
+		}
+		
+		iconType = {
+			name ="faith_points_icon"
+			spriteType = "GFX_faith_points"
+			position = { x= 7 y = 4 }
+		}
+		
+		instantTextBoxType = {
+			name ="faith_points_text"
+			position = { x= 15 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?faith_points]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "FAITH_POINTS_TOOLTIP"
+			pdx_tooltip_delayed = "FAITH_POINTS_TOOLTIP_DELAYED"
+		}
+	}
+	
+	containerWindowType = {
+		name = "faith_points_box_container"
+		position = {x=950 y=50}
+		size = { width=270 height=100 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_BPT_areadef_conf_bg"
+		}
+
+		instantTextboxType = {
+			name = "faith_points_headline"
+			position = {x=14 y=6}
+			font = "hoi_18mbs"
+			text = "FAITH_POINTS"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+		}
+		
+	}
+
+}

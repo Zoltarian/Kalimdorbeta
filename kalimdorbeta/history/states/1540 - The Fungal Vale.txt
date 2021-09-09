@@ -1,0 +1,38 @@
+
+state={
+	id=1540
+	name="STATE_1540"
+
+	history={
+		
+		add_core_of = LOR
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		596.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+		}
+
+		600.1.1 = {
+			
+			remove_core_of = STO
+		}
+
+		617.1.1 = {
+			owner = DHY
+			controller = DHY
+			add_core_of = DHY
+		}
+	}
+
+	provinces={
+		1268 1807 1808 1813 1941 1947
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

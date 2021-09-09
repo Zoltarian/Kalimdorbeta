@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "Bruisers"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+division_template = {
+	name = "Blackwater Sailors"
+
+	regiments = {
+		hoa_sailor = { x = 0 y = 0 }
+		hoa_sailor = { x = 0 y = 1 }
+		hoa_sailor = { x = 0 y = 2 }
+		hoa_sailor = { x = 1 y = 0 }
+		hoa_sailor = { x = 1 y = 1 }
+		hoa_sailor = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Blackwater Bruisers"
+		location = 1571
+		division_template = "Bruisers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Blackwater Bruisers"
+		location = 1626
+		division_template = "Bruisers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Blackwater Bruisers"
+		location = 500
+		division_template = "Bruisers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Blackwater Sailors "
+		location = 1573
+		division_template = "Blackwater Sailors"
+		start_experience_factor = 0.2
+	}
+	
+
+}

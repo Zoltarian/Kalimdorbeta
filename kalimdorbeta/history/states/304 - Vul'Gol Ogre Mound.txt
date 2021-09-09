@@ -1,0 +1,42 @@
+
+state={
+	id=304
+	name="STATE_304" #Brightwood Quarry/Vul'Gol Ogre Mound
+	resources={
+		ores=18.000
+		gunpowder=4.000
+	}
+
+	history={
+		
+		add_core_of = STO
+
+		victory_points = {
+			2067 10
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+		596.1.1 = {
+			owner = SFC
+			controller = SFC
+			add_core_of = SFC
+		}
+		
+		600.1.1 = {
+			
+			controller = STO
+		}
+
+	}
+
+	provinces={
+		789 2067 2068 2070 2072 2074 2076
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

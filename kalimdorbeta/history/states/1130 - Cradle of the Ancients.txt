@@ -1,0 +1,31 @@
+
+state={
+	id=1130
+	name="STATE_1130"
+	resources = {
+		wood=6
+		oil=5
+		ores=3
+	}
+
+	history={
+		owner = NEF
+		victory_points = {
+			11880 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = NEF
+
+	}
+
+	provinces={
+		10854 10857 11848 11857 11860 11867 11870 11871 11875 11880 11881 11882 11884
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

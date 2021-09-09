@@ -1,0 +1,183 @@
+﻿capital = 1801
+
+oob = "BLF_592"
+
+set_convoys = 20
+
+set_research_slots = 3
+
+set_stability = 0.6
+set_war_support = 0.7
+
+add_ideas = {
+	
+	council
+	limited_conscription
+	preparing_for_war
+	limited_exports
+
+	black_dragon_primary_race
+	primary_trait_masters_of_the_sky
+	primary_trait_khazgoroths_blessing
+	primary_trait_masters_of_manipulation
+
+	primary_religion_followers_of_nzoth
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	arch_mage_equipment_tech_1 = 1
+	arch_mage_equipment_tech_2 = 1
+	
+	
+	support_equipment_tech = 1
+	
+
+	mount_taming_1 = 1
+
+	aviary_tech = 1
+	organic_flight = 1
+	fighter_breeds_1 = 1
+	endurance_breeds = 1
+
+	
+	
+	
+	
+	naval_transport_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+
+	
+	
+}
+
+set_politics = {
+	ruling_party = old_gods
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 8
+    death = 0
+    fel = 0
+    old_gods = 92
+    titans = 0
+    neutral = 0
+}
+
+596.1.1 = {
+	set_technology = {
+	footman_weapons_tech_1 = 1
+	footman_weapons_tech_2 = 1
+	footman_weapons_tech_3 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	arch_mage_equipment_tech_1 = 1
+	arch_mage_equipment_tech_2 = 1
+	
+	
+	
+	
+	support_equipment_tech = 1
+	
+	
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	support_breeds = 1
+	
+	
+	
+
+	
+	}
+}
+
+create_country_leader = {
+	name = "Deathwing"
+	desc = "POLITICS_DEATHWING_DESC"
+	picture = "deathwing.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Deathwing"
+	desc = "POLITICS_DEATHWING_DESC"
+	picture = "deathwing.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Deathwing"
+	desc = "POLITICS_DEATHWING_DESC"
+	picture = "deathwing.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Deathwing"
+	desc = "POLITICS_DEATHWING_DESC"
+	picture = "deathwing.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Deathwing"
+	picture = "deathwing.dds"
+	traits = {   }
+	id = 6000
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Nefarian"
+	picture = "gfx/leaders/generic/generic_dragon_black.dds"
+	traits = {   }
+	id = 6002
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Baltharus the Warborn"
+	picture = "Baltharus.dds"
+	traits = {   }
+	id = 6003
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

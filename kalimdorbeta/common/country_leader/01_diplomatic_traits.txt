@@ -1,0 +1,331 @@
+leader_traits = {
+
+##############################################
+#non tiered traits
+##############################################
+	
+	consort_idea = {
+	
+		stability_factor = 0.2
+			
+		ai_will_do = {
+			factor = 5
+		}
+	
+	}
+	
+	heir_idea = {
+	
+		war_support_factor = 0.15
+		stability_factor = 0.1
+			
+		ai_will_do = {
+			factor = 5
+		}
+	
+	}
+	
+##############################################
+#non military advisor traits
+##############################################
+
+	ambassador_idea_1 = { # any npcs sent to another nation
+		political_power_gain = 0.2
+		opinion_gain_monthly_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ambassador_idea_2 = { #non throw away npcs (more then 1 quest/appearance)
+		political_power_gain = 0.35
+		opinion_gain_monthly_factor = 0.075
+		
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	ambassador_idea_3 = { #reaccuring/main character
+		political_power_gain = 0.5
+		opinion_gain_monthly_factor = 0.1
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	vendor_idea_1 = { #vendor
+		consumer_goods_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	vendor_idea_2 = { #vendor (speicalized goods (pets/professions)
+		consumer_goods_factor = -0.075
+		
+		ai_will_do = {
+			factor = 3
+		}
+	
+	}
+	
+	vendor_idea_3 = { #vendor (quartermaster or tier sets vendor)
+		consumer_goods_factor = -0.1
+		
+		ai_will_do = {
+			factor = 5
+		}
+	
+	}
+	
+	
+	investigator_idea_1 = {
+		decryption_factor = 0.02
+		enemy_justify_war_goal_time = 0.05
+		drift_defence_factor = 0.03
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	investigator_idea_2 = {
+		decryption_factor = 0.04
+		enemy_justify_war_goal_time = 0.1
+		drift_defence_factor = 0.06
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+
+	investigator_idea_3 = {
+		decryption_factor = 0.1
+		enemy_justify_war_goal_time = 0.15
+		drift_defence_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+
+	
+    architect_idea_1 = {
+        global_building_slots_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    architect_idea_2 = {
+        global_building_slots_factor = 0.15
+        
+        ai_will_do = {
+            factor = 3
+        }
+    }
+	
+    architect_idea_3 = {
+        global_building_slots_factor = 0.2
+        
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	tinker_idea_1 = {	
+		research_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	tinker_idea_2 = {	
+		research_speed_factor = 0.075
+		
+		ai_will_do = {
+			factor = 3
+		}
+	
+	}
+	
+	tinker_idea_3 = {	
+		research_speed_factor = 0.1
+		
+		ai_will_do = {
+			factor = 5
+		}
+	
+	}
+	
+	explorer_idea_1 = {	
+		research_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	explorer_idea_2 = {	
+		research_speed_factor = 0.075
+		
+		ai_will_do = {
+			factor = 3
+		}
+	
+	}
+	
+	explorer_idea_3 = {	
+		research_speed_factor = 0.1
+		
+		ai_will_do = {
+			factor = 5
+		}
+	
+	}
+	
+	master_of_coin_idea_1 = {
+		consumer_goods_factor = -0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	master_of_coin_idea_2 = {	
+		consumer_goods_factor = -0.02
+		
+		ai_will_do = {
+			factor = 3
+		}
+	
+	}
+	
+	master_of_coin_idea_3 = {
+		consumer_goods_factor = -0.03
+		
+		ai_will_do = {
+			factor = 5
+		}
+	
+	}
+	
+    builder_idea_1 = {
+        
+        production_speed_buildings_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    builder_idea_2 = {
+        
+        production_speed_buildings_factor = 0.1
+        
+        ai_will_do = {
+            factor = 3
+        }
+    }
+	
+    builder_idea_3 = {
+        
+        production_speed_buildings_factor = 0.15
+        
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+    foreman_idea_1 = {
+        
+        local_resources_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    foreman_idea_2 = {
+        
+        local_resources_factor = 0.1
+        
+        ai_will_do = {
+            factor = 3
+        }
+    }
+	
+    foreman_idea_3 = {
+        
+        local_resources_factor = 0.15
+        
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+    noble_diplomat_idea_1 = {
+        
+        local_resources_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    noble_diplomat_idea_2 = {
+        
+        local_resources_factor = 0.1
+        
+        ai_will_do = {
+            factor = 3
+        }
+    }
+	
+    noble_diplomat_idea_3 = {
+        
+        local_resources_factor = 0.15
+        
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	horde_sympathiser = {
+		horde_drift = 0.1
+	}
+	
+	alliance_sympathiser = {
+		alliance_drift = 0.1
+	}
+	
+	nationalist_idea = {
+		neutral_drift = 0.1
+	}
+	
+	legion_spy_idea = {
+		fel_drift = 0.1
+	}
+	
+	twilight_cultist_idea = {
+		old_gods_drift = 0.1
+	}
+	
+	titan_herald_idea = {
+		titans_drift = 0.1
+	}
+	
+}

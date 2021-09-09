@@ -1,0 +1,107 @@
+﻿capital = 798
+
+oob = "MOK_592"
+
+set_research_slots = 3
+
+	set_convoys = 5
+	set_stability = 0.55
+	set_war_support = 0.3
+
+add_ideas = {
+	
+	clan
+	recruit_adventurers
+	early_military_development
+	export_focus
+	
+	mok_nathal_primary_race
+	
+	primary_religion_the_elemental_furies
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+	
+	mount_taming_1 = 1
+	
+	
+	naval_transport_1 = 1
+	
+}
+
+set_politics = {	
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Leoroxx"
+	desc = "POLITICS_LEOROXX_DESC"
+	picture = "gfx/leaders/MOK/leoroxx.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leoroxx"
+	desc = "POLITICS_LEOROXX_DESC"
+	picture = "gfx/leaders/MOK/leoroxx.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leoroxx"
+	desc = "POLITICS_LEOROXX_DESC"
+	picture = "gfx/leaders/MOK/leoroxx.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Leoroxx"
+	picture = "gfx/leaders/MOK/leoroxx.dds"
+	traits = {  }
+	id = 41700
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Rexxar"
+	picture = "gfx/leaders/MOK/rexxar.dds"
+	traits = {  }
+	id = 41701
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

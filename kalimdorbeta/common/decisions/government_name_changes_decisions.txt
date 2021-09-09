@@ -1,0 +1,36 @@
+name_change = {
+
+	STO_name_clan = {
+     icon = generic_prospect_for_resources
+     visible = { 
+          original_tag = STO
+          NOT = {
+          	has_cosmetic_tag = STO_Clan
+          	has_country_flag = STO_city
+          }
+          ROOT = {
+          has_idea = clan
+          }
+     	}
+     	complete_effect = {
+     		set_cosmetic_tag = STO_Clan
+     	}
+	}
+
+	STO_name_council = {
+     icon = generic_prospect_for_resources
+     visible = { 
+          original_tag = STO
+          NOT = {
+          	has_cosmetic_tag = STO_council
+          	has_country_flag = STO_city
+          }
+          ROOT = {
+          has_idea = council
+          }
+     	}
+     	complete_effect = {
+     		set_cosmetic_tag = STO_council
+     	}
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=1045
+	name="STATE_1045"
+	resources={
+		wood=3
+	}
+
+	history={
+		owner = WFT
+		add_core_of = WFT
+
+		victory_points = {
+			10159 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		617.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+		}
+	}
+
+	provinces={
+		9703 10145 10149 10159 10162
+	}
+	manpower=8500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

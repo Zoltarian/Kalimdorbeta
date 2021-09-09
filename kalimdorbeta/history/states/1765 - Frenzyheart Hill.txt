@@ -1,0 +1,27 @@
+
+state={
+	id=1765
+	name="STATE_1765"
+
+	history={
+		
+		add_core_of = RST
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			
+			controller = FHT
+			add_core_of = FHT
+		}
+	}
+
+	provinces={
+		9321
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

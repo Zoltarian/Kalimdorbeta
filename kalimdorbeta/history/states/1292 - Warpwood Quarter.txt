@@ -1,0 +1,39 @@
+
+state={
+	id=1292
+	name="STATE_1292"
+	resources = {
+		mana=10
+		wheat=8
+		wood=6
+		ores=4
+	}
+
+	history={
+		owner = WSS
+		add_core_of = WSS
+		victory_points = {
+			11500 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+
+		}
+		617.1.1 = {
+			
+			controller = GOR
+			add_core_of = GOR
+
+		}
+
+	}
+
+	provinces={
+		167 11001 11424 11444 11457 11464 11483 11490 11500
+	}
+	manpower=54000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+}

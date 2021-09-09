@@ -1,0 +1,31 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		ores=6.000
+		mana=8.000
+		wood =24.000
+	}
+
+	history={
+		
+		victory_points = {
+			8492 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = DRK
+
+	}
+
+	provinces={
+		8463 8489 8493 8508 8516 8526 8527 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

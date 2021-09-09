@@ -1,0 +1,22 @@
+state={
+	id=1288
+	name="STATE_1288"
+	impassable = yes
+
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RST
+
+	}
+
+	provinces={
+		10991
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

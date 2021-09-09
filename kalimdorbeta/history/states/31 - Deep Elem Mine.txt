@@ -1,0 +1,34 @@
+
+state={
+	id=31
+	name="STATE_31"
+	resources={
+		ores=16.000
+		wood =24.000
+	}
+
+	history={
+		
+		add_core_of = LOR
+		victory_points = {
+			3328 5
+		}
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		617.1.1 = {
+			owner = MRP
+			controller = MRP
+			add_core_of = MRP
+		}
+	}
+
+	provinces={
+		307 3323 3324 3326 3327 3328 3361 5267 5273 5275 5279 5280
+	}
+	manpower=7175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

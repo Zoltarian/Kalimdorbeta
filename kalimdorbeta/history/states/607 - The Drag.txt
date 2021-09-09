@@ -1,0 +1,40 @@
+
+state={
+	id=607
+	name="STATE_607"
+	resources={
+		wheat=8
+		eggs=4
+		ores=6
+		gunpowder=2
+	}
+
+	history={
+		owner = DWT
+		victory_points = {
+			1142 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = DWT
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+			remove_core_of = DWT
+
+		}
+
+	}
+
+	provinces={
+		1142 9762 9765 9766 9776 9780 
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

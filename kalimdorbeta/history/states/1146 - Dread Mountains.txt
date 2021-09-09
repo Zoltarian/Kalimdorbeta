@@ -1,0 +1,28 @@
+
+state={
+	id=1146
+	name="STATE_1146"
+	impassable = yes
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		617.1.1 = {
+			owner = HCT
+			controller = HCT
+			add_core_of = HCT
+		}
+	}
+
+	provinces={
+		592
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

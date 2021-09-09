@@ -1,0 +1,28 @@
+
+state={
+	id=1314
+	name="STATE_1314"
+
+	history={
+		
+		add_core_of = ZZT
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			owner = FRG
+			controller = FRG
+			add_core_of = FRG
+			remove_core_of = ZZT
+		}
+	}
+
+	provinces={
+		841 12777 12779 12780
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

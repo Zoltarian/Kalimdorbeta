@@ -1,0 +1,30 @@
+
+state={
+	id=834
+	name="STATE_834"
+	resources={
+		ores=22.000
+		wood =12.000
+	}
+
+	history={
+		
+		victory_points = {
+			8542 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MOO
+
+	}
+
+	provinces={
+		8511 8525 8529 8532 8534 8538 8542 8547 8552 8555 
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

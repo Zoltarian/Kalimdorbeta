@@ -1,0 +1,26 @@
+
+state={
+	id=440
+	name="STATE_440"
+	resources={
+		mana=4.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = IRO
+		add_core_of = FRT
+
+	}
+
+	provinces={
+		1015 1017 4038 4046 4047 4053 4057 4058 4067 4068 8584 
+	}
+	manpower=8200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

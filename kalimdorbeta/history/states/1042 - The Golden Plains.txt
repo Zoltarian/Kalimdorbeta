@@ -1,0 +1,38 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+	resources={
+		wheat=6
+		wood=5
+		mounts=12
+	}
+
+	history={
+		owner = DWN
+		add_core_of = DWN
+
+		victory_points = {
+			10074 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		
+		617.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+		}
+	}
+
+	provinces={
+		193 10063 10074 10090 10096 10098 10107 10108 10117 10379 10380 10381
+	}
+	manpower=44000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

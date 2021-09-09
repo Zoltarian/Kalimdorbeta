@@ -1,0 +1,171 @@
+﻿division_template = {
+	name = "Warsong Grunt"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Warsong Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Warsong Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Warsong Outriders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+##########################
+#nagrand (draenor)
+##########################
+	division = {
+		name = "1st Warsong Grunt"
+		location = 10464
+		division_template = "Warsong Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Warsong Grunt"
+		location = 6748
+		division_template = "Warsong Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Warsong Grunt"
+		location = 9798
+		division_template = "Warsong Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Warsong Grunt"
+		location = 10441
+		division_template = "Warsong Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Warsong Spearman"
+		location = 2238
+		division_template = "Warsong Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Warsong Spearman"
+		location = 2237
+		division_template = "Warsong Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Warsong Spearman"
+		location = 10456
+		division_template = "Warsong Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Warsong Hunter"
+		location = 9889
+		division_template = "Warsong Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Warsong Hunter"
+		location = 9890
+		division_template = "Warsong Hunter"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Warsong Outriders"
+		location = 10464
+		division_template = "Warsong Outriders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Warsong Outriders"
+		location = 10446
+		division_template = "Warsong Outriders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Warsong Outriders"
+		location = 881
+		division_template = "Warsong Outriders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Warsong Outriders"
+		location = 10442
+		division_template = "Warsong Outriders"
+		start_experience_factor = 0.2
+	}
+	
+
+##########################
+#ashran
+##########################
+	division = {
+		name = "5th Warsong Grunt"
+		location = 6529
+		division_template = "Warsong Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Warsong Grunt"
+		location = 6512
+		division_template = "Warsong Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Warsong Spearman"
+		location = 833
+		division_template = "Warsong Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Warsong Outriders"
+		location = 6521
+		division_template = "Warsong Outriders"
+		start_experience_factor = 0.2
+	}
+
+	
+
+}

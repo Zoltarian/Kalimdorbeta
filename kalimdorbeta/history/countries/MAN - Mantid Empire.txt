@@ -1,0 +1,72 @@
+﻿capital = 91
+
+oob = "MAN_592"
+
+set_naval_oob = "MAN_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	
+	tyrant
+	limited_conscription
+	early_military_development
+	export_focus
+
+	mantid_primary_race
+
+	primary_religion_followers_of_yshaarj
+}
+
+# According to the lore, the empire protect the sprites
+give_guarantee = RKS
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 100
+	titans = 0
+	neutral = 0
+}
+
+set_politics = {
+	ruling_party = old_gods
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Grand Empress Shek'zeer"
+	desc = "POLITICS_GRAND_EMPRESS_SHEKZEER_DESC"
+	picture = "gfx/leaders/MAN/grand_empress_shek'zeer.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Grand Empress Shek'zeer"
+	desc = "POLITICS_GRAND_EMPRESS_SHEKZEER_DESC"
+	picture = "gfx/leaders/MAN/grand_empress_shek'zeer.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

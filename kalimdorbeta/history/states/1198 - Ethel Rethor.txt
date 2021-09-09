@@ -1,0 +1,47 @@
+
+state={
+	id=1198
+	name="STATE_1198"
+	resources = {
+		wheat=4
+		oil=6
+		gunpowder=6
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			9318 15
+		}
+		victory_points = {
+			2326 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard=1
+			2326 = {
+				naval_base = 2
+			}
+			9318 = {
+				naval_base = 1
+			}
+
+		}
+		617.1.1 = {
+			owner = SBT
+			controller = SBT
+			add_core_of = SBT
+
+		}
+
+	}
+
+	provinces={
+		2326 9318 9320 9325 11679 11683 11686 11697 
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

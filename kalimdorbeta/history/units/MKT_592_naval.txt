@@ -1,0 +1,24 @@
+﻿units = {
+
+	fleet = {				
+		name = "Muckshell Southern Fleet"			
+		naval_base = 840
+		task_force = {
+			name = "Muckshell Southern Fleet"			
+			location = 840
+			
+			ship = {
+				name = "1st Muckshell Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MKT } }
+			}
+
+			ship = {
+				name = "2nd Muckshell Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MKT } }
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=507
+	name="STATE_507"
+	resources={
+		mounts=28.000
+	}
+
+	history={
+		victory_points = {
+			5032 20 
+		}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			buildings = {
+				air_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1071 5002 5018 5021 5025 5032 5035 5036 5051 5052 5056 5797 
+	}
+	manpower=84000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

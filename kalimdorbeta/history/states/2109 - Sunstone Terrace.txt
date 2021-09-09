@@ -1,0 +1,31 @@
+
+state={
+	id=2109
+	name="STATE_2109"
+	resources = {
+		oil=2
+		ores=3
+		wheat=4
+	}
+
+	history={
+		owner = ULD
+		victory_points = {
+			11759 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = ULD
+
+	}
+
+	provinces={
+		306 11752 11755 11756 11759 11761 11764 11765
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,1076 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	altar_of_storms_tech = {
+
+		path = {
+			leads_to_tech = blade_master_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = warlord_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = orc_death_knight_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = far_seer_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = orc_support_folder
+			position = { x = 8 y = 0 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	blade_master_tech = {
+
+		enable_subunits = {
+			blade_master
+		}
+
+		on_research_complete = {
+			set_technology = {
+				blade_master_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = blade_master_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = orc_support_folder
+			position = { x = 2 y = 2 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	blade_master_equipment_tech_1 = {
+
+		enable_equipments = {
+			blade_master_equipment_1
+		}
+
+		path = {
+			leads_to_tech = blade_master_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = blade_master_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = orc_support_folder
+			position = { x = 2 y = 4 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	blade_master_tier_1_upgrade_placeholder_1 = {
+
+		xor = { blade_master_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = blade_master_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 1 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	blade_master_tier_1_upgrade_placeholder_2 = {
+
+		xor = { blade_master_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = blade_master_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 3 y = 6 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	blade_master_equipment_tech_2 = {
+
+		enable_equipments = {
+			blade_master_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = blade_master_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = blade_master_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_support_folder
+			position = { x = 2 y = 8 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	blade_master_tier_2_upgrade_placeholder_1 = {
+
+		xor = { blade_master_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = blade_master_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 1 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	blade_master_tier_2_upgrade_placeholder_2 = {
+
+		xor = { blade_master_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = blade_master_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 3 y = 10 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	blade_master_equipment_tech_3 = {
+
+		enable_equipments = {
+			blade_master_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_support_folder
+			position = { x = 2 y = 12 }
+		}
+
+		categories = {
+			altar_technology
+			blade_master_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	warlord_tech = {
+
+		enable_subunits = {
+			warlord
+		}
+
+		on_research_complete = {
+			set_technology = {
+				warlord_equipment_tech_1 = 1
+			}
+		}
+	
+		path = {
+			leads_to_tech = warlord_equipment_tech_1
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 584
+	
+		folder = {
+			name = orc_support_folder
+			position = { x = 6 y = 2 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+	
+		}
+	}
+	
+	warlord_equipment_tech_1 = {
+	
+		enable_equipments = {
+			warlord_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = warlord_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = warlord_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 584
+	
+		folder = {
+			name = orc_support_folder
+			position = { x = 6 y = 4 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+	
+		}
+	}
+	
+	warlord_tier_1_upgrade_placeholder_1 = {
+	
+		xor = { warlord_tier_1_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = warlord_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 5 y = 6 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	warlord_tier_1_upgrade_placeholder_2 = {
+	
+		xor = { warlord_tier_1_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = warlord_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 7 y = 6 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	warlord_equipment_tech_2 = {
+	
+		enable_equipments = {
+			warlord_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = warlord_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = warlord_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_support_folder
+			position = { x = 6 y = 8 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	warlord_tier_2_upgrade_placeholder_1 = {
+	
+		xor = { warlord_tier_2_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = warlord_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 5 y = 10 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	warlord_tier_2_upgrade_placeholder_2 = {
+	
+		xor = { warlord_tier_2_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = warlord_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 7 y = 10 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	warlord_equipment_tech_3 = {
+	
+		enable_equipments = {
+			warlord_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_support_folder
+			position = { x = 6 y = 12 }
+		}
+	
+		categories = {
+			altar_technology
+			warlord_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	orc_death_knight_tech = {
+
+		enable_subunits = {
+			orc_death_knight
+		}
+
+		on_research_complete = {
+			set_technology = {
+				orc_death_knight_equipment_tech_1 = 1
+			}
+		}
+
+		xor = { far_seer_tech } 
+	
+		path = {
+			leads_to_tech = orc_death_knight_equipment_tech_1
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 584
+	
+		folder = {
+			name = orc_support_folder
+			position = { x = 10 y = 2 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+	
+		}
+	}
+	
+	orc_death_knight_equipment_tech_1 = {
+	
+		enable_equipments = {
+			orc_death_knight_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = orc_death_knight_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = orc_death_knight_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 584
+	
+		folder = {
+			name = orc_support_folder
+			position = { x = 10 y = 4 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+	
+		}
+	}
+	
+	orc_death_knight_tier_1_upgrade_placeholder_1 = {
+	
+		xor = { orc_death_knight_tier_1_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = orc_death_knight_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 9 y = 6 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_death_knight_tier_1_upgrade_placeholder_2 = {
+	
+		xor = { orc_death_knight_tier_1_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = orc_death_knight_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 11 y = 6 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_death_knight_equipment_tech_2 = {
+	
+		enable_equipments = {
+			orc_death_knight_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = orc_death_knight_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = orc_death_knight_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_support_folder
+			position = { x = 10 y = 8 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	orc_death_knight_tier_2_upgrade_placeholder_1 = {
+	
+		xor = { orc_death_knight_tier_2_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = orc_death_knight_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 9 y = 10 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_death_knight_tier_2_upgrade_placeholder_2 = {
+	
+		xor = { orc_death_knight_tier_2_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = orc_death_knight_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 11 y = 10 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	orc_death_knight_equipment_tech_3 = {
+	
+		enable_equipments = {
+			orc_death_knight_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_support_folder
+			position = { x = 10 y = 12 }
+		}
+	
+		categories = {
+			altar_technology
+			orc_death_knight_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	far_seer_tech = {
+
+		enable_subunits = {
+			far_seer
+		}
+
+		on_research_complete = {
+			set_technology = {
+				far_seer_equipment_tech_1 = 1
+			}
+		}
+
+		xor = { orc_death_knight_tech } 
+	
+		path = {
+			leads_to_tech = far_seer_equipment_tech_1
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 584
+	
+		folder = {
+			name = orc_support_folder
+			position = { x = 14 y = 2 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+	
+		}
+	}
+	
+	far_seer_equipment_tech_1 = {
+	
+		enable_equipments = {
+			far_seer_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = far_seer_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = far_seer_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 584
+	
+		folder = {
+			name = orc_support_folder
+			position = { x = 14 y = 4 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+	
+		}
+	}
+	
+	far_seer_tier_1_upgrade_placeholder_1 = {
+	
+		xor = { far_seer_tier_1_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = far_seer_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 13 y = 6 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	far_seer_tier_1_upgrade_placeholder_2 = {
+	
+		xor = { far_seer_tier_1_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = far_seer_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_support_folder
+			position = { x = 15 y = 6 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	far_seer_equipment_tech_2 = {
+	
+		enable_equipments = {
+			far_seer_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = far_seer_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = far_seer_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_support_folder
+			position = { x = 14 y = 8 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	far_seer_tier_2_upgrade_placeholder_1 = {
+	
+		xor = { far_seer_tier_2_upgrade_placeholder_2 }
+	
+		path = {
+			leads_to_tech = far_seer_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 13 y = 10 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	far_seer_tier_2_upgrade_placeholder_2 = {
+	
+		xor = { far_seer_tier_2_upgrade_placeholder_1 }
+	
+		path = {
+			leads_to_tech = far_seer_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_support_folder
+			position = { x = 15 y = 10 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	far_seer_equipment_tech_3 = {
+	
+		enable_equipments = {
+			far_seer_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_support_folder
+			position = { x = 14 y = 12 }
+		}
+	
+		categories = {
+			altar_technology
+			far_seer_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

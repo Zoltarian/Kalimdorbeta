@@ -1,0 +1,39 @@
+
+state={
+	id=592
+	name="STATE_592"
+	resources={
+		gunpowder=4.000
+		ores=4.000
+		oil=6.000
+		wood=2.000
+	}
+
+	history={
+		owner = RZM
+		victory_points = {
+			9743 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = RZM
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+			remove_core_of = RZM
+
+		}
+
+	}
+
+	provinces={
+		1075 6834 9737 9738 9740 9741 9743 9744 9745 9746 9747 9749 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=836
+	name="STATE_836"
+	resources={
+		ores=12.000
+		oil=4.000
+	}
+
+	history={
+		
+		add_core_of = DRK
+
+		victory_points = {
+			8464 15
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			dockyard = 1
+			industrial_complex = 2
+			8464 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		8449 8452 8464 8466 8472 8490
+	}
+	manpower=38000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

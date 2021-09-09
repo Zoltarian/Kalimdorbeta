@@ -1,0 +1,60 @@
+capital = 1953
+
+oob = "ROJ_592"
+
+set_research_slots = 3
+
+set_technology = {
+	jade_lair_tech = 1
+
+	jade_statue_tech = 1
+
+	jade_tiger_tech_1 = 1
+}
+
+add_ideas = {
+	ROJ_realm_of_jade_idea
+
+	
+	tyrant
+	recruit_adventurers
+	peacetime_economy
+	closed_economy
+
+	primary_religion_way_of_the_jade_fist
+
+	jade_statue_primary_race
+	pandaren_secondary_race
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Widow Greenpaw"
+	desc = "POLITICS_WIDOW_GREENPAW_DESC"
+	picture = "widow_greenpaw.dds"
+	ideology = neutral_type
+	traits = {
+		jade_witch_trait
+	}
+}
+
+
+create_field_marshal = { }
+
+create_corps_commander = { }

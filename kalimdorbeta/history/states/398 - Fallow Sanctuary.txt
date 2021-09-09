@@ -1,0 +1,42 @@
+
+state={
+	id=398
+	name="STATE_398"
+
+	resources={
+		wood = 6
+		mounts = 4
+	}
+
+	history={
+		
+		victory_points = {
+			2294 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = TSW
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+		617.1.1 = {
+			owner = FSA
+			controller = FSA
+			add_core_of = FSA
+		}
+	}
+
+	provinces={
+		955 2293 2294 2295
+	}
+	manpower=14500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

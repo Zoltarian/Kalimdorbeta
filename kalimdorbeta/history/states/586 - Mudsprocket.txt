@@ -1,0 +1,38 @@
+
+state={
+	id=586
+	name="STATE_586"
+	resources={
+		wood=5
+		oil=3
+		ores=3
+		wheat=1
+	}
+
+	history={
+		owner = ONY
+		add_core_of = ONY
+		victory_points = {
+			8988 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		617.1.1 = {
+			owner = GAD
+			controller = GAD
+			add_core_of = GAD
+
+		}
+
+	}
+
+	provinces={
+		8635 8972 8973 8974 8975 8983 8985 8988 8990 8992 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,63 @@
+#list all modifiers that will be used for specific sub unit or sub unit categories
+
+# modifier_army_sub_unit_[sub_unit or sub_unit_category]_attack_factor
+# modifier_army_sub_unit_[sub_unit or sub_unit_category]_defence_factor
+# modifier_army_sub_unit_[sub_unit or sub_unit_category]_speed_factor
+# will be being used by armies if they are included here
+
+#example
+#sub_unit_modifiers = {
+#	modifier_army_sub_unit_infantry_attack_factor   #modifiers for sub_unit infantry
+#	modifier_army_sub_unit_infantry_defence_factor
+#	modifier_army_sub_unit_infantry_speed_factor
+#	
+#
+#	modifier_army_sub_unit_category_all_infantry_attack_factor  #modifiers for sub_unit category all_infantry_attack
+#	modifier_army_sub_unit_category_all_infantry_defence_factor
+#	modifier_army_sub_unit_category_all_infantry_speed_factor
+#}
+
+sub_unit_modifiers = {
+
+ modifier_army_sub_unit_footman_attack_factor
+ modifier_army_sub_unit_footman_defence_factor
+ modifier_army_sub_unit_footman_speed_factor
+ 
+ modifier_army_sub_unit_hoa_sailor_attack_factor
+ modifier_army_sub_unit_hoa_sailor_defence_factor
+ modifier_army_sub_unit_hoa_sailor_speed_factor
+ 
+ modifier_army_sub_unit_pikeman_attack_factor
+ modifier_army_sub_unit_pikeman_defence_factor
+ modifier_army_sub_unit_pikeman_speed_factor
+ 
+ modifier_army_sub_unit_archer_attack_factor
+ modifier_army_sub_unit_archer_defence_factor
+ modifier_army_sub_unit_archer_speed_factor
+ 
+ modifier_army_sub_unit_ranger_attack_factor
+ modifier_army_sub_unit_ranger_defence_factor
+ modifier_army_sub_unit_ranger_speed_factor
+ 
+ modifier_army_sub_unit_heroic_infantry_attack_factor
+ modifier_army_sub_unit_heroic_infantry_defence_factor
+ modifier_army_sub_unit_heroic_infantry_speed_factor
+ 
+ modifier_army_sub_unit_paladin_attack_factor
+ modifier_army_sub_unit_paladin_defence_factor
+ modifier_army_sub_unit_paladin_speed_factor
+ 
+ modifier_army_sub_unit_hoa_spellcaster_attack_factor
+ modifier_army_sub_unit_hoa_spellcaster_defence_factor
+ modifier_army_sub_unit_hoa_spellcaster_speed_factor
+ 
+ modifier_army_sub_unit_heroic_caster_attack_factor
+ modifier_army_sub_unit_heroic_caster_defence_factor
+ modifier_army_sub_unit_heroic_caster_speed_factor
+ 
+ modifier_army_sub_unit_catapult_attack_factor
+ modifier_army_sub_unit_catapult_defence_factor
+ modifier_army_sub_unit_catapult_speed_factor
+
+
+}

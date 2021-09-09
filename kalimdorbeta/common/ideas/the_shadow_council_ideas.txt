@@ -1,0 +1,41 @@
+ideas = {
+	
+	country = {
+	
+		TSC_guldans_coma_idea = {
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -1
+				stability_factor = -0.25			
+			}
+		}
+		
+		TSC_guldans_scrutiny = {
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -1
+			}
+		}
+
+		TSC_coward_king = {
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army = 0.05
+			}
+		}
+	}
+
+	advisor = {
+
+	}
+	
+}

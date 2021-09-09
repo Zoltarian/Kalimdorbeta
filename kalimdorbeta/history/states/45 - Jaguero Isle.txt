@@ -1,0 +1,36 @@
+
+state={
+	id=45
+	name="STATE_45"
+	resources={
+		wood =8.000
+	}
+
+	history={
+		
+		victory_points = {  1618 10 }
+		buildings = {
+			infrastructure = 2
+			1623 = {
+				naval_base = 1
+
+			}
+
+		}
+		617.1.1 = {
+			owner = BSB
+			controller = BSB
+			add_core_of = BSB
+
+		}
+		add_core_of = BOO
+
+	}
+
+	provinces={
+		441 1614 1615 1617 1618 1620 1623 1624 1625 
+	}
+	manpower=9175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

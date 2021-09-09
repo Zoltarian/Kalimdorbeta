@@ -1,0 +1,78 @@
+﻿###########
+#dunmodr
+###########
+
+add_namespace = dunmodr
+
+country_event = {
+	id = dunmodr.1
+	title = dunmodr.1.t
+	desc = dunmodr.1.d
+	picture = GFX_report_event_german_parade_paris
+	fire_only_once = yes
+	trigger = {
+        AND = {
+            has_start_date > 595.12.31
+            has_start_date < 596.01.02
+        }
+		tag = DUN
+		OR = {
+			any_other_country = {
+				controls_state = 490
+				controls_state = 47
+				has_idea = orc_primary_race
+				has_war_with = DUN
+			}
+		}
+	}
+	option = {
+		name = dunmodr.1.a
+		DMC = {
+			white_peace = DUN
+			transfer_state = 495
+			transfer_state = 494
+			transfer_state = 479
+			transfer_state = 493
+			transfer_state = 492
+			transfer_state = 491
+			transfer_state = 478
+			transfer_state = 480
+			transfer_state = 490
+			transfer_state = 676
+			transfer_state = 489
+			transfer_state = 481
+			transfer_state = 482
+			transfer_state = 487
+			transfer_state = 488
+			transfer_state = 677
+			transfer_state = 488
+			transfer_state = 486
+			transfer_state = 483
+		}
+		BHC = {
+			white_peace = DUN
+			transfer_state = 476
+			transfer_state = 477
+			transfer_state = 675
+		}
+		BRC = {
+			white_peace = DUN
+			transfer_state = 47
+			transfer_state = 36
+			transfer_state = 484
+			transfer_state = 485
+		}
+		BBC = {
+			white_peace = DUN
+		}
+		SRC = {
+			white_peace = DUN
+		}
+		THC = {
+			white_peace = DUN
+		}
+		BTG = {
+			white_peace = DUN
+		}
+	}
+}

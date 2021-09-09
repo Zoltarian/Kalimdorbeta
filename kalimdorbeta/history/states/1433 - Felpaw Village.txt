@@ -1,0 +1,30 @@
+
+state={
+	id=1433
+	name="STATE_1433"
+	resources = {
+		wheat=8
+		wood=4
+		ores=5
+	}
+
+	history={
+		owner = DDW
+		victory_points = {
+			13100 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = DDW
+	}
+
+	provinces={
+		13079 13086 13100 13101 13103 13216
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

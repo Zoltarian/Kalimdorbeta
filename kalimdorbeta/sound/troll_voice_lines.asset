@@ -1,0 +1,344 @@
+category = {
+ name = "Voices"
+    soundeffects = {
+        FAR_infantry_idle
+        FAR_infantry_neutral_combat
+        FAR_infantry_positive_combat
+        FAR_infantry_retreat
+        FAR_infantry_move_out
+
+        GUR_infantry_idle
+        GUR_infantry_neutral_combat
+        GUR_infantry_positive_combat
+        GUR_infantry_retreat
+        GUR_infantry_move_out
+
+        STS_infantry_idle
+        STS_infantry_neutral_combat
+        STS_infantry_positive_combat
+        STS_infantry_retreat
+        STS_infantry_move_out
+
+        STT_infantry_idle
+        STT_infantry_neutral_combat
+        STT_infantry_positive_combat
+        STT_infantry_retreat
+        STT_infantry_move_out
+
+    }
+
+}
+
+########## FAR
+
+soundeffect = {
+    name = "FAR_infantry_idle"
+    sounds = {
+		sound = Troll_Idle_001
+        sound = Troll_Idle_002
+        sound = Troll_Idle_003
+        sound = Troll_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "FAR_infantry_neutral_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FAR_infantry_positive_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FAR_infantry_retreat"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "FAR_infantry_move_out"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GUR
+
+soundeffect = {
+    name = "GUR_infantry_idle"
+    sounds = {
+		sound = Troll_Idle_001
+        sound = Troll_Idle_002
+        sound = Troll_Idle_003
+        sound = Troll_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GUR_infantry_neutral_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GUR_infantry_positive_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GUR_infantry_retreat"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GUR_infantry_move_out"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## STS
+
+soundeffect = {
+    name = "STS_infantry_idle"
+    sounds = {
+		sound = Troll_Idle_001
+        sound = Troll_Idle_002
+        sound = Troll_Idle_003
+        sound = Troll_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "STS_infantry_neutral_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STS_infantry_positive_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STS_infantry_retreat"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STS_infantry_move_out"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## STT
+
+soundeffect = {
+    name = "STT_infantry_idle"
+    sounds = {
+		sound = Troll_Idle_001
+        sound = Troll_Idle_002
+        sound = Troll_Idle_003
+        sound = Troll_Idle_004
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "STT_infantry_neutral_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STT_infantry_positive_combat"
+    sounds = {
+        sound = Troll_Combat_001
+        sound = Troll_Combat_002
+        sound = Troll_Combat_003
+		sound = Troll_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STT_infantry_retreat"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STT_infantry_move_out"
+    sounds = {
+        sound = Troll_Move_001
+        sound = Troll_Move_002
+        sound = Troll_Move_003
+		sound = Troll_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Troll_Idle_001"
+	file = "voice_lines/troll/Troll_Idle_1.wav"
+}
+sound = {
+	name = "Troll_Idle_002"
+	file = "voice_lines/troll/Troll_Idle_2.wav"
+}
+sound = {
+	name = "Troll_Idle_003"
+	file = "voice_lines/troll/Troll_Idle_3.wav"
+}
+sound = {
+	name = "Troll_Idle_004"
+	file = "voice_lines/troll/Troll_Idle_4.wav"
+}
+
+sound = {
+	name = "Troll_Combat_001"
+	file = "voice_lines/troll/Troll_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Troll_Combat_002"
+	file = "voice_lines/troll/Troll_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Troll_Combat_003"
+	file = "voice_lines/troll/Troll_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Troll_Combat_004"
+	file = "voice_lines/troll/Troll_Attack_4.wav"
+}
+
+sound = {
+	name = "Troll_Move_001"
+	file = "voice_lines/troll/Troll_Move_1.wav"
+}
+sound = {
+	name = "Troll_Move_002"
+	file = "voice_lines/troll/Troll_Move_2.wav"
+}
+sound = {
+	name = "Troll_Move_003"
+	file = "voice_lines/troll/Troll_Move_3.wav"
+}
+sound = {
+	name = "Troll_Move_004"
+	file = "voice_lines/troll/Troll_Move_4.wav"
+}

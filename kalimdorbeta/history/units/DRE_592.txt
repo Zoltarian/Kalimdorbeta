@@ -1,0 +1,45 @@
+﻿#division_template = {
+#	name = "Draenei Vindicators"
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+
+division_template = {
+	name = "Telredor Guards"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	
+#	division = {
+#		name = "1st Vindicators"
+#		location = 6275 
+#		division_template = "Draenei Vindicators"
+#		start_experience_factor = 0.2
+#	}
+#	
+#	division = {
+#		name = "2nd Vindicators"
+#		location = 6290
+#		division_template = "Draenei Vindicators"
+#		start_experience_factor = 0.3
+#	}
+		
+}

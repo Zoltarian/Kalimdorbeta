@@ -1,0 +1,43 @@
+
+state={
+	id=787
+	name="STATE_787"
+	resources={
+		oil=8.000
+		gunpowder=6.000
+	}
+
+	history={
+		
+		add_core_of = LSC
+		victory_points = {
+			786 20 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+			6916 = {
+				naval_base = 8
+
+			}
+
+		}
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LSC
+
+		}
+
+	}
+
+	provinces={
+		786 904 5446 5448 5449 5483 5497 5499 5506 6864 6906 6916 
+	}
+	manpower=82000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "Kobold Tunneler"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Tunneler"
+		location = 10871
+		division_template = "Kobold Tunneler"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Tunneler"
+		location = 10870
+		division_template = "Kobold Tunneler"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+

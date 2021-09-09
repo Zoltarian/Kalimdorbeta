@@ -1,0 +1,29 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		wood =26.000
+		oil=6.000
+	}
+
+	history={
+		victory_points = {
+			5956 10 
+		}
+		
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = IRO
+
+	}
+
+	provinces={
+		192 1022 1035 3774 3775 3784 3792 3796 3804 3809 5952 5956 6095 6106 6107 
+	}
+	manpower=18100
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

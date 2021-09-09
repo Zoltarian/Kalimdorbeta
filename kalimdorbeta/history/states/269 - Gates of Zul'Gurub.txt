@@ -1,0 +1,29 @@
+
+state={
+	id=269
+	name="STATE_269"
+	resources={
+		mounts=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			1662 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+
+		}
+		add_core_of = GUR
+
+	}
+
+	provinces={
+		1662 1670 2167 2169 2172 5513 5521 5615 
+	}
+	manpower=55000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

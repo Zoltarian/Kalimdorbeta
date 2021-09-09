@@ -1,0 +1,41 @@
+
+state={
+	id=2107
+	name="STATE_2107"
+
+	history={
+		
+		victory_points = {
+			3277 5
+		}
+		buildings = {
+			infrastructure = 4
+			5747 = {
+				bunker = 5
+				coastal_bunker = 5
+			}
+			3286 = {
+				bunker = 5
+				coastal_bunker = 5
+			}
+			3281 = {
+				bunker = 5
+				coastal_bunker = 5
+			}
+			3277 = {
+				bunker = 5
+				coastal_bunker = 5
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		3277 3281 3286 5747 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

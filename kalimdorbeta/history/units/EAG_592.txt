@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Eaglehorn Warriors"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Eaglehorn Warriors"
+		location = 10160
+		division_template = "Eaglehorn Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Eaglehorn Warriors"
+		location = 10160
+		division_template = "Eaglehorn Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Eaglehorn Warriors"
+		location = 10160
+		division_template = "Eaglehorn Warriors"
+		start_experience_factor = 0.2
+	}
+
+}

@@ -1,0 +1,38 @@
+state={
+	id=1068
+	name="STATE_1068"
+	resources={
+		gunpowder=6
+		ores=10
+	}
+
+	history={
+		
+		add_core_of = LBC
+
+		victory_points = {
+			10588 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LBC
+		}
+	}
+
+	provinces={
+		239 5832 6710 8673 10583 10588 10592 10598
+	}
+	manpower=18375
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

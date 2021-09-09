@@ -1,0 +1,30 @@
+
+state={
+	id=947
+	name="STATE_947"
+	resources={
+		ores=4
+		gunpowder=6
+		oil=2
+	}
+
+	history={
+		owner = GRM
+		victory_points = {
+			9542 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GRM
+
+	}
+
+	provinces={
+		9530 9532 9537 9542 9546 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

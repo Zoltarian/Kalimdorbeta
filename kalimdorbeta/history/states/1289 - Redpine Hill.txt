@@ -1,0 +1,39 @@
+
+state={
+	id=1289
+	name="STATE_1289"
+
+	history={
+		
+		victory_points = {
+			3463 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+
+		}
+		617.1.1 = {
+			owner = RPT
+			controller = RPT
+			add_core_of = RPT
+
+		}
+
+	}
+
+	provinces={
+		3453 3459 3463 3466 5400 
+	}
+	manpower=36000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

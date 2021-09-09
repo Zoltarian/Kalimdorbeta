@@ -1,0 +1,26 @@
+###########################
+#Racials
+###########################
+
+add_namespace = racials
+
+country_event = {
+	id = racials.1
+	title = racials.1.t
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+			add_ideas = primary_trait_inner_peace
+		}
+}
+
+
+country_event = {
+	id = racials.2
+	title = racials.2.t
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+			add_ideas = primary_trait_quaking_palm
+		}
+}

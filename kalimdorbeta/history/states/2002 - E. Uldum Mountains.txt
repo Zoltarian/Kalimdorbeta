@@ -1,0 +1,20 @@
+state={
+	id=2002
+	name="STATE_2002"
+	impassable = yes
+
+	history={
+		owner = SPY
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SPY
+	}
+
+	provinces={
+		3944
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

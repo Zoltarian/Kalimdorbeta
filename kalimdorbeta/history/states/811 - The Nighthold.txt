@@ -1,0 +1,36 @@
+
+state={
+	id=811
+	name="STATE_811"
+	resources={
+		mana=126.000
+	}
+
+	history={
+		
+		add_core_of = SUR
+
+		victory_points = {
+			8340 30
+		}
+
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 2
+			8334 = {
+				naval_base = 3
+			}
+			8369 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		8334 8340 8342 8351 8353 8360 8367 8369 8374
+	}
+	manpower=89000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

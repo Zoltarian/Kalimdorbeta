@@ -1,0 +1,210 @@
+ideas = {
+
+	advisor = {
+	# Civilian Adviser
+	
+	    BTG_griselda_blackhand = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+	    BTG_jed_runewatcher = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+	    BTG_quartermaster_zigris = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+	    BTG_akumi = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_scarshield_quartermaster = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_quartermaster_kaoshin = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_worgmistress_othana = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_warlock_xi_lun = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_goraluk_anvilcrack = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+	}
+	
+	council_member = {
+	# Military Adviser
+	
+		BTG_turok = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+	    BTG_malkorok = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+	    BTG_omokk = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_ghok_bashguud = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_bannok_grimaxe = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_kurtok_the_slayer = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_terromath_the_seared = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_general_thorg_izog = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+		BTG_urok_doomhowl = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BTG
+			}
+		
+		}
+		
+	}
+	
+	country = {
+	
+		BTG_stonespire_clan = {
+		
+			picture = generic_race_ogre
+		
+			allowed = {
+				original_tag = BTG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+	
+	}
+	
+}

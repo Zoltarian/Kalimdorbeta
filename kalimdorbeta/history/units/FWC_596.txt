@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Frostwolf Grunts"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Frostwolf Raiders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+
+units = {
+	#grunts
+	division = {
+		name = "1st Frostwolf Grunts"
+		location = 598
+		division_template = "Frostwolf Grunts"
+		start_experience_factor = 0.2
+		}
+	division = {
+		name = "2nd Frostwolf Grunts"
+		location = 1840
+		division_template = "Frostwolf Grunts"
+		start_experience_factor = 0.2
+		}
+		#raiders
+			division = {
+		name = "1st Frostwolf Raiders"
+		location = 1837
+		division_template = "Frostwolf Raiders"
+		start_experience_factor = 0.3
+		}
+		
+}

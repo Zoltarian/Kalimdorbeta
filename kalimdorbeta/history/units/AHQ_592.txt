@@ -1,0 +1,455 @@
+﻿division_template = {
+	name = "Qiraji Gladiator"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hive'Zara Wasp"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Vekniss Stinger"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Obsidian Destroyer"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Vekniss Warrior"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+		mounted_footman = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Vekniss Guardian"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+		knight = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Anubisath Guardian"
+
+	regiments = {
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
+		royal_guard = { x = 1 y = 0 }
+		royal_guard = { x = 1 y = 1 }
+		royal_guard = { x = 1 y = 2 }
+		royal_guard = { x = 1 y = 3 }
+		royal_guard = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hive'Zara Colossus"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		paladin = { x = 1 y = 0 }
+		paladin = { x = 1 y = 1 }
+		paladin = { x = 1 y = 2 }
+		paladin = { x = 1 y = 3 }
+		paladin = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Qiraji Mindslayer"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 0 y = 3 }
+		arch_mage = { x = 0 y = 4 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+		arch_mage = { x = 1 y = 3 }
+		arch_mage = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+########################
+#stormwind
+########################
+
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11034
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11034
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11034
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11034
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 10814
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 10814
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11055
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11055
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11003
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Qiraji Gladiator"
+		location = 11003
+		division_template = "Qiraji Gladiator"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Hive'Zara Wasp"
+		location = 11009
+		division_template = "Hive'Zara Wasp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Zara Wasp"
+		location = 11009
+		division_template = "Hive'Zara Wasp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Zara Wasp"
+		location = 11009
+		division_template = "Hive'Zara Wasp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Zara Wasp"
+		location = 11027
+		division_template = "Hive'Zara Wasp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Zara Wasp"
+		location = 11027
+		division_template = "Hive'Zara Wasp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hive'Zara Wasp"
+		location = 11027
+		division_template = "Hive'Zara Wasp"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Vekniss Stinger"
+		location = 11059
+		division_template = "Vekniss Stinger"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Stinger"
+		location = 11059
+		division_template = "Vekniss Stinger"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Stinger"
+		location = 11003
+		division_template = "Vekniss Stinger"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Stinger"
+		location = 11003
+		division_template = "Vekniss Stinger"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Obsidian Destroyer"
+		location = 11067
+		division_template = "Obsidian Destroyer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Destroyer"
+		location = 11067
+		division_template = "Obsidian Destroyer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Destroyer"
+		location = 10814
+		division_template = "Obsidian Destroyer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Destroyer"
+		location = 10814
+		division_template = "Obsidian Destroyer"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Vekniss Warrior"
+		location = 11059
+		division_template = "Vekniss Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Warrior"
+		location = 11059
+		division_template = "Vekniss Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Warrior"
+		location = 11003
+		division_template = "Vekniss Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Warrior"
+		location = 11003
+		division_template = "Vekniss Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Warrior"
+		location = 11055
+		division_template = "Vekniss Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Warrior"
+		location = 11055
+		division_template = "Vekniss Warrior"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Vekniss Guardian"
+		location = 11067
+		division_template = "Vekniss Guardian"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Guardian"
+		location = 11059
+		division_template = "Vekniss Guardian"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Guardian"
+		location = 11003
+		division_template = "Vekniss Guardian"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Vekniss Guardian"
+		location = 11055
+		division_template = "Vekniss Guardian"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Anubisath Guardian"
+		location = 11017
+		division_template = "Anubisath Guardian"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Anubisath Guardian"
+		location = 11017
+		division_template = "Anubisath Guardian"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Hive'Zara Colossus"
+		location = 11027
+		division_template = "Hive'Zara Colossus"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Hive'Zara Colossus"
+		location = 11027
+		division_template = "Hive'Zara Colossus"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Qiraji Mindslayer"
+		location = 11059
+		division_template = "Qiraji Mindslayer"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Qiraji Mindslayer"
+		location = 11059
+		division_template = "Qiraji Mindslayer"
+		start_experience_factor = 0.3
+	}
+
+}
+
+air_wings = {
+	### temple of AQ
+	86 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "AHQ"
+			amount = 250
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "AHQ"
+			amount = 100
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "AHQ"
+			amount = 50
+		}
+
+	}
+	### the Comb
+	1100 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "AHQ"
+			amount = 250
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "AHQ"
+			amount = 100
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "AHQ"
+			amount = 50
+		}
+
+	}
+}

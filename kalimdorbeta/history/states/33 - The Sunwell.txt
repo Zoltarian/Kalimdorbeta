@@ -1,0 +1,65 @@
+
+state={
+	id=33
+	name="STATE_33"
+	resources={
+		mana=296.000
+	}
+
+	history={
+		
+		victory_points = {
+			3308 30 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			radar_station = 1
+			3296 = {
+				bunker = 5
+			}
+			3292 = {
+				bunker = 5
+			}
+			3289 = {
+				bunker = 5
+			}
+			3288 = {
+				bunker = 5
+			}
+			3290 = {
+				bunker = 5
+			}
+			3291 = {
+				bunker = 5
+			}
+			3297 = {
+				bunker = 5
+			}
+			3301 = {
+				bunker = 5
+			}
+			3307 = {
+				bunker = 5
+			}
+			3312 = {
+				bunker = 5
+			}
+			3308 = {
+				bunker = 5
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		739 3288 3289 3290 3291 3292 3293 3295 3296 3297 3298 3301 3307 3308 3312 
+	}
+	manpower=105000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

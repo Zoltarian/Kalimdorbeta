@@ -1,0 +1,27 @@
+
+state={
+	id=680
+	name="STATE_680"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+		}
+	}
+
+	provinces={
+		5663
+	}
+	manpower= 25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

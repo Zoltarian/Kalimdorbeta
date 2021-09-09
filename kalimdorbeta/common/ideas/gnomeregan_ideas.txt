@@ -1,0 +1,33 @@
+ideas = {
+
+	advisor = {
+		Gnomeregan_Tinkers = {
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = generic_research_bonus
+		}
+	}
+	country = {
+		GNO_in_defense_of_dun_morogh_1 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+		}
+		GNO_in_defense_of_dun_morogh_2 = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+	}
+}

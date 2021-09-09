@@ -1,0 +1,367 @@
+﻿###########
+#ironforge
+###########
+
+add_namespace = ironforge
+
+country_event = {
+	id = ironforge.1
+	title = ironforge.1.t
+	desc = ironforge.1.d
+	picture = GFX_madoran_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = ironforge.1.option.1
+		add_ideas = IRO_madorans_legacy
+	
+	}
+}
+
+country_event = {
+	id = ironforge.2
+	title = ironforge.2.t
+	desc = ironforge.2.d
+	picture = GFX_halls_of_ironforge_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = ironforge.2.option.1
+		
+		ai_chance = { factor = 34 }
+		
+		435 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+    option = {
+        name = ironforge.2.option.2
+		
+		ai_chance = { factor = 33 }
+		
+		433 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+    option = {
+        name = ironforge.2.option.3
+		
+		ai_chance = { factor = 33 }
+		
+		431 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+country_event = {
+	id = ironforge.3
+	title = ironforge.3.t
+	desc = ironforge.3.d
+	picture = GFX_kharanos_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = ironforge.3.option.1
+		
+		ai_chance = { factor = 50 }
+		
+		445 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_war_support = 0.05
+	}
+    option = {
+        name = ironforge.3.option.2
+		
+		ai_chance = { factor = 50 }
+		
+		445 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_stability = 0.05
+	}
+}
+country_event = {
+	id = ironforge.4
+	title = ironforge.4.t
+	desc = ironforge.4.d
+	picture = GFX_cathedral_of_light_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = ironforge.4.option.1
+		
+		ai_chance = { factor = 80 }
+		
+		445 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_manpower = 1000
+	}
+    option = {
+        name = ironforge.4.option.2
+		
+		ai_chance = { factor = 10 }
+		
+		490 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_manpower = 1000
+	}
+    option = {
+        name = ironforge.4.option.3
+		
+		ai_chance = { factor = 10 }
+		
+		507 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_manpower = 1000
+	}
+}
+country_event = {
+	id = ironforge.5
+	title = ironforge.5.t
+	desc = ironforge.5.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ironforge.5.option.1
+		create_faction = "coalition_of_khaz_modan"
+		add_to_faction = GNO
+		add_to_faction = NRT
+		hidden_effect = {
+			news_event = { hours = 1 id = news.518 }
+		}
+	}
+}
+country_event = {
+	id = ironforge.6
+	title = ironforge.6.t
+	desc = ironforge.6.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ironforge.6.option.1
+	}
+}
+country_event = {
+	id = ironforge.7
+	title = ironforge.7.t
+	desc = ironforge.7.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ironforge.7.option.1
+	}
+}
+country_event = {
+	id = ironforge.8
+	title = ironforge.8.t
+	desc = ironforge.8.d
+	picture = GFX_report_event_german_parade_paris
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ironforge.8.option.1
+		add_timed_idea = { idea = IRO_push_them_back days = 365 }
+	}
+}
+country_event = {
+	id = ironforge.9
+	title = ironforge.9.t
+	desc = ironforge.9.d
+	picture = GFX_report_event_german_parade_paris
+	fire_only_once = yes
+	trigger = {
+		tag = IRO
+		OR = {
+			any_other_country = {
+				controls_state = 458
+				has_idea = orc_primary_race
+				has_war_with = IRO
+			}
+		}
+	}
+	option = {
+		name = ironforge.9.option.1
+			hidden_effect = {
+				load_oob = "IRO_valley_guard"
+			}
+	}
+}
+country_event = {
+	id = ironforge.10
+	title = ironforge.10.t
+	desc = ironforge.10.d
+	picture = GFX_report_event_german_parade_paris
+	fire_only_once = yes
+	trigger = {
+		tag = IRO
+		OR = {
+			any_other_country = {
+				controls_state = 456
+				has_idea = orc_primary_race
+				has_war_with = IRO
+			}
+		}
+	}
+	option = {
+		name = ironforge.10.option.1
+			hidden_effect = {
+				load_oob = "IRO_kharanos_village_guard"
+			}
+	}
+}
+country_event = {
+	id = ironforge.11
+	title = ironforge.11.t
+	desc = ironforge.11.d
+	picture = GFX_report_event_german_parade_paris
+	fire_only_once = yes
+	trigger = {
+        AND = {
+            has_start_date > 595.12.31
+            has_start_date < 596.01.02
+        }
+		tag = IRO
+		OR = {
+			any_other_country = {
+				controls_state = 455
+				has_idea = orc_primary_race
+				has_war_with = IRO
+			}
+		}
+	}
+	option = {
+		name = ironforge.11.option.1
+		BHC = {	
+			white_peace = IRO		
+			white_peace = GNO
+			transfer_state = 459
+			transfer_state = 458
+			transfer_state = 568
+			transfer_state = 457
+			transfer_state = 456
+			transfer_state = 455
+			transfer_state = 452
+			transfer_state = 23
+			transfer_state = 445
+			transfer_state = 446
+			transfer_state = 443
+			transfer_state = 444
+			transfer_state = 447
+			transfer_state = 448
+			transfer_state = 440
+			transfer_state = 441
+			transfer_state = 437
+			transfer_state = 438
+			transfer_state = 468
+			transfer_state = 469
+			transfer_state = 470
+			transfer_state = 467
+			transfer_state = 464
+			transfer_state = 461
+			transfer_state = 462
+			transfer_state = 678
+			transfer_state = 679
+			transfer_state = 466
+			transfer_state = 465
+			transfer_state = 454
+			transfer_state = 471
+			transfer_state = 37
+			transfer_state = 472
+			transfer_state = 473
+			transfer_state = 474
+		}
+		DMC = {
+			white_peace = IRO
+			white_peace = GNO
+		}
+		BRC = {
+			white_peace = IRO
+			white_peace = GNO
+		}
+		BBC = {
+			white_peace = IRO
+			white_peace = GNO
+		}
+		SRC = {
+			white_peace = IRO
+			white_peace = GNO
+		}
+		THC = {
+			white_peace = IRO
+			white_peace = GNO
+		}
+		BTG = {
+			white_peace = IRO
+			white_peace = GNO
+		}
+		hidden_effect = {
+			IRO = { load_oob = "IRO_ironforge_reserve" }
+			GNO = { load_oob = "GNO_gnomeregan_reserve" }
+			news_event = { hours = 1 id = news.520 }
+		}
+	}
+}

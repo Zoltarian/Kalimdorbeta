@@ -1,0 +1,80 @@
+﻿l_english:
+
+###############################
+#leaders
+###############################
+
+###############################
+#units
+###############################
+
+###############################
+#advisors
+###############################
+
+###############################
+#decisions
+###############################
+MAU_hold_desolace_decision:0 "Force white peace with the Kaldorei"
+MAU_hold_desolace_decision_desc:0 "If we manage to push back the Kaldorei out of Desolace and hold their territories, we can force white peace."
+MAU_force_peace_with_KAL:0 "Holding Desolace"
+
+MAU_puppet_kolkar_decision:0 "Bring the Kolkar into the Fold"
+
+###############################
+#ideas
+###############################
+
+###############################
+#focus tree
+###############################
+MAU_the_stone_princess_nf:0 "The Stone Princess"
+MAU_the_stone_princess_nf_desc:0 "Theradras is the first and only daughter of the Stonemother: Therazane. Mother of the centaur race, she watch over her progeniture from the caverns of Maraudon and she is determined to do everything in her power to safeguard their existence."
+MAU_favoring_the_magram_nf:0 "Favoring the Magram"
+MAU_favoring_the_magram_nf_desc:0 "The Magram centaurs are mortal enemies to the Gelkis centaurs, as such, we can only favor one of the tribes."
+MAU_favoring_the_gelkis_nf:0 "Favoring the Gelkis"
+MAU_favoring_the_gelkis_nf_desc:0 "The Gelkis centaurs are mortal enemies to the Magram centaurs, as such, we can only favor one of the tribes.""
+MAU_ungrateful_children_nf:0 "Ungrateful Children"
+MAU_ungrateful_children_nf_desc:0 "Both the Magram and the Gelkis have rejected Theradras' offer. She decided to punish them and to deal with both of them at the same time."
+MAU_ending_the_gelkis_nf:0 "Ending the Gelkis"
+MAU_ending_the_gelkis_nf_desc:0 "It is time to subjugate the the Gelkis."
+MAU_ending_the_magram_nf:0 "Ending the Magram"
+MAU_ending_the_magram_nf_desc:0 "It is time to subjugate the the Magram."
+MAU_back_into_the_fold_nf:0 "Back into the Fold"
+MAU_back_into_the_fold_tt:0 "§CWill annex §!§H[MGC.GetNameWithFlag]§!§C or §!§H[GLC.GetNameWithFlag]§!§C if they are puppets of §!§H[MAU.GetNameWithFlag]§!§C.§!"
+MAU_theradras_request_nf:0 "Theradras' Request"
+MAU_old_hatreds_nf:0 "Old Hatreds"
+MAU_her_domain_nf:0 "Her Own Domain"
+MAU_path_to_the_sea_nf:0 "Path to the Sea"
+MAU_hating_the_hatefury_nf:0 "Hating the Hatefury"
+MAU_driving_the_elves_away_nf:0 "Driving the Elves Away"
+
+###############################
+#events
+###############################
+maraudon.1.t:0 "The Stone Princess"
+maraudon.1.d:0 "Theradras is the first and only daughter of the Stonemother: Therazane. When the titan-forged were sent to Azeroth, she managed to evade capture and was not sent to the Elemental Plane like most of her elementals brethren. Below the earth, where she hid, she eventually fell into a long slumber that would last for millenia.\n\n Some 1100 years before the opening of the Dark Portal, her rest was disturbed by tauren shamans mistaking her whispers for those of their own deity, the Earth Mother. Awakened but weakened by the duration of her sleep, she drained the lush land around her of their life energies to regain her powers. The flourishing land that were once known as Mashan'she by the tauren was transformed into the wasteland of Desolace that we now today.\n\n The destruction was so immense that it sent a ripple of life energies throught Azeroth, even reaching the Emerald Dream. Zaetar, first son of the demi-god Cenarius, the Lord of the Forest, felt these energies and decided to quit the Dream to investigate what had happened. He eventually discovered Theradras in her lair. Instead of imprisoning her like he should have done, he became attracted by the life energies she had stolen and eventually fell in love with her. Theradras was also charmed by the demi-god and from their union, the centaur race was born. Zaetar, seeing the horrible offspring to whom he had given life, was disgusted at their sight. The firstborns, seeing the displeasement in the eyes of their father, decided to brutally murder him. Theradras firmly disaproved of this action and the centaurs, realizing that they had broken the heart of their beloved mother, begged for forgiveness and promised to the honor the memory of their father.\n\n Theradras then entombed Zaetar's spirit in her lair that would later be named Maraudon and treated as holy ground by the centaur. To this day, Theradras still watch over her progeniture from the caverns of Maraudon and she is determined to do everything in her power to safeguard their existence. "
+maraudon.1.option.1:0 "May Zaetar rest in peace."
+maraudon.2.t:0 "Request from Theradras"
+maraudon.2.d:0 "From her lair in Maraudon, Princess Theradras, Mother of All Centaurs, have sent us a request. Calling us her favored children, she wish us to serve her under her direct command."
+maraudon.2.option.1:0 "Of course! Everything our great mother."
+maraudon.2.option.1.d:0 "§RWe will be §!§Hpuppeted§!§R by §!§H[MAU.GetNameWithFlag]§!§R once the news reach Princess Theradras.§!"
+maraudon.2.option.2:0 "No, we cannot accept such request."
+maraudon.3.t:0 "The tribe accepted!"
+maraudon.3.d:0 "Following our request, our favored children have decided to accept!"
+maraudon.option.1:0 "Excellent news!"
+maraudon.4.t:0 "The tribe refused!"
+maraudon.4.d:0 "The tribe refused our offer."
+maraudon.4.option.1:0 "Well, let's ask the other tribe."
+maraudon.4.option.2:0 "What a bunch of ungrateful children, I'll teach them myself!"
+maraudon.5.t:0 "Theradras' Request"
+maraudon.5.d:0 "Princess Theradras, Mother of All Centaurs have requested that we give her ownership over [1191.GetName]."
+maraudon.5.option.1:0 "Of course."
+maraudon.5.option.1.d:0 "§!§H[MAU.GetNameWithFlag]§!§R will be the new owner of §!§H[1191.GetName]§!§R.§!"
+maraudon.5.option.2:0 "That will be a no."
+maraudon.6.t:0 "[FROM.GetName] have accepted the offer."
+maraudon.6.d:0 ""
+maraudon.6.option.1:0 "Excellent."
+maraudon.7.t:0 "[FROM.GetName] have refused the offer."
+maraudon.7.d:0 ""
+maraudon.7.option.1:0 "Rude."

@@ -1,0 +1,36 @@
+
+state={
+	id=1559
+	name="STATE_1559"
+	resources={
+		wheat=7
+		mana=5
+		gunpowder=2
+		wood=3
+	}
+
+
+	history={
+		owner = NZS
+		victory_points = {
+			157 15
+		}		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+			6832 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NZS
+
+	}
+
+	provinces={
+		157 3484 6832 9107 9331 11395 11420 11493 11536 11694 11709 11719 11749 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

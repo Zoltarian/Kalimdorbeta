@@ -1,0 +1,177 @@
+scripted_gui = {
+	coring_message_bg = {
+		context_type = player_context
+		window_name = "coring_message_bg"
+
+		visible = {
+			OR = {
+				check_variable = { coring_check_popup^num > 0 }
+				check_variable = { coring_cancel_popup^num > 0 }
+				check_variable = { coring_complete_popup^num > 0 }
+			}
+		}
+
+		dynamic_lists = {
+			coring_check_popup_window_list = {
+				array = coring_check_popup
+				change_scope = yes
+				entry_container = coring_check_popup_bg_window
+				ai_weights = {
+					coring_check_cancel_button_click = {
+						ai_will_do = {
+							factor = 0
+						}
+					}
+					coring_check_ok_button_click = {
+						ai_will_do = {
+							factor = 200
+						}
+					}
+				}
+			}
+			coring_cancel_popup_window_list = {
+				array = coring_cancel_popup
+				change_scope = yes
+				entry_container = coring_cancel_popup_bg_window
+				ai_weights = {
+					coring_cancel_cancel_button_click = {
+						ai_will_do = {
+							factor = 200
+						}
+					}
+					coring_cancel_ok_button_click = {
+						ai_will_do = {
+							factor = 0
+						}
+					}
+				}
+			}
+			coring_complete_popup_window_list = {
+				array = coring_complete_popup
+				change_scope = yes
+				entry_container = coring_complete_popup_bg_window
+				ai_weights = {
+					coring_complete_goto_button_click = {
+						ai_will_do = {
+							factor = 0
+						}
+					}
+					coring_complete_ok_button_click = {
+						ai_will_do = {
+							factor = 200
+						}
+					}
+				}
+			}
+		}
+
+		properties = {
+			sender_flag = {
+				image = "[This.Owner.GetFlag]"
+			}
+			receiver_flag = {
+				image = "[ROOT.GetFlag]"
+			}
+		}
+
+		effects = {
+			coring_check_cancel_button_click = {
+				log = "We canceled remove from array"
+				remove_from_array = {
+					array = ROOT.coring_check_popup
+					index = i
+				}
+			}
+			coring_check_ok_button_click = {
+				log = "We hit ok remove from array"
+				remove_from_array = {
+					array = ROOT.coring_check_popup
+					index = i
+				}
+				set_temp_variable = { cost = ROOT.coring_cost }
+				multiply_temp_variable = { cost = -1 }
+				ROOT = { add_political_power = cost }
+				set_variable = { coring_daily_progress = 90 }
+				multiply_temp_variable = { temp_cost_modifier = 90 }
+				divide_variable = { coring_daily_progress = temp_cost_modifier }
+				set_variable = { coring_progress = -91 }
+				set_variable = { coring_country = ROOT }
+				for_each_scope_loop = {
+					array = ROOT.coring_check_popup
+					if = {
+						limit = {
+							check_variable = { ROOT.political_power < coring_cost }
+						}
+						add_to_temp_array = { remove_popup = THIS }
+					}
+				}
+				for_each_scope_loop = {
+					array = remove_popup
+					remove_from_array = { ROOT.coring_check_popup = THIS }
+				}
+
+			}
+			coring_cancel_cancel_button_click = {
+				remove_from_array = {
+					array = ROOT.coring_cancel_popup
+					index = i
+				}
+			}
+			coring_cancel_ok_button_click = {
+				remove_from_array = {
+					array = ROOT.coring_cancel_popup
+					index = i
+				}
+				ROOT = { add_political_power = coring_cost }
+				clear_variable = coring_progress
+				clear_variable = coring_daily_progress
+				clear_variable = coring_country
+			}
+			coring_complete_goto_button_click = {
+				ROOT = {
+					goto_state = PREV
+					remove_from_array = {
+						array = coring_complete_popup
+						index = i
+					}
+				}
+			}
+			coring_complete_ok_button_click = {
+				ROOT = {
+					remove_from_array = {
+						array = coring_complete_popup
+						index = i
+					}
+				}
+			}
+		}
+
+		triggers = {
+			coring_check_cancel_button_click_enabled = {
+				check_variable = { ROOT.coring_check_popup^num > 0 }
+			}
+			coring_check_ok_button_click_enabled = {
+				check_variable = { ROOT.coring_check_popup^num > 0 }
+			}
+			coring_cancel_cancel_button_click_enabled = {
+				check_variable = { ROOT.coring_cancel_popup^num > 0 }
+			}
+			coring_cancel_ok_button_click_enabled = {
+				check_variable = { ROOT.coring_cancel_popup^num > 0 }
+			}
+			coring_complete_goto_button_click_enabled = {
+				check_variable = { ROOT.coring_complete_popup^num > 0 }
+			}
+			coring_complete_ok_button_click_enabled = {
+				check_variable = { ROOT.coring_complete_popup^num > 0 }
+			}
+		}
+
+		ai_enabled = {
+			always = yes
+		}
+
+		ai_test_interval = 24
+		ai_test_variance = 0.2
+	}
+}

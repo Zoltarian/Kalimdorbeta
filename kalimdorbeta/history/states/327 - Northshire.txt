@@ -1,0 +1,47 @@
+
+state={
+	id=327
+	name="STATE_327"
+	resources={
+		mana=84.000
+	}
+
+	history={
+		
+		add_core_of = STO
+		add_core_of = ELW
+
+		victory_points = {
+			2496 25
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+
+		596.1.1 = {
+			
+			controller = THC
+			add_core_of = THC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = THC
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+		}
+	}
+
+	provinces={
+		2476 2484 2488 2491 2494 2496 2500 2501 6047 6048
+	}
+	manpower=41000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

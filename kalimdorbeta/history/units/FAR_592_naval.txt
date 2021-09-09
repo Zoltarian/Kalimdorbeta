@@ -1,0 +1,64 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Sandscalp Fleet"			
+		naval_base = 9462
+		task_force = {
+			name = "Sandscalp Fleet"			
+			location = 9462 #Sandscalp Port
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "1st Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			
+		}
+	}
+	fleet = {				
+		name = "Farraki Fleet"			
+		naval_base = 9316
+		task_force = {
+			name = "Farraki Fleet"			
+			location = 9316 #tanaris islands
+			
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "2nd Dreadnaught"
+				definition = dreadnaught
+				equipment = { dreadnaught_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			
+		}
+	}
+}

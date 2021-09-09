@@ -1,0 +1,41 @@
+
+state={
+	id=527
+	name="STATE_527" #Dustwind Gulch / Fuselight
+	resources={
+		ores=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			4845 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+		}
+		617.1.1 = {
+			owner = ONY
+			controller = ONY
+			add_core_of = ONY
+
+		}
+
+	}
+
+	provinces={
+		980 4830 4832 4839 4842 4845 4851 4854 4856 6187 
+	}
+	manpower=10925
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

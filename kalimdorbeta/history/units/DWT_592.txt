@@ -1,0 +1,149 @@
+﻿division_template = {
+	name = "Dustwind Harpy"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dustwind Savage"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dustwind Storm Witch"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Dustwind Harpy"
+		location = 1144
+		division_template = "Dustwind Harpy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dustwind Harpy"
+		location = 9788
+		division_template = "Dustwind Harpy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dustwind Harpy"
+		location = 9775
+		division_template = "Dustwind Harpy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dustwind Harpy"
+		location = 10324
+		division_template = "Dustwind Harpy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dustwind Harpy"
+		location = 10277
+		division_template = "Dustwind Harpy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dustwind Harpy"
+		location = 8709
+		division_template = "Dustwind Harpy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Dustwind Savage"
+		location = 1142
+		division_template = "Dustwind Savage"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dustwind Savage"
+		location = 10303
+		division_template = "Dustwind Savage"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Dustwind Storm Witch"
+		location = 1138
+		division_template = "Dustwind Storm Witch"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dustwind Storm Witch"
+		location = 10293
+		division_template = "Dustwind Storm Witch"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+air_wings = {
+	### ogrimmar
+	604 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "DWT"
+			amount = 30
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "DWT"
+			amount = 5
+		}
+	}
+
+	597 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "DWT"
+			amount = 15
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "DWT"
+			amount = 5
+		}
+	}
+
+	599 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "DWT"
+			amount = 15
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "DWT"
+			amount = 5
+		}
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=734
+	name="STATE_734"
+	resources={
+		mana=4
+		ores=6
+	}
+
+	history={
+		
+		add_core_of = ANG
+
+		victory_points = {
+			10694 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = ANG
+		}
+	}
+
+	provinces={
+		6856 10694 10696 10698 10700 10708 10713
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

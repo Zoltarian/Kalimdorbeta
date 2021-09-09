@@ -1,0 +1,37 @@
+
+state={
+	id=1172
+	name="STATE_1172"
+	resources = {
+		wheat=1
+		wood=8
+		ores=4
+	}
+
+	history={
+		owner = SPH
+		victory_points = {
+			11459 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SPH
+		617.1.1 = {
+			owner = WPT
+			controller = WPT
+			add_core_of = WPT
+
+		}
+
+	}
+
+	provinces={
+		185 11438 11442 11455 11458 11459 11463 11469 11473 11474
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

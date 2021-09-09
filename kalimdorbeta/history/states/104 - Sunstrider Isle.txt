@@ -1,0 +1,37 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		mana=20.000
+		ores=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			3015 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			radar_station = 1
+			3017 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		438 1113 3009 3010 3011 3012 3014 3015 3016 3017 3018 5703 5742 5745 
+	}
+	manpower=52750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

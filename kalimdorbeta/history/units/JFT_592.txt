@@ -1,0 +1,115 @@
+﻿division_template = {
+	name = "Jadefire Satyr"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Jadefire Shadowstalker"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 13051
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 13051
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 13051
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 13051
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 12872
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 12872
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 12897
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Satyr"
+		location = 12905
+		division_template = "Jadefire Satyr"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Shadowstalker"
+		location = 13051
+		division_template = "Jadefire Shadowstalker"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Shadowstalker"
+		location = 13051
+		division_template = "Jadefire Shadowstalker"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Shadowstalker"
+		location = 12872
+		division_template = "Jadefire Shadowstalker"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Jadefire Shadowstalker"
+		location = 12905
+		division_template = "Jadefire Shadowstalker"
+		start_experience_factor = 0.1
+	}
+
+}

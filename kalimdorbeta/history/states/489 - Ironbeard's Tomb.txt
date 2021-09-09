@@ -1,0 +1,46 @@
+
+state={
+	id=489
+	name="STATE_489"
+	resources={
+		wood=4.000
+		mana=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			3740 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			buildings = {
+				air_base = 1
+
+			}
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			owner = MHT
+			controller = MHT
+			add_core_of = MHT
+
+		}
+
+	}
+
+	provinces={
+		3716 3717 3719 3725 3740 3746 3749 3752 
+	}
+	manpower=8900
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

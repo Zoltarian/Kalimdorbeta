@@ -1,0 +1,34 @@
+
+state={
+	id=729
+	name="STATE_729"
+
+	history={
+		
+		add_core_of = GRN
+
+		victory_points = {
+			10590 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = GRN
+		}
+	}
+
+	provinces={
+		10486 10580 10585 10590 10594 10599
+	}
+	manpower=50400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

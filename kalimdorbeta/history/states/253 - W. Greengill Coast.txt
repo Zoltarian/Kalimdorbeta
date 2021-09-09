@@ -1,0 +1,27 @@
+
+state={
+	id=253
+	name="STATE_253"
+
+	history={
+		
+		victory_points = {
+			3063 5
+		}
+		buildings = {
+			infrastructure = 3
+			3063 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		3057 3062 3063 3065 
+	}
+	manpower=7400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

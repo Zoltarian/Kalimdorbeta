@@ -1,0 +1,31 @@
+
+state={
+	id=1193
+	name="STATE_1193"
+	resources = {
+		ores=4
+		oil=5
+	}
+
+	history = {
+		owner = HFS
+		victory_points = {
+			11698 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = HFS
+
+	}
+
+	provinces={
+		10899 10917 11678 11684 11685 11690 11691 11693 11698 11747 
+	}
+	manpower=34000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

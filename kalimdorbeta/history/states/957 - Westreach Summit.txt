@@ -1,0 +1,31 @@
+
+state={
+	id=957
+	name="STATE_957"
+	resources={
+		ores=5
+		gunpowder=3
+	}
+
+	history={
+		owner = GAL
+		victory_points = {
+			9620 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = GAL
+
+	}
+
+	provinces={
+		1795 9616 9618 9619 9620 9621 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

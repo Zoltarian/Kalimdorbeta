@@ -1,0 +1,20 @@
+state={
+	id=1996
+	name="STATE_1996"
+	impassable = yes
+
+	history={
+		owner = HFS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HFS
+	}
+
+	provinces={
+		13197
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

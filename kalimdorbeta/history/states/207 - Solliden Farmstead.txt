@@ -1,0 +1,44 @@
+
+state={
+	id=207
+	name="STATE_207"
+	resources={
+		mounts=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			4290 10 
+		}
+		victory_points = {
+			4283 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 2
+			radar_station = 1
+			4290 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		4258 4262 4266 4283 4290 4291 4303 4306 4311 4318 4319 4321 4334 5361 
+	}
+	manpower=22575
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

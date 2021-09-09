@@ -1,0 +1,25 @@
+
+state={
+	id=1469
+	name="STATE_1469"
+	resources={
+		wood=7
+		wheat=1
+	}
+
+	history={
+		owner = BLT
+		buildings = {
+			infrastructure = 3
+
+		}
+
+		add_core_of = BLT
+	}
+	provinces={
+		12940 13599 13605 13607 13614 13618 13623 13625 13628 13639 
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

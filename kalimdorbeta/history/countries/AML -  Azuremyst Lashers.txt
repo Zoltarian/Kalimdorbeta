@@ -1,0 +1,129 @@
+﻿capital = 1461
+
+oob = "AML_592"
+
+set_research_slots = 3
+
+add_ideas = {
+	
+	tribe
+	limited_conscription
+	peacetime_economy
+	limited_exports
+
+	lashers_primary_race
+
+	primary_religion_natural_magic
+
+	primary_trait_photosynthesis
+	primary_trait_element_of_nature
+	primary_trait_deep_roots
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Azurethorn"
+	desc = "POLITICS_AZURETHORN_DESC"
+	picture = "azurethorn.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Azurethorn"
+	desc = "POLITICS_AZURETHORN_DESC"
+	picture = "azurethorn.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Azurethorn"
+	desc = "POLITICS_AZURETHORN_DESC"
+	picture = "azurethorn.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Azurethorn"
+	desc = "POLITICS_AZURETHORN_DESC"
+	picture = "azurethorn.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Azurethorn"
+	desc = "POLITICS_AZURETHORN_DESC"
+	picture = "azurethorn.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Azurethorn"
+	desc = "POLITICS_AZURETHORN_DESC"
+	picture = "azurethorn.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Azurethorn"
+	picture = "azurethorn.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+
+}

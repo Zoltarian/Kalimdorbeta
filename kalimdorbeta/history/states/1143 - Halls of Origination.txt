@@ -1,0 +1,38 @@
+
+state={
+	id=1143
+	name="STATE_1143"
+	resources = {
+		wheat=10
+		mana=26
+		ores=7
+	}
+
+	history={
+		owner = ULD
+		victory_points = {
+			11768 30
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 3
+			arms_factory = 3
+			dockyard = 1
+			11772 = {
+				naval_base = 4
+			}
+			10861 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ULD
+
+	}
+
+	provinces={
+		10861 11754 11766 11767 11768 11770 11771 11772 11773 11774 11775 11777 11778 11780 11782 11783 11786 11787 11788 11789 11793 11798 11800 11906
+	}
+	manpower=46000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+}

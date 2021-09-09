@@ -1,0 +1,36 @@
+
+state={
+	id=995
+	name="STATE_995"
+	resources={
+		ores=14
+		gunpowder=4
+	}
+
+	history={
+		owner = BHT
+		add_core_of = BHT
+
+		victory_points = {
+			10068 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex=2
+			arms_factory=1
+		}
+		
+		617.1.1 = {
+			owner = SFB
+			controller = SFB
+			add_core_of = SFB
+		}
+	}
+
+	provinces={
+		9669 10064 10066 10067 10068 10082 10088 10100 10109 10110
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

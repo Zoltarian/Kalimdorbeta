@@ -1,0 +1,44 @@
+print_completed_achievements_to_gamelog = {
+	if = {
+		limit = {
+			has_any_achievement_unlocked = yes
+		}
+		log = "[This.GetName] ([This.GetTag]) has unlocked the following achievements:"
+		# Achievements:
+		for_each_loop = {
+			array = global.custom_achievements_array
+			value = v
+			if = {
+				limit = {
+					meta_trigger = {
+						text = {
+							has_country_flag = unlocked_achievements_[ENTRY]
+						}
+						ENTRY = "[?v]"
+					}
+				}
+				meta_effect = {
+					text = {
+						log = ACHIEVEMENT_[ENTRY]
+					}
+					ENTRY = "[?v]"
+				}
+			}
+		}
+	}
+}
+
+set_all_achievements_in_visible_array = {
+	clear_array = custom_achievements_array_visible
+	clear_array = custom_achievements_array_hidden_manually
+	for_each_loop = {
+		array = global.custom_achievements_array
+		if = {
+			limit = {
+				NOT = { is_in_array = { custom_achievements_array_visible = v } }
+			}
+			add_to_array = { custom_achievements_array_visible = v }
+		}
+	}
+	sort_achievements_from_difficulty_easy_to_impossible = yes
+}

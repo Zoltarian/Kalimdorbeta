@@ -1,0 +1,21 @@
+equipments = {
+
+	organic_air_transport_equipment_1 = {
+		year = 592
+
+		archetype = air_transport_equipment
+		priority = 130
+		
+		air_range = 1000 #same
+		maximum_speed = 200 #-100
+		air_agility = 10 #same
+		air_defence = 22 #+2
+
+		build_cost_ic = 196 #+16
+		resources = {
+			eggs = 1
+			wheat = 1
+		}
+	}
+}
+

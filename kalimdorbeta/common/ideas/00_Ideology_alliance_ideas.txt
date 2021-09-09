@@ -1,0 +1,205 @@
+ideas = {
+	
+	country = {
+	
+	Alliance_Bureaucracy_Level1 = {
+	
+	
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			
+			modifier = {
+				political_power_gain = -0.25
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+	}
+	
+	Alliance_Bureaucracy_Level2 = {
+	
+	
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			
+			modifier = {
+				political_power_gain = -0.10
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+	}
+	
+	Alliance_Bureaucracy_Level3 = {
+	
+	
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			
+			modifier = {
+				political_power_gain = 0.05
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+	}
+	
+	Alliance_Bureaucracy_Level4 = {
+	
+	
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			
+			modifier = {
+				political_power_gain = 0.15
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+	}
+	
+	Alliance_Bureaucracy_Level5 = {
+	
+	
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			
+			modifier = {
+				political_power_gain = 0.25
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+	}
+	
+	Alliance_Defence_Level1 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_core_defence_factor = 0.15
+			}
+	}
+	
+	Alliance_Defence_Level2 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_core_defence_factor = 0.20
+			}
+	}
+	
+	Alliance_Defence_Level3 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_core_defence_factor = 0.25
+			}
+	}
+	
+	Alliance_Defence_Level4 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_core_defence_factor = 0.30
+			}
+	}
+	
+	Alliance_Defence_Level5 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_core_defence_factor = 0.35
+			}
+	}
+	
+	
+}
+
+hidden_ideas = {
+
+	Alliance_Bureaucracy_Main = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	}
+	
+	Alliance_Bureaucracy_Upgrading = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	}
+	
+	Alliance_Bureaucracy_InUse = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	}
+	
+	}
+}

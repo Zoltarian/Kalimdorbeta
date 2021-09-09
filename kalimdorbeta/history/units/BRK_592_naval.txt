@@ -1,0 +1,29 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Broken Ones Transport Fleet"			
+		naval_base = 9819
+		task_force = {
+			name = "Broken Ones Transport Fleet"			
+			location = 9819
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

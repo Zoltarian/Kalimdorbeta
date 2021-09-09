@@ -1,0 +1,138 @@
+equipments = {
+
+	battleship_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		interface_category = interface_category_capital_ships
+		priority = 1500
+
+		upgrades = { }
+		module_slots = { }
+		module_count_limit = { }
+		default_modules = { }
+
+		sub_detection = 5
+		lg_attack = 7.3
+		hg_attack = 25.2
+		anti_air_attack = 5.8
+		naval_range = 3000
+		armor_value = 26
+		surface_detection = 12
+		surface_visibility = 40
+		lg_armor_piercing = 6.2
+		hg_armor_piercing = 31
+		
+		naval_speed = 18.2
+		max_strength = 367.5
+		reliability = 0.64
+		
+		build_cost_ic = 13578.75
+
+		manpower = 300
+
+		resources = {
+			oil = 2
+			wood = 3
+			ores = 3
+			gunpowder = 2
+		}
+	}
+	
+	battleship_equipment_1 = { 
+		archetype = battleship_equipment
+		priority = 2500
+		
+		module_slots = inherit
+	}
+	
+	battleship_equipment_2 = {
+		year = 592
+		visual_level = 1
+		archetype = battleship_equipment
+		priority = 1500
+		parent = battleship_equipment_1
+		module_slots = inherit
+
+		sub_detection = 5
+		lg_attack = 7.3
+		hg_attack = 29.4
+		anti_air_attack = 13.3
+		naval_range = 4000
+		armor_value = 31
+		surface_detection = 15
+		surface_visibility = 40
+		lg_armor_piercing = 6.2
+		hg_armor_piercing = 36
+		
+		naval_speed = 30.4
+		max_strength = 495
+		reliability = 0.68
+		
+		build_cost_ic = 14343.75
+
+		manpower = 330
+		
+	}
+	
+	battleship_equipment_3 = {
+		year = 595
+		visual_level = 1
+		archetype = battleship_equipment
+		priority = 1500
+		parent = battleship_equipment_2
+		module_slots = inherit
+
+		sub_detection = 5
+		lg_attack = 8.4
+		hg_attack = 31.5
+		anti_air_attack = 17.4
+		naval_range = 5000
+		armor_value = 40
+		surface_detection = 25
+		surface_visibility = 40
+		lg_armor_piercing = 7
+		hg_armor_piercing = 40
+		
+		naval_speed = 37
+		max_strength = 575
+		reliability = 0.72
+		
+		build_cost_ic = 15057.75
+
+		manpower = 350
+
+	}
+	
+	battleship_equipment_4 = {
+		year = 601
+		visual_level = 1
+		archetype = battleship_equipment
+		priority = 1500
+		parent = battleship_equipment_3
+		module_slots = inherit
+
+		sub_detection = 5
+		lg_attack = 10.5
+		hg_attack = 33.6
+		anti_air_attack = 24.6
+		naval_range = 6000
+		armor_value = 80
+		surface_detection = 40
+		surface_visibility = 40
+		lg_armor_piercing = 8
+		hg_armor_piercing = 43
+		
+		naval_speed = 40.3
+		max_strength = 632.5
+		reliability = 0.736
+		
+		build_cost_ic = 16970.25
+
+		manpower = 370
+		
+	}
+	
+}

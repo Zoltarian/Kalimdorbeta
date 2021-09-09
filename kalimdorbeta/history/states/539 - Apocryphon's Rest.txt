@@ -1,0 +1,36 @@
+
+state={
+	id=539
+	name="STATE_539"
+	resources={
+		ores=4.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		965 4795 4796 4803 4804 4807 4808 4818 6269 6274 6389
+	}
+	manpower=3925
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

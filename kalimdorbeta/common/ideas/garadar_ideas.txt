@@ -1,0 +1,50 @@
+ideas = {
+
+	advisor = {
+	}
+	
+	council_member = {
+	# Military Advisors
+	
+		GAR_garrosh_hellscream = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = GAR
+			}
+			
+			
+		
+		}
+		
+		GAR_warden_bullrok = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = GAR
+			}
+		
+			traits = { recruiter_idea_1 } 
+		}
+
+	}
+	
+	country = {
+	
+		GAR_red_pox = {
+		
+			picture = generic_race_maghar_orc
+
+			allowed = {
+				original_tag = GAR
+			}
+			
+			modifier = {
+				MONTHLY_POPULATION = -0.5
+			}
+		}
+
+	}
+}

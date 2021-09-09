@@ -1,0 +1,296 @@
+﻿capital = 430
+set_convoys = 40
+
+set_naval_oob = "IRO_592_naval"
+
+set_stability = 0.65
+set_war_support = 0.1
+
+add_ideas = {
+	
+	kingdom
+	recruit_guards
+	isolation
+	free_trade
+
+	dwarf_primary_race
+	gnome_secondary_race
+	high_elf_secondary_race
+
+	primary_trait_stoneform
+	primary_trait_dwarven_forges
+	primary_trait_might_of_the_mountain
+
+	primary_religion_mystery_of_the_makers
+}
+
+give_guarantee = NRT
+give_guarantee = GNO
+
+set_research_slots = 3
+set_technology = {
+
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+
+	royal_guard_tech = 1
+	support_equipment_tech = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+	large_frames = 1
+	battleship_tech_1 = 1
+	dreadnaught_tech_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+592.1.1 = {
+	oob = "IRO_592"
+	set_politics = {
+		ruling_party = neutral
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 32
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+		titans = 0
+		neutral = 68
+    }
+}
+
+596.1.1 = {
+	oob = "IRO_597"
+	set_stability = 0.60
+	set_war_support = 0.4
+
+	add_ideas = {
+		
+		kingdom
+		limited_conscription
+		war_economy
+		export_focus
+
+		dwarf_primary_race
+		gnome_secondary_race
+		high_elf_secondary_race
+
+		primary_trait_stoneform
+		primary_trait_dwarven_forges
+		primary_trait_might_of_the_mountain
+
+		primary_religion_mystery_of_the_makers
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = DUN
+			autonomous_state = autonomy_personal_union
+			freedom_level = 0.01
+		}
+		else = {
+			puppet = DUN
+		}
+	}
+
+	set_politics = {
+		ruling_party = alliance
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+  set_popularities = {
+    alliance = 100
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+		neutral = 0
+  }
+
+	complete_national_focus = IRO_legacy_of_madoran
+	complete_national_focus = IRO_halls_of_ironforge
+	complete_national_focus = IRO_military_ward
+	complete_national_focus = IRO_commons
+	complete_national_focus = IRO_great_forge
+	complete_national_focus = IRO_tinkertown_thrives
+	complete_national_focus = IRO_pride_of_dun_morogh
+	complete_national_focus = IRO_anvilmar_thrives
+	complete_national_focus = IRO_kharanos_thrives
+	complete_national_focus = IRO_outer_camps
+	complete_national_focus = IRO_amberstill_prospers
+	complete_national_focus = IRO_golbolar_quarry_expansion
+	complete_national_focus = IRO_expanding_the_mountaineers
+	complete_national_focus = IRO_ironforge_siege_battalions
+	complete_national_focus = IRO_funding_the_cavalry
+	complete_national_focus = IRO_stormwind_refugees
+	complete_national_focus = IRO_expanding_the_airstrip
+	complete_national_focus = IRO_aerial_practice
+	complete_national_focus = IRO_war_games
+	complete_national_focus = IRO_housing_the_refugees
+	complete_national_focus = IRO_preparing_for_the_storm
+	complete_national_focus = IRO_resource_stockpiling
+	complete_national_focus = IRO_ready_for_siege
+	complete_national_focus = IRO_human_volunteers
+	complete_national_focus = IRO_dwarven_volunteers
+	complete_national_focus = IRO_stockpiling_for_war
+	complete_national_focus = IRO_coalition_of_khaz_modan
+	complete_national_focus = IRO_expanding_the_mountain_guard
+
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+
+		
+
+
+
+
+		naval_transport_2 = 1
+
+		mechanical_flight = 1
+
+
+
+
+
+		blueprints_1 = 1
+
+
+
+
+
+
+
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+	create_faction = "Coalition of Khaz Modan"
+	add_to_faction = IRO
+	add_to_faction = GNO
+	add_to_faction = NRT
+
+}
+
+617.1.1 = {
+	# Dissolve Coalition of Khaz Modan (to make place for The Alliance)
+	# Maybe move to an earlier start date
+	dismantle_faction = yes
+}
+
+create_country_leader = {
+	name = "King Magni Bronzebeard"
+	desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+	picture = "magni_bronzebeard.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Magni Bronzebeard"
+	desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+	picture = "magni_bronzebeard.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Magni Bronzebeard"
+	desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+	picture = "magni_bronzebeard.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Magni Bronzebeard"
+	desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+	picture = "magni_bronzebeard.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Magni Bronzebeard"
+	desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+	picture = "magni_bronzebeard.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "King Magni Bronzebeard"
+	picture = "gfx/leaders/IRO/magni_bronzebeard.dds"
+	traits = {   }
+	id = 35100
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	id = 1
+}
+create_corps_commander = {
+	name = "Muradin Bronzebeard"
+	picture = "gfx/leaders/IRO/muradin_bronzebeard.dds"
+	traits = { }
+	id = 35101
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 2
+}
+create_corps_commander = {
+	name = "Brann Bronzebeard"
+	picture = "gfx/leaders/IRO/brann_bronzebeard.dds"
+	traits = { }
+	id = 35102
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3
+}

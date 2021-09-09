@@ -1,0 +1,32 @@
+
+state={
+	id=214
+	name="STATE_214" #Tirisfal Watch Post/Scarlet Watch Post
+
+	history={
+		
+		victory_points = {
+			708 5 
+		}
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SCC
+			controller = SCC
+			add_core_of = SCC
+
+		}
+
+	}
+
+	provinces={
+		708 2686 2904 4207 4240 4249 4267 4280 4310 5358 5369 
+	}
+	manpower=10325
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

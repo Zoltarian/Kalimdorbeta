@@ -1,0 +1,45 @@
+
+state={
+	id=326
+	name="STATE_326"
+
+	history={
+		
+		victory_points = {
+			801 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = STO
+		add_core_of = ELW
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+		612.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+
+		}
+		
+	}
+
+	provinces={
+		331 801 804 2447 2456 2459 2461 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

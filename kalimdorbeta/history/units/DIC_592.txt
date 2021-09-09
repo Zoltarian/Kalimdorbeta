@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Dark Iron Guards"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Dark Iron Guards"
+		location = 5771
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Dark Iron Guards"
+		location = 5771
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Dark Iron Guards"
+		location = 5771
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Dark Iron Guards"
+		location = 4628
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Dark Iron Guards"
+		location = 912
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Dark Iron Guards"
+		location = 3949
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Dark Iron Guards"
+		location = 4858
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "8th Dark Iron Guards"
+		location = 6235
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "9th Dark Iron Guards"
+		location = 4650
+		division_template = "Dark Iron Guards"
+		start_experience_factor = 0.2
+	}
+
+}

@@ -1,0 +1,48 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		ores=18.000
+	}
+
+	history={
+		
+		add_core_of = WST
+		add_core_of = STO
+
+		victory_points = {
+			2341 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+		}
+
+		617.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+		}
+	}
+
+	provinces={
+		615 2339 2341 2343 2349 2352 6945
+	}
+	manpower=5500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

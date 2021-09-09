@@ -1,0 +1,66 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+GDF = {
+	male = {
+		names = { "Tharif" "Lethl" "Aron" "Somn"}
+		surnames = { "us" "ar" "on" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
+		surnames = { "ra" "iss" "era" }
+		callsigns = { }
+	}
+	surnames = { }
+	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
+}
+
+GTG = {
+	male = {
+		names = { "Tharif" "Lethl" "Aron" "Somn"}
+		surnames = { "us" "ar" "on" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
+		surnames = { "ra" "iss" "era" }
+		callsigns = { }
+	}
+	surnames = { }
+	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
+}
+
+GTH = {
+	male = {
+		names = { "Tharif" "Lethl" "Aron" "Somn"}
+		surnames = { "us" "ar" "on" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
+		surnames = { "ra" "iss" "era" }
+		callsigns = { }
+	}
+	surnames = { }
+	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
+}
+
+GSR = {
+	male = {
+		names = { "Tharif" "Lethl" "Aron" "Somn"}
+		surnames = { "us" "ar" "on" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
+		surnames = { "ra" "iss" "era" }
+		callsigns = { }
+	}
+	surnames = { }
+	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
+}
+

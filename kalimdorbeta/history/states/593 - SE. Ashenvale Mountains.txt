@@ -1,0 +1,26 @@
+state={
+    id=593
+    name="STATE_593"
+	impassable = yes
+
+	history={
+		owner = KAL
+    add_core_of = KAL
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+    617.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+		}
+	}
+    provinces={
+       1124
+    }
+    manpower=25
+	buildings_max_level_factor=1.000
+    state_category=building_slots_0
+}

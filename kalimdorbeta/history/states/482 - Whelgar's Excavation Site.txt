@@ -1,0 +1,37 @@
+
+state={
+	id=482
+	name="STATE_482"
+	resources={
+		ores=16.000
+	}
+
+	history={
+		
+		add_core_of = IRO
+		buildings = {
+			infrastructure = 2
+
+		}
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			
+			controller = IRO
+			add_core_of = IRO
+
+		}
+
+	}
+
+	provinces={
+		3637 3643 3644 3657 3663 
+	}
+	manpower=4675
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

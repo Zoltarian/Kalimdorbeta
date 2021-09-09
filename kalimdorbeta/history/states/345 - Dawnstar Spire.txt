@@ -1,0 +1,30 @@
+
+state={
+	id=345
+	name="STATE_345"
+	resources={
+		mana=42.000
+	}
+
+	history={
+		
+		victory_points = {
+			877 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			radar_station = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		877 4559 4561 4576 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

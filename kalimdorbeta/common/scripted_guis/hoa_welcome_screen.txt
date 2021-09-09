@@ -1,0 +1,804 @@
+scripted_gui = {
+
+	hoa_help_button = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "hoa_help_button_container"
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			hoa_help_button_click = {
+				if = {
+					limit = { NOT = { has_variable = hoa_help_tab_on } }
+					set_variable = { hoa_help_tab_on = 1 }
+				}
+				else = {
+					clear_variable = hoa_help_tab_on
+				}
+			}
+		}
+	}
+
+	hoa_help_tab = {
+		context_type = player_context
+		parent_window_name = "time_control_window"
+		window_name = "hoa_help_tab_container"
+
+		visible = {
+			is_ai = no
+			has_variable = hoa_help_tab_on
+		}
+
+		effects = {
+			open_ws_click = {
+				if = {
+					limit = { NOT = { has_variable = hoa_welcome_screen } }
+					set_variable = { hoa_welcome_screen = 1 }
+				}
+			}
+		}
+	}
+
+	hoa_welcome_screen_toggle = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "hoa_welcome_screen_toggle_container"
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			open_ws_click = {
+				if = {
+					limit = { NOT = { has_variable = hoa_welcome_screen } }
+					set_variable = { hoa_welcome_screen = 1 }
+				}
+				else_if = {
+					limit = {
+						has_variable = hoa_welcome_screen
+					}
+					clear_variable = hoa_welcome_screen
+				}
+			}
+		}
+	}
+
+	hoa_welcome_screen = {
+		context_type = player_context
+
+		window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			has_variable = hoa_welcome_screen
+		}
+
+		triggers = {
+			tab_1_on_visible = {
+				check_variable = { hoa_welcome_screen = 1 }
+			}
+
+			tab_1_off_visible = {
+				NOT = { check_variable = { hoa_welcome_screen = 1 } }
+			}
+
+			tab_2_on_visible = {
+				check_variable = { hoa_welcome_screen = 2 }
+			}
+
+			tab_2_off_visible = {
+				NOT = { check_variable = { hoa_welcome_screen = 2 } }
+			}
+
+			tab_3_on_visible = {
+				check_variable = { hoa_welcome_screen = 3 }
+			}
+
+			tab_3_off_visible = {
+				NOT = { check_variable = { hoa_welcome_screen = 3 } }
+			}
+
+			tab_4_on_visible = {
+				check_variable = { hoa_welcome_screen = 4 }
+			}
+
+			tab_4_off_visible = {
+				NOT = { check_variable = { hoa_welcome_screen = 4 } }
+			}
+
+			tab_1_header_visible = {
+				check_variable = { hoa_welcome_screen = 1 }
+			}
+
+			tab_2_header_visible = {
+				check_variable = { hoa_welcome_screen = 2 }
+			}
+
+			tab_3_header_visible = {
+				check_variable = { hoa_welcome_screen = 3 }
+			}
+
+			tab_4_header_visible = {
+				check_variable = { hoa_welcome_screen = 4 }
+			}
+		}
+
+		effects = {
+			close_button_click = {
+				clear_variable = hoa_welcome_screen
+			}
+
+			tab_1_off_click = {
+				set_variable = { hoa_welcome_screen = 1 }
+			}
+
+			tab_2_off_click = {
+				set_variable = { hoa_welcome_screen = 2 }
+			}
+
+			tab_3_off_click = {
+				set_variable = { hoa_welcome_screen = 3 }
+			}
+
+			tab_4_off_click = {
+				set_variable = { hoa_welcome_screen = 4 }
+			}
+		}
+	}
+
+	hoa_welcome_screen_tab_1_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			NOT = {
+				original_tag = BRC
+				original_tag = STO
+				original_tag = TSC
+				original_tag = BBC
+				original_tag = BHC
+				original_tag = BTG
+				original_tag = DMC
+				original_tag = FWC
+				original_tag = THC
+				original_tag = ALT
+				original_tag = DAL
+				original_tag = GIL
+				original_tag = KUL
+				original_tag = LOR
+				original_tag = HEA
+				original_tag = STR
+				original_tag = LSC
+				original_tag = TLC
+				original_tag = BMC
+				original_tag = BSC
+				original_tag = BCC
+				original_tag = BWC
+				original_tag = SHC
+				original_tag = TDC
+				original_tag = SMC
+				original_tag = WMC
+				original_tag = WSC
+				original_tag = BFC
+				original_tag = RWC
+				original_tag = AUC
+				original_tag = LBC
+				original_tag = OGL
+				original_tag = GRN
+				original_tag = STM
+				original_tag = MOK
+				original_tag = BRK
+				original_tag = GOR
+				original_tag = GAR
+				original_tag = CAB
+				original_tag = SET
+				original_tag = ANG
+				original_tag = SKE
+				original_tag = DRE
+			}
+		}
+	}
+
+	hoa_welcome_screen_tab_1_brc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_brc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BRC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_bbc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_bbc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BBC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_bhc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_bhc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BHC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_btg_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_btg"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BTG
+		}
+	}
+
+	hoa_welcome_screen_tab_1_dmc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_dmc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = DMC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_fwc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_fwc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = FWC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_thc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_thc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = THC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_tsc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_tsc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = TSC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_lsc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_lsc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = LSC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_tlc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_tlc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = TLC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_bmc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_bmc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BMC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_bsc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_bsc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BSC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_bcc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_bcc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BCC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_bwc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_bwc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BWC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_shc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_shc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = SHC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_tdc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_tdc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = TDC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_smc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_smc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = SMC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_wmc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_wmc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = WMC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_wsc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_wsc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = WSC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_bfc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_bfc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BFC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_rwc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_rwc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = RWC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_auc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_auc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = AUC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_lbc_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_lbc"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = LBC
+		}
+	}
+
+	hoa_welcome_screen_tab_1_ogl_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_ogl"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = OGL
+		}
+	}
+
+	hoa_welcome_screen_tab_1_grn_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_grn"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = GRN
+		}
+	}
+
+	hoa_welcome_screen_tab_1_stm_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_stm"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = STM
+		}
+	}
+
+	hoa_welcome_screen_tab_1_mok_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_mok"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = MOK
+		}
+	}
+
+	hoa_welcome_screen_tab_1_brk_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_brk"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = BRK
+		}
+	}
+
+	hoa_welcome_screen_tab_1_gor_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_gor"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = GOR
+		}
+	}
+
+	hoa_welcome_screen_tab_1_gar_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_gar"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = GAR
+		}
+	}
+
+	hoa_welcome_screen_tab_1_cab_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_cab"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = CAB
+		}
+	}
+
+	hoa_welcome_screen_tab_1_set_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_set"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = SET
+		}
+	}
+
+	hoa_welcome_screen_tab_1_ang_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_ang"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = ANG
+		}
+	}
+
+	hoa_welcome_screen_tab_1_ske_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_ske"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = SKE
+		}
+	}
+
+	hoa_welcome_screen_tab_1_dre_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_dre"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = DRE
+		}
+	}
+
+	hoa_welcome_screen_tab_1_lor_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_lor"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = LOR
+		}
+	}
+
+	hoa_welcome_screen_tab_1_hea_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_hea"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = HEA
+		}
+	}
+
+	hoa_welcome_screen_tab_1_alt_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_alt"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = ALT
+		}
+	}
+
+	hoa_welcome_screen_tab_1_dal_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_dal"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = DAL
+		}
+	}
+
+	hoa_welcome_screen_tab_1_gil_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_gil"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = GIL
+		}
+	}
+
+	hoa_welcome_screen_tab_1_sto_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_sto"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = STO
+		}
+	}
+
+	hoa_welcome_screen_tab_1_str_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_1_slider_str"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 1 }
+			original_tag = STR
+		}
+	}
+
+	hoa_welcome_screen_tab_2_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_2_slider"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 2 }
+		}
+	}
+
+	hoa_welcome_screen_tab_2_sgrf_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_2_slider_sgrf"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 2 }
+		}
+	}
+
+	hoa_welcome_screen_tab_3_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_3_slider"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 3 }
+		}
+	}
+
+	hoa_welcome_screen_tab_4_content = {
+		context_type = player_context
+
+		window_name = "hoa_ws_tab_4_slider"
+		parent_window_name = "hoa_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { hoa_welcome_screen = 4 }
+		}
+	}
+
+}

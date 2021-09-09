@@ -1,0 +1,23 @@
+state={
+	id=1200
+	name="STATE_1200"
+	impassable = yes
+
+	history={
+		
+		add_core_of = ASG
+
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		8594
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

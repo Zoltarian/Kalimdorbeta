@@ -1,0 +1,27 @@
+
+state={
+	id=572
+	name="STATE_572"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+	}
+
+	provinces={
+		4082 6295 6299 6300 
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,37 @@
+state={
+	id=1069
+	name="STATE_1069"
+    resources={
+		mana=4
+        ores=4
+		wood =6
+	}
+
+	history={
+		
+		add_core_of = LBC
+
+		victory_points = {
+			10607 5
+		}
+
+		buildings = {
+			infrastructure = 3
+            industrial_complex = 2
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LBC
+		}
+	}
+
+	provinces={
+		358 10489 10595 10602 10603 10604 10607 10614 10615 10616 10625
+	}
+	manpower=22625
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

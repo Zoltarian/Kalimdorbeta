@@ -1,0 +1,32 @@
+
+state={
+	id=1293
+	name="STATE_1293"
+	resources = {
+		mana=28
+		wheat=16
+		ores=6
+		wood=3
+	}
+
+	history={
+		owner = SHD
+		add_core_of = SHD
+		victory_points = {
+			11494 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 3
+
+		}
+	}
+
+	provinces={
+		11002 11432 11446 11456 11467 11481 11494 11502
+	}
+	manpower=84000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_12
+}

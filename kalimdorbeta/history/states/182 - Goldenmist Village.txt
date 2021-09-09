@@ -1,0 +1,41 @@
+
+state={
+	id=182
+	name="STATE_182"
+	resources={
+		ores=14.000
+	}
+
+	history={
+		
+		victory_points = {
+			4577 15 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			4556 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = QUE
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		4554 4556 4567 4568 4577 4579 4584 5313 
+	}
+	manpower=26750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

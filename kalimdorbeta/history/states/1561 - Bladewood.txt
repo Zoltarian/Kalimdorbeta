@@ -1,0 +1,29 @@
+
+state={
+	id=1561
+	name="STATE_1561"
+	resources={
+		ores=2
+		wood=3
+	}
+
+	history={
+		owner = BML
+		victory_points = {
+			11022 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = BML
+
+	}
+
+	provinces={
+		5853 10836 11022 11167 
+	}
+	manpower=7500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

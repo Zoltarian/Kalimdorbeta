@@ -1,0 +1,31 @@
+
+state={
+	id=219
+	name="STATE_219"
+
+	history={
+		
+		victory_points = {
+			3413 10
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = ARD
+			controller = ARD
+			add_core_of = ARD
+
+		}
+
+	}
+
+	provinces={
+		692 3403 3413 4114 4115 4119 4145 5401 
+	}
+	manpower=3550
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

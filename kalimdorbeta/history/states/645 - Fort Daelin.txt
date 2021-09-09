@@ -1,0 +1,51 @@
+
+state={
+	id=645
+	name="STATE_645"
+	resources={
+		oil=42.000
+	}
+
+	history={
+		
+		victory_points = {
+			7086 15 
+		}
+		victory_points = {
+			7073 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 1
+			industrial_complex = 1
+			radar_station = 1
+			7086 = {
+				coastal_bunker = 4
+
+			}
+			7096 = {
+				coastal_bunker = 4
+
+			}
+			7094 = {
+				coastal_bunker = 4
+
+			}
+			7080 = {
+				coastal_bunker = 4
+
+			}
+
+		}
+		add_core_of = KUL
+
+	}
+
+	provinces={
+		7073 7077 7078 7080 7082 7086 7087 7089 7094 7096 7102 7103 7112 7113 
+	}
+	manpower=32250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

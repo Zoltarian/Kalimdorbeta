@@ -1,0 +1,31 @@
+
+state={
+	id=1400
+	name="STATE_1400"
+	resources = {
+		wheat = 6
+		mana = 2
+		ores = 3
+		wood = 8
+	}
+
+	history={
+		owner = DSM
+		add_core_of = DSM
+		victory_points = {
+			12576 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		12069 12570 12576 12579 12582 12583 12585 12586 12589 12603 12604
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

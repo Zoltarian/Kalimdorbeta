@@ -1,0 +1,33 @@
+
+state={
+	id=1114
+	name="STATE_1114"
+	resources = {
+		eggs=10
+		wheat=8
+		ores=5
+	}
+
+	history={
+		owner = HRE
+		victory_points = {
+			11101 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = HRE
+
+	}
+
+	provinces={
+		10816 11086 11087 11088 11101 11103 11110 11116 11117 11130 11134 11137 11145 11151 11154
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

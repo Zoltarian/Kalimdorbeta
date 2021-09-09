@@ -1,0 +1,27 @@
+
+state={
+	id=1245
+	name="STATE_1245"
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SNT
+
+		620.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+		}
+	}
+
+	provinces={
+		6849 10930 13275 13296 13307 13320
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,20 @@
+state_does_not_match_primary_or_secondary_religion = {
+	meta_trigger = {
+		text = {
+			NOT = {
+				check_variable = { religion = [MAIN_RELIGION] }
+			}
+		}
+		MAIN_RELIGION = "[ROOT.GetMainReligionVariable]"
+	}
+	NOT = { is_in_array = { ROOT.accepted_religions = religion } }
+}
+
+has_main_religion = {
+	meta_trigger = {
+		text = {
+			check_variable = { religion = [MAIN_RELIGION] }
+		}
+		MAIN_RELIGION = "[ROOT.GetMainReligionVariable]"
+	}
+}

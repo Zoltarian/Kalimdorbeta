@@ -1,0 +1,30 @@
+
+state={
+	id=1108
+	name="STATE_1108"
+	resources = {
+		ores=5
+	}
+
+	history={
+		owner = CNH
+		victory_points = {
+			11301 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = CNH
+
+	}
+
+	provinces={
+		10825 11273 11279 11285 11288 11295 11301 11306 11313 11318 11324 11325
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

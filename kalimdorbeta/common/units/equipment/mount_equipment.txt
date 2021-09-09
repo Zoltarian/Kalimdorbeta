@@ -1,0 +1,66 @@
+equipments = {
+
+	mount_equipment = {
+		year = 584
+
+		is_archetype = yes
+		picture = archetype_mount_equipment	
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		maximum_speed = 10
+		reliability = 0.8
+		hardness = 0.5
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2
+		resources = {
+			mounts = 2
+			wheat = 2
+		}
+	}
+
+	mount_equipment_1 = {
+		year = 591
+
+		archetype = mount_equipment
+		priority = 30			
+	}
+
+	mount_equipment_2 = {
+		year = 595
+	
+		archetype = mount_equipment
+		parent = mount_equipment_1
+		priority = 10
+		visual_level = 1
+
+		maximum_speed = 11
+		reliability = 0.85
+
+		build_cost_ic = 2.5
+
+	}
+
+	mount_equipment_3 = {
+		year = 601
+	
+		archetype = mount_equipment
+		parent = mount_equipment_2
+		priority = 10
+		visual_level = 1
+
+		maximum_speed = 12
+		reliability = 0.9
+
+		build_cost_ic = 3
+
+	}
+
+
+}

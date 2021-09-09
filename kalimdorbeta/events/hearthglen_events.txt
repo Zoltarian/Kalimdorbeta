@@ -1,0 +1,226 @@
+﻿###########################
+# hearthglen
+###########################
+
+add_namespace = hearthglen
+
+country_event = {
+  id = hearthglen.1
+  title = hearthglen.1.t
+  desc = hearthglen.1.d
+
+  is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = hearthglen.1.option.1
+
+    add_tech_bonus = {
+        bonus = 0.50
+        uses = 1
+        category = land_doctrine
+    }
+  }
+
+}
+
+country_event = {
+  id = hearthglen.2
+  title = hearthglen.2.t
+  desc = hearthglen.2.d
+
+  is_triggered_only = yes
+
+  fire_only_once = yes
+
+  option = {
+    name = hearthglen.2.option.2
+  }
+
+}
+
+country_event = {
+  id = hearthglen.3
+  title = hearthglen.3.t
+  desc = hearthglen.3.d
+
+  is_triggered_only = yes
+
+  fire_only_once = yes
+
+  option = {
+    name = hearthglen.3.option.1
+
+    add_tech_bonus = {
+        bonus = 0.5
+        uses = 1
+        category = mage_technology
+    }
+
+    add_opinion_modifier = {
+    target = DAL
+    modifier = DAL_help_HEA
+    }
+  }
+
+}
+
+country_event = {
+  id = hearthglen.4
+  title = hearthglen.4.t
+  desc = hearthglen.4.d
+
+  is_triggered_only = yes
+
+  fire_only_once = yes
+
+  option = {
+    name = hearthglen.4.option.1
+
+    add_opinion_modifier = {
+    target = DAL
+    modifier = DAL_refuse_to_help_HEA
+    }
+  }
+
+}
+
+country_event = { #importing gnome submarines
+	id = hearthglen.5
+	title = hearthglen.5.t
+	desc = hearthglen.5.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = hearthglen.5.option.1
+
+	}
+}
+
+country_event = { #AER fighters tech
+	id = hearthglen.6
+	title = hearthglen.6.t
+	desc = hearthglen.6.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = hearthglen.6.option.1
+
+    add_opinion_modifier = {
+      target = AER
+      modifier = AER_help_HEA
+    }
+
+    add_tech_bonus = {
+        bonus = 0.5
+        uses = 1
+        category = fighter_technology
+    }
+	}
+}
+
+country_event = { #AER bombers tech
+	id = hearthglen.7
+	title = hearthglen.7.t
+	desc = hearthglen.7.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = hearthglen.7.option.1
+
+    add_opinion_modifier = {
+      target = AER
+      modifier = AER_help_HEA
+    }
+
+    add_tech_bonus = {
+        bonus = 0.5
+        uses = 1
+        category = bomber_technology
+    }
+	}
+}
+
+country_event = { #AER cas tech
+	id = hearthglen.8
+	title = hearthglen.8.t
+	desc = hearthglen.8.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = hearthglen.8.option.1
+
+    add_opinion_modifier = {
+      target = AER
+      modifier = AER_help_HEA
+    }
+
+    add_tech_bonus = {
+        bonus = 0.5
+        uses = 1
+        category = cas_technology
+    }
+	}
+}
+
+country_event = { #AER refuse
+	id = hearthglen.9
+	title = hearthglen.9.t
+	desc = hearthglen.9.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = hearthglen.9.option.1
+
+    add_opinion_modifier = {
+      target = AER
+      modifier = AER_refuse_to_help_HEA
+    }
+	}
+}
+
+country_event = { #importing goblin destroyers
+	id = hearthglen.10
+	title = hearthglen.10.t
+	desc = hearthglen.10.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+  option = {
+    name = hearthglen.10.option.1
+
+	}
+}
+
+# attending meeting of the seven kingdoms
+country_event = {
+	id = hearthglen.11
+	title = hearthglen.11.t
+	desc = hearthglen.11.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+    name = hearthglen.11.option.1
+  }
+}

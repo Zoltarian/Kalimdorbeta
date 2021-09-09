@@ -1,0 +1,27 @@
+
+state={
+	id=1953
+	name="STATE_1953"
+	resources={
+		mana=10.000
+		ores=10.000
+	}
+
+	history={
+		
+		add_core_of = DOY
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+	}
+
+	provinces={
+		9186 14321 14354 14364 14384 14407
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=399
+	name="STATE_399" #N. Misty Reed Strand/ Bogpaddle
+	resources={
+		oil=22.000
+		wood =6.000
+	}
+
+	history={
+		
+		add_core_of = TSW
+		victory_points = {
+			956 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			956 = {
+				naval_base = 2
+			}
+		}
+
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+		}
+
+		617.1.1 = {
+			
+			controller = TSW
+			add_core_of = TSW
+		}
+	}
+
+	provinces={
+		938 956 2296 2297 2298 2299
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

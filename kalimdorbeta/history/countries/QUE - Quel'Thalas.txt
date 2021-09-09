@@ -1,0 +1,257 @@
+﻿capital = 17
+set_convoys = 150
+
+set_research_slots = 3
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	royal_guard_tech = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+	aviary_tech = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+	large_frames = 1
+	battleship_tech_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+	superior_firepower = 1
+}
+
+add_ideas = {
+	
+	kingdom
+
+	high_elf_primary_race
+
+	primary_religion_the_sun_well
+	secondary_religion_the_church_of_the_holy_light
+}
+
+592.1.1 = {
+	oob = "QUE_592"
+	set_naval_oob = "QUE_592_naval"
+
+	set_stability = 0.65
+	set_war_support = 0.15
+
+	add_ideas = {
+		recruit_guards
+		isolation
+		free_trade
+	}
+
+	set_politics = {
+		ruling_party = neutral
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+  set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+  }
+
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+		
+		catapult_equipment_tech_2 = 1
+
+
+
+
+		naval_transport_2 = 1
+
+		organic_flight = 1
+		fighter_breeds_1 = 1
+		endurance_breeds = 1
+
+		blueprints_1 = 1
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+
+596.1.1 = {
+	oob = "QUE_592"
+	set_naval_oob = "QUE_592_naval"
+
+	add_ideas = {
+		recruit_adventurers
+		early_military_development
+		export_focus
+	}
+
+	set_politics = {
+		ruling_party = neutral
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+		}
+
+  set_popularities = {
+    alliance = 15
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 85
+  }
+}
+
+600.1.1 = {
+	oob = "QUE_600"
+	set_naval_oob = "QUE_600_naval"
+}
+
+617.1.1 = {
+	# Maybe move to earlier start date
+	set_politics = {
+		ruling_party = neutral
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+  set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+  }
+
+	create_country_leader = {
+		name = "Regent Lord Lor'Themar Theron"
+		desc = "POLITICS_LORTHEMAR_DESC"
+		picture = "lor'themar.dds"
+		expire = "1965.1.1"
+		ideology = neutral_type
+		traits = {
+			#
+		}
+	}
+
+	create_field_marshal = {
+		name = "Ranger-General Halduron Brightwing"
+		traits = {  }
+		skill = 3
+	    attack_skill = 2
+	    defense_skill = 2
+	    planning_skill = 2
+	    logistics_skill = 2
+	}
+}
+
+create_country_leader = {
+	name = "Anasterian Sunstrider"
+	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
+	picture = "anasterian_sunstrider.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Anasterian Sunstrider"
+	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
+	picture = "anasterian_sunstrider.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Anasterian Sunstrider"
+	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
+	picture = "anasterian_sunstrider.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Anasterian Sunstrider"
+	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
+	picture = "anasterian_sunstrider.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Anasterian Sunstrider"
+	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
+	picture = "anasterian_sunstrider.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Ranger-Captain Alleria Windrunner"
+	picture = "Alleria.dds"
+	traits = {  }
+	id = 46500
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ranger-General Sylvanas Windrunner"
+	picture = "Sylvanas.dds"
+	traits = {  }
+	id = 46501
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Lor'Themar Theron"
+	picture = "lor'themar.dds"
+	traits = {  }
+	id = 46502
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=1015
+	name="STATE_1015"
+	resources={
+		ores=4
+	}
+
+	history={
+		
+		add_core_of = WSC
+
+		victory_points = {
+			10456 10
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WSC
+		}
+	}
+
+	provinces={
+		9808 9868 10456 10459 10462 10466 10469
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

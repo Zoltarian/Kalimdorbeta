@@ -1,0 +1,33 @@
+
+state={
+	id=1394
+	name="STATE_1394"
+
+	history={
+		owner = BWT
+		add_core_of = BWT
+		victory_points = {
+			12647 10
+		}	
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		617.1.1 = {
+			owner = SST
+			controller = SST
+			add_core_of = SST
+
+		}
+
+	}
+
+	provinces={
+		12078 12636 12637 12642 12646 12647 12649 12656 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

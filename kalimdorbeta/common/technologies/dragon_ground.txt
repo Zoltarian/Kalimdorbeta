@@ -1,0 +1,1537 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	dragon_roost_ground = {
+
+		path = {
+			leads_to_tech = whelp_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = drakonid_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dragonspawn_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dragon_tech
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			dragon_roost_administration = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 8 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			dragon_tier_technology
+		}
+	}
+
+	whelp_tech = {
+
+		enable_subunits = {
+			whelp
+		}
+
+		on_research_complete = {
+			set_technology = {
+				whelp_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = whelp_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dragon_ground_folder
+			position = { x = -1 y = 2 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	whelp_equipment_tech_1 = {
+
+		enable_equipments = {
+			whelp_equipment_1
+		}
+
+		path = {
+			leads_to_tech = whelp_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = whelp_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dragon_ground_folder
+			position = { x = -1 y = 4 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	whelp_tier_1_upgrade_placeholder_1 = {
+
+		xor = { whelp_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = whelp_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = -2 y = 6 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	whelp_tier_1_upgrade_placeholder_2 = {
+
+		xor = { whelp_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = whelp_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	whelp_equipment_tech_2 = {
+
+		enable_equipments = {
+			whelp_equipment_2
+		}
+
+		path = {
+			leads_to_tech = whelp_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = whelp_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dragon_ground_folder
+			position = { x = -1 y = 8 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	whelp_tier_2_upgrade_placeholder_1 = {
+
+		xor = { whelp_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = whelp_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = -2 y = 10 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	whelp_tier_2_upgrade_placeholder_2 = {
+
+		xor = { whelp_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = whelp_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	whelp_equipment_tech_3 = {
+
+		enable_equipments = {
+			whelp_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dragon_ground_folder
+			position = { x = -1 y = 12 }
+		}
+
+		categories = {
+			whelp_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dragonspawn_tech = {
+
+		enable_subunits = {
+			dragonspawn
+			dragonspawn_sorceress
+		}
+
+		on_research_complete = {
+			set_technology = {
+				dragonspawn_equipment_tech_1 = 1
+				dragonspawn_sorceress_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dragonspawn_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dragonspawn_lieutenant_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dragonspawn_sorceress_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 6 y = 2 }
+		}
+
+		categories = {
+			dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragonspawn_equipment_tech_1 = {
+
+		enable_equipments = {
+			dragonspawn_equipment_1
+		}
+
+		path = {
+			leads_to_tech = melee_dragonspawn_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = melee_dragonspawn_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 3 y = 4 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	melee_dragonspawn_tier_1_upgrade_placeholder_1 = {
+
+		xor = { melee_dragonspawn_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dragonspawn_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 2 y = 6 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	melee_dragonspawn_tier_1_upgrade_placeholder_2 = {
+
+		xor = { melee_dragonspawn_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dragonspawn_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 4 y = 6 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragonspawn_equipment_tech_2 = {
+
+		enable_equipments = {
+			dragonspawn_equipment_1
+		}
+
+		path = {
+			leads_to_tech = melee_dragonspawn_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = melee_dragonspawn_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 3 y = 8 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	melee_dragonspawn_tier_2_upgrade_placeholder_1 = {
+
+		xor = { melee_dragonspawn_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dragonspawn_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 2 y = 10 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	melee_dragonspawn_tier_2_upgrade_placeholder_2 = {
+
+		xor = { melee_dragonspawn_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dragonspawn_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 4 y = 10 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragonspawn_equipment_tech_3 = {
+
+		enable_equipments = {
+			dragonspawn_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 3 y = 12 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dragonspawn_lieutenant_tech = {
+
+		path = {
+			leads_to_tech = improved_dragonspawn_lieutenant
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 6 y = 4 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_dragonspawn_lieutenant = {
+
+		path = {
+			leads_to_tech = improved_dragonspawn_lieutenant_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 6 y = 6 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_dragonspawn_lieutenant_2 = {
+
+		path = {
+			leads_to_tech = improved_dragonspawn_lieutenant_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 6 y = 8 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_dragonspawn_lieutenant_3 = {
+
+		path = {
+			leads_to_tech = improved_dragonspawn_lieutenant_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 6 y = 10 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_dragonspawn_lieutenant_4 = {
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 6 y = 12 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragonspawn_sorceress_equipment_tech_1 = {
+
+		enable_equipments = {
+			dragonspawn_sorceress_equipment_1
+		}
+
+		path = {
+			leads_to_tech = caster_dragonspawn_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = caster_dragonspawn_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 9 y = 4 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			caster_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	caster_dragonspawn_tier_1_upgrade_placeholder_1 = {
+
+		xor = { caster_dragonspawn_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dragonspawn_sorceress_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 8 y = 6 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			caster_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	caster_dragonspawn_tier_1_upgrade_placeholder_2 = {
+
+		xor = { caster_dragonspawn_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dragonspawn_sorceress_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 10 y = 6 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			caster_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragonspawn_sorceress_equipment_tech_2 = {
+
+		enable_equipments = {
+			dragonspawn_sorceress_equipment_1
+		}
+
+		path = {
+			leads_to_tech = caster_dragonspawn_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = caster_dragonspawn_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 9 y = 8 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			caster_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	caster_dragonspawn_tier_2_upgrade_placeholder_1 = {
+
+		xor = { caster_dragonspawn_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dragonspawn_sorceress_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 8 y = 10 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			caster_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	caster_dragonspawn_tier_2_upgrade_placeholder_2 = {
+
+		xor = { caster_dragonspawn_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dragonspawn_sorceress_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 10 y = 10 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			caster_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragonspawn_sorceress_equipment_tech_3 = {
+
+		enable_equipments = {
+			dragonspawn_sorceress_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 9 y = 12 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			caster_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	drakonid_tech = {
+
+		enable_subunits = {
+			drakonid
+		}
+
+		on_research_complete = {
+			set_technology = {
+				drakonid_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = drakonid_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 13 y = 2 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	drakonid_equipment_tech_1 = {
+
+		enable_equipments = {
+			drakonid_equipment_1
+		}
+
+		path = {
+			leads_to_tech = drakonid_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = drakonid_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 13 y = 4 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	drakonid_tier_1_upgrade_placeholder_1 = {
+
+		xor = { drakonid_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = drakonid_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 12 y = 6 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	drakonid_tier_1_upgrade_placeholder_2 = {
+
+		xor = { drakonid_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = drakonid_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 14 y = 6 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	drakonid_equipment_tech_2 = {
+
+		enable_equipments = {
+			drakonid_equipment_2
+		}
+
+		path = {
+			leads_to_tech = drakonid_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = drakonid_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 13 y = 8 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	drakonid_tier_2_upgrade_placeholder_1 = {
+
+		xor = { drakonid_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = drakonid_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 12 y = 10 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	drakonid_tier_2_upgrade_placeholder_2 = {
+
+		xor = { drakonid_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = drakonid_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 14 y = 10 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	drakonid_equipment_tech_3 = {
+
+		enable_equipments = {
+			drakonid_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 13 y = 12 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dragon_tech = {
+
+		enable_subunits = {
+			dragon
+		}
+
+		on_research_complete = {
+			set_technology = {
+				dragon_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = broodmother_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dragon_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 17 y = 2 }
+		}
+
+		categories = {
+			dragon_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragon_equipment_tech_1 = {
+
+		enable_equipments = {
+			dragon_equipment_1
+		}
+
+		path = {
+			leads_to_tech = dragon_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dragon_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 17 y = 4 }
+		}
+
+		categories = {
+			drakonid_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	dragon_tier_1_upgrade_placeholder_1 = {
+
+		xor = { dragon_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dragon_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 16 y = 6 }
+		}
+
+		categories = {
+			dragon_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragon_tier_1_upgrade_placeholder_2 = {
+
+		xor = { dragon_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dragon_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 18 y = 6 }
+		}
+
+		categories = {
+			dragon_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragon_equipment_tech_2 = {
+
+		enable_equipments = {
+			dragon_equipment_2
+		}
+
+		path = {
+			leads_to_tech = dragon_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dragon_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 17 y = 8 }
+		}
+
+		categories = {
+			dragon_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dragon_tier_2_upgrade_placeholder_1 = {
+
+		xor = { dragon_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dragon_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 16 y = 10 }
+		}
+
+		categories = {
+			dragon_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragon_tier_2_upgrade_placeholder_2 = {
+
+		xor = { dragon_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dragon_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 18 y = 10 }
+		}
+
+		categories = {
+			dragon_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dragon_equipment_tech_3 = {
+
+		enable_equipments = {
+			dragon_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dragon_ground_folder
+			position = {x = 17 y = 12 }
+		}
+
+		categories = {
+			dragon_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	broodmother_tech = {
+
+		path = {
+			leads_to_tech = improved_broodmother
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 20 y = 2 }
+		}
+
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_broodmother = {
+
+		path = {
+			leads_to_tech = improved_broodmother_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 20 y = 6 }
+		}
+	
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	improved_broodmother_2 = {
+	
+		path = {
+			leads_to_tech = improved_broodmother_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 20 y = 8 }
+		}
+	
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	improved_broodmother_3 = {
+	
+		path = {
+			leads_to_tech = improved_broodmother_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 20 y = 10 }
+		}
+	
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	improved_broodmother_4 = {
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dragon_ground_folder
+			position = { x = 20 y = 12 }
+		}
+	
+		categories = {
+			dragonspawn_tech
+			melee_dragonspawn_tech
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+}

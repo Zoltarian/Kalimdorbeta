@@ -1,0 +1,407 @@
+#############################################
+#events
+#############################################
+ideas = {
+
+	advisor = {
+	# Civilian Advisors
+
+		STC_snap_snagglebolt = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STC
+			}
+
+			traits = { investigator_idea_1 }
+
+		}
+
+		STC_snip_snagglebolt = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = STC
+			}
+
+			traits = { investigator_idea_2 }
+
+		}
+
+		STC_gina_gotgoods = {
+			picture = generic_political_advisor_europe_1
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_chef_overheat = {
+			picture = generic_political_advisor_europe_2
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_brono_goodgroove = {
+			picture = generic_political_advisor_europe_3
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_krixil_slogswitch = {
+			picture = generic_political_advisor_europe_4
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_drazzit_dripvalve = {
+			picture = generic_political_advisor_europe_5
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_fritz_roughtorque = {
+			picture = generic_political_advisor_europe_6
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_zipper_sizzlesnap = {
+			picture = generic_political_advisor_europe_1
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_mitch_yostpaddle = {
+			picture = generic_political_advisor_europe_2
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_axle = {
+			picture = generic_political_advisor_europe_3
+			allowed = {
+				original_tag = STC
+			}
+		}
+	}
+
+	council_member = {
+	# Military Advisors
+		STC_nik_the_mountain = {
+			picture = generic_political_advisor_europe_4
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_dolph_blastus = {
+			picture = generic_political_advisor_europe_5
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_jafix = {
+			picture = generic_political_advisor_europe_6
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_dyslix_silvergrub = {
+			picture = generic_political_advisor_europe_1
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_deedee_dropbolt = {
+			picture = generic_political_advisor_europe_2
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_cap_n_geech = {
+			picture = generic_political_advisor_europe_3
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_skeezie = {
+			picture = generic_political_advisor_europe_4
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_gizzix_grimegurgle = {
+			picture = generic_political_advisor_europe_5
+			allowed = {
+				original_tag = STC
+			}
+		}
+
+		STC_razbo_rustgear = {
+			picture = generic_political_advisor_europe_6
+			allowed = {
+				original_tag = STC
+			}
+		}
+	}
+
+	country = {
+		STC_kaja_cola_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		STC_peace_war_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				conscription = 0.01
+			}
+		}
+
+		STC_third_trade_war_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				conscription = 0.01
+			}
+		}
+
+		STC_the_undermine_dig_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				max_dig_in = 1
+			}
+		}
+
+		STC_rocket_boots_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				army_speed_factor = 0.05
+			}
+		}
+
+		STC_rocket_helms_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				army_attack_factor = 0.1
+			}
+		}
+
+		STC_goblin_jumper_cables_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				attrition = -0.1
+				supply_consumption_factor = -0.1
+			}
+		}
+
+		STC_hobgoblin_laborers_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		STC_city_in_a_box_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+
+			}
+		}
+
+		STC_blackwater_raiders_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+
+			}
+		}
+
+		STC_telabim_bananas_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		
+		STC_kaja_cola_banana_flavor_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+
+		STC_global_auction_house_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+}

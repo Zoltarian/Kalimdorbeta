@@ -1,0 +1,42 @@
+
+state={
+	id=148
+	name="STATE_148"
+	resources={
+		wheat=5
+		mounts=5
+	}
+
+	history={
+		
+		victory_points = {
+			2319 5 
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+		add_core_of = WST
+
+	}
+
+	provinces={
+		618 2317 2319 2322 
+	}
+	manpower=9500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

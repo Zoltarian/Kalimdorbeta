@@ -1,0 +1,40 @@
+
+state={
+	id=246
+	name="STATE_246" #Greenshire /Plaguewood Tower
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			4374 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		738 4349 4352 4374 4378 4380 4402 4406 4407 8675 8676 
+	}
+	manpower=5150
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

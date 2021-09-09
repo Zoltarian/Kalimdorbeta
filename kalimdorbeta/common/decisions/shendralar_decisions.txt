@@ -1,0 +1,377 @@
+demonic_containment_decisions = {
+
+  immolthar_containment_mission = {
+
+    priority = 10
+
+    allowed = {
+			tag = SHD
+		}
+
+    available = {
+			always = no
+		}
+
+    activation = {
+      tag = SHD
+    }
+
+    days_mission_timeout = 365
+
+    timeout_effect = {
+      country_event = shendralar.7
+    }
+  }
+
+  necessary_sacrifice_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+		available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      custom_effect_tooltip = necessary_sacrifice_decision_tt
+      #Kill 1/50 of the pop
+      set_temp_variable = { pop_to_kill = manpower }
+      divide_temp_variable = { pop_to_kill = 50 }
+      round_temp_variable = pop_to_kill
+      multiply_temp_variable = { pop_to_kill = -1 }
+      add_manpower = pop_to_kill
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+		}
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+
+  arcanists_support_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		modifier = {
+      research_speed_factor = -0.05
+    }
+
+    complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+    }
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+
+  power_rationing_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		modifier = {
+      stability_weekly = -0.001
+    }
+
+    complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+    }
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+
+  pylon_maintenance_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		modifier = {
+      consumer_goods_factor = 0.025
+      production_factory_efficiency_gain_factor = -0.025
+      production_factory_max_efficiency_factor = -0.025
+    }
+
+    complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+    }
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+}
+
+looking_for_solutions_decisions = {
+
+  find_a_charged_arcane_crystal_decision = {
+
+    priority = 4
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 14
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+    }
+
+    complete_effect = {
+
+    }
+
+    remove_effect = {
+      set_country_flag = found_charged_crystal
+    }
+  }
+
+  collect_pylon_sample_decision = {
+
+    priority = 3
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 14
+
+    cost = 50
+
+    modifier = {
+
+    }
+
+    complete_effect = {
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = -15
+      }
+    }
+
+    remove_effect = {
+      set_country_flag = pylon_sample_collected
+    }
+  }
+
+  siphon_volatile_demonic_energy_decision = {
+
+    priority = 2
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 14
+
+    cost = 50
+
+    modifier = {
+
+    }
+
+    complete_effect = {
+      add_manpower = -50
+      add_stability = -0.01
+    }
+
+    remove_effect = {
+      set_country_flag = demonic_energy_siphoned
+    }
+  }
+
+  begin_researches_decision = {
+
+    priority = 1
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      has_country_flag = found_charged_crystal
+      has_country_flag = pylon_sample_collected
+      has_country_flag = demonic_energy_siphoned
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 14
+
+    cost = 50
+
+    modifier = {
+
+    }
+
+    complete_effect = {
+
+    }
+
+    remove_effect = {
+      set_country_flag = demonic_energy_siphoned
+    }
+  }
+}
+
+her_majesty_library_decisions = {
+
+  her_majesty_library_decision = {
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+    days_re_enable = 45
+
+    cost = 5
+
+    complete_effect = {
+
+    }
+  }
+}

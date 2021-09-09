@@ -1,0 +1,34 @@
+
+state={
+	id=512
+	name="STATE_512"
+	resources={
+		oil=8.000
+		mounts=14.000
+	}
+
+	history={
+		victory_points = {
+			6022 10 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			5084 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NRT
+
+	}
+
+	provinces={
+		1082 5080 5081 5084 5089 5808 5950 6022 6027 
+	}
+	manpower=24575
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

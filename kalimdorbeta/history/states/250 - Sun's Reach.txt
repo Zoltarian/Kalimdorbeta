@@ -1,0 +1,35 @@
+
+state={
+	id=250
+	name="STATE_250"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		
+		victory_points = {
+			477 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 1
+			477 = {
+				naval_base = 7
+
+			}
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		477 3066 3068 3069 3070 
+	}
+	manpower=40500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

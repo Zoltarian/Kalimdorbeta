@@ -1,0 +1,31 @@
+
+state={
+	id=978
+	name="STATE_978"
+	resources={
+		ores=4
+		gunpowder=5
+	}
+
+	history={
+		owner = KOL
+		victory_points = {
+			10181 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = KOL
+
+	}
+
+	provinces={
+		8686 10139 10143 10163 10174 10181 10184 10188 10198 10209 
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

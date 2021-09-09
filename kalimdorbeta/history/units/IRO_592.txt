@@ -1,0 +1,349 @@
+﻿division_template = {
+	name = "Ironforge Guard"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 2 y = 0 }
+		footman = { x = 2 y = 1 }
+		footman = { x = 2 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Mountain Guard"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 2 y = 0 }
+		pikeman = { x = 2 y = 1 }
+		pikeman = { x = 2 y = 2 }
+
+	}
+	priority = 1
+}
+
+#division_template = {
+#	name = "Mountain Kings"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+division_template = {
+	name = "Dun Morogh Mountaineer"
+
+	regiments = {
+		ranger = { x = 0 y = 0 }
+		ranger = { x = 0 y = 1 }
+		ranger = { x = 0 y = 2 }
+		ranger = { x = 1 y = 0 }
+		ranger = { x = 1 y = 1 }
+		ranger = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Ironforge Catapults"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		catapult = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		catapult = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dwarven Rangers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Scout Rams"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Ram Riders of Ironforge"
+
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+########################
+#Ironforge
+########################
+
+#	division = {
+#		name = "1st Mountain Kings"
+#		location = 3793
+#		division_template = "Mountain Kings"
+#		start_experience_factor = 0.3
+#	}
+
+	division = {
+		name = "1st Dun Morogh Mountaineer"
+		location = 5956
+		division_template = "Dun Morogh Mountaineer"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Dun Morogh Mountaineer"
+		location = 6104
+		division_template = "Dun Morogh Mountaineer"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Ironforge Gate Guard"
+		location = 4063
+		division_template = "Mountain Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Ironforge Gate Guard"
+		location = 3817
+		division_template = "Mountain Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Ironforge Gate Guard"
+		location = 3817
+		division_template = "Mountain Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Ironforge Gate Guard"
+		location = 1024
+		division_template = "Mountain Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Ironforge Guard"
+		location = 3814
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Ironforge Guard"
+		location = 3780
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Outriders"
+		location = 4041
+		division_template = "Scout Rams"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Dun Morogh
+########################
+
+	division = {
+		name = "1st Dun Morogh Guard"
+		location = 3519
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Dun Morogh Guard"
+		location = 4074
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Dun Morogh Guard"
+		location = 4039
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Dun Morogh Guard"
+		location = 993
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Outriders"
+		location = 4051
+		division_template = "Scout Rams"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Ironforge Catapults"
+		location = 3772
+		division_template = "Ironforge Catapults"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Loch Modan
+########################
+	division = {
+		name = "3rd Outriders"
+		location = 1013
+		division_template = "Scout Rams"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Loch Modan Guard"
+		location = 3495
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Loch Modan Guard"
+		location = 3571
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Blasted Lands
+########################
+	division = {
+		name = "Uldaman Garrison"
+		location = 987
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+
+#######################
+#Wetlands
+#######################
+
+#	division = {
+#		name = "2nd Mountain Kings"
+#		location = 1091
+#		division_template = "Mountain Kings"
+#		start_experience_factor = 0.3
+#	}
+	division = {
+		name = "3rd Dun Modr Mountaineer"
+		location = 3594
+		division_template = "Dun Morogh Mountaineer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Dun Modr Mountaineer"
+		location = 3682
+		division_template = "Dun Morogh Mountaineer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Dun Modr Gate Guard"
+		location = 5931
+		division_template = "Mountain Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Dun Modr Gate Guard"
+		location = 5932
+		division_template = "Mountain Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1st Dun Modr Guard"
+		location = 3730
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Dun Modr Guard"
+		location = 3760
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Dun Modr Guard"
+		location = 3759
+		division_template = "Ironforge Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Dwarven Rangers"
+		location = 3607
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Dwarven Rangers"
+		location = 3661
+		division_template = "Dwarven Rangers"
+		start_experience_factor = 0.2
+	}
+
+
+}

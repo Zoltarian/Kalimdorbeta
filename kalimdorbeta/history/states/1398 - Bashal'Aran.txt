@@ -1,0 +1,31 @@
+
+state={
+	id=1398
+	name="STATE_1398"
+	resources = {
+		wheat=5
+		mana=3
+		ores=4
+		wood=6
+	}
+
+	history={
+		owner = DTR
+		add_core_of = DTR
+		victory_points = {
+			12635 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		12071 12625 12626 12627 12631 12635 12638 12644
+	}
+	manpower=23000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

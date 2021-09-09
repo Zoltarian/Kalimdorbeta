@@ -1,0 +1,118 @@
+﻿capital = 30
+
+oob = "TYR_592"
+
+set_naval_oob = "TYR_591_naval_legacy"
+
+set_convoys = 20
+
+set_research_slots = 3
+
+add_ideas = {
+	
+	kingdom
+	
+	human_primary_race
+	primary_trait_diplomatic
+	primary_trait_human_spirit
+	primary_trait_perception
+	
+	primary_religion_the_church_of_the_holy_light
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+	
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+	
+	catapult_equipment_tech_1 = 1
+	
+	
+	
+	
+	
+	naval_transport_1 = 1
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+create_country_leader = {
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Peasant Revolt Leader"
+	desc = ""
+	picture = "gfx/leaders/generic/generic_human_1.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	ideology = titans_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Peasant Revolt Leader"
+	picture = "gfx/leaders/generic/generic_human_1.dds"
+	traits = {  }
+	id = 69600
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

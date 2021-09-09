@@ -1,0 +1,48 @@
+
+state={
+	id=1542
+	name="STATE_1542"
+
+	history={
+		
+		add_core_of = LOR
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			1769 = {
+				naval_base = 1
+
+			}
+			416 = {
+				naval_base = 1
+
+			}
+
+		}
+		596.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = STO
+
+		}
+		617.1.1 = {
+			owner = DGT
+			controller = DGT
+			add_core_of = DGT
+
+		}
+
+	}
+
+	provinces={
+		416 1756 1769 1777 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

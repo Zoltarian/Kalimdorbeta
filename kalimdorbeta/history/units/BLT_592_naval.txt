@@ -1,0 +1,42 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Stillpine South Fleet"			
+		naval_base = 8684
+		task_force = {
+			name = "Stillpine South Fleet"			
+			location = 8684
+			
+			ship = {
+				name = "1st Bristlelimb Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = BLT } }
+			}
+
+			ship = {
+				name = "2nd Bristlelimb Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = BLT } }
+			}
+			
+		}
+	}
+
+	fleet = {				
+		name = "Stillpine North Fleet"			
+		naval_base = 12927
+		task_force = {
+			name = "Stillpine North Fleet"			
+			location = 12927
+			
+			ship = {
+				name = "1st Bristlelimb Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = BLT } }
+			}
+			
+		}
+	}
+
+}

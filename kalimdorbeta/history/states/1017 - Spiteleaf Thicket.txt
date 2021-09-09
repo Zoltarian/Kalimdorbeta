@@ -1,0 +1,38 @@
+
+state={
+	id=1017
+	name="STATE_1017"
+
+	history={
+		
+		add_core_of = BRK
+
+		victory_points = {
+			9819 10
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			9819 = {
+				naval_base = 3
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BRK
+		}
+	}
+
+	provinces={
+		6339 9812 9816 9819 9821 9845 9848
+	}
+	manpower=51000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

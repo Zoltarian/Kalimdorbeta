@@ -1,0 +1,35 @@
+
+state={
+	id=165
+	name="STATE_165" # Silverpine Sepulcher/ The Sepulcher
+	resources={
+		wood=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			5282 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+
+		}
+
+	}
+
+	provinces={
+		3329 3331 3332 3334 3338 3341 3344 5277 5282 
+	}
+	manpower=13025
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

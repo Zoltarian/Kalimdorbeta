@@ -1,0 +1,40 @@
+
+state={
+	id=469
+	name="STATE_469"
+	resources={
+		gunpowder=14.000
+	}
+
+	history={
+		
+		victory_points = {
+			3582 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			
+			controller = BHC
+			add_core_of = BHC
+
+		}
+		600.1.1 = {
+			
+			remove_core_of = BHC
+
+		}
+
+	}
+
+	provinces={
+		1032 3561 3562 3563 3569 3570 3576 3577 3581 3582 
+	}
+	manpower=9650
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

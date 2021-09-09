@@ -1,0 +1,28 @@
+
+state={
+	id=937
+	name="STATE_937"
+
+	impassable = yes
+	history={
+		owner = FAR
+		add_core_of = FAR
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		617.1.1 = {
+			owner = SFB
+			controller = SFB
+			add_core_of = SFB
+		}
+	}
+
+	provinces={
+		8954
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

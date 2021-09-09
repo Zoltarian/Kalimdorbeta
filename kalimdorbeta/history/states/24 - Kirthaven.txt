@@ -1,0 +1,38 @@
+
+state={
+	id=24
+	name="STATE_24"
+	resources={
+		gunpowder=14.000
+		mounts=42.000
+	}
+
+	history={
+		victory_points = {
+			5074 15 
+		}
+		
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = NRT
+		596.1.1 = {
+			buildings = {
+				air_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		5058 5065 5066 5068 5070 5074 5077 5078 5079 5082 5087 5090 6018 6030 6033 6034 
+	}
+	manpower=49250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

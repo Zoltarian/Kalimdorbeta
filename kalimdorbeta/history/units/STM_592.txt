@@ -1,0 +1,61 @@
+﻿division_template = {
+	name = "Stonemaul Brutes"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Stonemaul Brutes"
+		location = 10485
+		division_template = "Stonemaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Stonemaul Brutes"
+		location = 10485
+		division_template = "Stonemaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Stonemaul Brutes"
+		location = 10485
+		division_template = "Stonemaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Stonemaul Brutes"
+		location = 10587
+		division_template = "Stonemaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Stonemaul Brutes"
+		location = 10587
+		division_template = "Stonemaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Stonemaul Brutes"
+		location = 10568
+		division_template = "Stonemaul Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Stonemaul Brutes"
+		location = 10568
+		division_template = "Stonemaul Brutes"
+		start_experience_factor = 0.2
+	}
+	
+}

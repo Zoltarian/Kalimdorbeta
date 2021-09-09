@@ -1,0 +1,108 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { # Country
+	name = GetNiceCountryName
+
+}
+
+defined_text = { # Country
+	name = GetRegionName
+	text = {
+		trigger = { is_lordaeron_country = yes }
+		localization_key = HOA_WS_lordaeron
+	}
+	text = {
+		trigger = { is_khaz_modan_country = yes }
+		localization_key = HOA_WS_khaz_modan
+	}
+	text = {
+		trigger = { is_azeroth_region_country = yes }
+		localization_key = HOA_WS_azeroth_region
+	}
+	text = {
+		trigger = { is_kalimdor_country = yes }
+		localization_key = HOA_WS_kalimdor
+	}
+	text = {
+		trigger = { is_outland_country = yes }
+		localization_key = HOA_WS_outland
+	}
+	text = {
+		trigger = { is_draenor_country = yes }
+		localization_key = HOA_WS_draenor
+	}
+	text = {
+		trigger = { is_pandaria_country = yes }
+		localization_key = HOA_WS_pandaria
+	}
+	text = {
+		trigger = { is_northrend_country = yes }
+		localization_key = HOA_WS_northrend
+	}
+	text = {
+		trigger = { is_the_great_sea_country = yes }
+		localization_key = HOA_WS_broken_isles
+	}
+	text = {
+		trigger = { is_argus_country = yes }
+		localization_key = HOA_WS_argus
+	}
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}
+
+defined_text = { # Country
+	name = GetRegionDesc
+	text = {
+		trigger = { is_lordaeron_country = yes }
+		localization_key = HOA_WS_lordaeron_desc
+	}
+	text = {
+		trigger = { is_khaz_modan_country = yes }
+		localization_key = HOA_WS_khaz_modan_desc
+	}
+	text = {
+		trigger = { is_azeroth_region_country = yes }
+		localization_key = HOA_WS_azeroth_region_desc
+	}
+	text = {
+		trigger = { is_kalimdor_country = yes }
+		localization_key = HOA_WS_kalimdor_desc
+	}
+	text = {
+		trigger = { is_outland_country = yes }
+		localization_key = HOA_WS_outland_desc
+	}
+	text = {
+		trigger = { is_draenor_country = yes }
+		localization_key = HOA_WS_draenor_desc
+	}
+	text = {
+		trigger = { is_pandaria_country = yes }
+		localization_key = HOA_WS_pandaria_desc
+	}
+	text = {
+		trigger = { is_northrend_country = yes }
+		localization_key = HOA_WS_northrend_desc
+	}
+	text = {
+		trigger = { is_the_great_sea_country = yes }
+		localization_key = HOA_WS_broken_isles_desc
+	}
+	text = {
+		trigger = { is_argus_country = yes }
+		localization_key = HOA_WS_argus_desc
+	}
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}

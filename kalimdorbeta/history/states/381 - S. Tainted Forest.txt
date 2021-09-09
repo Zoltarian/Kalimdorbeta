@@ -1,0 +1,46 @@
+
+state={
+	id=381
+	name="STATE_381"
+	resources={
+		wood =12
+		mana=16
+		mounts = 14
+	}
+
+	history={
+	victory_points = { 2829 5 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = FWC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = FWC
+		}
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+		}
+	}
+
+	provinces={
+		922 2773 2774 2775 2776 2777 2812 2813 2821 2829 2833 2836
+	}
+	manpower=46200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

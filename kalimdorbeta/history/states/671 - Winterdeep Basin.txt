@@ -1,0 +1,35 @@
+
+state={
+	id=671
+	name="STATE_671"
+	
+		resources={
+		mounts=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			542 5 
+		}
+		victory_points = {
+			6981 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			6981 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = KUL
+
+	}
+
+	provinces={
+		540 541 542 544 6973 6974 6976 6977 6978 6979 6980 6981 6983 6984 6985 
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

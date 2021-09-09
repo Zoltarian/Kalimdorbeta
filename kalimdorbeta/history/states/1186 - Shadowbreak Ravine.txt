@@ -1,0 +1,36 @@
+
+state={
+	id=1186
+	name="STATE_1186"
+	resources = {
+		mana=6
+		ores=4
+		wheat=5
+	}
+
+	history = {
+		owner = MGC
+		add_core_of = MGC
+		victory_points = {
+			11575 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
+		617.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+		}
+	}
+
+	provinces={
+		2366 11574 11575
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=438
+	name="STATE_438"
+	resources={
+		oil=18.000
+	}
+
+	history={
+		victory_points = {
+			4042 10 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = GNO
+		add_core_of = FRT
+
+	}
+
+	provinces={
+		1004 2946 4042 4044 4052 
+	}
+	manpower=15725
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,185 @@
+﻿division_template = {
+	name = "Bristleback Quilboar"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bristleback Invader"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bristleback Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bristleback Geomancer"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bristleback Bladewarden"
+
+	regiments = {
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Bristleback Quilboar"
+		location = 9965
+		division_template = "Bristleback Quilboar"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Quilboar"
+		location = 9940
+		division_template = "Bristleback Quilboar"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Quilboar"
+		location = 10391
+		division_template = "Bristleback Quilboar"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Quilboar"
+		location = 9668
+		division_template = "Bristleback Quilboar"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Quilboar"
+		location = 10020
+		division_template = "Bristleback Quilboar"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Quilboar"
+		location = 9987
+		division_template = "Bristleback Quilboar"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Invader"
+		location = 9965
+		division_template = "Bristleback Invader"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bristleback Invader"
+		location = 9940
+		division_template = "Bristleback Invader"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bristleback Invader"
+		location = 10391
+		division_template = "Bristleback Invader"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Hunter"
+		location = 10020
+		division_template = "Bristleback Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bristleback Hunter"
+		location = 9668
+		division_template = "Bristleback Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bristleback Hunter"
+		location = 9987
+		division_template = "Bristleback Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bristleback Hunter"
+		location = 10084
+		division_template = "Bristleback Hunter"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Geomancer"
+		location = 9965
+		division_template = "Bristleback Geomancer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bristleback Geomancer"
+		location = 10020
+		division_template = "Bristleback Geomancer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bristleback Geomancer"
+		location = 9668
+		division_template = "Bristleback Geomancer"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bristleback Bladewarden"
+		location = 9965
+		division_template = "Bristleback Bladewarden"
+		start_experience_factor = 0.3
+	}
+
+}

@@ -1,0 +1,41 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Slimeshell Northern Fleet"			
+		naval_base = 1128
+		task_force = {
+			name = "Slimeshell Northern Fleet"			
+			location = 1128
+			
+			ship = {
+				name = "1st Slimeshell Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SIL } }
+			}
+			
+		}
+	}
+
+	fleet = {				
+		name = "Slimeshell Southern Fleet"			
+		naval_base = 10072
+		task_force = {
+			name = "Slimeshell Southern Fleet"			
+			location = 10072
+			
+			ship = {
+				name = "2nd Slimeshell Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SIL } }
+			}
+
+			ship = {
+				name = "3rd Slimeshell Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SIL } }
+			}
+			
+		}
+	}
+}

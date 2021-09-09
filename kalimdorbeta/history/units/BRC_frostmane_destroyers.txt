@@ -1,0 +1,63 @@
+﻿units = {
+
+### Naval OOB ###
+	fleet = {				
+		name = "Frostmane Destroyer Fleet"			
+		naval_base = 525
+		task_force = {
+			name = "1st Fleet"			
+			location = 525 #menethil harbor
+		
+			ship = {
+				name = "1st Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "3rd Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "4th Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "6th Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "7th Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "8th Frostmane Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_2 = { amount = 1  } }
+			}
+			
+		}
+	
+	}
+			
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=1569
+	name="STATE_1569"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			1743 = {
+				bunker = 4
+			}
+			1738 = {
+				bunker = 4
+			}
+
+		}
+
+		add_core_of = STR
+	}
+
+	provinces={
+		197 503 1738 1743 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

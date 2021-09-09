@@ -1,0 +1,30 @@
+
+state={
+	id=1095
+	name="STATE_1095"
+	
+	resources={
+		mana = 4
+		mounts = 4
+	}
+
+	history={
+		
+		victory_points = { 798 20 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = HAK
+		add_core_of = GTH
+
+	}
+
+	provinces={
+		798
+	}
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

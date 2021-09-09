@@ -1,0 +1,32 @@
+
+state={
+	id=150
+	name="STATE_150"
+
+	history={
+		
+		victory_points = {
+			8719 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			8716 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = ZAN
+
+	}
+
+	provinces={
+		584 8714 8716 8719 8720 8721 8725 8727 8729 8730 8732 8735 8738 
+	}
+	manpower=37000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

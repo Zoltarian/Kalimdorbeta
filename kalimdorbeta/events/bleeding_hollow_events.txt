@@ -1,0 +1,69 @@
+﻿###########################
+# Bleeding Hollow
+###########################
+
+add_namespace = bleeding_hollow
+
+#declare war on marshtide tribe
+country_event = {
+	id = bleeding_hollow.1
+	title = bleeding_hollow.1.t
+	desc = bleeding_hollow.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = bleeding_hollow.1.option.1
+		
+		BHC = {
+			declare_war_on = {
+				target = TSW
+				type = take_state_focus
+				generator = { 406 407 408 } 
+			}
+			add_ideas = BHC_clearout_the_swamps
+		}
+		
+		TSW = {
+			country_event = { id = swampwalkers.1 }
+		}
+
+	}
+
+}
+
+country_event = {
+	id = bleeding_hollow.2
+	title = bleeding_hollow.2.t
+	desc = bleeding_hollow.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = bleeding_hollow.2.option.1
+		
+		BHC = {
+			transfer_state = 406
+			transfer_state = 407
+			transfer_state = 408
+			406 = {
+				add_core_of = BHC
+			}
+			407 = {
+				add_core_of = BHC
+			}
+			408 = {
+				add_core_of = BHC
+			}
+			remove_ideas = BHC_clearout_the_swamps
+		}
+
+	}
+
+}

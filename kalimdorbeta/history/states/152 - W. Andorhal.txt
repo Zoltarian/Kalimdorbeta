@@ -1,0 +1,38 @@
+
+state={
+	id=152
+	name="STATE_152"
+
+	history={
+		
+		victory_points = {
+			1708 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		634 1634 1708 1716 1718 1722 
+	}
+	manpower=29750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

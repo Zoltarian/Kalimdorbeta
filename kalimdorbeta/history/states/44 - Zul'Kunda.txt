@@ -1,0 +1,34 @@
+
+state={
+	id=44
+	name="STATE_44"
+	resources={
+		mana=12.000
+		ores=20.000
+	}
+
+	history={
+		
+		victory_points = {
+			127 20 
+		}
+		victory_points = {
+			1698 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = BLO
+
+	}
+
+	provinces={
+		127 1694 1696 1697 1702 1706 3019 5619 5624 
+	}
+	manpower=95500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

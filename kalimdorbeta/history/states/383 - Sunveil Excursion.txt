@@ -1,0 +1,50 @@
+
+state={
+	id=383
+	name="STATE_383"
+	resources={
+		ores=12.000
+		gunpowder=6.000
+	}
+
+	history={
+		
+		add_core_of = THC
+
+		victory_points = {
+			927 10
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = THC
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			owner = RCP
+			controller = RCP
+			add_core_of = RCP
+		}
+	}
+
+	provinces={
+		927 2823 2824 2831 5327
+	}
+	manpower=32900
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

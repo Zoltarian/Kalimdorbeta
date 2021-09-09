@@ -1,0 +1,709 @@
+﻿###########################
+# The Shadow Council
+###########################
+
+add_namespace = shadow_council
+
+#horde civil war
+country_event = {
+	id = shadow_council.1
+	title = shadow_council.1.t
+	desc = shadow_council.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = shadow_council.1.option.1
+
+		load_oob = "TSC_horde_civil_war"
+
+
+	}
+
+}
+#blackrock spire event
+country_event = {
+	id = shadow_council.2
+	title = shadow_council.2.t
+	desc = shadow_council.2.d
+	picture = GFX_report_event_german_parade_paris
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = TSC
+		any_country = {
+			OR = {
+				is_in_faction_with = TSC
+				tag = TSC
+			}
+			is_neighbor_of = DIC
+			has_start_date > 591.12.31
+			has_start_date < 592.01.02
+		}
+	}
+
+    option = {
+        name = shadow_council.2.option.1
+
+		DIC = {
+			country_event = darkiron.1
+		}
+
+		ai_chance = {
+			factor = 90
+
+			modifier = {
+				factor = 110
+				is_historical_focus_on = yes
+			}
+
+		}
+
+	}
+
+    option = {
+        name = shadow_council.2.option.2
+
+		declare_war_on = { target = DIC type = annex_everything }
+
+		ai_chance = {
+			factor = 10
+
+			modifier = {
+				factor = -110
+				is_historical_focus_on = yes
+			}
+
+		}
+
+	}
+}
+
+#dark iron scedes land
+country_event = {
+	id = shadow_council.3
+	title = shadow_council.3.t
+	desc = shadow_council.3.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = shadow_council.3.option.1
+
+		set_capital = 524
+
+		BRC = {
+			country_event = { id = blackrock.17  }
+		}
+
+		BTG = {
+			country_event = { id = black_tooth_grin.4 }
+		}
+
+		if = {
+			limit = {
+				OR = {
+					381 = {
+						is_owned_by = TSC
+					}
+					382 = {
+						is_owned_by = TSC
+					}
+					785 = {
+						is_owned_by = TSC
+					}
+				}
+			}
+			THC = {
+				country_event = { id = twilights_hammer.1 }
+			}
+		}
+
+	}
+
+}
+
+#dark iron declares war
+country_event = {
+	id = shadow_council.4
+	title = shadow_council.4.t
+	desc = shadow_council.4.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = shadow_council.4.option.1
+
+	}
+
+}
+
+#guldans coma
+country_event = {
+	id = shadow_council.5
+	title = shadow_council.5.t
+	desc = shadow_council.5.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = shadow_council.5.option.1
+
+		add_ideas = TSC_guldans_coma_idea
+
+		hidden_effect = {
+			BRC = {
+				country_event = blackrock.18
+			}
+		}
+
+	}
+}
+
+#shadow council attacked by doomhammer
+country_event = {
+	id = shadow_council.6
+	title = shadow_council.6.t
+	desc = shadow_council.6.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = shadow_council.6.option.1
+
+		BRC = {
+			transfer_state = 557
+			transfer_state = 572
+			transfer_state = 543
+			transfer_state = 804
+			transfer_state = 564
+			transfer_state = 567
+			transfer_state = 571
+			transfer_state = 662
+			transfer_state = 570
+			transfer_state = 663
+			transfer_state = 565
+			transfer_state = 563
+			transfer_state = 560
+			transfer_state = 561
+			transfer_state = 562
+			transfer_state = 559
+			transfer_state = 558
+			transfer_state = 556
+			transfer_state = 523
+			transfer_state = 28
+			transfer_state = 73
+			transfer_state = 551
+			transfer_state = 554
+			transfer_state = 546
+			transfer_state = 542
+			transfer_state = 544
+			transfer_state = 657
+			transfer_state = 805
+			transfer_state = 781
+			transfer_state = 548
+
+			557 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			572 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			543 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			804 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			564 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			567 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			571 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			662 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			570 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			663 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			565 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			563 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			560 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			561 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			562 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			559 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			558 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			556 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			523 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			28 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			73 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			551 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			554 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			546 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			542 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			544 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			657 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			805 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			781 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+			548 = {
+				add_core_of = BRC
+				remove_core_of = TSC
+			}
+		}
+	}
+
+}
+
+#Guldan Awakens
+country_event = {
+	id = shadow_council.7
+	title = shadow_council.7.t
+	desc = shadow_council.7.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = shadow_council.7.option.1
+
+	}
+
+}
+
+#fate of Guldan
+country_event = {
+	id = shadow_council.8
+	title = shadow_council.8.t
+	desc = shadow_council.8.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+        name = shadow_council.8.option.1
+
+		TSC = {
+			leave_faction = yes
+		}
+
+		SRC = {
+			annex_country = { target = TSC transfer_troops = yes }
+			change_tag_from = TSC
+			set_politics = {
+				ruling_party = horde
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = horde
+				popularity = 1
+			}
+		}
+
+		BRC = {
+			add_to_faction = SRC
+		}
+
+	}
+
+}
+
+
+add_namespace = frostwolf_fate
+
+#Fate of the Frostwolves
+country_event = {
+	id = frostwolf_fate.1
+	title = frostwolf_fate.1.t
+	desc = frostwolf_fate.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #banish
+		name = frostwolf_fate.1.option.1
+		ai_chance = { factor = 100 } # Historical route
+		FWC = { country_event = { days = 0 id = frostwolf_fate.2 } }
+	}
+
+	option = { #attempted puppet
+		name = frostwolf_fate.1.option.2
+		FWC = { country_event = { days = 0 id = frostwolf_fate.3 } }
+	}
+}
+
+#The event the frostwolfs get if TSC choose to banish FWC
+country_event = {
+	id = frostwolf_fate.2
+	title = frostwolf_fate.2.t
+	desc = frostwolf_fate.2.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #leave to Alterac
+		name = frostwolf_fate.2.option.1
+		ai_chance = { factor = 100 } # Historical route
+		FWC = { # FWC get Alterac land
+			set_state_owner = 114
+			set_state_owner = 761
+		}
+		TSC = { # TSC get old FWC land
+			set_state_owner = 381
+			set_state_owner = 382
+			set_state_owner = 785
+		}
+		#Alterac gets event asking if they will stand for this
+	}
+
+	option = { #TSC threaten FWC with war
+		name = frostwolf_fate.2.option.2
+		FWC = {
+			leave_faction = yes
+			create_faction = Frostwolf_Horde
+		}
+		BRC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		THC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		BTG = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		DMC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		BBC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		BHC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		add_to_variable = {
+			var = frostwolf_fate_sides
+			value = 6
+		}
+	}
+}
+
+#The event the frostwolfs get if TSC choose to banish FWC | MODDED WITH NO SECOND OPTION
+country_event = {
+	id = frostwolf_fate.25
+	title = frostwolf_fate.2.t
+	desc = frostwolf_fate.2.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #leave to Alterac
+		name = frostwolf_fate.2.option.1
+		ai_chance = { factor = 100 } # Historical route
+		FWC = { # FWC get Alterac land
+			set_state_owner = 114
+			set_state_owner = 761
+		}
+		TSC = { # TSC get old FWC land
+			set_state_owner = 381
+			set_state_owner = 382
+			set_state_owner = 785
+		}
+		#Alterac gets event asking if they will stand for this
+	}
+}
+
+#The event the frostwolfs get if TSC choose to banish FWC
+country_event = {
+	id = frostwolf_fate.3
+	title = frostwolf_fate.3.t
+	desc = frostwolf_fate.3.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #TSC threaten FWC with war, "Drek'thar is the obvious choice, Gul'dan will have hell to pay!"
+		name = frostwolf_fate.3.option.1
+		ai_chance = { factor = 50 } # 50% / 50%, since its non-historical
+		set_variable = {
+			var = frostwolf_fate_sides
+			value = 0
+		}
+		set_variable = {
+			var = frostwolf_fate_sides_returned
+			value = 0
+		}
+		FWC = {
+			create_country_leader = {
+				name = "Drek'Thar"
+				desc = "POLITICS_DREKTHAR_DESC"
+				picture = "drekthar.dds"
+				expire = "1965.1.1"
+				ideology = neutral_type
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Drek'Thar"
+				desc = "POLITICS_DREKTHAR_DESC"
+				picture = "drekthar.dds"
+				expire = "1965.1.1"
+				ideology = horde_type
+				traits = {
+					#
+				}
+			}
+			leave_faction = yes
+			create_faction = Frostwolf_Horde
+		}
+		BRC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		THC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		BTG = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		DMC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		BBC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+		BHC = { country_event = { days = 2 id = frostwolf_fate.4 } }
+	}
+
+	option = { #be puppeted, "Fenris is heir by blood, we must remain a part of the Horde!"
+		name = frostwolf_fate.3.option.2
+		ai_chance = { factor = 50 } # 50% / 50%, since its non-historical
+		TSC = { puppet = FWC }
+		FWC = {
+			create_country_leader = {
+				name = "Fenris Wolfblood"
+				desc = "POLITICS_FENRIS_DESC"
+				picture = "FenrisWolfblood.dds"
+				expire = "1965.1.1"
+				ideology = neutral_type
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Fenris Wolfblood"
+				desc = "POLITICS_FENRIS_DESC"
+				picture = "FenrisWolfblood.dds"
+				expire = "1965.1.1"
+				ideology = horde_type
+				traits = {
+					#
+				}
+			}
+		}
+	}
+}
+
+#This event is sent to all of the clans when TSC threatens FWC with war
+country_event = {
+	id = frostwolf_fate.4
+
+	title = { # FWC still has Durotan
+		text = frostwolf_fate.4.t1
+		trigger = {
+			FWC = {
+				has_country_leader = {
+					name = "Durotan"
+				}
+			}
+		}
+	}
+
+	title = { # FWC Durotan murdered
+		text = frostwolf_fate.4.t2
+		trigger = {
+			NOT = {
+				FWC = {
+					has_country_leader = {
+						name = "Durotan"
+					}
+				}
+			}
+		}
+	}
+
+	desc = { # FWC still has Durotan
+		text = frostwolf_fate.4.d1
+		trigger = {
+			FWC = {
+				has_country_leader = {
+					name = "Durotan"
+				}
+			}
+		}
+	}
+
+	desc = { # FWC Durotan murdered
+		text = frostwolf_fate.4.d2
+		trigger = {
+			NOT = {
+				FWC = {
+					has_country_leader = {
+						name = "Durotan"
+					}
+				}
+			}
+		}
+	}
+
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Stay with the horde
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						tag = THC
+						tag = DMC
+						tag = BHC
+					}
+				}
+			}
+		}
+		name = frostwolf_fate.4.option.1
+		add_to_variable = {
+			var = frostwolf_fate_sides_returned
+			value = 1
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = frostwolf_fate_sides
+					value = frostwolf_fate_sides_returned
+					compare = less_than_or_equals
+				}
+			}
+			TSC = {
+				declare_war_on = {
+					target = FWC
+					type = annex_everything
+				}
+			}
+		}
+	}
+
+	option = { #Side with the frostwolfs
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					tag = THC
+					tag = DMC
+					tag = BHC
+				}
+			}
+		}
+		name = frostwolf_fate.4.option.2
+		FWC = { add_to_faction = ROOT }
+		add_to_variable = {
+			var = frostwolf_fate_sides_returned
+			value = 1
+		}
+		if = {
+			limit = {
+				check_variable = { frostwolf_fate_sides = frostwolf_fate_sides_returned }
+			}
+			TSC = {
+				declare_war_on = {
+					target = FWC
+					type = annex_everything
+				}
+			}
+		}
+	}
+}

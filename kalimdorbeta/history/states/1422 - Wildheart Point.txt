@@ -1,0 +1,36 @@
+
+state={
+	id=1422
+	name="STATE_1422"
+	resources = {
+		wood=10
+		ores=6
+		wheat=1
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			12910 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		617.1.1 = {
+			owner = JFT
+			controller = JFT
+			add_core_of = JFT
+
+		}
+
+	}
+
+	provinces={
+		12558 12899 12901 12903 12907 12910 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

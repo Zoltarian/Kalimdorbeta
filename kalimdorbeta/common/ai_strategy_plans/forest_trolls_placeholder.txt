@@ -1,0 +1,34 @@
+forest_trolls_placeholder = {
+	name = "Forest trolls placeholder plan"
+	desc = "Placeholder behaviour for AMA and VIL"
+
+	enable = {
+		has_idea = forest_troll_primary_race
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		pick_a_side
+		support_the_horde
+		horde_demand_respect
+		prove_our_strength
+		horde_wartime_fervour
+		horde_peacetime_preparations
+		horde_our_final_fate
+		horde_remain_with_blackrock
+	}
+	
+	focus_factors = {
+		support_the_alliance = 0
+		stay_neutral = 0
+		serving_higher_powers = 0
+	}
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}
+

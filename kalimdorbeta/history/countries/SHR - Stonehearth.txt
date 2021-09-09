@@ -1,0 +1,97 @@
+﻿capital = 1795
+
+oob = "SHR_592"
+
+set_naval_oob = "SHR_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	
+	city_state
+	recruit_guards
+	early_military_development
+	limited_exports
+
+	earthen_primary_race
+
+	primary_religion_mystery_of_the_makers
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 20
+	neutral = 80
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Stonefather Oremantle"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stonefather Oremantle"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stonefather Oremantle"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stonefather Oremantle"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stonefather Oremantle"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stonefather Oremantle"
+	ideology = titans_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stonefather Oremantle"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

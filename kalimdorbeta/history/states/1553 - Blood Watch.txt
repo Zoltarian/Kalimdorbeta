@@ -1,0 +1,30 @@
+
+state={
+	id=1553
+	name="STATE_1553"
+	resources={
+		wood=6
+		wheat=4
+		eggs=2
+	}
+
+	history={
+		owner = RFT
+		victory_points = {
+			2994 20
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RFT
+
+	}
+
+	provinces={
+		1295 2994 6336 6355 9674 11376 11405 11462 11521 
+	}
+	manpower=5250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

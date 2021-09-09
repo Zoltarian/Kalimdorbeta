@@ -1,0 +1,42 @@
+
+state={
+	id=25
+	name="STATE_25"
+	resources={
+		mana=176.000
+	}
+
+	history={
+		
+		add_core_of = KAR
+
+		victory_points = {
+			2789 30
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+		}
+
+		596.1.1 = {
+			owner = DWC
+			controller = DWC
+			add_core_of = DWC
+		}
+
+		617.1.1 = {
+			
+			controller = DAL
+			add_core_of = DAL
+		}
+	}
+
+	provinces={
+		161 2787 2788 2789 2791 2792 2793 2794
+	}
+	manpower=27175
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

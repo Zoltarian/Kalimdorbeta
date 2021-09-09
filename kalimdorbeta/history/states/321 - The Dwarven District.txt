@@ -1,0 +1,44 @@
+
+state={
+	id=321
+	name="STATE_321"
+	
+	resources={
+		ores = 22
+		gunpowder = 8
+		wheat = 4
+	}
+
+	history={
+		victory_points = { 
+			2396 10
+		}	
+		
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+		}
+
+	}
+
+	provinces={
+		814 2389 2392 2396 2398 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

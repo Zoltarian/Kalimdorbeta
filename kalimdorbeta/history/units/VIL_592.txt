@@ -1,0 +1,233 @@
+﻿division_template = {
+	name = "Vilebranch Berserkers"
+
+	regiments = {
+
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Vilebranch Spearman"
+
+	regiments = {
+
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Vilebranch Scout Cavalry"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Vilebranch Bear Riders"
+
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "1st Vilebranch Berserkers"
+		location = 173
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Vilebranch Berserkers"
+		location = 173
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Vilebranch Berserkers"
+		location = 3835
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Vilebranch Berserkers"
+		location = 3833
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Vilebranch Berserkers"
+		location = 3874
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Vilebranch Berserkers"
+		location = 3882
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Vilebranch Berserkers"
+		location = 3869
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "8th Vilebranch Berserkers"
+		location = 5309
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "9th Vilebranch Berserkers"
+		location = 3841
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "10th Vilebranch Berserkers"
+		location = 621
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "11th Vilebranch Berserkers"
+		location = 3848
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "12th Vilebranch Berserkers"
+		location = 3824
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "13th Vilebranch Berserkers"
+		location = 3857
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "14th Vilebranch Berserkers"
+		location = 3857
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "15th Vilebranch Berserkers"
+		location = 5308
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "16th Vilebranch Berserkers"
+		location = 5311
+		division_template = "Vilebranch Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Vilebranch Spearman"
+		location = 3821
+		division_template = "Vilebranch Spearman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Vilebranch Spearman"
+		location = 3830
+		division_template = "Vilebranch Spearman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Vilebranch Spearman"
+		location = 3839
+		division_template = "Vilebranch Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Vilebranch Bear Riders"
+		location = 3866
+		division_template = "Vilebranch Bear Riders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Vilebranch Bear Riders"
+		location = 3836
+		division_template = "Vilebranch Bear Riders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Vilebranch Bear Riders"
+		location = 3831
+		division_template = "Vilebranch Bear Riders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Vilebranch Scout Cavalry"
+		location = 3853
+		division_template = "Vilebranch Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Vilebranch Scout Cavalry"
+		location = 3861
+		division_template = "Vilebranch Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+
+
+
+
+
+
+
+}

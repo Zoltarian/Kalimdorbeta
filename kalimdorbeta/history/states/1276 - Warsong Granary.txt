@@ -1,0 +1,28 @@
+
+state={
+	id=1276
+	name="STATE_1276"
+
+	history={
+		
+		add_core_of = BPT
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		620.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+
+	}
+
+	provinces={
+		415 5140 5150 5163 6412 10974
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

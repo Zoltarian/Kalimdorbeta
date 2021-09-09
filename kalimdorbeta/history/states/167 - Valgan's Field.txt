@@ -1,0 +1,38 @@
+
+state={
+	id=167
+	name="STATE_167"
+	resources={
+		mounts=8.000
+	}
+
+	history={
+		
+		add_core_of = LOR
+		victory_points = {
+			3354 5 
+		}
+		victory_points = {
+			3380 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+
+		}
+
+	}
+
+	provinces={
+		521 3353 3354 3356 3362 3363 3369 3370 3377 3380 
+	}
+	manpower=10225
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

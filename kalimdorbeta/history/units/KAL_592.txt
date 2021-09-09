@@ -1,0 +1,880 @@
+﻿division_template = {
+	name = "Sentinel Sentrys"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Sentinel Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Sentinel Lancers"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 4 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Sentinel Priestess'"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Sentinel Nightsabers"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Sentinel Huntress'"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		knight = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Sentinel Priestess of the Moon"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		paladin = { x = 1 y = 0 }
+		paladin = { x = 1 y = 1 }
+		paladin = { x = 1 y = 2 }
+		paladin = { x = 1 y = 3 }
+		paladin = { x = 1 y = 4 }
+	}
+	priority = 1
+}
+
+units = {
+
+########################
+#Hyjal
+########################
+	division = {
+		name = "Sentinel Sentrys"
+		location = 15083
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 1055
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 14993
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 14973
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 15067
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 15073
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 13577
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 15082
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 15066
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 15083
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 1055
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 14993
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 14973
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 15067
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 15073
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 13577
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 15082
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 15066
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 15004
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 15098
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 15070
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 13193
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 12923
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 15083
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 15082
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 15067
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 14993
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 1055
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Priestess of the Moon"
+		location = 15083
+		division_template = "Sentinel Priestess of the Moon"
+		start_experience_factor = 0.3
+	}
+
+########################
+#Winterspring
+########################
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 13116
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 13116
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Frostsabers"
+		location = 13166
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Frostsabers"
+		location = 13166
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 13166
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Felwood
+########################
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12883
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12915
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 13006
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12985
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12871
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 13016
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12915
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12883
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 13006
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Ashenvale
+########################
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12406
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12244
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12453
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12319
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12407
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12474
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12530
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12839
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12406
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12244
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12453
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12319
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12407
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12474
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12280
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12329
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12414
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12049
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 12371
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 12839
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 12251
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 12341
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12407
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12523
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12319
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12244
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12453
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Priestess of the Moon"
+		location = 12407
+		division_template = "Sentinel Priestess of the Moon"
+		start_experience_factor = 0.3
+	}
+########################
+#Azshara
+########################
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 4853
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 4853
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 4853
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Darkshore
+########################
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12614
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 12684
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12614
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12684
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12660
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 12594
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 12691
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Nightsabers"
+		location = 12068
+		division_template = "Sentinel Nightsabers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12684
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 12614
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Desolace
+########################
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 11700
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 11727
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 9318
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+########################
+#Feralas
+########################
+	division = {
+		name = "Sentinel Sentrys"
+		location = 11431
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Sentrys"
+		location = 11377
+		division_template = "Sentinel Sentrys"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 11431
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Archers"
+		location = 11377
+		division_template = "Sentinel Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Huntress'"
+		location = 11377
+		division_template = "Sentinel Huntress'"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Sentinel Priestess of the Moon"
+		location = 11431
+		division_template = "Sentinel Priestess of the Moon"
+		start_experience_factor = 0.3
+	}
+
+
+}
+
+air_wings = {
+	### nordrassil
+	64 = {
+		organic_fighter_equipment_1 = {
+			owner = "KAL"
+			amount = 125
+		}
+		organic_cas_equipment_1 = {
+			owner = "KAL"
+			amount = 30
+		}
+		organic_bomber_equipment_1 = {
+			owner = "KAL"
+			amount = 30
+		}
+	}
+
+	### starfall village
+	1446 = {
+		organic_fighter_equipment_1 = {
+			owner = "KAL"
+			amount = 20
+		}
+	}
+
+	### jaedenar
+	1424 = {
+		organic_fighter_equipment_1 = {
+			owner = "KAL"
+			amount = 20
+		}
+	}
+
+	### auberdine
+	1399 = {
+		organic_fighter_equipment_1 = {
+			owner = "KAL"
+			amount = 35
+		}
+		organic_cas_equipment_1 = {
+			owner = "KAL"
+			amount = 10
+		}
+	}
+
+	### astranaar
+	1343 = {
+		organic_fighter_equipment_1 = {
+			owner = "KAL"
+			amount = 75
+		}
+		organic_cas_equipment_1 = {
+			owner = "KAL"
+			amount = 50
+		}
+	}
+
+	### nijel's point
+	1195 = {
+		organic_fighter_equipment_1 = {
+			owner = "KAL"
+			amount = 15
+		}
+	}
+
+	### feathermoon stronghold
+	1148 = {
+		organic_fighter_equipment_1 = {
+			owner = "KAL"
+			amount = 60
+		}
+		organic_cas_equipment_1 = {
+			owner = "KAL"
+			amount = 30
+		}
+		organic_bomber_equipment_1 = {
+			owner = "KAL"
+			amount = 30
+		}
+	}
+}

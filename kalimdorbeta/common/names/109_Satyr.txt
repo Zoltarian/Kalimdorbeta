@@ -1,0 +1,85 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+AXS = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+DTR = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+FMC = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+HDC = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+HFS = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+JFT = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+LEG = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+NZS = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+WSS = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}
+
+XAV = {
+	male = {
+		names = { "Xalan" "Kagraxxas" "Alzzin" "Sethir" "Tyrus" "Zenn" }
+		surnames = { "Vyletongue" "Melenas" "Illwhisper" "Felhorn" "Thornhair" "Foulhoof"}
+		callsigns = { }
+	}
+}

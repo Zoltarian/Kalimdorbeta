@@ -1,0 +1,26 @@
+
+state={
+	id=1610
+	name="STATE_1610"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			1698 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = BLO
+
+	}
+
+	provinces={
+		393 1326 1693 1695 1698 1701 5621 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

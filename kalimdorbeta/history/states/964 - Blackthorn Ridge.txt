@@ -1,0 +1,33 @@
+
+state={
+	id=964
+	name="STATE_964"
+	resources={
+		wheat=6
+		ores=6
+		mounts=3
+	}
+
+	history={
+		owner = RZF
+		victory_points = {
+			2162 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+
+		}
+		add_core_of = RZF
+		add_core_of = SOP
+
+	}
+
+	provinces={
+		2162 9898 9905 9908 9909 9911 9912 9914 9918 9920 9921 
+	}
+	manpower=38000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

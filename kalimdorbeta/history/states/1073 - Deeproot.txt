@@ -1,0 +1,41 @@
+
+state={
+	id=1073
+	name="STATE_1073"
+	resources={
+		wood =4
+		oil=6
+	}
+
+	history={
+		
+		add_core_of = LSC
+
+		victory_points = {
+			10559 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			10481 = {
+				naval_base = 2
+			}
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LSC
+		}
+	}
+
+	provinces={
+		6696 10481 10556 10558 10559 10561
+	}
+	manpower=19000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

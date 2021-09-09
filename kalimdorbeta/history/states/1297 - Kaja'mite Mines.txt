@@ -1,0 +1,33 @@
+
+state={
+	id=1297
+	name="STATE_1297"
+	resources={
+		gunpowder=16
+		ores=16
+	}
+
+	history={
+		
+		victory_points = {
+			8255 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			8255 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = STC
+	}
+
+	provinces={
+		8117 8254 8255 8261 8263 
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

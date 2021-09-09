@@ -1,0 +1,32 @@
+
+state={
+	id=854
+	name="STATE_854"
+	resources={
+		ores=6.000
+		mounts=14.000
+	}
+
+	history={
+		victory_points = {
+			9169 10 
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = SRD
+
+	}
+
+	provinces={
+		8597 9167 9169 9208 9210 9221 9224 9230 
+	}
+	manpower=23000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

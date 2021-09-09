@@ -1,0 +1,49 @@
+
+state={
+	id=184
+	name="STATE_184" # Thas'alah/Deatholme
+	resources={
+		ores=30.000
+	}
+
+	history={
+		
+		victory_points = {
+			4449 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			radar_station = 1
+			5685 = {
+				bunker = 3
+
+			}
+			4478 = {
+				bunker = 3
+
+			}
+			5697 = {
+				bunker = 3
+
+			}
+
+		}
+		add_core_of = QUE
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+	}
+
+	provinces={
+		257 522 652 2998 4449 4451 4463 4478 4486 4487 4493 5685 5697 
+	}
+	manpower=65500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

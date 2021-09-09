@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "Bloodscalp Berserkers"
+
+	regiments = {
+
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bloodscalp Raptor Rider"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1st Bloodscalp Berserkers"
+		location = 127
+		division_template = "Bloodscalp Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bloodscalp Berserkers"
+		location = 1661
+		division_template = "Bloodscalp Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bloodscalp Berserkers"
+		location = 1647
+		division_template = "Bloodscalp Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Bloodscalp Raptor Rider"
+		location = 1665
+		division_template = "Bloodscalp Raptor Rider"
+		start_experience_factor = 0.2
+	}
+	
+
+}

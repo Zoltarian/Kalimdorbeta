@@ -1,0 +1,40 @@
+state={
+	id=71
+	name="STATE_71"
+
+	resources={
+		wheat = 8
+		ores = 10
+		gunpowder = 5
+		wood = 8
+	}
+
+	history={
+		owner = WSH
+		add_core_of = WSH
+		victory_points = {
+			12235 5
+		}
+		victory_points = {
+			12014 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		
+		616.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+		}
+	}
+
+	provinces={
+		12014 12178 12179 12186 12189 12191 12193 12202 12203 12221 12222 12235 12238
+	}
+	manpower=31000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

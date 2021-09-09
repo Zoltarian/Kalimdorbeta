@@ -1,0 +1,58 @@
+﻿###########################
+#blackdragonflight
+###########################
+
+add_namespace = blackdragonflight
+
+#stopped stormwind from getting help
+country_event = {
+	id = blackdragonflight.2
+	title = blackdragonflight.2.t
+	desc = blackdragonflight.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = blackdragonflight.2.option.1
+
+		remove_ideas = BLF_interfering_emissary
+		add_ideas = BLF_infilitrate_the_horde
+		
+	}
+	
+}
+
+#civilwar in lordaeron
+country_event = {
+	id = blackdragonflight.3
+	title = blackdragonflight.3.t
+	desc = blackdragonflight.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = blackdragonflight.3.option.1
+		ai_chance = { 
+			factor = 50
+		}
+		#start civil war now
+		remove_ideas = BLF_interfering_emissary
+		add_named_threat = { threat = 8 name = BLF_civil_war_in_lordaeron}
+
+	}
+	
+    option = {
+        name = blackdragonflight.3.option.2
+		ai_chance = { 
+			factor = 50
+		}
+		#unlock decisions
+	}
+	
+}

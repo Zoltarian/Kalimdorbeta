@@ -1,0 +1,196 @@
+﻿division_template = {
+	name = "Onyxian Whelp"
+
+	regiments = {
+		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 1 y = 0 }
+		whelp = { x = 1 y = 1 }
+		whelp = { x = 1 y = 2 }
+		whelp = { x = 1 y = 3 }
+
+	}
+	priority = 1
+
+}
+
+division_template = {
+
+	name = "Onyxian Dragonspawn"
+
+	regiments = {
+		dragonspawn = { x = 0 y = 0 }
+		dragonspawn = { x = 0 y = 1 }
+		dragonspawn = { x = 0 y = 2 }
+		dragonspawn = { x = 0 y = 3 }
+		dragonspawn = { x = 1 y = 0 }
+		dragonspawn = { x = 1 y = 1 }
+		dragonspawn = { x = 1 y = 2 }
+		dragonspawn = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+
+	name = "Onyxian Dragons"
+
+	regiments = {
+		dragon = { x = 0 y = 0 }
+		dragon = { x = 0 y = 1 }
+		dragon = { x = 0 y = 2 }
+		dragon = { x = 0 y = 3 }
+		dragon = { x = 1 y = 0 }
+		dragon = { x = 1 y = 1 }
+		dragon = { x = 1 y = 2 }
+		dragon = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Onyxian Whelp"
+		location = 8873
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Whelp"
+		location = 8982
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Whelp"
+		location = 8982
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Onyxian Whelp"
+		location = 8988
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Whelp"
+		location = 9001
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Whelp"
+		location = 9030
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Whelp"
+		location = 8988
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Whelp"
+		location = 9001
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Whelp"
+		location = 9030
+		division_template = "Onyxian Whelp"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Onyxian Dragonspawn"
+		location = 8873
+		division_template = "Onyxian Dragonspawn"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Dragonspawn"
+		location = 8873
+		division_template = "Onyxian Dragonspawn"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Dragonspawn"
+		location = 8982
+		division_template = "Onyxian Dragonspawn"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Dragonspawn"
+		location = 8988
+		division_template = "Onyxian Dragonspawn"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Dragonspawn"
+		location = 9001
+		division_template = "Onyxian Dragonspawn"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Onyxian Dragonspawn"
+		location = 9030
+		division_template = "Onyxian Dragonspawn"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Onyxian Dragons"
+		location = 8873
+		division_template = "Onyxian Dragons"
+		start_experience_factor = 0.2
+	}
+
+}
+
+air_wings = {
+	### onyxias lair
+	799 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "ONY"
+			amount = 100
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "ONY"
+			amount = 20
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "ONY"
+			amount = 40
+		}
+
+	}
+
+	582 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "ONY"
+			amount = 40
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "ONY"
+			amount = 10
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "ONY"
+			amount = 20
+		}
+
+	}
+}

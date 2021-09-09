@@ -1,0 +1,193 @@
+﻿capital = 775
+
+oob = "MLC_592"
+
+set_research_slots = 3
+
+set_stability = 0.65
+set_war_support = 0.35
+
+add_ideas = {
+	
+	tyrant
+	isolation
+	recruit_adventurers
+	export_focus
+
+	fire_elemental_primary_race
+
+	primary_religion_followers_of_the_firelord
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+	
+
+	catapult_equipment_tech_1 = 1
+
+	
+	
+	
+	
+	naval_transport_1 = 1
+	town_hall_tech = 1
+	scout_tower_1 = 1
+	
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = DIC
+		autonomous_state = autonomy_enslaved
+		freedom_level = 0.5
+	}
+	else = {
+		puppet = DIC
+	}
+}
+
+
+set_politics = {
+	ruling_party = old_gods
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 100
+    titans = 0
+    neutral = 0
+}
+596.1.1 = {
+
+	set_stability = 0.55
+	set_war_support = 0.5
+	add_ideas = {
+
+		
+		tyrant
+		isolation
+		recruit_adventurers
+		export_focus
+
+		fire_elemental_primary_race
+
+		primary_religion_followers_of_the_firelord
+	}
+
+	set_technology = {
+		footman_weapons_tech_2 = 1
+		
+		
+		
+		
+		
+		
+		naval_transport_2 = 1
+		aviary_tech = 1
+		
+		
+		blueprints_1 = 1
+		
+		
+		
+		
+		
+		
+		
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+create_country_leader = {
+	name = "Majordomo Executus"
+	desc = "POLITICS_MAJORDOMO_EXECUTUS_DESC"
+	picture = "majordomo_e.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Majordomo Executus"
+	desc = "POLITICS_MAJORDOMO_EXECUTUS_DESC"
+	picture = "majordomo_e.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Majordomo Executus"
+	desc = "POLITICS_MAJORDOMO_EXECUTUS_DESC"
+	picture = "majordomo_e.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Majordomo Executus"
+	desc = "POLITICS_MAJORDOMO_EXECUTUS_DESC"
+	picture = "majordomo_e.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Majordomo Executus"
+	desc = "POLITICS_MAJORDOMO_EXECUTUS_DESC"
+	picture = "majordomo_e.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Majordomo Executus"
+	picture = "majordomo_e.dds"
+	traits = {  }
+	id = 23700
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Shazzrah"
+	picture = "Shazzrah.dds"
+	traits = {  }
+	id = 23701
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

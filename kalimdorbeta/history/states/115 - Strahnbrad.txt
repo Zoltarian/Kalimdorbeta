@@ -1,0 +1,36 @@
+
+state={
+	id=115
+	name="STATE_115"
+	resources={
+		ores=8.000
+	}
+
+	history={
+		
+		add_core_of = ALT
+
+		victory_points = {
+			1895 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+		}
+	}
+
+	provinces={
+		595 1889 1890 1895 1898 1904 5186 7477 7478
+	}
+	manpower=99350
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

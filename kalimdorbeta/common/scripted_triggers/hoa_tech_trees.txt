@@ -1,0 +1,56 @@
+is_orc_tech = {
+	or = {
+		has_idea = orc_primary_race
+		has_idea = maghar_orc_primary_race
+		has_idea = pale_orc_primary_race
+		has_idea = fel_orc_primary_race
+		has_idea = ogre_primary_race
+		has_idea = mok_nathal_primary_race
+		has_idea = gronn_primary_race
+	}
+}
+
+is_troll_tech = {
+	or = {
+		has_idea = jungle_troll_primary_race
+		has_idea = forest_troll_primary_race
+		has_idea = ice_troll_primary_race
+		has_idea = sand_troll_primary_race
+		has_idea = dark_troll_primary_race
+		has_idea = zandalari_troll_primary_race
+		has_idea = blood_troll_primary_race
+	}
+}
+
+is_dwarf_tech = {
+	or = {
+		has_idea = dwarf_primary_race
+		has_idea = dark_iron_dwarf_primary_race
+		has_idea = gnome_primary_race
+		has_idea = iron_dwarf_primary_race
+		has_idea = earthen_primary_race
+		has_idea = frostborn_primary_race
+	}
+}
+
+is_dragon_tech = {
+	or = {
+		has_idea = red_dragon_primary_race
+		has_idea = green_dragon_primary_race
+		has_idea = blue_dragon_primary_race
+		has_idea = bronze_dragon_primary_race
+		has_idea = black_dragon_primary_race
+		has_idea = stone_dragon_primary_race
+	}
+}
+
+is_high_elf_tech = {
+	or = {
+		has_idea = high_elf_primary_race
+		has_idea = blood_elf_primary_race
+	}
+}
+
+is_gnoll_tech = {
+		has_idea = gnoll_primary_race
+}

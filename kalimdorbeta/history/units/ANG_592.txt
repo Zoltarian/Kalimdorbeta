@@ -1,0 +1,49 @@
+﻿division_template = {
+	name = "Angorosh Brutes"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Angorosh Brutes"
+		location = 10695
+		division_template = "Angorosh Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Angorosh Brutes"
+		location = 10695
+		division_template = "Angorosh Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Angorosh Brutes"
+		location = 10694
+		division_template = "Angorosh Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Angorosh Brutes"
+		location = 10694
+		division_template = "Angorosh Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Angorosh Brutes"
+		location = 6443
+		division_template = "Angorosh Brutes"
+		start_experience_factor = 0.2
+	}
+	
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=69
+	name="STATE_69"
+	resources={
+		ores=5
+		gunpowder=3
+	}
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+		victory_points = {
+			10194 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+
+		}
+
+	}
+
+	provinces={
+		7607 9673 10164 10175 10179 10185 10194 10195 10200 10202 10206 10207 10211 10212 10218 10219 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

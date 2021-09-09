@@ -1,0 +1,30 @@
+
+state={
+	id=1419
+	name="STATE_1419"
+	resources = {
+		wheat=7
+		wood=4
+		ores=6
+	}
+
+	history={
+		owner = JFT
+		add_core_of = JFT
+		victory_points = {
+			12872 15
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+
+	provinces={
+		12519 12866 12867 12872 12873 12877 12880 12884
+	}
+	manpower=37000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=1408
+	name="STATE_1408"
+	resources = {
+		oil=5
+		ores=5
+		gunpowder=4
+		wood=3
+	}
+
+	history={
+		owner = GMT
+		victory_points = {
+			12563 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			12564 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GMT
+	}
+
+	provinces={
+		12063 12563 12564 12568 12571 12843 12844 
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

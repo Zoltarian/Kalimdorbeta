@@ -1,0 +1,28 @@
+
+state={
+	id=1005
+	name="STATE_1005"
+
+	impassable = yes
+	history={
+		owner = RZM
+		add_core_of = RZM
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			
+			controller = DST
+			add_core_of = DST
+		}
+	}
+
+	provinces={
+		9710
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

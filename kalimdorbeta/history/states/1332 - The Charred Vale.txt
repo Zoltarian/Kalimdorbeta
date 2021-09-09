@@ -1,0 +1,35 @@
+
+state={
+	id=1332
+	name="STATE_1332"
+	resources={
+		eggs = 12
+		wood = 6
+		wheat = 14
+		mana = 10
+	}
+
+	history={
+		owner = BDT
+		add_core_of = BDT
+		victory_points = {
+			12124 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+			9402 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		9402 12011 12110 12111 12114 12115 12117 12118 12119 12121 12123 12124 12126 12127 12128 12861 12862
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

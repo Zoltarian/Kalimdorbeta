@@ -1,0 +1,177 @@
+﻿division_template = {
+	name = "Razormane Defender"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razormane Defender"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razormane Warfrenzy"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razormane Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razormane Geomancer"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Razormane Battleguard"
+
+	regiments = {
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Razormane Defender"
+		location = 10128
+		division_template = "Razormane Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razormane Defender"
+		location = 9640
+		division_template = "Razormane Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razormane Defender"
+		location = 9633
+		division_template = "Razormane Defender"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razormane Defender"
+		location = 9652
+		division_template = "Razormane Defender"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razormane Warfrenzy"
+		location = 9629
+		division_template = "Razormane Warfrenzy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razormane Warfrenzy"
+		location = 10204
+		division_template = "Razormane Warfrenzy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razormane Warfrenzy"
+		location = 9743
+		division_template = "Razormane Warfrenzy"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razormane Warfrenzy"
+		location = 9836
+		division_template = "Razormane Warfrenzy"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razormane Hunter"
+		location = 10229
+		division_template = "Razormane Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razormane Hunter"
+		location = 9712
+		division_template = "Razormane Hunter"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razormane Geomancer"
+		location = 10235
+		division_template = "Razormane Geomancer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Razormane Geomancer"
+		location = 9714
+		division_template = "Razormane Geomancer"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Razormane Battleguard"
+		location = 10128
+		division_template = "Razormane Battleguard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Razormane Battleguard"
+		location = 10261
+		division_template = "Razormane Battleguard"
+		start_experience_factor = 0.3
+	}
+
+}

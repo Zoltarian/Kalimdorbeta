@@ -1,0 +1,25 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Aerie Fleet"			
+		naval_base = 2940
+		task_force = {
+			name = "Aerie Fleet"			
+			location = 2940 #arathi colony
+			
+			ship = {
+				name = "1st Aerie Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Aerie Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

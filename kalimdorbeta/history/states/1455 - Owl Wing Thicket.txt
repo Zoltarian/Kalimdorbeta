@@ -1,0 +1,31 @@
+
+state={
+	id=1455
+	name="STATE_1455"
+
+	history={
+		owner = OWT
+		add_core_of = OWT
+		victory_points = {
+			12592 10 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		616.1.1 = {
+			owner = FMG
+			controller = FMG
+			add_core_of = FMG
+
+		}
+
+	}
+
+	provinces={
+		12592 12952 12956 12959 12969 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

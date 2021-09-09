@@ -1,0 +1,47 @@
+
+state={
+	id=303
+	name="STATE_303"
+
+	resources={
+		mounts=8
+	}
+
+	history={
+		
+		add_core_of = STO
+
+		victory_points = {
+			2071 5 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+		596.1.1 = {
+			owner = SFC
+			controller = SFC
+			add_core_of = SFC
+		}
+		
+		600.1.1 = {
+			
+			controller = STO
+		}
+
+		617.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+		}
+	}
+
+	provinces={
+		791 2066 2069 2071 2073 2075 2077
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

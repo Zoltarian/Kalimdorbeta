@@ -1,0 +1,65 @@
+﻿division_template = {
+	name = "Red Dragonkin"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Dragonkin"
+		location = 1085
+		division_template = "Red Dragonkin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Dragonkin"
+		location = 1078
+		division_template = "Red Dragonkin"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Dragonkin"
+		location = 4686
+		division_template = "Red Dragonkin"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Dragonkin"
+		location = 4679
+		division_template = "Red Dragonkin"
+		start_experience_factor = 0.2
+	}
+	
+}
+		
+#air_wings = {
+#	### vermilion redoubt
+#	498 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "RDF" 
+#			amount = 64
+#		}
+#		
+#		cas_equipment_1 = {
+#			owner = "RDF" 
+#			amount = 64
+#		}
+#		
+#		fighter_equipment_2 = {
+#			owner = "RDF" 
+#			amount = 128
+#		}
+#	}
+#}

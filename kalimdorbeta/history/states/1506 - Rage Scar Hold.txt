@@ -1,0 +1,32 @@
+
+state={
+	id=1506
+	name="STATE_1506"
+	resources = {
+		wheat=6
+		wood=3
+		ores=5
+	}
+
+	history={
+		owner = RSY
+		victory_points = {
+			11737 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = RSY
+
+	}
+
+	provinces={
+		800 11492 11735 11736 11737 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

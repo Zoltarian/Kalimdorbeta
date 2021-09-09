@@ -1,0 +1,62 @@
+﻿###########################
+#stromgarde
+###########################
+
+add_namespace = stromgarde
+
+# attending meeting of the seven kingdoms
+country_event = {
+	id = stromgarde.1
+	title = stromgarde.1.t
+	desc = stromgarde.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+  # attend
+	option = {
+    name = stromgarde.1.option.1
+
+    set_country_flag = attended_meeting_of_seven_kingdoms
+
+    add_ideas = STR_attented_the_meeting_of_the_seven_kingdoms
+
+    LOR = {
+      add_opinion_modifier = {
+        target = STR
+        modifier = attented_the_meeting_of_the_seven_kingdoms
+      }
+    }
+  }
+
+  # refuse
+  option = {
+    name = stromgarde.1.option.2
+
+    LOR = {
+      add_opinion_modifier = {
+        target = STR
+        modifier = not_attented_the_meeting_of_the_seven_kingdoms
+      }
+    }
+  }
+}
+
+# from secure_the_frontier decision of LOR
+country_event = {
+	id = stromgarde.2
+	title = stromgarde.2.t
+	desc = stromgarde.2.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = stromgarde.2.option.1
+
+		add_popularity = {
+	    ideology = alliance
+	    popularity = 0.25
+		}
+	}
+}

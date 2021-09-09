@@ -1,0 +1,113 @@
+﻿capital = 1701
+
+oob = "RGC_592"
+
+set_naval_oob = "RGC_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	
+	tribe
+	limited_conscription
+	peacetime_economy
+	limited_exports
+
+	wolvar_primary_race
+
+	primary_religion_shamanism
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Chief Rageclaw"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Rageclaw"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Rageclaw"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Rageclaw"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Rageclaw"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = titans_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chief Rageclaw"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

@@ -1,0 +1,53 @@
+
+state={
+	id=388
+	name="STATE_388"
+	resources={
+		mana=8.000
+		ores=12.000
+	}
+
+	history={
+		
+		add_core_of = THC
+
+		victory_points = {
+			2839 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			2832 = {
+				naval_base = 1
+			}
+		}
+
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = THC
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			owner = RCP
+			controller = RCP
+			add_core_of = RCP
+		}
+	}
+
+	provinces={
+		926 2811 2814 2816 2818 2820 2825 2828 2832 2834 2835 2837 2838 2839 5356
+	}
+	manpower=49500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=437
+	name="STATE_437"
+	
+			resources={
+		ores=4
+	}
+
+	history={
+		victory_points = { 4066 5 }
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = GNO
+		add_core_of = FRT
+
+	}
+
+	provinces={
+		1028 4062 4066 4072 
+	}
+	manpower=8825
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

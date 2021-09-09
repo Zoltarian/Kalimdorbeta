@@ -1,0 +1,35 @@
+
+state={
+	id=823
+	name="STATE_823"
+	resources={
+		oil=20
+		ores=18
+		gunpowder=12
+	}
+
+	history={
+		
+		victory_points = {
+			8314 20
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 2
+			industrial_complex = 1
+			8314 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = TIN
+
+	}
+
+	provinces={
+		8122 8302 8306 8307 8309 8311 8314 8315 8316 8318 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

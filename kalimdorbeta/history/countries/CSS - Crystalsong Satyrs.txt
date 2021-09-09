@@ -1,0 +1,51 @@
+﻿capital = 1628
+
+oob = "CSS_592"
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	
+	tribe
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	crystal_satyr_primary_race
+	primary_trait_elusiveness
+	primary_trait_crystalised_skin
+	primary_trait_the_shadows_call
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1154
+	name="STATE_1154"
+	impassable = yes
+
+	history={
+		owner = NST
+		add_core_of = NST
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		10890
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

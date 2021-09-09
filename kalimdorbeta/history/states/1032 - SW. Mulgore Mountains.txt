@@ -1,0 +1,28 @@
+
+state={
+	id=1032
+	name="STATE_1032"
+
+	impassable = yes
+	history={
+		owner = HWT
+		add_core_of = HWT
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		617.1.1 = {
+			owner = THB
+			controller = THB
+			add_core_of = THB
+		}
+	}
+
+	provinces={
+		9717
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

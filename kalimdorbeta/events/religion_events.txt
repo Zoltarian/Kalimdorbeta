@@ -1,0 +1,1292 @@
+﻿###########################
+#Religion
+###########################
+
+add_namespace = religions
+
+country_event = {
+	id = religions.1
+
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_church_of_the_holy_light
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_church_of_the_holy_light
+						has_idea = secondary_religion_the_church_of_the_holy_light
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_naaru
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_naaru
+						has_idea = secondary_religion_the_naaru
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_scarlet_church
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_scarlet_church
+						has_idea = secondary_religion_scarlet_church
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_argent_church
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_argent_church
+						has_idea = secondary_religion_argent_church
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_order_of_the_blood_knights
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_order_of_the_blood_knights
+						has_idea = secondary_religion_order_of_the_blood_knights
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_rukhmar
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_rukhmar
+						has_idea = secondary_religion_disciples_of_rukhmar
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_necrolytes
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_necrolytes
+						has_idea = secondary_religion_necrolytes
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_voodoo
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_voodoo
+						has_idea = secondary_religion_the_voodoo
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_cult_of_the_forgotten_shadows
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_cult_of_the_forgotten_shadows
+						has_idea = secondary_religion_cult_of_the_forgotten_shadows
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_anzu
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_anzu
+						has_idea = secondary_religion_disciples_of_anzu
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_void
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_void
+						has_idea = secondary_religion_the_void
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_arcane_studies
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_arcane_studies
+						has_idea = secondary_religion_arcane_studies
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_sun_well
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_sun_well
+						has_idea = secondary_religion_the_sun_well
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_night_well
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_night_well
+						has_idea = secondary_religion_the_night_well
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_druidism
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_druidism
+						has_idea = secondary_religion_druidism
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+			 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_ursoc
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_ursoc
+						has_idea = secondary_religion_disciples_of_ursoc
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_logosh
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_logosh
+						has_idea = secondary_religion_disciples_of_logosh
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_agamaggan
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_agamaggan
+						has_idea = secondary_religion_disciples_of_agamaggan
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+			 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_avianna
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_avianna
+						has_idea = secondary_religion_disciples_of_avianna
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_tortolla
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_tortolla
+						has_idea = secondary_religion_disciples_of_tortolla
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_august_celestial
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_august_celestial
+						has_idea = secondary_religion_august_celestial
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_thornspeakers
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_thornspeakers
+						has_idea = secondary_religion_thornspeakers
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_harvest_witchcraft
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_harvest_witchcraft
+						has_idea = secondary_religion_harvest_witchcraft
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_natural_magic
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_natural_magic
+						has_idea = secondary_religion_natural_magic
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_idea = primary_religion_loa_spirits
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_loa_spirits
+						has_idea = secondary_religion_loa_spirits
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				has_idea = primary_religion_the_fel
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_fel
+						has_idea = secondary_religion_the_fel
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_demonology
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_demonology
+						has_idea = secondary_religion_demonology
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_necromancy
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_necromancy
+						has_idea = secondary_religion_necromancy
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_the_lich_king
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_the_lich_king
+						has_idea = secondary_religion_disciples_of_the_lich_king
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_helya
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_helya
+						has_idea = secondary_religion_followers_of_helya
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_yshaarj
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_yshaarj
+						has_idea = secondary_religion_followers_of_yshaarj
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_nzoth
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_nzoth
+						has_idea = secondary_religion_followers_of_nzoth
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_yogg_saron
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_yogg_saron
+						has_idea = secondary_religion_followers_of_yogg_saron
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_cthun
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_cthun
+						has_idea = secondary_religion_followers_of_cthun
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_hour_of_twilight
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_hour_of_twilight
+						has_idea = secondary_religion_the_hour_of_twilight
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_dark_conclave
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_dark_conclave
+						has_idea = secondary_religion_the_dark_conclave
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_ghuun
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_ghuun
+						has_idea = secondary_religion_followers_of_ghuun
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_mystery_of_the_makers
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_mystery_of_the_makers
+						has_idea = secondary_religion_mystery_of_the_makers
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_odyn
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_odyn
+						has_idea = secondary_religion_followers_of_odyn
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_titans
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_titans
+						has_idea = secondary_religion_the_titans
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_chi
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_chi
+						has_idea = secondary_religion_chi
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_elemental_furies
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_elemental_furies
+						has_idea = secondary_religion_the_elemental_furies
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_shamanism
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_shamanism
+						has_idea = secondary_religion_shamanism
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_dark_shamanism
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_dark_shamanism
+						has_idea = secondary_religion_dark_shamanism
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_the_firelord
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_the_firelord
+						has_idea = secondary_religion_followers_of_the_firelord
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_the_tidehunter
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_the_tidehunter
+						has_idea = secondary_religion_followers_of_the_tidehunter
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_the_stonemother
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_the_stonemother
+						has_idea = secondary_religion_followers_of_the_stonemother
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_the_windlord
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_the_windlord
+						has_idea = secondary_religion_followers_of_the_windlord
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_geomancy
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_geomancy
+						has_idea = secondary_religion_geomancy
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_pyromancy
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_pyromancy
+						has_idea = secondary_religion_pyromancy
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_ordos
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_ordos
+						has_idea = secondary_religion_followers_of_ordos
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_gurok
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_gurok
+						has_idea = secondary_religion_followers_of_gurok
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_the_tidemother
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_the_tidemother
+						has_idea = secondary_religion_followers_of_the_tidemother
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_waterspeaking
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_waterspeaking
+						has_idea = secondary_religion_waterspeaking
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_sisterhood_of_elune 
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_sisterhood_of_elune 
+						has_idea = secondary_religion_the_sisterhood_of_elune 
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_tauren_mythology
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_tauren_mythology
+						has_idea = secondary_religion_tauren_mythology
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_pandaren_folklore
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_pandaren_folklore
+						has_idea = secondary_religion_pandaren_folklore
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_mogu_mythology
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_mogu_mythology
+						has_idea = secondary_religion_mogu_mythology
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_luckydos
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_luckydos
+						has_idea = secondary_religion_luckydos
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_volcanoth
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_volcanoth
+						has_idea = secondary_religion_followers_of_volcanoth
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_mazu
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_mazu
+						has_idea = secondary_religion_followers_of_mazu
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_kros
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_kros
+						has_idea = secondary_religion_followers_of_kros
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_tuskarr_mythology
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_tuskarr_mythology
+						has_idea = secondary_religion_tuskarr_mythology
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_ancient_nerubian
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_ancient_nerubian
+						has_idea = secondary_religion_ancient_nerubian
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_gahzrilla
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_gahzrilla
+						has_idea = secondary_religion_followers_of_gahzrilla
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_the_wyrmcult
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_the_wyrmcult
+						has_idea = secondary_religion_the_wyrmcult
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_gronn_worship
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_gronn_worship
+						has_idea = secondary_religion_gronn_worship
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_magnataur_worship
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_magnataur_worship
+						has_idea = secondary_religion_magnataur_worship
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_zarjira
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_zarjira
+						has_idea = secondary_religion_followers_of_zarjira
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_followers_of_borrok
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_followers_of_borrok
+						has_idea = secondary_religion_followers_of_borrok
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_genesaur_worship
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_genesaur_worship
+						has_idea = secondary_religion_genesaur_worship
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_naraxas
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_naraxas
+						has_idea = secondary_religion_disciples_of_naraxas
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+		 if = {
+			limit = {
+				has_idea = primary_religion_disciples_of_jorhuttam
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_disciples_of_jorhuttam
+						has_idea = secondary_religion_disciples_of_jorhuttam
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+
+		 if = {
+			limit = {
+				has_idea = primary_religion_way_of_the_jade_fist
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_way_of_the_jade_fist
+						has_idea = secondary_religion_way_of_the_jade_fist
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+
+		 if = {
+			limit = {
+				has_idea = primary_religion_irreligious
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_irreligious
+						has_idea = secondary_religion_irreligious
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
+	}
+}

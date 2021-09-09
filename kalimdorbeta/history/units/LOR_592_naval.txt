@@ -1,0 +1,223 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Northern Fleet"			
+		naval_base = 4290
+		task_force = {
+			name = "Northern Fleet"			
+			location = 4290 #tirisfal glades
+			
+			ship = {
+				name = "Menethil Flagship"
+				definition = carrier
+				equipment = { carrier_equipment_1 = { amount = 1  } }
+				air_wings = {
+					hoa_organic_fighter_equipment_1 =  { owner = "LOR" amount = 2 }
+				}
+			}
+			ship = {
+				name = "1st Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Battleship"
+				definition = battleship
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+	fleet = {				
+		name = "Western Fleet"			
+		naval_base = 3352
+		task_force = {
+			name = "Western Fleet"			
+			location = 3352 #silverpine
+			
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "2nd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+	fleet = {				
+		name = "Southern Fleet"			
+		naval_base = 1785
+		task_force = {
+			name = "Southern Fleet"			
+			location = 1785 #southshore
+			
+			ship = {
+				name = "6th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "7th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "8th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "9th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "3rd Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "4th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "5th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+	fleet = {				
+		name = "Hearthglen Fleet"			
+		naval_base = 3487
+		task_force = {
+			name = "Hearthglen Fleet"			
+			location = 3487 #hearthglen
+			
+			ship = {
+				name = "10th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "11th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "6th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+	fleet = {				
+		name = "Stratholme Fleet"			
+		naval_base = 5870
+		task_force = {
+			name = "Stratholme Fleet"			
+			location = 5870 #stratholme
+			
+			ship = {
+				name = "4th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "5th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "12th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "13th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "14th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "7th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "8th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+	fleet = {				
+		name = "Eastern Fleet"			
+		naval_base = 3031
+		task_force = {
+			name = "Eastern Fleet"			
+			location = 3031 #stratholme
+			
+			ship = {
+				name = "15th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "16th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "9th Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+			ship = {
+				name = "6th Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+		}
+	}
+}

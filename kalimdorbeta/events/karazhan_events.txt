@@ -1,0 +1,219 @@
+﻿###########################
+#karazhan
+###########################
+
+add_namespace = karazhan
+
+#country_event = {
+#	id = medivh.1
+#	title = medivh.1.t
+#	desc = medivh.1.d
+#	picture = GFX_report_event_german_parade_paris
+#	
+#	is_triggered_only = yes
+#	
+#	fire_only_once = yes
+#
+#	#support stormwind 
+#    option = {
+#        name = medivh.1.option.1
+#		
+#		add_popularity = {
+#			ideology = legion
+#			popularity = 0.1
+#		}
+#		
+#		STO = {country_event = { days = 2 id = stormwind.2 }}
+#
+#	}
+#	
+#    option = {
+#        name = medivh.1.option.2
+#		
+#		add_popularity = {
+#			ideology = alliance
+#			popularity = 0.025
+#		}
+#		
+#		STO = {country_event = { days = 2 id = stormwind.3 }}
+#
+#	}
+#	
+#}
+
+#country_event = {
+#	id = medivh.2
+#	title = medivh.2.t
+#	desc = medivh.2.d
+#	picture = GFX_report_event_german_parade_paris
+#	
+#	trigger = {
+#		original_tag = KAR
+#			AND = {
+#				NOT = { has_government = legion }
+#				legion > 0.51
+#			}
+#	}
+#	
+#
+#    option = {
+#        name = medivh.2.option.1
+#		
+#		KAR = {
+#			set_political_party = { ideology = legion popularity = 1.0 }
+#			set_political_party = { ideology = alliance popularity = 0.0 }
+#			set_political_party = { ideology = horde popularity = 0.0 }
+#			set_political_party = { ideology = neutral popularity = 0.0 }	
+#			set_political_party = { ideology = scourge popularity = 0.0 }
+#			set_political_party = { ideology = old_gods popularity = 0.0 }
+#			set_political_party = { ideology = titans popularity = 0.0 }
+#			set_politics = { ruling_party = legion elections_allowed = no }
+#			clr_country_flag = medivh_not_corrupted	
+#			set_country_flag = medivh_corrupted
+#		}	
+#	STO = {country_event = { days = 2 id = stormwind.4 }}
+#	}	
+#}
+
+#country_event = {
+#	id = medivh.3
+#	title = medivh.3.t
+#	desc = medivh.3.d
+#	picture = GFX_report_event_german_advisors_remain
+#	
+#	is_triggered_only = yes
+#
+#    option = { #accept aprentice
+#        name = medivh.1.b
+#		ai_chance = { 
+#			base = 100
+#		}
+#		add_ideas = KAR_khadgar
+#		STO = {country_event = { days = 3 id = stormwind.2 }}
+#	}
+#    option = { #reject aprentice
+#        name = medivh.1.b
+#		ai_chance = { 
+#			base = 0
+#		}
+#		STO = {country_event = { days = 3 id = stormwind.3 }}
+#	}
+#}
+
+#country_event = {
+#	id = medivh.4
+#	title = medivh.4.t
+#	desc = medivh.4.d
+#	picture = GFX_report_event_partition_of_india
+#
+#	fire_only_once = yes
+#
+#	trigger = {
+#		tag = KAR
+#		date > 591.7.1
+#	}
+#
+#	option = {
+#		name = medivh.4.a
+#		add_stability = 0.05
+#		add_popularity = {
+#			ideology = legion
+#			popularity = 0.025
+#		}
+#		hidden_effect = {
+#			news_event = { hours = 1 id = news.512 }
+#		}
+#	}
+#}
+
+#country_event = {
+#	id = medivh.5
+#	title = medivh.5.t
+#	desc = medivh.5.d
+#	picture = GFX_report_event_romania_parliament
+#
+#	fire_only_once = yes
+#
+#	trigger ={
+#		tag = KAR
+#		date > 591.7.15
+#	}
+#
+#	option = {
+#		name = medivh.5.a
+#		ai_chance = { 
+#			base = 20
+#		}
+#		add_political_power = 100
+#		hidden_effect = {
+#			news_event = { hours = 1 id = news.513 }
+#		}
+#	}
+#	option = {
+#		name = medivh.5.b
+#		ai_chance = { 
+#			base = 40
+#		}
+#		add_offsite_building = {
+#			type = civ_factory level = 1
+#		}
+#		hidden_effect = {
+#			news_event = { hours = 1 id = news.514 }
+#		}
+#	}
+#	option = {
+#		name = medivh.5.c
+#		ai_chance = { 
+#			base = 40
+#		}
+#		add_offsite_building = {
+#			type = arms_factory level = 1
+#		}
+#		hidden_effect = {
+#			news_event = { hours = 1 id = news.515 }
+#		}
+#	}
+#}
+
+#country_event = {
+#	id = medivh.6
+#	title = medivh.6.t
+#	desc = medivh.6.d
+#	picture = GFX_report_event_usa_amelia_earhart_airplane
+#
+#	fire_only_once = yes
+#
+#	trigger ={
+#		tag = KAR
+#		date > 591.8.1
+#	}
+#
+#	option = {
+#		name = medivh.6.a
+#		ai_chance = { 
+#			base = 50
+#		}
+#		add_popularity = {
+#			ideology = legion
+#			popularity = 0.025
+#		}
+#		add_timed_idea = { idea = KAR_wounded days = 180 }
+#		hidden_effect = {
+#			news_event = { hours = 1 id = news.516 }
+#		}
+#	}
+#	option = {
+#		name = medivh.6.b
+#		ai_chance = { 
+#			base = 50
+#		}
+#		add_popularity = {
+#			ideology = legion
+#			popularity = 0.15
+#		}
+#		add_stability = -0.1
+#		hidden_effect = {
+#			news_event = { hours = 1 id = news.516 }
+#		}
+#	}
+#}

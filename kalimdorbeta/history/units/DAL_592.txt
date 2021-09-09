@@ -1,0 +1,137 @@
+﻿division_template = {
+	name = "Dalaran City Guards"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Dalaran Pikeman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Dalaran Archer"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Dalaran Mounted Guards"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	
+#	support = {
+#		mounted_spellcaster = { x = 0 y = 0 }
+#	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Dalaran Archmages"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+
+	}
+	
+#	support = {
+#		hoa_spellcaster = { x = 0 y = 0 }
+#	}
+	
+	priority = 1
+}
+
+units = {
+
+########################
+#gnomeregan
+########################
+	
+	division = {
+		name = "1st Dalaran City Guards"
+		location = 589
+		division_template = "Dalaran City Guards"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Dalaran City Guards"
+		location = 1980
+		division_template = "Dalaran City Guards"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Dalaran City Guards"
+		location = 1972
+		division_template = "Dalaran City Guards"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Dalaran Mounted Guards"
+		location = 1968
+		division_template = "Dalaran Mounted Guards"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Archmages"
+		location = 589
+		division_template = "Dalaran Archmages"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2nd Archmages"
+		location = 589
+		division_template = "Dalaran Archmages"
+		start_experience_factor = 0.3
+	}
+	
+}

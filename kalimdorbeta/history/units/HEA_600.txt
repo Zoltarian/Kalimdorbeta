@@ -1,0 +1,100 @@
+﻿division_template = {
+	name = "Hearthglen Footman"
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Hearthglen Pikeman"
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Hearthglen Archers"
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hearthglen Scout Cavalry"
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "1st Hearthglen Footman"
+		location = 4434
+		division_template = "Hearthglen Footman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Hearthglen Footman"
+		location = 706
+		division_template = "Hearthglen Footman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Hearthglen Footman"
+		location = 3462
+		division_template = "Hearthglen Footman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Hearthglen Archers"
+		location = 1853
+		division_template = "Hearthglen Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Hearthglen Archers"
+		location = 3472
+		division_template = "Hearthglen Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Hearthglen Pikeman"
+		location = 3443
+		division_template = "Hearthglen Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Hearthglen Pikeman"
+		location = 1708
+		division_template = "Hearthglen Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Andorhal Patrol Cavalry"
+		location = 1567
+		division_template = "Hearthglen Scout Cavalry"
+		start_experience_factor = 0.2
+	}
+
+}

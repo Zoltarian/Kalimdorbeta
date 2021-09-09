@@ -1,0 +1,28 @@
+
+state={
+	id=34
+	name="STATE_34"
+
+	history={
+		
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = QUE
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		274 384 2952 4452 4473 4490 5189 5686 5695 5699 5851 
+	}
+	manpower=2550
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

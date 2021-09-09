@@ -1,0 +1,38 @@
+
+state={
+	id=706
+	name="STATE_706"
+	resources={
+		mounts=8
+		ores=4
+	}
+
+	history={
+		
+		add_core_of = TLC
+
+		victory_points = {
+			6307 20
+		}
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TLC
+		}
+	}
+
+	provinces={
+		2583 6292 6294 6297 6298 6301 6304 6306 6307 6308 6312 6313 6857
+	}
+	manpower=97000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

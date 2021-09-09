@@ -1,0 +1,22 @@
+state={
+	id=1992
+	name="STATE_1992"
+	impassable = yes
+
+	history={
+		owner = BDT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BDT
+
+	}
+
+	provinces={
+		6835
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

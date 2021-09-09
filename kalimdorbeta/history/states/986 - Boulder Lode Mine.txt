@@ -1,0 +1,36 @@
+
+state={
+	id=986
+	name="STATE_986"
+	resources={
+		ores=8
+		gunpowder=2
+	}
+
+	history={
+		owner = WWT
+		add_core_of = WWT
+		victory_points = {
+			10365 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		617.1.1 = {
+			
+			controller = TVC
+			add_core_of = TVC
+
+		}
+
+	}
+
+	provinces={
+		10308 10312 10327 10328 10329 10345 10347 10358 10365 10366 10370 10372 10373 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

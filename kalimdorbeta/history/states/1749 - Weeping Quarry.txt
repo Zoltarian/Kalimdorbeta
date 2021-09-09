@@ -1,0 +1,27 @@
+
+state={
+	id=1749
+	name="STATE_1749"
+
+	history={
+		
+		add_core_of = MDC
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+		}
+	}
+
+	provinces={
+		9303
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

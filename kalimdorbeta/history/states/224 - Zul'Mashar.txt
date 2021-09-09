@@ -1,0 +1,31 @@
+
+state={
+	id=224
+	name="STATE_224"
+	resources={
+		mana=8.000
+		wood =2.000
+	}
+
+	history={
+		
+		victory_points = {
+			4425 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = MFT
+
+	}
+
+	provinces={
+		651 4405 4417 4425 4427 4444 5205 5675 5784 
+	}
+	manpower=68250
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

@@ -1,0 +1,914 @@
+scripted_gui = {
+	state_race_screen = {
+
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "state_race_container"
+
+		triggers = {
+			state_race_ancients_visible = {
+				check_variable = {
+					race = 1
+				}
+			}
+			state_race_ankoan_visible = {
+				check_variable = {
+					race = 2
+				}
+			}
+			state_race_arakkoa_visible = {
+				check_variable = {
+					race = 3
+				}
+			}
+			state_race_black_dragon_visible = {
+				check_variable = {
+					race = 4
+				}
+			}
+			state_race_blood_elf_visible = {
+				check_variable = {
+					race = 5
+				}
+			}
+			state_race_blue_dragon_visible = {
+				check_variable = {
+					race = 6
+				}
+			}
+			state_race_bog_beasts_visible = {
+				check_variable = {
+					race = 7
+				}
+			}
+			state_race_botani_visible = {
+				check_variable = {
+					race = 8
+				}
+			}
+			state_race_broken_visible = {
+				check_variable = {
+					race = 9
+				}
+			}
+			state_race_bronze_dragon_visible = {
+				check_variable = {
+					race = 10
+				}
+			}
+			state_race_centaur_visible = {
+				check_variable = {
+					race = 11
+				}
+			}
+			state_race_chromatic_dragon_visible = {
+				check_variable = {
+					race = 12
+				}
+			}
+			state_race_colossus_visible = {
+				check_variable = {
+					race = 13
+				}
+			}
+			state_race_crystal_nymphs_visible = {
+				check_variable = {
+					race = 14
+				}
+			}
+			state_race_crystal_satyr_visible = {
+				check_variable = {
+					race = 15
+				}
+			}
+			state_race_dark_iron_dwarf_visible = {
+				check_variable = {
+					race = 16
+				}
+			}
+			state_race_dark_troll_visible = {
+				check_variable = {
+					race = 17
+				}
+			}
+			state_race_demons_visible = {
+				check_variable = {
+					race = 18
+				}
+			}
+			state_race_draenei_visible = {
+				check_variable = {
+					race = 19
+				}
+			}
+			state_race_drogbar_visible = {
+				check_variable = {
+					race = 20
+				}
+			}
+			state_race_drust_visible = {
+				check_variable = {
+					race = 21
+				}
+			}
+			state_race_dryads_visible = {
+				check_variable = {
+					race = 22
+				}
+			}
+			state_race_dwarf_visible = {
+				check_variable = {
+					race = 23
+				}
+			}
+			state_race_earth_elemental_visible = {
+				check_variable = {
+					race = 24
+				}
+			}
+			state_race_earthen_visible = {
+				check_variable = {
+					race = 25
+				}
+			}
+			state_race_ethereal_visible = {
+				check_variable = {
+					race = 26
+				}
+			}
+			state_race_ettin_visible = {
+				check_variable = {
+					race = 27
+				}
+			}
+			state_race_faceless_one_visible = {
+				check_variable = {
+					race = 28
+				}
+			}
+			state_race_faerie_dragon_visible = {
+				check_variable = {
+					race = 29
+				}
+			}
+			state_race_fal_dorei_visible = {
+				check_variable = {
+					race = 30
+				}
+			}
+			state_race_fel_orc_visible = {
+				check_variable = {
+					race = 31
+				}
+			}
+			state_race_fel_blood_elves_visible = {
+				check_variable = {
+					race = 32
+				}
+			}
+			state_race_felborne_visible = {
+				check_variable = {
+					race = 33
+				}
+			}
+			state_race_fire_elemental_visible = {
+				check_variable = {
+					race = 34
+				}
+			}
+			state_race_aqir_visible = {
+				check_variable = {
+					race = 35
+				}
+			}
+			state_race_twilight_dragon_visible = {
+				check_variable = {
+					race = 36
+				}
+			}
+			state_race_frost_vrykul_visible = {
+				check_variable = {
+					race = 37
+				}
+			}
+			state_race_frostborn_visible = {
+				check_variable = {
+					race = 38
+				}
+			}
+			state_race_fungal_giants_visible = {
+				check_variable = {
+					race = 39
+				}
+			}
+			state_race_fungal_monster_visible = {
+				check_variable = {
+					race = 40
+				}
+			}
+			state_race_fungarians_visible = {
+				check_variable = {
+					race = 41
+				}
+			}
+			state_race_furbolg_visible = {
+				check_variable = {
+					race = 42
+				}
+			}
+			state_race_ghost_visible = {
+				check_variable = {
+					race = 43
+				}
+			}
+			state_race_gilgoblin_visible = {
+				check_variable = {
+					race = 44
+				}
+			}
+			state_race_gnoll_visible = {
+				check_variable = {
+					race = 45
+				}
+			}
+			state_race_gnome_visible = {
+				check_variable = {
+					race = 46
+				}
+			}
+			state_race_goblin_visible = {
+				check_variable = {
+					race = 47
+				}
+			}
+			state_race_goren_visible = {
+				check_variable = {
+					race = 48
+				}
+			}
+			state_race_gorlocs_visible = {
+				check_variable = {
+					race = 49
+				}
+			}
+			state_race_green_dragon_visible = {
+				check_variable = {
+					race = 50
+				}
+			}
+			state_race_grell_visible = {
+				check_variable = {
+					race = 51
+				}
+			}
+			state_race_gronn_visible = {
+				check_variable = {
+					race = 52
+				}
+			}
+			state_race_grummle_visible = {
+				check_variable = {
+					race = 53
+				}
+			}
+			state_race_harpy_visible = {
+				check_variable = {
+					race = 54
+				}
+			}
+			state_race_high_elf_visible = {
+				check_variable = {
+					race = 55
+				}
+			}
+			state_race_highmountain_tauren_visible = {
+				check_variable = {
+					race = 56
+				}
+			}
+			state_race_highborne_visible = {
+				check_variable = {
+					race = 57
+				}
+			}
+			state_race_hobgoblin_visible = {
+				check_variable = {
+					race = 58
+				}
+			}
+			state_race_hozen_visible = {
+				check_variable = {
+					race = 59
+				}
+			}
+			state_race_human_visible = {
+				check_variable = {
+					race = 60
+				}
+			}
+			state_race_ice_giant_visible = {
+				check_variable = {
+					race = 61
+				}
+			}
+			state_race_ice_troll_visible = {
+				check_variable = {
+					race = 62
+				}
+			}
+			state_race_infinite_dragon_visible = {
+				check_variable = {
+					race = 63
+				}
+			}
+			state_race_iron_dwarf_visible = {
+				check_variable = {
+					race = 64
+				}
+			}
+			state_race_iron_giant_visible = {
+				check_variable = {
+					race = 65
+				}
+			}
+			state_race_iron_vrykul_visible = {
+				check_variable = {
+					race = 66
+				}
+			}
+			state_race_jinyu_visible = {
+				check_variable = {
+					race = 67
+				}
+			}
+			state_race_jungle_troll_visible = {
+				check_variable = {
+					race = 68
+				}
+			}
+			state_race_junker_gnome_visible = {
+				check_variable = {
+					race = 69
+				}
+			}
+			state_race_kobold_visible = {
+				check_variable = {
+					race = 70
+				}
+			}
+			state_race_kvaldir_visible = {
+				check_variable = {
+					race = 71
+				}
+			}
+			state_race_lashers_visible = {
+				check_variable = {
+					race = 72
+				}
+			}
+			state_race_leper_gnome_visible = {
+				check_variable = {
+					race = 73
+				}
+			}
+			state_race_light_forged_draenei_visible = {
+				check_variable = {
+					race = 74
+				}
+			}
+			state_race_lobstrok_visible = {
+				check_variable = {
+					race = 75
+				}
+			}
+			state_race_lost_ones_visible = {
+				check_variable = {
+					race = 76
+				}
+			}
+			state_race_maghar_orc_visible = {
+				check_variable = {
+					race = 77
+				}
+			}
+			state_race_magnataur_visible = {
+				check_variable = {
+					race = 78
+				}
+			}
+			state_race_makrura_visible = {
+				check_variable = {
+					race = 79
+				}
+			}
+			state_race_mana_surge_visible = {
+				check_variable = {
+					race = 80
+				}
+			}
+			state_race_mantid_visible = {
+				check_variable = {
+					race = 81
+				}
+			}
+			state_race_mecha_gnome_visible = {
+				check_variable = {
+					race = 82
+				}
+			}
+			state_race_mist_lurker_visible = {
+				check_variable = {
+					race = 83
+				}
+			}
+			state_race_mogu_visible = {
+				check_variable = {
+					race = 84
+				}
+			}
+			state_race_mok_nathal_visible = {
+				check_variable = {
+					race = 85
+				}
+			}
+			state_race_mountain_giant_visible = {
+				check_variable = {
+					race = 86
+				}
+			}
+			state_race_murloc_visible = {
+				check_variable = {
+					race = 87
+				}
+			}
+			state_race_naga_visible = {
+				check_variable = {
+					race = 88
+				}
+			}
+			state_race_nerubians_visible = {
+				check_variable = {
+					race = 89
+				}
+			}
+			state_race_netherwing_dragon_visible = {
+				check_variable = {
+					race = 90
+				}
+			}
+			state_race_night_elf_visible = {
+				check_variable = {
+					race = 91
+				}
+			}
+			state_race_nightborne_visible = {
+				check_variable = {
+					race = 92
+				}
+			}
+			state_race_nightfallen_visible = {
+				check_variable = {
+					race = 93
+				}
+			}
+			state_race_nightmare_dragon_visible = {
+				check_variable = {
+					race = 94
+				}
+			}
+			state_race_ogre_visible = {
+				check_variable = {
+					race = 95
+				}
+			}
+			state_race_orc_visible = {
+				check_variable = {
+					race = 96
+				}
+			}
+			state_race_pale_orc_visible = {
+				check_variable = {
+					race = 97
+				}
+			}
+			state_race_pandaren_visible = {
+				check_variable = {
+					race = 98
+				}
+			}
+			state_race_pygmies_visible = {
+				check_variable = {
+					race = 99
+				}
+			}
+			state_race_qiraji_visible = {
+				check_variable = {
+					race = 100
+				}
+			}
+			state_race_quilboar_visible = {
+				check_variable = {
+					race = 101
+				}
+			}
+			state_race_ranishu_visible = {
+				check_variable = {
+					race = 102
+				}
+			}
+			state_race_red_dragon_visible = {
+				check_variable = {
+					race = 103
+				}
+			}
+			state_race_rock_flayer_visible = {
+				check_variable = {
+					race = 104
+				}
+			}
+			state_race_saberon_visible = {
+				check_variable = {
+					race = 105
+				}
+			}
+			state_race_sanlayn_visible = {
+				check_variable = {
+					race = 106
+				}
+			}
+			state_race_sand_gnome_visible = {
+				check_variable = {
+					race = 107
+				}
+			}
+			state_race_sand_troll_visible = {
+				check_variable = {
+					race = 108
+				}
+			}
+			state_race_satyr_visible = {
+				check_variable = {
+					race = 109
+				}
+			}
+			state_race_sea_giants_visible = {
+				check_variable = {
+					race = 110
+				}
+			}
+			state_race_sethrak_visible = {
+				check_variable = {
+					race = 111
+				}
+			}
+			state_race_sha_visible = {
+				check_variable = {
+					race = 112
+				}
+			}
+			state_race_silithid_visible = {
+				check_variable = {
+					race = 113
+				}
+			}
+			state_race_siren_visible = {
+				check_variable = {
+					race = 114
+				}
+			}
+			state_race_snobold_visible = {
+				check_variable = {
+					race = 115
+				}
+			}
+			state_race_sporeling_visible = {
+				check_variable = {
+					race = 116
+				}
+			}
+			state_race_sprite_visible = {
+				check_variable = {
+					race = 117
+				}
+			}
+			state_race_stone_giant_visible = {
+				check_variable = {
+					race = 118
+				}
+			}
+			state_race_stone_trogg_visible = {
+				check_variable = {
+					race = 119
+				}
+			}
+			state_race_storm_dragon_visible = {
+				check_variable = {
+					race = 120
+				}
+			}
+			state_race_storm_giant_visible = {
+				check_variable = {
+					race = 121
+				}
+			}
+			state_race_taunka_visible = {
+				check_variable = {
+					race = 122
+				}
+			}
+			state_race_tauren_visible = {
+				check_variable = {
+					race = 123
+				}
+			}
+			state_race_titan_watcher_visible = {
+				check_variable = {
+					race = 124
+				}
+			}
+			state_race_tolvir_visible = {
+				check_variable = {
+					race = 125
+				}
+			}
+			state_race_tortollan_visible = {
+				check_variable = {
+					race = 126
+				}
+			}
+			state_race_trogg_visible = {
+				check_variable = {
+					race = 127
+				}
+			}
+			state_race_tuskarr_visible = {
+				check_variable = {
+					race = 128
+				}
+			}
+			state_race_undead_visible = {
+				check_variable = {
+					race = 129
+				}
+			}
+			state_race_valarjar_visible = {
+				check_variable = {
+					race = 130
+				}
+			}
+			state_race_valkyr_visible = {
+				check_variable = {
+					race = 131
+				}
+			}
+			state_race_vargul_visible = {
+				check_variable = {
+					race = 132
+				}
+			}
+			state_race_virmen_visible = {
+				check_variable = {
+					race = 133
+				}
+			}
+			state_race_void_elf_visible = {
+				check_variable = {
+					race = 134
+				}
+			}
+			state_race_void_walker_visible = {
+				check_variable = {
+					race = 135
+				}
+			}
+			state_race_vrykul_visible = {
+				check_variable = {
+					race = 136
+				}
+			}
+			state_race_vulpera_visible = {
+				check_variable = {
+					race = 137
+				}
+			}
+			state_race_water_elemental_visible = {
+				check_variable = {
+					race = 138
+				}
+			}
+			state_race_wendigo_visible = {
+				check_variable = {
+					race = 139
+				}
+			}
+			state_race_wildkin_visible = {
+				check_variable = {
+					race = 140
+				}
+			}
+			state_race_wind_elemental_visible = {
+				check_variable = {
+					race = 141
+				}
+			}
+			state_race_withered_visible = {
+				check_variable = {
+					race = 142
+				}
+			}
+			state_race_wolvar_visible = {
+				check_variable = {
+					race = 143
+				}
+			}
+			state_race_worgen_visible = {
+				check_variable = {
+					race = 144
+				}
+			}
+			state_race_wretched_elf_visible = {
+				check_variable = {
+					race = 145
+				}
+			}
+			state_race_yaungol_visible = {
+				check_variable = {
+					race = 146
+				}
+			}
+			state_race_yeti_visible = {
+				check_variable = {
+					race = 147
+				}
+			}
+			state_race_zandalari_troll_visible = {
+				check_variable = {
+					race = 148
+				}
+			}
+			state_race_anubisath_visible = {
+				check_variable = {
+					race = 149
+				}
+			}
+			state_race_frost_giant_visible = {
+				check_variable = {
+					race = 150
+				}
+			}
+			state_race_blood_troll_visible = {
+				check_variable = {
+					race = 151
+				}
+			}
+			state_race_gorilla_visible = {
+				check_variable = {
+					race = 152
+				}
+			}
+			state_race_forest_troll_visible = {
+				check_variable = {
+					race = 153
+				}
+			}
+			state_race_frost_nymph_visible = {
+				check_variable = {
+					race = 154
+				}
+			}
+			state_race_ogron_visible = {
+				check_variable = {
+					race = 155
+				}
+			}
+			state_race_high_arrakoa_visible = {
+				check_variable = {
+					race = 156
+				}
+			}
+			state_race_jade_statue_visible = {
+				check_variable = {
+					race = 157
+				}
+			}
+			state_race_saurok_visible = {
+				check_variable = {
+					race = 158
+				}
+			}
+			state_race_stone_dragon_visible = {
+				check_variable = {
+					race = 159
+				}
+			}
+
+		}
+	}
+
+	race_conversion_button_container = {
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "race_conversion_button_container"
+
+		visible = {}
+
+		effects = {
+			race_conversion_button_click = {
+				ROOT = {
+					if = {
+						limit = {
+							NOT = { is_in_array = { race_conversion_check_popup = PREV } }
+						}
+						add_to_array = { race_conversion_check_popup = PREV }
+					}
+				}
+			}
+		}
+
+		triggers = {
+			race_conversion_button_visible = {
+				state_does_not_match_primary_or_secondary_race = yes
+				is_owned_and_controlled_by = ROOT
+				NOT = { has_variable = race_conversion_progress }
+			}
+			race_conversion_button_click_enabled = {
+				ROOT = { has_political_power > race_conversion_cost }
+			}
+		}
+
+		ai_test_scopes = test_self_owned_states
+		ai_test_interval = 24
+		ai_test_variance = 0.2
+
+		ai_enabled = {
+			always = yes
+		}
+
+		ai_check = {
+			has_political_power > 200
+		}
+
+		ai_weights = {
+			race_conversion_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						ROOT = { has_political_power > 500 }
+						add = 10
+					}
+					modifier = {
+						is_coastal = yes
+						factor = 2
+					}
+					modifier = {
+						any_neighbor_state = {
+							has_main_race = yes
+						}
+						factor = 10
+					}
+					modifier = {
+						check_variable = { global.RACE_CONVERSION_BLOCKED = 1 }
+						factor = 0
+					}
+				}
+			}
+		}
+	}
+
+	convert_race_progress = {
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "convert_race_progress"
+
+		visible = {
+			has_variable = race_conversion_progress
+		}
+
+		effects = {
+			race_conversion_cancel_click = {
+				ROOT = {
+					if = {
+						limit = {
+							NOT = { is_in_array = { race_conversion_cancel_popup = PREV } }
+						}
+						add_to_array = { race_conversion_cancel_popup = PREV }
+					}
+				}
+			}
+		}
+
+		triggers = {
+			race_conversion_cancel_click_enabled = {
+			}
+			race_conversion_cancel_visible = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+
+		properties = {
+			race_conversion_bar = {
+				x = race_conversion_progress
+			}
+		}
+	}
+}

@@ -1,0 +1,499 @@
+scripted_gui = {
+	state_religion_screen = {
+
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "state_religion_container"
+
+		triggers = {
+			state_religion_church_of_the_holy_light_visible = {
+				check_variable = {
+					religion = 1
+				}
+			}
+			state_religion_the_naaru_visible = {
+				check_variable = {
+					religion = 2
+				}
+			}
+			state_religion_scarlet_church_visible = {
+				check_variable = {
+					religion = 3
+				}
+			}
+			state_religion_argent_church_visible = {
+				check_variable = {
+					religion = 4
+				}
+			}
+			state_religion_order_of_the_blood_knights_visible = {
+				check_variable = {
+					religion = 5
+				}
+			}
+			state_religion_disciples_of_rukhmar_visible = {
+				check_variable = {
+					religion = 6
+				}
+			}
+			state_religion_necrolytes_visible = {
+				check_variable = {
+					religion = 7
+				}
+			}
+			state_religion_voodoo_visible = {
+				check_variable = {
+					religion = 8
+				}
+			}
+			state_religion_cult_of_the_forgotten_shadows_visible = {
+				check_variable = {
+					religion = 9
+				}
+			}
+			state_religion_disciples_of_anzu_visible = {
+				check_variable = {
+					religion = 10
+				}
+			}
+			state_religion_the_void_visible = {
+				check_variable = {
+					religion = 11
+				}
+			}
+			state_religion_arcane_studies_visible = {
+				check_variable = {
+					religion = 12
+				}
+			}
+			state_religion_the_sun_well_visible = {
+				check_variable = {
+					religion = 13
+				}
+			}
+			state_religion_the_night_well_visible = {
+				check_variable = {
+					religion = 14
+				}
+			}
+			state_religion_druidism_visible = {
+				check_variable = {
+					religion = 15
+				}
+			}
+			state_religion_disciples_of_ursoc_visible = {
+				check_variable = {
+					religion = 16
+				}
+			}
+			state_religion_disciples_of_logosh_visible = {
+				check_variable = {
+					religion = 17
+				}
+			}
+			state_religion_disciples_of_agamaggan_visible = {
+				check_variable = {
+					religion = 18
+				}
+			}
+			state_religion_disciples_of_avianna_visible = {
+				check_variable = {
+					religion = 19
+				}
+			}
+			state_religion_disciples_of_tortolla_visible = {
+				check_variable = {
+					religion = 20
+				}
+			}
+			state_religion_august_celestial_visible = {
+				check_variable = {
+					religion = 21
+				}
+			}
+			state_religion_thornspeakers_visible = {
+				check_variable = {
+					religion = 22
+				}
+			}
+			state_religion_harvest_witchcraft_visible = {
+				check_variable = {
+					religion = 23
+				}
+			}
+			state_religion_natural_magic_visible = {
+				check_variable = {
+					religion = 24
+				}
+			}
+			state_religion_loa_spirits_visible = {
+				check_variable = {
+					religion = 25
+				}
+			}
+			state_religion_the_fel_visible = {
+				check_variable = {
+					religion = 26
+				}
+			}
+			state_religion_demonology_visible = {
+				check_variable = {
+					religion = 27
+				}
+			}
+			state_religion_necromancy_visible = {
+				check_variable = {
+					religion = 28
+				}
+			}
+			state_religion_disciples_of_the_lich_king_visible = {
+				check_variable = {
+					religion = 29
+				}
+			}
+			state_religion_followers_of_helya_visible = {
+				check_variable = {
+					religion = 30
+				}
+			}
+			state_religion_drust_visible = {
+				check_variable = {
+					religion = 31
+				}
+			}
+			state_religion_followers_of_yshaarj_visible = {
+				check_variable = {
+					religion = 32
+				}
+			}
+			state_religion_followers_of_nzoth_visible = {
+				check_variable = {
+					religion = 33
+				}
+			}
+			state_religion_followers_of_yogg_saron_visible = {
+				check_variable = {
+					religion = 34
+				}
+			}
+			state_religion_followers_of_cthun_visible = {
+				check_variable = {
+					religion = 35
+				}
+			}
+			state_religion_the_hour_of_twilight_visible = {
+				check_variable = {
+					religion = 36
+				}
+			}
+			state_religion_the_dark_conclave_visible = {
+				check_variable = {
+					religion = 37
+				}
+			}
+			state_religion_followers_of_ghuun_visible = {
+				check_variable = {
+					religion = 38
+				}
+			}
+			state_religion_mystery_of_the_makers_visible = {
+				check_variable = {
+					religion = 39
+				}
+			}
+			state_religion_followers_of_odyn_visible = {
+				check_variable = {
+					religion = 40
+				}
+			}
+			state_religion_the_titans_visible = {
+				check_variable = {
+					religion = 41
+				}
+			}
+			state_religion_chi_visible = {
+				check_variable = {
+					religion = 42
+				}
+			}
+			state_religion_the_elemental_furies_visible = {
+				check_variable = {
+					religion = 43
+				}
+			}
+			state_religion_shamanism_visible = {
+				check_variable = {
+					religion = 44
+				}
+			}
+			state_religion_dark_shamanism_visible = {
+				check_variable = {
+					religion = 45
+				}
+			}
+			state_religion_followers_of_the_firelord_visible = {
+				check_variable = {
+					religion = 46
+				}
+			}
+			state_religion_followers_of_the_tidehunter_visible = {
+				check_variable = {
+					religion = 47
+				}
+			}
+			state_religion_followers_of_the_stonemother_visible = {
+				check_variable = {
+					religion = 48
+				}
+			}
+			state_religion_followers_of_the_windlord_visible = {
+				check_variable = {
+					religion = 49
+				}
+			}
+			state_religion_geomancy_visible = {
+				check_variable = {
+					religion = 50
+				}
+			}
+			state_religion_pyromancy_visible = {
+				check_variable = {
+					religion = 51
+				}
+			}
+			state_religion_followers_of_ordos_visible = {
+				check_variable = {
+					religion = 52
+				}
+			}
+			state_religion_followers_of_gurok_visible = {
+				check_variable = {
+					religion = 53
+				}
+			}
+			state_religion_followers_of_the_tidemother_visible = {
+				check_variable = {
+					religion = 54
+				}
+			}
+			state_religion_waterspeaking_visible = {
+				check_variable = {
+					religion = 55
+				}
+			}
+			state_religion_the_sisterhood_of_elune_visible = {
+				check_variable = {
+					religion = 56
+				}
+			}
+			state_religion_tauren_mythology_visible = {
+				check_variable = {
+					religion = 57
+				}
+			}
+			state_religion_pandaren_folklore_visible = {
+				check_variable = {
+					religion = 58
+				}
+			}
+			state_religion_mogu_mythology_visible = {
+				check_variable = {
+					religion = 59
+				}
+			}
+			state_religion_luckydos_visible = {
+				check_variable = {
+					religion = 60
+				}
+			}
+			state_religion_followers_of_volcanoth_visible = {
+				check_variable = {
+					religion = 61
+				}
+			}
+			state_religion_followers_of_mazu_visible = {
+				check_variable = {
+					religion = 62
+				}
+			}
+			state_religion_followers_of_kros_visible = {
+				check_variable = {
+					religion = 63
+				}
+			}
+			state_religion_tuskarr_mythology_visible = {
+				check_variable = {
+					religion = 64
+				}
+			}
+			state_religion_ancient_nerubian_visible = {
+				check_variable = {
+					religion = 65
+				}
+			}
+			state_religion_followers_of_gahzrilla_visible = {
+				check_variable = {
+					religion = 66
+				}
+			}
+			state_religion_the_wyrmcult_visible = {
+				check_variable = {
+					religion = 67
+				}
+			}
+			state_religion_gronn_worship_visible = {
+				check_variable = {
+					religion = 68
+				}
+			}
+			state_religion_magnataur_worship_visible = {
+				check_variable = {
+					religion = 69
+				}
+			}
+			state_religion_followers_of_zarjira_visible = {
+				check_variable = {
+					religion = 70
+				}
+			}
+			state_religion_followers_of_borrok_visible = {
+				check_variable = {
+					religion = 71
+				}
+			}
+			state_religion_genesaur_worship_visible = {
+				check_variable = {
+					religion = 72
+				}
+			}
+			state_religion_disciples_of_naraxas_visible = {
+				check_variable = {
+					religion = 73
+				}
+			}
+			state_religion_disciples_of_jorhuttam_visible = {
+				check_variable = {
+					religion = 74
+				}
+			}
+			state_religion_way_of_the_jade_fist_visible = {
+				check_variable = {
+					religion = 75
+				}
+			}
+			state_religion_irreligious_visible = {
+				check_variable = {
+					religion = 76
+				}
+			}
+
+		}
+	}
+
+	religion_conversion_button_container = {
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "religion_conversion_button_container"
+
+		visible = {}
+
+		effects = {
+			religion_conversion_button_click = {
+				ROOT = {
+					if = {
+						limit = {
+							NOT = { is_in_array = { religion_conversion_check_popup = PREV } }
+						}
+						add_to_array = { religion_conversion_check_popup = PREV }
+					}
+				}
+			}
+		}
+
+		triggers = {
+			religion_conversion_button_visible = {
+				state_does_not_match_primary_or_secondary_religion = yes
+				is_owned_and_controlled_by = ROOT
+				NOT = { has_variable = religion_conversion_progress }
+			}
+			religion_conversion_button_click_enabled = {
+				ROOT = { has_political_power > religion_conversion_cost }
+			}
+		}
+
+		ai_test_scopes = test_self_owned_states
+		ai_test_interval = 24
+		ai_test_variance = 0.2
+
+		ai_enabled = {
+			always = yes
+		}
+
+		ai_check = {
+			has_political_power > 200
+		}
+
+		ai_weights = {
+			religion_conversion_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						ROOT = { has_political_power > 500 }
+						add = 10
+					}
+					modifier = {
+						is_coastal = yes
+						factor = 2
+					}
+					modifier = {
+						any_neighbor_state = {
+							has_main_religion = yes
+						}
+						factor = 10
+					}
+					modifier = {
+						check_variable = { global.RELIGION_CONVERSION_BLOCKED = 1 }
+						factor = 0
+					}
+				}
+			}
+		}
+	}
+
+	convert_religion_progress = {
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "convert_religion_progress"
+
+		visible = {
+			has_variable = religion_conversion_progress
+		}
+
+		effects = {
+			religion_conversion_cancel_click = {
+				ROOT = {
+					if = {
+						limit = {
+							NOT = { is_in_array = { religion_conversion_cancel_popup = PREV } }
+						}
+						add_to_array = { religion_conversion_cancel_popup = PREV }
+					}
+				}
+			}
+		}
+
+		triggers = {
+			religion_conversion_cancel_click_enabled = {
+			}
+			religion_conversion_cancel_visible = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+
+		properties = {
+			religion_conversion_bar = {
+				x = religion_conversion_progress
+			}
+		}
+	}
+}

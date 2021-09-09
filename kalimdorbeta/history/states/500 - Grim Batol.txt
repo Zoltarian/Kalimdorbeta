@@ -1,0 +1,33 @@
+
+state={
+	id=500
+	name="STATE_500"
+	resources={
+		mana=40.000
+		gunpowder=28.000
+		ores=42.000
+		eggs=34.000
+	}
+
+	history={
+		
+		victory_points = {
+			4686 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = VMR
+
+	}
+
+	provinces={
+		4664 4666 4667 4669 4672 4673 4674 4675 4676 4677 4679 4680 4681 4683 4685 4686 4687 5970 5974 5995 
+	}
+	manpower=81973
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+}

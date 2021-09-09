@@ -1,0 +1,135 @@
+﻿add_namespace = ideology_switch
+country_event = {
+	id = ideology_switch.1
+	title = ideology_switch.1.t
+	desc = ideology_switch.1.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = alliance }
+		alliance > 0.55
+	}
+
+	option = {
+		name = ideology_switch.1.option.1
+		set_politics = { ruling_party = alliance elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = ideology_switch.2
+	title = ideology_switch.2.t
+	desc = ideology_switch.2.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = horde }
+		horde > 0.55
+	}
+
+	option = {
+		name = ideology_switch.2.option.1
+		set_politics = { ruling_party = horde elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = ideology_switch.3
+	title = ideology_switch.3.t
+	desc = ideology_switch.3.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = death }
+		death > 0.55
+	}
+
+	option = {
+		name = ideology_switch.3.option.1
+		set_politics = { ruling_party = death elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = ideology_switch.4
+	title = ideology_switch.4.t
+	desc = ideology_switch.4.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = fel }
+		NOT = { tag = KAR }
+		fel > 0.55
+	}
+
+	option = {
+		name = ideology_switch.4.option.1
+		set_politics = { ruling_party = fel elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = ideology_switch.5
+	title = ideology_switch.5.t
+	desc = ideology_switch.5.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = old_gods }
+		NOT = { tag = GDF }
+		old_gods > 0.55
+	}
+
+	option = {
+		name = ideology_switch.5.option.1
+		set_politics = { ruling_party = old_gods elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = ideology_switch.6
+	title = ideology_switch.6.t
+	desc = ideology_switch.6.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = titans }
+		titans > 0.55
+	}
+
+	option = {
+		name = ideology_switch.6.option.1
+		set_politics = { ruling_party = titans elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = ideology_switch.7
+	title = ideology_switch.7.t
+	desc = ideology_switch.7.d
+	picture = GFX_report_event_german_parade_paris
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_government = neutral }
+		neutral > 0.55
+	}
+
+	option = {
+		name = ideology_switch.7.option.1
+		set_politics = { ruling_party = neutral elections_allowed = no }
+	}
+}

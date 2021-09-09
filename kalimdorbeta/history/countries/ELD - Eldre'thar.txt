@@ -1,0 +1,86 @@
+capital = 1324
+
+oob = "ELD_592"
+
+set_research_slots = 3
+set_technology = {
+
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	harvesting_tools_1 = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	improved_forge_1 = 1
+
+	wall_tech_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+	evocation_tech_1 = 1
+	guard_tower_1 = 1
+	tailor_tech = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	captain_tech = 1
+	guard_tech = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+	priest_tech = 1
+
+	altar_of_kings_tech = 1
+	arch_mage_tech = 1
+	arch_mage_equipment_tech_1 = 1
+}
+
+add_ideas = {
+
+	city_state
+	limited_conscription
+	preparing_for_war
+	limited_exports
+
+	ghost_primary_race
+	primary_trait_call_of_the_shadowlands
+	primary_trait_masters_of_infiltration
+
+	primary_religion_arcane_studies
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Lord Ro'minate"
+	desc = "POLITICS_LORD_ROMINATE_DESC"
+	picture = "lord_rominate.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = { }
+
+create_corps_commander = { }

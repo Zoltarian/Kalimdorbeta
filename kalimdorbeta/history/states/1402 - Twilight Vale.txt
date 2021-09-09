@@ -1,0 +1,31 @@
+
+state={
+	id=1402
+	name="STATE_1402"
+	resources = {
+		wood=7
+		oil=3
+		gunpowder=5
+		wheat=1
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			12594 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		12590 12591 12594 12595 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

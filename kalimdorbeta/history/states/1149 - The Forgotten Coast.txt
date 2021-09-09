@@ -1,0 +1,37 @@
+
+state={
+	id=1149
+	name="STATE_1149"
+	resources = {
+		wheat=5
+		oil=6
+		ores=5
+		gunpowder=7
+	}
+
+	history={
+		owner = DSG
+		victory_points = {
+			11495 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			11487 = {
+				naval_base = 3
+			}			
+
+		}
+		add_core_of = DSG
+
+	}
+
+	provinces={
+		11472 11476 11479 11487 11491 11495 11496
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

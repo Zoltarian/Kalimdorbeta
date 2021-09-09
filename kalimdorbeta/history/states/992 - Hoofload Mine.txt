@@ -1,0 +1,42 @@
+
+state={
+	id=992
+	name="STATE_992"
+	resources={
+		wheat=8
+		mounts=10
+		ores=12
+		gunpowder=4
+	}
+
+	history={
+		owner = BHT
+		add_core_of = BHT
+
+		victory_points = {
+			10386 5
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 2
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+
+			#Should be removed at an earlier date, when the Bloodhoof Tribe is escorted by Thrall to Mulgore
+			remove_core_of = BHT
+		}
+	}
+
+	provinces={
+		234 10141 10150 10157 10172 10384 10385 10386 10387 10388
+	}
+	manpower=82000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+}

@@ -1,0 +1,46 @@
+﻿division_template = {
+	name = "Valkyra Shieldmaidens"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "1st Shieldmaidens"
+		location = 9174
+		division_template = "Valkyra Shieldmaidens"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Shieldmaidens"
+		location = 9182
+		division_template = "Valkyra Shieldmaidens"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Shieldmaidens"
+		location = 9205
+		division_template = "Valkyra Shieldmaidens"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Shieldmaidens"
+		location = 9145
+		division_template = "Valkyra Shieldmaidens"
+		start_experience_factor = 0.2
+	}
+
+}

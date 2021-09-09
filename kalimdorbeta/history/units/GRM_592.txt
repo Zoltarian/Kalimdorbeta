@@ -1,0 +1,167 @@
+﻿division_template = {
+	name = "Grimtotem Defender"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Grimtotem Breaker"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 4 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Grimtotem Shaman"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Grimtotem Kodoriders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+################################
+#Thousand Needles
+################################
+	division = {
+		name = "Grimtotem Defender"
+		location = 6829
+		division_template = "Grimtotem Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Grimtotem Defender"
+		location = 9574
+		division_template = "Grimtotem Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Grimtotem Defender"
+		location = 9556
+		division_template = "Grimtotem Defender"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Breaker"
+		location = 9574
+		division_template = "Grimtotem Breaker"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Grimtotem Breaker"
+		location = 9556
+		division_template = "Grimtotem Breaker"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Shaman"
+		location = 6829
+		division_template = "Grimtotem Shaman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Kodoriders"
+		location = 6829
+		division_template = "Grimtotem Kodoriders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Kodoriders"
+		location = 9574
+		division_template = "Grimtotem Kodoriders"
+		start_experience_factor = 0.2
+	}
+
+################################
+#Feralas
+################################
+	division = {
+		name = "Grimtotem Defender"
+		location = 11468
+		division_template = "Grimtotem Defender"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Grimtotem Defender"
+		location = 11418
+		division_template = "Grimtotem Defender"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Breaker"
+		location = 11465
+		division_template = "Grimtotem Breaker"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Grimtotem Breaker"
+		location = 11477
+		division_template = "Grimtotem Breaker"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Shaman"
+		location = 11418
+		division_template = "Grimtotem Shaman"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Kodoriders"
+		location = 11468
+		division_template = "Grimtotem Kodoriders"
+		start_experience_factor = 0.2
+	}
+
+
+}

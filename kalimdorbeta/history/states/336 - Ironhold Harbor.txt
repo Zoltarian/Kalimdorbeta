@@ -1,0 +1,44 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		oil=8
+		gunpowder=10
+	}
+
+	history={
+		
+		add_core_of = BCC
+
+		victory_points = {
+			6644 15
+		}
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 2
+			6644 = {
+				naval_base = 5
+			}
+			6664 = {
+				naval_base = 1
+			}
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BCC
+		}
+	}
+
+	provinces={
+		831 6614 6615 6627 6628 6638 6644 6664
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

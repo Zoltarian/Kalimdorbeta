@@ -1,0 +1,28 @@
+
+state={
+	id=2093
+	name="STATE_2093"
+
+	history={
+		
+		victory_points = {
+			864 5
+		}
+		buildings = {
+			infrastructure = 4
+			864 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		449 864 1299 1436 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

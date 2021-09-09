@@ -1,0 +1,190 @@
+﻿division_template = {
+	name = "Hinterlands Guard"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+#division_template = {
+#	name = "Aerie Peak Royal Guards"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+division_template = {
+	name = "Hinterlands Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+#division_template = {
+#	name = "Hinterlands Mountaineer"
+#
+#	regiments = {
+#		ranger = { x = 0 y = 0 }
+#		ranger = { x = 0 y = 1 }
+#		ranger = { x = 0 y = 2 }
+#		ranger = { x = 1 y = 0 }
+#		ranger = { x = 1 y = 1 }
+#		ranger = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+units = {
+
+#	division = {
+#		name = "1st Aerie Peak Royal Guards"
+#		location = 2108
+#		division_template = "Aerie Peak Royal Guards"
+#		start_experience_factor = 0.3
+#	}
+
+	division = {
+		name = "1st Hinterlands Archers"
+		location = 3891
+		division_template = "Hinterlands Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Hinterlands Archers"
+		location = 1717
+		division_template = "Hinterlands Archers"
+		start_experience_factor = 0.2
+	}
+
+#	division = {
+#		name = "1st Hinterlands Mountaineer"
+#		location = 3893
+#		division_template = "Hinterlands Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "2nd Hinterlands Mountaineer"
+#		location = 3026
+#		division_template = "Hinterlands Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+#	division = {
+#		name = "3rd Hinterlands Mountaineer"
+#		location = 3909
+#		division_template = "Hinterlands Mountaineer"
+#		start_experience_factor = 0.2
+#	}
+
+	division = {
+		name = "1st Hinterlands Guard"
+		location = 3885
+		division_template = "Hinterlands Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Hinterlands Guard"
+		location = 2177
+		division_template = "Hinterlands Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3rd Hinterlands Guard"
+		location = 2088
+		division_template = "Hinterlands Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4th Hinterlands Guard"
+		location = 2949
+		division_template = "Hinterlands Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5th Hinterlands Guard"
+		location = 3877
+		division_template = "Hinterlands Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6th Hinterlands Guard"
+		location = 3891
+		division_template = "Hinterlands Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7th Hinterlands Guard"
+		location = 3879
+		division_template = "Hinterlands Guard"
+		start_experience_factor = 0.2
+	}
+
+
+
+}
+
+#air_wings = {
+#	### aerie peak
+#	136 = {
+#
+#		bomber_equipment_1 = {
+#			owner = "AER"
+#			amount = 60
+#		}
+#
+#		cas_equipment_1 = {
+#			owner = "AER"
+#			amount = 60
+#		}
+#
+#		fighter_equipment_2 = {
+#			owner = "AER"
+#			amount = 100
+#		}
+#	}
+#	### storm feather outpost
+#	20 = {
+#
+#		cas_equipment_1 = {
+#			owner = "AER"
+#			amount = 30
+#		}
+#
+#		fighter_equipment_2 = {
+#			owner = "AER"
+#			amount = 20
+#		}
+#	}
+#}

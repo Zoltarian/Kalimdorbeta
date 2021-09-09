@@ -1,0 +1,24 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Darkfin Fishing Fleet"			
+		naval_base = 9628
+		task_force = {
+			name = "Darkfin Fishing Fleet"			
+			location = 9628
+			
+			ship = {
+				name = "1st Darkfin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SIL } }
+			}
+			ship = {
+				name = "2nd Darkfin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SIL } }
+			}
+			
+		}
+	}
+}

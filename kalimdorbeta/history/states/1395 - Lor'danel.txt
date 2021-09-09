@@ -1,0 +1,43 @@
+
+state={
+	id=1395
+	name="STATE_1395"
+	resources = {
+		oil=8
+		gunpowder=5
+		wheat=3
+		eggs=6
+	}
+
+	history={
+		owner = KAL
+		victory_points = {
+			12684 20
+		}	
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			12684 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = KAL
+
+		617.1.1 = {
+			owner = GMT
+			controller = GMT
+			add_core_of = GMT
+		}
+	}
+
+	provinces={
+		12074 12654 12657 12662 12663 12664 12674 12684
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

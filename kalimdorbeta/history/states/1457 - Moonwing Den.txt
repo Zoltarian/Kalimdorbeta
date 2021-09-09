@@ -1,0 +1,38 @@
+
+state={
+	id=1457
+	name="STATE_1457"
+	resources={
+		wheat=4
+		wood=4
+		oil=2
+		ores=2
+	}
+
+	history={
+		owner = MWT
+		victory_points = {
+			13581 10
+		}
+		victory_points = {
+			13572 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			13572 = {
+				naval_base = 2
+			}
+		}
+
+		add_core_of = MWT
+	}
+
+	provinces={
+		12908 13572 13574 13575 13581 
+	}
+	manpower=15500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

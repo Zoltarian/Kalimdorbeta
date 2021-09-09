@@ -1,0 +1,42 @@
+
+state={
+	id=456
+	name="STATE_456"
+	resources={
+		ores=14.000
+		gunpowder=6.000
+	}
+
+	history={
+		victory_points = {
+			1001 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			buildings = {
+				air_base = 2
+
+			}
+
+		}
+
+		617.1.1 = {
+			owner = RJT
+			controller = RJT
+			add_core_of = RJT
+		}
+	}
+
+	provinces={
+		1001 4000 4004 4005 4007 4017 5367
+	}
+	manpower=6850
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

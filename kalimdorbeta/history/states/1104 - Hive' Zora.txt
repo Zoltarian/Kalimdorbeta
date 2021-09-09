@@ -1,0 +1,33 @@
+
+state={
+	id=1104
+	name="STATE_1104"
+	resources = {
+		eggs=12
+		wheat=6
+		ores=3
+	}
+
+	history={
+		owner = HZO
+		victory_points = {
+			11165 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = HZO
+
+	}
+
+	provinces={
+		10819 11144 11150 11159 11163 11165 11176 11180 11186 11194 11198 11208
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

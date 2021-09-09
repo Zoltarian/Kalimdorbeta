@@ -1,0 +1,61 @@
+﻿capital = 1253
+
+oob = "CRY_592"
+
+set_naval_oob = "CRY_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	clan
+	recruit_adventurers
+	peacetime_economy
+	limited_exports
+
+	ice_giant_primary_race
+
+	primary_trait_imposing_size
+	primary_trait_living_glacier
+
+	primary_religion_followers_of_the_stonemother
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+
+}
+
+set_politics = {
+
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ko'char the Unbreakable"
+	desc = "POLITICS_KOLCHAR_THE_UNBREAKABLE_DESC"
+	picture = "kochar_the_unbreakable.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1027
+	name="STATE_1027"
+
+	impassable = yes
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		6848 6850
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

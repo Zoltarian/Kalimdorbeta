@@ -1,0 +1,33 @@
+
+state={
+	id=422
+	name="STATE_422"
+
+	history={
+		
+		add_core_of = GNO
+
+		victory_points = {
+			1340 30
+		}
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		
+		617.1.1 = {
+			owner = LEP
+			controller = LEP
+			add_core_of = LEP
+		}
+	}
+
+	provinces={
+		1029 1340 1345 1351 1352 1356 1359 6114 6118 6123
+	}
+	manpower=46975
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

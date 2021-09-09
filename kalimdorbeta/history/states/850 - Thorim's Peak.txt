@@ -1,0 +1,30 @@
+
+state={
+	id=850
+	name="STATE_850"
+	resources={
+		ores = 6
+		gunpowder=6
+		mana=20
+	}
+
+	history={
+		
+		victory_points = {
+			9146 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		add_core_of = DRK
+	}
+
+	provinces={
+		8589 9146 9149 
+	}
+	manpower=3400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

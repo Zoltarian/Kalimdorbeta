@@ -1,0 +1,37 @@
+state={
+	id=1016
+	name="STATE_1016"
+	resources={
+		wood =8
+		ores=10
+	}
+
+	history={
+		
+		add_core_of = GOR
+
+		victory_points = {
+			10471 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = GOR
+		}
+	}
+
+	provinces={
+		9809 9867 9869 10465 10467 10470 10471 10472
+	}
+	manpower=61000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

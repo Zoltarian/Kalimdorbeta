@@ -1,0 +1,64 @@
+﻿division_template = {
+	name = "Twilight's Hammer Grunts"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+#division_template = {
+#	name = "Twilight's Hammer Overseer"
+#
+#	regiments = {
+#		heroic_infantry = { x = 0 y = 0 }
+#		heroic_infantry = { x = 0 y = 1 }
+#		heroic_infantry = { x = 0 y = 2 }
+#		heroic_infantry = { x = 1 y = 0 }
+#		heroic_infantry = { x = 1 y = 1 }
+#		heroic_infantry = { x = 1 y = 2 }
+#
+#	}
+#	priority = 1
+#}
+
+units = {
+	#grunts
+	division = {
+		name = "1st Twilight's Hammer Grunts"
+		location = 2839
+		division_template = "Twilight's Hammer Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Twilight's Hammer Grunts"
+		location = 2832
+		division_template = "Twilight's Hammer Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Twilight's Hammer Grunts"
+		location = 927
+		division_template = "Twilight's Hammer Grunts"
+		start_experience_factor = 0.2
+	}
+#	division = {
+#		name = "4th Twilight's Hammer Grunts"
+#		location = 2810
+#		division_template = "Twilight's Hammer Grunts"
+#		start_experience_factor = 0.2
+#	}
+#	division = {
+#		name = "1st Twilight's Hammer Overseer"
+#		location = 2839
+#		division_template = "Twilight's Hammer Overseer"
+#		start_experience_factor = 0.2
+#	}
+
+}

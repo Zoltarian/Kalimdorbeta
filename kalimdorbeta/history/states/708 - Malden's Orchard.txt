@@ -1,0 +1,34 @@
+
+state={
+	id=708
+	name="STATE_708" #Malden's Orchard/ Forsaken High Command
+	resources={
+		wood =24.000
+	}
+
+	history={
+		
+		add_core_of = LOR
+		victory_points = {
+			3383 5
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+
+		617.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+		}
+	}
+
+	provinces={
+		1275 3383 3385 3386 3388 3389 3390 3392 3393 6951
+	}
+	manpower=15600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,748 @@
+# available_conditions_met_for_achievement_1 = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DID_NOT_START_AS_A_MAJOR
+# 		NOT = { has_country_flag = country_was_a_major_at_start }
+# 	}
+# }
+# unlock_conditions_met_for_achievement_1 = {
+# 	available_conditions_met_for_achievement_1 = yes
+# 	is_major = yes
+# }
+
+# available_conditions_met_for_achievement_2 = {
+# 	hidden_trigger = {
+# 		always = yes
+# 	}
+# }
+# unlock_conditions_met_for_achievement_2 = {
+# 	available_conditions_met_for_achievement_2 = yes
+# 	any_owned_state = {
+# 		infrastructure > 9
+# 	}
+# }
+
+# available_conditions_met_for_achievement_3 = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_CAPS_ARE_TOGGLED_ON
+# 		has_game_rule = {
+# 			rule = caps_system_toggle
+# 			option = ENABLED
+# 		}
+# 	}
+# }
+# unlock_conditions_met_for_achievement_3 = {
+# 	available_conditions_met_for_achievement_3 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_MADE_A_PURCHASE_WITH_CAPS
+# 		has_country_flag = made_a_purchase_with_caps
+# 	}
+# }
+
+# available_conditions_met_for_achievement_4 = {
+# 	country_is_advanced_or_can_become_advanced = yes
+# }
+# unlock_conditions_met_for_achievement_4 = {
+# 	available_conditions_met_for_achievement_4 = yes
+# 	country_has_completed_the_air_tech_tree = yes
+# }
+
+# available_conditions_met_for_achievement_5 = {
+# 	country_is_advanced_or_can_become_advanced = yes
+# }
+# unlock_conditions_met_for_achievement_5 = {
+# 	available_conditions_met_for_achievement_5 = yes
+# 	has_tech = electronic_engineering_7
+# }
+
+# available_conditions_met_for_achievement_6 = {
+# 	NOT = { original_tag = var:global.hoover_dam_owner_at_start }
+# }
+# unlock_conditions_met_for_achievement_6 = {
+# 	available_conditions_met_for_achievement_6 = yes
+# 	owns_state = 252
+# }
+
+# available_conditions_met_for_achievement_7 = {
+# 	tag = DES
+# }
+# unlock_conditions_met_for_achievement_7 = {
+# 	available_conditions_met_for_achievement_7 = yes
+# 	any_other_country = {
+# 		has_volunteers_amount_from = {
+# 			tag = DES
+# 			count > 0
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_8 = {
+# 	original_tag = RRG
+# }
+# unlock_conditions_met_for_achievement_8 = {
+# 	available_conditions_met_for_achievement_8 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_RRG_ELECTION_HELD
+# 		has_country_flag = RRG_election_held
+# 	}
+# }
+
+# available_conditions_met_for_achievement_9 = {
+# 	original_tag = VLT
+# }
+# unlock_conditions_met_for_achievement_9 = {
+# 	available_conditions_met_for_achievement_9 = yes
+# 	owns_state = 337
+# }
+
+# available_conditions_met_for_achievement_10 = {
+# 	original_tag = NEW
+# }
+# unlock_conditions_met_for_achievement_10 = {
+# 	available_conditions_met_for_achievement_10 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_FORMED_THRADDS_LEGION
+# 		has_cosmetic_tag = THR_cosmetic_tag
+# 	}
+# 	is_faction_leader = yes
+# 	is_in_faction_with = TRL
+# }
+
+# available_conditions_met_for_achievement_11 = {
+# 	original_tag = CES
+# }
+# unlock_conditions_met_for_achievement_11 = {
+# 	available_conditions_met_for_achievement_11 = yes
+# 	owns_state = 211
+# }
+
+# available_conditions_met_for_achievement_12 = {
+# 	original_tag = TIM
+# }
+# unlock_conditions_met_for_achievement_12 = {
+# 	available_conditions_met_for_achievement_12 = yes
+# 	NOT = { country_exists = LON }
+# 	owns_state = 611
+# 	owns_state = 403
+# 	owns_state = 324
+# 	owns_state = 472
+# }
+
+# available_conditions_met_for_achievement_13 = {
+# 	original_tag = CES
+# }
+# unlock_conditions_met_for_achievement_13 = {
+# 	available_conditions_met_for_achievement_13 = yes
+# 	OR = {
+# 		is_vulpes_leader = yes
+# 		is_lanius_leader = yes
+# 	}
+# 	has_civil_war = no
+# 	all_other_country = {
+# 		NOT = { original_tag = CES }
+# 	}
+# }
+
+# available_conditions_met_for_achievement_14 = {
+# 	original_tag = RRG
+# }
+# unlock_conditions_met_for_achievement_14 = {
+# 	available_conditions_met_for_achievement_14 = yes
+# 	is_ladybells_leader = yes
+# }
+
+# available_conditions_met_for_achievement_15 = {
+# 	OR = {
+# 		original_tag = ATE
+# 		original_tag = ITZ
+# 	}
+# }
+# unlock_conditions_met_for_achievement_15 = {
+# 	available_conditions_met_for_achievement_15 = yes
+# 	if = {
+# 		limit = {
+# 			original_tag = ATE
+# 		}
+# 		has_completed_focus = ate_cemp_within_map
+# 	}
+# 	else = {
+# 		has_completed_focus = itz_a_great_wedding
+# 	}
+# }
+
+# available_conditions_met_for_achievement_16 = {
+# 	original_tag = NCR
+# }
+# unlock_conditions_met_for_achievement_16 = {
+# 	available_conditions_met_for_achievement_16 = yes
+# 	controls_state = 252
+# 	NOT = { country_exists = CES }
+# }
+
+# available_conditions_met_for_achievement_17 = {
+# 	OR = {
+# 		AND = {
+# 			original_tag = NEW
+# 			hidden_trigger = {
+# 				has_cosmetic_tag = ENC_cosmetic_tag
+# 			}
+# 		}
+# 		original_tag = ENC
+# 		hidden_trigger = {
+# 			has_cosmetic_tag = ENC_cosmetic_tag
+# 		}
+# 	}
+# }
+# unlock_conditions_met_for_achievement_17 = {
+# 	available_conditions_met_for_achievement_17 = yes
+# 	owns_state = 337
+# }
+
+# available_conditions_met_for_achievement_18 = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_IS_NOT_A_MEXICAN_NATION
+# 		NOT = { is_mexican = yes }
+# 	}
+# }
+# unlock_conditions_met_for_achievement_18 = {
+# 	available_conditions_met_for_achievement_18 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_NON_MEXICAN_STATES
+# 		all_state = {
+# 			OR = {
+# 				AND = {
+# 					NOT = { is_on_continent = west_coast }
+# 					NOT = { is_on_continent = northern_reaches }
+# 					NOT = { is_on_continent = midwest }
+# 					NOT = { is_on_continent = east_coast }
+# 				}
+# 				is_state_in_canada = yes
+# 				is_owned_by = ROOT
+# 				NOT = {
+# 					any_country = {
+# 						owns_state = PREV
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_19 = {
+# 	original_tag = SHI
+# }
+# unlock_conditions_met_for_achievement_19 = {
+# 	available_conditions_met_for_achievement_19 = yes
+# 	owns_state = 157
+# 	owns_state = 253
+# }
+
+# available_conditions_met_for_achievement_20 = {
+# 	hidden_trigger = {
+# 		always = yes
+# 	}
+# }
+# unlock_conditions_met_for_achievement_20 = {
+# 	available_conditions_met_for_achievement_20 = yes
+# 	country_has_completed_a_land_doctrine = yes
+# 	country_has_completed_the_special_forces_doctrine = yes
+# 	country_has_completed_the_air_doctrine = yes
+# 	country_has_completed_the_naval_doctrine = yes
+# }
+
+# available_conditions_met_for_achievement_21 = {
+# 	country_is_advanced_or_can_become_advanced = yes
+# }
+# unlock_conditions_met_for_achievement_21 = {
+# 	available_conditions_met_for_achievement_21 = yes
+# 	OR = {
+# 		has_tech = energy_weaponry_tech_4
+# 		has_tech = gauss_weaponry_2
+# 		has_tech = plasma_weaponry_2
+# 	}
+# }
+
+# available_conditions_met_for_achievement_22 = {
+# 	OR = {
+# 		original_tag = TRL
+# 		original_tag = NEW
+# 		original_tag = UTO
+# 	}
+# }
+# unlock_conditions_met_for_achievement_22 = {
+# 	available_conditions_met_for_achievement_22 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_FORMED_NEW_MARIPOSA
+# 		has_cosmetic_tag = NEW_mariposa
+# 	}
+# }
+
+# available_conditions_met_for_achievement_23 = {
+# 	original_tag = NCN
+# }
+# unlock_conditions_met_for_achievement_23 = {
+# 	available_conditions_met_for_achievement_23 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_FORMED_DESERET
+# 		has_cosmetic_tag = NCN_deseret
+# 	}
+# }
+
+# available_conditions_met_for_achievement_24 = {
+# 	original_tag = MLT
+# }
+# unlock_conditions_met_for_achievement_24 = {
+# 	available_conditions_met_for_achievement_24 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_FORMED_MLYEH
+# 		has_cosmetic_tag = MLT_cosmetic_tag
+# 	}
+# }
+
+# available_conditions_met_for_achievement_25 = {
+# 	is_mexican = yes
+# }
+# unlock_conditions_met_for_achievement_25 = {
+# 	available_conditions_met_for_achievement_25 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_OF_MEXICO_AS_MEXICAN
+# 		all_state = {
+# 			OR = {
+# 				NOT = { is_on_continent = land_of_titans }
+# 				is_owned_by = ROOT
+# 				check_variable = { original_owner = GRH.id }
+# 			}
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_26 = {
+# 	original_tag = RRG
+# }
+# unlock_conditions_met_for_achievement_26 = {
+# 	available_conditions_met_for_achievement_26 = yes
+# 	controls_state = 520
+# }
+
+# available_conditions_met_for_achievement_27 = {
+# 	original_tag = ARR
+# }
+# unlock_conditions_met_for_achievement_27 = {
+# 	available_conditions_met_for_achievement_27 = yes
+# 	NOT = { country_exists = NEW }
+# 	owns_state = 159
+# 	owns_state = 295
+# 	owns_state = 184
+# 	owns_state = 285
+# 	owns_state = 614
+# 	OR = {
+# 		custom_trigger_tooltip = {
+# 			tooltip = ACHIEVEMENT_NCR_CIVIL_WAR_WAS_NOT_TRIGGERED
+# 			NOT = { has_global_flag = NCR_civil_war_triggered }
+# 		}
+# 		AND = {
+# 			NOT = { country_exists = ENC }
+# 			hidden_trigger = {
+# 				NOT = {
+# 					any_country = {
+# 						has_cosmetic_tag = ENC_cosmetic_tag
+# 					}
+# 				}
+# 			}
+# 			all_of_scopes = {
+# 				array = ENC.core_states
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_28 = {
+# 	is_mexican = yes
+# }
+# unlock_conditions_met_for_achievement_28 = {
+# 	available_conditions_met_for_achievement_28 = yes
+# 	country_owns_all_of_new_mexico = yes
+# 	country_owns_all_of_arizona = yes
+# 	country_owns_all_of_california = yes
+# 	#country_owns_all_of_texas = yes # in 3.0
+# }
+
+# available_conditions_met_for_achievement_29 = {
+# 	is_brotherhood_nation = yes
+# }
+# unlock_conditions_met_for_achievement_29 = {
+# 	available_conditions_met_for_achievement_29 = yes
+# 	any_other_country = {
+# 		is_brotherhood_nation = yes
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_ALL_BROTHERHOOD_NATIONS_ARE_OUR_SUBJECT_OR_IN_OUR_FACTION
+# 		all_other_country = {
+# 			OR = {
+# 				NOT = { is_brotherhood_nation = yes }
+# 				is_subject_of = ROOT
+# 				AND = {
+# 					is_in_faction_with = ROOT
+# 					ROOT = {
+# 						is_faction_leader = yes
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_30 = {
+# 	original_tag = EHT
+# }
+# unlock_conditions_met_for_achievement_30 = {
+# 	available_conditions_met_for_achievement_30 = yes
+# 	owns_state = 135
+# 	135 = {
+# 		is_core_of = ROOT
+# 	}
+# }
+
+# available_conditions_met_for_achievement_31 = {
+# 	hidden_trigger = {
+# 		always = yes
+# 	}
+# }
+# unlock_conditions_met_for_achievement_31 = {
+# 	available_conditions_met_for_achievement_31 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_NUKED_NEW_VEGAS
+# 		has_country_flag = achievement_nuked_new_vegas
+# 	}
+# }
+
+# available_conditions_met_for_achievement_32 = {
+# 	hidden_trigger = {
+# 		always = yes
+# 	}
+# }
+# unlock_conditions_met_for_achievement_32 = {
+# 	available_conditions_met_for_achievement_32 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_AREA_51_MYSTERY_SOLVED
+# 		has_country_flag = area_51_done_flag
+# 	}
+# }
+
+# available_conditions_met_for_achievement_33 = {
+# 	hidden_trigger = {
+# 		always = yes
+# 	}
+# }
+# unlock_conditions_met_for_achievement_33 = {
+# 	available_conditions_met_for_achievement_33 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_AREA_51_DISEASE_SURVIVED
+# 		has_country_flag = area_51_disease_cured_flag
+# 	}
+# }
+
+# available_conditions_met_for_achievement_34 = {
+# 	original_tag = MOJ
+# }
+# unlock_conditions_met_for_achievement_34 = {
+# 	available_conditions_met_for_achievement_34 = yes
+# 	is_elijah_leader = yes
+# 	country_controls_all_of_mojave = yes
+# }
+
+# available_conditions_met_for_achievement_35 = {
+# 	original_tag = HEA
+# }
+# unlock_conditions_met_for_achievement_35 = {
+# 	available_conditions_met_for_achievement_35 = yes
+# 	owns_state = 253
+# 	owns_state = 520
+# }
+
+# available_conditions_met_for_achievement_36 = {
+# 	original_tag = DES
+# }
+# unlock_conditions_met_for_achievement_36 = {
+# 	available_conditions_met_for_achievement_36 = yes
+# 	owns_state = 520
+# 	owns_state = 518
+# 	owns_state = 519
+# }
+
+# available_conditions_met_for_achievement_37 = {
+# 	original_tag = BJS
+# }
+# unlock_conditions_met_for_achievement_37 = {
+# 	available_conditions_met_for_achievement_37 = yes
+# 	owns_state = 253
+# }
+
+# available_conditions_met_for_achievement_38 = {
+# 	hidden_trigger = {
+# 		always = yes
+# 	}
+# }
+# unlock_conditions_met_for_achievement_38 = {
+# 	available_conditions_met_for_achievement_38 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_HAS_DROPPED_A_NUKE
+# 		has_country_flag = achievement_has_dropped_a_nuke
+# 	}
+# }
+
+# available_conditions_met_for_achievement_39 = {
+# 	original_tag = LON
+# }
+# unlock_conditions_met_for_achievement_39 = {
+# 	available_conditions_met_for_achievement_39 = yes
+# 	num_subjects > 19
+# }
+
+# available_conditions_met_for_achievement_40 = {
+# 	OR = {
+# 		original_tag = PMR
+# 		original_tag = BRK
+# 	}
+# }
+# unlock_conditions_met_for_achievement_40 = {
+# 	available_conditions_met_for_achievement_40 = yes
+# 	date < 2280.1.1
+# 	owns_state = 211
+# 	211 = {
+# 		is_core_of = ROOT
+# 	}
+# }
+
+# available_conditions_met_for_achievement_41 = {
+# 	original_tag = IRN
+# }
+# unlock_conditions_met_for_achievement_41 = {
+# 	available_conditions_met_for_achievement_41 = yes
+# 	all_other_country = {
+# 		custom_trigger_tooltip = {
+# 			tooltip = ACHIEVEMENT_IS_NOT_A_BROTHERHOOD_NATION
+# 			NOT = { is_brotherhood_nation = yes }
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_42 = {
+# 	original_tag = KHA
+# }
+# unlock_conditions_met_for_achievement_42 = {
+# 	available_conditions_met_for_achievement_42 = yes
+# 	date < 2280.1.1
+# 	owns_state = 211
+# 	211 = {
+# 		is_core_of = ROOT
+# 	}
+# }
+
+# available_conditions_met_for_achievement_43 = {
+# 	OR = {
+# 		tag = NCR
+# 		tag = CES
+# 		tag = WHT
+# 		tag = NCN
+# 		tag = VEG
+# 		tag = BOO
+# 		tag = KHA
+# 		tag = BOS
+# 		tag = JCT
+# 	}
+# }
+# unlock_conditions_met_for_achievement_43 = {
+# 	available_conditions_met_for_achievement_43 = yes
+# 	country_exists = NCR
+# 	country_exists = CES
+# 	country_exists = WHT
+# 	country_exists = NCN
+# 	country_exists = VEG
+# 	country_exists = BOO
+# 	country_exists = KHA
+# 	country_exists = BOS
+# 	country_exists = JCT
+# 	NOT = {
+# 		any_country = {
+# 			NOT = {
+# 				tag = NCR
+# 				tag = CES
+# 				tag = WHT
+# 				tag = NCN
+# 				tag = VEG
+# 				tag = BOO
+# 				tag = KHA
+# 				tag = BOS
+# 				tag = JCT
+# 			}
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_44 = {
+# 	NOT = { tag = TLA }
+# }
+# unlock_conditions_met_for_achievement_44 = {
+# 	available_conditions_met_for_achievement_44 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_TLALOCS_DEMISE_DID_NOT_HAPPEN_YET
+# 		NOT = { has_global_flag = tlaloc_died }
+# 	}
+# 	NOT = { country_exists = TLA }
+# 	owns_state = 750
+# 	owns_state = 752
+# 	owns_state = 753
+# 	owns_state = 756
+# 	owns_state = 757
+# 	owns_state = 760
+# 	owns_state = 761
+# 	owns_state = 763
+# 	owns_state = 765
+# 	owns_state = 767
+# 	owns_state = 768
+# 	owns_state = 769
+# 	owns_state = 772
+# 	owns_state = 773
+# 	owns_state = 779
+# 	owns_state = 782
+# }
+
+# available_conditions_met_for_achievement_45 = {
+# 	OR = {
+# 		original_tag = ZAP
+# 		original_tag = SHI
+# 	}
+# }
+# unlock_conditions_met_for_achievement_45 = {
+# 	available_conditions_met_for_achievement_45 = yes
+# 	NOT = { country_exists = NEW }
+# 	NOT = { country_exists = ENC }
+# 	all_other_country = {
+# 		custom_trigger_tooltip = {
+# 			tooltip = ACHIEVEMENT_NOT_FORMED_ENCLAVE
+# 			NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+# 		}
+# 		custom_trigger_tooltip = {
+# 			tooltip = ACHIEVEMENT_IS_NOT_A_BROTHERHOOD_NATION
+# 			NOT = { is_brotherhood_nation = yes }
+# 		}
+# 	}
+# }
+
+# available_conditions_met_for_achievement_46 = {
+# 	original_tag = VIC
+# }
+# unlock_conditions_met_for_achievement_46 = {
+# 	available_conditions_met_for_achievement_46 = yes
+# 	country_owns_all_of_canada = yes
+# }
+
+# available_conditions_met_for_achievement_47 = {
+# 	OR = {
+# 		original_tag = YAK
+# 		#original_tag = ISN
+# 	}
+# }
+# unlock_conditions_met_for_achievement_47 = {
+# 	available_conditions_met_for_achievement_47 = yes
+# 	NOT = { country_exists = WBH }
+# 	all_owned_state = {
+# 		is_fully_controlled_by = ROOT
+# 	}
+# }
+
+# available_conditions_met_for_achievement_48 = {
+# 	tag = NCR
+# }
+# unlock_conditions_met_for_achievement_48 = {
+# 	available_conditions_met_for_achievement_48 = yes
+# 	has_idea = mr_fantastic
+# }
+
+# available_conditions_met_for_achievement_49 = {
+# 	original_tag = MLT
+# }
+# unlock_conditions_met_for_achievement_49 = {
+# 	available_conditions_met_for_achievement_49 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_FORMED_MLYEH
+# 		has_cosmetic_tag = MLT_cosmetic_tag
+# 	}
+# 	country_owns_all_states_bordering_the_pacific_ocean = yes
+# }
+
+# available_conditions_met_for_achievement_50 = {
+# 	is_vault_tec_nation = yes
+# }
+# unlock_conditions_met_for_achievement_50 = {
+# 	available_conditions_met_for_achievement_50 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_3
+# 		has_country_flag = delved_into_vault_3
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_6
+# 		has_country_flag = delved_into_vault_6
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_13
+# 		has_country_flag = delved_into_vault_13
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_15
+# 		has_country_flag = delved_into_vault_15
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_19
+# 		has_country_flag = delved_into_vault_19
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_21
+# 		has_country_flag = delved_into_vault_21
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_22
+# 		has_country_flag = delved_into_vault_22
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_29
+# 		has_country_flag = delved_into_vault_29
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_34
+# 		has_country_flag = delved_into_vault_34
+# 	}
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_DELVED_INTO_VAULT_70
+# 		has_country_flag = delved_into_vault_70
+# 	}
+# }
+
+# available_conditions_met_for_achievement_51 = {
+# 	hidden_trigger = {
+# 		always = yes
+# 	}
+# }
+# unlock_conditions_met_for_achievement_51 = {
+# 	available_conditions_met_for_achievement_51 = yes
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_WAS_AT_WAR_WITH_EVERY_OTHER_MAJOR_AFTER_2278
+# 		has_country_flag = was_at_war_with_every_other_major_after_2278
+# 	}
+# 	date > 2285.1.1
+# 	has_capitulated = no
+# }
+
+# available_conditions_met_for_achievement_52 = {
+# 	original_tag = DES
+# }
+# unlock_conditions_met_for_achievement_52 = {
+# 	available_conditions_met_for_achievement_52 = yes
+# 	all_state = {
+# 		OR = {
+# 			is_owned_by = ROOT
+# 			NOT = { is_core_of = CES }
+# 		}
+# 	}
+# }

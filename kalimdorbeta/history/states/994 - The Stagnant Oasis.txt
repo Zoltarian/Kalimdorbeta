@@ -1,0 +1,33 @@
+
+state={
+	id=994
+	name="STATE_994"
+	resources={
+		wheat=5
+		mounts=7
+		wood=4
+		ores=6
+	}
+
+	history={
+		owner = KOL
+		victory_points = {
+			10102 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = KOL
+
+	}
+
+	provinces={
+		9670 10075 10086 10102 10103 10126 10135 10148 10382 10383 10400 10401 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

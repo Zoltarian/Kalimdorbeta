@@ -1,0 +1,36 @@
+state={
+	id=1084
+	name="STATE_1084"
+	resources={
+		wood =12
+		mounts=8
+	}
+
+	history={
+		
+		add_core_of = RWC
+
+		victory_points = {
+			10730 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = RWC
+		}
+	}
+
+	provinces={
+		6803 6853 10722 10730 10732
+	}
+	manpower=21400
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

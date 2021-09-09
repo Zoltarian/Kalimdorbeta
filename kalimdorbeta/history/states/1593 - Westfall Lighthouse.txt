@@ -1,0 +1,51 @@
+
+state={
+	id=1593
+	name="STATE_1593"
+	resources={
+		oil=7.000
+	}
+
+	history={
+		
+		victory_points = {
+			2291 5
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 2
+			2291 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		add_core_of = WST
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+		612.1.1 = {
+			owner = WFM
+			controller = WFM
+			add_core_of = WFM
+
+		}
+
+	}
+
+	provinces={
+		1719 2291 2292 2314 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

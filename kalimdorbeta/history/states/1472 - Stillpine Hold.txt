@@ -1,0 +1,32 @@
+
+state={
+	id=1472
+	name="STATE_1472"
+	resources={
+		wheat=8
+		ores=6
+		wood=2
+	}
+
+	history={
+		owner = STP
+		victory_points = {
+			13050 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+
+		add_core_of = STP
+	}
+
+	provinces={
+		13050 13696 13698 13701 13703 13707 13709 13711 
+	}
+	manpower=39500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

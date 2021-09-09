@@ -1,0 +1,28 @@
+
+state={
+	id=1518
+	name="STATE_1518"
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SMR
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = SMR
+		}
+
+	}
+
+	provinces={
+		2997 4763 4766 4768 4770 4774 5718 5719 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

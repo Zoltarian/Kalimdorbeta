@@ -1,0 +1,48 @@
+
+state={
+	id=728
+	name="STATE_728"
+	resources={
+		mana=60
+	}
+
+	history={
+		
+		add_core_of = BCC
+
+		victory_points = {
+			6600 30
+		}
+
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			6586 = {
+				naval_base = 6
+			}
+		}
+
+		600.1.1 = {
+			owner = HON
+			controller = HON
+			add_core_of = HON
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BCC
+			remove_core_of = HON
+		}
+	}
+
+	provinces={
+		6468 6567 6576 6579 6586 6588 6590 6599 6600 6604 6616 6617 6630 6631 6632 6643 6645 6646 6650
+	}
+	manpower=69000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

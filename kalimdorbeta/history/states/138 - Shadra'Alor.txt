@@ -1,0 +1,31 @@
+
+state={
+	id=138
+	name="STATE_138"
+	resources={
+		mana=12.000
+	}
+
+	history={
+		
+		add_core_of = WBT
+
+		victory_points = {
+			3829 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+
+	}
+
+	provinces={
+		620 1108 3827 3829 3834 3840 3844 3849 5265
+	}
+	manpower=80700
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

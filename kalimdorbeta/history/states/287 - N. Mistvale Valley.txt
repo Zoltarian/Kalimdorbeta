@@ -1,0 +1,42 @@
+
+state={
+	id=287
+	name="STATE_287"
+	resources={
+		wood =16.000
+		mounts=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			5581 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = DST
+		596.1.1 = {
+			
+			controller = GUR
+			add_core_of = GUR
+			remove_core_of = DST
+
+		}
+
+
+		617.1.1 = {
+			owner = BSB
+			controller = BSB
+			add_core_of = BSB
+		}
+	}
+
+	provinces={
+		742 1632 1635 1639 1640 1690 1692 2715 5581 5582
+	}
+	manpower=11525
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

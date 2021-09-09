@@ -1,0 +1,40 @@
+
+state={
+	id=741
+	name="STATE_741"
+	resources={
+		mana=22
+	}
+
+	history={
+		
+		add_core_of = AUC
+
+		victory_points = {
+			10719 15
+		}
+		victory_points = {
+			6807 10
+		}
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = AUC
+		}
+	}
+
+	provinces={
+		6807 10719 10721 10727
+	}
+	manpower=56000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

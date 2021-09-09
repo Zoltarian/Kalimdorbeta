@@ -1,0 +1,473 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = maraudon_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAU
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = {
+		x = 715
+		y = 25
+	}
+
+	shared_focus = our_nation
+	shared_focus = arming_the_nation
+	shared_focus = develop_the_country
+	shared_focus = the_path_forward
+
+	focus = {
+		id = MAU_the_stone_princess_nf
+		icon = GFX_focus_maraudon_theradras
+		cost = 1
+		relative_position_id = our_nation
+		x = 0
+		y = 11
+
+		available = {
+			has_country_flag = unlocked_other_branches
+			NOT = {
+				is_ai = yes
+				is_historical_focus_on = yes
+			}
+		}
+
+		completion_reward = {
+			country_event = maraudon.1
+		}
+	}
+
+	focus = {
+		id = MAU_favoring_the_magram_nf
+		icon = GFX_focus_maraudon_favoring_magram
+		cost = 5
+		mutually_exclusive = {
+			focus = MAU_favoring_the_gelkis_nf
+		}
+		prerequisite = {
+			focus = MAU_the_stone_princess_nf
+		}
+		relative_position_id = MAU_the_stone_princess_nf
+		x = -1
+		y = 1
+
+		available = {
+			country_exists = MGC
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = MGC
+				country_exists = GLC
+			}
+		}
+
+		completion_reward = {
+			MGC = {
+				country_event = maraudon.2
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_favoring_the_gelkis_nf
+		icon = GFX_focus_maraudon_favoring_gelkis
+		cost = 5
+		mutually_exclusive = {
+			focus = MAU_favoring_the_magram_nf
+		}
+		prerequisite = {
+			focus = MAU_the_stone_princess_nf
+		}
+		relative_position_id = MAU_the_stone_princess_nf
+		x = 1
+		y = 1
+
+		available = {
+			country_exists = GLC
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = MGC
+				country_exists = GLC
+			}
+		}
+
+		completion_reward = {
+			GLC = {
+				country_event = maraudon.2
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_ungrateful_children_nf
+		icon = GFX_focus_maraudon_ungrateful_children
+		cost = 5
+		relative_position_id = MAU_the_stone_princess_nf
+		x = 0
+		y = 2
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = MGC
+				country_exists = GLC
+			}
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = MAU_ending_the_gelkis_nf
+		icon = GFX_focus_maraudon_ending_gelkis
+		cost = 5
+		prerequisite = {
+			focus = MAU_favoring_the_magram_nf
+			focus = MAU_ungrateful_children_nf
+		}
+		relative_position_id = MAU_favoring_the_magram_nf
+		x = 0
+		y = 2
+
+		available = {
+			NOT = {
+				GLC = {
+					is_puppet_of = MAU
+				}
+			}
+		}
+
+		bypass = {
+			OR = {
+				NOT = {
+					country_exists = GLC
+				}
+				GLC = {
+					is_puppet_of = MAU
+				}
+			}
+		}
+
+		completion_reward = {
+			declare_war_on = {
+		    target = GLC
+		    type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_ending_the_magram_nf
+		icon = GFX_focus_maraudon_ending_magram
+		cost = 5
+		prerequisite = {
+			focus = MAU_favoring_the_gelkis_nf
+			focus = MAU_ungrateful_children_nf
+		}
+		relative_position_id = MAU_favoring_the_gelkis_nf
+		x = 0
+		y = 2
+
+		available = {
+			NOT = {
+				MGC = {
+					is_puppet_of = MAU
+				}
+			}
+		}
+
+		bypass = {
+			OR = {
+				NOT = {
+					country_exists = MGC
+				}
+				MGC = {
+					is_puppet_of = MAU
+				}
+			}
+		}
+
+		completion_reward = {
+			declare_war_on = {
+		    target = MGC
+		    type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_back_into_the_fold_nf
+		icon = GFX_goal_generic_major_alliance
+		cost = 5
+		prerequisite = {
+			focus = MAU_ending_the_magram_nf
+			focus = MAU_ending_the_gelkis_nf
+		}
+		relative_position_id = MAU_the_stone_princess_nf
+		x = 0
+		y = 4
+
+		available = {
+		 NOT = {
+			 has_war_with = GLC
+			 has_war_with = MGC
+		 }
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = MGC
+				country_exists = GLC
+			}
+		}
+
+		completion_reward = {
+			MGC = {
+				every_owned_state = {
+					limit = {
+						is_core_of = MGC
+					}
+					add_core_of = MAU
+				}
+			}
+			GLC = {
+				every_owned_state = {
+					limit = {
+						is_core_of = GLC
+					}
+					add_core_of = MAU
+				}
+			}
+
+			if = {
+				limit = {
+					MGC = {
+						is_puppet_of = MAU
+					}
+				}
+				annex_country = {
+			    target = MGC
+			    transfer_troops = yes
+				}
+			}
+
+			if = {
+				limit = {
+					GLC = {
+						is_puppet_of = MAU
+					}
+				}
+				annex_country = {
+			    target = GLC
+			    transfer_troops = yes
+				}
+			}
+
+			if = {
+				limit = {
+					GLC = {
+						NOT = { is_puppet_of = MAU }
+					}
+					MGC = {
+						NOT = { is_puppet_of = MAU }
+					}
+				}
+				custom_effect_tooltip = MAU_back_into_the_fold_tt
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_theradras_request_nf
+		icon = GFX_focus_maraudon_theradras
+		cost = 5
+		prerequisite = {
+			focus = MAU_back_into_the_fold_nf
+		}
+		relative_position_id = MAU_back_into_the_fold_nf
+		x = 0
+		y = 1
+
+		available = {
+			1191 = {
+				owner = {
+					has_idea = centaur_primary_race
+				}
+			}
+		}
+
+		bypass = {
+			OR = {
+				has_full_control_of_state = 1191
+
+				1191 = {
+					owner = {
+						NOT = { has_idea = centaur_primary_race }
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			1191 = {
+				owner = {
+					country_event = {
+						id = maraudon.5
+						days = 7
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_old_hatreds_nf
+		icon = GFX_focus_maraudon_old_hatreds
+		cost = 5
+		prerequisite = {
+			focus = MAU_theradras_request_nf
+		}
+		relative_position_id = MAU_theradras_request_nf
+		x = 0
+		y = 1
+
+		bypass = {
+			OR = {
+				NOT = {
+					country_exists = WIL
+				}
+				has_war_with = WIL
+			}
+		}
+
+		completion_reward = {
+			declare_war_on = {
+		    target = WIL
+		    type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_her_domain_nf
+		icon = GFX_focus_generic_home_defense
+		cost = 5
+		prerequisite = {
+			focus = MAU_old_hatreds_nf
+		}
+		relative_position_id = MAU_old_hatreds_nf
+		x = 0
+		y = 1
+
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 150
+			set_cosmetic_tag = MAU_DOMAIN
+		}
+	}
+
+	focus = {
+		id = MAU_path_to_the_sea_nf
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 5
+		prerequisite = {
+			focus = MAU_her_domain_nf
+		}
+		relative_position_id = MAU_her_domain_nf
+		x = -1
+		y = 1
+
+		bypass = {
+			NOT = {
+				country_exists = DRY
+			}
+		}
+
+		completion_reward = {
+			declare_war_on = {
+		    target = DRY
+		    type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_hating_the_hatefury_nf
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		prerequisite = {
+			focus = MAU_her_domain_nf
+		}
+		relative_position_id = MAU_her_domain_nf
+		x = 1
+		y = 1
+
+		bypass = {
+			NOT = {
+				country_exists = HFS
+			}
+		}
+
+		completion_reward = {
+			declare_war_on = {
+		    target = HFS
+		    type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = MAU_driving_the_elves_away_nf
+		icon = GFX_focus_attack_kaldorei
+		cost = 5
+		prerequisite = {
+			focus = MAU_path_to_the_sea_nf
+		}
+		prerequisite = {
+			focus = MAU_hating_the_hatefury_nf
+		}
+		relative_position_id = MAU_her_domain_nf
+		x = 0
+		y = 2
+
+		available = {
+			has_war = no
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = KAL
+			}
+
+			owns_state = 1195
+			owns_state = 1196
+			owns_state = 1197
+			owns_state = 1198
+		}
+
+		completion_reward = {
+			declare_war_on = {
+		    target = KAL
+		    type = annex_everything
+			}
+		}
+	}
+}

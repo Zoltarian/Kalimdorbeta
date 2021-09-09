@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "Bilgewater Bruiser"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bilgewater Pikeman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bilgewater Rocketeer"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "1st Bilgewater Bruiser"
+		location = 8328
+		division_template = "Bilgewater Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bilgewater Bruiser"
+		location = 8328
+		division_template = "Bilgewater Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bilgewater Bruiser"
+		location = 8123
+		division_template = "Bilgewater Bruiser"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bilgewater Bruiser"
+		location = 8326
+		division_template = "Bilgewater Bruiser"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Bilgewater Pikeman"
+		location = 8328
+		division_template = "Bilgewater Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bilgewater Pikeman"
+		location = 8123
+		division_template = "Bilgewater Pikeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Bilgewater Rocketeer"
+		location = 8328
+		division_template = "Bilgewater Rocketeer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bilgewater Rocketeer"
+		location = 8326
+		division_template = "Bilgewater Rocketeer"
+		start_experience_factor = 0.2
+	}
+}

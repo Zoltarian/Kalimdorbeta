@@ -1,0 +1,35 @@
+
+state={
+	id=817
+	name="STATE_817"
+	resources={
+		oil=12
+		wood =8
+	}
+
+	history={
+		
+		victory_points = {
+			8123 15 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 3
+			8123 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = BIL
+
+	}
+
+	provinces={
+		8123 8324 8330 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

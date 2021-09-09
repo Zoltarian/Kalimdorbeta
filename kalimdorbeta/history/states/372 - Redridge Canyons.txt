@@ -1,0 +1,43 @@
+
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		ores=26.000
+		gunpowder=16.000
+	}
+
+	history={
+		
+		add_core_of = RRP
+
+		victory_points = {
+			2283 10
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+		}
+
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+		}
+
+		617.1.1 = {
+			
+			controller = RRP
+			add_core_of = RRP
+		}
+	}
+
+	provinces={
+		903 2228 2231 2283 2284 2285 5489
+	}
+	manpower=50800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

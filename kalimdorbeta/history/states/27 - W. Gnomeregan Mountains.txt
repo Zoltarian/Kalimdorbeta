@@ -1,0 +1,29 @@
+
+state={
+	id=27
+	name="STATE_27"
+
+	impassable = yes
+
+	history={
+		
+		add_core_of = GNO
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		617.1.1 = {
+			owner = LEP
+			controller = LEP
+			add_core_of = LEP
+		}
+	}
+
+	provinces={
+		227
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

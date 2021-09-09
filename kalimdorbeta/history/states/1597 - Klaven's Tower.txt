@@ -1,0 +1,47 @@
+
+state={
+	id=1597
+	name="STATE_1597"
+	resources={
+		wood=3
+	}
+
+	history={
+		
+		victory_points = {
+			2148 5 
+		}
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		add_core_of = WST
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+		612.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+
+		}
+
+	}
+
+	provinces={
+		2148 2152 2154 
+	}
+	manpower=3500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

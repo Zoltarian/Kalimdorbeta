@@ -1,0 +1,28 @@
+
+state={
+	id=1262
+	name="STATE_1262"
+
+	history={
+		
+		add_core_of = MMH
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		620.1.1 = {
+			
+			controller = GNO
+			add_core_of = GNO
+		}
+
+	}
+
+	provinces={
+		7760 7765 10985
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

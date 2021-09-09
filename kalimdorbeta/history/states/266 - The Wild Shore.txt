@@ -1,0 +1,37 @@
+
+state={
+	id=266
+	name="STATE_266"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		
+		add_core_of = BOO
+
+		victory_points = {
+			1619 5
+		}
+
+		buildings = {
+			infrastructure = 2
+			1613 = {
+				naval_base = 1
+			}
+		}
+
+		617.1.1 = {
+			owner = BSB
+			controller = BSB
+			add_core_of = BSB
+		}
+	}
+
+	provinces={
+		414 741 1612 1613 1616 1619 1621 5576
+	}
+	manpower=5925
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

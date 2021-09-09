@@ -1,0 +1,152 @@
+﻿capital = 992
+
+oob = "THB_592"
+
+set_naval_oob = "THB_592_naval"
+
+set_research_slots = 3
+
+add_ideas = {
+	tribe
+
+	tauren_primary_race
+
+	primary_trait_war_stomping
+	primary_trait_nature_resistance
+	primary_trait_endurance
+
+	primary_religion_tauren_mythology
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	royal_guard_tech = 1
+
+	support_equipment_tech = 1
+
+
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+
+	naval_transport_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+617.1.1 = {
+	# Maybe move to earlier start date
+	set_popularities = {
+	    alliance = 0
+	    horde = 100
+	    death = 0
+	    fel = 0
+	    old_gods = 0
+	    titans = 0
+	    neutral = 0
+	}
+}
+
+create_country_leader = {
+	name = "Cairne Bloodhoof"
+	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+	picture = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Cairne Bloodhoof"
+	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+	picture = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Cairne Bloodhoof"
+	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+	picture = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rissen Cairne Bloodhoof"
+	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+	picture = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Corrupted Cairne Bloodhoof"
+	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+	picture = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Cairne Bloodhoof"
+	picture = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+	traits = {  }
+	id = 64500
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Baine Bloodhoof"
+	picture = "gfx/leaders/THB/baine_bloodhoof_thunder_bluff.dds"
+	traits = {  }
+	id = 64501
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

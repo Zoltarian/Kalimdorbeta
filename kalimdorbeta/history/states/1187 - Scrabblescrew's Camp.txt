@@ -1,0 +1,34 @@
+
+state={
+	id=1187
+	name="STATE_1187"
+	resources = {
+		oil=5
+		ores=2
+	}
+
+	history={
+		owner = GLC
+		add_core_of = GLC
+		victory_points = {
+			11741 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		616.1.1 = {
+			owner = MGC
+			controller = MGC
+			add_core_of = MGC
+		}
+	}
+
+	provinces={
+		10913 11608 11613 11614 11624 11740 11741 11743 11744 12143 12144
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

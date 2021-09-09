@@ -1,0 +1,573 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	mustering_hall_tech = {
+
+		path = {
+			leads_to_tech = dwarf_axeman_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rifleman_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 4 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+		}
+	}
+
+	dwarf_axeman_tech = {
+
+		enable_subunits = {
+			axeman
+		}
+
+		on_research_complete = {
+			set_technology = {
+				dwarf_axeman_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dwarf_axeman_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 2 y = 2 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dwarf_axeman_equipment_tech_1 = {
+
+		enable_equipments = {
+			dwarf_axeman_equipment_1
+		}
+
+		path = {
+			leads_to_tech = dwarf_axeman_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dwarf_axeman_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 2 y = 4 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	dwarf_axeman_tier_1_upgrade_placeholder_1 = {
+
+		xor = { dwarf_axeman_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dwarf_axeman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 1 y = 6 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dwarf_axeman_tier_1_upgrade_placeholder_2 = {
+
+		xor = { dwarf_axeman_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dwarf_axeman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 3 y = 6 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dwarf_axeman_equipment_tech_2 = {
+
+		enable_equipments = {
+			dwarf_axeman_equipment_2
+		}
+
+		path = {
+			leads_to_tech = dwarf_axeman_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dwarf_axeman_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 2 y = 8 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dwarf_axeman_tier_2_upgrade_placeholder_1 = {
+
+		xor = { dwarf_axeman_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = dwarf_axeman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 1 y = 10 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dwarf_axeman_tier_2_upgrade_placeholder_2 = {
+
+		xor = { dwarf_axeman_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = dwarf_axeman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 3 y = 10 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dwarf_axeman_equipment_tech_3 = {
+
+		enable_equipments = {
+			dwarf_axeman_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 2 y = 12 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			axeman_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rifleman_tech = {
+
+		enable_subunits = {
+			rifleman
+		}
+
+		on_research_complete = {
+			set_technology = {
+				rifleman_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = rifleman_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 6 y = 2 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	rifleman_equipment_tech_1 = {
+
+		enable_equipments = {
+			rifleman_equipment_1
+		}
+
+		path = {
+			leads_to_tech = rifleman_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rifleman_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 6 y = 4 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	rifleman_tier_1_upgrade_placeholder_1 = {
+
+		xor = { rifleman_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = rifleman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 5 y = 6 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	rifleman_tier_1_upgrade_placeholder_2 = {
+
+		xor = { rifleman_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = rifleman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 7 y = 6 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	rifleman_equipment_tech_2 = {
+
+		enable_equipments = {
+			rifleman_equipment_2
+		}
+
+		path = {
+			leads_to_tech = rifleman_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rifleman_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 6 y = 8 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rifleman_tier_2_upgrade_placeholder_1 = {
+
+		xor = { rifleman_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = rifleman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 5 y = 10 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	rifleman_tier_2_upgrade_placeholder_2 = {
+
+		xor = { rifleman_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = rifleman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 7 y = 10 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	rifleman_equipment_tech_3 = {
+
+		enable_equipments = {
+			rifleman_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 6 y = 12 }
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+			rifleman_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	runecarvers_sanctum_tech = {
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 12 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			dwarf_infantry_technology
+			mustering_hall_technology
+		}
+	}
+
+}

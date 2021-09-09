@@ -1,0 +1,35 @@
+
+state={
+	id=987
+	name="STATE_987"
+	resources={
+		mounts=2
+		ores=6
+		wood=1
+	}
+
+	history={
+		owner = RZM
+		add_core_of = RZM
+		victory_points = {
+			10235 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		9677 10227 10231 10235 10240 10248 10254 10257 10260 10282 10286 10298
+	}
+	manpower=6500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

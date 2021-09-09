@@ -1,0 +1,23 @@
+
+state={
+	id=980
+	name="STATE_980"
+
+	impassable = yes
+	history={
+		owner = WWT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = WWT
+
+	}
+
+	provinces={
+		9527
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,26 @@
+oldgods_generic_historical = {
+	name = "Old Gods historical plan"
+	desc = "placeholder oldgods ai"
+
+	enable = {
+		is_historical_focus_on = yes
+		old_gods > 0.5
+	}
+
+	ai_national_focuses = {
+		serving_higher_powers
+		whispers_of_the_old_gods
+	}
+
+	focus_factors = {
+		pick_a_side = 0
+		stay_neutral = 0
+	}
+
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

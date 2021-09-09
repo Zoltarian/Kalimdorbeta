@@ -1,0 +1,30 @@
+
+state={
+	id=175
+	name="STATE_175"
+	resources={
+		wood=32.000
+		mana=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			3143 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		661 3129 3131 3132 3133 3139 3140 3143 3145 3146 3152 
+	}
+	manpower=22300
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=188
+	name="STATE_188"
+	resources={
+		ores=34.000
+		gunpowder=26.000
+	}
+
+	history={
+		
+		victory_points = {
+			4553 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		657 4550 4552 4553 4565 
+	}
+	manpower=21600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,101 @@
+ideas = {
+	
+	advisor = {
+	# Civilian Advisors
+	
+		BRF_Anachronos = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRF
+			}
+			
+			traits = { heir_idea } 
+		
+		}
+		
+		BRF_chronormu = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRF
+			}
+			
+			#traits = { diplomat_idea_3 } 
+		
+		}
+		
+		BRF_zephyr = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRF
+			}
+			
+			traits = { investigator_idea_2 }
+		
+		}
+
+	}
+
+	council_member = {
+	# Military Advisors
+	
+		BRF_tick = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRF
+			}
+			
+			traits = { guardian_2 }
+		
+		}
+		
+		BRF_chronalis_the_time_shifter = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRF
+			}
+			
+			traits = { guardian_3 }
+		
+		}
+
+		BRF_Occulus = {
+		
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BRF
+			}
+			
+			traits = { guardian_1 }
+		
+		}
+	}
+	
+	country = {
+	
+		BRF_uncertain_future = {
+		
+			picture = generic_race_infinite_dragon
+		
+			allowed = {
+				original_tag = BRF
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+	}
+
+}

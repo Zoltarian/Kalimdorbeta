@@ -1,0 +1,125 @@
+﻿division_template = {
+	name = "Bleeding Hollow Grunts"
+
+	regiments = {
+		grunt = { x = 0 y = 0 }
+		grunt = { x = 0 y = 1 }
+		grunt = { x = 0 y = 2 }
+		grunt = { x = 0 y = 3 }
+		grunt = { x = 1 y = 0 }
+		grunt = { x = 1 y = 1 }
+		grunt = { x = 1 y = 2 }
+		grunt = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bleeding Hollow Spearman"
+
+	regiments = {
+		spearman = { x = 0 y = 0 }
+		spearman = { x = 0 y = 1 }
+		spearman = { x = 0 y = 2 }
+		spearman = { x = 0 y = 3 }
+		spearman = { x = 1 y = 0 }
+		spearman = { x = 1 y = 1 }
+		spearman = { x = 1 y = 2 }
+		spearman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bleeding Hollow Brutes"
+
+	regiments = {
+		dire_orc = { x = 0 y = 0 }
+		dire_orc = { x = 0 y = 1 }
+		dire_orc = { x = 0 y = 2 }
+		dire_orc = { x = 0 y = 3 }
+		dire_orc = { x = 1 y = 0 }
+		dire_orc = { x = 1 y = 1 }
+		dire_orc = { x = 1 y = 2 }
+		dire_orc = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+division_template = {
+	name = "Bleeding Hollow Dire Wolves"
+
+	regiments = {
+		dire_wolf = { x = 0 y = 0 }
+		dire_wolf = { x = 0 y = 1 }
+		dire_wolf = { x = 0 y = 2 }
+		dire_wolf = { x = 0 y = 3 }
+		dire_wolf = { x = 1 y = 0 }
+		dire_wolf = { x = 1 y = 1 }
+		dire_wolf = { x = 1 y = 2 }
+		dire_wolf = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Bleeding Hollow Grunts"
+		location = 2636
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bleeding Hollow Grunts"
+		location = 2636
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Bleeding Hollow Brutes"
+		location = 2636
+		division_template = "Bleeding Hollow Brutes"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bleeding Hollow Dire Wolves"
+		location = 2636
+		division_template = "Bleeding Hollow Dire Wolves"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bleeding Hollow Grunts"
+		location = 2673
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bleeding Hollow Spearman"
+		location = 2673
+		division_template = "Bleeding Hollow Spearman"
+		start_experience_factor = 0.2
+	}	
+
+	division = {
+		name = "Bleeding Hollow Grunts"
+		location = 954
+		division_template = "Bleeding Hollow Grunts"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "Bleeding Hollow Spearman"
+		location = 954
+		division_template = "Bleeding Hollow Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bleeding Hollow Brutes"
+		location = 954
+		division_template = "Bleeding Hollow Brutes"
+		start_experience_factor = 0.2
+	}
+
+
+}

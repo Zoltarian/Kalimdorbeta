@@ -1,0 +1,22 @@
+state={
+	id=1390
+	name="STATE_1390"
+	impassable = yes
+
+
+	history={
+		owner = STS
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = STS
+	}
+
+	provinces={
+		12076
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

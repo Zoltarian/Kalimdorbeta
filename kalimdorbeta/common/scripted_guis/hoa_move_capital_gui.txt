@@ -1,0 +1,51 @@
+scripted_gui = {
+
+	move_capital_button_container = {
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		window_name = "move_capital_button_container"
+
+		visible = {}
+
+		effects = {
+			move_capital_button_click = {
+				ROOT = {
+					#Set state variable to be used in popup
+					set_variable = { move_capital_state = PREV }
+
+					if = {
+						limit = {
+							NOT = { is_in_array = { move_capital_check_popup = PREV } }
+						}
+						add_to_array = { move_capital_check_popup = PREV }
+					}
+				}
+			}
+		}
+
+		triggers = {
+			move_capital_button_visible = {
+				is_owned_by = ROOT
+			}
+			move_capital_button_click_enabled = {
+				is_capital = no
+				impassable = no
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+				ROOT = { has_political_power > 150 }
+			}
+		}
+
+		ai_test_scopes = test_self_owned_states
+		ai_test_interval = 24
+		ai_test_variance = 0.2
+
+		ai_enabled = {
+			always = no
+		}
+
+		ai_check = {
+			always = no
+		}
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1194
+	name="STATE_1194"
+	resources = {
+		wheat=9
+		wood=3
+		ores=4
+	}
+
+	history={
+		owner = HFS
+		victory_points = {
+			10918 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 7
+			arms_factory = 2
+
+		}
+		add_core_of = HFS
+
+	}
+
+	provinces={
+		10918 11643 11699 11704 11707 11708 11712 11715 11748 11750 11751 
+	}
+	manpower=58000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_11
+}

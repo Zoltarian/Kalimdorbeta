@@ -1,0 +1,1175 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+#Fall of Stormwind Keep
+news_event = {
+	id = news.500
+	title = news.500.t
+	desc = news.500.d
+	picture = GFX_stormwind_keep_news
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		any_other_country = {
+			original_tag = BRC
+			controls_state = 22
+			has_war_with = STO
+		}
+		22 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_stormwind_keep_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_stormwind_keep_BRC
+	}
+
+	option = {
+		name = news.500.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.500.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.500.c
+		trigger = { tag = STO }
+	}
+}
+
+#Fall of Cathedral of Light
+news_event = {
+	id = news.501
+	title = news.501.t
+	desc = news.501.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 319
+			has_war_with = STO
+		}
+		319 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_stormwind_light_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_stormwind_light_BRC
+	}
+
+	option = {
+		name = news.501.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.501.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.501.c
+		trigger = { tag = STO }
+	}
+}
+#Fall of Trade District
+news_event = {
+	id = news.502
+	title = news.502.t
+	desc = news.502.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		any_other_country = {
+			original_tag = BRC
+			controls_state = 315
+			has_war_with = STO
+		}
+		315 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_stormwind_trade_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_stormwind_trade_BRC
+	}
+
+	option = {
+		name = news.502.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.502.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.502.c
+		trigger = { tag = STO }
+	}
+}
+#Fall of Stormwind Harbor
+news_event = {
+	id = news.503
+	title = news.503.t
+	desc = news.503.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 318
+			has_war_with = STO
+		}
+		318 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_stormwind_harbor_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_stormwind_harbor_BRC
+	}
+
+	option = {
+		name = news.503.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.503.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.503.c
+		trigger = { tag = STO }
+	}
+}
+#Fall of Goldshire
+news_event = {
+	id = news.504
+	title = news.504.t
+	desc = news.504.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 325
+			has_war_with = STO
+		}
+		325 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_goldshire_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_goldshire_BRC
+	}
+
+	option = {
+		name = news.504.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.504.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.504.c
+		trigger = { tag = STO }
+	}
+}
+
+#Fall of Northshire abbey
+news_event = {
+	id = news.505
+	title = news.505.t
+	desc = news.505.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 327
+			has_war_with = STO
+		}
+		327 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_northshire_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_northshire_BRC
+	}
+
+	option = {
+		name = news.505.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.505.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.505.c
+		trigger = { tag = STO }
+	}
+}
+
+#Fall of Moonbrook
+news_event = {
+	id = news.506
+	title = news.506.t
+	desc = news.506.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 143
+			has_war_with = STO
+		}
+		143 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_moonbrook_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_moonbrook_BRC
+	}
+
+	option = {
+		name = news.506.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.506.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.506.c
+		trigger = { tag = STO }
+	}
+}
+
+#Fall of Darkshire
+news_event = {
+	id = news.507
+	title = news.507.t
+	desc = news.507.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 309
+			has_war_with = STO
+		}
+		309 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_darkshire_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_darkshire_BRC
+	}
+
+	option = {
+		name = news.507.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.507.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.507.c
+		trigger = { tag = STO }
+	}
+}
+
+#Fall of Lakeshire
+news_event = {
+	id = news.508
+	title = news.508.t
+	desc = news.508.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 361
+			has_war_with = STO
+		}
+		361 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_lakeshire_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_lakeshire_BRC
+	}
+
+	option = {
+		name = news.508.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.508.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.508.c
+		trigger = { tag = STO }
+	}
+}
+
+#Fall of Stonewatch Keep
+news_event = {
+	id = news.509
+	title = news.509.t
+	desc = news.509.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		any_other_country = {
+				original_tag = BRC
+				controls_state = 368
+				has_war_with = STO
+		}
+		368 = { is_owned_by = STO }
+		BRC = { has_war_with = STO }
+		NOT = { has_global_flag = fall_stonewatch_keep_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_stonewatch_keep_BRC
+	}
+
+	option = {
+		name = news.509.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = news.509.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.509.c
+		trigger = { tag = STO }
+	}
+}
+
+#Fall of Karazhan
+news_event = {
+	id = news.510
+	title = news.510.t
+	desc = news.510.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	any_other_country = {
+			original_tag = BRC
+			controls_state = 25
+			has_war_with = KAR
+		}
+		25 = { is_owned_by = KAR }
+		BRC = { has_war_with = KAR }
+		NOT = { has_global_flag = fall_kharazan_BRC }
+	}
+
+	immediate = {
+		set_global_flag = fall_kharazan_BRC
+	}
+
+	option = {
+		name = news.510.a
+		trigger = {
+			NOT = {
+				tag = BRC
+				tag = KAR
+			}
+		}
+	}
+	option = {
+		name = news.510.b
+		trigger = { tag = BRC }
+	}
+	option = {
+		name = news.510.c
+		trigger = { tag = KAR }
+	}
+}
+
+#Fall of The Great Forge(Ironforge)
+news_event = {
+	id = news.511
+	title = news.511.t
+	desc = news.511.d
+	picture = GFX_horde_flag
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		any_other_country = {
+			controls_state = 430
+			has_war_with = IRO
+		}
+		430 = { is_owned_by = IRO }
+	}
+
+	option = {
+		name = news.511.a
+		trigger = {
+			NOT = {
+				tag = IRO
+				has_war_with = IRO
+			}
+		}
+	}
+	option = {
+		name = news.511.b
+		trigger = { tag = IRO }
+	}
+	option = {
+		name = news.511.c
+		trigger = {
+			any_other_country = {
+				has_war_with = IRO
+			}
+		}
+	}
+}
+
+news_event = {
+	id = news.512
+	title = news.512.t
+	desc = news.512.d
+	picture = GFX_news_event_royal_visit
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.512.a
+		trigger = {
+			OR = {
+				original_tag = ALT
+				original_tag = DAL
+				original_tag = GIL
+				original_tag = KUL
+				original_tag = LOR
+				original_tag = STO
+				original_tag = STR
+			}
+		}
+	}
+	option = {
+		name = news.512.b
+		trigger = {
+			original_tag = KAR
+		}
+	}
+	option = {
+		name = news.512.c
+		trigger = {
+			NOT = {
+				original_tag = ALT
+				original_tag = DAL
+				original_tag = GIL
+				original_tag = KUL
+				original_tag = LOR
+				original_tag = STO
+				original_tag = STR
+				original_tag = KAR
+			}
+		}
+	}
+}
+
+news_event = {
+	id = news.513
+	title = news.513.t
+	desc = news.513.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.513.a
+		trigger = {
+			NOT = { original_tag = KAR }
+		}
+	}
+	option = {
+		name = news.513.b
+		trigger = { original_tag = KAR }
+	}
+}
+
+news_event = {
+	id = news.514
+	title = news.514.t
+	desc = news.514.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.514.a
+		trigger = {
+			NOT = { original_tag = KAR }
+		}
+	}
+	option = {
+		name = news.514.b
+		trigger = { original_tag = KAR }
+	}
+}
+
+news_event = {
+	id = news.515
+	title = news.515.t
+	desc = news.515.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.515.a
+		trigger = {
+			NOT = { original_tag = KAR }
+		}
+	}
+	option = {
+		name = news.515.b
+		trigger = { original_tag = KAR }
+	}
+}
+
+news_event = {
+	id = news.516
+	title = news.516.t
+	desc = {
+		text = news.516.d.dalaran
+		trigger = { original_tag = DAL }
+	}
+	desc = {
+		text = news.516.d.orcs
+		trigger = {
+			OR = {
+			original_tag = FWC
+			original_tag = THC
+			original_tag = BTG
+			original_tag = BBC
+			original_tag = TSC
+			original_tag = BRC
+			original_tag = DMC
+			original_tag = BHC
+			}
+		}
+	}
+	desc = {
+		text = news.516.d.global
+		trigger = {
+			NOT = {
+				original_tag = FWC
+				original_tag = THC
+				original_tag = BTG
+				original_tag = BBC
+				original_tag = TSC
+				original_tag = BRC
+				original_tag = DMC
+				original_tag = BHC
+				original_tag = DAL
+			}
+		}
+	}
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.516.a
+		trigger = { original_tag = DAL }
+	}
+	option = {
+		name = news.516.b
+		trigger = {
+			original_tag = FWC
+			original_tag = THC
+			original_tag = BTG
+			original_tag = BBC
+			original_tag = TSC
+			original_tag = BRC
+			original_tag = DMC
+			original_tag = BHC
+		}
+	}
+	option = {
+		name = news.516.c
+		trigger = {
+			NOT = {
+				original_tag = KAR
+				original_tag = DAL
+				original_tag = FWC
+				original_tag = THC
+				original_tag = BTG
+				original_tag = BBC
+				original_tag = TSC
+				original_tag = BRC
+				original_tag = DMC
+				original_tag = BHC
+			}
+		}
+	}
+}
+
+news_event = {
+	id = news.517
+	title = news.517.t
+	desc = news.517.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = { name = news.517.a }
+}
+
+news_event = {
+	id = news.518
+	title = news.518.t
+	desc = news.518.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.518.a
+		trigger = {
+			TAG = IRO
+			TAG = GNO
+			TAG = NRT
+			TAG = DUN
+		}
+	}
+	option = {
+		name = news.518.b
+		trigger = {
+			NOT = {
+				TAG = IRO
+				TAG = GNO
+				TAG = NRT
+				TAG = DUN
+			}
+		}
+	}
+}
+
+news_event = {
+	id = news.519
+	title = news.519.t
+	desc = news.519.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.519.a
+		trigger = {
+			original_tag = QUE
+			original_tag = LOR
+			original_tag = DAL
+			original_tag = ALT
+			original_tag = AER
+			original_tag = STO
+			original_tag = STR
+			original_tag = GIL
+			original_tag = KUL
+			original_tag = NRT
+			original_tag = DUN
+			original_tag = GNO
+			original_tag = IRO
+			original_tag = SPC
+		}
+	}
+	option = {
+		name = news.519.b
+		trigger = {
+			NOT = {
+			original_tag = QUE
+			original_tag = LOR
+			original_tag = DAL
+			original_tag = ALT
+			original_tag = AER
+			original_tag = STO
+			original_tag = STR
+			original_tag = GIL
+			original_tag = KUL
+			original_tag = NRT
+			original_tag = DUN
+			original_tag = GNO
+			original_tag = IRO
+			original_tag = SPC
+			}
+		}
+	}
+}
+news_event = {
+	id = news.520
+	title = news.520.t
+	desc = news.520.d
+	picture = GFX_news_event_001
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.520.a
+		trigger = {
+			NOT = {
+				TAG = IRO
+				TAG = GNO
+				TAG = NRT
+				TAG = DUN
+				TAG = BHC
+				TAG = BRC
+				TAG = BTG
+				TAG = DMC
+				TAG = SRC
+				TAG = THC
+				TAG = BBC
+			}
+		}
+	}
+	option = {
+		name = news.520.b
+		trigger = {
+			TAG = IRO
+			TAG = GNO
+			TAG = NRT
+			TAG = DUN
+		}
+	}
+	option = {
+		name = news.520.c
+		trigger = {
+			TAG = BHC
+			TAG = BRC
+			TAG = BTG
+			TAG = DMC
+			TAG = SRC
+			TAG = THC
+			TAG = BBC
+		}
+	}
+}
+news_event = {
+	id = news.521
+	title = news.521.t
+	desc = news.521.d
+	picture = GFX_news_event_001
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.521.a
+		trigger = {
+			NOT = {
+				TAG = IRO
+				TAG = GNO
+				TAG = NRT
+				TAG = DUN
+				TAG = BHC
+				TAG = BRC
+				TAG = BTG
+				TAG = DMC
+				TAG = SRC
+				TAG = THC
+				TAG = BBC
+			}
+		}
+	}
+	option = {
+		name = news.521.b
+		trigger = {
+			TAG = IRO
+			TAG = GNO
+			TAG = NRT
+			TAG = DUN
+		}
+	}
+	option = {
+		name = news.521.c
+		trigger = {
+			TAG = BHC
+			TAG = BRC
+			TAG = BTG
+			TAG = DMC
+			TAG = SRC
+			TAG = THC
+			TAG = BBC
+		}
+	}
+}
+news_event = { #union of 3 hammers
+	id = news.522
+	title = news.522.t
+	desc = news.522.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.522.a
+
+	}
+
+}
+
+news_event = { #united wildhammer clan
+	id = news.523
+	title = news.523.t
+	desc = news.523.d
+	picture = GFX_news_event_generic_rally
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.523.a
+
+	}
+
+}
+news_event = {
+    id = news.702
+    title = news.702.t
+    desc = news.702.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = news.702.a
+        trigger = {
+            TAG = STO
+        }
+    }
+    option = {
+        name = news.702.b
+        trigger = {
+            ROOT = { has_war_with = STO }
+        }
+    }
+    option = {
+        name = news.702.c
+        trigger = {
+            AND = {
+				NOT = {
+					OR = {
+						TAG = STO
+						ROOT = { has_war_with = STO }
+					}
+				}
+				ROOT = { has_idea = primary_religion_the_church_of_the_holy_light }
+			}
+        }
+    }
+    option = {
+        name = news.702.e
+        trigger = {
+            AND = {
+				NOT = {
+					OR = {
+						TAG = STO
+						ROOT = { has_war_with = STO }
+					}
+				}
+				NOT = { ROOT = { has_idea = primary_religion_the_church_of_the_holy_light } }
+			}
+        }
+    }
+}
+
+news_event = {
+    id = news.701
+    title = news.701.t
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    desc = {
+          text = news.701.not_orc
+          trigger = {
+              ROOT = { NOT = {has_idea = orc_primary_race} }
+          }
+    }
+
+    desc = {
+          text = news.701.orc
+          trigger = {
+              ROOT = { has_idea = orc_primary_race }
+          }
+    }
+
+	option = { name = news.701.a }
+}
+
+# END OF THE FIRST WAR
+news_event = {
+    id = news.700
+    title = news.700.t
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    desc = {
+        text = news.700.d_orcwin_canon
+        trigger = {
+            # Orcs win and Lordaeron cedes land
+        }
+    }
+
+    desc = {
+        text = news.700.d_orcwin_stormintegrate
+        trigger = {
+            # Orcs win and Lordaeron integrates Stormwind
+        }
+    }
+
+    desc = {
+        text = news.700.d_orcwin_stormbalor
+        trigger = {
+            # Orcs win and Lordaeron refuses help
+        }
+    }
+
+    desc = {
+        text = news.700.d_orcwin_hillsbrad
+        trigger = {
+            # Orcs win, Lordaeron cedes land and Stormwind forms Hillsbrad
+        }
+    }
+
+    desc = {
+        text = news.700.d_orcwin_armistice
+        trigger = {
+            # Orcs win and offer armistice
+        }
+    }
+
+    desc = {
+        text = news.700.d_stormwin
+        trigger = {
+            # Stormwind wins
+        }
+    }
+
+    picture = GFX_news_event_hitler_handshake
+    major = yes
+
+    is_triggered_only = yes
+
+    option = {
+        name = news.700.a
+        trigger = {
+            # In the Horde Faction
+	    # orcwin outcome
+        }
+    }
+
+    option = {
+        name = news.700.b
+        trigger = {
+            # Is Stormwind
+            # stormwin outcome
+        }
+    }
+
+    option = {
+        name = news.215.c
+        trigger = {
+            # Is a nation on the losing side EXCEPT Stormwind as Hillsbrad
+        }
+    }
+
+    option = {
+        name = news.700.e
+        trigger = {
+            # Is Lordaeron and Stormwind asked for help
+        }
+    }
+
+    option = {
+        name = news.700.f
+        trigger = {
+            # Is any non-horde country that isn't Stormwind
+	    # OR Lordaeron if Stormwind did not ask for help
+        }
+    }
+}
+
+#news_event = { #Essence of Hakkar summoned!
+#    id = news.703
+#    title = news.703.t
+#    desc = news.703.d
+#
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#
+#    option = {
+#        name = news.703.summoner
+#        trigger = {
+#            TAG = GUR
+#        }
+#    }
+#
+#	option = {
+#        name = news.703.faction
+#        trigger = {
+#            is_in_faction_with = GUR
+#        }
+#    }
+#
+#	option = {
+#        name = news.703.else
+#        trigger = {
+#            is_in_faction_with = GUR
+#        }
+#    }
+#
+#
+#}
+
+# Meeting of the seven kingdoms
+news_event = {
+	id = news.704
+	title = news.704.t
+	desc = news.704.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = news.704.option.1
+	}
+}

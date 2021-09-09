@@ -1,0 +1,35 @@
+
+state={
+	id=843
+	name="STATE_843"
+	resources={
+		ores=10.000
+		mounts=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			9150 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			9145 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = VAK
+
+	}
+
+	provinces={
+		8587 9144 9145 9147 9152 9153 9175 
+	}
+	manpower=26000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

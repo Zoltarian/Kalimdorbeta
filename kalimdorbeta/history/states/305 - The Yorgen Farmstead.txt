@@ -1,0 +1,45 @@
+
+state={
+	id=305
+	name="STATE_305"
+	resources={
+		mounts=14.000
+	}
+
+	history={
+		
+		add_core_of = STO
+		victory_points = {
+			1990 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+		596.1.1 = {
+			
+			controller = THC
+			add_core_of = THC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = THC
+		}
+
+		617.1.1 = {
+			owner = DFB
+			controller = DFB
+			add_core_of = DFB
+		}
+	}
+
+	provinces={
+		788 1988 1990 1991 1992 1993 1994 6944
+	}
+	manpower=8625
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

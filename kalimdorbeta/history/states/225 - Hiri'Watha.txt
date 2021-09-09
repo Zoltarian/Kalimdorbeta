@@ -1,0 +1,33 @@
+
+state={
+	id=225
+	name="STATE_225"
+	resources={
+		wood=20.000
+		mounts=26.000
+	}
+
+	history={
+		
+		victory_points = {
+			3860 10 
+		}
+		victory_points = {
+			5537 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = WBT
+
+	}
+
+	provinces={
+		3042 3845 3847 3856 3860 3867 3868 3871 3876 5537 7223 
+	}
+	manpower=18775
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

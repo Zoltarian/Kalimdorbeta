@@ -1,0 +1,30 @@
+
+state={
+	id=432
+	name="STATE_432"
+	resources={
+		oil=18.000
+		gunpowder=26.000
+	}
+
+	history={
+		victory_points = {
+			1037 5 
+		}
+		
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+
+	}
+
+	provinces={
+		1037 3782 3785 3789 5920 5924 
+	}
+	manpower=18975
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

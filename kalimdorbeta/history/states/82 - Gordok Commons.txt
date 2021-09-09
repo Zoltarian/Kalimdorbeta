@@ -1,0 +1,40 @@
+
+state={
+	id=82
+	name="STATE_82"
+	resources = {
+		wheat=6
+		mana=5
+		ores=4
+		wood=3
+	}
+
+	history={
+		owner = SHD
+		add_core_of = SHD
+		victory_points = {
+			11508 30
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 2
+
+		}
+		617.1.1 = {
+			
+			controller = GOR
+			add_core_of = GOR
+
+			set_state_name = "Gordok Commons"
+		}
+
+	}
+
+	provinces={
+		1881 4520 7498 11447 11470 11488 11499 11501 11508
+	}
+	manpower=56000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

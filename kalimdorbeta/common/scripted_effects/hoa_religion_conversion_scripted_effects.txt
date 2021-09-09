@@ -1,0 +1,708 @@
+set_state_religion = {
+	meta_effect = {
+		text = {
+			set_variable = { religion = [MAIN_RELIGION] }
+		}
+		MAIN_RELIGION = "[?religion_conversion_country.GetMainReligionVariable]"
+	}
+}
+
+setup_accepted_religion_arrays = {
+	if = {
+		limit = {
+			has_idea = primary_religion_the_church_of_the_holy_light
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 1
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_naaru
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 2
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_scarlet_church
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 3
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_argent_church
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 4
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_order_of_the_blood_knights
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 5
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_rukhmar
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 6
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_necrolytes
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 7
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_voodoo
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 8
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_cult_of_the_forgotten_shadows
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 9
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_anzu
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 10
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_void
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 11
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_arcane_studies
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 12
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_sun_well
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 13
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_night_well
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 14
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_druidism
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 15
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_ursoc
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 16
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_logosh
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 17
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_agamaggan
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 18
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_avianna
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 19
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_tortolla
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 20
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_august_celestial
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 21
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_thornspeakers
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 22
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_harvest_witchcraft
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 23
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_natural_magic
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 24
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_loa_spirits
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 25
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_fel
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 26
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_demonology
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 27
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_necromancy
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 28
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_the_lich_king
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 29
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_helya
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 30
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_drust
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 31
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_yshaarj
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 32
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_nzoth
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 33
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_yogg_saron
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 34
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_cthun
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 35
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_hour_of_twilight
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 36
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_dark_conclave
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 37
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_ghuun
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 38
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_mystery_of_the_makers
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 39
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_odyn
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 40
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_titans
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 41
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_chi
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 42
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_elemental_furies
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 43
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_shamanism
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 44
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_dark_shamanism
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 45
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_the_firelord
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 46
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_the_tidehunter
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 47
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_the_stonemother
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 48
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_the_windlord
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 49
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_geomancy
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 50
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_pyromancy
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 51
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_ordos
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 52
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_gurok
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 53
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_the_tidemother
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 54
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_waterspeaking
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 55
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_sisterhood_of_elune
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 56
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_tauren_mythology
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 57
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_pandaren_folklore
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 58
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_mogu_mythology
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 59
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_luckydos
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 60
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_volcanoth
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 61
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_mazu
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 62
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_kros
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 63
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_tuskarr_mythology
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 64
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_ancient_nerubian
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 65
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_gahzrilla
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 66
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_the_wyrmcult
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 67
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_gronn_worship
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 68
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_magnataur_worship
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 69
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_zarjira
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 70
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_followers_of_borrok
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 71
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_genesaur_worship
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 72
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_naraxas
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 73
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_disciples_of_jorhuttam
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 74
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_way_of_the_jade_fist
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 75
+		}
+	}
+	if = {
+		limit = {
+			has_idea = primary_religion_irreligious
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 76
+		}
+	}
+
+}
+
+set_state_religion_to_primary_religion = {
+	custom_effect_tooltip = set_state_religion_to_primary_religion_tt
+	hidden_effect = {
+		meta_effect = {
+			text = {
+				set_variable = { religion = [MAIN_RELIGION] }
+			}
+			MAIN_RELIGION = "[ROOT.GetMainReligionVariable]"
+		}
+	}
+}

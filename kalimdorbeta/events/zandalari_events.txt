@@ -1,0 +1,55 @@
+﻿###########################
+# zandalari
+###########################
+
+add_namespace = zandalari
+
+country_event = {
+	id = zandalari.1
+	title = zandalari.1.t
+	desc = zandalari.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #protect tribe
+		name = zandalari.1.option.1
+		ai_chance = {
+			factor = 70
+		}
+		add_to_faction = BLO
+	}
+	option = { #ignore tribe
+		name = zandalari.1.option.2
+		ai_chance = {
+			factor = 30
+
+		}
+		
+	}
+}
+
+country_event = {
+	id = zandalari.2
+	title = zandalari.2.t
+	desc = zandalari.2.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #protect tribe
+		name = zandalari.2.option.1
+		ai_chance = {
+			factor = 70
+		}
+		add_to_faction = SKU
+	}
+	option = { #ignore tribe
+		name = zandalari.2.option.2
+		ai_chance = {
+			factor = 30
+
+		}
+		
+	}
+}

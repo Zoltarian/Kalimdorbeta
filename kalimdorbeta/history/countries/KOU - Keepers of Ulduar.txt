@@ -1,0 +1,62 @@
+﻿capital = 2020
+
+oob = "KOU_592"
+
+set_naval_oob = "KOU_592_naval"
+
+set_convoys = 10
+
+set_research_slots = 3
+set_technology = {}
+
+add_ideas = {
+	titan_watcher_primary_race
+
+	primary_religion_the_titans
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 25
+	titans = 75
+	neutral = 0
+}
+
+set_politics = {
+	ruling_party = titans
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	ideology = titans_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

@@ -1,0 +1,133 @@
+﻿###########################
+#governments
+###########################
+
+add_namespace = government_council
+
+country_event = {
+	id = government_council.1
+	title = government_council.1.t
+	desc = government_council.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = government_council.1.option.1
+		
+		random_list = {
+			25 = {
+				add_political_power = 90
+			}
+			25 = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+					}
+				}
+			}
+			25 = {
+				add_stability = 0.05
+			}
+			25 = {
+				add_timed_idea = {
+					idea =  council_advisor_bonus
+					days = 90
+				}	
+			}
+		}
+	}
+}
+
+country_event = {
+	id = government_council.2
+	title = government_council.2.t
+	desc = government_council.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = {
+        name = government_council.2.option.1
+		
+		random_list = {
+			25 = {
+				add_tech_bonus = {
+					name = land_doc_bonus
+					bonus = 0.25
+					uses = 1
+					category = land_doctrine
+				}
+			}
+			25 = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+					}
+				}
+			}
+			25 = {
+				add_war_support = 0.05
+			}
+			25 = {
+				army_experience = 30
+			}
+		}
+
+
+	}
+}

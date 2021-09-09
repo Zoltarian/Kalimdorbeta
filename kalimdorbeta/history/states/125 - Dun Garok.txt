@@ -1,0 +1,39 @@
+
+state={
+	id=125
+	name="STATE_125"
+	resources={
+		ores=8.000
+		gunpowder=4.000
+	}
+
+	history={
+		
+		victory_points = {
+			1739 15 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+			1741 = {
+				bunker = 2
+
+			}
+			1744 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SPC
+
+	}
+
+	provinces={
+		1736 1737 1739 1741 1742 1744 1745 1746 
+	}
+	manpower=75500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

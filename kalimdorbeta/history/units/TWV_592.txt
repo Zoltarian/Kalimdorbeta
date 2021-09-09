@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "Withervine Mire Beast"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Withervine Mire Beast"
+		location = 9089
+		division_template = "Withervine Mire Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withervine Mire Beast"
+		location = 9141
+		division_template = "Withervine Mire Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withervine Mire Beast"
+		location = 9093
+		division_template = "Withervine Mire Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withervine Mire Beast"
+		location = 9052
+		division_template = "Withervine Mire Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Withervine Mire Beast"
+		location = 8638
+		division_template = "Withervine Mire Beast"
+		start_experience_factor = 0.2
+	}
+
+}

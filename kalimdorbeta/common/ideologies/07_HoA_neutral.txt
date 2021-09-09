@@ -1,0 +1,49 @@
+ideologies = {
+
+	neutral = {
+
+		types = {
+
+			neutral_type  = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NEUTRAL_1"
+			"FACTION_NAME_NEUTRAL_2"
+			"FACTION_NAME_NEUTRAL_3"
+			"FACTION_NAME_NEUTRAL_4"
+			"FACTION_NAME_NEUTRAL_5"
+			"FACTION_NAME_NEUTRAL_6"
+			"FACTION_NAME_NEUTRAL_7"
+			"FACTION_NAME_NEUTRAL_8"
+			"FACTION_NAME_NEUTRAL_9"
+		}
+
+		color = { 124 124 124 }
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+		}
+
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 1
+
+		modifiers = { # More rules for the ideology
+			generate_wargoal_tension = 0.20
+			join_faction_tension = 0.75
+			lend_lease_tension = 0.75
+			guarantee_tension = 0.75
+			drift_defence_factor = -0.3
+		}
+
+		can_be_boosted = yes
+		can_collaborate = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+	}
+}

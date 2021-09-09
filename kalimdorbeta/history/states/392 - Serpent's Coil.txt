@@ -1,0 +1,49 @@
+
+state={
+	id=392
+	name="STATE_392"
+	resources={
+		ores=32.000
+	}
+
+	history={
+		
+		victory_points = {
+			2891 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = BRC
+
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+			remove_core_of = BRC
+		}
+
+		600.1.1 = {
+			owner = NET
+			add_core_of = NET
+			remove_core_of = BTG
+		}
+
+		617.1.1 = {
+			owner = SSC
+			controller = SSC
+			add_core_of = SSC
+		}
+
+	}
+
+	provinces={
+		937 2891 2892 2894 2895 2900 2903 2912
+	}
+	manpower=64000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=699
+	name="STATE_699"
+	resources={
+		wood =8
+	}
+
+	history={
+		
+		add_core_of = TLC
+
+		victory_points = {
+			5878 5
+		}
+
+		buildings = {
+			infrastructure = 3
+		}	
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TLC
+		}
+	}
+
+	provinces={
+		5878 5883 6262 6264 6278 6279 6863
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=1557
+	name="STATE_1557"
+	resources={
+		ores=2
+		wood=4
+		gunpowder=1
+	}
+
+	history={
+		owner = BLT
+		victory_points = {
+			9679 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = BLT
+
+	}
+
+	provinces={
+		365 9679 10152 10224 10359 12073 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

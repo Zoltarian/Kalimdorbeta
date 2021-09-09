@@ -1,0 +1,151 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# Start dates focus tree setups
+			STO = {
+				if = {
+					limit = {
+						AND = {
+							has_start_date > 595.11.31
+							has_start_date < 596.00.02
+						}
+					}
+					load_focus_tree = stormwind_second_war
+				}
+			}
+			STO = {
+				if = {
+					limit = {
+						AND = {
+							has_start_date > 599.11.31
+							has_start_date < 600.00.02
+						}
+					}
+					load_focus_tree = generic_focus
+				}
+			}
+
+			#Setting Cenarion Circle autonomy
+			CEN = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = CNH
+						autonomous_state = autonomy_colonial_state
+						freedom_level = 0.01
+					}
+					else = {
+						puppet = CNH
+					}
+				}
+			}
+
+			#Starting events
+			SHD = {
+				country_event = {
+					id = shendralar.8
+					days = 1
+				}
+			}
+
+			#Setting move capital cost
+			every_country = {
+				set_variable = { move_capital_cost = 150 }
+			}
+
+			###############################################
+			# Changing some states name to be time-accurate
+			# Has to be done both way (game only reload state names if restarted)
+			# causing names to not be changed if playing on two start dates in one session
+			###############################################
+
+			#Old Hatred start date
+			#if = {
+			#	limit = {
+			#		has_start_date < 616.11.31
+			#	}
+			#	#Ruins of Eldre'thalas to Gordok Commons
+			#	82 = {
+			#		set_state_name = "Gordok Commons"
+			#	}
+			#	#S. Echo Shore to Sen'jin Village
+			#	589 = {
+			#		set_state_name = "Sen'jin Village"
+			#	}
+			#	#N. Echo Shore to Tiragarde Keep
+			#	590 = {
+			#		set_state_name = "Tiragarde Keep"
+			#	}
+			#}
+			#if = {
+			#	limit = {
+			#		has_start_date < 618.11.31
+			#	}
+			#	#Razormane Foothold to Northwatch Foothold
+			#	588 = {
+			#		set_state_name = "Northwatch Foothold"
+			#	}
+			#}
+		}
+	}
+
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						tag = BOO
+						has_defensive_war_with = GUR
+					}
+				}
+				country_event = boogurwar.1
+			}
+		}
+	}
+
+	on_subject_annexed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						tag = STO
+						has_completed_focus = STO_feudal_reform
+					}
+				}
+				country_event = stormwind.21
+			}
+		}
+	}
+
+	#Realm of Jade (ROJ) mana generation
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						FROM = {
+							tag = ROJ
+							has_completed_focus = ROJ_studying_jade_magic
+						}
+						check_variable = {
+							var = ROJ.spell_mana
+							value = ROJ.max_mana
+							compare = less_than
+						}
+					}
+				}
+				add_to_variable = {
+					var = ROJ.spell_mana
+					value = ROJ.spell_mana_weekly
+				}
+				clamp_variable = {
+					var = ROJ.spell_mana
+					min = 0
+					max = ROJ.max_mana
+				}
+			}
+		}
+	}
+}

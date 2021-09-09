@@ -1,0 +1,29 @@
+
+state={
+	id=742
+	name="STATE_742"
+
+	impassable = yes
+	history={
+		
+		add_core_of = WSC
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WSC
+		}
+	}
+
+	provinces={
+		6633
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

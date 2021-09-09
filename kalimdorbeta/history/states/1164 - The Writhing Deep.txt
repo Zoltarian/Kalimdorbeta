@@ -1,0 +1,34 @@
+
+state={
+	id=1164
+	name="STATE_1164"
+	resources = {
+		wheat=10
+		eggs=8
+		wood=5
+		ores=3
+	}
+
+	history={
+		owner = ZUK
+		victory_points = {
+			11364 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base=2
+
+		}
+		add_core_of = ZUK
+
+	}
+
+	provinces={
+		10878 11355 11356 11357 11364 11368 11373
+	}
+	manpower=54000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

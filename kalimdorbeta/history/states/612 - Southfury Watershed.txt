@@ -1,0 +1,26 @@
+
+state={
+	id=612
+	name="STATE_612"
+	resources={
+		ores=3
+	}
+
+	history={
+		owner = RZM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = RZM
+
+	}
+
+	provinces={
+		1129 10225 10234 10241 10252 10263 10267 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

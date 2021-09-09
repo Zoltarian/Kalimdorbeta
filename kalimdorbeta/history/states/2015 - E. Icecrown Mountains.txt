@@ -1,0 +1,26 @@
+state={
+	id=2015
+	name="STATE_2015"
+	impassable = yes
+
+	history={
+		
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = YHC
+
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+		}
+	}
+
+	provinces={
+		13314
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

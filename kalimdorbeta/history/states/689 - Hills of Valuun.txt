@@ -1,0 +1,32 @@
+
+state={
+	id=689
+	name="STATE_689"
+	resources={
+		wood =6
+		mounts=8
+	}
+
+	history={
+		
+		add_core_of = SMC
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = SMC
+		}
+	}
+
+	provinces={
+		6676 6738 6741 6752 6754 6755
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

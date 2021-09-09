@@ -1,0 +1,41 @@
+
+state={
+	id=485
+	name="STATE_485"
+	resources={
+		mounts=28.000
+	}
+
+	history={
+		
+		add_core_of = IRO
+		victory_points = {
+			3603 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			
+			controller = IRO
+			add_core_of = IRO
+
+		}
+
+	}
+
+	provinces={
+		1053 3600 3603 3604 3609 3611 5969 5973 
+	}
+	manpower=10675
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

@@ -1,0 +1,24 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	altar_of_stoneborn_kings_tech = {
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 8 y = 0 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+}

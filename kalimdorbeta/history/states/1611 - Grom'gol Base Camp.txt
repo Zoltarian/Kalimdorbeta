@@ -1,0 +1,35 @@
+
+state={
+	id=1611
+	name="STATE_1611"
+
+	history={
+		
+		add_core_of = BLO
+
+		victory_points = {
+			1648 15
+		}
+
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			1648 = {
+				naval_base = 4
+			}
+		}
+
+		617.1.1 = {
+			owner = OGR
+			controller = OGR
+			add_core_of = OGR
+		}
+	}
+
+	provinces={
+		1645 1648 1649 1651 6417
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=435
+	name="STATE_435"
+	
+			resources={
+		mana = 14
+	}
+
+	history={
+		
+		victory_points = { 3817 15 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+
+		}
+		add_core_of = IRO
+
+	}
+
+	provinces={
+		1042 3801 3805 3806 3810 3811 3817 3818 
+	}
+	manpower=53000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,49 @@
+
+state={
+	id=46
+	name="STATE_46"
+	resources={
+		ores=2.000
+		wood =2.000
+		oil=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			1571 20 
+		}
+		victory_points = {
+			500 5
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			1573 = {
+				naval_base = 5
+				bunker = 2
+			}
+			500 = {
+				naval_base = 1
+			}
+			1572 = {
+				bunker = 2
+			}
+			1570 = {
+				coastal_bunker = 1
+			}
+
+		}
+		add_core_of = BOO
+
+	}
+
+	provinces={
+		500 1569 1570 1571 1572 1573 1626 5409 5410 5414 5572 5713 
+	}
+	manpower=53750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

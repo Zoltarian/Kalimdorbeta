@@ -1,0 +1,29 @@
+
+state={
+	id=862
+	name="STATE_862"
+	resources={
+		wood=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			9211 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = TID
+
+	}
+
+	provinces={
+		9194 9198 9204 9209 9211 9212 9215 9222 10841 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

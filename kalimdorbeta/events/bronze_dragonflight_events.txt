@@ -1,0 +1,43 @@
+﻿###########################
+#bronzedragonflight
+###########################
+
+add_namespace = bronzedragonflight
+
+#ysera tells us Hakkari exist
+country_event = {
+	id = bronzedragonflight.1
+	title = bronzedragonflight.1.t
+	desc = bronzedragonflight.1.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = { 
+        name = bronzedragonflight.1.option.1
+
+		
+	} 
+	
+}
+
+#ysera blows up temple of atal hakkar/orcs exist
+country_event = {
+	id = bronzedragonflight.2
+	title = bronzedragonflight.2.t
+	desc = bronzedragonflight.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = { 
+        name = bronzedragonflight.2.option.1
+
+		
+	} 
+	
+}

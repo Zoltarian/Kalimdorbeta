@@ -1,0 +1,36 @@
+
+state={
+	id=1528
+	name="STATE_1528"
+
+	history={
+		
+		victory_points = {
+			2244 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+		617.1.1 = {
+			owner = SHA
+			controller = SHA
+			add_core_of = SHA
+		}
+	}
+
+	provinces={
+		176 2244 2841 6928 6929
+	}
+	manpower=4800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

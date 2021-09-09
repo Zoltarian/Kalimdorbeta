@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Shen'dralar Zealot"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Highborne Summoner"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 0 y = 3 }
+		arch_mage = { x = 0 y = 4 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+		arch_mage = { x = 1 y = 3 }
+		arch_mage = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+
+units = {
+
+	division = {
+		name = "Shen'dralar Zealot"
+		location = 11494
+		division_template = "Shen'dralar Zealot"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Shen'dralar Zealot"
+		location = 11494
+		division_template = "Shen'dralar Zealot"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Shen'dralar Zealot"
+		location = 11508
+		division_template = "Shen'dralar Zealot"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Shen'dralar Zealot"
+		location = 11508
+		division_template = "Shen'dralar Zealot"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Highborne Summoner"
+		location = 11494
+		division_template = "Highborne Summoner"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Highborne Summoner"
+		location = 11494
+		division_template = "Highborne Summoner"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Highborne Summoner"
+		location = 11494
+		division_template = "Highborne Summoner"
+		start_experience_factor = 0.3
+	}
+
+}

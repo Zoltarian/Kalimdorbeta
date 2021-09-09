@@ -1,0 +1,41 @@
+
+state={
+	id=154
+	name="STATE_154"
+	resources={
+		mounts=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			3420 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = HEA
+			controller = HEA
+			add_core_of = HEA
+
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		638 3401 3405 3406 3411 3420 3421 3422 3423 3426 7450 7451 7452 
+	}
+	manpower=16750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,73 @@
+﻿division_template = {
+	name = "Blackwood Warrior"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Blackwood Shaman"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Blackwood Warrior"
+		location = 12647
+		division_template = "Blackwood Warrior"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Blackwood Warrior"
+		location = 12647
+		division_template = "Blackwood Warrior"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Blackwood Warrior"
+		location = 12562
+		division_template = "Blackwood Warrior"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Blackwood Warrior"
+		location = 12562
+		division_template = "Blackwood Warrior"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Blackwood Shaman"
+		location = 12647
+		division_template = "Blackwood Shaman"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Blackwood Shaman"
+		location = 12562
+		division_template = "Blackwood Shaman"
+		start_experience_factor = 0.1
+	}
+
+}

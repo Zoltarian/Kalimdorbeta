@@ -1,0 +1,19 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Stillpine Fishing Fleet"			
+		naval_base = 13638
+		task_force = {
+			name = "Stillpine Fishing Fleet"			
+			location = 13638 
+			
+			ship = {
+				name = "1st Stillpine Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = STP } }
+			}
+			
+		}
+	}
+}

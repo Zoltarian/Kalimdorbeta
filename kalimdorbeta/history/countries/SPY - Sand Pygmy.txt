@@ -1,0 +1,60 @@
+﻿capital = 1294
+
+oob = "SPY_592"
+set_research_slots = 3
+
+add_ideas = {
+
+	tribe
+	limited_conscription
+	early_military_development
+	limited_exports
+	
+	pygmies_primary_race
+
+	primary_religion_shamanism
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	naval_transport_1 = 1
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+596.1.1 = {}
+
+create_country_leader = {
+	name = "Sultan Oogah"
+	desc = "POLITICS_SULTAN_OOGAH_DESC"
+	picture = "sultan_oogah.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}

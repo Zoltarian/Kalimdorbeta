@@ -1,0 +1,911 @@
+realm_of_jade_spell_decision = {
+#Higher tier spell cost more mana but are exponentially more efficient
+
+	#Bonus to construction speed + extraction
+	jade_worker_conjuration_tier1_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_conjuration_tier = 1
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = worker_conjuration_cooldown
+				}
+				check_variable = {
+					spell_mana > 15
+				}
+				original_tag = ROJ
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 15 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 15
+			}
+			set_country_flag = worker_conjuration_cooldown
+		}
+
+		modifier = {
+       local_resources_factor = 0.05
+			 production_speed_buildings_factor = 0.05
+    }
+    days_remove = spell_duration
+		remove_effect = {
+	  	clr_country_flag = worker_conjuration_cooldown
+		}
+	}
+
+	#Bonus to construction speed + extraction
+	jade_worker_conjuration_tier2_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_conjuration_tier = 2
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = worker_conjuration_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 20
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 20 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 20
+			}
+			set_country_flag = worker_conjuration_cooldown
+		}
+
+		modifier = {
+       local_resources_factor = 0.075
+			 production_speed_buildings_factor = 0.075
+    }
+    days_remove = spell_duration
+		remove_effect = {
+	  	clr_country_flag = worker_conjuration_cooldown
+		}
+	}
+
+	#Bonus to construction speed + extraction
+	jade_worker_conjuration_tier3_decision = {
+		#icon =
+		#WILL COST MANA
+
+		visible = {
+			check_variable = {
+		    ROJ_conjuration_tier = 3
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = worker_conjuration_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 25
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 25 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 25
+			}
+			set_country_flag = worker_conjuration_cooldown
+		}
+
+		modifier = {
+       local_resources_factor = 0.1
+			 production_speed_buildings_factor = 0.1
+    }
+    days_remove = spell_duration
+		remove_effect = {
+	  	clr_country_flag = worker_conjuration_cooldown
+		}
+	}
+
+	#Turn manpower into Jade Tiger equipment
+	living_transmutation_tier1_decision = {
+		visible = {
+			AND = {
+				check_variable = {
+			    ROJ_living_transmutation_tier = 1
+				}
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				has_manpower > 1000
+				NOT = {
+					has_country_flag = living_transmutation_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 15
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 15 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+		    type = jade_tiger_tech_equipment
+		    amount = 100
+		    producer = ROJ
+			}
+
+			subtract_from_variable = {
+				var = spell_mana
+				value = 15
+			}
+			set_country_flag = living_transmutation_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+	  	clr_country_flag = living_transmutation_cooldown
+		}
+	}
+
+	#Turn manpower into Jade Tiger equipment
+	living_transmutation_tier2_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_living_transmutation_tier = 2
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				has_manpower > 1000
+				NOT = {
+					has_country_flag = living_transmutation_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 20
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 20 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+		    type = jade_tiger_tech_equipment
+		    amount = 125
+		    producer = ROJ
+			}
+
+			subtract_from_variable = {
+				var = spell_mana
+				value = 20
+			}
+			set_country_flag = living_transmutation_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = living_transmutation_cooldown
+		}
+	}
+
+	#Turn manpower into Jade Tiger equipment
+	living_transmutation_tier3_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_living_transmutation_tier = 3
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				has_manpower > 1000
+				NOT = {
+					has_country_flag = living_transmutation_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 25
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 25 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+		    type = jade_tiger_tech_equipment
+		    amount = 150
+		    producer = ROJ
+			}
+
+			subtract_from_variable = {
+				var = spell_mana
+				value = 25
+			}
+			set_country_flag = living_transmutation_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = living_transmutation_cooldown
+		}
+	}
+
+	#Same as normal transmutation but with more manpower (not more efficient)
+	#Tier 1 does not exists
+	mass_transmutation_tier2_decision = {
+		visible = {
+			AND = {
+				check_variable = {
+			    ROJ_living_transmutation_tier = 2
+				}
+				has_country_flag = unlocked_greater_living_transmutation_spell
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				has_manpower > 2500
+				NOT = {
+					has_country_flag = living_transmutation_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 35
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 35 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			add_manpower = -2500
+			add_equipment_to_stockpile = {
+		    type = jade_tiger_tech_equipment
+		    amount = 375
+		    producer = ROJ
+			}
+			subtract_from_variable = {
+				var = spell_mana
+				value = 35
+			}
+			set_country_flag = living_transmutation_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = living_transmutation_cooldown
+		}
+	}
+
+	#Same as normal transmutation but with more manpower (not more efficient)
+	mass_transmutation_tier3_decision = {
+		visible = {
+			AND = {
+				check_variable = {
+			    ROJ_living_transmutation_tier = 3
+				}
+				has_country_flag = unlocked_greater_living_transmutation_spell
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				has_manpower > 2500
+				NOT = {
+					has_country_flag = living_transmutation_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 45
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 45 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		complete_effect = {
+			add_manpower = -2500
+			add_equipment_to_stockpile = {
+		    type = jade_tiger_tech_equipment
+		    amount = 450
+		    producer = ROJ
+			}
+
+			subtract_from_variable = {
+				var = spell_mana
+				value = 35
+			}
+			set_country_flag = living_transmutation_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = living_transmutation_cooldown
+		}
+	}
+
+	#Boost attack BUT defense malus
+	offensive_jade_infusion_tier1_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_jade_infusion_tier = 1
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = jade_infusion_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 10
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 10 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		modifier = {
+	    army_attack_factor = 0.075
+			army_defence_factor = -0.075
+    }
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 10
+			}
+			set_country_flag = jade_infusion_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = jade_infusion_cooldown
+		}
+	}
+
+	#Boost attack BUT defense malus
+	offensive_jade_infusion_tier2_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_jade_infusion_tier = 2
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = jade_infusion_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 20
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 20 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		modifier = {
+	    army_attack_factor = 0.1
+			army_defence_factor = -0.1
+    }
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 20
+			}
+			set_country_flag = jade_infusion_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = jade_infusion_cooldown
+		}
+	}
+
+	#Boost attack BUT defense malus
+	offensive_jade_infusion_tier3_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_jade_infusion_tier = 3
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = jade_infusion_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 30
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 30 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		modifier = {
+	    army_attack_factor = 0.125
+			army_defence_factor = -0.125
+    }
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 30
+			}
+			set_country_flag = jade_infusion_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = jade_infusion_cooldown
+		}
+	}
+
+	#Boost defense BUT attack malus
+	defensive_jade_infusion_tier1_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_jade_infusion_tier = 1
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = jade_infusion_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 10
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 10 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		modifier = {
+			army_defence_factor = 0.075
+	    army_attack_factor = -0.075
+    }
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 10
+			}
+			set_country_flag = jade_infusion_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = jade_infusion_cooldown
+		}
+	}
+
+	#Boost defense BUT attack malus
+	defensive_jade_infusion_tier2_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_jade_infusion_tier = 2
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = jade_infusion_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 20
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 20 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		modifier = {
+			army_defence_factor = 0.1
+	    army_attack_factor = -0.1
+    }
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 20
+			}
+			set_country_flag = jade_infusion_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = jade_infusion_cooldown
+		}
+	}
+
+	#Boost defense BUT attack malus
+	defensive_jade_infusion_tier3_decision = {
+		visible = {
+			check_variable = {
+		    ROJ_jade_infusion_tier = 3
+			}
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			AND = {
+				NOT = {
+					has_country_flag = jade_infusion_cooldown
+				}
+				original_tag = ROJ
+				check_variable = {
+					spell_mana > 30
+				}
+			}
+		}
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_mana_cost = 30 }
+			check_variable = {
+				spell_mana > temp_mana_cost
+			}
+		}
+		custom_cost_text = "mana_decisions_cost_text"
+
+		modifier = {
+			army_defence_factor = 0.125
+	    army_attack_factor = -0.125
+    }
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = spell_mana
+				value = 30
+			}
+			set_country_flag = jade_infusion_cooldown
+		}
+
+		days_remove = spell_duration
+		remove_effect = {
+			clr_country_flag = jade_infusion_cooldown
+		}
+	}
+}
+
+realm_of_jade_expanding_the_realm_decision = {
+
+	roj_conquer_tian_monastery_decision = {
+		icon = border_war
+		cost = 50
+
+		visible = {
+			has_completed_focus = ROJ_guerilla_warfare
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			has_full_control_of_state = 1953
+			divisions_in_state = {
+				state = 1953
+				size > 0
+			}
+		}
+
+		complete_effect = {
+			#start_border_war = {
+		  #  change_state_after_war = no
+		  #  attacker = {
+	    #    state = 1953
+	    #    num_provinces = 3
+	    #    on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+
+		  #  defender = {
+	    #    state = 1952
+	    #    num_provinces = 3
+			#		on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+			#}
+		}
+	}
+
+	roj_conquer_thunder_hold_decision = {
+		icon = border_war
+		cost = 50
+
+		visible = {
+			has_completed_focus = ROJ_guerilla_warfare
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			has_full_control_of_state = 1952
+			divisions_in_state = {
+				state = 1952
+				size > 0
+			}
+		}
+
+		complete_effect = {
+			#start_border_war = {
+		  #  change_state_after_war = no
+		  #  attacker = {
+	    #    state = 1952
+	    #    num_provinces = 3
+	    #    on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+
+		  #  defender = {
+	    #    state = 1941
+	    #    num_provinces = 3
+			#		on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+			#}
+		}
+	}
+
+	roj_conquer_honeydew_village_decision = {
+		icon = border_war
+		cost = 50
+
+		visible = {
+			has_completed_focus = ROJ_guerilla_warfare
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			has_full_control_of_state = 1941
+			divisions_in_state = {
+				state = 1941
+				size > 0
+			}
+		}
+
+		complete_effect = {
+			#start_border_war = {
+		  #  change_state_after_war = no
+		  #  attacker = {
+	    #    state = 1941
+	    #    num_provinces = 3
+	    #    on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+
+		  #  defender = {
+	    #    state = 1940
+	    #    num_provinces = 3
+			#		on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+			#}
+		}
+	}
+
+	roj_conquer_srila_village_decision = {
+		icon = border_war
+		cost = 50
+
+		visible = {
+			has_completed_focus = ROJ_hanging_the_anglers
+		}
+
+		allowed = {
+			original_tag = ROJ
+		}
+
+		available = {
+			has_full_control_of_state = 1942
+			divisions_in_state = {
+				state = 1942
+				size > 0
+			}
+		}
+
+		complete_effect = {
+			#start_border_war = {
+		  #  change_state_after_war = no
+		  #  attacker = {
+	    #    state = 1942
+	    #    num_provinces = 3
+	    #    on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+
+		  #  defender = {
+	    #    state = 1943
+	    #    num_provinces = 3
+			#		on_win = realm_of_jade_raid.2
+	    #    on_lose = realm_of_jade_raid.3
+	    #    on_cancel = realm_of_jade_raid.4
+		  #  }
+			#}
+		}
+	}
+}

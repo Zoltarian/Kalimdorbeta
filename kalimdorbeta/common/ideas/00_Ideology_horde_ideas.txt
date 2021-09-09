@@ -1,0 +1,179 @@
+ideas = {
+	
+	country = {
+	
+	Clan_Respect_Level1 = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	
+		modifier = {
+			army_attack_factor = 0.05
+			army_defence_factor = -0.15
+			army_org_factor = -0.20
+			experience_gain_army = 0.02
+			supply_consumption_factor = 0.15
+			local_resources_factor = -0.20
+			political_power_gain = -0.25
+			}
+			
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+		
+	}
+	
+	Clan_Respect_Level2 = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	
+		modifier = {
+			army_attack_factor = 0.05
+			army_defence_factor = -0.10
+			army_org_factor = -0.10
+			experience_gain_army = 0.05
+			supply_consumption_factor = 0.05
+			local_resources_factor = -0.10
+			political_power_gain = -0.20
+			}
+			
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	}
+	
+	Clan_Respect_Level3 = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	
+		modifier = {
+			army_attack_factor = 0.05
+			army_defence_factor = 0
+			army_org_factor = 0
+			experience_gain_army = 0.08
+			supply_consumption_factor = 0
+			local_resources_factor = 0
+			political_power_gain = -0.10
+			}
+			
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	}
+	
+	Clan_Respect_Level4 = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	
+		modifier = {
+			army_attack_factor = 0.10
+			army_defence_factor = 0.05
+			army_org_factor = 0.05
+			experience_gain_army = 0.15
+			supply_consumption_factor = -0.05
+			local_resources_factor = 0.05
+			political_power_gain = 0
+			}
+			
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	}
+	
+	Clan_Respect_Level5 = {
+	
+		allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+	
+		modifier = {
+			army_attack_factor = 0.15
+			army_defence_factor = 0.10
+			army_org_factor = 0.10
+			experience_gain_army = 0.25
+			supply_consumption_factor = -0.10
+			local_resources_factor = 0.15
+			political_power_gain = 0.10
+			}
+			
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	}
+	
+	
+	Horde_Assault_Idea_Level1 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_attack_factor = 0.1
+				army_speed_factor = 0.1
+				army_defence_factor = -0.15
+				army_org_factor = 0.075
+				army_morale_factor = 0.05
+			}
+	}
+	
+
+	
+	Horde_Assault_Idea_Level2 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_attack_factor = 0.20
+				army_speed_factor = 0.20
+				army_defence_factor = -0.30
+				army_org_factor = 0.15
+				army_morale_factor = 0.10
+			}
+	}
+	
+	Horde_Assault_Idea_Level3 = {
+			
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+	
+			modifier = {
+				army_attack_factor = 0.35
+				army_speed_factor = 0.35
+				army_defence_factor = -0.50
+				army_org_factor = 0.225
+				army_morale_factor = 0.2
+			}
+		}
+	}
+}

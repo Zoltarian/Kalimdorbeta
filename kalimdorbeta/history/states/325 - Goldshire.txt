@@ -1,0 +1,49 @@
+
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		add_core_of = STO
+		add_core_of = ELW
+
+		victory_points = {
+			2453 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+		}
+
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+		}
+
+		617.1.1 = {
+			
+			controller = STO
+		}
+	}
+
+	provinces={
+		844 2435 2439 2445 2446 2448 2449 2451 2452 2453 2454 2455 2457 2458 2460 2462
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

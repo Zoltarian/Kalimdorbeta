@@ -1,0 +1,28 @@
+
+state={
+	id=1647
+	name="STATE_1647"
+
+	history={
+		
+		add_core_of = DFC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		620.1.1 = {
+			owner = FSK
+			controller = FSK
+			add_core_of = FSK
+		}
+
+	}
+
+	provinces={
+		144 277 5145 6397 6398 7947 13351
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Slimeshell Makrura"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Slimeshell Makrura"
+		location = 11562
+		division_template = "Slimeshell Makrura"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Slimeshell Makrura"
+		location = 11562
+		division_template = "Slimeshell Makrura"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Slimeshell Makrura"
+		location = 11601
+		division_template = "Slimeshell Makrura"
+		start_experience_factor = 0.2
+	}
+
+}

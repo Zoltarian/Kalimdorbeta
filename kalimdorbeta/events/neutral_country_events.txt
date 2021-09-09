@@ -1,0 +1,40 @@
+﻿###########################
+# Neutral Country Upgrade Events
+###########################
+
+add_namespace = neutral_country_upgrade
+
+country_event = {
+    id = neutral_country_upgrade.1
+
+    hidden = yes
+
+    is_triggered_only = yes
+    
+    trigger = {
+        is_major = yes
+		NOT = { has_country_flag = CJF_isset }
+    }
+	
+	
+    option = {
+		set_rule = {
+			can_join_factions = yes
+        }
+		set_country_flag = CJF_isset
+    }  
+}
+
+add_namespace = debug_become_major
+
+country_event = {
+    id = debug_become_major.1
+	is_triggered_only = yes
+    hidden = yes
+    fire_only_once = yes
+	
+
+    option = {
+		set_major = yes
+    }  
+}

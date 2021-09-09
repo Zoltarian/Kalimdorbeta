@@ -1,0 +1,38 @@
+
+state={
+	id=201
+	name="STATE_201"
+	resources={
+		mana=34.000
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+
+		}
+		add_core_of = LOR
+		600.1.1 = {
+			owner = STH
+			controller = STH
+			add_core_of = STH
+
+		}
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		712 4462 4467 4474 4477 
+	}
+	manpower=80750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

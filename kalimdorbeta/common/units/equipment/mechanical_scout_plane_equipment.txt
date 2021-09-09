@@ -1,0 +1,54 @@
+equipments = {
+
+	mechanical_scout_plane_equipment_1 = {
+		year = 592
+
+		archetype = scout_plane_equipment
+		priority = 100
+		
+		air_range = 1100 #+400
+		maximum_speed = 250 #+50 
+		air_agility = 20 #+5
+		air_defence = 11 #+2
+		
+		build_cost_ic = 16 #-4
+		resources = {
+			oil = 2
+			ores = 2
+			gunpowder = 2
+		}
+
+	}
+	
+	mechanical_scout_plane_equipment_2 = {
+		year = 595
+
+		archetype = scout_plane_equipment
+		parent = mechanical_scout_plane_equipment_1
+		priority = 100
+		
+		air_range = 1500
+		maximum_speed = 600 #+50
+		air_agility = 25
+		air_defence = 13
+
+		build_cost_ic = 18
+
+	}
+
+	mechanical_scout_plane_equipment_3 = {
+		year = 601
+
+		archetype = scout_plane_equipment
+		parent = mechanical_scout_plane_equipment_2
+		priority = 100
+		
+		air_range = 1900 #+400
+		maximum_speed = 650 #+50
+		air_agility = 30 #+5
+		air_defence = 15 #+2
+
+		build_cost_ic = 20
+
+	}
+}

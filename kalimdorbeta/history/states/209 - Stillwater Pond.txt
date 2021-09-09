@@ -1,0 +1,35 @@
+
+state={
+	id=209
+	name="STATE_209" #Stillwater Pond/ Calston Estate
+	resources={
+		mounts=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			4247 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		693 4209 4221 4239 4247 4257 4263 4284 4296 4298 
+	}
+	manpower=18575
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

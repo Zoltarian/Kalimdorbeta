@@ -1,0 +1,28 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Hearthglen Fleet"			
+		naval_base = 3487
+		task_force = {
+			name = "Hearthglen Fleet"			
+			location = 3487 #hearthglen
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = HEA } }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = HEA } }
+			}
+			ship = {
+				name = "1st Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = HEA } }
+			}
+		}
+	}
+}

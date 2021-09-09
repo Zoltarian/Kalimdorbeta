@@ -1,0 +1,34 @@
+
+state={
+	id=754
+	name="STATE_754" # W. Ruins of Jubuwal/ Ruins of Jubuwal
+	resources={
+		mounts=18.000
+	}
+
+	history={
+		
+		victory_points = {
+			746 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GUR
+
+		617.1.1 = {
+			owner = ZNZ
+			controller = ZNZ
+			add_core_of = ZNZ
+		}
+	}
+
+	provinces={
+		746 2713 2724 2736 2745 5588 5596 5601 5602
+	}
+	manpower=26800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=134
+	name="STATE_134"
+	resources={
+		oil=26.000
+		gunpowder=8.000
+	}
+
+	history={
+		
+		add_core_of = VIL
+		add_core_of = RTT
+		victory_points = {
+			3823 15 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 3
+			3823 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3820 3823 3825 3837 3842 
+	}
+	manpower=33500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

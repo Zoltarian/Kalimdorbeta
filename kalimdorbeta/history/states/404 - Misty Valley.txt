@@ -1,0 +1,41 @@
+
+state={
+	id=404
+	name="STATE_404"
+	resources={
+		ores=12.000
+	}
+
+	history={
+		
+		victory_points = {
+			2673 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = BHC
+		596.1.1 = {
+			
+			controller = BTG
+			add_core_of = BTG
+
+		}
+		617.1.1 = {
+			
+			controller = TSW
+			add_core_of = TSW
+
+		}
+
+	}
+
+	provinces={
+		950 953 2369 2658 2667 2673 2675 
+	}
+	manpower=36750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

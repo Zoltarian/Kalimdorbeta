@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Shadowmoon Grunt"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Shadowmoon Spearman"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Shadowmoon Hunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Shadowmoon Raiders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		knight = { x = 1 y = 1 }
+		knight = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+##########################
+#nagrand (draenor)
+##########################
+	division = {
+		name = "1st Shadowmoon Grunt"
+		location = 6708
+		division_template = "Shadowmoon Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Shadowmoon Grunt"
+		location = 6747
+		division_template = "Shadowmoon Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Shadowmoon Grunt"
+		location = 6735
+		division_template = "Shadowmoon Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Shadowmoon Grunt"
+		location = 6793
+		division_template = "Shadowmoon Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Shadowmoon Grunt"
+		location = 6753
+		division_template = "Shadowmoon Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Shadowmoon Grunt"
+		location = 6708
+		division_template = "Shadowmoon Grunt"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Shadowmoon Spearman"
+		location = 6771
+		division_template = "Shadowmoon Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Shadowmoon Spearman"
+		location = 6779
+		division_template = "Shadowmoon Spearman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Shadowmoon Hunter"
+		location = 6705
+		division_template = "Shadowmoon Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Shadowmoon Hunter"
+		location = 6726
+		division_template = "Shadowmoon Hunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Shadowmoon Raiders"
+		location = 6736
+		division_template = "Shadowmoon Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Shadowmoon Raiders"
+		location = 6790
+		division_template = "Shadowmoon Raiders"
+		start_experience_factor = 0.2
+	}
+
+}

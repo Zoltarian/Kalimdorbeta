@@ -1,0 +1,77 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+AMA = {
+	male = {
+		names = { "Doth" "Mag" "Ran" "Vis" "Atal'" "Zul'" "Zeb'" "Moji'" "Yayo" "Thresh" "Mai" "Kel'" "Rin'"}
+		surnames = { "'jin" "Ran" "Mag" "Doth" "Vis" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lith" "Arn" "Din" "Mak" "Zeb'" "Moji" "Yayo" "Mai" "Kel" "Rin"}
+		surnames = { "Lith" "Arn" "Din" "Mak" }
+		callsigns = { "Vile Priestess" }
+	}
+	surnames = { "'fon" "'Ko" "Brin" "Gash" "Ji" "Arn" }
+	callsigns = { "Manhunter" "Elfhunter" "Skullsplitter" "Pride of the Amani" "Hex Lord" "Beserker" "Shadowhunter" "Amani'shi" "Bear Lord" "Eagle Lord" "Dragonhawk Lord" "Lynx Lord"}
+}
+
+VIL = {
+	male = {
+		names = { "Doth" "Mag" "Ran" "Vis" "Atal'" "Zul'" "Zeb'" "Moji'" "Yayo" "Thresh" "Mai" "Kel'" "Rin'"}
+		surnames = { "'jin" "Ran" "Mag" "Doth" "Vis" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lith" "Arn" "Din" "Mak" "Zeb'" "Moji" "Yayo" "Mai" "Kel" "Rin"}
+		surnames = { "Lith" "Arn" "Din" "Mak" }
+		callsigns = { "Vile Priestess" }
+	}
+	surnames = { "'fon" "'Ko" "Brin" "Gash" "Ji" "Arn" }
+	callsigns = { "Manhunter" "Elfhunter" "Skullsplitter" "Pride of the Amani" "Hex Lord" "Beserker" "Shadowhunter" "Amani'shi" "Bear Lord" "Eagle Lord" "Dragonhawk Lord" "Lynx Lord"}
+}
+WBT = {
+	male = {
+		names = { "Doth" "Mag" "Ran" "Vis" "Atal'" "Zul'" "Zeb'" "Moji'" "Yayo" "Thresh" "Mai" "Kel'" "Rin'"}
+		surnames = { "'jin" "Ran" "Mag" "Doth" "Vis" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lith" "Arn" "Din" "Mak" "Zeb'" "Moji" "Yayo" "Mai" "Kel" "Rin"}
+		surnames = { "Lith" "Arn" "Din" "Mak" }
+		callsigns = { "Vile Priestess" }
+	}
+	surnames = { "'fon" "'Ko" "Brin" "Gash" "Ji" "Arn" }
+	callsigns = { "Manhunter" "Elfhunter" "Skullsplitter" "Pride of the Amani" "Hex Lord" "Beserker" "Shadowhunter" "Amani'shi" "Bear Lord" "Eagle Lord" "Dragonhawk Lord" "Lynx Lord"}
+}
+SPT = {
+	male = {
+		names = { "Doth" "Mag" "Ran" "Vis" "Atal'" "Zul'" "Zeb'" "Moji'" "Yayo" "Thresh" "Mai" "Kel'" "Rin'"}
+		surnames = { "'jin" "Ran" "Mag" "Doth" "Vis" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lith" "Arn" "Din" "Mak" "Zeb'" "Moji" "Yayo" "Mai" "Kel" "Rin"}
+		surnames = { "Lith" "Arn" "Din" "Mak" }
+		callsigns = { "Vile Priestess" }
+	}
+	surnames = { "'fon" "'Ko" "Brin" "Gash" "Ji" "Arn" }
+	callsigns = { "Manhunter" "Elfhunter" "Skullsplitter" "Pride of the Amani" "Hex Lord" "Beserker" "Shadowhunter" "Amani'shi" "Bear Lord" "Eagle Lord" "Dragonhawk Lord" "Lynx Lord"}
+}
+MFT = {
+	male = {
+		names = { "Doth" "Mag" "Ran" "Vis" "Atal'" "Zul'" "Zeb'" "Moji'" "Yayo" "Thresh" "Mai" "Kel'" "Rin'"}
+		surnames = { "'jin" "Ran" "Mag" "Doth" "Vis" }
+		callsigns = { }
+	}
+	female = {
+		names = { "Lith" "Arn" "Din" "Mak" "Zeb'" "Moji" "Yayo" "Mai" "Kel" "Rin"}
+		surnames = { "Lith" "Arn" "Din" "Mak" }
+		callsigns = { "Vile Priestess" }
+	}
+	surnames = { "'fon" "'Ko" "Brin" "Gash" "Ji" "Arn" }
+	callsigns = { "Manhunter" "Elfhunter" "Skullsplitter" "Pride of the Amani" "Hex Lord" "Beserker" "Shadowhunter" "Amani'shi" "Bear Lord" "Eagle Lord" "Dragonhawk Lord" "Lynx Lord"}
+}

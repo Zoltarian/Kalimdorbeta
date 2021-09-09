@@ -1,0 +1,936 @@
+# used for tooltip
+available_conditions_met_for_current_achievement = {
+	if = {
+		limit = {
+			check_variable = { v = 1 }
+		}
+		#available_conditions_met_for_achievement_1 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 2 }
+		}
+		#available_conditions_met_for_achievement_2 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 3 }
+		}
+		#available_conditions_met_for_achievement_3 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 4 }
+		}
+		#available_conditions_met_for_achievement_4 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 5 }
+		}
+		#available_conditions_met_for_achievement_5 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 6 }
+		}
+		#available_conditions_met_for_achievement_6 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 7 }
+		}
+		#available_conditions_met_for_achievement_7 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 8 }
+		}
+		#available_conditions_met_for_achievement_8 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 9 }
+		}
+		#available_conditions_met_for_achievement_9 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 10 }
+		}
+		#available_conditions_met_for_achievement_10 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 11 }
+		}
+		#available_conditions_met_for_achievement_11 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 12 }
+		}
+		#available_conditions_met_for_achievement_12 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 13 }
+		}
+		#available_conditions_met_for_achievement_13 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 14 }
+		}
+		#available_conditions_met_for_achievement_14 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 15 }
+		}
+		#available_conditions_met_for_achievement_15 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 16 }
+		}
+		#available_conditions_met_for_achievement_16 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 17 }
+		}
+		#available_conditions_met_for_achievement_17 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 18 }
+		}
+		#available_conditions_met_for_achievement_18 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 19 }
+		}
+		#available_conditions_met_for_achievement_19 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 20 }
+		}
+		#available_conditions_met_for_achievement_20 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 21 }
+		}
+		#available_conditions_met_for_achievement_21 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 22 }
+		}
+		#available_conditions_met_for_achievement_22 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 23 }
+		}
+		#available_conditions_met_for_achievement_23 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 24 }
+		}
+		#available_conditions_met_for_achievement_24 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 25 }
+		}
+		#available_conditions_met_for_achievement_25 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 26 }
+		}
+		#available_conditions_met_for_achievement_26 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 27 }
+		}
+		#available_conditions_met_for_achievement_27 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 28 }
+		}
+		#available_conditions_met_for_achievement_28 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 29 }
+		}
+		#available_conditions_met_for_achievement_29 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 30 }
+		}
+		#available_conditions_met_for_achievement_30 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 31 }
+		}
+		#available_conditions_met_for_achievement_31 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 32 }
+		}
+		#available_conditions_met_for_achievement_32 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 33 }
+		}
+		#available_conditions_met_for_achievement_33 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 34 }
+		}
+		#available_conditions_met_for_achievement_34 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 35 }
+		}
+		#available_conditions_met_for_achievement_35 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 36 }
+		}
+		#available_conditions_met_for_achievement_36 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 37 }
+		}
+		#available_conditions_met_for_achievement_37 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 38 }
+		}
+		#available_conditions_met_for_achievement_38 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 39 }
+		}
+		#available_conditions_met_for_achievement_39 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 40 }
+		}
+		#available_conditions_met_for_achievement_40 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 41 }
+		}
+		#available_conditions_met_for_achievement_41 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 42 }
+		}
+		#available_conditions_met_for_achievement_42 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 43 }
+		}
+		#available_conditions_met_for_achievement_43 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 44 }
+		}
+		#available_conditions_met_for_achievement_44 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 45 }
+		}
+		#available_conditions_met_for_achievement_45 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 46 }
+		}
+		#available_conditions_met_for_achievement_46 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 47 }
+		}
+		#available_conditions_met_for_achievement_47 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 48 }
+		}
+		#available_conditions_met_for_achievement_48 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 49 }
+		}
+		#available_conditions_met_for_achievement_49 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 50 }
+		}
+		#available_conditions_met_for_achievement_50 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 51 }
+		}
+		#available_conditions_met_for_achievement_51 = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 52 }
+		}
+		#available_conditions_met_for_achievement_52 = yes
+	}
+}
+
+# used for tooltip
+unlock_conditions_met_for_current_achievement = {
+	if = {
+		limit = {
+			check_variable = { v = 1 }
+		}
+		#unlock_conditions_met_for_achievement_1 = yes
+	}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 2 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_2 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 3 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_3 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 4 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_4 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 5 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_5 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 6 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_6 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 7 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_7 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 8 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_8 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 9 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_9 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 10 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_10 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 11 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_11 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 12 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_12 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 13 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_13 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 14 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_14 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 15 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_15 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 16 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_16 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 17 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_17 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 18 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_18 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 19 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_19 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 20 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_20 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 21 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_21 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 22 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_22 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 23 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_23 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 24 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_24 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 25 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_25 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 26 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_26 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 27 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_27 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 28 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_28 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 29 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_29 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 30 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_30 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 31 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_31 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 32 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_32 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 33 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_33 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 34 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_34 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 35 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_35 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 36 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_36 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 37 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_37 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 38 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_38 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 39 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_39 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 40 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_40 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 41 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_41 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 42 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_42 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 43 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_43 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 44 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_44 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 45 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_45 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 46 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_46 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 47 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_47 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 48 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_48 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 49 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_49 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 50 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_50 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 51 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_51 = yes
+	#}
+	#else_if = {
+	#	limit = {
+	#		check_variable = { v = 52 }
+	#	}
+	#	#unlock_conditions_met_for_achievement_52 = yes
+	#}
+}
+
+achievement_difficulty_is_easy = {
+	#OR = {
+		#check_variable = { v = 1 }
+		#check_variable = { v = 2 }
+		#check_variable = { v = 3 }
+		#check_variable = { v = 4 }
+		#check_variable = { v = 5 }
+		#check_variable = { v = 6 }
+		#check_variable = { v = 7 }
+		#check_variable = { v = 8 }
+		#check_variable = { v = 48 }
+	#}
+}
+
+achievement_difficulty_is_normal = {
+#	OR = {
+#		check_variable = { v = 9 }
+#		check_variable = { v = 10 }
+#		check_variable = { v = 11 }
+#		check_variable = { v = 12 }
+#		check_variable = { v = 13 }
+#		check_variable = { v = 14 }
+#		check_variable = { v = 15 }
+#		check_variable = { v = 16 }
+#		check_variable = { v = 17 }
+#		check_variable = { v = 18 }
+#		check_variable = { v = 19 }
+#		check_variable = { v = 20 }
+#		check_variable = { v = 21 }
+#	}
+}
+
+achievement_difficulty_is_hard = {
+#	OR = {
+#		check_variable = { v = 22 }
+#		check_variable = { v = 23 }
+#		check_variable = { v = 24 }
+#		check_variable = { v = 25 }
+#		check_variable = { v = 26 }
+#		check_variable = { v = 27 }
+#		check_variable = { v = 28 }
+#		check_variable = { v = 29 }
+#		check_variable = { v = 30 }
+#		check_variable = { v = 31 }
+#		check_variable = { v = 32 }
+#		check_variable = { v = 33 }
+#		check_variable = { v = 34 }
+#		check_variable = { v = 35 }
+#		check_variable = { v = 36 }
+#		check_variable = { v = 37 }
+#		check_variable = { v = 38 }
+#		check_variable = { v = 52 }
+#	}
+}
+
+achievement_difficulty_is_impossible = {
+#	OR = {
+#		check_variable = { v = 39 }
+#		check_variable = { v = 40 }
+#		check_variable = { v = 41 }
+#		check_variable = { v = 42 }
+#		check_variable = { v = 43 }
+#		check_variable = { v = 44 }
+#		check_variable = { v = 45 }
+#		check_variable = { v = 46 }
+#		check_variable = { v = 47 }
+#		check_variable = { v = 49 }
+#		check_variable = { v = 50 }
+#		check_variable = { v = 51 }
+#	}
+}
+
+has_any_achievement_unlocked = {
+	custom_trigger_tooltip = {
+		tooltip = HAS_COMPLETED_AT_LEAST_ONE_ACHIEVEMENT
+		any_of = {
+			array = global.custom_achievements_array
+			value = v
+			meta_trigger = {
+				text = {
+					has_country_flag = unlocked_achievements_[ENTRY]
+				}
+				ENTRY = "[?v]"
+			}
+		}
+	}
+}
+
+# country_is_advanced_or_can_become_advanced = {
+# 	OR = {
+# 		custom_trigger_tooltip = {
+# 			tooltip = ACHIEVEMENT_IS_ADVANCED
+# 			has_tech = scientific_civilization
+# 		}
+# 		tag = NEW
+# 		tag = RRG
+# 	}
+# }
+
+# country_has_completed_the_air_tech_tree = {
+# 	# Adaptive Compartmentalisation
+# 	has_tech = aerodynamics_tech_6
+# 	# Fortress Protocoll
+# 	has_tech = aerodynamics_tech_7
+# 	# Nuclear Jet Fighter
+# 	has_tech = fighter_technology_4
+# 	has_tech = hev_fighter_technology_3
+# 	has_tech = car_fighter_technology_3
+# 	has_tech = long_fighter_technology_3
+# 	# Nuclear Powered Attack Plan
+# 	has_tech = cas_bomber_technology_4
+# 	has_tech = hev_cas_bomber_technology_3
+# 	has_tech = car_cas_bomber_technology_3
+# 	has_tech = long_cas_bomber_technology_3
+# 	# Nuclear Jet Bomber
+# 	has_tech = strat_bomber_technology_4
+# 	has_tech = hev_strat_bomber_technology_3
+# 	has_tech = nav_strat_bomber_technology_3
+# 	has_tech = long_strat_bomber_technology_3
+# 	# Dreamlifter
+# 	has_tech = cargo_plane_tech_3
+# 	# Osceola Class
+# 	has_tech = blimp_tech_4
+# 	has_tech = cheap_blimp_tech_4
+# 	has_tech = ground_blimp_tech_4
+# 	has_tech = air_blimp_tech_4
+# }
+
+# country_has_completed_a_land_doctrine = {
+# 	OR = {
+# 		has_tech = internal_replicators
+# 		has_tech = age_of_the_machine
+# 		has_tech = shock_and_awe_doctrine
+# 		has_tech = brigades_of_steel
+# 		has_tech = mechanized_onslaught
+# 		has_tech = ranger_infiltration
+# 		has_tech = summa_bellum
+# 		has_tech = the_deathclaws_might
+# 	}
+# }
+
+# country_has_completed_the_special_forces_doctrine = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_HAS_COMPLETED_THE_SPECIAL_FORCES_DOCTRINE
+# 		OR = {
+# 			has_tech = spec_force_light_mountain_training
+# 			has_tech = spec_force_heavy_mountain_training
+# 		}
+# 		OR = {
+# 			has_tech = spec_force_light_wet_training
+# 			has_tech = spec_force_heavy_urban_training
+# 		}
+# 		OR = {
+# 			has_tech = spec_force_light_plains_training
+# 			has_tech = spec_force_heavy_plains_training
+# 		}
+# 		OR = {
+# 			has_tech = spec_force_cap
+# 			has_tech = spec_force_defense
+# 		}
+# 		OR = {
+# 			has_tech = spec_force_cap_1
+# 			has_tech = spec_force_offence
+# 		}
+# 		OR = {
+# 			has_tech = spec_force_cap_2
+# 			has_tech = spec_force_recovery
+# 		}
+# 		has_tech = spec_force_marine_training
+# 		has_tech = spec_force_maintenance_training
+# 		has_tech = spec_force_elite_forces
+# 	}
+# }
+
+# country_has_completed_the_air_doctrine = {
+# 	OR = {
+# 		has_tech = day_bombing_doctrine
+# 		has_tech = night_bombing_doctrine
+# 	}
+# 	has_tech = future_airforce_doctrine
+# }
+
+# country_has_completed_the_naval_doctrine = {
+# 	has_tech = carrier_focus_navy_doctrine
+# 	has_tech = terrain_exploitation_navy_doctrine
+# 	has_tech = sail_focus_navy_doctrine
+# }
+
+# country_owns_all_of_new_mexico = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_STATES_IN_NEW_MEXICO
+# 		all_state = {
+# 			OR = {
+# 				AND = {
+# 					NOT = { region = 47 }
+# 					NOT = { region = 15 }
+# 					NOT = { region = 45 }
+# 					NOT = { region = 46 }
+# 				}
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }
+
+# country_owns_all_of_arizona = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_STATES_IN_ARIZONA
+# 		all_state = {
+# 			OR = {
+# 				AND = {
+# 					NOT = { region = 31 }
+# 					NOT = { region = 29 }
+# 					NOT = { region = 30 }
+# 					NOT = { region = 2 }
+# 					NOT = { region = 28 }
+# 				}
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }
+
+# country_owns_all_of_california = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_STATES_IN_CALIFORNIA
+# 		all_state = {
+# 			OR = {
+# 				AND = {
+# 					NOT = { region = 53 }
+# 					NOT = { region = 54 }
+# 					NOT = { region = 52 }
+# 					NOT = { region = 51 }
+# 					NOT = { region = 7 }
+# 				}
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }
+
+# country_owns_all_of_texas = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_STATES_IN_TEXAS
+# 		all_state = {
+# 			OR = {
+# 				AND = {
+# 					NOT = { region = 107 }
+# 					NOT = { region = 106 }
+# 					NOT = { region = 105 }
+# 					NOT = { region = 144 }
+# 				}
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }
+
+# country_controls_all_of_mojave = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_CONTROL_ALL_STATES_IN_MOJAVE
+# 		all_state = {
+# 			OR = {
+# 				NOT = { is_new_vegas_state = yes }
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }
+
+# country_owns_all_of_canada = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_STATES_IN_CANADA
+# 		all_state = {
+# 			OR = {
+# 				NOT = { is_state_in_canada = yes }
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }
+
+# is_state_in_canada = {
+# 	OR = {
+# 		region = 60
+# 		region = 14
+# 		region = 61
+# 		region = 62
+# 	}
+# }
+
+# country_owns_all_states_bordering_the_pacific_ocean = {
+# 	custom_trigger_tooltip = {
+# 		tooltip = ACHIEVEMENT_OWN_ALL_STATES_BORDERING_THE_PACIFIC_OCEAN
+# 		all_state = {
+# 			OR = {
+# 				AND = {
+# 					NOT = { is_coastal_to_the_pacific_ocean = yes }
+# 				}
+# 				is_owned_by = ROOT
+# 			}
+# 		}
+# 	}
+# }

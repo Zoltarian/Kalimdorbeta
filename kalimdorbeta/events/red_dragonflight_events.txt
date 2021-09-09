@@ -1,0 +1,78 @@
+﻿###########################
+#reddragonflight
+###########################
+
+add_namespace = reddragonflight
+
+#ysera has fallen to corruption
+country_event = {
+	id = reddragonflight.1
+	title = reddragonflight.1.t
+	desc = reddragonflight.1.d
+	picture = GFX_nightmare_dragonflight_1_event
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = { 
+        name = reddragonflight.1.option.1
+		
+		declare_war_on = {
+			target = NDF
+			type = annex_everything
+		}
+		
+	} 
+	
+}
+
+
+
+
+country_event = { #attack dragobmaw
+	id = reddragonflight.3
+	title = reddragonflight.3.t
+	desc = reddragonflight.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = { #accept
+        name = reddragonflight.3.option.1
+		
+		DMC = {
+			country_event = { id = dragonmaw.4 }	
+		}
+		
+	} 
+	
+    option = { #accept
+        name = reddragonflight.3.option.2
+		
+	} 
+	
+}
+
+country_event = {
+	id = reddragonflight.4
+	title = reddragonflight.4.t
+	desc = reddragonflight.4.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+    option = { #accept
+        name = reddragonflight.4.option.1
+		
+		DMC = {
+			country_event = { id = dragonmaw.4 }	
+		}
+		
+	} 
+	
+}

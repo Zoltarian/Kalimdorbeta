@@ -1,0 +1,27 @@
+
+state={
+	id=1539
+	name="STATE_1539"
+
+	history={
+		
+		add_core_of = ALT
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		617.1.1 = {
+			owner = SYN
+			controller = SYN
+			add_core_of = SYN
+		}
+	}
+
+	provinces={
+		1866 1867 1868 1869 5174 7483 7484
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

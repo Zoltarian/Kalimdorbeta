@@ -1,0 +1,244 @@
+﻿division_template = {
+	name = "Dragonmaw Grunts"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonmaw Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonmaw Catapults"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		catapult = { x = 0 y = 1 }
+		catapult = { x = 0 y = 2 }
+		archer = { x = 1 y = 0 }
+		catapult = { x = 1 y = 1 }
+		catapult = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonmaw Raiders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4959
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 1051
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4969
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4977
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4983
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4987
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4998
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 1069
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 5012
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 5019
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+		}
+		
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 5020
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 5014
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 5005
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4995
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonmaw Grunts"
+		location = 4986
+		division_template = "Dragonmaw Grunts"
+		start_experience_factor = 0.2
+	}
+		
+	division = {
+		name = "Dragonmaw Raiders"
+		location = 5918
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Raiders"
+		location = 4893
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Raiders"
+		location = 467
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Raiders"
+		location = 4910
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Raiders"
+		location = 4970
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Raiders"
+		location = 4961
+		division_template = "Dragonmaw Raiders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Dragonmaw Archers"
+		location = 395
+		division_template = "Dragonmaw Archers"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Archers"
+		location = 395
+		division_template = "Dragonmaw Archers"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Archers"
+		location = 4948
+		division_template = "Dragonmaw Archers"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Archers"
+		location = 4948
+		division_template = "Dragonmaw Archers"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Archers"
+		location = 5918
+		division_template = "Dragonmaw Archers"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Dragonmaw Archers"
+		location = 5918
+		division_template = "Dragonmaw Archers"
+		start_experience_factor = 0.2
+	}	
+}

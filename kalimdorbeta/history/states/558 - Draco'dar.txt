@@ -1,0 +1,30 @@
+
+state={
+	id=558
+	name="STATE_558" #Draco'dar /Flamestar Post
+
+	history={
+		victory_points = {
+			4603 10
+		}
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		596.1.1 = {
+			
+			controller = BRC
+			add_core_of = BRC
+
+		}
+
+	}
+
+	provinces={
+		912 916 4594 4602 4603 4611 4612 4615 4618 4623 6332 
+	}
+	manpower=1425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

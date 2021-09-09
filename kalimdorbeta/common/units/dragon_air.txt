@@ -1,0 +1,55 @@
+sub_units = {
+
+	fighter_drake = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { fighter_drake_equipment = 1 }
+		categories = { category_hoa_fighter }
+	}
+	
+	cas_drake = {
+		sprite = light_plane
+		priority = 2
+		active = yes
+		type = { cas }
+		need = { cas_drake_equipment = 1 }
+		categories = { category_cas }
+	}
+	
+	bomber_drake = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = { tactical_bomber }
+		need = { bomber_drake_equipment = 1 }
+	}
+	
+	naval_bomber_drake = {
+		sprite = light_plane
+		priority = 3
+		active = yes
+		type = { naval_bomber }
+		need = { naval_bomber_drake_equipment = 1 }
+		categories = { category_nav_bomber }
+	}
+	
+	covert_drake = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { scout_plane }
+		need = { covert_drake_equipment = 1 }
+		categories = { category_scout_plane }
+	}
+	
+	supply_drake = {
+		sprite = heavy_plane
+		priority = 6
+		active = yes
+		type = { air_transport }
+		need = { supply_drake_equipment = 1 }
+	}
+	
+}

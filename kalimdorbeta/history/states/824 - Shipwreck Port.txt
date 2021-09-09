@@ -1,0 +1,33 @@
+
+state={
+	id=824
+	name="STATE_824"
+	resources={
+		wood =6.000
+		ores=2.000
+	}
+
+	history={
+		
+		victory_points = {
+			8142 5 
+		}
+		buildings = {
+			infrastructure = 2
+			8142 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = OOM
+
+	}
+
+	provinces={
+		8142 8145 8153 
+	}
+	manpower=6200
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

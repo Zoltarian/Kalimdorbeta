@@ -1,0 +1,30 @@
+
+state={
+	id=661
+	name="STATE_661"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ZUL
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = ZUL
+		}
+
+	}
+
+
+	provinces={
+		5671 
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

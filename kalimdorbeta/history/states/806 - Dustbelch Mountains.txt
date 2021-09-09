@@ -1,0 +1,34 @@
+
+state={
+	id=806
+	name="STATE_806"
+
+	impassable = yes
+	history={
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = DIC
+		596.1.1 = {
+			
+			controller = BBC
+			add_core_of = BBC
+		}
+
+		617.1.1 = {
+			owner = DBC
+			controller = DBC
+			add_core_of = DBC
+		}
+	}
+
+
+	provinces={
+		7508
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

@@ -1,0 +1,46 @@
+
+state={
+	id=285
+	name="STATE_285"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		
+		victory_points = {
+			1638 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1641 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DST
+		596.1.1 = {
+			
+			controller = GUR
+			add_core_of = GUR
+			remove_core_of = DST
+
+		}
+		617.1.1 = {
+			owner = NAE
+			controller = NAE
+			add_core_of = NAE
+
+		}
+
+	}
+
+	provinces={
+		460 1636 1638 1641 1642 1643 
+	}
+	manpower=15600
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

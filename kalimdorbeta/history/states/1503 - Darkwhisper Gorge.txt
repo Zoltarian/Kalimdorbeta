@@ -1,0 +1,36 @@
+
+state={
+	id=1503
+	name="STATE_1503"
+	resources = {
+		mana=4
+		wood=5
+		ores=3
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			12923 5 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		616.1.1 = {
+			
+			controller = TBL
+			add_core_of = TBL
+
+		}
+
+	}
+
+	provinces={
+		3615 9789 12580 12922 12923 12929 12944 13571 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

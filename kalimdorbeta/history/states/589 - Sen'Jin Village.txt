@@ -1,0 +1,43 @@
+
+state={
+	id=589
+	name="STATE_589"
+	resources={
+		mana=6
+		wood = 3
+		oil=6
+		mounts = 8
+	}
+
+	history={
+		owner = RZM
+		add_core_of = RZM
+
+		victory_points = {
+			9633 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9633 = {
+				naval_base = 3
+			}
+		}
+
+		617.1.1 = {
+			
+			controller = DST
+			add_core_of = DST
+
+			set_state_name = "Sen'jin Village"
+		}
+	}
+
+	provinces={
+		1046 9630 9633 9635 9636 9637 9639 9643 9646
+	}
+	manpower=4100
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

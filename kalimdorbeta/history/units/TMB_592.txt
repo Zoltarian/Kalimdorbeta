@@ -1,0 +1,23 @@
+﻿division_template = {
+	name = "Aegwynn's Water Elementals"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1st Arcane Golems"
+		location = 6079
+		division_template = "Aegwynn's Water Elementals"
+		start_experience_factor = 0.2
+	}
+}

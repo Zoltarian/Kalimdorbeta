@@ -1,0 +1,32 @@
+
+state={
+	id=651
+	name="STATE_651"
+	resources={
+		ores=6.000
+	}
+
+	history={
+		
+		add_core_of = LSC
+		buildings = {
+			infrastructure = 3
+
+		}
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = LSC
+
+		}
+
+	}
+
+	provinces={
+		5465 5470 5474 5485 5488 5491 5492 5496 5500 5503 5504 5508 5512 5514 5515 5517 5519 5522 5525 6509 6915 
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

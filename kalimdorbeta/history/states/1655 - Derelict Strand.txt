@@ -1,0 +1,27 @@
+
+state={
+	id=1655
+	name="STATE_1655"
+
+	history={
+		
+		add_core_of = DFC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		620.1.1 = {
+			
+			controller = STO
+			add_core_of = STO
+		}
+	}
+
+	provinces={
+		7573 7598 7615 13330
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

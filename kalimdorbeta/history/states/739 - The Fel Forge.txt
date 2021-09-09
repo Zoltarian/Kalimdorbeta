@@ -1,0 +1,36 @@
+
+state={
+	id=739
+	name="STATE_739"
+	resources={
+		ores=6
+	}
+
+	history={
+		
+		add_core_of = BCC
+
+		victory_points = {
+			10406 5
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = BCC
+		}
+	}
+
+	provinces={
+		6471 6597 6610 6612 10406
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

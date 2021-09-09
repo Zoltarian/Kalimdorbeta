@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Drekirjar Shieldbearer"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location = 8464
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location = 8492
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location = 8472
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location = 8423
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location = 8449
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location = 8592
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location =  8592
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drekirjar Shieldbearer"
+		location = 9146
+		division_template = "Drekirjar Shieldbearer"
+		start_experience_factor = 0.2
+	}
+
+
+}

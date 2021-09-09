@@ -1,0 +1,29 @@
+
+state={
+	id=730
+	name="STATE_730"
+
+	impassable = yes
+	history={
+		
+		add_core_of = TLC
+
+		buildings = {
+			infrastructure = 1
+		}
+	
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = TLC
+		}
+	}
+
+	provinces={
+		6484
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

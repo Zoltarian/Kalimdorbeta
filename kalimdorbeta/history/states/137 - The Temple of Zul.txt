@@ -1,0 +1,31 @@
+
+state={
+	id=137
+	name="STATE_137"
+	resources={
+		mana=28.000
+		mounts=12.000
+	}
+
+	history={
+		victory_points = {
+			3835 15 
+		}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = VIL
+
+	}
+
+	provinces={
+		621 3833 3835 3838 3850 3851 3852 3853 3864 
+	}
+	manpower=63425
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=839
+	name="STATE_839"
+	resources={
+		mana=16.000
+		wood =4.000
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			9301 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			9298 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = TID
+
+	}
+
+	provinces={
+		9296 9297 9298 9302 9305 9307 9310 
+	}
+	manpower=13500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

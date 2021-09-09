@@ -1,0 +1,31 @@
+
+state={
+	id=170
+	name="STATE_170"
+	resources={
+		ores=22.000
+		mana=16.000
+	}
+
+	history={
+		
+		victory_points = {
+			3214 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		3203 3207 3214 3218 3221 3227 3236 
+	}
+	manpower=15800
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

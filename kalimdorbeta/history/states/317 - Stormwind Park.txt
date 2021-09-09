@@ -1,0 +1,40 @@
+
+state={
+	id=317
+	name="STATE_317"
+	resources={
+		wheat = 2
+	}
+
+	history={
+		
+		victory_points = { 
+			809 5
+		}
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = STO
+		596.1.1 = {
+			owner = SRC
+			controller = SRC
+			add_core_of = SRC
+
+		}
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SRC
+
+		}
+
+	}
+
+	provinces={
+		809 2371 2372 2374 2376 2378 
+	}
+	manpower=6500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

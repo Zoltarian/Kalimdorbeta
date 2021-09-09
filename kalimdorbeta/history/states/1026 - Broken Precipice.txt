@@ -1,0 +1,42 @@
+state={
+	id=1026
+	name="STATE_1026"
+	resources={
+		oil=6
+		ores=2
+		gunpowder=4
+	}
+
+	history={
+		
+		add_core_of = WMC
+
+		victory_points = {
+			9817 10
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			9850 = {
+				naval_base = 3
+			}
+		}	
+
+		610.1.1 = {
+			owner = ZZD
+			controller = ZZD
+			add_core_of = ZZD
+			remove_core_of = WMC
+		}
+	}
+
+	provinces={
+		9817 9846 9847 9849 9850 9851 9852 9853
+	}
+	manpower=52000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

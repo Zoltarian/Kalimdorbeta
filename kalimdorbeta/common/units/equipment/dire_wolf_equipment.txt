@@ -1,0 +1,109 @@
+# All infantry equipment
+
+equipments = {
+
+	dire_wolf_equipment = {
+		year = 584
+	
+		is_archetype = yes
+		picture = archetype_dire_wolf_equipment 	
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 12 #+3
+		breakthrough = 10 #+2
+		hardness = 0.5
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 10 #+ 2
+		hard_attack = 4 #+1
+		ap_attack = 11 #+5
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 3
+		resources = {
+			mounts = 2
+			wheat = 2
+		}
+		
+	}
+	
+	dire_wolf_equipment_1 = {
+		year = 584
+
+		archetype = dire_wolf_equipment
+		priority = 90
+		visual_level = 1
+	}
+
+	dire_wolf_equipment_2 = {
+		year = 595
+	
+		archetype = dire_wolf_equipment
+		parent = dire_wolf_equipment_1
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.85
+		maximum_speed = 13
+
+		#Defensive Abilities
+		defense = 15 #+3
+		breakthrough = 12 #+2
+		hardness = 0.5
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 12 #+2
+		hard_attack = 5 #+1
+		ap_attack = 16 #+5
+		air_attack = 0
+
+		build_cost_ic = 3.5
+
+	}
+
+	dire_wolf_equipment_3 = {
+		year = 601
+	
+		archetype = dire_wolf_equipment
+		parent = dire_wolf_equipment_2
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 14
+		
+		#Defensive Abilities
+		defense = 18 #+3
+		breakthrough = 14 #+2
+		hardness = 0.5
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 14 #+2
+		hard_attack = 6 #+1
+		ap_attack = 21 #+5
+		air_attack = 0
+
+		build_cost_ic = 4
+		
+	}
+
+}

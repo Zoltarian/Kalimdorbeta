@@ -1,0 +1,35 @@
+
+state={
+	id=1599
+	name="STATE_1599"
+
+	history={
+		
+		add_core_of = STO
+		victory_points = {
+			84 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+		596.1.1 = {
+			owner = SFC
+			controller = SFC
+			add_core_of = SFC
+		}
+		
+		600.1.1 = {
+			
+			controller = STO
+			remove_core_of = SFC
+		}
+	}
+
+	provinces={
+		84 1588 2084 2090 2099 2718
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

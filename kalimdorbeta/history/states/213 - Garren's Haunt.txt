@@ -1,0 +1,35 @@
+
+state={
+	id=213
+	name="STATE_213" #Garren's Farmstead/Garren's Haunt
+	resources={
+		mounts=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			4335 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = RHP
+			controller = RHP
+			add_core_of = RHP
+
+		}
+
+	}
+
+	provinces={
+		707 4316 4317 4324 4325 4329 4335 4343 4353 4354 4359 5365 5377 
+	}
+	manpower=18125
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

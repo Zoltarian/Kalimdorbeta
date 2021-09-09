@@ -1,0 +1,159 @@
+﻿capital = 871
+
+oob = "RIV_592"
+
+add_ideas = {
+	tribe
+
+	tauren_primary_race
+
+	primary_trait_war_stomping
+	primary_trait_nature_resistance
+	primary_trait_endurance
+
+	primary_religion_tauren_mythology
+}
+
+set_research_slots = 3
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+
+	catapult_equipment_tech_1 = 1
+
+
+
+
+
+	naval_transport_1 = 1
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+596.1.1 = {
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+
+
+
+
+
+		naval_transport_2 = 1
+		aviary_tech = 1
+
+
+		blueprints_1 = 1
+
+
+
+
+
+
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+create_country_leader = {
+	name = "Chieftain Jale Rivermane"
+	desc = "POLITICS_QUEEN_AZSHARA_DESC"
+	picture = "Jale_Rivermane.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chieftain Jale Rivermane"
+	desc = "POLITICS_QUEEN_AZSHARA_DESC"
+	picture = "Jale_Rivermane.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chieftain Jale Rivermane"
+	desc = "POLITICS_QUEEN_AZSHARA_DESC"
+	picture = "Jale_Rivermane.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chieftain Jale Rivermane"
+	desc = "POLITICS_QUEEN_AZSHARA_DESC"
+	picture = "Jale_Rivermane.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chieftain Jale Rivermane"
+	desc = "POLITICS_QUEEN_AZSHARA_DESC"
+	picture = "Jale_Rivermane.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Oakin Ironbull"
+	picture = "Oakin_Ironbull.dds"
+	traits = {  }
+	id = 48000
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Morhun Rivertamer"
+	picture = "Morhun_Rivertamer.dds"
+	traits = {  }
+	id = 48001
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}

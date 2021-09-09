@@ -1,0 +1,42 @@
+
+state={
+	id=18
+	name="STATE_18"
+	resources={
+		mana=86.000
+	}
+
+	history={
+		
+		victory_points = {
+			4720 30 
+		}
+		victory_points = {
+			4737 10 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 6
+			4737 = {
+				naval_base = 5
+			}
+
+		}
+		add_core_of = ZUL
+		596.1.1 = {
+			owner = AMA
+			controller = AMA
+			add_core_of = AMA
+			remove_core_of = ZUL
+		}
+
+	}
+
+	provinces={
+		2999 4718 4720 4724 4727 4728 4729 4733 4737 4738 5300 5700 
+	}
+	manpower=203500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+}

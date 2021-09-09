@@ -1,0 +1,158 @@
+﻿###########################
+# Wildhammer Clan
+###########################
+add_namespace = wildhammer
+
+country_event = {
+	id = wildhammer.1
+	title = wildhammer.1.t
+	desc = wildhammer.1.d
+	
+	picture = GFX_report_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wildhammer.1.a
+		
+		if = {
+			limit = {
+			    ROOT = {
+					original_tag = NRT
+			    }
+			}
+			
+			AER = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = yes
+				}
+				
+				set_cosmetic_tag = WHC
+				
+				136 = { add_core_of = AER }
+				225 = { add_core_of = AER }
+				139 = { add_core_of = AER }
+				723 = { add_core_of = AER }
+				135 = { add_core_of = AER }
+				141 = { add_core_of = AER }
+				140 = { add_core_of = AER }
+				20  = { add_core_of = AER }
+				751 = { add_core_of = AER }
+				
+				512 = { add_core_of = AER }
+				510 = { add_core_of = AER }
+				513 = { add_core_of = AER }
+				511 = { add_core_of = AER }
+				24  = { add_core_of = AER }
+				505 = { add_core_of = AER }
+				507 = { add_core_of = AER }
+				506 = { add_core_of = AER }
+				504 = { add_core_of = AER }
+				503 = { add_core_of = AER }
+				514 = { add_core_of = AER }
+				509 = { add_core_of = AER }
+				519 = { add_core_of = AER }
+				516 = { add_core_of = AER }
+				515 = { add_core_of = AER }
+				75  = { add_core_of = AER }
+				520 = { add_core_of = AER }
+				517 = { add_core_of = AER }
+				518 = { add_core_of = AER }
+				502 = { add_core_of = AER }
+				501 = { add_core_of = AER }
+				171 = { add_core_of = AER }
+				521 = { add_core_of = AER }
+				522 = { add_core_of = AER }
+				499 = { add_core_of = AER }
+				500 = { add_core_of = AER }
+			}
+		} 
+		if = {
+			limit = {
+				ROOT = {
+					original_tag = AER
+				}
+			}
+			
+			NRT = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = yes
+				}
+				
+				set_cosmetic_tag = WHC
+				
+				136 = { add_core_of = NRT }
+				225 = { add_core_of = NRT }
+				139 = { add_core_of = NRT }
+				723 = { add_core_of = NRT }
+				135 = { add_core_of = NRT }
+				141 = { add_core_of = NRT }
+				140 = { add_core_of = NRT }
+				20  = { add_core_of = NRT }
+				751 = { add_core_of = NRT }
+				
+				512 = { add_core_of = NRT }
+				510 = { add_core_of = NRT }
+				513 = { add_core_of = NRT }
+				511 = { add_core_of = NRT }
+				24  = { add_core_of = NRT }
+				505 = { add_core_of = NRT }
+				507 = { add_core_of = NRT }
+				506 = { add_core_of = NRT }
+				504 = { add_core_of = NRT }
+				503 = { add_core_of = NRT }
+				514 = { add_core_of = NRT }
+				509 = { add_core_of = NRT }
+				519 = { add_core_of = NRT }
+				516 = { add_core_of = NRT }
+				515 = { add_core_of = NRT }
+				75  = { add_core_of = NRT }
+				520 = { add_core_of = NRT }
+				517 = { add_core_of = NRT }
+				518 = { add_core_of = NRT }
+				502 = { add_core_of = NRT }
+				501 = { add_core_of = NRT }
+				171 = { add_core_of = NRT }
+				521 = { add_core_of = NRT }
+				522 = { add_core_of = NRT }
+				499 = { add_core_of = NRT }
+				500 = { add_core_of = NRT }
+			}
+		}
+	}
+	
+	option = {
+		name = wildhammer.1.b
+		
+		if = {
+			limit = {
+			    ROOT = {
+					original_tag = NRT
+			    }
+			}
+			
+			AER = {
+				create_wargoal = {
+					type = annex_everything
+					target = ROOT
+				}
+			}
+		} 
+		if = {
+			limit = {
+				ROOT = {
+					original_tag = AER
+				}
+			}
+			
+			NRT = {
+				create_wargoal = {
+					type = annex_everything
+					target = ROOT
+				}
+			}
+		}
+	}
+}

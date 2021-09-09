@@ -1,0 +1,57 @@
+alliance_of_lordaeron_decision = {
+
+	KUL_draw_closer = {
+	
+		allowed = {
+		 original_tag = KUL
+		}
+		
+		available = {	
+
+			KUL = {		
+				has_country_flag = attended_meeting_of_seven_kingdoms
+			}
+		
+		}
+	
+		icon = generic_oppression
+
+		cost = 50
+
+		fire_only_once = no
+
+		days_re_enable = 90
+
+		
+		complete_effect = {
+			add_popularity = {
+				ideology = alliance
+				popularity = 0.05
+			}
+		}
+	}
+
+	KUL_join_the_alliance = {
+		#icon =
+		cost = 0
+
+		fire_only_once = yes
+
+		allowed = {
+		 original_tag = KUL
+		}
+
+		available = {
+			has_country_flag = attended_meeting_of_seven_kingdoms
+			has_government = alliance
+			alliance > 0.6
+		}
+
+		complete_effect = {
+			LOR = {
+				add_to_faction = KUL
+			}
+		}
+	}
+
+}

@@ -1,0 +1,68 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				setup_accepted_race_arrays = yes
+				set_variable = { coring_cost = 50 }
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = coring_ai
+						option = NO_CORING
+					}
+				}
+				set_variable = { global.CORING_BLOCKED = 1 }
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_variable = global.CORING_BLOCKED
+							is_ai = no
+						}
+						NOT = { has_variable = global.CORING_BLOCKED }
+					}
+				}
+				every_owned_state = {
+					limit = {
+						has_variable = coring_progress
+					}
+					if = {
+						limit = {
+							is_owned_by = coring_country
+						}
+						add_to_variable = { coring_progress = 1 }
+						if = {
+							limit = {
+								check_variable = { coring_progress > -1 }
+							}
+							add_core_of = PREV
+							var:coring_country = {
+								add_to_array = { coring_complete_popup = PREV }
+							}
+							clear_variable = coring_daily_progress
+							clear_variable = coring_progress
+							PREV = { clear_variable = coring_country }
+							set_temp_variable = { state_pop = state_population }
+							multiply_temp_variable = { state_pop = 0.20 }
+							multiply_temp_variable = { state_pop = -1 }
+							log = "Root: [Root.GetName] State Population: [?state_pop]"
+							add_manpower = state_pop
+						}
+					}
+				}
+			}
+			else = {
+				clear_variable = coring_daily_progress
+				clear_variable = coring_progress
+				clear_variable = coring_country
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=477
+	name="STATE_477"
+	resources={
+		ores=8.000
+	}
+
+	history={
+		
+		victory_points = {
+			3607 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IRO
+		596.1.1 = {
+			owner = DUN
+			controller = DUN
+			add_core_of = DUN
+
+		}
+		617.1.1 = {
+			owner = MHT
+			controller = MHT
+			add_core_of = MHT
+
+		}
+
+	}
+
+	provinces={
+		250 3596 3597 3601 3602 3607 3608 3612 5940 5942 5968 5982 
+	}
+	manpower=4675
+	buildings_max_level_factor=1.000
+	state_category=building_slots_1
+}

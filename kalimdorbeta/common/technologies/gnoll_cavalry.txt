@@ -1,0 +1,27 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	gnoll_kennel_tech = {
+
+		path = {
+			leads_to_tech = grunt_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = gnoll_cavalry_folder
+			position = { x = 8 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			gnoll_kennel_technology
+		}
+	}
+}

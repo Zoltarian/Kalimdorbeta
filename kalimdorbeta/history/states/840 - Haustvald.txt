@@ -1,0 +1,31 @@
+
+state={
+	id=840
+	name="STATE_840"
+	resources={
+		mana=58.000
+		ores=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			9253 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = BON
+
+	}
+
+	provinces={
+		8607 9235 9251 9253 9257 9266 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

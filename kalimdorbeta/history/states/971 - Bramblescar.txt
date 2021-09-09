@@ -1,0 +1,32 @@
+
+state={
+	id=971
+	name="STATE_971"
+	resources={
+		wheat=5
+		ores=6
+		mounts=2
+	}
+
+	history={
+		owner = BRI
+		victory_points = {
+			10020 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = BRI
+
+	}
+
+	provinces={
+		9667 9985 9998 10004 10005 10012 10019 10020 10023 10032 10033 10040 10048 10055 10061 10080 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

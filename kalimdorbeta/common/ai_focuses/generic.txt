@@ -1,0 +1,241 @@
+
+ai_focus_defense = {
+	research = {
+		infantry_technology = 5.0
+		#footman_tech = 5.0
+		pikeman_tech = 5.0
+		archer_tech = 5.0
+		drills_tech = 4.0
+		horn_tech = 4.0
+		#lantern_tech = 4.0
+		support_weapon_tech = 4.0
+		armor_technology = 4.0
+		#uniform_tech = 4.0
+		tabard_technology = 4.0
+	
+		heroic_tech = 0.0				# Heroic Techs should be set on a Nation to Nation Basis (These may need to be changed to a non 0 value at a later date)
+		heroic_infantry_technology = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		paladin_tech = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		heroic_spellcaster_tech = 0.0	# Heroic Techs should be set on a Nation to Nation Basis
+		spellcaster_tech = 2.0
+		support_technology = 4.0
+		healer_tech = 5.0
+		scout_tech = 3.0
+		guard_tech = 0.0				# A Nation on Defense does not require supression.
+	
+		catapult_technology = 3.0
+		oil_technology = 2.0
+	
+		town_hall_tech = 2.0
+		fortification_technology = 5.0
+		scout_tower_technology = 5.0
+
+		forge_technology = 3.0
+		blueprint_technology = 3.0
+		agriculture_technology = 3.0
+		city_growth_technology = 3.0
+		peasant_tools_technology = 3.0
+		construction_tools_technology = 3.0
+		resource_tools_technology = 3.0
+	}
+}
+
+ai_focus_aggressive = {
+	research = {
+		infantry_technology = 8.0
+		#footman_tech = 8.0
+		sailor_tech = 3.0
+		pikeman_tech = 8.0
+		archer_tech = 8.0
+		ranger_tech = 3.0
+		drills_tech = 5.0
+		horn_tech = 5.0
+		#lantern_tech = 5.0
+		support_weapon_tech = 5.0
+		armor_technology = 5.0
+		#uniform_tech = 5.0
+		tabard_technology = 5.0
+	
+		heroic_tech = 0.0				# Heroic Techs should be set on a Nation to Nation Basis
+		heroic_infantry_technology = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		paladin_tech = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		heroic_spellcaster_tech = 0.0	# Heroic Techs should be set on a Nation to Nation Basis
+		spellcaster_tech = 1.0
+		support_technology = 4.0
+		healer_tech = 3.0
+		captain_tech = 4.0
+		scout_tech = 3.0
+		guard_tech = 4.0
+	
+		cavalry_tech = 3.0
+		breeding_tech = 2.0
+		knight_tech = 3.0
+		lancer_tech = 3.0
+
+		siege_tech = 3.0
+		catapult_technology = 3.0
+		horse_drawn_tech = 3.0
+		oil_technology = 3.0
+		siege_engine_tech = 3.0
+	
+		land_doctrine = 5.0
+	
+
+		naval_transport_technology = 5.0
+	
+		fortification_technology = 0.0		# Fixed Defenses are not relevant to the aggressor
+		scout_tower_technology = 0.0			# Fixed Defenses are not relevant to the aggressor
+
+
+	}
+}
+
+ai_focus_war_production = {
+	research = {
+	
+		town_hall_tech = 5.0
+
+		forge_technology = 5.0
+		blueprint_technology = 5.0
+		agriculture_technology = 5.0
+		city_growth_technology = 5.0
+		peasant_tools_technology = 5.0
+		construction_tools_technology = 5.0
+		resource_tools_technology = 5.0
+		resource_building_technology = 3.0
+		#lumbermill_tech = 3.0
+		#arcane_tower_technology = 3.0
+		#iron_mine_technology = 3.0
+		stable_tech = 3.0
+		#sulfur_mine_technology = 3.0
+		oil_refinery_tech = 3.0
+	}
+}
+
+
+
+ai_focus_military_advancements = {
+	research = {
+		infantry_technology = 100.0
+		#footman_tech = 100.0
+		pikeman_tech = 100.0
+		archer_tech = 100.0
+	
+		heroic_tech = 0.0				# Heroic Techs should be set on a Nation to Nation Basis
+		heroic_infantry_technology = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		paladin_tech = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		heroic_spellcaster_tech = 0.0	# Heroic Techs should be set on a Nation to Nation Basis
+		spellcaster_tech = 25.0
+	
+		cavalry_tech = 100.0
+		breeding_tech = 25.0
+		knight_tech = 100.0
+		lancer_tech = 100.0
+
+		siege_tech = 75.0
+		catapult_technology = 75.0
+		oil_technology = 50.0
+		siege_engine_tech = 100.0
+	
+		land_doctrine = 100.0
+	
+	}
+}
+
+ai_focus_peaceful = {
+	research = {
+	
+		town_hall_tech = 10.0
+		#encryption_decryption_technology = 2.0
+		fortification_technology = 5.0
+		scout_tower_technology = 3.0
+
+		forge_technology = 3.0
+		blueprint_technology = 3.0
+		agriculture_technology = 10.0
+		city_growth_technology = 10.0
+		peasant_tools_technology = 10.0
+		construction_tools_technology = 10.0
+		resource_tools_technology = 10.0
+		resource_building_technology = 5.0
+		#lumbermill_tech = 5.0
+		#arcane_tower_technology = 5.0
+		#iron_mine_technology = 5.0
+		stable_tech = 5.0
+		#sulfur_mine_technology = 5.0
+		oil_refinery_tech = 5.0
+	}
+}
+
+ai_focus_naval = {
+	research = {
+
+		sea_doctrine = 10.0
+	
+		naval_technology = 10.0
+		escort_ship_tech = 5.0
+		grand_fleet_ship_tech = 5.0
+		destroyer_tech = 5.0
+		frigate_tech = 5.0
+		dreadnaught_tech = 5.0
+		battleship_tech = 5.0
+		capital_ship_tech = 5.0
+		submarine_tech = 3.0
+		naval_transport_technology = 10.0
+	
+
+		oil_refinery_tech = 15.0
+	}
+}
+
+ai_focus_naval_air = {
+	research = {
+
+				# This Focus is empty due to being so specific. Only relevant to carrier nations. 
+
+	}
+}
+
+ai_focus_aviation = {
+	research = {
+	
+		air_tech = 10.0
+		fighter = 10.0
+		cas = 10.0
+		bomber = 10.0
+		air_supply = 5.0
+	
+		air_doctrine = 10.0
+		fighter_doctrine = 5.0
+		cas_doctrine = 10.0
+		bomber_doctrine = 5.0
+
+	}
+}
+
+ai_focus_military_equipment = {
+	research = {
+		infantry_technology = 100.0
+		#footman_tech = 100.0
+		pikeman_tech = 100.0
+		archer_tech = 100.0
+	
+		heroic_tech = 0.0				# Heroic Techs should be set on a Nation to Nation Basis
+		heroic_infantry_technology = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		paladin_tech = 0.0		# Heroic Techs should be set on a Nation to Nation Basis
+		heroic_spellcaster_tech = 0.0	# Heroic Techs should be set on a Nation to Nation Basis
+		spellcaster_tech = 25.0
+	
+		cavalry_tech = 100.0
+		breeding_tech = 25.0
+		knight_tech = 100.0
+		lancer_tech = 100.0
+
+		siege_tech = 75.0
+		#catapult_tech = 75.0
+		oil_technology = 50.0
+		siege_engine_tech = 100.0
+	
+		land_doctrine = 100.0
+	}
+}

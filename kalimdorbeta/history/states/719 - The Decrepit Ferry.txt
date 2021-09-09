@@ -1,0 +1,35 @@
+
+state={
+	id=719
+	name="STATE_719" #Lordamere Ferry/ The Decrepit Ferry/ The Decrepit Fields
+	resources={
+		mounts=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			2132 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = LOR
+		617.1.1 = {
+			owner = SRG
+			controller = SRG
+			add_core_of = SRG
+
+		}
+
+	}
+
+	provinces={
+		1272 2132 3330 3342 3343 3345 3346 5283 
+	}
+	manpower=8725
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

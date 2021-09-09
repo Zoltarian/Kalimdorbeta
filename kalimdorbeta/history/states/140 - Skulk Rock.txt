@@ -1,0 +1,30 @@
+
+state={
+	id=140
+	name="STATE_140"
+	resources={
+		ores=4.000
+		gunpowder=6.000
+	}
+
+	history={
+		
+		victory_points = {
+			3893 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = AER
+
+	}
+
+	provinces={
+		3585 3593 3889 3893 3906 3907 
+	}
+	manpower=10675
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}
