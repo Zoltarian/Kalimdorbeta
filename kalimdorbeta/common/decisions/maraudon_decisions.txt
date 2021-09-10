@@ -20,7 +20,7 @@ war_measures = {
       always = no
     }
 
-    days_mission_timeout = 1
+    days_mission_timeout = 90
 
     timeout_effect = {
 
@@ -97,7 +97,7 @@ foreign_politics = {
       limit = {
 
       }
-    }   
+    }
 
 		visible = {
 			tag = MAU
