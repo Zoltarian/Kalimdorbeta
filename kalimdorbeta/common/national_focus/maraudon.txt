@@ -69,7 +69,10 @@ focus_tree = {
 
 		completion_reward = {
 			MGC = {
-				country_event = maraudon.2
+				country_event = {
+					id = maraudon.2
+					days = 1
+				}
 			}
 		}
 	}
@@ -101,7 +104,10 @@ focus_tree = {
 
 		completion_reward = {
 			GLC = {
-				country_event = maraudon.2
+				country_event = {
+					id = maraudon.2
+					days = 1
+				}
 			}
 		}
 	}
@@ -468,6 +474,8 @@ focus_tree = {
 		    target = KAL
 		    type = annex_everything
 			}
+
+			custom_effect_tooltip = MAU_driving_the_elves_away_tt
 		}
 	}
 }
