@@ -1,0 +1,2305 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	orc_barracks_tech = {
+
+		path = {
+			leads_to_tech = grunt_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = spearman_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dire_orc_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 8 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+		}
+	}
+
+	grunt_tech = {
+
+		enable_subunits = {
+			grunt
+		}
+
+		on_research_complete = {
+			set_technology = {
+				grunt_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = grunt_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = overseer_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 2 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	grunt_equipment_tech_1 = {
+
+		enable_equipments = {
+			grunt_equipment_1
+		}
+
+		path = {
+			leads_to_tech = grunt_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = grunt_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 2 y = 4 }
+		}		
+		
+		categories = {
+			orc_barracks_technology
+			infantry_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	grunt_tier_1_upgrade_placeholder_1 = {
+
+		xor = { grunt_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = grunt_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 1 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	grunt_tier_1_upgrade_placeholder_2 = {
+
+		xor = { grunt_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = grunt_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 3 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	grunt_equipment_tech_2 = {
+
+		enable_equipments = {
+			grunt_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = grunt_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = grunt_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 2 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	grunt_tier_2_upgrade_placeholder_1 = {
+
+		xor = { grunt_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = grunt_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 1 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	grunt_tier_2_upgrade_placeholder_2 = {
+
+		xor = { grunt_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = grunt_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 3 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	grunt_equipment_tech_3 = {
+
+		enable_equipments = {
+			grunt_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 2 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			grunt_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	overseer_tech = {
+
+		enable_subunits = {
+			overseer
+		}
+
+		path = {
+			leads_to_tech = improved_overseer_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 5 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_overseer_1 = {
+
+		path = {
+			leads_to_tech = improved_overseer_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 5 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_overseer_2 = {
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_overseer_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 5 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_overseer_3 = {
+
+		path = {
+			leads_to_tech = improved_overseer_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 5 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_overseer_4 = {
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 5 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_tech = {
+
+		enable_subunits = {
+			spearman
+		}
+
+		path = {
+			leads_to_tech = spearman_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 8 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_equipment_tech_1 = {
+
+		enable_equipments = {
+			spearman_equipment_1
+		}
+
+		on_research_complete = {
+			set_technology = {
+				spearman_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = spearman_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = spearman_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 8 y = 4 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_tier_1_upgrade_placeholder_1 = {
+
+		xor = { spearman_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = spearman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 7 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_tier_1_upgrade_placeholder_2 = {
+
+		xor = { spearman_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = spearman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 9 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_equipment_tech_2 = {
+
+		enable_equipments = {
+			spearman_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = spearman_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = spearman_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 8 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_tier_2_upgrade_placeholder_1 = {
+
+		xor = { spearman_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = spearman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 7 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_tier_2_upgrade_placeholder_2 = {
+
+		xor = { spearman_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = spearman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 9 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	spearman_equipment_tech_3 = {
+
+		enable_equipments = {
+			spearman_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 8 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			spearman_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_tech = {
+
+		enable_subunits = {
+			dire_orc
+		}
+
+		on_research_complete = {
+			set_technology = {
+				dire_orc_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dire_orc_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 12 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_equipment_tech_1 = {
+
+		enable_equipments = {
+			dire_orc_equipment_1
+		}
+
+		path = {
+			leads_to_tech = dire_orc_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dire_orc_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 12 y = 4 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_tier_1_upgrade_placeholder_1 = {
+
+		xor = { dire_orc_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = dire_orc_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 11 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_tier_1_upgrade_placeholder_2 = {
+
+		xor = { dire_orc_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = dire_orc_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 13 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_equipment_tech_2 = {
+
+		enable_equipments = {
+			dire_orc_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dire_orc_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dire_orc_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 12 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_tier_2_upgrade_placeholder_1 = {
+
+		xor = { dire_orc_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = dire_orc_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 11 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_tier_2_upgrade_placeholder_2 = {
+
+		xor = { dire_orc_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = dire_orc_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 13 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_orc_equipment_tech_3 = {
+
+		enable_equipments = {
+			dire_orc_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 12 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	orc_temple_of_the_damned_tech = {
+
+		enable_building = {
+			building = arcane_tower
+			level = 1
+		}
+		enable_building = {
+			building = church
+			level = 1
+		}
+
+		xor = { orc_spirit_lodge_tech } 
+
+		path = {
+			leads_to_tech = warlock_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = demonic_ritual_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 17 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+		}
+	}
+
+	warlock_tech = {
+
+		enable_subunits = {
+			warlock
+		}
+
+		on_research_complete = {
+			set_technology = {
+				warlock_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = warlock_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = necrolyte_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 16 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	warlock_equipment_tech_1 = {
+
+		enable_equipments = {
+			warlock_equipment_1
+		}
+
+		path = {
+			leads_to_tech = warlock_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = warlock_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 16 y = 4 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	warlock_tier_1_upgrade_placeholder_1 = {
+
+		xor = { warlock_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = warlock_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 15 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	warlock_tier_1_upgrade_placeholder_2 = {
+
+		xor = { warlock_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = warlock_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 17 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	warlock_equipment_tech_2 = {
+
+		enable_equipments = {
+			warlock_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = warlock_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = warlock_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 16 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	warlock_tier_2_upgrade_placeholder_1 = {
+
+		xor = { warlock_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = warlock_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 15 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	warlock_tier_2_upgrade_placeholder_2 = {
+
+		xor = { warlock_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = warlock_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 17 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	warlock_equipment_tech_3 = {
+
+		enable_equipments = {
+			warlock_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 16 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	necrolyte_tech = {
+
+		enable_subunits = {
+			necrolyte
+		}
+
+		path = {
+			leads_to_tech = improved_necrolyte_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 19 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_necrolyte_1 = {
+
+		path = {
+			leads_to_tech = improved_necrolyte_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 19 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_necrolyte_2 = {
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_necrolyte_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 19 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_necrolyte_3 = {
+
+		path = {
+			leads_to_tech = improved_necrolyte_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 19 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	improved_necrolyte_4 = {
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 19 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	demonic_ritual_tech = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = demonic_ritual_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 21 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	demonic_ritual_tech_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = demonic_ritual_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 21 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	demonic_ritual_tech_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = demonic_ritual_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 21 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	demonic_ritual_tech_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 21 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	orc_spirit_lodge_tech = {
+
+		enable_building = {
+			building = arcane_tower
+			level = 1
+		}
+		enable_building = {
+			building = church
+			level = 1
+		}
+
+		xor = { orc_temple_of_the_damned_tech } 
+
+		path = {
+			leads_to_tech = shaman_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = call_of_the_elements_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 26 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+		}
+	}
+
+	shaman_tech = {
+
+		enable_subunits = {
+			shaman
+		}
+
+		on_research_complete = {
+			set_technology = {
+				shaman_equipment_tech_1 = 1
+			}
+		}
+	
+		path = {
+			leads_to_tech = shaman_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = restoration_shaman_tech
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 24 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	shaman_equipment_tech_1 = {
+	
+		enable_equipments = {
+			shaman_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = shaman_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = shaman_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 24 y = 4 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	shaman_tier_1_upgrade_placeholder_1 = {
+	
+		xor = { shaman_tier_1_upgrade_placeholder_2 } 
+	
+		path = {
+			leads_to_tech = shaman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 23 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	shaman_tier_1_upgrade_placeholder_2 = {
+	
+		xor = { shaman_tier_1_upgrade_placeholder_1 } 
+	
+		path = {
+			leads_to_tech = shaman_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 25 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	shaman_equipment_tech_2 = {
+	
+		enable_equipments = {
+			shaman_equipment_2
+		}
+	
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = shaman_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = shaman_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 24 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	shaman_tier_2_upgrade_placeholder_1 = {
+	
+		xor = { shaman_tier_2_upgrade_placeholder_2 } 
+	
+		path = {
+			leads_to_tech = shaman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 23 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	shaman_tier_2_upgrade_placeholder_2 = {
+	
+		xor = { shaman_tier_2_upgrade_placeholder_1 } 
+	
+		path = {
+			leads_to_tech = shaman_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 25 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	shaman_equipment_tech_3 = {
+	
+		enable_equipments = {
+			shaman_equipment_3
+		}
+	
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 24 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			dire_orc_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	restoration_shaman_tech = {
+
+		enable_subunits = {
+			restoration_shaman
+		}
+	
+		path = {
+			leads_to_tech = improved_restoration_shaman_1
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 27 y = 2 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	improved_restoration_shaman_1 = {
+	
+		path = {
+			leads_to_tech = improved_restoration_shaman_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 27 y = 6 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	improved_restoration_shaman_2 = {
+	
+		dependencies = {
+			stronghold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = improved_restoration_shaman_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 27 y = 8 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	improved_restoration_shaman_3 = {
+	
+		path = {
+			leads_to_tech = improved_restoration_shaman_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 27 y = 10 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	improved_restoration_shaman_4 = {
+	
+		dependencies = {
+			fortress_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 27 y = 12 }
+		}		
+		
+		categories = {
+			infantry_technology
+			orc_barracks_technology
+			orc_support_technology
+			overseer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	call_of_the_elements_tech = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = call_of_the_elements_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 29 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	call_of_the_elements_tech_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = call_of_the_elements_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 29 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	call_of_the_elements_tech_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = call_of_the_elements_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 29 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	call_of_the_elements_tech_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = orc_infantry_folder
+			position = { x = 29 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+}

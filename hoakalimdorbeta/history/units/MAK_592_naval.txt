@@ -1,0 +1,46 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Makrinni Northern Fleet"			
+		naval_base = 14951
+		task_force = {
+			name = "Makrinni Northern Fleet"			
+			location = 14951
+			
+			ship = {
+				name = "1st Makrinni Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MAK } }
+			}
+			ship = {
+				name = "2nd Makrinni Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MAK } }
+			}
+			
+		}
+	}
+
+	fleet = {				
+		name = "Makrinni Southern Fleet"			
+		naval_base = 14821
+		task_force = {
+			name = "Makrinni Southern Fleet"			
+			location = 14821
+
+			ship = {
+				name = "3rd Makrinni Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MAK } }
+			}
+			ship = {
+				name = "4th Makrinni Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MAK } }
+			}
+			
+		}
+	}
+	
+}

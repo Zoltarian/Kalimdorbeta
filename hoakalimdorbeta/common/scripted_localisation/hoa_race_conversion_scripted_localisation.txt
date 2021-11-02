@@ -1,0 +1,2910 @@
+defined_text = {
+	name = GetRaceProgress
+
+	text = {
+		trigger = {
+			set_temp_variable = { progress_rate = race_conversion_progress }
+			add_to_temp_variable = { progress_rate = 91 }
+			divide_temp_variable = { progress_rate = 90 }
+		}
+		localization_key = [?progress_rate|%1Y]
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GetStateRaceName
+	text = {
+		trigger = {
+			check_variable = { race = 1 }
+		}
+		localization_key = "Ancients"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 2 }
+		}
+		localization_key = "Ankoans"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 3 }
+		}
+		localization_key = "Arakkoas"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 4 }
+		}
+		localization_key = "Black Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 5 }
+		}
+		localization_key = "Blood Elves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 151 }
+		}
+		localization_key = "Blood Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 6 }
+		}
+		localization_key = "Blue Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 7 }
+		}
+		localization_key = "Bog Beasts"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 8 }
+		}
+		localization_key = "Botani"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 9 }
+		}
+		localization_key = "Broken"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 10 }
+		}
+		localization_key = "Bronze Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 11 }
+		}
+		localization_key = "Centaurs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 12 }
+		}
+		localization_key = "Chromatic Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 13 }
+		}
+		localization_key = "Colossi"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 14 }
+		}
+		localization_key = "Crystal Nymphs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 15 }
+		}
+		localization_key = "Crystal Satyrs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 16 }
+		}
+		localization_key = "Dark Iron Dwarves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 17 }
+		}
+		localization_key = "Dark Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 18 }
+		}
+		localization_key = "Demons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 19 }
+		}
+		localization_key = "Draenei"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 20 }
+		}
+		localization_key = "Drogbars"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 21 }
+		}
+		localization_key = "Drusts"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 22 }
+		}
+		localization_key = "Dryads"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 23 }
+		}
+		localization_key = "Dwarves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 24 }
+		}
+		localization_key = "Earth Elementals"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 25 }
+		}
+		localization_key = "Earthen"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 26 }
+		}
+		localization_key = "Ethereals"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 27 }
+		}
+		localization_key = "Ettins"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 28 }
+		}
+		localization_key = "Faceless Ones"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 29 }
+		}
+		localization_key = "Faerie Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 30 }
+		}
+		localization_key = "Fal Doreis"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 31 }
+		}
+		localization_key = "Fel Orcs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 32 }
+		}
+		localization_key = "Fel Blood Elves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 33 }
+		}
+		localization_key = "Felbornes"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 34 }
+		}
+		localization_key = "Fire Elementals"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 35 }
+		}
+		localization_key = "Aqirs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 36 }
+		}
+		localization_key = "Twilight Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 153 }
+		}
+		localization_key = "Forest Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 150 }
+		}
+		localization_key = "Frost Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 154 }
+		}
+		localization_key = "Frost Nymphs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 37 }
+		}
+		localization_key = "Frost Vrykuls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 38 }
+		}
+		localization_key = "Frostborn"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 39 }
+		}
+		localization_key = "Fungal Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 40 }
+		}
+		localization_key = "Fungal Monsters"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 41 }
+		}
+		localization_key = "Fungarians"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 42 }
+		}
+		localization_key = "Furbolgs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 43 }
+		}
+		localization_key = "Ghosts"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 44 }
+		}
+		localization_key = "Gibgblins"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 45 }
+		}
+		localization_key = "Gnolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 46 }
+		}
+		localization_key = "Gnomes"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 47 }
+		}
+		localization_key = "Goblins"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 48 }
+		}
+		localization_key = "Gorens"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 152 }
+		}
+		localization_key = "Gorillas"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 49 }
+		}
+		localization_key = "Gorlocs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 50 }
+		}
+		localization_key = "Green Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 51 }
+		}
+		localization_key = "Grells"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 52 }
+		}
+		localization_key = "Gronns"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 53 }
+		}
+		localization_key = "Grummles"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 54 }
+		}
+		localization_key = "Harpies"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 55 }
+		}
+		localization_key = "High Elves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 56 }
+		}
+		localization_key = "Highmountain Taruens"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 57 }
+		}
+		localization_key = "Higborne"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 58 }
+		}
+		localization_key = "Hobgoblins"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 59 }
+		}
+		localization_key = "Hozen"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 60 }
+		}
+		localization_key = "Humans"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 61 }
+		}
+		localization_key = "Ice Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 62 }
+		}
+		localization_key = "Ice Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 63 }
+		}
+		localization_key = "Infinite Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 64 }
+		}
+		localization_key = "Iron Dwarves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 65 }
+		}
+		localization_key = "Iron Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 66 }
+		}
+		localization_key = "Iron Vrykuls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 67 }
+		}
+		localization_key = "Jinyus"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 68 }
+		}
+		localization_key = "Jungle Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 69 }
+		}
+		localization_key = "Junker Gnomes"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 70 }
+		}
+		localization_key = "Kobolds"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 71 }
+		}
+		localization_key = "Kvaldirs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 72 }
+		}
+		localization_key = "Lashers"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 73 }
+		}
+		localization_key = "Leper Gnomes"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 74 }
+		}
+		localization_key = "Light Forged Draenei"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 75 }
+		}
+		localization_key = "Lobstroks"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 76 }
+		}
+		localization_key = "Lost Ones"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 77 }
+		}
+		localization_key = "Maghar Orcs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 78 }
+		}
+		localization_key = "Magnaturs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 79 }
+		}
+		localization_key = "Makruras"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 80 }
+		}
+		localization_key = "Mana Surge"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 81 }
+		}
+		localization_key = "Mantids"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 82 }
+		}
+		localization_key = "Mecha Gnomes"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 83 }
+		}
+		localization_key = "Mist Lurkers"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 84 }
+		}
+		localization_key = "Mogus"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 85 }
+		}
+		localization_key = "Mok Nathals"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 86 }
+		}
+		localization_key = "Mountain Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 87 }
+		}
+		localization_key = "Murlocs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 88 }
+		}
+		localization_key = "Nagas"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 89 }
+		}
+		localization_key = "Nerubians"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 90 }
+		}
+		localization_key = "Netherwing Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 91 }
+		}
+		localization_key = "Night Elves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 92 }
+		}
+		localization_key = "Nightborne"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 93 }
+		}
+		localization_key = "Nightfallen"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 94 }
+		}
+		localization_key = "Nightmare Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 95 }
+		}
+		localization_key = "Ogres"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 96 }
+		}
+		localization_key = "Orcs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 97 }
+		}
+		localization_key = "Pale Orcs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 98 }
+		}
+		localization_key = "Pandarians"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 99 }
+		}
+		localization_key = "Pygmies"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 100 }
+		}
+		localization_key = "Qirajis"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 101 }
+		}
+		localization_key = "Quilboars"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 102 }
+		}
+		localization_key = "Ranishus"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 103 }
+		}
+		localization_key = "Red Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 104 }
+		}
+		localization_key = "Rock Flayers"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 105 }
+		}
+		localization_key = "Saberons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 106 }
+		}
+		localization_key = "Sanlayns"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 107 }
+		}
+		localization_key = "Sand Gnomes"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 108 }
+		}
+		localization_key = "Sand Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 109 }
+		}
+		localization_key = "Satyrs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 110 }
+		}
+		localization_key = "Sea Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 111 }
+		}
+		localization_key = "Sethraks"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 112 }
+		}
+		localization_key = "Shas"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 113 }
+		}
+		localization_key = "Silithids"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 114 }
+		}
+		localization_key = "Sirens"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 115 }
+		}
+		localization_key = "Snobolds"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 116 }
+		}
+		localization_key = "Sporlings"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 117 }
+		}
+		localization_key = "Sprites"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 118 }
+		}
+		localization_key = "Stone Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 119 }
+		}
+		localization_key = "Stone Troggs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 120 }
+		}
+		localization_key = "Storm Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 121 }
+		}
+		localization_key = "Storm Giants"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 122 }
+		}
+		localization_key = "Taunkas"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 123 }
+		}
+		localization_key = "Taurens"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 124 }
+		}
+		localization_key = "Titan Watchers"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 125 }
+		}
+		localization_key = "Tolvirs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 126 }
+		}
+		localization_key = "Tortollans"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 127 }
+		}
+		localization_key = "Troggs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 128 }
+		}
+		localization_key = "Tuskarrs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 129 }
+		}
+		localization_key = "Undead"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 130 }
+		}
+		localization_key = "Valarjars"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 131 }
+		}
+		localization_key = "Valkyrs"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 132 }
+		}
+		localization_key = "Varguls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 133 }
+		}
+		localization_key = "Virmen"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 134 }
+		}
+		localization_key = "Vold Elves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 135 }
+		}
+		localization_key = "Void Walkers"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 136 }
+		}
+		localization_key = "Vrykuls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 137 }
+		}
+		localization_key = "Vulpera"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 138 }
+		}
+		localization_key = "Water Elementals"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 139 }
+		}
+		localization_key = "Wendigos"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 140 }
+		}
+		localization_key = "Wildkins"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 141 }
+		}
+		localization_key = "Wind Elementals"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 142 }
+		}
+		localization_key = "Withered"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 143 }
+		}
+		localization_key = "Wolvars"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 144 }
+		}
+		localization_key = "Worgens"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 145 }
+		}
+		localization_key = "Wretched Elves"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 146 }
+		}
+		localization_key = "Yuangols"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 147 }
+		}
+		localization_key = "Yetis"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 148 }
+		}
+		localization_key = "Zandalari Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 149 }
+		}
+		localization_key = "Anubisaths"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 155 }
+		}
+		localization_key = "Ogrons"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 156 }
+		}
+		localization_key = "High Arrakoas"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 157 }
+		}
+		localization_key = "Jade Statues"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 158 }
+		}
+		localization_key = "Sauroks"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 159 }
+		}
+		localization_key = "Stone Dragons"
+	}
+
+}
+
+
+defined_text = {
+	name = GetMainRaceVariable
+	text = {
+		trigger = {
+			has_idea = ancients_primary_race
+		}
+		localization_key = "1"
+	}
+	text = {
+		trigger = {
+			has_idea = ankoan_primary_race
+		}
+		localization_key = "2"
+	}
+	text = {
+		trigger = {
+			has_idea = arakkoa_primary_race
+		}
+		localization_key = "3"
+	}
+	text = {
+		trigger = {
+			has_idea = black_dragon_primary_race
+		}
+		localization_key = "4"
+	}
+	text = {
+		trigger = {
+			has_idea = blood_elf_primary_race
+		}
+		localization_key = "5"
+	}
+	text = {
+		trigger = {
+			has_idea = blood_troll_primary_race
+		}
+		localization_key = "151"
+	}
+	text = {
+		trigger = {
+			has_idea = blue_dragon_primary_race
+		}
+		localization_key = "6"
+	}
+	text = {
+		trigger = {
+			has_idea = bog_beasts_primary_race
+		}
+		localization_key = "7"
+	}
+	text = {
+		trigger = {
+			has_idea = botani_primary_race
+		}
+		localization_key = "8"
+	}
+	text = {
+		trigger = {
+			has_idea = broken_primary_race
+		}
+		localization_key = "9"
+	}
+	text = {
+		trigger = {
+			has_idea = bronze_dragon_primary_race
+		}
+		localization_key = "10"
+	}
+	text = {
+		trigger = {
+			has_idea = centaur_primary_race
+		}
+		localization_key = "11"
+	}
+	text = {
+		trigger = {
+			has_idea = chromatic_dragon_primary_race
+		}
+		localization_key = "12"
+	}
+	text = {
+		trigger = {
+			has_idea = colossus_primary_race
+		}
+		localization_key = "13"
+	}
+	text = {
+		trigger = {
+			has_idea = crystal_nymphs_primary_race
+		}
+		localization_key = "14"
+	}
+	text = {
+		trigger = {
+			has_idea = crystal_satyr_primary_race
+		}
+		localization_key = "15"
+	}
+	text = {
+		trigger = {
+			has_idea = dark_iron_dwarf_primary_race
+		}
+		localization_key = "16"
+	}
+	text = {
+		trigger = {
+			has_idea = dark_troll_primary_race
+		}
+		localization_key = "17"
+	}
+	text = {
+		trigger = {
+			has_idea = demons_primary_race
+		}
+		localization_key = "18"
+	}
+	text = {
+		trigger = {
+			has_idea = draenei_primary_race
+		}
+		localization_key = "19"
+	}
+	text = {
+		trigger = {
+			has_idea = drogbar_primary_race
+		}
+		localization_key = "20"
+	}
+	text = {
+		trigger = {
+			has_idea = drust_primary_race
+		}
+		localization_key = "21"
+	}
+	text = {
+		trigger = {
+			has_idea = dryads_primary_race
+		}
+		localization_key = "22"
+	}
+	text = {
+		trigger = {
+			has_idea = dwarf_primary_race
+		}
+		localization_key = "23"
+	}
+	text = {
+		trigger = {
+			has_idea = earth_elemental_primary_race
+		}
+		localization_key = "24"
+	}
+	text = {
+		trigger = {
+			has_idea = earthen_primary_race
+		}
+		localization_key = "25"
+	}
+	text = {
+		trigger = {
+			has_idea = ethereal_primary_race
+		}
+		localization_key = "26"
+	}
+	text = {
+		trigger = {
+			has_idea = ettin_primary_race
+		}
+		localization_key = "27"
+	}
+	text = {
+		trigger = {
+			has_idea = faceless_one_primary_race
+		}
+		localization_key = "28"
+	}
+	text = {
+		trigger = {
+			has_idea = faerie_dragon_primary_race
+		}
+		localization_key = "29"
+	}
+	text = {
+		trigger = {
+			has_idea = fal_dorei_primary_race
+		}
+		localization_key = "30"
+	}
+	text = {
+		trigger = {
+			has_idea = fel_orc_primary_race
+		}
+		localization_key = "31"
+	}
+	text = {
+		trigger = {
+			has_idea = fel_blood_elves_primary_race
+		}
+		localization_key = "32"
+	}
+	text = {
+		trigger = {
+			has_idea = felborne_primary_race
+		}
+		localization_key = "33"
+	}
+	text = {
+		trigger = {
+			has_idea = fire_elemental_primary_race
+		}
+		localization_key = "34"
+	}
+	text = {
+		trigger = {
+			has_idea = aqir_primary_race
+		}
+		localization_key = "35"
+	}
+	text = {
+		trigger = {
+			has_idea = twilight_dragon_primary_race
+		}
+		localization_key = "36"
+	}
+	text = {
+		trigger = {
+			has_idea = forest_troll_primary_race
+		}
+		localization_key = "153"
+	}
+	text = {
+		trigger = {
+			has_idea = frost_giant_primary_race
+		}
+		localization_key = "150"
+	}
+	text = {
+		trigger = {
+			has_idea = frost_nymph_primary_race
+		}
+		localization_key = "154"
+	}
+	text = {
+		trigger = {
+			has_idea = frost_vrykul_primary_race
+		}
+		localization_key = "37"
+	}
+	text = {
+		trigger = {
+			has_idea = frostborn_primary_race
+		}
+		localization_key = "38"
+	}
+	text = {
+		trigger = {
+			has_idea = fungal_giants_primary_race
+		}
+		localization_key = "39"
+	}
+	text = {
+		trigger = {
+			has_idea = fungal_monster_primary_race
+		}
+		localization_key = "40"
+	}
+	text = {
+		trigger = {
+			has_idea = fungarians_primary_race
+		}
+		localization_key = "41"
+	}
+	text = {
+		trigger = {
+			has_idea = furbolg_primary_race
+		}
+		localization_key = "42"
+	}
+	text = {
+		trigger = {
+			has_idea = ghost_primary_race
+		}
+		localization_key = "43"
+	}
+	text = {
+		trigger = {
+			has_idea = gilgoblin_primary_race
+		}
+		localization_key = "44"
+	}
+	text = {
+		trigger = {
+			has_idea = gnoll_primary_race
+		}
+		localization_key = "45"
+	}
+	text = {
+		trigger = {
+			has_idea = gnome_primary_race
+		}
+		localization_key = "46"
+	}
+	text = {
+		trigger = {
+			has_idea = goblin_primary_race
+		}
+		localization_key = "47"
+	}
+	text = {
+		trigger = {
+			has_idea = goren_primary_race
+		}
+		localization_key = "48"
+	}
+	text = {
+		trigger = {
+			has_idea = gorilla_primary_race
+		}
+		localization_key = "152"
+	}
+	text = {
+		trigger = {
+			has_idea = gorlocs_primary_race
+		}
+		localization_key = "49"
+	}
+	text = {
+		trigger = {
+			has_idea = green_dragon_primary_race
+		}
+		localization_key = "50"
+	}
+	text = {
+		trigger = {
+			has_idea = grell_primary_race
+		}
+		localization_key = "51"
+	}
+	text = {
+		trigger = {
+			has_idea = gronn_primary_race
+		}
+		localization_key = "52"
+	}
+	text = {
+		trigger = {
+			has_idea = grummle_primary_race
+		}
+		localization_key = "53"
+	}
+	text = {
+		trigger = {
+			has_idea = harpy_primary_race
+		}
+		localization_key = "54"
+	}
+	text = {
+		trigger = {
+			has_idea = high_elf_primary_race
+		}
+		localization_key = "55"
+	}
+	text = {
+		trigger = {
+			has_idea = highmountain_tauren_primary_race
+		}
+		localization_key = "56"
+	}
+	text = {
+		trigger = {
+			has_idea = highborne_primary_race
+		}
+		localization_key = "57"
+	}
+	text = {
+		trigger = {
+			has_idea = hobgoblin_primary_race
+		}
+		localization_key = "58"
+	}
+	text = {
+		trigger = {
+			has_idea = hozen_primary_race
+		}
+		localization_key = "59"
+	}
+	text = {
+		trigger = {
+			has_idea = human_primary_race
+		}
+		localization_key = "60"
+	}
+	text = {
+		trigger = {
+			has_idea = ice_giant_primary_race
+		}
+		localization_key = "61"
+	}
+	text = {
+		trigger = {
+			has_idea = ice_troll_primary_race
+		}
+		localization_key = "62"
+	}
+	text = {
+		trigger = {
+			has_idea = infinite_dragon_primary_race
+		}
+		localization_key = "63"
+	}
+	text = {
+		trigger = {
+			has_idea = iron_dwarf_primary_race
+		}
+		localization_key = "64"
+	}
+	text = {
+		trigger = {
+			has_idea = iron_giant_primary_race
+		}
+		localization_key = "65"
+	}
+	text = {
+		trigger = {
+			has_idea = iron_vrykul_primary_race
+		}
+		localization_key = "66"
+	}
+	text = {
+		trigger = {
+			has_idea = jinyu_primary_race
+		}
+		localization_key = "67"
+	}
+	text = {
+		trigger = {
+			has_idea = jungle_troll_primary_race
+		}
+		localization_key = "68"
+	}
+	text = {
+		trigger = {
+			has_idea = junker_gnome_primary_race
+		}
+		localization_key = "69"
+	}
+	text = {
+		trigger = {
+			has_idea = kobold_primary_race
+		}
+		localization_key = "70"
+	}
+	text = {
+		trigger = {
+			has_idea = kvaldir_primary_race
+		}
+		localization_key = "71"
+	}
+	text = {
+		trigger = {
+			has_idea = lashers_primary_race
+		}
+		localization_key = "72"
+	}
+	text = {
+		trigger = {
+			has_idea = leper_gnome_primary_race
+		}
+		localization_key = "73"
+	}
+	text = {
+		trigger = {
+			has_idea = light_forged_draenei_primary_race
+		}
+		localization_key = "74"
+	}
+	text = {
+		trigger = {
+			has_idea = lobstrok_primary_race
+		}
+		localization_key = "75"
+	}
+	text = {
+		trigger = {
+			has_idea = lost_ones_primary_race
+		}
+		localization_key = "76"
+	}
+	text = {
+		trigger = {
+			has_idea = maghar_orc_primary_race
+		}
+		localization_key = "77"
+	}
+	text = {
+		trigger = {
+			has_idea = magnataur_primary_race
+		}
+		localization_key = "78"
+	}
+	text = {
+		trigger = {
+			has_idea = makrura_primary_race
+		}
+		localization_key = "79"
+	}
+	text = {
+		trigger = {
+			has_idea = mana_surge_primary_race
+		}
+		localization_key = "80"
+	}
+	text = {
+		trigger = {
+			has_idea = mantid_primary_race
+		}
+		localization_key = "81"
+	}
+	text = {
+		trigger = {
+			has_idea = mecha_gnome_primary_race
+		}
+		localization_key = "82"
+	}
+	text = {
+		trigger = {
+			has_idea = mist_lurker_primary_race
+		}
+		localization_key = "83"
+	}
+	text = {
+		trigger = {
+			has_idea = mogu_primary_race
+		}
+		localization_key = "84"
+	}
+	text = {
+		trigger = {
+			has_idea = mok_nathal_primary_race
+		}
+		localization_key = "85"
+	}
+	text = {
+		trigger = {
+			has_idea = mountain_giant_primary_race
+		}
+		localization_key = "86"
+	}
+	text = {
+		trigger = {
+			has_idea = murloc_primary_race
+		}
+		localization_key = "87"
+	}
+	text = {
+		trigger = {
+			has_idea = naga_primary_race
+		}
+		localization_key = "88"
+	}
+	text = {
+		trigger = {
+			has_idea = nerubians_primary_race
+		}
+		localization_key = "89"
+	}
+	text = {
+		trigger = {
+			has_idea = netherwing_dragon_primary_race
+		}
+		localization_key = "90"
+	}
+	text = {
+		trigger = {
+			has_idea = night_elf_primary_race
+		}
+		localization_key = "91"
+	}
+	text = {
+		trigger = {
+			has_idea = nightborne_primary_race
+		}
+		localization_key = "92"
+	}
+	text = {
+		trigger = {
+			has_idea = nightfallen_primary_race
+		}
+		localization_key = "93"
+	}
+	text = {
+		trigger = {
+			has_idea = nightmare_dragon_primary_race
+		}
+		localization_key = "94"
+	}
+	text = {
+		trigger = {
+			has_idea = ogre_primary_race
+		}
+		localization_key = "95"
+	}
+	text = {
+		trigger = {
+			has_idea = orc_primary_race
+		}
+		localization_key = "96"
+	}
+	text = {
+		trigger = {
+			has_idea = pale_orc_primary_race
+		}
+		localization_key = "97"
+	}
+	text = {
+		trigger = {
+			has_idea = pandaren_primary_race
+		}
+		localization_key = "98"
+	}
+	text = {
+		trigger = {
+			has_idea = pygmies_primary_race
+		}
+		localization_key = "99"
+	}
+	text = {
+		trigger = {
+			has_idea = qiraji_primary_race
+		}
+		localization_key = "100"
+	}
+	text = {
+		trigger = {
+			has_idea = quilboar_primary_race
+		}
+		localization_key = "101"
+	}
+	text = {
+		trigger = {
+			has_idea = ranishu_primary_race
+		}
+		localization_key = "102"
+	}
+	text = {
+		trigger = {
+			has_idea = red_dragon_primary_race
+		}
+		localization_key = "103"
+	}
+	text = {
+		trigger = {
+			has_idea = rock_flayer_primary_race
+		}
+		localization_key = "104"
+	}
+	text = {
+		trigger = {
+			has_idea = saberon_primary_race
+		}
+		localization_key = "105"
+	}
+	text = {
+		trigger = {
+			has_idea = sanlayn_primary_race
+		}
+		localization_key = "106"
+	}
+	text = {
+		trigger = {
+			has_idea = sand_gnome_primary_race
+		}
+		localization_key = "107"
+	}
+	text = {
+		trigger = {
+			has_idea = sand_troll_primary_race
+		}
+		localization_key = "108"
+	}
+	text = {
+		trigger = {
+			has_idea = satyr_primary_race
+		}
+		localization_key = "109"
+	}
+	text = {
+		trigger = {
+			has_idea = sea_giants_primary_race
+		}
+		localization_key = "110"
+	}
+	text = {
+		trigger = {
+			has_idea = sethrak_primary_race
+		}
+		localization_key = "111"
+	}
+	text = {
+		trigger = {
+			has_idea = sha_primary_race
+		}
+		localization_key = "112"
+	}
+	text = {
+		trigger = {
+			has_idea = silithid_primary_race
+		}
+		localization_key = "113"
+	}
+	text = {
+		trigger = {
+			has_idea = siren_primary_race
+		}
+		localization_key = "114"
+	}
+	text = {
+		trigger = {
+			has_idea = snobold_primary_race
+		}
+		localization_key = "115"
+	}
+	text = {
+		trigger = {
+			has_idea = sporeling_primary_race
+		}
+		localization_key = "116"
+	}
+	text = {
+		trigger = {
+			has_idea = sprite_primary_race
+		}
+		localization_key = "117"
+	}
+	text = {
+		trigger = {
+			has_idea = stone_giant_primary_race
+		}
+		localization_key = "118"
+	}
+	text = {
+		trigger = {
+			has_idea = stone_trogg_primary_race
+		}
+		localization_key = "119"
+	}
+	text = {
+		trigger = {
+			has_idea = storm_dragon_primary_race
+		}
+		localization_key = "120"
+	}
+	text = {
+		trigger = {
+			has_idea = storm_giant_primary_race
+		}
+		localization_key = "121"
+	}
+	text = {
+		trigger = {
+			has_idea = taunka_primary_race
+		}
+		localization_key = "122"
+	}
+	text = {
+		trigger = {
+			has_idea = tauren_primary_race
+		}
+		localization_key = "123"
+	}
+	text = {
+		trigger = {
+			has_idea = titan_watcher_primary_race
+		}
+		localization_key = "124"
+	}
+	text = {
+		trigger = {
+			has_idea = tolvir_primary_race
+		}
+		localization_key = "125"
+	}
+	text = {
+		trigger = {
+			has_idea = tortollan_primary_race
+		}
+		localization_key = "126"
+	}
+	text = {
+		trigger = {
+			has_idea = trogg_primary_race
+		}
+		localization_key = "127"
+	}
+	text = {
+		trigger = {
+			has_idea = tuskarr_primary_race
+		}
+		localization_key = "128"
+	}
+	text = {
+		trigger = {
+			has_idea = undead_primary_race
+		}
+		localization_key = "129"
+	}
+	text = {
+		trigger = {
+			has_idea = valarjar_primary_race
+		}
+		localization_key = "130"
+	}
+	text = {
+		trigger = {
+			has_idea = valkyr_primary_race
+		}
+		localization_key = "131"
+	}
+	text = {
+		trigger = {
+			has_idea = vargul_primary_race
+		}
+		localization_key = "132"
+	}
+	text = {
+		trigger = {
+			has_idea = virmen_primary_race
+		}
+		localization_key = "133"
+	}
+	text = {
+		trigger = {
+			has_idea = void_elf_primary_race
+		}
+		localization_key = "134"
+	}
+	text = {
+		trigger = {
+			has_idea = void_walker_primary_race
+		}
+		localization_key = "135"
+	}
+	text = {
+		trigger = {
+			has_idea = vrykul_primary_race
+		}
+		localization_key = "136"
+	}
+	text = {
+		trigger = {
+			has_idea = vulpera_primary_race
+		}
+		localization_key = "137"
+	}
+	text = {
+		trigger = {
+			has_idea = water_elemental_primary_race
+		}
+		localization_key = "138"
+	}
+	text = {
+		trigger = {
+			has_idea = wendigo_primary_race
+		}
+		localization_key = "139"
+	}
+	text = {
+		trigger = {
+			has_idea = wildkin_primary_race
+		}
+		localization_key = "140"
+	}
+	text = {
+		trigger = {
+			has_idea = wind_elemental_primary_race
+		}
+		localization_key = "141"
+	}
+	text = {
+		trigger = {
+			has_idea = withered_primary_race
+		}
+		localization_key = "142"
+	}
+	text = {
+		trigger = {
+			has_idea = wolvar_primary_race
+		}
+		localization_key = "143"
+	}
+	text = {
+		trigger = {
+			has_idea = worgen_primary_race
+		}
+		localization_key = "144"
+	}
+	text = {
+		trigger = {
+			has_idea = wretched_elf_primary_race
+		}
+		localization_key = "145"
+	}
+	text = {
+		trigger = {
+			has_idea = yaungol_primary_race
+		}
+		localization_key = "146"
+	}
+	text = {
+		trigger = {
+			has_idea = yeti_primary_race
+		}
+		localization_key = "147"
+	}
+	text = {
+		trigger = {
+			has_idea = zandalari_troll_primary_race
+		}
+		localization_key = "148"
+	}
+	# text = {
+	# 	trigger = {
+	# 		has_idea = mixed_primary_race
+	# 	}
+	# 	localization_key = "149"
+	# }
+	text = {
+		trigger = {
+			has_idea = ogron_primary_race
+		}
+		localization_key = "155"
+	}
+	text = {
+		trigger = {
+			has_idea = high_arrakoa_primary_race
+		}
+		localization_key = "156"
+	}
+	text = {
+		trigger = {
+			has_idea = jade_statue_primary_race
+		}
+		localization_key = "157"
+	}
+	text = {
+		trigger = {
+			has_idea = saurok_primary_race
+		}
+		localization_key = "158"
+	}
+	text = {
+		trigger = {
+			has_idea = stone_dragon_primary_race
+		}
+		localization_key = "159"
+	}
+	text = {
+		trigger = {
+			has_idea = anubisath_primary_race
+		}
+		localization_key = "160"
+	}
+
+}
+
+defined_text = {
+	name = GetMainRaceName
+	text = {
+		trigger = {
+			has_idea = ancients_primary_race
+		}
+		localization_key = "Ancients"
+	}
+	text = {
+		trigger = {
+			has_idea = ankoan_primary_race
+		}
+		localization_key = "Ankoans"
+	}
+	text = {
+		trigger = {
+			has_idea = arakkoa_primary_race
+		}
+		localization_key = "Arakkoas"
+	}
+	text = {
+		trigger = {
+			has_idea = black_dragon_primary_race
+		}
+		localization_key = "Black Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = blood_elf_primary_race
+		}
+		localization_key = "Blood Elves"
+	}
+	text = {
+		trigger = {
+			has_idea = blood_troll_primary_race
+		}
+		localization_key = "Blood Trolls"
+	}
+	text = {
+		trigger = {
+			has_idea = blue_dragon_primary_race
+		}
+		localization_key = "Blue Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = bog_beasts_primary_race
+		}
+		localization_key = "Bog Beasts"
+	}
+	text = {
+		trigger = {
+			has_idea = botani_primary_race
+		}
+		localization_key = "Botani"
+	}
+	text = {
+		trigger = {
+			has_idea = broken_primary_race
+		}
+		localization_key = "Broken"
+	}
+	text = {
+		trigger = {
+			has_idea = bronze_dragon_primary_race
+		}
+		localization_key = "Bronze Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = centaur_primary_race
+		}
+		localization_key = "Centaurs"
+	}
+	text = {
+		trigger = {
+			has_idea = chromatic_dragon_primary_race
+		}
+		localization_key = "Chromatic Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = colossus_primary_race
+		}
+		localization_key = "Colossi"
+	}
+	text = {
+		trigger = {
+			has_idea = crystal_nymphs_primary_race
+		}
+		localization_key = "Crystal Nymphs"
+	}
+	text = {
+		trigger = {
+			has_idea = crystal_satyr_primary_race
+		}
+		localization_key = "Crystal Satyrs"
+	}
+	text = {
+		trigger = {
+			has_idea = dark_iron_dwarf_primary_race
+		}
+		localization_key = "Dark Iron Dwarves"
+	}
+	text = {
+		trigger = {
+			has_idea = dark_troll_primary_race
+		}
+		localization_key = "Dark Trolls"
+	}
+	text = {
+		trigger = {
+			has_idea = demons_primary_race
+		}
+		localization_key = "Demons"
+	}
+	text = {
+		trigger = {
+			has_idea = draenei_primary_race
+		}
+		localization_key = "Draenei"
+	}
+	text = {
+		trigger = {
+			has_idea = drogbar_primary_race
+		}
+		localization_key = "Drogbars"
+	}
+	text = {
+		trigger = {
+			has_idea = drust_primary_race
+		}
+		localization_key = "Dryads"
+	}
+	text = {
+		trigger = {
+			has_idea = dryads_primary_race
+		}
+		localization_key = "Dryads"
+	}
+	text = {
+		trigger = {
+			has_idea = dwarf_primary_race
+		}
+		localization_key = "Dwarves"
+	}
+	text = {
+		trigger = {
+			has_idea = earth_elemental_primary_race
+		}
+		localization_key = "Earth Elementals"
+	}
+	text = {
+		trigger = {
+			has_idea = earthen_primary_race
+		}
+		localization_key = "Earthen"
+	}
+	text = {
+		trigger = {
+			has_idea = ethereal_primary_race
+		}
+		localization_key = "Ethereals"
+	}
+	text = {
+		trigger = {
+			has_idea = ettin_primary_race
+		}
+		localization_key = "Ettins"
+	}
+	text = {
+		trigger = {
+			has_idea = faceless_one_primary_race
+		}
+		localization_key = "Faceless Ones"
+	}
+	text = {
+		trigger = {
+			has_idea = faerie_dragon_primary_race
+		}
+		localization_key = "Faerie Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = fal_dorei_primary_race
+		}
+		localization_key = "Fal Doreis"
+	}
+	text = {
+		trigger = {
+			has_idea = fel_orc_primary_race
+		}
+		localization_key = "Fel Orcs"
+	}
+	text = {
+		trigger = {
+			has_idea = fel_blood_elves_primary_race
+		}
+		localization_key = "Fel Blood Elves"
+	}
+	text = {
+		trigger = {
+			has_idea = felborne_primary_race
+		}
+		localization_key = "Felbornes"
+	}
+	text = {
+		trigger = {
+			has_idea = fire_elemental_primary_race
+		}
+		localization_key = "Fire Elementals"
+	}
+	text = {
+		trigger = {
+			has_idea = ice_giants_primary_race
+		}
+		localization_key = "Ice Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = twilight_dragon_primary_race
+		}
+		localization_key = "Twilight Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = forest_troll_primary_race
+		}
+		localization_key = "Forest Trolls"
+	}
+	text = {
+		trigger = {
+			has_idea = frost_giant_primary_race
+		}
+		localization_key = "Frost Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = frost_nymph_primary_race
+		}
+		localization_key = "Frost Nymphs"
+	}
+	text = {
+		trigger = {
+			has_idea = frost_vrykul_primary_race
+		}
+		localization_key = "Frost Vrykuls"
+	}
+	text = {
+		trigger = {
+			has_idea = frostborn_primary_race
+		}
+		localization_key = "Frostborn"
+	}
+	text = {
+		trigger = {
+			has_idea = fungal_giants_primary_race
+		}
+		localization_key = "Fungal Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = fungal_monster_primary_race
+		}
+		localization_key = "Fungal Monsters"
+	}
+	text = {
+		trigger = {
+			has_idea = fungarians_primary_race
+		}
+		localization_key = "Fungarians"
+	}
+	text = {
+		trigger = {
+			has_idea = furbolg_primary_race
+		}
+		localization_key = "Furbolgs"
+	}
+	text = {
+		trigger = {
+			has_idea = ghost_primary_race
+		}
+		localization_key = "Ghosts"
+	}
+	text = {
+		trigger = {
+			has_idea = gilgoblin_primary_race
+		}
+		localization_key = "Gibgblins"
+	}
+	text = {
+		trigger = {
+			has_idea = gnoll_primary_race
+		}
+		localization_key = "Gnolls"
+	}
+	text = {
+		trigger = {
+			has_idea = gnome_primary_race
+		}
+		localization_key = "Gnomes"
+	}
+	text = {
+		trigger = {
+			has_idea = goblin_primary_race
+		}
+		localization_key = "Goblins"
+	}
+	text = {
+		trigger = {
+			has_idea = goren_primary_race
+		}
+		localization_key = "Gorens"
+	}
+	text = {
+		trigger = {
+			has_idea = gorilla_primary_race
+		}
+		localization_key = "Gorillas"
+	}
+	text = {
+		trigger = {
+			has_idea = gorlocs_primary_race
+		}
+		localization_key = "Gorlocs"
+	}
+	text = {
+		trigger = {
+			has_idea = green_dragon_primary_race
+		}
+		localization_key = "Green Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = grell_primary_race
+		}
+		localization_key = "Grells"
+	}
+	text = {
+		trigger = {
+			has_idea = gronn_primary_race
+		}
+		localization_key = "Gronns"
+	}
+	text = {
+		trigger = {
+			has_idea = grummle_primary_race
+		}
+		localization_key = "Grummles"
+	}
+	text = {
+		trigger = {
+			has_idea = harpy_primary_race
+		}
+		localization_key = "Harpies"
+	}
+	text = {
+		trigger = {
+			has_idea = high_elf_primary_race
+		}
+		localization_key = "High Elves"
+	}
+	text = {
+		trigger = {
+			has_idea = highmountain_tauren_primary_race
+		}
+		localization_key = "Highmountain Taruens"
+	}
+	text = {
+		trigger = {
+			has_idea = highborne_primary_race
+		}
+		localization_key = "Higborne"
+	}
+	text = {
+		trigger = {
+			has_idea = hobgoblin_primary_race
+		}
+		localization_key = "Hobgoblins"
+	}
+	text = {
+		trigger = {
+			has_idea = hozen_primary_race
+		}
+		localization_key = "Hozen"
+	}
+	text = {
+		trigger = {
+			has_idea = human_primary_race
+		}
+		localization_key = "Humans"
+	}
+	text = {
+		trigger = {
+			has_idea = ice_giant_primary_race
+		}
+		localization_key = "Ice Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = ice_troll_primary_race
+		}
+		localization_key = "Ice Trolls"
+	}
+	text = {
+		trigger = {
+			has_idea = infinite_dragon_primary_race
+		}
+		localization_key = "Infinite Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = iron_dwarf_primary_race
+		}
+		localization_key = "Iron Dwarves"
+	}
+	text = {
+		trigger = {
+			has_idea = iron_giant_primary_race
+		}
+		localization_key = "Iron Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = iron_vrykul_primary_race
+		}
+		localization_key = "Iron Vrykuls"
+	}
+	text = {
+		trigger = {
+			has_idea = jinyu_primary_race
+		}
+		localization_key = "Jinyus"
+	}
+	text = {
+		trigger = {
+			has_idea = jungle_troll_primary_race
+		}
+		localization_key = "Jungle Trolls"
+	}
+	text = {
+		trigger = {
+			has_idea = junker_gnome_primary_race
+		}
+		localization_key = "Junker Gnomes"
+	}
+	text = {
+		trigger = {
+			has_idea = kobold_primary_race
+		}
+		localization_key = "Kobolds"
+	}
+	text = {
+		trigger = {
+			has_idea = kvaldir_primary_race
+		}
+		localization_key = "Kvaldirs"
+	}
+	text = {
+		trigger = {
+			has_idea = lashers_primary_race
+		}
+		localization_key = "Lashers"
+	}
+	text = {
+		trigger = {
+			has_idea = leper_gnome_primary_race
+		}
+		localization_key = "Leper Gnomes"
+	}
+	text = {
+		trigger = {
+			has_idea = light_forged_draenei_primary_race
+		}
+		localization_key = "Light Forged Draenei"
+	}
+	text = {
+		trigger = {
+			has_idea = lobstrok_primary_race
+		}
+		localization_key = "Lobstroks"
+	}
+	text = {
+		trigger = {
+			has_idea = lost_ones_primary_race
+		}
+		localization_key = "Lost Ones"
+	}
+	text = {
+		trigger = {
+			has_idea = maghar_orc_primary_race
+		}
+		localization_key = "Maghar Orcs"
+	}
+	text = {
+		trigger = {
+			has_idea = magnataur_primary_race
+		}
+		localization_key = "Magnaturs"
+	}
+	text = {
+		trigger = {
+			has_idea = makrura_primary_race
+		}
+		localization_key = "Makruras"
+	}
+	text = {
+		trigger = {
+			has_idea = mana_surge_primary_race
+		}
+		localization_key = "Mana Surge"
+	}
+	text = {
+		trigger = {
+			has_idea = mantid_primary_race
+		}
+		localization_key = "Mantids"
+	}
+	text = {
+		trigger = {
+			has_idea = mecha_gnome_primary_race
+		}
+		localization_key = "Mecha Gnomes"
+	}
+	text = {
+		trigger = {
+			has_idea = mist_lurker_primary_race
+		}
+		localization_key = "Mist Lurkers"
+	}
+	text = {
+		trigger = {
+			has_idea = mogu_primary_race
+		}
+		localization_key = "Mogus"
+	}
+	text = {
+		trigger = {
+			has_idea = mok_nathal_primary_race
+		}
+		localization_key = "Mok Nathals"
+	}
+	text = {
+		trigger = {
+			has_idea = mountain_giant_primary_race
+		}
+		localization_key = "Mountain Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = murloc_primary_race
+		}
+		localization_key = "Murlocs"
+	}
+	text = {
+		trigger = {
+			has_idea = naga_primary_race
+		}
+		localization_key = "Nagas"
+	}
+	text = {
+		trigger = {
+			has_idea = nerubians_primary_race
+		}
+		localization_key = "Nerubians"
+	}
+	text = {
+		trigger = {
+			has_idea = netherwing_dragon_primary_race
+		}
+		localization_key = "Netherwing Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = night_elf_primary_race
+		}
+		localization_key = "Night Elves"
+	}
+	text = {
+		trigger = {
+			has_idea = nightborne_primary_race
+		}
+		localization_key = "Nightborne"
+	}
+	text = {
+		trigger = {
+			has_idea = nightfallen_primary_race
+		}
+		localization_key = "Nightfallen"
+	}
+	text = {
+		trigger = {
+			has_idea = nightmare_dragon_primary_race
+		}
+		localization_key = "Nightmare Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = ogre_primary_race
+		}
+		localization_key = "Ogres"
+	}
+	text = {
+		trigger = {
+			has_idea = orc_primary_race
+		}
+		localization_key = "Orcs"
+	}
+	text = {
+		trigger = {
+			has_idea = pale_orc_primary_race
+		}
+		localization_key = "Pale Orcs"
+	}
+	text = {
+		trigger = {
+			has_idea = pandaren_primary_race
+		}
+		localization_key = "Pandarians"
+	}
+	text = {
+		trigger = {
+			has_idea = pygmies_primary_race
+		}
+		localization_key = "Pygmies"
+	}
+	text = {
+		trigger = {
+			has_idea = qiraji_primary_race
+		}
+		localization_key = "Qirajis"
+	}
+	text = {
+		trigger = {
+			has_idea = quilboar_primary_race
+		}
+		localization_key = "Quilboars"
+	}
+	text = {
+		trigger = {
+			has_idea = ranishu_primary_race
+		}
+		localization_key = "Ranishus"
+	}
+	text = {
+		trigger = {
+			has_idea = red_dragon_primary_race
+		}
+		localization_key = "Red Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = rock_flayer_primary_race
+		}
+		localization_key = "Rock Flayers"
+	}
+	text = {
+		trigger = {
+			has_idea = saberon_primary_race
+		}
+		localization_key = "Saberons"
+	}
+	text = {
+		trigger = {
+			has_idea = sanlayn_primary_race
+		}
+		localization_key = "Sanlayns"
+	}
+	text = {
+		trigger = {
+			has_idea = sand_gnome_primary_race
+		}
+		localization_key = "Sand Gnomes"
+	}
+	text = {
+		trigger = {
+			has_idea = sand_troll_primary_race
+		}
+		localization_key = "Sand Trolls"
+	}
+	text = {
+		trigger = {
+			has_idea = satyr_primary_race
+		}
+		localization_key = "Satyrs"
+	}
+	text = {
+		trigger = {
+			has_idea = sea_giants_primary_race
+		}
+		localization_key = "Sea Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = sethrak_primary_race
+		}
+		localization_key = "Sethraks"
+	}
+	text = {
+		trigger = {
+			has_idea = sha_primary_race
+		}
+		localization_key = "Shas"
+	}
+	text = {
+		trigger = {
+			has_idea = silithid_primary_race
+		}
+		localization_key = "Silithids"
+	}
+	text = {
+		trigger = {
+			has_idea = siren_primary_race
+		}
+		localization_key = "Sirens"
+	}
+	text = {
+		trigger = {
+			has_idea = snobold_primary_race
+		}
+		localization_key = "Snobolds"
+	}
+	text = {
+		trigger = {
+			has_idea = sporeling_primary_race
+		}
+		localization_key = "Sporlings"
+	}
+	text = {
+		trigger = {
+			has_idea = sprite_primary_race
+		}
+		localization_key = "Sprites"
+	}
+	text = {
+		trigger = {
+			has_idea = stone_giant_primary_race
+		}
+		localization_key = "Stone Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = stone_trogg_primary_race
+		}
+		localization_key = "Stone Troggs"
+	}
+	text = {
+		trigger = {
+			has_idea = storm_dragon_primary_race
+		}
+		localization_key = "Storm Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = storm_giant_primary_race
+		}
+		localization_key = "Storm Giants"
+	}
+	text = {
+		trigger = {
+			has_idea = taunka_primary_race
+		}
+		localization_key = "Taunkas"
+	}
+	text = {
+		trigger = {
+			has_idea = tauren_primary_race
+		}
+		localization_key = "Taurens"
+	}
+	text = {
+		trigger = {
+			has_idea = titan_watcher_primary_race
+		}
+		localization_key = "Titan Watchers"
+	}
+	text = {
+		trigger = {
+			has_idea = tolvir_primary_race
+		}
+		localization_key = "Tolvirs"
+	}
+	text = {
+		trigger = {
+			has_idea = tortollan_primary_race
+		}
+		localization_key = "Tortollans"
+	}
+	text = {
+		trigger = {
+			has_idea = trogg_primary_race
+		}
+		localization_key = "Troggs"
+	}
+	text = {
+		trigger = {
+			has_idea = tuskarr_primary_race
+		}
+		localization_key = "Tuskarrs"
+	}
+	text = {
+		trigger = {
+			has_idea = undead_primary_race
+		}
+		localization_key = "Undead"
+	}
+	text = {
+		trigger = {
+			has_idea = valarjar_primary_race
+		}
+		localization_key = "Valarjars"
+	}
+	text = {
+		trigger = {
+			has_idea = valkyr_primary_race
+		}
+		localization_key = "Valkyrs"
+	}
+	text = {
+		trigger = {
+			has_idea = vargul_primary_race
+		}
+		localization_key = "Varguls"
+	}
+	text = {
+		trigger = {
+			has_idea = virmen_primary_race
+		}
+		localization_key = "Virmen"
+	}
+	text = {
+		trigger = {
+			has_idea = void_elf_primary_race
+		}
+		localization_key = "Vold Elves"
+	}
+	text = {
+		trigger = {
+			has_idea = void_walker_primary_race
+		}
+		localization_key = "Void Walkers"
+	}
+	text = {
+		trigger = {
+			has_idea = vrykul_primary_race
+		}
+		localization_key = "Vrykuls"
+	}
+	text = {
+		trigger = {
+			has_idea = vulpera_primary_race
+		}
+		localization_key = "Vulpera"
+	}
+	text = {
+		trigger = {
+			has_idea = water_elemental_primary_race
+		}
+		localization_key = "Water Elementals"
+	}
+	text = {
+		trigger = {
+			has_idea = wendigo_primary_race
+		}
+		localization_key = "Wendigos"
+	}
+	text = {
+		trigger = {
+			has_idea = wildkin_primary_race
+		}
+		localization_key = "Wildkins"
+	}
+	text = {
+		trigger = {
+			has_idea = wind_elemental_primary_race
+		}
+		localization_key = "Wind Elementals"
+	}
+	text = {
+		trigger = {
+			has_idea = withered_primary_race
+		}
+		localization_key = "Withered"
+	}
+	text = {
+		trigger = {
+			has_idea = wolvar_primary_race
+		}
+		localization_key = "Wolvars"
+	}
+	text = {
+		trigger = {
+			has_idea = worgen_primary_race
+		}
+		localization_key = "Worgens"
+	}
+	text = {
+		trigger = {
+			has_idea = wretched_elf_primary_race
+		}
+		localization_key = "Wretched Elves"
+	}
+	text = {
+		trigger = {
+			has_idea = yaungol_primary_race
+		}
+		localization_key = "Yuangols"
+	}
+	text = {
+		trigger = {
+			has_idea = yeti_primary_race
+		}
+		localization_key = "Yetis"
+	}
+	text = {
+		trigger = {
+			has_idea = zandalari_troll_primary_race
+		}
+		localization_key = "Zandalari Trolls"
+	}
+	text = {
+		trigger = {
+			has_idea = mixed_primary_race
+		}
+		localization_key = "Mixed Races"
+	}
+	text = {
+		trigger = {
+			has_idea = ogron_primary_race
+		}
+		localization_key = "Ogrons"
+	}
+	text = {
+		trigger = {
+			has_idea = high_arrakoa_primary_race
+		}
+		localization_key = "High Arrakoas"
+	}
+	text = {
+		trigger = {
+			has_idea = jade_statue_primary_race
+		}
+		localization_key = "Jade Statues"
+	}
+	text = {
+		trigger = {
+			has_idea = saurok_primary_race
+		}
+		localization_key = "Sauroks"
+	}
+	text = {
+		trigger = {
+			has_idea = stone_dragon_primary_race
+		}
+		localization_key = "Stone Dragons"
+	}
+	text = {
+		trigger = {
+			has_idea = anubisath_primary_race
+		}
+		localization_key = "Anubisaths"
+	}
+	text = {
+		trigger = {
+			has_idea = aqir_primary_race
+		}
+		localization_key = "Aqirs"
+	}
+}

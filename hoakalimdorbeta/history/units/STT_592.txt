@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "Shadowtooth Axeman"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Shadowtooth Headhunter"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Shadowtooth Shaman"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 5 }
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Shadowtooth Axeman"
+		location = 12941
+		division_template = "Shadowtooth Axeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadowtooth Axeman"
+		location = 14937
+		division_template = "Shadowtooth Axeman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadowtooth Axeman"
+		location = 14926
+		division_template = "Shadowtooth Axeman"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Shadowtooth Headhunter"
+		location = 12941
+		division_template = "Shadowtooth Headhunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadowtooth Headhunter"
+		location = 14937
+		division_template = "Shadowtooth Headhunter"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadowtooth Headhunter"
+		location = 14926
+		division_template = "Shadowtooth Headhunter"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Shadowtooth Shaman"
+		location = 12941
+		division_template = "Shadowtooth Shaman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadowtooth Shaman"
+		location = 14926
+		division_template = "Shadowtooth Shaman"
+		start_experience_factor = 0.2
+	}
+	
+}
+

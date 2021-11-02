@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Hazzali Tunneler"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hazzali Stinger"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 5 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hazzali Wasp"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Hazzali Tunneler"
+		location = 9368
+		division_template = "Hazzali Tunneler"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hazzali Tunneler"
+		location = 9368
+		division_template = "Hazzali Tunneler"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hazzali Stinger"
+		location = 9368
+		division_template = "Hazzali Stinger"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hazzali Wasp"
+		location = 9368
+		division_template = "Hazzali Wasp"
+		start_experience_factor = 0.2
+	}
+	
+}
+
+air_wings = {
+	### the gaping chasm
+	938 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "HAZ"
+			amount = 30
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "HAZ"
+			amount = 10
+		}
+
+	}
+
+}

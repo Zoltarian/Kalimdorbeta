@@ -1,0 +1,141 @@
+political_actions = {
+	counter_alliance_influence = {
+		icon = generic_civil_support
+
+		days_remove = 90
+		cost = 50
+
+		visible = {
+			NOT = { has_government = alliance }
+			alliance > 0
+		}
+
+		available = {
+			alliance > 0
+		}
+
+		modifier = {
+			alliance_drift = -0.05
+		}
+	}
+
+	counter_horde_influence = {
+		icon = generic_civil_support
+
+		days_remove = 90
+		cost = 50
+
+		visible = {
+			NOT = { has_government = horde }
+			horde > 0
+		}
+
+		available = {
+			horde > 0
+		}
+
+		modifier = {
+			horde_drift = -0.05
+		}
+	}
+
+	counter_death_influence = {
+		icon = generic_civil_support
+
+		days_remove = 90
+		cost = 50
+
+		visible = {
+			NOT = { has_government = death }
+			death > 0
+		}
+
+		available = {
+			death > 0
+		}
+
+		modifier = {
+			death_drift = -0.05
+		}
+	}
+
+	counter_fel_influence = {
+		icon = generic_civil_support
+
+		days_remove = 90
+		cost = 50
+
+		visible = {
+			NOT = { has_government = fel }
+			fel > 0
+		}
+
+		available = {
+			fel > 0
+		}
+
+		modifier = {
+			fel_drift = -0.05
+		}
+	}
+
+	counter_old_gods_influence = {
+		icon = generic_civil_support
+
+		days_remove = 90
+		cost = 50
+
+		visible = {
+			NOT = { has_government = old_gods }
+			old_gods > 0
+		}
+
+		available = {
+			old_gods > 0
+		}
+
+		modifier = {
+			old_gods_drift = -0.05
+		}
+	}
+
+	counter_titans_influence = {
+		icon = generic_civil_support
+
+		days_remove = 90
+		cost = 50
+
+		visible = {
+			NOT = { has_government = titans }
+			titans > 0
+		}
+
+		available = {
+			titans > 0
+		}
+
+		modifier = {
+			titans_drift = -0.05
+		}
+	}
+
+	counter_neutral_influence = {
+		icon = generic_civil_support
+
+		days_remove = 90
+		cost = 50
+
+		visible = {
+			NOT = { has_government = neutral }
+			neutral > 0
+		}
+
+		available = {
+			neutral > 0
+		}
+
+		modifier = {
+			neutral_drift = -0.05
+		}
+	}
+}

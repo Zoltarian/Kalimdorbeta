@@ -1,0 +1,32 @@
+
+state={
+	id=1119
+	name="STATE_1119"
+	resources = {
+		oil=3
+		wood=6
+		wheat=1
+		ores=2
+	}
+
+	history={
+		owner = TAR
+		victory_points = {
+			11245 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = TAR
+
+	}
+
+	provinces={
+		3881 10837 11224 11230 11241 11245 11252 11261 11264 11269 11289 11298 11308
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

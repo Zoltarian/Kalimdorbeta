@@ -1,0 +1,32 @@
+
+state={
+	id=2127
+	name="STATE_2127"
+	resources = {
+		wheat=3
+		oil=4
+		ores=3
+	}
+
+	history={
+		owner = FAR
+		victory_points = {
+			9501 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = FAR
+
+	}
+
+	provinces={
+		8970 9479 9481 9499 9501 9502 
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

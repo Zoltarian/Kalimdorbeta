@@ -1,0 +1,81 @@
+﻿capital = 1152
+
+oob = "GDD_592"
+
+set_research_slots = 3
+
+add_ideas = {
+
+	council
+	limited_conscription
+	peacetime_economy
+	export_focus
+
+	green_dragon_primary_race
+	primary_trait_eonars_blessing
+	primary_trait_the_emerald_dream
+	primary_trait_masters_of_the_sky
+
+	primary_religion_the_titans
+
+	great_tree_guardians_idea
+}
+
+set_technology = {
+
+	dragon_roost_administration = 1
+	breeding_grounds = 1
+	dragonman_tech = 1
+	dragonman_equipment_tech = 1
+	dragon_temple_tech = 1
+	dragon_forge_tech = 1
+
+	dragon_roost_ground = 1
+	whelp_tech = 1
+	whelp_equipment_tech_1 = 1
+	dragonspawn_tech = 1
+	dragonspawn_equipment_tech_1 = 1
+	dragonspawn_sorceress_equipment_tech_1 = 1
+	drakonid_tech = 1
+	drakonid_equipment_tech_1 = 1
+	dragon_tech = 1
+	dragon_equipment_tech_1 = 1
+
+	dragon_roost_air = 1
+	combat_drakes = 1
+	fighter_drakes_1 = 1
+	cas_drakes_1 = 1
+	bomber_drakes_1 = 1
+	naval_bomber_drakes_1 = 1
+	support_drakes = 1
+	covert_drakes_1 = 1
+	supply_drakes_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = titans
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 100
+    neutral = 0
+}
+
+create_country_leader = {
+	name = "Ysondre"
+	desc = "POLITICS_YSONDRE_DESC"
+	picture = "gfx/leaders/GDD/Ysondre.dds"
+	ideology = titans_type
+	traits = {
+		#
+	}
+}

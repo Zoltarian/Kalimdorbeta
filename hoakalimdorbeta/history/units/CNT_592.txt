@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Centipaar Tunneler"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Centipaar Wasp"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Centipaar Tunneler"
+		location = 9437
+		division_template = "Centipaar Tunneler"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Centipaar Tunneler"
+		location = 9437
+		division_template = "Centipaar Tunneler"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Centipaar Wasp"
+		location = 9437
+		division_template = "Centipaar Wasp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Centipaar Wasp"
+		location = 9437
+		division_template = "Centipaar Wasp"
+		start_experience_factor = 0.2
+	}
+	
+}
+
+air_wings = {
+	### the writhing deep
+	927 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "CNT"
+			amount = 20
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "CNT"
+			amount = 15
+		}
+
+	}
+
+}

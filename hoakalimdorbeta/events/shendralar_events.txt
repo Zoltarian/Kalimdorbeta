@@ -1,0 +1,1530 @@
+﻿###########################
+# Shen'dralar
+###########################
+
+add_namespace = shendralar
+
+# The Ruined City (from SHD_the_ruined_city_nf)
+country_event = {
+	id = shendralar.1
+	title = shendralar.1.t
+	desc = shendralar.1.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Workshops
+	option = {
+		name = shendralar.1.option.1
+
+		82 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+	# Arms Factory
+	option = {
+		name = shendralar.1.option.2
+
+		82 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+	# Roads
+	option = {
+		name = shendralar.1.option.3
+
+		82 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		1293 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+# Fate of the Wildspawn Satyrs (from SHD_treacherous_neighborhood_nf)
+country_event = {
+	id = shendralar.2
+	title = shendralar.2.t
+	desc = shendralar.2.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Attack them
+	option = {
+		name = shendralar.2.option.1
+
+		create_wargoal = {
+			type = annex_everything
+			target = WSS
+		}
+	}
+
+	# Ask them to join us
+	option = {
+		name = shendralar.2.option.2
+
+		WSS = {
+			country_event = shendralar.3
+		}
+	}
+}
+
+# An Unexpected Invitation (from shendralar.2.option.2)
+country_event = {
+	id = shendralar.3
+	title = shendralar.3.t
+	desc = shendralar.3.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#WSS accepting SHD offer
+	option = {
+		name = shendralar.3.option.1
+
+		SHD = {
+			country_event = shendralar.4
+		}
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 90
+				has_government = SHD
+			}
+		}
+	}
+
+	#WSS refusing SHD offer
+	option = {
+		name = shendralar.3.option.2
+
+		SHD = {
+			country_event = shendralar.5
+		}
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 90
+				NOT = {
+					has_government = SHD
+				}
+			}
+		}
+	}
+}
+
+# The Wildspawn accept! (from shendralar.3.option.1)
+country_event = {
+	id = shendralar.4
+	title = shendralar.4.t
+	desc = shendralar.4.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.4.option.1
+
+		annex_country = {
+	    target = WSS
+	    transfer_troops = yes
+		}
+		add_ideas = satyr_secondary_race
+	}
+}
+
+# The Wildspawn refuse! (from shendralar.3.option.2)
+country_event = {
+	id = shendralar.5
+	title = shendralar.5.t
+	desc = shendralar.5.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.5.option.1
+
+		add_political_power = -10
+	}
+
+	option = {
+		name = shendralar.5.option.2
+
+		create_wargoal = {
+			type = annex_everything
+			target = WSS
+		}
+	}
+}
+
+# Highborne Legacy (from SHD_highborne_legacy_nf)
+country_event = {
+	id = shendralar.6
+	title = shendralar.6.t
+	desc = shendralar.6.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Conquer path
+	option = {
+		name = shendralar.6.option.1
+
+		add_political_power = 50
+		add_war_support = 0.05
+		swap_ideas = {
+			remove_idea = isolation
+			add_idea = early_military_development
+		}
+		custom_effect_tooltip = shendralar.6.option.1.d
+	}
+
+	#Isolationist path (aka. lame path)
+	option = {
+		name = shendralar.6.option.2
+
+		set_country_flag = SHD_remain_in_isolation_flag
+		add_political_power = 100
+		add_ideas = SHD_remain_isolated_idea
+
+		custom_effect_tooltip = shendralar.6.option.2.d
+	}
+}
+
+# Containment Breach! (from immolthar_containment)
+country_event = {
+	id = shendralar.7
+	title = shendralar.7.t
+	desc = shendralar.7.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Conquer path
+	option = {
+		name = shendralar.7.option.1
+	}
+}
+
+# The Shen'dralar (show at startup)
+country_event = {
+	id = shendralar.8
+	title = shendralar.8.t
+	desc = shendralar.8.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Conquer path
+	option = {
+		name = shendralar.8.option.1
+
+		country_event = shendralar.9
+	}
+}
+
+# The Cost of Immortality (from shendralar.8)
+country_event = {
+	id = shendralar.9
+	title = shendralar.9.t
+	desc = shendralar.9.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Conquer path
+	option = {
+		name = shendralar.9.option.1
+
+		custom_effect_tooltip = shendralar.9.option.1.d
+	}
+}
+
+# Well, actually the second event you should get, but I designed that later (from SHD_internal_divisions_nf)
+country_event = {
+	id = shendralar.10
+	title = shendralar.10.t
+	desc = shendralar.10.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Offense
+	option = {
+		name = shendralar.10.option.1
+
+		add_popularity = {
+	    ideology = fel
+	    popularity = 0.1
+		}
+		add_ideas = SHD_offensive_spells_idea
+	}
+
+	# Defense
+	option = {
+		name = shendralar.10.option.2
+
+		add_popularity = {
+	    ideology = neutral
+	    popularity = 0.05
+		}
+		add_ideas = SHD_defensive_spells_idea
+	}
+
+	# The Prince is right
+	option = {
+		name = shendralar.10.option.3
+
+		add_stability = 0.05
+		add_ideas = SHD_prepared_arcanists_idea
+	}
+}
+
+# Well, actually the third event you should get, but I designed that later (from SHD_greatest_arcanists_nf)
+country_event = {
+	id = shendralar.11
+	title = shendralar.11.t
+	desc = shendralar.11.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Focus on research (court idea)
+	option = {
+		name = shendralar.11.option.1
+
+		swap_ideas = {
+	    remove_idea = SHD_arcanic_knowledge_idea
+	    add_idea = SHD_arcanic_knowledge_2_idea
+		}
+
+		add_popularity = {
+	    ideology = neutral
+	    popularity = 0.05
+		}
+	}
+
+	# Focus on arcanists (cultist idea)
+	option = {
+		name = shendralar.11.option.2
+
+		random_owned_state = {
+			add_building_construction = {
+				type = arcane_tower
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		add_tech_bonus = {
+	    bonus = 0.5
+	    uses = 1
+	    category = arcane_tower_technology
+		}
+		add_tech_bonus = {
+	    bonus = 0.5
+	    uses = 1
+	    category = mage_technology
+		}
+		add_tech_bonus = {
+	    bonus = 0.5
+	    uses = 1
+	    category = priest_technology
+		}
+
+		add_popularity = {
+	    ideology = fel
+	    popularity = 0.05
+		}
+	}
+
+	# Focus on the prison
+	option = {
+		name = shendralar.11.option.3
+
+		add_days_mission_timeout = {
+			mission = immolthar_containment_mission
+			days = 60
+		}
+	}
+}
+
+# Appeasing the ghosts (from SHD_greatest_arcanists_nf)
+country_event = {
+	id = shendralar.12
+	title = shendralar.12.t
+	desc = shendralar.12.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Declare war on the ghosts
+	option = {
+		name = shendralar.12.option.1
+
+		create_wargoal = {
+			type = annex_everything
+			target = DMG
+		}
+
+		SHD = {
+			set_country_flag = SHD_attacked_the_ghosts_flag
+		}
+	}
+
+	# Appease Ghosts - Cheap but slow option
+	option = {
+		name = shendralar.12.option.2
+
+		trigger = {
+			DMG = {
+				is_ai = yes
+			}
+		}
+
+		add_political_power = -100
+		custom_effect_tooltip = shendralar.12.option.2.d
+		hidden_effect = {
+			random_list = {
+		    90 = { #Win
+					country_event = {
+						id = shendralar.14
+						days = 14
+					}
+		    }
+		    10 = { #Loose
+		    	country_event = {
+						id = shendralar.13
+						days = 14
+					}
+		    }
+			}
+		}
+	}
+
+	# Appease Ghosts - Expensive but quick option
+	option = {
+		name = shendralar.12.option.3
+
+		trigger = {
+			DMG = {
+				is_ai = yes
+			}
+		}
+
+		add_political_power = -200
+		custom_effect_tooltip = shendralar.12.option.3.d
+		hidden_effect = {
+			random_list = {
+		    95 = { #Win
+					country_event = {
+						id = shendralar.14
+						days = 1
+					}
+		    }
+		    5 = { #Loose
+		    	country_event = {
+						id = shendralar.13
+						days = 1
+					}
+		    }
+			}
+		}
+	}
+}
+
+# Appeasing the ghosts failed (shendralar.12)
+# Basically like previous
+country_event = {
+	id = shendralar.13
+	title = shendralar.13.t
+	desc = shendralar.13.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Declare war on the ghosts
+	option = {
+		name = shendralar.13.option.1
+
+		create_wargoal = {
+			type = annex_everything
+			target = DMG
+		}
+
+		set_country_flag = SHD_attacked_the_ghosts_flag
+	}
+
+	# Appease Ghosts - Cheap but slow option
+	option = {
+		name = shendralar.13.option.2
+
+		trigger = {
+			DMG = {
+				is_ai = yes
+			}
+		}
+
+		add_political_power = -100
+		custom_effect_tooltip = shendralar.12.option.2.d
+		hidden_effect = {
+			random_list = {
+		    90 = { #Win
+					country_event = {
+						id = shendralar.14
+						days = 14
+					}
+		    }
+		    10 = { #Loose
+		    	country_event = {
+						id = shendralar.13
+						days = 14
+					}
+		    }
+			}
+		}
+	}
+
+	# Appease Ghosts - Expensive but quick option
+	option = {
+		name = shendralar.13.option.3
+
+		trigger = {
+			DMG = {
+				is_ai = yes
+			}
+		}
+
+		add_political_power = -200
+		custom_effect_tooltip = shendralar.12.option.3.d
+		hidden_effect = {
+			random_list = {
+		    95 = { #Win
+					country_event = {
+						id = shendralar.14
+						days = 1
+					}
+		    }
+		    5 = { #Loose
+		    	country_event = {
+						id = shendralar.13
+						days = 1
+					}
+		    }
+			}
+		}
+	}
+}
+
+# The ghosts are appeased! (from shendralar.12.option.1 / 2 OR shendralar.13.option.1 / 2)
+country_event = {
+	id = shendralar.14
+	title = shendralar.14.t
+	desc = shendralar.14.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.14.option.1
+
+		set_country_flag = SHD_appeased_the_ghosts_flag
+
+		annex_country = {
+	    target = DMG
+	    transfer_troops = yes
+		}
+	}
+}
+
+# The Deal of Solarsal (from SHD_the_deal_for_solarsal_nf)
+country_event = {
+	id = shendralar.15
+	title = shendralar.15.t
+	desc = shendralar.15.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#No deal
+	option = {
+		name = shendralar.15.option.1
+
+		create_wargoal = {
+			type = annex_everything
+			target = KAL
+		}
+	}
+
+	#Deal 1
+	option = {
+		name = shendralar.15.option.2
+
+		custom_effect_tooltip = shendralar.15.option.2.d
+		#Used in shendralar.16
+		set_global_flag = SHD_solarsal_deal_1_flag
+
+		KAL = {
+			country_event = {
+				id = shendralar.16
+				days = 7
+			}
+		}
+	}
+
+	#Deal 2
+	option = {
+		name = shendralar.15.option.3
+
+		custom_effect_tooltip = shendralar.15.option.3.d
+		#Used in shendralar.16
+		set_global_flag = SHD_solarsal_deal_2_flag
+
+		KAL = {
+			country_event = {
+				id = shendralar.16
+				days = 7
+			}
+		}
+	}
+
+	#Deal 1 + 2
+	option = {
+		name = shendralar.15.option.4
+
+		custom_effect_tooltip = shendralar.15.option.4.d
+		#Used in shendralar.16
+		set_global_flag = SHD_solarsal_deal_3_flag
+
+		KAL = {
+			country_event = {
+				id = shendralar.16
+				days = 7
+			}
+		}
+	}
+}
+
+# Offer to KAL (from shendralar.15)
+country_event = {
+	id = shendralar.16
+	title = shendralar.16.t
+	desc = shendralar.16.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Yes
+	option = {
+		name = shendralar.16.option.1
+		custom_effect_tooltip = shendralar.16.option.1.d
+
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 85
+				has_government = SHD
+			}
+			modifier = {
+				factor = 80
+				NOT = { has_government = SHD }
+				has_global_flag = SHD_solarsal_deal_3_flag
+			}
+			modifier = {
+				factor = 99
+				has_government = SHD
+				has_global_flag = SHD_solarsal_deal_3_flag
+			}
+		}
+
+		if = {
+			limit = {
+				has_global_flag = SHD_solarsal_deal_1_flag
+			}
+			custom_effect_tooltip = SHD_solarsal_deal_1_effects_tt
+		}
+		else_if = {
+			limit = {
+				has_global_flag = SHD_solarsal_deal_2_flag
+			}
+			custom_effect_tooltip = SHD_solarsal_deal_2_effects_tt
+		}
+		else_if = {
+			limit = {
+				has_global_flag = SHD_solarsal_deal_3_flag
+			}
+			custom_effect_tooltip = SHD_solarsal_deal_3_effects_tt
+		}
+
+		custom_effect_tooltip = shendralar.16.option.1.d.2
+
+		SHD = {
+			country_event = {
+				id = shendralar.17
+				days = 7
+			}
+		}
+	}
+
+	#No
+	option = {
+		name = shendralar.16.option.2
+
+		SHD = {
+			country_event = {
+				id = shendralar.18
+				days = 7
+			}
+		}
+
+		#This is mainly for debug purposes
+		clr_global_flag = SHD_solarsal_deal_1_flag
+		clr_global_flag = SHD_solarsal_deal_2_flag
+		clr_global_flag = SHD_solarsal_deal_3_flag
+	}
+}
+
+# KAL accepts the offer! (from shendralar.16)
+country_event = {
+	id = shendralar.17
+	title = shendralar.17.t
+	desc = shendralar.17.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.17.option.1
+
+		if = {
+			limit = {
+				has_global_flag = SHD_solarsal_deal_1_flag
+			}
+
+			add_political_power = -250
+			KAL = {
+				add_political_power = 250
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag = SHD_solarsal_deal_2_flag
+			}
+
+			add_timed_idea = {
+				idea = SHD_deal_for_solarsal_SHD_idea
+				days = 90
+			}
+			KAL = {
+				add_timed_idea = {
+					idea = SHD_deal_for_solarsal_KAL_idea
+					days = 90
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag = SHD_solarsal_deal_3_flag
+			}
+
+			add_political_power = -250
+			add_timed_idea = {
+				idea = SHD_deal_for_solarsal_SHD_idea
+				days = 90
+			}
+			KAL = {
+				add_political_power = 250
+				add_timed_idea = {
+					idea = SHD_deal_for_solarsal_KAL_idea
+					days = 90
+				}
+			}
+		}
+
+		SHD = {
+			transfer_state = 1146
+			transfer_state = 1147
+			transfer_state = 1148
+			transfer_state = 2108
+		}
+
+		#This is mainly for debug purposes
+		clr_global_flag = SHD_solarsal_deal_1_flag
+		clr_global_flag = SHD_solarsal_deal_2_flag
+		clr_global_flag = SHD_solarsal_deal_3_flag
+	}
+}
+
+# KAL refuses the offer! (from shendralar.16)
+country_event = {
+	id = shendralar.18
+	title = shendralar.18.t
+	desc = shendralar.18.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Too bad
+	option = {
+		name = shendralar.18.option.1
+
+		add_political_power = -100
+		add_stability = -0.05
+		add_war_support = 0.05
+	}
+
+	#Well war it is
+	option = {
+		name = shendralar.18.option.2
+
+		create_wargoal = {
+			type = annex_everything
+			target = KAL
+		}
+	}
+}
+
+# Finding books monthly tick (from shendralar.19)
+country_event = {
+	id = shendralar.19
+	title = shendralar.19.t
+	desc = shendralar.19.d
+
+	is_triggered_only = yes
+	fire_only_once = no
+	hidden = yes
+
+	immediate = {
+		random_list = {
+			50 = {
+				#nothing
+			}
+			50 = {
+				add_to_variable = {
+					var = SHD_finding_book_tick
+					value = 1
+				}
+			}
+		}
+
+		#Effects happen everytime the variable gets to 3
+		if = {
+			limit = {
+				check_variable = {
+					var = SHD_finding_book_tick
+					value = 3
+					compare = equals
+				}
+			}
+			#Reset variable
+			set_variable = {
+				var = SHD_finding_book_tick
+				value = 0
+			}
+			#Set variable so the event get the right effect
+			random_list = {
+				34 = {
+					set_variable = {
+						var = SHD_book_effect
+						value = administration_bonus
+					}
+				}
+				33 = {
+					set_variable = {
+						var = SHD_book_effect
+						value = doctrine_bonus
+					}
+				}
+				33 = {
+					set_variable = {
+						var = SHD_book_effect
+						value = troops_bonus
+					}
+				}
+			}
+			#Fire the visible event
+			country_event = shendralar.20
+		}
+	}
+}
+
+# Finding books (from shendralar.19)
+country_event = {
+	id = shendralar.20
+	title = shendralar.20.t
+	desc = shendralar.20.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Use book (i.e. give research bonus)
+	option = {
+		name = shendralar.20.option.1
+
+		if = {
+			limit = {
+				check_variable = { var_name = administration_bonus }
+			}
+			random_list = {
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = peasant_tools_technology
+					}
+				}
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = blacksmith_technology
+					}
+				}
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = tailor_technology
+					}
+				}
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = city_growth_technology
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { var_name = doctrine_bonus }
+			}
+			random_list = {
+				20 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = land_doctrine
+					}
+				}
+				20 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = naval_doctrine
+					}
+				}
+				20 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = naval_technology
+					}
+				}
+				20 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = air_doctrine
+					}
+				}
+				20 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = air_technology
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { var_name = troops_bonus }
+			}
+			random_list = {
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = infantry_technology
+					}
+				}
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = cavalry_technology
+					}
+				}
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = siege_works_technology
+					}
+				}
+				25 = {
+					add_tech_bonus = {
+				    bonus = 0.5
+				    uses = 1
+				    category = altar_technology
+					}
+				}
+			}
+		}
+	}
+
+	#Consume book (i.e. extend Immol'thar prison mission)
+	option = {
+		name = shendralar.20.option.2
+
+		add_days_mission_timeout = {
+			mission = immolthar_containment_mission
+			days = 30
+		}
+	}
+}
+
+# Catastrophe (from Looking for Solutions phase 2)
+country_event = {
+	id = shendralar.21
+	title = shendralar.21.t
+	desc = shendralar.21.d
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	option = {
+		name = shendralar.21.option.1
+
+		custom_effect_tooltip = SHD_loose_all_insights_tt
+		set_variable = { insight_amount = 0 }
+	}
+}
+
+# Research stalling (from Looking for Solutions phase 2)
+country_event = {
+	id = shendralar.22
+	title = shendralar.22.t
+	desc = shendralar.22.d
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	option = {
+		name = shendralar.22.option.1
+	}
+}
+
+# Research progress (from Looking for Solutions phase 2)
+country_event = {
+	id = shendralar.23
+	title = shendralar.23.t
+	desc = shendralar.23.d
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	option = {
+		name = shendralar.23.option.1
+
+		custom_effect_tooltip = SHD_one_insights_tt
+		add_to_variable = { insight_amount = 1 }
+	}
+}
+
+# Research breakthrough (from Looking for Solutions phase 2)
+country_event = {
+	id = shendralar.24
+	title = shendralar.24.t
+	desc = shendralar.24.d
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	option = {
+		name = shendralar.24.option.1
+
+		custom_effect_tooltip = SHD_breakthrough_insights_tt
+		add_to_variable = { insight_amount = 2 }
+	}
+}
+
+# Discovery! (from Looking for Solutions phase 2)
+country_event = {
+	id = shendralar.25
+	title = shendralar.25.t
+	desc = shendralar.25.d
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	option = {
+		name = shendralar.25.option.1
+
+		if = {
+			limit = {
+				check_variable = { discovery_tick = 1 }
+			}
+			custom_effect_tooltip = SHD_imperfect_solution_tt
+			show_ideas_tooltip = SHD_imperfect_solution_idea
+		}
+		else_if = {
+			limit = {
+				has_country_flag = SHD_mana_gathering_enhancer_tick
+			}
+			if = {
+				limit = {
+					check_variable = { discovery_tick = 2 }
+				}
+				custom_effect_tooltip = SHD_mana_gathering_enhancer_1_tt
+				show_ideas_tooltip = SHD_imperfect_mana_gathering_enhancer_idea
+			}
+			else_if = {
+				limit = {
+					check_variable = { mana_gathering_enhancer_tier = 2 }
+				}
+				custom_effect_tooltip = SHD_mana_gathering_enhancer_2_tt
+				show_ideas_tooltip = SHD_improved_mana_gathering_enhancer_idea
+			}
+			else_if = {
+				limit = {
+					check_variable = { mana_gathering_enhancer_tier = 3 }
+				}
+				custom_effect_tooltip = SHD_mana_gathering_enhancer_3_tt
+				show_ideas_tooltip = SHD_perfect_mana_gathering_enhancer_idea
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { discovery_tick = 3 }
+			}
+			if = {
+				limit = {
+					check_variable = { mana_catalyzer_tier = 1 }
+				}
+				custom_effect_tooltip = SHD_mana_catalyzer_1_tt
+				show_ideas_tooltip = SHD_imcomplete_mana_catalyzer_idea
+			}
+			else_if = {
+				limit = {
+					check_variable = { mana_catalyzer_tier = 2 }
+				}
+				custom_effect_tooltip = SHD_mana_catalyzer_2_tt
+				show_ideas_tooltip = SHD_superior_mana_catalyzer_idea
+			}
+			else_if = {
+				limit = {
+					check_variable = { mana_catalyzer_tier = 3 }
+				}
+				custom_effect_tooltip = SHD_mana_catalyzer_3_tt
+				show_ideas_tooltip = SHD_perfected_mana_catalyzer_idea
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { discovery_tick = 4 }
+			}
+			if = {
+				limit = {
+					check_variable = { energy_stabilizer_tier = 1 }
+				}
+				custom_effect_tooltip = SHD_energy_stabilizer_1_tt
+				show_ideas_tooltip = SHD_basic_energy_stabilizer_idea
+			}
+			else_if = {
+				limit = {
+					check_variable = { energy_stabilizer_tier = 2 }
+				}
+				custom_effect_tooltip = SHD_energy_stabilizer_2_tt
+				show_ideas_tooltip = SHD_perfected_energy_stabilizer_idea
+			}
+			else_if = {
+				limit = {
+					check_variable = { energy_stabilizer_tier = 3 }
+				}
+				custom_effect_tooltip = SHD_energy_stabilizer_3_tt
+				show_ideas_tooltip = SHD_flawless_energy_stabilizer_idea
+			}
+		}
+	}
+}
+
+# Looming Catastrophe (Imperfect solution established)
+country_event = {
+	id = shendralar.26
+	title = shendralar.26.t
+	desc = shendralar.26.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.26.option.1
+	}
+}
+
+# Relieved at last! (good solutions)
+country_event = {
+	id = shendralar.27
+	title = shendralar.27.t
+	desc = shendralar.27.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.27.option.1
+
+		add_stability = 0.05
+	}
+}
+
+# Fate of the Dreamers (from SHD_the_dream_bough_nf)
+country_event = {
+	id = shendralar.28
+	title = shendralar.28.t
+	desc = shendralar.28.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Ask them to leave
+	option = {
+		name = shendralar.28.option.1
+		custom_effect_tooltip = shendralar.28.option.1.d
+
+		GDD = {
+			country_event = shendralar.29
+		}
+	}
+
+	#Ask them leave the state but keep control over the tree
+	option = {
+		name = shendralar.28.option.2
+		custom_effect_tooltip = shendralar.28.option.2.d
+
+		GDD = {
+			country_event = shendralar.30
+		}
+	}
+
+	#War!
+	option = {
+		name = shendralar.28.option.3
+		custom_effect_tooltip = shendralar.28.option.3.d
+
+		create_wargoal = {
+			type = annex_everything
+			target = GDD
+		}
+	}
+
+	#Do nothing
+	option = {
+		name = shendralar.28.option.4
+		custom_effect_tooltip = shendralar.28.option.4.d
+
+		unlock_national_focus = SHD_the_dream_bough_nf
+		unlock_national_focus = SHD_dealing_with_the_tree_nf
+	}
+}
+
+# Asking GDD to leave completely (from shendralar.28)
+country_event = {
+	id = shendralar.29
+	title = shendralar.29.t
+	desc = shendralar.29.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Yes
+	option = {
+		name = shendralar.29.option.1
+
+		ai_chance = {
+			factor = 70
+		}
+
+		SHD = {
+			set_country_flag = SHD_GDD_left_totally_flag
+
+			country_event = shendralar.31
+		}
+	}
+
+	#No
+	option = {
+		name = shendralar.29.option.2
+
+		SHD = {
+			country_event = shendralar.32
+		}
+	}
+}
+
+# Asking GDD to leave partially (from shendralar.28)
+country_event = {
+	id = shendralar.30
+	title = shendralar.30.t
+	desc = shendralar.30.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Yes
+	option = {
+		name = shendralar.30.option.1
+
+		ai_chance = {
+			factor = 90
+		}
+
+		SHD = {
+			set_country_flag = SHD_GDD_left_partially_flag
+
+			country_event = shendralar.31
+		}
+	}
+
+	#No
+	option = {
+		name = shendralar.30.option.2
+
+		SHD = {
+			country_event = shendralar.32
+		}
+	}
+}
+
+# GDD accepts! (from shendralar.29/30)
+country_event = {
+	id = shendralar.31
+	title = shendralar.31.t
+	desc = shendralar.31.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Good
+	option = {
+		name = shendralar.31.option.1
+
+		if = {
+			limit = {
+				has_country_flag = SHD_GDD_left_totally_flag
+			}
+			# Give owernship of 1152 as well as changing race and religion
+			transfer_state = 1152
+
+			1152 = {
+				set_state_race_to_primary_race = yes
+				set_state_religion_to_primary_religion = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = SHD_GDD_left_partially_flag
+			}
+			# Just give ownership of 1152
+			transfer_state = 1152
+		}
+	}
+}
+
+# GDD refuse! (from shendralar.29/30)
+country_event = {
+	id = shendralar.32
+	title = shendralar.32.t
+	desc = shendralar.32.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Do nothing
+	option = {
+		name = shendralar.32.option.1
+
+		unlock_national_focus = SHD_the_dream_bough_nf
+		unlock_national_focus = SHD_dealing_with_the_tree_nf
+	}
+
+	#War it is
+	option = {
+		name = shendralar.32.option.2
+
+		create_wargoal = {
+			type = annex_everything
+			target = GDD
+		}
+	}
+}
+
+# The Dream Bough (from SHD_dealing_with_the_tree_nf)
+country_event = {
+	id = shendralar.33
+	title = shendralar.33.t
+	desc = shendralar.33.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Let it be
+	option = {
+		name = shendralar.33.option.1
+
+		add_political_power = 150
+	}
+
+	#Drawing power
+	option = {
+		name = shendralar.33.option.2
+
+		add_resource = {
+    type = mana
+	    amount = 10
+	    state = 1152
+		}
+	}
+
+	#Drawing power but more
+	option = {
+		name = shendralar.33.option.3
+
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_government = death
+						has_government = fel
+						has_government = old_gods
+					}
+				}
+			}
+			add_stability = -0.1
+		}
+
+		reverse_add_opinion_modifier = {
+	    target = GDF
+	    modifier = SHD_siphoned_dream_bough
+		}
+		reverse_add_opinion_modifier = {
+	    target = GDD
+	    modifier = SHD_siphoned_dream_bough
+		}
+		reverse_add_opinion_modifier = {
+	    target = GDS
+	    modifier = SHD_siphoned_dream_bough
+		}
+		reverse_add_opinion_modifier = {
+	    target = GTG
+	    modifier = SHD_siphoned_dream_bough
+		}
+		reverse_add_opinion_modifier = {
+	    target = GTH
+	    modifier = SHD_siphoned_dream_bough
+		}
+		reverse_add_opinion_modifier = {
+	    target = GSR
+	    modifier = SHD_siphoned_dream_bough
+		}
+
+		add_resource = {
+    type = mana
+	    amount = 25
+	    state = 1152
+		}
+	}
+}
+
+# A New Power on the World Stage (from SHD_on_our_own_nf)
+country_event = {
+	id = shendralar.34
+	title = shendralar.34.t
+	desc = shendralar.34.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.34.option.1
+
+		create_faction = "Highborne Hegemony"
+	}
+
+	option = {
+		name = shendralar.34.option.2
+
+		create_faction = "Kalimdor Prosperity Sphere"
+	}
+
+	option = {
+		name = shendralar.34.option.3
+
+		create_faction = "League of Eldre'Thalas"
+	}
+}

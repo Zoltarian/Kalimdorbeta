@@ -1,0 +1,188 @@
+# Code made by Yard1/EAW team
+#Modified documentation and code for HoA by Zoltarian
+# 1. In this file
+#    a) copy an existing line (ctrl+f CEN) for a commented out example including female and navy portraits
+#	 b) change to desired naming sceam IE set_unit_leader_to_ogre_BRC (to add ogres to blackrock clan)
+#    c) change the NAME, and SURNAME to =Get_RACE_Name (these are all set up you can check naming schemes for you race in step 2 if you need help)
+#    D) change the PORTRAIT = name to whatever you want following the name scame (youll need to use this name scheme in step 2)
+#
+# getting names and portraits
+# 2. In common/on_actions/hoa_race_scripted_localisation.txt:
+#    a) head to the bottom of the file and copy an existing portraits bracket. change it to fit the number or portraits you have and use the name scheme from step 1
+#	 b) record the number of portraits you listed
+#	 c) 2nd make sure your race has names setup, head over the common/names and port them over if not or do the research to make them yourself
+#	 D) identify the number of names for every value you need (male/female/lastnames etc)
+#	 E) port the relevant info into the code you copied in step 1
+#
+# 3. In interface/hoa_portraits:
+#    a) copy an existing line and change it to relevant data
+#    b) this allows the code to call your portraits through scripted text
+#
+# 4. In common/on_actions/00_hoa_multiple_race_Generals.txt:
+#    a) copy and paste an existing Else_if bracket
+#	 b) change random list to desired % and add as many outcomes as you need (most nations wont have more then 3 races)
+#	 c) add the #set_unit_leader_to_example code string you made in step 1 to replace whatever existed
+#	 d) launch up the game and see if it works
+
+# these are required to making everything else work (idk what the logic behind it is but dont mess with it)
+get_random_name_idx = {
+	subtract_from_temp_variable = {
+		name_idx = 1
+	}
+	multiply_temp_variable = {
+		name_idx = random
+	}
+	round_temp_variable = name_idx
+	add_to_temp_variable = {
+		name_idx = 1
+	}
+}
+
+# expects surname_idx temp var
+get_random_surname_idx = {
+	subtract_from_temp_variable = {
+		surname_idx = 1
+	}
+	multiply_temp_variable = {
+		surname_idx = random
+	}
+	round_temp_variable = surname_idx
+	add_to_temp_variable = {
+		surname_idx = 1
+	}
+}
+
+#triggers start below
+
+set_unit_leader_to_murloc_ARK = {
+
+	set_temp_variable = {
+		name_idx = 7 #number of first name for this race in the scirpted loc list
+	}
+	get_random_name_idx = yes
+	set_temp_variable = {
+		surname_idx = 4 #number of last name for this race in the scirpted loc list
+	}
+	get_random_surname_idx = yes
+	meta_effect = {
+		text = {
+			set_leader_name = "[NAME] [SURNAME]"
+		}
+		NAME = "[?name_idx.Get_Murloc_Name]"
+		SURNAME = "[?surname_idx.Get_Murloc_Surname]"
+	}
+
+	set_temp_variable = {
+		name_idx = 2 # this is the number of portraits in the scirpted loc list
+	}
+	get_random_name_idx = yes
+	meta_effect = {
+		text = {
+			set_leader_portrait = "[PORTRAIT]"
+		}
+		PORTRAIT = "[?name_idx.Get_ARK_murloc_portrait]"
+	}
+
+}
+
+set_unit_leader_to_makrura_ARK = {
+
+	set_temp_variable = {
+		name_idx = 7 #number of first name for this race in the scirpted loc list
+	}
+	get_random_name_idx = yes
+	set_temp_variable = {
+		surname_idx = 6 #number of last name for this race in the scirpted loc list
+	}
+	get_random_surname_idx = yes
+	meta_effect = {
+		text = {
+			set_leader_name = "[NAME] [SURNAME]"
+		}
+		NAME = "[?name_idx.Get_Makrura_Name]"
+		SURNAME = "[?surname_idx.Get_Makrura_Surname]"
+	}
+
+	set_temp_variable = {
+		name_idx = 1 # this is the number of portraits in the scirpted loc list
+	}
+	get_random_name_idx = yes
+	meta_effect = {
+		text = {
+			set_leader_portrait = "[PORTRAIT]"
+		}
+		PORTRAIT = "[?name_idx.Get_ARK_makrura_portrait]"
+	}
+
+}
+
+
+
+set_unit_leader_to_ancient_CEN = {
+	#if = { #there is no female ancients
+	#	limit = {
+	#		is_female = yes
+	#	}
+	#	set_temp_variable = {
+	#		name_idx = 8
+	#	}
+	#	get_random_name_idx = yes
+	#	set_temp_variable = {
+	#		surname_idx = 24
+	#	}
+	#	get_random_surname_idx = yes
+	#	meta_effect = {
+	#		text = {
+	#			set_leader_name = "[NAME] [SURNAME]"
+	#		}
+	#		NAME = "[?name_idx.GetDiamondDogFemaleName]"
+	#		SURNAME = "[?surname_idx.GetDiamondDogSurname]"
+	#	}
+	#	set_leader_portrait = "GFX_portrait_dog_generic_8"
+	#}
+	#else = { removing this as there is no women ancients so there is no if or else statement
+		set_temp_variable = {
+			name_idx = 4 #number of first name for this race in the scirpted loc list
+		}
+		get_random_name_idx = yes
+		set_temp_variable = {
+			surname_idx = 5 #number of last name for this race in the scirpted loc list
+		}
+		get_random_surname_idx = yes
+		meta_effect = {
+			text = {
+				set_leader_name = "[NAME] [SURNAME]"
+			}
+			NAME = "[?name_idx.Get_Ancient_Name]"
+			SURNAME = "[?surname_idx.Get_Ancient_Surname]"
+		}
+		#if = { there is no navy leader portraits
+		#	limit = {
+		#		is_navy_leader = yes
+		#	}
+		#	set_temp_variable = {
+		#		name_idx = 6
+		#	}
+		#	get_random_name_idx = yes
+		#	meta_effect = {
+		#		text = {
+		#			set_leader_portrait = "[PORTRAIT]"
+		#		}
+		#		PORTRAIT = "[?name_idx.Get_BRZ_army_male_portrait]"
+		#	}
+		#}
+		#else = { there is no unique navy/land portraits for ancients
+			set_temp_variable = {
+				name_idx = 6 # this is the number of portraits in the scirpted loc list
+			}
+			get_random_name_idx = yes
+			meta_effect = {
+				text = {
+					set_leader_portrait = "[PORTRAIT]"
+				}
+				PORTRAIT = "[?name_idx.Get_CEN_ancient_portrait]"
+			}
+		#} removed as its part of an else bracket that isnt needed
+	#} removed as its part of an else bracket that isnt needed
+
+}

@@ -1,0 +1,90 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+BDT = {
+
+	female = {
+		names = { "Sirana" "Ulga" "Fury" "Ragi" "Hagatha" "Dawn" "Agna" "Akara" "Serena" "Leasan" "Subonn" }
+		surnames =  { "Talonscreech" "Daggerquil" "Deathsong" "Dusktalon" "Rathtalon" "Hatetalon" }
+		callsigns = { }
+	}
+
+	surnames = { }
+	callsigns = { }
+}
+
+DWT = {
+
+	female = {
+		names = { "Sirana" "Ulga" "Fury" "Ragi" "Hagatha" "Dawn" "Agna" "Akara" "Serena" "Leasan" "Subonn" }
+		surnames =  { "Talonscreech" "Daggerquil" "Deathsong" "Dusktalon" "Rathtalon" "Hatetalon" }
+		callsigns = { }
+	}
+
+	surnames = { }
+	callsigns = { }
+}
+
+NST = {
+
+	female = {
+		names = { "Sirana" "Ulga" "Fury" "Ragi" "Hagatha" "Dawn" "Agna" "Akara" "Serena" "Leasan" "Subonn" }
+		surnames =  { "Talonscreech" "Daggerquil" "Deathsong" "Dusktalon" "Rathtalon" "Hatetalon" }
+		callsigns = { }
+	}
+
+	surnames = { }
+	callsigns = { }
+}
+
+SCR = {
+
+	female = {
+		names = { "Sirana" "Ulga" "Fury" "Ragi" "Hagatha" "Dawn" "Agna" "Akara" "Serena" "Leasan" "Subonn" }
+		surnames =  { "Talonscreech" "Daggerquil" "Deathsong" "Dusktalon" "Rathtalon" "Hatetalon" }
+		callsigns = { }
+	}
+
+	surnames = { }
+	callsigns = { }
+}
+
+
+WFT = {
+
+	female = {
+		names = { "Sirana" "Ulga" "Fury" "Ragi" "Hagatha" "Dawn" "Agna" "Akara" "Serena" "Leasan" "Subonn" }
+		surnames =  { "Talonscreech" "Daggerquil" "Deathsong" "Dusktalon" "Rathtalon" "Hatetalon" }
+		callsigns = { }
+	}
+
+	surnames = { }
+	callsigns = { }
+}
+
+WOR = {
+
+	female = {
+		names = { "Sirana" "Ulga" "Fury" "Ragi" "Hagatha" "Dawn" "Agna" "Akara" "Serena" "Leasan" "Subonn" }
+		surnames =  { "Talonscreech" "Daggerquil" "Deathsong" "Dusktalon" "Rathtalon" "Hatetalon" }
+		callsigns = { }
+	}
+
+	surnames = { }
+	callsigns = { }
+}
+
+WWT = {
+
+	female = {
+		names = { "Sirana" "Ulga" "Fury" "Ragi" "Hagatha" "Dawn" "Agna" "Akara" "Serena" "Leasan" "Subonn" }
+		surnames =  { "Talonscreech" "Daggerquil" "Deathsong" "Dusktalon" "Rathtalon" "Hatetalon" }
+		callsigns = { }
+	}
+
+	surnames = { }
+	callsigns = { }
+}

@@ -1,0 +1,120 @@
+﻿division_template = {
+	name = "Arkkoran Clacker"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Arkkoran Oracle"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Son of Arkkoroc"
+
+	regiments = {
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Arkkoran Clacker"
+		location = 14919
+		division_template = "Arkkoran Clacker"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Clacker"
+		location = 14919
+		division_template = "Arkkoran Clacker"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Clacker"
+		location = 12023
+		division_template = "Arkkoran Clacker"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Clacker"
+		location = 14878
+		division_template = "Arkkoran Clacker"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Clacker"
+		location = 14884
+		division_template = "Arkkoran Clacker"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Clacker"
+		location = 14875
+		division_template = "Arkkoran Clacker"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Clacker"
+		location = 14875
+		division_template = "Arkkoran Clacker"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Arkkoran Oracle"
+		location = 14919
+		division_template = "Arkkoran Oracle"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Oracle"
+		location = 12023
+		division_template = "Arkkoran Oracle"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Arkkoran Oracle"
+		location = 14875
+		division_template = "Arkkoran Oracle"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Son of Arkkoroc"
+		location = 14919
+		division_template = "Son of Arkkoroc"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Son of Arkkoroc"
+		location = 14875
+		division_template = "Son of Arkkoroc"
+		start_experience_factor = 0.3
+	}
+
+}

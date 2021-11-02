@@ -1,0 +1,370 @@
+﻿l_english:
+#############################################################
+#GOVERNMENT TAB
+#############################################################
+ government_tab:0 "Government"
+ races:0 "Racial Management"
+ tech_group:0 "Tech Group"
+ government_type:0 "Government Type"
+ racial_traits:0 "Racial Traits"
+ primary_racial_trait:0 "Primary Racial Trait"
+ secondary_racial_trait:0 "Secondary Racial Trait"
+ place_holder:0 "Placeholder"
+ advisors:0 "Advisors"
+ war_council:0 "War Council"
+ council_member:0 "War Council Member"
+ religion_tab:0 "Religion"
+ primary_religion:0 "Primary Religion"
+ secondary_religion:0 "Secondary Religion"
+
+########################################
+#GOVERNMENT TYPES
+########################################
+ no_government:0 "No Government"
+ cult:0 "Cult"
+ kingdom:0 "Kingdom"
+ clan:0 "Clan"
+ tribe:0 "Tribe"
+ council:0 "Council"
+ city_state:0 "City State"
+ tyrant:0 "Tyrant"
+
+########################################
+#HOLIDAYS
+########################################
+ midsummer_fire_festival:0 "Midsummer Fire Festival"
+ brewfest:0 "Brewfest"
+ hallows_end:0 "Hallows End"
+ lunar_festival:0 "Lunar Festival"
+
+########################################
+#RESEARCH AND PRODUCTION
+########################################
+ footman_research:0 "Swords Focus"
+ pikeman_research:0 "Pikes Focus"
+ archer_research:0 "Archer Focus"
+ special_forces_research:0 "Special Forces Focus"
+
+ light_cavalry_research:0 "Light Cavalry Focus"
+ heavy_cavalry_research:0 "Heavy Cavalry Focus"
+
+ escort_ship_research:0 "Escort Ship Focus"
+ grand_fleet_research:0 "Grand Fleet Focus"
+ submarine_research:0 "Submarine Focus"
+
+ fighter_idea_research:0 "Fighter Focus"
+ cas_idea_research:0 "Close Air Support Focus"
+ bomber_idea_research:0 "Bomber Focus"
+
+ forge_research:0 "Forge Focus"
+ agriculture_research:0 "Agriculture Focus"
+ peasant_tools_research:0 "Tools Focus"
+ resource_buildings_research:0 "Resource Focus"
+
+ land_doctrine_idea_research:0 "Land Doctrine Focus"
+ naval_doctrine_idea_research:0 "Naval Doctrine Focus"
+ air_doctrine_idea_research:0 "Air Doctrine Focus"
+
+########################################
+#LAWS AND SPECIALIZATION
+########################################
+
+ infantry_army_focus:0 "Infantry Army"
+ cavalry_army_focus:0 "Cavalry Army"
+ special_forces_army_focus:0 "Elite Army"
+ escort_ship_army_focus:0 "Escort Navy"
+ capital_ship_army_focus:0 "Capital Navy"
+ submarine_army_focus:0 "Submarine Navy"
+
+
+########################################
+#TRAITS
+########################################
+
+# Tier 1: White (Common)
+# Tier 2: Green (Uncommon)
+# Tier 3: Light Blue (Rare)
+# Special: Yellow (Artifact)
+
+succession:0 "Succesion"
+military_commander:0 "Military Commander"
+advisor:0 "Advisor"
+
+consort_idea:0 "§YConsort§"
+heir_idea:0 "§YHeir§"
+named_heir_idea:0 "§YNamed Heir§"
+
+merchant_idea_1:0 "Merchant"
+merchant_idea_2:0 "§GMaster Merchant§"
+merchant_idea_3:0 "§MLegendary Merchant§"
+#
+diplomat_idea_1:0 "Diplomat"
+diplomat_idea_2:0 "§GMaster Diplomat§"
+diplomat_idea_3:0 "§MAmbassador§"
+
+architect_idea_1:0 "Architect"
+architect_idea_2:0 "§GArchitect§!"
+architect_idea_3:0 "§MLegendary Architect§"
+
+explorer_idea_1:0 "Explorer"
+explorer_idea_2:0 "§GExperinced Explorer§!"
+explorer_idea_3:0 "§MLegendary Explorer§!"
+
+tinker_idea_1:0 "Tinker"
+tinker_idea_2:0 "§GMaster Tinker§"
+tinker_idea_3:0 "§MLegendary Tinker§"
+
+master_of_coin_idea_1:0 "Coin Keeper"
+master_of_coin_idea_2:0 "§GMaster of Coin§"
+master_of_coin_idea_3:0 "§MLegendary Master of Coin§"
+
+builder_idea_1:0 "Builder"
+builder_idea_2:0 "§GMaster Builder§"
+builder_idea_3:0 "§MLegendary Builder§"
+
+foreman_idea_1:0 "Foreman"
+foreman_idea_2:0 "§GMaster Foreman§"
+foreman_idea_3:0 "§MLegendary Foreman§"
+
+trainer_idea_1:0 "Trainer"
+trainer_idea_2:0 "§GMaster Trainer§"
+trainer_idea_3:0 "§MGrand Master Trainer§"
+#
+infantry_idea_1:0 "Captain"
+infantry_idea_2:0 "§GHigh Captain§"
+infantry_idea_3:0 "§MCaptain General§"
+#
+champion_idea_1:0 "Aspirant"
+champion_idea_2:0 "§GChampion§"
+champion_idea_3:0 "§MGrand Champion§"
+#
+cavalry_idea_1:0 "Knight"
+cavalry_idea_2:0 "§GKnight-Lieutenant§"
+cavalry_idea_3:0 "§MKnight-Captain§"
+#
+siege_expert_idea_1:0 "Siege Expert"
+#
+cas_idea_1:0 "CAS Expert"
+#
+fighter_idea_1:0 "Fighter Expert"
+#
+bomber_1:0 "Bombing Expert"
+#
+raider_idea_1:0 "Raider"
+raider_idea_2:0 "§GVeteran Raider§"
+raider_idea_3:0 "§MRaider Captain§"
+#
+hoa_admiral_1:0 "Vice Admiral"
+hoa_admiral_2:0 "§GAdmiral§"
+hoa_admiral_3:0 "§MGrand Admiral§"
+#
+privateer_idea_1:0 "Privateer"
+privateer_idea_2:0 "§GRevered Privateer§"
+privateer_idea_3:0 "§MExalted Privateer§"
+#
+recruiter_idea_1:0 "Bounty Administrator"
+recruiter_idea_2:0 "§GRecruitment Officer§"
+recruiter_idea_3:0 "§MChief Recruitment Officer§"
+#
+medic_idea_1:0 "Expert Medic"
+medic_idea_2:0 "§GMaster Medic§"
+medic_idea_3:0 "§MGrand Master Medic§"
+#
+nationalist_idea:0 "Nationalist"
+alliance_sympathiser:0 "Alliance Sympathiser"
+titan_herald_idea: "Titan Herald"
+#
+investigator_idea_1:0 "Detective"
+investigator_idea_2:0 "§GInvestigator§"
+investigator_idea_3:0 "§MSpecial Investigator§"
+#
+guardian_1:0 "Seasoned Guardian"
+guardian_2:0 "§GVeteran Guardian§"
+guardian_3:0 "§MChampion Guardian§"
+#
+quartermaster_idea_1:0 "Novice Quartermaster"
+quartermaster_idea_2:0 "§GQuartermaster§"
+quartermaster_idea_3:0 "§MExpert Quartermaster§"
+#
+noble_diplomat_idea_1:0 "Noble"
+noble_diplomat_idea_2:0 "§GWise Noble§"
+noble_diplomat_idea_3:0 "§MSagacious Noble§"
+
+tactical_genius_trait:0 "Tactical Genius"
+
+####################################################################
+# Human generic focus tree (default focus tree) ideas' localisation
+####################################################################
+
+ #From first focus tree event "Our Nation"
+ generic_eloquent_diplomats_idea:0 "Eloquent Diplomats"
+ generic_eloquent_diplomats_idea_desc:0 "Our nation is known to be the home of very eloquent and diplomatic people."
+ generic_great_builders_idea:0 "Great Builders"
+ generic_great_builders_idea_desc:0 "Our people are known for being great builders."
+ generic_expert_craftsmen_idea:0 "Expert Craftsmen"
+ generic_expert_craftsmen_idea_desc:0 "Our country is home to very skilled craftsmen."
+
+ #From third focus tree event "How we Fight"
+ generic_focus_on_attack_idea:0 "Focus on Attack"
+ generic_focus_on_attack_idea_desc:0 ""
+ generic_focus_on_defence_idea:0 "Focus on Defence"
+ generic_focus_on_defence_idea_desc:0 ""
+
+ #Air branch
+ generic_fighting_focus_idea:0 "Fighting Focus"
+ generic_fighting_focus_idea_desc:0 ""
+ generic_bombing_focus_idea:0 "Bombing Focus"
+ generic_bombing_focus_idea_desc:0 ""
+
+ generic_focus_on_quality_idea:0 "Focus on Quality"
+ generic_focus_on_quality_idea_desc:0 ""
+ generic_focus_on_quantity_idea:0 "Focus on Quantity"
+ generic_focus_on_quantity_idea_desc:0 ""
+
+ #Land branch
+ generic_specialized_troops_idea:0 "Specialized Troops"
+ generic_specialized_troops_idea_desc:0 ""
+ generic_strength_in_numbers_idea:0 "Strength in Numbers"
+ generic_strength_in_numbers_idea_desc:0 ""
+
+ #Navy branch
+ generic_small_frame_focus_idea:0 "Small Frame Focus"
+ generic_small_frame_focus_idea_desc:0 ""
+ generic_large_frame_focus_idea:0 "Large Frame Focus"
+ generic_large_frame_focus_idea_desc:0 ""
+
+ #Economic branch
+ generic_focus_improve_production_idea:0 "Improved Production"
+ generic_focus_improve_production_idea_desc:0 ""
+ generic_focus_standardized_tools_idea:0 "Standardized Tools"
+ generic_focus_standardized_tools_idea_desc:0 ""
+
+ #Political branchs
+ support_the_alliance_idea:0 "Support the Alliance"
+ support_the_alliance_idea_desc:0 "Drawing closer to the Alliance will give us protection from foreign aggressors."
+ alliance_weapons_idea:0 "Alliance Forged Weapons"
+ alliance_weapons_idea_desc:0 "The Alliance is made up of many strong willed and intelectual races. As such our weapons and armor must be of the best quality to ensure victory."
+ alliance_chosen_of_the_light_idea:0 "Chosen of the Light"
+ alliance_fortification_idea:0 "Fortification Experts"
+
+ support_the_horde_idea:0 "Support the Horde"
+ support_the_horde_idea_desc:0 "Supporting the Horde is but the first step to proving our strength and joining their ranks."
+ horde_pillage_idea:0 "Experienced Pillagers"
+ horde_training_idea:0 "Horde Trainers"
+ horde_war_tradition_idea:0 "War Traditions"
+
+ stay_neutral_idea:0 "Secure Neutrality"
+ stay_neutral_idea_desc:0 "While factions wage their wars across the globe our noble nation prefers to stay out of their conflicts entirely."
+ shape_our_own_destiny_idea:0 "Shape our Own Destiny"
+ shape_our_own_destiny_idea_desc:0 ""
+ armed_neutrality_idea:0 "Armed Neutrality"
+ armed_neutrality_idea_desc:0 ""
+ prepare_for_war_idea:0 "Prepare for War"
+ prepare_for_war_idea_desc:0 ""
+ secure_the_nation_idea:0 "Secure the Nation"
+ secure_the_nation_idea_desc:0 ""
+ aggressive_strategy_idea:0 "Aggressive Strategy"
+ aggressive_strategy_idea_desc:0 ""
+ diplomatic_strategy_idea:0 "Diplomatic Strategy"
+ diplomatic_strategy_idea_desc:0 ""
+ worthy_army_idea:0 "Worthy Army"
+ worthy_army_idea_desc:0 ""
+ unyielding_army_idea:0 "Unyielding Army"
+ unyielding_army_idea_desc:0 ""
+ diplomatic_corps_idea:0 "Diplomatic Corps"
+ diplomatic_corps_idea_desc:0 ""
+ intensive_training_idea:0 "Intensive Training"
+ intensive_training_idea_desc:0 ""
+ elite_soldiers_idea:0 "Elite Soldiers"
+ elite_soldiers_idea_desc:0 ""
+
+ whispers_of_the_old_gods_idea:0 "Whispers of the Old Gods"
+ whispers_of_the_old_gods_idea_desc:0 "Can you hear it? Feeding doubt in your mind, these whispers are driving you and your people mad, unaware of what is responsible."
+ faceless_ones_idea:0 "Faceless Ones"
+ faceless_ones_idea_desc:0 ""
+ bring_the_hour_of_twilight_idea:0 "Bring the Hour of Twilight"
+ bring_the_hour_of_twilight_idea_desc:0 ""
+
+ promise_of_power_idea:0 "Promise of Power"
+ promise_of_power_idea_desc:0 "Higher ups in our nation have been contacted by strange beings promising untold power and legions of soldiers. All we have to do is summon them to this world."
+ fel_blood_idea:0 "Fel Blood"
+ fel_blood_idea_desc:0 ""
+ an_army_for_sargeras_idea:0 "Army of Sargeras"
+ an_army_for_sargeras_idea_desc:0 ""
+ the_burning_crusade_idea:0 "The Burning Crusade"
+ the_burning_crusade_idea_desc:0 ""
+
+ in_service_of_death_idea:0 "In Service of Death"
+ in_service_of_death_idea_desc:0 "Small amounts of our population have been seen acting rather suspicious at night and sneaking off to meetings in the woods and graveyards. What could these individuals be doing? And for what purpose?"
+ undead_armies_idea:0 "Undead Armies"
+ undead_armies_idea_desc:0 ""
+ end_the_livings_idea:0 "End the Livings"
+ end_the_livings_idea_desc:0 ""
+
+ sword_production:0 "Sword Production"
+ improved_breeding_methods:0 "Improved Breeding Methods"
+
+ recruit_worshipers:0 "Recruit Worshipers"
+ elite_soldiers:0 "Elite Soldiers"
+ diplomats:0 "Diplomats"
+ expand_the_army:0 "Expand the Army"
+ bounty_boards_idea:0 "Bounty Boards"
+ bounty_boards_idea_desc:0 "The populace are aware of local savage and primitive menaces, allowing this nation to quickly create wargoals on occupied core states."
+
+ knowledge_of_titans:0 "Knowledge of the Titans"
+ gift_of_titans:0 "Gift of the Titans"
+ horde_loktar_ogar_idea:0 "Loktar'Ogar"
+
+#############################################################
+#Religious Decisions Ideas
+#############################################################
+whispers_of_madness_idea:0 "Whispers of Madness"
+whispers_of_madness_idea_desc:0 "Our troops are hearing faint whispers in the back of their mind, some of our soldiers are even driven mad by these constant murmurs..."
+
+necrotic_plague_idea:0 "Necrotic Plague"
+necrotic_plague_idea_desc:0 "A dangerous disease spread through the nation, killing our population in a matter of days."
+
+liquid_hellfire_idea:0 "Liquid Hellfire"
+liquid_hellfire_idea_desc:0 "The enemy is corrupting the battlefield and our armies are having trouble adapting to these new conditions."
+
+vampiric_touch_1_buff_idea:0 "Vampiric Touch"
+vampiric_touch_1_buff_idea_desc:0 "We are currently draining the life essence of our enemies."
+vampiric_touch_2_buff_idea:0 "Vampiric Touch"
+vampiric_touch_2_buff_idea_desc:0 "We are currently draining the life essence of our enemies."
+vampiric_touch_3_buff_idea:0 "Vampiric Touch"
+vampiric_touch_3_buff_idea_desc:0 "We are currently draining the life essence of our enemies."
+vampiric_touch_4_buff_idea:0 "Vampiric Touch"
+vampiric_touch_4_buff_idea_desc:0 "We are currently draining the life essence of our enemies."
+
+vampiric_touch_debuff_idea:0 "Vampiric Touch"
+vampiric_touch_debuff_idea_desc:0 "Our enemy has inflicted a spell on our troops draining them from their life essence."
+
+infiltrated_cultists_idea:0 "Infiltrated Cultists"
+infiltrated_cultists_idea_desc:0 "Mysterious cultists have been sighted all around our nation and destabilizing our institution."
+
+insanity_idea:0 "Insanity"
+insanity_idea_desc:0 "A mysterious force is driving some of our troops insane."
+
+madness_idea:0 "Madness"
+madness_idea_desc:0 "A mysterious affliction is spreading through our population and institutions leading to instability within our nation."
+
+
+#############################################################
+#Nation Ideas
+#############################################################
+
+ #Idea for Dragon of Nightmare AI nations to not call all the other Dragonflight (most of the time inacessible)
+ great_tree_guardians_idea:0 "Great Tree Guardians"
+ great_tree_guardians_idea_desc:0 "The Green Dragons of this nations protect a Great Tree, sacred saplings of the World Tree Nordrassil that acts as portal to the Emerald Dream. \n\n §GThis idea will be removed if this nation is played by a human player.§!"
+
+ #puppetmaster ideas
+ puppetmaster_guldan_dominant:0 "Gul'dan Dominant"
+ puppetmaster_guldan_dominant_desc:0 "If Gul'dan gets more power he will puppet the Blackrock Clan!"
+ puppetmaster_guldan_superior:0 "Gul'dan Superior"
+ puppetmaster_guldan_superior_desc:0 "Gul'dan's control over Blackhand grows..."
+ puppetmaster_leaders_neutral:0 "Power Balanced"
+ puppetmaster_leaders_neutral_desc:0 "Neither Gul'dan nore blackhand has more power."
+ puppetmaster_blackhand_superior:0 "Blackhand Superior"
+ puppetmaster_blackhand_superior_desc:0 "Blackhand's control over Gul'dan grows..."
+ puppetmaster_blackhand_dominant:0 "Blackhand Dominant"
+ puppetmaster_blackhand_dominant_desc:0 "If Blackhand gets more power he will annex the Shadow Council!"

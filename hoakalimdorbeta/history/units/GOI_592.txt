@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Gorishi Tunneler"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Gorishi Stinger"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 0 y = 5 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Gorishi Wasp"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "Gorishi Tunneler"
+		location = 11098
+		division_template = "Gorishi Tunneler"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Gorishi Tunneler"
+		location = 11098
+		division_template = "Gorishi Tunneler"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Gorishi Stinger"
+		location = 11098
+		division_template = "Gorishi Stinger"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Gorishi Wasp"
+		location = 11098
+		division_template = "Gorishi Wasp"
+		start_experience_factor = 0.2
+	}
+	
+}
+
+air_wings = {
+	### the writhing deep
+	1115 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "GOI"
+			amount = 25
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "GOI"
+			amount = 20
+		}
+
+	}
+
+}

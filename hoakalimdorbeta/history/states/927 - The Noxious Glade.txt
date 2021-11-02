@@ -1,0 +1,33 @@
+state={
+	id=927
+	name="STATE_927"
+	resources={
+		ores=2
+		eggs=6
+		wheat=5
+		oil=4
+	}
+
+	history={
+		owner = CNT
+		victory_points = {
+			9437 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = CNT
+
+	}
+
+	provinces={
+		8964 9403 9406 9424 9426 9433 9437 9442 9448 9452 9454 9458 9463 
+	}
+	manpower=47000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

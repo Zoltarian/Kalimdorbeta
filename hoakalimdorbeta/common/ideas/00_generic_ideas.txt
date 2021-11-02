@@ -1,0 +1,1278 @@
+ideas = {
+
+	country = {
+
+		####################################################################
+		# Human generic focus tree idea (default focus tree)
+		####################################################################
+
+		#From generic_human.2.option.1
+		generic_eloquent_diplomats_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+
+		#From generic_human.2.option.2
+		generic_great_builders_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = ast_all_in
+
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		#From generic_human.2.option.3
+		generic_expert_craftsmen_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.025
+				production_factory_max_efficiency_factor = 0.025
+				production_factory_start_efficiency_factor = 0.025
+			}
+		}
+
+		#From generic_human.3.option.1
+		generic_focus_on_attack_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_nationalists_focus
+
+			modifier = {
+				army_attack_factor = 0.05
+			}
+		}
+
+		#From generic_human.3.option.2
+		generic_focus_on_defence_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = YUG_federal_defense_council
+
+			modifier = {
+				army_defence_factor = 0.05
+			}
+		}
+
+		#From improve_production focus
+		generic_focus_improve_production_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.025
+				production_factory_max_efficiency_factor = 0.025
+				production_factory_start_efficiency_factor = 0.025
+			}
+		}
+
+		#From standardized_tools focus
+		generic_focus_standardized_tools_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				local_resources_factor = 0.05
+			}
+		}
+
+		#From fighting_focus focus
+		generic_fighting_focus_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_air_research
+
+			equipment_bonus = {
+				fighter_equipment = {
+					air_agility = 0.1 maximum_speed = 0.1
+				}
+				cas_equipment = {
+					air_ground_attack = 0.1 maximum_speed = 0.1
+				}
+			}
+		}
+
+		#From bombing_focus focus
+		generic_bombing_focus_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = strategic_bombing_focus
+
+			equipment_bonus = {
+				bomber_equipment = {
+					air_bombing = 0.1 maximum_speed = 0.1
+				}
+				naval_bomber_equipment = {
+					naval_strike_attack = 0.1 maximum_speed = 0.1
+				}
+			}
+		}
+
+		#From focus_on_quality focus
+		generic_focus_on_quality_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			equipment_bonus = {
+				fighter_equipment = {
+					air_agility = 0.05 maximum_speed = 0.05 build_cost_ic = 0.05
+				}
+				cas_equipment = {
+					air_ground_attack = 0.05 maximum_speed = 0.05 build_cost_ic = 0.05
+				}
+				bomber_equipment = {
+					air_bombing = 0.05 maximum_speed = 0.05 build_cost_ic = 0.05
+				}
+				naval_bomber_equipment = {
+					naval_strike_attack = 0.05 maximum_speed = 0.05 build_cost_ic = 0.05
+				}
+			}
+		}
+
+		#From focus_on_quantity focus
+		generic_focus_on_quantity_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			equipment_bonus = {
+				fighter_equipment = {
+					air_agility = -0.05 maximum_speed = -0.05 build_cost_ic = -0.05
+				}
+				cas_equipment = {
+					air_ground_attack = -0.05 maximum_speed = -0.05 build_cost_ic = -0.05
+				}
+				bomber_equipment = {
+					air_bombing = -0.05 maximum_speed = -0.05 build_cost_ic = -0.05
+				}
+				naval_bomber_equipment = {
+					naval_strike_attack = -0.05 maximum_speed = -0.05 build_cost_ic = -0.05
+				}
+			}
+		}
+
+		#From small_frame_focus focus
+		generic_small_frame_focus_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_sea_focused_navy
+
+			equipment_bonus = {
+				destroyer_equipment = {
+					build_cost_ic = -0.05
+				}
+				submarine_equipment = {
+					build_cost_ic = -0.05
+				}
+				light_frigate_equipment = {
+					build_cost_ic = -0.05
+				}
+				heavy_frigate_equipment = {
+					build_cost_ic = -0.05
+				}
+			}
+		}
+
+		#From large_frame_focus focus
+		generic_large_frame_focus_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			equipment_bonus = {
+				juggernaught_equipment = {
+					build_cost_ic = -0.05
+				}
+				battleship_equipment = {
+					build_cost_ic = -0.05
+				}
+				dreadnaught_equipment = {
+					build_cost_ic = -0.05
+				}
+				carrier_equipment = {
+					build_cost_ic = -0.05
+				}
+			}
+		}
+
+		#From strength_in_numbers focus
+		generic_strength_in_numbers_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				conscription = 0.025
+			}
+		}
+
+		#From legendary_soldiers focus
+		generic_specialized_troops_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = air_war_plans_division_focus
+
+			modifier = {
+				special_forces_cap = 0.05
+			}
+		}
+
+		#From stay_neutral focus
+		stay_neutral_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				neutral_drift = 0.15
+				drift_defence_factor = 0.5
+			}
+		}
+
+		#From shape_our_own_destiny focus
+		shape_our_own_destiny_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				army_attack_factor = 0.025
+				army_core_attack_factor = 0.05
+			}
+		}
+
+		#From armed_neutrality focus
+		armed_neutrality_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				army_defence_factor = 0.025
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		#From secure_the_nation focus
+		prepare_for_war_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+
+		#From secure_the_nation focus
+		secure_the_nation = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+
+		#From aggressive_strategy focus
+		aggressive_strategy_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				justify_war_goal_time = -0.1
+			}
+		}
+
+		#From diplomatic_strategy focus
+		diplomatic_strategy_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				opinion_gain_monthly_factor = 0.1
+			}
+		}
+
+		#From a_worthy_army focus
+		worthy_army_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_attack_factor = 0.1
+				breakthrough_factor = 0.05
+			}
+		}
+
+		#From a_worthy_army focus
+		unyielding_army_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_defence_factor = 0.1
+				dig_in_speed_factor = 0.05
+			}
+		}
+
+		#From diplomatic_corps idea
+		diplomatic_corps_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+
+		#From prepare_our_troops focus
+		intensive_training_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				training_time_factor = -0.15
+			}
+		}
+
+		#From elite_soldiers focus
+		elite_soldiers_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				special_forces_cap = 0.25
+			}
+		}
+
+		#From whispers_of_the_old_gods focus
+		whispers_of_the_old_gods_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				old_gods_drift = 0.15
+			}
+		}
+
+		#From our_new_masters focus
+		faceless_ones_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				special_forces_cap = 0.1
+			}
+		}
+
+		#From bring_the_hour_of_twilight focus
+		bring_the_hour_of_twilight_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				justify_war_goal_time = -0.25
+			}
+		}
+
+		#From promise_of_power focus
+		promise_of_power_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				fel_drift = 0.15
+			}
+		}
+
+		#From fel_blood focus
+		fel_blood_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_org_Factor = -0.05
+				offence = 0.15
+			}
+		}
+
+		#From an_army_for_sargeras focus
+		an_army_for_sargeras_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				recruitable_population_factor = 0.05
+				army_morale_factor = 0.25
+			}
+		}
+
+		#From the_burning_crusade focus
+		the_burning_crusade_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				justify_war_goal_time = -0.5
+			}
+		}
+
+		#From in_service_of_death focus
+		in_service_of_death_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				death_drift = 0.15
+			}
+		}
+
+		#From undead_armies focus
+		undead_armies_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				attrition = -0.1
+				non_core_manpower  = 0.05
+				army_org_factor = -0.05
+			}
+		}
+
+		#From end_the_livings focus
+		end_the_livings_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = -0.05
+				justify_war_goal_time = -0.25
+			}
+		}
+
+		####################################################################
+
+		bounty_boards_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+		}
+
+		support_the_alliance_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				alliance_drift = 0.1
+			}
+		}
+
+		alliance_weapons_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				army_infantry_attack_factor = 0.05
+			}
+		}
+
+		alliance_chosen_of_the_light_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_core_defence_factor = 0.1
+			}
+
+		}
+
+		alliance_fortification_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				production_speed_bunker_factor = 0.05
+				production_speed_coastal_bunker_factor = 0.05
+			}
+		}
+
+		support_the_horde_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				horde_drift = 0.1
+			}
+		}
+
+		horde_pillage_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				#enemy_partisan_effect = -0.25
+			}
+		}
+
+		horde_training_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				training_time_factor = -0.15
+			}
+		}
+
+		horde_war_tradition_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				justify_war_goal_time = -0.15
+			}
+		}
+
+		sword_production = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			equipment_bonus = {
+					footman = {
+                    build_cost_ic = -0.05 instant = yes
+                }
+			}
+
+		}
+
+		improved_breeding_methods = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			equipment_bonus = {
+					cas_equipment = {
+                    build_cost_ic = -0.05 instant = yes
+                }
+					bomber_equipment = {
+                    build_cost_ic = -0.05 instant = yes
+                }
+					fighter_equipment = {
+                    build_cost_ic = -0.05 instant = yes
+                }
+			}
+
+		}
+
+		council_advisor_bonus = {
+
+			picture = generic_volunteer_expedition_bonus
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			allowed_civil_war = {
+
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#advisor_cost_factor = -0.33
+				trade_laws_cost_factor = -0.33
+				economy_cost_factor = -0.33
+			}
+		}
+
+		recruit_worshipers = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				conscription = 0.01
+			}
+
+		}
+
+
+
+		expand_the_army = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				conscription = 0.015
+			}
+
+		}
+
+		can_not_enslave = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+		}
+		legendary_soldiers = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				special_forces_cap = 0.10 #needs localisation
+			}
+		}
+		knowledge_of_titans = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+			research_speed_factor = 0.05
+		}
+	}
+		gift_of_titans = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+			army_core_defence_factor = 0.05
+			army_core_attack_factor = 0.05
+			}
+		}
+
+		horde_loktar_ogar_idea = {
+
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+
+			modifier = {
+				offence = 0.05
+			}
+		}
+
+		#Idea for Dragon of Nightmare AI nations to not call all the other Dragonflight (most of the time inacessible)
+		great_tree_guardians_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_race_green_dragon
+
+			cancel = {
+				is_ai = no
+			}
+
+			modifier = {
+				ai_call_ally_desire_factor = -1000
+				justify_war_goal_time = 0.5
+			}
+		}
+
+		#From religious decision whispers_of_madness_decision (Followers of C'thun religion)
+		whispers_of_madness_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_org_factor = -0.05
+				army_morale_factor = -0.05
+			}
+		}
+
+		#From religious decision release_the_plague_decision (Necromancy religion)
+		necrotic_plague_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				monthly_population = -0.05
+			}
+		}
+
+		#From religious decision liquid_hellfire_decision (Fel religion)
+		liquid_hellfire_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				attrition = 0.05
+				dig_in_speed_factor = 0.05
+			}
+		}
+
+		#From religious decision vampiric_touch_decision (Void religion)
+		vampiric_touch_1_buff_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_morale_factor = 0.025
+			}
+		}
+
+		vampiric_touch_2_buff_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_morale_factor = 0.05
+			}
+		}
+
+		vampiric_touch_3_buff_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_morale_factor = 0.075
+			}
+		}
+
+		vampiric_touch_4_buff_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_morale_factor = 0.1
+			}
+		}
+
+		vampiric_touch_debuff_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_morale_factor = -0.025
+			}
+		}
+
+		infiltrated_cultists_idea = {
+
+			allowed = {
+				always = yes
+			}
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				stability_weekly = -0.001
+				old_gods_drift = 0.01
+			}
+		}
+
+		#from spread_insanity_decision
+		insanity_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_org_factor = -0.025
+				army_attack_factor = -0.025
+				army_defence_factor = -0.025
+			}
+		}
+
+		#from induce_madness_decision
+		madness_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				stability_weekly = -0.001
+				war_support_weekly = -0.001
+				old_gods_drift = 0.01
+			}
+		}
+	}
+}

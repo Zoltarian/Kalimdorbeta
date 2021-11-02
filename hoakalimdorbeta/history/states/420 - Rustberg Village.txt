@@ -1,0 +1,40 @@
+
+state={
+	id=420
+	name="STATE_420"
+
+	resources={
+		oil=8
+		gunpowder=5
+		wheat=7
+		wood=4
+		ores=5
+	}
+	
+	history={
+		
+		victory_points = {
+			1097 15
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 1
+			radar_station = 1
+			1097 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+
+		}
+		add_core_of = TOL
+
+	}
+
+	provinces={
+		839 846 1097 
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

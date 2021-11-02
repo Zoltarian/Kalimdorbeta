@@ -1,0 +1,41 @@
+
+state={
+	id=173
+	name="STATE_173"
+	resources={
+		oil=12
+		gunpowder=6
+		wheat=9
+		wood=5
+		ores=4
+	}
+	
+
+	history={
+		
+		victory_points = {
+			154 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 2
+			air_base = 1
+			radar_station = 1
+			154 = {
+				naval_base = 5
+			}
+
+		}
+		add_core_of = TOL
+
+	}
+
+	provinces={
+		154 697 698 699 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

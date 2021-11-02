@@ -1,0 +1,32 @@
+
+state={
+	id=1372
+	name="STATE_1372"
+	resources = {
+		ores=12
+		gunpowder=6
+		wood=1
+	}
+
+	history={
+		owner = HDC
+		victory_points = {
+			14864 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = HDC
+
+	}
+
+	provinces={
+		14857 14859 14860 14863 14864 14867 14870 14879 14885 14886 14895 14899 14901 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

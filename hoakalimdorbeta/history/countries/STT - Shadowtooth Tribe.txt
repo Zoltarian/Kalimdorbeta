@@ -1,0 +1,81 @@
+﻿capital = 1499
+
+oob = "STT_592"
+
+set_research_slots = 3
+
+add_ideas = {
+	tribe
+	limited_conscription
+	early_military_development
+	export_focus
+
+	dark_troll_primary_race
+
+	primary_trait_dark_sight
+	primary_trait_endangered_race
+	primary_trait_regeneration
+
+	primary_religion_the_voodoo
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	church_tech = 1
+	wall_tech_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+	guard_tower_1 = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+}
+
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Speaker Ik'nal"
+	desc = "POLITICS_SPEAKER_IKNAL_DESC"
+	picture = "speaker_iknal.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

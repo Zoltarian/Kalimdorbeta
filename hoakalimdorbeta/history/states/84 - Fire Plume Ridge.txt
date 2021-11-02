@@ -1,0 +1,32 @@
+
+state={
+	id=84
+	name="STATE_84"
+	resources = {
+		mana=16
+		ores=6
+		gunpowder=8
+	}
+
+	history={
+		owner = UFE
+		victory_points = {
+			11190 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = UFE
+
+	}
+
+	provinces={
+		10832 11152 11155 11158 11168 11173 11179 11182 11184 11190 11196 11207 11211 11219 11220
+	}
+	manpower=39000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

@@ -1,0 +1,31 @@
+state={
+	id=1452
+	name="STATE_1452"
+	resources = {
+		wood=6
+		wheat=6
+		ores=3
+	}
+
+	history={
+		owner = ITY
+		add_core_of = ITY
+		victory_points = {
+			13033 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		12602 12980 12997 13033 13053 
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

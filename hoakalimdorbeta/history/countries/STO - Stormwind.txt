@@ -1,0 +1,401 @@
+﻿capital = 22
+
+set_research_slots = 3
+
+592.1.1 = {
+
+	oob = "STO_592"
+	set_naval_oob = "STO_592_naval"
+	set_convoys = 175
+
+	set_stability = 0.60
+	set_war_support = 0.15
+	add_ideas = {
+		
+		kingdom
+		recruit_adventurers
+		peacetime_economy
+		free_trade
+
+		human_primary_race
+		dwarf_secondary_race
+
+		primary_trait_diplomatic
+		primary_trait_human_spirit
+		primary_trait_perception
+
+		primary_religion_the_church_of_the_holy_light
+		secondary_religion_arcane_studies
+
+		STO_unsatisfied_nobles
+		STO_over_reliance_on_medivh_5
+		STO_rebuilding_the_nation
+		STO_kobolds_in_the_mines
+		STO_legacy_of_gurubashi_war_1
+		STO_gnoll_attacks
+
+	}
+
+	add_opinion_modifier = {
+		target = GUR
+		modifier = remnants_trollwar
+	}
+
+	give_guarantee = KAR
+
+
+	set_technology = {
+
+		town_hall_tech = 1
+		peasants_tech = 1
+		construction_tools_1 = 1
+		harvesting_tools_1 = 1
+		support_equipment_tech = 1
+		militia_tech = 1
+		militia_equipment_tech_1 = 1
+		workshop_tech = 1
+		blacksmith_tech = 1
+		blacksmith_unit_tech_1 = 1
+		improved_forge_1 = 1
+		farm_tech = 1
+		nesting_grounds_tech = 1
+		mines_tech = 1
+		church_tech = 1
+		wall_tech_1 = 1
+		lumber_mill_tech = 1
+		scout_tower_1 = 1
+		arcane_tower_tech = 1
+		guard_tower_1 = 1
+		rogues_guild = 1
+		rogue_tech = 1
+		tailor_tech = 1
+		leather_working_tech = 1
+
+		barracks_tech = 1
+		footman_tech = 1
+		footman_weapons_tech_1 = 1
+		captain_tech = 1
+		guard_tech = 1
+		pikeman_tech = 1
+		pikeman_weapons_tech_1 = 1
+		archer_tech = 1
+		archer_weapons_tech_1 = 1
+		arcane_sanctum_tech = 1
+		mage_tower_tech = 1
+		mage_tech = 1
+		mage_equipment_tech_1 = 1
+		priest_tech = 1
+
+		stable_tech_1 = 1
+		mount_taming_1 = 1
+		mounted_footman_tech = 1
+		knight_tech = 1
+		knight_tech_1 = 1
+
+		siege_works = 1
+		supply_wagon_tech = 1
+		catapult_tech = 1
+		catapult_equipment_tech_1 = 1
+
+		altar_of_kings_tech = 1
+		royal_guard_tech = 1
+		royal_guard_equipment_tech_1 = 1
+
+		naval_facilities = 1
+		small_frames = 1
+		destroyer_tech_1 = 1
+		light_frigate_tech_1 = 1
+		heavy_frigate_tech_1 = 1
+		naval_transport_1 = 1
+		large_frames = 1
+		juggernaught_tech_1 = 1
+		battleship_tech_1 = 1
+		carrier_tech_1 = 1
+		oil_refinery = 1
+		foundry = 1
+
+		aviary_tech = 1
+	}
+
+	set_politics = {
+		ruling_party = alliance
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+  set_popularities = {
+    alliance = 100
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 0
+  }
+
+	create_country_leader = {
+		name = "King Llane Wyrnn"
+		desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+		picture = "King_Llane.dds"
+		expire = "1965.1.1"
+		ideology = alliance_type
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "King Llane Wyrnn"
+		desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+		picture = "King_Llane.dds"
+		expire = "1965.1.1"
+		ideology = horde_type
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Risen King Llane Wyrnn"
+		desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+		picture = "King_Llane.dds"
+		expire = "1965.1.1"
+		ideology = death_type
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Corrupted King Llane Wyrnn"
+		desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+		picture = "King_Llane.dds"
+		expire = "1965.1.1"
+		ideology = fel_type
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Corrupted King Llane Wyrnn"
+		desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+		picture = "King_Llane.dds"
+		expire = "1965.1.1"
+		ideology = old_gods_type
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "King Llane Wyrnn"
+		desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+		picture = "King_Llane.dds"
+		expire = "1965.1.1"
+		ideology = neutral_type
+		traits = {
+			#
+		}
+	}
+
+	create_field_marshal = {
+		name = "King Llane Wyrnn"
+		picture = "King_Llane.dds"
+		traits = {  }
+		id = 61800
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_field_marshal = {
+		name = "Anduin Lothar"
+		picture = "Anduin_Lothar.dds"
+		traits = {  }
+		id = 61801
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Gavinrad the Dire"
+		picture = "Gavinrad_the_Dire.dds"
+		traits = {  }
+		id = 61802
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Commander Borton"
+		picture = "Portrait_Stormwind_Generic_land_1.dds"
+		traits = {  }
+		id = 61803
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+}
+
+596.1.1 = {
+	oob = "STO_596"
+	set_naval_oob = "STO_596_naval"
+	set_cosmetic_tag = STO_REF
+
+	set_stability = 0.50
+	set_war_support = 0.6
+
+	add_ideas = {
+		limited_conscription
+		preparing_for_war
+		export_focus
+
+		STO_regency_for_varian
+		STO_government_in_exile
+	}
+
+	remove_ideas = STO_unsatisfied_nobles
+	remove_ideas = STO_over_reliance_on_medivh_3
+	remove_ideas = STO_rebuilding_the_nation
+	remove_ideas = STO_kobolds_in_the_mines
+	remove_ideas = STO_legacy_of_gurubashi_war_1
+	remove_ideas = STO_gnoll_attacks
+	remove_ideas = dwarf_secondary_race
+
+	capital = 32
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+		
+
+
+
+
+		naval_transport_2 = 1
+
+
+		blueprints_1 = 1
+
+
+
+
+
+
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+
+	create_country_leader = {
+		name = "Regent Lord Anduin Lothar"
+		desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+		picture = "Anduin_Lothar.dds"
+		expire = "1965.1.1"
+		ideology = neutral_type
+		traits = {
+			#
+		}
+	}
+	create_country_leader = {
+		name = "Regent Lord Anduin Lothar"
+		desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+		picture = "Anduin_Lothar.dds"
+		expire = "1965.1.1"
+		ideology = alliance_type
+		traits = {
+			#
+		}
+	}
+
+	create_field_marshal = {
+		name = "Regent Lord Anduin Lothar"
+		picture = "Anduin_Lothar.dds"
+		traits = {  }
+		id = 61804
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+}
+
+600.1.1 = {
+
+	oob = "STO_600"
+	set_naval_oob = "STO_600_naval"
+
+	# Drop STO_REF cosmetic tag
+	drop_cosmetic_tag = yes
+
+	create_country_leader = {
+		name = "King Varian Wyrnn"
+		desc = "POLITICS_VARIAN_WYRNN_DESC"
+		picture = "Varian_Wrynn.dds"
+		expire = "1965.1.1"
+		ideology = alliance_type
+		traits = {
+			#
+		}
+	}
+
+}
+
+617.1.1 = {
+
+	# Maybe move to earlier start date
+	create_faction = "The Alliance"
+	add_to_faction = IRO
+	add_to_faction = GNO
+	add_to_faction = HEA
+	add_to_faction = NET
+	add_to_faction = KAL
+	add_to_faction = GNO
+	add_to_faction = TMI
+	add_to_faction = AER
+
+	oob = "STO_617"
+	set_naval_oob = "STO_617_naval"
+
+	create_country_leader = {
+		name = "Regency Council for Anduin Wyrnn"
+		desc = "POLITICS_ANDUIN_REGENCY_COUNCIL_DESC"
+		picture = "Anduin_Wrynn_Regency.dds"
+		expire = "1965.1.1"
+		ideology = alliance_type
+		traits = {
+			#
+		}
+	}
+
+}
+
+620.1.1 = {
+
+	oob = "STO_620"
+	set_naval_oob = "STO_620_naval"
+
+	create_country_leader = {
+		name = "King Varian Wyrnn"
+		desc = "POLITICS_VARIAN_WYRNN_DESC"
+		picture = "Varian_Wrynn.dds"
+		expire = "1965.1.1"
+		ideology = alliance_type
+		traits = {
+			#
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=929
+	name="STATE_929"
+	resources={
+		wheat=5
+		ores=2
+		oil=8
+	}
+
+	history={
+		owner = FAR
+		victory_points = {
+			9489 15
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = FAR
+
+	}
+
+	provinces={
+		8968 9468 9469 9470 9471 9476 9477 9483 9484 9485 9486 9489 9492 9493 9494 9498 9503 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

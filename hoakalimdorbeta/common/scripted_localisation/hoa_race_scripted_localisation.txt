@@ -1,0 +1,4562 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { #no female ancients
+	#max 4
+	name = Get_Ancient_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Bark"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Deep"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Stone"
+	}
+
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Blossom"
+	}
+}
+
+defined_text = {
+	#max 5
+	name = Get_Ancient_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Root"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Skin"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Leaf"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Branch"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Wood"
+	}
+
+}
+
+defined_text = { #no female ankoan
+	#max 1
+	name = Get_Ankoan_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ankoan_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #no female arrakoa
+	#max 1
+	name = Get_Arrakoa_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Arrakoa_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Black_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Black_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Black_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blood_Elf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blood_Elf_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blood_Elf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blue_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blue_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blue_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #no female Bog_Beasts
+	#max 1
+	name = Get_Bog_Beasts_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Bog_Beasts_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #no female Botani
+	#max 1
+	name = Get_Botani_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Botani_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #no female Broken
+	#max 1
+	name = Get_Broken_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Broken_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Bronze_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Bronze_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Bronze_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Centaur_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Centaur_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Centaur_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Chromatic_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Chromatic_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Chromatic_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Colossus
+	#max 1
+	name = Get_Colossus_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Colossus_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Male Crystal Nymphs
+	#max 1
+	name = Get_Crystal_Nymphs_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Crystal_Nymphs_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Crystal Satyr
+	#max 1
+	name = Get_Crystal_Satyr_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Crystal_Satyr_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dark_Iron_Dwarf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dark_Iron_Dwarf_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dark_Troll_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dark_Troll_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dark_Troll_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Demons_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Demons_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Demons_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Draenei_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Draenei_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Draenei_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Drogbar
+	#max 1
+	name = Get_Drogbar_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Drogbar_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Drust
+	#max 1
+	name = Get_Drust_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Drust_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Male Dryads
+	#max 1
+	name = Get_Dryads_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dryads_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dwarf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dwarf_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Dwarf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Earth Elementals
+	#max 1
+	name = Get_Earth_Elemental_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Earth_Elemental_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Earthen
+	#max 1
+	name = Get_Earthen_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Earthen_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Ethereal
+	#max 1
+	name = Get_Ethereal_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ethereal_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Ettin
+	#max 1
+	name = Get_Ettin_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ettin_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Faceless Ones
+	#max 1
+	name = Get_Faceless_Ones_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Faceless_Ones_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Faerie Dragon
+	#max 1
+	name = Get_Faerie_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Faerie_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Male Fal_Dorei
+	#max 1
+	name = Get_Fal_Dorei_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fal_Dorei_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Fel Orc
+	#max 1
+	name = Get_Fel_Orc_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fel_Orc_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fel_Blood_Elves_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fel_Blood_Elves_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fel_Blood_Elves_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Felborne_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Felborne_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Felborne_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Fire Elemental
+	#max 1
+	name = Get_Fire_Elemental_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fire_Elemental_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Aqir
+	#max 1
+	name = Get_Aqir_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Aqir_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Twilight_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Twilight_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Twilight_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Frost_Vrykul_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Frost_Vrykul_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Frost_Vrykul_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Frostborn
+	#max 1
+	name = Get_Frostborn_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Frostborn_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Fungal Giant
+	#max 1
+	name = Get_Fungal_Giant_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fungal_Giant_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Fungal Monster
+	#max 1
+	name = Get_Fungal_Monster_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fungal_Monster_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Fungarians
+	#max 1
+	name = Get_Fungarians_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Fungarians_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Furbolg
+	#max 1
+	name = Get_Furbolg_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Furbolg_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Ghost
+	#max 1
+	name = Get_Ghost_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ghost_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Gilgoblin
+	#max 1
+	name = Get_Gilgoblin_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Gilgoblin_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Gnoll_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Gnoll_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Gnoll_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Goblin_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Goblin_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Goblin_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Goren
+	#max 1
+	name = Get_Goren_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Goren_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Gorlocs
+	#max 1
+	name = Get_Gorlocs_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Gorlocs_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Green_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Green_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Green_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Grell
+	#max 1
+	name = Get_Grell_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Grell_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Gronn
+	#max 1
+	name = Get_Gronn_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Gronn_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Grummle
+	#max 1
+	name = Get_Grummle_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Grummle_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Male Harpies
+	#max 1
+	name = Get_Harpy_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Harpy_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_High_Elf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_High_Elf_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_High_Elf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Highmountain_Tauren_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Highmountain_Tauren_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Highmountain_Tauren_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Highborne_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Highborne_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Highborne_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Hobgoblin
+	#max 1
+	name = Get_Hobgoblin_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Hobgoblin_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Hozen
+	#max 1
+	name = Get_Hozen_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Hozen_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Human_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Human_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Human_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Ice Giants
+	#max 1
+	name = Get_Ice_Giant_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ice_Giant_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ice_Troll_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ice_Troll_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ice_Troll_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Infinite_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Infinite_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Infinite_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Iron Dwarf
+	#max 1
+	name = Get_Iron_Dwarf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Iron_Dwarf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Iron Giants
+	#max 1
+	name = Get_Iron_Giant_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Iron_Giant_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Iron Vrykul
+	#max 1
+	name = Get_Iron_Vrykul_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Iron_Vrykul_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Jinyu
+	#max 1
+	name = Get_Jinyu_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Jinyu_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Jungle_Troll_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Jungle_Troll_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Jungle_Troll_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Junker_Gnome_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Junker_Gnome_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Junker_Gnome_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Kvaldir
+	#max 1
+	name = Get_Kvaldir_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Kvaldir_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Lashers
+	#max 1
+	name = Get_Lashers_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Lashers_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Leper Gnome
+	#max 1
+	name = Get_Leper_Gnome_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Leper_Gnome_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Light_Forged_Draenei_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Light_Forged_Draenei_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Light_Forged_Draenei_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Lobstrok
+	#max 1
+	name = Get_Lobstrok_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Lobstrok_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Lost Ones
+	#max 1
+	name = Get_Lost_Ones_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Lost_Ones_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Maghar_Orc_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Maghar_Orc_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Maghar_Orc_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Magnataur
+	#max 1
+	name = Get_Magnataur_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Magnataur_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Makrura
+	#max 7
+	name = Get_Makrura_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Alga"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Click"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Clam"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Dry"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Swipe"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "Oma'kil"
+	}
+	text = {
+		trigger = {
+			state = 7
+		}
+		localization_key = "Unu"
+	}
+
+}
+
+defined_text = {
+	#max 6
+	name = Get_Makrura_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Claw"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Clip"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Shell"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Craw"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Crusher"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "Krack"
+	}
+
+}
+
+defined_text = { #No Female Mana Surge
+	#max 1
+	name = Get_Mana_Surge_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mana_Surge_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mantid_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mantid_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mantid_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Mecha Gnome
+	#max 1
+	name = Get_Mecha_Gnome_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mecha_Gnome_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Mist Lurker
+	#max 1
+	name = Get_Mist_Lurker_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mist_Lurker_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Mogu
+	#max 1
+	name = Get_Mogu_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mogu_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Mok Nathal
+	#max 1
+	name = Get_Mok_Nathal_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mok_Nathal_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Mountain Giant
+	#max 1
+	name = Get_Mountain_Giant_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Mountain_Giant_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #no female murlocs
+	#max 7
+	name = Get_Murloc_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Reef"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Slime"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Deep"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Mrgl"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Murg"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "Swamp"
+	}
+	text = {
+		trigger = {
+			state = 7
+		}
+		localization_key = "Old Murk"
+	}
+}
+
+defined_text = {
+	#max 4
+	name = Get_Murloc_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Gil"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Eye"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Fin"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Scale"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Naga_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Naga_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Naga_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nerubians_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nerubians_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nerubians_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Netherwing_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Netherwing_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Netherwing_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Night_Elf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Night_Elf_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Night_Elf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightborne_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightborne_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightborne_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightfallen_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightfallen_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightfallen_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightmare_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightmare_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Nightmare_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Ogre
+	#max 1
+	name = Get_Ogre_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ogre_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Orc_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Orc_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Orc_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Pale Orcs
+	#max 1
+	name = Get_Pale_Orc_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Pale_Orc_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Pandaren_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Pandaren_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Pandaren_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Pygmies
+	#max 1
+	name = Get_Pygmies_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Pygmies_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Qiraji
+	#max 1
+	name = Get_Qiraji_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Qiraji_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Quilboar_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Quilboar_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Quilboar_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Ranishu
+	#max 1
+	name = Get_Ranishu_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ranishu_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Red_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Red_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Red_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Rock Flayer
+	#max 1
+	name = Get_Rock_Flayer_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Rock_Flayer_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Saberon
+	#max 1
+	name = Get_Saberon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Saberon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Sanlayn models
+	#max 1
+	name = Get_Sanlayn_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sanlayn_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Sand Gnomes
+	#max 1
+	name = Get_Sand_Gnomes_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sand_Gnomes_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sand_Troll_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sand_Troll_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sand_Troll_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Satyr
+	#max 1
+	name = Get_Satyr_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Satyr_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Sea Giants
+	#max 1
+	name = Get_Sea_Giants_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sea_Giants_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Sethrak
+	#max 1
+	name = Get_Sethrak_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sethrak_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Sha
+	#max 1
+	name = Get_Sha_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sha_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Silithid
+	#max 1
+	name = Get_Silithid_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Silithid_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Male Siren
+	#max 1
+	name = Get_Siren_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Siren_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Snobold
+	#max 1
+	name = Get_Snobold_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Snobold_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Sporeling
+	#max 1
+	name = Get_Sporeling_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sporeling_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Sprite
+	#max 1
+	name = Get_Sprite_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Sprite_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Stone Giant
+	#max 1
+	name = Get_Stone_Giant_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Stone_Giant_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Stone Trogg
+	#max 1
+	name = Get_Stone_Trogg_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Stone_Trogg_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Storm Dragon
+	#max 1
+	name = Get_Storm_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Stone_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Storm Giant
+	#max 1
+	name = Get_Storm_Giant_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Storm_Giant_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Taunka
+	#max 1
+	name = Get_Taunka_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Taunka_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Tauren_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Tauren_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Tauren_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Titan_Watcher_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Titan_Watcher_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Titan_Watcher_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Tolvir
+	#max 1
+	name = Get_Tolvir_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Tolvir_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Tortollan
+	#max 1
+	name = Get_Tortollan_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Tortollan_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Trogg
+	#max 1
+	name = Get_Trogg_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Trogg_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Tuskarr
+	#max 1
+	name = Get_Tuskarr_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Tuskarr_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_Undead_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Undead_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Undead_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Valarjar_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {#light valkyr
+	#max 1
+	name = Get_Valarjar_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Valarjar_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Male Valkyr
+	#max 1
+	name = Get_Valkyr_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Valkyr_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Vargul
+	#max 1
+	name = Get_Vargul_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Vargul_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Virmen
+	#max 1
+	name = Get_Virmen_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Virmen_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_Void_Elf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Void_Elf_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Void_Elf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Void Walker
+	#max 1
+	name = Get_Void_Walker_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Void_Walker_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_Vrykul_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Vrykul_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Vrykul_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Vulpera_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Vulpera_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Vulpera_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Water Elemental
+	#max 1
+	name = Get_Water_Elemental_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Water_Elemental_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Wendigo
+	#max 1
+	name = Get_Wendigo_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Wendigo_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Wildkin
+	#max 1
+	name = Get_Wildkin_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Wildkin_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Wind_Elemental
+	#max 1
+	name = Get_Wind_Elemental_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Wind_Elemental_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Withered
+	#max 1
+	name = Get_Withered_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Withered_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Wolvar
+	#max 1
+	name = Get_Wolvar_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Wolvar_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_Worgen_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Worgen_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Worgen_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+
+defined_text = { #No Female Wretched_Elf
+	#max 1
+	name = Get_Wretched_Elf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Wretched_Elf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Wretched_Elf
+	#max 1
+	name = Get_Wretched_Elf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Wretched_Elf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Wretched_Elf
+	#max 1
+	name = Get_Wretched_Elf_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Wretched_Elf_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Anubisath
+	#max 1
+	name = Get_Anubisath_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Anubisath_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Frost Giant
+	#max 1
+	name = Get_Frost_Giant_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Frost_Giant_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blood_Troll_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blood_Troll_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Blood_Troll_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Gorilla
+	#max 1
+	name = Get_Gorilla_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Gorilla_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_Forest_Troll_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Forest_Troll_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Forest_Troll_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = { #No Female Frost_Nymph
+	#max 1
+	name = Get_Frost_Nymph_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Frost_Nymph_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Ogron
+	#max 1
+	name = Get_Ogron_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Ogron_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female High_Arrakoa
+	#max 1
+	name = Get_High_Arrakoa_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_High_Arrakoa_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Jade_Statue
+	#max 1
+	name = Get_Jade_Statue_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Jade_Statue_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = { #No Female Saurok
+	#max 1
+	name = Get_Saurok_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Saurok_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_Stone_Dragon_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Stone_Dragon_Female_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+defined_text = {
+	#max 1
+	name = Get_Stone_Dragon_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "placeholder"
+	}
+
+}
+
+
+
+
+
+#portraits
+
+defined_text = {
+	#max 2
+	name = Get_ARK_murloc_portrait
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "GFX_ARK_generic_murloc_1"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "GFX_ARK_generic_murloc_2"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_ARK_makrura_portrait
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "GFX_ARK_generic_makrura_1"
+	}
+}
+
+
+
+
+defined_text = {
+	#max 3
+	name = Get_CEN_ancient_portrait
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "GFX_CEN_generic_ancient_1"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "GFX_CEN_generic_ancient_1"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "GFX_CEN_generic_ancient_1"
+	}
+}

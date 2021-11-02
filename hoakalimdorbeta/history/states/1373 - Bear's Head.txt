@@ -1,0 +1,29 @@
+
+state={
+	id=1373
+	name="STATE_1373"
+	resources = {
+		mana=4
+		wood=5
+	}
+
+	history={
+		owner = TIM
+		victory_points = {
+			14934 10
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TIM
+
+	}
+
+	provinces={
+		12025 14924 14934 15105 15106 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

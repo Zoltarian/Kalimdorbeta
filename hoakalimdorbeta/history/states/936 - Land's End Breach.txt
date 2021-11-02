@@ -1,0 +1,40 @@
+
+state={
+	id=936
+	name="STATE_936"
+	resources={
+		oil=4
+		ores=6
+		gunpowder=10
+	}
+
+	history={
+		owner = FAR
+		add_core_of = FAR
+
+		victory_points = {
+			9323 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			9323 = {
+				naval_base = 3
+			}
+		}
+
+		617.1.1 = {
+			owner = SFB
+			controller = SFB
+			add_core_of = SFB
+		}
+	}
+
+	provinces={
+		8953 9323 9324 9326 9334
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

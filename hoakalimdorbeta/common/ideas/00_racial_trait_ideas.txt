@@ -1,0 +1,4598 @@
+ideas = {
+
+# PRIMARY
+
+	primary_racial_trait = {
+
+########################################
+#shared traits
+########################################
+
+		# Dwarf Shared
+		primary_trait_might_of_the_mountain = {
+
+			visible = {
+				OR = {
+				has_idea = dwarf_primary_race
+				has_idea = dark_iron_dwarf_primary_race
+				has_idea = frostborn_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+				has_idea = dwarf_primary_race
+				has_idea = dark_iron_dwarf_primary_race
+				has_idea = frostborn_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dwarf
+
+			modifier = {
+				max_dig_in = 4
+				dig_in_speed_factor = 0.15
+			}
+		}
+
+		# Giants Shared
+		primary_trait_imposing_size = {
+
+			visible = {
+				OR = {
+					has_idea = ice_giants_primary_race
+					has_idea = frost_giant_primary_race
+					has_idea = fungal_giants_primary_race
+					has_idea = ice_giant_primary_race
+					has_idea = iron_giant_primary_race
+					has_idea = mountain_giant_primary_race
+					has_idea = sea_giants_primary_race
+					has_idea = stone_giant_primary_race
+					has_idea = storm_giant_primary_race
+					has_idea = gronn_primary_race
+					has_idea = colossus_primary_race # Crystal Giant
+					has_idea = anubisath_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = ice_giants_primary_race
+					has_idea = frost_giant_primary_race
+					has_idea = fungal_giants_primary_race
+					has_idea = ice_giant_primary_race
+					has_idea = iron_giant_primary_race
+					has_idea = mountain_giant_primary_race
+					has_idea = sea_giants_primary_race
+					has_idea = stone_giant_primary_race
+					has_idea = storm_giant_primary_race
+					has_idea = gronn_primary_race
+					has_idea = colossus_primary_race # Crystal Giant
+					has_idea = anubisath_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_mized
+
+			modifier = {
+				defence = 0.25
+			}
+		}
+
+		# Troll Shared
+		primary_trait_regeneration = {
+
+			visible = {
+				OR = {
+					has_idea = forest_troll_primary_race
+					has_idea = jungle_troll_primary_race
+					has_idea = sand_troll_primary_race
+					has_idea = zandalari_troll_primary_race
+					has_idea = blood_troll_primary_race
+					has_idea = dark_troll_primary_race
+					has_idea = ice_troll_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = forest_troll_primary_race
+					has_idea = jungle_troll_primary_race
+					has_idea = sand_troll_primary_race
+					has_idea = zandalari_troll_primary_race
+					has_idea = blood_troll_primary_race
+					has_idea = dark_troll_primary_race
+					has_idea = ice_troll_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_mized
+
+			modifier = {
+				army_morale_factor = 0.1
+			}
+		}
+
+		# Orc Shared
+		primary_trait_hardness = {
+
+			visible = {
+				OR = {
+				has_idea = orc_primary_race
+				has_idea = maghar_orc_primary_race
+				has_idea = fel_orc_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+				has_idea = orc_primary_race
+				has_idea = maghar_orc_primary_race
+				has_idea = fel_orc_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_orc
+
+			modifier = {
+				attrition = 0.25
+			}
+		}
+
+		primary_trait_bloodfury = {
+
+			visible = {
+				OR = {
+				has_idea = orc_primary_race
+				has_idea = pale_orc_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+				has_idea = orc_primary_race
+				has_idea = pale_orc_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_orc
+
+			modifier = {
+				offensive_war_stability_factor = 0.1
+			}
+		}
+
+		# Frost Races Shared
+		primary_trait_icy_skin = {
+
+			visible = {
+				OR = {
+				has_idea = ice_troll_primary_race
+				has_idea = frost_vrykul_primary_race
+				has_idea = frost_nymph_primary_race
+				has_idea = snobold_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+				has_idea = ice_troll_primary_race
+				has_idea = frost_vrykul_primary_race
+				has_idea = frost_nymph_primary_race
+				has_idea = snobold_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_mized
+
+			modifier = {
+				winter_attrition_factor = -0.5
+			}
+		}
+
+		primary_trait_born_of_frost = {
+
+			visible = {
+				OR = {
+				has_idea = frostborn_primary_race
+				has_idea = frost_giant_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+				has_idea = frostborn_primary_race
+				has_idea = frost_giant_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_mized
+
+			modifier = {
+				winter_attrition_factor	 = -0.5
+			}
+		}
+
+		# Arctic Races Shared
+		primary_trait_arctic_fur = {
+
+			visible = {
+				OR = {
+				has_idea = taunka_primary_race
+				has_idea = yeti_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+				has_idea = taunka_primary_race
+				has_idea = yeti_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_mized
+
+			modifier = {
+				winter_attrition_factor	 = -0.5
+			}
+		}
+
+		# flying (dragons) races Shared
+		primary_trait_masters_of_the_sky = {
+
+			visible = {
+				OR = {
+					has_idea = black_dragon_primary_race
+					has_idea = blue_dragon_primary_race
+					has_idea = bronze_dragon_primary_race
+					has_idea = chromatic_dragon_primary_race
+					has_idea = faerie_dragon_primary_race
+					has_idea = green_dragon_primary_race
+					has_idea = infinite_dragon_primary_race
+					has_idea = netherwing_dragon_primary_race
+					has_idea = nightmare_dragon_primary_race
+					has_idea = red_dragon_primary_race
+					has_idea = stone_dragon_primary_race
+					has_idea = storm_dragon_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = black_dragon_primary_race
+					has_idea = blue_dragon_primary_race
+					has_idea = bronze_dragon_primary_race
+					has_idea = chromatic_dragon_primary_race
+					has_idea = faerie_dragon_primary_race
+					has_idea = green_dragon_primary_race
+					has_idea = infinite_dragon_primary_race
+					has_idea = netherwing_dragon_primary_race
+					has_idea = nightmare_dragon_primary_race
+					has_idea = red_dragon_primary_race
+					has_idea = stone_dragon_primary_race
+					has_idea = storm_dragon_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = racial_masters_of_the_sky
+
+			research_bonus = {
+				air_technology = 0.15
+			}
+		}
+
+		# Burrowers (bugs)
+		primary_trait_natural_burrower = {
+
+			visible = {
+				OR = {
+					has_idea = nerubians_primary_race
+					has_idea = virmen_primary_race
+					has_idea = silithid_primary_race
+					has_idea = aqir_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = nerubians_primary_race
+					has_idea = virmen_primary_race
+					has_idea = silithid_primary_race
+					has_idea = aqir_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_mized
+
+			modifier = {
+				dig_in_speed_factor = 0.2
+				max_dig_in = 10
+			}
+		}
+
+		#sea creatures shared
+		primary_trait_one_with_the_sea = {
+
+			visible = {
+				OR = {
+					has_idea = ankoan_primary_race
+					has_idea = murloc_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = ankoan_primary_race
+					has_idea = murloc_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_murloc
+
+			modifier = {
+				amphibious_invasion = 0.25
+				invasion_preparation = -0.5
+			}
+		}
+
+		#sneaky races
+		primary_trait_masters_of_infiltration = {
+
+			visible = {
+				OR = {
+					has_idea = arakkoa_primary_race
+					has_idea = broken_primary_race
+					has_idea = ghost_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = arakkoa_primary_race
+					has_idea = broken_primary_race
+					has_idea = ghost_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_arakkoa
+
+			modifier = {
+				intel_network_gain_factor = 0.5
+			}
+
+		}
+
+		#blood/high elf
+		primary_trait_arcane_affinity = {
+
+			visible = {
+				OR = {
+					has_idea = blood_elf_primary_race
+					has_idea = high_elf_primary_race
+					has_idea = fel_blood_elves_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = blood_elf_primary_race
+					has_idea = high_elf_primary_race
+					has_idea = fel_blood_elves_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_high_elves
+
+			modifier = {
+				encryption_factor = 0.2
+			}
+		}
+
+		#plant life
+		primary_trait_deep_roots = {
+
+			visible = {
+				OR = {
+					has_idea = ancients_primary_race
+					has_idea = bog_beasts_primary_race
+					has_idea = lashers_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = ancients_primary_race
+					has_idea = bog_beasts_primary_race
+					has_idea = lashers_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ancients
+
+			modifier = {
+				max_dig_in = 8
+			}
+		}
+
+		#dryads/crystal
+		primary_trait_making_trails = {
+
+			visible = {
+				OR = {
+					has_idea = crystal_nymphs_primary_race
+					has_idea = dryads_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = crystal_nymphs_primary_race
+					has_idea = dryads_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dryad
+
+			modifier = {
+				army_speed_factor = 0.15
+			}
+		}
+
+		#earth/stone races
+		primary_trait_strength_of_the_earth = {
+
+			visible = {
+				OR = {
+					has_idea = earth_elemental_primary_race
+					has_idea = colossus_primary_race
+					has_idea = drogbar_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = earth_elemental_primary_race
+					has_idea = colossus_primary_race
+					has_idea = drogbar_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_earth_elementals
+
+			modifier = {
+				offence = 0.1
+			}
+		}
+
+		#crystalized races
+		primary_trait_crystalised_skin = {
+
+			visible = {
+				OR = {
+					has_idea = crystal_nymphs_primary_race
+					has_idea = crystal_satyr_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = crystal_nymphs_primary_race
+					has_idea = crystal_satyr_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_crystal_nymph
+
+			modifier = {
+				defence = 0.25
+			}
+		}
+
+		#satyrs
+		primary_trait_the_shadows_call = {
+
+			visible = {
+				OR = {
+					has_idea = crystal_satyr_primary_race
+					has_idea = satyr_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = crystal_satyr_primary_race
+					has_idea = satyr_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_satyr
+
+			modifier = {
+				operative_slot = 2
+			}
+		}
+
+		#nature based races
+		primary_trait_one_with_nature = {
+
+			visible = {
+				OR = {
+					has_idea = ancients_primary_race
+					has_idea = dryads_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = ancients_primary_race
+					has_idea = dryads_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ancients
+
+			modifier = {
+				Acclimatization_hot_climate_gain_factor = 0.5
+				Acclimatization_cold_climate_gain_factor = 0.5
+			}
+		}
+
+		#fel races
+		primary_trait_fel_blood = {
+
+			visible = {
+				OR = {
+					has_idea = fel_orc_primary_race
+					has_idea = fel_blood_elves_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = fel_orc_primary_race
+					has_idea = fel_blood_elves_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_fel_orc
+
+			modifier = {
+				army_org_factor = 0.075
+				offence = 0.05
+			}
+		}
+
+		primary_trait_territorial = {
+
+			visible = {
+				OR = {
+					has_idea = silithid_primary_race
+					has_idea = qiraji_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = silithid_primary_race
+					has_idea = qiraji_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_silithid
+
+			modifier = {
+				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.15
+			}
+		}
+
+		primary_trait_titan_forging = {
+
+			visible = {
+				OR = {
+					has_idea = demons_primary_race
+					has_idea = anubisath_primary_race
+					has_idea = titan_watcher_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = demons_primary_race
+					has_idea = anubisath_primary_race
+					has_idea = titan_watcher_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_titan_watcher
+
+			modifier = {
+				global_building_slots_factor = 0.1
+				consumer_goods_factor = -0.025
+			}
+		}
+
+		primary_trait_monument_builders = {
+
+			visible = {
+				OR = {
+					has_idea = anubisath_primary_race
+					has_idea = tolvir_primary_race
+				}
+			}
+	
+			available = {
+				OR = {
+					has_idea = anubisath_primary_race
+					has_idea = tolvir_primary_race
+				}
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = 2001
+	
+			picture = generic_race_anubisath
+	
+			modifier = {
+				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.15
+			}
+		}
+
+		primary_trait_titan_ancestry = {
+
+			visible = {
+				OR = {
+					has_idea = colossus_primary_race
+					has_idea = tolvir_primary_race
+				}
+			}
+
+			available = {
+				OR = {
+					has_idea = colossus_primary_race
+					has_idea = tolvir_primary_race
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_tolvir
+
+			modifier = {
+				army_org_factor = 0.075
+				research_speed_factor = 0.025
+			}
+		}
+
+########################################
+#Ancients
+########################################
+
+		# Ancients
+		primary_trait_ironbark = {
+
+			visible = {
+				has_idea = ancients_primary_race
+			}
+
+			available = {
+				has_idea = ancients_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ancients
+
+			modifier = {
+				defence = 0.25
+			}
+		}
+
+		#one_with_nature
+
+		#deep_roots
+
+########################################
+#Ankoan
+########################################
+
+		primary_trait_the_waveblade = {
+
+			visible = {
+				has_idea = ankoan_primary_race
+			}
+
+			available = {
+				has_idea = ankoan_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ankoan
+
+			modifier = {
+				special_forces_cap = 0.2
+			}
+		}
+
+		primary_trait_water_forging = {
+
+			visible = {
+				has_idea = ankoan_primary_race
+			}
+
+			available = {
+				has_idea = ankoan_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ankoan
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+
+########################################
+#Arakkoa
+########################################
+
+		primary_trait_anzus_blessing = {
+
+			visible = {
+				has_idea = arakkoa_primary_race
+			}
+
+			available = {
+				has_idea = arakkoa_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_arakkoa
+
+			#religion modifier +25%
+			#set in on actions
+			#needs custom tooltip
+		}
+
+		primary_trait_encrypted_scrolls = {
+
+			visible = {
+				has_idea = arakkoa_primary_race
+			}
+
+			available = {
+				has_idea = arakkoa_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_arakkoa
+
+			modifier = {
+				encryption = 2
+			}
+
+		}
+
+		#masters of infiltration
+
+########################################
+#Black Dragons
+########################################
+
+		primary_trait_khazgoroths_blessing = {
+
+			visible = {
+				has_idea = black_dragon_primary_race
+			}
+
+			available = {
+				has_idea = black_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_black_dragon
+
+			modifier = {
+				max_dig_in = 8
+			}
+		}
+
+		primary_trait_masters_of_manipulation = {
+
+			visible = {
+				has_idea = black_dragon_primary_race
+			}
+
+			available = {
+				has_idea = black_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_black_dragon
+
+			modifier = {
+				operative_slot = 2
+			}
+	}
+
+########################################
+#Blood Elf
+########################################
+
+		primary_trait_fury_of_the_sunwell = {
+
+			visible = {
+				has_idea = blood_elf_primary_race
+			}
+
+			available = {
+				has_idea = blood_elf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_blood_elves
+
+			modifier = {
+				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.15
+			}
+		}
+
+		primary_trait_arcane_torrent = {
+
+			visible = {
+				has_idea = blood_elf_primary_race
+			}
+
+			available = {
+				has_idea = blood_elf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_blood_elves
+
+			modifier = {
+				supply_consumption_factor = -0.2
+			}
+		}
+
+########################################
+#Blue Dragons
+########################################
+
+		primary_trait_norgannons_blessing = {
+
+			visible = {
+				has_idea = blue_dragon_primary_race
+			}
+
+			available = {
+				has_idea = blue_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_blue_dragon
+
+			modifier = {
+				stability_factor = 0.05
+				decryption_factor = 0.1
+			}
+		}
+
+		primary_trait_arcane_mastery = {
+
+			visible = {
+				has_idea = blue_dragon_primary_race
+			}
+
+			available = {
+				has_idea = blue_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_blue_dragon
+
+			modifier = {
+				encryption_factor = 0.2
+			}
+		}
+
+		#masters of the sky
+
+########################################
+#Bog Beasts
+########################################
+
+		primary_trait_murky_waters = {
+
+			visible = {
+				has_idea = bog_beasts_primary_race
+			}
+
+			available = {
+				has_idea = bog_beasts_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_bog_beasts
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+				global_building_slots_factor = 0.1
+			}
+		}
+
+		primary_trait_natural_predators = {
+
+			visible = {
+				has_idea = bog_beasts_primary_race
+			}
+
+			available = {
+				has_idea = bog_beasts_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_bog_beasts
+
+			modifier = {
+				recon_factor = 0.1
+				offence = 0.05
+			}
+		}
+
+	#deep_roots
+
+########################################
+#Botani
+########################################
+
+		primary_trait_strength_of_gnarlgar = {
+
+			visible = {
+				has_idea = botani_primary_race
+			}
+
+			available = {
+				has_idea = botani_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_botani
+
+			modifier = {
+				offence = 0.1
+			}
+		}
+
+		primary_trait_hive_mind = {
+
+			visible = {
+				has_idea = botani_primary_race
+			}
+
+			available = {
+				has_idea = botani_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_botani
+
+			modifier = {
+				research_speed_factor = 0.025
+				recon_factor = 1
+			}
+		}
+
+		#deep_roots
+
+########################################
+#Broken
+########################################
+
+		primary_trait_shadow_walking = {
+
+			visible = {
+				has_idea = broken_primary_race
+			}
+
+			available = {
+				has_idea = broken_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_broken
+
+			modifier = {
+				cas_damage_reduction = 0.15
+				max_planning = 0.05
+			}
+		}
+
+		primary_trait_heroic_presence = {
+
+			visible = {
+				has_idea = broken_primary_race
+			}
+
+			available = {
+				has_idea = broken_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_broken
+
+			modifier = {
+				army_org_factor = 0.15
+			}
+		}
+
+		#masters of infiltration
+
+########################################
+#Bronze Dragons
+########################################
+		primary_trait_amanthuls_blessing = {
+
+			visible = {
+				has_idea = bronze_dragon_primary_race
+			}
+
+			available = {
+				has_idea = bronze_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_bronze_dragon
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		primary_trait_time_warp = {
+
+			visible = {
+				has_idea = bronze_dragon_primary_race
+			}
+
+			available = {
+				has_idea = bronze_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_bronze_dragon
+
+			modifier = {
+				army_speed_factor = 0.075
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		#masters of the sky
+
+########################################
+#Centaur
+########################################
+
+		primary_trait_stampede = {
+
+			visible = {
+				has_idea = centaur_primary_race
+			}
+
+			available = {
+				has_idea = centaur_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_centaur
+
+			modifier = {
+				army_speed_factor = 0.15
+			}
+		}
+
+		primary_trait_might_of_the_khan = {
+
+			visible = {
+				has_idea = centaur_primary_race
+			}
+
+			available = {
+				has_idea = centaur_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_centaur
+
+			modifier = {
+				offensive_war_stability_factor = 0.1
+			}
+		}
+
+		primary_trait_nomadic_people = {
+
+			visible = {
+				has_idea = centaur_primary_race
+			}
+
+			available = {
+				has_idea = centaur_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_centaur
+
+			modifier = {
+				global_building_slots_factor = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+########################################
+#Chromatic Dragons
+########################################
+
+		primary_trait_aberation = {
+
+			visible = {
+				has_idea = chromatic_dragon_primary_race
+			}
+
+			available = {
+				has_idea = chromatic_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_chromatic_dragon
+
+			modifier = {
+				attrition = -0.25
+			}
+		}
+
+		primary_trait_bread_for_destruction = {
+
+			visible = {
+				has_idea = chromatic_dragon_primary_race
+			}
+
+			available = {
+				has_idea = chromatic_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_chromatic_dragon
+
+			modifier = {
+				offensive_war_stability_factor = 0.2
+			}
+		}
+
+		#masters of the sky
+
+########################################
+#Colossus
+########################################
+
+		#titan_ancestry
+
+		#strength of the earth
+
+		#imposing_size
+
+########################################
+#Crystal Nymph
+########################################
+
+		primary_trait_remnant_arcane_magic = {
+
+			visible = {
+				has_idea = crystal_nymphs_primary_race
+			}
+
+			available = {
+				has_idea = crystal_nymphs_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_crystal_nymph
+
+			modifier = {
+				encryption_factor = 0.2
+			}
+		}
+
+		#crystalized skin
+
+		#making_trails
+
+########################################
+#Crystal Satyr
+########################################
+
+		primary_trait_elusiveness = {
+
+			visible = {
+				has_idea = crystal_satyr_primary_race
+			}
+
+			available = {
+				has_idea = crystal_satyr_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_crystal_satyr
+
+			modifier = {
+				enemy_declare_war_tension = 0.2
+			}
+		}
+
+		#the shadows call
+
+		#crystalized skin
+
+########################################
+#Darkiron Dwarf
+########################################
+
+		#Dark Iron Dwarfs
+		primary_trait_forged_in_flames = {
+
+			visible = {
+				has_idea = dark_iron_dwarf_primary_race
+			}
+
+			available = {
+				has_idea = dark_iron_dwarf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dark_iron_dwarf
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+
+		primary_trait_mass_production = {
+
+			visible = {
+				has_idea = dark_iron_dwarf_primary_race
+			}
+
+			available = {
+				has_idea = dark_iron_dwarf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dark_iron_dwarf
+
+			modifier = {
+				global_building_slots_factor = 0.2
+			}
+		}
+
+		#might of the mountain (shared)
+
+########################################
+#Dark Troll
+########################################
+
+		primary_trait_dark_sight = {
+
+			visible = {
+				has_idea = dark_troll_primary_race
+			}
+
+			available = {
+				has_idea = dark_troll_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dark_troll
+
+			modifier = {
+				land_night_attack = 0.2
+			}
+		}
+
+		primary_trait_endangered_race = {
+
+			visible = {
+				has_idea = dark_troll_primary_race
+			}
+
+			available = {
+				has_idea = dark_troll_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dark_troll
+
+			modifier = {
+				war_support_factor = 0.1
+			}
+		}
+
+		#regenration
+
+########################################
+#Demons
+########################################
+
+		primary_trait_the_burning_crusade = {
+
+			visible = {
+				has_idea = demons_primary_race
+			}
+
+			available = {
+				has_idea = demons_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_demons
+
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.15
+			}
+		}
+
+		primary_trait_destructive_nature = {
+
+			visible = {
+				has_idea = demons_primary_race
+			}
+
+			available = {
+				has_idea = demons_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_demons
+
+			modifier = {
+				offensive_war_stability_factor = 0.2
+			}
+		}
+
+		#TITANFORGING
+
+########################################
+#Draenei
+########################################
+
+		primary_trait_blessing_of_the_naru = {
+
+			visible = {
+				has_idea = draenei_primary_race
+			}
+
+			available = {
+				has_idea = draenei_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_draenei
+
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.1
+				acclimatization_hot_climate_gain_factor	= 0.1
+			}
+		}
+
+		primary_trait_gemcutting = {
+
+			visible = {
+				has_idea = draenei_primary_race
+			}
+
+			available = {
+				has_idea = draenei_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_draenei
+
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		#heroic presence
+
+########################################
+#Drogbar
+########################################
+
+		primary_trait_worm_riders = {
+
+			visible = {
+				has_idea = drogbar_primary_race
+			}
+
+			available = {
+				has_idea = drogbar_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_drogbar
+
+			modifier = {
+				army_speed_factor = 0.15
+			}
+		}
+
+		primary_trait_slaves_of_the_earth_warder = {
+
+			visible = {
+				has_idea = drogbar_primary_race
+			}
+
+			available = {
+				has_idea = drogbar_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_drogbar
+
+			modifier = {
+				production_speed_buildings_factor = 0.2
+			}
+		}
+
+		#strength of the earth
+
+########################################
+#Drust
+########################################
+
+		primary_trait_thornspeakers = {
+
+			visible = {
+				has_idea = drust_primary_race
+			}
+
+			available = {
+				has_idea = drust_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_drust
+
+			#religion modifier +25%
+			#set in on actions
+			#needs custom tooltip
+		}
+
+		primary_trait_goraktuls_wrath = {
+
+			visible = {
+				has_idea = drust_primary_race
+			}
+
+			available = {
+				has_idea = drust_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_drust
+
+			modifier = {
+				org_loss_when_moving = 0.2
+			}
+		}
+
+		primary_trait_blessing_of_thros = {
+
+			visible = {
+				has_idea = drust_primary_race
+			}
+
+			available = {
+				has_idea = drust_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_drust
+
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+########################################
+#Dryads
+########################################
+
+		primary_trait_swiftness = {
+
+			visible = {
+				has_idea = dryads_primary_race
+			}
+
+			available = {
+				has_idea = dryads_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dryads
+
+			modifier = {
+				org_loss_when_moving = 0.2
+			}
+		}
+
+		#one with nature
+
+		#making_trails
+
+########################################
+#Dwarf
+########################################
+
+		primary_trait_stoneform = {
+
+			visible = {
+				has_idea = dwarf_primary_race
+			}
+
+			available = {
+				has_idea = dwarf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dwarf
+
+			modifier = {
+				attrition = -0.25
+			}
+		}
+
+		primary_trait_dwarven_forges = {
+
+			visible = {
+				has_idea = dwarf_primary_race
+			}
+
+			available = {
+				has_idea = dwarf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dwarf
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		#might of the mountain (shared)
+
+########################################
+#Earth Elemental
+########################################
+		primary_trait_personification_of_the_earth = {
+
+			visible = {
+				has_idea = earth_elemental_primary_race
+			}
+
+			available = {
+				has_idea = earth_elemental_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_earth_elementals
+
+			modifier = {
+				max_dig_in = 4
+				dig_in_speed_factor = 0.15
+			}
+		}
+
+		primary_trait_the_stonecore = {
+
+			visible = {
+				has_idea = earth_elemental_primary_race
+			}
+
+			available = {
+				has_idea = earth_elemental_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_earth_elementals
+
+			modifier = {
+				global_building_slots_factor = 0.2
+			}
+		}
+
+	#strength of the earth
+
+########################################
+#Earthen
+########################################
+
+########################################
+#Ethereal
+########################################
+
+########################################
+#Ettin
+########################################
+
+########################################
+#Faceless Ones
+########################################
+
+########################################
+#Faerie Dragons
+########################################
+
+########################################
+#Fal Dorei
+########################################
+
+########################################
+#Fel Orcs
+########################################
+
+		#fel blood
+
+		#hardness
+
+
+########################################
+#Fel Blood Elves
+########################################
+
+		#fel blood
+
+		#arcane affinity
+
+########################################
+#Felborne
+########################################
+
+		#fel blood
+
+########################################
+#Fire Elementals
+########################################
+
+		primary_trait_embodiment_of_heat = {
+
+			visible = {
+				has_idea = fire_elemental_primary_race
+			}
+
+			available = {
+				has_idea = fire_elemental_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_fire_elemental
+
+			modifier = {
+				heat_attrition_factor = -0.9
+			}
+		}
+
+########################################
+#Ice Giants
+########################################
+
+########################################
+#Twilight Dragons
+########################################
+
+########################################
+#Frost Vrykul
+########################################
+
+########################################
+#Frostborn
+########################################
+
+		primary_trait_frostborn_tactics = {
+
+			visible = {
+				has_idea = frostborn_primary_race
+			}
+
+			available = {
+				has_idea = frostborn_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_frostborn
+
+			modifier = {
+				planning_speed = 0.3
+			}
+		}
+
+########################################
+#Fungal Giants
+########################################
+
+########################################
+#Fungal Monsters
+########################################
+
+########################################
+#Fungarians
+########################################
+
+########################################
+#Furbolg
+########################################
+
+		primary_trait_children_of_ursoc = {
+
+			visible = {
+				has_idea = furbolg_primary_race
+			}
+
+			available = {
+				has_idea = furbolg_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_furbolg
+
+			#religion modifier +25%
+			#set in on actions
+		}
+
+########################################
+#Ghosts
+########################################
+
+		primary_trait_call_of_the_shadowlands = {
+
+			visible = {
+				has_idea = ghost_primary_race
+			}
+
+			available = {
+				has_idea = ghost_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ghost
+
+			#religion modifier +25%
+			#set in on actions
+			#needs custom tooltip
+		}
+
+		#masters of infiltration
+
+########################################
+#Gil Goblins
+########################################
+
+########################################
+#Gnolls
+########################################
+
+########################################
+#Gnome
+########################################
+
+		primary_trait_expansive_mind = {
+
+			visible = {
+				has_idea = gnome_primary_race
+			}
+
+			available = {
+				has_idea = gnome_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_gnomes
+
+			modifier = {
+				max_planning = 0.1
+			}
+		}
+
+		primary_trait_engineering_specialist = {
+
+			visible = {
+				has_idea = gnome_primary_race
+			}
+
+			available = {
+				has_idea = gnome_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_gnomes
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		primary_trait_nimble_fingers = {
+
+			visible = {
+				has_idea = gnome_primary_race
+			}
+
+			available = {
+				has_idea = gnome_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_gnomes
+
+			modifier = {
+				encryption_factor = 0.2
+			}
+		}
+
+########################################
+#Goblin
+########################################
+
+		primary_trait_best_deals_anywhere = {
+
+			visible = {
+				has_idea = goblin_primary_race
+			}
+
+			available = {
+				has_idea = goblin_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_goblin
+
+			modifier = {
+					trade_opinion_factor = 0.8
+					min_export = -0.25
+			}
+		}
+
+		primary_trait_time_is_money = {
+
+			visible = {
+				has_idea = goblin_primary_race
+			}
+
+			available = {
+				has_idea = goblin_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_goblin
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		primary_trait_better_living_through_chemistry = {
+
+			visible = {
+				has_idea = goblin_primary_race
+			}
+
+			available = {
+				has_idea = goblin_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_goblin
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+########################################
+#Goren
+########################################
+
+########################################
+#Gorlocs
+########################################
+
+########################################
+#Green Dragons
+########################################
+
+		primary_trait_eonars_blessing = {
+
+			visible = {
+				has_idea = green_dragon_primary_race
+			}
+
+			available = {
+				has_idea = green_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_green_dragon
+
+			modifier = {
+				army_org_factor = 0.15
+			}
+		}
+
+		primary_trait_the_emerald_dream = {
+
+			visible = {
+				has_idea = green_dragon_primary_race
+			}
+
+			available = {
+				has_idea = green_dragon_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_green_dragon
+
+			modifier = {
+				no_supply_grace = 48
+				supply_consumption_factor = -0.1
+			}
+		}
+
+		#masters of the sky
+
+########################################
+#Grell
+########################################
+
+########################################
+#Gronn
+########################################
+
+########################################
+#Grummle
+########################################
+
+		primary_trait_supply_the_walls = {
+
+			visible = {
+				has_idea = grummle_primary_race
+			}
+
+			available = {
+				has_idea = grummle_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_grummle
+
+			modifier = {
+					production_speed_bunker_factor = 0.2
+					production_speed_coastal_bunker_factor = 0.2
+			}
+		}
+
+		primary_trait_luck_of_the_lucky_do = {
+
+			visible = {
+				has_idea = grummle_primary_race
+			}
+
+
+			available = {
+				has_idea = grummle_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_grummle
+
+			modifier = {
+				out_of_supply_factor = -0.3
+			}
+		}
+
+		primary_trait_the_burlap_trail = {
+
+			visible = {
+				has_idea = grummle_primary_race
+			}
+
+			available = {
+				has_idea = grummle_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_grummle
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.3
+			}
+		}
+
+########################################
+#Harpy
+########################################
+
+		primary_trait_death_from_above = {
+
+			visible = {
+				has_idea = harpy_primary_race
+			}
+
+			available = {
+				has_idea = harpy_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_harpy
+
+			modifier = {
+				air_cas_present_factor = 0.3
+			}
+		}
+
+		primary_trait_daughters_of_aviana = {
+
+			visible = {
+				has_idea = harpy_primary_race
+			}
+
+			available = {
+				has_idea = harpy_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_harpy
+
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+
+########################################
+#High Elf
+########################################
+
+		primary_trait_expert_trackers = {
+
+			visible = {
+				has_idea = high_elf_primary_race
+			}
+
+			available = {
+				has_idea = high_elf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_high_elves
+
+			modifier = {
+				recon_factor = 0.20
+			}
+		}
+
+		primary_trait_expert_marksman = {
+
+			visible = {
+				has_idea = high_elf_primary_race
+			}
+
+			available = {
+				has_idea = high_elf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_high_elves
+
+			modifier = {
+				modifier_army_sub_unit_archer_attack_factor = 0.1
+				modifier_army_sub_unit_archer_defence_factor = 0.1
+			}
+		}
+
+		#arcane_affinity
+
+########################################
+#Highmountain Tauren
+########################################
+
+########################################
+#Highborne
+########################################
+
+########################################
+#Hobgoblin
+########################################
+
+########################################
+#Hozen
+########################################
+
+########################################
+#Humans
+########################################
+
+		primary_trait_diplomatic = {
+
+			visible = {
+				has_idea = human_primary_race
+			}
+
+			available = {
+				has_idea = human_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = racial_diplomacy
+
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+
+		primary_trait_human_spirit = {
+
+			visible = {
+				has_idea = human_primary_race
+			}
+
+			available = {
+				has_idea = human_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = racial_human_spirit
+
+			modifier = {
+				army_org_factor = 0.15
+			}
+		}
+
+		primary_trait_perception = {
+
+			visible = {
+				has_idea = human_primary_race
+			}
+
+			available = {
+				has_idea = human_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = racial_perception
+
+			modifier = {
+				recon_factor = 0.20
+			}
+		}
+
+########################################
+#ice giants
+########################################
+
+		primary_trait_living_glacier = {
+
+			visible = {
+				has_idea = ice_giant_primary_race
+			}
+
+			available = {
+				has_idea = ice_giant_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ice_giant
+
+			modifier = {
+				winter_attrition_factor = -0.9
+			}
+		}
+
+########################################
+#ice trolls
+########################################
+
+		primary_trait_aggressive_hostility = {
+
+			visible = {
+				has_idea = ice_troll_primary_race
+			}
+
+			available = {
+				has_idea = ice_troll_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ice_troll
+
+			modifier = {
+				justify_war_goal_time = -0.3
+			}
+		}
+
+		#Icy Skin (shared)
+
+		#Regeneration (shared)
+
+########################################
+#infinite Dragons
+########################################
+
+########################################
+#iron Dwarves
+########################################
+
+########################################
+#iron Giants
+########################################
+
+########################################
+#iron Vrykul
+########################################
+
+########################################
+#Jinyu
+########################################
+
+########################################
+#Jungle Troll
+########################################
+
+########################################
+#Junker Gnome
+########################################
+
+		primary_trait_combat_analysis = {
+
+			visible = {
+				has_idea = junker_gnome_primary_race
+			}
+
+			available = {
+				has_idea = junker_gnome_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_junker_gnome
+
+			modifier = {
+				experience_gain_army_factor = 0.05
+				experience_gain_air_factor = 0.05
+				experience_gain_navy_factor = 0.05
+			}
+		}
+
+		primary_trait_mastercraft = {
+
+			visible = {
+				has_idea = junker_gnome_primary_race
+			}
+
+			available = {
+				has_idea = junker_gnome_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_junker_gnome
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				industry_repair_factor = 0.15
+			}
+		}
+
+		primary_trait_emergency_failsafe = {
+
+			visible = {
+				has_idea = junker_gnome_primary_race
+			}
+
+			available = {
+				has_idea = junker_gnome_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_junker_gnome
+
+			modifier = {
+				no_supply_grace	= 96
+			}
+		}
+
+########################################
+#Kobold
+########################################
+
+		primary_trait_dig_tunnel_mine = {
+
+			visible = {
+				has_idea = kobold_primary_race
+			}
+
+			available = {
+				has_idea = kobold_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_kobold
+
+			modifier = {
+				max_dig_in = 5
+				dig_in_speed_factor = 0.25
+			}
+		}
+
+		primary_trait_you_no_take_candel = {
+
+			visible = {
+				has_idea = kobold_primary_race
+			}
+
+			available = {
+				has_idea = kobold_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_kobold
+
+			modifier = {
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		primary_trait_flee_scurry_run = {
+
+			visible = {
+				has_idea = kobold_primary_race
+			}
+
+			available = {
+				has_idea = kobold_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_kobold
+
+			modifier = {
+				army_speed_factor = 0.05
+				naval_retreat_chance = 0.8
+				naval_retreat_speed = 0.25
+			}
+		}
+
+########################################
+#Kvaldir
+########################################
+
+########################################
+#Lashers
+########################################
+
+		primary_trait_photosynthesis = {
+
+			visible = {
+				has_idea = lashers_primary_race
+			}
+
+			available = {
+				has_idea = lashers_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_lasher
+
+			modifier = {
+				out_of_supply_factor = -0.25
+			}
+		}
+
+		primary_trait_element_of_nature = {
+
+			visible = {
+				has_idea = lashers_primary_race
+			}
+
+			available = {
+				has_idea = lashers_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_lasher
+
+			modifier = {
+				attrition = -0.25
+			}
+		}
+
+		#deep roots
+
+########################################
+#Leper Gnome
+########################################
+
+########################################
+#Light Forged Draenei
+########################################
+
+########################################
+#Lobstrok
+########################################
+
+########################################
+#Lost Ones
+########################################
+
+########################################
+#Maghar Orc
+########################################
+
+		primary_trait_uncorrupted = {
+
+			visible = {
+				has_idea = maghar_orc_primary_race
+			}
+
+			available = {
+				has_idea = maghar_orc_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_maghar_orc
+
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		primary_trait_ancesteral_call = {
+
+			visible = {
+				has_idea = maghar_orc_primary_race
+			}
+
+			available = {
+				has_idea = maghar_orc_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_maghar_orc
+
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+########################################
+#Magnataur
+########################################
+
+########################################
+#Makrura
+########################################
+
+		primary_trait_big_meaty_claws = {
+
+			visible = {
+				has_idea = makrura_primary_race
+			}
+
+			available = {
+				has_idea = makrura_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_makrura
+
+			modifier = {
+				training_time_army_factor = -0.25
+				offence = 0.02
+			}
+		}
+
+		primary_trait_coast_striders = {
+
+			visible = {
+				has_idea = makrura_primary_race
+			}
+
+			available = {
+				has_idea = makrura_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_makrura
+
+			modifier = {
+				amphibious_invasion = 0.50
+				invasion_preparation = -0.2
+			}
+		}
+
+		primary_trait_life_in_the_ocean = {
+
+			visible = {
+				has_idea = makrura_primary_race
+			}
+
+			available = {
+				has_idea = makrura_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_makrura
+
+			modifier = {
+				industrial_capacity_dockyard = 0.25
+				production_speed_dockyard_factor = 0.25
+				convoy_escort_efficiency = 0.05
+				naval_coordination = 0.05
+				sortie_efficiency = 0.05
+				navy_refit_speed = 0.05
+				navy_refit_ic_cost = -0.05
+				naval_retreat_chance = 0.1
+				naval_retreat_speed = 0.15
+				naval_speed_factor = 0.15
+				spotting_chance = 0.3
+				navy_submarine_detection_factor = 0.5
+				navy_max_range_factor = 1
+				convoy_raiding_efficiency_factor = 0.5
+				naval_hit_chance = 0.02
+			}
+		}
+
+########################################
+#Mana Surge
+########################################
+
+########################################
+#Mantid
+########################################
+
+########################################
+#Mecha Gnome
+########################################
+
+########################################
+#Mogu
+########################################
+
+########################################
+#Mok'nathal
+########################################
+
+########################################
+#Mountain Giant
+########################################
+
+########################################
+#Murloc
+########################################
+
+		primary_trait_spawning_pools = {
+
+			visible = {
+				has_idea = murloc_primary_race
+			}
+
+			available = {
+				has_idea = murloc_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_murloc
+
+			modifier = {
+				MONTHLY_POPULATION = 0.5
+			}
+		}
+
+		primary_trait_mrglgl = {
+
+			visible = {
+				has_idea = murloc_primary_race
+			}
+
+			available = {
+				has_idea = murloc_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_murloc
+
+			modifier = {
+				training_time_factor = -0.25
+			}
+		}
+
+		#onewith the sea
+
+########################################
+#Naga
+########################################
+
+########################################
+#Nerubians
+########################################
+
+########################################
+#Netherwing Dragon
+########################################
+
+########################################
+#Night Elf
+########################################
+
+		primary_trait_touch_of_elune = {
+
+			visible = {
+				has_idea = night_elf_primary_race
+			}
+
+			available = {
+				has_idea = night_elf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_night_elf
+
+			modifier = {
+				out_of_supply_factor = -0.25
+			}
+		}
+
+		primary_trait_shadowmeld = {
+
+			visible = {
+				has_idea = night_elf_primary_race
+			}
+
+			available = {
+				has_idea = night_elf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_night_elf
+
+			modifier = {
+				recon_factor = 0.2
+			}
+		}
+
+		primary_trait_nightsong = {
+
+			visible = {
+				has_idea = night_elf_primary_race
+			}
+
+			available = {
+				has_idea = night_elf_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_night_elf
+
+			modifier = {
+				land_night_attack = 0.2
+			}
+		}
+
+########################################
+#Nightborne
+########################################
+
+########################################
+#Nightfallen
+########################################
+
+########################################
+#Nightmare Dragon
+########################################
+
+########################################
+#Ogre
+########################################
+
+		primary_trait_brute_strength = {
+
+			visible = {
+				has_idea = ogre_primary_race
+			}
+
+			available = {
+				has_idea = ogre_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ogre
+
+			modifier = {
+				offence = 0.1
+			}
+		}
+
+		primary_trait_thick_skin = {
+
+			visible = {
+				has_idea = ogre_primary_race
+			}
+
+			available = {
+				has_idea = ogre_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ogre
+
+			modifier = {
+				attrition = -0.25
+			}
+		}
+
+		primary_trait_stubborn = {
+
+			visible = {
+				has_idea = ogre_primary_race
+			}
+
+			available = {
+				has_idea = ogre_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_ogre
+
+			modifier = {
+				surrender_limit = 0.05
+			}
+		}
+
+########################################
+#Orc
+########################################
+
+		primary_trait_axe_specialization = {
+
+			visible = {
+				has_idea = orc_primary_race
+			}
+
+			available = {
+				has_idea = orc_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_orc
+
+			modifier = {
+				offence = 0.1
+			}
+		}
+
+		#hardiness (shared trait)
+
+		#bloodfury (shared trait)
+
+########################################
+#Pale Orc
+########################################
+
+		primary_trait_call_of_the_void = {
+
+			visible = {
+				has_idea = pale_orc_primary_race
+			}
+
+			available = {
+				has_idea = pale_orc_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_pale_orc
+
+			modifier = {
+				minimum_training_level = -0.1
+			}
+		}
+
+		primary_trait_night_dwellers = {
+
+			visible = {
+				has_idea = pale_orc_primary_race
+			}
+
+			available = {
+				has_idea = pale_orc_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_pale_orc
+
+			modifier = {
+				land_night_attack = 0.2
+			}
+		}
+
+########################################
+#Pandaren
+########################################
+		#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		# DYNAMIC TRAIT
+
+		primary_trait_quaking_palm = {
+
+			visible = {
+				has_idea =  pandaren_primary_race
+			}
+
+			available = {
+				has_idea =  pandaren_primary_race
+				has_war = yes
+				NOT = {has_idea = primary_trait_inner_peace}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_pandaren
+
+			modifier = {
+				army_defence_factor	= 0.01
+			}
+
+			on_remove = {
+				country_event = racials.1 # Adds Inner Peace.
+			}
+		}
+
+		primary_trait_inner_peace = {
+
+			visible = {
+				has_idea =  pandaren_primary_race
+			}
+
+			available = {
+				has_idea = pandaren_primary_race
+				has_war = no
+				NOT = {has_idea = primary_trait_quaking_palm}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_pandaren
+
+			modifier = {
+				experience_gain_army = 0.02
+				experience_gain_air = 0.02
+				experience_gain_navy = 0.02
+			}
+
+			on_remove = {
+				country_event = racials.2 # Adds Quaking Palm.
+			}
+		}
+		#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+		primary_trait_epicurean = {
+
+			visible = {
+				has_idea =  pandaren_primary_race
+			}
+
+			available = {
+				has_idea = pandaren_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_pandaren
+
+			modifier = {
+				army_morale_factor = 0.1
+			}
+		}
+
+		primary_trait_bouncy = {
+
+			visible = {
+				has_idea =  pandaren_primary_race
+			}
+
+			available = {
+				has_idea = pandaren_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_pandaren
+
+			modifier = {
+				attrition = -0.25
+			}
+		}
+
+########################################
+#Pygmies
+########################################
+
+########################################
+#Qiraji
+########################################
+
+	primary_trait_call_of_cthun = {
+
+		visible = {
+			has_idea = qiraji_primary_race
+		}
+
+		available = {
+			has_idea = qiraji_primary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = 2001
+
+		picture = generic_race_ghost
+
+		#religion modifier +25%
+		#set in on actions
+		#needs custom tooltip
+	}
+
+	primary_trait_heightened_minds = {
+
+		visible = {
+			has_idea = qiraji_primary_race
+		}
+
+		available = {
+			has_idea = qiraji_primary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = 2001
+
+		picture = generic_race_gnomes
+
+		modifier = {
+			max_planning = 0.1
+		}
+	}
+	
+
+	#territorial
+
+########################################
+#Quilboar
+########################################
+
+	primary_trait_bristleback = {
+
+		visible = {
+			has_idea = quilboar_primary_race
+		}
+
+		available = {
+			has_idea = quilboar_primary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = 2001
+
+		picture = generic_race_quilboar
+
+		modifier = {
+			offence = 0.05
+			defence = 0.125
+		}
+	}
+
+	primary_trait_fury_of_agamaggan = {
+
+		visible = {
+			has_idea = quilboar_primary_race
+		}
+
+		available = {
+			has_idea = quilboar_primary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = 2001
+
+		picture = generic_race_quilboar
+
+		modifier = {
+			breakthrough_factor = 0.2
+		}
+	}
+
+	primary_trait_warpath = {
+
+		visible = {
+			has_idea = quilboar_primary_race
+		}
+
+		available = {
+			has_idea = quilboar_primary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = 2001
+
+		picture = generic_race_quilboar
+
+		modifier = {
+			offensive_war_stability_factor = 0.05
+			war_support_factor = 0.05
+		}
+	}
+
+########################################
+#Ranishu
+########################################
+
+########################################
+#Rock Flayer
+########################################
+
+########################################
+#Saberon
+########################################
+
+########################################
+#Sanlayn
+########################################
+
+########################################
+#Sand Gnome
+########################################
+
+########################################
+#Sand Troll
+########################################
+
+		primary_trait_heat_adaptation = {
+
+			visible = {
+				has_idea = sand_troll_primary_race
+			}
+
+			available = {
+				has_idea = sand_troll_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_sand_troll
+
+			modifier = {
+				heat_attrition_factor = -0.5
+			}
+		}
+
+		primary_trait_desert_habitation = {
+
+			visible = {
+				has_idea = sand_troll_primary_race
+			}
+
+			available = {
+				has_idea = sand_troll_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_sand_troll
+
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.1
+				acclimatization_hot_climate_gain_factor	= 0.1
+			}
+		}
+
+		#regeneration
+
+
+########################################
+#Satyr
+########################################
+
+		#the shadows call
+
+########################################
+#Sea Giants
+########################################
+
+########################################
+#Sethrak
+########################################
+
+########################################
+#Sha
+########################################
+
+########################################
+#Silithid
+########################################
+
+		primary_trait_tunnel_network = {
+
+			visible = {
+				has_idea = silithid_primary_race
+			}
+
+			available = {
+				has_idea = silithid_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_silithid
+
+			modifier = {
+				max_dig_in = 4
+				supply_consumption_factor = -0.1
+			}
+		}
+
+		#territorial
+
+		#natural burrower
+
+########################################
+#Siren
+########################################
+
+########################################
+#Snobold
+########################################
+
+########################################
+#Sporeling
+########################################
+
+########################################
+#Sprite
+########################################
+
+########################################
+#Stone Giant
+########################################
+
+########################################
+#Stone Trogg
+########################################
+
+########################################
+#Storm Dragon
+########################################
+
+########################################
+#Storm Giant
+########################################
+
+########################################
+#Taunka
+########################################
+
+########################################
+#Tauren
+########################################
+
+		primary_trait_war_stomping = {
+
+			visible = {
+				has_idea = tauren_primary_race
+			}
+
+			available = {
+				has_idea = tauren_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_tauren
+
+			modifier = {
+				offence = 0.1
+			}
+		}
+
+		primary_trait_nature_resistance = {
+
+			visible = {
+				has_idea = tauren_primary_race
+			}
+
+			available = {
+				has_idea = tauren_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_tauren
+
+			modifier = {
+				attrition = -0.02
+			}
+		}
+
+		primary_trait_endurance = {
+
+			visible = {
+				has_idea = tauren_primary_race
+			}
+
+			available = {
+				has_idea = tauren_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_tauren
+
+			modifier = {
+				defence = 0.05
+				out_of_supply_factor = -0.2
+			}
+		}
+
+########################################
+#Titan Watcher
+########################################
+
+########################################
+#Tolvir
+########################################
+
+	primary_trait_sand_runners = {
+
+		visible = {
+			has_idea = tolvir_primary_race
+		}
+
+		available = {
+			has_idea = tolvir_primary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = 2001
+
+		picture = generic_race_centaur
+
+		modifier = {
+			army_speed_factor = 0.15
+		}
+}
+
+########################################
+#Tortollan
+########################################
+
+########################################
+#Trogg
+########################################
+
+########################################
+#Tuskarr
+########################################
+
+		primary_trait_blubber = {
+
+			visible = {
+				has_idea = tuskarr_primary_race
+			}
+
+			available = {
+				has_idea = tuskarr_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_tuskarr
+
+			modifier = {
+				attrition = -0.02
+				winter_attrition_factor	= -0.45
+			}
+		}
+
+		primary_trait_tuskarr_law = {
+
+			visible = {
+				has_idea = tuskarr_primary_race
+			}
+
+			available = {
+				has_idea = tuskarr_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_tuskarr
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				weekly_manpower	= 10
+				defensive_war_stability_factor = 0.5
+				stability_factor = 0.01
+			}
+		}
+
+		primary_trait_natural_whalers = {
+
+			visible = {
+				has_idea = tuskarr_primary_race
+			}
+
+			available = {
+				has_idea = tuskarr_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_tuskarr
+
+			modifier = {
+				navy_submarine_detection_factor = 0.2
+			}
+		}
+
+########################################
+#Undead
+########################################
+
+########################################
+#Valarjar
+########################################
+
+########################################
+#Valkyr
+########################################
+
+########################################
+#Vargul
+########################################
+
+########################################
+#Virmen
+########################################
+
+		primary_trait_breed_like_rabbits = {
+
+			visible = {
+				has_idea = virmen_primary_race
+			}
+
+			available = {
+				has_idea = virmen_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_virmen
+
+			modifier = {
+				MONTHLY_POPULATION = 0.5
+			}
+		}
+
+		primary_trait_voraciousness = {
+
+			visible = {
+				has_idea = virmen_primary_race
+			}
+
+			available = {
+				has_idea = virmen_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_virmen
+
+			modifier = {
+				offensive_war_stability_factor = 1
+				mobilization_speed = 0.8
+				conscription_factor = 0.25
+				war_support_factor = 0.05
+			}
+		}
+
+########################################
+#Void Elf
+########################################
+
+########################################
+#Void Walker
+########################################
+
+########################################
+#Vrykul
+########################################
+
+########################################
+#Water Elementals
+########################################
+
+		primary_trait_living_tide = {
+
+			visible = {
+				has_idea = water_elemental_primary_race
+			}
+
+			available = {
+				has_idea = water_elemental_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_water_elemental
+
+			modifier = {
+				amphibious_invasion = 0.5
+				invasion_preparation = -0.9
+			}
+		}
+
+		primary_trait_personification_of_the_sea = {
+
+			visible = {
+				has_idea = water_elemental_primary_race
+			}
+
+			available = {
+				has_idea = water_elemental_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_water_elemental
+
+			modifier = {
+				industrial_capacity_dockyard = 0.25
+				production_speed_dockyard_factor = 0.25
+				convoy_escort_efficiency = 0.1
+				naval_coordination = 0.15
+				sortie_efficiency = 0.15
+				navy_refit_speed = 0.5
+				navy_refit_ic_cost = -0.1
+				naval_retreat_chance = 1
+				naval_retreat_speed = 0.50
+				naval_speed_factor = 0.5
+				spotting_chance = 0.95
+				navy_submarine_detection_factor = 0.95
+				navy_max_range_factor = 4
+				convoy_raiding_efficiency_factor = 0.8
+				naval_hit_chance = 0.2
+			}
+		}
+
+		primary_trait_primordial_oceanic_knowledge = {
+
+			visible = {
+				has_idea = water_elemental_primary_race
+			}
+
+			available = {
+				has_idea = water_elemental_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_water_elemental
+
+			modifier = {
+					experience_gain_navy = 0.1
+					naval_equipment_upgrade_xp_cost = -0.2
+					navy_leader_start_level = 1
+			}
+		}
+
+########################################
+#Wendigo
+########################################
+
+########################################
+#Wildkin
+########################################
+
+		primary_trait_blessing_of_elune = {
+
+			visible = {
+				has_idea = wildkin_primary_race
+			}
+
+			available = {
+				has_idea = wildkin_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_wildkin
+
+			#religion modifier +25%
+			#set in on actions
+		}
+
+
+########################################
+#Wind Elemental
+########################################
+
+########################################
+#Withered
+########################################
+
+########################################
+#Wolvar
+########################################
+
+########################################
+#Worgen
+########################################
+
+########################################
+#Wretched Elf
+########################################
+
+########################################
+#Yaungol
+########################################
+
+########################################
+#Yeti
+########################################
+
+		primary_trait_bestial_wrath = {
+
+			available = {
+				has_idea = yeti_primary_race
+			}
+
+			visible = {
+				has_idea = yeti_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_yeti
+
+			modifier = {
+				offence = 0.05
+			}
+		}
+
+		primary_trait_feral = {
+
+			visible = {
+				has_idea = yeti_primary_race
+			}
+
+			available = {
+				has_idea = yeti_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_yeti
+
+			modifier = {
+				out_of_supply_factor = -0.5
+			}
+		}
+
+########################################
+#Zandalari Troll
+########################################
+
+########################################
+#Frost Giant
+########################################
+
+########################################
+#Blood Troll
+########################################
+
+########################################
+#Gorilla
+########################################
+
+		primary_trait_apes_together_strong = {
+
+			visible = {
+				has_idea = gorilla_primary_race
+			}
+
+			available = {
+				has_idea = gorilla_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_gorilla
+			modifier = {
+				stability_factor = 0.15
+
+			}
+		}
+
+		# Inspiration: https://wow.gamepedia.com/Blessing_of_Kongs
+		primary_trait_blessing_of_kongs = {
+
+			visible = {
+				has_idea = gorilla_primary_race
+			}
+
+			available = {
+				has_idea = gorilla_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_gorilla
+
+			modifier = {
+				army_speed_factor = 0.05 # "Agility"
+				research_speed_factor = 0.05 # "Intellegence"
+				offence	= 0.05 # "Strength"
+			}
+		}
+
+		primary_trait_thunderstomp = {
+
+			visible = {
+				has_idea = gorilla_primary_race
+			}
+
+			available = {
+				has_idea = gorilla_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_gorilla
+
+			modifier = {
+				offence = 0.1
+			}
+		}
+
+########################################
+#Forest Troll
+########################################
+
+		primary_trait_path_finders = {
+
+			visible = {
+				has_idea = forest_troll_primary_race
+			}
+
+			available = {
+				has_idea = forest_troll_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_forest_troll
+
+			modifier = {
+				army_speed_factor = 0.15
+			}
+		}
+
+		primary_trait_persistence = {
+
+			visible = {
+				has_idea = forest_troll_primary_race
+			}
+
+			available = {
+				has_idea = forest_troll_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_forest_troll
+
+			modifier = {
+				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.15
+			}
+		}
+
+########################################
+#Frost Nymph
+########################################
+
+########################################
+#Ogron
+########################################
+
+########################################
+#High Arrakoa
+########################################
+
+########################################
+#Jade Statue
+########################################
+
+########################################
+#Saurok
+########################################
+
+########################################
+#Stone Dragon
+########################################
+
+########################################
+#Anubisath
+########################################
+
+		#monument builders
+
+		#titanforging
+
+		#imposing size
+
+########################################
+#Aqir
+########################################
+
+	}
+
+# SECONDARY
+
+	secondary_racial_trait = {
+
+		secondary_trait_diplomatic = {
+
+			available = {
+				has_idea = human_secondary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = racial_diplomacy
+
+			modifier = {
+				political_power_gain = 0.125
+			}
+		}
+
+		secondary_trait_human_spirit = {
+
+			available = {
+				has_idea = human_secondary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = racial_human_spirit
+
+			modifier = {
+				army_org_factor = 0.075
+			}
+		}
+
+		secondary_trait_perception = {
+
+			available = {
+				has_idea = human_secondary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = racial_perception
+
+			modifier = {
+				recon_factor = 0.01
+			}
+		}
+
+		#Dwarf
+		secondary_might_of_the_mountain = {
+
+			available = {
+				has_idea = dwarf_secondary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dwarf
+
+			modifier = {
+				max_dig_in = 2
+				dig_in_speed_factor = 0.075
+			}
+		}
+
+		secondary_stoneform = {
+
+			available = {
+				has_idea = dwarf_secondary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dwarf
+
+			modifier = {
+				attrition = -0.125
+			}
+		}
+
+		secondary_dwarven_forges = {
+
+			available = {
+				has_idea = dwarf_secondary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_dwarf
+
+			modifier = {
+				consumer_goods_factor = -0.025
+			}
+		}
+
+	}
+
+}

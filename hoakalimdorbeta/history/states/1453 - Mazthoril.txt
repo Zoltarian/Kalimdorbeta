@@ -1,0 +1,41 @@
+
+state={
+	id=1453
+	name="STATE_1453"
+	resources = {
+		wheat=8 
+		eggs=10
+		mana=6
+		ores=4
+		wood=2
+	}
+
+	history={
+		owner = MZT
+		add_core_of = MZT
+		victory_points = {
+			13004 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		616.1.1 = {
+			
+			controller = BDF
+			add_core_of = BDF
+
+		}
+
+	}
+
+	provinces={
+		12989 12990 12999 13004 
+	}
+	manpower=36000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

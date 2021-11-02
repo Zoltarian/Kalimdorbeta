@@ -1,0 +1,61 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Baradin Fleet"			
+		naval_base = 154
+		task_force = {
+			name = "Baradin Fleet"			
+			location = 154 #tol'barad
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+			
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
+			}
+
+			ship = {
+				name = "1st Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+
+			ship = {
+				name = "2nd Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
+			}
+
+			ship = {
+				name = "1st Heavy Frigate"
+				definition = heavy_frigate
+				equipment = { heavy_frigate_equipment_1 = { amount = 1  } }
+			}
+
+			ship = {
+				name = "1st Battleship"
+				definition = battleship
+				equipment = { battleship_equipment_1 = { amount = 1  } }
+			}
+			
+		}
+	}
+}

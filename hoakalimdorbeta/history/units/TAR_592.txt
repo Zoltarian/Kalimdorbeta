@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "Tar Beast"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Tar Lord"
+
+	regiments = {
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Tar Beast"
+		location = 11286
+		division_template = "Tar Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Tar Beast"
+		location = 11286
+		division_template = "Tar Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Tar Beast"
+		location = 11245
+		division_template = "Tar Beast"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Tar Beast"
+		location = 11178
+		division_template = "Tar Beast"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Tar Lord"
+		location = 11286
+		division_template = "Tar Lord"
+		start_experience_factor = 0.3
+	}
+
+}

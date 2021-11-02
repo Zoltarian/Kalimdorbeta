@@ -1,0 +1,3996 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	sanctum_of_the_magisters = {
+
+		path = {
+			leads_to_tech = court_of_the_sun
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_peasants_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = -2 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+	court_of_the_sun = {
+
+		research_speed_factor = 0.025
+		global_building_slots_factor = 0.15
+
+		path = {
+			leads_to_tech = sunfury_spire
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			set_technology = {
+				tier_2_tech = 1
+			}
+		}
+
+		research_cost = 1.5
+
+		start_year = 594
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = -2 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+	}
+
+	sunfury_spire = {
+
+		research_speed_factor = 0.025
+		global_building_slots_factor = 0.15
+
+		on_research_complete = {
+			set_technology = {
+				tier_3_tech = 1
+			}
+		}
+
+		research_cost = 1.5
+
+		start_year = 600
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = -2 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tier_technology
+		}
+
+	}
+
+	high_elf_peasants_tech = {
+
+		enable_subunits = {
+			peasant
+		}
+
+		path = {
+			leads_to_tech = high_elf_construction_tools_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_support_equipment_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_workshop_tech
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			set_technology = {
+				high_elf_support_equipment_tech = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 5 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_technology
+			support_technology
+		}
+	}
+
+	high_elf_support_equipment_tech = {
+
+		enable_equipments = {
+			human_support_equipment_1
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_peasant_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 5 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_technology
+			support_technology
+		}
+	}
+
+	high_elf_construction_tools_1 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = high_elf_construction_tools_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_harvesting_tools_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 2 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	high_elf_construction_tools_2 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = high_elf_construction_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 2 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	high_elf_construction_tools_3 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_construction_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 2 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	high_elf_construction_tools_4 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = high_elf_construction_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 2 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	high_elf_construction_tools_5 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 2 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	high_elf_harvesting_tools_1 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = high_elf_harvesting_tools_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 0 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	high_elf_harvesting_tools_2 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = high_elf_harvesting_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 0 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	high_elf_harvesting_tools_3 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_harvesting_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	high_elf_harvesting_tools_4 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = high_elf_harvesting_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 0 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	high_elf_harvesting_tools_5 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 0 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	high_elf_improved_peasant_1 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_peasant_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 5 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_technology
+			support_technology
+		}
+	}
+
+	high_elf_improved_peasant_2 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			river = {
+				attack = 0.1
+				defence = 0.10
+			}
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_peasant_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 5 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_technology
+			support_technology
+		}
+	}
+
+	high_elf_improved_peasant_3 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			city = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_peasant_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 5 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_technology
+			support_technology
+		}
+	}
+
+	high_elf_improved_peasant_4 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			gateway = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 5 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			peasant_technology
+			support_technology
+		}
+	}
+
+	high_elf_workshop_tech = {
+
+		enable_building = {
+			building = industrial_complex
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = high_elf_blacksmith_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_industrial_society_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_agrian_society_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_farmland_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_mines_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_church_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_wall_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_elven_mill_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 23 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			high_elf_workshop_technology
+		}
+	}
+
+	high_elf_blacksmith_tech = {
+
+		enable_building = {
+			building = arms_factory
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = high_elf_blacksmith_unit_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_sharpened_blades_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_heavy_armor_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_improved_forge_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_blueprints_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 16 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+		}
+
+	}
+
+	high_elf_blacksmith_unit_tech_1 = {
+
+		enable_subunits = {
+			blacksmith_unit
+		}
+
+		path = {
+			leads_to_tech = high_elf_blacksmith_unit_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 12 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			high_elf_blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_blacksmith_unit_tech_2 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_blacksmith_unit_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 12 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			high_elf_blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_blacksmith_unit_tech_3 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_blacksmith_unit_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 12 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			high_elf_blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_blacksmith_unit_tech_4 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_blacksmith_unit_tech_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 12 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			high_elf_blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_blacksmith_unit_tech_5 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 12 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			high_elf_blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_sharpened_blades_1 = {
+
+		militia = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		captain = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		guard = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		archer = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mounted_footman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		knight = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		royal_guard = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		paladin = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_sharpened_blades_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 14 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	high_elf_sharpened_blades_2 = {
+
+		militia = {
+			soft_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_sharpened_blades_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 14 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	high_elf_sharpened_blades_3 = {
+
+		militia = {
+			soft_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_sharpened_blades_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 14 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	high_elf_sharpened_blades_4 = {
+
+		militia = {
+			soft_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 14 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	high_elf_heavy_armor_1 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		captain = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		guard = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mounted_footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		royal_guard = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paladin = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_heavy_armor_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 16 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+
+	}
+
+	high_elf_heavy_armor_2 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_heavy_armor_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 16 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+	}
+
+	high_elf_heavy_armor_3 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_heavy_armor_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 16 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+	}
+
+	high_elf_heavy_armor_4 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 16 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+	}
+
+	high_elf_improved_forge_1 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		path = {
+			leads_to_tech = high_elf_improved_forge_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 18 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	high_elf_improved_forge_2 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		path = {
+			leads_to_tech = high_elf_improved_forge_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 18 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	high_elf_improved_forge_3 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_forge_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 18 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	high_elf_improved_forge_4 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		path = {
+			leads_to_tech = high_elf_improved_forge_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 18 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	high_elf_improved_forge_5 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+		industrial_capacity_factory = 0.1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 18 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	high_elf_blueprints_1 = {
+
+		line_change_production_efficiency_factor = 0.03
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.2
+
+		path = {
+			leads_to_tech = high_elf_blueprints_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 20 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			blueprint_technology
+		}
+
+	}
+
+	high_elf_blueprints_2 = {
+
+		line_change_production_efficiency_factor = 0.03
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.3
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_blueprints_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 610
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 20 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			blueprint_technology
+		}
+
+	}
+
+	high_elf_blueprints_3 = {
+
+		line_change_production_efficiency_factor = 0.04
+		production_factory_start_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.3
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 20 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			blueprint_technology
+		}
+
+	}
+
+	high_elf_industrial_society_1 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		xor = { high_elf_agrian_society_1 }
+
+		path = {
+			leads_to_tech = high_elf_industrial_society_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 22 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_industrial_society_2 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		path = {
+			leads_to_tech = high_elf_industrial_society_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 22 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_industrial_society_3 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_industrial_society_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 22 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_industrial_society_4 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		path = {
+			leads_to_tech = high_elf_industrial_society_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 22 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_industrial_society_5 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 22 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_agrian_society_1 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+
+		xor = { high_elf_industrial_society_1 }
+
+		path = {
+			leads_to_tech = high_elf_agrian_society_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 24 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_agrian_society_2 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		path = {
+			leads_to_tech = high_elf_agrian_society_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 24 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_agrian_society_3 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_agrian_society_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 24 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_agrian_society_4 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		path = {
+			leads_to_tech = high_elf_agrian_society_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 24 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_agrian_society_5 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 24 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			city_growth_technology
+		}
+	}
+
+	high_elf_farmland_tech = {
+
+		enable_building = {
+			building = farm
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_harvest_golem_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 26 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_harvest_golem_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.3
+
+		path = {
+			leads_to_tech = high_elf_harvest_golem_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 26 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_harvest_golem_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.3
+
+		path = {
+			leads_to_tech = high_elf_harvest_golem_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 26 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_harvest_golem_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.3
+
+		path = {
+			leads_to_tech = high_elf_harvest_golem_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 26 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_harvest_golem_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.3
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 26 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_mines_tech = {
+
+		enable_building = {
+			building = iron_mine
+			level = 1
+		}
+		enable_building = {
+			building = sulfur_mine
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_mine_cart_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 28 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_mine_cart_1 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_mine_cart_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 28 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_mine_cart_2 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_mine_cart_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 28 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_mine_cart_3 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_mine_cart_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 28 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_mine_cart_4 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 28 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_church_tech = {
+
+		enable_building = {
+			building = church
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_devotion_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 30 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	high_elf_devotion_tech_1 = {
+
+		on_research_complete = {
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = high_elf_devotion_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 30 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	high_elf_devotion_tech_2 = {
+
+		on_research_complete = {
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = high_elf_devotion_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 30 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	high_elf_devotion_tech_3 = {
+
+		on_research_complete = {
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = high_elf_devotion_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 30 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	high_elf_devotion_tech_4 = {
+
+		on_research_complete = {
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 30 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			religion_technology
+		}
+	}
+
+	high_elf_wall_tech_1 = {
+
+		enable_building = {
+			building = bunker
+			level = 2
+		}
+
+		path = {
+			leads_to_tech = high_elf_wall_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 32 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			high_elf_wall_technology
+			fortification_technology
+		}
+	}
+
+	high_elf_wall_tech_2 = {
+
+		enable_building = {
+			building = bunker
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = high_elf_wall_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 32 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			high_elf_wall_technology
+			fortification_technology
+		}
+	}
+
+	high_elf_wall_tech_3 = {
+
+		enable_building = {
+			building = bunker
+			level = 6
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_wall_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 32 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			high_elf_wall_technology
+			fortification_technology
+		}
+	}
+
+	high_elf_wall_tech_4 = {
+
+		enable_building = {
+			building = bunker
+			level = 8
+		}
+
+		path = {
+			leads_to_tech = high_elf_wall_tech_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 32 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			high_elf_wall_technology
+			fortification_technology
+		}
+	}
+
+	high_elf_wall_tech_5 = {
+
+		enable_building = {
+			building = bunker
+			level = 10
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 32 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			high_elf_wall_technology
+			fortification_technology
+		}
+	}
+
+	high_elf_arcane_vault_tech = {
+
+		enable_building = {
+			building = arcane_tower
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_evocation_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 34 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_evocation_tech_1 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_evocation_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 34 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_evocation_tech_2 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_evocation_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 34 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_evocation_tech_3 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_evocation_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 34 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_evocation_tech_4 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 34 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_scout_tower_1 = {
+
+		enable_building = {
+			building = radar_station
+			level = 1
+		}
+		path = {
+			leads_to_tech = high_elf_scout_tower_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_guard_tower_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_arcane_vault_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 36 y = 3 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+
+	}
+
+	high_elf_scout_tower_2 = {
+
+		enable_building = {
+			building = radar_station
+			level = 2
+		}
+		path = {
+			leads_to_tech = high_elf_scout_tower_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 36 y = 5 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_scout_tower_3 = {
+
+		enable_building = {
+			building = radar_station
+			level = 3
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_scout_tower_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 36 y = 7 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_scout_tower_4 = {
+
+		enable_building = {
+			building = radar_station
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = high_elf_scout_tower_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 36 y = 9 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_scout_tower_5 = {
+
+		enable_building = {
+			building = radar_station
+			level = 5
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 36 y = 11 }
+		}
+
+		categories = {
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_guard_tower_1 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 1
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = high_elf_guard_tower_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 38 y = 3 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_guard_tower_2 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 2
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = high_elf_guard_tower_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 38 y = 5 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_guard_tower_3 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 3
+		}
+
+		industry_air_damage_factor = -0.05
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_guard_tower_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 38 y = 7 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_guard_tower_4 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 4
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = high_elf_guard_tower_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 38 y = 9 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_guard_tower_5 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 5
+		}
+
+		industry_air_damage_factor = -0.05
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 38 y = 11 }
+		}
+
+		categories = {
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	high_elf_elven_mill_tech = {
+
+		enable_building = {
+			building = lumber_mill
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_wood_working_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_scout_tower_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_rogues_guild
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_tailor_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_leather_working_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 40 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_wood_working_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_wood_working_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 40 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_wood_working_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_wood_working_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 40 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_wood_working_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = high_elf_wood_working_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 40 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_wood_working_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 40 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	high_elf_rogues_guild = {
+
+		on_research_complete = {
+			custom_effect_tooltip = human_allow_intelligence_agency
+		}
+
+		path = {
+			leads_to_tech = high_elf_encryption_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_decryption_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_rogue_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 43 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+		}
+
+
+	}
+
+	high_elf_encryption_1 = {
+
+		encryption = 1
+
+		path = {
+			leads_to_tech = high_elf_encryption_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 42 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	high_elf_encryption_2 = {
+
+		encryption = 1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_encryption_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 42 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	high_elf_encryption_3 = {
+
+		encryption = 1
+
+		path = {
+			leads_to_tech = high_elf_encryption_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 42 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	high_elf_encryption_4 = {
+
+		encryption = 1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 42 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	high_elf_decryption_1 = {
+
+		decryption = 1
+
+		path = {
+			leads_to_tech = high_elf_decryption_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 44 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	high_elf_decryption_2 = {
+
+		decryption = 1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_decryption_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 44 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	high_elf_decryption_3 = {
+
+		decryption = 1
+
+		path = {
+			leads_to_tech = high_elf_decryption_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 44 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	high_elf_decryption_4 = {
+
+		decryption = 1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 44 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	high_elf_rogue_tech = {
+
+		enable_subunits = {
+			rogue
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_rogue_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 46 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_improved_rogue_tech_1 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_rogue_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 46 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_improved_rogue_tech_2 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_rogue_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 46 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_improved_rogue_tech_3 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		path = {
+			leads_to_tech = high_elf_improved_rogue_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 46 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			blacksmith_technology
+			high_elf_blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_improved_rogue_tech_4 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 46 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	high_elf_tailor_tech = {
+
+		industrial_capacity_factory = 0.025
+
+		path = {
+			leads_to_tech = high_elf_tabards_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_cloth_armor_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_elf_cloak_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 50 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+		}
+	}
+
+	high_elf_tabards_1 = {
+
+		peasant = {
+			max_organisation = 2
+		}
+		militia = {
+			max_organisation = 2
+		}
+		footman = {
+			max_organisation = 2
+		}
+		pikeman = {
+			max_organisation = 2
+		}
+		archer = {
+			max_organisation = 2
+		}
+		mage = {
+			max_organisation = 2
+		}
+		priest = {
+			max_organisation = 2
+		}
+		mounted_footman = {
+			max_organisation = 2
+		}
+		knight = {
+			max_organisation = 2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_tabards_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 48 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			tabard_technology
+		}
+	}
+
+	high_elf_tabards_2 = {
+
+		peasant = {
+			max_organisation = 2
+		}
+		militia = {
+			max_organisation = 2
+		}
+		footman = {
+			max_organisation = 2
+		}
+		pikeman = {
+			max_organisation = 2
+		}
+		archer = {
+			max_organisation = 2
+		}
+		mage = {
+			max_organisation = 2
+		}
+		priest = {
+			max_organisation = 2
+		}
+		mounted_footman = {
+			max_organisation = 2
+		}
+		knight = {
+			max_organisation = 2
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 48 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			tabard_technology
+		}
+	}
+
+	high_elf_cloth_armor_1 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_cloth_armor_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 50 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_cloth_armor_2 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_cloth_armor_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 50 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_cloth_armor_3 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_cloth_armor_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 50 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_cloth_armor_4 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 50 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_cloak_1 = {
+
+		acclimatization_cold_climate_gain_factor = 0.2
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_cloak_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 52 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			cloak_technology
+		}
+	}
+
+	high_elf_cloak_2 = {
+
+		acclimatization_cold_climate_gain_factor = 0.2
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 52 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			tailor_technology
+			cloak_technology
+		}
+	}
+
+	high_elf_leather_working_tech = {
+
+		industrial_capacity_factory = 0.025
+
+		path = {
+			leads_to_tech = high_elf_leather_armor_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 54 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_leather_armor_1 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_leather_armor_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 54 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_leather_armor_2 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = high_elf_leather_armor_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 54 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_leather_armor_3 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = high_elf_leather_armor_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 54 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	high_elf_leather_armor_4 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = high_elf_administration_folder
+			position = { x = 54 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+}

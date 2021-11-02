@@ -1,0 +1,57 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = { faith_points = 0 }             		# Current Faith
+				set_variable = { faith_gain_base = 10 }         		# base gain 10 per month
+				set_variable = { church_count = 0 }             		# (this is added after multiplication from stability (comes from churches)
+				set_variable = { faith_tech_multiplier = 1 }        # (this is added after multiplication from stability (comes from tech)
+				if = {
+					limit = {
+						OR = {
+							has_idea = primary_trait_anzus_blessing
+							has_idea = primary_trait_thornspeakers
+							has_idea = primary_trait_children_of_ursoc
+							has_idea = primary_trait_blessing_of_elune
+							has_idea = primary_trait_call_of_the_shadowlands
+							has_idea = primary_trait_call_of_cthun
+						}
+					}
+					add_to_variable = { faith_tech_multiplier = 0.25 }
+				}
+      		}	
+		}
+	}
+
+	on_monthly = {
+		effect = {
+      set_variable = { church_count = 0 } 																	#resets value to 0 incase you lost control of churches
+      every_owned_state = {
+          add_to_variable = { ROOT.church_count = building_level@church } 	#counts number of churches you control
+				}
+			set_temp_variable = { growth = faith_gain_base } 											#set growth to 10 (the base gain)
+			multiply_temp_variable = { growth = stability } 											#multiply growth by stability (100% = 10 a month etc)
+			add_to_temp_variable = { growth = church_count } 											#adds 1 faith per church you own
+			multiply_temp_variable = { growth = faith_tech_multiplier } 					#multiplies your total faith by small variables based on tech/ideas
+			add_to_variable = { faith_points = growth } 													#add growth to your points
+
+			if = {
+				limit = {
+					OR = {
+						check_variable = {
+							faith_points < 0
+						}
+						check_variable = {
+							faith_points > 500
+						}
+					}
+				}
+				clamp_variable = {
+					var = faith_points
+					min = 0
+					max = 500
+				}
+			}
+		}
+	}
+}

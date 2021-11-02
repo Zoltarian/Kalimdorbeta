@@ -1,0 +1,36 @@
+
+state={
+	id=1449
+	name="STATE_1449"
+	resources = {
+		wheat=7
+		ores=6
+		wood=5
+	}
+
+	history={
+		owner = MNT
+		add_core_of = MNT
+		victory_points = {
+			13112 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
+		616.1.1 = {
+			owner = WNT
+			controller = WNT
+			add_core_of = WNT
+		}
+	}
+
+	provinces={
+		1469 13106 13112 13119 13122 13127 13129 13138
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

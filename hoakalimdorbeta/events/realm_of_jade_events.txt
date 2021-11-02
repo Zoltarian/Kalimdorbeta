@@ -1,0 +1,129 @@
+﻿###########################
+#realm of jade
+###########################
+
+add_namespace = realm_of_jade
+
+# The Jade Witch focus event (Introduction)
+country_event = {
+	id = realm_of_jade.1
+	title = realm_of_jade.1.t
+	desc = realm_of_jade.1.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Keep going
+	option = {
+    name = realm_of_jade.1.option.1
+  }
+
+	# End game and annex by DOY - Disciples of Yu'lon (AI only choice)
+  option = {
+    name = realm_of_jade.1.option.2
+
+		custom_effect_tooltip = realm_of_jade.1.option.2.d
+
+		DOY = {
+			annex_country = {
+		    target = ROJ
+		    transfer_troops = no
+			}
+		}
+  }
+}
+
+# Legacy of Master Greenpaw focus event
+country_event = {
+	id = realm_of_jade.2
+	title = realm_of_jade.2.t
+	desc = realm_of_jade.2.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Attack bonus idea
+	option = {
+    name = realm_of_jade.2.option.1
+
+		add_ideas = ROJ_legacy_of_master_greenpaw_attack_idea
+  }
+
+	# Defense bonus idea
+  option = {
+    name = realm_of_jade.2.option.2
+
+		add_ideas = ROJ_legacy_of_master_greenpaw_defence_idea
+  }
+
+	# Organization bonus idea
+  option = {
+    name = realm_of_jade.2.option.3
+
+		add_ideas = ROJ_legacy_of_master_greenpaw_organization_idea
+  }
+}
+
+# The Realm of Jade focus event
+country_event = {
+	id = realm_of_jade.3
+	title = realm_of_jade.3.t
+	desc = realm_of_jade.3.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Attack bonus idea
+	option = {
+    name = realm_of_jade.3.option.1
+
+		add_resource = {
+	    type = ores
+	    amount = 5
+	    state = 1953
+		}
+  }
+
+	# Defense bonus idea
+  option = {
+    name = realm_of_jade.3.option.2
+
+		add_resource = {
+	    type = mana
+	    amount = 5
+	    state = 1953
+		}
+  }
+}
+
+# Outside the Lair focus event
+country_event = {
+	id = realm_of_jade.4
+	title = realm_of_jade.4.t
+	desc = realm_of_jade.4.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# Agressive branch
+	option = {
+    name = realm_of_jade.4.option.1
+
+		custom_effect_tooltip = realm_of_jade.4.option.1.d
+
+		complete_national_focus = ROJ_manifest_destiny
+  }
+
+	# Defensive branch
+  option = {
+    name = realm_of_jade.4.option.2
+
+		custom_effect_tooltip = realm_of_jade.4.option.2.d
+
+		complete_national_focus = ROJ_the_outside_world_is_scary
+  }
+}

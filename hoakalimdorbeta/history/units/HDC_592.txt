@@ -1,0 +1,66 @@
+﻿division_template = {
+	name = "Haldarr Satyr"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Haldarr Satyr"
+		location = 2827
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Haldarr Satyr"
+		location = 2827
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Haldarr Satyr"
+		location = 2827
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Haldarr Satyr"
+		location = 14890
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Haldarr Satyr"
+		location = 14890
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Haldarr Satyr"
+		location = 14864
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Haldarr Satyr"
+		location = 4163
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Haldarr Satyr"
+		location = 2732
+		division_template = "Haldarr Satyr"
+		start_experience_factor = 0.1
+	}
+
+}

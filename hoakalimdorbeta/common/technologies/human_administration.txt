@@ -1,0 +1,4558 @@
+#!gfx:interface\hoa_Technologies.gfx
+technologies = {
+
+	town_hall_tech = {
+
+		path = {
+			leads_to_tech = keep_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = peasants_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = -2 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tier_technology
+		}
+	}
+
+	keep_tech = {
+
+		research_speed_factor = 0.05
+		global_building_slots_factor = 0.1
+
+		on_research_complete = {
+			set_technology = {
+				tier_2_tech = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = castle_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+
+		start_year = 594
+		folder = {
+			name = human_administration_folder
+			position = { x = -2 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tier_technology
+		}
+	}
+
+	castle_tech = {
+
+		research_speed_factor = 0.05
+		global_building_slots_factor = 0.1
+
+		on_research_complete = {
+			set_technology = {
+				tier_3_tech = 1
+			}
+		}
+
+		research_cost = 3
+
+		start_year = 600
+		folder = {
+			name = human_administration_folder
+			position = { x = -2 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tier_technology
+		}
+
+	}
+
+	peasants_tech = {
+
+		enable_subunits = {
+			peasant
+		}
+
+		on_research_complete = {
+			set_technology = {
+				support_equipment_tech = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = construction_tools_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_equipment_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = militia_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = workshop_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 5 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_technology
+			support_technology
+		}
+	}
+
+	support_equipment_tech = {
+
+		enable_equipments = {
+			human_support_equipment_1
+		}
+
+		path = {
+			leads_to_tech = improved_peasant_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 5 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_technology
+			support_technology
+		}
+	}
+
+	construction_tools_1 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = construction_tools_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = harvesting_tools_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 2 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	construction_tools_2 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = construction_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 2 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	construction_tools_3 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = construction_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 2 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	construction_tools_4 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = construction_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 2 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	construction_tools_5 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 2 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			construction_tools_technology
+		}
+	}
+
+	harvesting_tools_1 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = harvesting_tools_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 0 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	harvesting_tools_2 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = harvesting_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 0 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	harvesting_tools_3 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = harvesting_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	harvesting_tools_4 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = harvesting_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 0 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	harvesting_tools_5 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 0 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_tools_technology
+			resource_tools_technology
+		}
+	}
+
+	improved_peasant_1 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+
+		path = {
+			leads_to_tech = improved_peasant_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 5 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_technology
+			support_technology
+		}
+	}
+
+	improved_peasant_2 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			river = {
+				attack = 0.1
+				defence = 0.10
+			}
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_peasant_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 5 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_technology
+			support_technology
+		}
+	}
+
+	improved_peasant_3 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			city = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+
+		path = {
+			leads_to_tech = improved_peasant_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 5 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_technology
+			support_technology
+		}
+	}
+
+	improved_peasant_4 = {
+
+		peasant = {
+			entrenchment  = 1.5
+			gateway = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 5 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			peasant_technology
+			support_technology
+		}
+	}
+
+	militia_tech = {
+
+		enable_subunits = {
+			militia
+		}
+
+
+		path = {
+			leads_to_tech = militia_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 9 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	militia_equipment_tech_1 = {
+
+		enable_subunits = {
+			militia
+		}
+
+		enable_equipments = {
+			militia_equipment_1
+		}
+
+
+		path = {
+			leads_to_tech = call_to_arms
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = local_militias
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 9 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	call_to_arms = {
+
+		militia = {
+			default_morale = 0.5
+			max_organisation = 5
+		}
+
+		xor = { local_militias }
+
+		path = {
+			leads_to_tech = militia_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 8 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	local_militias = {
+
+		militia = {
+			suppression_factor = 0.25
+		}
+
+		xor = { call_to_arms }
+
+		path = {
+			leads_to_tech = militia_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 10 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	militia_equipment_tech_2 = {
+
+		enable_equipments = {
+			militia_equipment_2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = chainmail_vests
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sharpened_axes
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 9 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	chainmail_vests = {
+
+		militia = {
+			defense = 0.1
+			breakthrough = 0.1
+		}
+
+		xor = { sharpened_axes }
+
+		path = {
+			leads_to_tech = militia_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 8 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	sharpened_axes = {
+
+		militia = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+
+		xor = { chainmail_vests }
+
+		path = {
+			leads_to_tech = militia_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 10 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	militia_equipment_tech_3 = {
+
+		enable_equipments = {
+			militia_equipment_3
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 9 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			militia_technology
+		}
+	}
+
+	workshop_tech = {
+
+		enable_building = {
+			building = industrial_complex
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = blacksmith_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = industrial_society_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = agrian_society_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = farm_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nesting_grounds_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mines_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = church_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = wall_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lumber_mill_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 23 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			workshop_technology
+		}
+	}
+
+	blacksmith_tech = {
+
+		enable_building = {
+			building = arms_factory
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = blacksmith_unit_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sharpened_blades_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_armor_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_forge_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = blueprints_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 16 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+		}
+
+	}
+
+	blacksmith_unit_tech_1 = {
+
+		enable_subunits = {
+			blacksmith_unit
+		}
+
+		path = {
+			leads_to_tech = blacksmith_unit_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 12 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	blacksmith_unit_tech_2 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		path = {
+			leads_to_tech = blacksmith_unit_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 12 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	blacksmith_unit_tech_3 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = blacksmith_unit_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 12 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	blacksmith_unit_tech_4 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		path = {
+			leads_to_tech = blacksmith_unit_tech_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 12 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	blacksmith_unit_tech_5 = {
+
+		blacksmith_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 12 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	sharpened_blades_1 = {
+
+		militia = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		captain = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		guard = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		archer = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mounted_footman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		knight = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		royal_guard = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		paladin = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+
+		path = {
+			leads_to_tech = sharpened_blades_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 14 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	sharpened_blades_2 = {
+
+		militia = {
+			soft_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = sharpened_blades_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 14 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	sharpened_blades_3 = {
+
+		militia = {
+			soft_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = sharpened_blades_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 14 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	sharpened_blades_4 = {
+
+		militia = {
+			soft_attack = 0.05
+		}
+		footman = {
+			soft_attack = 0.05
+		}
+		pikeman = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 14 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			sword_technology
+		}
+
+	}
+
+	heavy_armor_1 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		captain = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		guard = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mounted_footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		royal_guard = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paladin = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = heavy_armor_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 16 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+
+	}
+
+	heavy_armor_2 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = heavy_armor_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 16 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+	}
+
+	heavy_armor_3 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = heavy_armor_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 16 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+	}
+
+	heavy_armor_4 = {
+
+		footman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		pikeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		knight = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 16 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			plate_armor_technology
+			armor_technology
+		}
+
+	}
+
+	improved_forge_1 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		path = {
+			leads_to_tech = improved_forge_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 18 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	improved_forge_2 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		path = {
+			leads_to_tech = improved_forge_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 18 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	improved_forge_3 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_forge_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 18 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	improved_forge_4 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		path = {
+			leads_to_tech = improved_forge_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 18 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	improved_forge_5 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 18 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			forge_technology
+		}
+
+	}
+
+	blueprints_1 = {
+
+		line_change_production_efficiency_factor = 0.03
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.2
+
+		path = {
+			leads_to_tech = blueprints_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 20 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blueprint_technology
+		}
+
+	}
+
+	blueprints_2 = {
+
+		line_change_production_efficiency_factor = 0.03
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.3
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = blueprints_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 610
+		folder = {
+			name = human_administration_folder
+			position = { x = 20 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blueprint_technology
+		}
+
+	}
+
+	blueprints_3 = {
+
+		line_change_production_efficiency_factor = 0.04
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.3
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 20 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blueprint_technology
+		}
+
+	}
+
+	industrial_society_1 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		xor = { agrian_society_1 }
+
+		path = {
+			leads_to_tech = industrial_society_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 22 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	industrial_society_2 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		path = {
+			leads_to_tech = industrial_society_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 22 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	industrial_society_3 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = industrial_society_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 22 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	industrial_society_4 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		path = {
+			leads_to_tech = industrial_society_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 22 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	industrial_society_5 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 22 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	agrian_society_1 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.16
+
+		xor = { industrial_society_1 }
+
+		path = {
+			leads_to_tech = agrian_society_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 24 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	agrian_society_2 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.16
+
+		path = {
+			leads_to_tech = agrian_society_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 24 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	agrian_society_3 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.16
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = agrian_society_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 24 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	agrian_society_4 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.16
+
+		path = {
+			leads_to_tech = agrian_society_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 24 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	agrian_society_5 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.16
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 24 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	farm_tech = {
+
+		enable_building = {
+			building = farm
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = harvest_golem_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 26 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	harvest_golem_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.25
+
+		path = {
+			leads_to_tech = harvest_golem_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 26 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	harvest_golem_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.25
+
+		path = {
+			leads_to_tech = harvest_golem_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 26 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	harvest_golem_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.25
+
+		path = {
+			leads_to_tech = harvest_golem_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 26 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	harvest_golem_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		MONTHLY_POPULATION = 0.25
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 26 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	nesting_grounds_tech = {
+
+		enable_building = {
+			building = nesting_grounds
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = improved_egg_breeding_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 28 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			nesting_ground_technology
+			resource_building_technology
+		}
+	}
+
+	improved_egg_breeding_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = nesting_grounds
+				resource = eggs
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = improved_egg_breeding_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 28 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			nesting_ground_technology
+			resource_building_technology
+		}
+	}
+
+	improved_egg_breeding_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = nesting_grounds
+				resource = eggs
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = improved_egg_breeding_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 28 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			nesting_ground_technology
+			resource_building_technology
+		}
+	}
+
+	improved_egg_breeding_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = nesting_grounds
+				resource = eggs
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_egg_breeding_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 28 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			nesting_ground_technology
+			resource_building_technology
+		}
+	}
+
+	improved_egg_breeding_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = nesting_grounds
+				resource = eggs
+				amount = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 28 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			nesting_ground_technology
+			resource_building_technology
+		}
+	}
+
+	mines_tech = {
+
+		enable_building = {
+			building = iron_mine
+			level = 1
+		}
+		enable_building = {
+			building = sulfur_mine
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = mine_cart_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 30 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	mine_cart_1 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = mine_cart_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 30 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	mine_cart_2 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = mine_cart_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 30 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	mine_cart_3 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = mine_cart_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 30 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	mine_cart_4 = {
+
+		local_resources_factor = 0.05
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 30 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	church_tech = {
+
+		enable_building = {
+			building = church
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = devotion_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 32 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			religion_technology
+		}
+	}
+
+	devotion_tech_1 = {
+
+		on_research_complete = {
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = devotion_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 32 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			religion_technology
+		}
+	}
+
+	devotion_tech_2 = {
+
+		on_research_complete = {
+			add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+		}
+
+		path = {
+			leads_to_tech = devotion_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 32 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			religion_technology
+		}
+	}
+
+	devotion_tech_3 = {
+
+        on_research_complete = {
+            add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+        }
+
+		path = {
+			leads_to_tech = devotion_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 32 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			religion_technology
+		}
+	}
+
+	devotion_tech_4 = {
+
+        on_research_complete = {
+            add_to_variable = { faith_tech_multiplier = 0.05 }
+			custom_effect_tooltip = human_devotion_effect_tooltip
+        }
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 32 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			religion_technology
+		}
+	}
+
+	wall_tech_1 = {
+
+		enable_building = {
+			building = bunker
+			level = 2
+		}
+
+		path = {
+			leads_to_tech = wall_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 34 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	wall_tech_2 = {
+
+		enable_building = {
+			building = bunker
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = wall_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 34 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	wall_tech_3 = {
+
+		enable_building = {
+			building = bunker
+			level = 6
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = wall_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 34 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	wall_tech_4 = {
+
+		enable_building = {
+			building = bunker
+			level = 8
+		}
+
+		path = {
+			leads_to_tech = wall_tech_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 34 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	wall_tech_5 = {
+
+		enable_building = {
+			building = bunker
+			level = 10
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 34 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			wall_technology
+			fortification_technology
+		}
+	}
+
+	arcane_tower_tech = {
+
+		enable_building = {
+			building = arcane_tower
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = evocation_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 36 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	evocation_tech_1 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = evocation_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 36 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	evocation_tech_2 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = evocation_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 36 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	evocation_tech_3 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = evocation_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 36 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	evocation_tech_4 = {
+
+		mage = {
+			soft_attack = 0.05
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = arcane_tower
+				resource = mana
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 36 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			arcane_tower_technology
+			resource_building_technology
+		}
+	}
+
+	scout_tower_1 = {
+
+		enable_building = {
+			building = radar_station
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = scout_tower_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = guard_tower_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = arcane_tower_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 38 y = 3 }
+		}
+
+		categories = {
+			administration_technology
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+
+	}
+
+	scout_tower_2 = {
+
+		enable_building = {
+			building = radar_station
+			level = 2
+		}
+		path = {
+			leads_to_tech = scout_tower_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 38 y = 5 }
+		}
+
+		categories = {
+			administration_technology
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	scout_tower_3 = {
+
+		enable_building = {
+			building = radar_station
+			level = 3
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = scout_tower_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 38 y = 7 }
+		}
+
+		categories = {
+			administration_technology
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	scout_tower_4 = {
+
+		enable_building = {
+			building = radar_station
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = scout_tower_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 38 y = 9 }
+		}
+
+		categories = {
+			administration_technology
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	scout_tower_5 = {
+
+		enable_building = {
+			building = radar_station
+			level = 5
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 38 y = 11 }
+		}
+
+		categories = {
+			administration_technology
+			scout_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	guard_tower_1 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 1
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = guard_tower_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 40 y = 3 }
+		}
+
+		categories = {
+			administration_technology
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	guard_tower_2 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 2
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = guard_tower_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 40 y = 5 }
+		}
+
+		categories = {
+			administration_technology
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	guard_tower_3 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 3
+		}
+
+		industry_air_damage_factor = -0.05
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = guard_tower_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 40 y = 7 }
+		}
+
+		categories = {
+			administration_technology
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	guard_tower_4 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 4
+		}
+
+		industry_air_damage_factor = -0.05
+
+		path = {
+			leads_to_tech = guard_tower_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 40 y = 9 }
+		}
+
+		categories = {
+			administration_technology
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	guard_tower_5 = {
+
+		enable_building = {
+			building = anti_air_building
+			level = 5
+		}
+
+		industry_air_damage_factor = -0.05
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 40 y = 11 }
+		}
+
+		categories = {
+			administration_technology
+			guard_tower_technology
+			tower_technology
+			fortification_technology
+		}
+
+	}
+
+	lumber_mill_tech = {
+
+		on_research_complete = {
+			set_technology = {
+				lumber_mill_tech_global = 1
+			}
+		}
+
+		enable_building = {
+			building = lumber_mill
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = wood_working_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = scout_tower_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rogues_guild
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tailor_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = leather_working_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 42 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	wood_working_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = wood_working_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 42 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	wood_working_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = wood_working_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 42 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	wood_working_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = wood_working_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 42 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	wood_working_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 42 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			woodworking_technology
+			resource_building_technology
+		}
+	}
+
+	rogues_guild = {
+
+		on_research_complete = {
+			custom_effect_tooltip = human_allow_intelligence_agency
+		}
+
+		path = {
+			leads_to_tech = encryption_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = decryption_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = rogue_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 45 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+		}
+
+
+	}
+
+	encryption_1 = {
+
+		encryption = 1
+
+		path = {
+			leads_to_tech = encryption_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 44 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	encryption_2 = {
+
+		encryption = 1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = encryption_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 44 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	encryption_3 = {
+
+		encryption = 1
+
+		path = {
+			leads_to_tech = encryption_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 44 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	encryption_4 = {
+
+		encryption = 1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 44 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			encryption_technology
+		}
+	}
+
+	decryption_1 = {
+
+		decryption = 1
+
+		path = {
+			leads_to_tech = decryption_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 46 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	decryption_2 = {
+
+		decryption = 1
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = decryption_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 46 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	decryption_3 = {
+
+		decryption = 1
+
+		path = {
+			leads_to_tech = decryption_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 46 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	decryption_4 = {
+
+		decryption = 1
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 46 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogues_guild_technology
+			decryption_technology
+		}
+	}
+
+	rogue_tech = {
+
+		enable_subunits = {
+			rogue
+		}
+
+		path = {
+			leads_to_tech = improved_rogue_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = human_administration_folder
+			position = { x = 48 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	improved_rogue_tech_1 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		path = {
+			leads_to_tech = improved_rogue_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = human_administration_folder
+			position = { x = 48 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	improved_rogue_tech_2 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_rogue_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = human_administration_folder
+			position = { x = 48 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	improved_rogue_tech_3 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		path = {
+			leads_to_tech = improved_rogue_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = human_administration_folder
+			position = { x = 48 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			blacksmith_technology
+			blacksmith_unit_technology
+			support_technology
+		}
+
+	}
+
+	improved_rogue_tech_4 = {
+
+		rogue = {
+			recon = 1.5
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = human_administration_folder
+			position = { x = 48 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			rogue_technology
+			support_technology
+		}
+
+	}
+
+	tailor_tech = {
+
+		industrial_capacity_factory = 0.025
+
+		path = {
+			leads_to_tech = tabards_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cloth_armor_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cloak_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 52 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+		}
+	}
+
+	tabards_1 = {
+
+		peasant = {
+			max_organisation = 2
+		}
+		militia = {
+			max_organisation = 2
+		}
+		footman = {
+			max_organisation = 2
+		}
+		pikeman = {
+			max_organisation = 2
+		}
+		archer = {
+			max_organisation = 2
+		}
+		mage = {
+			max_organisation = 2
+		}
+		priest = {
+			max_organisation = 2
+		}
+		mounted_footman = {
+			max_organisation = 2
+		}
+		knight = {
+			max_organisation = 2
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = tabards_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 50 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			tabard_technology
+		}
+	}
+
+	tabards_2 = {
+
+		peasant = {
+			max_organisation = 2
+		}
+		militia = {
+			max_organisation = 2
+		}
+		footman = {
+			max_organisation = 2
+		}
+		pikeman = {
+			max_organisation = 2
+		}
+		archer = {
+			max_organisation = 2
+		}
+		mage = {
+			max_organisation = 2
+		}
+		priest = {
+			max_organisation = 2
+		}
+		mounted_footman = {
+			max_organisation = 2
+		}
+		knight = {
+			max_organisation = 2
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 50 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			tabard_technology
+		}
+	}
+
+	cloth_armor_1 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = cloth_armor_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 52 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	cloth_armor_2 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = cloth_armor_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 52 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	cloth_armor_3 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = cloth_armor_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 52 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	cloth_armor_4 = {
+
+		mage = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 52 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			cloth_armor_technology
+			armor_technology
+		}
+	}
+
+	cloak_1 = {
+
+		acclimatization_cold_climate_gain_factor = 0.2
+		acclimatization_hot_climate_gain_factor = 0.05
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = cloak_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 54 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			cloak_technology
+		}
+	}
+
+	cloak_2 = {
+
+		acclimatization_cold_climate_gain_factor = 0.2
+		acclimatization_hot_climate_gain_factor = 0.05
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 54 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			tailor_technology
+			cloak_technology
+		}
+	}
+
+	leather_working_tech = {
+
+		industrial_capacity_factory = 0.025
+
+		path = {
+			leads_to_tech = leather_armor_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 56 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	leather_armor_1 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = leather_armor_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 56 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	leather_armor_2 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			keep_tech = 1
+		}
+
+		path = {
+			leads_to_tech = leather_armor_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 56 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	leather_armor_3 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = leather_armor_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 56 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+	leather_armor_4 = {
+
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		archer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		dependencies = {
+			castle_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+
+		folder = {
+			name = human_administration_folder
+			position = { x = 56 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			leather_armor_technology
+			armor_technology
+		}
+	}
+
+}

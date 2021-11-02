@@ -1,0 +1,643 @@
+##################################################################
+### Terrain Categories
+###
+###
+
+categories =  {
+
+	unknown = {
+		color = { 255 0 0 }
+	}
+
+	ocean = {
+		color = { 58 91 255 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+	}
+	
+	lakes = {
+		color = { 58 91 255 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+	}
+	
+	forest = {
+		color = { 6 200 11 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+
+	dense_forest = {
+		color = { 0 86 6 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+
+	coral_forest = {
+		color = { 200 45 89 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+
+	dense_coral_forest = {
+		color = { 163 23 63 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+
+	hills = {
+		color = { 248 255 153 }
+		movement_cost = 1.5
+		combat_width = -0.33
+		ai_terrain_importance_factor = 3.0
+		sound_type = desert
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+		enemy_army_bonus_air_superiority_factor = -0.05
+	}
+
+	submerged_hills = {
+		color = { 31 71 113 }
+		movement_cost = 1.5
+		combat_width = -0.33
+		ai_terrain_importance_factor = 3.0
+		sound_type = desert
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+		enemy_army_bonus_air_superiority_factor = -0.05
+	}
+
+	volcanic_rock_hills = {
+		color = { 111 93 57 }
+		movement_cost = 1.5
+		combat_width = -0.33
+		ai_terrain_importance_factor = 3.0
+		sound_type = desert
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+		enemy_army_bonus_air_superiority_factor = -0.05
+	}
+	
+	mountain = {
+		color = { 124 135 125 }
+		movement_cost = 2.0
+		attrition = 0.4
+		combat_width = -0.66
+		ai_terrain_importance_factor = 10.0
+		sound_type = desert
+
+		units = {
+			attack = -0.6
+			#movement = -0.4
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.10
+	}
+
+	submerged_mountain = {
+		color = { 31 39 119 }
+		movement_cost = 2.0
+		attrition = 0.4
+		combat_width = -0.66
+		ai_terrain_importance_factor = 10.0
+		sound_type = desert
+
+		units = {
+			attack = -0.6
+			#movement = -0.4
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.10
+	}
+	
+	plains = {
+		color = { 255 129 66 }
+		movement_cost = 1.0
+		ai_terrain_importance_factor = 0.1
+		sound_type = plains
+	}
+
+	molten_rock = {
+		color = { 245 62 19 }
+		movement_cost = 1.0
+		ai_terrain_importance_factor = 0.1
+		sound_type = plains
+	}
+
+	volcanic_rock = {
+		color = { 120 117 110 }
+		movement_cost = 1.0
+		ai_terrain_importance_factor = 0.1
+		sound_type = plains
+	}
+
+	subterranean = {
+		color = { 131 107 24 }
+		movement_cost = 1.0
+		ai_terrain_importance_factor = 0.1
+		sound_type = plains
+	}
+	
+	city = {
+		color = { 155 0 255 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 4.0
+		sound_type = plains
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	village = {
+		color = { 210 0 255 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 4.0
+		sound_type = plains
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	outpost = {
+		color = { 153 0 0 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 4.0
+		sound_type = plains
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	submerged_city = {
+		color = { 0 150 255 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 4.0
+		sound_type = plains
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	subterranean_city = {
+		color = { 255 198 0 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 4.0
+		sound_type = plains
+
+		units = {
+			attack = -0.3
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+	
+	jungle = {
+		color = { 127 191 0 }
+		movement_cost = 1.5
+		attrition = 0.3
+		combat_width = -0.25
+		ai_terrain_importance_factor = 6.0
+		sound_type = forest
+
+		units = {
+			attack = -0.3
+			#movement = -0.3
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.25
+		
+		sickness_chance = 1.0
+	}	
+	
+	marsh = {
+		color = { 76 96 35 }
+		movement_cost = 2.0
+		attrition = 0.5
+		combat_width = -0.25
+		ai_terrain_importance_factor = 8.0		
+		sound_type = forest
+
+		units = {
+			attack = -0.4
+			#movement = -0.4
+		}
+		
+		sickness_chance = 1.0
+	}
+	
+	desert = {
+		color = { 255 127 0 }
+		movement_cost = 1.05
+		attrition = 0.2
+		ai_terrain_importance_factor = 8.0
+		sound_type = desert
+		
+		sickness_chance = 1.0
+	}
+
+#custom terrain
+	
+	gateway = {
+		color = { 0 255 240 }
+		movement_cost = 0.25
+		combat_width = 5
+		ai_terrain_importance_factor = 0.1
+		sound_type = plains
+		
+		units = {
+			movement = 10.0
+			defence = -0.5
+		}
+		
+	}
+
+	beach = {
+		color = { 254 174 71 }
+		movement_cost = 1.05
+		ai_terrain_importance_factor = 0.1
+		sound_type = plains
+
+		units = {
+			defence = -0.25
+		}
+	}
+
+	snow = {
+		color = { 114 137 105 }
+		movement_cost = 1.25
+		ai_terrain_importance_factor = 0.1
+		sound_type = plains
+		units = {
+			defence = -0.1
+		}
+	}
+
+	snow_forest = {
+		color = { 0 204 255 }
+		movement_cost = 1.75
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			defence = -0.1
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+		
+	}
+
+	dense_snow_forest = {
+		color = { 0 135 205 }
+		movement_cost = 1.75
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			defence = -0.1
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+		
+	}
+
+	snow_hills = {
+		color = { 162 162 162 }
+		movement_cost = 1.75
+		combat_width = -0.33
+		ai_terrain_importance_factor = 3.0
+		sound_type = desert
+
+		units = {
+			attack = -0.3
+			defence = -0.1
+		}
+		enemy_army_bonus_air_superiority_factor = -0.05
+	}
+
+	snow_mountain = {
+		color = { 255 255 255 }
+		movement_cost = 2.25
+		attrition = 0.4
+		combat_width = -0.66
+		ai_terrain_importance_factor = 10.0
+		sound_type = desert
+
+		units = {
+			attack = -0.6
+			defence = -0.1
+			
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.10
+	}
+
+	ice = {
+		color = { 205 255 251 }
+		movement_cost = 2.0
+		combat_width = -0.25
+		ai_terrain_importance_factor = 0.2
+		sound_type = plains
+		
+	}
+
+	mountain_pass = {
+		color = { 202 193 89 }
+		movement_cost = 1
+		combat_width = 0.5
+		ai_terrain_importance_factor = 10.0
+		sound_type = desert
+
+		units = {
+			defence = -0.5
+		}
+		
+	}
+
+	mushrooms = {
+		color = { 116 186 222 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+
+	submerged = {
+		color = { 78 112 235 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = desert
+
+	}
+
+	tundra = {
+		color = { 0 82 82 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = plains
+
+	}
+
+	savanna = {
+		color = { 188 159 25 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = plains
+
+	}
+
+	badlands = {
+		color = { 193 98 20 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = desert
+
+	}
+
+	salt_flats = {
+		color = { 231 220 179 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = desert
+
+	}
+
+	enchanted_forest = {
+		color = { 0 86 6 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+
+	dense_enchanted_forest = {
+		color = { 0 86 6 }
+		movement_cost = 1.5
+		combat_width = -0.20
+		ai_terrain_importance_factor = 5.0
+		sound_type = forest
+
+		units = {
+			attack = -0.2
+			#movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.1
+	}
+
+#ocean terrain
+
+	water_fjords = {
+		naval_terrain = yes
+		color = { 75 162 198 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		
+		navy_visibility = -0.2
+		positioning = -0.15
+	}
+	
+	water_shallow_sea = {
+		naval_terrain = yes
+		color = { 56 118 217 } 
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+
+		positioning = -0.05
+	}
+	
+	water_deep_ocean = {
+		naval_terrain = yes
+		color = { 2 38 150 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+
+		naval_mine_hit_chance = -0.5
+	}
+	
+}
+	
+##################################################################
+### Graphical terrain
+###		type	=	refers to the terrain defined above, "terrain category"'s 
+### 	color 	= 	index in bitmap color table (see terrain.bmp)
+###
+
+terrain = {
+	plains								= { type = plains						color = { 	0	 } texture = 1 }
+	dense_forest						= { type = dense_forest					color = { 	1	 } texture = 4 } 
+	hills								= { type = hills						color = { 	2	 } texture = 3 }
+	desert_rocks						= { type = desert						color = { 	3	 } texture = 9 }
+	forest								= { type = forest						color = { 	4	 } texture = 5 }
+	farmland							= { type = plains	 					color = { 	5	 } texture = 0 }
+	dense_enchanted_forest				= { type = enchanted_forest				color = { 	6	 } texture = 4 }
+	desert_sand_dunes					= { type = desert						color = { 	7	 } texture = 12 }
+	desert_mountain_mixed				= { type = mountain						color = { 	8	 } texture = 14 }
+	swamp								= { type = marsh						color = { 	9	 } texture = 6 }
+	desert_mountain_sand				= { type = mountain   					color = { 	10	 } texture = 13 }
+			
+	mountains							= { type = mountain						color = { 	11	 } texture = 11 }
+	desert_to_grass						= { type = desert						color = { 	12	 } texture = 8 }
+	city								= { type = city							color = { 	13	 } texture = 10 spawn_city = yes }
+	submerged							= { type = submerged					color = { 	14	 } texture = 9 }
+	ocean								= { type = ocean						color = { 	15	 } texture = 9 } 
+	mountain_snow						= { type = snow_mountain				color = { 	16	 } texture = 11 } #perm_snow = yes
+	hills_grass							= { type = hills						color = { 	17	 } texture = 2 }
+	badlands							= { type = badlands						color = { 	18	 } texture = 9 }
+	snow								= { type = snow							color = { 	19	 } texture = 1 } #perm_snow = yes
+	mountain_grass			 			= { type = mountain						color = { 	20	 } texture = 7 }
+
+	jungle								= { type = jungle						color = { 	21	 } texture = 4 }
+	tundra								= { type = tundra						color = { 	22	 } texture = 1 }
+	gateway_color						= { type = gateway						color = { 	23	 } texture = 10 spawn_city = yes }
+	beach_color							= { type = beach						color = { 	24	 } texture = 12 }
+	snowy_hills							= { type = snow_hills					color = { 	25	 } texture = 3 } #perm_snow = yes
+	ice_color							= { type = ice							color = { 	26	 } texture = 1 }
+	snow_forest							= { type = snow_forest					color = { 	27	 } texture = 4 } #perm_snow = yes
+	dense_snow_forest					= { type = dense_snow_forest			color = { 	28	 } texture = 5 } #perm_snow = yes
+	savanna								= { type = savanna						color = { 	29	 } texture = 1 }
+	mountain_pass						= { type = mountain_pass				color = { 	30	 } texture = 3 }
+
+	desert_mountain_rock				= { type = mountain						color = { 	31	 } texture = 15 }
+	mushrooms							= { type = mushrooms					color = { 	32	 } texture = 6 }
+	salt_flats							= { type = salt_flats					color = { 	33	 } texture = 9 }
+	molten_rock							= { type = molten_rock					color = { 	34	 } texture = 1 }
+	molten_hill							= { type = molten_rock					color = { 	35	 } texture = 3 }
+	molten_mountain						= { type = molten_rock					color = { 	36	 } texture = 11 }
+	volcanic_rock						= { type = volcanic_rock				color = { 	37	 } texture = 1 }
+	coral_forest						= { type = coral_forest					color = { 	38	 } texture = 4 }
+	dense_coral_forest					= { type = dense_coral_forest			color = { 	39	 } texture = 5 }			
+	submerged_hills						= { type = submerged_hills				color = { 	40	 } texture = 3 }
+
+	submerged_mountain					= { type = submerged_mountain			color = { 	41	 } texture = 11 }
+	submerged_city						= { type = submerged_city				color = { 	42	 } texture = 10 spawn_city = yes }
+	submerged_city_streets				= { type = submerged_city				color = { 	43	 } texture = 1 }
+	subterranean						= { type = subterranean					color = { 	44	 } texture = 1 }
+	subterranean_mountain				= { type = subterranean					color = { 	45	 } texture = 11 }
+	subterranean_city					= { type = subterranean_city			color = { 	46	 } texture = 10 spawn_city = yes }
+	subterranean_city_streets			= { type = subterranean_city			color = { 	47	 } texture = 1 }
+	mountain_pass_grass					= { type = mountain_pass				color = { 	48	 } texture = 2 }
+	mountain_pass_plains				= { type = mountain_pass				color = { 	49	 } texture = 1 }
+	mountain_pass_sand					= { type = mountain_pass				color = { 	50	 } texture = 12 }
+
+	mountain_pass_desert				= { type = mountain_pass				color = { 	51	 } texture = 9 }
+	city_streets						= { type = city							color = { 	52	 } texture = 1 }
+	volcanic_rock_hills					= { type = volcanic_rock_hills			color = { 	53	 } texture = 3 }
+	city_streets_desert					= { type = city							color = { 	54	 } texture = 9 }
+	city_streets_sand					= { type = city							color = { 	55	 } texture = 12 }
+	city_streets_jungle					= { type = city							color = { 	56	 } texture = 4 }
+	city_streets_hills					= { type = city							color = { 	57	 } texture = 3 }
+	city_streets_hills_grass			= { type = city							color = { 	58	 } texture = 2 }
+	city_streets_forest					= { type = city							color = { 	59	 } texture = 4 }
+
+	village								= { type = village						color = { 	60	 } texture = 10 spawn_city = yes }
+	village_streets						= { type = village						color = { 	61	 } texture = 1 }
+	village_streets_desert				= { type = village						color = { 	62	 } texture = 9 }
+	village_streets_sand				= { type = village						color = { 	63	 } texture = 12 }
+	village_streets_jungle				= { type = village						color = { 	64	 } texture = 4 }
+	village_streets_hills				= { type = village						color = { 	65	 } texture = 3 }
+	village_streets_hills_grass			= { type = village						color = { 	66	 } texture = 2 }
+	village_streets_forest				= { type = village						color = { 	67	 } texture = 4 } #correct
+	outpost								= { type = outpost						color = { 	68	 } texture = 10 spawn_city = yes }
+	outpost_plains						= { type = outpost						color = { 	69	 } texture = 1 }
+	outpost_desert						= { type = outpost						color = { 	70	 } texture = 9 }
+
+	outpost_sand						= { type = outpost						color = { 	71	 } texture = 12 }
+	outpost_jungle						= { type = outpost						color = { 	72	 } texture = 4 }
+	outpost_hills						= { type = outpost						color = { 	73	 } texture = 3 }
+	outpost_hills_grass					= { type = outpost						color = { 	74	 } texture = 2 }
+	outpost_forest						= { type = outpost						color = { 	75	 } texture = 4 }
+	forest_hills						= { type = forest						color = { 	76	 } texture = 2 }
+	dense_forest_hills					= { type = forest						color = { 	77   } texture = 2 }
+	enchanted_forest					= { type = enchanted_forest				color = { 	78	 } texture = 4 }
+
+}

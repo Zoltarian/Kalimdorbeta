@@ -1,0 +1,63 @@
+﻿capital = 966
+
+oob = "FGH_592"
+
+add_ideas = {
+	tyrant
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	silithid_primary_race
+
+	primary_trait_natural_burrower
+	primary_trait_tunnel_network
+	primary_trait_territorial
+
+	primary_religion_followers_of_cthun
+}
+
+set_research_slots = 3
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	nesting_grounds_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+596.1.1 = {}
+
+create_country_leader = {
+	name = "Fieldgiant Harvester"
+	desc = "POLITICS_FIELDGIANT_BROODMOTHER_DESC"
+	picture = "fieldgiant_harvester.dds"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=1121
+	name="STATE_1121"
+	resources = {
+		ores=5
+		mana=6
+	}
+
+	history={
+		owner = TAR
+		victory_points = {
+			11326 15
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = TAR
+
+	}
+
+	provinces={
+		10840 11323 11326 11986
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

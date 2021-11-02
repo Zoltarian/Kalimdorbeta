@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Bloodpetal Lasher"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Bloodpetal Lasher"
+		location = 11251
+		division_template = "Bloodpetal Lasher"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Bloodpetal Lasher"
+		location = 11251
+		division_template = "Bloodpetal Lasher"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Bloodpetal Lasher"
+		location = 11191
+		division_template = "Bloodpetal Lasher"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Bloodpetal Lasher"
+		location = 11122
+		division_template = "Bloodpetal Lasher"
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "Bloodpetal Lasher"
+		location = 11270
+		division_template = "Bloodpetal Lasher"
+		start_experience_factor = 0.0
+	}
+
+}

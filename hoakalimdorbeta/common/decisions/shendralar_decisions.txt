@@ -1,0 +1,963 @@
+demonic_containment_decisions = {
+
+  immolthar_containment_mission = {
+
+    priority = 10
+
+    allowed = {
+			tag = SHD
+		}
+
+    available = {
+			always = no
+		}
+
+    activation = {
+      tag = SHD
+    }
+
+    days_mission_timeout = 365
+
+    timeout_effect = {
+      country_event = shendralar.7
+    }
+  }
+
+  necessary_sacrifice_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+		available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      custom_effect_tooltip = necessary_sacrifice_decision_tt
+      #Kill 1/50 of the pop
+      set_temp_variable = { pop_to_kill = manpower }
+      divide_temp_variable = { pop_to_kill = 50 }
+      round_temp_variable = pop_to_kill
+      multiply_temp_variable = { pop_to_kill = -1 }
+      add_manpower = pop_to_kill
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+		}
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+
+  arcanists_support_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		modifier = {
+      research_speed_factor = -0.05
+    }
+
+    complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+    }
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+
+  power_rationing_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		modifier = {
+      stability_weekly = -0.001
+    }
+
+    complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+    }
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+
+  pylon_maintenance_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = { has_country_flag = delaying_the_inevitable_flag }
+			tag = SHD
+		}
+
+		visible = {
+			tag = SHD
+		}
+
+		fire_only_once = no
+
+		days_remove = 30
+		days_re_enable = 45
+
+		cost = 5
+
+		modifier = {
+      consumer_goods_factor = 0.025
+      production_factory_efficiency_gain_factor = -0.025
+      production_factory_max_efficiency_factor = -0.025
+    }
+
+    complete_effect = {
+      #Set flag to prevent taking all decisions at once
+      set_country_flag = delaying_the_inevitable_flag
+
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = 30
+      }
+    }
+
+    remove_effect = {
+      #Remove flag to allow decisions at once
+      clr_country_flag = delaying_the_inevitable_flag
+    }
+	}
+}
+
+looking_for_solutions_decisions = {
+
+  find_a_charged_arcane_crystal_decision = {
+
+    priority = 4
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 14
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+    }
+
+    remove_effect = {
+      add_ideas = SHD_mana_conservation_expertise
+
+      set_country_flag = found_charged_crystal
+    }
+  }
+
+  collect_pylon_sample_decision = {
+
+    priority = 3
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 14
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+    }
+
+    complete_effect = {
+      add_days_mission_timeout = {
+        mission = immolthar_containment_mission
+        days = -15
+      }
+    }
+
+    remove_effect = {
+      add_ideas = SHD_improved_containment_field
+
+      set_country_flag = pylon_sample_collected
+    }
+  }
+
+  siphon_volatile_demonic_energy_decision = {
+
+    priority = 2
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 14
+
+    cost = 50
+
+    modifier = {
+
+    }
+
+    complete_effect = {
+      add_manpower = -50
+      add_stability = -0.01
+    }
+
+    remove_effect = {
+      add_ideas = SHD_demonology_insights
+
+      set_country_flag = demonic_energy_siphoned
+    }
+  }
+
+  begin_researches_decision = {
+
+    priority = 1
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      has_country_flag = found_charged_crystal
+      has_country_flag = pylon_sample_collected
+      has_country_flag = demonic_energy_siphoned
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    days_remove = 30
+
+    cost = 50
+
+    remove_effect = {
+      custom_effect_tooltip = begin_researches_decision_tt_1
+
+      remove_ideas = {
+        SHD_mana_conservation_expertise
+        SHD_demonology_insights
+        SHD_improved_containment_field
+      }
+
+      swap_ideas = {
+        remove_idea = SHD_prison_of_immolthar_idea
+        add_idea = SHD_prison_of_immolthar_2_idea
+      }
+
+      custom_effect_tooltip = begin_researches_decision_tt_2
+
+      set_variable = { SHD_looking_for_solution_phase = 2 }
+      set_variable = { insight_amount = 0 }
+
+      set_variable = { imperfect_solution_tier = 0 }
+      set_variable = { mana_gathering_enhancer_tier = 0 }
+      set_variable = { mana_catalyzer_tier = 0 }
+      set_variable = { energy_stabilizer_tier = 0 }
+    }
+  }
+
+  debug_skip_to_phase_2_decision = {
+
+    priority = 1
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      is_debug = yes
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = yes
+
+    cost = 0
+
+    complete_effect = {
+      set_variable = { SHD_looking_for_solution_phase = 2 }
+      set_variable = { insight_amount = 0 }
+
+      set_variable = { imperfect_solution_tier = 0 }
+      set_variable = { mana_gathering_enhancer_tier = 0 }
+      set_variable = { mana_catalyzer_tier = 0 }
+      set_variable = { energy_stabilizer_tier = 0 }
+      set_variable = { discovery_tick = null }
+    }
+  }
+}
+
+looking_for_solutions_phase_2_decisions = {
+
+  research_solution_decision = {
+
+    priority = 4
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      NOT = { has_country_flag = SHD_busy_arcanists_flag }
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+      conscription_factor = -0.01
+    }
+
+    complete_effect = {
+      set_country_flag = SHD_busy_arcanists_flag
+    }
+
+    fixed_random_seed = no
+
+    remove_effect = {
+      random_list = {
+        1 = {
+          #Loose all insights
+          country_event = { id = shendralar.21 }
+        }
+        30 = {
+          #Nothing happens
+          country_event = { id = shendralar.22 }
+        }
+        64 = {
+          #+1 insight
+          country_event = { id = shendralar.23 }
+        }
+        5 = {
+          #+2 insight
+          country_event = { id = shendralar.24 }
+        }
+      }
+
+      clr_country_flag = SHD_busy_arcanists_flag
+    }
+  }
+
+  look_into_insights_decision = {
+
+    priority = 3
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      NOT = { has_country_flag = SHD_busy_arcanists_flag }
+
+      custom_trigger_tooltip = {
+        tooltip = look_into_insights_tt
+        check_variable = { insight_amount > 4 }
+      }
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+      conscription_factor = -0.01
+    }
+
+    complete_effect = {
+      set_country_flag = SHD_busy_arcanists_flag
+    }
+
+    remove_effect = {
+      hidden_effect = {
+        random_list = {
+    			25 = {
+    				#Imperfect solution
+    				modifier = {
+              factor = 0
+              check_variable = { imperfect_solution_tier = 1 }
+            }
+    				add_to_variable = {
+    					var = imperfect_solution_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = imperfect_solution_tick }
+    			}
+    			25 = {
+    				#Mana Gathering solution
+    				modifier = {
+              factor = 0
+              check_variable = { mana_gathering_enhancer_tier = 3 }
+            }
+    				if = {
+    					limit = {
+    						NOT = { check_variable = { mana_gathering_enhancer_tier = 3 } }
+    					}
+    				}
+    				add_to_variable = {
+    					var = mana_gathering_enhancer_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = mana_gathering_enhancer_tick }
+    			}
+    			25 = {
+    				#Mana Catalyzer solution
+    				modifier = {
+                factor = 0
+                check_variable = { mana_catalyzer_tier = 3 }
+            }
+    				if = {
+    					limit = {
+    						NOT = { check_variable = { mana_catalyzer_tier = 3 } }
+    					}
+    				}
+    				add_to_variable = {
+    					var = mana_catalyzer_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = mana_catalyzer_tick }
+    			}
+    			25 = {
+    				#Energy Stablizer solution
+    				modifier = {
+                factor = 0
+                check_variable = { energy_stabilizer_tier = 3 }
+            }
+    				if = {
+    					limit = {
+    						NOT = { check_variable = { energy_stabilizer_tier = 3 } }
+    					}
+    				}
+    				add_to_variable = {
+    					var = energy_stabilizer_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = energy_stabilizer_tick }
+    			}
+    		}
+        #Fire the visible event
+    		country_event = shendralar.25
+      }
+
+      custom_effect_tooltip = look_into_insights_effect_tt
+
+      clr_country_flag = SHD_busy_arcanists_flag
+    }
+  }
+
+  imperfect_solution_decision = {
+
+    priority = 2
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      NOT = { has_country_flag = SHD_busy_arcanists_flag }
+
+      check_variable = { imperfect_solution_tier > 0 }
+    }
+
+    visible = {
+      tag = SHD
+
+      check_variable = { imperfect_solution_tier > 0 }
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+      conscription_factor = -0.01
+    }
+
+    complete_effect = {
+      set_country_flag = SHD_busy_arcanists_flag
+    }
+
+    remove_effect = {
+      remove_ideas = SHD_prison_of_immolthar_2_idea
+      add_ideas = SHD_imperfect_solution_idea
+
+      #Event to conclude
+  		country_event = shendralar.26
+
+      clr_country_flag = SHD_busy_arcanists_flag
+    }
+  }
+
+  mana_gathering_enhancer_decision = {
+
+    priority = 1
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      NOT = { has_country_flag = SHD_busy_arcanists_flag }
+
+      check_variable = { mana_gathering_enhancer_tier > 0 }
+    }
+
+    visible = {
+      tag = SHD
+
+      check_variable = { mana_gathering_enhancer_tier > 0 }
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+      conscription_factor = -0.01
+    }
+
+    complete_effect = {
+      set_country_flag = SHD_busy_arcanists_flag
+    }
+
+    remove_effect = {
+      remove_ideas = SHD_prison_of_immolthar_2_idea
+
+      if = {
+        limit = {
+          check_variable = { mana_gathering_enhancer_tier = 1 }
+        }
+        add_ideas = SHD_imperfect_mana_gathering_enhancer_idea
+      }
+      else_if = {
+        limit = {
+          check_variable = { mana_gathering_enhancer_tier = 2 }
+        }
+        add_ideas = SHD_improved_mana_gathering_enhancer_idea
+      }
+      else_if = {
+        limit = {
+          check_variable = { mana_gathering_enhancer_tier = 3 }
+        }
+        add_ideas = SHD_perfect_mana_gathering_enhancer_idea
+      }
+
+      #Event to conclude
+  		country_event = shendralar.27
+
+      clr_country_flag = SHD_busy_arcanists_flag
+    }
+  }
+
+  mana_catalyzer_decision = {
+
+    priority = 1
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      NOT = { has_country_flag = SHD_busy_arcanists_flag }
+
+      check_variable = { mana_catalyzer_tier > 0 }
+    }
+
+    visible = {
+      tag = SHD
+
+      check_variable = { mana_catalyzer_tier > 0 }
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+      conscription_factor = -0.01
+    }
+
+    complete_effect = {
+      set_country_flag = SHD_busy_arcanists_flag
+    }
+
+    remove_effect = {
+      remove_ideas = SHD_prison_of_immolthar_2_idea
+
+      if = {
+        limit = {
+          check_variable = { mana_catalyzer_tier = 1 }
+        }
+        add_ideas = SHD_imcomplete_mana_catalyzer_idea
+      }
+      else_if = {
+        limit = {
+          check_variable = { mana_catalyzer_tier = 2 }
+        }
+        add_ideas = SHD_superior_mana_catalyzer_idea
+      }
+      else_if = {
+        limit = {
+          check_variable = { mana_catalyzer_tier = 3 }
+        }
+        add_ideas = SHD_perfected_mana_catalyzer_idea
+      }
+
+      #Event to conclude
+  		country_event = shendralar.27
+
+      clr_country_flag = SHD_busy_arcanists_flag
+    }
+  }
+
+  energy_stabilizer_decision = {
+
+    priority = 1
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      NOT = { has_country_flag = SHD_busy_arcanists_flag }
+
+      check_variable = { energy_stabilizer_tier > 0 }
+    }
+
+    visible = {
+      tag = SHD
+
+      check_variable = { energy_stabilizer_tier > 0 }
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 50
+
+    modifier = {
+      research_speed_factor = -0.025
+      conscription_factor = -0.01
+    }
+
+    complete_effect = {
+      set_country_flag = SHD_busy_arcanists_flag
+    }
+
+    remove_effect = {
+      remove_ideas = SHD_prison_of_immolthar_2_idea
+
+      if = {
+        limit = {
+          check_variable = { energy_stabilizer_tier = 1 }
+        }
+        add_ideas = SHD_basic_energy_stabilizer_idea
+      }
+      else_if = {
+        limit = {
+          check_variable = { energy_stabilizer_tier = 2 }
+        }
+        add_ideas = SHD_perfected_energy_stabilizer_idea
+      }
+      else_if = {
+        limit = {
+          check_variable = { energy_stabilizer_tier = 3 }
+        }
+        add_ideas = SHD_flawless_energy_stabilizer_idea
+      }
+
+      #Event to conclude
+  		country_event = shendralar.27
+
+      clr_country_flag = SHD_busy_arcanists_flag
+    }
+  }
+
+  debug_free_insight_decision = {
+
+    priority = 0
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    complete_effect = {
+      set_variable = { insight_amount = 500 }
+    }
+  }
+
+  debug_quick_insights_look_decision = {
+
+    priority = 0
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      always = yes
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    complete_effect = {
+      hidden_effect = {
+        random_list = {
+    			25 = {
+    				#Imperfect solution
+    				modifier = {
+              factor = 0
+              check_variable = { imperfect_solution_tier = 1 }
+            }
+    				add_to_variable = {
+    					var = imperfect_solution_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = 1 }
+    			}
+    			25 = {
+    				#Mana Gathering solution
+    				modifier = {
+              factor = 0
+              check_variable = { mana_gathering_enhancer_tier = 3 }
+            }
+    				if = {
+    					limit = {
+    						NOT = { check_variable = { mana_gathering_enhancer_tier = 3 } }
+    					}
+    				}
+    				add_to_variable = {
+    					var = mana_gathering_enhancer_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = 2 }
+    			}
+    			25 = {
+    				#Mana Catalyzer solution
+    				modifier = {
+                factor = 0
+                check_variable = { mana_catalyzer_tier = 3 }
+            }
+    				if = {
+    					limit = {
+    						NOT = { check_variable = { mana_catalyzer_tier = 3 } }
+    					}
+    				}
+    				add_to_variable = {
+    					var = mana_catalyzer_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = 3 }
+    			}
+    			25 = {
+    				#Energy Stablizer solution
+    				modifier = {
+                factor = 0
+                check_variable = { energy_stabilizer_tier = 3 }
+            }
+    				if = {
+    					limit = {
+    						NOT = { check_variable = { energy_stabilizer_tier = 3 } }
+    					}
+    				}
+    				add_to_variable = {
+    					var = energy_stabilizer_tier
+    					value = 1
+    				}
+    				set_variable = { discovery_tick = 4 }
+    			}
+    		}
+        #Fire the visible event
+    		country_event = shendralar.25
+      }
+
+      custom_effect_tooltip = look_into_insights_effect_tt
+
+      clr_country_flag = SHD_busy_arcanists_flag
+    }
+  }
+
+  debug_test_idea_decision = {
+
+    priority = 0
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      tag = SHD
+    }
+
+    visible = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 50
+
+    complete_effect = {
+      add_ideas = SHD_imperfect_solution_idea
+
+      add_ideas = SHD_imperfect_mana_gathering_enhancer_idea
+      add_ideas = SHD_improved_mana_gathering_enhancer_idea
+      add_ideas = SHD_perfect_mana_gathering_enhancer_idea
+
+      add_ideas = SHD_imcomplete_mana_catalyzer_idea
+      add_ideas = SHD_superior_mana_catalyzer_idea
+      add_ideas = SHD_perfected_mana_catalyzer_idea
+
+      add_ideas = SHD_basic_energy_stabilizer_idea
+      add_ideas = SHD_perfected_energy_stabilizer_idea
+      add_ideas = SHD_flawless_energy_stabilizer_idea
+    }
+  }
+}

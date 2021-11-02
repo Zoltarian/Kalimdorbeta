@@ -1,0 +1,161 @@
+#################################
+# Looking for solution decisions
+#################################
+
+#Has found charged crystal
+defined_text = {
+	name = charged_crystal_state
+	text = {
+		trigger = {
+      AND = {
+  			tag = SHD
+        has_country_flag = found_charged_crystal
+      }
+		}
+		localization_key = retrieved_loc_key
+	}
+	text = {
+		localization_key = not_retrieved_loc_key
+	}
+}
+
+#Has collected pylon sample
+defined_text = {
+	name = pylon_sample_state
+	text = {
+		trigger = {
+      AND = {
+  			tag = SHD
+        has_country_flag = pylon_sample_collected
+      }
+		}
+		localization_key = retrieved_loc_key
+	}
+	text = {
+		localization_key = not_retrieved_loc_key
+	}
+}
+
+#Has siphoned volatile demonic energy
+defined_text = {
+	name = demonic_energy_state
+	text = {
+		trigger = {
+      AND = {
+  			tag = SHD
+        has_country_flag = demonic_energy_siphoned
+      }
+		}
+		localization_key = retrieved_loc_key
+	}
+	text = {
+		localization_key = not_retrieved_loc_key
+	}
+}
+
+#Mana Gathering Enhancer Tier
+defined_text = {
+	name = mana_gathering_enhancer_tier_loc
+	text = {
+		trigger = {
+			check_variable = { mana_gathering_enhancer_tier = 1 }
+		}
+		localization_key = SHD_solution_tier_1
+	}
+	text = {
+		trigger = {
+			check_variable = { mana_gathering_enhancer_tier = 2 }
+		}
+		localization_key = SHD_solution_tier_2
+	}
+	text = {
+		trigger = {
+			check_variable = { mana_gathering_enhancer_tier = 3 }
+		}
+		localization_key = SHD_solution_tier_3
+	}
+	text = {
+		localization_key = SHD_solution_tier_1
+	}
+}
+
+#Mana Catalyzer Tier
+defined_text = {
+	name = mana_catalyzer_tier_loc
+	text = {
+		trigger = {
+			check_variable = { mana_catalyzer_tier = 1 }
+		}
+		localization_key = SHD_solution_tier_1
+	}
+	text = {
+		trigger = {
+			check_variable = { mana_catalyzer_tier = 2 }
+		}
+		localization_key = SHD_solution_tier_2
+	}
+	text = {
+		trigger = {
+			check_variable = { mana_catalyzer_tier = 3 }
+		}
+		localization_key = SHD_solution_tier_3
+	}
+	text = {
+		localization_key = SHD_solution_tier_1
+	}
+}
+
+#Energy Stabilizer Tier
+defined_text = {
+	name = energy_stabilizer_tier_loc
+	text = {
+		trigger = {
+			check_variable = { energy_stabilizer_tier = 1 }
+		}
+		localization_key = SHD_solution_tier_1
+	}
+	text = {
+		trigger = {
+			check_variable = { energy_stabilizer_tier = 2 }
+		}
+		localization_key = SHD_solution_tier_2
+	}
+	text = {
+		trigger = {
+			check_variable = { energy_stabilizer_tier = 3 }
+		}
+		localization_key = SHD_solution_tier_3
+	}
+	text = {
+		localization_key = SHD_solution_tier_1
+	}
+}
+
+#Discovery tick and event title
+defined_text = {
+	name = discovery_event_title
+	text = {
+		trigger = {
+			check_variable = { discovery_tick = 1 }
+		}
+		localization_key = SHD_imperfect_solution_event_title
+	}
+	text = {
+		trigger = {
+			check_variable = { discovery_tick = 2 }
+		}
+		localization_key = SHD_mana_gathering_enhancer_event_title
+	}
+	text = {
+		trigger = {
+			check_variable = { discovery_tick = 3 }
+		}
+		localization_key = SHD_mana_catalyzer_event_title
+	}
+	text = {
+		trigger = {
+			check_variable = { discovery_tick = 4 }
+		}
+		localization_key = SHD_energy_stabilizer_event_title
+	}
+}

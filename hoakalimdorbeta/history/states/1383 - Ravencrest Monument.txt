@@ -1,0 +1,36 @@
+
+state={
+	id=1383
+	name="STATE_1383"
+	resources = {
+		mana=3
+		ores=6
+		wood=4
+		oil=3
+	}
+
+	history={
+		owner = MAK
+		victory_points = {
+			14835 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			14846 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = MAK
+
+	}
+
+	provinces={
+		1551 14819 14822 14826 14827 14828 14832 14835 14837 14843 14845 14846 
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

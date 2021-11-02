@@ -1,0 +1,30 @@
+
+state={
+	id=1116
+	name="STATE_1116"
+	resources = {
+		wood=2
+		ores=5
+	}
+
+	history={
+		owner = GOI
+		victory_points = {
+			11131 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = GOI
+
+	}
+
+	provinces={
+		10830 11096 11111 11118 11120 11131 11136 11139 11147
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

@@ -1,0 +1,103 @@
+﻿division_template = {
+	name = "Cobalt Whelp"
+
+	regiments = {
+		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 0 y = 4 }
+
+	}
+	priority = 1
+
+}
+
+division_template = {
+
+	name = "Cobalt Scalebane"
+
+	regiments = {
+		dragonspawn = { x = 0 y = 0 }
+		dragonspawn = { x = 0 y = 1 }
+		dragonspawn = { x = 0 y = 2 }
+		dragonspawn = { x = 0 y = 3 }
+		dragonspawn = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+division_template = {
+
+	name = "Cobalt Mageweaver"
+
+	regiments = {
+		dragonspawn_sorceress = { x = 0 y = 0 }
+		dragonspawn_sorceress = { x = 0 y = 1 }
+		dragonspawn_sorceress = { x = 0 y = 2 }
+		dragonspawn_sorceress = { x = 0 y = 3 }
+		dragonspawn_sorceress = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+division_template = {
+
+	name = "Cobalt Dragons"
+
+	regiments = {
+		dragon = { x = 0 y = 0 }
+		dragon = { x = 0 y = 1 }
+		dragon = { x = 0 y = 2 }
+		dragon = { x = 0 y = 3 }
+		dragon = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Cobalt Whelp"
+		location = 13004
+		division_template = "Cobalt Whelp"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Cobalt Scalebane"
+		location = 13004
+		division_template = "Cobalt Scalebane"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Cobalt Mageweaver"
+		location = 13004
+		division_template = "Cobalt Mageweaver"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Cobalt Dragons"
+		location = 13004
+		division_template = "Cobalt Dragons"
+		start_experience_factor = 0.2
+	}
+
+}
+
+air_wings = {
+	### Mazthoril
+	1453 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "MZT"
+			amount = 40
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "MZT"
+			amount = 25
+		}
+
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=930
+	name="STATE_930"
+	resources={
+		wood=4
+		ores=6
+		oil=2
+	}
+
+	history={
+		owner = THI
+		victory_points = {
+			9370 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = THI
+
+	}
+
+	provinces={
+		8959 9357 9358 9365 9369 9370 9377 9378 9380 9390 9394 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

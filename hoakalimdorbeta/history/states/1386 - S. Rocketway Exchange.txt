@@ -1,0 +1,31 @@
+
+state={
+	id=1386
+	name="STATE_1386"
+	resources = {
+		wheat=1
+		wood=7
+		ores=2
+	}
+
+	history={
+		owner = HDC
+		victory_points = {
+			2732 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = HDC
+
+	}
+
+	provinces={
+		1644 2110 2347 2551 2732 2765 2768 4173 5641 
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+}

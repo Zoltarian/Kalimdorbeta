@@ -1,0 +1,109 @@
+﻿capital = 1143
+
+oob = "ULD_592"
+
+set_convoys = 50
+
+set_research_slots = 3
+
+add_ideas = {
+	council
+	limited_conscription
+	early_military_development
+
+	anubisath_primary_race
+	tolvir_secondary_race
+
+	primary_trait_titan_forging
+	primary_trait_monument_builders
+	primary_trait_imposing_size
+
+	primary_religion_the_titans
+}
+
+
+set_technology = {
+
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	harvesting_tools_1 = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	blacksmith_unit_tech_1 = 1
+	improved_forge_1 = 1
+	blueprints_1 = 1
+	industrial_society_1 = 1
+	farm_tech = 1
+	mines_tech = 1
+	church_tech = 1
+	wall_tech_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+	guard_tower_1 = 1
+	rogues_guild = 1
+	encryption_1 = 1
+	rogue_tech = 1
+	tailor_tech = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	captain_tech = 1
+	footman_weapons_tech_1 = 1
+	guard_tech = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+	knight_tech = 1
+	knight_tech_1 = 1
+
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+	paladin_tech = 1
+	paladin_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	naval_transport_1 = 1
+	
+}
+
+set_politics = {
+	ruling_party = titans
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 100
+    neutral = 0
+}
+
+create_country_leader = {
+	name = "Rajh"
+	desc = "POLITICS_RAJH_DESC"
+	picture = "rajh.dds"
+	ideology = titans_type
+	traits = {
+		#
+	}
+}
+
+596.1.1 = {}

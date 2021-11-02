@@ -1,0 +1,218 @@
+﻿capital = 12
+
+oob = "STR_592"
+set_naval_oob = "STR_592_naval"
+
+set_convoys = 65
+
+set_research_slots = 3
+
+set_stability = 0.6
+set_war_support = 0.15
+
+add_ideas = {
+	
+	kingdom
+	limited_conscription
+	early_military_development
+	free_trade
+
+	human_primary_race
+	primary_trait_diplomatic
+	primary_trait_human_spirit
+	primary_trait_perception
+
+	primary_religion_the_church_of_the_holy_light
+}
+
+set_technology = {
+	footman_weapons_tech_1 = 1
+	pikeman_weapons_tech_1 = 1
+	archer_weapons_tech_1 = 1
+
+	royal_guard_tech = 1
+
+	mount_taming_1 = 1
+	knight_tech_1 = 1
+
+	catapult_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	naval_transport_1 = 1
+	large_frames = 1
+	battleship_tech_1 = 1
+
+	town_hall_tech = 1
+	scout_tower_1 = 1
+
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = TOL
+		autonomous_state = autonomy_personal_union
+		freedom_level = 0.01
+	}
+	else = {
+		puppet = TOL
+		}
+	}
+
+596.1.1 = {
+
+	set_stability = 0.7
+	set_war_support = 0.5
+
+	add_ideas = {
+		
+		kingdom
+		limited_conscription
+		preparing_for_war
+		export_focus
+
+		human_primary_race
+		primary_trait_diplomatic
+		primary_trait_human_spirit
+		primary_trait_perception
+
+		primary_religion_the_church_of_the_holy_light
+	}
+
+	set_politics = {
+		ruling_party = alliance
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+  set_popularities = {
+    alliance = 100
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 0
+  }
+
+	set_technology = {
+		footman_weapons_tech_2 = 1
+
+		
+
+
+
+
+		naval_transport_2 = 1
+
+		blueprints_1 = 1
+
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
+}
+
+600.1.1 = {
+	create_country_leader = {
+		name = "Thoras Trollbane"
+		desc = "POLITICS_THORAS_TROLLBANE_DESC_POST_SECOND_WAR"
+		picture = "Thoras_Trollbane.dds"
+		expire = "1965.1.1"
+		ideology = neutral_type
+		traits = {
+			#
+		}
+	}
+	create_country_leader = {
+		name = "Thoras Trollbane"
+		desc = "POLITICS_THORAS_TROLLBANE_DESC_POST_SECOND_WAR"
+		picture = "Thoras_Trollbane.dds"
+		expire = "1965.1.1"
+		ideology = alliance_type
+		traits = {
+			#
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 34
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 66
+}
+
+create_country_leader = {
+	name = "Thoras Trollbane"
+	desc = "POLITICS_THORAS_TROLLBANE_DESC"
+	picture = "Thoras_Trollbane.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Thoras Trollbane"
+	desc = "POLITICS_THORAS_TROLLBANE_DESC"
+	picture = "Thoras_Trollbane.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Thoras Trollbane"
+	picture = "Thoras_Trollbane.dds"
+	traits = {  }
+	id = 62100
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Danath Trollbane"
+	picture = "Danath_Trollbane.dds"
+	traits = {  }
+	id = 62101
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+
+}
+create_corps_commander = {
+	name = "Prince Galen Trollbane"
+	picture = "Galen_Trollbane.dds"
+	traits = {  }
+	id = 62102
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+
+}

@@ -1,0 +1,77 @@
+sub_units = {
+
+	outrider = {
+		sprite = cavalry
+		map_icon_category = armored
+		priority = 599
+		ai_priority = 200
+		active = yes
+		cavalry = yes
+
+		type = {
+			motorized
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+		}
+		
+		combat_width = 0
+		
+		#Size Definitions
+		max_strength = 0.66
+		max_organisation = 10
+		default_morale = 0.30
+		manpower = 30
+
+		#Misc Abilities
+		training_time = 90
+		suppression = 1
+		weight = 0.1
+		supply_consumption = 0.11
+
+		# this is what moves us and sets speed
+		transport = dire_wolf_equipment
+
+		# Support nerfs to combat abilities
+		defense = -0.4
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.4
+	
+		need = {
+			raider_equipment = 17
+			dire_wolf_equipment = 17
+		}
+
+		forest = {
+			attack = -0.1
+			movement = -0.5
+		}
+		mountain = {
+			attack = -0.05
+		}
+		jungle = {
+			attack = -0.2
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.3
+		}
+		city = {
+			attack = -0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+		}
+	}
+}

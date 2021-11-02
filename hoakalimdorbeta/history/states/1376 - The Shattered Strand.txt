@@ -1,0 +1,40 @@
+state={
+	id=1376
+	name="STATE_1376"
+	resources = {
+		oil=8
+		gunpowder=5
+		mana=6
+	}
+
+	history={
+		owner = ARK
+		victory_points = {
+			14878 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 2
+			14884 = {
+				naval_base = 2
+			}
+			14925 = {
+				naval_base = 1
+			}
+			14851 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = ARK
+
+	}
+
+	provinces={
+		295 14850 14851 14852 14853 14854 14855 14861 14865 14876 14878 14884 14891 14897 14902 14920 14922 14925 14930 14938 14944 15104 
+	}
+	manpower=34000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+}

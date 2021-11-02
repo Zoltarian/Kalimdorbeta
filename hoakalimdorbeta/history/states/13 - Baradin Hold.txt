@@ -1,0 +1,41 @@
+
+state={
+	id=13
+	name="STATE_13"
+	resources={
+		oil=62
+		gunpowder=4
+		wheat=8
+		wood=5
+		ores=8
+		mana=16
+	}
+
+	history={
+		
+		victory_points = {
+			858 20 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+			radar_station = 1
+			1304 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+
+		}
+		add_core_of = TOL
+
+	}
+
+	provinces={
+		848 852 855 858 1303 1304 5166 5167 5168 5169 5170 
+	}
+	manpower=38000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+}

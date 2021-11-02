@@ -1,0 +1,33 @@
+
+state={
+	id=1456
+	name="STATE_1456"
+	resources = {
+		wheat=2
+		mana=6
+		wood=2
+		ores=7
+	}
+
+	history={
+		owner = FMG
+		add_core_of = FMG
+		victory_points = {
+			12932 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		12925 12932 12934 
+	}
+	manpower=33000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+}

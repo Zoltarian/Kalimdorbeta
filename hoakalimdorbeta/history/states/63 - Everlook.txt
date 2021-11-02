@@ -1,0 +1,35 @@
+
+state={
+	id=63
+	name="STATE_63"
+	resources = {
+		wheat=8
+		wood=14
+		eggs=4
+	}
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		victory_points = {
+			13081 20 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		616.1.1 = {
+			owner = EVR
+			controller = EVR
+			add_core_of = EVR
+
+		}
+
+	}
+
+	provinces={
+		2289 12620 12982 12983 13005 13015 13021 13039 13040 13048 13062 13063 13066 13081 13084 13089 13095 13104 
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

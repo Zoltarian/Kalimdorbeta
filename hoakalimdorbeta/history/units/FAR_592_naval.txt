@@ -1,0 +1,101 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Sandscalp Fleet"			
+		naval_base = 9497
+		task_force = {
+			name = "Sandscalp Fleet"			
+			location = 9497 #Steamwheedle port
+			
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "1st Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "2nd Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "1st Heavy Frigate"
+				definition = heavy_frigate
+				equipment = { heavy_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "2nd Heavy Frigate"
+				definition = heavy_frigate
+				equipment = { heavy_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "1st Juggernaught"
+				definition = juggernaught
+				equipment = { juggernaught_equipment_1 = { amount = 1 owner = FAR} }
+			}
+
+			
+		}
+	}
+	fleet = {				
+		name = "Farraki South Fleet"			
+		naval_base = 9323
+		task_force = {
+			name = "Farraki South Fleet"			
+			location = 9323 #lands end
+			
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "6th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "7th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "3rd Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "4th Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+			ship = {
+				name = "3rd Heavy Frigate"
+				definition = heavy_frigate
+				equipment = { heavy_frigate_equipment_1 = { amount = 1 owner = FAR} }
+			}
+
+			
+		}
+	}
+}

@@ -1,0 +1,155 @@
+﻿capital = 1388
+
+oob = "ARK_592"
+
+set_naval_oob = "ARK_592_naval"
+
+set_convoys = 75
+
+set_research_slots = 3
+
+add_ideas = {
+	tyrant
+	limited_conscription
+	early_military_development
+	limited_exports
+
+	sea_giants_primary_race
+	murloc_secondary_race
+	makrura_secondary_race
+
+	primary_trait_imposing_size
+
+	primary_religion_followers_of_the_tidehunter
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	heavy_frigate_tech_1 = 1
+	naval_transport_1 = 1
+}
+
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 0
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 100
+}
+
+create_country_leader = {
+	name = "Lord Arkkoroc"
+	desc = "POLITICS_LORD_ARKKOROC_DESC"
+	picture = "lord_arkkoroc.dds"
+	expire = "1965.1.1"
+	ideology = alliance_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Arkkoroc"
+	desc = "POLITICS_LORD_ARKKOROC_DESC"
+	picture = "lord_arkkoroc.dds"
+	expire = "1965.1.1"
+	ideology = horde_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Arkkoroc"
+	desc = "POLITICS_LORD_ARKKOROC_DESC"
+	picture = "lord_arkkoroc.dds"
+	expire = "1965.1.1"
+	ideology = death_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Arkkoroc"
+	desc = "POLITICS_LORD_ARKKOROC_DESC"
+	picture = "lord_arkkoroc.dds"
+	expire = "1965.1.1"
+	ideology = fel_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Arkkoroc"
+	desc = "POLITICS_LORD_ARKKOROC_DESC"
+	picture = "lord_arkkoroc.dds"
+	expire = "1965.1.1"
+	ideology = old_gods_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Arkkoroc"
+	desc = "POLITICS_LORD_ARKKOROC_DESC"
+	picture = "lord_arkkoroc.dds"
+	expire = "1965.1.1"
+	ideology = titans_type
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Arkkoroc"
+	desc = "POLITICS_LORD_ARKKOROC_DESC"
+	picture = "lord_arkkoroc.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+
+}
+
+create_corps_commander = {
+
+}

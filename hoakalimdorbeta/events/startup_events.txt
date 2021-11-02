@@ -1,0 +1,3990 @@
+﻿add_namespace = HOA_startup
+
+#Event to give each country race opinions and such
+country_event = {
+	id = HOA_startup.1
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { has_idea = ancients_primary_race }
+			every_country = {
+				limit = { has_idea = ancients_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 1 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ancients_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ankoan_primary_race }
+			every_country = {
+				limit = { has_idea = ankoan_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 2 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ankoan_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = arakkoa_primary_race }
+			every_country = {
+				limit = { has_idea = arakkoa_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 3 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = arakkoa_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = black_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = black_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 4 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = black_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = blood_elf_primary_race }
+			every_country = {
+				limit = { has_idea = blood_elf_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 5 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = blood_elf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = blood_troll_primary_race }
+			every_country = {
+				limit = { has_idea = blood_troll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 151 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = blood_troll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = blue_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = blue_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 6 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = blue_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = bog_beasts_primary_race }
+			every_country = {
+				limit = { has_idea = bog_beasts_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 7 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = bog_beasts_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = botani_primary_race }
+			every_country = {
+				limit = { has_idea = botani_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 8 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = botani_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = broken_primary_race }
+			every_country = {
+				limit = { has_idea = broken_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 9 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = broken_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = bronze_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = bronze_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 10 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = bronze_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = centaur_primary_race }
+			every_country = {
+				limit = { has_idea = centaur_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 11 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = centaur_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = chromatic_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = chromatic_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 12 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = chromatic_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = colossus_primary_race }
+			every_country = {
+				limit = { has_idea = colossus_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 13 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = colossus_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = crystal_nymphs_primary_race }
+			every_country = {
+				limit = { has_idea = crystal_nymphs_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 14 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = crystal_nymphs_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = crystal_satyr_primary_race }
+			every_country = {
+				limit = { has_idea = crystal_satyr_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 15 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = crystal_satyr_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = dark_iron_dwarf_primary_race }
+			every_country = {
+				limit = { has_idea = dark_iron_dwarf_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 16 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = dark_iron_dwarf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = dark_troll_primary_race }
+			every_country = {
+				limit = { has_idea = dark_troll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 17 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = dark_troll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = demons_primary_race }
+			every_country = {
+				limit = { has_idea = demons_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 18 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = demons_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = draenei_primary_race }
+			every_country = {
+				limit = { has_idea = draenei_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 19 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = draenei_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = drogbar_primary_race }
+			every_country = {
+				limit = { has_idea = drogbar_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 20 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = drogbar_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = drust_primary_race }
+			every_country = {
+				limit = { has_idea = drust_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 21 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = drust_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = dryads_primary_race }
+			every_country = {
+				limit = { has_idea = dryads_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 22 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = dryads_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = dwarf_primary_race }
+			every_country = {
+				limit = { has_idea = dwarf_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 23 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = dwarf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = earth_elemental_primary_race }
+			every_country = {
+				limit = { has_idea = earth_elemental_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 24 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = earth_elemental_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = earthen_primary_race }
+			every_country = {
+				limit = { has_idea = earthen_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 25 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = earthen_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ethereal_primary_race }
+			every_country = {
+				limit = { has_idea = ethereal_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 26 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ethereal_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ettin_primary_race }
+			every_country = {
+				limit = { has_idea = ettin_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 27 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ettin_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = faceless_one_primary_race }
+			every_country = {
+				limit = { has_idea = faceless_one_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 28 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = faceless_one_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = faerie_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = faerie_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 29 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = faerie_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = fal_dorei_primary_race }
+			every_country = {
+				limit = { has_idea = fal_dorei_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 30 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = fal_dorei_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = fel_orc_primary_race }
+			every_country = {
+				limit = { has_idea = fel_orc_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 31 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = fel_orc_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = fel_blood_elves_primary_race }
+			every_country = {
+				limit = { has_idea = fel_blood_elves_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 32 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = fel_blood_elves_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = felborne_primary_race }
+			every_country = {
+				limit = { has_idea = felborne_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 33 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = felborne_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = fire_elemental_primary_race }
+			every_country = {
+				limit = { has_idea = fire_elemental_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 34 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = fire_elemental_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = aqir_primary_race }
+			every_country = {
+				limit = { has_idea = aqir_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 35 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = aqir_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = twilight_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = twilight_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 36 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = twilight_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = forest_troll_primary_race }
+			every_country = {
+				limit = { has_idea = forest_troll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 153 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = forest_troll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = frost_giant_primary_race }
+			every_country = {
+				limit = { has_idea = frost_giant_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 150 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = frost_giant_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = frost_nymph_primary_race }
+			every_country = {
+				limit = { has_idea = frost_nymph_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 154 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = frost_nymph_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = frost_vrykul_primary_race }
+			every_country = {
+				limit = { has_idea = frost_vrykul_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 37 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = frost_vrykul_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = frostborn_primary_race }
+			every_country = {
+				limit = { has_idea = frostborn_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 38 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = frostborn_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = fungal_giants_primary_race }
+			every_country = {
+				limit = { has_idea = fungal_giants_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 39 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = fungal_giants_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = fungal_monster_primary_race }
+			every_country = {
+				limit = { has_idea = fungal_monster_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 40 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = fungal_monster_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = fungarians_primary_race }
+			every_country = {
+				limit = { has_idea = fungarians_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 41 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = fungarians_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = furbolg_primary_race }
+			every_country = {
+				limit = { has_idea = furbolg_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 42 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = furbolg_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ghost_primary_race }
+			every_country = {
+				limit = { has_idea = ghost_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 43 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ghost_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = gilgoblin_primary_race }
+			every_country = {
+				limit = { has_idea = gilgoblin_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 44 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = gilgoblin_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = gnoll_primary_race }
+			every_country = {
+				limit = { has_idea = gnoll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 45 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = gnoll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = gnome_primary_race }
+			every_country = {
+				limit = { has_idea = gnome_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 46 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = gnome_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = goblin_primary_race }
+			every_country = {
+				limit = { has_idea = goblin_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 47 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = goblin_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = goren_primary_race }
+			every_country = {
+				limit = { has_idea = goren_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 48 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = goren_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = gorilla_primary_race }
+			every_country = {
+				limit = { has_idea = gorilla_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 152 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = gorilla_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = gorlocs_primary_race }
+			every_country = {
+				limit = { has_idea = gorlocs_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 49 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = gorlocs_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = green_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = green_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 50 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = green_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = grell_primary_race }
+			every_country = {
+				limit = { has_idea = grell_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 51 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = grell_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = gronn_primary_race }
+			every_country = {
+				limit = { has_idea = gronn_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 52 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = gronn_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = grummle_primary_race }
+			every_country = {
+				limit = { has_idea = grummle_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 53 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = grummle_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = harpy_primary_race }
+			every_country = {
+				limit = { has_idea = harpy_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 54 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = harpy_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = high_elf_primary_race }
+			every_country = {
+				limit = { has_idea = high_elf_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 55 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = high_elf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = highmountain_tauren_primary_race }
+			every_country = {
+				limit = { has_idea = highmountain_tauren_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 56 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = highmountain_tauren_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = highborne_primary_race }
+			every_country = {
+				limit = { has_idea = highborne_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 57 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = highborne_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = hobgoblin_primary_race }
+			every_country = {
+				limit = { has_idea = hobgoblin_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 58 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = hobgoblin_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = hozen_primary_race }
+			every_country = {
+				limit = { has_idea = hozen_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 59 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = hozen_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = human_primary_race }
+			every_country = {
+				limit = { has_idea = human_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 60 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = human_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ice_giant_primary_race }
+			every_country = {
+				limit = { has_idea = ice_giant_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 61 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ice_giant_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ice_troll_primary_race }
+			every_country = {
+				limit = { has_idea = ice_troll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 62 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ice_troll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = infinite_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = infinite_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 63 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = infinite_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = iron_dwarf_primary_race }
+			every_country = {
+				limit = { has_idea = iron_dwarf_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 64 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = iron_dwarf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = iron_giant_primary_race }
+			every_country = {
+				limit = { has_idea = iron_giant_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 65 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = iron_giant_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = iron_vrykul_primary_race }
+			every_country = {
+				limit = { has_idea = iron_vrykul_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 66 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = iron_vrykul_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = jinyu_primary_race }
+			every_country = {
+				limit = { has_idea = jinyu_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 67 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = jinyu_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = jungle_troll_primary_race }
+			every_country = {
+				limit = { has_idea = jungle_troll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 68 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = jungle_troll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = junker_gnome_primary_race }
+			every_country = {
+				limit = { has_idea = junker_gnome_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 69 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = junker_gnome_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = kobold_primary_race }
+			every_country = {
+				limit = { has_idea = kobold_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 70 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = kobold_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = kvaldir_primary_race }
+			every_country = {
+				limit = { has_idea = kvaldir_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 71 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = kvaldir_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = lashers_primary_race }
+			every_country = {
+				limit = { has_idea = lashers_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 72 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = lashers_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = leper_gnome_primary_race }
+			every_country = {
+				limit = { has_idea = leper_gnome_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 73 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = leper_gnome_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = light_forged_draenei_primary_race }
+			every_country = {
+				limit = { has_idea = light_forged_draenei_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 74 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = light_forged_draenei_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = lobstrok_primary_race }
+			every_country = {
+				limit = { has_idea = lobstrok_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 75 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = lobstrok_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = lost_ones_primary_race }
+			every_country = {
+				limit = { has_idea = lost_ones_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 76 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = lost_ones_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = maghar_orc_primary_race }
+			every_country = {
+				limit = { has_idea = maghar_orc_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 77 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = maghar_orc_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = magnataur_primary_race }
+			every_country = {
+				limit = { has_idea = magnataur_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 78 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = magnataur_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = makrura_primary_race }
+			every_country = {
+				limit = { has_idea = makrura_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 79 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = makrura_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = mana_surge_primary_race }
+			every_country = {
+				limit = { has_idea = mana_surge_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 80 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = mana_surge_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = mantid_primary_race }
+			every_country = {
+				limit = { has_idea = mantid_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 81 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = mantid_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = mecha_gnome_primary_race }
+			every_country = {
+				limit = { has_idea = mecha_gnome_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 82 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = mecha_gnome_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = mist_lurker_primary_race }
+			every_country = {
+				limit = { has_idea = mist_lurker_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 83 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = mist_lurker_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = mogu_primary_race }
+			every_country = {
+				limit = { has_idea = mogu_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 84 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = mogu_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = mok_nathal_primary_race }
+			every_country = {
+				limit = { has_idea = mok_nathal_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 85 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = mok_nathal_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = mountain_giant_primary_race }
+			every_country = {
+				limit = { has_idea = mountain_giant_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 86 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = mountain_giant_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = murloc_primary_race }
+			every_country = {
+				limit = { has_idea = murloc_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 87 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = murloc_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = naga_primary_race }
+			every_country = {
+				limit = { has_idea = naga_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 88 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = naga_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = nerubians_primary_race }
+			every_country = {
+				limit = { has_idea = nerubians_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 89 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = nerubians_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = netherwing_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = netherwing_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 90 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = netherwing_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = night_elf_primary_race }
+			every_country = {
+				limit = { has_idea = night_elf_primary_race  }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 91 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = night_elf_primary_race  } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = nightborne_primary_race }
+			every_country = {
+				limit = { has_idea = nightborne_primary_race  }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 92 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = nightborne_primary_race  } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = nightfallen_primary_race }
+			every_country = {
+				limit = { has_idea = nightfallen_primary_race  }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 93 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = nightfallen_primary_race  } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = nightmare_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = nightmare_dragon_primary_race  }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 94 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = nightmare_dragon_primary_race  } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ogre_primary_race }
+			every_country = {
+				limit = { has_idea = ogre_primary_race  }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 95 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ogre_primary_race  } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = orc_primary_race }
+			every_country = {
+				limit = { has_idea = orc_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 96 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = orc_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = pale_orc_primary_race }
+			every_country = {
+				limit = { has_idea = pale_orc_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 97 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = pale_orc_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = pandaren_primary_race }
+			every_country = {
+				limit = { has_idea = pandaren_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 98 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = pandaren_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = pygmies_primary_race }
+			every_country = {
+				limit = { has_idea = pygmies_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 99 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = pygmies_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = qiraji_primary_race }
+			every_country = {
+				limit = { has_idea = qiraji_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 100 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = qiraji_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = quilboar_primary_race }
+			every_country = {
+				limit = { has_idea = quilboar_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 101 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = quilboar_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ranishu_primary_race }
+			every_country = {
+				limit = { has_idea = ranishu_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 102 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ranishu_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = red_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = red_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 103 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = red_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = rock_flayer_primary_race }
+			every_country = {
+				limit = { has_idea = rock_flayer_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 104 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = rock_flayer_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = saberon_primary_race }
+			every_country = {
+				limit = { has_idea = saberon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 105 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = saberon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sanlayn_primary_race }
+			every_country = {
+				limit = { has_idea = sanlayn_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 106 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sanlayn_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sand_gnome_primary_race }
+			every_country = {
+				limit = { has_idea = sand_gnome_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 107 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sand_gnome_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sand_troll_primary_race }
+			every_country = {
+				limit = { has_idea = sand_troll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 108 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sand_troll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = satyr_primary_race }
+			every_country = {
+				limit = { has_idea = satyr_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 109 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = satyr_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sea_giants_primary_race }
+			every_country = {
+				limit = { has_idea = sea_giants_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 110 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sea_giants_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sethrak_primary_race }
+			every_country = {
+				limit = { has_idea = sethrak_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 111 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sethrak_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sha_primary_race }
+			every_country = {
+				limit = { has_idea = sha_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 112 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sha_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = silithid_primary_race }
+			every_country = {
+				limit = { has_idea = silithid_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 113 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = silithid_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = siren_primary_race }
+			every_country = {
+				limit = { has_idea = siren_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 114 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = siren_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = snobold_primary_race }
+			every_country = {
+				limit = { has_idea = snobold_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 115 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = snobold_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sporeling_primary_race }
+			every_country = {
+				limit = { has_idea = sporeling_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 116 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sporeling_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = sprite_primary_race }
+			every_country = {
+				limit = { has_idea = sprite_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 117 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = sprite_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = stone_giant_primary_race }
+			every_country = {
+				limit = { has_idea = stone_giant_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 118 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = stone_giant_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = stone_trogg_primary_race }
+			every_country = {
+				limit = { has_idea = stone_trogg_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 119 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = stone_trogg_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = storm_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = storm_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 120 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = storm_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = storm_giant_primary_race }
+			every_country = {
+				limit = { has_idea = storm_giant_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 121 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = storm_giant_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = taunka_primary_race }
+			every_country = {
+				limit = { has_idea = taunka_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 122 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = taunka_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = tauren_primary_race }
+			every_country = {
+				limit = { has_idea = tauren_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 123 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = tauren_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = titan_watcher_primary_race }
+			every_country = {
+				limit = { has_idea = titan_watcher_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 124 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = titan_watcher_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = tolvir_primary_race }
+			every_country = {
+				limit = { has_idea = tolvir_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 125 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = tolvir_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = tortollan_primary_race }
+			every_country = {
+				limit = { has_idea = tortollan_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 126 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = tortollan_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = trogg_primary_race }
+			every_country = {
+				limit = { has_idea = trogg_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 127 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = trogg_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = tuskarr_primary_race }
+			every_country = {
+				limit = { has_idea = tuskarr_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 128 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = tuskarr_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = undead_primary_race }
+			every_country = {
+				limit = { has_idea = undead_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 129 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = undead_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = valarjar_primary_race }
+			every_country = {
+				limit = { has_idea = valarjar_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 130 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = valarjar_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = valkyr_primary_race }
+			every_country = {
+				limit = { has_idea = valkyr_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 131 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = valkyr_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = vargul_primary_race }
+			every_country = {
+				limit = { has_idea = vargul_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 132 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = vargul_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = virmen_primary_race }
+			every_country = {
+				limit = { has_idea = virmen_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 133 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = virmen_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = void_elf_primary_race }
+			every_country = {
+				limit = { has_idea = void_elf_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 134 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = void_elf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = void_walker_primary_race }
+			every_country = {
+				limit = { has_idea = void_walker_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 135 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = void_walker_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = vrykul_primary_race }
+			every_country = {
+				limit = { has_idea = vrykul_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 136 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = vrykul_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = vulpera_primary_race }
+			every_country = {
+				limit = { has_idea = vulpera_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 137 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = vulpera_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = water_elemental_primary_race }
+			every_country = {
+				limit = { has_idea = water_elemental_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 138 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = water_elemental_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = wendigo_primary_race }
+			every_country = {
+				limit = { has_idea = wendigo_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 139 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = wendigo_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = wildkin_primary_race }
+			every_country = {
+				limit = { has_idea = wildkin_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 140 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = wildkin_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = wind_elemental_primary_race }
+			every_country = {
+				limit = { has_idea = wind_elemental_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 141 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = wind_elemental_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = withered_primary_race }
+			every_country = {
+				limit = { has_idea = withered_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 142 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = withered_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = wolvar_primary_race }
+			every_country = {
+				limit = { has_idea = wolvar_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 143 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = wolvar_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = worgen_primary_race }
+			every_country = {
+				limit = { has_idea = worgen_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 144 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = worgen_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = wretched_elf_primary_race }
+			every_country = {
+				limit = { has_idea = wretched_elf_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 145 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = wretched_elf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = yaungol_primary_race }
+			every_country = {
+				limit = { has_idea = yaungol_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 146 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = yaungol_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = yeti_primary_race }
+			every_country = {
+				limit = { has_idea = yeti_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 147 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = yeti_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = zandalari_troll_primary_race }
+			every_country = {
+				limit = { has_idea = zandalari_troll_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 148 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = zandalari_troll_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		#Skipping Mixed Races here
+		if = {
+			limit = { has_idea = ogron_primary_race }
+			every_country = {
+				limit = { has_idea = ogron_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 155 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = ogron_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = high_arrakoa_primary_race }
+			every_country = {
+				limit = { has_idea = high_arrakoa_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 156 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = high_arrakoa_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = jade_statue_primary_race }
+			every_country = {
+				limit = { has_idea = jade_statue_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 157 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = jade_statue_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = saurok_primary_race }
+			every_country = {
+				limit = { has_idea = saurok_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 158 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = saurok_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = stone_dragon_primary_race }
+			every_country = {
+				limit = { has_idea = stone_dragon_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 159 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = stone_dragon_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = anubisath_primary_race }
+			every_country = {
+				limit = { has_idea = anubisath_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 160 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = anubisath_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = ancients_primary_race }
+			set_country_flag = opinion_set_race_ancients
+		}
+		if = {
+			limit = { has_idea = ankoan_primary_race }
+			set_country_flag = opinion_set_race_ankoan
+		}
+		if = {
+			limit = { has_idea = arakkoa_primary_race }
+			set_country_flag = opinion_set_race_arakkoa
+		}
+		if = {
+			limit = { has_idea = black_dragon_primary_race }
+			set_country_flag = opinion_set_race_black_dragon
+		}
+		if = {
+			limit = { has_idea = blood_troll_primary_race }
+			set_country_flag = opinion_set_race_blood_troll
+		}
+		if = {
+			limit = { has_idea = blue_dragon_primary_race }
+			set_country_flag = opinion_set_race_blue_dragon
+		}
+		if = {
+			limit = { has_idea = bog_beasts_primary_race }
+			set_country_flag = opinion_set_race_bog_beasts
+		}
+		if = {
+			limit = { has_idea = botani_primary_race }
+			set_country_flag = opinion_set_race_botani
+		}
+		if = {
+			limit = { has_idea = broken_primary_race }
+			set_country_flag = opinion_set_race_broken
+		}
+		if = {
+			limit = { has_idea = bronze_dragon_primary_race }
+			set_country_flag = opinion_set_race_bronze_dragon
+		}
+		if = {
+			limit = { has_idea = centaur_primary_race }
+			set_country_flag = opinion_set_race_centaur
+		}
+		if = {
+			limit = { has_idea = chromatic_dragon_primary_race }
+			set_country_flag = opinion_set_race_chromatic_dragon
+		}
+		if = {
+			limit = { has_idea = colossus_primary_race }
+			set_country_flag = opinion_set_race_colossus
+		}
+		if = {
+			limit = { has_idea = crystal_nymphs_primary_race }
+			set_country_flag = opinion_set_race_crystal_nymphs
+		}
+		if = {
+			limit = { has_idea = crystal_satyr_primary_race }
+			set_country_flag = opinion_set_race_crystal_satyr
+		}
+		if = {
+			limit = { has_idea = dark_iron_dwarf_primary_race }
+			set_country_flag = opinion_set_race_dark_iron_dwarf
+		}
+		if = {
+			limit = { has_idea = dark_troll_primary_race }
+			set_country_flag = opinion_set_race_dark_troll
+		}
+		if = {
+			limit = { has_idea = demons_primary_race }
+			set_country_flag = opinion_set_race_demons
+		}
+		if = {
+			limit = { has_idea = draenei_primary_race }
+			set_country_flag = opinion_set_race_draenei
+		}
+		if = {
+			limit = { has_idea = drogbar_primary_race }
+			set_country_flag = opinion_set_race_drogbar
+		}
+		if = {
+			limit = { has_idea = drust_secondary_race }
+			set_country_flag = opinion_set_race_drust
+		}
+		if = {
+			limit = { has_idea = dryads_primary_race }
+			set_country_flag = opinion_set_race_dryads
+		}
+		if = {
+			limit = { has_idea = dwarf_primary_race }
+			set_country_flag = opinion_set_race_warf
+		}
+		if = {
+			limit = { has_idea = earth_elemental_primary_race }
+			set_country_flag = opinion_set_race_earth_elemental
+		}
+		if = {
+			limit = { has_idea = earthen_primary_race }
+			set_country_flag = opinion_set_race_earthen
+		}
+		if = {
+			limit = { has_idea = ethereal_primary_race }
+			set_country_flag = opinion_set_race_ethereal
+		}
+		if = {
+			limit = { has_idea = ettin_primary_race }
+			set_country_flag = opinion_set_race_ettin
+		}
+		if = {
+			limit = { has_idea = faceless_one_primary_race }
+			set_country_flag = opinion_set_race_faceless_one
+		}
+		if = {
+			limit = { has_idea = faerie_dragon_primary_race }
+			set_country_flag = opinion_set_race_faerie_dragon
+		}
+		if = {
+			limit = { has_idea = fal_dorei_primary_race }
+			set_country_flag = opinion_set_race_fal_dorei
+		}
+		if = {
+			limit = { has_idea = fel_orc_primary_race }
+			set_country_flag = opinion_set_race_fel_orc
+		}
+		if = {
+			limit = { has_idea = fel_blood_elves_primary_race }
+			set_country_flag = opinion_set_race_fel_blood_elves
+		}
+		if = {
+			limit = { has_idea = felborne_primary_race }
+			set_country_flag = opinion_set_race_felborne
+		}
+		if = {
+			limit = { has_idea = fire_elemental_primary_race }
+			set_country_flag = opinion_set_race_fire_elemental
+		}
+		if = {
+			limit = { has_idea = aqir_primary_race }
+			set_country_flag = opinion_set_race_aqir
+		}
+		if = {
+			limit = { has_idea = twilight_dragon_primary_race }
+			set_country_flag = opinion_set_race_twilight_dragon
+		}
+		if = {
+			limit = { has_idea = forest_troll_primary_race }
+			set_country_flag = opinion_set_race_forest_troll
+		}
+		if = {
+			limit = { has_idea = frost_giant_primary_race }
+			set_country_flag = opinion_set_race_frost_giant
+		}
+		if = {
+			limit = { has_idea = frost_nymph_primary_race }
+			set_country_flag = opinion_set_race_frost_nymph
+		}
+		if = {
+			limit = { has_idea = frost_vrykul_secondary_race }
+			set_country_flag = opinion_set_race_frost_vrykul
+		}
+		if = {
+			limit = { has_idea = frostborn_primary_race }
+			set_country_flag = opinion_set_race_frostborn
+		}
+		if = {
+			limit = { has_idea = fungal_giants_primary_race }
+			set_country_flag = opinion_set_race_fungal_giants
+		}
+		if = {
+			limit = { has_idea = fungal_monster_primary_race }
+			set_country_flag = fungal_monster_primary_race
+		}
+		if = {
+			limit = { has_idea = fungarians_primary_race }
+			set_country_flag = opinion_set_race_frost_fungarians
+		}
+		if = {
+			limit = { has_idea = furbolg_primary_race }
+			set_country_flag = opinion_set_race_furbolg
+		}
+		if = {
+			limit = { has_idea = ghost_primary_race }
+			set_country_flag = opinion_set_race_ghost
+		}
+		if = {
+			limit = { has_idea = gilgoblin_primary_race }
+			set_country_flag = opinion_set_race_gilgoblin
+		}
+		if = {
+			limit = { has_idea = gnoll_primary_race }
+			set_country_flag = opinion_set_race_gnoll
+		}
+		if = {
+			limit = { has_idea = gnome_primary_race }
+			set_country_flag = opinion_set_race_gnome
+		}
+		if = {
+			limit = { has_idea = goblin_primary_race }
+			set_country_flag = opinion_set_race_goblin
+		}
+		if = {
+			limit = { has_idea = goren_primary_race }
+			set_country_flag = opinion_set_race_goren
+		}
+		if = {
+			limit = { has_idea = gorilla_primary_race }
+			set_country_flag = opinion_set_race_gorilla
+		}
+		if = {
+			limit = { has_idea = gorlocs_primary_race }
+			set_country_flag = opinion_set_race_gorlocs
+		}
+		if = {
+			limit = { has_idea = green_dragon_primary_race }
+			set_country_flag = opinion_set_race_green_dragon
+		}
+		if = {
+			limit = { has_idea = grell_primary_race }
+			set_country_flag = opinion_set_race_grell
+		}
+		if = {
+			limit = { has_idea = gronn_primary_race }
+			set_country_flag = opinion_set_race_gronn
+		}
+		if = {
+			limit = { has_idea = grummle_primary_race }
+			set_country_flag = opinion_set_race_grummle
+		}
+		if = {
+			limit = { has_idea = harpy_primary_race }
+			set_country_flag = opinion_set_race_harpy
+		}
+		if = {
+			limit = { has_idea = high_elf_primary_race }
+			set_country_flag = opinion_set_race_high_elf
+		}
+		if = {
+			limit = { has_idea = highmountain_tauren_primary_race }
+			set_country_flag = opinion_set_race_highmountain_tauren
+		}
+		if = {
+			limit = { has_idea = highborne_primary_race }
+			set_country_flag = opinion_set_race_highborne
+		}
+		if = {
+			limit = { has_idea = hobgoblin_primary_race }
+			set_country_flag = opinion_set_race_hobgoblin
+		}
+		if = {
+			limit = { has_idea = hozen_primary_race }
+			set_country_flag = opinion_set_race_hozen
+		}
+		if = {
+			limit = { has_idea = human_primary_race }
+			set_country_flag = opinion_set_race_human
+		}
+		if = {
+			limit = { has_idea = ice_giant_primary_race }
+			set_country_flag = opinion_set_race_ice_giant
+		}
+		if = {
+			limit = { has_idea = ice_troll_primary_race }
+			set_country_flag = opinion_set_race_ice_troll
+		}
+		if = {
+			limit = { has_idea = infinite_dragon_primary_race }
+			set_country_flag = opinion_set_race_infinite_dragon
+		}
+		if = {
+			limit = { has_idea = iron_dwarf_primary_race }
+			set_country_flag = opinion_set_race_iron_dwarf
+		}
+		if = {
+			limit = { has_idea = iron_giant_primary_race }
+			set_country_flag = opinion_set_race_iron_giant
+		}
+		if = {
+			limit = { has_idea = iron_vrykul_primary_race }
+			set_country_flag = opinion_set_race_iron_vrykul
+		}
+		if = {
+			limit = { has_idea = jinyu_primary_race }
+			set_country_flag = opinion_set_race_jinyu
+		}
+		if = {
+			limit = { has_idea = jungle_troll_primary_race }
+			set_country_flag = opinion_set_race_jungle_troll
+		}
+		if = {
+			limit = { has_idea = junker_gnome_primary_race }
+			set_country_flag = opinion_set_race_junker_gnome
+		}
+		if = {
+			limit = { has_idea = kobold_primary_race }
+			set_country_flag = opinion_set_race_kobold
+		}
+		if = {
+			limit = { has_idea = kvaldir_primary_race }
+			set_country_flag = opinion_set_race_kvaldir
+		}
+		if = {
+			limit = { has_idea = lashers_primary_race }
+			set_country_flag = opinion_set_race_lashers
+		}
+		if = {
+			limit = { has_idea = leper_gnome_primary_race }
+			set_country_flag = opinion_set_race_leper_gnome
+		}
+		if = {
+			limit = { has_idea = light_forged_draenei_primary_race }
+			set_country_flag = opinion_set_race_light_forged_draenei
+		}
+		if = {
+			limit = { has_idea = lobstrok_primary_race }
+			set_country_flag = opinion_set_race_lobstrok
+		}
+		if = {
+			limit = { has_idea = lost_ones_primary_race }
+			set_country_flag = opinion_set_race_lost_ones
+		}
+		if = {
+			limit = { has_idea = maghar_orc_primary_race }
+			set_country_flag = opinion_set_race_maghar_orc
+		}
+		if = {
+			limit = { has_idea = magnataur_primary_race }
+			set_country_flag = opinion_set_race_magnataur
+		}
+		if = {
+			limit = { has_idea = makrura_primary_race }
+			set_country_flag = opinion_set_race_makrura
+		}
+		if = {
+			limit = { has_idea = mana_surge_primary_race }
+			set_country_flag = opinion_set_race_mana_surge
+		}
+		if = {
+			limit = { has_idea = mantid_primary_race }
+			set_country_flag = opinion_set_race_mantid
+		}
+		if = {
+			limit = { has_idea = mecha_gnome_primary_race }
+			set_country_flag = opinion_set_race_mecha_gnome
+		}
+		if = {
+			limit = { has_idea = mist_lurker_primary_race }
+			set_country_flag = opinion_set_race_mist_lurker
+		}
+		if = {
+			limit = { has_idea = mogu_primary_race }
+			set_country_flag = opinion_set_race_mogu
+		}
+		if = {
+			limit = { has_idea = mok_nathal_primary_race }
+			set_country_flag = opinion_set_race_mok_nathal
+		}
+		if = {
+			limit = { has_idea = mountain_giant_primary_race }
+			set_country_flag = opinion_set_race_mountain_giant
+		}
+		if = {
+			limit = { has_idea = murloc_primary_race }
+			set_country_flag = opinion_set_race_murloc
+		}
+		if = {
+			limit = { has_idea = naga_primary_race }
+			set_country_flag = opinion_set_race_naga
+		}
+		if = {
+			limit = { has_idea = nerubians_primary_race }
+			set_country_flag = opinion_set_race_nerubians
+		}
+		if = {
+			limit = { has_idea = netherwing_dragon_primary_race }
+			set_country_flag = opinion_set_race_netherwing_dragon
+		}
+		if = {
+			limit = { has_idea = night_elf_primary_race }
+			set_country_flag = opinion_set_race_night_elf
+		}
+		if = {
+			limit = { has_idea = nightborne_primary_race }
+			set_country_flag = opinion_set_race_nightborne
+		}
+		if = {
+			limit = { has_idea = nightfallen_primary_race }
+			set_country_flag = opinion_set_race_nightfallen
+		}
+		if = {
+			limit = { has_idea = nightmare_dragon_primary_race }
+			set_country_flag = opinion_set_race_nightmare_dragon
+		}
+		if = {
+			limit = { has_idea = ogre_primary_race }
+			set_country_flag = opinion_set_race_ogre
+		}
+		if = {
+			limit = { has_idea = orc_primary_race }
+			set_country_flag = opinion_set_race_orc
+		}
+		if = {
+			limit = { has_idea = pale_orc_primary_race }
+			set_country_flag = opinion_set_race_pale_orc
+		}
+		if = {
+			limit = { has_idea = pandaren_primary_race }
+			set_country_flag = opinion_set_race_pandaren
+		}
+		if = {
+			limit = { has_idea = pygmies_primary_race }
+			set_country_flag = opinion_set_race_pygmies
+		}
+		if = {
+			limit = { has_idea = quilboar_primary_race }
+			set_country_flag = opinion_set_race_quilboar
+		}
+		if = {
+			limit = { has_idea = ranishu_primary_race }
+			set_country_flag = opinion_set_race_ranishu
+		}
+		if = {
+			limit = { has_idea = red_dragon_primary_race }
+			set_country_flag = opinion_set_race_red_dragon
+		}
+		if = {
+			limit = { has_idea = rock_flayer_primary_race }
+			set_country_flag = opinion_set_race_rock_flayer
+		}
+		if = {
+			limit = { has_idea = saberon_primary_race }
+			set_country_flag = opinion_set_race_saberon
+		}
+		if = {
+			limit = { has_idea = sanlayn_primary_race }
+			set_country_flag = opinion_set_race_sanlayn
+		}
+		if = {
+			limit = { has_idea = sand_gnome_primary_race }
+			set_country_flag = opinion_set_race_sand_gnome
+		}
+		if = {
+			limit = { has_idea = sand_troll_primary_race }
+			set_country_flag = opinion_set_race_sand_troll
+		}
+		if = {
+			limit = { has_idea = satyr_primary_race }
+			set_country_flag = opinion_set_race_satyr
+		}
+		if = {
+			limit = { has_idea = sea_giants_primary_race }
+			set_country_flag = opinion_set_race_sea_giants
+		}
+		if = {
+			limit = { has_idea = sethrak_primary_race }
+			set_country_flag = opinion_set_race_sethrak
+		}
+		if = {
+			limit = { has_idea = sha_primary_race }
+			set_country_flag = opinion_set_race_sha
+		}
+		if = {
+			limit = { has_idea = silithid_primary_race }
+			set_country_flag = opinion_set_race_silithid
+		}
+		if = {
+			limit = { has_idea = siren_primary_race }
+			set_country_flag = opinion_set_race_siren
+		}
+		if = {
+			limit = { has_idea = snobold_primary_race }
+			set_country_flag = opinion_set_race_snobold
+		}
+		if = {
+			limit = { has_idea = sporeling_primary_race }
+			set_country_flag = opinion_set_race_sporeling
+		}
+		if = {
+			limit = { has_idea = sprite_primary_race }
+			set_country_flag = opinion_set_race_sprite
+		}
+		if = {
+			limit = { has_idea = stone_giant_primary_race }
+			set_country_flag = opinion_set_race_stone_giant
+		}
+		if = {
+			limit = { has_idea = stone_trogg_primary_race }
+			set_country_flag = opinion_set_race_stone_trogg
+		}
+		if = {
+			limit = { has_idea = storm_dragon_primary_race }
+			set_country_flag = opinion_set_race_storm_dragon
+		}
+		if = {
+			limit = { has_idea = storm_giant_primary_race }
+			set_country_flag = opinion_set_race_storm_giant
+		}
+		if = {
+			limit = { has_idea = taunka_primary_race }
+			set_country_flag = opinion_set_race_taunka
+		}
+		if = {
+			limit = { has_idea = tauren_primary_race }
+			set_country_flag = opinion_set_race_tauren
+		}
+		if = {
+			limit = { has_idea = titan_watcher_primary_race }
+			set_country_flag = opinion_set_race_titan_watcher
+		}
+		if = {
+			limit = { has_idea = tolvir_primary_race }
+			set_country_flag = opinion_set_race_tolvir
+		}
+		if = {
+			limit = { has_idea = tortollan_primary_race }
+			set_country_flag = opinion_set_race_tortollan
+		}
+		if = {
+			limit = { has_idea = trogg_primary_race }
+			set_country_flag = opinion_set_race_trogg
+		}
+		if = {
+			limit = { has_idea = tuskarr_primary_race }
+			set_country_flag = opinion_set_race_tuskarr
+		}
+		if = {
+			limit = { has_idea = undead_primary_race }
+			set_country_flag = opinion_set_race_undead
+		}
+		if = {
+			limit = { has_idea = valarjar_primary_race }
+			set_country_flag = opinion_set_race_valarjar
+		}
+		if = {
+			limit = { has_idea = valkyr_primary_race }
+			set_country_flag = opinion_set_race_valkyr
+		}
+		if = {
+			limit = { has_idea = vargul_primary_race }
+			set_country_flag = opinion_set_race_vargul
+		}
+		if = {
+			limit = { has_idea = virmen_primary_race }
+			set_country_flag = opinion_set_race_virmen
+		}
+		if = {
+			limit = { has_idea = void_elf_primary_race }
+			set_country_flag = opinion_set_race_void_elf
+		}
+		if = {
+			limit = { has_idea = void_walker_primary_race }
+			set_country_flag = opinion_set_race_void_walker
+		}
+		if = {
+			limit = { has_idea = vrykul_primary_race }
+			set_country_flag = opinion_set_race_vrykul
+		}
+		if = {
+			limit = { has_idea = vulpera_primary_race }
+			set_country_flag = opinion_set_race_vulpera
+		}
+		if = {
+			limit = { has_idea = water_elemental_primary_race }
+			set_country_flag = opinion_set_race_water_elemental
+		}
+		if = {
+			limit = { has_idea = wendigo_primary_race }
+			set_country_flag = opinion_set_race_wendigo
+		}
+		if = {
+			limit = { has_idea = wildkin_primary_race }
+			set_country_flag = opinion_set_race_wildkin
+		}
+		if = {
+			limit = { has_idea = wind_elemental_primary_race }
+			set_country_flag = opinion_set_race_wind_elemental
+		}
+		if = {
+			limit = { has_idea = withered_primary_race }
+			set_country_flag = opinion_set_race_withered
+		}
+		if = {
+			limit = { has_idea = wolvar_primary_race }
+			set_country_flag = opinion_set_race_wolvar
+		}
+		if = {
+			limit = { has_idea = worgen_primary_race }
+			set_country_flag = opinion_set_race_worgen
+		}
+		if = {
+			limit = { has_idea = wretched_elf_primary_race }
+			set_country_flag = opinion_set_race_wretched_elf
+		}
+		if = {
+			limit = { has_idea = yaungol_primary_race }
+			set_country_flag = opinion_set_race_yaungol
+		}
+		if = {
+			limit = { has_idea = yeti_primary_race }
+			set_country_flag = opinion_set_race_yeti
+		}
+		if = {
+			limit = { has_idea = zandalari_troll_primary_race }
+			set_country_flag = opinion_set_race_zandalari_troll
+		}
+		#Skipping Mixed Races idea
+		if = {
+			limit = { has_idea = ogron_primary_race }
+			set_country_flag = opinion_set_race_ogron
+		}
+		if = {
+			limit = { has_idea = high_arrakoa_primary_race }
+			set_country_flag = opinion_set_race_high_arrakoa
+		}
+		if = {
+			limit = { has_idea = jade_statue_primary_race }
+			set_country_flag = opinion_set_race_jade_statue
+		}
+		if = {
+			limit = { has_idea = saurok_primary_race }
+			set_country_flag = opinion_set_race_saurok
+		}
+		if = {
+			limit = { has_idea = stone_dragon_primary_race }
+			set_country_flag = opinion_set_race_stone_dragon
+		}
+		if = {
+			limit = { has_idea = anubisath_primary_race }
+			set_country_flag = opinion_set_race_anubisath
+		}
+	}
+	option = {}
+}
+
+#Change Race Opinion modifier if somehow they change race. Fuck if I know how but just incase cover all the bases.
+country_event = {
+	id = HOA_startup.2
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			AND = {
+				NOT = { has_idea = human_primary_race }
+				has_country_flag = opinion_set_race_human
+			}
+			AND = {
+				NOT = { has_idea = orc_primary_race }
+				has_country_flag = opinion_set_race_orc
+			}
+			AND = {
+				NOT = { has_idea = pale_orc_primary_race }
+				has_country_flag = opinion_set_race_pale_orc
+			}
+			AND = {
+				NOT = { has_idea = dwarf_primary_race }
+				has_country_flag = opinion_set_race_dwarf
+			}
+			AND = {
+				NOT = { has_idea = goblin_primary_race }
+				has_country_flag = opinion_set_race_goblin
+			}
+			AND = {
+				NOT = { has_idea = high_elf_primary_race }
+				has_country_flag = opinion_set_race_high_elf
+			}
+			AND = {
+				NOT = { has_idea = gnome_primary_race }
+				has_country_flag = opinion_set_race_gnome
+			}
+			AND = {
+				NOT = { has_idea = night_elf_primary_race }
+				has_country_flag = opinion_set_race_night_elf
+			}
+			AND = {
+				NOT = { has_country_flag = opinion_set_race_human }
+				NOT = { has_country_flag = opinion_set_race_orc }
+				NOT = { has_country_flag = opinion_set_race_pale_orc }
+				NOT = { has_country_flag = opinion_set_race_dwarf }
+				NOT = { has_country_flag = opinion_set_race_goblin }
+				NOT = { has_country_flag = opinion_set_race_high_elf }
+				NOT = { has_country_flag = opinion_set_race_gnome }
+				NOT = { has_country_flag = opinion_set_race_night_elf }
+			}
+		}
+	}
+
+	immediate = {
+		clr_country_flag = opinion_set_race_human
+		clr_country_flag = opinion_set_race_orc
+		clr_country_flag = opinion_set_race_pale_orc
+		clr_country_flag = opinion_set_race_dwarf
+		clr_country_flag = opinion_set_race_goblin
+		clr_country_flag = opinion_set_race_high_elf
+		clr_country_flag = opinion_set_race_gnome
+		clr_country_flag = opinion_set_race_night_elf
+		every_country = {
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = same_race
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = same_race
+				}
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = different_race
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = human_primary_race }
+			every_country = {
+				limit = {
+					has_idea = human_primary_race
+					ROOT = { has_idea = human_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = human_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = orc_primary_race }
+			every_country = {
+				limit = {
+					has_idea = orc_primary_race
+					ROOT = { has_idea = orc_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = orc_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = pale_orc_primary_race }
+			every_country = {
+				limit = {
+					has_idea = pale_orc_primary_race
+					ROOT = { has_idea = pale_orc_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = pale_orc_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = dwarf_primary_race }
+			every_country = {
+				limit = {
+					has_idea = dwarf_primary_race
+					ROOT = { has_idea = dwarf_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = dwarf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = goblin_primary_race }
+			every_country = {
+				limit = {
+					has_idea = goblin_primary_race
+					ROOT = { has_idea = goblin_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = goblin_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = high_elf_primary_race }
+			every_country = {
+				limit = {
+					has_idea = high_elf_primary_race
+					ROOT = { has_idea = high_elf_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = high_elf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = gnome_primary_race }
+			every_country = {
+				limit = {
+					has_idea = gnome_primary_race
+					ROOT = { has_idea = gnome_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = gnome_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = night_elf_primary_race }
+			every_country = {
+				limit = {
+					has_idea = night_elf_primary_race
+					ROOT = { has_idea = night_elf_primary_race }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+			}
+			every_country = {
+				limit = { NOT = { has_idea = night_elf_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
+			limit = { has_idea = human_primary_race }
+			set_country_flag = opinion_set_race_human
+		}
+		if = {
+			limit = { has_idea = orc_primary_race }
+			set_country_flag = opinion_set_race_orc
+		}
+		if = {
+			limit = { has_idea = pale_orc_primary_race }
+			set_country_flag = opinion_set_race_pale_orc
+		}
+		if = {
+			limit = { has_idea = dwarf_primary_race }
+			set_country_flag = opinion_set_race_dwarf
+		}
+		if = {
+			limit = { has_idea = goblin_primary_race }
+			set_country_flag = opinion_set_race_goblin
+		}
+		if = {
+			limit = { has_idea = high_elf_primary_race }
+			set_country_flag = opinion_set_race_high_elf
+		}
+		if = {
+			limit = { has_idea = gnome_primary_race }
+			set_country_flag = opinion_set_race_gnome
+		}
+		if = {
+			limit = { has_idea = night_elf_primary_race }
+			set_country_flag = opinion_set_race_night_elf
+		}
+	}
+}
+
+#Started Nutural Bonus
+country_event = {
+	id = HOA_startup.5
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_government = neutral
+			}
+			every_country = {
+				limit = {
+					NOT = { has_government = neutral }
+				}
+				add_opinion_modifier = {
+					target = PREV
+					modifier = started_neutual_party
+				}
+				reverse_add_opinion_modifier = {
+					target = PREV
+					modifier = started_neutual_party
+				}
+				PREV = {
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = started_neutual_party
+					}
+				}
+			}
+		}
+	}
+	option = {}
+
+}
+
+#Apply War of Three Hammers Opinion
+country_event = {
+	id = HOA_startup.700
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		IRO = {
+			add_opinion_modifier = {
+				target = AER
+				modifier = kinship_threehammerswar
+			}
+			reverse_add_opinion_modifier = {
+				target = AER
+				modifier = kinship_threehammerswar
+			}
+			add_opinion_modifier = {
+				target = DIC
+				modifier = remnants_threehammerswar
+			}
+			reverse_add_opinion_modifier = {
+				target = DIC
+				modifier = remnants_threehammerswar
+			}
+		}
+		AER = {
+			add_opinion_modifier = {
+				target = DIC
+				modifier = remnants_threehammerswar
+			}
+			reverse_add_opinion_modifier = {
+				target = DIC
+				modifier = remnants_threehammerswar
+			}
+		}
+	}
+	option = {}
+}
+
+#Apply specific opinion modifiers
+country_event = {
+	id = HOA_startup.1000
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		always = yes
+	}
+
+	immediate = {
+		#Maraudon / Centaur
+		MAU = {
+			add_opinion_modifier = {
+				target = MGC
+				modifier = hoa_mother_of_the_centaur
+			}
+			add_opinion_modifier = {
+				target = GLC
+				modifier = hoa_mother_of_the_centaur
+			}
+			add_opinion_modifier = {
+				target = KOL
+				modifier = hoa_mother_of_the_centaur
+			}
+			add_opinion_modifier = {
+				target = GAL
+				modifier = hoa_mother_of_the_centaur
+			}
+			reverse_add_opinion_modifier = {
+				target = MGC
+				modifier = hoa_mother_of_the_centaur
+			}
+			reverse_add_opinion_modifier = {
+				target = GLC
+				modifier = hoa_mother_of_the_centaur
+			}
+			reverse_add_opinion_modifier = {
+				target = KOL
+				modifier = hoa_mother_of_the_centaur
+			}
+			reverse_add_opinion_modifier = {
+				target = GAL
+				modifier = hoa_mother_of_the_centaur
+			}
+		}
+
+		#Gelkis / Magram rivalry
+		GLC = {
+			add_opinion_modifier = {
+				target = MGC
+				modifier = hoa_mortal_enemies
+			}
+			reverse_add_opinion_modifier = {
+				target = MGC
+				modifier = hoa_mortal_enemies
+			}
+		}
+	}
+	option = {}
+}

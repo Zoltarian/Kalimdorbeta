@@ -1,0 +1,36 @@
+
+state={
+	id=939
+	name="STATE_939"
+	resources={
+		wheat=4
+		oil=5
+	}
+
+	history={
+		owner = FAR
+		add_core_of = FAR
+
+		victory_points = {
+			9354 10
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		
+		617.1.1 = {
+			owner = DUC
+			controller = DUC
+			add_core_of = DUC
+		}
+	}
+
+	provinces={
+		8958 9354 9363 9366 9367 9373 9374 9385 9386
+	}
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+}

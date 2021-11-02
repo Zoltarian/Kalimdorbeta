@@ -1,0 +1,25 @@
+
+state={
+	id=942
+	name="STATE_942"
+	resources={
+		oil=10
+	}
+
+	history={
+		owner = FAR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = FAR
+
+	}
+
+	provinces={
+		6827 9430 9435 9438 9443 9445 9450 9457 9459 9461 9466 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+}

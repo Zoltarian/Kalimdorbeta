@@ -1,0 +1,31 @@
+
+state={
+	id=1451
+	name="STATE_1451"
+	resources = {
+		wheat=12
+		mana=5
+		wood=9
+		ores=7
+	}
+
+	history={
+		owner = WNT
+		add_core_of = WNT
+		victory_points = {
+			13090 20
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 6
+			arms_factory = 3
+		}
+	}
+
+	provinces={
+		12639 13090 13096 13105 13107 13113 13114 13115 13123 13124 13130 13144
+	}
+	manpower=81000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_11
+}
