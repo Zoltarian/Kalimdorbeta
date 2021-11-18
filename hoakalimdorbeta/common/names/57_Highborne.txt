@@ -4,17 +4,13 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-#default = {
-#	male = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	female = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	surnames = { }
-#	callsigns = { }
-#}
+SHD = {
+	male = {
+		names = { "Yol'Tithian" "Valdurian" "Valarian" "Tarelvir" "Thera'brin" "Sarvonis" "Sargath" }
+	}
+	female = {
+		names = { "Lestharia" "Siralen" "Sael'hai" "Ralara" "Rhyanda" "Narcissa" "Nielthende" }
+	}
+	surnames = { "Whitespire" "Skyseeker" "Stonewood" "Starcaller" "Skygazer" "Silverstar" "Pansong" "Narassin"}
+	callsigns = { }
+}
