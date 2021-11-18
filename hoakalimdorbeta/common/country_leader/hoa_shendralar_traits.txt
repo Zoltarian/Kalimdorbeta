@@ -1,0 +1,64 @@
+# Some traits made for Shen'dralar
+leader_traits = {
+
+##############################################
+#Advisor Traits
+##############################################
+	#Arcanist Tier 1
+	trained_arcanist_trait = {
+		research_speed_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Arcanist Tier 2
+	skilled_arcanist_trait = {
+		research_speed_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Loremaster
+	loremaster_trait = {
+		political_power_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+##############################################
+#Council Member Traits
+##############################################
+
+	#Skilled Mage
+	trained_mage_trait = {
+		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Armor Enchanted
+	armor_enchanter_trait = {
+		army_defence_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Huntress
+	huntress_trait = {
+		modifier_army_sub_unit_archer_attack_factor = 0.1
+		terrain_penalty_reduction = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
