@@ -1,3 +1,185 @@
+war_measures = {
+  SHD_force_peace_with_GRM_mission = {
+
+    priority = 10
+
+    allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = {
+        any_owned_state = {
+          NOT = {
+            controller = {
+              tag = GRM
+            }
+          }
+        }
+
+        has_full_control_of_state = 1168
+        has_full_control_of_state = 1169
+        has_full_control_of_state = 1171
+      }
+		}
+
+    activation = {
+      always = no
+    }
+
+    days_mission_timeout = 90
+
+    timeout_effect = {
+
+      transfer_state = 1168
+      transfer_state = 1169
+      transfer_state = 1171
+      transfer_state = 1170
+      transfer_state = 1174
+
+      white_peace = GRM
+      diplomatic_relation = {
+        country = GRM
+        relation = non_aggression_pact
+        active = yes
+      }
+    }
+  }
+
+  SHD_hold_lariss_pavillon_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+		available = {
+      NOT = {
+        has_active_mission = SHD_force_peace_with_GRM_mission
+      }
+
+      has_full_control_of_state = 1168
+      has_full_control_of_state = 1169
+      has_full_control_of_state = 1171
+
+      any_owned_state = {
+        NOT = {
+          controller = {
+            tag = GRM
+          }
+        }
+      }
+		}
+
+		visible = {
+      NOT = {
+        owns_state = 1168
+        owns_state = 1169
+        owns_state = 1170
+        owns_state = 1171
+      }
+
+			tag = SHD
+      has_war_with = GRM
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+      activate_mission = SHD_force_peace_with_GRM_mission
+		}
+	}
+
+  SHD_force_peace_with_KAL_mission = {
+
+    priority = 10
+
+    allowed = {
+			tag = SHD
+		}
+
+    available = {
+      NOT = {
+        any_owned_state = {
+          NOT = {
+            controller = {
+              tag = KAL
+            }
+          }
+        }
+
+        has_full_control_of_state = 1148
+        has_full_control_of_state = 2108
+      }
+		}
+
+    activation = {
+      always = no
+    }
+
+    days_mission_timeout = 90
+
+    timeout_effect = {
+
+      transfer_state = 1146
+      transfer_state = 1147
+      transfer_state = 1148
+      transfer_state = 2108
+
+      white_peace = KAL
+      diplomatic_relation = {
+        country = KAL
+        relation = non_aggression_pact
+        active = yes
+      }
+    }
+  }
+
+  SHD_hold_solarsal_decision = {
+
+		allowed = {
+			tag = SHD
+		}
+
+		available = {
+      NOT = {
+        has_active_mission = SHD_force_peace_with_KAL_mission
+      }
+
+      has_full_control_of_state = 1148
+      has_full_control_of_state = 2108
+
+      any_owned_state = {
+        NOT = {
+          controller = {
+            tag = KAL
+          }
+        }
+      }
+		}
+
+		visible = {
+      NOT = {
+        owns_state = 1147
+        owns_state = 1148
+        owns_state = 2108
+      }
+
+			tag = SHD
+      has_war_with = KAL
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+      activate_mission = SHD_force_peace_with_KAL_mission
+		}
+	}
+}
+
 demonic_containment_decisions = {
 
   immolthar_containment_mission = {
@@ -13,7 +195,7 @@ demonic_containment_decisions = {
 		}
 
     activation = {
-      tag = SHD
+      always = no
     }
 
     days_mission_timeout = 365
@@ -43,7 +225,7 @@ demonic_containment_decisions = {
 		days_remove = 30
 		days_re_enable = 45
 
-		cost = 5
+		cost = 25
 
 		complete_effect = {
       #Set flag to prevent taking all decisions at once
@@ -89,7 +271,7 @@ demonic_containment_decisions = {
 		days_remove = 30
 		days_re_enable = 45
 
-		cost = 5
+		cost = 25
 
 		modifier = {
       research_speed_factor = -0.05
@@ -131,7 +313,7 @@ demonic_containment_decisions = {
 		days_remove = 30
 		days_re_enable = 45
 
-		cost = 5
+		cost = 25
 
 		modifier = {
       stability_weekly = -0.001
@@ -173,7 +355,7 @@ demonic_containment_decisions = {
 		days_remove = 30
 		days_re_enable = 45
 
-		cost = 5
+		cost = 25
 
 		modifier = {
       consumer_goods_factor = 0.025
@@ -198,6 +380,160 @@ demonic_containment_decisions = {
 	}
 }
 
+cultists_schemes_decisions = {
+
+  convert_the_prince_decision = {
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      NOT = { has_country_flag = SHD_prince_converted_flag }
+    }
+
+    visible = {
+      NOT = { has_country_flag = SHD_prince_converted_flag }
+    }
+
+
+    fire_only_once = no
+
+    days_remove = 14
+
+    cost = 75
+
+    modifier = {
+      political_power_factor = -0.01
+    }
+
+    remove_effect = {
+      random_list = {
+        40 = {
+          #Fail
+        }
+        60 = {
+          #Win
+          country_event = shendralar.43
+        }
+      }
+    }
+  }
+
+  sabotage_the_prison_decision = {
+
+    allowed = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    days_remove = 14
+
+    cost = 75
+
+    modifier = {
+      recruitable_population_factor = -0.01
+    }
+
+    remove_effect = {
+      add_days_mission_timeout = {
+  			mission = immolthar_containment_mission
+  			days = -30
+  		}
+    }
+  }
+
+  murder_opponents = {
+
+    allowed = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    days_remove = 14
+
+    cost = 75
+
+    remove_effect = {
+      custom_effect_tooltip = necessary_sacrifice_decision_tt
+      #Kill 1/50 of the pop
+      set_temp_variable = { pop_to_kill = manpower }
+      divide_temp_variable = { pop_to_kill = 50 }
+      round_temp_variable = pop_to_kill
+      multiply_temp_variable = { pop_to_kill = -1 }
+      add_manpower = pop_to_kill
+
+      add_popularity = {
+  			ideology = neutral
+  			popularity = -0.025
+  		}
+    }
+  }
+
+  recruit_cultists_decision = {
+
+    allowed = {
+      tag = SHD
+    }
+
+    fire_only_once = no
+
+    days_remove = 14
+
+    cost = 75
+
+    modifier  = {
+      political_power_factor = -0.01
+    }
+
+    remove_effect = {
+      add_popularity = {
+  			ideology = fel
+  			popularity = 0.025
+  		}
+    }
+  }
+
+  liberate_immolthar_decision = {
+
+    allowed = {
+      tag = SHD
+    }
+
+    available = {
+      has_active_mission = immolthar_containment_mission
+
+      custom_trigger_tooltip = {
+        tooltip = SHD_liberate_immolthar_trigger_tt
+        check_variable = { days_mission_timeout@immolthar_containment_mission < 50 }
+      }
+
+      fel > 0.51
+
+    }
+
+    fire_only_once = no
+
+    days_remove = 30
+
+    cost = 100
+
+    remove_effect = {
+      set_country_flag = SHD_has_liberated_immolthar_flag
+
+      set_temp_variable = { days_to_remove = days_mission_timeout@immolthar_containment_mission }
+      multiply_temp_variable = { days_to_remove = -1 }
+
+      add_days_mission_timeout = {
+  			mission = immolthar_containment_mission
+  			days = days_to_remove
+  		}
+    }
+  }
+}
+
 looking_for_solutions_decisions = {
 
   find_a_charged_arcane_crystal_decision = {
@@ -218,7 +554,7 @@ looking_for_solutions_decisions = {
 
     fire_only_once = yes
 
-    days_remove = 14
+    days_remove = 30
 
     cost = 50
 
@@ -251,7 +587,7 @@ looking_for_solutions_decisions = {
 
     fire_only_once = yes
 
-    days_remove = 14
+    days_remove = 30
 
     cost = 50
 
@@ -291,7 +627,7 @@ looking_for_solutions_decisions = {
 
     fire_only_once = yes
 
-    days_remove = 14
+    days_remove = 30
 
     cost = 50
 
@@ -389,7 +725,7 @@ looking_for_solutions_decisions = {
       set_variable = { mana_gathering_enhancer_tier = 0 }
       set_variable = { mana_catalyzer_tier = 0 }
       set_variable = { energy_stabilizer_tier = 0 }
-      set_variable = { discovery_tick = null }
+      set_variable = { discovery_tick = 0 }
     }
   }
 }
@@ -435,11 +771,11 @@ looking_for_solutions_phase_2_decisions = {
           #Loose all insights
           country_event = { id = shendralar.21 }
         }
-        30 = {
+        14 = {
           #Nothing happens
           country_event = { id = shendralar.22 }
         }
-        64 = {
+        80 = {
           #+1 insight
           country_event = { id = shendralar.23 }
         }
@@ -476,6 +812,8 @@ looking_for_solutions_phase_2_decisions = {
 
     fire_only_once = no
 
+    fixed_random_seed = no
+
     days_remove = 30
 
     cost = 50
@@ -487,6 +825,11 @@ looking_for_solutions_phase_2_decisions = {
 
     complete_effect = {
       set_country_flag = SHD_busy_arcanists_flag
+
+      add_to_variable = {
+      	var = insight_amount
+      	value = -5
+      }
     }
 
     remove_effect = {
@@ -502,7 +845,7 @@ looking_for_solutions_phase_2_decisions = {
     					var = imperfect_solution_tier
     					value = 1
     				}
-    				set_variable = { discovery_tick = imperfect_solution_tick }
+    				set_variable = { discovery_tick = 1 }
     			}
     			25 = {
     				#Mana Gathering solution
@@ -519,7 +862,7 @@ looking_for_solutions_phase_2_decisions = {
     					var = mana_gathering_enhancer_tier
     					value = 1
     				}
-    				set_variable = { discovery_tick = mana_gathering_enhancer_tick }
+    				set_variable = { discovery_tick = 2 }
     			}
     			25 = {
     				#Mana Catalyzer solution
@@ -536,7 +879,7 @@ looking_for_solutions_phase_2_decisions = {
     					var = mana_catalyzer_tier
     					value = 1
     				}
-    				set_variable = { discovery_tick = mana_catalyzer_tick }
+    				set_variable = { discovery_tick = 3 }
     			}
     			25 = {
     				#Energy Stablizer solution
@@ -553,7 +896,7 @@ looking_for_solutions_phase_2_decisions = {
     					var = energy_stabilizer_tier
     					value = 1
     				}
-    				set_variable = { discovery_tick = energy_stabilizer_tick }
+    				set_variable = { discovery_tick = 4 }
     			}
     		}
         #Fire the visible event
@@ -577,6 +920,13 @@ looking_for_solutions_phase_2_decisions = {
     available = {
       NOT = { has_country_flag = SHD_busy_arcanists_flag }
 
+      has_active_mission = immolthar_containment_mission
+
+      custom_trigger_tooltip = {
+        tooltip = SHD_solution_time_left_trigger_tt
+        check_variable = { days_mission_timeout@immolthar_containment_mission > 50 }
+      }
+
       check_variable = { imperfect_solution_tier > 0 }
     }
 
@@ -588,7 +938,7 @@ looking_for_solutions_phase_2_decisions = {
 
     fire_only_once = no
 
-    days_remove = 30
+    days_remove = 50
 
     cost = 50
 
@@ -623,6 +973,13 @@ looking_for_solutions_phase_2_decisions = {
     available = {
       NOT = { has_country_flag = SHD_busy_arcanists_flag }
 
+      has_active_mission = immolthar_containment_mission
+
+      custom_trigger_tooltip = {
+        tooltip = SHD_solution_time_left_trigger_tt
+        check_variable = { days_mission_timeout@immolthar_containment_mission > 50 }
+      }
+
       check_variable = { mana_gathering_enhancer_tier > 0 }
     }
 
@@ -634,7 +991,7 @@ looking_for_solutions_phase_2_decisions = {
 
     fire_only_once = no
 
-    days_remove = 30
+    days_remove = 50
 
     cost = 50
 
@@ -687,6 +1044,13 @@ looking_for_solutions_phase_2_decisions = {
     available = {
       NOT = { has_country_flag = SHD_busy_arcanists_flag }
 
+      has_active_mission = immolthar_containment_mission
+
+      custom_trigger_tooltip = {
+        tooltip = SHD_solution_time_left_trigger_tt
+        check_variable = { days_mission_timeout@immolthar_containment_mission > 50 }
+      }
+
       check_variable = { mana_catalyzer_tier > 0 }
     }
 
@@ -698,7 +1062,7 @@ looking_for_solutions_phase_2_decisions = {
 
     fire_only_once = no
 
-    days_remove = 30
+    days_remove = 50
 
     cost = 50
 
@@ -751,6 +1115,13 @@ looking_for_solutions_phase_2_decisions = {
     available = {
       NOT = { has_country_flag = SHD_busy_arcanists_flag }
 
+      has_active_mission = immolthar_containment_mission
+
+      custom_trigger_tooltip = {
+        tooltip = SHD_solution_time_left_trigger_tt
+        check_variable = { days_mission_timeout@immolthar_containment_mission > 50 }
+      }
+
       check_variable = { energy_stabilizer_tier > 0 }
     }
 
@@ -762,7 +1133,7 @@ looking_for_solutions_phase_2_decisions = {
 
     fire_only_once = no
 
-    days_remove = 30
+    days_remove = 50
 
     cost = 50
 
@@ -813,11 +1184,11 @@ looking_for_solutions_phase_2_decisions = {
     }
 
     available = {
-      tag = SHD
+      is_debug = yes
     }
 
     visible = {
-      tag = SHD
+      is_debug = yes
     }
 
     fire_only_once = no
@@ -836,11 +1207,11 @@ looking_for_solutions_phase_2_decisions = {
     }
 
     available = {
-      always = yes
+      is_debug = yes
     }
 
     visible = {
-      tag = SHD
+      is_debug = yes
     }
 
     fire_only_once = no
@@ -931,11 +1302,11 @@ looking_for_solutions_phase_2_decisions = {
     }
 
     available = {
-      tag = SHD
+      is_debug = yes
     }
 
     visible = {
-      tag = SHD
+      is_debug = yes
     }
 
     fire_only_once = no

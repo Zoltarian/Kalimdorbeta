@@ -23,6 +23,31 @@ spriteTypes = {
 ##############################
 
 	SpriteType = {
+		name = "GFX_focus_shendralar_invest_in_the_commons"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_focus_invest_in_the_commons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_shendralar_reclaim_the_temple"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_reclaim_the_temple.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_shendralar_ruined_city"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_focus_ruined_city.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_shendralar_restore_gardens"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_focus_restore_gardens.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_shendralar_highborne_legacy"
+		texturefile = "gfx/interface/focus_tree/shendralar/SHD_focus_highborne_legacy.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_focus_shendralar_dream"
 		texturefile = "gfx/interface/focus_tree/shendralar/SHD_focus_dream_bough.dds"
 	}
@@ -394,6 +419,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_genric_skeletal_warriors"
 		texturefile = "gfx/interface/focus_tree/focus_genric_skeletal_warriors.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_build_tauren_village"
+		texturefile = "gfx/interface/focus_tree/bloofhoof/focus_build_tauren_village.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_evoke_the_barrens"
+		texturefile = "gfx/interface/focus_tree/bloofhoof/focus_evoke_the_barrens.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_evoke_the_mulgore"
+		texturefile = "gfx/interface/focus_tree/bloofhoof/focus_evoke_the_mulgore.dds"
 	}
 
 

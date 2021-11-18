@@ -1,5 +1,5 @@
-spriteTypes = {	
-	
+spriteTypes = {
+
 ##########################################
 #ironforge
 ##########################################
@@ -8,15 +8,34 @@ spriteTypes = {
 		name = "GFX_idea_IRO_brann_bronzebeard"
 		texturefile = "gfx/interface/advisors/Ironforge/Brann_Bronzebeard.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_IRO_grand_mason_marblesten"
 		texturefile = "gfx/interface/advisors/Ironforge/Grand_Mason_Marblesten.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_IRO_high_explorer_magellas"
 		texturefile = "gfx/interface/advisors/Ironforge/High_Explorer_Magellas.dds"
+	}
+
+##########################################
+#highborne
+##########################################
+
+	spriteType = {
+		name = "GFX_idea_SHD_illyanna_ravenoak_advisor"
+		texturefile = "gfx/interface/advisors/highborne/illyanna_ravenoak_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_male_highborne_advisor"
+		texturefile = "gfx/interface/advisors/highborne/generic_male_highborne_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_female_highborne_advisor"
+		texturefile = "gfx/interface/advisors/highborne/generic_female_highborne_advisor.dds"
 	}
 
 }

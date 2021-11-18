@@ -1,5 +1,60 @@
 spriteTypes = {
 
+#####################################################
+#Human equipment
+#####################################################
+
+	#fixes the weird bug where icons wont appear in production view but will in tech view really really dumb
+	#this shouldnt have to exist but fuck me i guess
+
+	SpriteType = {
+		name = "GFX_human_support_equipment_medium"
+		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_militia_equipment_medium"
+		texturefile = "gfx/interface/technologies/militia_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_footman_equipment_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_pikeman_equipment_medium"
+		texturefile = "gfx/interface/technologies/pikeman_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_archer_equipment_medium"
+		texturefile = "gfx/interface/technologies/archer_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_mage_equipment_medium"
+		texturefile = "gfx/interface/technologies/mage_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_mount_equipment_medium"
+		texturefile = "gfx/interface/technologies/human_horse.dds"
+	}
+	SpriteType = {
+		name = "GFX_knight_equipment_medium"
+		texturefile = "gfx/interface/technologies/knight_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_catapult_equipment_medium"
+		texturefile = "gfx/interface/technologies/catapult_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_royal_guard_equipment_medium"
+		texturefile = "gfx/interface/technologies/royal_guard_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_paladin_equipment_medium"
+		texturefile = "gfx/interface/technologies/paladin_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_arch_mage_equipment_medium"
+		texturefile = "gfx/interface/technologies/arch_mage_equipment.dds"
+	}
 
 #####################################################
 #Human administration tech
@@ -1040,7 +1095,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_knight_tech_1_medium"
-		texturefile = "gfx/interface/technologies/knight_tech.dds"
+		texturefile = "gfx/interface/technologies/knight_equipment.dds"
 	}
 
 	SpriteType = {
@@ -1055,7 +1110,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_knight_tech_2_medium"
-		texturefile = "gfx/interface/technologies/knight_tech.dds"
+		texturefile = "gfx/interface/technologies/knight_equipment.dds"
 	}
 
 	SpriteType = {
@@ -1070,7 +1125,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_knight_tech_3_medium"
-		texturefile = "gfx/interface/technologies/knight_tech.dds"
+		texturefile = "gfx/interface/technologies/knight_equipment.dds"
 	}
 
     SpriteType = {
@@ -1291,7 +1346,6 @@ spriteTypes = {
 		name = "GFX_paladin_equipment_tech_3_medium"
 		texturefile = "gfx/interface/technologies/paladin_equipment.dds"
 	}
-
 
 	SpriteType = {
 		name = "GFX_arch_mage_tech_medium"
@@ -4899,8 +4953,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/gnoll_fort.dds"
 	}
 
-
-
 #################################################
 #Gnoll infantry icons
 #################################################
@@ -5211,8 +5263,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/peasant_tools_5.dds"
 	}
 
-
-
 	SpriteType = {
 		name = "GFX_dragon_fortifications_tech_medium"
 		texturefile = "gfx/interface/technologies/walls_1.dds"
@@ -5258,8 +5308,6 @@ spriteTypes = {
 		name = "GFX_dragon_mines_5_medium"
 		texturefile = "gfx/interface/technologies/mines.dds"
 	}
-
-
 
 	SpriteType = {
 		name = "GFX_dragon_lumberyard_tech_medium"
@@ -6082,7 +6130,6 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/jade_tech.dds"
 	}
 
-
 	SpriteType = {
 		name = "GFX_jade_thicker_skin_1_medium"
 		texturefile = "gfx/interface/technologies/jade_skin_tech.dds"
@@ -6128,12 +6175,5 @@ SpriteType = {
 		name = "GFX_jade_combat_tactics_6_medium"
 		texturefile = "gfx/interface/technologies/schwerpunk.dds"
 	}
-
-#####################################################
-#Other old unused/misc icons
-#####################################################
-
-
-
 
 }

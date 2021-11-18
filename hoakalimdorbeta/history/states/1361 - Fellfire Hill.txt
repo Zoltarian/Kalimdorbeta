@@ -16,11 +16,13 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		
+
 		617.1.1 = {
-			
+			owner = TBL
 			controller = TBL
 			add_core_of = TBL
+
+			set_state_name = "Fellfire Hill"
 		}
 	}
 

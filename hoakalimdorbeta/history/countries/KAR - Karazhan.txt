@@ -76,7 +76,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = neutral_type
 	traits = {
-		isolationist
+		isolationist_leader_trait
 	}
 }
 create_country_leader = {
@@ -86,7 +86,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = alliance_type
 	traits = {
-		isolationist
+		isolationist_leader_trait
 	}
 }
 create_country_leader = {

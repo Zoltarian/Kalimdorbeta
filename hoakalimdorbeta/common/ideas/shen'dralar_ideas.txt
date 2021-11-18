@@ -1,7 +1,85 @@
 ideas = {
 
 	advisor = {
+		SHD_lorekeeper_kildrath_advisor = {
 
+			picture = generic_male_highborne_advisor
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			cost = 150
+
+			traits = { trained_arcanist_trait }
+		}
+
+		SHD_lorekeeper_mykos_advisor = {
+
+			picture = generic_female_highborne_advisor
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			cost = 300
+
+			traits = { skilled_arcanist_trait }
+		}
+
+		SHD_lorekeeper_javon_advisor = {
+
+			picture = generic_male_highborne_advisor
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			cost = 150
+
+			traits = { loremaster_trait }
+		}
+	}
+
+	council_member = {
+		SHD_azj_tordins_council_member = {
+
+			picture = generic_male_highborne_advisor
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			cost = 150
+
+			traits = { trained_mage_trait }
+		}
+
+		SHD_farlin_treeshaper_council_member = {
+
+			picture = generic_male_highborne_advisor
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			cost = 150
+
+			traits = { armor_enchanter_trait }
+		}
+
+		SHD_illyanna_ravenoak_council_member = {
+
+			picture = SHD_illyanna_ravenoak_advisor
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			cost = 150
+
+			traits = { huntress_trait }
+		}
 	}
 
 	country = {
@@ -82,7 +160,7 @@ ideas = {
 			}
 		}
 
-		SHD_arcanic_knowledge_idea = {
+		SHD_old_knowledge_idea = {
 
 			picture = generic_religion_arcane
 
@@ -91,20 +169,7 @@ ideas = {
 			}
 
 			modifier = {
-				research_speed_factor = 0.025
-			}
-		}
-
-		SHD_arcanic_knowledge_2_idea = {
-
-			picture = generic_religion_arcane
-
-			allowed = {
-				original_tag = SHD
-			}
-
-			modifier = {
-				research_speed_factor = 0.075
+				research_speed_factor = 0.05
 			}
 		}
 
@@ -125,7 +190,7 @@ ideas = {
 
 		SHD_offensive_spells_idea = {
 
-			picture = GFX_idea_generic_religion_pyromancy
+			picture = generic_religion_pyromancy
 
 			allowed = {
 				original_tag = SHD
@@ -230,6 +295,107 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = -0.1
+			}
+		}
+
+		SHD_highborne_teaching_idea = {
+
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		SHD_kaldorei_training_idea = {
+
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				attrition = -0.05
+				land_night_attack = 0.05
+			}
+		}
+
+		SHD_royal_advisors_idea = {
+
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
+
+		SHD_kingdom_administration_idea = {
+
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				war_stability_factor = 0.05
+				drift_defence_factor = 0.05
+				party_popularity_stability_factor = 0.05
+			}
+		}
+
+		SHD_destroyed_society_idea = {
+
+			picture = anti_soviet_pact
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				stability_factor = -2.5
+				war_support_factor = -2.5
+				research_speed_factor = -2.5
+				political_power_factor = -2.5
+				army_attack_factor = -1
+				army_defence_factor = -1
+				planning_speed = -0.5
+				army_morale_factor = -0.5
+				army_org_factor = -0.5
+				army_org_regain = -0.5
+				attrition = 0.25
+				supply_consumption_factor = 0.25
+				training_time_factor = 1
+				consumer_goods_factor = 1
+				global_building_slots_factor = -1
+			}
+		}
+
+		SHD_the_power_of_immolthar = {
+
+			picture = immolthar
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			modifier = {
+				army_org_Factor = -0.05
+				offence = 0.10
+				recruitable_population_factor = 0.025
+				army_morale_factor = 0.05
+				fel_drift = 0.05
 			}
 		}
 

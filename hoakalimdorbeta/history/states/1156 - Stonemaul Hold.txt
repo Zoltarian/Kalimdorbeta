@@ -20,10 +20,13 @@ state={
 		}
 		add_core_of = FSY
 
+		620.1.1 = {
+			set_state_name = "Stonemaul Hold"
+		}
 	}
 
 	provinces={
-		10882 11382 11397 11407 11412 11417 
+		10882 11382 11397 11407 11412 11417
 	}
 	manpower=14000
 	buildings_max_level_factor=1.000
