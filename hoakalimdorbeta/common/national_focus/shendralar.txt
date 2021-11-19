@@ -1,0 +1,1357 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = shendralar_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SHD
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = {
+		x = 620
+		y = 25
+	}
+
+	shared_focus = arming_the_nation
+	shared_focus = develop_the_country
+
+	focus = {
+		id = SHD_the_ruined_city_nf
+		icon = GFX_focus_shendralar_ruined_city
+		cost = 1
+		x = 22
+		y = 0
+
+		available = {
+			NOT = {
+				AND = {
+					is_ai = yes
+					is_historical_focus_on = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			country_event = shendralar.1
+		}
+	}
+
+	focus = {
+		id = SHD_internal_divisions_nf
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 1
+		prerequisite = {
+			focus = SHD_the_ruined_city_nf
+		}
+		relative_position_id = SHD_the_ruined_city_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_political_power = 25
+			country_event = shendralar.10
+		}
+	}
+
+	focus = {
+		id = SHD_greatest_arcanists_nf
+		icon = GFX_focus_research
+		cost = 1
+		prerequisite = {
+			focus = SHD_internal_divisions_nf
+		}
+		relative_position_id = SHD_internal_divisions_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_political_power = 25
+			country_event = shendralar.11
+			set_country_flag = unlocked_other_branches
+		}
+	}
+
+	focus = {
+		id = SHD_treacherous_neighborhood_nf
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 5
+		prerequisite = {
+			focus = SHD_greatest_arcanists_nf
+		}
+		relative_position_id = SHD_greatest_arcanists_nf
+		x = 0
+		y = 1
+
+		bypass = {
+			has_full_control_of_state = 1158
+			has_full_control_of_state = 1292
+			has_full_control_of_state = 1510
+		}
+
+		completion_reward = {
+			country_event = shendralar.2
+		}
+	}
+
+	focus = {
+		id = SHD_restore_the_gardens_nf
+		icon = GFX_focus_shendralar_restore_gardens
+		cost = 5
+		prerequisite = {
+			focus = SHD_treacherous_neighborhood_nf
+		}
+		relative_position_id = SHD_treacherous_neighborhood_nf
+		x = -2
+		y = 1
+
+		available = {
+			owns_state = 1293
+			has_full_control_of_state = 1293
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.01
+			#Capital Gardens
+			1293 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+				add_resource = {
+					type = wheat
+					amount = 5
+				}
+
+				add_resource = {
+					type = wood
+					amount = 5
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_highborne_legacy_nf
+		icon = GFX_focus_shendralar_highborne_legacy
+		cost = 5
+		prerequisite = {
+			focus = SHD_treacherous_neighborhood_nf
+		}
+		relative_position_id = SHD_treacherous_neighborhood_nf
+		x = 0
+		y = 1
+
+		available = {
+			owns_state = 82
+			owns_state = 1292
+			owns_state = 1293
+			has_full_control_of_state = 82
+			has_full_control_of_state = 1292
+			has_full_control_of_state = 1293
+		}
+
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+
+			country_event = shendralar.6
+
+			set_capital = 82
+			82 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_name = "Eldre'thalas"
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_invest_in_the_commons_nf
+		icon = GFX_focus_shendralar_invest_in_the_commons
+		cost = 5
+		prerequisite = {
+			focus = SHD_treacherous_neighborhood_nf
+		}
+		relative_position_id = SHD_treacherous_neighborhood_nf
+		x = 2
+		y = 1
+
+		available = {
+			owns_state = 82
+			has_full_control_of_state = 82
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.01
+			#Ruins of Eldre'thalas
+			82 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_reclaim_the_temple_nf
+		icon = GFX_focus_shendralar_reclaim_the_temple
+		cost = 5
+		prerequisite = {
+			focus = SHD_highborne_legacy_nf
+		}
+		relative_position_id = SHD_highborne_legacy_nf
+		x = -2
+		y = 1
+
+		available = {
+			NOT = {
+				has_country_flag = SHD_remain_in_isolation_flag
+			}
+		}
+
+		bypass = {
+			has_full_control_of_state = 1159
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			1159 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+					    type = annex_everything
+					    target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_appeasing_the_ghosts_nf
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		prerequisite = {
+			focus = SHD_highborne_legacy_nf
+		}
+		relative_position_id = SHD_highborne_legacy_nf
+		x = 0
+		y = 1
+
+		available = {
+			NOT = {
+				has_country_flag = SHD_remain_in_isolation_flag
+			}
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = DMG
+			}
+		}
+
+		completion_reward = {
+			country_event = shendralar.12
+		}
+	}
+
+	focus = {
+		id = SHD_march_toward_lariss_pavillon_nf
+		icon = GFX_focus_shendralar_reclaim_the_temple
+		cost = 5
+		prerequisite = {
+			focus = SHD_highborne_legacy_nf
+		}
+		relative_position_id = SHD_highborne_legacy_nf
+		x = 2
+		y = 1
+
+		available = {
+			NOT = {
+				has_country_flag = SHD_remain_in_isolation_flag
+			}
+		}
+
+		bypass = {
+			has_full_control_of_state = 1171
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			1171 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_rebuild_isildien_nf
+		icon = GFX_focus_generic_industry_3
+		cost = 5
+		prerequisite = {
+			focus = SHD_reclaim_the_temple_nf
+		}
+		relative_position_id = SHD_reclaim_the_temple_nf
+		x = 0
+		y = 1
+
+		available = {
+			owns_state = 1159
+			owns_state = 1510
+			has_full_control_of_state = 1159
+			has_full_control_of_state = 1510
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			if = {
+				limit = {
+					NOT = { as_tech = church_tech }
+				}
+				set_technology = {
+			    church_tech = 1
+				}
+			}
+			#North Isildien
+			1510 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = state_population #double state pop
+
+				set_state_name = "North Isildien"
+				add_core_of = SHD
+
+				set_state_race_to_primary_race = yes
+				set_state_religion_to_primary_religion = yes
+			}
+			#South Isildien
+			1159 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = church
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = state_population #double state pop
+
+				set_state_name = "South Isildien"
+				add_core_of = SHD
+
+				set_state_race_to_primary_race = yes
+				set_state_religion_to_primary_religion = yes
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_darkmist_village_nf
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = SHD_appeasing_the_ghosts_nf
+		}
+		relative_position_id = SHD_appeasing_the_ghosts_nf
+		x = 0
+		y = 1
+
+		available = {
+			owns_state = 1161
+			has_full_control_of_state = 1161
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			1161 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 5000
+
+				set_state_name = "Darkmist Village"
+
+				add_core_of = SHD
+			}
+
+			if = {
+				limit = {
+					has_country_flag = SHD_attacked_the_ghosts_flag #Player decided to attack the ghosts
+				}
+				custom_effect_tooltip = SHD_attacked_the_ghosts_tt
+			}
+			else_if = {
+				limit = {
+					has_country_flag = SHD_appeased_the_ghosts_flag #Player decided to calm the ghosts
+				}
+				custom_effect_tooltip = SHD_did_not_attack_the_ghosts_tt
+
+				add_stability = 0.05
+				add_political_power = 150
+				1161 = {
+					set_state_race_to_primary_race = yes
+					set_state_religion_to_primary_religion = yes
+				}
+			}
+			else = { #Default before player choose
+				custom_effect_tooltip = SHD_darkmist_village_default_tt
+
+				1161 = {
+					set_state_race_to_primary_race = yes
+					set_state_religion_to_primary_religion = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_lariss_past_glory_nf
+		icon = GFX_focus_generic_industry_3
+		cost = 5
+		prerequisite = {
+			focus = SHD_march_toward_lariss_pavillon_nf
+		}
+		relative_position_id = SHD_march_toward_lariss_pavillon_nf
+		x = 0
+		y = 1
+
+		available = {
+			owns_state = 1171
+			has_full_control_of_state = 1171
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			#Larris Pavillon
+			1171 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arcane_tower
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = state_population #double state pop
+
+				add_core_of = SHD
+
+				set_state_race_to_primary_race = yes
+				set_state_religion_to_primary_religion = yes
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_secure_the_coast_nf
+		icon = GFX_focus_generic_coastal_fort
+		cost = 5
+		prerequisite = {
+			focus = SHD_rebuild_isildien_nf
+			focus = SHD_darkmist_village_nf
+			focus = SHD_lariss_past_glory_nf
+		}
+		relative_position_id = SHD_darkmist_village_nf
+		x = -2
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.025
+			1507 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+					    type = annex_everything
+					    target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_venture_in_the_hills_nf
+		icon = GFX_focus_generic_little_entente
+		cost = 5
+		prerequisite = {
+			focus = SHD_rebuild_isildien_nf
+			focus = SHD_darkmist_village_nf
+			focus = SHD_lariss_past_glory_nf
+		}
+		relative_position_id = SHD_darkmist_village_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.025
+			1163 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+					    type = annex_everything
+					    target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_beyond_the_river_nf
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 5
+		prerequisite = {
+			focus = SHD_rebuild_isildien_nf
+			focus = SHD_darkmist_village_nf
+			focus = SHD_lariss_past_glory_nf
+		}
+		relative_position_id = SHD_darkmist_village_nf
+		x = 2
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.025
+			1167 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_into_the_hive_nf
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		prerequisite = {
+			focus = SHD_venture_in_the_hills_nf
+		}
+		relative_position_id = SHD_venture_in_the_hills_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.025
+			1164 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_the_deal_for_solarsal_nf
+		icon = GFX_focus_faction_kaldorei
+		cost = 5
+		mutually_exclusive = {
+			focus = SHD_reclaiming_solarsal_nf
+		}
+		prerequisite = {
+			focus = SHD_venture_in_the_hills_nf
+		}
+		prerequisite = {
+			focus = SHD_secure_the_coast_nf
+		}
+		prerequisite = {
+			focus = SHD_beyond_the_river_nf
+		}
+		relative_position_id = SHD_venture_in_the_hills_nf
+		x = -1
+		y = 2
+
+		available = {
+			NOT = { has_government = fel }
+			KAL = {
+				owns_state = 1146
+				owns_state = 1147
+				owns_state = 1148
+				owns_state = 2108
+			}
+		}
+
+		bypass = {
+			NOT = {
+				KAL = {
+					OR = {
+						has_full_control_of_state = 1146
+						has_full_control_of_state = 1147
+						has_full_control_of_state = 1148
+						has_full_control_of_state = 2108
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			country_event = shendralar.15
+		}
+	}
+
+	focus = {
+		id = SHD_reclaiming_solarsal_nf
+		icon = GFX_goal_generic_position_armies
+		cost = 5
+		mutually_exclusive = {
+			focus = SHD_the_deal_for_solarsal_nf
+		}
+		prerequisite = {
+			focus = SHD_venture_in_the_hills_nf
+		}
+		prerequisite = {
+			focus = SHD_secure_the_coast_nf
+		}
+		prerequisite = {
+			focus = SHD_beyond_the_river_nf
+		}
+		relative_position_id = SHD_venture_in_the_hills_nf
+		x = 1
+		y = 2
+
+		completion_reward = {
+			add_war_support = 0.025
+			2108 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_rebuilding_solarsal_nf
+		icon = GFX_goal_generic_construction
+		cost = 5
+		prerequisite = {
+			focus = SHD_the_deal_for_solarsal_nf
+			focus = SHD_reclaiming_solarsal_nf
+		}
+		relative_position_id = SHD_into_the_hive_nf
+		x = -1
+		y = 2
+
+		available = {
+			owns_state = 2108
+			has_full_control_of_state = 2108
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			if = {
+				limit = {
+					NOT = { as_tech = naval_facilities }
+				}
+				set_technology = {
+			    naval_facilities = 1
+				}
+			}
+			#Ruins of Solarsal
+			2108 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+			    type = naval_base
+			    level = 1
+			    instant_build = yes
+			    province = 11377
+				}
+				add_manpower = state_population #double state pop
+
+				set_state_name = "Solarsal"
+
+				add_core_of = SHD
+				set_state_race_to_primary_race = yes
+				set_state_religion_to_primary_religion = yes
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_fortify_feathermoon_nf
+		icon = GFX_focus_spa_save_the_alcazar
+		cost = 5
+		prerequisite = {
+			focus = SHD_rebuilding_solarsal_nf
+		}
+		relative_position_id = SHD_rebuilding_solarsal_nf
+		x = -1
+		y = 1
+
+		available = {
+			owns_state = 1148
+			has_full_control_of_state = 1148
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			#Feathermoon Stronghold
+			1148 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+			    type = bunker
+			    level = 1
+			    instant_build = yes
+			    province = 11428
+				}
+				add_building_construction = {
+			    type = bunker
+			    level = 1
+			    instant_build = yes
+			    province = 11431
+				}
+				add_building_construction = {
+			    type = bunker
+			    level = 1
+			    instant_build = yes
+			    province = 11445
+				}
+				add_building_construction = {
+			    type = bunker
+			    level = 1
+			    instant_build = yes
+			    province = 11452
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_sundering_blues_nf
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 5
+		prerequisite = {
+			focus = SHD_the_deal_for_solarsal_nf
+			focus = SHD_reclaiming_solarsal_nf
+		}
+		relative_position_id = SHD_into_the_hive_nf
+		x = 1
+		y = 2
+
+		available = {
+			owns_state = 1147
+			has_full_control_of_state = 1147
+		}
+
+		completion_reward = {
+			add_ideas = SHD_studying_the_ruins_idea
+
+			#Isle of Dread
+			set_province_name = {
+				id = 11352
+				name = "Isle of Dread Research Camp"
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_mithril_mines_nf
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 5
+		prerequisite = {
+			focus = SHD_sundering_blues_nf
+		}
+		relative_position_id = SHD_sundering_blues_nf
+		x = 1
+		y = 1
+
+		available = {
+			owns_state = 1147
+			has_full_control_of_state = 1147
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			if = {
+				limit = {
+					NOT = { as_tech = mines_tech }
+				}
+				set_technology = {
+			    mines_tech = 1
+				}
+			}
+			#Isle of Dread
+			1147 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = iron_mine
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_marching_north_nf
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5
+		prerequisite = {
+			focus = SHD_the_deal_for_solarsal_nf
+			focus = SHD_reclaiming_solarsal_nf
+		}
+		relative_position_id = SHD_into_the_hive_nf
+		x = 0
+		y = 3
+
+		completion_reward = {
+			add_war_support = 0.025
+			1506 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+						}
+					}
+				}
+			}
+			2125 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_towards_ravenwind_nf
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 5
+		prerequisite = {
+			focus = SHD_marching_north_nf
+		}
+		relative_position_id = SHD_marching_north_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.025
+			1151 = {
+				owner = {
+					SHD = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_the_dream_bough_nf
+		icon = GFX_focus_shendralar_dream
+		cost = 5
+		prerequisite = {
+			focus = SHD_marching_north_nf
+		}
+		relative_position_id = SHD_marching_north_nf
+		x = 1
+		y = 1
+
+		available = {
+			is_neighbor_of = GDD
+		}
+
+		bypass = {
+			has_full_control_of_state = 1152
+			GDD = {
+				is_ai = no
+			}
+		}
+
+		completion_reward = {
+			country_event = shendralar.28
+		}
+	}
+
+	focus = {
+		id = SHD_restore_ravenwind_nf
+		icon = GFX_focus_generic_industry_3
+		cost = 5
+		prerequisite = {
+			focus = SHD_towards_ravenwind_nf
+		}
+		relative_position_id = SHD_towards_ravenwind_nf
+		x = 0
+		y = 1
+
+		available = {
+			owns_state = 1151
+			has_full_control_of_state = 1151
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			#Ruins of Ravenwind
+			1151 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+
+				set_state_name = "Ravenwind Village"
+				add_core_of = SHD
+
+				set_state_race_to_primary_race = yes
+				set_state_religion_to_primary_religion = yes
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_dealing_with_the_tree_nf
+		icon = GFX_focus_shendralar_dream_bough_tree
+		cost = 5
+		prerequisite = {
+			focus = SHD_the_dream_bough_nf
+		}
+		relative_position_id = SHD_the_dream_bough_nf
+		x = 0
+		y = 1
+
+		available = {
+			owns_state = 1152
+			has_full_control_of_state = 1152
+		}
+
+		completion_reward = {
+			country_event = shendralar.33
+		}
+	}
+
+	focus = {
+		id = SHD_the_conquest_of_feralas_nf
+		icon = GFX_focus_eng_global_defense
+		cost = 5
+		prerequisite = {
+			focus = SHD_restore_ravenwind_nf
+			focus = SHD_dealing_with_the_tree_nf
+		}
+		relative_position_id = SHD_marching_north_nf
+		x = 0
+		y = 3
+
+		bypass = {
+			#Has full control of all of mainland Feralas (excluding the isles)
+			has_full_control_of_state = 82
+			has_full_control_of_state = 1149
+			has_full_control_of_state = 1150
+			has_full_control_of_state = 1151
+			has_full_control_of_state = 1152
+			has_full_control_of_state = 1153
+			has_full_control_of_state = 1156
+			has_full_control_of_state = 1158
+			has_full_control_of_state = 1159
+			has_full_control_of_state = 1161
+			has_full_control_of_state = 1162
+			has_full_control_of_state = 1163
+			has_full_control_of_state = 1164
+			has_full_control_of_state = 1165
+			has_full_control_of_state = 1166
+			has_full_control_of_state = 1167
+			has_full_control_of_state = 1168
+			has_full_control_of_state = 1169
+			has_full_control_of_state = 1170
+			has_full_control_of_state = 1171
+			has_full_control_of_state = 1172
+			has_full_control_of_state = 1173
+			has_full_control_of_state = 1292
+			has_full_control_of_state = 1293
+			has_full_control_of_state = 1506
+			has_full_control_of_state = 1507
+			has_full_control_of_state = 1508
+			has_full_control_of_state = 1509
+			has_full_control_of_state = 1510
+			has_full_control_of_state = 2125
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			add_war_support = 0.025
+			#Get claim on all of mainland Feralas (excluding the isles)
+			add_state_claim = 82
+			add_state_claim = 1149
+			add_state_claim = 1150
+			add_state_claim = 1151
+			add_state_claim = 1152
+			add_state_claim = 1153
+			add_state_claim = 1156
+			add_state_claim = 1158
+			add_state_claim = 1159
+			add_state_claim = 1161
+			add_state_claim = 1162
+			add_state_claim = 1163
+			add_state_claim = 1164
+			add_state_claim = 1165
+			add_state_claim = 1166
+			add_state_claim = 1167
+			add_state_claim = 1168
+			add_state_claim = 1169
+			add_state_claim = 1170
+			add_state_claim = 1171
+			add_state_claim = 1172
+			add_state_claim = 1173
+			add_state_claim = 1292
+			add_state_claim = 1293
+			add_state_claim = 1506
+			add_state_claim = 1507
+			add_state_claim = 1508
+			add_state_claim = 1509
+			add_state_claim = 1510
+			add_state_claim = 2125
+		}
+
+	}
+
+	focus = {
+		id = SHD_rise_of_a_new_kingdom_nf
+		icon = GFX_focus_generic_home_defense
+		cost = 5
+		prerequisite = {
+			focus = SHD_the_conquest_of_feralas_nf
+		}
+		relative_position_id = SHD_the_conquest_of_feralas_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_political_power = 250
+			set_cosmetic_tag = SHD_KINGDOM
+			add_timed_idea = {
+		    idea = SHD_rise_of_a_new_kingdom_idea
+		    days = 365
+			}
+			add_ideas = SHD_ambitious_expansion_idea
+
+			swap_ideas = {
+		    remove_idea = city_state
+		    add_idea = kingdom
+			}
+
+			set_rule = {
+				can_puppet = yes
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_on_our_own_nf
+		icon = GFX_goal_generic_attack_allies
+		cost = 5
+		prerequisite = {
+			focus = SHD_rise_of_a_new_kingdom_nf
+		}
+		relative_position_id = SHD_rise_of_a_new_kingdom_nf
+		x = 0
+		y = 1
+
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			country_event = shendralar.34
+			add_ideas = shape_our_own_destiny_idea
+		}
+	}
+
+	focus = {
+		id = SHD_joining_the_kaldorei_nf
+		icon = GFX_focus_faction_kaldorei
+		cost = 5
+		mutually_exclusive = {
+			focus = SHD_our_beloved_queen_nf
+		}
+		prerequisite = {
+			focus = SHD_rise_of_a_new_kingdom_nf
+		}
+		relative_position_id = SHD_rise_of_a_new_kingdom_nf
+		x = -1
+		y = 2
+
+		available = {
+			is_puppet = no
+			NOT = { has_completed_focus = SHD_on_our_own_nf }
+
+			KAL = {
+				has_government = SHD
+				is_in_faction = yes
+				is_faction_leader = yes
+			}
+		}
+
+		completion_reward = {
+			KAL = {
+				country_event = shendralar.35
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_our_beloved_queen_nf
+		icon = GFX_focus_shendralar_azshara
+		cost = 5
+		mutually_exclusive = {
+			focus = SHD_joining_the_kaldorei_nf
+		}
+		prerequisite = {
+			focus = SHD_rise_of_a_new_kingdom_nf
+		}
+		relative_position_id = SHD_rise_of_a_new_kingdom_nf
+		x = 1
+		y = 2
+
+		available = {
+			is_puppet = no
+			NOT = { has_completed_focus = SHD_on_our_own_nf }
+
+			OR = {
+				has_government = neutral
+				has_government = AZS
+			}
+
+			AZS = {
+				OR = {
+					has_government = SHD
+					has_government = old_gods
+				}
+				is_in_faction = yes
+				is_faction_leader = yes
+			}
+		}
+
+		completion_reward = {
+			country_event = shendralar.38
+		}
+	}
+
+	focus = {
+		id = SHD_night_elve_highborne_cooperation_nf
+		icon = GFX_goal_generic_military_deal
+		cost = 5
+		prerequisite = {
+			focus = SHD_joining_the_kaldorei_nf
+		}
+		relative_position_id = SHD_joining_the_kaldorei_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			army_experience = 25
+			navy_experience = 25
+			air_experience = 25
+
+			add_ideas = SHD_kaldorei_training_idea
+
+			KAL = {
+				army_experience = 25
+				navy_experience = 25
+				air_experience = 25
+
+				add_ideas = SHD_highborne_teaching_idea
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_royal_advisors_nf
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 5
+		prerequisite = {
+			focus = SHD_our_beloved_queen_nf
+		}
+		relative_position_id = SHD_our_beloved_queen_nf
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_ideas = SHD_royal_advisors_idea
+
+			AZS = {
+				add_ideas = SHD_highborne_teaching_idea
+			}
+
+			if = {
+				limit = {
+					AZS = {
+						has_government = old_gods
+					}
+				}
+				add_popularity = {
+			    ideology = old_gods
+			    popularity = 0.05
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SHD_worthy_army_nf
+		icon = GFX_focus_generic_little_entente
+		cost = 5
+		prerequisite = {
+			focus = SHD_joining_the_kaldorei_nf
+			focus = SHD_on_our_own_nf
+			focus = SHD_our_beloved_queen_nf
+		}
+		relative_position_id = SHD_on_our_own_nf
+		x = 0
+		y = 2
+
+		completion_reward = {
+			add_ideas = worthy_army_idea
+		}
+	}
+
+	focus = {
+		id = SHD_kingdom_administration_nf
+		icon = GFX_focus_generic_treaty
+		cost = 5
+		prerequisite = {
+			focus = SHD_night_elve_highborne_cooperation_nf
+			focus = SHD_worthy_army_nf
+			focus = SHD_royal_advisors_nf
+		}
+		relative_position_id = SHD_worthy_army_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_ideas = SHD_kingdom_administration_idea
+		}
+	}
+
+	focus = {
+		id = SHD_dream_of_an_empire_nf
+		icon = GFX_focus_ger_revive_kaiserreich
+		cost = 5
+		prerequisite = {
+			focus = SHD_kingdom_administration_nf
+		}
+		relative_position_id = SHD_kingdom_administration_nf
+		x = 0
+		y = 1
+
+		available = {
+			num_of_controlled_states > 50
+		}
+
+		completion_reward = {
+			add_political_power = 350
+			set_cosmetic_tag = SHD_EMPIRE
+			#TODO: see design doc
+		}
+	}
+}

@@ -17,11 +17,13 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		
+
 		617.1.1 = {
 			owner = OGR
 			controller = OGR
 			add_core_of = OGR
+
+			set_state_name = "Splintertree Post"
 		}
 	}
 

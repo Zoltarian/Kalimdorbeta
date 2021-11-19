@@ -14,46 +14,42 @@ on_actions = {
 					creator = FROM.FROM
 				}
 			}
+
+			set_unit_leader_flag = generated
 			if = {
-				limit = {
-					is_operative = no
+				limit = { 
+					var:creator = { 
+						original_tag = ARK
+					} 
 				}
-				set_unit_leader_flag = generated
-				if = {
-					limit = { 
-						var:creator = { 
-							original_tag = ARK
-						} 
+				random_list = {
+					20 = { # sea giants
 					}
-					random_list = {
-						20 = { # sea giants
-						}
-						45 = { # murlocs set higher as theres 2 murloc portraits
-							set_unit_leader_to_murloc_ARK = yes
-						}
-						35 = { # makrura
-							set_unit_leader_to_makrura_ARK = yes
-						}
+					45 = { # murlocs set higher as theres 2 murloc portraits
+						set_unit_leader_to_murloc_ARK = yes
+					}
+					35 = { # makrura
+						set_unit_leader_to_makrura_ARK = yes
 					}
 				}
-				else_if = {
-					limit = { 
-						var:creator = { 
-							original_tag = CEN
-							has_idea = ancients_secondary_race
-						} 
-					}
-					random_list = {
-						85 = {
-							# night elf
-						}
-						15 = {
-							set_unit_leader_to_ancient_CEN = yes
-						}
-					}
-				}
-				clr_unit_leader_flag = generated
 			}
+			else_if = {
+				limit = { 
+					var:creator = { 
+						original_tag = CEN
+						has_idea = ancients_secondary_race
+					} 
+				}
+				random_list = {
+					85 = {
+						# night elf
+					}
+					15 = {
+						set_unit_leader_to_ancient_CEN = yes
+					}
+				}
+			}
+			clr_unit_leader_flag = generated
 		}
 	}
 

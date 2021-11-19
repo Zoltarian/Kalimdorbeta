@@ -64,7 +64,8 @@
  STATE_63:1 "Everlook"
  STATE_64:1 "Nordrassil"
  STATE_65:1 "Nighthaven"
- STATE_66:1 "Demon Fall Canyon"
+ #aka Demon Fall Canyon from Classic onward
+ STATE_66:1 "Southern Ashenvale Canyon"
  STATE_67:1 "Timbermaw Hold"
  STATE_68:1 "Shatterspear Vale"
  STATE_69:1 "The Crossroads"
@@ -969,14 +970,17 @@
  STATE_962:1 "Razorfen Downs"
  STATE_963:1 "Razorfen Kraul"
  STATE_964:1 "Blackthorn Ridge"
- STATE_965:1 "Bael Modan"
- #aka Desolation Hold
+ #aka Bael Modan from Classic onward
+ STATE_965:1 "Stonespire Village"
+ #aka Desolation Hold from Cataclysm onward
  STATE_966:1 "W. Field of Giants"
- #aka Fort Triumph
+ #aka Fort Triumph from Cataclysm onward
  STATE_967:1 "E. Field of Giants"
- STATE_968:1 "Camp Taurajo"
+ #aka Camp Taurajo from Classic onward (maybe earlier)
+ STATE_968:1 "Central Southern Barrens"
  STATE_969:1 "Agama'gor"
- STATE_970:1 "The Overgrowth"
+ #aka The Overgrowth from Cataclysm onward
+ STATE_970:1 "The Barrens Ridge"
  STATE_971:1 "Bramblescar"
  STATE_972:1 "W. Razorfen Mountains"
  STATE_973:1 "E. Razorfen Mountains"
@@ -1003,7 +1007,7 @@
  STATE_994:1 "The Stagnant Oasis"
  STATE_995:1 "Rageroar Basecamp"
  STATE_996:1 "The Merchant Coast"
- STATE_997:1 "The Rolling Planes"
+ STATE_997:1 "The Rolling Plains"
  STATE_998:1 "Brambleblade Ravine"
  STATE_999:1 "Bristleback Mine"
  STATE_1000:1 "Red Rocks"
@@ -1161,8 +1165,9 @@
  STATE_1152:0 "Dream Bough"
  STATE_1153:0 "Dreamer's Rest"
  STATE_1154:0 "NW. Feralas Mountains"
- STATE_1155:0 "Dire Mountains"
- STATE_1156:0 "Stonemaul Hold"
+ STATE_1155:0 "N. Feralas Mountains"
+ #aka Stonemaul Hold from Cataclysm onward
+ STATE_1156:0 "Western Feralas"
  STATE_1157:0 "SW. Feralas Mountains"
  STATE_1158:0 "Tower of Estulan"
  STATE_1159:1 "S. Ruins of Isildien"
@@ -1174,12 +1179,15 @@
  STATE_1165:0 "The Steam Pools"
  STATE_1166:0 "Shadebough"
  STATE_1167:0 "Camp Mojache"
- STATE_1168:0 "Woodpaw Camp"
+ #aka Woodpaw Camp from Cataclysm onward (maybe earlier?)
+ STATE_1168:0 "Grimtotem Camp"
  STATE_1169:0 "Grimtotem Compound"
- STATE_1170:0 "Gordunni Outpost"
+ #aka Gordunni Outpost from Classic onward (maybe earlier?)
+ STATE_1170:0 "N. Feralas Hills"
  STATE_1171:1 "Lariss Pavilion"
  STATE_1172:0 "Lower Wilds"
- STATE_1173:0 "Thalanaar"
+ #aka Thalanaar from Classic onward
+ STATE_1173:0 "Forest's Edge"
  STATE_1174:0 " NE. Feralas Mountains"
  STATE_1175:0 "Echo Ridge Mine"
  STATE_1176:0 "SW. Desolace Mountains"
@@ -1364,12 +1372,16 @@
  STATE_1353:0 "Xavian"
  STATE_1354:0 "Forest Song"
  STATE_1355:0 "Bough Shadow"
- STATE_1356:0 "Warsong Lumbercamp"
- STATE_1357:0 "Splintertree Post"
+ #aka Warsong Lumbercamp from Classic onward
+ STATE_1356:0 "Eastern Ashenvale"
+ #aka Splintertree Post from Classic onward
+ STATE_1357:0 "N. Silverwing Wood"
  STATE_1358:0 "Silverwing Outpost"
- STATE_1359:0 "Silverwing Wood"
+ #aka Warsong Labor Camp from Classic onward
+ STATE_1359:0 "S. Silverwing Wood"
  STATE_1360:0 "Dor'Danil Barrow Den"
- STATE_1361:0 "Fellfire Hill"
+ #aka Fellfire Hill from Classic onward
+ STATE_1361:0 "E. Silverwing Wood"
  STATE_1362:0 "S. Ashenvale Mountains"
  STATE_1363:0 "SW. Ashenvale Mountains"
  STATE_1364:0 "NW. Ashenvale Mountains"

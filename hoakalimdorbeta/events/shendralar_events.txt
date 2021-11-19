@@ -80,6 +80,11 @@ country_event = {
 			type = annex_everything
 			target = WSS
 		}
+
+		add_popularity = {
+	    ideology = neutral
+	    popularity = 0.025
+		}
 	}
 
 	# Ask them to join us
@@ -87,7 +92,10 @@ country_event = {
 		name = shendralar.2.option.2
 
 		WSS = {
-			country_event = shendralar.3
+			country_event = {
+				id = shendralar.3
+				days = 1
+			}
 		}
 	}
 }
@@ -108,7 +116,10 @@ country_event = {
 		name = shendralar.3.option.1
 
 		SHD = {
-			country_event = shendralar.4
+			country_event = {
+				id = shendralar.4
+				days = 1
+			}
 		}
 
 		ai_chance = {
@@ -125,7 +136,10 @@ country_event = {
 		name = shendralar.3.option.2
 
 		SHD = {
-			country_event = shendralar.5
+			country_event = {
+				id = shendralar.5
+				days = 1
+			}
 		}
 
 		ai_chance = {
@@ -153,6 +167,11 @@ country_event = {
 	option = {
 		name = shendralar.4.option.1
 
+		add_popularity = {
+	    ideology = fel
+	    popularity = 0.025
+		}
+
 		annex_country = {
 	    target = WSS
 	    transfer_troops = yes
@@ -171,12 +190,14 @@ country_event = {
 
 	fire_only_once = yes
 
+	#Do nothing
 	option = {
 		name = shendralar.5.option.1
 
 		add_political_power = -10
 	}
 
+	#Attack
 	option = {
 		name = shendralar.5.option.2
 
@@ -208,6 +229,9 @@ country_event = {
 			remove_idea = isolation
 			add_idea = early_military_development
 		}
+		add_state_core = 1158
+		add_state_core = 1292
+
 		custom_effect_tooltip = shendralar.6.option.1.d
 	}
 
@@ -218,6 +242,8 @@ country_event = {
 		set_country_flag = SHD_remain_in_isolation_flag
 		add_political_power = 100
 		add_ideas = SHD_remain_isolated_idea
+		add_state_core = 1158
+		add_state_core = 1292
 
 		custom_effect_tooltip = shendralar.6.option.2.d
 	}
@@ -234,9 +260,49 @@ country_event = {
 
 	fire_only_once = yes
 
-	#Conquer path
+	immediate = {
+		hidden_effect = {
+			remove_mission = immolthar_containment_mission
+
+			set_variable = { SHD_looking_for_solution_phase = 0 }
+			clr_country_flag = SHD_demonic_containment_flag
+
+			clr_country_flag = SHD_side_with_cultists_flag
+
+			if = {
+				limit = {
+					has_idea = SHD_prison_of_immolthar_idea
+				}
+				remove_ideas = SHD_prison_of_immolthar_idea
+			}
+			if = {
+				limit = {
+					has_idea = SHD_prison_of_immolthar_2_idea
+				}
+				remove_ideas = SHD_prison_of_immolthar_2_idea
+			}
+		}
+	}
+
+	#Catastrophe...
 	option = {
 		name = shendralar.7.option.1
+
+		country_event = shendralar.44
+	}
+
+	#Cultist take over
+	option = {
+		name = shendralar.7.option.2
+
+		trigger = {
+			OR = {
+				fel > 0.51
+				has_country_flag = SHD_has_liberated_immolthar_flag
+			}
+		}
+
+		country_event = shendralar.45
 	}
 }
 
@@ -270,9 +336,12 @@ country_event = {
 
 	fire_only_once = yes
 
-	#Conquer path
 	option = {
 		name = shendralar.9.option.1
+
+		activate_mission = immolthar_containment_mission
+
+		set_country_flag = SHD_demonic_containment_flag
 
 		custom_effect_tooltip = shendralar.9.option.1.d
 	}
@@ -333,10 +402,7 @@ country_event = {
 	option = {
 		name = shendralar.11.option.1
 
-		swap_ideas = {
-	    remove_idea = SHD_arcanic_knowledge_idea
-	    add_idea = SHD_arcanic_knowledge_2_idea
-		}
+    add_ideas = SHD_old_knowledge_idea
 
 		add_popularity = {
 	    ideology = neutral
@@ -389,7 +455,7 @@ country_event = {
 	}
 }
 
-# Appeasing the ghosts (from SHD_greatest_arcanists_nf)
+# Appeasing the ghosts (from SHD_appeasing_the_ghosts_nf)
 country_event = {
 	id = shendralar.12
 	title = shendralar.12.t
@@ -402,6 +468,8 @@ country_event = {
 	# Declare war on the ghosts
 	option = {
 		name = shendralar.12.option.1
+
+		add_stability = -0.05
 
 		create_wargoal = {
 			type = annex_everything
@@ -483,7 +551,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	fire_only_once = yes
+	fire_only_once = no
 
 	# Declare war on the ghosts
 	option = {
@@ -575,7 +643,7 @@ country_event = {
 
 		annex_country = {
 	    target = DMG
-	    transfer_troops = yes
+	    transfer_troops = no
 		}
 	}
 }
@@ -794,6 +862,13 @@ country_event = {
 			transfer_state = 2108
 		}
 
+		KAL = {
+			remove_state_core = 1146
+			remove_state_core = 1147
+			remove_state_core = 1148
+			remove_state_core = 2108
+		}
+
 		#This is mainly for debug purposes
 		clr_global_flag = SHD_solarsal_deal_1_flag
 		clr_global_flag = SHD_solarsal_deal_2_flag
@@ -873,19 +948,19 @@ country_event = {
 				34 = {
 					set_variable = {
 						var = SHD_book_effect
-						value = administration_bonus
+						value = 1 #administration bonus
 					}
 				}
 				33 = {
 					set_variable = {
 						var = SHD_book_effect
-						value = doctrine_bonus
+						value = 2 #doctrine bonus
 					}
 				}
 				33 = {
 					set_variable = {
 						var = SHD_book_effect
-						value = troops_bonus
+						value = 3 #troops bonus
 					}
 				}
 			}
@@ -911,7 +986,7 @@ country_event = {
 
 		if = {
 			limit = {
-				check_variable = { var_name = administration_bonus }
+				check_variable = { SHD_book_effect = 1 } #administration bonus
 			}
 			random_list = {
 				25 = {
@@ -946,7 +1021,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				check_variable = { var_name = doctrine_bonus }
+				check_variable = { SHD_book_effect = 2 } #doctrine bonus
 			}
 			random_list = {
 				20 = {
@@ -988,7 +1063,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				check_variable = { var_name = troops_bonus }
+				check_variable = { SHD_book_effect = 3 } #troops bonus
 			}
 			random_list = {
 				25 = {
@@ -1209,6 +1284,7 @@ country_event = {
 	id = shendralar.26
 	title = shendralar.26.t
 	desc = shendralar.26.d
+	picture = GFX_eldrethalas_event
 
 	is_triggered_only = yes
 
@@ -1216,6 +1292,13 @@ country_event = {
 
 	option = {
 		name = shendralar.26.option.1
+
+		add_political_power = -100
+
+		remove_mission = immolthar_containment_mission
+		clr_country_flag = SHD_demonic_containment_flag
+
+		set_variable = { SHD_looking_for_solution_phase = 3 }
 	}
 }
 
@@ -1224,6 +1307,7 @@ country_event = {
 	id = shendralar.27
 	title = shendralar.27.t
 	desc = shendralar.27.d
+	picture = GFX_eldrethalas_event
 
 	is_triggered_only = yes
 
@@ -1232,7 +1316,14 @@ country_event = {
 	option = {
 		name = shendralar.27.option.1
 
+		set_variable = { SHD_looking_for_solution_phase = 3 }
+
+		remove_mission = immolthar_containment_mission
+		clr_country_flag = SHD_demonic_containment_flag
+
+		add_political_power = 250
 		add_stability = 0.05
+		add_research_slot = 1
 	}
 }
 
@@ -1251,6 +1342,14 @@ country_event = {
 		name = shendralar.28.option.1
 		custom_effect_tooltip = shendralar.28.option.1.d
 
+		trigger = {
+			OR = {
+				NOT = { has_government = fel }
+				NOT = { has_government = old_gods }
+				NOT = { has_government = death }
+			}
+		}
+
 		GDD = {
 			country_event = shendralar.29
 		}
@@ -1260,6 +1359,14 @@ country_event = {
 	option = {
 		name = shendralar.28.option.2
 		custom_effect_tooltip = shendralar.28.option.2.d
+
+		trigger = {
+			OR = {
+				NOT = { has_government = fel }
+				NOT = { has_government = old_gods }
+				NOT = { has_government = death }
+			}
+		}
 
 		GDD = {
 			country_event = shendralar.30
@@ -1526,5 +1633,401 @@ country_event = {
 		name = shendralar.34.option.3
 
 		create_faction = "League of Eldre'Thalas"
+	}
+
+	option = {
+		name = shendralar.34.option.4
+
+		trigger = {
+			has_government = fel
+		}
+
+		create_faction = "Legion of Immol'thar"
+	}
+}
+
+# Asking Kaldorei to join faction (from SHD_joining_the_kaldorei_nf)
+country_event = {
+	id = shendralar.35
+	title = shendralar.35.t
+	desc = shendralar.35.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#yes
+	option = {
+		name = shendralar.35.option.1
+
+		SHD = {
+			country_event = shendralar.36
+		}
+	}
+
+	#no
+	option = {
+		name = shendralar.35.option.2
+
+		SHD = {
+			country_event = shendralar.37
+		}
+	}
+}
+
+# Kaldorei accepts (from shendralar.35)
+country_event = {
+	id = shendralar.36
+	title = shendralar.36.t
+	desc = shendralar.36.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.36.option.1
+
+		add_stability = 0.025
+		KAL = { add_to_faction = SHD }
+	}
+}
+
+# Kaldorei refuses (from shendralar.35)
+country_event = {
+	id = shendralar.37
+	title = shendralar.37.t
+	desc = shendralar.37.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.37.option.1
+
+		add_stability = -0.025
+	}
+}
+
+# Asking Azshara to join faction (from SHD_our_beloved_queen_nf)
+country_event = {
+	id = shendralar.38
+	title = shendralar.38.t
+	desc = shendralar.38.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#yes
+	option = {
+		name = shendralar.38.option.1
+
+		SHD = {
+			country_event = shendralar.39
+		}
+	}
+
+	#no
+	option = {
+		name = shendralar.38.option.2
+
+		SHD = {
+			country_event = shendralar.40
+		}
+	}
+}
+
+# Azshara accepts (from shendralar.38)
+country_event = {
+	id = shendralar.39
+	title = shendralar.39.t
+	desc = shendralar.39.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.39.option.1
+
+		add_stability = 0.025
+		AZS = { add_to_faction = SHD }
+		if = {
+			limit = {
+				AZS = {
+					has_government = old_gods
+				}
+			}
+			SHD = {
+				add_popularity = {
+			    ideology = old_gods
+			    popularity = 0.75
+				}
+
+				set_politics = {
+					ruling_party = old_gods
+	        elections_allowed = no
+	        last_election = "1935.12.17"
+	        election_frequency = 48
+				}
+			}
+		}
+	}
+}
+
+# Azshara refuses (from shendralar.38)
+country_event = {
+	id = shendralar.40
+	title = shendralar.40.t
+	desc = shendralar.40.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.40.option.1
+
+		add_stability = -0.025
+	}
+}
+
+# Event that start researches (fire 30 days after game start)
+country_event = {
+	id = shendralar.41
+	title = shendralar.41.t
+	desc = shendralar.41.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Yes - neutral choice
+	option = {
+		name = shendralar.41.option.1
+
+		custom_effect_tooltip = shendralar.41.option.1.d
+
+		set_variable = {
+			var = SHD_looking_for_solution_phase
+			value = 1
+		}
+	}
+
+	#No - fel choice
+	option = {
+		name = shendralar.41.option.2
+
+		add_popularity = {
+			ideology = fel
+			popularity = 0.1
+		}
+	}
+}
+
+# Event that allow to unlock cultist decisions (fire 45 days after game start)
+country_event = {
+	id = shendralar.42
+	title = shendralar.42.t
+	desc = shendralar.42.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Punish cultists
+	option = {
+		name = shendralar.42.option.1
+
+		add_stability = 0.05
+
+		add_popularity = {
+			ideology = fel
+			popularity = -0.05
+		}
+
+		add_days_mission_timeout = {
+			mission = immolthar_containment_mission
+			days = -15
+		}
+
+		add_manpower = -100
+	}
+
+	#Do nothing
+	option = {
+		name = shendralar.42.option.2
+
+		add_days_mission_timeout = {
+			mission = immolthar_containment_mission
+			days = -30
+		}
+	}
+
+	#Support cultists
+	option = {
+		name = shendralar.42.option.3
+
+		add_stability = -0.05
+
+		add_popularity = {
+			ideology = fel
+			popularity = 0.05
+		}
+
+		add_days_mission_timeout = {
+			mission = immolthar_containment_mission
+			days = -45
+		}
+
+		set_country_flag = SHD_side_with_cultists_flag
+
+		custom_effect_tooltip = shendralar.42.option.3.d
+	}
+}
+
+# Prince is converted to the cultist cause
+country_event = {
+	id = shendralar.43
+	title = shendralar.43.t
+	desc = shendralar.43.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.43.option.1
+
+		add_popularity = {
+			ideology = fel
+			popularity = 0.05
+		}
+
+		set_country_flag = SHD_prince_converted_flag
+	}
+}
+
+# Shen'dralar society is destroyed, the prince dies
+country_event = {
+	id = shendralar.44
+	title = shendralar.44.t
+	desc = shendralar.44.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = shendralar.44.option.1
+
+		kill_country_leader = yes
+
+		create_country_leader = {
+			name = "Power Vacuum"
+			desc = "POLITICS_POWER_VACUUM_DESC"
+			picture = "shd_power_vacuum.dds"
+			ideology = neutral_type
+			traits = {
+
+			}
+		}
+
+		add_timed_idea = {
+	    idea = SHD_destroyed_society_idea
+	    days = 365
+		}
+	}
+}
+
+# Choice between having the Prince or Immol'thar as leader
+country_event = {
+	id = shendralar.45
+	title = shendralar.45.t
+	desc = shendralar.45.d
+	picture = GFX_eldrethalas_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = primary_religion_arcane_studies
+			add_ideas = primary_religion_demonology
+			add_ideas = secondary_religion_arcane_studies
+
+			82 = {
+				set_state_religion_to_primary_religion = yes
+			}
+			1155 = {
+				set_state_religion_to_primary_religion = yes
+			}
+			1292 = {
+				set_state_religion_to_primary_religion = yes
+			}
+			1293 = {
+				set_state_religion_to_primary_religion = yes
+			}
+		}
+	}
+
+	#Immol'thar takes power
+	option = {
+		name = shendralar.45.option.1
+
+		if = {
+			limit = {
+				has_country_flag = SHD_prince_converted_flag
+			}
+			retire_country_leader = yes
+		}
+		else = {
+			kill_country_leader = yes
+		}
+
+		set_politics = {
+			ruling_party = fel
+	    elections_allowed = no
+	    last_election = "1935.12.17"
+	    election_frequency = 48
+		}
+
+		create_country_leader = {
+			name = "Immol'thar"
+			desc = "POLITICS_IMMOLTHAR_DESC"
+			picture = "immolthar.dds"
+			ideology = fel_type
+			traits = {
+
+			}
+		}
+
+		add_ideas = SHD_the_power_of_immolthar
+		add_ideas = the_burning_crusade_idea
+	}
+
+	#The Prince remains in power
+	option = {
+		name = shendralar.45.option.2
+
+		set_politics = {
+			ruling_party = fel
+	    elections_allowed = no
+	    last_election = "1935.12.17"
+	    election_frequency = 48
+		}
+
+		set_country_leader_portrait = {
+			ideology = fel
+			portrait = "prince_tortheldrin_fel.dds"
+		}
+
+		add_ideas = SHD_the_power_of_immolthar
+		add_ideas = the_burning_crusade_idea
 	}
 }

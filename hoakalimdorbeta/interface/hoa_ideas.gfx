@@ -1,7 +1,43 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_idea_burning_crusade"
+		texturefile = "gfx/interface/ideas/generic_burning_crusade.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_demon_prison"
 		texturefile = "gfx/interface/ideas/generic_demon_prison.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_pirate_ship"
+		texturefile = "gfx/interface/ideas/generic_pirate_ship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_baradin_hold"
+		texturefile = "gfx/interface/ideas/generic_baradin_hold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_immolthar"
+		texturefile = "gfx/interface/ideas/generic_immol'thar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_naga_mymridon"
+		texturefile = "gfx/interface/ideas/generic_naga_mymridon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_naga_royal_guard"
+		texturefile = "gfx/interface/ideas/generic_naga_royal_guard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_queen_azhara"
+		texturefile = "gfx/interface/ideas/generic_queen_azhara.dds"
+	}
+
 }

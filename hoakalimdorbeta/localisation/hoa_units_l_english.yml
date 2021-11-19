@@ -3,18 +3,28 @@
 ########################
 #categorys
 ########################
- category_hoa_army:0 "Ground Units"
- category_hoa_infantry:0 "Infantry Units"
- category_infantry_idea_and_mounted:0 "Infantry & Mounted Infantry Units"
- category_hoa_frontline_units:0 "Frontline Units"
- category_hoa_support_units:0 "Support Units"
- category_hoa_siege_units:0 "Siege Units"
- category_spellcasters:0 "Spellcaster Units"
- category_spellcasters_and_siege:0 "Siege & Spellcaster Units"
-
- category_hoa_all_cavalry:0 "Cavalry Units"
- category_hoa_light_cavalry:0 "Mounted Infantry Units"
- category_hoa_heavy_cavalry:0 "Heavy Cavalry Units"
+ category_army:0 "Ground Units"
+ category_all_combat_units:0 "All Combat Units"
+ category_infantry:0 "Infantry"
+ category_light_infantry:0 "Light Infantry"
+ category_melee:0 "Melee Units"
+ category_ranged:0 "Ranged Units"
+ category_support_units:0 "Support Units"
+ category_recon:0 "Recon Units"
+ category_cavalry:0 "Cavalry"
+ category_light_cavalry:0 "Light Cavalry"
+ category_heavy_cavalry:0 "Heavy Cavalry"
+ category_all_heavy_cavalry:0 "All Heavy Cavalry"
+ category_siege_engines:0 "Siege Engines"
+ category_support_siege_engines:0 "Support Siege Engines"
+ category_special_forces:0 "Special Forces"
+ category_air:0 "Air Units"
+ category_fighter:0 "Fighters"
+ category_cas:0 "Cas"
+ category_bomber:0 "Bombers"
+ category_naval_bomber:0 "Naval Bombers"
+ category_recon_plane:0 "Recon Planes"
+ category_supply_planes:0 "Supply Planes"
 
 ########################
 #Human admin tree

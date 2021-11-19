@@ -2564,6 +2564,87 @@ ideas = {
 ########################################
 #Highborne
 ########################################
+		primary_trait_arcanic_knowledge = {
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			visible = {
+				has_idea = highborne_primary_race
+			}
+
+			available = {
+				has_idea = highborne_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_highborne
+
+			modifier = {
+				research_speed_factor = 0.025
+			}
+		}
+
+		primary_trait_spellcasting_mastery = {
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			visible = {
+				has_idea = highborne_primary_race
+			}
+
+			available = {
+				has_idea = highborne_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_highborne
+
+			modifier = {
+				modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.1
+				modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.1
+			}
+		}
+
+		primary_trait_troubled_past = {
+
+			allowed = {
+				original_tag = SHD
+			}
+
+			visible = {
+				has_idea = highborne_primary_race
+			}
+
+			available = {
+				has_idea = highborne_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_highborne
+
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
 
 ########################################
 #Hobgoblin

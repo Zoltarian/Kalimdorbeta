@@ -1,0 +1,61 @@
+government_decisions = {
+  FAR_end_centipaar_silithid_threat_decision = {
+		icon = generic_civil_support
+
+		days_remove = 30
+		cost = 100
+
+    allowed = {
+			original_tag = FAR
+		}
+
+		visible = {
+			country_exists = CNT
+		}
+
+		available = {
+      has_completed_focus = arming_the_nation
+		}
+
+    highlight_states = {
+			state = 927
+		}
+
+    remove_effect = {
+      declare_war_on = {
+        target = CNT
+        type = annex_everything
+      }
+    }
+	}
+
+  FAR_end_hazzali_silithid_threat_decision = {
+		icon = generic_civil_support
+
+		days_remove = 30
+		cost = 100
+
+    allowed = {
+			original_tag = FAR
+		}
+
+		visible = {
+			country_exists = HAZ
+		}
+
+		available = {
+      has_completed_focus = arming_the_nation
+		}
+
+    highlight_states = {
+			state = 938
+		}
+
+    remove_effect = {
+      declare_war_on = {
+        target = HAZ
+        type = annex_everything
+      }
+    }
+	}
+}

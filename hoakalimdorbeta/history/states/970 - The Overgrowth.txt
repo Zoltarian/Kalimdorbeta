@@ -19,10 +19,14 @@ state={
 		}
 		add_core_of = BRI
 
+		620.1.1 = {
+			set_state_name = "The Overgrowth"
+		}
+
 	}
 
 	provinces={
-		1877 10046 10070 10084 10087 10091 10094 10101 10113 10121 
+		1877 10046 10070 10084 10087 10091 10094 10101 10113 10121
 	}
 	manpower=7000
 	buildings_max_level_factor=1.000

@@ -4477,6 +4477,12 @@ country_event = { #FIRST WAR
 			value = 24
 		}
 	}
+	931 = {
+		set_variable = {
+			var = religion
+			value = 24
+		}
+	}
 
 	##########################
 	#Un'goro
@@ -5492,12 +5498,6 @@ country_event = { #FIRST WAR
 				value = 25
 			}
 		}
-		931 = {
-			set_variable = {
-				var = religion
-				value = 25
-			}
-		}
 		932 = {
 			set_variable = {
 				var = religion
@@ -5571,6 +5571,12 @@ country_event = { #FIRST WAR
 			}
 		}
 		945 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		2127 = {
 			set_variable = {
 				var = religion
 				value = 25

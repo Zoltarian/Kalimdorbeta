@@ -1,0 +1,61 @@
+government_decisions = {
+  RZF_end_field_of_giants_silithid_threat_decision = {
+		icon = generic_civil_support
+
+		days_remove = 30
+		cost = 100
+
+    allowed = {
+			original_tag = RZF
+		}
+
+		visible = {
+			country_exists = FGH
+		}
+
+		available = {
+      has_completed_focus = arming_the_nation
+		}
+
+    highlight_states = {
+			state = 966
+		}
+
+    remove_effect = {
+      declare_war_on = {
+        target = FGH
+        type = annex_everything
+      }
+    }
+	}
+
+  RZF_claim_bael_modan_decision = {
+		icon = GFX_decision_eng_trade_unions_support
+
+		days_remove = 30
+		cost = 50
+
+    allowed = {
+			original_tag = RZF
+		}
+
+		visible = {
+			NOT = { has_full_control_of_state = 965 }
+      SOP = {
+        has_full_control_of_state = 965
+      }
+		}
+
+		available = {
+      has_completed_focus = arming_the_nation
+		}
+
+    highlight_states = {
+			state = 965
+		}
+
+    remove_effect = {
+      add_state_claim = 965
+    }
+	}
+}

@@ -6,14 +6,6 @@ government_decisions = {
 			always = yes
 		}
 
-		available = {
-			has_idea = kingdom
-		}
-
-		visible = {
-			has_idea = kingdom
-		}
-
 		fire_only_once = no
 
 		days_remove = 180
@@ -35,14 +27,6 @@ government_decisions = {
 
 		allowed = {
 			always = yes
-		}
-
-		available = {
-			has_idea = kingdom
-		}
-
-		visible = {
-			has_idea = kingdom
 		}
 
 		fire_only_once = no
@@ -70,14 +54,7 @@ government_decisions = {
 		}
 
 		available = {
-			AND = {
-				has_idea = kingdom
-				has_war = yes
-			}
-		}
-
-		visible = {
-			has_idea = kingdom
+			has_war = yes
 		}
 
 		fire_only_once = no
@@ -95,14 +72,6 @@ government_decisions = {
 
 		allowed = {
 			always = yes
-		}
-
-		available = {
-			has_idea = kingdom
-		}
-
-		visible = {
-			has_idea = kingdom
 		}
 
 		fire_only_once = no
@@ -127,133 +96,5 @@ government_decisions = {
 		}
 
 	}
-
-	council_hold_elections = {
-
-		allowed = {
-			always = yes
-		}
-
-		available = {
-			has_idea = council
-		}
-
-		visible = {
-			has_idea = council
-		}
-
-		fire_only_once = no
-
-		days_re_enable = 360
-
-		cost = 100
-
-		days_remove = 90
-		days_re_enable = 180
-
-		modifier = {
-			stability_weekly = 0.005
-		}
-
-	}
-
-	council_bribe_council_member = {
-
-		allowed = {
-			always = yes
-		}
-
-		available = {
-
-		}
-
-		visible = {
-			has_idea = council
-		}
-
-		fire_only_once = no
-
-		cost = 100
-
-		days_remove = 90
-		days_re_enable = 180
-
-		modifier = {
-			political_power_gain = 1.5
-		}
-
-		complete_effect = {
-			add_stability = -0.05
-		}
-
-	}
-
-	council_hold_diplomatic_council_meeting = {
-
-		allowed = {
-			always = yes
-		}
-
-		available = {
-
-		}
-
-		visible = {
-			has_idea = council
-		}
-
-		fire_only_once = no
-
-		days_re_enable = 360
-
-		cost = 100
-
-		days_remove = 90
-		days_re_enable = 180
-
-		modifier = {
-			political_power_gain = -0.5
-		}
-
-		complete_effect = {
-			country_event = { id = government_council.1 }
-		}
-
-	}
-
-	council_hold_military_council_meeting = {
-
-		allowed = {
-			always = yes
-		}
-
-		available = {
-
-		}
-
-		visible = {
-			has_idea = council
-		}
-
-		fire_only_once = no
-
-		days_re_enable = 360
-
-		cost = 100
-
-		days_remove = 90
-		days_re_enable = 180
-
-		modifier = {
-			political_power_gain = -0.5
-		}
-
-		complete_effect = {
-			add_war_support = 0.05
-			country_event = { id = government_council.2 }
-		}
-
-	}
-
 
 }

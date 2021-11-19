@@ -49,19 +49,30 @@ on_actions = {
 
 			#Starting events
 			SHD = {
+				set_rule = {
+			    can_puppet = no
+				}
+
 				country_event = {
 					id = shendralar.8
 					days = 1
 				}
 
-				set_variable = {
-					var = SHD_finding_book_tick
-					value = 0
+				#Event to start researches
+				country_event = {
+					id = shendralar.41
+					days = 30
+				}
+
+				#Event about cultists
+				country_event = {
+					id = shendralar.42
+					days = 45
 				}
 
 				set_variable = {
-					var = SHD_looking_for_solution_phase
-					value = 1
+					var = SHD_finding_book_tick
+					value = 0
 				}
 			}
 
@@ -130,4 +141,11 @@ on_actions = {
 		}
 	}
 
+	on_monthly = {
+		effect = {
+			SHD = {
+				country_event = shendralar.19
+			}
+		}
+	}
 }
