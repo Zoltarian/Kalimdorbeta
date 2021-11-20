@@ -265,6 +265,7 @@ country_event = {
 			remove_mission = immolthar_containment_mission
 
 			set_variable = { SHD_looking_for_solution_phase = 0 }
+			set_country_flag = SHD_demonic_containment_solved_flag
 			clr_country_flag = SHD_demonic_containment_flag
 
 			clr_country_flag = SHD_side_with_cultists_flag
@@ -340,7 +341,6 @@ country_event = {
 		name = shendralar.9.option.1
 
 		activate_mission = immolthar_containment_mission
-
 		set_country_flag = SHD_demonic_containment_flag
 
 		custom_effect_tooltip = shendralar.9.option.1.d
@@ -899,6 +899,8 @@ country_event = {
 	option = {
 		name = shendralar.18.option.2
 
+		set_country_flag = SHD_attacking_KAL_flag
+
 		create_wargoal = {
 			type = annex_everything
 			target = KAL
@@ -1296,6 +1298,7 @@ country_event = {
 		add_political_power = -100
 
 		remove_mission = immolthar_containment_mission
+		set_country_flag = SHD_demonic_containment_solved_flag
 		clr_country_flag = SHD_demonic_containment_flag
 
 		set_variable = { SHD_looking_for_solution_phase = 3 }
@@ -1319,6 +1322,7 @@ country_event = {
 		set_variable = { SHD_looking_for_solution_phase = 3 }
 
 		remove_mission = immolthar_containment_mission
+		set_country_flag = SHD_demonic_containment_solved_flag
 		clr_country_flag = SHD_demonic_containment_flag
 
 		add_political_power = 250
@@ -1927,6 +1931,10 @@ country_event = {
 
 		kill_country_leader = yes
 
+		every_unit_leader = {
+			remove_unit_leader = yes
+		}
+
 		create_country_leader = {
 			name = "Power Vacuum"
 			desc = "POLITICS_POWER_VACUUM_DESC"
@@ -1934,6 +1942,42 @@ country_event = {
 			ideology = neutral_type
 			traits = {
 
+			}
+		}
+
+		82 = {
+      set_temp_variable = { pop_to_kill = state_population }
+      multiply_temp_variable = { pop_to_kill = -0.95 }
+
+			add_manpower = pop_to_kill
+
+			remove_building = {
+		    type = infrastructure
+		    level = 5
+			}
+		}
+
+		1292 = {
+      set_temp_variable = { pop_to_kill = state_population }
+      multiply_temp_variable = { pop_to_kill = -0.95 }
+
+			add_manpower = pop_to_kill
+
+			remove_building = {
+		    type = infrastructure
+		    level = 5
+			}
+		}
+
+		1293 = {
+      set_temp_variable = { pop_to_kill = state_population }
+      multiply_temp_variable = { pop_to_kill = -0.95 }
+
+			add_manpower = pop_to_kill
+
+			remove_building = {
+		    type = infrastructure
+		    level = 5
 			}
 		}
 

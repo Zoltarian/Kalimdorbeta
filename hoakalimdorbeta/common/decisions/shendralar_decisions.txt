@@ -191,8 +191,8 @@ demonic_containment_decisions = {
 		}
 
     available = {
-			always = no
-		}
+      has_country_flag = SHD_demonic_containment_solved_flag
+    }
 
     activation = {
       always = no
