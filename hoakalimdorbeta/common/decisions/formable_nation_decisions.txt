@@ -17,6 +17,7 @@ formable_category = {
 				tag = SHT
 				tag = TWV
 				tag = TSW
+				tag = THI
 			}
 		}
 
@@ -53,6 +54,12 @@ formable_category = {
 					tag = TSW
 				}
 				set_cosmetic_tag = TSW_EMPIRE
+			}
+			else_if = {
+				limit = {
+					tag = THI
+				}
+				set_cosmetic_tag = THI_EMPIRE
 			}
 		}
 	}
@@ -1702,6 +1709,101 @@ form_kingdom_of_agamaggan_category = {
 			annex_southern_barrens = yes
 
 			set_cosmetic_tag = AGG_KINGDOM
+		}
+	}
+}
+
+form_bloodmyst_kingdom_category = {
+	form_bloodmyst_kingdom = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				tag = AXS
+				tag = NZS
+			}
+		}
+
+		available = {
+			is_subject = no
+
+			if = {
+				limit = { NOT = { tag = AXS } }
+				AXS = {
+					OR = {
+						exists = no
+						is_puppet_of = PREV
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = NZS } }
+				NZS = {
+					OR = {
+						exists = no
+						is_puppet_of = PREV
+					}
+				}
+			}
+
+			control_bloodmyst_directly_or_puppets = yes
+		}
+
+		visible = {
+			OR = {
+				tag = AXS
+				tag = NZS
+			}
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = BLO_KINGDOM
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_bloodmyst = yes
+			core_bloodmyst = yes
+
+			swap_ideas = {
+				remove_idea = clan
+		    add_idea = kingdom
+			}
+
+			set_cosmetic_tag = BLO_KINGDOM
+		}
+	}
+}
+
+form_arkkoran_kingdom_category = {
+	form_arkkoran_kingdom = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = ARK
+		}
+
+		available = {
+			is_subject = no
+
+			control_azshara_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = ARK
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = BLO_KINGDOM
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_azshara = yes
+			core_azshara = yes
+
+			set_cosmetic_tag = ARK_KINGDOM
 		}
 	}
 }

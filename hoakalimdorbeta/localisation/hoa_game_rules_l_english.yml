@@ -13,6 +13,12 @@
   RULE_OPTION_DOOMHAMMER:0 "Doomhammers's Horde"
   RULE_OPTION_DOOMHAMMER_AI_DESC:0 "The Ai will try and put Doomhammer in charge of the Horde, and focus on the war with Stormwind."
 
+  RULE_JOINING_FACTION:0 "Allow Creating / Joining Faction"
+  RULE_OPTION_JOINING_FACTION_DEFAULT_DESC:0 "Nothing will be changed. Everyone will be allowed to join or create factions. Decisions or focus can still affect this."
+  RULE_OPTION_ONLY_PLAYER:0 "Player Only"
+  RULE_OPTION_JOINING_FACTION_PLAYER_ONLY_DESC:0 "Only the player will be allowed to join or create factions. AI can still create or join via decisions, event or focus."
+  RULE_OPTION_JOINING_FACTION_BLOCKED_DESC:0 "No one will be allowed to join or create factions unless via event, decisions or focus."
+
   RULE_GROUP_HOA_RULES:0 "Hearts of Azeroth Game Rules"
   RACE_CONVERSION_AI:0 "Race Conversion for the AI"
   RULE_OPTION_DEFAULT_CONVERTING_RACE_DESC:0 "The AI will convert races in states that don't have their main or accepted races."

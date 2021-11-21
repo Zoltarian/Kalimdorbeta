@@ -9,6 +9,62 @@
 # Kalimdor
 ####################
 
+#Bloodmyst Isle
+annex_bloodmyst = {
+  custom_effect_tooltip = annex_bloodmyst_tt
+  hidden_effect = {
+    set_state_owner = 88
+    set_state_owner = 1545
+    set_state_owner = 1546
+    set_state_owner = 1547
+    set_state_owner = 1548
+    set_state_owner = 1549
+    set_state_owner = 1550
+    set_state_owner = 1551
+    set_state_owner = 1552
+    set_state_owner = 1553
+    set_state_owner = 1554
+    set_state_owner = 1555
+    set_state_owner = 1556
+    set_state_owner = 1557
+    set_state_owner = 1558
+    set_state_owner = 1559
+    set_state_owner = 1560
+    set_state_owner = 1561
+    set_state_owner = 1562
+  }
+}
+
+#Azshara
+annex_azshara = {
+  custom_effect_tooltip = annex_azshara_tt
+  hidden_effect = {
+    set_state_owner = 62
+    set_state_owner = 1370
+    set_state_owner = 1371
+    set_state_owner = 1372
+    set_state_owner = 1373
+    set_state_owner = 1374
+    set_state_owner = 1375
+    set_state_owner = 1376
+    set_state_owner = 1377
+    set_state_owner = 1378
+    set_state_owner = 1379
+    set_state_owner = 1380
+    set_state_owner = 1381
+    set_state_owner = 1382
+    set_state_owner = 1383
+    set_state_owner = 1384
+    set_state_owner = 1385
+    set_state_owner = 1386
+    set_state_owner = 1387
+    set_state_owner = 1388
+    set_state_owner = 1389
+    set_state_owner = 2111
+    set_state_owner = 2112
+  }
+}
+
 #Desolace
 annex_desolace = {
   custom_effect_tooltip = annex_desolace_tt

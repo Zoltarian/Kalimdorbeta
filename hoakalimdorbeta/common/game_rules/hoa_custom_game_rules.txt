@@ -1,3 +1,24 @@
+joining_faction = {
+	name = "RULE_JOINING_FACTION"
+	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	icon = "GFX_take_over_faction_leadership"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_JOINING_FACTION_DEFAULT_DESC"
+	}
+	option = {
+		name = PLAYER_ONLY
+		text = "RULE_OPTION_ONLY_PLAYER"
+		desc = "RULE_OPTION_JOINING_FACTION_PLAYER_ONLY_DESC"
+	}
+	option = {
+		name = BLOCKED
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_OPTION_JOINING_FACTION_BLOCKED_DESC"
+	}
+}
+
 race_conversion_ai = {
 	name = "RACE_CONVERSION_AI"
 	group = "RULE_GROUP_HOA_RULES"
@@ -12,6 +33,7 @@ race_conversion_ai = {
 		desc = "RULE_OPTION_NO_CONVERTING_RACE_DESC"
 	}
 }
+
 religion_conversion_ai = {
 	name = "RELIGION_CONVERSION_AI"
 	group = "RULE_GROUP_HOA_RULES"
@@ -26,6 +48,7 @@ religion_conversion_ai = {
 		desc = "RULE_OPTION_NO_CONVERTING_RELIGION_DESC"
 	}
 }
+
 coring_ai = {
 	name = "CORING_AI"
 	group = "RULE_GROUP_HOA_RULES"
@@ -40,6 +63,7 @@ coring_ai = {
 		desc = "RULE_OPTION_NO_CORING_DESC"
 	}
 }
+
 hoa_allow_achievements = {
 	name = "RULE_ALLOW_HOA_CUSTOM_ACHIEVEMENTS"
 	group = "RULE_GROUP_HOA_RULES"

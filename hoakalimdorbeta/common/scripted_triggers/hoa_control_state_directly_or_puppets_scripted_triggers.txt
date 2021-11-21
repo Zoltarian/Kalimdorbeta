@@ -22,6 +22,62 @@ owned_and_controlled_by_ROOT_or_puppets = {
 # Kalimdor
 ####################
 
+#Bloodmyst Isle
+control_bloodmyst_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_bloodmyst_directly_or_puppets_tt
+    88 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1545 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1546 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1547 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1548 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1549 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1550 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1551 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1552 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1553 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1554 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1555 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1556 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1557 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1558 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1559 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1560 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1561 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1562 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Azshara
+control_azshara_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_azshara_directly_or_puppets_tt
+    62 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1370 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1371 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1372 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1373 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1374 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1375 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1376 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1377 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1378 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1379 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1380 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1381 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1382 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1383 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1384 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1385 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1386 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1387 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1388 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1389 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2111 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2112 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
 #Desolace
 control_desolace_directly_or_puppets = {
   custom_trigger_tooltip = {

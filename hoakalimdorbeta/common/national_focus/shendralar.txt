@@ -338,7 +338,7 @@ focus_tree = {
 			add_political_power = 25
 			if = {
 				limit = {
-					NOT = { as_tech = church_tech }
+					NOT = { has_tech = church_tech }
 				}
 				set_technology = {
 			    church_tech = 1
@@ -708,7 +708,7 @@ focus_tree = {
 			add_political_power = 50
 			if = {
 				limit = {
-					NOT = { as_tech = naval_facilities }
+					NOT = { has_tech = naval_facilities }
 				}
 				set_technology = {
 			    naval_facilities = 1
@@ -854,7 +854,7 @@ focus_tree = {
 			add_political_power = 25
 			if = {
 				limit = {
-					NOT = { as_tech = mines_tech }
+					NOT = { has_tech = mines_tech }
 				}
 				set_technology = {
 			    mines_tech = 1
