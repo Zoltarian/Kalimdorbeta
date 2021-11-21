@@ -208,6 +208,62 @@ core_kezan = {
 # Kalimdor
 ####################
 
+#Core Bloodmyst Isle
+core_bloodmyst = {
+  custom_effect_tooltip = core_bloodmyst_tt
+  hidden_effect = {
+    88 = { add_core_of = ROOT }
+    1545 = { add_core_of = ROOT }
+    1546 = { add_core_of = ROOT }
+    1547 = { add_core_of = ROOT }
+    1548 = { add_core_of = ROOT }
+    1549 = { add_core_of = ROOT }
+    1550 = { add_core_of = ROOT }
+    1551 = { add_core_of = ROOT }
+    1552 = { add_core_of = ROOT }
+    1553 = { add_core_of = ROOT }
+    1554 = { add_core_of = ROOT }
+    1555 = { add_core_of = ROOT }
+    1556 = { add_core_of = ROOT }
+    1557 = { add_core_of = ROOT }
+    1558 = { add_core_of = ROOT }
+    1559 = { add_core_of = ROOT }
+    1560 = { add_core_of = ROOT }
+    1561 = { add_core_of = ROOT }
+    1562 = { add_core_of = ROOT }
+  }
+}
+
+#Core Azshara
+core_azshara = {
+  custom_effect_tooltip = core_azshara_tt
+  hidden_effect = {
+    62 = { add_core_of = ROOT }
+    1370 = { add_core_of = ROOT }
+    1371 = { add_core_of = ROOT }
+    1372 = { add_core_of = ROOT }
+    1373 = { add_core_of = ROOT }
+    1374 = { add_core_of = ROOT }
+    1375 = { add_core_of = ROOT }
+    1376 = { add_core_of = ROOT }
+    1377 = { add_core_of = ROOT }
+    1378 = { add_core_of = ROOT }
+    1379 = { add_core_of = ROOT }
+    1380 = { add_core_of = ROOT }
+    1381 = { add_core_of = ROOT }
+    1382 = { add_core_of = ROOT }
+    1383 = { add_core_of = ROOT }
+    1384 = { add_core_of = ROOT }
+    1385 = { add_core_of = ROOT }
+    1386 = { add_core_of = ROOT }
+    1387 = { add_core_of = ROOT }
+    1388 = { add_core_of = ROOT }
+    1389 = { add_core_of = ROOT }
+    2111 = { add_core_of = ROOT }
+    2112 = { add_core_of = ROOT }
+  }
+}
+
 #Core Mulgore
 core_mulgore = {
   custom_effect_tooltip = core_mulgore_tt

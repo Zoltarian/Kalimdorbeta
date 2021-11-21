@@ -338,7 +338,7 @@ focus_tree = {
 			add_political_power = 25
 			if = {
 				limit = {
-					NOT = { as_tech = church_tech }
+					NOT = { has_tech = church_tech }
 				}
 				set_technology = {
 			    church_tech = 1
@@ -672,6 +672,7 @@ focus_tree = {
 		y = 2
 
 		completion_reward = {
+			set_country_flag = SHD_attacking_KAL_flag
 			add_war_support = 0.025
 			2108 = {
 				owner = {
@@ -707,7 +708,7 @@ focus_tree = {
 			add_political_power = 50
 			if = {
 				limit = {
-					NOT = { as_tech = naval_facilities }
+					NOT = { has_tech = naval_facilities }
 				}
 				set_technology = {
 			    naval_facilities = 1
@@ -853,7 +854,7 @@ focus_tree = {
 			add_political_power = 25
 			if = {
 				limit = {
-					NOT = { as_tech = mines_tech }
+					NOT = { has_tech = mines_tech }
 				}
 				set_technology = {
 			    mines_tech = 1
@@ -1159,6 +1160,9 @@ focus_tree = {
 
 		available = {
 			is_puppet = no
+
+			NOT = { has_completed_focus = SHD_joining_the_kaldorei_nf }
+			NOT = { has_completed_focus = SHD_our_beloved_queen_nf }
 		}
 
 		completion_reward = {
@@ -1184,6 +1188,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			NOT = { has_completed_focus = SHD_on_our_own_nf }
+			NOT = { has_country_flag = SHD_attacking_KAL_flag }
 
 			KAL = {
 				has_government = SHD

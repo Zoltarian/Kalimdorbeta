@@ -1,6 +1,48 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			#Fix missing techs
+			if = {
+				limit = {
+					OR = {
+						has_tech = lumber_mill_tech
+						has_tech = orc_lumber_mill_tech
+					}
+				}
+				set_technology = {
+			  	lumber_mill_tech_global = 1
+				}
+			}
+
+			#Faction gamerule setup
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = joining_faction
+						option = PLAYER_ONLY
+					}
+				}
+				every_country = {
+					limit = {
+						is_ai = yes
+					}
+					set_rule = { can_create_factions = no }
+					set_rule = { can_join_factions = no }
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = joining_faction
+						option = BLOCKED
+					}
+				}
+				every_country = {
+					set_rule = { can_create_factions = no }
+					set_rule = { can_join_factions = no }
+				}
+			}
+
 			#Startup race opion events
 			every_country = {
 				country_event = HOA_startup.1
