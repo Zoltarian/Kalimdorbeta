@@ -7941,6 +7941,55 @@ race_accept_decisions = {
 		}
 	}
 
+	accept_obsidian_destroyer_decision = {
+
+		available = {
+			any_owned_state = {
+				check_variable = { race = 160 }
+			}
+			NOT = {
+				check_variable = { accepted_races^num > 4 }
+				has_country_flag = accepting_a_race
+			}
+		}
+
+		visible = {
+			AND = {
+				any_owned_state = {
+					check_variable = { race = 160 }
+				}
+				OR = {
+					NOT = {
+						has_idea = obsidian_destroyer_primary_race
+						has_idea = obsidian_destroyer_secondary_race
+						check_variable = { accepted_races^num > 4 }
+					}
+				}
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 300
+		days_remove = 365
+		days_re_enable = 365
+
+		remove_effect = {
+			add_ideas = {
+				obsidian_destroyer_secondary_race
+			}
+			add_to_array = {
+				array = accepted_races
+				value = 160
+			}
+			clr_country_flag = accepting_a_race
+		}
+
+		complete_effect = {
+			set_country_flag = accepting_a_race
+		}
+	}
+
 #########################################
 #banish race
 #########################################
@@ -13303,6 +13352,40 @@ race_accept_decisions = {
 			add_stability = -0.1
 			remove_ideas = {
 				stone_dragon_secondary_race
+			}
+			remove_from_array = {
+				array = accepted_races
+				value = 1
+			}
+			clr_country_flag = removing_a_race
+		}
+
+		complete_effect = {
+			set_country_flag = removing_a_race
+		}
+
+	}
+
+	remove_obsidian_destroyer_decision = {
+
+		available = {
+			has_idea = obsidian_destroyer_secondary_race
+		}
+
+		visible = {
+			has_idea = obsidian_destroyer_secondary_race
+		}
+
+		fire_only_once = no
+
+		cost = 300
+		days_remove = 90
+		days_re_enable = 30
+
+		remove_effect = {
+			add_stability = -0.1
+			remove_ideas = {
+				obsidian_destroyer_secondary_race
 			}
 			remove_from_array = {
 				array = accepted_races
