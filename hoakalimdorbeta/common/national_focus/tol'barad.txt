@@ -1,0 +1,322 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = tolbarad
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TOL
+		}
+	}
+	default = no
+
+	focus = {
+		id = TOL_reginald_baradin_i
+		icon = GFX_unkown
+		cost = 1
+		x = 10
+		y = 0
+
+		available = {
+
+		}
+
+		completion_reward = {
+			country_event = tolbarad.1
+		}
+	}
+
+	focus = {
+		id = TOL_the_state_of_tolbarad
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_reginald_baradin_i
+		}
+		
+		relative_position_id = TOL_reginald_baradin_i
+		x = 0
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_baradins_wardens
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_state_of_tolbarad
+		}
+		
+		relative_position_id = TOL_the_state_of_tolbarad
+		x = -4
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_gay_3
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_baradins_wardens
+		}
+		
+		relative_position_id = TOL_baradins_wardens
+		x = -1
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_gay_4
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_baradins_wardens
+		}
+		
+		relative_position_id = TOL_baradins_wardens
+		x = 1
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_deal_with_the_privateers
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_state_of_tolbarad
+		}
+		
+		relative_position_id = TOL_the_state_of_tolbarad
+		x = 0
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_a_show_of_force
+		icon = GFX_unkown
+		cost = 5
+		mutually_exclusive = {
+			focus = TOL_offer_pardons
+		}
+
+		prerequisite = {
+			focus = TOL_deal_with_the_privateers
+		}
+		
+		relative_position_id = TOL_deal_with_the_privateers
+		x = -1
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_offer_pardons
+		icon = GFX_unkown
+		cost = 5
+		mutually_exclusive = {
+			focus = TOL_a_show_of_force
+		}
+
+		prerequisite = {
+			focus = TOL_deal_with_the_privateers
+		}
+		
+		relative_position_id = TOL_deal_with_the_privateers
+		x = 1
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_industrial_reform
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_state_of_tolbarad
+		}
+
+		relative_position_id = TOL_the_state_of_tolbarad
+		x = 6
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_the_southern_isle
+		icon = GFX_unkown
+		cost = 5
+		
+		prerequisite = {
+			focus = TOL_industrial_reform
+		}
+
+		relative_position_id = TOL_industrial_reform
+		x = -2
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_gay_2
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_southern_isle
+		}
+
+		relative_position_id = TOL_the_southern_isle
+		x = -1
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_gay
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_southern_isle
+		}
+
+		relative_position_id = TOL_the_southern_isle
+		x = 1
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_the_northern_isle
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_industrial_reform
+		}
+
+		relative_position_id = TOL_industrial_reform
+		x = 5
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_renovate_farson_hold
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_northern_isle
+		}
+
+		relative_position_id = TOL_the_northern_isle
+		x = -3
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_expand_northern_roads
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_northern_isle
+		}
+
+		relative_position_id = TOL_the_northern_isle
+		x = 0
+		y = 1
+
+		available = {
+			controls_state = 173
+			controls_state = 420
+			controls_state = 421
+		}
+
+		completion_reward = {
+			173 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			420 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+
+	focus = {
+		id = TOL_restore_broken_hill_cemetary
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_expand_northern_roads
+		}
+		
+		relative_position_id = TOL_expand_northern_roads
+		x = 0
+		y = 1
+
+	}
+
+	focus = {
+		id = TOL_devlop_rustberg_village
+		icon = GFX_unkown
+		cost = 5
+
+		prerequisite = {
+			focus = TOL_the_northern_isle
+		}
+
+		relative_position_id = TOL_the_northern_isle
+		x = 3
+		y = 1
+
+	}
+
+
+	focus = {
+		id = TOL_the_path_forward
+		icon = GFX_unkown
+		cost = 1
+		x = 30
+		y = 0
+
+		available = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+}

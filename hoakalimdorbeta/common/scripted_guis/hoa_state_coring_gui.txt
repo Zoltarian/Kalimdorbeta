@@ -32,6 +32,14 @@ scripted_gui = {
 			}
 		}
 
+		triggers = {
+			coring_button_text_visible = {
+				NOT = { is_core_of = ROOT }
+				is_owned_and_controlled_by = ROOT
+				NOT = { has_variable = coring_progress }
+			}
+		}
+
 		ai_test_scopes = test_self_owned_states
 		ai_test_interval = 24
 		ai_test_variance = 0.2

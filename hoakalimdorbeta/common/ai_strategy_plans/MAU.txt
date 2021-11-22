@@ -1,0 +1,30 @@
+maraudon_historical = {
+	name = "Maraudon plan"
+	desc = "forces maraudon to do its unique focus"
+
+	enable = {
+		original_tag = MAU
+	}
+
+	ai_national_focuses = {
+		MAU_the_stone_princess_nf
+		MAU_favoring_the_gelkis_nf
+		MAU_ending_the_magram_nf
+		MAU_back_into_the_fold_nf
+		MAU_theradras_request_nf
+		MAU_old_hatreds_nf
+		MAU_her_domain_nf
+		MAU_path_to_the_sea_nf
+		MAU_hating_the_hatefury_nf
+		MAU_driving_the_elves_away_nf
+	}
+
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

@@ -634,6 +634,10 @@ is_stone_dragon_race = {
 	has_idea = stone_dragon_primary_race
 }
 
+is_obsidian_destroyer_race = {
+	has_idea = obsidian_destroyer_primary_race
+}
+
 ########## tech trees will use above triggers eventually for this
 is_orc_tech = {
 	or = {

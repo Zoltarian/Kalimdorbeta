@@ -801,6 +801,11 @@ scripted_gui = {
 					race = 159
 				}
 			}
+			state_race_obsidian_destroyer_visible = {
+				check_variable = {
+					race = 160
+				}
+			}
 
 		}
 	}
@@ -833,6 +838,14 @@ scripted_gui = {
 			}
 			race_conversion_button_click_enabled = {
 				ROOT = { has_political_power > race_conversion_cost }
+			}
+		}
+
+		triggers = {
+			race_conversion_button_text_visible = {
+				state_does_not_match_primary_or_secondary_race = yes
+				is_owned_and_controlled_by = ROOT
+				NOT = { has_variable = race_conversion_progress }
 			}
 		}
 

@@ -937,6 +937,9 @@ shared_focus = {
 		add_stability = 0.1
 		add_war_support = 0.15
 		add_ideas = bring_the_hour_of_twilight_idea
+		set_rule = {
+			can_create_factions = yes
+		}
 	}
 }
 
@@ -1088,6 +1091,9 @@ shared_focus = {
 		add_stability = 0.05
 		add_war_support = 0.15
 		add_ideas = the_burning_crusade_idea
+		set_rule = {
+			can_create_factions = yes
+		}
 	}
 }
 

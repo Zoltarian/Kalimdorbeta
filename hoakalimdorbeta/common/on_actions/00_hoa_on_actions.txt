@@ -4,13 +4,12 @@ on_actions = {
 			#Fix missing techs
 			if = {
 				limit = {
-					OR = {
-						has_tech = lumber_mill_tech
-						has_tech = orc_lumber_mill_tech
-					}
+					has_tech = lumber_mill_tech
+					has_tech = orc_lumber_mill_tech
+					has_tech = dragon_lumberyard_tech
 				}
 				set_technology = {
-			  	lumber_mill_tech_global = 1
+			  		lumber_mill_tech_global = 1
 				}
 			}
 

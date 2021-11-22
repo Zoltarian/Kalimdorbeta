@@ -2246,6 +2246,28 @@ ideas = {
 
 		}
 
+		obsidian_destroyer_primary_race = {
+
+			available = {
+				always = no
+			}
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_obsidian_destroyer
+
+		}
+
 		ogre_primary_race = {
 
 			available = {
@@ -5766,6 +5788,28 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_race_nightmare_dragon
+
+		}
+
+		obsidian_destroyer_secondary_race = {
+
+			available = {
+				always = no
+			}
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_race_obsidian_destroyer
 
 		}
 

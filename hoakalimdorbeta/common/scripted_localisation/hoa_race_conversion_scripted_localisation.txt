@@ -1894,12 +1894,6 @@ defined_text = {
 		}
 		localization_key = "148"
 	}
-	# text = {
-	# 	trigger = {
-	# 		has_idea = mixed_primary_race
-	# 	}
-	# 	localization_key = "149"
-	# }
 	text = {
 		trigger = {
 			has_idea = ogron_primary_race
@@ -1935,6 +1929,12 @@ defined_text = {
 			has_idea = anubisath_primary_race
 		}
 		localization_key = "160"
+	}
+	text = {
+		trigger = {
+			has_idea = obsidian_destroyer_primary_race
+		}
+		localization_key = "161"
 	}
 
 }
@@ -2861,12 +2861,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = mixed_primary_race
-		}
-		localization_key = "Mixed Races"
-	}
-	text = {
-		trigger = {
 			has_idea = ogron_primary_race
 		}
 		localization_key = "Ogrons"
@@ -2906,5 +2900,11 @@ defined_text = {
 			has_idea = aqir_primary_race
 		}
 		localization_key = "Aqirs"
+	}
+	text = {
+		trigger = {
+			has_idea = obsidian_destroyer_primary_race
+		}
+		localization_key = "Obsidian Statue"
 	}
 }

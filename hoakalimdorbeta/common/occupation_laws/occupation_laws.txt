@@ -64,7 +64,6 @@
 
 no_garrison = {
 	icon = 1
-	default_law = yes
 	sound_effect = "Martial_Law_Interface_No_Garrison"
 	
 	state_modifier = {
@@ -315,7 +314,6 @@ harsh_treatment = {
 
 internment_camps = {
 	icon = 10
-	default_law = yes
 	sound_effect = "Martial_Law_Interface_No_Garrison"
 	
 	state_modifier = {

@@ -2,7 +2,7 @@ ideas = {
 
 	hidden_ideas = {
 
-		hoa_continuous_naval_production = {
+		continuous_naval_production = {
 			allowed = {
 				always = no
 			}
@@ -19,7 +19,7 @@ ideas = {
 			}
 		}
 
-		hoa_continuous_air_production = {
+		continuous_air_production = {
 			allowed = {
 				always = no
 			}
@@ -32,27 +32,56 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-			
-				air_transport_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				
-				bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				
-				cas_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				
+
 				fighter_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				
+				cas_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				naval_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				scout_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				air_transport_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				fighter_drake_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				cas_drake_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				bomber_drake_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				naval_bomber_drake_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				covert_drake_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				supply_drake_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			
 			}		
 		}
 	}

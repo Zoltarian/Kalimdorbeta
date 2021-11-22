@@ -4,11 +4,11 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-ULD = {
-	male = {
-		names = { "Ra" "Antek" "Set" "Shoth" }
-		surnames = { "The Watcher" "Sun-Touched" "The Sentinel" "The Guardian" }
-		callsigns = { }
-	}
+#default = {
+#	male = {
+#		names = { "Hep" "Ama" "Kha" "Oss" }
+#		surnames = { "Oam" "Thet" "Aut" "Loam" }
+#		callsigns = { }
+#	}
 
-}
+#}

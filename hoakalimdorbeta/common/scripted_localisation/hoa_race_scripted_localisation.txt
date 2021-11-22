@@ -2942,26 +2942,110 @@ defined_text = {
 }
 
 defined_text = { #No Female Qiraji
-	#max 1
+	#max 9
 	name = Get_Qiraji_Name
 	text = {
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "Zerr"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Tuu"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Sart"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Raj"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Pax"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "Pak"
+	}
+	text = {
+		trigger = {
+			state = 7
+		}
+		localization_key = "Nok"
+	}
+	text = {
+		trigger = {
+			state = 8
+		}
+		localization_key = "He"
+	}
+	text = {
+		trigger = {
+			state = 9
+		}
+		localization_key = "Dren"
 	}
 
 }
 
 defined_text = {
-	#max 1
+	#max 7
 	name = Get_Qiraji_Surname
 	text = {
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "Rem"
 	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Lor"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Nilash"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Riss"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Eez"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "Ark"
+	}
+	text = {
+		trigger = {
+			state = 7
+		}
+		localization_key = "Rel"
+	}		
 
 }
 
@@ -3290,25 +3374,115 @@ defined_text = {
 }
 
 defined_text = { #No Female Silithid
-	#max 1
+	#max 8
 	name = Get_Silithid_Name
 	text = {
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "Xaar"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Ny"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Ka"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Ara"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Bur"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "Bor"
+	}
+	text = {
+		trigger = {
+			state = 7
+		}
+		localization_key = "Ain"
+	}
+	text = {
+		trigger = {
+			state = 8
+		}
+		localization_key = "Our"
 	}
 
 }
 
 defined_text = {
-	#max 1
+	#max 9
 	name = Get_Silithid_Surname
 	text = {
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "Xix"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Krix"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Nax"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Rik"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Xix"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "Saj"
+	}
+	text = {
+		trigger = {
+			state = 7
+		}
+		localization_key = "Kis"
+	}
+	text = {
+		trigger = {
+			state = 8
+		}
+		localization_key = "Ix"
+	}
+	text = {
+		trigger = {
+			state = 9
+		}
+		localization_key = "Hej"
 	}
 
 }
@@ -4216,9 +4390,26 @@ defined_text = { #No Female Anubisath
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "Ra"
 	}
-
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Antek"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Set"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Shoth"
+	}
 }
 
 defined_text = {
@@ -4228,7 +4419,25 @@ defined_text = {
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "The Watcher"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Sun-Touched"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "The Sentinel"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "The Guardian"
 	}
 }
 
@@ -4501,6 +4710,64 @@ defined_text = {
 
 }
 
+defined_text = { #No Female obsidian statues
+	#max 4
+	name = Get_Obsidian_Destroyer_Name
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Hep"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Ama"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Kha"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Oss"
+	}
+}
+
+defined_text = {
+	#max 4
+	name = Get_Obsidian_Destroyer_Surname
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "Oam"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Thet"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Aut"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Loam"
+	}
+}
+
 
 
 
@@ -4535,8 +4802,159 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	#max 18 
+	name = Get_AHQ_silithid_portrait
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "GFX_AHQ_generic_silithid_1"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "GFX_AHQ_generic_silithid_2"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "GFX_AHQ_generic_silithid_3"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "GFX_AHQ_generic_silithid_4"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "GFX_AHQ_generic_silithid_5"
+	}
+	text = {
+		trigger = {
+			state = 6
+		}
+		localization_key = "GFX_AHQ_generic_silithid_6"
+	}
+	text = {
+		trigger = {
+			state = 7
+		}
+		localization_key = "GFX_AHQ_generic_silithid_7"
+	}
+	text = {
+		trigger = {
+			state = 8
+		}
+		localization_key = "GFX_AHQ_generic_silithid_8"
+	}
+	text = {
+		trigger = {
+			state = 9
+		}
+		localization_key = "GFX_AHQ_generic_silithid_9"
+	}
+	text = {
+		trigger = {
+			state = 10
+		}
+		localization_key = "GFX_AHQ_generic_silithid_10"
+	}
+	text = {
+		trigger = {
+			state = 11
+		}
+		localization_key = "GFX_AHQ_generic_silithid_11"
+	}
+	text = {
+		trigger = {
+			state = 12
+		}
+		localization_key = "GFX_AHQ_generic_silithid_12"
+	}
+	text = {
+		trigger = {
+			state = 13
+		}
+		localization_key = "GFX_AHQ_generic_silithid_13"
+	}
+	text = {
+		trigger = {
+			state = 14
+		}
+		localization_key = "GFX_AHQ_generic_silithid_14"
+	}
+	text = {
+		trigger = {
+			state = 15
+		}
+		localization_key = "GFX_AHQ_generic_silithid_15"
+	}
+	text = {
+		trigger = {
+			state = 16
+		}
+		localization_key = "GFX_AHQ_generic_silithid_16"
+	}
+	text = {
+		trigger = {
+			state = 17
+		}
+		localization_key = "GFX_AHQ_generic_silithid_17"
+	}
+	text = {
+		trigger = {
+			state = 18
+		}
+		localization_key = "GFX_AHQ_generic_silithid_18"
+	}
+	text = {
+		trigger = {
+			state = 19
+		}
+		localization_key = "GFX_AHQ_generic_silithid_19"
+	}
+	text = {
+		trigger = {
+			state = 20
+		}
+		localization_key = "GFX_AHQ_generic_silithid_20"
+	}
+	text = {
+		trigger = {
+			state = 21
+		}
+		localization_key = "GFX_AHQ_generic_silithid_21"
+	}
 
+}
 
+defined_text = {
+	#max 1
+	name = Get_AHQ_anubisath_portrait
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "GFX_AHQ_generic_anubisath_1"
+	}
+}
+
+defined_text = {
+	#max 1
+	name = Get_AHQ_obsidian_destroyer_portrait
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "GFX_AHQ_generic_obisidan_statue_1"
+	}
+}
 
 defined_text = {
 	#max 3

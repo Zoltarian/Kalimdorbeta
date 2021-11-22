@@ -1430,7 +1430,6 @@ setup_accepted_race_arrays = {
 			value = 158
 		}
 	}
-
 	if = {
 		limit = {
 			has_idea = stone_dragon_secondary_race
@@ -1438,6 +1437,15 @@ setup_accepted_race_arrays = {
 		add_to_array = {
 			array = accepted_races
 			value = 159
+		}
+	}
+	if = {
+		limit = {
+			has_idea = obsidian_destroyer_secondary_race
+		}
+		add_to_array = {
+			array = accepted_races
+			value = 160
 		}
 	}
 

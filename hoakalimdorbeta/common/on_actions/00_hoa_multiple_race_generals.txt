@@ -15,11 +15,13 @@ on_actions = {
 				}
 			}
 
-			set_unit_leader_flag = generated
-			if = {
+			
+			if = { #Arrkoran
 				limit = { 
 					var:creator = { 
 						original_tag = ARK
+						#has_idea = murloc_secondary_race
+						#has_idea = makrura_secondary_race
 					} 
 				}
 				random_list = {
@@ -32,12 +34,33 @@ on_actions = {
 						set_unit_leader_to_makrura_ARK = yes
 					}
 				}
+
 			}
-			else_if = {
+			else_if = { #Ahn'qiraj
+				limit = { 
+					var:creator = { 
+						original_tag = AHQ
+					} 
+				}
+				random_list = {
+					30 = {
+						# qiraji
+					}
+					50 = {
+						set_unit_leader_to_silithid_AHQ = yes
+					}
+					10 = {
+						set_unit_leader_to_anubisath_AHQ = yes
+					}
+					10 = {
+						set_unit_leader_to_obsidian_destroyer_AHQ = yes
+					}
+				}
+			}
+			else_if = { #cenarion circle
 				limit = { 
 					var:creator = { 
 						original_tag = CEN
-						has_idea = ancients_secondary_race
 					} 
 				}
 				random_list = {
@@ -49,7 +72,22 @@ on_actions = {
 					}
 				}
 			}
-			clr_unit_leader_flag = generated
+			else_if = { #uldaman
+				limit = { 
+					var:creator = { 
+						original_tag = ULD
+					} 
+				}
+				random_list = {
+					20 = {
+						# anubisath
+					}
+					80 = {
+						set_unit_leader_to_tolvir_ULD = yes
+					}
+				}
+			}
+			
 		}
 	}
 

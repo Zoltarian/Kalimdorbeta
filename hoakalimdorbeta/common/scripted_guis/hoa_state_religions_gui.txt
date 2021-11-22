@@ -421,6 +421,14 @@ scripted_gui = {
 			}
 		}
 
+		triggers = {
+			religion_conversion_button_text_visible = {
+				state_does_not_match_primary_or_secondary_religion = yes
+				is_owned_and_controlled_by = ROOT
+				NOT = { has_variable = religion_conversion_progress }
+			}
+		}
+
 		ai_test_scopes = test_self_owned_states
 		ai_test_interval = 24
 		ai_test_variance = 0.2

@@ -4,17 +4,11 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-#default = {
-#	male = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	female = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	surnames = { }
-#	callsigns = { }
-#}
+AHQ = {
+	male = {
+		names = { "Zerr" "Tuu" "Sart" "Raj" "Pax" "Pak" "Nok" "He" "Dren" }
+		surnames = { "Rem" "Lor" "Nilash" "Riss" "Eez" "Ark" "Rel" }
+		callsigns = { "Herald of C'thun" "C'thun's Chosen" }
+	}
+
+}
