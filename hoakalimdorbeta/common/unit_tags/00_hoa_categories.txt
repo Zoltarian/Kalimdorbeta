@@ -1,29 +1,32 @@
 sub_unit_categories = {
 
-	category_hoa_army
-	category_hoa_infantry
-	category_infantry_idea_and_mounted
-	category_hoa_frontline_units
-	
-	category_cavalry
-	category_light_cavalry
-	category_medium_cavalry
-	category_heavy_cavalry
+	category_army #all ground units
+	category_all_combat_units #all units that use damage equipment most support units dont count
 
-	category_hoa_support_units
-	
-	category_hoa_siege_units
-	category_spellcasters
-	category_spellcasters_and_siege
-	
+	category_infantry #all combat infantry this includes "motorized units" or mounted units
+	category_light_infantry #all infantry that isnt mounted
+	category_melee #all combat melee units
+	category_ranged #all combat ranged units
+
+	category_support_units
+	category_recon
+
+	category_cavalry #includes mortized units
+	category_light_cavalry #based off motorized from base game
+	category_heavy_cavalry #based off tanks from base game
+	category_all_heavy_cavalry #applys to support tank units
+
+	category_siege_engines
+	category_support_siege_engines
+
+	category_special_forces
+
 	category_air
 	category_fighter
 	category_cas
 	category_bomber
 	category_naval_bomber
-	category_supply_plans
 	category_recon_plane
-
-#need to add race ones like "dragon air" "human melee"
+	category_supply_planes
 
 }

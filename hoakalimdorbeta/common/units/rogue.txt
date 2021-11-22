@@ -16,9 +16,10 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_hoa_army
-			category_hoa_support_units
-			category_hoa_frontline_units
+			category_army
+			category_all_combat_units
+			category_support_units
+			category_recon
 		}
 
 		combat_width = 0

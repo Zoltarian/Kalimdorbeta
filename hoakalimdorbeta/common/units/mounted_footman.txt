@@ -15,11 +15,12 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_hoa_army
-			category_hoa_all_cavalry
-			category_hoa_light_cavalry
-			category_infantry_idea_and_mounted
-			category_hoa_frontline_units
+			category_army
+			category_all_combat_units
+			category_infantry
+			category_melee
+			category_cavalry
+			category_light_cavalry
 		}
 		
 		combat_width = 2

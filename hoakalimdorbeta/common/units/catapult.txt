@@ -1,6 +1,6 @@
 sub_units = {
 	
-	orc_catapult = {
+	catapult = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 1198
@@ -15,16 +15,16 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_hoa_army
-			category_hoa_siege_units
-			category_spellcasters_and_siege
+			category_army
+			category_all_combat_units
+			category_siege_engines
 		}
 
 		combat_width = 3
 
 		manpower = 50
 		need = {
-			orc_catapult_equipment = 36
+			catapult_equipment = 36
 		}
 		
 		max_strength = 1

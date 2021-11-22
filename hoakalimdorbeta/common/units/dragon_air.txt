@@ -6,7 +6,7 @@ sub_units = {
 		active = yes
 		type = { fighter }
 		need = { fighter_drake_equipment = 1 }
-		categories = { category_hoa_fighter }
+		categories = { category_fighter }
 	}
 	
 	cas_drake = {
@@ -24,6 +24,7 @@ sub_units = {
 		active = yes
 		type = { tactical_bomber }
 		need = { bomber_drake_equipment = 1 }
+		categories = { category_bomber }
 	}
 	
 	naval_bomber_drake = {
@@ -32,7 +33,7 @@ sub_units = {
 		active = yes
 		type = { naval_bomber }
 		need = { naval_bomber_drake_equipment = 1 }
-		categories = { category_nav_bomber }
+		categories = { category_naval_bomber }
 	}
 	
 	covert_drake = {
@@ -41,7 +42,7 @@ sub_units = {
 		active = yes
 		type = { scout_plane }
 		need = { covert_drake_equipment = 1 }
-		categories = { category_scout_plane }
+		categories = { category_recon_plane }
 	}
 	
 	supply_drake = {
@@ -50,6 +51,7 @@ sub_units = {
 		active = yes
 		type = { air_transport }
 		need = { supply_drake_equipment = 1 }
+		categories = { category_supply_planes }
 	}
 	
 }

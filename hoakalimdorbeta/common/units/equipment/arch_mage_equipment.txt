@@ -34,7 +34,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 10
 		
-		build_cost_ic = 1
+		build_cost_ic = 2
 		resources = {
 			wheat = 2
 			mana = 4
@@ -73,7 +73,7 @@ equipments = {
 		ap_attack = 11 #+3
 		air_attack = 17 #+3
 
-		build_cost_ic = 1.2
+		build_cost_ic = 2.4
 	}
 
 	arch_mage_equipment_3 = {
@@ -99,7 +99,7 @@ equipments = {
 		ap_attack = 14 #+3
 		air_attack = 20 #+3
 
-		build_cost_ic = 1.4
+		build_cost_ic = 2.8
 	}
 
 }

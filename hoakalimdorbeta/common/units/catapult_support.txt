@@ -16,9 +16,9 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_hoa_army
-			category_hoa_siege_units
-			category_hoa_support_units
+			category_army
+			category_all_combat_units
+			category_support_siege_engines
 		}
 
 		combat_width = 0

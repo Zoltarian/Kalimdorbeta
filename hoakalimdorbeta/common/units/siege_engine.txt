@@ -5,7 +5,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 2520
 		ai_priority = 2520
-		active = yes
+		active = no
 
 		type = {
 			armor
@@ -14,9 +14,11 @@ sub_units = {
 		group = armor
 
 		categories = {
-			category_hoa_army
-			category_hoa_siege_tanks
-			category_hoa_frontline_units
+			category_army
+			category_all_combat_units
+			category_melee
+			category_cavalry
+			category_heavy_cavalry
 		}
 
 		combat_width = 2

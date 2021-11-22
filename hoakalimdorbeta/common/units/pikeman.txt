@@ -15,10 +15,11 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_hoa_army
-			category_hoa_infantry
-			category_infantry_idea_and_mounted
-			category_hoa_frontline_units
+			category_army
+			category_all_combat_units
+			category_infantry
+			category_light_infantry
+			category_melee
 		}
 		
 		combat_width = 2

@@ -52,7 +52,7 @@ sub_units = {
 		active = yes
 		type = { air_transport }
 		need = { air_transport_equipment = 1 }
-		categories = { category_air_supply }	
+		categories = { category_supply_planes }	
 
 	}
 

@@ -5,8 +5,7 @@ equipments = {
 
 		is_archetype = yes
 		is_buildable = no
-		is_convertable = yes
-		picture = archetype_light_tank_equipment			
+		picture = archetype_knight_equipment			
 		type = armor
 		group_by = archetype
 		
@@ -46,7 +45,6 @@ equipments = {
 		archetype = knight_equipment		
 		priority = 90
 		visual_level = 0
-		is_convertable = yes
 		
 	}
 	
@@ -57,7 +55,6 @@ equipments = {
 		parent = knight_equipment_1
 		priority = 10
 		visual_level = 1
-		is_convertable = yes
 
 		#Defensive Abilities
 		defense = 8 #+2
@@ -79,7 +76,6 @@ equipments = {
 		parent = knight_equipment_2
 		priority = 10
 		visual_level = 2
-		is_convertable = yes
 
 		#Defensive Abilities
 		defense = 10 #+2

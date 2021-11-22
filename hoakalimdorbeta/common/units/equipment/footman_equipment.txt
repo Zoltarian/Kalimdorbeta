@@ -1,5 +1,3 @@
-# All infantry equipment
-
 equipments = {
 
 	footman_equipment = {
@@ -34,7 +32,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.5 #+0.1
+		build_cost_ic = 1 #+0.2
 		resources = {
 			wheat = 2
 			ores = 3
@@ -73,7 +71,7 @@ equipments = {
 		ap_attack = 18 #+3
 		air_attack = 0
 
-		build_cost_ic = 0.6 #+0.1
+		build_cost_ic = 1.2 #+0.2
 	}
 
 	footman_equipment_3 = {
@@ -99,7 +97,7 @@ equipments = {
 		ap_attack = 21 #+3
 		air_attack = 0
 
-		build_cost_ic = 0.7 #+0.1
+		build_cost_ic = 1.4 #+0.2
 		
 	}
 
