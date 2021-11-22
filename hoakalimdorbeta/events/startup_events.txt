@@ -2872,6 +2872,24 @@ country_event = {
 			}
 		}
 		if = {
+			limit = { has_idea = obsidian_destroyer_primary_race }
+			every_country = {
+				limit = { has_idea = obsidian_destroyer_primary_race }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = same_race
+				}
+				set_variable = { race_index = 161 }
+			}
+			every_country = {
+				limit = { NOT = { has_idea = obsidian_destroyer_primary_race } }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_race
+				}
+			}
+		}
+		if = {
 			limit = { has_idea = ancients_primary_race }
 			set_country_flag = opinion_set_race_ancients
 		}
@@ -3499,6 +3517,10 @@ country_event = {
 		if = {
 			limit = { has_idea = anubisath_primary_race }
 			set_country_flag = opinion_set_race_anubisath
+		}
+		if = {
+			limit = { has_idea = obsidian_destroyer_primary_race }
+			set_country_flag = opinion_set_race_obsidian_destroyer
 		}
 	}
 	option = {}
