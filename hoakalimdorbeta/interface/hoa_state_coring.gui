@@ -1,43 +1,68 @@
 guiTypes = {
 	containerWindowType = {
 		name = "coring_button_container"
-		position = { x = 280 y = 147 }
-		size = { width = 780 height = 496 }
+		position = { x = 341 y = 170 }
+		size = { width = 780 height = 50 }
 		clipping = yes
 
 		buttonType = {
 			name = "coring_button"
 			spriteType = "GFX_race_convert_state_convert_button"
 			frame = 1
-			position = { x = 62 y = 18 }
-			font = "hoi_16mbs"
-			format = center
-			text = "CORE"
+			position = { x = 0 y = 0 }
 			pdx_tooltip = "STATE_CORING_TT"
+		}
+
+		instantTextboxType = {
+			name = "coring_button_text"
+			position = { x = 7 y = 6 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "CORE STATE"
+			maxWidth = 75
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
 		}
 	}
 
 	containerWindowType = {
 		name = "coring_progress"
-		position = { x = 0 y = 0 }
-		size = { width = 780 height = 496 }
+		position = { x = 341 y = 168 }
+		size = { width = 780 height = 50 }
 		scale = 1
 
 		buttonType ={
 			name ="coring_cancel"
-			spriteType = "GFX_closebutton_16"
+			spriteType = "GFX_race_convert_cancel_button"
 			pdx_tooltip = "CORING_CANCEL_INFO"
-			position = { x = 315 y = 200 }
+			position = { x = 0 y = 0 }
 		}
+
+		instantTextboxType = {
+			name = "coring_cancel_text"
+			position = { x = 7 y = 8 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "CANCEL"
+			maxWidth = 75
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+
 		iconType = {
 			name = "coring_bar_bg"
 			spriteType = "GFX_race_convert_progress_bar_bg"
-			position = { x = 335 y = 200 }
+			position = { x = -3 y = 28 }
 			pdx_tooltip = "CORING_INFO"
 		}
+
 		containerWindowType = {
 			name = "coring_progress_bar"
-			position = { x = 335 y = 200 }
+			position = { x = -3 y = 28 }
 			size = { width=88 height=17 }
 			orientation = upper_left
 			clipping = yes

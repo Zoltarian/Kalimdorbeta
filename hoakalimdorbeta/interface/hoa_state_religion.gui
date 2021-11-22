@@ -465,53 +465,78 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "religion_conversion_button_container"
-		position = { x = 185 y = 147 }
-		size = { width = 780 height = 496 }
+		position = { x = 248 y = 170 }
+		size = { width = 780 height = 50 }
 		clipping = yes
 
 		buttonType = {
 			name = "religion_conversion_button"
 			spriteType = "GFX_race_convert_state_convert_button"
 			frame = 1
-			position = { x = 62 y = 18 }
-			font = "hoi_16mbs"
-			format = center
-			text = "RELIGION"
+			position = { x = 0 y = 0 }
 			pdx_tooltip = "CONVERT_STATE_RELIGION_TT"
+		}
+
+		instantTextboxType = {
+			name = "religion_conversion_button_text"
+			position = { x = 7 y = 6 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "CONVERT RELIGION"
+			maxWidth = 75
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
 		}
 	}
 
 	containerWindowType = {
 		name = "convert_religion_progress"
-		position = { x = 0 y = 0 }
+		position = { x = 248 y = 168 }
 		size = { width = 780 height = 496 }
 		scale = 1
+
+		buttonType = {
+			name ="religion_conversion_cancel"
+			spriteType = "GFX_race_convert_cancel_button"
+			pdx_tooltip = "CONVERSION_CANCEL_INFO"
+			position = { x = 0 y = 0 }
+		}
+
+		instantTextboxType = {
+			name = "religion_conversion_cancel_text"
+			position = { x = 7 y = 8 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "CANCEL"
+			maxWidth = 75
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
 
 		iconType = {
 			name = "religion_conversion_bar_bg"
 			spriteType = "GFX_race_convert_progress_bar_bg"
-			position = { x = 268 y = 200 }
+			position = { x = 0 y = 28 }
 			pdx_tooltip = "RELIGION_CONVERSION_INFO"
 		}
+
 		containerWindowType = {
 			name = "religion_conversion_progress_bar"
-			position = { x = 268 y = 200 }
-			size = { width=88 height=17 }
+			position = { x = 0 y = 28 }
+			size = { width = 88 height = 17 }
 			orientation = upper_left
 			clipping = yes
 
 			iconType = {
-				name = "RELIGION_conversion_bar"
+				name = "religion_conversion_bar"
 				spriteType = "GFX_race_convert_progress_bar"
-				position = { x=-1 y=-17 }
+				position = { x = -1 y = -17 }
 				alwaystransparent = yes
 			}
-		}
-		buttonType ={
-			name ="religion_conversion_cancel"
-			spriteType = "GFX_closebutton_16"
-			pdx_tooltip = "CONVERSION_CANCEL_INFO"
-			position = { x = 240 y = 200 }
 		}
 	}
 }

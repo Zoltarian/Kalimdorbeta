@@ -148,43 +148,56 @@ spriteTypes = {
 
 ####################################################
 # TEXTICONS (*_icon_small)
-####################################################
+####################################################   C:\Program Files (x86)\Steam\steamapps\common\Hearts of Iron IV\gfx\texticons
 
 	#Default / Human units
-	spriteType = { name = "GFX_unit_militia_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_militia_icon.dds" noOfFrames = 1 }
 
-	spriteType = { name = "GFX_unit_footman_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_footman_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_pikeman_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_pikeman_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_archer_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_archer_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_mage_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mage_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_militia_icon_small"  								texturefile = "gfx/texticons/unit_militia_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
-	spriteType = { name = "GFX_unit_mounted_footman_icon_small"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mounted_footman_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_knight_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_knight_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_footman_icon_small"									textureFile = "gfx/texticons/unit_footman_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_pikeman_icon_small"									textureFile = "gfx/texticons/unit_pikeman_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_archer_icon_small"									textureFile = "gfx/texticons/unit_archer_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mage_icon_small"									textureFile = "gfx/texticons/unit_mage_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
-	spriteType = { name = "GFX_unit_catapult_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_catapult_icon.dds" noOfFrames = 1}
+	spriteType = { name = "GFX_unit_mounted_footman_icon_small"							textureFile = "gfx/texticons/unit_mounted_footman_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_knight_icon_small"									textureFile = "gfx/texticons/unit_knight_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
-	spriteType = { name = "GFX_unit_royal_guard_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_royal_guard_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_paladin_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_paladin_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_arch_mage_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_arch_mage_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_catapult_icon_small"								textureFile = "gfx/texticons/unit_catapult_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_royal_guard_icon_small"								textureFile = "gfx/texticons/unit_royal_guard_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_paladin_icon_small"									textureFile = "gfx/texticons/unit_paladin_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_arch_mage_icon_small"								textureFile = "gfx/texticons/unit_arch_mage_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_archer_support_icon_small"							textureFile = "gfx/texticons/unit_archer_support_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mage_support_icon_small"							textureFile = "gfx/texticons/unit_mage_support_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_catapult_support_icon_small"						textureFile = "gfx/texticons/unit_catapult_support_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_peasant_icon_small"									textureFile = "gfx/texticons/unit_peasant_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_blacksmith_unit_icon_small"							textureFile = "gfx/texticons/unit_blacksmith_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_rogue_icon_small"									textureFile = "gfx/texticons/unit_rogue_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_captain_icon_small"									textureFile = "gfx/texticons/unit_captain_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_guard_icon_small"									textureFile = "gfx/texticons/unit_guard_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_priest_icon_small"									textureFile = "gfx/texticons/unit_priest_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
 
 	#orc units
-	spriteType = { name = "GFX_unit_grunt_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_grunt_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_blade_master_icon_small"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_blade_master_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_grunt_icon_small"									textureFile = "gfx/texticons/unit_grunt_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_blade_master_icon_small"							textureFile = "gfx/texticons/unit_blade_master_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
 	#gnoll units
-	spriteType = { name = "GFX_unit_flailpaw_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_flailpaw_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_poacher_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_poacher_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_flailpaw_icon_small"								textureFile = "gfx/texticons/unit_flailpaw_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_poacher_icon_small"									textureFile = "gfx/texticons/unit_poacher_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
 	#dragon units
-	spriteType = { name = "GFX_unit_whelp_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_whelp_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_dragonspawn_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragonspawn_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_dragonspawn_sorceress_icon_small"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragonspawn_sorceress_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_drakonid_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_drakonid_icon.dds" noOfFrames = 1 }
-	spriteType = { name = "GFX_unit_dragon_icon_small"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragon_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_whelp_icon_small"									textureFile = "gfx/texticons/unit_whelp_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_icon_small"								textureFile = "gfx/texticons/unit_dragonspawn_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragonspawn_sorceress_icon_small"					textureFile = "gfx/texticons/unit_dragonspawn_sorceress_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_drakonid_icon_small"								textureFile = "gfx/texticons/unit_drakonid_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_dragon_icon_small"									textureFile = "gfx/texticons/unit_dragon_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
 	#Realm of Jade units
-	spriteType = { name = "GFX_unit_jade_tiger_icon_small"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_jade_tiger_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_jade_tiger_icon_small"								textureFile = "gfx/texticons/unit_jade_tiger_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
 #############################################################################
 

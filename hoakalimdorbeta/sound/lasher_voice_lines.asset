@@ -1,0 +1,289 @@
+category = {
+    name = "Voices"
+    soundeffects = {
+        AML_infantry_idle
+        AML_infantry_neutral_combat
+        AML_infantry_positive_combat
+        AML_infantry_retreat
+        AML_infantry_move_out
+
+        BML_infantry_idle
+        BML_infantry_neutral_combat
+        BML_infantry_positive_combat
+        BML_infantry_retreat
+        BML_infantry_move_out
+
+        BPL_infantry_idle
+        BPL_infantry_neutral_combat
+        BPL_infantry_positive_combat
+        BPL_infantry_retreat
+        BPL_infantry_move_out
+    }
+
+}
+
+########## AML
+
+soundeffect = {
+    name = "AML_infantry_idle"
+    sounds = {
+		sound = Lasher_Idle_001
+        sound = Lasher_Idle_002
+        sound = Lasher_Idle_003
+        sound = Lasher_Idle_004
+        sound = Lasher_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "AML_infantry_neutral_combat"
+    sounds = {
+        sound = Lasher_Combat_001
+        sound = Lasher_Combat_002
+        sound = Lasher_Combat_003
+		sound = Lasher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AML_infantry_positive_combat"
+    sounds = {
+        sound = Lasher_Combat_001
+        sound = Lasher_Combat_002
+        sound = Lasher_Combat_003
+		sound = Lasher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AML_infantry_retreat"
+    sounds = {
+        sound = Lasher_Move_001
+        sound = Lasher_Move_002
+        sound = Lasher_Move_003
+		sound = Lasher_Move_004
+        sound = Lasher_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AML_infantry_move_out"
+    sounds = {
+        sound = Lasher_Move_001
+        sound = Lasher_Move_002
+        sound = Lasher_Move_003
+		sound = Lasher_Move_004
+        sound = Lasher_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BML
+
+soundeffect = {
+    name = "BML_infantry_idle"
+    sounds = {
+		sound = Lasher_Idle_001
+        sound = Lasher_Idle_002
+        sound = Lasher_Idle_003
+        sound = Lasher_Idle_004
+        sound = Lasher_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BML_infantry_neutral_combat"
+    sounds = {
+        sound = Lasher_Combat_001
+        sound = Lasher_Combat_002
+        sound = Lasher_Combat_003
+		sound = Lasher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BML_infantry_positive_combat"
+    sounds = {
+        sound = Lasher_Combat_001
+        sound = Lasher_Combat_002
+        sound = Lasher_Combat_003
+		sound = Lasher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BML_infantry_retreat"
+    sounds = {
+        sound = Lasher_Move_001
+        sound = Lasher_Move_002
+        sound = Lasher_Move_003
+		sound = Lasher_Move_004
+        sound = Lasher_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BML_infantry_move_out"
+    sounds = {
+        sound = Lasher_Move_001
+        sound = Lasher_Move_002
+        sound = Lasher_Move_003
+		sound = Lasher_Move_004
+        sound = Lasher_Move_005
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BPL
+
+soundeffect = {
+    name = "BPL_infantry_idle"
+    sounds = {
+		sound = Lasher_Idle_001
+        sound = Lasher_Idle_002
+        sound = Lasher_Idle_003
+        sound = Lasher_Idle_004
+        sound = Lasher_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BPL_infantry_neutral_combat"
+    sounds = {
+        sound = Lasher_Combat_001
+        sound = Lasher_Combat_002
+        sound = Lasher_Combat_003
+		sound = Lasher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BPL_infantry_positive_combat"
+    sounds = {
+        sound = Lasher_Combat_001
+        sound = Lasher_Combat_002
+        sound = Lasher_Combat_003
+		sound = Lasher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BPL_infantry_retreat"
+    sounds = {
+        sound = Lasher_Move_001
+        sound = Lasher_Move_002
+        sound = Lasher_Move_003
+		sound = Lasher_Move_004
+        sound = Lasher_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BPL_infantry_move_out"
+    sounds = {
+        sound = Lasher_Move_001
+        sound = Lasher_Move_002
+        sound = Lasher_Move_003
+		sound = Lasher_Move_004
+        sound = Lasher_Move_005
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Lasher_Idle_001"
+	file = "voice_lines/lasher/Lasher_Idle_1.wav"
+}
+sound = {
+	name = "Lasher_Idle_002"
+	file = "voice_lines/lasher/Lasher_Idle_2.wav"
+}
+sound = {
+	name = "Lasher_Idle_003"
+	file = "voice_lines/lasher/Lasher_Idle_3.wav"
+}
+sound = {
+	name = "Lasher_Idle_004"
+	file = "voice_lines/lasher/Lasher_Idle_4.wav"
+}
+sound = {
+	name = "Lasher_Idle_005"
+	file = "voice_lines/lasher/Lasher_Idle_5.wav"
+}
+
+sound = {
+	name = "Lasher_Combat_001"
+	file = "voice_lines/lasher/Lasher_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Lasher_Combat_002"
+	file = "voice_lines/lasher/Lasher_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Lasher_Combat_003"
+	file = "voice_lines/lasher/Lasher_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Lasher_Combat_004"
+	file = "voice_lines/lasher/Lasher_Attack_4.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "Lasherf_Move_001"
+	file = "voice_lines/lasher/Lasher_Move_1.wav"
+}
+sound = {
+	name = "Lasherf_Move_002"
+	file = "voice_lines/lasher/Lasher_Move_2.wav"
+}
+sound = {
+	name = "Lasherf_Move_003"
+	file = "voice_lines/lasher/Lasher_Move_3.wav"
+}
+sound = {
+	name = "Lasherf_Move_004"
+	file = "voice_lines/lasher/Lasher_Move_4.wav"
+}
+sound = {
+	name = "Lasherf_Move_005"
+	file = "voice_lines/lasher/Lasher_Move_5.wav"
+}

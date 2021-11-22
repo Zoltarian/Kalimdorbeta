@@ -1,13 +1,183 @@
-000 = {
+CNT = {
 	army = {
 		male = {
-
+			"gfx/leaders/CNT/generic_1.dds"
+			"gfx/leaders/CNT/generic_2.dds"
+			"gfx/leaders/CNT/generic_3.dds"
 		}
 	}
 	
 	navy = {
 		male = {
+			"gfx/leaders/CNT/generic_1.dds"
+			"gfx/leaders/CNT/generic_2.dds"
+			"gfx/leaders/CNT/generic_3.dds"
+		}
+	}
+}
 
+FGH = {
+	army = {
+		male = {
+			"gfx/leaders/FGH/generic_1.dds"
+			"gfx/leaders/FGH/generic_2.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/FGH/generic_1.dds"
+			"gfx/leaders/FGH/generic_2.dds"
+		}
+	}
+}
+
+GOI = {
+	army = {
+		male = {
+			"gfx/leaders/GOI/generic_1.dds"
+			"gfx/leaders/GOI/generic_2.dds"
+			"gfx/leaders/GOI/generic_3.dds"
+			"gfx/leaders/GOI/generic_4.dds"
+			"gfx/leaders/GOI/generic_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/GOI/generic_1.dds"
+			"gfx/leaders/GOI/generic_2.dds"
+			"gfx/leaders/GOI/generic_3.dds"
+			"gfx/leaders/GOI/generic_4.dds"
+			"gfx/leaders/GOI/generic_5.dds"
+		}
+	}
+}
+
+HAS = {
+	army = {
+		male = {
+			"gfx/leaders/HAS/generic_1.dds"
+			"gfx/leaders/HAS/generic_2.dds"
+			"gfx/leaders/HAS/generic_3.dds"
+			"gfx/leaders/HAS/generic_4.dds"
+			"gfx/leaders/HAS/generic_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/HAS/generic_1.dds"
+			"gfx/leaders/HAS/generic_2.dds"
+			"gfx/leaders/HAS/generic_3.dds"
+			"gfx/leaders/HAS/generic_4.dds"
+			"gfx/leaders/HAS/generic_5.dds"
+		}
+	}
+}
+
+HAZ = {
+	army = {
+		male = {
+			"gfx/leaders/HAZ/generic_1.dds"
+			"gfx/leaders/HAZ/generic_2.dds"
+			"gfx/leaders/HAZ/generic_3.dds"
+			"gfx/leaders/HAZ/generic_4.dds"
+			"gfx/leaders/HAZ/generic_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/HAZ/generic_1.dds"
+			"gfx/leaders/HAZ/generic_2.dds"
+			"gfx/leaders/HAZ/generic_3.dds"
+			"gfx/leaders/HAZ/generic_4.dds"
+			"gfx/leaders/HAZ/generic_5.dds"
+		}
+	}
+}
+
+HRE = {
+	army = {
+		male = {
+			"gfx/leaders/HRE/generic_1.dds"
+			"gfx/leaders/HRE/generic_2.dds"
+			"gfx/leaders/HRE/generic_3.dds"
+			"gfx/leaders/HRE/generic_4.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/HRE/generic_1.dds"
+			"gfx/leaders/HRE/generic_2.dds"
+			"gfx/leaders/HRE/generic_3.dds"
+			"gfx/leaders/HRE/generic_4.dds"
+		}
+	}
+}
+
+HZO = {
+	army = {
+		male = {
+			"gfx/leaders/HZO/generic_1.dds"
+			"gfx/leaders/HZO/generic_2.dds"
+			"gfx/leaders/HZO/generic_3.dds"
+			"gfx/leaders/HZO/generic_4.dds"
+			"gfx/leaders/HZO/generic_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/HZO/generic_1.dds"
+			"gfx/leaders/HZO/generic_2.dds"
+			"gfx/leaders/HZO/generic_3.dds"
+			"gfx/leaders/HZO/generic_4.dds"
+			"gfx/leaders/HZO/generic_5.dds"
+		}
+	}
+}
+
+RMH = {
+	army = {
+		male = {
+			"gfx/leaders/RMH/generic_1.dds"
+			"gfx/leaders/RMH/generic_2.dds"
+			"gfx/leaders/RMH/generic_3.dds"
+			"gfx/leaders/RMH/generic_4.dds"
+			"gfx/leaders/RMH/generic_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/RMH/generic_1.dds"
+			"gfx/leaders/RMH/generic_2.dds"
+			"gfx/leaders/RMH/generic_3.dds"
+			"gfx/leaders/RMH/generic_4.dds"
+			"gfx/leaders/RMH/generic_5.dds"
+		}
+	}
+}
+
+ZUK = {
+	army = {
+		male = {
+			"gfx/leaders/ZUK/generic_1.dds"
+			"gfx/leaders/ZUK/generic_2.dds"
+			"gfx/leaders/ZUK/generic_3.dds"
+			"gfx/leaders/ZUK/generic_4.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/ZUK/generic_1.dds"
+			"gfx/leaders/ZUK/generic_2.dds"
+			"gfx/leaders/ZUK/generic_3.dds"
+			"gfx/leaders/ZUK/generic_4.dds"
 		}
 	}
 }

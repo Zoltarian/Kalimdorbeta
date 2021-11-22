@@ -1,10 +1,10 @@
 ﻿l_english:
  CORING_INFO:0 "§Y[?coring_country.GetName]§! is currently working on coring §Y[This.GetName]§!. State coring progress so far is [This.GetCoringProgress]."
  CORING_CANCEL_INFO:0 "§YCore State§!\nSpend political power to core the state."
- STATE_CORING_TT:0 "Core this state for £pol_power [?Root.coring_cost]"
+ STATE_CORING_TT:0 "Core this state for £pol_power §Y[?Root.coring_cost]§!. Require the state to have an accepted §Yrace§! and §Yreligion§!."
  #Conversion Popup Window
  CORING_CHECK_POPUP_TITLE:0 "Core State"
- CORING_CHECK_POPUP_DESC:0 "Do you wish to core §Y[This.GetName]§!? \nThe cost of coring §Y[This.GetName]§! is £pol_power [?Root.coring_cost]. \nIt will take 180 days and remove 20% of the states population."
+ CORING_CHECK_POPUP_DESC:0 "Do you wish to core §Y[This.GetName]§!? \nThe cost of coring §Y[This.GetName]§! is £pol_power [?Root.coring_cost]. \nIt will take 180 days."
  CORING_CANCEL_POPUP_TITLE:0 "Cancel State coring"
  CORING_CANCEL_POPUP_DESC:0 "Do you wish to cancel coring §Y[This.GetName]§!'s? \nIf you cancel the coring, part of the political power you used will be returned."
  CORING_COMPLETE_POPUP_TITLE:0 "State coring"
