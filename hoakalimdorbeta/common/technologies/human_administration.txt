@@ -1713,7 +1713,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 610
+		start_year = 595
 		folder = {
 			name = human_administration_folder
 			position = { x = 20 y = 7 }
@@ -2156,6 +2156,10 @@ technologies = {
 
 		MONTHLY_POPULATION = 0.25
 
+		dependencies = {
+			keep_tech = 1
+		}
+
 		path = {
 			leads_to_tech = harvest_golem_3
 			research_cost_coeff = 1
@@ -2227,6 +2231,10 @@ technologies = {
 		}
 
 		MONTHLY_POPULATION = 0.25
+
+		dependencies = {
+			castle_tech = 1
+		}
 
 		research_cost = 2
 
@@ -2322,6 +2330,10 @@ technologies = {
 			}
 		}
 
+		dependencies = {
+			keep_tech = 1
+		}
+
 		path = {
 			leads_to_tech = improved_egg_breeding_3
 			research_cost_coeff = 1
@@ -2392,6 +2404,10 @@ technologies = {
 				resource = eggs
 				amount = 1
 			}
+		}
+
+		dependencies = {
+			castle_tech = 1
 		}
 
 		research_cost = 2
@@ -2506,6 +2522,10 @@ technologies = {
 			}
 		}
 
+		dependencies = {
+			keep_tech = 1
+		}
+
 		path = {
 			leads_to_tech = mine_cart_3
 			research_cost_coeff = 1
@@ -2590,6 +2610,10 @@ technologies = {
 				resource = gunpowder
 				amount = 1
 			}
+		}
+
+		dependencies = {
+			castle_tech = 1
 		}
 
 		research_cost = 2
@@ -2678,6 +2702,10 @@ technologies = {
 			custom_effect_tooltip = human_devotion_effect_tooltip
 		}
 
+		dependencies = {
+			keep_tech = 1
+		}
+
 		path = {
 			leads_to_tech = devotion_tech_3
 			research_cost_coeff = 1
@@ -2737,6 +2765,10 @@ technologies = {
             add_to_variable = { faith_tech_multiplier = 0.05 }
 			custom_effect_tooltip = human_devotion_effect_tooltip
         }
+
+		dependencies = {
+			castle_tech = 1
+		}
 
 		research_cost = 2
 

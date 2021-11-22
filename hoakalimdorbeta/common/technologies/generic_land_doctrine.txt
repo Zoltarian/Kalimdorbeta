@@ -14,7 +14,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		category_hoa_heavy_cavalry = {
+		category_all_heavy_cavalry = {
 			breakthrough = 0.20
 		}
 		
@@ -50,7 +50,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			max_organisation = 15
 		}
 		
@@ -90,8 +90,11 @@ technologies = {
 
 		land_reinforce_rate = 0.02
 
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 1
+		}
+
+		category_all_heavy_cavalry = {
 			maximum_speed = 0.1
 		}
 	
@@ -136,11 +139,7 @@ technologies = {
 		xor={
 			armored_spearhead
 		}
-		category_hoa_light_cavalry = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		category_hoa_siege_tanks = {
+		category_light_cavalry = {
 			maximum_speed = 0.1
 			default_morale = 0.2
 		}
@@ -180,7 +179,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 	
-		category_hoa_infantry = {
+		category_infantry = {
 			max_organisation = 10
 		}	
 		
@@ -217,15 +216,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_light_cavalry = {
+		category_light_cavalry = {
 			max_organisation = 15
-			
-		}
-		category_hoa_siege_tanks = {
-			max_organisation = 15
-		}
-		
-		category_hoa_heavy_cavalry = {
+		}		
+		category_heavy_cavalry = {
 			max_organisation = 3
 		}
 
@@ -265,7 +259,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 	
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 3
 			breakthrough = 0.20
 		}
@@ -310,8 +304,11 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 2
+		}
+
+		category_all_heavy_cavalry = {
 			default_morale = 0.1
 		}	
 		
@@ -349,19 +346,17 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_heavy_cavalry = {
+		category_light_cavalry = {
+			max_organisation = 5
+		}
+		category_heavy_cavalry = {
 			max_organisation = 1
+		}
+		category_all_heavy_cavalry = {
 			default_morale = 0.1
 		}
 		
 		enable_tactic = tactic_breakthrough
-		
-		category_hoa_light_cavalry = {
-			max_organisation = 5
-		}
-		category_hoa_siege_tanks = {
-			max_organisation = 5
-		}		
 
 		path = {
 			leads_to_tech = kampfgruppe 
@@ -396,7 +391,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			default_morale = 0.2
 			max_organisation = 10
 		}
@@ -445,10 +440,10 @@ technologies = {
 			volkssturm
 		}
 		
-		category_hoa_infantry = {
+		category_infantry = {
 			max_organisation = 10
 		}
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 2
 		}
 
@@ -518,9 +513,12 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 3
 			breakthrough = 0.20
+		}
+
+		category_all_heavy_cavalry = {
 			default_morale = 0.2
 		}
 	
@@ -624,8 +622,8 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		#Increased Partisan effect on your land occupied by others
-		#partisan_effect = 0.1 #10% more partisan effects
-		
+		resistance_damage_to_garrison_on_our_occupied_states = 0.1 
+
 		enable_tactic = tactic_guerrilla_tactics
 	
 		research_cost = 3
@@ -662,8 +660,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		category_hoa_frontline_units = {
-			 soft_attack = 0.2
+		category_all_combat_units = {
+			 soft_attack = 0.1
 		}
 		
 		enable_tactic = tactic_barrage
@@ -695,7 +693,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_infantry = {
+		category_light_infantry = {
 			max_organisation = 10
 		}
 		
@@ -733,8 +731,8 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
-			defense = 0.20
+		category_infantry = {
+			defense = 0.1
 		}
 		
 		enable_tactic = tactic_elastic_defense
@@ -780,7 +778,7 @@ technologies = {
 			dispersed_support
 		}
 
-		category_hoa_support_units = {
+		category_support_units = {
 			max_organisation = 10
 			soft_attack = 0.25
 		}
@@ -817,7 +815,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_support_units = {
+		category_support_units = {
 			max_organisation = 10
 			soft_attack = 0.25
 		}
@@ -860,7 +858,7 @@ technologies = {
 			intergrated_support
 		}
 		
-		category_hoa_siege_units = {
+		category_siege_engines = {
 			default_morale = 0.2
 		}
 		
@@ -896,7 +894,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_siege_units = {
+		category_siege_engines = {
+			soft_attack = 0.10
+		}
+		category_ranged = {
 			soft_attack = 0.10
 		}
 		
@@ -934,7 +935,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_heavy_cavalry = {
+		category_all_heavy_cavalry = {
 			breakthrough = 0.10
 		}
 		
@@ -980,7 +981,7 @@ technologies = {
 			centralized_fire_control
 		}
 
-		category_hoa_army = {
+		category_army = {
 			hard_attack = 0.10
 		}
 		
@@ -1016,7 +1017,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		category_hoa_heavy_cavalry = {
+		category_all_heavy_cavalry = {
 			hard_attack = 0.10
 			soft_attack = 0.10
 		}
@@ -1091,7 +1092,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_frontline_units = {
+		category_all_combat_units = {
 			max_organisation = 5
 		}
 			
@@ -1129,12 +1130,16 @@ technologies = {
 			concentrated_fire_plans
 		}
 
-		category_hoa_infantry = { 
+		category_infantry = { 
 			soft_attack = 0.05 
 		}
-		category_spellcasters_and_siege = { 
+		category_siege_engines = { 
 			soft_attack = 0.05
 		}
+		category_support_siege_engines = { 
+			soft_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = forward_observers 
 			research_cost_coeff = 1
@@ -1169,7 +1174,7 @@ technologies = {
 
 		land_reinforce_rate = 0.02
 
-		rogue = {
+		category_recon = {
 			recon = 1
 		}
 		
@@ -1205,12 +1210,14 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			max_organisation = 10
 			default_morale = 0.05
 		}
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 2
+		}		
+		category_all_heavy_cavalry = {
 			default_morale = 0.05
 		}
 		
@@ -1248,11 +1255,18 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = { 
+		category_all_combat_units = { 
 			soft_attack = 0.05 
+		}
+		category_infantry = { 
+			soft_attack = 0.05
 			hard_attack = 0.05
 		}
-		category_spellcasters_and_siege = { 
+		category_siege_engines = { 
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		category_support_siege_engines = { 
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
@@ -1360,7 +1374,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			defense = 0.10
 			max_organisation = 10
 		}
@@ -1398,7 +1412,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_army = {
+		category_army = {
 			breakthrough = 0.10
 			soft_attack = 0.05
 		}
@@ -1446,10 +1460,7 @@ technologies = {
 			infantry_offensive
 		}
 	
-		category_hoa_light_cavalry = {
-			max_organisation = 5
-		}
-		category_hoa_siege_tanks = {
+		category_light_cavalry = {
 			max_organisation = 5
 		}
 		
@@ -1528,10 +1539,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			max_organisation = 5
 		}
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 1
 		}
 		
@@ -1568,7 +1579,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_army = {
+		category_army = {
 			breakthrough = 0.10
 		}
 		
@@ -1644,10 +1655,10 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		land_reinforce_rate = 0.02
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			max_organisation = 5
 		}
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 1
 		}
 	
@@ -1682,7 +1693,7 @@ technologies = {
 		xor = {
 			grand_mechanized_offensive
 		}
-		category_hoa_infantry = {
+		category_light_infantry = {
 			max_organisation = 5
 			breakthrough = 0.1
 		}
@@ -1722,8 +1733,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 2
+		}
+		category_all_heavy_cavalry = {
 			default_morale = 0.1
 		}
 		
@@ -1834,10 +1847,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			max_organisation = 5
 		}
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 1
 		}		
 		path = {
@@ -1875,7 +1888,7 @@ technologies = {
 
 		land_reinforce_rate = 0.02
 		
-		rogue = { 
+		category_recon = { 
 			recon = 1 
 		} 
 	
@@ -1982,7 +1995,7 @@ technologies = {
 
 		max_dig_in = 5
 
-		category_hoa_infantry = {
+		category_light_infantry = {
 			max_organisation = 5
 		}
 		
@@ -2063,7 +2076,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 2
 		}
 
@@ -2140,7 +2153,7 @@ technologies = {
 
 		supply_consumption_factor = -0.10
 		
-		category_hoa_infantry = {
+		category_light_infantry = {
 			combat_width = -0.4
 		}
 
@@ -2178,11 +2191,11 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 1
 			breakthrough = 0.10
 		}
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			max_organisation = 5
 			breakthrough = 0.10
 		}
@@ -2221,16 +2234,13 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 2
+		}
+		category_all_heavy_cavalry = {
 			default_morale = 0.1
 		}
-		
-		category_hoa_siege_tanks = {
-			max_organisation = 10
-			default_morale = 0.1
-		}
-		category_hoa_light_cavalry = {
+		category_light_cavalry = {
 			max_organisation = 10
 			default_morale = 0.1
 		}		
@@ -2305,7 +2315,7 @@ technologies = {
 		}
 
 		#Increased Partisan effect on your land occupied by others
-		#partisan_effect = 0.1 #10% more partisan effects
+		resistance_damage_to_garrison_on_our_occupied_states = 0.1 #10% more partisan effects 
 		#Land Units take less attrition
 		attrition = -0.1 #take 10% less attrition losses
 		
@@ -2344,7 +2354,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_hoa_infantry = {
+		category_light_infantry = {
 			default_morale = 0.30
 		}
 		land_reinforce_rate = 0.05		
@@ -2381,10 +2391,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_infantry_idea_and_mounted = {
+		category_infantry = {
 			max_organisation = 10
 		}
-		category_hoa_heavy_cavalry = {
+		category_heavy_cavalry = {
 			max_organisation = 2
 		}
 		
@@ -2422,7 +2432,7 @@ technologies = {
 
 		conscription = 0.05
 				
-		category_hoa_infantry = {
+		category_light_infantry = {
 			combat_width = -0.4
 		}
 
@@ -2462,11 +2472,11 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		out_of_supply_factor = -0.30
-		category_hoa_army = {
+		category_army = {
 			default_morale = 0.2
 		}
 		
-		#partisan_effect = 0.2
+		resistance_growth_on_our_occupied_states = 0.25 
 		
 		enable_tactic = tactic_guerrilla_tactics
 	
