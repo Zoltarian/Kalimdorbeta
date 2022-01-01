@@ -1,0 +1,18 @@
+﻿RG_COMMON = { #placeholder to keep this folder in the mod files
+	name = NAME_THEME_CITIES
+	
+	for_countries = { KUL }
+
+	prefix = ""
+	type = ship
+	
+	fallback_name = "Loď %d"
+
+	
+	ordered = {
+		1 = {"Proudmoore"}
+		2 = {"Ashvane"} 
+	}
+	
+
+}

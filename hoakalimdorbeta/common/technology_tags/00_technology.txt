@@ -12,9 +12,15 @@ technology_folders = {
 		}
 	}
 	naval_folder
-	land_doctrine_folder
-	naval_doctrine_folder
-	air_doctrine_folder
+	land_doctrine_folder = {
+		doctrine = yes
+	}
+	naval_doctrine_folder = {
+		doctrine = yes
+	}
+	air_doctrine_folder = {
+		doctrine = yes
+	}
 	
 	#human tech folders
 	human_administration_folder = {

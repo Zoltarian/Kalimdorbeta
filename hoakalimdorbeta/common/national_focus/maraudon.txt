@@ -31,10 +31,9 @@ focus_tree = {
 
 		available = {
 			has_country_flag = unlocked_other_branches
-			NOT = {
-				is_ai = yes
-				is_historical_focus_on = yes
-			}
+			#NOT = {
+			#	is_historical_focus_on = yes
+			#}
 		}
 
 		completion_reward = {

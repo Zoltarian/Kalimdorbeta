@@ -1565,36 +1565,6 @@ technologies = {
 		}
 	}
 
-	improved_forge_master_1 = {
-
-		forge_master = {
-			reliability_factor = 0.075
-			equipment_capture_factor = 0.025
-		}
-
-		path = {
-			leads_to_tech = improved_forge_master_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		start_year = 592
-		folder = {
-			name = orc_administration_folder
-			position = { x = 18 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			peasant_technology
-			support_technology
-		}
-	}
-
 	orc_blueprints_tech = {
 
 		line_change_production_efficiency_factor = 0.02

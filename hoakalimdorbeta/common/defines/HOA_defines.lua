@@ -1,7 +1,5 @@
 NDefines.NGame.START_DATE = "592.1.1.12"
 NDefines.NGame.END_DATE = "650.1.1.1"
-NDefines.NGame.BASE_STAGE_COUP_DAILY_PP = 1.5
-NDefines.NGame.IC_TO_EQUIPMENT_COUP_RATIO = 0.3
 
 NDefines_Graphics.NGraphics.COUNTRY_FLAG_TEX_WIDTH = 82
 NDefines_Graphics.NGraphics.COUNTRY_FLAG_TEX_HEIGHT = 129

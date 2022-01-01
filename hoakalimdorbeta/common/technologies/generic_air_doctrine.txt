@@ -8,8 +8,7 @@ technologies = {
 		###########
 
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		
 		xor = { force_rotation formation_flying }
 		
@@ -50,8 +49,7 @@ technologies = {
 		air_cas_present_factor = 0.1
 		###########
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		
 		path = {
 			leads_to_tech = naval_strike_tactics
@@ -90,8 +88,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -130,8 +127,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -169,8 +165,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -208,8 +203,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -242,8 +236,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -271,7 +264,6 @@ technologies = {
 		army_bonus_air_superiority_factor = 0.15
 		###########
 		
-		
 		path = {
 			leads_to_tech = night_bombing
 			research_cost_coeff = 1
@@ -282,8 +274,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -320,8 +311,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -358,8 +348,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -387,14 +376,12 @@ technologies = {
 		air_strategic_bomber_bombing_factor = 0.2
 		###########
 		
-		
 		path = {
 			leads_to_tech = flying_fortress
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -427,8 +414,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -466,8 +452,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -496,8 +481,7 @@ technologies = {
 		###########
 
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -525,8 +509,7 @@ technologies = {
 		air_strategic_bomber_bombing_factor = 0.2
 		###########
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00	
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -569,8 +552,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 2.25
 		
@@ -605,8 +587,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -644,8 +625,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -683,8 +663,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -722,8 +701,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -756,8 +734,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -803,8 +780,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -832,14 +808,12 @@ technologies = {
 		army_bonus_air_superiority_factor = 0.2
 		###########
 		
-		
 		path = {
 			leads_to_tech = naval_strike_torpedo_tactics
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -869,14 +843,12 @@ technologies = {
 		}
 		###########
 		
-		
 		path = {
 			leads_to_tech = naval_strike_torpedo_tactics
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -910,8 +882,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00	
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -944,8 +915,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00	
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -973,14 +943,12 @@ technologies = {
 		air_strategic_bomber_bombing_factor = 0.15
 		###########
 		
-		
 		path = {
 			leads_to_tech = forward_interception
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1008,8 +976,7 @@ technologies = {
 		air_interception_detect_factor = 0.15
 		###########
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00		
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1052,8 +1019,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 2.25
 		
@@ -1083,8 +1049,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1112,15 +1077,13 @@ technologies = {
 		air_cas_present_factor = 0.1
 		###########
 		
-		
 		path = {
 			leads_to_tech = dispersed_fighting
 			research_cost_coeff = 1
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1154,8 +1117,7 @@ technologies = {
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1194,8 +1156,7 @@ technologies = {
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1223,6 +1184,9 @@ technologies = {
 			category_fighter = {
 				air_agility = 0.10
 			}
+			category_heavy_fighter = {
+				air_agility = 0.10
+			}
 			air_training_xp_gain_factor = 0.1
 		###########
 		
@@ -1232,8 +1196,7 @@ technologies = {
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1268,8 +1231,7 @@ technologies = {
 		}		
 			
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1305,8 +1267,7 @@ technologies = {
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1342,8 +1303,7 @@ technologies = {
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1377,8 +1337,7 @@ technologies = {
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1413,8 +1372,7 @@ technologies = {
 		}
 		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1442,10 +1400,8 @@ technologies = {
 		air_strategic_bomber_defence_factor = 0.2
 		###########
 		
-		
 		xp_research_type = air
-		xp_research_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		

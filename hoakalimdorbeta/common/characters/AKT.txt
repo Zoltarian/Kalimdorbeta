@@ -1,0 +1,19 @@
+characters={
+
+	AKT_warmother_nagla = {
+		name = AKT_warmother_nagla
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/AKT/warmother_nagla.dds" 
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_WARMOTHER_NAGLA_DESC"
+			traits = { }
+			id = -1
+		}
+
+	}
+
+}

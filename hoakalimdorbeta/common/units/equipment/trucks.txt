@@ -1,0 +1,43 @@
+equipments = {
+
+	motorized_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		active = yes
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 12
+		reliability = 0.8
+		hardness = 0.2
+
+		breakthrough = 10
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2.5
+		resources = {
+			ores = 1
+			wood = 2
+		}
+
+		supply_truck = yes
+	}
+
+	motorized_equipment_1 = {
+		year = 1936
+
+		archetype = motorized_equipment
+		priority = 30			
+	}
+
+}

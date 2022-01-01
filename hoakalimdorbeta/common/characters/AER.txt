@@ -1,0 +1,89 @@
+characters={
+	
+	AER_kurdran_wildhammer = {
+		name = AER_kurdran_wildhammer
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/AER/kurdran.dds" 
+			}
+			army = {
+				large = "gfx/leaders/AER/kurdran.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_THANE_KURDRAN_WILDHAMMER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_THANE_KURDRAN_WILDHAMMER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AER_falstad_wildhammer = {
+		name = AER_falstad_wildhammer
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/AER/falstad.dds" #need portrait
+			}
+			army = {
+				large = "gfx/leaders/AER/falstad.dds" #need portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_THANE_FALSTAD_WILDHAMMER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_THANE_FALSTAD_WILDHAMMER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AER_gryphon_master_talonaxe = {
+		name = AER_gryphon_master_talonaxe
+		portraits = {
+			army = {
+				large = "gfx/leaders/AER/Gryphon_Master_Talonaxe.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+}

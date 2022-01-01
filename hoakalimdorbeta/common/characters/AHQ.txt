@@ -1,0 +1,397 @@
+characters={
+
+	AHQ_cthun = {
+		name = AHQ_cthun
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/AHQ/cthun.dds" 
+			}
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_CTHUN_DESC"
+			traits = { old_gods_imprisoned_leader_trait }
+			id = -1
+		}
+
+	}
+
+	AHQ_emperor_veklor = {
+		name = AHQ_emperor_veklor
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/emperor_veklor.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_emperor_veknilash = {
+		name = AHQ_emperor_veknilash
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/emperor_veknilash.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_general_rajaxx = {
+		name = AHQ_general_rajaxx
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/general_rajaxx.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_prophet_skeram = {
+		name = AHQ_prophet_skeram
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/prophet_skeram.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_lord_kri = {
+		name = AHQ_lord_kri
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/lord_kri.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_battleguard_sartura = {
+		name = AHQ_battleguard_sartura
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/battleguard_sartura.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_ouro = {
+		name = AHQ_ouro
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/ouro.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_kurinnaxx = {
+		name = AHQ_kurinnaxx
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/kurinnaxx.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_captain_qeez = {
+		name = AHQ_captain_qeez
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/generic_qiraji_captain.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_captain_tuubid = {
+		name = AHQ_captain_tuubid
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/generic_qiraji_captain.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_captain_drenn = {
+		name = AHQ_captain_drenn
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/generic_qiraji_captain.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_captain_xurrem = {
+		name = AHQ_captain_xurrem
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/generic_qiraji_captain.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_major_yeggeth = {
+		name = AHQ_major_yeggeth
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/generic_qiraji_captain.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_major_pakkon = {
+		name = AHQ_major_pakkon
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/generic_qiraji_captain.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_colonel_zerran = {
+		name = AHQ_colonel_zerran
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/generic_qiraji_captain.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_buru_the_gorger = {
+		name = AHQ_buru_the_gorger
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/buru_the_gorger.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_ayamiss_the_hunter = {
+		name = AHQ_ayamiss_the_hunter
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/ayamiss_the_hunter.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_princess_yauj = {
+		name = AHQ_princess_yauj
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/princess_yauj.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_vem = {
+		name = AHQ_vem
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/vem.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_fankriss_the_unyielding = {
+		name = AHQ_fankriss_the_unyielding
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/fankriss_the_unyielding.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AHQ_princess_huhuran = {
+		name = AHQ_princess_huhuran
+		portraits = {
+			army = {
+				large = "gfx/leaders/AHQ/princess_huhuran.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+characters={
+
+	AGL_nat_pagle = {
+		name = AGL_nat_pagle
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/ANG/nat_pagle.dds"
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_NAT_PAGLE_DESC"
+			traits = {}
+			id = -1
+		}
+	}
+
+}

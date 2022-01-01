@@ -7,50 +7,115 @@ bookmarks = {
 		default_country = "STO"
 		default = yes
 		
-		"MAU"={
-			history = "MAU_FIRST_WAR_DESC"
-			ideology = neutral
+		"STO"={
+			history = "STO_FIRST_WAR_DESC"
+			ideology = alliance
+			ideas = {
+				STO_kobolds_in_the_mines
+				STO_unsatisfied_nobles
+				STO_over_reliance_on_medivh_3
+		    }
+
+		}
+		"BRC"={
+			history = "BRC_FIRST_WAR_DESC"
+			ideology = fel
+			ideas = {
+				BRC_ogrim_doomhammer
+				BRC_dreadmaul_clan_1
+				BRC_firegut_clan_1
+		    }
+		    focuses = {
+		    	BRC_a_new_world
+		    	BRC_blackhands_horde
+		    	BRC_doomhammers_horde
+		    }
+		}
+		
+		"TSC"={
+			history = "TSC_FIRST_WAR_DESC"
+			ideology = fel
 
 		}
 
-		"KAL"={
-			history = "KAL_FIRST_WAR_DESC"
-			ideology = neutral
+		"BHC"={
+			history = "BHC_FIRST_WAR_DESC"
+			ideology = fel
 
 		}
 
-		"AHQ"={
-			history = "AHQ_FIRST_WAR_DESC"
-			ideology = old_gods
+		"FWC"={
+			history = "FWC_FIRST_WAR_DESC"
+			ideology = fel
 
 		}
 
-		"RZF"={
-			history = "RZF_FIRST_WAR_DESC"
-			ideology = neutral
+		"THC"={
+			history = "THC_FIRST_WAR_DESC"
+			ideology = fel
 
 		}
 
-		"FAR"={
-			history = "FAR_FIRST_WAR_DESC"
-			ideology = old_gods
-
-		}
-
-		"SHD"={
-			history = "SHD_FIRST_WAR_DESC"
-			ideology = old_gods
-
-		}
-
-		"RKH"={
-			history = "RKH_FIRST_WAR_DESC"
-			ideology = old_gods
+		"DMC"={
+			history = "DMC_FIRST_WAR_DESC"
+			ideology = fel
 
 		}
 
 		"---"={
 			history = "OTHER_FIRST_WAR_DESC"
+		}
+
+		"BBC"={
+			minor = yes
+			history = "BBC_FIRST_WAR_DESC"
+			ideology = fel
+
+		}
+
+		"BTG"={
+			minor = yes
+			history = "BTG_FIRST_WAR_DESC"
+			ideology = fel
+
+		}
+
+		"GUR"={
+			minor = yes
+			history = "GUR_FIRST_WAR_DESC"
+			ideology = neutral
+		}
+
+		"IRO"={
+			minor = yes
+			history = "IRO_FIRST_WAR_DESC"
+			ideology = neutral
+			
+		    focuses = {
+		    	IRO_coalition_of_khaz_modan
+		    	IRO_interior_defense
+		    	IRO_exterior_defense
+		    }
+			
+		}
+		
+		"TSW"={
+			minor = yes
+			history = "TSW_FIRST_WAR_DESC"
+			ideology = neutral
+			
+		    focuses = {
+		    	TSW_call_from_below
+		    	TSW_heart_of_the_swamp
+		    	TSW_consume_the_green_skins
+		    }
+			
+		}
+
+		"LOR"={
+			minor = yes
+			history = "LOR_FIRST_WAR_DESC"
+			ideology = alliance
 		}
 
 		effect = {

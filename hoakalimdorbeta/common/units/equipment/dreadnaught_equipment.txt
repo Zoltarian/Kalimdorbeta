@@ -9,11 +9,6 @@ equipments = {
 		interface_category = interface_category_screen_ships
 		priority = 1900
 
-		upgrades = { }
-		module_slots = { }
-		module_count_limit = { }
-		default_modules = { }
-
 		sub_detection = 5 #0
 		lg_attack = 8 # doesnt follow normal increase of +2.85 to tier 2
 		hg_attack = 34.2 # +1.2

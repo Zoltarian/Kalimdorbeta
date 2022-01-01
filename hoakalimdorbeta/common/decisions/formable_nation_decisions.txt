@@ -601,7 +601,7 @@ form_union_of_three_hammers_category = {
 			}
 
 			ROOT = {
-				set_capital = 430
+				set_capital = { state = 430 }
 			}
 
 			news_event = {
@@ -704,7 +704,7 @@ form_wildhammer_clan_category = {
 			}
 
 			ROOT = {
-				set_capital = 500
+				set_capital = { state = 500 }
 			}
 
 			news_event = {
@@ -876,7 +876,7 @@ form_thunder_bluff_category = {
 			core_mulgore = yes
 
 			ROOT = {
-				set_capital = 81
+				set_capital = { state = 81 }
 			}
 
 			set_cosmetic_tag = THB

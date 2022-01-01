@@ -41,7 +41,7 @@ scripted_gui = {
 					set_temp_variable = { cost = var:move_capital_cost }
 					multiply_temp_variable = { cost = -1 }
 					add_political_power = cost
-					set_capital = move_capital_state
+					set_capital = { state = move_capital_state }
 					clear_variable = move_capital_state
 				}
 

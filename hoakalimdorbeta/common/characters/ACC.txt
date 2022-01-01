@@ -1,0 +1,18 @@
+characters={
+
+	ACC_archavon_the_stone_watcher = {
+		name = ACC_archavon_the_stone_watcher
+		portraits = {
+			civilian = { # no portrait
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+			}
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_ARCHAVON_THE_STONE_WATCHER_DESC"
+			traits = {}
+			id = -1
+		}
+	}
+
+}
