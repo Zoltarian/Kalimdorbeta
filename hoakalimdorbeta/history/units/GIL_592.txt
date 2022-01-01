@@ -37,12 +37,12 @@ division_template = {
 division_template = {
 	name = "Gilnean Sailors"
 	regiments = {
-		hoa_sailor = { x = 0 y = 0 }
-		hoa_sailor = { x = 0 y = 1 }
-		hoa_sailor = { x = 0 y = 2 }
-		hoa_sailor = { x = 1 y = 0 }
-		hoa_sailor = { x = 1 y = 1 }
-		hoa_sailor = { x = 1 y = 2 }
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
 	}
 	priority = 1
 }
