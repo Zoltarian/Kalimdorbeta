@@ -9,7 +9,7 @@ state={
 
 	history={
 		victory_points = { 5045 15 }
-		
+		owner = NRT
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -23,6 +23,6 @@ state={
 		1072 5026 5033 5040 5045 5050 5053 5064 
 	}
 	manpower=8375
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

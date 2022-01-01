@@ -4,12 +4,12 @@ state={
 	name="STATE_35"
 
 	history={
-		
+		owner = LOR
 		victory_points = {
 			1937 20
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 
@@ -17,13 +17,13 @@ state={
 		add_core_of = LOR
 
 		596.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 		}
 
 		600.1.1 = {
-			
+			owner = LOR
 			remove_core_of = STO
 		}
 
@@ -38,6 +38,6 @@ state={
 		706 1927 1928 1931 1933 1934 1935 1937 1940 1942 1943 1945 1959 5263 5840
 	}
 	manpower=55750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

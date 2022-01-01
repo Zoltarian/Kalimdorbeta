@@ -1,0 +1,20 @@
+state={
+	id=2128
+	name="STATE_2128"
+	impassable = yes
+
+	history={
+		owner = OOM
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OOM
+	}
+
+	provinces={
+		8197
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+}

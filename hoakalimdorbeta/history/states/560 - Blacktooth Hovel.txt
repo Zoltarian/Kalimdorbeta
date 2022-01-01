@@ -4,7 +4,7 @@ state={
 	name="STATE_560" #W. Pillar of Ash/ Blacktooth Hovel
 
 	history={
-		
+		owner = DIC
 		victory_points = {
 			4599 15 
 		}
@@ -13,7 +13,7 @@ state={
 
 		}
 		596.1.1 = {
-			
+			owner = BRC
 			controller = BRC
 			add_core_of = BRC
 
@@ -25,6 +25,6 @@ state={
 		909 1103 4589 4593 4597 4598 4599 4604 4606 4608 4610 4619 
 	}
 	manpower=10000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

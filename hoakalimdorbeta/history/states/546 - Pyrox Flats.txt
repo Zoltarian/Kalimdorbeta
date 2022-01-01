@@ -4,7 +4,7 @@ state={
 	name="STATE_546"
 
 	history={
-		
+		owner = DIC
 		victory_points = {
 			3951 15
 		}
@@ -15,14 +15,14 @@ state={
 		add_core_of = DIC
 		add_core_of = THR
 		596.1.1 = {
-			
+			owner = BRC
 			controller = BRC
 			add_core_of = BRC
 
 		}
 
 		617.1.1 = {
-			
+			owner = DIC
 			controller = DIC
 			add_core_of = DIC
 		}
@@ -32,6 +32,6 @@ state={
 		969 979 3936 3949 3951 3955 3959 3961 3962
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

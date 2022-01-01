@@ -17,7 +17,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			dockyard = 2
 			9323 = {
 				naval_base = 3
@@ -35,6 +35,6 @@ state={
 		8953 9323 9324 9326 9334
 	}
 	manpower=6000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

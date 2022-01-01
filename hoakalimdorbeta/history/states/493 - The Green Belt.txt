@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		victory_points = {
 			3684 10 
 		}
@@ -23,7 +23,7 @@ state={
 
 		}
 		617.1.1 = {
-			
+			owner = VMR
 			controller = VMR
 			add_core_of = VMR
 
@@ -35,6 +35,6 @@ state={
 		1073 3650 3655 3664 3671 3677 3680 3684 3697 3704 3707 3709 5317 5362 
 	}
 	manpower=7600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

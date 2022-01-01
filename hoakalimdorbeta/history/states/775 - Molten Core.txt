@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = MLC
 		victory_points = {
 			5769 30 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 5
 
@@ -25,6 +25,6 @@ state={
 		5768 5769 5770 5773 5775 5776 6369 
 	}
 	manpower=62000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

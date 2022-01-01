@@ -4,7 +4,7 @@ state={
 	name="STATE_2046"
 
 	history={
-		
+		owner = ZAN
 		add_core_of = ZAN
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		5743 15134 15145 15147 15479 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

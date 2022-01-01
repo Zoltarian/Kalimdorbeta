@@ -16,14 +16,14 @@ state={
 			12549 20
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			dockyard = 1
 			12530 = {
 				naval_base = 3
 			}
 		}
 		617.1.1 = {
-			
+			owner = AZS
 			controller = AZS
 			add_core_of = AZS
 
@@ -35,6 +35,6 @@ state={
 		12520 12524 12530 12531 12540 12542 12545 12547 12548 12549 12550 
 	}
 	manpower=11000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

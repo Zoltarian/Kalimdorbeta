@@ -4,7 +4,7 @@ state={
 	name="STATE_1831"
 
 	history={
-		
+		owner = SPR
 		add_core_of = SPR
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		8132 14382 14389 14410 14411 14789 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

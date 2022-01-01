@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = MOO
 		victory_points = {
 			8405 15 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 4
 
@@ -26,6 +26,6 @@ state={
 		8405 8540 8544 8546 8549 8551 8557 8561 8563 8564 8565 
 	}
 	manpower=48000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

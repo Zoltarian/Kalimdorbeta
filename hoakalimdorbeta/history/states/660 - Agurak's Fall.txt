@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = TLC
 		add_core_of = TLC
 		victory_points = {
 			9827 5 
@@ -31,6 +31,6 @@ state={
 		1939 6858 9825 9826 9827 9828 9829 9830 9831 9832 
 	}
 	manpower=17000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

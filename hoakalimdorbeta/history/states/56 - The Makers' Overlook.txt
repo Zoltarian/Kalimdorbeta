@@ -4,7 +4,7 @@ state={
 	name="STATE_56"
 
 	history={
-		
+		owner = SLW
 		add_core_of = SLW
 		
 		buildings = {
@@ -18,6 +18,6 @@ state={
 		10995
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

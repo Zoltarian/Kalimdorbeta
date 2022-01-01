@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = SFT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -26,6 +26,6 @@ state={
 		971 5889 5934 6070 
 	}
 	manpower=17000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

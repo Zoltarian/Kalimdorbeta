@@ -4,7 +4,7 @@ state={
 	name="STATE_2032"
 
 	history={
-		
+		owner = ZNE
 		add_core_of = ZNE
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		2427 15140 15146 15152 15155 15158 15164 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

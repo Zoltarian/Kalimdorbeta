@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = GIL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -25,6 +25,6 @@ state={
 		300 1406 1412 1418 1421 1423 1430 1431 1432 
 	}
 	manpower=23450
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

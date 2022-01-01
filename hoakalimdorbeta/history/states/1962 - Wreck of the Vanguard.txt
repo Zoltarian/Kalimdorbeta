@@ -4,7 +4,7 @@ state={
 	name="STATE_1962"
 
 	history={
-		
+		owner = SGT
 		add_core_of = SGT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		9216 13905 13959 13963 13974 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

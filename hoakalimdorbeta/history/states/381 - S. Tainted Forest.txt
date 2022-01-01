@@ -10,7 +10,7 @@ state={
 
 	history={
 	victory_points = { 2829 5 }
-		
+		owner = FWC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -19,7 +19,7 @@ state={
 		}
 		add_core_of = FWC
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 			remove_core_of = FWC
@@ -31,7 +31,7 @@ state={
 		}
 
 		617.1.1 = {
-			
+			owner = TBL
 			controller = TBL
 			add_core_of = TBL
 		}
@@ -41,6 +41,6 @@ state={
 		922 2773 2774 2775 2776 2777 2812 2813 2821 2829 2833 2836
 	}
 	manpower=46200
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1909"
 
 	history={
-		
+		owner = DOJ
 		add_core_of = DOJ
 		victory_points = {
 			13852 20
@@ -20,6 +20,6 @@ state={
 		9261 13830 13840 13842 13852 13856 13865 13872 13873 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

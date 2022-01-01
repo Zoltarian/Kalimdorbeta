@@ -9,7 +9,7 @@ state={
 	history={
 		owner = FAR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 
 		}
 		add_core_of = FAR
@@ -20,6 +20,6 @@ state={
 		6827 9430 9435 9438 9443 9445 9450 9457 9459 9461 9466 
 	}
 	manpower=4000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

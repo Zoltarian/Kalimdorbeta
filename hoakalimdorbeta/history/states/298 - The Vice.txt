@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = KAR
 		add_core_of = KAR
 		victory_points = {
 			785 10
@@ -29,6 +29,6 @@ state={
 		785 2266 2786 2790 2795 2796 2797 2798 2799 2800
 	}
 	manpower=2075
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

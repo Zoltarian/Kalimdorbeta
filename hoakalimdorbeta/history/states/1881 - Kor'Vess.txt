@@ -4,7 +4,7 @@ state={
 	name="STATE_1881"
 
 	history={
-		
+		owner = MAN
 		add_core_of = MAN
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		32 14177 14202 14207 14234 14240 14243 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

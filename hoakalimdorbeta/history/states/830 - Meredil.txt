@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		
+		owner = FAL
 		victory_points = {
-			8470 5 
+			8473 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -25,6 +25,6 @@ state={
 		8380 8448 8459 8469 8473 8497 
 	}
 	manpower=12000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

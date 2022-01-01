@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = BOO
 		victory_points = {
 			1571 20 
 		}
@@ -17,7 +17,7 @@ state={
 			500 5
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 			dockyard = 2
@@ -44,6 +44,6 @@ state={
 		500 1569 1570 1571 1572 1573 1626 5409 5410 5414 5572 5713 
 	}
 	manpower=53750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_7
 }

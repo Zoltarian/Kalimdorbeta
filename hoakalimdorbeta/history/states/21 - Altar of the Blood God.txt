@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = GUR
 		victory_points = {
 			399 30 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 2
 
@@ -26,6 +26,6 @@ state={
 		399 680 1328 2597 5625 
 	}
 	manpower=130250
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

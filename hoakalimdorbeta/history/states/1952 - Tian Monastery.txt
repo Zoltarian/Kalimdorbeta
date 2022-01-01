@@ -4,7 +4,7 @@ state={
 	name="STATE_1952"
 
 	history={
-		
+		owner = DOY
 		add_core_of = DOY
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		9184 9270 14163 14167 14287 14446 14451 14456 14467 14497 14499 14508 14526 14531 14536 14538 14560 14565 14569 14576 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

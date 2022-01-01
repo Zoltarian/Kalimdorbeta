@@ -13,7 +13,7 @@ state={
 			13603 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 
 		}
 
@@ -24,6 +24,6 @@ state={
 		12942 13603 13604 13613 13615 13617 
 	}
 	manpower=3000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = LOR
 		victory_points = {
 			704 10 
 		}
@@ -30,6 +30,6 @@ state={
 		704 2958 4322 4323 4347 4371 4381 4383 4386 5366 5372 
 	}
 	manpower=15350
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

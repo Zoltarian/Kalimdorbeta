@@ -9,9 +9,9 @@ state={
 	}
 
 	history={
-		
+		owner = BON
 		victory_points = {
-			9226 5 
+			9217 5 
 		}
 		buildings = {
 			infrastructure = 2
@@ -31,6 +31,6 @@ state={
 		779 9190 9191 9195 9199 9214 9217 9219 
 	}
 	manpower=33000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

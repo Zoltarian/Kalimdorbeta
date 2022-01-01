@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		
+		owner = TIN
 		victory_points = {
 			8314 20
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			dockyard = 2
 			industrial_complex = 1
@@ -30,6 +30,6 @@ state={
 		8122 8302 8306 8307 8309 8311 8314 8315 8316 8318 
 	}
 	manpower=15000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

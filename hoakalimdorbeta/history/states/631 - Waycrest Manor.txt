@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = KUL
 		victory_points = {
 			7215 20 
 		}
@@ -17,7 +17,7 @@ state={
 			7213 5
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			dockyard = 2
 			industrial_complex = 1
@@ -35,6 +35,6 @@ state={
 		7140 7206 7207 7208 7210 7211 7213 7215 7216 
 	}
 	manpower=55250
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

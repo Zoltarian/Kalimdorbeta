@@ -12,15 +12,12 @@ state={
 	}
 
 	history={
-		
+		owner = ZAN
 		victory_points = {
 			8788 30 
 		}
-		victory_points = {
-			8819 10 
-		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			industrial_complex = 6
 			arms_factory = 3
 
@@ -33,6 +30,6 @@ state={
 		8698 8772 8778 8783 8788 8791 8797 8804 
 	}
 	manpower=213000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_11
 }

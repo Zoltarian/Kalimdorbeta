@@ -4,7 +4,7 @@ state={
 	name="STATE_1565"
 
 	history={
-		
+		owner = AER
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
@@ -22,6 +22,6 @@ state={
 		428 3026 3027 3903 3904 5314 5403 5552 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

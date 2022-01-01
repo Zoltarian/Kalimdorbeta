@@ -4,7 +4,7 @@ state={
 	name="STATE_1854"
 
 	history={
-		
+		owner = BKT
 		add_core_of = BKT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		6133 14500 14501 14519 14523 14792 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

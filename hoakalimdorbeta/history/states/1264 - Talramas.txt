@@ -4,7 +4,7 @@ state={
 	name="STATE_1264"
 
 	history={
-		
+		owner = MMH
 		add_core_of = MMH
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		330 404 420 422 7786 7801 7804 8114 10986 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

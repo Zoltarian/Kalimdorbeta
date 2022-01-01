@@ -17,7 +17,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			arms_factory = 1
 			9626 = {
 				naval_base = 1
@@ -33,7 +33,7 @@ state={
 		}
 
 		620.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 
@@ -45,6 +45,6 @@ state={
 		1041 9626 9629 9631 9660
 	}
 	manpower=3000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

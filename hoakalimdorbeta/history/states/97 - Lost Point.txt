@@ -15,7 +15,7 @@ state={
 			8638 5 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
 
 		}
@@ -27,6 +27,6 @@ state={
 		5110 8638 9018 9019 9024 9031 9032 9035 9039 9045 
 	}
 	manpower=5000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

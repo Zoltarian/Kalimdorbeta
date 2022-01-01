@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BCC
 		add_core_of = BCC
 
 		victory_points = {
@@ -32,6 +32,6 @@ state={
 		6460 6486 6581 6623 6651 6653 6654 6657 6658 6659 6660 6661 6662 6663 6665 6666 10921
 	}
 	manpower=9000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

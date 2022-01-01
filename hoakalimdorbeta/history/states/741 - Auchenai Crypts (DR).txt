@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = AUC
 		add_core_of = AUC
 
 		victory_points = {
@@ -18,7 +18,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 1
 		}
@@ -35,6 +35,6 @@ state={
 		6807 10719 10721 10727
 	}
 	manpower=56000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

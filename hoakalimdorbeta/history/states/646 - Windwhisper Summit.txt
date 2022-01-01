@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = KUL
 		buildings = {
 			infrastructure = 2
 
@@ -22,6 +22,6 @@ state={
 		7109 7111 7117 7119 7123 7125 7127 7130 7131 
 	}
 	manpower=10950
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = ZUL
 		victory_points = {
 			4720 30 
 		}
@@ -15,7 +15,7 @@ state={
 			4737 10 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 6
 			4737 = {
@@ -37,6 +37,6 @@ state={
 		2999 4718 4720 4724 4727 4728 4729 4733 4737 4738 5300 5700 
 	}
 	manpower=203500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

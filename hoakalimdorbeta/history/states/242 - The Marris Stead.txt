@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		
+		owner = LOR
 		victory_points = {
 			4149 5 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 
 		}
@@ -36,6 +36,6 @@ state={
 		729 4128 4129 4135 4149 4169 4187 4206 4211 7491 
 	}
 	manpower=10525
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

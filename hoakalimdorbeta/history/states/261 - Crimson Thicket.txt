@@ -9,9 +9,9 @@ state={
 	}
 
 	history={
-		
+		owner = DRK
 		victory_points = {
-			8492 5 
+			8489 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -26,6 +26,6 @@ state={
 		8463 8489 8493 8508 8516 8526 8527 
 	}
 	manpower=12000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

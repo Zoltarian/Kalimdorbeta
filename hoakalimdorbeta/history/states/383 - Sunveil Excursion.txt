@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = THC
 		add_core_of = THC
 
 		victory_points = {
@@ -22,7 +22,7 @@ state={
 		}
 
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 			remove_core_of = THC
@@ -45,6 +45,6 @@ state={
 		927 2823 2824 2831 5327
 	}
 	manpower=32900
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

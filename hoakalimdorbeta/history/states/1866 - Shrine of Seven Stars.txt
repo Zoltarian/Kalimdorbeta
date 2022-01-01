@@ -4,7 +4,7 @@ state={
 	name="STATE_1866"
 
 	history={
-		
+		owner = TGL
 		add_core_of = TGL
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		8182 14213 14216 14219 14241 14263 14269 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

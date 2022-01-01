@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = DST
 		victory_points = {
 			7385 20
 		}
@@ -39,6 +39,6 @@ state={
 		767 7379 7380 7381 7382 7383 7384 7385 7386 7387 7388 7391 7392 7393 7394 
 	}
 	manpower=138000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

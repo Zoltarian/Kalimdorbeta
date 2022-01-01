@@ -4,16 +4,16 @@ state={
 	name="STATE_133"
 
 	history={
-		
+		owner = STR
 		add_core_of = STR
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 		}
 		
 		617.1.1 = {
-			
+			owner = BFC
 			controller = BFC
 			add_core_of = BFC
 		}
@@ -23,6 +23,6 @@ state={
 		1920 1923 1981 3625 3676 3698
 	}
 	manpower=35675
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

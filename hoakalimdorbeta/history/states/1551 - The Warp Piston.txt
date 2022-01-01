@@ -13,11 +13,10 @@ state={
 			2980 10
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			2980 = {
 				naval_base = 1
 			}
-
 
 		}
 		add_core_of = BLS
@@ -28,6 +27,6 @@ state={
 		2980 11292 
 	}
 	manpower=3000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

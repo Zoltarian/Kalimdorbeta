@@ -4,7 +4,7 @@ state={
 	name="STATE_1868"
 
 	history={
-		
+		owner = MGE
 		add_core_of = MGE
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		8185 14320 14326 14358 14359 14392 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

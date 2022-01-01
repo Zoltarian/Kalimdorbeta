@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		
+		owner = ICM
 		add_core_of = ICM
 
 	}
@@ -17,6 +17,6 @@ state={
 		291 10932 13359 13361 13376 13385 13393 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

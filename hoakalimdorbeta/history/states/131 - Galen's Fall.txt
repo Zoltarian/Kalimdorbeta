@@ -4,7 +4,7 @@ state={
 	name="STATE_131" #Thoradin Plains/Galen's Fall
 
 	history={
-		
+		owner = STR
 		victory_points = {
 			607 5
 		}
@@ -21,6 +21,6 @@ state={
 		607 1753 1754 1755 1757 1758 
 	}
 	manpower=16325
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1918"
 
 	history={
-		
+		owner = SHP
 		add_core_of = SHP
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		8523 13799 13883 13908 13962 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

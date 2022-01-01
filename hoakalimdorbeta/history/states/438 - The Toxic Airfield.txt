@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			4042 10 
 		}
-		
+		owner = GNO
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -26,6 +26,6 @@ state={
 		1004 2946 4042 4044 4052 
 	}
 	manpower=15725
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

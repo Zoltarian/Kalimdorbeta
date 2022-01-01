@@ -10,14 +10,14 @@ state={
 		victory_points = {
 			5918 20 
 		}
-		
+		owner = NRT
 		buildings = {
 			infrastructure = 3
 
 		}
 		add_core_of = NRT
 		596.1.1 = {
-			
+			owner = DMC
 			controller = DMC
 			add_core_of = DMC
 
@@ -29,6 +29,6 @@ state={
 		4665 4899 4906 4909 4913 4924 4932 4936 4946 5918 
 	}
 	manpower=14175
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

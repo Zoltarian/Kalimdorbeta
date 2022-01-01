@@ -4,7 +4,7 @@ state={
 	name="STATE_1773"
 
 	history={
-		
+		owner = MWH
 		add_core_of = MWH
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		8175 9335 13289 13297 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

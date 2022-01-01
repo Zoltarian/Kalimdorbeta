@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		
+		owner = AER
 		victory_points = {
 			2108 25 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			industrial_complex = 4
 			arms_factory = 3
 			air_base = 10
@@ -44,6 +44,6 @@ state={
 		623 790 1683 2082 2085 2088 2098 2101 2108 2111 2177 2178 3023 5539 
 	}
 	manpower=308475
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

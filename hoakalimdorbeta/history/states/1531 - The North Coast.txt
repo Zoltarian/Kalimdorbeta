@@ -4,7 +4,7 @@ state={
 	name="STATE_1531"
 
 	history={
-		
+		owner = LOR
 		buildings = {
 			infrastructure = 4
 			4384 = {
@@ -25,6 +25,6 @@ state={
 		694 4344 4384 4385 4387 4397
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

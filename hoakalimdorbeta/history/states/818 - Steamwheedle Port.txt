@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		
+		owner = STC
 		victory_points = {
 			8260 20 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 1
 			dockyard = 4
@@ -31,6 +31,6 @@ state={
 		8253 8256 8260 8262 8266 8268 8270 8276 8279 
 	}
 	manpower=134000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_12
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = DIC
 		victory_points = {
 			4819 5
 		}
@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = DIC
 		596.1.1 = {
-			
+			owner = BBC
 			controller = BBC
 			add_core_of = BBC
 
@@ -34,6 +34,6 @@ state={
 		972 981 4810 4813 4819 4823 4835
 	}
 	manpower=10700
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

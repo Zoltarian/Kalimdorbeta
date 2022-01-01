@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = ALT
 		victory_points = {
 			1884 10 
 		}
@@ -30,6 +30,6 @@ state={
 		1879 1884 1885 3462 5185 5188 
 	}
 	manpower=13225
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

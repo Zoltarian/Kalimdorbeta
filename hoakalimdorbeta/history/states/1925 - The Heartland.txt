@@ -4,7 +4,7 @@ state={
 	name="STATE_1925"
 
 	history={
-		
+		owner = TIL
 		add_core_of = TIL
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		1609 13998 14024 14038 14053 14088 14091 14093 14101 14109 14121 14133 14145 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

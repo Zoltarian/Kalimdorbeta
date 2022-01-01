@@ -13,7 +13,7 @@ state={
 		}
 
 		617.1.1 = {
-			
+			owner = STM
 			controller = STM
 			add_core_of = STM
 		}
@@ -23,6 +23,6 @@ state={
 		1463
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

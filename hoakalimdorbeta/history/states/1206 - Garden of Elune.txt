@@ -4,7 +4,7 @@ state={
 	name="STATE_1206"
 
 	history={
-		
+		owner = FAN
 		add_core_of = FAN
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		1681 4432 4450 5427 8942 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

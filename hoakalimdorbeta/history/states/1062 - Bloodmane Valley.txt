@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = SHC
 		add_core_of = SHC
 
 		victory_points = {
@@ -37,6 +37,6 @@ state={
 		10416 10490 10491 10492 10493 10495 10496 10497 10500 10850
 	}
 	manpower=38000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1219"
 
 	history={
-		
+		owner = ACC
 		add_core_of = ACC
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		8156 8420 8426 8429 8545 8548 10958 10959 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

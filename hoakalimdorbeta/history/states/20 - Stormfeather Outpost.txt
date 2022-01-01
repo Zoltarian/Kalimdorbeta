@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = AER
 		victory_points = {
 			3891 15 
 		}
@@ -28,6 +28,6 @@ state={
 		3873 3880 3890 3891 3892 3894 3899 3900 3902 3924 
 	}
 	manpower=43000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

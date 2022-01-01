@@ -4,7 +4,7 @@ state={
 	name="STATE_1975"
 
 	history={
-		
+		owner = BDS
 		add_core_of = BDS
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		9177 14270 14276 14281 14292 14300 14308 14319 14323 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

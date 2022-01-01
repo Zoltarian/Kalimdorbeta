@@ -4,9 +4,9 @@ state={
 	name="STATE_499"
 
 	history={
-		
+		owner = VMR
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 
 		}
 		add_core_of = VMR
@@ -17,6 +17,6 @@ state={
 		1063 4876 4878 4881 4882 4883 4884 4885 4886 4989 5929 5945 5971 
 	}
 	manpower=6025
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

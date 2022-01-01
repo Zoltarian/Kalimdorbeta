@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = TSW
 		victory_points = {
 			2629 5
 		}
@@ -18,14 +18,14 @@ state={
 		}
 		add_core_of = TSW
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 
 		}
 
 		617.1.1 = {
-			
+			owner = TSW
 			controller = TSW
 			add_core_of = TSW
 		}
@@ -36,6 +36,6 @@ state={
 		945 2629 2630 2643 2646 2655 2668
 	}
 	manpower=9000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

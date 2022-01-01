@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = DST
 		victory_points = {
 			5581 5
 		}
@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = DST
 		596.1.1 = {
-			
+			owner = GUR
 			controller = GUR
 			add_core_of = GUR
 			remove_core_of = DST
@@ -37,6 +37,6 @@ state={
 		742 1632 1635 1639 1640 1690 1692 2715 5581 5582
 	}
 	manpower=11525
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

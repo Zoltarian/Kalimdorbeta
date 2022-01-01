@@ -4,7 +4,7 @@ state={
 	name="STATE_1567"
 
 	history={
-		
+		owner = STR
 		buildings = {
 			infrastructure = 4
 			1728 = {
@@ -21,6 +21,6 @@ state={
 		1728 1730 1731 1733 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

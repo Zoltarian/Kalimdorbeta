@@ -4,7 +4,7 @@ state={
 	name="STATE_1283"
 
 	history={
-		
+		owner = BPT
 		add_core_of = BPT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		444 5352 7774 7803 8062 8066 8071 10964 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

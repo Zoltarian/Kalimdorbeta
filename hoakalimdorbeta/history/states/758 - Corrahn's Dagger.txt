@@ -4,7 +4,7 @@ state={
 	name="STATE_758"
 
 	history={
-		
+		owner = ALT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -23,6 +23,6 @@ state={
 		1825 1826 1830 1832 1874 5173 
 	}
 	manpower=3824
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

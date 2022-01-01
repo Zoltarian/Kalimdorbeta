@@ -4,7 +4,7 @@ state={
 	name="STATE_563" #E. Pillar of Ash/ Pillar of Ash/ Chiselgrip
 
 	history={
-		
+		owner = DIC
 		victory_points = {
 			188 10
 		}
@@ -13,7 +13,7 @@ state={
 
 		}
 		596.1.1 = {
-			
+			owner = BRC
 			controller = BRC
 			add_core_of = BRC
 
@@ -25,6 +25,6 @@ state={
 		188 910 4590 4595 4600 4605 4609 4616 4621 6311 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

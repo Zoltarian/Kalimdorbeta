@@ -4,7 +4,7 @@ state={
 	name="STATE_1825"
 
 	history={
-		
+		owner = PWT
 		add_core_of = PWT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		6061 14357 14391 14401 14412 14415 14421 14449 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

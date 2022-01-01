@@ -4,7 +4,7 @@ state={
 	name="STATE_1213"
 
 	history={
-		
+		owner = AZB
 		add_core_of = AZB
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		3216 3225 3471 4268 4700 5817 8951 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

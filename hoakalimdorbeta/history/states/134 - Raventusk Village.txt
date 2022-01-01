@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = VIL
 		add_core_of = VIL
 		add_core_of = RTT
 		victory_points = {
@@ -30,6 +30,6 @@ state={
 		3820 3823 3825 3837 3842 
 	}
 	manpower=33500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

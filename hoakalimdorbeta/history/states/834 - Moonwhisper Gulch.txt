@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = MOO
 		victory_points = {
 			8542 5 
 		}
@@ -25,6 +25,6 @@ state={
 		8511 8525 8529 8532 8534 8538 8542 8547 8552 8555 
 	}
 	manpower=17000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

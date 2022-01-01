@@ -4,7 +4,7 @@ state={
 	name="STATE_1613" #Tkashi River/Nesingwary's Expedition
 
 	history={
-		
+		owner = BLO
 		victory_points = {
 			5575 5
 		}
@@ -20,6 +20,6 @@ state={
 		1675 1677 5575 5662 6942 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

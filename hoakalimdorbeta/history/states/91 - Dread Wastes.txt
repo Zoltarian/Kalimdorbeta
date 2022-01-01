@@ -4,7 +4,7 @@ state={
 	name="STATE_91"
 
 	history={
-		
+		owner = MAN
 		add_core_of = MAN
 
 	}
@@ -13,6 +13,6 @@ state={
 		7302 13975 13985 13995 14020 14032 14033 14051 14064 14072 14082 14092 14105 14106 14119 14123 14130 14140 14147 14152 14153 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

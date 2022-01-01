@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = MOK
 		add_core_of = MOK
 
 		victory_points = {
@@ -35,6 +35,6 @@ state={
 		876 8672 10577 10578
 	}
 	manpower=7600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

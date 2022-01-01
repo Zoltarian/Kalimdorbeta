@@ -4,7 +4,7 @@ state={
 	name="STATE_1237"
 
 	history={
-		
+		owner = AZJ
 		add_core_of = AZJ
 		buildings = {
 			infrastructure = 1
@@ -22,6 +22,6 @@ state={
 		13517 13519 13520
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

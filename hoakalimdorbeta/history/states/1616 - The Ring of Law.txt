@@ -4,7 +4,7 @@ state={
 	name="STATE_1616"
 
 	history={
-		
+		owner = DIC
 		victory_points = {
 			6225 20 
 		}
@@ -20,6 +20,6 @@ state={
 		6202 6210 6212 6215 6225 6344 6353 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

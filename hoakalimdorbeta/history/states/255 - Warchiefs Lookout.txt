@@ -3,14 +3,14 @@ state={
 	id=255
 	name="STATE_255"
 	resources={
-		mounts = 12
-		ores = 6
+		mounts=12.000
+		ores=6.000
 	}
 
 	history={
-		
+		owner = OOM
 		victory_points = {
-			8201 5
+			8226 5 
 		}
 		buildings = {
 			infrastructure = 2
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		766 8201 8210 8212 8220 
+		462 766 8226 8230 8233 
 	}
 	manpower=12000
 	buildings_max_level_factor=1.000

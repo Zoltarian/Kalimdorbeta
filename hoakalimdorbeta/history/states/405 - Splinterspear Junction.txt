@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BHC
 		victory_points = {
 			2636 10
 		}
@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = BHC
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 
@@ -38,6 +38,6 @@ state={
 		948 2636 2649 2654 2660
 	}
 	manpower=71750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

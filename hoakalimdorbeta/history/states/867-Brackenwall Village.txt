@@ -15,13 +15,13 @@ state={
 			9089 5 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
 			arms_factory = 1
 
 		}
 		617.1.1 = {
-			
+			owner = STM
 			controller = STM
 			add_core_of = STM
 
@@ -33,6 +33,6 @@ state={
 		8642 9074 9082 9085 9087 9089 9092 9096 9097 9101 9103 9111 
 	}
 	manpower=20000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

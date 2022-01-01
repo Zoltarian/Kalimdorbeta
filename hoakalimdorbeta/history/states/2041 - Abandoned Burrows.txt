@@ -4,7 +4,7 @@ state={
 	name="STATE_2041"
 
 	history={
-		
+		owner = VOL
 		add_core_of = VOL
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		13754 15243 15251 15260 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1809"
 
 	history={
-		
+		owner = SZC
 		add_core_of = SZC
 
 		buildings = {
@@ -16,6 +16,6 @@ state={
 		35 204 7666 7691 7713
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

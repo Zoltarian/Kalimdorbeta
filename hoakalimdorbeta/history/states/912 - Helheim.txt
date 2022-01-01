@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		
+		owner = HEL
 		victory_points = {
-			8679 20 
+			9260 20 
 		}
 		buildings = {
 			infrastructure = 5
@@ -25,6 +25,6 @@ state={
 		9248 9255 9260 9264 
 	}
 	manpower=65000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

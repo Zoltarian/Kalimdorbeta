@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BCC
 		add_core_of = BCC
 
 		victory_points = {
@@ -16,7 +16,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 			6534 = {
 				naval_base = 2
@@ -35,6 +35,6 @@ state={
 		6456 6458 6533 6534 6535 6536 6537 6539 6540 6541 6543 6545 6546 6547 6550 6554 6556 6557 6558 6562 6570
 	}
 	manpower=46000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

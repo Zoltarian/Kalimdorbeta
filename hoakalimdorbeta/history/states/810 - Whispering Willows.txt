@@ -4,12 +4,12 @@ state={
 	name="STATE_810"
 
 	history={
-		
+		owner = AZS
 		victory_points = {
 			8141 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 			dockyard = 1
@@ -27,6 +27,6 @@ state={
 		8125 8129 8133 8134 8139 8141 8144 8146 8147 8152 
 	}
 	manpower=73000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

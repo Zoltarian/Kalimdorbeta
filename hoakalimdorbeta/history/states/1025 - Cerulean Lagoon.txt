@@ -4,7 +4,7 @@ state={
 	name="STATE_1025"
 
 	history={
-		
+		owner = BRK
 		add_core_of = BRK
 
 		victory_points = {
@@ -31,6 +31,6 @@ state={
 		6335 9820 9822 9823
 	}
 	manpower=36000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

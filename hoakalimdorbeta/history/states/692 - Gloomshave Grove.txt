@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = SMC
 		add_core_of = SMC
 
 		buildings = {
@@ -28,6 +28,6 @@ state={
 		6680 6764 6766 6774 6776 6780 6781 6825
 	}
 	manpower=5000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

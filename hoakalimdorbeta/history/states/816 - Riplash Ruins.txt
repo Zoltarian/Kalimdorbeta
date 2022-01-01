@@ -8,11 +8,11 @@ state={
 	}
 
 	history={
-		
+		owner = SKA
 		add_core_of = SKA
 
 		victory_points = {
-			8250 10
+			8245 10
 		}
 
 		buildings = {
@@ -30,6 +30,6 @@ state={
 		8236 8237 8238 8239 8244 8245 8246
 	}
 	manpower=32000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

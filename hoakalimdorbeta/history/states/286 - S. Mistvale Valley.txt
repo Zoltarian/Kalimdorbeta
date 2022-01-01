@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BOO
 		victory_points = {
 			1633 5
 		}
@@ -30,6 +30,6 @@ state={
 		1628 1629 1631 1633 1688 5577 5579 6947 
 	}
 	manpower=11200
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

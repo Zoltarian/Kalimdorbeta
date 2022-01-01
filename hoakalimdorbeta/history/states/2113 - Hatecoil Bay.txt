@@ -4,7 +4,7 @@ state={
 	name="STATE_2113"
 
 	history={
-		
+		owner = ASG
 		add_core_of = ASG
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		593 598 2987 5527 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		
+		owner = QUE
 		victory_points = {
 			3239 5 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 
 		}
@@ -24,6 +24,6 @@ state={
 		645 3215 3219 3237 3239 5450 
 	}
 	manpower=13275
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

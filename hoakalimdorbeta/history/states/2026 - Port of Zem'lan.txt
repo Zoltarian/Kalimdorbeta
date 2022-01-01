@@ -4,7 +4,7 @@ state={
 	name="STATE_2026"
 
 	history={
-		
+		owner = ZLC
 		add_core_of = ZLC
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		7419 8696 8705 8825 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

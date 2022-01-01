@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = KAR
 		add_core_of = KAR
 
 		victory_points = {
@@ -27,7 +27,7 @@ state={
 		}
 
 		617.1.1 = {
-			
+			owner = DAL
 			controller = DAL
 			add_core_of = DAL
 		}
@@ -37,6 +37,6 @@ state={
 		161 2787 2788 2789 2791 2792 2793 2794
 	}
 	manpower=27175
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

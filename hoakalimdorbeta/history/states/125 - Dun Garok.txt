@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = SPC
 		victory_points = {
 			1739 15 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 3
 			1741 = {
@@ -34,6 +34,6 @@ state={
 		1736 1737 1739 1741 1742 1744 1745 1746 
 	}
 	manpower=75500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_7
 }

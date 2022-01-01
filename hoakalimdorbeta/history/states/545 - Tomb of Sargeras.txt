@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = TMB
 		victory_points = {
 			6079 30 
 		}
@@ -25,6 +25,6 @@ state={
 		6060 6067 6069 6072 6077 6079 6080 
 	}
 	manpower=28000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

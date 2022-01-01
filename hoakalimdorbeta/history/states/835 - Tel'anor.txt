@@ -9,9 +9,9 @@ state={
 	}
 
 	history={
-		
+		owner = WIT
 		victory_points = {
-			8512 10 
+			8403 10 
 		}
 		buildings = {
 			infrastructure = 4
@@ -27,6 +27,6 @@ state={
 		8403 8475 8487 8515 8521 8533 8536 8537 
 	}
 	manpower=63000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_7
 }

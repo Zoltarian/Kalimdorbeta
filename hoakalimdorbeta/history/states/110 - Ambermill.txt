@@ -8,19 +8,19 @@ state={
 	}
 
 	history={
-		
+		owner = GIL
 		victory_points = {
 			2131 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 
 		}
 		add_core_of = GIL
 		617.1.1 = {
-			
+			owner = DAL
 			controller = DAL
 			add_core_of = DAL
 
@@ -32,6 +32,6 @@ state={
 		686 1952 1953 1958 1961 1973 2129 2131 2139 2974 5179 
 	}
 	manpower=18900
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = GAR
 		add_core_of = GAR
 
 		victory_points = {
@@ -31,6 +31,6 @@ state={
 		6346 6436 9870 10473 10474 10475 10476 10477 10478
 	}
 	manpower=4600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

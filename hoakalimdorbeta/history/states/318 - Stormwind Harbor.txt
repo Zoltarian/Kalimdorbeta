@@ -12,9 +12,9 @@ state={
 	victory_points = { 
 		2395 15
  	}
-		
+		owner = STO
 		buildings = {
-			infrastructure = 8	
+			infrastructure = 5	
 			dockyard = 6
 			radar_station = 1
 			
@@ -38,7 +38,7 @@ state={
 
 		}
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 
@@ -50,6 +50,6 @@ state={
 		810 2381 2387 2390 2395 2399 2403 2405 2409 2411 
 	}
 	manpower=32000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

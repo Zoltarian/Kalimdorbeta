@@ -4,7 +4,7 @@ state={
 	name="STATE_90"
 
 	history={
-		
+		owner = OLT
 		add_core_of = OLT
 
 	}
@@ -13,6 +13,6 @@ state={
 		71 14546 14561 14566 14573 14593 14594 14766 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

@@ -17,13 +17,13 @@ state={
 			12249 10
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 			arms_factory = 1
 		}
 
 		617.1.1 = {
-			
+			owner = TVC
 			controller = TVC
 			add_core_of = TVC
 		}
@@ -33,6 +33,6 @@ state={
 		1547 1549 12196 12197 12198 12204 12212 12213 12218 12220 12229 12249 12250
 	}
 	manpower=16300
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

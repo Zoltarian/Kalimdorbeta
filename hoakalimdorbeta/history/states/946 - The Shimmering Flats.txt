@@ -12,7 +12,7 @@ state={
 			9541 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			9550 = {
 				naval_base = 1
 			}
@@ -26,6 +26,6 @@ state={
 		9528 9535 9536 9539 9541 9543 9544 9548 9549 9550 9551 9553 9559 9565 9571 
 	}
 	manpower=5000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

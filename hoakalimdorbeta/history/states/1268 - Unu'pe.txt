@@ -4,7 +4,7 @@ state={
 	name="STATE_1268"
 
 	history={
-		
+		owner = KLK
 		add_core_of = KLK
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		329 7751 7753 7759 7771 7783 7785 10975 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

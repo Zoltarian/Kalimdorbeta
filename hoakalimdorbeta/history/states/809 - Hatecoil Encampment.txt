@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = AZS
 		victory_points = {
 			8138 30 
 		}
@@ -27,6 +27,6 @@ state={
 		8124 8138 8180 8183 8186 8187 
 	}
 	manpower=96000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

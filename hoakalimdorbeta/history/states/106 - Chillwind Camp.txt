@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			1916 5 
 		}
-		
+		owner = ALT
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -30,6 +30,6 @@ state={
 		1908 1916 1917 2983 2985 2988 2991 5197 7457 7479 7481 
 	}
 	manpower=4825
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

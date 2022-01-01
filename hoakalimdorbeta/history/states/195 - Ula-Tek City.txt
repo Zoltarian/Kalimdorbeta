@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = SMR
 		victory_points = {
 			4778 20 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 6
 			dockyard = 3
@@ -38,6 +38,6 @@ state={
 		454 678 4771 4775 4776 4777 4778 4779 4780 4781 5729 5730 7129 13725 
 	}
 	manpower=256750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_12
 }

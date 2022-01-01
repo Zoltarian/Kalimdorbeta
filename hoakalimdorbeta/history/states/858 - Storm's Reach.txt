@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		
+		owner = SRD
 		victory_points = {
-			9287 5 
+			8614 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -28,6 +28,6 @@ state={
 		8614 9271 9272 9276 9278 9280 9285 9289 
 	}
 	manpower=12000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

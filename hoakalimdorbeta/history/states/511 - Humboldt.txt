@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			5060 5 
 		}
-		
+		owner = NRT
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -25,6 +25,6 @@ state={
 		1092 5047 5055 5060 5063 
 	}
 	manpower=22325
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

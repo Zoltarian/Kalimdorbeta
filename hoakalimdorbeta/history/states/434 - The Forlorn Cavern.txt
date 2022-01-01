@@ -8,9 +8,9 @@ state={
 
 	history={
 	victory_points = { 1107 5 }
-		
+		owner = IRO
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 
 		}
 		add_core_of = IRO
@@ -21,6 +21,6 @@ state={
 		1107 3813 3815 3816 5944 
 	}
 	manpower=8425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		victory_points = {
 			3495 15 
 		}
@@ -18,13 +18,13 @@ state={
 		}
 		add_core_of = IRO
 		596.1.1 = {
-			
+			owner = BHC
 			controller = BHC
 			add_core_of = BHC
 
 		}
 		600.1.1 = {
-			
+			owner = IRO
 			remove_core_of = BHC
 
 		}
@@ -35,6 +35,6 @@ state={
 		3488 3489 3495 3510 3516 5876 5879 5886 
 	}
 	manpower=18550
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

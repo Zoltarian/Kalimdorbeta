@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		add_core_of = IRO
 
 		buildings = {
@@ -21,7 +21,7 @@ state={
 		}
 
 		617.1.1 = {
-			
+			owner = IRO
 			controller = IRO
 			add_core_of = IRO
 		}
@@ -31,6 +31,6 @@ state={
 		251 3688 3689 3696 5980 6003 6006
 	}
 	manpower=3775
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

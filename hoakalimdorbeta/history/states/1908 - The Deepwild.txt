@@ -4,7 +4,7 @@ state={
 	name="STATE_1908"
 
 	history={
-		
+		owner = RBT
 		add_core_of = RBT
 		victory_points = {
 			13832 5
@@ -20,6 +20,6 @@ state={
 		7405 13783 13804 13821 13826 13832 13838 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

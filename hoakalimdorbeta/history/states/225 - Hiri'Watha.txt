@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = WBT
 		victory_points = {
 			3860 10 
 		}
@@ -28,6 +28,6 @@ state={
 		3042 3845 3847 3856 3860 3867 3868 3871 3876 5537 7223 
 	}
 	manpower=18775
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

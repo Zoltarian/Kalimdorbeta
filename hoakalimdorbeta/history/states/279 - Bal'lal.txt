@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			1661 10
 		}
-		
+		owner = BLO
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -30,6 +30,6 @@ state={
 		760 1656 1661 1664 1668 
 	}
 	manpower=42000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

@@ -4,12 +4,12 @@ state={
 	name="STATE_1385"
 
 	history={
-		
+		owner = BDF
 		victory_points = {
 			3350 10
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 
 		}
 		add_core_of = BDF
@@ -20,6 +20,6 @@ state={
 		293 629 1273 1274 2144 3335 3336 3337 3350 3379 6837 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

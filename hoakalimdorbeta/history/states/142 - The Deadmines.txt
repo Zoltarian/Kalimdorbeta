@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		victory_points = {
 			1714 20
 		}
@@ -30,7 +30,7 @@ state={
 
 		}
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 
@@ -49,6 +49,6 @@ state={
 		611 1709 1714 1720 1721 5524 6905 
 	}
 	manpower=21000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

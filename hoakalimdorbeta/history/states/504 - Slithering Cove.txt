@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = NRT
 		buildings = {
 			infrastructure = 3
 			5015 = {
@@ -35,6 +35,6 @@ state={
 		241 4990 4999 5004 5007 5008 5011 5015 5016 5022 5024 5810 
 	}
 	manpower=8425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

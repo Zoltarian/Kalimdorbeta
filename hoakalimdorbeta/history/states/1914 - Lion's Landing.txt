@@ -4,7 +4,7 @@ state={
 	name="STATE_1914"
 
 	history={
-		
+		owner = KRA
 		add_core_of = KRA
 		victory_points = {
 			13862 15
@@ -20,6 +20,6 @@ state={
 		8418 13862 13889 13890 13894 13897 13917 13923 13925 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

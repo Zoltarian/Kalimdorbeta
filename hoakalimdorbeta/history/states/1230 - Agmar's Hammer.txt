@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		
+		owner = AZJ
 		add_core_of = AZJ
 
 		620.1.1 = {
@@ -23,6 +23,6 @@ state={
 		10934 13339 13340 13344 13364 13367 13394 13406 13430 13433
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

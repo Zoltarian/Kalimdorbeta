@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = DRK
 		add_core_of = DRK
 
 		buildings = {
@@ -24,6 +24,6 @@ state={
 		8586 8888 9151 9155 9164 9168
 	}
 	manpower=13000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

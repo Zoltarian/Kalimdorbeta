@@ -3,20 +3,21 @@ state={
 	id=828
 	name="STATE_828"
 	resources={
-		oil = 12
+		oil=12.000
 	}
 
 	history={
-		
+		owner = OOM
 		victory_points = {
-			8232 5
+			8155 5 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
-			8232 = {
-				naval_base = 2
+			8154 = {
+				naval_base = 1
+
 			}
 
 		}
@@ -25,7 +26,7 @@ state={
 	}
 
 	provinces={
-		8155 8227 8229 8232 
+		8154 8155 8220 8227 8232 
 	}
 	manpower=6400
 	buildings_max_level_factor=1.000

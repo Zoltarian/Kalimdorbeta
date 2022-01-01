@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = GIL
 		victory_points = {
 			1982 5
 		}
@@ -20,7 +20,7 @@ state={
 		add_core_of = GIL
 
 		617.1.1 = {
-			
+			owner = DAL
 			controller = DAL
 			add_core_of = DAL
 		}
@@ -30,6 +30,6 @@ state={
 		594 627 1798 1803 1982 2123 2127 2128 2134 2970 2971 2972 5235
 	}
 	manpower=6200
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

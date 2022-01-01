@@ -4,7 +4,7 @@ state={
 	name="STATE_729"
 
 	history={
-		
+		owner = GRN
 		add_core_of = GRN
 
 		victory_points = {
@@ -29,6 +29,6 @@ state={
 		10486 10580 10585 10590 10594 10599
 	}
 	manpower=50400
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

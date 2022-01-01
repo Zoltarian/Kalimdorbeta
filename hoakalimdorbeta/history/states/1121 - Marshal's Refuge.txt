@@ -13,7 +13,7 @@ state={
 			11326 15
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
 
 		}
 		add_core_of = TAR
@@ -24,6 +24,6 @@ state={
 		10840 11323 11326 11986
 	}
 	manpower=3000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

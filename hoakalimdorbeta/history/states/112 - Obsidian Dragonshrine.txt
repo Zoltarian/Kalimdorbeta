@@ -4,7 +4,7 @@ state={
 	name="STATE_112"
 
 	history={
-		
+		owner = BLF
 		buildings = {
 			infrastructure = 4
 
@@ -17,6 +17,6 @@ state={
 		13459 13461 13476 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

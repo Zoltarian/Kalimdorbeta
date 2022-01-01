@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		add_core_of = STO
 		add_core_of = WST
 
@@ -16,7 +16,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 1
@@ -29,7 +29,7 @@ state={
 		}
 
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 		}
@@ -45,6 +45,6 @@ state={
 		2300 2302 2303 2304 2305 2306 2307 2308 2309 2310 2311 2312 2313 2740
 	}
 	manpower=45000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

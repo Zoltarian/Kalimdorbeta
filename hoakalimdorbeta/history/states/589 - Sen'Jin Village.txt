@@ -18,7 +18,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 			9633 = {
 				naval_base = 3
@@ -26,7 +26,7 @@ state={
 		}
 
 		617.1.1 = {
-			
+			owner = DST
 			controller = DST
 			add_core_of = DST
 
@@ -38,6 +38,6 @@ state={
 		1046 9630 9633 9635 9636 9637 9639 9643 9646
 	}
 	manpower=4100
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1849"
 
 	history={
-		
+		owner = KTT
 		add_core_of = KTT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		2499 14604 14626 14633 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

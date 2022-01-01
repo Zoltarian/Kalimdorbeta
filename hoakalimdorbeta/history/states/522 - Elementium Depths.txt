@@ -8,14 +8,14 @@ state={
 		}
 
 	history={
-		
+		owner = NRT
 		buildings = {
 			infrastructure = 2
 
 		}
 		add_core_of = NRT
 		596.1.1 = {
-			
+			owner = DMC
 			controller = DMC
 			add_core_of = DMC
 
@@ -27,6 +27,6 @@ state={
 		998 4888 4890 4892 4897 4900 
 	}
 	manpower=5200
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

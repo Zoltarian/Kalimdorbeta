@@ -9,9 +9,9 @@ state={
 	}
 
 	history={
-		
+		owner = TID
 		victory_points = {
-			9301 15 
+			9310 15 
 		}
 		buildings = {
 			infrastructure = 3
@@ -31,6 +31,6 @@ state={
 		9296 9297 9298 9302 9305 9307 9310 
 	}
 	manpower=13500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

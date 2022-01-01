@@ -4,7 +4,7 @@ state={
 	name="STATE_426"
 
 	history={
-		
+		owner = GNO
 		add_core_of = GNO
 
 		victory_points = {
@@ -27,6 +27,6 @@ state={
 		320 1030 1341 1346 1353 2953 5222 6111 6122
 	}
 	manpower=35175
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

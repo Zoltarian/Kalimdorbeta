@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = CAB
 		add_core_of = CAB
 
 		victory_points = {
@@ -15,7 +15,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 		}
@@ -32,6 +32,6 @@ state={
 		6805 10707 10710
 	}
 	manpower=60000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

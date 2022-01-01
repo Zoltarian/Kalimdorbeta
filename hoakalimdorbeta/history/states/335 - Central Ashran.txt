@@ -10,7 +10,7 @@ state={
 
 
 	history={
-		
+		owner = WSC
 		add_core_of = WSC
 
 		victory_points = {
@@ -49,6 +49,6 @@ state={
 		833 6479 6515 6516 6517 6518 6519 6520 6521 6522 6523 6524 6525 6526 6635 6636 6965
 	}
 	manpower=9000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

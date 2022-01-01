@@ -4,7 +4,7 @@ state={
 	name="STATE_1907"
 
 	history={
-		
+		owner = AGL
 		add_core_of = AGL
 		victory_points = {
 			8394 10
@@ -20,6 +20,6 @@ state={
 		8394 13794 13797 13808 13815 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

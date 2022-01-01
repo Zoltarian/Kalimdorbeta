@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = SFT
 		add_core_of = SFT
 
 		victory_points = {
@@ -26,6 +26,6 @@ state={
 		6078 6090
 	}
 	manpower=2000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

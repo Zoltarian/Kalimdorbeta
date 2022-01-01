@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STR
 		add_core_of = STR
 
 		victory_points = {
@@ -15,7 +15,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 3
 		}
@@ -25,6 +25,6 @@ state={
 		1145 2015 2016 2020 2022 5124 5128
 	}
 	manpower=70800
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

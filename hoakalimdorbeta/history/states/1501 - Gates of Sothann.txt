@@ -13,7 +13,7 @@ state={
 			13176 5
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 
 		}
 		add_core_of = KAL
@@ -24,6 +24,6 @@ state={
 		9793 13059 13170 13173 13176 13180 13567 
 	}
 	manpower=3500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

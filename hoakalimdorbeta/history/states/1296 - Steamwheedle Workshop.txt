@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = STC
 		victory_points = {
 			8292 10
 		}
@@ -30,6 +30,6 @@ state={
 		8287 8288 8292 8303 
 	}
 	manpower=32000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

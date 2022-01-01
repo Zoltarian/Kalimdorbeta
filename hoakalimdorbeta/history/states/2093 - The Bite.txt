@@ -4,7 +4,7 @@ state={
 	name="STATE_2093"
 
 	history={
-		
+		owner = GIL
 		victory_points = {
 			864 5
 		}
@@ -23,6 +23,6 @@ state={
 		449 864 1299 1436 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

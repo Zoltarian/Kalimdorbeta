@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		victory_points = {
 			891 5 
 		}
@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = STO
 		596.1.1 = {
-			
+			owner = BRC
 			controller = BRC
 			add_core_of = BRC
 
@@ -30,6 +30,6 @@ state={
 		891 2215 2216 2222 6925 
 	}
 	manpower=8500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

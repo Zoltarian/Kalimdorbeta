@@ -4,7 +4,7 @@ state={
 	name="STATE_819"
 
 	history={
-		
+		owner = TVC
 		victory_points = {
 			8265 10
 		}
@@ -25,6 +25,6 @@ state={
 		8118 8257 8258 8259 8264 8265 8267 8275 
 	}
 	manpower=44000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

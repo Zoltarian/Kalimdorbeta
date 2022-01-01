@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		add_core_of = STO
 		buildings = {
 			infrastructure = 3
@@ -20,7 +20,7 @@ state={
 		}
 		
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 		}
 
@@ -30,6 +30,6 @@ state={
 		795 2087 2104 2107 2112 2150 2513 2962 6049 6918 6967 
 	}
 	manpower=4000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

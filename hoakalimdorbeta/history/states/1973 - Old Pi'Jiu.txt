@@ -4,7 +4,7 @@ state={
 	name="STATE_1973"
 
 	history={
-		
+		owner = PJG
 		add_core_of = PJG
 		victory_points = {
 			13867 10
@@ -20,6 +20,6 @@ state={
 		9187 13867 13880 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

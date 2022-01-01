@@ -14,7 +14,7 @@ state={
 			2994 20
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 
 		}
 		add_core_of = RFT
@@ -25,6 +25,6 @@ state={
 		1295 2994 6336 6355 9674 11376 11405 11462 11521 
 	}
 	manpower=5250
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

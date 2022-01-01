@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = GUR
 		victory_points = {
 			1684 5
 		}
@@ -20,7 +20,7 @@ state={
 		add_core_of = GUR
 
 		617.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 		}
@@ -30,6 +30,6 @@ state={
 		1678 1682 1684 1686 5664 5872 6943
 	}
 	manpower=2568
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1990"
 
 	history={
-		
+		owner = TNS
 		add_core_of = TNS
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		2938 14475 14597 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

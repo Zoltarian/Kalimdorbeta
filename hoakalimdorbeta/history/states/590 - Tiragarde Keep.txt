@@ -16,7 +16,7 @@ state={
 			9652 20
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 			9651 = {
 				naval_base = 3
@@ -24,7 +24,7 @@ state={
 
 		}
 		617.1.1 = {
-			
+			owner = KUL
 			controller = KUL
 			add_core_of = KUL
 
@@ -37,6 +37,6 @@ state={
 		1060 9650 9651 9652 9654 9655 9657
 	}
 	manpower=4000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

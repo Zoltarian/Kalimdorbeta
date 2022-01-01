@@ -4,7 +4,7 @@ state={
 	name="STATE_1886"
 
 	history={
-		
+		owner = GUT
 		add_core_of = GUT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		48 14054 14066 14087 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

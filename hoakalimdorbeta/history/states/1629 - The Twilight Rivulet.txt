@@ -4,7 +4,7 @@ state={
 	name="STATE_1629"
 
 	history={
-		
+		owner = CSS
 		add_core_of = CSS
 		victory_points = {
 			7844 5
@@ -20,6 +20,6 @@ state={
 		236 6888 7844 7854 7859 7861 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

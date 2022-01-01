@@ -4,7 +4,7 @@ state={
 	name="STATE_296"
 
 	history={
-		
+		owner = STO
 		add_core_of = STO
 		add_core_of = KAR
 		set_demilitarized_zone = yes
@@ -29,6 +29,6 @@ state={
 		787 2782 2783 2785 2802 2803 2804 2805 6917 
 	}
 	manpower=825
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

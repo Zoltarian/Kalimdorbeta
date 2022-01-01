@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = BOO
 		add_core_of = BOO
 
 		victory_points = {
@@ -32,6 +32,6 @@ state={
 		414 741 1612 1613 1616 1619 1621 5576
 	}
 	manpower=5925
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

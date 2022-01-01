@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = LSC
 		add_core_of = LSC
 
 		victory_points = {
@@ -32,6 +32,6 @@ state={
 		5789 6811 10479 10550 10551 10552 10553 10554
 	}
 	manpower=14000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

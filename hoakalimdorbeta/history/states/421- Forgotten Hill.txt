@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = TOL
 		victory_points = {
 			748 5
 		}
@@ -26,6 +26,6 @@ state={
 		748 837 857 1096 
 	}
 	manpower=9000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

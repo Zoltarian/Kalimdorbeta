@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		victory_points = {
 			2388 20 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			industrial_complex = 4
 
 		}
@@ -25,7 +25,7 @@ state={
 
 		}
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 
@@ -37,6 +37,6 @@ state={
 		812 2379 2380 2383 2385 2388 2393 2400 
 	}
 	manpower=87000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

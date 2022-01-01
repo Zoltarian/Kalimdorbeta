@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = WBT
 		add_core_of = WBT
 
 		victory_points = {
@@ -15,7 +15,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 3
 		}
@@ -26,6 +26,6 @@ state={
 		620 1108 3827 3829 3834 3840 3844 3849 5265
 	}
 	manpower=80700
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

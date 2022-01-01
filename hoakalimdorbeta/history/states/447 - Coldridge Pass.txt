@@ -4,9 +4,9 @@ state={
 	name="STATE_447"
 
 	history={
-		
+		owner = IRO
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 
 		}
 		add_core_of = IRO
@@ -17,6 +17,6 @@ state={
 		992 3984 3989 3991 6057 6121 8570 8575 8633 
 	}
 	manpower=2325
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

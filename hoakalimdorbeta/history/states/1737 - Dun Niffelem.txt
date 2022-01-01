@@ -4,7 +4,7 @@ state={
 	name="STATE_1737"
 
 	history={
-		
+		owner = SOH
 		add_core_of = SOH
 
 		buildings = {
@@ -16,6 +16,6 @@ state={
 		481
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

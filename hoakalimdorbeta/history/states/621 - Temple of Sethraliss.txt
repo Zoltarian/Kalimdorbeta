@@ -4,7 +4,7 @@ state={
 	name="STATE_621"
 
 	history={
-		
+		owner = FLE
 		add_core_of = FLE
 		buildings = {
 			infrastructure = 4
@@ -17,6 +17,6 @@ state={
 		1260 15245 15247 15249 15253 15257 15259 15262 15265 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

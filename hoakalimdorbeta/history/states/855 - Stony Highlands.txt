@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = SRD
 		buildings = {
 			infrastructure = 2
 
@@ -20,6 +20,6 @@ state={
 		8610 9241 9247 9258 
 	}
 	manpower=4000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

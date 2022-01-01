@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = RWC
 		add_core_of = RWC
 
 		victory_points = {
@@ -16,7 +16,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 2
 			dockyard = 1
@@ -37,6 +37,6 @@ state={
 		6808 10676 10701 10705 10706 10709 10715 10716 10720 10805
 	}
 	manpower=85600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_7
 }

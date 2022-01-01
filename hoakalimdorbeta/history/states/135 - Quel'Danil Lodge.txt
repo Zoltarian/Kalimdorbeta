@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = AER
 		add_core_of = AER
 
 		victory_points = {
@@ -17,7 +17,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 		}
@@ -33,6 +33,6 @@ state={
 		625 3885 3888 3896 3901 3905
 	}
 	manpower=21800
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

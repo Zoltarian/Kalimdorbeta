@@ -14,7 +14,7 @@ state={
 			9121 10 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
@@ -25,7 +25,7 @@ state={
 		}
 		add_core_of = MIR
 		617.1.1 = {
-			
+			owner = AZS
 			controller = AZS
 			add_core_of = AZS
 			remove_core_of = MIR
@@ -38,6 +38,6 @@ state={
 		9109 9114 9118 9121 9126 9130 9134 
 	}
 	manpower=17000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

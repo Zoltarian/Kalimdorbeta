@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BTG
 		victory_points = {
 			2876 15
 		}
@@ -37,6 +37,6 @@ state={
 		933 2860 2863 2867 2868 2869 2876 2882 2885
 	}
 	manpower=68750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

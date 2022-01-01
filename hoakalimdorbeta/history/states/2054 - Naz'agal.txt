@@ -4,7 +4,7 @@ state={
 	name="STATE_2054"
 
 	history={
-		
+		owner = AKT
 		add_core_of = AKT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		13752 15235 15250 15256 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

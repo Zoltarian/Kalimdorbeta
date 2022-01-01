@@ -16,7 +16,7 @@ state={
 			12407 20
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 2
 			air_base = 3
@@ -30,6 +30,6 @@ state={
 		281 12345 12348 12354 12355 12368 12376 12377 12381 12385 12386 12396 12399 12400 12403 12407 12409 12416 12419 12425 12429 12433 12442 12645 13207 
 	}
 	manpower=42000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

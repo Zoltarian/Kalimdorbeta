@@ -4,7 +4,7 @@ state={
 	name="STATE_1850"
 
 	history={
-		
+		owner = OOK
 		add_core_of = OOK
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		826 14547 14582 14586 14613 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

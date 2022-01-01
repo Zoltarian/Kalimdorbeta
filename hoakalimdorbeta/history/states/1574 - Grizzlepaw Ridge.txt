@@ -4,7 +4,7 @@ state={
 	name="STATE_1574"
 
 	history={
-		
+		owner = IRO
 		add_core_of = IRO
 
 		buildings = {
@@ -12,13 +12,13 @@ state={
 		}
 
 		596.1.1 = {
-			
+			owner = BHC
 			controller = BHC
 			add_core_of = BHC
 		}
 
 		600.1.1 = {
-			
+			owner = IRO
 			remove_core_of = BHC
 		}
 	}
@@ -27,6 +27,6 @@ state={
 		3507 3517 3524 5553 5874 5888
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

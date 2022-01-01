@@ -5,7 +5,7 @@ state={
 
 	impassable = yes
 	history={
-		
+		owner = GIL
 		add_core_of = GIL
 
 		buildings = {
@@ -23,6 +23,6 @@ state={
 		5241
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

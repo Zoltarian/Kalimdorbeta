@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		buildings = {
 			infrastructure = 2
 
@@ -20,7 +20,7 @@ state={
 
 		}
 		617.1.1 = {
-			
+			owner = VMR
 			controller = VMR
 			add_core_of = VMR
 
@@ -32,6 +32,6 @@ state={
 		229 3693 3694 3702 3705 3712 3761 
 	}
 	manpower=3400
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

@@ -4,12 +4,12 @@ state={
 	name="STATE_580"
 
 	history={
-		
+		owner = STR
 		victory_points = {
 			1748 15
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			radar_station = 1
 			1149 = {
 				bunker = 3
@@ -44,6 +44,6 @@ state={
 		1149 1747 1748 1749 1750 1751
 	}
 	manpower=80
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = SMC
 		add_core_of = SMC
 
 		victory_points = {
@@ -35,6 +35,6 @@ state={
 		6683 6771 6775 6782 6786 6788 6817 11006
 	}
 	manpower=34000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			1001 5
 		}
-		
+		owner = IRO
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -37,6 +37,6 @@ state={
 		1001 4000 4004 4005 4007 4017 5367
 	}
 	manpower=6850
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

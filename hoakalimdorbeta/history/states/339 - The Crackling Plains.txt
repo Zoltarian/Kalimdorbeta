@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = TLC
 		add_core_of = TLC
 
 		buildings = {
@@ -26,6 +26,6 @@ state={
 		835 1057 2968 5919 5927 5938 5951 5962 5993 6015 6124
 	}
 	manpower=12000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

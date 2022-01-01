@@ -4,7 +4,7 @@ state={
 	name="STATE_2122"
 
 	history={
-		
+		owner = COF
 		add_core_of = COF
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		862 3171 3911 5204 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

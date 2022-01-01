@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = DRK
 		add_core_of = DRK
 
 		victory_points = {
@@ -30,6 +30,6 @@ state={
 		8449 8452 8464 8466 8472 8490
 	}
 	manpower=38000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_7
 }

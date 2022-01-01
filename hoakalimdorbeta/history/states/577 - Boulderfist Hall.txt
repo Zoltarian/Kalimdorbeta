@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STR
 		victory_points = {
 			5123 10
 		}
@@ -20,7 +20,7 @@ state={
 		}
 		
 		617.1.1 = {
-			
+			owner = BFC
 			controller = BFC
 			add_core_of = BFC
 		}
@@ -30,6 +30,6 @@ state={
 		1136 1995 1996 1997 1998 1999 2030 5123
 	}
 	manpower=8175
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

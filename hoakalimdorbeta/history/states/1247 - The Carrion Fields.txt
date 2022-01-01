@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		
+		owner = BLP
 		add_core_of = BLP
 
 	}
@@ -17,6 +17,6 @@ state={
 		10936 13321 13322 13346 13369 13389 13421 13423 13424 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

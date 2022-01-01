@@ -15,13 +15,13 @@ state={
 			11575 10
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 2
 			arms_factory = 2
 		}
 
 		617.1.1 = {
-			
+			owner = BBC
 			controller = BBC
 			add_core_of = BBC
 		}
@@ -31,6 +31,6 @@ state={
 		2366 11574 11575
 	}
 	manpower=40000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

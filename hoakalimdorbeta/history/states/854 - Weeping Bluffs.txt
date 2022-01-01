@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			9169 10 
 		}
-		
+		owner = SRD
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -27,6 +27,6 @@ state={
 		8597 9167 9169 9208 9210 9221 9224 9230 
 	}
 	manpower=23000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

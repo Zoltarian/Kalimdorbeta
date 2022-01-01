@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		add_core_of = STO
 
 		victory_points = {
@@ -27,7 +27,7 @@ state={
 		}
 		
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 		}
 
@@ -37,6 +37,6 @@ state={
 		789 2067 2068 2070 2072 2074 2076
 	}
 	manpower=15000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

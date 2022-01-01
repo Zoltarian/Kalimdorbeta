@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		
+		owner = GIL
 		add_core_of = GIL
 		victory_points = {
 			513 30
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			industrial_complex = 7
 			arms_factory = 3
 
@@ -25,6 +25,6 @@ state={
 		513 514 1306 1519 
 	}
 	manpower=402850
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_12
 }

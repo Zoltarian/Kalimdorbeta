@@ -9,7 +9,7 @@ state={
 
 	history={
 		victory_points = { 4066 5 }
-		
+		owner = GNO
 		buildings = {
 			infrastructure = 3
 
@@ -23,6 +23,6 @@ state={
 		1028 4062 4066 4072 
 	}
 	manpower=8825
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

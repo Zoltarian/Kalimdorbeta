@@ -4,7 +4,7 @@ state={
 	name="STATE_1245"
 
 	history={
-		
+		owner = SNT
 		buildings = {
 			infrastructure = 3
 
@@ -22,6 +22,6 @@ state={
 		6849 10930 13275 13296 13307 13320
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

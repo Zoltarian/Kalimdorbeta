@@ -4,7 +4,7 @@ state={
 	name="STATE_1540"
 
 	history={
-		
+		owner = LOR
 		add_core_of = LOR
 
 		buildings = {
@@ -12,13 +12,13 @@ state={
 		}
 
 		596.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 		}
 
 		600.1.1 = {
-			
+			owner = LOR
 			remove_core_of = STO
 		}
 
@@ -33,6 +33,6 @@ state={
 		1268 1807 1808 1813 1941 1947
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

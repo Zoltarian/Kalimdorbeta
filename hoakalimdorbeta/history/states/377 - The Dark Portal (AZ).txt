@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = BTG
 		add_core_of = BTG
 
 		victory_points = {
@@ -27,7 +27,7 @@ state={
 		}
 
 		617.1.1 = {
-			
+			owner = TBL
 			controller = TBL
 			add_core_of = TBL
 		}
@@ -37,6 +37,6 @@ state={
 		931 2847 2849 2851 2854 2856 2859 2879 5333 5337 5338 5341 5349
 	}
 	manpower=46500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

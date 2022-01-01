@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = FWC
 		add_core_of = FWC
 
 		victory_points = {
@@ -26,7 +26,7 @@ state={
 		}
 
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 			remove_core_of = FWC
@@ -49,6 +49,6 @@ state={
 		923 2692 2695 2701 2702 2809
 	}
 	manpower=113750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

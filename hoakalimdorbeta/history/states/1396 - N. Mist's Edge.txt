@@ -12,7 +12,7 @@ state={
 	history={
 		owner = KAL
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 
 		}
 		add_core_of = KAL
@@ -29,6 +29,6 @@ state={
 		12653 12658 12661 12668 12669 12670 12682 12683 
 	}
 	manpower=11000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

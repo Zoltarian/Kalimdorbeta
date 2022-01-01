@@ -15,7 +15,7 @@ state={
 			12947 5
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 1
 		}
 
 		617.1.1 = {
@@ -29,6 +29,6 @@ state={
 		6839 12936 12939 12943 12946 12947 12950 12953 12954 12958 12960 12961 12967
 	}
 	manpower=9000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

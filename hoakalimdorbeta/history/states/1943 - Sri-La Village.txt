@@ -4,7 +4,7 @@ state={
 	name="STATE_1943"
 
 	history={
-		
+		owner = AGL
 		add_core_of = AGL
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		64 14556 14584 14635 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

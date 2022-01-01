@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = LSC
 		add_core_of = LSC
 
 		victory_points = {
@@ -17,7 +17,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 2
@@ -38,6 +38,6 @@ state={
 		6777 10635 10638 10643 10644 10646
 	}
 	manpower=93000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_7
 }

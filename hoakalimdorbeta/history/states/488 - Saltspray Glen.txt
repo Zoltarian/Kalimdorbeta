@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		buildings = {
 			infrastructure = 3
 			3757 = {
@@ -36,6 +36,6 @@ state={
 		345 366 1067 3374 3735 3747 3751 3753 3754 3757 
 	}
 	manpower=5650
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

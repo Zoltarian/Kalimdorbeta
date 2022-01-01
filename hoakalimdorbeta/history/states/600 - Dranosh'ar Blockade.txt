@@ -10,10 +10,10 @@ state={
 	history={
 		owner = DWT
 		victory_points = {
-			10355 15
+			10363 15
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 
 		}
@@ -32,6 +32,6 @@ state={
 		240 9752 10331 10339 10349 10352 10355 10363 10364 
 	}
 	manpower=5000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

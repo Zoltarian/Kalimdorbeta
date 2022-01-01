@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = SRD
 		victory_points = {
 			9277 10 
 		}
@@ -32,6 +32,6 @@ state={
 		9265 9268 9269 9277 9283 9290 9292 
 	}
 	manpower=17000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

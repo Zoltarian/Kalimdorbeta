@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BFT
 		victory_points = {
 			5530 5
 		}
@@ -24,6 +24,6 @@ state={
 		842 2245 5484 5493 5509 5516 5526 5528 5530 6914 
 	}
 	manpower=27000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

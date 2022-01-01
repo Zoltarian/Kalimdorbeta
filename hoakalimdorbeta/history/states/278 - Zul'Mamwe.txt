@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = SKU
 		victory_points = {
 			2689 20
 		}
@@ -25,6 +25,6 @@ state={
 		749 2688 2689 2690 2691 
 	}
 	manpower=99000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

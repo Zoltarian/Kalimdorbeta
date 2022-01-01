@@ -4,7 +4,10 @@ state={
 	name="STATE_1610"
 
 	history={
-		
+		owner = BLO
+		victory_points = {
+			1698 5 
+		}
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
@@ -21,6 +24,6 @@ state={
 		393 1326 1693 1695 1698 1701 5621 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

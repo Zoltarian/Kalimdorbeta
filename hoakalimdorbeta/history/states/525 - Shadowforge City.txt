@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		
+		owner = DIC
 		victory_points = {
 			5771 30 
 		}
@@ -17,7 +17,7 @@ state={
 			6251 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 4
 			arms_factory = 3
 
@@ -30,6 +30,6 @@ state={
 		957 5563 5763 5771 6246 6251 6252 6388 
 	}
 	manpower=89000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

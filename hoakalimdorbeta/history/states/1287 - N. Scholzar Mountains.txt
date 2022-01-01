@@ -4,7 +4,7 @@ state={
 	impassable = yes
 
 	history={
-		
+		owner = MWH
 		add_core_of = MWH
 
 		buildings = {
@@ -16,6 +16,6 @@ state={
 		10997
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

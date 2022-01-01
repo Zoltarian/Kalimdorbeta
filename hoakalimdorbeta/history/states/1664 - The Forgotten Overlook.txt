@@ -4,7 +4,7 @@ state={
 	name="STATE_1664"
 
 	history={
-		
+		owner = CWT
 		add_core_of = CWT
 
 		buildings = {
@@ -18,6 +18,6 @@ state={
 		210 1512 1515 5406 13308 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

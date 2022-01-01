@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = LOR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -33,6 +33,6 @@ state={
 		650 722 4320 4332 4346 5829 5833 5836 
 	}
 	manpower=13575
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

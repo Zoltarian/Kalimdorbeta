@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = ALT
 		victory_points = {
 			1880 25 
 		}
@@ -19,7 +19,7 @@ state={
 			1872 10 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 5
 
@@ -38,6 +38,6 @@ state={
 		1872 1878 1880 1888 1893 5177 5183 5190 7485 7487 7489 7490 
 	}
 	manpower=168575
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

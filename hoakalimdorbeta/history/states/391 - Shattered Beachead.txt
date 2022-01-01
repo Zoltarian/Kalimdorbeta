@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = BBC
 		victory_points = {
 			2886 5 
 		}
@@ -23,7 +23,7 @@ state={
 		}
 		add_core_of = BBC
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 			remove_core_of = BBC
@@ -42,6 +42,6 @@ state={
 		934 2870 2874 2875 2880 2886 2889 2902 
 	}
 	manpower=31000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

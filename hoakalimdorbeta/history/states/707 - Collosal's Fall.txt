@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = TLC
 		add_core_of = TLC
 
 		victory_points = {
@@ -16,7 +16,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
 		}
@@ -33,6 +33,6 @@ state={
 		5899 5958 5960 5961 6029 6044 6051 6052 6053 6322
 	}
 	manpower=56000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

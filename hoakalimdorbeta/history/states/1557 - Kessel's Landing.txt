@@ -14,7 +14,7 @@ state={
 			9679 5
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 
 		}
 		add_core_of = BLT
@@ -25,6 +25,6 @@ state={
 		365 9679 10152 10224 10359 12073 
 	}
 	manpower=4000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

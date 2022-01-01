@@ -4,7 +4,7 @@ state={
 	name="STATE_2082" #Ziata'jai Jungle/ Fort Livingston 
 
 	history={
-		
+		owner = SKU
 		victory_points = {
 			5608 5
 		}
@@ -20,6 +20,6 @@ state={
 		751 2747 2749 2759 2761 5608 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

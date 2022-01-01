@@ -15,7 +15,7 @@ state={
 			10011 15 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 			10001 = {
 				naval_base = 1
@@ -35,6 +35,6 @@ state={
 		9992 9993 10001 10006 10009 10011 10021 10022 10025 10028 10039 10041 10042 10045 10047 10049 10056 10057 10378 
 	}
 	manpower=4000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

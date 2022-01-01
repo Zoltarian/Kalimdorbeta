@@ -4,7 +4,7 @@ state={
 	name="STATE_1729"
 
 	history={
-		
+		owner = KOU
 		add_core_of = KOU
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		221 875 988 5898 6058 6062 6074 6076 6083 13413 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

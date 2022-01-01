@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		
+		owner = COH
 		add_core_of = COH
 
 	}
@@ -17,6 +17,6 @@ state={
 		10955 13493 13498 13507 13510 13515 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

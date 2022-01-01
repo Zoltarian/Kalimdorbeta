@@ -4,7 +4,7 @@ state={
 	name="STATE_1411"
 
 	history={
-		
+		owner = ZZT
 		add_core_of = ZZT
 		victory_points = {
 			12830 5
@@ -27,6 +27,6 @@ state={
 		12828 12830 12833 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

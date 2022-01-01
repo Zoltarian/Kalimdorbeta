@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = OGL
 		add_core_of = OGL
 
 		victory_points = {
@@ -37,6 +37,6 @@ state={
 		5890 5893 5897 5904 5909 5916 6309 6903
 	}
 	manpower=93600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

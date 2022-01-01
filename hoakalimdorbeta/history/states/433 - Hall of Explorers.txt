@@ -9,9 +9,9 @@ state={
 
 	history={
 		victory_points = { 3814 15 }
-		
+		owner = IRO
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			industrial_complex = 1
 
 		}
@@ -23,6 +23,6 @@ state={
 		1049 3797 3798 3802 3803 3807 3808 3812 3814 3819 
 	}
 	manpower=60500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

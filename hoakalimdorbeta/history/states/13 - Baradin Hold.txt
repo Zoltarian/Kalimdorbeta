@@ -12,12 +12,12 @@ state={
 	}
 
 	history={
-		
+		owner = TOL
 		victory_points = {
 			858 20 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 1
@@ -36,6 +36,6 @@ state={
 		848 852 855 858 1303 1304 5166 5167 5168 5169 5170 
 	}
 	manpower=38000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

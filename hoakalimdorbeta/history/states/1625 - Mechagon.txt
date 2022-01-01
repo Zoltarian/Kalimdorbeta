@@ -4,7 +4,7 @@ state={
 	name="STATE_1625"
 
 	history={
-		
+		owner = MCG
 		buildings = {
 			infrastructure = 4
 
@@ -17,6 +17,6 @@ state={
 		8624 9294 9295 9300 9301 9304 9309 13726 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

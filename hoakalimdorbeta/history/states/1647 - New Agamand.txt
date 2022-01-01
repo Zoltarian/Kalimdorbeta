@@ -4,7 +4,7 @@ state={
 	name="STATE_1647"
 
 	history={
-		
+		owner = DFC
 		add_core_of = DFC
 		buildings = {
 			infrastructure = 1
@@ -23,6 +23,6 @@ state={
 		144 277 5145 6397 6398 7947 13351
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

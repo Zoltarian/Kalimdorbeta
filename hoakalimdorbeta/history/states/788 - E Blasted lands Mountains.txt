@@ -5,14 +5,14 @@ state={
 
 	impassable = yes
 	history={
-		
+		owner = BRC
 		buildings = {
 			infrastructure = 1
 
 		}
 		add_core_of = BRC
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 			remove_core_of = BRC
@@ -29,6 +29,6 @@ state={
 		6416 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

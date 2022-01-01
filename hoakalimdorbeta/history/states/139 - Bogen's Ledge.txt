@@ -4,7 +4,7 @@ state={
 	name="STATE_139"
 
 	history={
-		
+		owner = WBT
 		buildings = {
 			infrastructure = 3
 
@@ -17,6 +17,6 @@ state={
 		1685 2065 2948 5533 
 	}
 	manpower=2325
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

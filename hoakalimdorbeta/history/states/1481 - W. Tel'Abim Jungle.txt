@@ -4,7 +4,7 @@ state={
 	name="STATE_1481"
 
 	history={
-		
+		owner = TAG
 		buildings = {
 			infrastructure = 4
 
@@ -17,6 +17,6 @@ state={
 		13525 13537 13542 13545 13550 13552 13556 13559 13562 13563 13564 13565 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

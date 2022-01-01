@@ -4,7 +4,7 @@ state={
 	name="STATE_1701"
 
 	history={
-		
+		owner = RGC
 		add_core_of = RGC
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		6372 7231 7245 7531 13283 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

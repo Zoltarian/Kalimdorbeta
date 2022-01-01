@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		
+		owner = SNT
 		add_core_of = SNT
 
 	}
@@ -17,6 +17,6 @@ state={
 		10931 13375 13379 13417 13422 13440 13451 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

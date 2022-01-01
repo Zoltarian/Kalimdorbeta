@@ -4,7 +4,7 @@ state={
 	name="STATE_1660"
 
 	history={
-		
+		owner = TGD
 		add_core_of = TGD
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		410 1563 5386 6130 7296 7535 7558 7608 7614 7882 8135 8188 13231 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_923"
 
 	history={
-		
+		owner = ZAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -18,6 +18,6 @@ state={
 		8706 8840 8845 8849 8851 8854 8860 8861 
 	}
 	manpower=3500
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

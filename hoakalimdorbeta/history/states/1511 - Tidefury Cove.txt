@@ -9,12 +9,13 @@ state={
 			840 5 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
 			840 = {
 				naval_base = 2
+
 			}
 
 		}
@@ -23,7 +24,7 @@ state={
 	}
 
 	provinces={
-		840 8993 8998 8999 9002 9004 9006 9014 9021 
+		840 8993 8998 8999 9004 9006 9014 9021 
 	}
 	manpower=21000
 	buildings_max_level_factor=1.000

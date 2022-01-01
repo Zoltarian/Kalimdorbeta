@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		add_core_of = STO
 		add_core_of = ELW
 		victory_points = {
@@ -18,19 +18,19 @@ state={
 		}
 
 		596.1.1 = {
-			
+			owner = THC
 			controller = THC
 			add_core_of = THC
 		}
 		
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = THC
 		}
 
 		617.1.1 = {
-			
+			owner = STO
 			controller = STO
 		}
 	}
@@ -39,6 +39,6 @@ state={
 		326 2526 2527 2532 2533 2534 2539 2542 2544 2546 2556 2557 2561 2564 2569
 	}
 	manpower=2600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

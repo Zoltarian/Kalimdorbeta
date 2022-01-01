@@ -16,13 +16,13 @@ state={
 			11508 30
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			industrial_complex = 7
 			arms_factory = 2
 
 		}
 		617.1.1 = {
-			
+			owner = GOR
 			controller = GOR
 			add_core_of = GOR
 
@@ -35,6 +35,6 @@ state={
 		1881 4520 7498 11447 11470 11488 11499 11501 11508
 	}
 	manpower=56000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

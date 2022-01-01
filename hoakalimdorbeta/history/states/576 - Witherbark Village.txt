@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = STR
 		victory_points = {
 			2037 10 
 		}
@@ -21,7 +21,7 @@ state={
 		add_core_of = STR
 		add_core_of = WBT
 		617.1.1 = {
-			
+			owner = WBT
 			controller = WBT
 
 		}
@@ -32,6 +32,6 @@ state={
 		182 1141 2028 2032 2033 2034 2035 2036 2037 2041 3628 5534 
 	}
 	manpower=79129
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

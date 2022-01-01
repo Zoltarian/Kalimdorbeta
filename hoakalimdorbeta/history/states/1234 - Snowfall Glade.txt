@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		
+		owner = SWT
 		add_core_of = SWT
 
 	}
@@ -17,6 +17,6 @@ state={
 		433 13245 13260 13294 13301 13329 13332 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

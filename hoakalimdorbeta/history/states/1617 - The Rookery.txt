@@ -4,14 +4,14 @@ state={
 	name="STATE_1617"
 
 	history={
-		
+		owner = DIC
 		buildings = {
 			infrastructure = 4
 
 		}
 		add_core_of = DIC
 		596.1.1 = {
-			
+			owner = BRC
 			controller = BRC
 			add_core_of = BRC
 			remove_core_of = DIC
@@ -24,6 +24,6 @@ state={
 		6184 6201 7511 7515 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

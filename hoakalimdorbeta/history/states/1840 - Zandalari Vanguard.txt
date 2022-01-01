@@ -4,7 +4,7 @@ state={
 	name="STATE_1840"
 
 	history={
-		
+		owner = DOX
 		add_core_of = DOX
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		79 14721 14724 14725 14727 14729 14730 14731 14733 14734 14735 14736 14737 14738 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

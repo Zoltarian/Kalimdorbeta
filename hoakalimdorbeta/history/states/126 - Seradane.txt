@@ -12,10 +12,10 @@ state={
 		victory_points = {
 			3919 20 
 		}
-		
+		owner = GSR
 		buildings = {
 			radar_station = 1
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
 			air_base = 4
@@ -29,6 +29,6 @@ state={
 		610 3729 3910 3912 3913 3914 3915 3917 3918 3919 3920 3921 3923 3925 3926 5257 5315 
 	}
 	manpower=41000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

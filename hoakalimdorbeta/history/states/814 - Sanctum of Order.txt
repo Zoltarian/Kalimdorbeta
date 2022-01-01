@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		
+		owner = SUR
 		victory_points = {
-			8387 15 
+			8390 15 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 2
 
@@ -25,6 +25,6 @@ state={
 		5293 8161 8378 8381 8382 8390 8393 
 	}
 	manpower=56000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

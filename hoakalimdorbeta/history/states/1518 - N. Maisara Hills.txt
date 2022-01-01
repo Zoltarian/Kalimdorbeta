@@ -4,7 +4,7 @@ state={
 	name="STATE_1518"
 
 	history={
-		
+		owner = SMR
 		buildings = {
 			infrastructure = 4
 
@@ -23,6 +23,6 @@ state={
 		2997 4763 4766 4768 4770 4774 5718 5719 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

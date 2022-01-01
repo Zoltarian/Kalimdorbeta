@@ -4,7 +4,7 @@ state={
 	name="STATE_622"
 
 	history={
-		
+		owner = TTT
 		add_core_of = TTT
 		buildings = {
 			infrastructure = 4
@@ -17,6 +17,6 @@ state={
 		13753 15236 15240 15242 15246 15254 15255 15258 15261 15263 15264 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

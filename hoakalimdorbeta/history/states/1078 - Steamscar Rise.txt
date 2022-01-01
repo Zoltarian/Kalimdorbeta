@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STM
 		add_core_of = STM
 
 		victory_points = {
@@ -32,6 +32,6 @@ state={
 		6810 6814 10487 10582 10584 10586 10587 10597
 	}
 	manpower=26600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

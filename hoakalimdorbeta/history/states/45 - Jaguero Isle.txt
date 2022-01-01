@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = BOO
 		victory_points = {  1618 10 }
 		buildings = {
 			infrastructure = 2
@@ -31,6 +31,6 @@ state={
 		441 1614 1615 1617 1618 1620 1623 1624 1625 
 	}
 	manpower=9175
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

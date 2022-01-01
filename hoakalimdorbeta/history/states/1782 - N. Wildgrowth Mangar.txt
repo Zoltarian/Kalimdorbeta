@@ -4,7 +4,7 @@ state={
 	name="STATE_1782"
 
 	history={
-		
+		owner = RST
 		add_core_of = RST
 
 		buildings = {
@@ -18,6 +18,6 @@ state={
 		8383 8417 8430 8445 8492 10996 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

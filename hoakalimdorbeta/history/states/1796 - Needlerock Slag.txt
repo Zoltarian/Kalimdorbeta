@@ -4,7 +4,7 @@ state={
 	name="STATE_1796"
 
 	history={
-		
+		owner = NDR
 		add_core_of = NDR
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		7721 15494 15495 15496 15497 15500 15506 15507 15508 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

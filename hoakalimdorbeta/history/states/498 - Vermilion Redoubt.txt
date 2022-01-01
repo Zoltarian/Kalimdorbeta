@@ -4,7 +4,7 @@ state={
 	name="STATE_498"
 
 	history={
-		
+		owner = VMR
 		victory_points = {
 			1078 15 
 		}
@@ -23,6 +23,6 @@ state={
 		1078 5092 5093 5094 5095 5096 5097 5098 5100 5102 5104 
 	}
 	manpower=81973
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

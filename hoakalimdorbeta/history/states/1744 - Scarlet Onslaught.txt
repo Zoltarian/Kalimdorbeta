@@ -4,7 +4,7 @@ state={
 	name="STATE_1744"
 
 	history={
-		
+		owner = MDC
 		add_core_of = MDC
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		508 995 997 4078 5219 6059 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

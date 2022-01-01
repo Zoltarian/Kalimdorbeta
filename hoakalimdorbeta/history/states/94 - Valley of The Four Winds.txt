@@ -4,7 +4,7 @@ state={
 	name="STATE_94"
 
 	history={
-		
+		owner = POE
 		add_core_of = POE
 
 	}
@@ -13,6 +13,6 @@ state={
 		63 14225 14780 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

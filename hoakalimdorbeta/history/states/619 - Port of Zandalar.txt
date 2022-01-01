@@ -4,12 +4,12 @@ state={
 	name="STATE_619"
 
 	history={
-		
+		owner = ZAN
 		victory_points = {
 			8760 15 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 1
 			dockyard = 4
@@ -31,6 +31,6 @@ state={
 		8682 8693 8750 8753 8755 8757 8760 8765 8766 
 	}
 	manpower=104000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_10
 }

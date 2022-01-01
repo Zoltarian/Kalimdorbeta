@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = LSC
 		add_core_of = LSC
 		buildings = {
 			infrastructure = 3
@@ -27,6 +27,6 @@ state={
 		5465 5470 5474 5485 5488 5491 5492 5496 5500 5503 5504 5508 5512 5514 5515 5517 5519 5522 5525 6509 6915 
 	}
 	manpower=11750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

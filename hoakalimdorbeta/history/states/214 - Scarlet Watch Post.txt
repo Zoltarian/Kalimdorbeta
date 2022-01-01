@@ -4,7 +4,7 @@ state={
 	name="STATE_214" #Tirisfal Watch Post/Scarlet Watch Post
 
 	history={
-		
+		owner = LOR
 		victory_points = {
 			708 5 
 		}
@@ -27,6 +27,6 @@ state={
 		708 2686 2904 4207 4240 4249 4267 4280 4310 5358 5369 
 	}
 	manpower=10325
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1580"
 
 	history={
-		
+		owner = UDA
 		buildings = {
 			infrastructure = 4
 
@@ -17,6 +17,6 @@ state={
 		994 3514 3532 3550 3617 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

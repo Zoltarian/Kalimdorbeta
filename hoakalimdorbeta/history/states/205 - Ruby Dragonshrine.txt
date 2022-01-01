@@ -4,7 +4,7 @@ state={
 	name="STATE_205"
 
 	history={
-		
+		owner = RDF
 		buildings = {
 			infrastructure = 4
 
@@ -17,6 +17,6 @@ state={
 		13341 13382 13395 13469 13480 13481 13483 
 	}
 	manpower=1425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

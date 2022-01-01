@@ -12,7 +12,7 @@ state={
 		victory_points = {
 			2097 20 
 		}
-		
+		owner = GTG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -28,6 +28,6 @@ state={
 		796 2081 2089 2092 2094 2097 2103 5458 
 	}
 	manpower=39000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

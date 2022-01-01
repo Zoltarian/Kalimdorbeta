@@ -9,9 +9,9 @@ state={
 
 	history={
 		victory_points = {
-			5217 5 
+			5226 5 
 		}
-		
+		owner = SFT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -30,6 +30,6 @@ state={
 		1008 2947 5211 5216 5220 5223 5224 5226 5227 5228 6086 6116 
 	}
 	manpower=36000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

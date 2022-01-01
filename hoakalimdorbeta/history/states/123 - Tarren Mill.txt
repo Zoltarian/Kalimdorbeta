@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = LOR
 		victory_points = {
 			1820 10 
 		}
@@ -18,13 +18,13 @@ state={
 		}
 		add_core_of = LOR
 		596.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 
 		}
 		600.1.1 = {
-			
+			owner = LOR
 			remove_core_of = STO
 		}
 		617.1.1 = {
@@ -40,6 +40,6 @@ state={
 		186 603 1812 1815 1816 1819 1820 1823 1827 1829 1831 
 	}
 	manpower=30000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

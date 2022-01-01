@@ -4,7 +4,7 @@ state={
 	name="STATE_1683"
 
 	history={
-		
+		owner = DRA
 		add_core_of = DRA
 		buildings = {
 			infrastructure = 1
@@ -23,6 +23,6 @@ state={
 		354 7925 7937 7944 7957 7966 13366
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = TID
 		victory_points = {
 			9211 5 
 		}
@@ -24,6 +24,6 @@ state={
 		9194 9198 9204 9209 9211 9212 9215 9222 10841 
 	}
 	manpower=7000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

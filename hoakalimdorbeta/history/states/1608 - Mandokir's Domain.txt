@@ -4,7 +4,7 @@ state={
 	name="STATE_1608"
 
 	history={
-		
+		owner = GUR
 		victory_points = {
 			2588 5 
 		}
@@ -23,6 +23,6 @@ state={
 		756 2584 2587 2588 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		
+		owner = SMC
 		add_core_of = SMC
 		victory_points = {
 			6735 20 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 2
@@ -45,6 +45,6 @@ state={
 		6673 6715 6721 6722 6725 6731 6732 6735 6736 6743 6746 6749 6750 6823 6824 
 	}
 	manpower=114000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_7
 }

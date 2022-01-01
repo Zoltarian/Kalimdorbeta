@@ -4,7 +4,7 @@ state={
 	name="STATE_2105"
 
 	history={
-		
+		owner = QUE
 		victory_points = {
 			3255 10
 		}
@@ -26,6 +26,6 @@ state={
 		3247 3253 3255 3260 3270 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

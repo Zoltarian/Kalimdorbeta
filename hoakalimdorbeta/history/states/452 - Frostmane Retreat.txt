@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		victory_points = {
 			3993 10 
 		}
@@ -25,6 +25,6 @@ state={
 		999 3993 3994 3996 4001 4002 4009 6084 6089 6096 6113 6119 
 	}
 	manpower=16300
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

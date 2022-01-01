@@ -4,7 +4,7 @@ state={
 	name="STATE_1621"
 
 	history={
-		
+		owner = MLC
 		buildings = {
 			infrastructure = 4
 
@@ -17,6 +17,6 @@ state={
 		5765 5766 5774 6366 6371 6374 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		buildings = {
 			infrastructure = 3
 
@@ -20,7 +20,7 @@ state={
 
 		}
 		617.1.1 = {
-			
+			owner = DIC
 			controller = DIC
 			add_core_of = DIC
 
@@ -32,6 +32,6 @@ state={
 		3531 3720 3724 3728 3733 3736 5324 5336 5353 5363 6952 
 	}
 	manpower=3600
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

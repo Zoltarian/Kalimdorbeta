@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = SHC
 		add_core_of = SHC
 
 		victory_points = {
@@ -16,7 +16,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 1
 		}
@@ -33,6 +33,6 @@ state={
 		10426 10513 10514 10518 10522 10524 10527
 	}
 	manpower=67000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

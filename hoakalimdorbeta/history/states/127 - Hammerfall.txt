@@ -4,7 +4,7 @@ state={
 	name="STATE_127"
 
 	history={
-		
+		owner = STR
 		add_core_of = STR
 		add_core_of = WBT
 
@@ -13,7 +13,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 4
 		}
@@ -32,6 +32,6 @@ state={
 		2045 2046 2049 2050 2053 2054 2058 2061 2063
 	}
 	manpower=120525
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

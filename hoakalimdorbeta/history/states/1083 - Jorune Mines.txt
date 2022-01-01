@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BWC
 		add_core_of = BWC
 
 		victory_points = {
@@ -32,6 +32,6 @@ state={
 		10542 10680 10731 10733 10738
 	}
 	manpower=16000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

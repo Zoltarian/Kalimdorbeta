@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = TVC
 		victory_points = {
 			8280 20
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 6
 			arms_factory = 3
 
@@ -26,6 +26,6 @@ state={
 		8119 8269 8273 8278 8280 8285 8295 
 	}
 	manpower=122000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_11
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_1265"
 
 	history={
-		
+		owner = TKT
 		add_core_of = TKT
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		392 447 484 7770 7776 7777 7778 7784 8008 10982 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = BLO
 		victory_points = {
 			1671 10
 		}
@@ -25,6 +25,6 @@ state={
 		1669 1671 1672 1674 1676 1679 
 	}
 	manpower=12425
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

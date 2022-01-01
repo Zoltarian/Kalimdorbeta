@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		
+		owner = GIL
 		victory_points = {
 			1392 20 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 3
 			dockyard = 3
@@ -29,6 +29,6 @@ state={
 		1375 1377 1382 1385 1392 
 	}
 	manpower=95000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_8
 }

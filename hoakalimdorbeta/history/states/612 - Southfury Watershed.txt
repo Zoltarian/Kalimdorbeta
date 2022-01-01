@@ -9,7 +9,7 @@ state={
 	history={
 		owner = RZM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 
 		}
@@ -21,6 +21,6 @@ state={
 		1129 10225 10234 10241 10252 10263 10267 
 	}
 	manpower=4000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

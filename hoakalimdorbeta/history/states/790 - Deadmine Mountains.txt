@@ -5,7 +5,7 @@ state={
 
 	impassable = yes
 	history={
-		
+		owner = STO
 		add_core_of = STO
 		add_core_of = WST
 
@@ -20,7 +20,7 @@ state={
 		}
 
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 		}
@@ -36,6 +36,6 @@ state={
 		1700
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

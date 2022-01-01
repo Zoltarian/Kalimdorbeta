@@ -4,7 +4,7 @@ state={
 	name="STATE_1788"
 
 	history={
-		
+		owner = THZ
 		add_core_of = THZ
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		772 15470 15471 15473 15475 15476 15478 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

@@ -4,9 +4,9 @@ state={
 	name="STATE_756"
 
 	history={
-		
+		owner = QUE
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			3287 = {
 				naval_base = 5
 
@@ -21,6 +21,6 @@ state={
 		3241 3251 3264 3275 3283 3287 
 	}
 	manpower=525
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

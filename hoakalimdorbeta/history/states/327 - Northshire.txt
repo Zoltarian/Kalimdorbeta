@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		add_core_of = STO
 		add_core_of = ELW
 
@@ -16,24 +16,24 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 		}
 
 		596.1.1 = {
-			
+			owner = THC
 			controller = THC
 			add_core_of = THC
 		}
 
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = THC
 		}
 
 		617.1.1 = {
-			
+			owner = STO
 			controller = STO
 		}
 	}
@@ -42,6 +42,6 @@ state={
 		2476 2484 2488 2491 2494 2496 2500 2501 6047 6048
 	}
 	manpower=41000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

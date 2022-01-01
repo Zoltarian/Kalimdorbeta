@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = MFT
 		victory_points = {
 			4425 15 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 2
 
@@ -26,6 +26,6 @@ state={
 		651 4405 4417 4425 4427 4444 5205 5675 5784 
 	}
 	manpower=68250
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

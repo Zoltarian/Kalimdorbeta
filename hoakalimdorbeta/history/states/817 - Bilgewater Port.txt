@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = BIL
 		victory_points = {
 			8123 15 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			dockyard = 3
 			8123 = {
@@ -30,6 +30,6 @@ state={
 		8123 8324 8330 
 	}
 	manpower=32000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = LBC
 		add_core_of = LBC
 
 		victory_points = {
@@ -37,6 +37,6 @@ state={
 		6815 10488 10593 10605 10606 10608 10610 10611 10617 10618 10619 10620 10626 10627 10630 10633 10661
 	}
 	manpower=62000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

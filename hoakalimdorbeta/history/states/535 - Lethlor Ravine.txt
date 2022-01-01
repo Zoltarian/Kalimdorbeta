@@ -7,14 +7,14 @@ state={
 	}
 
 	history={
-		
+		owner = DIC
 		buildings = {
 			infrastructure = 3
 
 		}
 		add_core_of = DIC
 		596.1.1 = {
-			
+			owner = BBC
 			controller = BBC
 			add_core_of = BBC
 
@@ -31,6 +31,6 @@ state={
 		966 4805 4811 4817 4820 4826 4833 4836 6209 6218
 	}
 	manpower=7800
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

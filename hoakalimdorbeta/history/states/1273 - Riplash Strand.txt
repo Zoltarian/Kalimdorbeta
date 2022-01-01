@@ -4,7 +4,7 @@ state={
 	name="STATE_1273"
 
 	history={
-		
+		owner = SKA
 		add_core_of = SKA
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		5345 7606 7799 7808 7813 8916 8921 10969 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

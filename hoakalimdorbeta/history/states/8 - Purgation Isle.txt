@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = KUL
 		add_core_of = KUL
 		victory_points = {
 			65 5 
@@ -34,6 +34,6 @@ state={
 		61 65 66 69 
 	}
 	manpower=3400
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_1
 }

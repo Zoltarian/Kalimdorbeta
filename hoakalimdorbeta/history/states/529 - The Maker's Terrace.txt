@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		victory_points = {
 			987 20
 		}
@@ -18,14 +18,14 @@ state={
 		}
 		add_core_of = IRO
 		596.1.1 = {
-			
+			owner = BBC
 			controller = BBC
 			add_core_of = BBC
 
 		}
 
 		617.1.1 = {
-			
+			owner = DIC
 			controller = DIC
 			add_core_of = DIC
 		}
@@ -35,6 +35,6 @@ state={
 		987 4860 4864 4865 4866 4867 4868 4869 4870 6204
 	}
 	manpower=6950
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

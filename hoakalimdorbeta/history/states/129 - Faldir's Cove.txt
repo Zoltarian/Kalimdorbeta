@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = STR
 		victory_points = {
 			1766 5 
 		}
@@ -30,6 +30,6 @@ state={
 		1763 1766 1768 5122 5125 5127 5135 5138 5142 
 	}
 	manpower=8200
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

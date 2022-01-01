@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = BRC
 		add_core_of = BRC
 		victory_points = {
 			2926 20
@@ -20,7 +20,7 @@ state={
 		}
 
 		596.1.1 = {
-			
+			owner = BTG
 			controller = BTG
 			add_core_of = BTG
 			remove_core_of = BRC
@@ -44,6 +44,6 @@ state={
 		941 2906 2917 2920 2923 2924 2926
 	}
 	manpower=93000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_6
 }

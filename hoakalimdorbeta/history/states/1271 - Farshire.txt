@@ -4,7 +4,7 @@ state={
 	name="STATE_1271"
 
 	history={
-		
+		owner = KLK
 		add_core_of = KLK
 
 		buildings = {
@@ -12,7 +12,7 @@ state={
 		}
 
 		620.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 		}
@@ -22,6 +22,6 @@ state={
 		8240 8250 8251 8891 8933
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

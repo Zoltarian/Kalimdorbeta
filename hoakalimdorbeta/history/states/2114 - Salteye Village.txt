@@ -4,7 +4,7 @@ state={
 	name="STATE_2114"
 
 	history={
-		
+		owner = SAL
 		add_core_of = SAL
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,6 @@ state={
 		4456 5490 5819 
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

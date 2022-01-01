@@ -4,7 +4,7 @@ state={
 	name="STATE_1611"
 
 	history={
-		
+		owner = BLO
 		add_core_of = BLO
 
 		victory_points = {
@@ -30,6 +30,6 @@ state={
 		1645 1648 1649 1651 6417
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_3
 }

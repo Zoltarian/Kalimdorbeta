@@ -11,7 +11,7 @@ state={
 		owner = KAL
 		add_core_of = KAL
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 
 		}
 
@@ -21,6 +21,6 @@ state={
 		12632 13043 13093 13182 13183 13186 13188 
 	}
 	manpower=5000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

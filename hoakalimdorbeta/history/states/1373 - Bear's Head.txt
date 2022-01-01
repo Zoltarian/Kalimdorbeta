@@ -13,7 +13,7 @@ state={
 			14934 10
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 
 		}
 		add_core_of = TIM
@@ -24,6 +24,6 @@ state={
 		12025 14924 14934 15105 15106 
 	}
 	manpower=3000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }

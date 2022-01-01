@@ -4,7 +4,7 @@ state={
 	impassable = yes
 
 	history={
-		
+		owner = TKT
 		add_core_of = TKT
 
 		buildings = {
@@ -16,6 +16,6 @@ state={
 		10984
 	}
 	manpower=25
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_0
 }

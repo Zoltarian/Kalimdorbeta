@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = QUE
 		victory_points = {
 			3015 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 1
@@ -32,6 +32,6 @@ state={
 		438 1113 3009 3010 3011 3012 3014 3015 3016 3017 3018 5703 5742 5745 
 	}
 	manpower=52750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_4
 }

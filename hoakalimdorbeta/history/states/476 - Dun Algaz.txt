@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		
+		owner = IRO
 		victory_points = {
 			3594 20 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
 
@@ -41,7 +41,7 @@ state={
 
 		}
 		617.1.1 = {
-			
+			owner = DMC
 			controller = DMC
 			add_core_of = DMC
 
@@ -53,6 +53,6 @@ state={
 		1048 3586 3588 3589 3590 3591 3594 3595 5914 5931 5932 5949 5955 6073 
 	}
 	manpower=44750
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_5
 }

@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			2147 5 
 		}
-		
+		owner = STO
 		buildings = {
 			infrastructure = 5
 
@@ -24,14 +24,14 @@ state={
 		}
 		add_core_of = WST
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 
 		}
 
 		612.1.1 = {
-			
+			owner = RPP
 			controller = RPP
 			add_core_of = RPP
 
@@ -43,6 +43,6 @@ state={
 		612 2146 2147 2151 2153 
 	}
 	manpower=7000
-	buildings_max_level_factor=1.000
+	local_supplies=0.0
 	state_category=building_slots_2
 }
