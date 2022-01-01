@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = IRO
+		
 		add_core_of = IRO
 
 		victory_points = {
@@ -21,13 +21,13 @@ state={
 		}
 
 		596.1.1 = {
-			owner = BHC
+			
 			controller = BHC
 			add_core_of = BHC
 		}
 		
 		600.1.1 = {
-			owner = IRO
+			
 			remove_core_of = BHC
 		}
 	}

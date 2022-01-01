@@ -12,7 +12,7 @@ state={
 	victory_points = { 
 		2395 15
  	}
-		owner = STO
+		
 		buildings = {
 			infrastructure = 5	
 			dockyard = 6
@@ -29,7 +29,7 @@ state={
 			}
 
 		}
-		add_core_of = STO
+		add_
 		
 		596.1.1 = {
 			owner = SRC
@@ -38,7 +38,7 @@ state={
 
 		}
 		600.1.1 = {
-			owner = STO
+			
 			controller = STO
 			remove_core_of = SRC
 

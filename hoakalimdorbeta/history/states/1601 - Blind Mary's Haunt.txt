@@ -4,8 +4,8 @@ state={
 	name="STATE_1601"
 
 	history={
-		owner = STO
-		add_core_of = STO
+		
+		add_
 		victory_points = {
 			1989 5
 		}
@@ -14,13 +14,13 @@ state={
 		}
 
 		596.1.1 = {
-			owner = THC
+			
 			controller = THC
 			add_core_of = THC
 		}
 
 		600.1.1 = {
-			owner = STO
+			
 			controller = STO
 			remove_core_of = THC
 		}
