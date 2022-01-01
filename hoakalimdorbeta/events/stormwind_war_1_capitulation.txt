@@ -165,7 +165,7 @@ country_event = { #Lordeaon Ceeds Land
 			transfer_state = 35
 			transfer_state = 124
 			transfer_state = 755
-			set_capital = 122
+			set_capital = { state = 122 }
 		}
 		LOR = {
 			create_faction = Alliance_of_Lordaeron
@@ -412,7 +412,7 @@ country_event = { #Lordaeron_refuses_2
 	option = {
 		name = stormwind_capitulation.203.option.1
 		STO = {
-			set_capital = 323
+			set_capital = { state = 323 }
 			add_ideas = STO_balor_overpopulated_1
 			add_ideas = STO_balor_humiliated_military
 			set_cosmetic_tag = STO_BAL

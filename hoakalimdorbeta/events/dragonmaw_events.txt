@@ -104,7 +104,7 @@ country_event = { #puppet alexstraza
 			transfer_state = 500
 			transfer_state = 777
 			transfer_state = 499
-			set_capital = 500
+			set_capital = { state = 500 }
 			puppet = RDF
 			
 		}

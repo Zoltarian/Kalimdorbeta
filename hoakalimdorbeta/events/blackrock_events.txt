@@ -770,7 +770,7 @@ country_event = {
 			transfer_state = 524
 			transfer_state = 807
 			transfer_state = 658
-			set_capital = 524
+			set_capital = { state = 524 }
 		}
 		524 = {
 			add_core_of = BRC
@@ -959,7 +959,7 @@ country_event = {
 			310 = {
 				add_core_of = THC
 			}
-			set_capital = 327
+			set_capital = { state = 327 }
 			BBC = {
 				transfer_state = 806
 				transfer_state = 540
@@ -1302,7 +1302,7 @@ country_event = {
 		add_state_core = 805
 		add_state_core = 806
 		add_state_core = 807
-		set_capital = 524
+		set_capital = { state = 524 }
 	}
 }
 

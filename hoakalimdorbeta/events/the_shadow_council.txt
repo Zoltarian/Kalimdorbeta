@@ -97,7 +97,7 @@ country_event = {
     option = {
         name = shadow_council.3.option.1
 
-		set_capital = 524
+		set_capital = { state = 524 }
 
 		BRC = {
 			country_event = { id = blackrock.17  }

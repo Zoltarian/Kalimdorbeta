@@ -67,7 +67,7 @@ country_event = {
 		name = hakkari.3.option.1
 		
 		HAK = {
-			set_capital = 1095
+			set_capital = { state = 1095 }
 		}
 		BRC = { country_event = blackrock.4 }
 			
