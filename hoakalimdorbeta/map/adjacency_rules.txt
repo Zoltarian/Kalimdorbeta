@@ -9,33 +9,28 @@
 #Name is how you refer to the rule in adjecencies.csv
 
 #DARK_PORTAL_DRAENOR
-adjacency_rule
-{
+adjacency_rule = {
 	name = "DARK_PORTAL_DRAENOR"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -57,8 +52,7 @@ adjacency_rule
 }
 
 #DARK_PORTAL_OUTLAND
-adjacency_rule
-{
+adjacency_rule = {
 	name = "DARK_PORTAL_OUTLAND"
 
 	contested = {
@@ -101,33 +95,28 @@ adjacency_rule
 }
 
 #DARNASSUS_GATEWAY
-adjacency_rule
-{
+adjacency_rule = {
 	name = "DARNASSUS_GATEWAY"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
