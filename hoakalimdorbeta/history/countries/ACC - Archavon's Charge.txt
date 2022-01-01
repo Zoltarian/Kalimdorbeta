@@ -16,6 +16,8 @@ add_ideas = {
 	
 }
 
+recruit_character = ACC_archavon_the_stone_watcher
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -28,24 +30,8 @@ set_popularities = {
 }
 
 set_politics = {
-	ruling_party = neutral
+	ruling_party = titans
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Archavon the Stone Watcher"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

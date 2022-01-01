@@ -127,6 +127,29 @@ if = {
 	}
 }
 
+recruit_character = AHQ_cthun
+recruit_character = AHQ_emperor_veklor
+recruit_character = AHQ_emperor_veknilash
+recruit_character = AHQ_general_rajaxx
+recruit_character = AHQ_prophet_skeram
+recruit_character = AHQ_lord_kri
+recruit_character = AHQ_battleguard_sartura
+recruit_character = AHQ_ouro
+recruit_character = AHQ_kurinnaxx
+recruit_character = AHQ_captain_qeez
+recruit_character = AHQ_captain_tuubid
+recruit_character = AHQ_captain_drenn
+recruit_character = AHQ_captain_xurrem
+recruit_character = AHQ_major_yeggeth
+recruit_character = AHQ_major_pakkon
+recruit_character = AHQ_colonel_zerran
+recruit_character = AHQ_buru_the_gorger
+recruit_character = AHQ_ayamiss_the_hunter
+recruit_character = AHQ_princess_yauj
+recruit_character = AHQ_vem
+recruit_character = AHQ_fankriss_the_unyielding
+recruit_character = AHQ_princess_huhuran
+
 set_politics = {
 	ruling_party = old_gods
 	last_election = "590.10.27"
@@ -143,48 +166,3 @@ set_popularities = {
     titans = 0
     neutral = 0
 }
-
-create_country_leader = {
-	name = "C'thun"
-	desc = "POLITICS_CTHUN_DESC"
-	picture = "gfx/leaders/AHQ/cthun.dds"
-	ideology = old_gods_type
-	traits = {
-		old_gods_imprisoned_leader_trait
-	}
-}
-
-create_field_marshal = {
-	name = "Emperor Vek'lor"
-	picture = "gfx/leaders/AHQ/emperor_veklor.dds"
-	traits = {  }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Emperor Vek'nilash"
-	picture = "gfx/leaders/AHQ/emperor_veknilash.dds"
-	traits = {  }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Ouro"
-	picture = "gfx/leaders/AHQ/ouro.dds"
-	traits = {  }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-596.1.1 = {}

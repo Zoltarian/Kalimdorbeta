@@ -54,6 +54,11 @@ set_technology = {
 }
 
 592.1.1 = {
+
+	recruit_character = AER_kurdran_wildhammer
+	recruit_character = AER_falstad_wildhammer
+	recruit_character = AER_gryphon_master_talonaxe
+
 	set_politics = {
 		ruling_party = neutral
 		last_election = "590.10.27"
@@ -61,15 +66,16 @@ set_technology = {
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 15
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 85
-  }
+	set_popularities = {
+		alliance = 15
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 85
+	}
+
 }
 
 596.1.1 = {
@@ -140,82 +146,4 @@ set_technology = {
     titans = 0
     neutral = 25
 	}
-}
-
-create_country_leader = {
-	name = "Chief Thane Kurdran Wildhammer"
-	desc = "POLITICS_THANE_KURDRAN_WILDHAMMER_DESC"
-	picture = "kurdran.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Chief Thane Kurdran Wildhammer"
-	desc = "POLITICS_THANE_KURDRAN_WILDHAMMER_DESC"
-	picture = "kurdran.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Thane Kurdran Wildhammer"
-	desc = "POLITICS_THANE_KURDRAN_WILDHAMMER_DESC"
-	picture = "kurdran.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Thane Kurdran Wildhammer"
-	desc = "POLITICS_THANE_KURDRAN_WILDHAMMER_DESC"
-	picture = "kurdran.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Thane Kurdran Wildhammer"
-	desc = "POLITICS_THANE_KURDRAN_WILDHAMMER_DESC"
-	picture = "kurdran.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Chief Thane Kurdran Wildhammer"
-	picture = "kurdran.dds"
-	traits = {  }
-	id = 100
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Gryphon Master Talonaxe"
-	picture = "Gryphon_Master_Talonaxe.dds"
-	traits = {  }
-	id = 101
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

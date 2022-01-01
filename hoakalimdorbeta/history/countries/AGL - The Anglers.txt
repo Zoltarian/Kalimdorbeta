@@ -14,6 +14,8 @@ add_ideas = {
 
 }
 
+recruit_character = AGL_nat_pagle
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -29,16 +31,6 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Nat Pagle"
-	desc = "POLITICS_NAT_PAGLE_DESC"
-	picture = "nat_pagle.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
 }
 
 create_field_marshal = { }

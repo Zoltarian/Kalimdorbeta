@@ -13,6 +13,8 @@ add_ideas = {
 	blood_troll_primary_race
 }
 
+recruit_character = AKT_warmother_nagla
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -28,23 +30,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Warmother Nagla"
-	desc = "POLITICS_WARMOTHER_NAGLA_DESC"
-	picture = "warmother_nagla.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

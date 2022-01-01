@@ -60,6 +60,27 @@ set_technology = {
 
 }
 
+recruit_character = ALT_aiden_perenolde
+recruit_character = ALT_aliden_perenolde
+recruit_character = ALT_general_hath
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+  alliance = 3
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 97
+}
+
 596.1.1 = {
 
 	set_stability = 0.5
@@ -100,9 +121,6 @@ set_technology = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
 
-
-		
-
 		naval_transport_2 = 1
 
 		aviary_tech = 1
@@ -113,113 +131,6 @@ set_technology = {
 		encryption_1 = 1
 		decryption_1 = 1
 	}
-}
-
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-  alliance = 3
-  horde = 0
-  death = 0
-  fel = 0
-  old_gods = 0
-  titans = 0
-  neutral = 97
-}
-
-create_country_leader = {
-	name = "Aiden Perenolde"
-	desc = "POLITICS_ALIDEN_PERENOLDE_DESC"
-	picture = "Aiden_Perenolde.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Aiden Perenolde"
-	desc = "POLITICS_ALIDEN_PERENOLDE_DESC"
-	picture = "Aiden_Perenolde.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aiden Perenolde"
-	desc = "POLITICS_ALIDEN_PERENOLDE_JOINED_HORDE"
-	picture = "Aiden_Perenolde.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aiden Perenolde"
-	desc = "POLITICS_ALIDEN_PERENOLDE_DESC"
-	picture = "Aiden_Perenolde.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aiden Perenolde"
-	desc = "POLITICS_ALIDEN_PERENOLDE_DESC"
-	picture = "Aiden_Perenolde.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Aiden Perenolde"
-	picture = "Aiden_Perenolde.dds"
-	traits = {  }
-	id = 600
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Aliden Perenolde"
-	picture = "Aliden_Perenolde.dds"
-	traits = {  }
-	id = 601
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "General Hath"
-	picture = "Portrait_ALT_Generic_land_1.dds"
-	traits = {  }
-	id = 602
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }
 
 600 = {
