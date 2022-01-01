@@ -166,10 +166,6 @@
 ########################
 #dragon admin tree
 ########################
- peon:0 "Peon"
- peon_desc:0 "Peon"
- forge_master:0 "Forge Master"
- forge_master_desc:0 "Forge Master"
 
 ########################
 #dragon ground tree
@@ -218,8 +214,7 @@ carrier:0 "Carrier"
 
 fighter:0 "Fighter"
 fighter_desc:0 "Fighter"
-cas:0 "Close Air Support"
-cas_desc:0 ""
+#cas:0 "Close Air Support" #defined in basegame
 bomber:0 "Bomber"
 bomber_desc:0 ""
 naval_bomber:0 "Naval Bomber"
