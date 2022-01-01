@@ -80,6 +80,15 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
+	corneredTileSpriteType = {
+		name = "GFX_tiled_paper_small_bg"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_paper_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"	
+	}
+
 	SpriteType = {
 		name = "GFX_research_top_win"
 		textureFile = "gfx/interface/research_top_win.dds"
@@ -207,6 +216,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_landdoctrine_tab_large"
+		textureFile = "gfx/interface/techtree/techtree_landdoctrine_tab_large.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
 		name = "GFX_naval_folder_tab"
 		textureFile = "gfx/interface/techtree/techtree_naval_tab.dds"
 		noOfFrames = 2
@@ -219,6 +234,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_navaldoctrine_tab_large"
+		textureFile = "gfx/interface/techtree/techtree_navaldoctrine_tab_large.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
 		name = "GFX_air_techs_folder_tab"
 		textureFile = "gfx/interface/techtree/techtree_air_tab.dds"
 		noOfFrames = 2
@@ -228,6 +249,12 @@ spriteTypes = {
 		name = "GFX_air_doctrine_folder_tab"
 		textureFile = "gfx/interface/techtree/techtree_airdoctrine_tab.dds"
 		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_airdoctrine_tab_large"
+		textureFile = "gfx/interface/techtree/techtree_airdoctrine_tab_large.dds"
+		noOfFrames = 2		
 	}
 
 	spriteType = {
@@ -419,6 +446,18 @@ spriteTypes = {
 		noOfFrames = 2			
 	}
 
+	spriteType = {
+		name = "GFX_doctrine_tab_glow"
+		textureFile = "gfx/interface/techtree/doctrine_tab_glow.dds"
+		noOfFrames = 4			
+	}
+		
+	spriteType = {
+		name = "GFX_armyoverview_button_glow"
+		textureFile = "gfx/interface/techtree/armyoverview_button_glow.dds"
+		noOfFrames = 2			
+	}
+
 	corneredTileSpriteType = {
 		name = "GFX_tiled_plain_bg"
 		size= { x=192 y=192 }
@@ -514,6 +553,15 @@ spriteTypes = {
 		size= { x=192 y=192 }
 		textureFile = "gfx/interface/tiles/tiled_bg.dds"
 		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_header"
+		size = { x=543 y=41}
+		texturefile = "gfx/interface/header_bg.dds"
+		bordersize = { x=61 y=21}
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
@@ -1874,40 +1922,6 @@ spriteTypes = {
 
 	##############
 
-	#### land doctrine #####
-
-	spriteType = {
-		name = "GFX_technology_land_doctrine_folder_available_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_available_item_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_technology_land_doctrine_folder_unavailable_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_unavailable_item_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_technology_land_doctrine_folder_branch_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_technology_land_doctrine_folder_researched_item_bg"
-		textureFile = "gfx/interface/techtree/tech_landdoctrine_researched_item_bg.dds"
-	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_technology_land_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx/interface/techtree/tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}
-
 	#### naval tech ######
 
 	spriteType = {
@@ -1957,40 +1971,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/techtree/tech_naval_researched_item_bg.dds"
 	}
 
-	### naval doctrine tech entry bgs ###
-
-	spriteType = {
-		name = "GFX_technology_naval_doctrine_folder_unavailable_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_unavailable_item_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_technology_naval_doctrine_folder_branch_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_technology_naval_doctrine_folder_available_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_available_item_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_technology_naval_doctrine_folder_researched_item_bg"
-		textureFile = "gfx/interface/techtree/tech_landdoctrine_researched_item_bg.dds"
-	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_technology_naval_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx/interface/techtree/tech_doctrine_researching_anim_strip.dds"
-		noOfFrames = 9
-		loadType = "INGAME"
-		transparencecheck = yes
-		animation_rate_fps = 15
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-	}
-
 	#### air tech #####		# air has a special small override
 
 	spriteType = {
@@ -2020,28 +2000,101 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
 
+	#### land doctrine #####
+
+	spriteType = {
+		name = "GFX_technology_land_doctrine_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_land_doctrine_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_unavailable_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_land_doctrine_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_industry_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_land_doctrine_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/tech_landdoctrine_researched_item_bg.dds"
+	}	
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_land_doctrine_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	### naval doctrine tech entry bgs ###
+
+	spriteType = {
+		name = "GFX_technology_naval_doctrine_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_naval_doctrine_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_naval_doctrine_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_naval_doctrine_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/tech_landdoctrine_researched_item_bg.dds"
+	}	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_naval_doctrine_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
 	### air doctrine tech entry bgs ###
 
 	spriteType = {
 		name = "GFX_technology_air_doctrine_folder_unavailable_item_bg"
 		textureFile = "gfx/interface/techtree/tech_doctrine_unavailable_item_bg.dds"
-	}
-
+	}	
+	
 	spriteType = {
 		name = "GFX_technology_air_doctrine_folder_available_item_bg"
 		textureFile = "gfx/interface/techtree/tech_doctrine_available_item_bg.dds"
 	}
-
+	
 	spriteType = {
 		name = "GFX_technology_air_doctrine_folder_branch_item_bg"
 		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
-	}
+	}	
 
 	spriteType = {
 		name = "GFX_technology_air_doctrine_folder_researched_item_bg"
 		textureFile = "gfx/interface/techtree/tech_landdoctrine_researched_item_bg.dds"
-	}
-
+	}	
+	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_air_doctrine_folder_currently_researching_item_bg"
 		texturefile = "gfx/interface/techtree/tech_doctrine_researching_anim_strip.dds"

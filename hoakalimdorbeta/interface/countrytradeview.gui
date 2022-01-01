@@ -17,13 +17,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_1b_border"
 		}
 
-		iconType ={
-			name ="production_header_bg"
-			spriteType = "GFX_trade_header_bg"
-			position = { x= 5 y = 07 }
-			Orientation = "UPPER_LEFT"
-		}
-
 		instantTextboxType = {
 			name = "trade_title"
 			position = { x = 45 y = 8 }
@@ -287,6 +280,8 @@ guiTypes = {
 			position = { x = 90 y = 427 }	
 			size = { width = 535 height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 45
+			smooth_scrolling = yes
 			margin = {top = 1 bottom = 13 }			
 				
 			background = {

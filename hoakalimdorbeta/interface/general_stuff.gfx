@@ -82,14 +82,14 @@ spriteTypes = {
 	}
 
 	spriteType = {
- 		name = "GFX_generic_text_bg_325"
- 		texturefile = "gfx/interface/generic_text_bg_325.dds"
- 	}
+		name = "GFX_generic_text_bg_325"
+		texturefile = "gfx/interface/generic_text_bg_325.dds"
+	}
 
- 	spriteType = {
- 		name = "GFX_generic_text_bg_325_transp"
- 		texturefile = "gfx/interface/generic_text_bg_325_transp.dds"
- 	}
+	spriteType = {
+		name = "GFX_generic_text_bg_325_transp"
+		texturefile = "gfx/interface/generic_text_bg_325_transp.dds"
+	}
 
 	spriteType = {
 		name = "GFX_generic_w_box_smallest"
@@ -150,6 +150,11 @@ spriteTypes = {
 		name = "GFX_generic_text_bg_88"
 		texturefile = "gfx/interface/generic_text_bg_88.dds"
 	}	
+
+	spriteType = {
+		name = "GFX_generic_text_bg_48"
+		texturefile = "gfx/interface/stateview/generic_text_bg_48.dds"
+	}
 
 	spriteType = {
 		name = "GFX_generic_text_bg_60"

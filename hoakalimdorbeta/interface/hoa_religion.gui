@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "faith_points_container"
-		position = { x = 975 y = 4 }
+		position = { x = 1025 y = 4 }
 		
 		buttonType ={
 			name ="faith_points_bg_click"
@@ -33,7 +33,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "faith_points_box_container"
-		position = {x=950 y=50}
+		position = {x=1000 y=50}
 		size = { width=270 height=100 }
 
 		fade_time = 300
