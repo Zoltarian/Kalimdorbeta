@@ -17,12 +17,12 @@ state={
 			industrial_complex = 4
 
 		}
-		add_
+		add_core_of = ZUL
 		596.1.1 = {
 			owner = AMA
 			controller = AMA
 			add_core_of = AMA
-			remove_
+			remove_core_of = ZUL
 		}
 
 	}

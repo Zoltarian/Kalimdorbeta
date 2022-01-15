@@ -49,7 +49,6 @@ replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="portraits"
-
 version="0.5"
 supported_version="1.11.*"
 path="C:/Users/zolta/Documents/Paradox Interactive/Hearts of Iron IV/mod/hoakalimdorbeta"

@@ -15,16 +15,16 @@ state={
 			infrastructure = 3
 
 		}
-		add_
+		add_core_of = LOR
 		596.1.1 = {
 			
 			controller = STO
-			add_
+			add_core_of = STO
 
 		}
 		600.1.1 = {
 			
-			remove_
+			remove_core_of = STO
 
 		}
 		617.1.1 = {

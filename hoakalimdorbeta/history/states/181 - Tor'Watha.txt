@@ -16,12 +16,12 @@ state={
 			arms_factory = 1
 
 		}
-		add_
+		add_core_of = SMR
 		596.1.1 = {
 			
 			controller = QUE
-			add_
-			remove_
+			add_core_of = QUE
+			remove_core_of = SMR
 
 		}
 
