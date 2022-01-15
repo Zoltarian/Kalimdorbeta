@@ -1,3 +1,22 @@
 characters={
 
+	BKT_tak_tak = {
+		name = BKT_tak_tak
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/generic/generic_human_1.dds" #need portrait
+			}
+			army = {
+				large = "gfx/leaders/generic/generic_human_1.dds" #need portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_TAK_TAK_DESC"
+			traits = {}
+			id = -1
+		}
+
+	}
 }

@@ -12,6 +12,29 @@ leader_traits = {
 		}
 	}
 
+	peaceful_leader_trait = {
+		random = no
+
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		justify_war_goal_time = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	warmonger_leader_trait = {
+		random = no
+
+		war_support_factor = 0.05
+		justify_war_goal_time = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	tactical_genius_trait = {
 		random = no
 
@@ -183,7 +206,7 @@ leader_traits = {
 	druid_leader_trait = {
 
 		special_forces_attack_factor = 0.2
-	        special_forces_defence_factor = 0.3
+	  special_forces_defence_factor = 0.3
 
 		ai_will_do = {
 			factor = 1
@@ -229,10 +252,10 @@ leader_traits = {
 
 	shaman_leader_trait = {
 
-            offence = 0.2
-            defence = -0.1
-            attrition = -0.1
-            out_of_supply_factor = -0.5
+    offence = 0.2
+    defence = -0.1
+    attrition = -0.1
+    out_of_supply_factor = -0.5
 
 		ai_will_do = {
 			factor = 1

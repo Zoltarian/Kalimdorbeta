@@ -1,3 +1,55 @@
 characters={
 
+	BRK_akama = {
+		name = BRK_akama
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BRK/akama.dds"
+			}
+			army = {
+				large = "gfx/leaders/BRK/akama.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_AKAMA_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_AKAMA_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRK_farseer_nobundo = {
+		name = BRK_farseer_nobundo
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRK/farseer_nobundo.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

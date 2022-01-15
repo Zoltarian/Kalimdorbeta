@@ -1,3 +1,49 @@
 characters={
 
+	GRN_gruul_the_dragonkiller = {
+		name = GRN_gruul_the_dragonkiller
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/GRN/gruul_the_dragonkiller.dds"
+			}
+			army = {
+				large = "gfx/leaders/GRN/gruul_the_dragonkiller.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_GRUUL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GRN_durn_the_hungerer = {
+		name = GRN_durn_the_hungerer
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRN/durn_the_hungerer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

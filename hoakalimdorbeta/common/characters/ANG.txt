@@ -1,3 +1,79 @@
 characters={
 
+	ANG_aggthok_the_eternal = {
+		name = ANG_aggthok_the_eternal
+		portraits = {
+			civilian = { 
+				large = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+			army = {
+				large = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_AGGTHOK_THE_ETERNAL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_AGGTHOK_THE_ETERNAL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_AGGTHOK_THE_ETERNAL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	ANG_durgol_the_ruthless = {
+		name = ANG_durgol_the_ruthless 
+		portraits = {
+			army = {
+				large = "gfx/leaders/ANG/durgol_the_ruthless.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	ANG_mokwar_the_terrible = {
+		name = ANG_mokwar_the_terrible
+		portraits = {
+			army = {
+				large = "gfx/leaders/ANG/mokwar_the_terrible.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,31 @@
 characters={
 
+	GLC_khan_shaka = {
+		name = GLC_khan_shaka
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/GLC/khan_shaka.dds"
+			}
+			army = {
+				large = "gfx/leaders/GLC/khan_shaka.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_KHAN_SHAKA_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

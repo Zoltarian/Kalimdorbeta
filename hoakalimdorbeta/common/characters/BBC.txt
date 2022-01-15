@@ -1,3 +1,94 @@
 characters={
 
+	BBC_azuka_bladefury = {
+		name = BBC_azuka_bladefury
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BBC/Azuka.dds"
+			}
+			army = {
+				large = "gfx/leaders/BBC/Azuka.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_AZUKA_BLADEFURY_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_AZUKA_BLADEFURY_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BBC_luhk_the_keeneyed = {
+		name = BBC_luhk_the_keeneyed
+		portraits = {
+			army = {
+				large = "gfx/leaders/BBC/luhk.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BBC_flamebender_kagraz = {
+		name = BBC_flamebender_kagraz
+		portraits = {
+			army = {
+				large = "gfx/leaders/BBC/kagraz.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }
+
+#create_country_leader = {
+#	name = "Lantresor of the Blade"
+#	desc = "POLITICS_SAMURO_DESC"
+#	picture = "lantresor.dds"
+#	expire = "1965.1.1"
+#	ideology = neutral_type
+#	traits = {
+#		#
+#	}
+#}
+
+#create_country_leader = {
+#	name = "Neeru Fireblade"
+#	desc = "POLITICS_SAMURO_DESC"
+#	picture = "Neeru.dds"
+#	expire = "1965.1.1"
+#	ideology = fel_type
+#	traits = {
+#		#
+#	

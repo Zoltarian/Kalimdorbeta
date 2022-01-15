@@ -1,3 +1,65 @@
 characters={
 
+	BHT_cairne_bloodhoof = {
+		name = BHT_cairne_bloodhoof
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
+			}
+			army = {
+				large = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc =  "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc =  "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BHT_baine_bloodhoof = {
+		name = BHT_baine_bloodhoof
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BDF/Kalecgos.dds"
+			}
+			army = {
+				large = "gfx/leaders/BDF/Kalecgos.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_KALECGOS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,91 @@
 characters={
 
+	BOO_baron_revilgaz = {
+		name = BOO_baron_revilgaz
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BOO/baron_revilgaz.dds"
+			}
+			army = {
+				large = "gfx/leaders/BOO/baron_revilgaz.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_BARON_REVILGAZ_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_BARON_REVILGAZ_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BOO_captain_steelgut = {
+		name = BOO_captain_steelgut
+		portraits = {
+			army = {
+				large = "gfx/leaders/BOO/captain_steelgut.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BOO_captain_krick_wrenchnozzle = {
+		name = BOO_captain_krick_wrenchnozzle
+		portraits = {
+			army = {
+				large = "gfx/leaders/BOO/captain_krick_wrenchnozzle.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BOO_fleet_master_seahorn = {
+		name = BOO_fleet_master_seahorn
+		portraits = {
+			army = {
+				large = "gfx/leaders/BOO/fleet_master_seahorn.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+
 }

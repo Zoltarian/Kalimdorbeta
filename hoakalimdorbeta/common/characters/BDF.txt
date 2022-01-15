@@ -1,3 +1,83 @@
 characters={
 
+	BDF_malygos = {
+		name = BDF_malygos
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BDF/Malygos.dds"
+			}
+			army = {
+				large = "gfx/leaders/BDF/Malygos.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_MALYGOS_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_MALYGOS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BDF_kalecgos = {
+		name = BDF_kalecgos
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BDF/Kalecgos.dds"
+			}
+			army = {
+				large = "gfx/leaders/BDF/Kalecgos.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_KALECGOS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BDF_arygos = {
+		name = BDF_arygos
+		portraits = {
+			army = {
+				large = "gfx/leaders/BDF/generic_blue_dragon_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

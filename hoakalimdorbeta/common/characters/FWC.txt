@@ -1,3 +1,83 @@
 characters={
 
+	FWC_durotan = {
+		name = FWC_durotan
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/FWC/Durotan.dds"
+			}
+			army = {
+				large = "gfx/leaders/FWC/Durotan.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_DUROTAN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_DUROTAN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_DUROTAN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	FWC_drekthar = {
+		name = FWC_drekthar
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/FWC/drekthar.dds"
+			}
+			army = {
+				large = "gfx/leaders/FWC/drekthar.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_DREKTHAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_DREKTHAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_DREKTHAR_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

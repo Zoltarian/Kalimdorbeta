@@ -1,3 +1,31 @@
 characters={
 
+	ELD_lord_rominate = {
+		name = ELD_lord_rominate
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/ELD/lord_rominate.dds"
+			}
+			army = {
+				large = "gfx/leaders/ELD/lord_rominate.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_LORD_ROMINATE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

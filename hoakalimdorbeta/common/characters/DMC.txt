@@ -1,3 +1,61 @@
 characters={
 
+	DMC_zuluhed_the_whacked = {
+		name = DMC_zuluhed_the_whacked
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DMC/zuluhed.dds"
+			}
+			army = {
+				large = "gfx/leaders/DMC/zuluhed.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_ZULUHED_THE_WHACKED_FIRST_WAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_ZULUHED_THE_WHACKED_FIRST_WAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_ZULUHED_THE_WHACKED_FIRST_WAR_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DMC_nekros_skullcrusher = {
+		name = DMC_nekros_skullcrusher
+		portraits = {
+			army = {
+				large = "gfx/leaders/DMC/nekros.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

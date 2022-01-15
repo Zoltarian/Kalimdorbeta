@@ -1,6 +1,6 @@
 ideas = {
 
-	advisor = {
+	political_advisor = {
 	# Civilian Advisors 
 	
 		BDF_kalec = {
@@ -15,17 +15,17 @@ ideas = {
 			
 		}
 		
-		BDF_arygos = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = BDF
-			}
-			
-			traits = { heir_idea }
-			
-		}
+#		BDF_arygos = {
+#
+#			picture = generic_political_advisor_europe_1
+#
+#			allowed = {
+#				original_tag = BDF
+#			}
+#			
+#			traits = { heir_idea }
+#			
+#		}
 
 	}
 	

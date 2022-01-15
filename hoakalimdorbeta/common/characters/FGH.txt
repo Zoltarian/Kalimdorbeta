@@ -1,3 +1,31 @@
 characters={
 
+	FGH_fieldgiant_harvester = {
+		name = FGH_fieldgiant_harvester
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/FGH/fieldgiant_harvester.dds"
+			}
+			army = {
+				large = "gfx/leaders/FGH/fieldgiant_harvester.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_FIELDGIANT_BROODMOTHER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

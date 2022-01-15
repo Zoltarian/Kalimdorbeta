@@ -1,3 +1,55 @@
 characters={
 
+	DRE_prophet_velen = {
+		name = DRE_prophet_velen
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DRE/Velen.dds"
+			}
+			army = {
+				large = "gfx/leaders/DRE/Velen.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_PROPHET_VELEN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_PROPHET_VELEN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DRE_vindicator_marad = {
+		name = DRE_vindicator_marad
+		portraits = {
+			army = {
+				large = "gfx/leaders/Vindicator_Maraad.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

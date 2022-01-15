@@ -1,3 +1,31 @@
 characters={
 
+	CRY_kochar_the_unbreakable = {
+		name = CRY_kochar_the_unbreakable
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/CRY/kochar_the_unbreakable.dds"
+			}
+			army = {
+				large = "gfx/leaders/CRY/kochar_the_unbreakable.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_KOLCHAR_THE_UNBREAKABLE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

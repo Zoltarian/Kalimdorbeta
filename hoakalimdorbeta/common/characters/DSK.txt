@@ -1,3 +1,59 @@
 characters={
 
+	DSK_lord_ello_ebonlocke = {
+		name = DSK_lord_ello_ebonlocke
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+			}
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_LORD_ELLO_EBONLOCKE_DESC"
+			traits = {}
+			id = -1
+		}
+
+	}
+
+	DSK_commander_althea_ebonlocke = {
+		name = DSK_commander_althea_ebonlocke
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DSK_captain_helvas_grange = {
+		name = DSK_captain_helvas_grange
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

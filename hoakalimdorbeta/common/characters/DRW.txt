@@ -1,3 +1,55 @@
 characters={
 
+	DRW_archdruid_rensar_greathoof = {
+		name = DRW_archdruid_rensar_greathoof
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DRW/Rensar_Greathoof.dds"
+			}
+			army = {
+				large = "gfx/leaders/DRW/Rensar_Greathoof.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_ARCHDRUID_RENSAR_GREATHOOF_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_ARCHDRUID_RENSAR_GREATHOOF_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DRW_thaon_moonclaw = {
+		name = DRW_thaon_moonclaw
+		portraits = {
+			army = {
+				large = "gfx/leaders/DRW/Thaon_Moonclaw.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

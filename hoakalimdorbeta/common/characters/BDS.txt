@@ -1,3 +1,31 @@
 characters={
 
+	BDS_siltriss_the_sharpener = {
+		name = BDS_siltriss_the_sharpener
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/generic/generic_human_1.dds" #need portrait
+			}
+			army = {
+				large = "gfx/leaders/generic/generic_human_1.dds" #need portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_SILTRISS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

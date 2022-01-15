@@ -1,3 +1,79 @@
 characters={
 
+	CAE_magistrate_marduke = {
+		name = CAE_magistrate_marduke
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/generic/generic_human_1.dds" #need portrait
+			}
+			army = {
+				large = "gfx/leaders/generic/generic_human_1.dds" #need portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_MAGISTRATE_MARDUKE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_MAGISTRATE_MARDUKE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_MAGISTRATE_MARDUKE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	CAE_captain_joseph_redpath = {
+		name = CAE_captain_joseph_redpath
+		portraits = {
+			army = {
+				large = "gfx/leaders/generic/generic_human_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	CAE_davil_crokford = {
+		name = CAE_davil_crokford
+		portraits = {
+			army = {
+				large = "gfx/leaders/generic/generic_human_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

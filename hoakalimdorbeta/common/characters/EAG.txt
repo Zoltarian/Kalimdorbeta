@@ -1,3 +1,55 @@
 characters={
 
+	EAG_eyahn_eagletalon = {
+		name = EAG_eyahn_eagletalon
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/EAG/eyahn_eagletalon.dds"
+			}
+			army = {
+				large = "gfx/leaders/EAG/eyahn_eagletalon.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_EYAHN_EAGLETALON_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_EYAHN_EAGLETALON_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	EAG_ruul_eagletalon = {
+		name = EAG_ruul_eagletalon
+		portraits = {
+			army = {
+				large = "gfx/leaders/EAG/ruul_eagletalon.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

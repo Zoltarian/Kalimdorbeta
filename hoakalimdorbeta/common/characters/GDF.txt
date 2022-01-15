@@ -1,3 +1,55 @@
 characters={
 
+	GDF_ysera = {
+		name = GDF_ysera
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/GDF/ysera.dds"
+			}
+			army = {
+				large = "gfx/leaders/GDF/ysera.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_YSERA_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_YSERA_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GDF_nishera_the_garden_keeper = {
+		name = GDF_nishera_the_garden_keeper
+		portraits = {
+			army = {
+				large = "gfx/leaders/GDF/nishera_the_garden_keeper.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,61 @@
 characters={
 
+	BON_runeseer_faljar = {
+		name = BON_runeseer_faljar
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BON/runeseer_faljar.dds"
+			}
+			army = {
+				large = "gfx/leaders/BON/runeseer_faljar.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_RUNESEER_FALJAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_RUNESEER_FALJAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_RUNESEER_FALJAR_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BON_urgev_the_flayer = {
+		name = BON_urgev_the_flayer
+		portraits = {
+			army = {
+				large = "gfx/leaders/BON/urgev_the_flayer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

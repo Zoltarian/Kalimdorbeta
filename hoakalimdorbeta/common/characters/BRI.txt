@@ -1,3 +1,49 @@
 characters={
 
+	BRI_chief_squealer_thornmantle = {
+		name = BRI_chief_squealer_thornmantle
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BRI/chief_squealer_thornmantle.dds"
+			}
+			army = {
+				large = "gfx/leaders/BRI/chief_squealer_thornmantle.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_SQUEALER_THRONMANTLE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRI_three_tooth = {
+		name = BRI_three_tooth
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRI/three_tooth.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

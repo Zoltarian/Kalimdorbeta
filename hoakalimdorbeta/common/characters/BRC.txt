@@ -1,3 +1,153 @@
 characters={
 
+	BRC_blackhand_the_destroyer = {
+		name = BRC_blackhand_the_destroyer
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BRC/Blackhand.dds"
+			}
+			army = {
+				large = "gfx/leaders/BRC/Blackhand.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRC_ogrim_doomhammer = {
+		name = BRC_ogrim_doomhammer
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BRC/Ogrim_Doomhammer.dds"
+			}
+			army = {
+				large = "gfx/leaders/BRC/Ogrim_Doomhammer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRC_dalrend_blackhand = {
+		name = BRC_dalrend_blackhand
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BRC/Blackhand.dds"
+			}
+			army = {
+				large = "gfx/leaders/BRC/Blackhand.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_WARCHIEF_DALREND_BLACKHAND_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_WARCHIEF_DALREND_BLACKHAND_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_WARCHIEF_DALREND_BLACKHAND_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRC_eitrigg = {
+		name = BRC_eitrigg
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRC/Eitrigg.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRC_varok_saurfang = {
+		name = BRC_varok_saurfang
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRC/saurfang.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,61 @@
 characters={
 
+	GOM_king_gordok = {
+		name = GOM_king_gordok
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_KING_GORDOK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_KING_GORDOK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_KING_GORDOK_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GOM_chorush_the_observer = {
+		name = GOM_chorush_the_observer
+		portraits = {
+			army = {
+				large = "gfx/leaders/GOR/chorush_the_observer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

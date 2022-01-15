@@ -1,3 +1,31 @@
 characters={
 
+	DSM_lunaclaw = {
+		name = DSM_lunaclaw 
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DSM/lunaclaw.dds"
+			}
+			army = {
+				large = "gfx/leaders/DSM/lunaclaw.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_LUNACLAW_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,55 @@
 characters={
 
+	DRK_jarl_velbrand = {
+		name = DRK_jarl_velbrand
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DRK/jarl_velbrand.dds"
+			}
+			army = {
+				large = "gfx/leaders/DRK/jarl_velbrand.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_JARL_VELBRAND_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_QUEEN_AZSHARA_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DRK_thane_irglov_the_merciless = {
+		name = DRK_thane_irglov_the_merciless
+		portraits = {
+			army = {
+				large = "gfx/leaders/DRK/thane_irglov_the_merciless.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

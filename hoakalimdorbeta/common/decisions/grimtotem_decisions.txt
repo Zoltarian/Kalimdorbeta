@@ -1,0 +1,1321 @@
+uniting_the_tribes_decisions = {
+
+  ###########################
+  # Spirithorn SPH
+  ###########################
+
+  GRM_send_envoy_to_SPH_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      SPH = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      SPH = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      SPH = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_SPH_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      SPH = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      SPH = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      SPH = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Stonespire SOP
+  ###########################
+
+  GRM_send_envoy_to_SOP_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      SOP = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      SOP = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      SOP = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_SOP_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      SOP = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      SOP = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      SOP = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Hawkwing HWT
+  ###########################
+
+  GRM_send_envoy_to_HWT_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      HWT = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      HWT = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      HWT = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_HWT_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      HWT = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      HWT = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      HWT = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Winterhoof WIN
+  ###########################
+
+  GRM_send_envoy_to_WIN_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      WIN = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      WIN = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      WIN = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_WIN_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      WIN = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      WIN = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      WIN = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Thunderhorn TMT
+  ###########################
+
+  GRM_send_envoy_to_TMT_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      TMT = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      TMT = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      TMT = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_TMT_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      TMT = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      TMT = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      TMT = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Dawnstrider DWN
+  ###########################
+
+  GRM_send_envoy_to_DWN_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      DWN = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      DWN = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      DWN = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_DWN_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      DWN = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      DWN = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      DWN = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Eagletalon EAG
+  ###########################
+
+  GRM_send_envoy_to_EAG_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      EAG = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      EAG = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      EAG = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_EAG_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      EAG = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      EAG = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      EAG = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Wildmane WIL
+  ###########################
+
+  GRM_send_envoy_to_WIL_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      WIL = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      WIL = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      WIL = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_WIL_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      WIL = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      WIL = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      WIL = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+
+  ###########################
+  # Bloodhoof BHT
+  ###########################
+
+  GRM_send_envoy_to_BHT_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      BHT = {
+        exists = yes
+        has_opinion = {
+          target = GRM
+          value > 24
+        }
+        NOT = {
+          is_puppet = yes
+          is_in_faction_with = GRM
+          has_country_flag = GRM_envoy_flag
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      is_puppet = no
+      BHT = {
+        exists = yes
+        NOT = { has_country_flag = GRM_envoy_flag }
+      }
+    }
+
+    remove_effect = {
+      BHT = {
+  			country_event = grimtotem.8
+
+        custom_effect_tooltip = GRM_send_envoy_tt
+  		}
+    }
+	}
+
+  GRM_ask_alliance_to_BHT_decision = {
+		icon = generic_civil_support
+
+		cost = 100
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      BHT = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          is_puppet = yes
+        }
+        has_country_flag = GRM_envoy_flag
+        has_opinion = {
+          target = GRM
+          value > 74
+        }
+        OR = {
+          is_neighbor_of = GRM
+          has_war_together_with = GRM
+        }
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_uniting_the_tribes_nf
+      BHT = {
+        has_country_flag = GRM_envoy_flag
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      BHT = {
+  			country_event = grimtotem.11
+
+        custom_effect_tooltip = GRM_ask_for_alliance_tt
+  		}
+    }
+	}
+}
+
+leading_the_tribes_decisions = {
+
+  ###########################
+  # Spirithorn SPH
+  ###########################
+
+  GRM_ultimatum_to_SPH_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = SPH
+        ratio > 1.25
+      }
+      SPH = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      SPH = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      SPH = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_SOP_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = SOP
+        ratio > 1.25
+      }
+      SOP = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      SOP = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      SOP = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_HWT_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = HWT
+        ratio > 1.25
+      }
+      HWT = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      HWT = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      HWT = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_WIN_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = WIN
+        ratio > 1.25
+      }
+      WIN = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      WIN = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      WIN = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_TMT_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = TMT
+        ratio > 1.25
+      }
+      TMT = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      TMT = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      TMT = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_DWN_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = DWN
+        ratio > 1.25
+      }
+      DWN = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      DWN = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      DWN = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_EAG_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = EAG
+        ratio > 1.25
+      }
+      EAG = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      EAG = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      EAG = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_WIL_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = WIL
+        ratio > 1.25
+      }
+      WIL = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      WIL = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      WIL = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+
+  GRM_ultimatum_to_BHT_decision = {
+		icon = generic_civil_support
+
+		cost = 200
+    days_remove = 7
+		days_re_enable = 180
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      strength_ratio = {
+        tag = BHT
+        ratio > 1.25
+      }
+      BHT = {
+        exists = yes
+        NOT = {
+          is_in_faction = yes
+          has_war_with = GRM
+          is_puppet = yes
+        }
+        is_neighbor_of = GRM
+      }
+		}
+
+    visible = {
+      has_completed_focus = GRM_strong_leading_hoof_nf
+      is_puppet = no
+      BHT = {
+        exists = yes
+      }
+    }
+
+    remove_effect = {
+      BHT = {
+  			country_event = grimtotem.5
+
+        custom_effect_tooltip = GRM_ultimatum_tt
+  		}
+    }
+	}
+}
+
+war_measures = {
+  GRM_abandon_our_feralas_holdings_decision = {
+    icon = generic_civil_support
+
+		cost = 0
+
+    allowed = {
+			original_tag = GRM
+		}
+
+    available = {
+      has_defensive_war_with = SHD
+
+      OR = {
+        owns_state = 1168
+        owns_state = 1169
+        owns_state = 1171
+        owns_state = 1170
+        owns_state = 1174
+      }
+		}
+
+    complete_effect = {
+      white_peace = SHD
+
+      SHD = {
+        if = {
+          limit = {
+            GRM = { has_full_control_of_state = 1168 }
+          }
+          transfer_state = 1168
+        }
+        if = {
+          limit = {
+            GRM = { has_full_control_of_state = 1169 }
+          }
+          transfer_state = 1169
+        }
+        if = {
+          limit = {
+            GRM = { has_full_control_of_state = 1171 }
+          }
+          transfer_state = 1171
+        }
+        if = {
+          limit = {
+            GRM = { has_full_control_of_state = 1170 }
+          }
+          transfer_state = 1170
+        }
+        if = {
+          limit = {
+            GRM = { has_full_control_of_state = 1174 }
+          }
+          transfer_state = 1174
+        }
+      }
+    }
+  }
+}

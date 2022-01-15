@@ -1,3 +1,73 @@
 characters={
 
+	AMA_zuljin = {
+		name = AMA_zuljin
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/AMA/zuljin.dds"
+			}
+			army = {
+				large = "gfx/leaders/AMA/zuljin.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_ZULJIN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_ZULJIN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AMA_hex_lord_malacrass = {
+		name = AMA_hex_lord_malacrass
+		portraits = {
+			army = {
+				large = "gfx/leaders/AMA/Hex_Lord_Malacrass.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AMA_daakara = {
+		name = AMA_daakara
+		portraits = {
+			army = {
+				large = "gfx/leaders/AMA/Daakara.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

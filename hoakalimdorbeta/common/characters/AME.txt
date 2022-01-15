@@ -1,3 +1,31 @@
 characters={
 
+	AME_lady_moongazer = {
+		name = AME_lady_moongazer
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/AME/lady_moongazer.dds"
+			}
+			army = {
+				large = "gfx/leaders/AME/lady_moongazer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_LADY_MOONGAZER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

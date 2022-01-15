@@ -1,3 +1,79 @@
 characters={
 
+	BSC_high_king_maulgar = {
+		name = BSC_high_king_maulgar
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BSC/high_king_maulgar.dds"
+			}
+			army = {
+				large = "gfx/leaders/BSC/high_king_maulgar.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_HIGH_KING_MAULGAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_HIGH_KING_MAULGAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_HIGH_KING_MAULGAR_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BSC_gnosh_brognat = {
+		name = BSC_gnosh_brognat
+		portraits = {
+			army = {
+				large = "gfx/leaders/BSC/high_king_maulgar.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BSC_gorrdim = {
+		name = BSC_gorrdim
+		portraits = {
+			army = {
+				large = "gfx/leaders/BSC/gorrdim.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

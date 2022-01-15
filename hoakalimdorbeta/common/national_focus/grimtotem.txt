@@ -1,0 +1,959 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = grimtotem_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GRM
+		}
+	}
+	default = no
+
+	continuous_focus_position = {
+		x = 50
+		y = 25
+	}
+
+	shared_focus = our_nation
+	shared_focus = arming_the_nation
+	shared_focus = develop_the_country
+
+	#The Grimtotem
+	focus = {
+		id = GRM_grimtotem_nf
+		icon = GFX_focus_tauren_thunder_bluff
+		cost = 1
+		x = 35
+		y = 3
+
+		available = {
+			has_country_flag = unlocked_other_branches
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			country_event = grimtotem.1
+		}
+	}
+
+	#Go with Magatha
+	focus = {
+		id = GRM_go_with_magatha_nf
+		icon = GFX_focus_grimtotem_magatha
+		cost = 5
+		mutually_exclusive = {
+			focus = GRM_go_with_jevan_nf
+		}
+		prerequisite = {
+			focus = GRM_grimtotem_nf
+		}
+		relative_position_id = GRM_grimtotem_nf
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_political_power = 150
+			
+			GRM_magatha_grimtotem = {
+				add_country_leader_trait = warmonger_leader_trait
+			}
+
+			add_opinion_modifier = {
+				target = BHT
+				modifier = GRM_bloodhoof_hater
+			}
+		}
+	}
+
+	#Tauren Superiority
+	focus = {
+		id = GRM_tauren_superiority_nf
+		icon = GFX_focus_grimtotem_tauren_1
+		cost = 5
+		prerequisite = {
+			focus = GRM_go_with_magatha_nf
+		}
+		relative_position_id = GRM_go_with_magatha_nf
+		x = 2
+		y = 1
+
+		completion_reward = {
+			add_ideas = GRM_tauren_superiority_idea
+		}
+	}
+
+	#Aggressive Warfare
+	focus = {
+		id = GRM_aggressive_warfare_nf
+		icon = GFX_focus_grimtotem_aggressive_warfare
+		cost = 5
+		prerequisite = {
+			focus = GRM_tauren_superiority_nf
+		}
+		relative_position_id = GRM_tauren_superiority_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.025
+			add_ideas = GRM_aggressive_warfare_idea
+		}
+	}
+
+	#Mobilize the Tribe
+	focus = {
+		id = GRM_mobilize_the_tribe_nf
+		icon = GFX_focus_grimtotem_tauren_3
+		cost = 5
+		prerequisite = {
+			focus = GRM_tauren_superiority_nf
+		}
+		relative_position_id = GRM_tauren_superiority_nf
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.025
+			add_ideas = GRM_mobilize_the_tribe_idea
+		}
+	}
+
+	#Ultimatum to Spirithorn
+	focus = {
+		id = GRM_ultimatum_to_spirithorn_nf
+		icon = GFX_focus_grimtotem_attack_spirithorn
+		cost = 5
+		prerequisite = {
+			focus = GRM_aggressive_warfare_nf
+			focus = GRM_mobilize_the_tribe_nf
+		}
+		prerequisite = {
+			focus = GRM_ending_galak_threat_nf
+		}
+		relative_position_id = GRM_tauren_superiority_nf
+		x = 0
+		y = 2
+
+		bypass = {
+			NOT = { country_exists = SPH }
+		}
+
+		available = {
+			country_exists = SPH
+		}
+
+		completion_reward = {
+			SPH = {
+				country_event = {
+					id = grimtotem.5
+					days = 1
+				}
+			}
+		}
+	}
+
+	#Martial Philosophy
+	focus = {
+		id = GRM_martial_philosophy_nf
+		icon = GFX_focus_grimtotem_tauren_3
+		cost = 5
+		prerequisite = {
+			focus = GRM_ultimatum_to_spirithorn_nf
+		}
+		relative_position_id = GRM_ultimatum_to_spirithorn_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GRM_mobilize_the_tribe_idea
+				add_idea = GRM_martial_philosophy_idea
+			}
+		}
+	}
+
+	#Arming our Braves
+	focus = {
+		id = GRM_arming_our_braves_nf
+		icon = GFX_focus_grimtotem_tauren_2
+		cost = 5
+		prerequisite = {
+			focus = GRM_ultimatum_to_spirithorn_nf
+		}
+		relative_position_id = GRM_ultimatum_to_spirithorn_nf
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_ideas = GRM_tribal_machine_of_war_idea
+		}
+	}
+
+	#Clash with the Razorfen
+	focus = {
+		id = GRM_clash_with_the_razorfen_nf
+		icon = GFX_focus_grimtotem_attack_razorfen
+		cost = 5
+		prerequisite = {
+			focus = GRM_martial_philosophy_nf
+		}
+		prerequisite = {
+			focus = GRM_arming_our_braves_nf
+		}
+		relative_position_id = GRM_ultimatum_to_spirithorn_nf
+		x = 0
+		y = 2
+
+		bypass = {
+			NOT = { country_exists = RZF }
+		}
+
+		available = {
+			country_exists = RZF
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			create_wargoal = {
+				type = annex_everything
+				target = RZF
+			}
+		}
+	}
+
+	#A Strong Leading Hoof
+	focus = {
+		id = GRM_strong_leading_hoof_nf
+		icon = GFX_focus_grimtotem_magatha
+		cost = 5
+		prerequisite = {
+			focus = GRM_clash_with_the_razorfen_nf
+		}
+		prerequisite = {
+			focus = GRM_martial_philosophy_nf
+		}
+		relative_position_id = GRM_clash_with_the_razorfen_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_political_power = 150
+			custom_effect_tooltip = GRM_strong_leading_hoof_tt
+		}
+	}
+
+	#Go with Jevan
+	focus = {
+		id = GRM_go_with_jevan_nf
+		icon = GFX_focus_grimtotem_jevan
+		cost = 5
+		mutually_exclusive = {
+			focus = GRM_go_with_magatha_nf
+		}
+		prerequisite = {
+			focus = GRM_grimtotem_nf
+		}
+		relative_position_id = GRM_grimtotem_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_political_power = 150
+			GRM_jevan_grimtotem = {
+				promote_character = {
+					ideology = neutral_type
+				}
+
+				add_country_leader_trait = {
+					ideology = neutral_type
+					trait = peaceful_leader_trait
+				}
+			}
+
+			add_opinion_modifier = {
+				target = BHT
+				modifier = GRM_bloodhoof_sympathizer
+			}
+		}
+	}
+
+	#Peaceful Traders
+	focus = {
+		id = GRM_peaceful_traders_nf
+		icon = GFX_focus_grimtotem_trade_1
+		cost = 5
+		prerequisite = {
+			focus = GRM_go_with_jevan_nf
+		}
+		relative_position_id = GRM_go_with_jevan_nf
+		x = -2
+		y = 1
+
+		completion_reward = {
+			add_ideas = GRM_peaceful_traders_idea
+		}
+	}
+
+	#Emphasize Traditions
+	focus = {
+		id = GRM_emphasize_traditions_nf
+		icon = GFX_focus_grimtotem_religion
+		cost = 5
+		prerequisite = {
+			focus = GRM_peaceful_traders_nf
+		}
+		relative_position_id = GRM_peaceful_traders_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_political_power = 100
+
+			custom_effect_tooltip = GRM_emphasize_traditions_faith_tt
+			add_to_variable = { faith_points = 150 }
+
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = religion_technology
+			}
+			capital_scope = {
+				add_building_construction = {
+					type = church
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Defensive Warfare
+	focus = {
+		id = GRM_defensive_warfare_nf
+		icon = GFX_focus_grimtotem_defensive_warfare
+		cost = 5
+		prerequisite = {
+			focus = GRM_peaceful_traders_nf
+		}
+		relative_position_id = GRM_peaceful_traders_nf
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_ideas = GRM_defensive_warfare_idea
+		}
+	}
+
+	#Befriend Spirithorn
+	focus = {
+		id = GRM_befriend_spirithorn_nf
+		icon = GFX_focus_grimtotem_ally_spirithorn
+		cost = 5
+		prerequisite = {
+			focus = GRM_emphasize_traditions_nf
+			focus = GRM_defensive_warfare_nf
+		}
+		prerequisite = {
+			focus = GRM_ending_galak_threat_nf
+		}
+		relative_position_id = GRM_peaceful_traders_nf
+		x = 0
+		y = 2
+
+		bypass = {
+			NOT = { country_exists = SPH }
+			is_puppet = yes
+		}
+
+		available = {
+			country_exists = SPH
+
+			SPH = {
+				has_opinion = {
+					target = GRM
+					value > 49
+				}
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			SPH = {
+				country_event = {
+					id = grimtotem.2
+					days = 1
+				}
+			}
+		}
+	}
+
+	#Diplomatic Approach
+	focus = {
+		id = GRM_diplomatic_approach_nf
+		icon = GFX_focus_grimtotem_tauren_diplomacy
+		cost = 5
+		prerequisite = {
+			focus = GRM_befriend_spirithorn_nf
+		}
+		relative_position_id = GRM_befriend_spirithorn_nf
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_political_power = 50
+			add_ideas = GRM_diplomatic_approach_idea
+		}
+	}
+
+	#Caring for the Tribe
+	focus = {
+		id = GRM_caring_for_the_tribe_nf
+		icon = GFX_focus_grimtotem_religion
+		cost = 5
+		prerequisite = {
+			focus = GRM_befriend_spirithorn_nf
+		}
+		relative_position_id = GRM_befriend_spirithorn_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_ideas = GRM_caring_for_the_tribe_idea
+		}
+	}
+
+	#Tauren Arts and Crafts
+	focus = {
+		id = GRM_arts_and_crafts_nf
+		icon = GFX_focus_grimtotem_trade_1
+		cost = 5
+		prerequisite = {
+			focus = GRM_diplomatic_approach_nf
+		}
+		prerequisite = {
+			focus = GRM_caring_for_the_tribe_nf
+		}
+		relative_position_id = GRM_befriend_spirithorn_nf
+		x = 0
+		y = 2
+
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			add_ideas = GRM_arts_and_crafts_idea
+		}
+	}
+
+	#Uniting the Tribes
+	focus = {
+		id = GRM_uniting_the_tribes_nf
+		icon = GFX_focus_grimtotem_jevan
+		cost = 5
+		prerequisite = {
+			focus = GRM_arts_and_crafts_nf
+		}
+		prerequisite = {
+			focus = GRM_diplomatic_approach_nf
+		}
+		relative_position_id = GRM_arts_and_crafts_nf
+		x = 1
+		y = 1
+
+		bypass = {
+			is_puppet = yes
+		}
+
+		completion_reward = {
+			add_political_power = 150
+			custom_effect_tooltip = GRM_uniting_the_tribes_tt
+		}
+	}
+
+	#Darkcloud Pinnacle
+	focus = {
+		id = GRM_darkcloud_pinnacle_nf
+		icon = GFX_focus_grimtotem_village
+		cost = 5
+		prerequisite = {
+			focus = GRM_go_with_jevan_nf
+			focus = GRM_go_with_magatha_nf
+		}
+		relative_position_id = GRM_grimtotem_nf
+		x = -1
+		y = 2
+
+		completion_reward = {
+			add_stability = 0.025
+			953 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Freewind Post
+	focus = {
+		id = GRM_freewind_post_nf
+		icon = GFX_focus_grimtotem_village
+		cost = 5
+		prerequisite = {
+			focus = GRM_go_with_jevan_nf
+			focus = GRM_go_with_magatha_nf
+		}
+		relative_position_id = GRM_grimtotem_nf
+		x = 1
+		y = 2
+
+		completion_reward = {
+			add_stability = 0.025
+			951 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Ending Galak Threat
+	focus = {
+		id = GRM_ending_galak_threat_nf
+		icon = GFX_focus_grimtotem_attack_galak
+		cost = 5
+		prerequisite = {
+			focus = GRM_darkcloud_pinnacle_nf
+		}
+		prerequisite = {
+			focus = GRM_freewind_post_nf
+		}
+		relative_position_id = GRM_grimtotem_nf
+		x = 0
+		y = 3
+
+		bypass = {
+			NOT = { country_exists = GAL }
+		}
+
+		available = {
+			country_exists = GAL
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			create_wargoal = {
+				type = annex_everything
+				target = GAL
+			}
+		}
+	}
+
+	#Bridge Network
+	focus = {
+		id = GRM_bridge_network_nf
+		icon = GFX_focus_grimtotem_bridges
+		cost = 5
+		prerequisite = {
+			focus = GRM_ending_galak_threat_nf
+		}
+		relative_position_id = GRM_ending_galak_threat_nf
+		x = -1
+		y = 1
+
+		completion_reward = {
+			custom_effect_tooltip = GRM_bridge_network_tt
+			946 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			947 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			948 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			949 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			950 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			951 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			952 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			953 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			954 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			955 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			956 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			957 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1504 = {
+				if = {
+					limit = {
+						is_owned_by = GRM
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Taming Highperch Wyverns
+	focus = {
+		id = GRM_highperch_wyverns_nf
+		icon = GFX_focus_grimtotem_wyvern
+		cost = 5
+		prerequisite = {
+			focus = GRM_ending_galak_threat_nf
+		}
+		relative_position_id = GRM_ending_galak_threat_nf
+		x = 1
+		y = 1
+
+		completion_reward = {
+			air_experience = 25
+			955 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = nesting_grounds
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = organic_air_technology
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = nesting_ground_technology
+			}
+		}
+	}
+
+	#Stop Rustmaul Silithids
+	focus = {
+		id = GRM_rustmaul_silithids_nf
+		icon = GFX_focus_grimtotem_attack_silithids
+		cost = 5
+		prerequisite = {
+			focus = GRM_bridge_network_nf
+		}
+		prerequisite = {
+			focus = GRM_highperch_wyverns_nf
+		}
+		relative_position_id = GRM_ending_galak_threat_nf
+		x = 0
+		y = 2
+
+		bypass = {
+			NOT = { country_exists = RMH }
+		}
+
+		available = {
+			country_exists = RMH
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			create_wargoal = {
+				type = annex_everything
+				target = RMH
+			}
+		}
+	}
+
+	#Drive the Gravelsnout Away
+	focus = {
+		id = GRM_attack_gravelsnout_nf
+		icon = GFX_focus_grimtotem_attack_gravelsnout
+		cost = 5
+		prerequisite = {
+			focus = GRM_rustmaul_silithids_nf
+		}
+		relative_position_id = GRM_rustmaul_silithids_nf
+		x = -1
+		y = 1
+
+		bypass = {
+			NOT = { country_exists = GRA }
+		}
+
+		available = {
+			country_exists = GRA
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			create_wargoal = {
+				type = annex_everything
+				target = GRA
+			}
+		}
+	}
+
+	#Harpy Threat
+	focus = {
+		id = GRM_harpy_threat_nf
+		icon = GFX_focus_grimtotem_attack_screeching
+		cost = 5
+		prerequisite = {
+			focus = GRM_rustmaul_silithids_nf
+		}
+		relative_position_id = GRM_rustmaul_silithids_nf
+		x = 1
+		y = 1
+
+		bypass = {
+			NOT = { country_exists = SCR }
+		}
+
+		available = {
+			country_exists = SCR
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			create_wargoal = {
+				type = annex_everything
+				target = SCR
+			}
+		}
+	}
+
+	#Safe on the Mesas
+	focus = {
+		id = GRM_safe_on_the_mesas_nf
+		icon = GFX_focus_grimtotem_bridges
+		cost = 5
+		prerequisite = {
+			focus = GRM_attack_gravelsnout_nf
+		}
+		prerequisite = {
+			focus = GRM_harpy_threat_nf
+		}
+		relative_position_id = GRM_rustmaul_silithids_nf
+		x = 0
+		y = 2
+
+		completion_reward = {
+			add_stability = 0.1
+			949 = {
+				add_building_construction = {
+					type = iron_mine
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+}

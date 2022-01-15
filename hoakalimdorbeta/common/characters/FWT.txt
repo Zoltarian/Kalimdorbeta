@@ -1,3 +1,31 @@
 characters={
 
+	FWT_chief_murgut = {
+		name = FWT_chief_murgut
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/FWT/chief_murgut.dds"
+			}
+			army = {
+				large = "gfx/leaders/FWT/chief_murgut.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEF_MURGUT_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

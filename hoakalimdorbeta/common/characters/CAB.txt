@@ -1,3 +1,55 @@
 characters={
 
+	CAB_grandmaster_vorpil = {
+		name = CAB_grandmaster_vorpil
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/CAB/grandmaster_vorpil.dds"
+			}
+			army = {
+				large = "gfx/leaders/CAB/grandmaster_vorpil.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_GRANDMASTER_VORPIL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_GRANDMASTER_VORPIL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	CAB_blackheart_the_inciter = {
+		name = CAB_blackheart_the_inciter
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAB/blackheart_the_inciter.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

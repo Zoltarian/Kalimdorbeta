@@ -1,3 +1,31 @@
 characters={
 
+	DMG_lord_darkmist = {
+		name = DMG_lord_darkmist
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DMG/lord_darkmist.dds"
+			}
+			army = {
+				large = "gfx/leaders/DMG/lord_darkmist.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_LORD_DARKMIST_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

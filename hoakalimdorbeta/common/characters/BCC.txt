@@ -1,3 +1,89 @@
 characters={
 
+	BCC_hurkan_skullsplinter = {
+		name = BCC_hurkan_skullsplinter
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BCC/hurkan_skullsplinter.dds"
+			}
+			army = {
+				large = "gfx/leaders/BCC/hurkan_skullsplinter.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_HURKAN_SKULLSPLINTER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_HURKAN_SKULLSPLINTER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BCC_tagar_spinebreaker = {
+		name = BCC_tagar_spinebreaker
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BCC/tagar_spinebreaker.dds"
+			}
+			army = {
+				large = "gfx/leaders/BCC/tagar_spinebreaker.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_TAGAR_SPINEBREAKER_PLATTEN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_TAGAR_SPINEBREAKER_PLATTEN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BCC_krun_spinebreaker = {
+		name = BCC_krun_spinebreaker
+		portraits = {
+			army = {
+				large = "gfx/leaders/BCC/krun_spinebreaker.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,71 @@
 characters={
 
+	CEN_cenarius = {
+		name = CEN_cenarius
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/CEN/cenarius.dds"
+			}
+			army = {
+				large = "gfx/leaders/CEN/cenarius.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CENARIUS_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_CENARIUS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	CEN_malfurion_stormrage = {
+		name = CEN_malfurion_stormrage
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/CEN/malfurion_stormrage.dds"
+			}
+			army = {
+				large = "gfx/leaders/CEN/malfurion_stormrage.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_MALFURION_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_MALFURION_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

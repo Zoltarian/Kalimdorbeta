@@ -1,3 +1,91 @@
 characters={
 
+	DAL_archmage_antonidas = {
+		name = DAL_archmage_antonidas
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DAL/Antonidas.dds"
+			}
+			army = {
+				large = "gfx/leaders/DAL/Antonidas.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_ARCHMAGE_ANTONIDAS_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_ARCHMAGE_ANTONIDAS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DAL_archmage_modera = {
+		name = DAL_archmage_modera
+		portraits = {
+			army = {
+				large = "gfx/leaders/DAL/archmage_modera.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DAL_kelthuzad = {
+		name = DAL_kelthuzad
+		portraits = {
+			army = {
+				large = "gfx/leaders/DAL/kelthuzad.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DAL_krasus = {
+		name = DAL_krasus
+		portraits = {
+			army = {
+				large = "gfx/leaders/DAL/krasus.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

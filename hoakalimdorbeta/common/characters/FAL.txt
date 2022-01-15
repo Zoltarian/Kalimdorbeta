@@ -1,3 +1,55 @@
 characters={
 
+	FAL_queen_orathiss = {
+		name = FAL_queen_orathiss
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/FAL/Queen_Orathiss.dds"
+			}
+			army = {
+				large = "gfx/leaders/FAL/Queen_Orathiss.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_QUEEN_ORATHISS_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_QUEEN_ORATHISS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	FAL_nazak_the_fiend = {
+		name = FAL_nazak_the_fiend
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAL/Na'zak_the_Fiend.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

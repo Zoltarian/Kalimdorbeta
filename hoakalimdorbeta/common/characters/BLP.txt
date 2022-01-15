@@ -1,3 +1,31 @@
 characters={
 
+	BLP_high_shaman_bloodpaw = {
+		name = BLP_high_shaman_bloodpaw
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BPT/high_shaman_bloodpaw.dds"
+			}
+			army = {
+				large = "gfx/leaders/BPT/high_shaman_bloodpaw.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_HIGH_SHAMAN_BLOODPAW_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

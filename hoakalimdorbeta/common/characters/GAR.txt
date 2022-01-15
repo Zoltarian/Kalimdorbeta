@@ -1,3 +1,47 @@
 characters={
 
+	GAR_greatmother_geyah = {
+		name = AMA_zuljin
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/GAR/greatmother_geyah.dds"
+			}
+			army = {
+				large = "gfx/leaders/GAR/greatmother_geyah.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_GEYAH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_GEYAH_DESC"
+			traits = {}
+			id = -1
+		}
+
+	}
+
+	GAR_warden_bullrok = {
+		name = GAR_warden_bullrok
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAR/warden_bullrok.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

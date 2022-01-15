@@ -1,3 +1,37 @@
 characters={
 
+	GOI_clutchmother_zavas = {
+		name = GOI_clutchmother_zavas
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/GOI/clutchmother_zavas.dds"
+			}
+			army = {
+				large = "gfx/leaders/GOI/clutchmother_zavas.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_CLUTCHMOTHER_ZAVAS_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CLUTCHMOTHER_ZAVAS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }
