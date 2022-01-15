@@ -1,26 +1,25 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
 
 POLITICS_MAGNI_BRONZEBEARD_DESC:0 "200 years after the demise of Highking Modimus Anvilmar and the War of the Three Hammers, the Bronzebeard clan, former ruled by Thane Madoran Bronzebeard, stood as the traditional defenders and rulers of Ironforge Mountain. Born as the eldest of the three brothers of the Bronzebeard clan, Magni was destined to become the king of the dwarven kingdom of Khaz Modan. Since his youth, Magni knew what would be expected of him. Intimidated of the thought ruling over the dwarven people, he questioned himself, if he is even suited to lead his nation into a new future. After his father's early death, Magni took upon his crown and became the Ruler of Khaz Modan. As the new king of Ironforge, Magni helped in founding the famed “Explorers’ League” and brought his people from simply mining and engineering to archaeology."
 POLITICS_MAGNI_BRONZEBEARD_draenor_and_beyond_DESC:0 "200 years after the demise of Highking Modimus Anvilmar and the War of the Three Hammers, the Bronzebeard clan, former ruled by Thane Madoran Bronzebeard, stood as the traditional defenders and rulers of Ironforge Mountain. Born as the eldest of the three brothers from the Bronzebeard clan, Magni was destined to become the king of the dwarven kingdom of Khaz Modan. Since his youth, Magni knew what would be expected of him. Intimidated of the thought ruling over the dwarven people, he questioned himself, if he is even suited to lead his nation into a new future. After his father's early death, Magni took upon his crown and became the Ruler of Khaz Modan. As the King of Ironforge, it was Magni with the help of the Alliance of Lordaeron who stood against the orcish Hordes in the second war."
+
+IRO_brann_bronzebeard:0 "Brann Bronzebeard"
+IRO_grand_mason_marblesten:0 "Grand Mason Marblesten"
+IRO_high_explorer_magellas:0 "High Explorer Magellas"
+IRO_myolor_sunderfury:0 "Myolor Sunderfury"
+IRO_royal_historian_archesonus:0 "Royal Historian Archesonus"
+IRO_advisor_belgrum:0 "Advisor Belgrum"
+IRO_curator_thorius:0 "Curator Thorius"
+IRO_dinita_sonemantle:0 "Dinita Sonemantle"
 ###############################
 #units
 ###############################
 
-###############################
-#advisors
-###############################
- IRO_brann_bronzebeard:0 "Brann Bronzebeard"
- IRO_grand_mason_marblesten:0 "Grand Mason Marblesten"
- IRO_high_explorer_magellas:0 "High Explorer Magellas"
- IRO_myolor_sunderfury:0 "Myolor Sunderfury"
- IRO_royal_historian_archesonus:0 "Royal Historian Archesonus"
- IRO_advisor_belgrum:0 "Advisor Belgrum"
- IRO_curator_thorius:0 "Curator Thorius"
- IRO_dinita_sonemantle:0 "Dinita Sonemantle"
+
 ###############################
 #ideas
 ###############################
@@ -293,7 +292,11 @@ POLITICS_MAGNI_BRONZEBEARD_draenor_and_beyond_DESC:0 "200 years after the demise
  ironforge.11.option.1:0 "Every Dwarf must be ready."
  
 ###############################
-#customtooltips
+#decisions
+###############################
+
+###############################
+#Tooltips/country flags/oobs/misc
 ###############################
 IRO_ram_riders_tooltip:0 "Ram riders will arrive in Ironforge."
 IRO_human_volunteers_tooltip:0 "Soldiers from Stormwind will Arrive in Ironforge."

@@ -1,18 +1,11 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
 POLITICS_PRINCE_TORTHELDRIN_DESC:0 "Once a loyal servant to Queen Azshara, Prince Tortheldrin is the leader of the Shen'dralar. After the destruction of the Well of Eternity during the War of the Ancients, he managed to imprison a demon in the halls of Eldre'thalas in order to satiate the highborne's hunger for magic. But for over a millenia, the power of the prison have been dwindling forcing Tortheldrin to sacrifice some of his fellow Shen'dralars..."
 POLITICS_POWER_VACUUM_DESC:0 "The Shen'dralar stand with no one to lead them..."
 
-###############################
-#units
-###############################
-
-###############################
-#advisors
-###############################
 SHD_lorekeeper_kildrath_advisor:0 "§HLorekeeper Kildrath§!"
 SHD_lorekeeper_mykos_advisor:0 "§HLorekeeper Mykos§!"
 SHD_lorekeeper_javon_advisor:0 "§HLorekeeper Javon§!"
@@ -30,89 +23,9 @@ armor_enchanter_trait:0 "§GArmor Enchanter§!"
 huntress_trait:0 "§GHuntress§!"
 
 ###############################
-#decisions
+#units
 ###############################
-SHD_hold_lariss_pavillon_decision:0 "Hold Lariss Pavilion"
-SHD_hold_lariss_pavillon_decision_desc:0 "If we can hold Lariss Pavilion and its surrounding long enough, the Grimtotem will have to withdraw from the war."
-SHD_force_peace_with_GRM_mission:0 "Holding Lariss Pavilion"
-SHD_hold_solarsal_decision:0 "Hold Solarsal"
-SHD_hold_solarsal_decision_desc:0 "If we can hold Solarsal and the rest of Sardor Isle, we can force the Kaldorei to withdraw from the war. "
-SHD_force_peace_with_KAL_mission:0 "Holding Solarsal"
 
-demonic_containment_decisions:0 "Demonic Containment"
-demonic_containment_decisions_desc:0 "Within the west side of Eldre'thalas lies the prison of Immol'thar. Sustained by five pylons enacting a powerful force field around the demon. From him, we draw our power by siphoning his demonic energies. But the cost of maintaining the prison's seal keeps rising, and with each day passing, the force field weakens, bringing Immol'thar closer to freedom and enacting his wrathful vengeance upon us."
-immolthar_containment_mission:0 "Maintaining the Forcefield"
-immolthar_containment_mission_desc:0 "We have to maintain the forcefield containing Immol'thar or he will be set free..."
-delaying_the_inevitable_flag:0 "Already working on delaying the inevitable."
-SHD_demonic_containment_solved_flag:0 "The containment issue has been solved."
-
-necessary_sacrifice_decision:0 "Necessary Sacrifice"
-necessary_sacrifice_decision_desc:0 "Some might say this is evil, but it is for the greater good."
-necessary_sacrifice_decision_tt:0 "§R1/50th of our population will be killed.§!"
-arcanists_support_decision:0 "Arcanist Support"
-arcanists_support_decision_desc:0 "Sending some of our greatest arcanists to maintain the forcefield will buy us some time, but they won't be able to focus on other matters."
-power_rationing_decision:0 "Power Rationing"
-power_rationing_decision_desc:0 "Rationing the distribution of the siphoned demonic energies will allow the forcefield to stay up for longer."
-pylon_maintenance_decision:0 "Pylon Maintenance"
-pylon_maintenance_decision_desc:0 "Making sure that the pylons sustaining the arcanic forcefield of the prison are working correctly is crucial for it to work as long as possible."
-
-cultists_schemes_decisions:0 "Cultists Schemes"
-cultists_schemes_decisions_desc:0 "Within the aged halls and corridors of Eldre'thalas, whispers can be heard and suspicious groups of highbornes can be seen assembling. The cultists' influence within the city is growing everyday and is slowly climbing the ranks up to the court of the prince himself. With their goal of liberating Immol'thar and claiming the power that serving under the Legion will reward them with, the cultists will do anything to achieve their goals. But they need to be in the majority if they want to have a chance to take control of Eldre'thalas."
-convert_the_prince_decision:0 "Convert the Prince"
-convert_the_prince_decision_desc:0 "Converting Prince Tortheldrin to the cultist cause will surely prove to be useful."
-SHD_prince_converted_flag:0 "Prince Tortheldrin has been converted to the cultist cause."
-sabotage_the_prison_decision:0 "Sabotage the Prison"
-sabotage_the_prison_decision_desc:0 "Send cultists to sabotage the prison and hopefully reduce the time left until Immol'thar is liberated."
-murder_opponents:0 "Murder Opponents"
-murder_opponents_desc:0 "Murdering some of those opposed to the cultists will surely tip the balance in their favor..."
-recruit_cultists_decision:0 "Recruit Cultists"
-recruit_cultists_decision_desc:0 "Send some members of the cult to recruit within the halls and corridors of Eldre'thalas."
-liberate_immolthar_decision:0 "Liberate Immol'thar"
-liberate_immolthar_decision_desc:0 "The time has come! The containment field of Immol'thar prison has weakened enough and our influence within the Shen'dralar has grown to the point where we can finally accomplish our goal: liberating the demon within the prison!"
-SHD_liberate_immolthar_trigger_tt:0 "§HMaintaining the Forcefield§! has less than §H50 days§! left."
-
-looking_for_solutions_decisions:0 "Looking for Solutions - Phase 1"
-retrieved_loc_key:0 "§GRetrieved§!"
-not_retrieved_loc_key:0 "§RNot Retrieved§!"
-looking_for_solutions_decisions_desc:0 "In order to progress into our research, we need to collect different items. First, a §YCharged Arcane Crystal§! to get a further look into mana manipulation, next, a §YPylon Sample§! from one of the pylons from Immol'thar Prison. Finally, siphoning §YVolatile Demonic Energy§! from the demon itself in order to study it closer. \n\n §CCharged Arcane Crystal:§! [charged_crystal_state] \n §CPylon Sample:§! [pylon_sample_state] \n §CVolatile Demonic Energy:§! [demonic_energy_state]"
-find_a_charged_arcane_crystal_decision:0 "Find a Charged Arcane Crystal"
-find_a_charged_arcane_crystal_decision_desc:0 "We need to find a Charged Arcane Crystal, those are rare, and probably even rarer in the ruins of the city..."
-found_charged_crystal:0 "Found Charged Crystal"
-collect_pylon_sample_decision:0 "Collect Pylon Sample"
-collect_pylon_sample_decision_desc:0 "A Pylon Sample is absolutely necessary if we want to have a better understanding of the functionment of the prison itself."
-pylon_sample_collected:0 "Collected Pylon Sample"
-siphon_volatile_demonic_energy_decision:0 "Siphon Volatile Demonic Energy"
-siphon_volatile_demonic_energy_decision_desc:0 "Demonic energy is not something easy to collect. Extremely volatile, it can often lead to... exploding results?"
-demonic_energy_siphoned:0 "Demonic Energy Siphoned"
-begin_researches_decision:0 "Begin Researches"
-begin_researches_decision_desc:0 "All necessary items are retrieved, we are ready to begin our research."
-begin_researches_decision_tt_1:0 "Combine the recently acquired ideas with the §HPrison of Immol'thar§! idea:\n\n"
-begin_researches_decision_tt_2:0 "§CResearch will begin.\nUnlock a new set of decisions.§!"
-
-looking_for_solutions_phase_2_decisions:0 "Looking for Solutions - Phase 2"
-SHD_busy_arcanists_flag:0 "Arcanists are already busy working on something else."
-looking_for_solutions_phase_2_decisions_desc:0 "Now that we have gathered everything that we need, researches can finally begin. We need to gather §Insights§! in order to get a lead on a potential solution to the containment issue. §C5 insights§! are necessary to start diving deeper into a subject and maybe come up with something. The consensus within our arcanists is that there is possibly §Different ways§! to deal with our issue with assumably §Diverse effects§! on our population depending on the fix put in place. We can either go for one solution once we get a lead on it it, or keep researching for alternate and / or better results. \n\n §CResearch insights: [?SHD.insight_amount] / 5§!"
-research_solution_decision:0 "Research Solutions"
-research_solution_decision_desc:0 "Arcanists and mages will be tasked to look for potential insights."
-look_into_insights_decision:0 "Look into Insights"
-look_into_insights_decision_desc:0 "Our arcanists have done enough research to look further into their gathered insights."
-look_into_insights_tt:0 "§C5 or more insights§!"
-look_into_insights_effect_tt:0 "§CArcanists will either find something new or improve on an already discovered solution...§!"
-
-solution_warning_tt:0 "§RWARNING: Only one solution can be chosen and it is a definitive choice! Meaning you can't go back! \n\n Be also careful to the time needed to put in place the solution!§!"
-SHD_solution_time_left_trigger_tt:0 "§HMaintaining the Force Field§! has more than §H50 days§! left."
-imperfect_solution_decision:0 "Resolve to an Imperfect Solution..."
-imperfect_solution_decision_desc:0 "We will extend the life of the containment field of the prison, but this is not a permanent solution to our problem and might not be very well received by our population... \n\n $solution_warning_tt$"
-mana_gathering_enhancer_decision:0 "Construct the Mana Gathering Enhancer - [mana_gathering_enhancer_tier_loc]"
-mana_gathering_enhancer_decision_desc:0 "Constructing the Mana Gathering Enhancer will allow for a faster and more efficient collection of the energy from Immol'thar, effectively allowing us to maintain the containment field without any problems, as well as permitting faster mana regeneration. \n\n $solution_warning_tt$"
-mana_catalyzer_decision:0 "Install the Mana Catalyzer - [mana_catalyzer_tier_loc]"
-mana_catalyzer_decision_desc:0 "Installing the Mana Catalyzer will lead to drawing a purer and more potent energy from Immol'thar, dramatically increasing the amount of power that can be used to continue sustaining the prison's forcefield. It will also allow our magic wielders to cast more destructive spells! However, some researchers warn about the energy becoming a bit more addictive... \n\n $solution_warning_tt$"
-energy_stabilizer_decision:0 "Set up the Energy Stabilizer solution - [energy_stabilizer_tier_loc]"
-energy_stabilizer_decision_desc:0 "The Energy Stabilizer will permit harvesting a greater yield of energy as well as it being way more stable and malleable. More than just stabilizing the containment field of the prison, this secure energy can be easily used by our magic casters, especially when it comes to defensive spells. \n\n $solution_warning_tt$"
-
-SHD_solution_tier_1:0 "Tier 1"
-SHD_solution_tier_2:0 "Tier 2"
-SHD_solution_tier_3:0 "Tier 3"
 ###############################
 #ideas
 ###############################
@@ -516,3 +429,92 @@ shendralar.45.t:0 "Cultist Takeover!"
 shendralar.45.d:0 "The instant the magical barrier of the prison fell, the cultists entered the area en masse. With discipline, they marched and formed into rank in front of the demon. A voice rose among them: "Immol'thar, great demon of the Legion, today, we swear fealty to you and to your masters. May you bless us with the great power of fel magic and lead us toward the conquest of Azeroth." The demon, who had noticed and felt the efforts of the cultists over the years, suddenly stopped in his rage. The message had been understood. Now remained the question of who shall lead the Shen'dralar from now on..."
 shendralar.45.option.1:0 "Immol'thar takes the lead."
 shendralar.45.option.2:0 "Prince Tortheldrin remains in power."
+
+###############################
+#decisions
+###############################
+SHD_hold_lariss_pavillon_decision:0 "Hold Lariss Pavilion"
+SHD_hold_lariss_pavillon_decision_desc:0 "If we can hold Lariss Pavilion and its surrounding long enough, the Grimtotem will have to withdraw from the war."
+SHD_force_peace_with_GRM_mission:0 "Holding Lariss Pavilion"
+SHD_hold_solarsal_decision:0 "Hold Solarsal"
+SHD_hold_solarsal_decision_desc:0 "If we can hold Solarsal and the rest of Sardor Isle, we can force the Kaldorei to withdraw from the war. "
+SHD_force_peace_with_KAL_mission:0 "Holding Solarsal"
+
+demonic_containment_decisions:0 "Demonic Containment"
+demonic_containment_decisions_desc:0 "Within the west side of Eldre'thalas lies the prison of Immol'thar. Sustained by five pylons enacting a powerful force field around the demon. From him, we draw our power by siphoning his demonic energies. But the cost of maintaining the prison's seal keeps rising, and with each day passing, the force field weakens, bringing Immol'thar closer to freedom and enacting his wrathful vengeance upon us."
+immolthar_containment_mission:0 "Maintaining the Forcefield"
+immolthar_containment_mission_desc:0 "We have to maintain the forcefield containing Immol'thar or he will be set free..."
+delaying_the_inevitable_flag:0 "Already working on delaying the inevitable."
+SHD_demonic_containment_solved_flag:0 "The containment issue has been solved."
+
+necessary_sacrifice_decision:0 "Necessary Sacrifice"
+necessary_sacrifice_decision_desc:0 "Some might say this is evil, but it is for the greater good."
+necessary_sacrifice_decision_tt:0 "§R1/50th of our population will be killed.§!"
+arcanists_support_decision:0 "Arcanist Support"
+arcanists_support_decision_desc:0 "Sending some of our greatest arcanists to maintain the forcefield will buy us some time, but they won't be able to focus on other matters."
+power_rationing_decision:0 "Power Rationing"
+power_rationing_decision_desc:0 "Rationing the distribution of the siphoned demonic energies will allow the forcefield to stay up for longer."
+pylon_maintenance_decision:0 "Pylon Maintenance"
+pylon_maintenance_decision_desc:0 "Making sure that the pylons sustaining the arcanic forcefield of the prison are working correctly is crucial for it to work as long as possible."
+
+cultists_schemes_decisions:0 "Cultists Schemes"
+cultists_schemes_decisions_desc:0 "Within the aged halls and corridors of Eldre'thalas, whispers can be heard and suspicious groups of highbornes can be seen assembling. The cultists' influence within the city is growing everyday and is slowly climbing the ranks up to the court of the prince himself. With their goal of liberating Immol'thar and claiming the power that serving under the Legion will reward them with, the cultists will do anything to achieve their goals. But they need to be in the majority if they want to have a chance to take control of Eldre'thalas."
+convert_the_prince_decision:0 "Convert the Prince"
+convert_the_prince_decision_desc:0 "Converting Prince Tortheldrin to the cultist cause will surely prove to be useful."
+SHD_prince_converted_flag:0 "Prince Tortheldrin has been converted to the cultist cause."
+sabotage_the_prison_decision:0 "Sabotage the Prison"
+sabotage_the_prison_decision_desc:0 "Send cultists to sabotage the prison and hopefully reduce the time left until Immol'thar is liberated."
+murder_opponents:0 "Murder Opponents"
+murder_opponents_desc:0 "Murdering some of those opposed to the cultists will surely tip the balance in their favor..."
+recruit_cultists_decision:0 "Recruit Cultists"
+recruit_cultists_decision_desc:0 "Send some members of the cult to recruit within the halls and corridors of Eldre'thalas."
+liberate_immolthar_decision:0 "Liberate Immol'thar"
+liberate_immolthar_decision_desc:0 "The time has come! The containment field of Immol'thar prison has weakened enough and our influence within the Shen'dralar has grown to the point where we can finally accomplish our goal: liberating the demon within the prison!"
+SHD_liberate_immolthar_trigger_tt:0 "§HMaintaining the Forcefield§! has less than §H50 days§! left."
+
+looking_for_solutions_decisions:0 "Looking for Solutions - Phase 1"
+retrieved_loc_key:0 "§GRetrieved§!"
+not_retrieved_loc_key:0 "§RNot Retrieved§!"
+looking_for_solutions_decisions_desc:0 "In order to progress into our research, we need to collect different items. First, a §YCharged Arcane Crystal§! to get a further look into mana manipulation, next, a §YPylon Sample§! from one of the pylons from Immol'thar Prison. Finally, siphoning §YVolatile Demonic Energy§! from the demon itself in order to study it closer. \n\n §CCharged Arcane Crystal:§! [charged_crystal_state] \n §CPylon Sample:§! [pylon_sample_state] \n §CVolatile Demonic Energy:§! [demonic_energy_state]"
+find_a_charged_arcane_crystal_decision:0 "Find a Charged Arcane Crystal"
+find_a_charged_arcane_crystal_decision_desc:0 "We need to find a Charged Arcane Crystal, those are rare, and probably even rarer in the ruins of the city..."
+found_charged_crystal:0 "Found Charged Crystal"
+collect_pylon_sample_decision:0 "Collect Pylon Sample"
+collect_pylon_sample_decision_desc:0 "A Pylon Sample is absolutely necessary if we want to have a better understanding of the functionment of the prison itself."
+pylon_sample_collected:0 "Collected Pylon Sample"
+siphon_volatile_demonic_energy_decision:0 "Siphon Volatile Demonic Energy"
+siphon_volatile_demonic_energy_decision_desc:0 "Demonic energy is not something easy to collect. Extremely volatile, it can often lead to... exploding results?"
+demonic_energy_siphoned:0 "Demonic Energy Siphoned"
+begin_researches_decision:0 "Begin Researches"
+begin_researches_decision_desc:0 "All necessary items are retrieved, we are ready to begin our research."
+begin_researches_decision_tt_1:0 "Combine the recently acquired ideas with the §HPrison of Immol'thar§! idea:\n\n"
+begin_researches_decision_tt_2:0 "§CResearch will begin.\nUnlock a new set of decisions.§!"
+
+looking_for_solutions_phase_2_decisions:0 "Looking for Solutions - Phase 2"
+SHD_busy_arcanists_flag:0 "Arcanists are already busy working on something else."
+looking_for_solutions_phase_2_decisions_desc:0 "Now that we have gathered everything that we need, researches can finally begin. We need to gather §Insights§! in order to get a lead on a potential solution to the containment issue. §C5 insights§! are necessary to start diving deeper into a subject and maybe come up with something. The consensus within our arcanists is that there is possibly §Different ways§! to deal with our issue with assumably §Diverse effects§! on our population depending on the fix put in place. We can either go for one solution once we get a lead on it it, or keep researching for alternate and / or better results. \n\n §CResearch insights: [?SHD.insight_amount] / 5§!"
+research_solution_decision:0 "Research Solutions"
+research_solution_decision_desc:0 "Arcanists and mages will be tasked to look for potential insights."
+look_into_insights_decision:0 "Look into Insights"
+look_into_insights_decision_desc:0 "Our arcanists have done enough research to look further into their gathered insights."
+look_into_insights_tt:0 "§C5 or more insights§!"
+look_into_insights_effect_tt:0 "§CArcanists will either find something new or improve on an already discovered solution...§!"
+
+solution_warning_tt:0 "§RWARNING: Only one solution can be chosen and it is a definitive choice! Meaning you can't go back! \n\n Be also careful to the time needed to put in place the solution!§!"
+SHD_solution_time_left_trigger_tt:0 "§HMaintaining the Force Field§! has more than §H50 days§! left."
+imperfect_solution_decision:0 "Resolve to an Imperfect Solution..."
+imperfect_solution_decision_desc:0 "We will extend the life of the containment field of the prison, but this is not a permanent solution to our problem and might not be very well received by our population... \n\n $solution_warning_tt$"
+mana_gathering_enhancer_decision:0 "Construct the Mana Gathering Enhancer - [mana_gathering_enhancer_tier_loc]"
+mana_gathering_enhancer_decision_desc:0 "Constructing the Mana Gathering Enhancer will allow for a faster and more efficient collection of the energy from Immol'thar, effectively allowing us to maintain the containment field without any problems, as well as permitting faster mana regeneration. \n\n $solution_warning_tt$"
+mana_catalyzer_decision:0 "Install the Mana Catalyzer - [mana_catalyzer_tier_loc]"
+mana_catalyzer_decision_desc:0 "Installing the Mana Catalyzer will lead to drawing a purer and more potent energy from Immol'thar, dramatically increasing the amount of power that can be used to continue sustaining the prison's forcefield. It will also allow our magic wielders to cast more destructive spells! However, some researchers warn about the energy becoming a bit more addictive... \n\n $solution_warning_tt$"
+energy_stabilizer_decision:0 "Set up the Energy Stabilizer solution - [energy_stabilizer_tier_loc]"
+energy_stabilizer_decision_desc:0 "The Energy Stabilizer will permit harvesting a greater yield of energy as well as it being way more stable and malleable. More than just stabilizing the containment field of the prison, this secure energy can be easily used by our magic casters, especially when it comes to defensive spells. \n\n $solution_warning_tt$"
+
+SHD_solution_tier_1:0 "Tier 1"
+SHD_solution_tier_2:0 "Tier 2"
+SHD_solution_tier_3:0 "Tier 3"
+
+###############################
+#Tooltips/country flags/oobs/misc
+###############################

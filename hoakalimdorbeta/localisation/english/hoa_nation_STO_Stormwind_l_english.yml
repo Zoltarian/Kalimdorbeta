@@ -7,15 +7,15 @@
  POLITICS_REGENT_LORD_ANDUIN_LOTHAR_DESC:0 "Anduin Lothar was the last true descendant of the Arathi bloodline. A Knight-Champion whose renown spread through the Eastern Kingdoms, he was known as the "Lion of Stormwind" and one of the closest friends to King Llane Wrynn and the Last Guardian of Tirisfal, Medivh."
 
 ###############################
-# Units
+#units
 ###############################
 
 ###############################
-# Advisors
+#advisors
 ###############################
 
 ################################
-# Ideas
+#ideas
 ################################
  STO_Rally_the_troops:0 "Rallied the troops"
  STO_Coward_king:0 "Cowardly King"
@@ -176,7 +176,7 @@
  STO_continued_army_reforms_decision:0 "Continued Army Reforms"
 
 ###############################
-# Focus tree
+#focus tree
 ###############################
  Stormwind_Focus:0 "Stormwind National Focus"
 
@@ -579,21 +579,13 @@
  STO_second_war_kultiran_marines:0 "Kul Tiran Marines"
  STO_second_war_kultiran_marines_desc:0 "Regardless of the path we chose, the Kul Tiran fleet can aid us in amphibious landings and in supplying our troops via the sea."
 
-
-
-
-
-
-
-
- #stormwind_balor
-
-
-
 ###############################
 #events
 ###############################
 
+###############################
+#decisions
+###############################
  stormwind.1.t:0 "Aftermath of the Gurubashi War"
  stormwind.1.d:0 "The Gurubashi war had seen the Kingdom of Stormwind on its knees with the grand city of Stormwind itself besieged and on its last legs. Countless men had died in the fight against the Gurubashi Tribe, including King Barathen Wrynn. Though Medivh had saved the nation, the war had left a mark upon the Kingdom, forcing the young prince Llane Wrynn to take the crown and rebuild the nation. Entrusted with the future of his nation, King Llane Wrynn had made sure that Stormwind could…"
  stormwind.1.option.1:0 "Protect Itself from Future Threats"
@@ -667,7 +659,7 @@
  #stormwind.16.option.2:0 "The end is nigh... All is lost!"
 
 ###############################
-#country flags/oobs
+#Tooltips/country flags/oobs/misc
 ###############################
 STO_kings_champions_knights_infantry:0 "Knigts & Royal Guards"
 STO_kings_champions_knights_mages:0 "Knigts & Mages"
@@ -679,17 +671,13 @@ STO_7th_fleet_light_ships:0 "Light Ships"
 STO_fargodeep_mine_kobolds:0 "Kobolds in Fargodeep Mine"
 STO_jasperlode_mine_kobolds:0 "Kobolds in Jasperlode Mine"
 
-###############################
-#Tooltips
-###############################
-
- STO_second_war_modernize_durholde_tt:0 "We will add a building slot to Durholde Keep and reinforce the Keep with level 2 walls."
- STO_second_war_fortify_southshore_tt:0 "We will fortify Southshore with Level 2 walls and coastal defense."
- STO_second_war_centralized_port_tt:0 "We will construct two naval bases in Southshore."
- STO_repair_the_kingdom_tt:0 "Repair the Kingdom"
- STO_repair_the_city_tt:0 "Repair the City"
- STO_address_noble_concerns_tt:0 "§RIf you reach 80% support for Neutrality, The nobles will start a civil war!§!\n"
- STO_feudal_reform_tt:0 "§R If these vassals are ever annexed, we will face a civil war!"
- STO_vassal_consessions_tt:0 "Spawn §G2 knights division§! (§Y10 Width§!) and §G8 footmen division§! (§Y20 Width§!)"
- STO_invest_in_local_garrisons_tt:0 "Spawn §G8 militia division§! with §Gpriest squad support§! (§Y10 Width§!)"
- STO_fortress_stormwind_fortify_harbor_tt:0 "   Add §Y2 Coastal Defense§! on each province bordering the sea. "
+STO_second_war_modernize_durholde_tt:0 "We will add a building slot to Durholde Keep and reinforce the Keep with level 2 walls."
+STO_second_war_fortify_southshore_tt:0 "We will fortify Southshore with Level 2 walls and coastal defense."
+STO_second_war_centralized_port_tt:0 "We will construct two naval bases in Southshore."
+STO_repair_the_kingdom_tt:0 "Repair the Kingdom"
+STO_repair_the_city_tt:0 "Repair the City"
+STO_address_noble_concerns_tt:0 "§RIf you reach 80% support for Neutrality, The nobles will start a civil war!§!\n"
+STO_feudal_reform_tt:0 "§R If these vassals are ever annexed, we will face a civil war!"
+STO_vassal_consessions_tt:0 "Spawn §G2 knights division§! (§Y10 Width§!) and §G8 footmen division§! (§Y20 Width§!)"
+STO_invest_in_local_garrisons_tt:0 "Spawn §G8 militia division§! with §Gpriest squad support§! (§Y10 Width§!)"
+STO_fortress_stormwind_fortify_harbor_tt:0 "   Add §Y2 Coastal Defense§! on each province bordering the sea. "

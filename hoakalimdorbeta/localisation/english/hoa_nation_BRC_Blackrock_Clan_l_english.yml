@@ -1,16 +1,41 @@
 ﻿l_english:
 
 ###############################
-# Leaders
+#characters
 ###############################
-############################
-# Blackrock Clan
-############################
- POLITICS_WARCHIEF_BLACKHAND_DESC:0 "Blackhand, the great chieftain of the Blackrock Clan and Warchief of the Horde. Through his clan’s mastery of Blackrock ore and with the machinations of Gul’dan when it was time to choose a Warchief, Blackhand was in a prime position to take up the mantle. In the decades before the construction of the Dark Portal, Blackhand led a savage and brutal war against the Draenei, and In the years of the long silence from Gul’dan’s ‘mysterious benefactor’ when the  clans on Draenor were thrown into disarray and maddened bloodlust he tried to keep order and maintain the Horde’s strength. Now with the promise of a lush new land for the Orcs to conquer and an enemy to unify the Horde again, Blackhand leads the Horde into Azeroth to their new destiny."
- POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC:0 "Leader of the Horde, and former lieutenant to Blackhand. After the failure of the first siege of Stormwind, Doomhammer challenged Blackhand to Mak’gora a “duel of honour” for control of the Blackrocks and the Horde, calling Blackhand a traitor who sold the Orcish race into servitude to a dark force. Wielding his ancestral weapon, the Doomhammer with it’s prophecy ‘The last of the doomhammer line would use it to bring salvation, and then doom to the  orcs.’ he slew Blackhand and now rules the Horde removing the influence of the Shadow Council and successfully sieged stormwind conquering it for the glory of the horde. Fulfilling the bringing salvation to the orcs. Now with the prophecy and the pressure of keeping the Horde stable and alive in this new world, he prepares to face the threat of the northern kingdoms and instability from within all at once. "
+BRC_blackhand_the_destroyer:0 "Blackhand the Destroyer"
+POLITICS_WARCHIEF_BLACKHAND_DESC:0 "Blackhand, the great chieftain of the Blackrock Clan and Warchief of the Horde. Through his clan’s mastery of Blackrock ore and with the machinations of Gul’dan when it was time to choose a Warchief, Blackhand was in a prime position to take up the mantle. In the decades before the construction of the Dark Portal, Blackhand led a savage and brutal war against the Draenei, and In the years of the long silence from Gul’dan’s ‘mysterious benefactor’ when the  clans on Draenor were thrown into disarray and maddened bloodlust he tried to keep order and maintain the Horde’s strength. Now with the promise of a lush new land for the Orcs to conquer and an enemy to unify the Horde again, Blackhand leads the Horde into Azeroth to their new destiny."
+BRC_ogrim_doomhammer:0 "Ogrim Doomhammer"
+POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC:0 "Leader of the Horde, and former lieutenant to Blackhand. After the failure of the first siege of Stormwind, Doomhammer challenged Blackhand to Mak’gora a “duel of honour” for control of the Blackrocks and the Horde, calling Blackhand a traitor who sold the Orcish race into servitude to a dark force. Wielding his ancestral weapon, the Doomhammer with it’s prophecy ‘The last of the doomhammer line would use it to bring salvation, and then doom to the  orcs.’ he slew Blackhand and now rules the Horde removing the influence of the Shadow Council and successfully sieged stormwind conquering it for the glory of the horde. Fulfilling the bringing salvation to the orcs. Now with the prophecy and the pressure of keeping the Horde stable and alive in this new world, he prepares to face the threat of the northern kingdoms and instability from within all at once. "
+
+BRC_dalrend_blackhand:0 "Dal'rend Blackhand"
+POLITICS_WARCHIEF_DALREND_BLACKHAND_DESC:0 ""
+
+BRC_eitrigg:0 "Eitrigg"
+BRC_varok_saurfang:0 "Varok Saurfang"
+
+BRC_urukal_blackhand:0 "Urukal Blackhand"
+BRC_tagorr_the_dread:0 "Targorr the Dread"
+BRC_neeralak:0 "Neeralak"
+BRC_murdunk:0 "Murdunk"
+BRC_homurk:0 "Homurk"
+BRC_ner_gosh_the_shadow:0 "Ner'gosh the Shadow"
+BRC_utroka_the_keymistress:0 "Utroka the Keymistress"
+BRC_throk_feroth:0 "Throk'Feroth"
+BRC_mazrigos:0 "Mazrigos"
+
+BRC_tharbek:0 "Tharbek"
+BRC_khanzo:0 "Khanzo"
+BRC_jubei_thos:0 "Jubei'Thos"
+BRC_haomarush:0 "Haomarush"
+BRC_genjuros:0 "Genjuros"
+BRC_bloodeye_redfist:0 "Bloodeye Redfist"
+BRC_gath_ilzogg:0 "Gath'Ilzogg"
+BRC_tharil_zun:0 "Tharil'Zun"
+BRC_barbarius:0 "Barbarius"
 
 ###############################
-# Units
+#units
 ###############################
  BRC_footman:0 "Grunt"
  BRC_footman_desc:0 "Grunts are the backbone of any army. They utilize axes and brute strength to control the battlefield."
@@ -55,30 +80,7 @@
  BRC_hoa_siege_tank_desc:0 "Demolishers our self-propelled catapults capable of raining fire down upon our enemies."
 
 ###############################
-# Advisors
-###############################
- BRC_urukal_blackhand:0 "Urukal Blackhand"
- BRC_tagorr_the_dread:0 "Targorr the Dread"
- BRC_neeralak:0 "Neeralak"
- BRC_murdunk:0 "Murdunk"
- BRC_homurk:0 "Homurk"
- BRC_ner_gosh_the_shadow:0 "Ner'gosh the Shadow"
- BRC_utroka_the_keymistress:0 "Utroka the Keymistress"
- BRC_throk_feroth:0 "Throk'Feroth"
- BRC_mazrigos:0 "Mazrigos"
-
- BRC_tharbek:0 "Tharbek"
- BRC_khanzo:0 "Khanzo"
- BRC_jubei_thos:0 "Jubei'Thos"
- BRC_haomarush:0 "Haomarush"
- BRC_genjuros:0 "Genjuros"
- BRC_bloodeye_redfist:0 "Bloodeye Redfist"
- BRC_gath_ilzogg:0 "Gath'Ilzogg"
- BRC_tharil_zun:0 "Tharil'Zun"
- BRC_barbarius:0 "Barbarius"
-
-###############################
-# Ideas
+#ideas
 ###############################
  BRC_ogrim_doomhammer:0 "Ogrim Doomhammer"
  BRC_ogrim_doomhammer_desc:0 "Ogrim Doomhammer servers as our second in command. A tactical genius from birth he has the respect of not just our warriors but of all warriors in the horde. Ogrim also has very close ties to the Chieftain of the Frostwolf clan. When the time comes, he could prove to be our greatest asset or worst enemy."
@@ -111,7 +113,7 @@
  BRC_victory_in_stromgarde_idea:0 "Victory in Stromgarde"
 
 ###############################
-# Focus tree
+#focus tree
 ###############################
 
  BRC_a_new_world:0 "A New World"
@@ -228,7 +230,6 @@
  BRC_the_thorium_brotherhood:0 "The Thorium Brotherhood"
  BRC_call_the_draenor_clans_to_war:0 "Call the Draenor Clans to War"
 
-
  BRC_doomhammers_horde:0 "Doomhammer's Horde"
  BRC_doomhammers_horde_desc:0 "Doomhammer's Horde"
  BRC_deal_with_rend:0 "Deal with Rend"
@@ -306,7 +307,7 @@
  BRC_distribute_lands:0 "Distribute Lands"
 
 ###############################
-# Events
+#events
 ###############################
  blackrock.1.t:0 "Fate of the Dragonmaw"
  blackrock.1.d:0 "Warchief, survivors from the Dragonmaw clan have arrived they claim that a race of fishmen decimated their clan and that only a handful of them survived."
@@ -440,7 +441,11 @@
  blackrock.43.option.2:0 "We do not need dem."
 
 ###############################
-# Country flags/oobs
+#decisions
+###############################
+
+###############################
+#Tooltips/country flags/oobs/misc
 ###############################
  hakkari_defeated:0 "Hakkari Defeated"
  blackhands_horde:0 "Blackhand's leadership unchallenged"

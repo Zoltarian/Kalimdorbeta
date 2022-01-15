@@ -1,17 +1,14 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
+BTG_dalrend_blackhand:0 "Dal'Rend Blackhand"
 POLITICS_DALREND_BLACKHAND_FIRST_WAR_DESC:0 "Having a very short childhood having been forced to adulthood through Warlocks using fel magic to artificially age children. Alongside his brother Maim, Rend Blackhand leads one of the most powerful clans for the Horde, the Black Tooth Grins, a clan filled with these artificially aged orcs. Fiercely loyal to their father and the Horde they will fight and die to the last orc for their honor and pride."
 POLITICS_DALREND_BLACKHAND_SECOND_WAR_DESC:0 "Having a very short childhood having been forced to adulthood through Warlocks using fel magic to artificially age children. Alongside his brother Maim, Rend Blackhand leads one of the most powerful clans for the Horde, the Black Tooth Grins, a clan filled with these artificially aged orcs. Reluctantly following the orders of Warchief Doomhammer, after felling their father in combat, they stay true to the horde but are just waiting for an opportunity to get revenge on Doomhammer."
-###############################
-#units
-###############################
 
-###############################
-#advisors
-###############################
+BTG_maim_blackhand:0 "Maim Blackhand"
+
 BTG_griselda_blackhand:0 "Griselda Blackhand"
 BTG_jed_runewatcher:0 "Jed Runewatcher"
 BTG_quartermaster_zigris:0 "Quartermaster Zigris"
@@ -31,6 +28,10 @@ BTG_terromath_the_seared:0 "Terromath the Seared"
 BTG_general_thorg_izog:0 "General Thorg Izog"
 BTG_urok_doomhowl:0 "Urok Doomhowl"
 ###############################
+#units
+###############################
+
+###############################
 #ideas
 ###############################
  BTG_stonespire_clan:0 "Stonespire Clan"
@@ -43,7 +44,10 @@ BTG_urok_doomhowl:0 "Urok Doomhowl"
 ###############################
 #events
 ###############################
-black_tooth_grin.1.t:0 "Call to Arms"
+
+###############################
+#decisions
+###############################black_tooth_grin.1.t:0 "Call to Arms"
 black_tooth_grin.1.d:0 "Chieftain your father requests your aid, he claims that Gul’dan has betrayed the horde and seeks to kill your father and claim the horde as slaves for his demonic master. These traitors must be dealt with immediately."
 black_tooth_grin.1.option.1:0 "Gul’dan will regret this."
 black_tooth_grin.2.t:0 "Blackhand Demands Intergration"
@@ -55,3 +59,6 @@ black_tooth_grin.3.d:0 "Chieftan, Ogrim Doomhammer has killed your father in a M
 black_tooth_grin.3.option.1:0 "Accept the deal."
 black_tooth_grin.3.option.2:0 "Doomhammer will pay for his betrayal."
 
+###############################
+#Tooltips/country flags/oobs/misc
+###############################

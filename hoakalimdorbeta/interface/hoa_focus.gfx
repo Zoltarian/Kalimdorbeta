@@ -19,6 +19,229 @@ spriteTypes = {
 	}
 
 ##############################
+#Bloodhoof / Taurens focus
+##############################
+
+SpriteType = {
+	name = "GFX_focus_tauren_mulgore"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_mulgore.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_barrens"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_barrens.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_thunder_bluff"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_thunderbluff.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_village"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_village.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_wall"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_wall.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_big_totem"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_big_totem.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_attack_centaurs"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_attack_centaurs.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_attack_gnolls"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_attack_gnolls.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_attack_harpies"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_attack_harpies.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_attack_quilboars"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_attack_quilboars.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_attack_1"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_attack_taurens_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_attack_2"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_attack_taurens_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_kodo"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_kodos.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_economy_1"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_economist.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_factories_1"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_factories_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_factories_2"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_factories_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_factories_3"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_factories_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_ressource_1"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_ressources_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_ressource_2"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_ressources_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_1"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_2"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_tauren_rites"
+	texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_tauren_rites.dds"
+}
+
+##############################
+#Grimtotem focus
+##############################
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_default"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_default.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_magatha"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_magatha.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_jevan"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_jevan.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_trade_1"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_trade_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_religion"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_grimtotem_religion.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_village"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_village.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_wyvern"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_wyvern.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_bridges"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_bridges.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_ally_spirithorn"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_ally_spirithorn.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_attack_spirithorn"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_attack_spirithorn.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_attack_galak"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_attack_galak.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_attack_razorfen"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_attack_razorfen.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_attack_gravelsnout"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_attack_gravelsnout.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_attack_screeching"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_attack_screeching.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_attack_silithids"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_attack_silithids.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_aggressive_warfare"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_aggressive_warfare.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_defensive_warfare"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_defensive_warfare.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_tauren_diplomacy"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_tauren_diplomacy.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_tauren_1"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_tauren_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_tauren_2"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_tauren_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_grimtotem_tauren_3"
+	texturefile = "gfx/interface/focus_tree/grimtotem/GRM_focus_tauren_3.dds"
+}
+
+##############################
 #Shen'dralar Focus
 ##############################
 
@@ -420,26 +643,4 @@ spriteTypes = {
 		name = "GFX_focus_genric_skeletal_warriors"
 		texturefile = "gfx/interface/focus_tree/focus_genric_skeletal_warriors.dds"
 	}
-	SpriteType = {
-		name = "GFX_focus_build_tauren_village"
-		texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_build_tauren_village.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_evoke_the_barrens"
-		texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_evoke_the_barrens.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_evoke_the_mulgore"
-		texturefile = "gfx/interface/focus_tree/bloodhoof/BHT_focus_evoke_the_mulgore.dds"
-	}
-
-
-
-
-
-
-
-
-
-
 }

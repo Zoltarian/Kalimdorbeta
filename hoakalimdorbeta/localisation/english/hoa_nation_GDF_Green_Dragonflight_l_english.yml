@@ -1,16 +1,14 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
+GDF_ysera:0 "Ysera"
 POLITICS_YSERA_DESC:0 "Ysera is the Dragon Aspect of Dreams. She is also the leader of the Green Dragonflight. She is the adoptive mother of Cenarius and close friends with Malorne. She watched over the Emerald Dream and infused Nordrassil with a connection to the Emerald Dream."
 
+GDF_nishera_the_garden_keeper:0 "Nishera the Garden Keeper"
 ###############################
 #units
-###############################
-
-###############################
-#advisors
 ###############################
 
 ###############################
@@ -33,6 +31,13 @@ GDF_emerald_nightmare_5_desc:0 "Deep within the Emerald Dream a darkness festers
 ###############################
 #events
 ###############################
-greendragonflight.1.t:0 "The Emerald Nightmare Spreads"
+
+###############################
+#decisions
+###############################greendragonflight.1.t:0 "The Emerald Nightmare Spreads"
 greendragonflight.1.d:0 "The guardian of the Twilight Grove, Emeriss has sent us grave news. The Hakkari Tribe was never fully wiped out, and that they are thriving in the Swamp of Sorrows. While nothing of immediate danger has been spotted by Emeriss the possibility of them summoning Atal’Hakkar back into this world would devastate the mortal races in the Eastern Kingdoms."
 greendragonflight.1.option.1:0 "We must act to prevent it from spreading further."
+
+###############################
+#Tooltips/country flags/oobs/misc
+###############################

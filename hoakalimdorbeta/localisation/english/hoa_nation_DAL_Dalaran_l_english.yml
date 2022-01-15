@@ -1,16 +1,16 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
+DAL_archmage_antonidas:0 "Archmage Antonidas"
 POLITICS_ARCHMAGE_ANTONIDAS_DESC:0 "Even as a young boy Antonidas was admitted as an apprentice under the Kirin Tor. Antonidas was a very diligent apprentice. Since he spent a lot of time in the library he surpassed his classmates quite quickly and gained his respect among the elders. Antonidas was a genius through and through, at the age of 12 he wrote his first book on time travel, which was soon awarded an award. He was also the youngest magician ever to be invited to special groups and sects within the Order. As Antonidas aged, the more powerful he became. With his talent for defensive magic, he was a perfect candidate as a member of the Council of Six, which he eventually joined. Not only did he become smart and fair, but also extremely purposeful, he soon became one of Dalaran's most important voices. As the leading archmage of the Kirin Tor it is Antonidas duty to protect Dalaran with his full power."
 
+DAL_archmage_modera:0 "Archmage Modera"
+DAL_kelthuzad:0 "Kel'thuzad"
+DAL_krasus:0 "Krasus"
 ###############################
 #units
-###############################
-
-###############################
-#advisors
 ###############################
 
 ###############################
@@ -24,6 +24,14 @@ POLITICS_ARCHMAGE_ANTONIDAS_DESC:0 "Even as a young boy Antonidas was admitted a
 ###############################
 #events
 ###############################
- dalaran.1.t:0 "Send an Apprentice"
- dalaran.1.d:0 "Medivh has been causing quite a stir in Kharazhan. The Coucil of Six must know what is going on with the Guardian. Let us send the young mage Khadgar to apprentice under Medivh and see what he is up to."
- dalaran.1.a:0 "Summon Khadgar!"
+dalaran.1.t:0 "Send an Apprentice"
+dalaran.1.d:0 "Medivh has been causing quite a stir in Kharazhan. The Coucil of Six must know what is going on with the Guardian. Let us send the young mage Khadgar to apprentice under Medivh and see what he is up to."
+dalaran.1.a:0 "Summon Khadgar!"
+
+###############################
+#decisions
+############################### 
+
+###############################
+#Tooltips/country flags/oobs/misc
+###############################

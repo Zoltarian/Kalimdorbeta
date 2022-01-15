@@ -1,23 +1,10 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
 POLITICS_MAGUS_MEDIVH_DESC:0 "The Last Guardian of Tirisfal. He is the Magnus of Karazhan and protector of the Kingdom of Stormwind. His great power has led to countless victories - but as the Green Threat marches west, Medivh is mysteriously silent. \nMedivh was corrupted by the Demonlord Sargeras and is the Co-Creator of the Dark Portal. As the Lord of Karazhan, now he must watch as his plan - Sargeras' plan - comes to fruition. Yet, there is some glimmer of the Last Guardian left. Perhaps, Medivh will still have a role to play."
 
-###############################
-#units
-###############################
-KAR_battle_for_control:0 "Battle For Control"
-KAR_battle_for_control_desc:0 "Something dark is inside the Guardian of Tirisfall. It plagues his every thought and implores him to do dark deeds. Medivh remains in control for now but, must remain in control at all costs or the whole of Azeroth may turn to darkness."
-KAR_wounded:0 "Wounded"
-KAR_wounded_desc:0 "Medivh has been weakened by his battle against Aegwynn."
-KAR_khadgar:0 "Apprentice Khadgar"
-KAR_khadgar_desc:0 "Dalaran has sent the Guardian a new apprentice, Khadgar."
-
-###############################
-#advisors
-###############################
 KAR_moroes:0 "Moroes"
 KAR_the_curator:0 "The Curator"
 KAR_the_curator_desc:0 "A mysterious arcane golem, created by Medivh to guard and preserve the artwork in Karazhan's gallery."
@@ -27,8 +14,19 @@ KAR_attumen_the_Huntsman_desc:0 "The huntsman is incharge of hunting game for th
 KAR_maiden_of_virtue:0 "Maiden of Virtue"
 KAR_maiden_of_virtue_desc:0 "A mysterious titanic watcher that roams the halls of Karazhan, seeking to elimnate the debaucheries of the Guardian and his guests. She seeks to rid the world of the 'impure' by 'cleansing' and 'purifying' the world of what she deems evil, in the name of the what she sees as the titans true vision of life on Azeroth."
 ###############################
+#units
+###############################
+
+
+###############################
 #ideas
 ###############################
+KAR_battle_for_control:0 "Battle For Control"
+KAR_battle_for_control_desc:0 "Something dark is inside the Guardian of Tirisfall. It plagues his every thought and implores him to do dark deeds. Medivh remains in control for now but, must remain in control at all costs or the whole of Azeroth may turn to darkness."
+KAR_wounded:0 "Wounded"
+KAR_wounded_desc:0 "Medivh has been weakened by his battle against Aegwynn."
+KAR_khadgar:0 "Apprentice Khadgar"
+KAR_khadgar_desc:0 "Dalaran has sent the Guardian a new apprentice, Khadgar."
 
 ###############################
 #focus tree
@@ -53,3 +51,11 @@ KAR_maiden_of_virtue_desc:0 "A mysterious titanic watcher that roams the halls o
  medivh.6.d:0 "Aegwynn, sensing the ripplies of magic the opening of the Dark Portal caused, knew that somehow Medivh had a hand in it. She quickly travelled to Kharazhan to confront him."
  medivh.6.a:0 "Magically Banish Aegwynn from Kharazhan"
  medivh.6.b:0 "Manifest Sargeras' power to defeat Aegwynn"
+
+###############################
+#decisions
+###############################
+
+###############################
+#Tooltips/country flags/oobs/misc
+###############################

@@ -1,7 +1,7 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
 POLITICS_KING_TERENAS_MENETHIL_II_DESC:0 "Wise King of Lordaeron, Terenas Menethil II is a statesman and a just king greatly loved by his people; he is no warrior, and has reigned for over fifty years and his long reign has seen peace and prosperity for his kingdom. However, darkness creeps at the doorstep of his realm and many wonder if the Old King will be strong enough to protect the world from the coming darkness."
 POLITICS_KING_TERENAS_MENETHIL_II_DESC_POST_SECOND_WAR:0 "Wise King of Lordaeron and Lord of the Alliance of the same name. Terenas Menethil II is a statesman and a just king greatly loved by his people; he is no warrior, and has reigned for over fifty years and his long reign has seen peace and prosperity for his kingdom. However, darkness creeps at the doorstep of his realm and many wonder if the Old King will be strong enough to protect the world from the coming darkness."
@@ -14,10 +14,6 @@ LOR_arch_mage:0 "Archmage"
 LOR_hoa_spellcaster:0 "Mage"
 LOR_hoa_healer:0 "Priest"
 LOR_scouts:0 "Rogue"
-
-###############################
-#advisors
-###############################
 
 ###############################
 #ideas
@@ -44,7 +40,6 @@ LOR_scouts:0 "Rogue"
 ###############################
 #events
 ###############################
-
 lordaeron.3.t:0 "The Meeting of the Seven Kingdoms"
 lordaeron.3.d:0 "While we have already established the Alliance, the handful of Stormwind’s refugees and the full commitment of the Kirin Tor won’t be enough to stop the coming Horde. We must call upon all the Human kingdoms and win them over to our side, should we fail the coming war may be over before it can even begin."
 lordaeron.3.option.1:0 "Summon their Leaders."
@@ -62,3 +57,7 @@ secure_the_seas:0 "Secure the Seas"
 secure_the_seas_desc:0 ""
 formalize_our_alliance_with_KUL:0 "Formalize our Alliance with Kul Tiras"
 formalize_our_alliance_with_KUL_desc:0 ""
+
+###############################
+#Tooltips/country flags/oobs/misc
+###############################

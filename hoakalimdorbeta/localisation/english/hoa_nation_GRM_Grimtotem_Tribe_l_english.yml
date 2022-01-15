@@ -1,26 +1,236 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
+GRM_magatha_grimtotem:0 "Magatha Grimtotem"
 POLITICS_MAGATHA_GRIMTOTEM_DESC:0 "Matriarch of the mighty Grimtotem Tribe. She is a powerful shaman and a cunning leader - she seeks to unite all Tauren under her banner. She seeks to eradicate the lesser races from Kalimdor and retake the tauren ancestral holdings. "
+GRM_jevan_grimtotem:0 "Jevan Grimtotem"
+POLITICS_JEVAN_GRIMTOTEM_DESC:0 ""
+
+GRM_arnak_grimtotem:0 "Arnak Grimtotem"
+
 
 ###############################
 #units
 ###############################
 
 ###############################
-#advisors
-###############################
-
-###############################
 #ideas
 ###############################
+GRM_peaceful_traders_idea:0 "Peaceful Traders"
+GRM_defensive_warfare_idea:0 "Defensive Warfare"
+GRM_caring_for_the_tribe_idea:0 "Caring for the Tribe"
+GRM_diplomatic_approach_idea:0 "Diplomatic Approach"
+GRM_arts_and_crafts_idea:0 "Tauren Arts and Crafts"
+GRM_tauren_superiority_idea:0 "Tauren Superiority"
+GRM_aggressive_warfare_idea:0 "Aggressive Warfare"
+GRM_mobilize_the_tribe_idea:0 "Mobilize the Tribe"
+GRM_tribal_machine_of_war_idea:0 "Tribal Machine of War"
 
 ###############################
 #focus tree
 ###############################
+GRM_grimtotem_nf:0 "The Grimtotem Tribe"
+GRM_grimtotem_nf_desc:0 "Our tribe is a mighty one, if not the mightiest tauren tribe to have ever existed."
+GRM_go_with_jevan_nf:0 "Go With Jevan"
+GRM_go_with_jevan_nf_desc:0 "Jevan Grimtotem, while being loyal to Magatha, doesn't share all of her ideals. Seeking instead to return to more traditionnal ways and to work with other tribes."
+GRM_go_with_magatha_nf:0 "Go With Magatha"
+GRM_go_with_magatha_nf_desc:0 "Respected matriarch of the Grimtotem tribe, Magatha only seek the glory and betterement of her people, and no one shall stand in her way."
+GRM_peaceful_traders_nf:0 "Peaceful Traders"
+GRM_peaceful_traders_nf_desc:0 "The taurens have always been a nomad people at its core, and with the nomad way of life comes fruitful trading."
+GRM_darkcloud_pinnacle_nf:0 "Darkcloud Pinnacle"
+GRM_darkcloud_pinnacle_nf_desc:0 "Darkcloud Pinnacle is our biggest camp established on one of the largest mesas within the Thousand Needles. Acting as the central hub of our influence within the region, it is important for us to invest in it."
+GRM_freewind_post_nf:0 "Freewind Post"
+GRM_freewind_post_nf_desc:0 "Located further east on the mesas of the Thousand Needles, Freewind Post is our second largest camp in the region."
+GRM_tauren_superiority_nf:0 "Tauren Superiority"
+GRM_tauren_superiority_nf_desc:0 "We are the children of the Earthmother, it is in our duty to protect Her sacred lands from the lesser creatures and their filths."
+GRM_emphasize_traditions_nf:0 "Emphasize Traditions"
+GRM_emphasize_traditions_nf_desc:0 "Traditions are what makes taurens tauren. Without its ancient folklore, the tauren people is no more than a husk of itself. It is important for us to come back to our roots."
+GRM_emphasize_traditions_faith_tt:0 "Faith Points: §G+150§!"
+GRM_defensive_warfare_nf:0 "Defensive Warfare"
+GRM_defensive_warfare_nf_desc:0 "We shall adapt our martial knowledge to more defensive strategies."
+GRM_ending_galak_threat_nf:0 "Ending the Galak Threat"
+GRM_ending_galak_threat_nf_desc:0 "The Galak Tribe of centaur roaming the canyons of the Thousand Needles are being a threat to our lesser camps and caravans passing through the area. It is time to end them once and for all."
+GRM_aggressive_warfare_nf:0 "Aggressive Warfare"
+GRM_aggressive_warfare_nf_desc:0 "Slaughter and mayhem. Two of the words often used to describe our way of fighting. No mercy is given to the lesser races that stands in our path and our way of fighting reflects that. Some may call us honorless, but in the end, we are the one who shall be victorious."
+GRM_mobilize_the_tribe_nf:0 "Mobilize the Tribe"
+GRM_mobilize_the_tribe_nf_desc:0 "A tribe that is not ready to fight is a tribe that will never emerge victorious. We shall increase our number of warrior and train every member of the tribe to be ready to attack the enemy."
+GRM_befriend_spirithorn_nf:0 "Befriend the Spirithorns"
+GRM_befriend_spirithorn_nf_desc:0 "Living in the peaceful forests of Feralas to the west of us, the Spirithorn tribe is the closest tauren tribe to us with at least significant influence. In order to survive, we need to work together. We will show them that we are leaving our brutal ways behind and that the Grimtotem tribe is born anew."
+GRM_bridge_network_nf:0 "Bridge Network"
+GRM_bridge_network_nf_desc:0 "The Thousand Needles are known to be one of the hardest place within Kalimdor to navigate. While we extensively use elevators to go up and down mesas, it would be way more efficient to construct bridges between them."
+GRM_bridge_network_tt:0 "§GAdd one §Croad§! level in every state owned in the Thousand Needles:§!"
+GRM_highperch_wyverns_nf:0 "Taming Highperch Wyverns"
+GRM_highperch_wyverns_nf_desc:0 "In the eastern part of the Thousand Needles lies a small canyon located on higher grounds that the rest of the region. Home to the highperch wyvern, these fierces creatures could prove to be useful assets and powerful mounts, if they can wistand the weight of a full grown tauren brave..."
+GRM_ultimatum_to_spirithorn_nf:0 "Ultimatum to the Spirithorns"
+GRM_ultimatum_to_spirithorn_nf_desc:0 "Inhabiting the wild jungles of eastern Feralas, to the west of us, the Spirithorn tribes still adhere to the old taurens ways of inaction."
+GRM_caring_for_the_tribe_nf:0 "Caring for the Tribe"
+GRM_caring_for_the_tribe_nf_desc:0 "It is of upmost importance that we care for each others, for without unity and cohesion, the tribe will fall apart and would be no more."
+GRM_diplomatic_approach_nf:0 "Diplomatic Approach"
+GRM_diplomatic_approach_nf_desc:0 "Conquest and subjugation is not the only way to interact with the rest of the world, let's open ourselves to more diplomatic ways."
+GRM_rustmaul_silithids_nf:0 "Rustmaul Silithids"
+GRM_rustmaul_silithids_nf_desc:0 "Of all the creatures that roams the continent of Kalimdor, silithids are one of the most gruesome. One of their hive is well established within the Shimmering Flats to the east of us. We should eradicate this infestation before they dig new hives within the area."
+GRM_martial_philosophy_nf:0 "Martial Philosophy"
+GRM_martial_philosophy_nf_desc:0 "Our martial prowess are not to be reckon with. Each Grimtotem youngling is taught to fight from early childhood. Battle and glory is in our very blood."
+GRM_arming_our_braves_nf:0 "Arming our Braves"
+GRM_arming_our_braves_nf_desc:0 "While we may tear the skin of our enemies with our horns or crush their bones with our hooves, nothing beats an armed tauren in combat."
+GRM_arts_and_crafts_nf:0 "Arts and Crafts"
+GRM_arts_and_crafts_nf_desc:0 "Our culture is one of crafts and beautiful arts. Songs, food, sculptures, tapestries, numerous are our creations and while we may look like big brutes, we taurens can also be skilled artisans."
+GRM_attack_gravelsnout_nf:0 "Attack the Gravelsnouts"
+GRM_attack_gravelsnout_nf_desc:0 "The Gravelsnout tribe is a lesser tribe of kobold residing in some minor canyons of the Thousand Needles. While they do not pose a significant threat to us, driving them out of the region should be done before they multiply."
+GRM_harpy_threat_nf:0 "End the Harpy Threat"
+GRM_harpy_threat_nf_desc:0 "The harpies of the Screeching tribes have taken refuges in the cliffs south of Darkcloud Pinnacle and have proven themselves to be quite annoying neighbors."
+GRM_clash_with_the_razorfen_nf:0 "Clash with the Razorfens"
+GRM_clash_with_the_razorfen_nf_desc:0 "The Razorfen tribe of Quilboars to the north have been a big thorn in the hoof for quite a while. Living in the safety of Razorfen Kraul and the Razorfen Downs, they seems to keep growing in number. It is only a matter of time before they descend into the Thousand Needles, striking them first is mandatory to assure victory."
+GRM_uniting_the_tribes_nf:0 "Uniting the Tribes"
+GRM_uniting_the_tribes_nf_desc:0 "Taurenkind should not be divided, all taurens should work together for the betterement of taurekind."
+GRM_uniting_the_tribes_tt:0 "§GUnlock decisions ally with other taurens tribes.§!"
+GRM_safe_on_the_mesas_nf:0 "Safety of the Mesas"
+GRM_safe_on_the_mesas_nf_desc:0 "The towering mesas that gives the Thousand Needles their name are safe heaven compared to the maze like canyons or the harsh conditions of the Shimmering Flats. Still, this is our home, and we will make the best out of it."
+GRM_strong_leading_hoof_nf:0 "A Strong Leading Hoof"
+GRM_strong_leading_hoof_nf_desc:0 "We are strong and mighty and more than ever! We shall lead all taurenkind with a strong hoof and lead us all to glory. Let's make the Earthmother proud."
+GRM_strong_leading_hoof_tt:0 "§GUnlock decisions to send ultimatum to other taurens tribes.§!"
 
 ###############################
 #events
 ###############################
+
+###############################
+#decisions
+###############################
+grimtotem.1.t:0 "The Grimtotem Tribe"
+grimtotem.1.d:0 "Our tribe, the Grimtotem tribe, is one of the mightiest, if not THE mightiest tauren tribe to have ever walked on the sacred lands of the Earthmother. And that because we have for long left the peaceful ways of our other tauren brothers, only with strength shall we eradicate the lesser races from our rightful lands within Kalimdor. \n\n This martial tradition has been part of the Grimtotem tribe for generation and has allowed us to survive and expand where other foolish tribes have fell to threats like the horrendous centaurs. Our leader, Magatha Grimtotem is making sure of that, for she is upholding these traditions with great value and wish to continue to do so. But while her ideas might be shared by the majority of our tribe, others, led by the mighty Jevan Grimtotem think otherwise. Despites his loyalty to Magatha, he find some of her cunning actions to be betrayals against the shamaning ways, which is regards with almost complete zeal. Jevan seeks to lead the Grimtotem back to their tradtionnal way of life of peacefulness and cooperation between tribes while still retaining the strength that make the tribe what it is today. \n\n The destiny of the Grimtotem is to be a great one, but how it will mark the history of taurenkind entirely depends on who shall lead it..."
+grimtotem.1.option.1:0 "Destiny awaits."
+
+grimtotem.2.t:0 "Offer from the Grimtotem"
+grimtotem.2.d:0 "The Grimtotem tribe, located east of us in the canyons and on the top of the mesas of the Thousand Needles have recently sent and envoy to Camp Mojache. Bearing promises of peace and cooperation, the envoy invited our tribe to be the first to join the Grimtotem in a peaceful alliance between the taurens tribes of Kalimdor. While such a proposal might have been surprising coming from the Grimtotem in the past, the recent step up of Jevan Grimtotem as leader of the tribe has drastically changed their behavior toward other tribes. Where their previous leader, Magatha Grimtotem, would try to subdue other tribes by force, Jevan sees all of us as equal and wish for diplomacy to bring the tribes together. The envoy has left Camp Mojache, telling us that the Grimtotem tribe will await our answer, whatever it may be. What should we do?"
+grimtotem.2.option.1:0 "A worthy initiative, tell the Grimtotems that we accept Jevan's offer."
+grimtotem.2.option.1.d:0 "§GWe will join the Grimtotem Tribe in an alliance.§!"
+grimtotem.2.option.2:0 "More time is needed before we trust the Grimtotems, reject the offer."
+
+grimtotem.3.t:0 "The Spirithorns have accepted!"
+grimtotem.3.d:0 "An envoy from the Spirithorn Tribe arrived today in Darkcloud Pinnacle and bear great news: the Spirithorns have accepted to join us as our first ally!"
+grimtotem.3.option.1:0 "Excellent!"
+
+grimtotem.4.t:0 "The Spirithorns have refused."
+grimtotem.4.d:0 "An envoy from the Spirithorn Tribe arrived today in Darkcloud Pinnacle and bearing sad news: the Spirithorns have refused to join us as our ally and we will continue alone for now."
+grimtotem.4.option.1:0 "Well then..."
+
+grimtotem.5.t:0 "Ultimatum from the Grimtotem"
+grimtotem.5.d:0 "The Grimtotem have sent an envoy to order us to join them peacefully or be subdued by force. What should we do?"
+grimtotem.5.option.1:0 "We have no choice but to accept."
+grimtotem.5.option.1.d:0 "§RWe will be annexed by the Grimtotem Tribe!§!"
+grimtotem.5.option.2:0 "Who do you think they are?"
+grimtotem.5.option.2.d:0 "§RThis will anger the Grimtotem...§!"
+
+grimtotem.6.t:0 "The [From.GetName] have accepted our ultimatum."
+grimtotem.6.d:0 ""
+grimtotem.6.option.1:0 "Excellent!"
+
+grimtotem.7.t:0 "The [From.GetName] have refused our ultimatum."
+grimtotem.7.d:0 ""
+grimtotem.7.option.1:0 "Too bad... for them!"
+
+grimtotem.8.t:0 "Grimtotem Envoy"
+grimtotem.8.d:0 "The Grimtotem tribe have recently sent and envoy to [ROOT.Capital.GetName]. Bearing promises of peace and cooperation, the envoy presented itself as a diplomat, wishing to stay here within our tribe and act as a representative of the Grimtotem. While such a proposal might have been surprising coming from the Grimtotem in the past, the recent step up of Jevan Grimtotem as leader of the tribe has drastically changed their behavior toward other tribes. Where their previous leader, Magatha Grimtotem, would try to subdue other tribes by force, Jevan sees all of us as equal and wish for diplomacy to bring the tribes together. What should we do?"
+grimtotem.8.option.1:0 "The envoy is welcome to stay among us."
+grimtotem.8.option.2:0 "It's too early to trust the Grimtotems."
+
+grimtotem.9.t:0 "The [FROM.GetName] welcomed our envoy."
+grimtotem.9.d:0 "A messenger from the [FROM.GetName] has arrived today, informing us that our envoy has completed his journey safely and has been welcomed within the tribe. They agree to not wage war against us and are eager to continue diplomatic relations."
+grimtotem.9.option.1:0 "Excellent news!"
+
+grimtotem.10.t:0 "The [FROM.GetName] turned our envoy back."
+grimtotem.10.d:0 "Our envoy has came back to [ROOT.Capital.GetName] empty-handed bearing the news that [FROM.GetName] didn't accept our offer."
+grimtotem.10.option.1:0 "Maybe next time..."
+
+grimtotem.11.t:0 "An Offer from the Grimtotem"
+grimtotem.11.d:0 "The Grimtotem diplomat that has been residing within our tribe for a while now has requested a meeting with [ROOT.GetLeader]. During this audience, the envoy proposed to us that we formalize our relationship by joining the Grimtotem and their other allies. What should we do?"
+grimtotem.11.option.1:0 "It would be a pleasure!"
+grimtotem.11.option.2:0 "We are not ready for that yet."
+
+grimtotem.12.t:0 "The [FROM.GetName] joins us!."
+grimtotem.12.d:0 "A messenger has arrived today bearing great news! The [From.GetName] accepted to join our alliance! We stand now together as allies."
+grimtotem.12.option.1:0 "Excellent news!"
+
+grimtotem.13.t:0 "The [FROM.GetName] refused our proposal."
+grimtotem.13.d:0 "A messenger has arrived today informing us that the [From.GetName] refused our proposal for an alliance."
+grimtotem.13.option.1:0 "Maybe next time..."
+
+###############################
+#decisions
+###############################
+uniting_the_tribes_decisions:0 "Uniting the Tribes"
+
+GRM_envoy_flag:0 "Accepted the Grimtotem envoy"
+GRM_send_envoy_tt:0 "§GIf they accept, this will enact a non-aggression pact between our two tribes, if that's not already the case.§!"
+GRM_ask_for_alliance_tt:0 "§GIf they accept, they will become our ally.§!"
+
+GRM_send_envoy_to_SPH_decision:0 "Send envoy to the [SPH.GetNameWithFlag]"
+GRM_send_envoy_to_SPH_decision_desc:0 "We will send an envoy to the [SPH.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_SPH_decision:0 "Ask the [SPH.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_SPH_decision_desc:0 "We will ask our envoy in the [SPH.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_SOP_decision:0 "Send envoy to the [SOP.GetNameWithFlag]"
+GRM_send_envoy_to_SOP_decision_desc:0 "We will send an envoy to the [SOP.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_SOP_decision:0 "Ask the [SOP.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_SOP_decision_desc:0 "We will ask our envoy in the [SOP.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_HWT_decision:0 "Send envoy to the [HWT.GetNameWithFlag]"
+GRM_send_envoy_to_HWT_decision_desc:0 "We will send an envoy to the [HWT.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_HWT_decision:0 "Ask the [HWT.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_HWT_decision_desc:0 "We will ask our envoy in the [HWT.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_WIN_decision:0 "Send envoy to the [WIN.GetNameWithFlag]"
+GRM_send_envoy_to_WIN_decision_desc:0 "We will send an envoy to the [WIN.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_WIN_decision:0 "Ask the [WIN.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_WIN_decision_desc:0 "We will ask our envoy in the [WIN.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_TMT_decision:0 "Send envoy to the [TMT.GetNameWithFlag]"
+GRM_send_envoy_to_TMT_decision_desc:0 "We will send an envoy to the [TMT.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_TMT_decision:0 "Ask the [TMT.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_TMT_decision_desc:0 "We will ask our envoy in the [TMT.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_DWN_decision:0 "Send envoy to the [DWN.GetNameWithFlag]"
+GRM_send_envoy_to_DWN_decision_desc:0 "We will send an envoy to the [DWN.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_DWN_decision:0 "Ask the [DWN.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_DWN_decision_desc:0 "We will ask our envoy in the [DWN.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_EAG_decision:0 "Send envoy to the [EAG.GetNameWithFlag]"
+GRM_send_envoy_to_EAG_decision_desc:0 "We will send an envoy to the [EAG.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_EAG_decision:0 "Ask the [EAG.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_EAG_decision_desc:0 "We will ask our envoy in the [EAG.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_WIL_decision:0 "Send envoy to the [WIL.GetNameWithFlag]"
+GRM_send_envoy_to_WIL_decision_desc:0 "We will send an envoy to the [WIL.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_WIL_decision:0 "Ask the [WIL.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_WIL_decision_desc:0 "We will ask our envoy in the [WIL.GetName] to formalize the relationship of our two tribes into a proper alliance."
+GRM_send_envoy_to_BHT_decision:0 "Send envoy to the [BHT.GetNameWithFlag]"
+GRM_send_envoy_to_BHT_decision_desc:0 "We will send an envoy to the [BHT.GetName], acting as our representative and guaranteeing a non-aggression pact with them."
+GRM_ask_alliance_to_BHT_decision:0 "Ask the [BHT.GetNameWithFlag] for an alliance"
+GRM_ask_alliance_to_BHT_decision_desc:0 "We will ask our envoy in the [BHT.GetName] to formalize the relationship of our two tribes into a proper alliance."
+
+leading_the_tribes_decisions:0 "Leading the Tribes"
+GRM_ultimatum_tt:0 "§GIf they accept the ultimatum, we will annex them, if not we will gain a war goal on them.§!"
+
+GRM_ultimatum_to_SPH_decision:0 "Ultimatum to [SPH.GetNameWithFlag]"
+GRM_ultimatum_to_SPH_decision_desc:0 "The [SPH.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_SOP_decision:0 "Ultimatum to [SOP.GetNameWithFlag]"
+GRM_ultimatum_to_SOP_decision_desc:0 "The [SOP.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_HWT_decision:0 "Ultimatum to [HWT.GetNameWithFlag]"
+GRM_ultimatum_to_HWT_decision_desc:0 "The [HWT.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_WIN_decision:0 "Ultimatum to [WIN.GetNameWithFlag]"
+GRM_ultimatum_to_WIN_decision_desc:0 "The [WIN.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_TMT_decision:0 "Ultimatum to [TMT.GetNameWithFlag]"
+GRM_ultimatum_to_TMT_decision_desc:0 "The [TMT.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_DWN_decision:0 "Ultimatum to [DWN.GetNameWithFlag]"
+GRM_ultimatum_to_DWN_decision_desc:0 "The [DWN.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_EAG_decision:0 "Ultimatum to [EAG.GetNameWithFlag]"
+GRM_ultimatum_to_EAG_decision_desc:0 "The [EAG.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_WIL_decision:0 "Ultimatum to [WIL.GetNameWithFlag]"
+GRM_ultimatum_to_WIL_decision_desc:0 "The [WIL.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+GRM_ultimatum_to_BHT_decision:0 "Ultimatum to [BHT.GetNameWithFlag]"
+GRM_ultimatum_to_BHT_decision_desc:0 "The [BHT.GetName] is weaker than us, we will ask them to join us peacefully. If they refuse, then we shall subdue them by force."
+
+GRM_abandon_our_feralas_holdings_decision:0 "Abandon our Feralas holdings"
+GRM_abandon_our_feralas_holdings_decision_desc:0 "We are unable to maintain our presence within Feralas without severe losses, we should retreat while we still can and come back stronger than before!"
+
+###############################
+#Tooltips/country flags/oobs/misc
+###############################
+GRM_bloodhoof_hater:0 "Bloodhoof Hater"
+GRM_bloodhoof_sympathizer:0 "Bloodhoof Sympathizer"

@@ -1,16 +1,16 @@
 ﻿l_english:
 
 ###############################
-#leaders
+#characters
 ###############################
+BLF_deathwing:0 "Deathwing"
 POLITICS_DEATHWING_DESC:0 "Formerly known as Neltharion, Deathwing rules over the Black Dragonflight as the Aspect of Death. Neltharion betrayed the other dragonflights at Zin-Azshari by taking the Dragon Soul and nearly obliterating the Blue Dragonflight with it. Yet this came at a cost, as Neltharion's being was warped into a cracking shell of magma and fire. Thus he became known as Deathwing the Destroyer. Now the Destroyer rests from his wounds, awaiting the moment to usher in a new age of chaos."
+
+BLF_nefarian:0 "Nefarian"
+BLF_baltharus_the_warborn:0 "Baltharus the Warborn"
 
 ###############################
 #units
-###############################
-
-###############################
-#advisors
 ###############################
 
 ###############################
@@ -28,10 +28,17 @@ BLF_infilitrate_the_horde_desc:0 "Lord Deathwing has disguised himself as an orc
 ###############################
 #events
 ###############################
-blackdragonflight.2.t:0 "Stromwind doomed to its fate"
+
+###############################
+#decisions
+###############################blackdragonflight.2.t:0 "Stromwind doomed to its fate"
 blackdragonflight.2.d:0 "We have manipulated the fools in Lordaeron to abandon their brethren, we must now keep a close watch on the Orcs if the Hour to Twilight is to fall."
 blackdragonflight.2.option.1:0 "Shift our eye"
 blackdragonflight.3.t:0 "Unrest in Lordaerons Courts"
 blackdragonflight.3.d:0 "Despite not having the support of the nobles [LOR.GetLeader] had decided to support Stormwind. Many nobles have been talking about a potential uprising to dethrone him. With the right manipulation we can name further manipulate these nobles to our side."
 blackdragonflight.3.option.1:0 "Start a civil war in the Plaguelands."
 blackdragonflight.3.option.2:0 "The time is not right, we must win more to our side."
+
+###############################
+#Tooltips/country flags/oobs/misc
+###############################
