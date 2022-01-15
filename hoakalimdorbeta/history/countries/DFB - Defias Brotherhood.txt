@@ -30,15 +30,9 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	pikeman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
-
 	support_equipment_tech = 1
-	
-
-	mount_taming_1 = 1
-
-	
+	mount_taming_1 = 1	
 	naval_transport_1 = 1
-
 }
 
 set_politics = {
@@ -56,58 +50,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Edwin VanCleef"
-	desc = "POLITICS_EDWIN_VANCLEEF_DESC"
-	picture = "edwin_vancleef.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Edwin VanCleef"
-	desc = "POLITICS_EDWIN_VANCLEEF_DESC"
-	picture = "edwin_vancleef.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Edwin VanCleef"
-	desc = "POLITICS_EDWIN_VANCLEEF_DESC"
-	picture = "edwin_vancleef.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Edwin VanCleef"
-	desc = "POLITICS_EDWIN_VANCLEEF_DESC"
-	picture = "edwin_vancleef.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Edwin VanCleef"
-	desc = "POLITICS_EDWIN_VANCLEEF_DESC"
-	picture = "edwin_vancleef.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

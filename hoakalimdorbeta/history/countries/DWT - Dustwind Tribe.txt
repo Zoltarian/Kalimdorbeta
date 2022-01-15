@@ -65,6 +65,8 @@ set_technology = {
 	transport_breeds_1 = 1
 }
 
+recruit_character = DWT_dustwind_matriarch
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -80,49 +82,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Dustwind Matriarch"
-	desc = "POLITICS_DUSTWIND_MATRIARCH_DESC"
-	picture = "gfx/leaders/DWT/dustwind_matriarch.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Dustwind Matriarch"
-	desc = "POLITICS_DUSTWIND_MATRIARCH_DESC"
-	picture = "gfx/leaders/DWT/dustwind_matriarch.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Dustwind Matriarch"
-	desc = "POLITICS_DUSTWIND_MATRIARCH_DESC"
-	picture = "gfx/leaders/DWT/dustwind_matriarch.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-    name = "Dustwind Matriarch"
-    picture = "gfx/leaders/DWT/dustwind_matriarch.dds"
-    traits = { }
-    id = 20400
-    skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

@@ -39,6 +39,8 @@ set_technology = {
 	naval_transport_1 = 1
 }
 
+recruit_character = DFT_old_fin_eye
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -54,73 +56,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Old Fin Eye"
-	desc = "POLITICS_OLD_FIN_EYE_DESC"
-	picture = "old_fin_eye.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Old Fin Eye"
-	desc = "POLITICS_OLD_FIN_EYE_DESC"
-	picture = "old_fin_eye.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Old Fin Eye"
-	desc = "POLITICS_OLD_FIN_EYE_DESC"
-	picture = "old_fin_eye.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Old Fin Eye"
-	desc = "POLITICS_OLD_FIN_EYE_DESC"
-	picture = "old_fin_eye.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Old Fin Eye"
-	desc = "POLITICS_OLD_FIN_EYE_DESC"
-	picture = "old_fin_eye.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Old Fin Eye"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc1.dds"
-	traits = {  }
-	id = 15000
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Darkfin Warlord"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	traits = {  }
-	id = 15001
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

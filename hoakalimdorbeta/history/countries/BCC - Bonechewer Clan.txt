@@ -45,6 +45,10 @@ set_technology = {
 
 }
 
+recruit_character = BCC_hurkan_skullsplinter
+recruit_character = BCC_tagar_spinebreaker
+recruit_character = BCC_krun_spinebreaker
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -63,36 +67,9 @@ set_popularities = {
     neutral = 0
 }
 
-create_country_leader = {
-	name = "Hurkan Skullsplinter"
-	desc = "POLITICS_HURKAN_SKULLSPLINTER_DESC"
-	picture = "gfx/leaders/BCC/hurkan_skullsplinter.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hurkan Skullsplinter"
-	desc = "POLITICS_HURKAN_SKULLSPLINTER_DESC"
-	picture = "gfx/leaders/BCC/hurkan_skullsplinter.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
 596.1.1 = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
-
-		
-
-
-
 
 		naval_transport_2 = 1
 		aviary_tech = 1
@@ -100,71 +77,9 @@ create_country_leader = {
 
 		blueprints_1 = 1
 
-
-
-
-
-
-
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
 	}
 
-	create_country_leader = {
-		name = "Tagar Spinebreaker"
-		desc = "POLITICS_TAGAR_SPINEBREAKER_PLATTEN_DESC"
-		picture = "gfx/leaders/BCC/tagar_spinebreaker.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Tagar Spinebreaker"
-		desc = "POLITICS_TAGAR_SPINEBREAKER_PLATTEN_DESC"
-		picture = "gfx/leaders/BCC/tagar_spinebreaker.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-}
-
-create_field_marshal = {
-	name = "Hurkan Skullsplinter"
-	picture = "gfx/leaders/BCC/hurkan_skullsplinter.dds"
-	traits = {  }
-	id = 3000
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Krun Spinebreaker"
-	picture = "gfx/leaders/BCC/krun_spinebreaker.dds"
-	traits = {  }
-	id = 3001
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Tagar Spinebreaker"
-	picture = "gfx/leaders/BCC/tagar_spinebreaker.dds"
-	traits = {  }
-	id = 3002
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

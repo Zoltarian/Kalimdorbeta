@@ -34,6 +34,8 @@ set_technology = {
 
 }
 
+recruit_character = FMG_kashoch_the_reaver
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -49,23 +51,5 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
-}
-
-create_country_leader = {
-	name = "Kashoch the Reaver"
-	desc = "POLITICS_KASOCH_THE_REAVER_DESC"
-	picture = "kasoch_the_reaver.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
 
 }

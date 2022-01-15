@@ -3,6 +3,7 @@
 oob = "GRA_592"
 
 set_research_slots = 3
+
 set_technology = {
 	town_hall_tech = 1
 	peasants_tech = 1
@@ -32,6 +33,8 @@ add_ideas = {
 	primary_religion_pyromancy
 }
 
+recruit_character = GRA_gibblesnik
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -40,7 +43,6 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
 }
 
 set_politics = {
@@ -48,22 +50,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Gibblesnik"
-	desc = "POLITICS_GIBBLESNIK_DESC"
-	picture = "gibblesnik.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

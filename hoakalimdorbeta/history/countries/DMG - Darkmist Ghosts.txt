@@ -26,6 +26,8 @@ set_technology = {
 	arcane_tower_tech = 1
 }
 
+recruit_character = DMG_lord_darkmist
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -41,22 +43,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Lord Darkmist"
-	desc = "POLITICS_LORD_darkmist_DESC"
-	picture = "gfx/leaders/DMG/lord_darkmist.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

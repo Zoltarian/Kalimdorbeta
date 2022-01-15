@@ -52,6 +52,9 @@ set_technology = {
 	paladin_equipment_tech_1 = 1
 }
 
+recruit_character = GAL_khan_ablinh
+recruit_character = GAL_blizh
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -67,94 +70,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Khan Ablinh"
-	desc = "POLITICS_KHAN_ABLINH_DESC"
-	picture = "gfx/leaders/GAL/ablinh.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khan Ablinh"
-	desc = "POLITICS_KHAN_ABLINH_DESC"
-	picture = "gfx/leaders/GAL/ablinh.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khan Ablinh"
-	desc = "POLITICS_KHAN_ABLINH_DESC"
-	picture = "gfx/leaders/GAL/ablinh.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khan Ablinh"
-	desc = "POLITICS_KHAN_ABLINH_DESC"
-	picture = "gfx/leaders/GAL/ablinh.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khan Ablinh"
-	desc = "POLITICS_KHAN_ABLINH_DESC"
-	picture = "gfx/leaders/GAL/ablinh.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khan Ablinh"
-	desc = "POLITICS_KHAN_ABLINH_DESC"
-	picture = "gfx/leaders/GAL/ablinh.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Khan Ablinh"
-	picture = "gfx/leaders/GAL/ablinh.dds"
-	traits = {  }
-	id = 25500
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Blizh"
-	picture = "gfx/leaders/GAL/blizh.dds"
-	traits = {  }
-	id = 25501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

@@ -49,6 +49,8 @@ set_technology = {
 	transport_breeds_1 = 1
 }
 
+recruit_character = CNT_ainamiss_the_hive_queen
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -65,15 +67,3 @@ set_popularities = {
     titans = 0
     neutral = 100
 }
-
-create_country_leader = {
-	name = "Ainamiss the Hive Queen "
-	desc = "POLITICS_AINAMISS_THE_HIVE_QUEEN_DESC"
-	picture = "ainamiss.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

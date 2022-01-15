@@ -41,6 +41,8 @@ add_ideas = {
 	primary_religion_followers_of_the_tidehunter
 }
 
+recruit_character = DSG_deepwalker
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -56,24 +58,4 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
-}
-
-create_country_leader = {
-	name = "Deepwalker"
-	desc = "POLITICS_DEEPWALKER_DESC"
-	picture = "deepwalker.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

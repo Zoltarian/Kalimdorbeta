@@ -34,6 +34,8 @@ set_technology = {
 
 }
 
+recruit_character = FGH_fieldgiant_harvester
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -49,15 +51,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-596.1.1 = {}
-
-create_country_leader = {
-	name = "Fieldgiant Harvester"
-	desc = "POLITICS_FIELDGIANT_BROODMOTHER_DESC"
-	picture = "fieldgiant_harvester.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
 }

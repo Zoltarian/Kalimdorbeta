@@ -75,6 +75,9 @@
 		altar_of_storms_tech = 1
 		
 	}
+
+	recruit_character = BHC_kilrogg_deadeye
+	recruit_character = BHC_grillok_darkeye
 	
 	set_politics = {	
 		ruling_party = fel
@@ -133,36 +136,14 @@
 		target = NRT
 		type = annex_everything
 	}
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-		
-		
-		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}	
+
 	
 	set_politics = {		
 		ruling_party = horde
 		last_election = "590.10.27"
 		election_frequency = 48
 		elections_allowed = no
-}
+	}
 
     set_popularities = {
         alliance = 0
@@ -174,72 +155,4 @@
         neutral = 0
     }
 
-}
-
-create_country_leader = {
-	name = "Kilrogg Deadeye"
-	desc = "POLITICS_KILROGG_DEADEYE_DESC"
-	picture = "Kilrog.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kilrogg Deadeye"
-	desc = "POLITICS_KILROGG_DEADEYE_DESC"
-	picture = "Kilrog.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kilrogg Deadeye"
-	desc = "POLITICS_KILROGG_DEADEYE_DESC"
-	picture = "Kilrog.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kilrogg Deadeye"
-	desc = "POLITICS_KILROGG_DEADEYE_DESC"
-	picture = "Kilrog.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Kilrogg Deadeye"
-	picture = "Kilrog.dds"
-	traits = {  }
-	id = 4800
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Grillok 'Darkeye'"
-	picture = "Grillok.dds"
-	traits = {  }
-	id = 4801
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

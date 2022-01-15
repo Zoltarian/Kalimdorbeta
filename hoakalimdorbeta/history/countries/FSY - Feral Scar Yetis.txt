@@ -27,6 +27,8 @@ set_technology = {
 
 }
 
+recruit_character = FSY_feral_scar
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -42,22 +44,4 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-}
-
-create_country_leader = {
-	name = "Feral Scar"
-	desc = "POLITICS_FERAL_SCAR_DESC"
-	picture = "feral_scar.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

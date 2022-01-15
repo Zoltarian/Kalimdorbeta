@@ -97,65 +97,23 @@ set_technology = {
 
 }
 
-592.1.1 = {
+recruit_character = CEN_cenarius
+recruit_character = CEN_malfurion_stormrage
 
-	set_politics = {
-		ruling_party = neutral
-		last_election = "590.10.27"
-		election_frequency = 48
-		elections_allowed = no
-	}
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	set_popularities = {
-		alliance = 0
-		horde = 0
-		death = 0
-		fel = 0
-		old_gods = 0
-		titans = 0
-		neutral = 100
-
-	}
-
-	create_country_leader = {
-		name = "Cenarius"
-		desc = "POLITICS_CENARIUS_DESC"
-		picture = "cenarius.dds"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-#	create_country_leader = {
-#		name = "Malfurion Stormrage"
-#		desc = "POLITICS_MALFURION_DESC"
-#		picture = "malfurion_stormrage.dds"
-#		ideology = neutral_type
-#		traits = {
-#			#
-#		}
-#	}
-
-	create_field_marshal = {
-		name = "Cenarius"
-		picture = "cenarius.dds"
-		traits = {  }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-	create_field_marshal = {
-		name = "Malfurion Stormrage"
-		picture = "malfurion_stormrage.dds"
-		traits = {  }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
 
 }

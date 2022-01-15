@@ -94,6 +94,8 @@ set_technology = {
 
 }
 
+recruit_character = CNH_commander_maralith
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -109,22 +111,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Commander Mar'alith"
-	desc = "POLITICS_COMMANDER_MARALITH_DESC"
-	picture = "commander_maralith.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

@@ -21,6 +21,8 @@ add_ideas = {
 	primary_religion_irreligious
 }
 
+recruit_character = GAD_chief_engineer_bilgewhizzle
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -36,22 +38,5 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
-}
-
-create_country_leader = {
-	name = "Chief Engineer Bilgewhizzle"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
 
 }

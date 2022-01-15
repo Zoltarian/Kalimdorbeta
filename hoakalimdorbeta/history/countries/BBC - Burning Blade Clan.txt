@@ -25,6 +25,10 @@
 		BBC_dustbelcher_clan
 	}
 
+	recruit_character = BBC_azuka_bladefury
+	recruit_character = BBC_luhk_the_keeneyed
+	recruit_character = BBC_flamebender_kagraz
+
 	set_politics = {
 		ruling_party = fel
 		last_election = "590.10.27"
@@ -32,15 +36,15 @@
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 100
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
+	set_popularities = {
+		alliance = 0
+		horde = 0
+		death = 0
+		fel = 100
+		old_gods = 0
+		titans = 0
+		neutral = 0
+	}
 
 	set_technology = {
 		footman_weapons_tech_1 = 1
@@ -53,7 +57,6 @@
 
 		catapult_equipment_tech_1 = 1
 
-		
 		naval_transport_1 = 1
 
 		town_hall_tech = 1
@@ -121,15 +124,15 @@
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 66
-    death = 0
-    fel = 34
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
+	set_popularities = {
+		alliance = 0
+		horde = 66
+		death = 0
+		fel = 34
+		old_gods = 0
+		titans = 0
+		neutral = 0
+	}
 
 	set_technology = {
 		footman_weapons_tech_1 = 1
@@ -178,83 +181,4 @@
     titans = 0
     neutral = 5
 	}
-}
-
-create_country_leader = {
-	name = "Azuka Bladefury"
-	desc = "POLITICS_AZUKA_BLADEFURY_DESC"
-	picture = "Azuka.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Azuka Bladefury"
-	desc = "POLITICS_AZUKA_BLADEFURY_DESC"
-	picture = "Azuka.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lantresor of the Blade"
-	desc = "POLITICS_SAMURO_DESC"
-	picture = "lantresor.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-#create_country_leader = {
-#	name = "Neeru Fireblade"
-#	desc = "POLITICS_SAMURO_DESC"
-#	picture = "Neeru.dds"
-#	expire = "1965.1.1"
-#	ideology = fel_type
-#	traits = {
-#		#
-#	}
-#}
-
-create_field_marshal = {
-	name = "Azuka Bladefury"
-	picture = "Azuka.dds"
-	traits = {  }
-	id = 2700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Luhk 'The Keen-Eyed"
-	picture = "luhk.dds"
-	traits = {  }
-	id = 2701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Flamebender Ka'graz"
-	picture = "kagraz.dds"
-	traits = {  }
-	id = 2702
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

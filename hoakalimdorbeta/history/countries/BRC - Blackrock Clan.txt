@@ -78,6 +78,11 @@
 		}
 	}
 
+	recruit_character = BRC_blackrock_the_destroyer
+	recruit_character = BRC_ogrim_doomhammer
+	recruit_character = BRC_eitrigg
+	recruit_character = BRC_varok_saurfang
+
 	set_politics = {
 		ruling_party = fel
 		last_election = "590.10.27"
@@ -94,112 +99,6 @@
         titans = 0
         neutral = 0
     }
-
-	create_country_leader = {
-		name = "Blackhand The Destroyer"
-		desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
-		picture = "Blackhand.dds"
-		expire = "1965.1.1"
-		ideology = alliance_type
-		traits = {
-			#
-		}
-	}
-	create_country_leader = {
-		name = "Blackhand The Destroyer"
-		desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
-		picture = "Blackhand.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-	create_country_leader = {
-		name = "Raised Blackhand The Destroyer"
-		desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
-		picture = "Blackhand.dds"
-		expire = "1965.1.1"
-		ideology = death_type
-		traits = {
-			#
-		}
-	}
-	create_country_leader = {
-		name = "Blackhand The Destroyer"
-		desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
-		picture = "Blackhand.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-	create_country_leader = {
-		name = "Corrupted Blackhand The Destroyer"
-		desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
-		picture = "Blackhand.dds"
-		expire = "1965.1.1"
-		ideology = old_gods_type
-		traits = {
-			#
-		}
-	}
-	create_country_leader = {
-		name = "Blackhand The Destroyer"
-		desc = "POLITICS_WARCHIEF_BLACKHAND_DESC"
-		picture = "Blackhand.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_field_marshal = {
-		name = "Blackhand The Destroyer"
-		picture = "Blackhand.dds"
-		traits = {  }
-		id = 8100
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-	create_field_marshal = {
-		name = "Ogrim Doomhammer"
-		picture = "Ogrim_Doomhammer.dds"
-		traits = {  }
-		id = 8101
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Eitrigg"
-		picture = "Eitrigg.dds"
-		traits = {  }
-		id = 8102
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Varok Saurfang"
-		picture = "saurfang.dds"
-		traits = {  }
-		id = 8103
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
 
 }
 
@@ -289,6 +188,9 @@
 	unlock_national_focus = BRC_take_over_the_spire
 	unlock_national_focus = BRC_the_battle_for_khaz_modan
 
+
+	retire_character = BRC_blackhand_the_destroyer
+
 	set_politics = {
 		ruling_party = horde
 		last_election = "590.10.27"
@@ -296,39 +198,16 @@
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 100
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
-
-	set_technology = {
-		footman_weapons_tech_2 = 1
-
-
-
-
-
-
-		naval_transport_2 = 1
-
-
-		blueprints_1 = 1
-
-
-
-
-
-
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
+	set_popularities = {
+		alliance = 0
+		horde = 100
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
 	}
+
 
 	add_to_faction = SRC
 	add_to_faction = STC
@@ -355,27 +234,6 @@
 		type = annex_everything
 	}
 
-	create_country_leader = {
-		name = "Warchief Ogrim Doomhammer "
-		desc = "POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC"
-		picture = "Ogrim_Doomhammer.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			tactical_genius_trait
-		}
-	}
-
-	create_country_leader = {
-		name = "Warchief Ogrim Doomhammer "
-		desc = "POLITICS_WARCHIEF_OGRIM_DOOMHAMMER_DESC"
-		picture = "Ogrim_Doomhammer.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			tactical_genius_trait
-		}
-	}
 }
 
 617.1.1 = {
@@ -389,6 +247,8 @@
 
 	set_faction_name = "Dark Horde"
 
+	recruit_character = BRC_dalrend_blackhand
+
 	set_politics = {
 		ruling_party = neutral
 		last_election = "616.10.27"
@@ -397,45 +257,13 @@
 	}
 
 	set_popularities = {
-    alliance = 0
-    horde = 5
-    death = 0
-    fel = 15
-    old_gods = 10
-    titans = 0
-    neutral = 70
+		alliance = 0
+		horde = 5
+		death = 0
+		fel = 15
+		old_gods = 10
+		titans = 0
+		neutral = 70
 	}
 
-	create_country_leader = {
-		name = "Dal'rend Blackhand"
-		desc = "POLITICS_DALREND_BLACKHAND_CLASSIC_DESC"
-		picture = "rend.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Dal'rend Blackhand"
-		desc = "POLITICS_DALREND_BLACKHAND_CLASSIC_DESC"
-		picture = "rend.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Dal'rend Blackhand"
-		desc = "POLITICS_DALREND_BLACKHAND_CLASSIC_DESC"
-		picture = "rend.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
 }

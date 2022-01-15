@@ -33,24 +33,8 @@ set_popularities = {
 }
 
 set_politics = {
-
 	ruling_party = neutral
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

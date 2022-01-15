@@ -54,6 +54,8 @@ add_ideas = {
 	primary_religion_arcane_studies
 }
 
+recruit_character = ELD_lord_rominate
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -80,7 +82,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_field_marshal = { }
-
-create_corps_commander = { }

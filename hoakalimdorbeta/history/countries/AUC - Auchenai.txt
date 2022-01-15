@@ -29,7 +29,6 @@ set_technology = {
 	
 	support_equipment_tech = 1
 	
-	
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 
@@ -42,6 +41,9 @@ set_technology = {
 	scout_tower_1 = 1
 	
 }
+
+recruit_character = AUC_exarch_maladaar
+recruit_character = AUC_levixus_the_soul_caller
 
 set_politics = {	
 	ruling_party = neutral
@@ -58,72 +60,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Exarch Maladaar"
-	desc = "POLITICS_EXARCH_MALADAAR_DESC"
-	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Exarch Maladaar"
-	desc = "POLITICS_EXARCH_MALADAAR_DESC"
-	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Exarch Maladaar"
-	desc = "POLITICS_EXARCH_MALADAAR_DESC"
-	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Exarch Maladaar"
-	desc = "POLITICS_EXARCH_MALADAAR_DESC"
-	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Exarch Maladaar"
-	picture = "gfx/leaders/AUC/exarch_maladaar.dds"
-	traits = {  }
-	id = 2100
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Levixus the Soul Caller"
-	picture = "gfx/leaders/AUC/levixus_the_soul_caller.dds"
-	traits = {  }
-	id = 2101
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

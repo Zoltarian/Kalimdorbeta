@@ -47,6 +47,8 @@ diplomatic_relation = {
     active = yes
 }
 
+recruit_character = DDW_chieftain_bloodmaw
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -62,76 +64,4 @@ set_popularities = {
   old_gods = 0
   titans = 0
   neutral = 100
-}
-
-create_country_leader = {
-	name = "Chieftain Bloodmaw"
-	desc = "POLITICS_CHIEFTAIN_BLOODPAW_DESC"
-	picture = "chieftain_bloodpaw.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Chieftain Bloodmaw"
-	desc = "POLITICS_CHIEFTAIN_BLOODPAW_DESC"
-	picture = "chieftain_bloodpaw.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Chieftain Bloodmaw"
-	desc = "POLITICS_CHIEFTAIN_BLOODPAW_DESC"
-	picture = "chieftain_bloodpaw.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Chieftain Bloodmaw"
-	desc = "POLITICS_CHIEFTAIN_BLOODPAW_DESC"
-	picture = "chieftain_bloodpaw.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Chieftain Bloodmaw"
-	desc = "POLITICS_CHIEFTAIN_BLOODPAW_DESC"
-	picture = "chieftain_bloodpaw.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Chieftain Bloodmaw"
-	desc = "POLITICS_CHIEFTAIN_BLOODPAW_DESC"
-	picture = "chieftain_bloodpaw.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Chieftain Bloodmaw"
-	desc = "POLITICS_CHIEFTAIN_BLOODPAW_DESC"
-	picture = "chieftain_bloodpaw.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

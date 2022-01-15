@@ -46,55 +46,8 @@ set_technology = {
 
 }
 
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-
-		naval_transport_2 = 1
-		aviary_tech = 1
-
-		blueprints_1 = 1
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}
-}
-
-610.1.1 = {
-	create_country_leader = {
-		name = "Akama"
-		desc = "POLITICS_AKAMA_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/BRK/akama.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Akama"
-		desc = "POLITICS_AKAMA_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/BRK/akama.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Akama"
-		desc = "POLITICS_AKAMA_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/BRK/akama.dds"
-		expire = "1965.1.1"
-		ideology = alliance_type
-		traits = {
-			#
-		}
-	}
-}
+recruit_character = BRK_akama
+recruit_character = BRK_farseer_nobundo
 
 set_politics = {
 	ruling_party = neutral
@@ -113,58 +66,17 @@ set_popularities = {
     neutral = 100
 }
 
-create_country_leader = {
-	name = "Akama"
-	desc = "POLITICS_AKAMA_DESC"
-	picture = "gfx/leaders/BRK/akama.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
+596.1.1 = {
+	set_technology = {
+		footman_weapons_tech_2 = 1
 
-create_country_leader = {
-	name = "Akama"
-	desc = "POLITICS_AKAMA_DESC"
-	picture = "gfx/leaders/BRK/akama.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
+		naval_transport_2 = 1
+		aviary_tech = 1
 
-create_country_leader = {
-	name = "Akama"
-	desc = "POLITICS_AKAMA_DESC"
-	picture = "gfx/leaders/BRK/akama.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
+		blueprints_1 = 1
 
-create_field_marshal = {
-	name = "Akama"
-	picture = "gfx/leaders/BRK/akama.dds"
-	traits = {  }
-	id = 9000
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Farseer Nobundo"
-	picture = "gfx/leaders/BRK/farseer_nobundo.dds"
-	traits = {  }
-	id = 9001
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
+		rogues_guild = 1
+		encryption_1 = 1
+		decryption_1 = 1
+	}
 }

@@ -69,6 +69,9 @@ set_technology = {
 
 }
 
+recruit_character = BHT_cairne_bloodhoof
+recruit_character = BHT_baine_bloodhoof
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -84,83 +87,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Cairne Bloodhoof"
-	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
-	picture = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Cairne Bloodhoof"
-	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
-	picture = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Cairne Bloodhoof"
-	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
-	picture = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Cairne Bloodhoof"
-	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
-	picture = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Cairne Bloodhoof"
-	desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
-	picture = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Cairne Bloodhoof"
-	picture = "gfx/leaders/BHT/cairne_bloodhoof_barrens.dds"
-	traits = {  }
-	id = 5400
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Baine Bloodhoof"
-	picture = "gfx/leaders/BHT/baine_bloodhoof_barrens.dds"
-	traits = {  }
-	id = 5401
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

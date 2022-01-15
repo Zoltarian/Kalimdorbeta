@@ -33,6 +33,8 @@ set_technology = {
 
 }
 
+recruit_character = BTR_ran_bloodtooth
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -48,77 +50,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-
-create_country_leader = {
-	name = "Ran Bloodtooth"
-	desc = "POLITICS_RAN_BLOODTOOTH_DESC"
-	picture = "ran_bloodtooth.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ran Bloodtooth"
-	desc = "POLITICS_RAN_BLOODTOOTH_DESC"
-	picture = "ran_bloodtooth.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ran Bloodtooth"
-	desc = "POLITICS_RAN_BLOODTOOTH_DESC"
-	picture = "ran_bloodtooth.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ran Bloodtooth"
-	desc = "POLITICS_RAN_BLOODTOOTH_DESC"
-	picture = "ran_bloodtooth.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ran Bloodtooth"
-	desc = "POLITICS_RAN_BLOODTOOTH_DESC"
-	picture = "ran_bloodtooth.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ran Bloodtooth"
-	desc = "POLITICS_RAN_BLOODTOOTH_DESC"
-	picture = "ran_bloodtooth.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ran Bloodtooth"
-	desc = "POLITICS_RAN_BLOODTOOTH_DESC"
-	picture = "ran_bloodtooth.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

@@ -23,22 +23,16 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	pikeman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
-	
 	mount_taming_1 = 1
 	knight_tech_1 = 1
-	
-	
 	catapult_equipment_tech_1 = 1
-	
-	
-	
-	
-	
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
 }
+
+recruit_character = GAR_greatmother_geyah
+recruit_character = GAR_warden_bullrok
 
 set_politics = {	
 	ruling_party = neutral
@@ -55,75 +49,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-		aviary_tech = 1
-		
-		
-		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}	
-}
-create_country_leader = {
-	name = "Greatmother Geyah"
-	desc = "POLITICS_GEYAH_DESC"
-	picture = "gfx/leaders/GAR/greatmother_geyah.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Greatmother Geyah"
-	desc = "POLITICS_GEYAH_DESC"
-	picture = "gfx/leaders/GAR/greatmother_geyah.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Greatmother Geyah"
-	picture = "gfx/leaders/GAR/greatmother_geyah.dds"
-	traits = {   }
-	id = 25800
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Warden Bullrok"
-	picture = "gfx/leaders/GAR/warden_bullrok.dds"
-	traits = {  }
-	id = 25801
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

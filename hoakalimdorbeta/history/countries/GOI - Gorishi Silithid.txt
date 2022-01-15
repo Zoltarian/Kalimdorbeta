@@ -51,6 +51,8 @@ set_technology = {
 
 }
 
+recruit_character = GOI_clutchmother_zavas
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -67,15 +69,3 @@ set_popularities = {
     titans = 0
     neutral = 100
 }
-
-create_country_leader = {
-	name = "Clutchmother Zavas"
-	desc = "POLITICS_CLUTCHMOTHER_ZAVAS_DESC"
-	picture = "clutchmother_zavas.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

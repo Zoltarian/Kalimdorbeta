@@ -59,6 +59,9 @@ set_technology = {
 
 }
 
+recruit_character = EAG_eyahn_eagletalon
+recruit_character = EAG_ruul_eagletalon
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -74,83 +77,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Eyahn Eagletalon"
-	desc = "POLITICS_EYAHN_EAGLETALON_DESC"
-	picture = "gfx/leaders/EAG/eyahn_eagletalon.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Eyahn Eagletalon"
-	desc = "POLITICS_EYAHN_EAGLETALON_DESC"
-	picture = "gfx/leaders/EAG/eyahn_eagletalon.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Eyahn Eagletalon"
-	desc = "POLITICS_EYAHN_EAGLETALON_DESC"
-	picture = "gfx/leaders/EAG/eyahn_eagletalon.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Eyahn Eagletalon"
-	desc = "POLITICS_EYAHN_EAGLETALON_DESC"
-	picture = "gfx/leaders/EAG/eyahn_eagletalon.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Eyahn Eagletalon"
-	desc = "POLITICS_EYAHN_EAGLETALON_DESC"
-	picture = "gfx/leaders/EAG/eyahn_eagletalon.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Eyahn Eagletalon"
-	picture = "gfx/leaders/EAG/eyahn_eagletalon.dds"
-	traits = {  }
-	id = 20700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Ruul Eagletalon"
-	picture = "gfx/leaders/EAG/ruul_eagletalon.dds"
-	traits = {  }
-	id = 20701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

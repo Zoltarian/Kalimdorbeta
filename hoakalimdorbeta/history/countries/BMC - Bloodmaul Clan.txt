@@ -46,6 +46,9 @@ set_technology = {
 
 }
 
+recruit_character = BMC_dorgok
+recruit_character = BMC_grimnok_battleborn
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -61,96 +64,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-610.1.1 = {
-	create_country_leader = {
-		name = "Dorgok"
-		desc = "POLITICS_DORGOK_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/BMC/dorgok.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Dorgok"
-		desc = "POLITICS_DORGOK_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/BMC/dorgok.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Dorgok"
-		desc = "POLITICS_DORGOK_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/BMC/dorgok.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Dorgok"
-	desc = "POLITICS_DORGOK_DESC"
-	picture = "gfx/leaders/BMC/dorgok.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dorgok"
-	desc = "POLITICS_DORGOK_DESC"
-	picture = "gfx/leaders/BMC/dorgok.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dorgok"
-	desc = "POLITICS_DORGOK_DESC"
-	picture = "gfx/leaders/BMC/dorgok.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Dorgok"
-	picture = "gfx/leaders/BMC/dorgok.dds"
-	traits = {  }
-	id = 6600
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Grimnok Battleborn"
-	picture = "gfx/leaders/BMC/grimnok_battleborn.dds"
-	traits = {  }
-	id = 6601
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

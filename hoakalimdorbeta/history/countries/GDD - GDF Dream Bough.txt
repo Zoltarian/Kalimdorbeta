@@ -53,6 +53,8 @@ set_technology = {
 
 }
 
+recruit_character = GDD_ysondre
+
 set_politics = {
 	ruling_party = titans
 	last_election = "590.10.27"
@@ -68,14 +70,4 @@ set_popularities = {
     old_gods = 0
     titans = 100
     neutral = 0
-}
-
-create_country_leader = {
-	name = "Ysondre"
-	desc = "POLITICS_YSONDRE_DESC"
-	picture = "gfx/leaders/GDD/Ysondre.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
 }

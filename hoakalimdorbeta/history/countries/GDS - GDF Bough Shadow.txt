@@ -53,6 +53,8 @@ set_technology = {
 
 }
 
+recruit_character = GDS_taerar
+
 set_politics = {
 	ruling_party = titans
 	last_election = "590.10.27"
@@ -68,22 +70,4 @@ set_popularities = {
   old_gods = 0
   titans = 100
   neutral = 0
-}
-
-create_country_leader = {
-	name = "Taerar"
-	desc = "POLITICS_TAERAR_DESC"
-	picture = "gfx/leaders/GDS/taerar.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

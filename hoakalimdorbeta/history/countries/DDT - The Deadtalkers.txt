@@ -21,6 +21,8 @@ add_ideas = {
 	primary_religion_necromancy
 }
 
+recruit_character = DDT_uruk
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -37,17 +39,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Uruk"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = { }
-
-create_corps_commander = { }

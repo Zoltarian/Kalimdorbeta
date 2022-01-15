@@ -26,21 +26,16 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	pikeman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
-
 	mount_taming_1 = 1
 	knight_tech_1 = 1
-
 	catapult_equipment_tech_1 = 1
-
-	
-	
-	
-
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
-
 }
+
+recruit_character = GOM_king_gordok
+recruit_character = GOM_chorush_the_observer
 
 set_politics = {
 	ruling_party = fel
@@ -57,96 +52,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-610.1.1 = {
-	create_country_leader = {
-		name = "King Gordok"
-		desc = "POLITICS_KING_GORDOK_DESC_AZEROTH"
-		picture = "gfx/leaders/GOR/king_gordok.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "King Gordok"
-		desc = "POLITICS_KING_GORDOK_DESC_AZEROTH"
-		picture = "gfx/leaders/GOR/king_gordok.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "King Gordok"
-		desc = "POLITICS_KING_GORDOK_DESC_AZEROTH"
-		picture = "gfx/leaders/GOR/king_gordok.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "King Gordok"
-	desc = "POLITICS_KING_GORDOK_DESC"
-	picture = "gfx/leaders/GOR/king_gordok.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Gordok"
-	desc = "POLITICS_KING_GORDOK_DESC"
-	picture = "gfx/leaders/GOR/king_gordok.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Gordok"
-	desc = "POLITICS_KING_GORDOK_DESC"
-	picture = "gfx/leaders/GOR/king_gordok.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "King Gordok"
-	picture = "gfx/leaders/GOR/king_gordok.dds"
-	traits = {  }
-	id = 28200
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Cho'Rush the Observer"
-	picture = "gfx/leaders/GOR/chorush_the_observer.dds"
-	traits = {  }
-	id = 28201
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

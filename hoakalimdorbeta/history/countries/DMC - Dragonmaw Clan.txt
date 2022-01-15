@@ -2,6 +2,8 @@
 
 592.1.1 = {
 
+	oob = "DMC_592"
+
 	capital = 402
 
 	set_convoys = 25
@@ -22,29 +24,20 @@
 		DMC_glopgut_clan
 	}
 
-	oob = "DMC_592"
-
 	set_technology = {
 		footman_weapons_tech_1 = 1
 		pikeman_weapons_tech_1 = 1
 		archer_weapons_tech_1 = 1
-
 		mount_taming_1 = 1
 		knight_tech_1 = 1
-		
-
 		catapult_equipment_tech_1 = 1
-
-		
-		
-		
-		
 		naval_transport_1 = 1
 		town_hall_tech = 1
 		scout_tower_1 = 1
-		
-
 	}
+
+	recruit_character = DMC_zuluhed_the_whacked
+	recruit_character = DMC_nekros_skullcrusher
 
 	set_politics = {
 		ruling_party = fel
@@ -53,50 +46,17 @@
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 100
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
+	set_popularities = {
+		alliance = 0
+		horde = 0
+		death = 0
+		fel = 100
+		old_gods = 0
+		titans = 0
+		neutral = 0
+	}
 
 	set_country_flag = Invasion_Clan
-
-	create_country_leader = {
-		name = "Zuluhed the Whacked"
-		desc = "POLITICS_ZULUHED_THE_WHACKED_FIRST_WAR_DESC"
-		picture = "zuluhed.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Zuluhed the Whacked"
-		desc = "POLITICS_ZULUHED_THE_WHACKED_FIRST_WAR_DESC"
-		picture = "zuluhed.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Zuluhed the Whacked"
-		desc = "POLITICS_ZULUHED_THE_WHACKED_FIRST_WAR_DESC"
-		picture = "zuluhed.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
 
 }
 
@@ -121,23 +81,8 @@
 
 	set_technology = {
 		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
 		naval_transport_2 = 1
-		
-		
 		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
@@ -166,47 +111,14 @@
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 100
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
-
-	create_country_leader = {
-		name = "Zuluhed the Whacked"
-		desc = "POLITICS_ZULUHED_THE_WHACKED_SECOND_WAR_DESC"
-		picture = "zuluhed.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Zuluhed the Whacked"
-		desc = "POLITICS_ZULUHED_THE_WHACKED_SECOND_WAR_DESC"
-		picture = "zuluhed.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Zuluhed the Whacked"
-		desc = "POLITICS_ZULUHED_THE_WHACKED_SECOND_WAR_DESC"
-		picture = "zuluhed.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
+	set_popularities = {
+		alliance = 0
+		horde = 100
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
 	}
 
 }
@@ -227,35 +139,12 @@
 	}
 
 	set_popularities = {
-    alliance = 0
-    horde = 15
-    death = 0
-    fel = 10
-    old_gods = 0
-    titans = 0
-    neutral = 75
+		alliance = 0
+		horde = 15
+		death = 0
+		fel = 10
+		old_gods = 0
+		titans = 0
+		neutral = 75
 	}
-}
-
-create_field_marshal = {
-	name = "Zuluhed the Whacked"
-	picture = "zuluhed.dds"
-	traits = {  }
-	id = 15900
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Nekros Skullcrusher"
-	picture = "nekros.dds."
-	traits = {  }
-	id = 15901
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

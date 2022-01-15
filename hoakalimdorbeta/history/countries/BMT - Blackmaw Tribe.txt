@@ -2,26 +2,28 @@
 
 oob = "BMT_592"
 
-set_naval_oob = "BMT_591_naval_legacy"
+set_naval_oob = "BMT_592_naval_legacy"
 
 set_convoys = 10
 
 set_research_slots = 3
 set_technology = {}
 
-	add_ideas = {
-		tribe
-		limited_conscription
-		peacetime_economy
-		limited_exports
+add_ideas = {
+	tribe
+	limited_conscription
+	peacetime_economy
+	limited_exports
 
-		furbolg_primary_race
+	furbolg_primary_race
 
-		primary_trait_children_of_ursoc
-		primary_trait_blessing_of_elune
+	primary_trait_children_of_ursoc
+	primary_trait_blessing_of_elune
 
-		primary_religion_disciples_of_ursoc
-	}
+	primary_religion_disciples_of_ursoc
+}
+
+recruit_character = BMT_ungarl
 
 set_politics = {
 	ruling_party = neutral
@@ -38,23 +40,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Ungarl"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

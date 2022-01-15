@@ -9,6 +9,8 @@ add_ideas = {
 	frostborn_primary_race
 }
 
+recruit_character = FRB_velog_icebellow
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -24,22 +26,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-    name = "Velog Icebellow"
-    desc = "POLITICS_VELOG_ICEBELLOW_DESC"
-    picture = "velog_icebellow.dds"
-    ideology = neutral_type
-    traits = {
-        #
-    }
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

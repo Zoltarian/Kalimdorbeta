@@ -39,6 +39,8 @@ set_technology = {
 	naval_transport_1 = 1
 }
 
+recruit_character = DRW_snapclaw
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -54,22 +56,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Snapclaw"
-	desc = "POLITICS_SNAPCLAW_DESC"
-	picture = "snapclaw.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

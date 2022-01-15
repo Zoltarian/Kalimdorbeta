@@ -32,6 +32,8 @@ set_technology = {
 
 }
 
+recruit_character = AME_lady_moongazer
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -48,17 +50,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Lady Moongazer"
-	desc = "POLITICS_LADY_MOONGAZER_DESC"
-	picture = "gfx/leaders/AME/lady_moongazer.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = { }
-
-create_corps_commander = { }

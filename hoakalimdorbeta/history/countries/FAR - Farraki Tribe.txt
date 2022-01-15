@@ -69,6 +69,9 @@ set_technology = {
 	oil_refinery = 1
 }
 
+recruit_character = FAR_chief_ukorz_sandscalp
+recruit_character = FAR_sul_the_sandcrawler
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -84,83 +87,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Chief Ukorz Sandscalp"
-	desc = "POLITICS_CHIEF_UKORZ_SANDSCALP_DESC"
-	picture = "gfx/leaders/FAR/chief_ukorz_sandscalp.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ukorz Sandscalp"
-	desc = "POLITICS_CHIEF_UKORZ_SANDSCALP_DESC"
-	picture = "gfx/leaders/FAR/chief_ukorz_sandscalp.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ukorz Sandscalp"
-	desc = "POLITICS_CHIEF_UKORZ_SANDSCALP_DESC"
-	picture = "gfx/leaders/FAR/chief_ukorz_sandscalp.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ukorz Sandscalp"
-	desc = "POLITICS_CHIEF_UKORZ_SANDSCALP_DESC"
-	picture = "gfx/leaders/FAR/chief_ukorz_sandscalp.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ukorz Sandscalp"
-	desc = "POLITICS_CHIEF_UKORZ_SANDSCALP_DESC"
-	picture = "gfx/leaders/FAR/chief_ukorz_sandscalp.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Chief Ukorz Sandscalp"
-	picture = "chief_ukorz_sandscalp.dds"
-	traits = {  }
-	id = 22200
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Sul the Sandcrawler"
-	picture = "sul_the_sandcrawler.dds"
-	traits = {  }
-	id = 22201
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

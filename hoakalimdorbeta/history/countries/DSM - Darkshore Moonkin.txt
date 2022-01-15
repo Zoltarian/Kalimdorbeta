@@ -26,6 +26,8 @@ set_technology = {
 	blacksmith_tech = 1
 }
 
+recruit_character = DSM_lunaclaw
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -41,22 +43,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Lunaclaw"
-	desc = "POLITICS_LUNACLAW_DESC"
-	picture = "lunaclaw.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

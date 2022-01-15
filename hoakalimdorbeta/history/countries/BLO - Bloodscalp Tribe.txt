@@ -44,6 +44,9 @@ set_technology = {
 
 }
 
+recruit_character = BLO_ganzulah
+recruit_character = BLO_nezzliok_the_dire
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -63,104 +66,11 @@ set_popularities = {
 596.1.1 = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
-
-
-
-
-
-
 		naval_transport_2 = 1
 		aviary_tech = 1
-
-
 		blueprints_1 = 1
-
-
-
-
-
-
-
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
 	}
 }
-	create_country_leader = {
-		name = "Gan'zulah"
-		desc = "POLITICS_GANZULAH_DESC"
-		picture = "Ganzulah.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Gan'zulah"
-		desc = "POLITICS_GANZULAH_DESC"
-		picture = "Ganzulah.dds"
-		expire = "1965.1.1"
-		ideology = old_gods_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Gan'zulah"
-		desc = "POLITICS_GANZULAH_DESC"
-		picture = "Ganzulah.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Gan'zulah"
-		desc = "POLITICS_GANZULAH_DESC"
-		picture = "Ganzulah.dds"
-		expire = "1965.1.1"
-		ideology = alliance_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Gan'zulah"
-		desc = "POLITICS_GANZULAH_DESC"
-		picture = "Ganzulah.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_field_marshal = {
-		name = "Gan'zulah"
-		picture = "Ganzulah.dds"
-		traits = {  }
-		id = 6300
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-
-	create_corps_commander = {
-		name = "Nezzliok the Dire"
-		picture = "Nezzliok_the_Dire.dds"
-		traits = {  }
-		id = 6301
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}

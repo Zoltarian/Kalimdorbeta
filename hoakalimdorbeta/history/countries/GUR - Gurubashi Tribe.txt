@@ -49,6 +49,9 @@ add_opinion_modifier = {
     modifier = remnants_trollwar
 }
 
+recruit_character = GUR_bloodlord_mandokir
+recruit_character = GUR_high_priestess_marli
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -64,86 +67,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-
-
-
-
-
-
-		naval_transport_2 = 1
-		aviary_tech = 1
-
-
-		blueprints_1 = 1
-
-
-
-
-
-
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}
-}
-create_country_leader = {
-	name = "Bloodlord Mandokir"
-	desc = "POLITICS_BLOODLORD_MANDOKIR_DESC"
-	picture = "bloodlord_mandokir.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bloodlord Mandokir"
-	desc = "POLITICS_BLOODLORD_MANDOKIR_DESC"
-	picture = "bloodlord_mandokir.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-#create_country_leader = {
-#	name = "Jin'do the Hexxer"
-#	desc = "POLITICS_JINDO_THE_HEXXER_GURUBASHI_DESC"
-#	picture = "bloodlord_mandokir.dds"
-#	expire = "1965.1.1"
-#	ideology = horde_type
-#	traits = {
-#		#
-#	}
-#}
-
-create_field_marshal = {
-	name = "Bloodlord Mandokir"
-	picture = "bloodlord_mandokir.dds"
-	traits = {  }
-	id = 30300
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "High Priestess Mar'li"
-	picture = "Marli.dds"
-	traits = {  }
-	id = 30301
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

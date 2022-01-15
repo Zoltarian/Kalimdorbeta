@@ -56,6 +56,11 @@ set_technology = {
 }
 
 592.1.1 = {
+
+	recruit_character = GIL_genn_greymane
+	recruit_character = GIL_lord_darius_crowley
+	recruit_character = GIL_lord_vincent_godfrey
+
 	set_politics = {
 		ruling_party = neutral
 		last_election = "590.10.27"
@@ -101,35 +106,20 @@ set_technology = {
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 100
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
+	set_popularities = {
+		alliance = 100
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
+	}
 
 	set_technology = {
 		footman_weapons_tech_2 = 1
-
-		
-
-
-
-
 		naval_transport_2 = 1
-
-
 		blueprints_1 = 1
-
-
-
-
-
-
-
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
@@ -159,94 +149,4 @@ set_technology = {
     titans = 0
     neutral = 90
 	}
-}
-
-create_country_leader = {
-	name = "Genn Greymane"
-	desc = "POLITICS_GENN_GREYMANE_DESC"
-	picture = "Genn_Greymane.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Genn Greymane"
-	desc = "POLITICS_GENN_GREYMANE_DESC"
-	picture = "Genn_Greymane.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Genn Greymane"
-	desc = "POLITICS_GENN_GREYMANE_DESC"
-	picture = "Genn_Greymane.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Genn Greymane"
-	desc = "POLITICS_GENN_GREYMANE_DESC"
-	picture = "Genn_Greymane.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Genn Greymane"
-	desc = "POLITICS_GENN_GREYMANE_DESC"
-	picture = "Genn_Greymane.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Genn Greymane"
-	picture = "Genn_Greymane.dds"
-	traits = {  }
-	id = 27000
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Lord Darius Crowley"
-	picture = "darius.dds"
-	traits = {  }
-	id = 27001
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_navy_leader = {
-	name = "Lord Vincent Godfrey"
-	picture = "godfrey.dds"
-	traits = {  }
-	id = 27002
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-	id = 27003
-	skill = 3
 }

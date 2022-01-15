@@ -66,6 +66,7 @@ set_technology = {
 	transport_breeds_1 = 1
 }
 
+recruit_character = BDT_bloodfury_ripper
 
 set_politics = {
 	ruling_party = neutral
@@ -82,22 +83,4 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-}
-
-create_country_leader = {
-	name = "Bloodfury Ripper"
-	desc = "POLITICS_BLOODFURY_RIPPER_DESC"
-	picture = "bloodfury_ripper.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

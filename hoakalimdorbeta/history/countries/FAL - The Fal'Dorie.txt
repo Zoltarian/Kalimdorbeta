@@ -25,23 +25,16 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	pikeman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
-	
 	mount_taming_1 = 1
 	knight_tech_1 = 1
-	
-	
 	catapult_equipment_tech_1 = 1
-
-	
-	
-	
-	
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
 }
 
+recruit_character = FAL_queen_orathiss
+recruit_character = FAL_nazak_the_fiend
 
 set_politics = {	
 	ruling_party = neutral
@@ -62,104 +55,11 @@ set_popularities = {
 596.1.1 = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
 		naval_transport_2 = 1
 		aviary_tech = 1
-		
-		
 		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
 	}
-}
-create_country_leader = {
-	name = "Queen Orathiss"
-	desc = "POLITICS_MOGUL_RAZDUNK_DESC"
-	picture = "Queen_Orathiss.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Queen Orathiss"
-	desc = "POLITICS_MOGUL_RAZDUNK_DESC"
-	picture = "Queen_Orathissfel.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Queen Orathiss"
-	desc = "POLITICS_MOGUL_RAZDUNK_DESC"
-	picture = "Queen_Orathiss.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Queen Orathiss"
-	desc = "POLITICS_MOGUL_RAZDUNK_DESC"
-	picture = "Queen_Orathiss.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Queen Orathiss"
-	desc = "POLITICS_MOGUL_RAZDUNK_DESC"
-	picture = "Queen_Orathiss.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Queen Orathiss"
-	picture = "Queen_Orathiss.dds"
-	traits = {  }
-	id = 21900
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Na'zak the Fiend"
-	picture = "Na'zak_the_Fiend.dds"
-	traits = {  }
-	id = 21901
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

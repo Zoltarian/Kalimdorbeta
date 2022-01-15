@@ -23,24 +23,11 @@ set_popularities = {
 	neutral = 100
 }
 
+recruit_character = BLC_madam_goya
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Madam Goya"
-	desc = "POLITICS_MADAM_GOYA_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = { }
-
-create_corps_commander = { }

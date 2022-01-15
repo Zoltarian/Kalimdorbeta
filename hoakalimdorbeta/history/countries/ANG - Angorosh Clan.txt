@@ -44,6 +44,10 @@ set_technology = {
 	scout_tower_1 = 1
 }
 
+recruit_character = ANG_aggthok_the_eternal
+recruit_character = ANG_durgol_the_ruthless
+recruit_character = ANG_mokwar_the_terrible
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -59,73 +63,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-create_country_leader = {
-	name = "Agg'thok the Eternal"
-	desc = "POLITICS_AGGTHOK_THE_ETERNAL_DESC"
-	picture = "gfx/leaders/ANG/durgol_the_ruthless.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Agg'thok the Eternal"
-	desc = "POLITICS_AGGTHOK_THE_ETERNAL_DESC"
-	picture = "gfx/leaders/ANG/durgol_the_ruthless.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Agg'thok the Eternal"
-	desc = "POLITICS_AGGTHOK_THE_ETERNAL_DESC"
-	picture = "gfx/leaders/ANG/durgol_the_ruthless.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Agg'thok the Eternal"
-	picture = "gfx/leaders/ANG/durgol_the_ruthless.dds"
-	traits = {  }
-	id = 1200
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Dur'gol the Ruthless"
-	picture = "gfx/leaders/ANG/durgol_the_ruthless.dds"
-	traits = {  }
-	id = 1201
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Mok'war the Terrible"
-	picture = "gfx/leaders/ANG/mokwar_the_terrible.dds"
-	traits = {  }
-	id = 1202
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

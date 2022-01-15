@@ -43,24 +43,26 @@ set_technology = {
 
 }
 
-592.1.1 = {
+recruit_character = BOO_baron_revilgaz
+recruit_character = BOO_captain_steelgut
+recruit_character = BOO_captain_krick_wrenchnozzle
+recruit_character = BOO_fleet_master_seahorn
 
-	set_politics = {
-		ruling_party = neutral
-		last_election = "590.10.27"
-		election_frequency = 48
-		elections_allowed = no
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-    set_popularities = {
-        alliance = 0
-        horde = 0
-        death = 0
-        fel = 0
-        old_gods = 0
-        titans = 0
-        neutral = 100
-    }
+set_popularities = {
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
 }
 
 596.1.1 = {
@@ -82,17 +84,9 @@ set_technology = {
 
 	set_technology = {
 		footman_weapons_tech_2 = 1
-
-		
-
-
-
-
 		naval_transport_2 = 1
 		aviary_tech = 1
-
 		blueprints_1 = 1
-
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
@@ -115,90 +109,3 @@ set_technology = {
         neutral = 0
     }
 }
-
-	create_country_leader = {
-		name = "Baron Revilgaz"
-		desc = "POLITICS_BARON_REVILGAZ_DESC"
-		picture = "Baron_Revilgaz.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Baron Revilgaz"
-		desc = "POLITICS_BARON_REVILGAZ_DESC"
-		picture = "Baron_Revilgaz.dds"
-		expire = "1965.1.1"
-		ideology = alliance_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Baron Revilgaz"
-		desc = "POLITICS_BARON_REVILGAZ_DESC"
-		picture = "Baron_Revilgaz.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Baron Revilgaz"
-		desc = "POLITICS_BARON_REVILGAZ_DESC"
-		picture = "Baron_Revilgaz.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Baron Revilgaz"
-		desc = "POLITICS_BARON_REVILGAZ_DESC"
-		picture = "Baron_Revilgaz.dds"
-		expire = "1965.1.1"
-		ideology = old_gods_type
-		traits = {
-			#
-		}
-	}
-
-	create_field_marshal = {
-		name = "Baron Revilgaz"
-		picture = "Baron_Revilgaz.dds"
-		traits = {  }
-		id = 7800
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-
-	create_corps_commander = {
-		name = "Captain Steelgut"
-		picture = "Captain Steelgut.dds"
-		traits = {  }
-		id = 7801
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-
-	create_navy_leader = {
-		name = "Fleet Master Seahorn"
-		picture = "Fleet Master Seahorn.dds"
-		traits = {   }
-		id = 7802
-		skill = 3
-	}

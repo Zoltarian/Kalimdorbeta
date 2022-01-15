@@ -13,7 +13,7 @@
 }
 
 division_template = {
-	name = "Wildmane Kodoriders"
+	name = "Longhorn Kodoriders"
 
 	regiments = {
 		mounted_footman = { x = 0 y = 0 }
@@ -30,22 +30,32 @@ units = {
 
 	division = {
 		name = "Wildmane Braves"
-		location = 11454
+		location = 2118
 		division_template = "Wildmane Braves"
 		start_experience_factor = 0.2
 	}
-	
 	division = {
 		name = "Wildmane Braves"
-		location = 11454
+		location = 2118
 		division_template = "Wildmane Braves"
 		start_experience_factor = 0.2
 	}
-	
 	division = {
-		name = "Wildmane Kodoriders"
-		location = 11454
-		division_template = "Wildmane Kodoriders"
+		name = "Wildmane Braves"
+		location = 11656
+		division_template = "Wildmane Braves"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Longhorn Kodoriders"
+		location = 11656
+		division_template = "Longhorn Kodoriders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Longhorn Kodoriders"
+		location = 2118
+		division_template = "Longhorn Kodoriders"
 		start_experience_factor = 0.2
 	}
 
