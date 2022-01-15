@@ -1,0 +1,339 @@
+###########################
+# Grimtotem
+###########################
+
+add_namespace = grimtotem
+
+# The Grimtotem Tribe (from GRM_grimtotem_nf)
+country_event = {
+	id = grimtotem.1
+	title = grimtotem.1.t
+	desc = grimtotem.1.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.1.option.1
+
+	}
+}
+
+# Invitation to Spirithorns (from GRM_befriend_spirithorn_nf)
+country_event = {
+	id = grimtotem.2
+	title = grimtotem.2.t
+	desc = grimtotem.2.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#They accept
+	option = {
+		name = grimtotem.2.option.1
+
+		custom_effect_tooltip = grimtotem.2.option.1.d
+
+		GRM = {
+			country_event = {
+				id = grimtotem.3
+				days = 1
+			}
+		}
+	}
+
+	#They refuse
+	option = {
+		name = grimtotem.2.option.2
+
+		GRM = {
+			country_event = {
+				id = grimtotem.4
+				days = 1
+			}
+		}
+	}
+}
+
+# Spirithorn alliance accepted (from grimtotem.2.option.1)
+country_event = {
+	id = grimtotem.3
+	title = grimtotem.3.t
+	desc = grimtotem.3.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.3.option.1
+
+		add_stability = 0.05
+
+		if = {
+			limit = {
+				is_in_faction = yes
+			}
+			GRM = { add_to_faction = SPH }
+		}
+		else = {
+			create_faction = "Tauren United Tribes"
+			GRM = { add_to_faction = SPH }
+		}
+	}
+}
+
+# Spirithorn alliance refused (from grimtotem.2.option.2)
+country_event = {
+	id = grimtotem.4
+	title = grimtotem.4.t
+	desc = grimtotem.4.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.4.option.1
+
+		add_political_power = -50
+		add_stability = -0.025
+	}
+}
+
+# Ultimatum event (from GRM_ultimatum_to_spirithorn_nf then later from decisions)
+country_event = {
+	id = grimtotem.5
+	title = grimtotem.5.t
+	desc = grimtotem.5.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#They accept
+	option = {
+		name = grimtotem.5.option.1
+
+		custom_effect_tooltip = grimtotem.5.option.1.d
+
+		GRM = {
+			country_event = {
+				id = grimtotem.6
+				days = 1
+			}
+		}
+	}
+
+	#They refuse
+	option = {
+		name = grimtotem.5.option.2
+
+		custom_effect_tooltip = grimtotem.5.option.2.d
+
+		GRM = {
+			country_event = {
+				id = grimtotem.7
+				days = 1
+			}
+		}
+	}
+}
+
+# Ultimatum accepted (from grimtotem.5.option.1)
+country_event = {
+	id = grimtotem.6
+	title = grimtotem.6.t
+	desc = grimtotem.6.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.6.option.1
+
+		add_political_power = 100
+		add_stability = 0.05
+
+		annex_country = {
+	    target = FROM
+	    transfer_troops = yes
+		}
+	}
+}
+
+# Ultimatum refused (from grimtotem.5.option.2)
+country_event = {
+	id = grimtotem.7
+	title = grimtotem.7.t
+	desc = grimtotem.7.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.7.option.1
+
+		add_war_support = 0.05
+		create_wargoal = {
+	    type = annex_everything
+	    target = FROM
+		}
+	}
+}
+
+# Envoy sent (from GRM_uniting_the_tribes_nf)
+country_event = {
+	id = grimtotem.8
+	title = grimtotem.8.t
+	desc = grimtotem.8.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Accept offer
+	option = {
+		name = grimtotem.8.option.1
+		set_country_flag = GRM_envoy_flag
+
+		GRM = {
+			country_event = {
+				id = grimtotem.9
+				days = 1
+			}
+		}
+	}
+
+	#Refuse offer
+	option = {
+		name = grimtotem.8.option.2
+
+		GRM = {
+			country_event = {
+				id = grimtotem.10
+				days = 1
+			}
+		}
+	}
+}
+
+# Envoy accepted
+country_event = {
+	id = grimtotem.9
+	title = grimtotem.9.t
+	desc = grimtotem.9.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.9.option.1
+
+		diplomatic_relation = {
+	    country = FROM
+	    relation = non_aggression_pact
+	    active = yes
+		}
+	}
+}
+
+# Envoy refused
+country_event = {
+	id = grimtotem.10
+	title = grimtotem.10.t
+	desc = grimtotem.10.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.10.option.1
+
+		add_political_power = -5
+	}
+}
+
+# Asking for Alliance (from GRM_uniting_the_tribes_nf)
+country_event = {
+	id = grimtotem.11
+	title = grimtotem.11.t
+	desc = grimtotem.11.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	#Accept offer
+	option = {
+		name = grimtotem.11.option.1
+		set_country_flag = GRM_envoy_flag
+
+		GRM = {
+			country_event = {
+				id = grimtotem.12
+				days = 1
+			}
+		}
+	}
+
+	#Refuse offer
+	option = {
+		name = grimtotem.11.option.2
+
+		GRM = {
+			country_event = {
+				id = grimtotem.13
+				days = 1
+			}
+		}
+	}
+}
+
+# Alliance accepted
+country_event = {
+	id = grimtotem.12
+	title = grimtotem.12.t
+	desc = grimtotem.12.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.12.option.1
+
+		if = {
+			limit = {
+				is_in_faction = yes
+			}
+			GRM = { add_to_faction = FROM }
+		}
+		else = {
+			create_faction = "Tauren United Tribes"
+			GRM = { add_to_faction = FROM }
+		}
+	}
+}
+
+# Alliance refused
+country_event = {
+	id = grimtotem.13
+	title = grimtotem.13.t
+	desc = grimtotem.13.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = grimtotem.13.option.1
+
+	}
+}
