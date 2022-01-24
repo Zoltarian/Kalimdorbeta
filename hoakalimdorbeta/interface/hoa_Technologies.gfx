@@ -1268,6 +1268,21 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_heroic_training_tech_1_medium"
+		texturefile = "gfx/interface/technologies/heroic_training.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heroic_training_tech_2_medium"
+		texturefile = "gfx/interface/technologies/heroic_training.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heroic_training_tech_3_medium"
+		texturefile = "gfx/interface/technologies/heroic_training.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_royal_guard_tech_medium"
 		texturefile = "gfx/interface/technologies/royal_guard.dds"
 	}
