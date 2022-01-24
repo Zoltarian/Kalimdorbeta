@@ -81,18 +81,13 @@ set_popularities = {
     titans = 0
     neutral = 0
 }
+
 596.1.1 = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
 
-		
-
-
-
-
 		naval_transport_2 = 1
 		aviary_tech = 1
-
 
 		blueprints_1 = 1
 
@@ -101,3 +96,6 @@ set_popularities = {
 		decryption_1 = 1
 	}
 }
+
+#Do not exists in lore, made up for the mod
+recruit_character = WST_westfall_governor

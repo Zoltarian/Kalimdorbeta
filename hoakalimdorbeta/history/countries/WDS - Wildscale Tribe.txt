@@ -10,7 +10,6 @@ set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
-	
 	tribe
 	limited_conscription
 	early_military_development
@@ -18,7 +17,6 @@ add_ideas = {
 
 	saurok_primary_race
 }
-
 
 set_popularities = {
 	alliance = 0
@@ -37,11 +35,5 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	ideology = neutral_type
-	traits = { }
-}
-
-create_field_marshal = { }
-
-create_corps_commander = { }
+#Do not exists in lore, made up for the mod
+recruit_character = WDS_tribal_chief_wildscale

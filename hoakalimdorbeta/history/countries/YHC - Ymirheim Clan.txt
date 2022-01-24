@@ -10,7 +10,7 @@ set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
-	
+
 	clan
 	recruit_adventurers
 	peacetime_economy
@@ -37,17 +37,4 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = YHC_kreug_oathbreaker

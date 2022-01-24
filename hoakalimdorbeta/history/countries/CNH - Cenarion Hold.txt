@@ -96,19 +96,23 @@ set_technology = {
 
 recruit_character = CNH_commander_maralith
 
-set_popularities = {
-	alliance = 0
-	horde = 0
-	death = 0
-	fel = 0
-	old_gods = 0
-	titans = 0
-	neutral = 100
-}
+592.1.1 = {
 
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
+	set_politics = {
+		ruling_party = neutral
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		alliance = 0
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 100
+	}
+
 }

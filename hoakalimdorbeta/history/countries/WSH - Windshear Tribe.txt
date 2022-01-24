@@ -64,24 +64,6 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
 }
 
-create_country_leader = {
-	name = "Nott Candle-Extinguisher"
-	desc = "POLITICS_NOTT_CANDLE_EXTINGUISHER_DESC"
-	picture = "nott_candle_extinguisher.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = WSH_nott_candle_extinguisher

@@ -8,7 +8,7 @@ set_stability = 0.45
 set_war_support = 0.2
 
 add_ideas = {
-	all_female_nation	
+	all_female_nation
 	tribe
  	limited_conscription
   	early_military_development
@@ -77,47 +77,4 @@ set_popularities = {
     neutral = 100
 }
 
-create_country_leader = {
-	name = "Sister Hatelash"
-	desc = "POLITICS_SISTER_HATELASH_DESC"
-	picture = "gfx/leaders/WFT/sister_hatelash.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Sister Hatelash"
-	desc = "POLITICS_SISTER_HATELASH_DESC"
-	picture = "gfx/leaders/WFT/sister_hatelash.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Sister Hatelash"
-	desc = "POLITICS_SISTER_HATELASH_DESC"
-	picture = "gfx/leaders/WFT/sister_hatelash.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Sister Hatelash"
-	picture = "gfx/leaders/WFT/sister_hatelash.dds"
-	traits = {  }
-	id = 72600
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = WFT_sister_hatelash

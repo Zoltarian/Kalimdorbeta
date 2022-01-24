@@ -10,7 +10,7 @@ set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
-	
+
 	tribe
 	limited_conscription
 	early_military_development
@@ -42,17 +42,5 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+#Do not exists in lore, made up for the mod
+recruit_character = WTF_chief_winterfin

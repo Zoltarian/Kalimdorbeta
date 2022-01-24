@@ -41,7 +41,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutral
+	ruling_party = fel
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,17 +51,17 @@ set_popularities = {
   alliance = 0
   horde = 0
   death = 0
-  fel = 0
+  fel = 100
   old_gods = 0
   titans = 0
-  neutral = 100
+  neutral = 0
 }
 
 create_country_leader = {
 	name = "Prince Kellen"
 	desc = "POLITICS_PRINCE_KELLEN_DESC"
 	picture = "prince_kellen.dds"
-	ideology = neutral_type
+	ideology = fel_type
 	traits = {
 		#
 	}

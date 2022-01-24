@@ -5,11 +5,11 @@ oob = "WOR_592"
 set_research_slots = 3
 
 add_ideas = {
-	all_female_nation	
+	all_female_nation
 	tribe
-  	limited_conscription
-  	early_military_development
-  	export_focus
+	limited_conscription
+	early_military_development
+	export_focus
 
 	harpy_primary_race
 
@@ -55,8 +55,6 @@ set_technology = {
 	transport_breeds_1 = 1
 }
 
-
-
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -65,7 +63,6 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
 }
 
 set_politics = {
@@ -75,20 +72,4 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Marion Wormwing"
-	desc = "POLITICS_MARION_WORMWING_DESC"
-	picture = "marion_wormwing.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = WOR_marion_wormwing

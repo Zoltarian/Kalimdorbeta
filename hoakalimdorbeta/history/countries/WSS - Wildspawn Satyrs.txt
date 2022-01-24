@@ -40,8 +40,10 @@ set_technology = {
 
 }
 
+recruit_character = WSS_alzzin
+
 set_politics = {
-	ruling_party = neutral
+	ruling_party = fel
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,19 +53,11 @@ set_popularities = {
     alliance = 0
     horde = 0
     death = 0
-    fel = 0
+    fel = 100
     old_gods = 0
     titans = 0
-    neutral = 100
+    neutral = 0
 }
+
 596.1.1 = {}
 
-create_country_leader = {
-	name = "Alzzin the Wildshaper"
-	desc = "POLITICS_ALZZIN_THE_WILDSHAPER_DESC"
-	picture = "alzzin_the_wildshaper.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}

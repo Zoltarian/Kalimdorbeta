@@ -23,7 +23,6 @@ add_ideas = {
 
 	WIL_whitecloud_tribe
 	WIL_longstrider_tribe
-
 }
 
 set_technology = {
@@ -64,90 +63,14 @@ set_politics = {
 }
 
 set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 100
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 100
 }
 
-create_country_leader = {
-	name = "Huum Wildmane"
-	desc = "POLITICS_HUUM_WILDMANE_DESC"
-	picture = "gfx/leaders/WIL/huum_wildmane.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Huum Wildmane"
-	desc = "POLITICS_HUUM_WILDMANE_DESC"
-	picture = "gfx/leaders/WIL/huum_wildmane.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Huum Wildmane"
-	desc = "POLITICS_HUUM_WILDMANE_DESC"
-	picture = "gfx/leaders/WIL/huum_wildmane.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Huum Wildmane"
-	desc = "POLITICS_HUUM_WILDMANE_DESC"
-	picture = "gfx/leaders/WIL/huum_wildmane.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Huum Wildmane"
-	desc = "POLITICS_HUUM_WILDMANE_DESC"
-	picture = "gfx/leaders/WIL/huum_wildmane.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Huum Wildmane"
-	picture = "gfx/leaders/WIL/huum_wildmane.dds"
-	traits = {  }
-	id = 72900
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Runok Wildmane"
-	picture = "gfx/leaders/WIL/runok_wildmane.dds"
-	traits = {  }
-	id = 72901
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = WIL_humm_wildmane
+recruit_character = WIL_runok_wildmane

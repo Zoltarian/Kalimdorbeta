@@ -8,7 +8,7 @@ set_stability = 0.45
 set_war_support = 0.2
 
 add_ideas = {
-	all_female_nation	
+	all_female_nation
 	tribe
   	limited_conscription
  	early_military_development
@@ -77,59 +77,5 @@ set_popularities = {
     neutral = 93
 }
 
-create_country_leader = {
-	name = "Serena Bloodfeather"
-	desc = "POLITICS_SERENA_BLOODFEATHER_DESC"
-	picture = "gfx/leaders/WWT/serena_bloodfeather.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Serena Bloodfeather"
-	desc = "POLITICS_SERENA_BLOODFEATHER_DESC"
-	picture = "gfx/leaders/WWT/serena_bloodfeather.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Serena Bloodfeather"
-	desc = "POLITICS_SERENA_BLOODFEATHER_DESC"
-	picture = "gfx/leaders/WWT/serena_bloodfeather.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-    name = "Serena Bloodfeather"
-    picture = "gfx/leaders/WWT/serena_bloodfeather.dds"
-    traits = {  }
-    id = 75600
-    skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-    name = "Rathtalon"
-    picture = "gfx/leaders/WWT/rathtalon.dds"
-    traits = {  }
-    id = 75601
-    skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = WWT_serena_bloodfeather
+recruit_character = WWT_rathtalon

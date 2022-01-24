@@ -5,7 +5,7 @@ oob = "WPT_592"
 set_research_slots = 3
 
 add_ideas = {
-	equal_gender_nation	
+	equal_gender_nation
 	tribe
 	limited_conscription
 	early_military_development
@@ -41,7 +41,7 @@ set_technology = {
 	altar_of_kings_tech = 1
 	royal_guard_tech = 1
 	royal_guard_equipment_tech_1 = 1
-	
+
 }
 
 set_politics = {
@@ -52,22 +52,15 @@ set_politics = {
 }
 
 set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 100
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 100
 }
+
 596.1.1 = {}
 
-create_country_leader = {
-	name = "Greasefang"
-	desc = "POLITICS_GREASEFANG_DESC"
-	picture = "greasefang.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
+recruit_character = WPT_greasefang

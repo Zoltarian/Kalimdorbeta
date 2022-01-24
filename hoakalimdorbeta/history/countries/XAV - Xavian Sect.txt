@@ -41,36 +41,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutral
+	ruling_party = fel
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  alliance = 0
-  horde = 0
-  death = 0
-  fel = 0
-  old_gods = 0
-  titans = 0
-  neutral = 100
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 100
+	old_gods = 0
+	titans = 0
+	neutral = 0
 }
 
-create_country_leader = {
-	name = "Prince Xavian"
-	desc = "POLITICS_PRINCE_XAVIAN_DESC"
-	picture = "prince_xavian.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = XAV_prince_xavian

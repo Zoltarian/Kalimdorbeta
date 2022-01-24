@@ -5,21 +5,16 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	pikeman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
-	
+
 	mount_taming_1 = 1
 	knight_tech_1 = 1
-	
-	
+
 	catapult_equipment_tech_1 = 1
-	
-	
-	
-	
-	
+
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
+
 }
 add_ideas = {
 	kingdom
@@ -28,10 +23,11 @@ add_ideas = {
 	primary_trait_diplomatic
 	primary_trait_human_spirit
 	primary_trait_perception
-	
+
 	primary_religion_the_church_of_the_holy_light
 }
-set_politics = {	
+
+set_politics = {
 	ruling_party = alliance
 	last_election = "590.10.27"
 	election_frequency = 48
@@ -47,6 +43,9 @@ set_popularities = {
     titans = 0
     neutral = 0
 }
+
+recruit_character = ZLD_zuldare_governor
+
 596.1.1 = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
@@ -56,5 +55,5 @@ set_popularities = {
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
-	}	
+	}
 }

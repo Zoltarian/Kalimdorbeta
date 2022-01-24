@@ -56,7 +56,6 @@ set_technology = {
 
 	siege_works = 1
 	supply_wagon_tech = 1
-
 }
 
 set_politics = {
@@ -67,90 +66,14 @@ set_politics = {
 }
 
 set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 100
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 100
 }
 
-create_country_leader = {
-	name = "Bena Winterhoof"
-	desc = "POLITICS_BENA_WINTERHOOF_DESC"
-	picture = "gfx/leaders/WIN/bena_winterhoof.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bena Winterhoof"
-	desc = "POLITICS_BENA_WINTERHOOF_DESC"
-	picture = "gfx/leaders/WIN/bena_winterhoof.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bena Winterhoof"
-	desc = "POLITICS_BENA_WINTERHOOF_DESC"
-	picture = "gfx/leaders/WIN/bena_winterhoof.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Bena Winterhoof"
-	desc = "POLITICS_BENA_WINTERHOOF_DESC"
-	picture = "gfx/leaders/WIN/bena_winterhoof.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Bena Winterhoof"
-	desc = "POLITICS_BENA_WINTERHOOF_DESC"
-	picture = "gfx/leaders/WIN/bena_winterhoof.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Bena Winterhoof"
-	picture = "gfx/leaders/WIN/bena_winterhoof.dds"
-	traits = {  }
-	id = 73200
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Harken Windtotem"
-	picture = "gfx/leaders/WIN/harken_windtotem.dds"
-	traits = {  }
-	id = 73201
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = WIN_bena_winterhoof
+recruit_character = WIN_harken_windtotem

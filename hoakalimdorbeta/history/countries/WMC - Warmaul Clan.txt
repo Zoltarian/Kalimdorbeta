@@ -11,7 +11,7 @@ set_stability = 0.4
 set_war_support = 0.35
 
 add_ideas = {
-	
+
 	clan
 	limited_conscription
 	early_military_development
@@ -42,7 +42,6 @@ set_technology = {
 
 	town_hall_tech = 1
 	scout_tower_1 = 1
-
 }
 
 set_politics = {
@@ -53,67 +52,14 @@ set_politics = {
 }
 
 set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 100
-    old_gods = 0
-    titans = 0
-    neutral = 0
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 100
+  old_gods = 0
+  titans = 0
+  neutral = 0
 }
 
-create_country_leader = {
-	name = "Cho'war the Pillager"
-	desc = "POLITICS_CHOWAR_DESC"
-	picture = "gfx/leaders/WMC/chowar_the_pillager.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Cho'war the Pillager"
-	desc = "POLITICS_CHOWAR_DESC"
-	picture = "gfx/leaders/WMC/chowar_the_pillager.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Cho'war the Pillager"
-	desc = "POLITICS_CHOWAR_DESC"
-	picture = "gfx/leaders/WMC/chowar_the_pillager.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Cho'war the Pillager"
-	picture = "gfx/leaders/WMC/chowar_the_pillager.dds"
-	traits = {  }
-	id = 73800
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Warmaul Chef Bufferlo"
-	picture = "gfx/leaders/WMC/warmaul_chef_bufferlo.dds"
-	traits = {  }
-	id = 73801
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = WMC_chowar_the_pillager
+recruit_character = WMC_warmaul_chef_bufferlo

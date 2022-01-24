@@ -43,9 +43,9 @@ set_technology = {
 # Allied to the Deadwood tribe
 # (no guarantee so going to war with them doesn't require to conquere the second tribe)
 diplomatic_relation = {
-    country = DDW
-    relation = non_aggression_pact
-    active = yes
+  country = DDW
+  relation = non_aggression_pact
+  active = yes
 }
 
 set_politics = {
@@ -65,70 +65,4 @@ set_popularities = {
 	neutral = 100
 }
 
-create_country_leader = {
-	name = "High Chief Winterfall"
-	desc = "POLITICS_HIGH_CHIEF_WINTERFALL_DESC"
-	picture = "high_chief_winterfall.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "High Chief Winterfall"
-	desc = "POLITICS_HIGH_CHIEF_WINTERFALL_DESC"
-	picture = "high_chief_winterfall.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "High Chief Winterfall"
-	desc = "POLITICS_HIGH_CHIEF_WINTERFALL_DESC"
-	picture = "high_chief_winterfall.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "High Chief Winterfall"
-	desc = "POLITICS_HIGH_CHIEF_WINTERFALL_DESC"
-	picture = "high_chief_winterfall.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "High Chief Winterfall"
-	desc = "POLITICS_HIGH_CHIEF_WINTERFALL_DESC"
-	picture = "high_chief_winterfall.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "High Chief Winterfall"
-	desc = "POLITICS_HIGH_CHIEF_WINTERFALL_DESC"
-	picture = "high_chief_winterfall.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = WNT_high_chief_winterfall

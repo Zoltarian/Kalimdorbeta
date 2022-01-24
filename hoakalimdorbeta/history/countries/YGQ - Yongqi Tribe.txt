@@ -10,7 +10,7 @@ set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
-	
+
 	tribe
 	limited_conscription
 	early_military_development
@@ -38,66 +38,4 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Shonuf"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shonuf"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shonuf"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shonuf"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shonuf"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shonuf"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = { }
-
-create_corps_commander = { }
+recruit_character = YGQ_shonuf

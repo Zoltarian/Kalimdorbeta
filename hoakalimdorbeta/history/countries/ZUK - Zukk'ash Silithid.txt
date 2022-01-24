@@ -68,12 +68,4 @@ set_popularities = {
     neutral = 100
 }
 
-create_country_leader = {
-	name = "Stinglasher"
-	desc = "POLITICS_STINGLASHER_DESC"
-	picture = "stinglasher.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
+recruit_character = ZUK_stinglasher

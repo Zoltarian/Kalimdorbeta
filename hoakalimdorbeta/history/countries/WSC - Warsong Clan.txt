@@ -12,7 +12,7 @@ set_war_support = 0.6
 
 add_ideas = {
 	clan
-	
+
 	limited_conscription
 	early_military_development
 	limited_exports
@@ -20,7 +20,6 @@ add_ideas = {
 	orc_primary_race
 
 	primary_religion_demonology
-
 }
 
 give_guarantee = GAR
@@ -46,7 +45,6 @@ set_technology = {
 
 	town_hall_tech = 1
 	scout_tower_1 = 1
-
 }
 
 set_politics = {
@@ -70,102 +68,19 @@ set_popularities = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
 
-		
-
-
-
-
 		naval_transport_2 = 1
 		aviary_tech = 1
 
-
 		blueprints_1 = 1
-
-
-
-
-
-
 
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
 	}
 }
-create_country_leader = {
-	name = "Grom Hellscream"
-	desc = "POLITICS_GROM_HELLSCREAM_DESC"
-	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Grom Hellscream"
-	desc = "POLITICS_GROM_HELLSCREAM_DESC"
-	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
+recruit_character = WSC_grom_hellscream
 
-create_country_leader = {
-	name = "Grom Hellscream"
-	desc = "POLITICS_GROM_HELLSCREAM_DESC"
-	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Grom Hellscream"
-	picture = "gfx/leaders/WSC/grommash_hellscream.dds"
-	traits = {  }
-	id = 74700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Packleader Kargora"
-	picture = "gfx/leaders/WSC/packleader_kargora.dds"
-	traits = {  }
-	id = 74701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Uruk Foecleaver"
-	picture = "gfx/leaders/WSC/uruk_foecleaver.dds"
-	traits = {  }
-	id = 74702
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Gargok"
-	picture = "gfx/leaders/WSC/gargok.dds"
-	traits = {  }
-	id = 74703
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = WSC_packleader_kargora
+recruit_character = WSC_uruk_foecleaver
+recruit_character = WSC_gargok

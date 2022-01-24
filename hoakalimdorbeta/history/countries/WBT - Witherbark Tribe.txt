@@ -8,7 +8,7 @@ set_stability = 0.55
 set_war_support = 0.4
 
 add_ideas = {
-	
+
 	tribe
 	limited_conscription
 	early_military_development
@@ -30,18 +30,13 @@ set_technology = {
 
 	mount_taming_1 = 1
 	knight_tech_1 = 1
-	
 
 	catapult_equipment_tech_1 = 1
 
-	
-	
-	
-	
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
+
 }
 
 set_politics = {
@@ -52,21 +47,21 @@ set_politics = {
 }
 
 set_popularities = {
-    alliance = 0
-    horde = 10
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 90
+  alliance = 0
+  horde = 10
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 90
 }
-596.1.1 = {
 
+596.1.1 = {
 	set_stability = 0.65
 	set_war_support = 0.7
 
 	add_ideas = {
-		
+
 		tribe
 		extensive_conscription
 		preparing_for_war
@@ -82,93 +77,16 @@ set_popularities = {
 
 	set_technology = {
 		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
+
 		naval_transport_2 = 1
-		
-		
+
 		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
+
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
 	}
 }
 
-create_country_leader = {
-	name = "Zalas Witherbark"
-	desc = "POLITICS_ZALAS_WITHERBARK_DESC"
-	picture = "gfx/leaders/VIL/vilegeneric1.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zalas Witherbark"
-	desc = "POLITICS_ZALAS_WITHERBARK_DESC"
-	picture = "gfx/leaders/VIL/vilegeneric1.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zalas Witherbark"
-	desc = "POLITICS_ZALAS_WITHERBARK_DESC"
-	picture = "gfx/leaders/VIL/vilegeneric1.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zalas Witherbark"
-	desc = "POLITICS_ZALAS_WITHERBARK_DESC"
-	picture = "gfx/leaders/VIL/vilegeneric1.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Zalas Witherbark"
-	picture = "gfx/leaders/VIL/vilegeneric1.dds"
-	traits = {  }
-	id = 72000
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Nimar the Slayer"
-	picture = "gfx/leaders/VIL/vilegeneric2.dds"
-	traits = {  }
-	id = 72001
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = WBT_zalas_witherbark
+recruit_character = WBT_nimar_the_slayer

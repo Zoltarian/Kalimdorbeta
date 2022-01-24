@@ -25,21 +25,4 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Yogg-Saron"
-	desc = "POLITICS_YOGG_SARON_DESC"
-	picture = ".dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = YOG_yogg_saron
