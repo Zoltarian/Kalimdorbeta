@@ -1,0 +1,945 @@
+category = {
+    name = "Voices"
+    soundeffects = {
+        BHT_infantry_idle
+        BHT_infantry_neutral_combat
+        BHT_infantry_positive_combat
+        BHT_infantry_retreat
+        BHT_infantry_move_out
+
+        DWN_infantry_idle
+        DWN_infantry_neutral_combat
+        DWN_infantry_positive_combat
+        DWN_infantry_retreat
+        DWN_infantry_move_out
+
+        EAG_infantry_idle
+        EAG_infantry_neutral_combat
+        EAG_infantry_positive_combat
+        EAG_infantry_retreat
+        EAG_infantry_move_out
+
+        GRM_infantry_idle
+        GRM_infantry_neutral_combat
+        GRM_infantry_positive_combat
+        GRM_infantry_retreat
+        GRM_infantry_move_out
+
+        HWT_infantry_idle
+        HWT_infantry_neutral_combat
+        HWT_infantry_positive_combat
+        HWT_infantry_retreat
+        HWT_infantry_move_out
+
+        RIV_infantry_idle
+        RIV_infantry_neutral_combat
+        RIV_infantry_positive_combat
+        RIV_infantry_retreat
+        RIV_infantry_move_out
+
+        SOP_infantry_idle
+        SOP_infantry_neutral_combat
+        SOP_infantry_positive_combat
+        SOP_infantry_retreat
+        SOP_infantry_move_out
+
+        SPH_infantry_idle
+        SPH_infantry_neutral_combat
+        SPH_infantry_positive_combat
+        SPH_infantry_retreat
+        SPH_infantry_move_out
+
+        THB_infantry_idle
+        THB_infantry_neutral_combat
+        THB_infantry_positive_combat
+        THB_infantry_retreat
+        THB_infantry_move_out
+
+        TMT_infantry_idle
+        TMT_infantry_neutral_combat
+        TMT_infantry_positive_combat
+        TMT_infantry_retreat
+        TMT_infantry_move_out
+
+        WIL_infantry_idle
+        WIL_infantry_neutral_combat
+        WIL_infantry_positive_combat
+        WIL_infantry_retreat
+        WIL_infantry_move_out
+
+        WIN_infantry_idle
+        WIN_infantry_neutral_combat
+        WIN_infantry_positive_combat
+        WIN_infantry_retreat
+        WIN_infantry_move_out
+
+    }
+
+}
+
+########## BHT
+
+soundeffect = {
+    name = "BHT_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BHT_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHT_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHT_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHT_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## DWN
+
+soundeffect = {
+    name = "DWN_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "DWN_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DWN_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DWN_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "DWN_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## EAG
+
+soundeffect = {
+    name = "EAG_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "EAG_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "EAG_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "EAG_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "EAG_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GRM
+
+soundeffect = {
+    name = "GRM_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GRM_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GRM_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GRM_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GRM_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## HWT
+
+soundeffect = {
+    name = "HWT_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "HWT_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HWT_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HWT_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "HWT_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## RIV
+
+soundeffect = {
+    name = "RIV_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "RIV_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RIV_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RIV_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RIV_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SOP
+
+soundeffect = {
+    name = "SOP_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SOP_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SOP_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SOP_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SOP_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SPH
+
+soundeffect = {
+    name = "SPH_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SPH_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SPH_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SPH_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SPH_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## THB
+
+soundeffect = {
+    name = "THB_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "THB_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THB_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THB_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "THB_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## TMT
+
+soundeffect = {
+    name = "TMT_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "TMT_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TMT_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TMT_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "TMT_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## WIL
+
+soundeffect = {
+    name = "WIL_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "WIL_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WIL_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WIL_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WIL_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## WIN
+
+soundeffect = {
+    name = "WIN_infantry_idle"
+    sounds = {
+		sound = Tauren_Idle_001
+        sound = Tauren_Idle_002
+        sound = Tauren_Idle_003
+        sound = Tauren_Idle_004
+        sound = Tauren_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "WIN_infantry_neutral_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WIN_infantry_positive_combat"
+    sounds = {
+        sound = Tauren_Combat_001
+        sound = Tauren_Combat_002
+        sound = Tauren_Combat_003
+		sound = Tauren_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WIN_infantry_retreat"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WIN_infantry_move_out"
+    sounds = {
+        sound = Tauren_Move_001
+        sound = Tauren_Move_002
+        sound = Tauren_Move_003
+		sound = Tauren_Move_004
+        sound = Tauren_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Tauren_Idle_001"
+	file = "voice_lines/tauren/Tauren_Idle_1.wav"
+}
+sound = {
+	name = "Tauren_Idle_002"
+	file = "voice_lines/tauren/Tauren_Idle_2.wav"
+}
+sound = {
+	name = "Tauren_Idle_003"
+	file = "voice_lines/tauren/Tauren_Idle_3.wav"
+}
+sound = {
+	name = "Tauren_Idle_004"
+	file = "voice_lines/tauren/Tauren_Idle_4.wav"
+}
+sound = {
+	name = "Tauren_Idle_005"
+	file = "voice_lines/tauren/Tauren_Idle_5.wav"
+}
+
+sound = {
+	name = "Tauren_Combat_001"
+	file = "voice_lines/tauren/Tauren_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Tauren_Combat_002"
+	file = "voice_lines/tauren/Tauren_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Tauren_Combat_003"
+	file = "voice_lines/tauren/Tauren_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Tauren_Combat_004"
+	file = "voice_lines/tauren/Tauren_Attack_4.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "Tauren_Move_001"
+	file = "voice_lines/tauren/Tauren_Move_1.wav"
+}
+sound = {
+	name = "Tauren_Move_002"
+	file = "voice_lines/tauren/Tauren_Move_2.wav"
+}
+sound = {
+	name = "Tauren_Move_003"
+	file = "voice_lines/tauren/Tauren_Move_3.wav"
+}
+sound = {
+	name = "Tauren_Move_004"
+	file = "voice_lines/tauren/Tauren_Move_4.wav"
+}
+sound = {
+	name = "Tauren_Move_005"
+	file = "voice_lines/tauren/Tauren_Move_5.wav"
+}

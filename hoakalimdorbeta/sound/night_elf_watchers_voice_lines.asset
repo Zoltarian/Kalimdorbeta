@@ -1,0 +1,143 @@
+category = {
+ name = "Voices"
+ soundeffects = {
+
+	WAR_infantry_idle
+	WAR_infantry_neutral_combat
+	WAR_infantry_positive_combat
+	WAR_infantry_retreat
+	WAR_infantry_move_out
+	
+ }
+
+}
+
+##########
+
+soundeffect = {
+    name = "WAR_infantry_idle"
+    sounds = {
+		sound = Night_Elf_Watcher_Idle_001
+        sound = Night_Elf_Watcher_Idle_002
+        sound = Night_Elf_Watcher_Idle_003
+        sound = Night_Elf_Watcher_Idle_004
+        sound = Night_Elf_Watcher_Idle_005
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "WAR_infantry_neutral_combat"
+    sounds = {
+		sound = Night_Elf_Watcher_Combat_001
+        sound = Night_Elf_Watcher_Combat_002
+        sound = Night_Elf_Watcher_Combat_003
+        sound = Night_Elf_Watcher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WAR_infantry_positive_combat"
+    sounds = {
+		sound = Night_Elf_Watcher_Combat_001
+        sound = Night_Elf_Watcher_Combat_002
+        sound = Night_Elf_Watcher_Combat_003
+        sound = Night_Elf_Watcher_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WAR_infantry_retreat"
+    sounds = {
+		sound = Night_Elf_Watcher_Move_001
+        sound = Night_Elf_Watcher_Move_002
+        sound = Night_Elf_Watcher_Move_003
+        sound = Night_Elf_Watcher_Move_004
+        sound = Night_Elf_Watcher_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "WAR_infantry_move_out"
+    sounds = {
+		sound = Night_Elf_Watcher_Move_001
+        sound = Night_Elf_Watcher_Move_002
+        sound = Night_Elf_Watcher_Move_003
+        sound = Night_Elf_Watcher_Move_004
+        sound = Night_Elf_Watcher_Move_005
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Night_Elf_Watcher_Idle_001"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Idle_1.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Idle_002"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Idle_2.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Idle_003"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Idle_3.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Idle_004"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Idle_4.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Idle_005"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Idle_5.wav"
+}
+
+sound = {
+	name = "Night_Elf_Watcher_Combat_001"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Night_Elf_Watcher_Combat_002"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Night_Elf_Watcher_Combat_003"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Night_Elf_Watcher_Combat_004"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Attack_4.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "Night_Elf_Watcher_Move_001"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Move_1.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Move_002"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Move_2.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Move_003"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Move_3.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Move_004"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Move_4.wav"
+}
+sound = {
+	name = "Night_Elf_Watcher_Move_005"
+	file = "voice_lines/night_elf/watchers/Night_Elf_Watcher_Move_5.wav"
+}
