@@ -1,3 +1,75 @@
 characters={
+  ZAN_rastakhan = {
+    name = ZAN_rastakhan
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/ZAN/rastakhan.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_RASTAKHAN_DESC"
+      traits = { }
+      id = -1
+    }
+    country_leader = {
+      ideology = horde_type
+      desc = "POLITICS_RASTAKHAN_DESC"
+      traits = { }
+      id = -1
+    }
+    country_leader = {
+      ideology = alliance_type
+      desc = "POLITICS_RASTAKHAN_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  ZAN_zul = {
+    name = ZAN_zul
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/ZAN/zul.dds"
+      }
+    }
+
+    country_leader = {
+      ideology = death_type
+      desc = "POLITICS_ZUL_DESC"
+      traits = { }
+      id = -1
+    }
+    country_leader = {
+      ideology = old_gods_type
+      desc = "POLITICS_ZUL_DESC"
+      traits = { }
+      id = -1
+    }
+    country_leader = {
+      ideology = fel_type
+      desc = "POLITICS_ZUL_DESC"
+      traits = { }
+      id = -1
+    }
+
+    corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }

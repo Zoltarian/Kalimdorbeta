@@ -1,3 +1,26 @@
 characters={
+  WSH_nott_candle_extinguisher = {
+    name = WSH_nott_candle_extinguisher
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WSH/nott_candle_extinguisher.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_NOTT_CANDLE_EXTINGUISHER_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }

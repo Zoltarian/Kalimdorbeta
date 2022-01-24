@@ -802,6 +802,10 @@ technologies = {
 		amphibious_invasion = 0.075
 		naval_invasion_capacity = 10
 
+		enable_equipments = {
+			floating_harbor_equipment_1
+		}
+
 		dependencies = {
 			tier_2_tech = 1
 		}

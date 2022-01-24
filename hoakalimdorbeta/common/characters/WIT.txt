@@ -1,3 +1,79 @@
 characters={
+  WIT_arcanist_kel_danath = {
+    name = WIT_arcanist_kel_danath
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WIT/arcanist_kel_danath.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_ARCANIST_KEL_DANATH_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = horde_type
+      desc = "POLITICS_ARCANIST_KEL_DANATH_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = alliance_type
+      desc = "POLITICS_ARCANIST_KEL_DANATH_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = old_gods_type
+      desc = "POLITICS_ARCANIST_KEL_DANATH_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = death_type
+      desc = "POLITICS_ARCANIST_KEL_DANATH_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = fel_type
+      desc = "POLITICS_ARCANIST_KEL_DANATH_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  WIT_theryn = {
+    name = WIT_theryn
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/ZUK/theryn.dds"
+      }
+    }
+
+    corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }

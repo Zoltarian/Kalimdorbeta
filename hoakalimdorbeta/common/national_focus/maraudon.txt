@@ -216,7 +216,7 @@ focus_tree = {
 	focus = {
 		id = MAU_back_into_the_fold_nf
 		icon = GFX_goal_generic_major_alliance
-		cost = 5
+		cost = 10
 		prerequisite = {
 			focus = MAU_ending_the_magram_nf
 			focus = MAU_ending_the_gelkis_nf
@@ -298,7 +298,7 @@ focus_tree = {
 	focus = {
 		id = MAU_theradras_request_nf
 		icon = GFX_focus_maraudon_theradras
-		cost = 5
+		cost = 7
 		prerequisite = {
 			focus = MAU_back_into_the_fold_nf
 		}
@@ -341,7 +341,7 @@ focus_tree = {
 	focus = {
 		id = MAU_old_hatreds_nf
 		icon = GFX_focus_maraudon_old_hatreds
-		cost = 5
+		cost = 7
 		prerequisite = {
 			focus = MAU_theradras_request_nf
 		}
@@ -369,7 +369,7 @@ focus_tree = {
 	focus = {
 		id = MAU_her_domain_nf
 		icon = GFX_focus_generic_home_defense
-		cost = 5
+		cost = 10
 		prerequisite = {
 			focus = MAU_old_hatreds_nf
 		}
@@ -392,7 +392,7 @@ focus_tree = {
 	focus = {
 		id = MAU_path_to_the_sea_nf
 		icon = GFX_goal_generic_amphibious_assault
-		cost = 5
+		cost = 7
 		prerequisite = {
 			focus = MAU_her_domain_nf
 		}
@@ -417,7 +417,7 @@ focus_tree = {
 	focus = {
 		id = MAU_hating_the_hatefury_nf
 		icon = GFX_goal_generic_major_war
-		cost = 5
+		cost = 7
 		prerequisite = {
 			focus = MAU_her_domain_nf
 		}

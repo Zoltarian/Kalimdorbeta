@@ -2,7 +2,7 @@
 technologies = {
 
 	altar_of_kings_tech = {
-		
+
 		path = {
 			leads_to_tech = royal_guard_tech
 			research_cost_coeff = 1
@@ -15,22 +15,99 @@ technologies = {
 			leads_to_tech = paladin_tech
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = heroic_training_tech_1
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 		start_year = 584
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 12 y = 0 }
 		}
-		
+
 		categories = {
 			altar_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
+		}
+	}
+
+	heroic_training_tech_1 = {
+
+		special_forces_cap = 0.05
+
+		path = {
+			leads_to_tech = heroic_training_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = human_support_folder
+			position = { x = 4 y = 4 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heroic_training_tech_2 = {
+
+		special_forces_cap = 0.05
+
+		path = {
+			leads_to_tech = heroic_training_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = human_support_folder
+			position = { x = 4 y = 8 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heroic_training_tech_3 = {
+
+		special_forces_cap = 0.05
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = human_support_folder
+			position = { x = 4 y = 12 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -39,7 +116,7 @@ technologies = {
 		enable_subunits = {
 			royal_guard
 		}
-		
+
 		on_research_complete = {
 			set_technology = {
 				royal_guard_equipment_tech_1 = 1
@@ -51,26 +128,26 @@ technologies = {
 		folder = {
 			name = human_support_folder
 			position = { x = 8 y = 2 }
-		}	
+		}
 
 		path = {
 			leads_to_tech = royal_guard_equipment_tech_1
 			research_cost_coeff = 1
-		}		
-		
+		}
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 	}
 
 	royal_guard_equipment_tech_1 = {
-		
+
 		enable_equipments = {
 			royal_guard_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = overpower_tech
 			research_cost_coeff = 1
@@ -82,32 +159,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 584
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 8 y = 4 }
 		}
-		
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	overpower_tech = {
 
 		royal_guard = {
 			soft_attack = 0.15
 			hard_attack = 0.15
 		}
-	
-		xor = { intercept_tech } 
-		
+
+		xor = { intercept_tech }
+
 		path = {
 			leads_to_tech = royal_guard_equipment_tech_2
 			research_cost_coeff = 1
@@ -115,31 +192,31 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 592
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 7 y = 6 }
 		}
-		
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	intercept_tech = {
 
 		royal_guard = {
 			maximum_speed = 0.2
 		}
-	
-		xor = { overpower_tech } 
-		
+
+		xor = { overpower_tech }
+
 		path = {
 			leads_to_tech = royal_guard_equipment_tech_2
 			research_cost_coeff = 1
@@ -147,25 +224,25 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 592
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 9 y = 6 }
 		}
-		
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	royal_guard_equipment_tech_2 = {
-	
+
 		enable_equipments = {
 			royal_guard_equipment_2
 		}
@@ -185,32 +262,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 595
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 8 y = 8 }
 		}
-		
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	last_stand_tech = {
 
 		royal_guard = {
 			max_organisation = 5
 			default_morale = 0.25
 		}
-	
-		xor = { shield_wall_tech } 
-		
+
+		xor = { shield_wall_tech }
+
 		path = {
 			leads_to_tech = royal_guard_equipment_tech_3
 			research_cost_coeff = 1
@@ -218,32 +295,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 598
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 9 y = 10 }
 		}
-		
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	shield_wall_tech = {
 
 		royal_guard = {
 			defense = 0.25
 			breakthrough = 0.1
 		}
-	
-		xor = { last_stand_tech } 
-		
+
+		xor = { last_stand_tech }
+
 		path = {
 			leads_to_tech = royal_guard_equipment_tech_3
 			research_cost_coeff = 1
@@ -251,25 +328,25 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 598
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 7 y = 10 }
 		}
-		
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	royal_guard_equipment_tech_3 = {
-	
+
 		enable_equipments = {
 			royal_guard_equipment_3
 		}
@@ -280,20 +357,20 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 601
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 8 y = 12 }
 		}
-		
+
 		categories = {
 			altar_technology
 			royal_guard_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
 
@@ -302,7 +379,7 @@ technologies = {
 		enable_subunits = {
 			paladin
 		}
-		
+
 		on_research_complete = {
 			set_technology = {
 				paladin_equipment_tech_1 = 1
@@ -314,26 +391,26 @@ technologies = {
 		folder = {
 			name = human_support_folder
 			position = { x = 12 y = 2 }
-		}	
+		}
 
 		path = {
 			leads_to_tech = paladin_equipment_tech_1
 			research_cost_coeff = 1
-		}		
-		
+		}
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 	}
-	
+
 	paladin_equipment_tech_1 = {
-		
+
 		enable_equipments = {
 			paladin_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = divine_steeds_tech
 			research_cost_coeff = 1
@@ -345,32 +422,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 584
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 12 y = 4 }
 		}
-		
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	divine_steeds_tech = {
 
 		paladin = {
 			maximum_speed = 0.2
 			breakthrough = 0.05
 		}
-	
-		xor = { divine_shield_tech } 
-		
+
+		xor = { divine_shield_tech }
+
 		path = {
 			leads_to_tech = paladin_equipment_tech_2
 			research_cost_coeff = 1
@@ -378,32 +455,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 592
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 11 y = 6 }
 		}
-		
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	divine_shield_tech = {
 
 		paladin = {
 			armor_value = 0.1
 			breakthrough = 0.15
 		}
-	
-		xor = { divine_steeds_tech } 
-		
+
+		xor = { divine_steeds_tech }
+
 		path = {
 			leads_to_tech = paladin_equipment_tech_2
 			research_cost_coeff = 1
@@ -411,25 +488,25 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 592
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 13 y = 6 }
 		}
-		
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	paladin_equipment_tech_2 = {
-	
+
 		enable_equipments = {
 			paladin_equipment_2
 		}
@@ -437,7 +514,7 @@ technologies = {
 		dependencies = {
 			keep_tech = 1
 		}
-		
+
 		path = {
 			leads_to_tech = blessing_of_kings_tech
 			research_cost_coeff = 1
@@ -449,23 +526,23 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 595
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 12 y = 8 }
 		}
-		
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	blessing_of_kings_tech = {
 
 		paladin = {
@@ -473,9 +550,9 @@ technologies = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
-	
-		xor = { templars_verdict_tech } 
-		
+
+		xor = { templars_verdict_tech }
+
 		path = {
 			leads_to_tech = paladin_equipment_tech_3
 			research_cost_coeff = 1
@@ -483,23 +560,23 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 598
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 11 y = 10 }
 		}
-		
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	templars_verdict_tech = {
 
 		paladin = {
@@ -507,9 +584,9 @@ technologies = {
 			soft_attack = 0.15
 			hard_attack = 0.15
 		}
-	
-		xor = { blessing_of_kings_tech } 
-		
+
+		xor = { blessing_of_kings_tech }
+
 		path = {
 			leads_to_tech = paladin_equipment_tech_3
 			research_cost_coeff = 1
@@ -517,25 +594,25 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 598
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 13 y = 10 }
 		}
-		
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	paladin_equipment_tech_3 = {
-	
+
 		enable_equipments = {
 			paladin_equipment_3
 		}
@@ -546,20 +623,20 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 601
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 12 y = 12 }
 		}
-		
+
 		categories = {
 			altar_technology
 			paladin_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
 
@@ -568,7 +645,7 @@ technologies = {
 		enable_subunits = {
 			arch_mage
 		}
-		
+
 		on_research_complete = {
 			set_technology = {
 				arch_mage_equipment_tech_1 = 1
@@ -580,26 +657,26 @@ technologies = {
 		folder = {
 			name = human_support_folder
 			position = { x = 16 y = 2 }
-		}	
+		}
 
 		path = {
 			leads_to_tech = arch_mage_equipment_tech_1
 			research_cost_coeff = 1
-		}		
-		
+		}
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 	}
 
 	arch_mage_equipment_tech_1 = {
-		
+
 		enable_equipments = {
 			arch_mage_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = blizzard_tech
 			research_cost_coeff = 1
@@ -611,32 +688,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 584
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 16 y = 4 }
 		}
-		
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	blizzard_tech = {
 
 		arch_mage = {
 			ap_attack = 0.2
 			breakthrough = 0.25
 		}
-	
-		xor = { phoenixs_flames_tech } 
-		
+
+		xor = { phoenixs_flames_tech }
+
 		path = {
 			leads_to_tech = arch_mage_equipment_tech_2
 			research_cost_coeff = 1
@@ -644,32 +721,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 592
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 15 y = 6 }
 		}
-		
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	phoenixs_flames_tech = {
 
 		arch_mage = {
 			anti_air_attack = 0.2
 			soft_attack = 0.1
 		}
-	
-		xor = { blizzard_tech } 
-		
+
+		xor = { blizzard_tech }
+
 		path = {
 			leads_to_tech = arch_mage_equipment_tech_2
 			research_cost_coeff = 1
@@ -677,25 +754,25 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 592
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 17 y = 6 }
 		}
-		
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	arch_mage_equipment_tech_2 = {
-	
+
 		enable_equipments = {
 			arch_mage_equipment_2
 		}
@@ -703,7 +780,7 @@ technologies = {
 		dependencies = {
 			keep_tech = 1
 		}
-		
+
 		path = {
 			leads_to_tech = ice_block_tech
 			research_cost_coeff = 1
@@ -715,32 +792,32 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 595
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 16 y = 8 }
 		}
-		
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	ice_block_tech = {
 
 		arch_mage = {
 			defense = 0.2
 			max_organisation = 2.5
 		}
-	
-		xor = { pyroblast_tech } 
-		
+
+		xor = { pyroblast_tech }
+
 		path = {
 			leads_to_tech = arch_mage_equipment_tech_3
 			research_cost_coeff = 1
@@ -748,23 +825,23 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 598
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 15 y = 10 }
 		}
-		
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	pyroblast_tech = {
 
 		arch_mage = {
@@ -777,9 +854,9 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = human_pyroblast
 		}
-	
-		xor = { ice_block_tech } 
-		
+
+		xor = { ice_block_tech }
+
 		path = {
 			leads_to_tech = arch_mage_equipment_tech_3
 			research_cost_coeff = 1
@@ -787,25 +864,25 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 598
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 17 y = 10 }
 		}
-		
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
-	
+
 	arch_mage_equipment_tech_3 = {
-	
+
 		enable_equipments = {
 			arch_mage_equipment_3
 		}
@@ -816,20 +893,20 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 601
-		
+
 		folder = {
 			name = human_support_folder
 			position = { x = 16 y = 12 }
 		}
-		
+
 		categories = {
 			altar_technology
 			arch_mage_technology
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 	}
 

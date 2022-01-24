@@ -1,3 +1,26 @@
 characters={
+  ZNZ_zanzil = {
+    name = ZNZ_zanzil
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/ZNZ/zanzil.dds"
+      }
+    }
+      country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_ZANZIL_DESC"
+          traits = {
+          }
+      id = -1
+    }
 
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }

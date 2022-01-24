@@ -1,0 +1,43 @@
+grimtotem_historical = {
+	name = "Grimtotem plan"
+	desc = "forces grimtotem to do its unique focus"
+
+	allowed = {
+		original_tag = GRM
+	}
+
+	enable = {
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		GRM_grimtotem_nf
+		GRM_go_with_magatha_nf
+		GRM_darkcloud_pinnacle_nf
+		GRM_freewind_post_nf
+		GRM_tauren_superiority_nf
+		GRM_mobilize_the_tribe_nf
+		GRM_aggressive_warfare_nf
+		GRM_ending_galak_threat_nf
+		GRM_martial_philosophy_nf
+		GRM_arming_our_braves_nf
+		GRM_bridge_network_nf
+		GRM_highperch_wyverns_nf
+		GRM_rustmaul_silithids_nf
+		GRM_attack_gravelsnout_nf
+		GRM_harpy_threat_nf
+		GRM_safe_on_the_mesas_nf
+		GRM_clash_with_the_razorfen_nf
+		GRM_strong_leading_hoof_nf
+
+	}
+
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

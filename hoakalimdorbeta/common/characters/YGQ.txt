@@ -1,3 +1,26 @@
 characters={
+  YGQ_shonuf = {
+    name = YGQ_shonuf
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/YGQ/shonuf.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_SHONUF_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }

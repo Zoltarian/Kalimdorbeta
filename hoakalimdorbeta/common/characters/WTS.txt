@@ -1,3 +1,26 @@
 characters={
+  WTS_sarendryana = {
+    name = WTS_sarendryana
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WTS/sarendryana.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_SARENDRYANA_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }

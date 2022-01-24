@@ -1,3 +1,17 @@
 characters={
-
+  ZLD_zuldare_governor = {
+    name = ZLD_zuldare_governor
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/ZLD/zuldare_governor.dds"
+      }
+    }
+      country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_ZULDARE_GOVERNOR_DESC"
+          traits = {
+          }
+      id = -1
+    }
+  }
 }

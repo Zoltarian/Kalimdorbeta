@@ -1,3 +1,17 @@
 characters={
+  WST_westfall_governor = {
+    name = WST_westfall_governor
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WST/westfall_governor.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_WESTFALL_GOVERNOR_DESC"
+      traits = { }
+      id = -1
+    }
+  }
 }

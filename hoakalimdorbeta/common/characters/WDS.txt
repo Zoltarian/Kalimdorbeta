@@ -1,3 +1,26 @@
 characters={
+  WDS_tribal_chief_wildscale = {
+    name = WDS_tribal_chief_wildscale
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WDS/tribal_chief_wildscale.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_TRIBAL_CHIEF_WILDSCALE_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }

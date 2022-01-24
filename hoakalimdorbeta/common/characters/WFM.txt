@@ -1,21 +1,16 @@
 characters={
-  ZLC_zemlan = {
-    name = ZLC_zemlan
+  WFM_old_murk_eye = {
+    name = WFM_old_murk_eye
     portraits = {
       civilian = {
-        large = "gfx/leaders/ZLC/zemlan.dds"
+        large = "gfx/leaders/WFM/old_murk_eye.dds"
       }
     }
+
     country_leader = {
       ideology = neutral_type
-      desc = "POLITICS_ZEMLAN_DESC"
-      traits = {}
-      id = -1
-    }
-    country_leader = {
-      ideology = death_type
-      desc = "POLITICS_ZEMLAN_DESC"
-      traits = {}
+      desc = "POLITICS_OLD_MURK_EYE_DESC"
+      traits = { }
       id = -1
     }
 

@@ -1,3 +1,94 @@
 characters={
+  WSC_grom_hellscream = {
+    name = WSC_grom_hellscream
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WSC/grommash_hellscream.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_GROM_HELLSCREAM_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = horde_type
+      desc = "POLITICS_GROM_HELLSCREAM_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = fel_type
+      desc = "POLITICS_GROM_HELLSCREAM_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  WSC_packleader_kargora = {
+    name = WSC_packleader_kargora
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WSC/packleader_kargora.dds"
+      }
+    }
+
+    corps_commander  = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  WSC_uruk_foecleaver = {
+    name = WSC_uruk_foecleaver
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WSC/uruk_foecleaver.dds"
+      }
+    }
+
+    corps_commander  = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  WSC_gargok = {
+    name = WSC_gargok
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/WSC/gargok.dds"
+      }
+    }
+
+    corps_commander  = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }
