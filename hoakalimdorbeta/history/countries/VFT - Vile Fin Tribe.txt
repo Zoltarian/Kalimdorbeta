@@ -10,17 +10,17 @@ set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
-	
+
 	tribe
 	limited_conscription
 	early_military_development
 	limited_exports
-	
+
 	murloc_primary_race
 	primary_trait_spawning_pools
 	primary_trait_mrglgl
 	primary_trait_one_with_the_sea
-	
+
 	primary_religion_followers_of_the_tidehunter
 }
 
@@ -42,17 +42,5 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = VFT_muad
+recruit_character = VFT_deeb

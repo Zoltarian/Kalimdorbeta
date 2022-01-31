@@ -11,7 +11,7 @@ set_stability = 0.55
 set_war_support = 0.4
 
 add_ideas = {
-	
+
 	tribe
 	limited_conscription
 	early_military_development
@@ -69,7 +69,7 @@ set_popularities = {
 	set_war_support = 0.7
 
 	add_ideas = {
-		
+
 		tribe
 		extensive_conscription
 		preparing_for_war
@@ -87,27 +87,16 @@ set_popularities = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
 
-		
-
-
-
-
 		naval_transport_2 = 1
 		aviary_tech = 1
 
-
 		blueprints_1 = 1
-
-
-
-
-
-
 
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
 	}
+
 	set_politics = {
 		ruling_party = horde
 		last_election = "590.10.27"
@@ -147,90 +136,6 @@ set_popularities = {
 	}
 }
 
-create_country_leader = {
-	name = "Vile Priestess Hexx"
-	desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
-	picture = "hexx.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vile Priestess Hexx"
-	desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
-	picture = "hexx.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vile Priestess Hexx"
-	desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
-	picture = "hexx.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vile Priestess Hexx"
-	desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
-	picture = "hexx.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vile Priestess Hexx"
-	desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
-	picture = "hexx.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Vile Priestess Hexx"
-	picture = "hexx.dds"
-	traits = {  }
-	id = 71700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Qiaga the Keeper"
-	picture = "Qiaga.dds"
-	traits = {  }
-	id = 71701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_navy_leader = {
-	name = "Morta'gya the Keeper"
-	picture = "Morta'gya.dds"
-	traits = {  }
-	id = 71702
-	skill = 3
-
-}
+recruit_character = VIL_vile_priestess_hexx
+recruit_character = VIL_qiaga
+recruit_character = VIL_mortagya

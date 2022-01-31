@@ -10,7 +10,7 @@ set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
-	
+
 	clan
 	recruit_adventurers
 	peacetime_economy
@@ -36,76 +36,4 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Yulda the Stormspeaker"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yulda the Stormspeaker"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yulda the Stormspeaker"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yulda the Stormspeaker"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yulda the Stormspeaker"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yulda the Stormspeaker"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
-}
+recruit_character = VLK_yulda_the_stormspeaker

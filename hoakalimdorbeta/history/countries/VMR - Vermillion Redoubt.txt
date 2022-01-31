@@ -8,7 +8,7 @@ set_stability = 0.65
 set_war_support = 0.3
 
 add_ideas = {
-	
+
 	council
 	limited_conscription
 	peacetime_economy
@@ -26,7 +26,7 @@ set_technology = {
 
 	mount_taming_1 = 1
 	knight_tech_1 = 1
-	
+
 
 	catapult_equipment_tech_1 = 1
 
@@ -34,12 +34,12 @@ set_technology = {
 	organic_flight = 1
 	fighter_breeds_1 = 1
 	endurance_breeds = 1
-	
+
 	naval_transport_1 = 1
 
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
+
 }
 
 set_politics = {
@@ -58,6 +58,7 @@ set_popularities = {
     titans = 100
     neutral = 0
 }
+
 596.1.1 = {
 	oob = "VMR_597"
 
@@ -65,7 +66,7 @@ set_popularities = {
 	set_war_support = 0.5
 
 	add_ideas = {
-		
+
 		council
 		limited_conscription
 		preparing_for_war
@@ -78,30 +79,12 @@ set_popularities = {
 
 	set_technology = {
 		footman_weapons_tech_2 = 1
-		
 
-		
-		
-		
-		
-		
 		naval_transport_2 = 1
 
 		support_breeds = 1
-		
-		
-		
 
-		
-		
 		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
 
 		rogues_guild = 1
 		encryption_1 = 1
@@ -109,35 +92,5 @@ set_popularities = {
 	}
 }
 
-create_country_leader = {
-	name = "Caelestrasz"
-	desc = "POLITICS_CAELESTRASZ_DESC"
-	picture = "gfx/leaders/generic/generic_dragon_red.dds"
-	expire = "1965.1.1"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Caelestrasz"
-	picture = "gfx/leaders/generic/generic_dragon_red.dds"
-	traits = {  }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Nostrastrasz"
-	picture = "gfx/leaders/generic/generic_dragon_red.dds"
-	traits = {  }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}}
+recruit_character = VMR_caelestrasz
+recruit_character = VMR_nostrastrasz

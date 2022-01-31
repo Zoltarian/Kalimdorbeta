@@ -6,7 +6,6 @@ set_stability = 0.85
 set_war_support = 0.05
 
 add_ideas = {
-	
 	tyrant
 	recruit_adventurers
 	peacetime_economy
@@ -14,7 +13,7 @@ add_ideas = {
 
 	valarjar_primary_race
 
-    primary_religion_the_titans
+  primary_religion_the_titans
 }
 
 set_research_slots = 3
@@ -23,25 +22,23 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	pikeman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
-	
+
 	royal_guard_tech = 1
-	
+
 	support_equipment_tech = 1
-	
+
 	mount_taming_1 = 1
-	
+
 	catapult_equipment_tech_1 = 1
-	
-	
-	
+
 	naval_transport_1 = 1
-	
+
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
+
 }
 
-set_politics = {	
+set_politics = {
 	ruling_party = titans
 	last_election = "590.10.27"
 	election_frequency = 48
@@ -57,118 +54,21 @@ set_popularities = {
     titans = 100
     neutral = 0
 }
+
 596.1.1 = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
+
 		naval_transport_2 = 1
 		aviary_tech = 1
-		
-		
+
 		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
+
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
-	}	
-}
-create_country_leader = {
-	name = "Odyn"
-	desc = "POLITICS_ODYN_DESC"
-	picture = "odyn.dds"
-	expire = "1965.1.1"
-	ideology = titans_type
-	traits = {
-		#
 	}
 }
 
-create_country_leader = {
-	name = "Odyn"
-	desc = "POLITICS_ODYN_DESC"
-	picture = "odyn.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Odyn"
-	desc = "POLITICS_ODYN_DESC"
-	picture = "odyn.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Odyn"
-	desc = "POLITICS_ODYN_DESC"
-	picture = "odyn.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Odyn"
-	desc = "POLITICS_ODYN_DESC"
-	picture = "odyn.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Odyn"
-	desc = "POLITICS_ODYN_DESC"
-	picture = "odyn.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Odyn"
-	picture = "odyn.dds"
-	traits = {  }
-	id = 71400
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Eyir"
-	picture = "Eyir"
-	traits = {  }
-	id = 71401
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
+recruit_character = VAL_odyn
+recruit_character = VAL_eyir
