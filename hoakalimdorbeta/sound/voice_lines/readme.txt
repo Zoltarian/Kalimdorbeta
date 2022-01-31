@@ -6,4 +6,4 @@ Yesattack & Warcry = attack
 
 converting ogg to wav
 https://online-audio-converter.com/
-use max quality
+use 44.1Khz

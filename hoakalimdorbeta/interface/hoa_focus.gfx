@@ -19,6 +19,25 @@ spriteTypes = {
 	}
 
 ##############################
+#Silithids focus
+##############################
+
+SpriteType = {
+	name = "GFX_focus_silithid_hive"
+	texturefile = "gfx/interface/focus_tree/focus_generic_silithid_hive.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_silithid_worker"
+	texturefile = "gfx/interface/focus_tree/focus_generic_silithid_worker.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_silithid_soldier"
+	texturefile = "gfx/interface/focus_tree/focus_generic_silithid_soldier.dds"
+}
+
+##############################
 #Bloodhoof / Taurens focus
 ##############################
 

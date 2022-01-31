@@ -1128,22 +1128,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/knight_equipment.dds"
 	}
 
-    SpriteType = {
-		name = "GFX_lancer_tech_1_medium"
-		texturefile = "gfx/interface/technologies/lancer_tech.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_lancer_tech_2_medium"
-		texturefile = "gfx/interface/technologies/lancer_tech.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_lancer_tech_3_medium"
-		texturefile = "gfx/interface/technologies/lancer_tech.dds"
-	}
-
-
 ###########################################################
 #siege_tech
 ###########################################################
@@ -1156,6 +1140,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_supply_wagon_tech_medium"
 		texturefile = "gfx/interface/technologies/supply_wagon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_supply_wagon_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/supply_wagon_equipment.dds"
 	}
 
 	SpriteType = {
@@ -1176,6 +1165,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_improved_supply_wagon_4_medium"
 		texturefile = "gfx/interface/technologies/supply_wagon_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_caravan_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/caravan_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_caravan_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/caravan_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_caravan_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/caravan_equipment.dds"
 	}
 
 	SpriteType = {

@@ -1,0 +1,1327 @@
+category = {
+ name = "Voices"
+ soundeffects = {
+
+	AZB_infantry_idle
+	AZB_infantry_neutral_combat
+	AZB_infantry_positive_combat
+	AZB_infantry_retreat
+	AZB_infantry_move_out
+
+	BDF_infantry_idle
+	BDF_infantry_neutral_combat
+	BDF_infantry_positive_combat
+	BDF_infantry_retreat
+	BDF_infantry_move_out
+
+	BLF_infantry_idle
+	BLF_infantry_neutral_combat
+	BLF_infantry_positive_combat
+	BLF_infantry_retreat
+	BLF_infantry_move_out
+
+	BRF_infantry_idle
+	BRF_infantry_neutral_combat
+	BRF_infantry_positive_combat
+	BRF_infantry_retreat
+	BRF_infantry_move_out
+
+	GDD_infantry_idle
+	GDD_infantry_neutral_combat
+	GDD_infantry_positive_combat
+	GDD_infantry_retreat
+	GDD_infantry_move_out
+
+	GDF_infantry_idle
+	GDF_infantry_neutral_combat
+	GDF_infantry_positive_combat
+	GDF_infantry_retreat
+	GDF_infantry_move_out
+
+	GDS_infantry_idle
+	GDS_infantry_neutral_combat
+	GDS_infantry_positive_combat
+	GDS_infantry_retreat
+	GDS_infantry_move_out
+
+	GSR_infantry_idle
+	GSR_infantry_neutral_combat
+	GSR_infantry_positive_combat
+	GSR_infantry_retreat
+	GSR_infantry_move_out
+
+	GTG_infantry_idle
+	GTG_infantry_neutral_combat
+	GTG_infantry_positive_combat
+	GTG_infantry_retreat
+	GTG_infantry_move_out
+
+	GTH_infantry_idle
+	GTH_infantry_neutral_combat
+	GTH_infantry_positive_combat
+	GTH_infantry_retreat
+	GTH_infantry_move_out
+
+	IDF_infantry_idle
+	IDF_infantry_neutral_combat
+	IDF_infantry_positive_combat
+	IDF_infantry_retreat
+	IDF_infantry_move_out
+
+	MZT_infantry_idle
+	MZT_infantry_neutral_combat
+	MZT_infantry_positive_combat
+	MZT_infantry_retreat
+	MZT_infantry_move_out
+
+	NDF_infantry_idle
+	NDF_infantry_neutral_combat
+	NDF_infantry_positive_combat
+	NDF_infantry_retreat
+	NDF_infantry_move_out
+
+	ONY_infantry_idle
+	ONY_infantry_neutral_combat
+	ONY_infantry_positive_combat
+	ONY_infantry_retreat
+	ONY_infantry_move_out
+
+	RDF_infantry_idle
+	RDF_infantry_neutral_combat
+	RDF_infantry_positive_combat
+	RDF_infantry_retreat
+	RDF_infantry_move_out
+
+	RZB_infantry_idle
+	RZB_infantry_neutral_combat
+	RZB_infantry_positive_combat
+	RZB_infantry_retreat
+	RZB_infantry_move_out
+
+	SRD_infantry_idle
+	SRD_infantry_neutral_combat
+	SRD_infantry_positive_combat
+	SRD_infantry_retreat
+	SRD_infantry_move_out
+
+	STF_infantry_idle
+	STF_infantry_neutral_combat
+	STF_infantry_positive_combat
+	STF_infantry_retreat
+	STF_infantry_move_out
+
+	VMR_infantry_idle
+	VMR_infantry_neutral_combat
+	VMR_infantry_positive_combat
+	VMR_infantry_retreat
+	VMR_infantry_move_out
+	
+ }
+
+}
+
+########## AZB
+
+soundeffect = {
+    name = "AZB_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "AZB_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AZB_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AZB_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "AZB_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BDF
+
+soundeffect = {
+    name = "BDF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BDF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BDF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BDF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BDF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BLF
+
+soundeffect = {
+    name = "BLF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BLF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BLF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BLF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BLF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BRF
+
+soundeffect = {
+    name = "BRF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BRF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BRF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BRF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BRF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GDD
+
+soundeffect = {
+    name = "GDD_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GDD_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDD_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDD_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDD_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GDF
+
+soundeffect = {
+    name = "GDF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GDF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GDS
+
+soundeffect = {
+    name = "GDS_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GDS_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDS_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDS_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GDS_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GSR
+
+soundeffect = {
+    name = "GSR_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GSR_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GSR_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GSR_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GSR_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GTG
+
+soundeffect = {
+    name = "GTG_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GTG_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GTG_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GTG_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GTG_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## GTH
+
+soundeffect = {
+    name = "GTH_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "GTH_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GTH_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GTH_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "GTH_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## IDF
+
+soundeffect = {
+    name = "IDF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "IDF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "IDF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "IDF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "IDF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## MZT
+
+soundeffect = {
+    name = "MZT_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "MZT_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "MZT_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "MZT_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "MZT_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## NDF
+
+soundeffect = {
+    name = "NDF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "NDF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NDF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NDF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "NDF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## ONY
+
+soundeffect = {
+    name = "ONY_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "ONY_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "ONY_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "ONY_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "ONY_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## RDF
+
+soundeffect = {
+    name = "RDF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "RDF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RDF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RDF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RDF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## RZB
+
+soundeffect = {
+    name = "RZB_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "RZB_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RZB_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RZB_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "RZB_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## SRD
+
+soundeffect = {
+    name = "SRD_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "SRD_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SRD_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SRD_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "SRD_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## STF
+
+soundeffect = {
+    name = "STF_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "STF_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STF_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STF_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "STF_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## VMR
+
+soundeffect = {
+    name = "VMR_infantry_idle"
+    sounds = {
+		sound = Dragon_Idle_001
+        sound = Dragon_Idle_002
+        sound = Dragon_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "VMR_infantry_neutral_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "VMR_infantry_positive_combat"
+    sounds = {
+        sound = Dragon_Combat_001
+        sound = Dragon_Combat_002
+        sound = Dragon_Combat_003
+        sound = Dragon_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "VMR_infantry_retreat"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "VMR_infantry_move_out"
+    sounds = {
+        sound = Dragon_Move_001
+        sound = Dragon_Move_002
+        sound = Dragon_Move_003
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+sound = {
+	name = "Dragon_Idle_001"
+	file = "voice_lines/Dragon/Dragon_Idle_1.wav"
+}
+sound = {
+	name = "Dragon_Idle_002"
+	file = "voice_lines/Dragon/Dragon_Idle_2.wav"
+}
+sound = {
+	name = "Dragon_Idle_003"
+	file = "voice_lines/Dragon/Dragon_Idle_3.wav"
+}
+
+sound = {
+	name = "Dragon_Combat_001"
+	file = "voice_lines/Dragon/Dragon_Attack_1.wav"
+	always_load = yes
+}
+sound = {
+	name = "Dragon_Combat_002"
+	file = "voice_lines/Dragon/Dragon_Attack_2.wav"
+	always_load = yes
+}
+sound = {
+	name = "Dragon_Combat_003"
+	file = "voice_lines/Dragon/Dragon_Attack_3.wav"
+	always_load = yes
+}
+sound = {
+	name = "Dragon_Combat_004"
+	file = "voice_lines/Dragon/Dragon_Attack_4.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "Dragon_Move_001"
+	file = "voice_lines/Dragon/Dragon_Move_1.wav"
+}
+sound = {
+	name = "Dragon_Move_002"
+	file = "voice_lines/Dragon/Dragon_Move_2.wav"
+}
+sound = {
+	name = "Dragon_Move_003"
+	file = "voice_lines/Dragon/Dragon_Move_3.wav"
+}

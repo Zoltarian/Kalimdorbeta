@@ -95,4 +95,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/maraudon.dds"
 	}
 
+	spriteType = {
+		name = "GFX_silithid_hive_exterior_event"
+		texturefile = "gfx/event_pictures/silithid/silithid_hive_exterior.dds"
+	}
+
+	spriteType = {
+		name = "GFX_silithid_hive_interior_event"
+		texturefile = "gfx/event_pictures/silithid/silithid_hive_interior.dds"
+	}
+
 }
