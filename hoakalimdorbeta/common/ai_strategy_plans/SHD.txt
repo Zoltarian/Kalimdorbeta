@@ -1,0 +1,24 @@
+shendralar_historical = {
+	name = "Shendralar plan"
+	desc = "forces shendralar to do its unique focus"
+
+	enable = {
+		original_tag = MAU
+	}
+
+	ai_national_focuses = {
+		SHD_the_ruined_city_nf
+		SHD_internal_divisions_nf
+		SHD_greatest_arcanists_nf
+		SHD_treacherous_neighborhood_nf
+	}
+
+	
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

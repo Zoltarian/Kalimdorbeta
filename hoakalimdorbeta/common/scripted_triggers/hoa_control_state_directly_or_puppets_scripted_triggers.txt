@@ -48,6 +48,38 @@ control_bloodmyst_directly_or_puppets = {
   }
 }
 
+#Hyjal
+control_hyjal_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_hyjal_directly_or_puppets_tt
+    64 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1485 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1486 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1487 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1488 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1489 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1490 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1491 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1492 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1493 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1494 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1495 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1496 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1497 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1498 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1499 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1500 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1501 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1502 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1503 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1505 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1997 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1998 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1999 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2126 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
 #Azshara
 control_azshara_directly_or_puppets = {
   custom_trigger_tooltip = {

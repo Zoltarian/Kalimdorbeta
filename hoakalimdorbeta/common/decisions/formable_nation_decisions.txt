@@ -62,6 +62,10 @@ formable_category = {
 				set_cosmetic_tag = THI_EMPIRE
 			}
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -144,6 +148,10 @@ form_kezan_category = {
 
 			set_global_flag = form_kezan_flag
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -203,15 +211,15 @@ form_amani_empire_category = {
 			hidden_effect = {
 				# Quel'thalas
 				223 = { add_core_of = ROOT }
-				34  = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
 				184 = { add_core_of = ROOT }
 				189 = { add_core_of = ROOT }
 				185 = { add_core_of = ROOT }
 				183 = { add_core_of = ROOT }
-				188  = { add_core_of = ROOT }
-				187  = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
 				186 = { add_core_of = ROOT }
-				182  = { add_core_of = ROOT }
+				182 = { add_core_of = ROOT }
 				345 = { add_core_of = ROOT }
 				175 = { add_core_of = ROOT }
 				757 = { add_core_of = ROOT }
@@ -227,11 +235,11 @@ form_amani_empire_category = {
 				180 = { add_core_of = ROOT }
 				168 = { add_core_of = ROOT }
 				756 = { add_core_of = ROOT }
-				17  = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
 				104 = { add_core_of = ROOT }
 				253 = { add_core_of = ROOT }
 				252 = { add_core_of = ROOT }
-				33  = { add_core_of = ROOT }
+				33 = { add_core_of = ROOT }
 				254 = { add_core_of = ROOT }
 				249 = { add_core_of = ROOT }
 				250 = { add_core_of = ROOT }
@@ -245,16 +253,16 @@ form_amani_empire_category = {
 				234 = { add_core_of = ROOT }
 				228 = { add_core_of = ROOT }
 				229 = { add_core_of = ROOT }
-				30  = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
 				376 = { add_core_of = ROOT }
 				227 = { add_core_of = ROOT }
 				226 = { add_core_of = ROOT }
 
 				# Hinterlands
-				20  = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
 				233 = { add_core_of = ROOT }
 				134 = { add_core_of = ROOT }
-				19  = { add_core_of = ROOT }
+				19 = { add_core_of = ROOT }
 				140 = { add_core_of = ROOT }
 				137 = { add_core_of = ROOT }
 				141 = { add_core_of = ROOT }
@@ -326,15 +334,15 @@ form_arathor_category = {
 			hidden_effect = {
 				# LORDAERON
 				124 = { add_core_of = ROOT }
-				35  = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
 				722 = { add_core_of = ROOT }
 				123 = { add_core_of = ROOT }
 				721 = { add_core_of = ROOT }
 				122 = { add_core_of = ROOT }
-				32  = { add_core_of = ROOT }
-				15  = { add_core_of = ROOT }
+				32 = { add_core_of = ROOT }
+				15 = { add_core_of = ROOT }
 				164 = { add_core_of = ROOT }
-				31  = { add_core_of = ROOT }
+				31 = { add_core_of = ROOT }
 				720 = { add_core_of = ROOT }
 				165 = { add_core_of = ROOT }
 				719 = { add_core_of = ROOT }
@@ -345,17 +353,17 @@ form_arathor_category = {
 				109 = { add_core_of = ROOT }
 
 				# GILNEAS
-				1   = { add_core_of = ROOT }
-				2   = { add_core_of = ROOT }
-				3   = { add_core_of = ROOT }
-				4   = { add_core_of = ROOT }
-				16  = { add_core_of = ROOT }
-				98  = { add_core_of = ROOT }
-				99  = { add_core_of = ROOT }
-				161  = { add_core_of = ROOT }
+				1 = { add_core_of = ROOT }
+				2 = { add_core_of = ROOT }
+				3 = { add_core_of = ROOT }
+				4 = { add_core_of = ROOT }
+				16 = { add_core_of = ROOT }
+				98 = { add_core_of = ROOT }
+				99 = { add_core_of = ROOT }
+				161 = { add_core_of = ROOT }
 				162 = { add_core_of = ROOT }
 				163 = { add_core_of = ROOT }
-				412  = { add_core_of = ROOT }
+				412 = { add_core_of = ROOT }
 				413 = { add_core_of = ROOT }
 				414 = { add_core_of = ROOT }
 				415 = { add_core_of = ROOT }
@@ -372,7 +380,7 @@ form_arathor_category = {
 				2099 = { add_core_of = ROOT }
 
 				# DALARAN
-				14  = { add_core_of = ROOT }
+				14 = { add_core_of = ROOT }
 				110 = { add_core_of = ROOT }
 				111 = { add_core_of = ROOT }
 
@@ -381,7 +389,7 @@ form_arathor_category = {
 				113 = { add_core_of = ROOT }
 				117 = { add_core_of = ROOT }
 				749 = { add_core_of = ROOT }
-				11  = { add_core_of = ROOT }
+				11 = { add_core_of = ROOT }
 				118 = { add_core_of = ROOT }
 				116 = { add_core_of = ROOT }
 				115 = { add_core_of = ROOT }
@@ -402,6 +410,10 @@ form_arathor_category = {
 				set_state_name = "Strom"
 			}
 
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 
 	}
@@ -497,7 +509,7 @@ form_union_of_three_hammers_category = {
 				472 = { add_core_of = ROOT }
 				473 = { add_core_of = ROOT }
 				474 = { add_core_of = ROOT }
-				37  = { add_core_of = ROOT }
+				37 = { add_core_of = ROOT }
 				529 = { add_core_of = ROOT }
 				530 = { add_core_of = ROOT }
 				531 = { add_core_of = ROOT }
@@ -509,7 +521,7 @@ form_union_of_three_hammers_category = {
 				536 = { add_core_of = ROOT }
 				537 = { add_core_of = ROOT }
 				538 = { add_core_of = ROOT }
-				72  = { add_core_of = ROOT }
+				72 = { add_core_of = ROOT }
 				539 = { add_core_of = ROOT }
 				540 = { add_core_of = ROOT }
 				476 = { add_core_of = ROOT }
@@ -529,17 +541,17 @@ form_union_of_three_hammers_category = {
 				487 = { add_core_of = ROOT }
 				484 = { add_core_of = ROOT }
 				485 = { add_core_of = ROOT }
-				36  = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
 				486 = { add_core_of = ROOT }
 				488 = { add_core_of = ROOT }
-				47  = { add_core_of = ROOT }
+				47 = { add_core_of = ROOT }
 
 				# NORTHERON
 				512 = { add_core_of = ROOT }
 				510 = { add_core_of = ROOT }
 				513 = { add_core_of = ROOT }
 				511 = { add_core_of = ROOT }
-				24  = { add_core_of = ROOT }
+				24 = { add_core_of = ROOT }
 				505 = { add_core_of = ROOT }
 				507 = { add_core_of = ROOT }
 				506 = { add_core_of = ROOT }
@@ -550,7 +562,7 @@ form_union_of_three_hammers_category = {
 				519 = { add_core_of = ROOT }
 				516 = { add_core_of = ROOT }
 				515 = { add_core_of = ROOT }
-				75  = { add_core_of = ROOT }
+				75 = { add_core_of = ROOT }
 				520 = { add_core_of = ROOT }
 				517 = { add_core_of = ROOT }
 				518 = { add_core_of = ROOT }
@@ -572,14 +584,14 @@ form_union_of_three_hammers_category = {
 				135 = { add_core_of = ROOT }
 				141 = { add_core_of = ROOT }
 				140 = { add_core_of = ROOT }
-				20  = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
 				751 = { add_core_of = ROOT }
 
 				#DARKIRON CLAN
 				525 = { add_core_of = ROOT }
 				802 = { add_core_of = ROOT }
 				786 = { add_core_of = ROOT }
-				28  = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
 				524 = { add_core_of = ROOT }
 				807 = { add_core_of = ROOT }
 				556 = { add_core_of = ROOT }
@@ -608,6 +620,10 @@ form_union_of_three_hammers_category = {
 				id = news.522
 				hours = 6
 			}
+
+		}
+		ai_will_do = {
+			factor = 200
 		}
 
 	}
@@ -659,7 +675,7 @@ form_wildhammer_clan_category = {
 			custom_effect_tooltip = form_country_wildhammer_coring_states_tt
 			hidden_effect = {
 				# AERIE PEAK
-				20  = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
 				135 = { add_core_of = ROOT }
 				136 = { add_core_of = ROOT }
 				139 = { add_core_of = ROOT }
@@ -679,7 +695,7 @@ form_wildhammer_clan_category = {
 				510 = { add_core_of = ROOT }
 				513 = { add_core_of = ROOT }
 				511 = { add_core_of = ROOT }
-				24  = { add_core_of = ROOT }
+				24 = { add_core_of = ROOT }
 				505 = { add_core_of = ROOT }
 				507 = { add_core_of = ROOT }
 				506 = { add_core_of = ROOT }
@@ -690,7 +706,7 @@ form_wildhammer_clan_category = {
 				519 = { add_core_of = ROOT }
 				516 = { add_core_of = ROOT }
 				515 = { add_core_of = ROOT }
-				75  = { add_core_of = ROOT }
+				75 = { add_core_of = ROOT }
 				520 = { add_core_of = ROOT }
 				517 = { add_core_of = ROOT }
 				518 = { add_core_of = ROOT }
@@ -711,6 +727,10 @@ form_wildhammer_clan_category = {
 				id = news.523
 				hours = 6
 			}
+
+		}
+		ai_will_do = {
+			factor = 200
 		}
 
 	}
@@ -881,6 +901,10 @@ form_thunder_bluff_category = {
 
 			set_cosmetic_tag = THB
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -930,6 +954,10 @@ restore_lordaeron_category = {
 				set_global_flag = form_lordaeron_flag
 			}
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -968,6 +996,10 @@ restore_alterac_category = {
 				set_global_flag = form_alterac_flag
 			}
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -1004,6 +1036,10 @@ restore_stromgarde_category = {
 			hidden_effect = {
 				set_global_flag = form_stromgarde_flag
 			}
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }
@@ -1056,6 +1092,10 @@ restore_pandaren_empire_category = {
 
 			set_cosmetic_tag = PDE_UNIFIED
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -1086,6 +1126,10 @@ form_empire_of_jade_category = {
 			core_jade_forest = yes
 
 			set_cosmetic_tag = ROJ_EMPIRE
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }
@@ -1121,6 +1165,10 @@ restore_jinyu_empire_category = {
 			core_vale_of_eternal_blossoms = yes
 
 			set_cosmetic_tag = JIN_EMPIRE
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }
@@ -1161,6 +1209,10 @@ form_hozen_empire_category = {
 
 			set_cosmetic_tag = HOZ_EMPIRE
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -1199,6 +1251,10 @@ form_greater_mantid_empire_category = {
 			core_valley_of_the_four_winds = yes
 
 			set_cosmetic_tag = MAN_GREATER
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }
@@ -1351,6 +1407,10 @@ form_empire_of_zul_category = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -1438,6 +1498,10 @@ form_kingdom_of_uldum_category = {
 			core_uldum = yes
 
 			set_cosmetic_tag = ULD_UNIFIED
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }
@@ -1561,6 +1625,10 @@ form_centaur_khanate_category = {
 
 			set_cosmetic_tag = CEN_KHANATE
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -1613,6 +1681,10 @@ form_gorian_empire_category = {
 			core_nagrand_draenor = yes
 
 			set_cosmetic_tag = GOR_EMPIRE
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }
@@ -1710,6 +1782,10 @@ form_kingdom_of_agamaggan_category = {
 
 			set_cosmetic_tag = AGG_KINGDOM
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -1772,6 +1848,10 @@ form_bloodmyst_kingdom_category = {
 
 			set_cosmetic_tag = BLO_KINGDOM
 		}
+
+		ai_will_do = {
+			factor = 200
+		}
 	}
 }
 
@@ -1804,6 +1884,47 @@ form_arkkoran_kingdom_category = {
 			core_azshara = yes
 
 			set_cosmetic_tag = ARK_KINGDOM
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_shadowtooth_empire_category = {
+	form_shadowtooth_empire = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = STT
+		}
+
+		available = {
+			is_subject = no
+
+			control_hyjal_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = STT
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = STT_EMPIRE
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_hyjal = yes
+			core_hyjal = yes
+
+			set_cosmetic_tag = STT_EMPIRE
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }

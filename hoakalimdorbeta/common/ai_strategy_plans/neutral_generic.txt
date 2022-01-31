@@ -1,0 +1,71 @@
+neutral_generic_historical = {
+	name = "Neutral generic historical plan"
+	desc = "placeholder neutral ai"
+
+	enable = {
+		is_historical_focus_on = yes
+		neutral > 0.5
+		NOT = {
+			tag = GRM
+			tag = MAU
+			tag = SHD
+		}
+	}
+
+	ai_national_focuses = {
+		the_path_forward
+		stay_neutral
+		armed_neutrality
+		promote_neutrality
+		secure_the_nation
+		diplomatic_strategy
+		no_gods_no_masters
+		an_unyielding_army
+		diplomatic_corps
+		prepare_our_troops
+		elite_soldiers
+	}
+
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}
+
+neutral_generic_non_historical = {
+	name = "Neutral generic non historical plan"
+	desc = "placeholder neutral ai"
+
+	enable = {
+		is_historical_focus_on = no
+		neutral > 0.5
+		NOT = {
+			tag = GRM
+			tag = MAU
+			tag = SHD
+		}
+	}
+
+	ai_national_focuses = {
+		the_path_forward
+		stay_neutral
+		shape_our_own_destiny
+		prepare_for_war
+		promote_neutrality
+		aggressive_strategy
+		no_gods_no_masters
+		a_worthy_army
+		rise_of_a_new_faction
+		prepare_our_troops
+		elite_soldiers
+	}
+
+	weight = {
+		factor = 5.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

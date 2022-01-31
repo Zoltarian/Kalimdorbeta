@@ -1,0 +1,121 @@
+####################################################################
+# Events for the generic silithid focus tree
+####################################################################
+
+add_namespace = generic_silithid
+
+country_event = { # generic_silithid_the_hive_nf focus
+  id = generic_silithid.1
+  title = generic_silithid.1.t
+  desc = generic_silithid.1.d
+  picture = GFX_silithid_hive_exterior_event
+
+  is_triggered_only = yes
+
+  fire_only_once = no
+
+  #Add infra to capital
+  option = {
+    name = generic_silithid.1.option.1
+
+    capital_scope = {
+      add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+    }
+	}
+
+  #Add workshops to capital
+  option = {
+    name = generic_silithid.1.option.2
+
+    capital_scope = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+  #Add blacksmiths to capital
+  option = {
+    name = generic_silithid.1.option.3
+
+    capital_scope = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+  }
+}
+
+country_event = { # generic_silithid_the_workers_nf focus
+  id = generic_silithid.2
+  title = generic_silithid.2.t
+  desc = generic_silithid.2.d
+  picture = GFX_silithid_hive_interior_event
+
+  is_triggered_only = yes
+
+  fire_only_once = no
+
+  option = {
+    name = generic_silithid.2.option.1
+
+    add_ideas = generic_silithid_burrower_idea
+	}
+
+  option = {
+    name = generic_silithid.2.option.2
+
+    add_ideas = generic_silithid_gatherer_idea
+	}
+
+  option = {
+    name = generic_silithid.2.option.3
+
+    add_ideas = generic_silithid_industrious_idea
+	}
+}
+
+country_event = { # generic_silithid_the_soldiers_nf focus
+  id = generic_silithid.3
+  title = generic_silithid.3.t
+  desc = generic_silithid.3.d
+  picture = GFX_silithid_hive_interior_event
+
+  is_triggered_only = yes
+
+  fire_only_once = no
+
+  option = {
+    name = generic_silithid.3.option.1
+
+    add_ideas = generic_silithid_sharp_stingers_idea
+	}
+
+  option = {
+    name = generic_silithid.3.option.2
+
+    add_ideas = generic_silithid_strong_carapace_idea
+	}
+
+  option = {
+    name = generic_silithid.3.option.3
+
+    add_ideas = generic_silithid_coordinated_swarm_idea
+	}
+
+  option = {
+    name = generic_silithid.3.option.4
+
+    add_ideas = generic_silithid_crawling_legions_idea
+	}
+}

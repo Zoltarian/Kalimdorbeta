@@ -1,0 +1,44 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+GRM_befriend_spirithorn = {
+	allowed = {
+		original_tag = GRM
+	}
+	enable = {
+		has_completed_focus = GRM_go_with_jevan_nf
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SPH }
+			has_war_with = SPH
+			SPH = {
+				OR = {
+					has_opinion	= {
+						target = ROOT
+						value > 80
+					}
+					has_capitulated = yes
+					is_subject = yes
+				}
+			}
+
+		}
+	}
+
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SPH
+		target = improve_relation
+		value = 200
+	}	
+}

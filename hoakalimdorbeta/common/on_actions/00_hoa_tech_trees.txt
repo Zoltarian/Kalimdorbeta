@@ -47,16 +47,4 @@ on_actions = {
       		}
 		}
 	}
-	on_startup = {
-		effect = {
-			every_country = {
-				set_technology = {
-					trucks_tech = 1
-				}
-				set_technology = {
-					train_tech = 1
-				}
-      		}
-		}
-	}
 }

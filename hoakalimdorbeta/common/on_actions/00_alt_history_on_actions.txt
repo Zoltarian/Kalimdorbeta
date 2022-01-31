@@ -1,0 +1,39 @@
+on_actions = {
+
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+
+			GRM = {
+				if = {
+					limit = {
+						is_historical_focus_on = no
+					}
+					random_list = {
+						50 = { GRM = { set_country_flag = GRM_AI_MAGATHA } }
+						50 = { GRM = { set_country_flag = GRM_AI_JEVAN } }
+					}
+				}
+			}
+
+			MAU = {
+				if = {
+					limit = {
+						is_historical_focus_on = no
+					}
+					random_list = {
+						50 = { MAU = { set_country_flag = MAU_AI_MAGRAM } }
+						50 = { MAU = { set_country_flag = MAU_AI_GELKIS } }
+					}
+				}
+			}
+
+
+
+
+
+
+		}
+	}
+
+}

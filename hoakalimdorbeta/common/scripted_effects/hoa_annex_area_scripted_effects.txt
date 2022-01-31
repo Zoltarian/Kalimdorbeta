@@ -35,6 +35,37 @@ annex_bloodmyst = {
   }
 }
 
+#Hyjal
+annex_hyjal = {
+  custom_effect_tooltip = annex_hyjal_tt
+  hidden_effect = {
+    set_state_owner = 64
+    set_state_owner = 1485
+    set_state_owner = 1486
+    set_state_owner = 1487
+    set_state_owner = 1488
+    set_state_owner = 1489
+    set_state_owner = 1491
+    set_state_owner = 1492
+    set_state_owner = 1493
+    set_state_owner = 1494
+    set_state_owner = 1495
+    set_state_owner = 1496
+    set_state_owner = 1497
+    set_state_owner = 1498
+    set_state_owner = 1499
+    set_state_owner = 1500
+    set_state_owner = 1501
+    set_state_owner = 1502
+    set_state_owner = 1503
+    set_state_owner = 1505
+    set_state_owner = 1997
+    set_state_owner = 1998
+    set_state_owner = 1999
+    set_state_owner = 2126
+  }
+}
+
 #Azshara
 annex_azshara = {
   custom_effect_tooltip = annex_azshara_tt

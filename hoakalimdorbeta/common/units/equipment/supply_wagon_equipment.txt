@@ -1,10 +1,10 @@
 equipments = {
 
-	motorized_equipment = {
+	supply_wagon_equipment = {
 		year = 1936
 
 		is_archetype = yes
-		picture = archetype_motorized_equipment		
+		picture = archetype_supply_wagon_equipment		
 		is_buildable = no
 		active = yes
 		type = {
@@ -33,10 +33,10 @@ equipments = {
 		supply_truck = yes
 	}
 
-	motorized_equipment_1 = {
+	supply_wagon_equipment_1 = {
 		year = 1936
 
-		archetype = motorized_equipment
+		archetype = supply_wagon_equipment
 		priority = 30			
 	}
 

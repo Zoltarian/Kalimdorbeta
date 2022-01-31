@@ -21,6 +21,11 @@ technologies = {
 		}
 
 		path = {
+			leads_to_tech = caravan_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
 			leads_to_tech = catapult_tech
 			research_cost_coeff = 1
 		}
@@ -36,12 +41,48 @@ technologies = {
 			supply_wagon
 		}
 
+		on_research_complete = {
+			set_technology = {
+				supply_wagon_equipment_tech_1 = 1
+			}
+		}
+
 		research_cost = 2
 		start_year = 584
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = -3 y = 2 }
+			position = { x = -4 y = 2 }
+		}
+
+		categories = {
+			siege_works_technology
+			supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = supply_wagon_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	supply_wagon_equipment_tech_1 = {
+
+		enable_equipments = {
+			supply_wagon_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = human_siege_weapons_folder
+			position = { x = -4 y = 4 }
 		}
 
 		categories = {
@@ -71,7 +112,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = -3 y = 6 }
+			position = { x = -4 y = 6 }
 		}
 
 		categories = {
@@ -105,7 +146,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = -3 y = 8 }
+			position = { x = -4 y = 8 }
 		}
 
 		categories = {
@@ -134,7 +175,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = -3 y = 10 }
+			position = { x = -4 y = 10 }
 		}
 
 		categories = {
@@ -167,7 +208,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = -3 y = 12 }
+			position = { x = -4 y = 12 }
 		}
 
 		categories = {
@@ -177,6 +218,92 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+
+	caravan_equipment_tech_1 = {
+
+		enable_equipments = {
+			caravan_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = human_siege_weapons_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			siege_works_technology
+			caravan_technology
+		}
+
+		path = {
+			leads_to_tech = caravan_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	caravan_equipment_tech_2 = {
+
+		enable_equipments = {
+			caravan_equipment_2
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = human_siege_weapons_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			siege_works_technology
+			caravan_technology
+		}
+
+		path = {
+			leads_to_tech = caravan_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	caravan_equipment_tech_3 = {
+
+		enable_equipments = {
+			caravan_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = human_siege_weapons_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			siege_works_technology
+			caravan_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
 		}
 	}
 
@@ -198,7 +325,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 3 y = 2 }
+			position = { x = 4 y = 2 }
 		}
 
 		categories = {
@@ -229,7 +356,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 3 y = 4 }
+			position = { x = 4 y = 4 }
 		}
 
 		categories = {
@@ -273,7 +400,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 6 y = 4 }
+			position = { x = 7 y = 4 }
 		}
 
 		categories = {
@@ -305,7 +432,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 2 y = 6 }
+			position = { x = 3 y = 6 }
 		}
 
 		categories = {
@@ -342,7 +469,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 4 y = 6 }
+			position = { x = 5 y = 6 }
 		}
 
 		categories = {
@@ -375,7 +502,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 3 y = 8 }
+			position = { x = 4 y = 8 }
 		}
 
 		categories = {
@@ -420,7 +547,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 4 y = 10 }
+			position = { x = 5 y = 10 }
 		}
 
 		categories = {
@@ -467,7 +594,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 2 y = 10 }
+			position = { x = 3 y = 10 }
 		}
 
 		categories = {
@@ -500,7 +627,7 @@ technologies = {
 
 		folder = {
 			name = human_siege_weapons_folder
-			position = { x = 3 y = 12 }
+			position = { x = 4 y = 12 }
 		}
 
 		categories = {

@@ -42,40 +42,6 @@ technologies = {
 
 	#temp techs
 
-	trucks_tech = {
-
-		enable_equipments = {
-			motorized_equipment_1
-		}
-
-		research_cost = 1.5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			tier_technology
-		}
-	}
-
-	train_tech = {
-
-		enable_equipments = {
-			train_equipment_1
-		}
-
-		research_cost = 1.5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			tier_technology
-		}
-	}
-
 	mana_reactor_tech = {
 
 		enable_building = {

@@ -234,6 +234,38 @@ core_bloodmyst = {
   }
 }
 
+#Core Hyjal
+core_hyjal = {
+  custom_effect_tooltip = core_hyjal_tt
+  hidden_effect = {
+    64 = { add_core_of = ROOT }
+    1485 = { add_core_of = ROOT }
+    1486 = { add_core_of = ROOT }
+    1487 = { add_core_of = ROOT }
+    1488 = { add_core_of = ROOT }
+    1489 = { add_core_of = ROOT }
+    1490 = { add_core_of = ROOT }
+    1491 = { add_core_of = ROOT }
+    1492 = { add_core_of = ROOT }
+    1493 = { add_core_of = ROOT }
+    1494 = { add_core_of = ROOT }
+    1495 = { add_core_of = ROOT }
+    1496 = { add_core_of = ROOT }
+    1497 = { add_core_of = ROOT }
+    1498 = { add_core_of = ROOT }
+    1499 = { add_core_of = ROOT }
+    1500 = { add_core_of = ROOT }
+    1501 = { add_core_of = ROOT }
+    1502 = { add_core_of = ROOT }
+    1503 = { add_core_of = ROOT }
+    1505 = { add_core_of = ROOT }
+    1997 = { add_core_of = ROOT }
+    1998 = { add_core_of = ROOT }
+    1999 = { add_core_of = ROOT }
+    2126 = { add_core_of = ROOT }
+  }
+}
+
 #Core Azshara
 core_azshara = {
   custom_effect_tooltip = core_azshara_tt

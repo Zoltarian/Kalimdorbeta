@@ -1,0 +1,79 @@
+equipments = {
+	#archetype
+	caravan_equipment = {
+		year = 1910
+
+		is_archetype = yes
+		is_buildable = no
+		active = yes
+		type = train
+		picture = archetype_train
+		group_by = archetype
+		sprite = train
+
+		interface_category = interface_category_land
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		build_cost_ic = 70
+		resources = {
+			ores = 1
+			wood = 1
+		}
+	}
+	# regular trains
+	caravan_equipment_1 = {
+		year = 592
+
+		archetype = caravan_equipment
+		type = {
+			train
+		}
+
+		priority = 10
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		build_cost_ic = 60
+		resources = {
+			mounts = 1
+			wood = 1
+			ores = 1
+		}
+	}
+
+	# cheap trains
+	caravan_equipment_2 = {
+		year = 596
+
+		archetype = caravan_equipment
+		parent = caravan_equipment_1
+		type = {
+			train
+		}
+
+		priority = 20
+
+		armor_value = 125
+
+		build_cost_ic = 80
+
+	}
+
+	# armored trains
+	caravan_equipment_3 = {
+		year = 601
+		archetype = caravan_equipment
+		parent = caravan_equipment_2
+		type = {
+			train
+		}
+
+		priority = 30
+
+		armor_value = 250 # HP = BASE_TRAIN_HP + armor_value
+
+		build_cost_ic = 100
+
+	}
+}

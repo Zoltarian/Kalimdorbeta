@@ -1,3 +1,100 @@
 characters={
+  VIL_vile_priestess_hexx = {
+    name = VIL_vile_priestess_hexx
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/VIL/hexx.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = horde_type
+      desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = alliance_type
+      desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = death_type
+      desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = fel_type
+      desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = old_gods
+      desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = titans_type
+      desc = "POLITICS_VILE_PRIESTESS_HEXX_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  VIL_qiaga = {
+    name = VIL_qiaga
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/VIL/qiaga.dds"
+      }
+    }
+
+    corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  VIL_mortagya = {
+    name = VIL_mortagya
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/VIL/Morta'gya.dds"
+      }
+    }
+
+    navy_leader = {
+			traits = {  }
+			skill = 3
+		}
+  }
 }

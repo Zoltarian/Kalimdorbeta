@@ -1,3 +1,86 @@
 characters={
+  VFT_muad = {
+    name = VFT_muad
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/VFT/muad.dds"
+      }
+    }
 
+    country_leader = {
+      ideology = neutral_type
+      desc = "POLITICS_MUAD_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = horde_type
+      desc = "POLITICS_MUAD_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = alliance_type
+      desc = "POLITICS_MUAD_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = death_type
+      desc = "POLITICS_MUAD_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = fel_type
+      desc = "POLITICS_MUAD_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = old_gods
+      desc = "POLITICS_MUAD_DESC"
+      traits = { }
+      id = -1
+    }
+
+    country_leader = {
+      ideology = titans_type
+      desc = "POLITICS_MUAD_DESC"
+      traits = { }
+      id = -1
+    }
+
+    field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
+
+  VFT_deeb = {
+    name = VFT_deeb
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/VFT/deeb.dds"
+      }
+    }
+
+    corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+  }
 }
