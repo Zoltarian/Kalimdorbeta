@@ -54,6 +54,9 @@ set_technology = {
 
 }
 
+recruit_character = RZM_lok
+recruit_character = RZM_mangletooth
+
 set_politics = {	
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -69,61 +72,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Lok"
-	desc = "POLITICS_LOK_DESC"
-	picture = "gfx/leaders/RZM/lok_orcbane.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lok"
-	desc = "POLITICS_LOK_DESC"
-	picture = "gfx/leaders/RZM/lok_orcbane.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lok"
-	desc = "POLITICS_LOK_DESC"
-	picture = "gfx/leaders/RZM/lok_orcbane.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Lok"
-	picture = "gfx/leaders/RZM/lok_orcbane.dds"
-	traits = {  }
-	id = 51600
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Mangletooth"
-	picture = "gfx/leaders/RZM/mangletooth.dds"
-	traits = {  }
-	id = 51601
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

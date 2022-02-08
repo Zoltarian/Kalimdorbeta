@@ -17,7 +17,6 @@ add_ideas = {
 }
 
 set_technology = {
-
 	town_hall_tech = 1
 	peasants_tech = 1
 	support_equipment_tech = 1
@@ -28,6 +27,8 @@ set_technology = {
 
 }
 
+recruit_character = RFT_chief_ragefeather
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -36,7 +37,6 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
 }
 
 set_politics = {
@@ -44,85 +44,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Chief Wingwood"
-	desc = "POLITICS_CHIEF_WINGWOOD_DESC"
-	picture = "chief_wingwood.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Wingwood"
-	desc = "POLITICS_CHIEF_WINGWOOD_DESC"
-	picture = "chief_wingwood.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Wingwood"
-	desc = "POLITICS_CHIEF_WINGWOOD_DESC"
-	picture = "chief_wingwood.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Wingwood"
-	desc = "POLITICS_CHIEF_WINGWOOD_DESC"
-	picture = "chief_wingwood.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Wingwood"
-	desc = "POLITICS_CHIEF_WINGWOOD_DESC"
-	picture = "chief_wingwood.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ragefeather"
-	desc = "POLITICS_CHIEF_RAGEFEATHER_DESC"
-	picture = "chief_ragefeather.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Chief Ragefeather"
-	picture = "chief_ragefeather.dds"
-	traits = {  }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-
 }

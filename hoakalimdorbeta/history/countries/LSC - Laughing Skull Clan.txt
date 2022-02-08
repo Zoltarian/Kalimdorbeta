@@ -47,6 +47,9 @@ set_technology = {
 
 }
 
+recruit_character = LSC_mogor
+recruit_character = LSC_orbis
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -62,96 +65,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-600.1.1 = {
-	create_country_leader = {
-		name = "Mogor"
-		desc = "POLITICS_MOGOR_DESC_INVASION_OF_DRAENOR"
-		picture = "gfx/leaders/LSC/mogor.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Mogor"
-		desc = "POLITICS_MOGOR_DESC_INVASION_OF_DRAENOR"
-		picture = "gfx/leaders/LSC/mogor.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Mogor"
-		desc = "POLITICS_MOGOR_DESC_INVASION_OF_DRAENOR"
-		picture = "gfx/leaders/LSC/mogor.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Mogor"
-	desc = "POLITICS_MOGOR_DESC"
-	picture = "gfx/leaders/LSC/mogor.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mogor"
-	desc = "POLITICS_MOGOR_DESC"
-	picture = "gfx/leaders/LSC/mogor.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mogor"
-	desc = "POLITICS_MOGOR_DESC"
-	picture = "gfx/leaders/LSC/mogor.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Mogor"
-	picture = "gfx/leaders/LSC/mogor.dds"
-	traits = {  }
-	id = 38700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Obris"
-	picture = "gfx/leaders/LSC/obris.dds"
-	traits = {  }
-	id = 38701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

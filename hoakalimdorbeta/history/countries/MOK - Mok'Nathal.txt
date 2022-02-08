@@ -32,6 +32,9 @@ set_technology = {
 	
 }
 
+recruit_character = MOK_leoroxx
+recruit_character = MOK_rexxar
+
 set_politics = {	
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -47,61 +50,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Leoroxx"
-	desc = "POLITICS_LEOROXX_DESC"
-	picture = "gfx/leaders/MOK/leoroxx.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Leoroxx"
-	desc = "POLITICS_LEOROXX_DESC"
-	picture = "gfx/leaders/MOK/leoroxx.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Leoroxx"
-	desc = "POLITICS_LEOROXX_DESC"
-	picture = "gfx/leaders/MOK/leoroxx.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Leoroxx"
-	picture = "gfx/leaders/MOK/leoroxx.dds"
-	traits = {  }
-	id = 41700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Rexxar"
-	picture = "gfx/leaders/MOK/rexxar.dds"
-	traits = {  }
-	id = 41701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

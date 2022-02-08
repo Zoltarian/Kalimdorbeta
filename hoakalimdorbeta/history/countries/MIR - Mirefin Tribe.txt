@@ -43,6 +43,9 @@ set_technology = {
 
 }
 
+recruit_character = MIR_dagun_the_ravenous
+recruit_character = MIR_burgle_eye
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -58,105 +61,4 @@ set_popularities = {
     old_gods = 25
     titans = 0
     neutral = 75
-}
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-
-		
-
-
-
-
-		naval_transport_2 = 1
-		aviary_tech = 1
-
-
-		blueprints_1 = 1
-
-
-
-
-
-
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}
-}
-create_country_leader = {
-	name = "Dagun the Ravenous"
-	desc = "POLITICS_DAGUN_THE_RAVENOUS_DESC"
-	picture = "Dagun.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Dagun the Ravenous"
-	desc = "POLITICS_DAGUN_THE_RAVENOUS_DESC"
-	picture = "Dagun.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Dagun the Ravenous"
-	desc = "POLITICS_DAGUN_THE_RAVENOUS_DESC"
-	picture = "Dagun.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Dagun the Ravenous"
-	desc = "POLITICS_DAGUN_THE_RAVENOUS_DESC"
-	picture = "Dagun.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Dagun the Ravenous"
-	desc = "POLITICS_DAGUN_THE_RAVENOUS_DESC"
-	picture = "Dagun.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Dagun the Ravenous"
-	picture = "Dagun.dds"
-	traits = {  }
-	id = 40800
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Burgle Eye"
-	picture = "burgle_eye.dds"
-	traits = {  }
-	id = 40801
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-	}
 }

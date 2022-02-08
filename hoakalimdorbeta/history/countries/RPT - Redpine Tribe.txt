@@ -16,6 +16,8 @@ add_ideas = {
 	primary_religion_shamanism
 }
 
+recruit_character = RPT_moldfang
+
 set_politics = {	
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -32,27 +34,3 @@ set_popularities = {
     titans = 0
     neutral = 100
 }
-
-create_country_leader = {
-	name = "Moldfang"
-	desc = "POLITICS_MOLDFANG_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Moldfang"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
-	id = 49800
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-

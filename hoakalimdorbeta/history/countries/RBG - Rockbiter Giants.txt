@@ -33,6 +33,8 @@ set_technology = {
 
 }
 
+recruit_character = RBG_rockbiter
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -48,23 +50,5 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
-}
-
-create_country_leader = {
-	name = "Rockbiter"
-	desc = "POLITICS_ROCKBITER_DESC"
-	picture = "rockbiter.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
 
 }

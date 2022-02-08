@@ -26,11 +26,12 @@ add_ideas = {
 	add_ideas = {
 		clan
 		
-
 		orc_primary_race
 
 		primary_religion_shamanism
 	}
+
+	recruit_character = OGR_warchief_thrall
 
 	set_politics = {
 		ruling_party = horde
@@ -39,25 +40,14 @@ add_ideas = {
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 100
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
-
-	create_country_leader = {
-		name = "Warchief Thrall"
-		desc = "POLITICS_THRALL_DESC"
-		picture = "warchief_thrall_vanilla.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
+	set_popularities = {
+		alliance = 0
+		horde = 100
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
 	}
 
 }
@@ -69,30 +59,10 @@ add_ideas = {
 	add_to_faction = OQW
 	add_to_faction = CWT
 
-	create_country_leader = {
-		name = "Warchief Thrall"
-		desc = "POLITICS_THRALL_DESC"
-		picture = "warchief_thrall_cataclysm.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-
 }
 
 621.1.1 = {
 
-	create_country_leader = {
-		name = "Warchief Garrosh Hellscream"
-		desc = "POLITICS_WARCHIEF_GARROSH_HELLSCREAM_DESC"
-		picture = "warchief_garrosh_hellscream.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
+	recruit_character = OGR_warchief_garrosh_hellscream
 
 }

@@ -24,13 +24,7 @@ set_technology = {
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 	
-
 	catapult_equipment_tech_1 = 1
-
-	
-	
-	
-	
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
@@ -53,26 +47,6 @@ set_popularities = {
     neutral = 90
 }
 
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-		aviary_tech = 1
-			
-		blueprints_1 = 1
-		
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}
-}
-
 617.1.1 = {
 	# Maybe move some stuff here to earlier start date
 
@@ -84,12 +58,12 @@ set_popularities = {
 	}
 
 	set_popularities = {
-    alliance = 0
-    horde = 90
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 10
+		alliance = 0
+		horde = 90
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 10
 	}
 }

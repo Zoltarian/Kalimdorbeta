@@ -67,6 +67,8 @@ set_technology = {
 	
 }
 
+recruit_character = NEF_pharaoh_tekanh
+
 set_politics = {
 	ruling_party = titans
 	last_election = "590.10.27"
@@ -83,16 +85,3 @@ set_popularities = {
     titans = 100
     neutral = 0
 }
-
-# The guy gets "corrupted" by Deathwing when Cataclysm start
-create_country_leader = {
-	name = "Pharaoh Tekahn"
-	desc = "POLITICS_PHARAOH_TEKAHN_DESC"
-	picture = "pharaoh_tekanh.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

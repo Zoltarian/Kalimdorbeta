@@ -27,6 +27,8 @@ add_ideas = {
 	pandaren_secondary_race
 }
 
+recruit_character = ROJ_widow_greenpaw
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -43,18 +45,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Widow Greenpaw"
-	desc = "POLITICS_WIDOW_GREENPAW_DESC"
-	picture = "widow_greenpaw.dds"
-	ideology = neutral_type
-	traits = {
-		jade_witch_trait
-	}
-}
-
-
-create_field_marshal = { }
-
-create_corps_commander = { }

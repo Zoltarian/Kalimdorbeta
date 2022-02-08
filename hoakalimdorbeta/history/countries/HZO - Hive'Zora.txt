@@ -49,6 +49,8 @@ set_technology = {
 
 }
 
+recruit_character = HZO_arakis
+
 set_politics = {
 	ruling_party = old_gods
 	last_election = "590.10.27"
@@ -65,15 +67,3 @@ set_popularities = {
     titans = 0
     neutral = 0
 }
-
-create_country_leader = {
-	name = "Arakis"
-	desc = "POLITICS_ARAKIS_DESC"
-	picture = "arakis.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

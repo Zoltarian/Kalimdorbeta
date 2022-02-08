@@ -1,12 +1,9 @@
 ﻿capital = 1227
 
-oob = "000_592"
-
-set_naval_oob = "000_592_naval"
-
-set_convoys = 10
+oob = "ICM_592"
 
 set_research_slots = 3
+
 set_technology = {
 	footman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
@@ -19,11 +16,7 @@ set_technology = {
 	
 }
 
-set_stability = 0.75
-set_war_support = 0.05
-
 add_ideas = {
-	
 	tribe
 	recruit_adventurers
 	peacetime_economy
@@ -33,6 +26,8 @@ add_ideas = {
 
 	primary_religion_shamanism
 }
+
+recruit_character = ICM_high_chieftain_roanauk_icemist
 
 set_popularities = {
 	alliance = 0
@@ -46,20 +41,8 @@ set_popularities = {
 }
 
 set_politics = {
-
 	ruling_party = neutral
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "High Chieftain Roanauk Icemist"
-	desc = "POLITICS_THANE_KURDRAN_DESC"
-	picture = "kurdran.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
 }

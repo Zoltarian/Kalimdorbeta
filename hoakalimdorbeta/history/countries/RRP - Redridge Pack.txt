@@ -32,6 +32,9 @@ set_technology = {
 	catapult_equipment_tech_1 = 1
 }
 
+recruit_character = RRM_yowler
+recruit_character = RRM_ribchaser
+
 set_politics = {	
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -47,61 +50,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Yowler"
-	desc = "POLITICS_YOWLER_DESC"
-	picture = "gfx/leaders/RRP/yowler.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yowler"
-	desc = "POLITICS_YOWLER_DESC"
-	picture = "gfx/leaders/RRP/yowler.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-    name = "Yowler"
-	desc = "POLITICS_YOWLER_DESC"
-	picture = "gfx/leaders/RRP/yowler.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Yowler"
-	picture = "gfx/leaders/RRP/yowler.dds"
-	traits = {  }
-	id = 50400
-	skill = 3
-        attack_skill = 2
-        defense_skill = 2
-        planning_skill = 2
-        logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Ribchaser"
-	picture = "gfx/leaders/RRP/ribchaser.dds"
-	traits = {  }
-	id = 50401
-	skill = 3
-        attack_skill = 2
-        defense_skill = 2
-        planning_skill = 2
-        logistics_skill = 2
 }

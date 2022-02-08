@@ -60,22 +60,27 @@ set_technology = {
 
 592.1.1 = {
 
+	recruit_character = LOR_king_terenas_menethil
+	recruit_character = LOR_uther_the_lightbringer
+	recruit_character = LOR_turalyon
+	recruit_character = LOR_othmar_garithos
+
 	set_politics = {
-	ruling_party = alliance
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
+		ruling_party = alliance
+		last_election = "590.10.27"
+		election_frequency = 48
+		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 100
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
+	set_popularities = {
+		alliance = 100
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
+	}
 }
 
 596.1.1 = {
@@ -193,98 +198,10 @@ set_technology = {
 		}
 	}
 
-	create_country_leader = {
-		name = "King Terenas Menethil II"
-		desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC_POST_SECOND_WAR"
-		picture = "Terenas_Menethil_II.dds"
-		expire = "1965.1.1"
-		ideology = alliance_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "King Terenas Menethil II"
-		desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC_POST_SECOND_WAR"
-		picture = "Terenas_Menethil_II.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
 }
 
 617.1.1 = {
 	# LOR doesn't exist at Classic start date
 	# Dissolve Alliance of Lordaeron (to make place for The Alliance)
 	dismantle_faction = yes
-}
-
-create_country_leader = {
-	name = "King Terenas Menethil II"
-	desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC"
-	picture = "Terenas_Menethil_II.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Terenas Menethil II"
-	desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC"
-	picture = "Terenas_Menethil_II.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Arthas Menethil"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Uther the Lightbringer"
-	picture = "Uther_the_Lightbringer.dds"
-	traits = {  }
-	id = 38400
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Turalyon"
-	picture = "turalyon.dds"
-	traits = {  }
-	id = 38401
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Othmar Garithos"
-	picture = "Garithos.dds"
-	traits = {  }
-	id = 38402
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

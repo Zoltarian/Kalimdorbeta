@@ -21,6 +21,8 @@ add_ideas = {
 	primary_religion_followers_of_helya
 }
 
+recruit_character = HRG_driottinn_hrothgar
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -36,78 +38,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Drottinn Hrothgar"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Drottinn Hrothgar"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Drottinn Hrothgar"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Drottinn Hrothgar"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Drottinn Hrothgar"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Drottinn Hrothgar"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

@@ -140,6 +140,9 @@ if = {
 	}
 }
 
+recruit_character = KAL_tyrande_whisperwind
+recruit_character = KAL_shandris_feathermoon
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -148,18 +151,17 @@ set_politics = {
 }
 
 set_popularities = {
-  alliance = 0
-  horde = 0
-  death = 0
-  fel = 0
-  old_gods = 0
-  titans = 0
-  neutral = 100
+	alliance = 0
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 100
 }
 
 617.1.1 = {
 	capital = 1343
-
 
 	set_politics = {
 		ruling_party = alliance
@@ -177,49 +179,4 @@ set_popularities = {
 	    titans = 0
 	    neutral = 0
 	}
-}
-
-create_country_leader = {
-	name = "Tyrande Whisperwind"
-	desc = "POLITICS_TYRANDE_WHISPERWIND_FIRST_WAR_DESC"
-	picture = "gfx/leaders/KAL/Tyrande_Whisperwind.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Tyrande Whisperwind"
-	desc = "POLITICS_TYRANDE_WHISPERWIND_FIRST_WAR_DESC"
-	picture = "gfx/leaders/KAL/Tyrande_Whisperwind.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-
-create_field_marshal = {
-	name = "Tyrande Whisperwind"
-	picture = "gfx/leaders/KAL/Tyrande_Whisperwind.dds"
-	traits = {  }
-	id = 35700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Shandris Feathermoon"
-	picture = "gfx/leaders/KAL/shandris_feathermoon.dds"
-	traits = {  }
-	id = 35701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

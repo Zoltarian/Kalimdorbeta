@@ -27,6 +27,8 @@ set_technology = {
 	scout_tower_1 = 1
 }
 
+recruit_character = FSK_sylvanas_windrunner
+
 set_politics = {
 	ruling_party = horde
 	last_election = "590.10.27"
@@ -42,27 +44,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-create_country_leader = {
-	name = "Sylvanas Windrunner"
-	desc = "POLITICS_SYLVANAS_WINDRUNNER_VANILLA_DESC"
-	picture = "gfx/leaders/FSK/Sylvanas_Windrunner.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Sylvanas Windrunner"
-	picture = "gfx/leaders/FSK/Sylvanas_Windrunner.dds"
-	traits = {  }
-	id = 24600
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

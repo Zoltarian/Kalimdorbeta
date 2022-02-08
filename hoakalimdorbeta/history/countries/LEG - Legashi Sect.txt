@@ -40,6 +40,8 @@ set_technology = {
 	mage_equipment_tech_1 = 1
 }
 
+recruit_character = LEG_master_feardred
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -55,59 +57,4 @@ set_popularities = {
   old_gods = 0
   titans = 0
   neutral = 0
-}
-
-create_country_leader = {
-	name = "Master Feardred"
-	desc = "POLITICS_MASTER_FEARDRED_DESC"
-	picture = "master_feardred.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Master Feardred"
-	desc = "POLITICS_MASTER_FEARDRED_DESC"
-	picture = "master_feardred.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Master Feardred"
-	desc = "POLITICS_MASTER_FEARDRED_DESC"
-	picture = "master_feardred.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Master Feardred"
-	desc = "POLITICS_MASTER_FEARDRED_DESC"
-	picture = "master_feardred.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Master Feardred"
-	desc = "POLITICS_MASTER_FEARDRED_DESC"
-	picture = "master_feardred.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Master Feardred"
-	desc = "POLITICS_MASTER_FEARDRED_DESC"
-	picture = "master_feardred.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
 }

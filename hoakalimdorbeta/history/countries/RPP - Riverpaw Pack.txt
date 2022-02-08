@@ -30,14 +30,13 @@ set_technology = {
 	archer_weapons_tech_1 = 1
 
 	support_equipment_tech = 1
-	
 
 	mount_taming_1 = 1
 
-	
-	naval_transport_1 = 1
-
 }
+
+recruit_character = RPP_hogger
+recruit_character = RPP_fedfennel
 
 set_politics = {
 	ruling_party = neutral
@@ -54,61 +53,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Hogger"
-	desc = "POLITICS_HOGGER_DESC"
-	picture = "gfx/leaders/RPP/hogger.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hogger"
-	desc = "POLITICS_HOGGER_DESC"
-	picture = "gfx/leaders/RPP/hogger.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Hogger"
-	desc = "POLITICS_HOGGER_DESC"
-	picture = "gfx/leaders/RPP/hogger.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Hogger"
-	picture = "gfx/leaders/RPP/hogger.dds"
-	traits = {  }
-	id = 49500
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Fedfennel"
-	picture = "gfx/leaders/RPP/fedfennel.dds"
-	traits = {  }
-	id = 49501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

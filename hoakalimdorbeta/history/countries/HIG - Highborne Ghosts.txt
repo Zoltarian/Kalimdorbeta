@@ -32,6 +32,8 @@ set_technology = {
 
 }
 
+recruit_character = HIG_lord_southfury
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -47,14 +49,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Lord Southfury"
-	desc = "POLITICS_LORD_SOUTHFURY_DESC"
-	picture = "gfx/leaders/HIG/lord_southfury.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
 }

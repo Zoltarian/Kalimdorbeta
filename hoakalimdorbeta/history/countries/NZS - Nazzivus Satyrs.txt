@@ -41,6 +41,8 @@ set_technology = {
 
 }
 
+recruit_character = NZS_nazzivus
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -56,85 +58,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Nazzivus"
-	desc = "POLITICS_NAZZIVUS_DESC"
-	picture = "nazzivus.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nazzivus"
-	desc = "POLITICS_NAZZIVUS_DESC"
-	picture = "nazzivus.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nazzivus"
-	desc = "POLITICS_NAZZIVUS_DESC"
-	picture = "nazzivus.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nazzivus"
-	desc = "POLITICS_NAZZIVUS_DESC"
-	picture = "nazzivus.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nazzivus"
-	desc = "POLITICS_NAZZIVUS_DESC"
-	picture = "nazzivus.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nazzivus"
-	desc = "POLITICS_NAZZIVUS_DESC"
-	picture = "nazzivus.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Nazzivus"
-	picture = "nazzivus.dds"
-	traits = {  }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-
 }

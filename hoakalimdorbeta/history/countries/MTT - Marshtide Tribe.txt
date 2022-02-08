@@ -31,12 +31,13 @@ set_technology = {
 
 	support_equipment_tech = 1
 	
-
 	mount_taming_1 = 1
 
-	
 	naval_transport_1 = 1
 }
+
+recruit_character = MTT_fingat
+recruit_character = MTT_gilmorian
 
 set_politics = {
 	ruling_party = neutral
@@ -53,61 +54,4 @@ set_popularities = {
     old_gods = 5
     titans = 0
     neutral = 95
-}
-
-create_country_leader = {
-	name = "Fingat"
-	desc = "POLITICS_FINGAT_DESC"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Fingat"
-	desc = "POLITICS_FINGAT_DESC"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Fingat"
-	desc = "POLITICS_FINGAT_DESC"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Fingat"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	traits = {  }
-	id = 42900
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Gilmorian"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc1.dds"
-	traits = {  }
-	id = 42901
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

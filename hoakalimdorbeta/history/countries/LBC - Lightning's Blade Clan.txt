@@ -44,6 +44,11 @@ set_technology = {
 }
 
 592.1.1 = {
+
+	recruit_character = LBC_hatock_the_gronnmaster
+	recruit_character = LBC_grotan_the_herald
+	recruit_character = LBC_skal_the_trapper
+
 	set_politics = {
 		ruling_party = fel
 		last_election = "590.10.27"
@@ -60,73 +65,4 @@ set_technology = {
 		titans = 0
 		neutral = 0
 	}
-}
-
-create_country_leader = {
-	name = "Hatock the Gronnmaster"
-	desc = "POLITICS_HATOCK_THE_GRONNMASTER_DESC"
-	picture = "gfx/leaders/LBC/hatock_the_gronnmaster.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hatock the Gronnmaster"
-	desc = "POLITICS_HATOCK_THE_GRONNMASTER_DESC"
-	picture = "gfx/leaders/LBC/hatock_the_gronnmaster.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hatock the Gronnmaster"
-	desc = "POLITICS_HATOCK_THE_GRONNMASTER_DESC"
-	picture = "gfx/leaders/LBC/hatock_the_gronnmaster.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Hatock the Gronnmaster"
-	picture = "gfx/leaders/LBC/hatock_the_gronnmaster.dds"
-	traits = {  }
-	id = 37200
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Grotan the Herald"
-	picture = "gfx/leaders/LBC/grotan_the_herald.dds"
-	traits = {  }
-	id = 37201
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Skal the Trapper"
-	picture = "gfx/leaders/LBC/skal_the_trapper.dds"
-	traits = {  }
-	id = 37202
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

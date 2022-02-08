@@ -40,6 +40,12 @@ set_technology = {
 	scout_tower_1 = 1
 
 }
+
+recruit_character = OOM_yngwie
+recruit_character = OOM_teloch
+recruit_character = OOM_malmo
+recruit_character = OOM_gaahl
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -56,87 +62,15 @@ set_popularities = {
     titans = 0
     neutral = 100
 }
+
 596.1.1 = {
 	set_technology = {
 		footman_weapons_tech_2 = 1
-
-		
-
-
-
-
 		naval_transport_2 = 1
 		aviary_tech = 1
-
-
 		blueprints_1 = 1
-
-
-
-
-
-
-
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
 	}
-}
-create_country_leader = {
-	name = "Yngwie"
-	desc = "POLITICS_YNGWIE_DESC"
-	picture = "Yngwie.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Yngwie"
-	picture = "gfx/leaders/OOM/Yngwie.dds"
-	traits = {  }
-	id = 45000
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Teloch"
-	picture = "Portrait_OOM_Generic_land_1.dds"
-	traits = {  }
-	id = 45001
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Malmo"
-	picture = "Portrait_OOM_Generic_land_2.dds"
-	traits = {  }
-	id = 45002
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Gaahl"
-	picture = "Portrait_OOM_Generic_land_.dds"
-	traits = {  }
-	id = 45003
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

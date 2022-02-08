@@ -34,6 +34,8 @@ set_technology = {
 
 }
 
+recruit_character = RMH_rustmaul_broodmother
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -50,15 +52,3 @@ set_popularities = {
     titans = 0
     neutral = 100
 }
-
-create_country_leader = {
-	name = "Rustmaul Broodmother"
-	desc = "POLITICS_RUSTMAUL_BROODMOTHER_DESC"
-	picture = "rustmaul_broodmother.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

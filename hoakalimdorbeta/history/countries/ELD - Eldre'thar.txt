@@ -72,13 +72,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Lord Ro'minate"
-	desc = "POLITICS_LORD_ROMINATE_DESC"
-	picture = "lord_rominate.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}

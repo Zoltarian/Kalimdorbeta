@@ -60,6 +60,9 @@ set_technology = {
 
 }
 
+recruit_character = HWT_chief_hawkwind
+recruit_character = HWT_kador_cloudsong
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -75,83 +78,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Chief Hawkwind"
-	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
-	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Hawkwind"
-	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
-	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Hawkwind"
-	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
-	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Chief Hawkwind"
-	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
-	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Chief Hawkwind"
-	desc = "POLITICS_CHIEF_HAWKWIND_DESC"
-	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Chief Hawkwind"
-	picture = "gfx/leaders/HWT/chief_hawkwind.dds"
-	traits = {  }
-	id = 34500
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Kador Cloudsong"
-	picture = "gfx/leaders/HWT/kador_cloudsong.dds"
-	traits = {  }
-	id = 34501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

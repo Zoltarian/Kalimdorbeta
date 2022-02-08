@@ -51,31 +51,11 @@ set_technology = {
 
 }
 
+recruit_character = HAS_aluntir
+
 set_politics = {
 	ruling_party = old_gods
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 100
-    titans = 0
-    neutral = 0
-}
-
-create_country_leader = {
-	name = "Aluntir"
-	desc = "POLITICS_ALUNTIR_DESC"
-	picture = "aluntir.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

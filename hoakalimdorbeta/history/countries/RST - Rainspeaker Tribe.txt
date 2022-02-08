@@ -24,6 +24,8 @@ add_to_faction = MWA
 add_to_faction = MWH
 add_to_faction = SKT
 
+recruit_character = RST_high_oracle_soosay
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -39,23 +41,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "High-Oracle Soo-say"
-	desc = "POLITICS_HIGH_ORACLE_SOOSAY_DESC"
-	picture = "soo-say.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

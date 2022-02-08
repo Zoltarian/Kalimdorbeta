@@ -63,6 +63,8 @@ set_technology = {
 	
 }
 
+recruit_character = RKH_king_phaoris
+
 set_politics = {
 	ruling_party = titans
 	last_election = "590.10.27"
@@ -79,16 +81,3 @@ set_popularities = {
     titans = 100
     neutral = 0
 }
-
-create_country_leader = {
-	name = "King Phaoris"
-	desc = "POLITICS_KING_PHAORIS_DESC"
-	picture = "king_phaoris.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-
-596.1.1 = {}

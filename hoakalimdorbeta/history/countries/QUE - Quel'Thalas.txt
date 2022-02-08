@@ -54,6 +54,11 @@ add_ideas = {
 		free_trade
 	}
 
+	recruit_character = QUE_anasterian_sunstrider
+	recruit_character = QUE_alleria_windrunner
+	recruit_character = QUE_sylvanas_windrunner
+	recruit_character = QUE_lorthemar_theron
+
 	set_politics = {
 		ruling_party = neutral
 		last_election = "590.10.27"
@@ -61,33 +66,24 @@ add_ideas = {
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 100
-  }
+	set_popularities = {
+		alliance = 0
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 100
+	}
 
 	set_technology = {
 		footman_weapons_tech_2 = 1
-
-		
 		catapult_equipment_tech_2 = 1
-
-
-
-
 		naval_transport_2 = 1
-
 		organic_flight = 1
 		fighter_breeds_1 = 1
 		endurance_breeds = 1
-
 		blueprints_1 = 1
-
 		rogues_guild = 1
 		encryption_1 = 1
 		decryption_1 = 1
@@ -109,17 +105,17 @@ add_ideas = {
 		last_election = "590.10.27"
 		election_frequency = 48
 		elections_allowed = no
-		}
+	}
 
-  set_popularities = {
-    alliance = 15
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 85
-  }
+	set_popularities = {
+		alliance = 15
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 85
+	}
 }
 
 600.1.1 = {
@@ -136,122 +132,15 @@ add_ideas = {
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 100
-  }
-
-	create_country_leader = {
-		name = "Regent Lord Lor'Themar Theron"
-		desc = "POLITICS_LORTHEMAR_DESC"
-		picture = "lor'themar.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
+	set_popularities = {
+		alliance = 0
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 100
 	}
 
-	create_field_marshal = {
-		name = "Ranger-General Halduron Brightwing"
-		traits = {  }
-		skill = 3
-	    attack_skill = 2
-	    defense_skill = 2
-	    planning_skill = 2
-	    logistics_skill = 2
-	}
 }
 
-create_country_leader = {
-	name = "Anasterian Sunstrider"
-	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
-	picture = "anasterian_sunstrider.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Anasterian Sunstrider"
-	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
-	picture = "anasterian_sunstrider.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Anasterian Sunstrider"
-	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
-	picture = "anasterian_sunstrider.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Anasterian Sunstrider"
-	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
-	picture = "anasterian_sunstrider.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Anasterian Sunstrider"
-	desc = "POLITICS_ANASTERIAN_SUNSTRIDER_DESC"
-	picture = "anasterian_sunstrider.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Ranger-Captain Alleria Windrunner"
-	picture = "Alleria.dds"
-	traits = {  }
-	id = 46500
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Ranger-General Sylvanas Windrunner"
-	picture = "Sylvanas.dds"
-	traits = {  }
-	id = 46501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Lor'Themar Theron"
-	picture = "lor'themar.dds"
-	traits = {  }
-	id = 46502
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}

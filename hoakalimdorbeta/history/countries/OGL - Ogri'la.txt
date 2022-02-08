@@ -46,6 +46,9 @@ set_technology = {
 
 }
 
+recruit_character = OGL_mogdork_the_wizened
+recruit_character = OGL_kronk 
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -61,96 +64,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-610.1.1 = {
-	create_country_leader = {
-		name = "Mog'dorg the Wizened"
-		desc = "POLITICS_MOGDORG_THE_WIZENED_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/OGL/mogdorg_the_wizened.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Mog'dorg the Wizened"
-		desc = "POLITICS_MOGDORG_THE_WIZENED_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/OGL/mogdorg_the_wizened.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Mog'dorg the Wizened"
-		desc = "POLITICS_MOGDORG_THE_WIZENED_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/OGL/mogdorg_the_wizened.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Mog'dorg the Wizened"
-	desc = "POLITICS_MOGDORG_THE_WIZENED_DESC"
-	picture = "gfx/leaders/OGL/mogdorg_the_wizened.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mog'dorg the Wizened"
-	desc = "POLITICS_MOGDORG_THE_WIZENED_DESC"
-	picture = "gfx/leaders/OGL/mogdorg_the_wizened.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mog'dorg the Wizened"
-	desc = "POLITICS_MOGDORG_THE_WIZENED_DESC"
-	picture = "gfx/leaders/OGL/mogdorg_the_wizened.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Mog'dorg the Wizened"
-	picture = "gfx/leaders/OGL/mogdorg_the_wizened.dds"
-	traits = {  }
-	id = 44400
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Kronk"
-	picture = "gfx/leaders/OGL/kronk.dds"
-	traits = {  }
-	id = 44401
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

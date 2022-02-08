@@ -23,6 +23,8 @@ add_ideas = {
 }
 set_technology = {}
 
+recruit_character = NDF_corrupted_ysera
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -38,30 +40,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Corrupted Ysera"
-	desc = "POLITICS_CORRUPTED_YSERA_DESC"
-	picture = "corrupted_ysera.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Corrupted Ysera"
-	picture = "corrupted_ysera.dds"
-	traits = {  }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-
 }

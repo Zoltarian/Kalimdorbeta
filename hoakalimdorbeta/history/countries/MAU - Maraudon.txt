@@ -1,6 +1,6 @@
-﻿capital = 1185
+﻿capital = 1181
 
-oob = "MGC_592"
+oob = "MAU_592"
 
 set_research_slots = 3
 
@@ -16,7 +16,8 @@ add_ideas = {
 	primary_trait_might_of_the_khan
 	primary_trait_nomadic_people
 
-	primary_religion_shamanism
+	primary_religion_followers_of_the_stonemother
+	secondary_religion_shamanism
 }
 
 set_technology = {
@@ -35,8 +36,6 @@ set_technology = {
 	footman_tech = 1
 	footman_weapons_tech_1 = 1
 	guard_tech = 1
-	archer_tech = 1
-	archer_weapons_tech_1 = 1
 
 	stable_tech_1 = 1
 	mount_taming_1 = 1
@@ -50,7 +49,7 @@ set_technology = {
 
 }
 
-recruit_character = MGC_khan_jehn
+recruit_character = MAU_princess_theradras
 
 set_politics = {
 	ruling_party = neutral
@@ -60,11 +59,11 @@ set_politics = {
 }
 
 set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 100
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 100
 }

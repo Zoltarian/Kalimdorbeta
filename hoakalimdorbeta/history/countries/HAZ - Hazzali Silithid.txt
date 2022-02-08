@@ -50,6 +50,8 @@ set_technology = {
 
 }
 
+recruit_character = HAZ_haarka_the_ravenous
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -66,15 +68,3 @@ set_popularities = {
     titans = 0
     neutral = 100
 }
-
-create_country_leader = {
-	name = "Haarka the Ravenous"
-	desc = "POLITICS_HAARKA_THE_RAVENOUS_DESC"
-	picture = "haarka.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

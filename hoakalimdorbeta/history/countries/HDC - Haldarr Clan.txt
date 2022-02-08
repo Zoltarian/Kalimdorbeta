@@ -34,6 +34,8 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 }
 
+recruit_character = HDC_prince_haldarr
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -49,14 +51,4 @@ set_popularities = {
   old_gods = 0
   titans = 0
   neutral = 0
-}
-
-create_country_leader = {
-	name = "Prince Haldarr"
-	desc = "POLITICS_PRINCE_HALDARR_DESC"
-	picture = "prince_haldarr.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
 }
