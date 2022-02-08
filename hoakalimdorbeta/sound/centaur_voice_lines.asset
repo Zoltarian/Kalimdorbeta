@@ -1,0 +1,384 @@
+category = {
+    name = "Voices"
+    soundeffects = {
+   
+       GAL_infantry_idle
+       GAL_infantry_neutral_combat
+       GAL_infantry_positive_combat
+       GAL_infantry_retreat
+       GAL_infantry_move_out
+
+       GLC_infantry_idle
+       GLC_infantry_neutral_combat
+       GLC_infantry_positive_combat
+       GLC_infantry_retreat
+       GLC_infantry_move_out
+
+       KOL_infantry_idle
+       KOL_infantry_neutral_combat
+       KOL_infantry_positive_combat
+       KOL_infantry_retreat
+       KOL_infantry_move_out
+
+       MAU_infantry_idle
+       MAU_infantry_neutral_combat
+       MAU_infantry_positive_combat
+       MAU_infantry_retreat
+       MAU_infantry_move_out
+
+       MGC_infantry_idle
+       MGC_infantry_neutral_combat
+       MGC_infantry_positive_combat
+       MGC_infantry_retreat
+       MGC_infantry_move_out
+       
+    }
+   
+   }
+   
+   ########## GAL
+   
+   soundeffect = {
+       name = "GAL_infantry_idle"
+       sounds = {
+           sound = Centaur_Idle_001
+           sound = Centaur_Idle_002
+           sound = Centaur_Idle_003      
+       }
+       volume = 1
+       max_audible = 1
+       
+   }
+   soundeffect = {
+       name = "GAL_infantry_neutral_combat"
+       sounds = {
+           sound = Centaur_Combat_001
+           sound = Centaur_Combat_002
+           sound = Centaur_Combat_003
+           sound = Centaur_Combat_004
+       }
+       volume = 1
+       max_audible = 1
+   
+   }
+   soundeffect = {
+       name = "GAL_infantry_positive_combat"
+       sounds = {
+           sound = Centaur_Combat_001
+           sound = Centaur_Combat_002
+           sound = Centaur_Combat_003
+           sound = Centaur_Combat_004
+       }
+       volume = 1
+       max_audible = 1
+   
+   }
+   soundeffect = {
+       name = "GAL_infantry_retreat"
+       sounds = {
+           sound = Centaur_Move_001
+           sound = Centaur_Move_002
+           sound = Centaur_Move_003
+       }
+       volume = 1
+       max_audible = 1
+   
+   }
+   soundeffect = {
+       name = "GAL_infantry_move_out"
+       sounds = {
+           sound = Centaur_Move_001
+           sound = Centaur_Move_002
+           sound = Centaur_Move_003
+       }
+       volume = 1
+       max_audible = 1
+   
+   }
+
+   ########## GLC
+   
+   soundeffect = {
+    name = "GLC_infantry_idle"
+    sounds = {
+        sound = Centaur_Idle_001
+        sound = Centaur_Idle_002
+        sound = Centaur_Idle_003      
+    }
+    volume = 1
+    max_audible = 1
+    
+}
+soundeffect = {
+    name = "GLC_infantry_neutral_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "GLC_infantry_positive_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "GLC_infantry_retreat"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "GLC_infantry_move_out"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+
+   ########## KOL
+   
+   soundeffect = {
+    name = "KOL_infantry_idle"
+    sounds = {
+        sound = Centaur_Idle_001
+        sound = Centaur_Idle_002
+        sound = Centaur_Idle_003      
+    }
+    volume = 1
+    max_audible = 1
+    
+}
+soundeffect = {
+    name = "KOL_infantry_neutral_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "KOL_infantry_positive_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "KOL_infantry_retreat"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "KOL_infantry_move_out"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+
+   ########## MAU
+   
+   soundeffect = {
+    name = "MAU_infantry_idle"
+    sounds = {
+        sound = Centaur_Idle_001
+        sound = Centaur_Idle_002
+        sound = Centaur_Idle_003      
+    }
+    volume = 1
+    max_audible = 1
+    
+}
+soundeffect = {
+    name = "MAU_infantry_neutral_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "MAU_infantry_positive_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "MAU_infantry_retreat"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "MAU_infantry_move_out"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+
+   ########## MGC
+   
+   soundeffect = {
+    name = "MGC_infantry_idle"
+    sounds = {
+        sound = Centaur_Idle_001
+        sound = Centaur_Idle_002
+        sound = Centaur_Idle_003      
+    }
+    volume = 1
+    max_audible = 1
+    
+}
+soundeffect = {
+    name = "MGC_infantry_neutral_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "MGC_infantry_positive_combat"
+    sounds = {
+        sound = Centaur_Combat_001
+        sound = Centaur_Combat_002
+        sound = Centaur_Combat_003
+        sound = Centaur_Combat_004
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "MGC_infantry_retreat"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+soundeffect = {
+    name = "MGC_infantry_move_out"
+    sounds = {
+        sound = Centaur_Move_001
+        sound = Centaur_Move_002
+        sound = Centaur_Move_003
+    }
+    volume = 1
+    max_audible = 1
+
+}
+   
+sound = {
+    name = "Centaur_Idle_001"
+    file = "voice_lines/Centaur/Centaur_Idle_1.wav"
+}
+sound = {
+    name = "Centaur_Idle_002"
+    file = "voice_lines/Centaur/Centaur_Idle_2.wav"
+}
+sound = {
+    name = "Centaur_Idle_003"
+    file = "voice_lines/Centaur/Centaur_Idle_3.wav"
+}
+
+sound = {
+    name = "Centaur_Combat_001"
+    file = "voice_lines/Centaur/Centaur_Attack_1.wav"
+    always_load = yes
+}
+sound = {
+    name = "Centaur_Combat_002"
+    file = "voice_lines/Centaur/Centaur_Attack_2.wav"
+    always_load = yes
+}
+sound = {
+    name = "Centaur_Combat_003"
+    file = "voice_lines/Centaur/Centaur_Attack_3.wav"
+    always_load = yes
+}
+sound = {
+    name = "Centaur_Combat_004"
+    file = "voice_lines/Centaur/Centaur_Attack_4.wav"
+    always_load = yes
+}
+
+sound = {
+    name = "Centaur_Move_001"
+    file = "voice_lines/Centaur/Centaur_Move_1.wav"
+}
+sound = {
+    name = "Centaur_Move_002"
+    file = "voice_lines/Centaur/Centaur_Move_2.wav"
+}
+sound = {
+    name = "Centaur_Move_003"
+    file = "voice_lines/Centaur/Centaur_Move_3.wav"
+}
