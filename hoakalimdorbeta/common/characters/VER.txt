@@ -3,7 +3,7 @@ characters={
     name = VER_fungalmancer_glop
     portraits = {
       civilian = {
-        large = "gfx/leaders/VER/fungalmancer_glop.dds"
+        large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
       }
     }
 
@@ -43,7 +43,7 @@ characters={
     }
 
     country_leader = {
-      ideology = old_gods
+      ideology = old_gods_type
       desc = "POLITICS_FUNGALMANCER_GLOP_DESC"
       traits = { }
       id = -1

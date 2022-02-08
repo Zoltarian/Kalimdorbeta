@@ -3,7 +3,7 @@ characters={
     name = VFT_muad
     portraits = {
       civilian = {
-        large = "gfx/leaders/VFT/muad.dds"
+        large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
       }
     }
 
@@ -43,7 +43,7 @@ characters={
     }
 
     country_leader = {
-      ideology = old_gods
+      ideology = old_gods_type
       desc = "POLITICS_MUAD_DESC"
       traits = { }
       id = -1
@@ -70,7 +70,7 @@ characters={
     name = VFT_deeb
     portraits = {
       civilian = {
-        large = "gfx/leaders/VFT/deeb.dds"
+        large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
       }
     }
 

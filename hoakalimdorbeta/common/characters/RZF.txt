@@ -1,3 +1,55 @@
 characters={
 
+	RZF_charlga_razorflank = {
+		name = RZF_charlga_razorflank
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/RZF/charlga_razorflank.dds"
+			}
+			army = {
+				large = "gfx/leaders/RZF/charlga_razorflank.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_CHARLGA_RAZORFLANK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHARLGA_RAZORFLANK_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RZF_warlord_ramtusk = {
+		name = RZF_warlord_ramtusk
+		portraits = {
+			army = {
+				large = "gfx/leaders/RZF/warlord_ramtusk.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

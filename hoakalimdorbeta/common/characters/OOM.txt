@@ -1,3 +1,85 @@
 characters={
 
+	OOM_yngwie = {
+		name = OOM_yngwie
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/OOM/Yngwie.dds"
+			}
+			army = {
+				large = "gfx/leaders/OOM/Yngwie.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_YNGWIE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	OOM_teloch = {
+		name = OOM_teloch
+		portraits = {
+			army = {
+				large = "gfx/leaders/OOM/Portrait_OOM_Generic_land_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	OOM_malmo = {
+		name = OOM_malmo
+		portraits = {
+			army = {
+				large = "gfx/leaders/OOM/Portrait_OOM_Generic_land_2.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	OOM_gaahl = {
+		name = OOM_gaahl
+		portraits = {
+			army = {
+				large = "gfx/leaders/OOM/Portrait_OOM_Generic_land_3.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

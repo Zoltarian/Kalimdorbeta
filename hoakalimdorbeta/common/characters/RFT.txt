@@ -1,3 +1,31 @@
 characters={
 
+	RFT_chief_ragefeather = {
+		name = RFT_chief_ragefeather
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/RFT/chief_ragefeather.dds"
+			}
+			army = {
+				large = "gfx/leaders/RFT/chief_ragefeather.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEF_RAGEFEATHER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

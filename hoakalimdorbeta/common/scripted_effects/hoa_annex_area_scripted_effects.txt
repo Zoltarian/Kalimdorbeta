@@ -35,6 +35,34 @@ annex_bloodmyst = {
   }
 }
 
+#Darkshore
+annex_darkshore = {
+  custom_effect_tooltip = annex_darkshore_tt
+  hidden_effect = {
+    set_state_owner = 68
+    set_state_owner = 1390
+    set_state_owner = 1391
+    set_state_owner = 1392
+    set_state_owner = 1393
+    set_state_owner = 1394
+    set_state_owner = 1395
+    set_state_owner = 1396
+    set_state_owner = 1397
+    set_state_owner = 1398
+    set_state_owner = 1399
+    set_state_owner = 1400
+    set_state_owner = 1401
+    set_state_owner = 1402
+    set_state_owner = 1403
+    set_state_owner = 1404
+    set_state_owner = 1405
+    set_state_owner = 1406
+    set_state_owner = 1407
+    set_state_owner = 1408
+    set_state_owner = 1409
+  }
+}
+
 #Hyjal
 annex_hyjal = {
   custom_effect_tooltip = annex_hyjal_tt
@@ -250,6 +278,36 @@ annex_southern_barrens = {
     set_state_owner = 976
     set_state_owner = 977
     set_state_owner = 978
+  }
+}
+
+#Tanaris
+annex_tanaris = {
+  custom_effect_tooltip = annex_tanaris_tt
+  hidden_effect = {
+    set_state_owner = 79
+    set_state_owner = 925
+    set_state_owner = 926
+    set_state_owner = 927
+    set_state_owner = 928
+    set_state_owner = 929
+    set_state_owner = 930
+    set_state_owner = 931
+    set_state_owner = 932
+    set_state_owner = 933
+    set_state_owner = 934
+    set_state_owner = 935
+    set_state_owner = 936
+    set_state_owner = 937
+    set_state_owner = 938
+    set_state_owner = 939
+    set_state_owner = 940
+    set_state_owner = 941
+    set_state_owner = 942
+    set_state_owner = 943
+    set_state_owner = 944
+    set_state_owner = 945
+    set_state_owner = 2127
   }
 }
 

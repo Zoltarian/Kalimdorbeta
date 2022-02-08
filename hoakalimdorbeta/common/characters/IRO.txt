@@ -1,3 +1,79 @@
 characters={
 
+	IRO_king_magni_bronzebeard = {
+		name = IRO_king_magni_bronzebeard
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/IRO/magni_bronzebeard.dds"
+			}
+			army = {
+				large = "gfx/leaders/IRO/magni_bronzebeard.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = { #funny joke
+			ideology = titans_type
+			desc = "POLITICS_MAGNI_BRONZEBEARD_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRO_muradin_bronzebeard = {
+		name = IRO_muradin_bronzebeard
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRO/muradin_bronzebeard.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRO_brann_bronzebeard = {
+		name = IRO_brann_bronzebeard
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRO/brann_bronzebeard.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,79 @@
 characters={
 
+	LBC_hatock_the_gronnmaster = {
+		name = LBC_hatock_the_gronnmaster
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/LBC/hatock_the_gronnmaster.dds"
+			}
+			army = {
+				large = "gfx/leaders/LBC/hatock_the_gronnmaster.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_HATOCK_THE_GRONNMASTER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_HATOCK_THE_GRONNMASTER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_HATOCK_THE_GRONNMASTER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LBC_grotan_the_herald = {
+		name = LBC_grotan_the_herald
+		portraits = {
+			army = {
+				large = "gfx/leaders/LBC/grotan_the_herald.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LBC_skal_the_trapper = {
+		name = LBC_skal_the_trapper
+		portraits = {
+			army = {
+				large = "gfx/leaders/LBC/skal_the_trapper.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

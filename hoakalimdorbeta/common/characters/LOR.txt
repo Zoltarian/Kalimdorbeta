@@ -1,3 +1,91 @@
 characters={
 
+	LOR_king_terenas_menethil = {
+		name = LOR_king_terenas_menethil
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/LOR/Terenas_Menethil_II.dds"
+			}
+			army = {
+				large = "gfx/leaders/LOR/Terenas_Menethil_II.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_KING_TERENAS_MENETHIL_II_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LOR_uther_the_lightbringer = {
+		name = LOR_uther_the_lightbringer
+		portraits = {
+			army = {
+				large = "gfx/leaders/LOR/Uther_the_Lightbringer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LOR_turalyon = {
+		name = LOR_turalyon
+		portraits = {
+			army = {
+				large = "gfx/leaders/LOR/turalyon.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LOR_othmar_garithos = {
+		name = LOR_othmar_garithos
+		portraits = {
+			army = {
+				large = "gfx/leaders/LOR/Garithos.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

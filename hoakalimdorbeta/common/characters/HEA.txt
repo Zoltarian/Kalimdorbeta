@@ -1,3 +1,73 @@
 characters={
 
+	HEA_tirion_fordring = {
+		name = HEA_tirion_fordring
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/HEA/tirion_fordring.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEA/tirion_fordring.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_TIRION_FORDRING_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_TIRION_FORDRING_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	HEA_magistrate_barthilas = {
+		name = HEA_magistrate_barthilas
+		portraits = {
+			army = {
+				large = "gfx/leaders/HEA/magistrate_barthilias.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	HEA_saidan_dathrohan = {
+		name = HEA_saidan_dathrohan
+		portraits = {
+			army = {
+				large = "gfx/leaders/HEA/saidan_dathrohan.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1928,3 +1928,172 @@ form_shadowtooth_empire_category = {
 		}
 	}
 }
+
+form_shatterspear_empire_category = {
+	form_shatterspear_empire = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = STS
+		}
+
+		available = {
+			is_subject = no
+
+			control_darkshore_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = STS
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = STS_EMPIRE
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_darkshore = yes
+			core_darkshore = yes
+
+			set_cosmetic_tag = STS_EMPIRE
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+#Suggested by Pelle on the Discord, sadly.
+form_pygmy_sultanate_category = {
+	form_pygmy_sultanate = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = SPY
+		}
+
+		available = {
+			is_subject = no
+
+			OR = {
+				control_tanaris_directly_or_puppets = yes
+				control_uldum_directly_or_puppets = yes
+			}
+		}
+
+		visible = {
+			tag = SPY
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = SPY_SULTANATE
+				}
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = form_pygmy_sultanate_tt
+
+			if = {
+				limit = {
+					control_tanaris_directly_or_puppets = yes
+				}
+				annex_tanaris = yes
+				core_tanaris = yes
+			}
+
+			if = {
+				limit = {
+					control_uldum_directly_or_puppets = yes
+				}
+				annex_uldum = yes
+				core_uldum = yes
+			}
+
+			set_cosmetic_tag = SPY_SULTANATE
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	form_greater_pygmy_sultanate = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = SPY
+		}
+
+		available = {
+			is_subject = no
+
+			control_tanaris_directly_or_puppets = yes
+			control_uldum_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = SPY
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = SPY_GREATER_SULTANATE
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_tanaris = yes
+			annex_uldum = yes
+
+			core_tanaris = yes
+			core_uldum = yes
+
+			set_cosmetic_tag = SPY_GREATER_SULTANATE
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_keepers_of_uldum_category = {
+	form_keepers_of_uldum = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = ULD
+		}
+
+		available = {
+			is_subject = no
+
+			control_uldum_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = ULD
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = ULD_KEEPERS_OF_ULDUM
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_uldum = yes
+			core_uldum = yes
+
+			set_cosmetic_tag = ULD_KEEPERS_OF_ULDUM
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

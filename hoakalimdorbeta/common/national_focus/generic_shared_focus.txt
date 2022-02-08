@@ -99,6 +99,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = stay_neutral
 		focus = serving_higher_powers
+		focus = path_of_the_titans
 	}
 	x = 35
 	y = 4
@@ -464,6 +465,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = pick_a_side
 		focus = serving_higher_powers
+		focus = path_of_the_titans
 	}
 	relative_position_id = the_path_forward
 	x = 0
@@ -768,6 +770,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = pick_a_side
 		focus = stay_neutral
+		focus = path_of_the_titans
 	}
 	relative_position_id = the_path_forward
 	x = 10
@@ -1260,15 +1263,16 @@ shared_focus = {
 	icon = GFX_goal_support_democracy
 	cost = 5.00
 	prerequisite = {
-		focus = how_we_fight
+		focus = the_path_forward
 	}
-	relative_position_id = how_we_fight
-	x = 8
+	mutually_exclusive = {
+		focus = pick_a_side
+		focus = stay_neutral
+		focus = serving_higher_powers
+	}
+	relative_position_id = the_path_forward
+	x = 18
 	y = 1
-
-	allow_branch = {
-			has_government = titans
-  }
 
 	completion_reward = {
 		add_political_power = 100

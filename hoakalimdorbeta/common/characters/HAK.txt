@@ -1,3 +1,69 @@
 characters={
 
+	HAK_jindo_the_hexxer = {
+		name = HAK_jindo_the_hexxer
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/HAK/jindo_the_hexxer.dds"
+			}
+			army = {
+				large = "gfx/leaders/HAK/jindo_the_hexxer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_JINDO_THE_HEXXER_HAKKARI_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_JINDO_THE_HEXXER_HAKKARI_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	HAK_jammalan_the_prophet = {
+		name = HAK_jammalan_the_prophet
+		portraits = {
+			army = {
+				large = "gfx/leaders/HAK/jammalan_the_prophet.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_JAMMALAN_THE_PROPHET_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_JAMMALAN_THE_PROPHET_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

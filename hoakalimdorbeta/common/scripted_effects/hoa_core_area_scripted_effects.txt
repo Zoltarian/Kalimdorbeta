@@ -234,6 +234,34 @@ core_bloodmyst = {
   }
 }
 
+#Core Darkshore
+core_darkshore = {
+  custom_effect_tooltip = core_darkshore_tt
+  hidden_effect = {
+    68 = { add_core_of = ROOT }
+    1390 = { add_core_of = ROOT }
+    1391 = { add_core_of = ROOT }
+    1392 = { add_core_of = ROOT }
+    1393 = { add_core_of = ROOT }
+    1394 = { add_core_of = ROOT }
+    1395 = { add_core_of = ROOT }
+    1396 = { add_core_of = ROOT }
+    1397 = { add_core_of = ROOT }
+    1398 = { add_core_of = ROOT }
+    1399 = { add_core_of = ROOT }
+    1400 = { add_core_of = ROOT }
+    1401 = { add_core_of = ROOT }
+    1402 = { add_core_of = ROOT }
+    1403 = { add_core_of = ROOT }
+    1404 = { add_core_of = ROOT }
+    1405 = { add_core_of = ROOT }
+    1406 = { add_core_of = ROOT }
+    1407 = { add_core_of = ROOT }
+    1408 = { add_core_of = ROOT }
+    1409 = { add_core_of = ROOT }
+  }
+}
+
 #Core Hyjal
 core_hyjal = {
   custom_effect_tooltip = core_hyjal_tt
@@ -356,6 +384,36 @@ core_desolace = {
     1198 = { add_core_of = ROOT }
     1295 = { add_core_of = ROOT }
     1996 = { add_core_of = ROOT }
+  }
+}
+
+#Core Tanaris
+core_tanaris = {
+  custom_effect_tooltip = core_tanaris_tt
+  hidden_effect = {
+    79 = { add_core_of = ROOT }
+    925 = { add_core_of = ROOT }
+    926 = { add_core_of = ROOT }
+    927 = { add_core_of = ROOT }
+    928 = { add_core_of = ROOT }
+    929 = { add_core_of = ROOT }
+    930 = { add_core_of = ROOT }
+    931 = { add_core_of = ROOT }
+    932 = { add_core_of = ROOT }
+    933 = { add_core_of = ROOT }
+    934 = { add_core_of = ROOT }
+    935 = { add_core_of = ROOT }
+    936 = { add_core_of = ROOT }
+    937 = { add_core_of = ROOT }
+    938 = { add_core_of = ROOT }
+    939 = { add_core_of = ROOT }
+    940 = { add_core_of = ROOT }
+    941 = { add_core_of = ROOT }
+    942 = { add_core_of = ROOT }
+    943 = { add_core_of = ROOT }
+    944 = { add_core_of = ROOT }
+    945 = { add_core_of = ROOT }
+    2127 = { add_core_of = ROOT }
   }
 }
 

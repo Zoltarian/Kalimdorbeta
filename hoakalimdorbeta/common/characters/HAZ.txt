@@ -1,25 +1,25 @@
 characters={
 
-	ICM_high_chieftain_roanauk_icemist = {
-		name = ICM_high_chieftain_roanauk_icemist
+	HAZ_haarka_the_ravenous = {
+		name = HAZ_haarka_the_ravenous
 		portraits = {
 			civilian = { 
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/HAZ/haarka.dds"
 			}
 			army = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/HAZ/haarka.dds"
 				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
 			}
 		}
 		country_leader = {
-			ideology = neutral_type
-			desc = "POLITICS_HIGH_CHIEFTAIN_ROANAUK_ICEMIST_DESC"
+			ideology = old_gods_type
+			desc = "POLITICS_HAARKA_THE_RAVENOUS_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
-			ideology = horde_type
-			desc = "POLITICS_HIGH_CHIEFTAIN_ROANAUK_ICEMIST_DESC"
+			ideology = neutral_type
+			desc = "POLITICS_HAARKA_THE_RAVENOUS_DESC"
 			traits = {}
 			id = -1
 		}

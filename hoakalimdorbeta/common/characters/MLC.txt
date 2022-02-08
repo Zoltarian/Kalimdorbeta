@@ -1,3 +1,49 @@
 characters={
 
+	MLC_majordomo_executus = {
+		name = MLC_majordomo_executus
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/MLC/majordomo_executus.dds"
+			}
+			army = {
+				large = "gfx/leaders/MLC/majordomo_executus.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_MAJORDOMO_EXECUTUS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MLC_shazzrah = {
+		name = MLC_shazzrah
+		portraits = {
+			army = {
+				large = "gfx/leaders/MLC/Shazzrah.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

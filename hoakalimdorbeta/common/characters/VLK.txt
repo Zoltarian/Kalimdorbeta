@@ -3,7 +3,7 @@ characters={
     name = VLK_yulda_the_stormspeaker
     portraits = {
       civilian = {
-        large = "gfx/leaders/VLK/yulda_the_stormspeaker.dds"
+        large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
       }
     }
 
@@ -43,7 +43,7 @@ characters={
     }
 
     country_leader = {
-      ideology = old_gods
+      ideology = old_gods_type
       desc = "POLITICS_YULDA_THE_STORMSPEAKER_DESC"
       traits = { }
       id = -1

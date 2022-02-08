@@ -1,3 +1,73 @@
 characters={
 
+	RIV_chieftain_jale_rivermane = {
+		name = RIV_chieftain_jale_rivermane
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/RIV/Jale_Rivermane.dds"
+			}
+			army = {
+				large = "gfx/leaders/RIV/Jale_Rivermane.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_QUEEN_AZSHARA_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RIV_oakin_ironbull = {
+		name = RIV_oakin_ironbull
+		portraits = {
+			army = {
+				large = "gfx/leaders/RIV/Oakin_Ironbull.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RIV_morhun_rivertamer = {
+		name = RIV_morhun_rivertamer
+		portraits = {
+			army = {
+				large = "gfx/leaders/RIV/Morhun_Rivertamer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

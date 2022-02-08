@@ -1,3 +1,31 @@
 characters={
 
+	NDF_corrupted_ysera = {
+		name = NDF_corrupted_ysera
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/NDF/corrupted_ysera.dds"
+			}
+			army = {
+				large = "gfx/leaders/NDF/corrupted_ysera.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_CORRUPTED_YSERA_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

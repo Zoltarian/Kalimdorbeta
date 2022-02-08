@@ -1,3 +1,37 @@
 characters={
 
+	MWT_chief_moonfeather = {
+		name = MWT_chief_moonfeather
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/MWT/chief_moonfeather.dds"
+			}
+			army = {
+				large = "gfx/leaders/MWT/chief_moonfeather.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEF_MOONFEATHER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_CHIEF_MOONFEATHER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

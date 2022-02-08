@@ -1,3 +1,55 @@
 characters={
 
+	RPP_hogger = {
+		name = RPP_hogger
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/RPP/hogger.dds"
+			}
+			army = {
+				large = "gfx/leaders/RPP/hogger.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_HOGGER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_HOGGER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RPP_fedfennel = {
+		name = RPP_fedfennel
+		portraits = {
+			army = {
+				large = "gfx/leaders/RPP/fedfennel.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

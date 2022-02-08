@@ -1,3 +1,49 @@
 characters={
 
+	MOO_galarthus_rivertree = {
+		name = MOO_galarthus_rivertree
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/MOO/galarthus_rivertree.dds"
+			}
+			army = {
+				large = "gfx/leaders/MOO/galarthus_rivertree.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_GALARTHUS_RIVERTREE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MOO_syrana_starweaver = {
+		name = MOO_syrana_starweaver
+		portraits = {
+			army = {
+				large = "gfx/leaders/MOO/syrana_starweaver.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

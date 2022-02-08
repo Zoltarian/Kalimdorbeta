@@ -48,6 +48,34 @@ control_bloodmyst_directly_or_puppets = {
   }
 }
 
+#Darkshore
+control_darkshore_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_darkshore_directly_or_puppets_tt
+    68 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1390 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1391 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1392 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1393 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1394 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1395 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1396 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1397 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1398 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1399 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1400 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1401 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1402 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1403 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1404 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1405 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1406 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1407 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1408 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1409 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
 #Hyjal
 control_hyjal_directly_or_puppets = {
   custom_trigger_tooltip = {
@@ -141,7 +169,6 @@ control_desolace_directly_or_puppets = {
     1996 = { owned_and_controlled_by_ROOT_or_puppets = yes }
   }
 }
-
 
 #Durotar
 control_durotar_directly_or_puppets = {
@@ -265,6 +292,36 @@ control_southern_barrens_directly_or_puppets = {
     976 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     977 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     978 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Tanaris
+control_tanaris_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_tanaris_directly_or_puppets_tt
+    79 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    925 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    926 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    927 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    928 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    929 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    930 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    931 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    932 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    933 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    934 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    935 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    936 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    937 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    938 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    939 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    940 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    941 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    942 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    943 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    944 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    945 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2127 = { owned_and_controlled_by_ROOT_or_puppets = yes }
   }
 }
 

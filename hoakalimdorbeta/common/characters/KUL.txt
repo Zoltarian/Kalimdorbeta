@@ -1,3 +1,91 @@
 characters={
 
+	KUL_lord_admiral_daelin_proudmoore = {
+		name = KUL_lord_admiral_daelin_proudmoore
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/KUL/Daelin.dds"
+			}
+			army = {
+				large = "gfx/leaders/KUL/Daelin.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_DAELIN_PROUDMOORE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_DAELIN_PROUDMOORE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+
+	KUL_derek_proudmoore = {
+		name = KUL_derek_proudmoore
+		portraits = {
+			army = {
+				large = "gfx/leaders/KUL/derek.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+
+	KUL_lady_katherine_proudmoore = {
+		name = KUL_lady_katherine_proudmoore
+		portraits = {
+			army = {
+				large = "gfx/leaders/KUL/Katherine.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

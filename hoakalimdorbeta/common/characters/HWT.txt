@@ -1,3 +1,55 @@
 characters={
 
+	HWT_chief_hawkwind = {
+		name = HWT_chief_hawkwind
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/HWT/chief_hawkwind.dds"
+			}
+			army = {
+				large = "gfx/leaders/HWT/chief_hawkwind.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEF_HAWKWIND_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_CHIEF_HAWKWIND_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	HWT_kador_cloudsong = {
+		name = HWT_kador_cloudsong
+		portraits = {
+			army = {
+				large = "gfx/leaders/HWT/kador_cloudsong.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,37 @@
 characters={
 
+	MAU_princess_theradras = {
+		name = MAU_princess_theradras
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/MAU/princess_theradras.dds"
+			}
+			army = {
+				large = "gfx/leaders/MAU/princess_theradras.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_PRINCESS_THERADRAS_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_PRINCESS_THERADRAS_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }
