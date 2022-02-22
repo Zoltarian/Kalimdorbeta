@@ -46,6 +46,11 @@ set_technology = {
 
 }
 
+recruit_character = SHC_kargath_bladefist
+recruit_character = SHC_bagdoth_goredrinker
+recruit_character = SHC_valdune_fleshcrafter
+recruit_character = SHC_gardul_venomshiv
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -61,96 +66,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-create_country_leader = {
-	name = "Kargath Bladefist"
-	desc = "POLITICS_KARGATH_BLADEFIST_DESC"
-	picture = "gfx/leaders/SHC/kargath_bladefist.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kargath Bladefist"
-	desc = "POLITICS_KARGATH_BLADEFIST_DESC"
-	picture = "gfx/leaders/SHC/kargath_bladefist.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kargath Bladefist"
-	desc = "POLITICS_KARGATH_BLADEFIST_DESC"
-	picture = "gfx/leaders/SHC/kargath_bladefist.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kargath Bladefist"
-	desc = "POLITICS_KARGATH_BLADEFIST_DESC"
-	picture = "gfx/leaders/SHC/kargath_bladefist.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Kargath Bladefist"
-	picture = "gfx/leaders/SHC/kargath_bladefist.dds"
-	traits = {  }
-	id = 54300
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Bagdoth Goredrinker"
-	picture = "gfx/leaders/SHC/bagdoth_goredrinker.dds"
-	traits = {  }
-	id = 54301
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Val'dune Fleshcrafter"
-	picture = "gfx/leaders/SHC/valdune_fleshcrafter.dds"
-	traits = {  }
-	id = 54302
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Gardul Venomshiv"
-	picture = "gfx/leaders/SHC/gardul_venomshiv.dds"
-	traits = {  }
-	id = 54303
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

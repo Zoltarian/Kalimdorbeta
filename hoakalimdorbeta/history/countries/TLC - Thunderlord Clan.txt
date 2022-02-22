@@ -59,6 +59,9 @@ if = {
 	}
 }
 
+recruit_character = TLC_fenris_wolfbrother
+recruit_character = TLC_malgrim_stormhand
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -74,61 +77,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-create_country_leader = {
-	name = "Fenris Wolfbrother"
-	desc = "POLITICS_FENRIS_WOLFBROTHER_DESC"
-	picture = "gfx/leaders/TLC/fenris_wolfbrother.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fenris Wolfbrother"
-	desc = "POLITICS_FENRIS_WOLFBROTHER_DESC"
-	picture = "gfx/leaders/TLC/fenris_wolfbrother.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fenris Wolfbrother"
-	desc = "POLITICS_FENRIS_WOLFBROTHER_DESC"
-	picture = "gfx/leaders/TLC/fenris_wolfbrother.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Fenris Wolfbrother"
-	picture = "gfx/leaders/TLC/fenris_wolfbrother.dds"
-	traits = {  }
-	id = 66600
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Malgrim Stormhand"
-	picture = "gfx/leaders/TLC/malgrim_stormhand.dds"
-	traits = {  }
-	id = 66601
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

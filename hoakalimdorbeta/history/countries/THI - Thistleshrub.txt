@@ -29,6 +29,8 @@ set_technology = {
 	blacksmith_tech = 1
 }
 
+recruit_character = THi_lord_thistle
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -44,22 +46,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Lord Thistle"
-	desc = "POLITICS_LORD_THISTLE_DESC"
-	picture = "lord_thistle.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

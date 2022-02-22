@@ -29,18 +29,18 @@ set_technology = {
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 	
-	
 	catapult_equipment_tech_1 = 1
-	
-	
-	
-	
 	
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
 	
 }
+
+recruit_character = STH_archbishop_alonsus_faol
+recruit_character = STH_saidan_dathrohan
+recruit_character = STH_alexandros_mograine
+
 set_politics = {	
 	ruling_party = alliance
 	last_election = "590.10.27"
@@ -58,38 +58,13 @@ set_popularities = {
     neutral = 0
 }
 
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-		aviary_tech = 1
-		
-		
-		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}	
-	
+596.1.1 = {	
 	set_politics = {		
 		ruling_party = alliance
 		last_election = "590.10.27"
 		election_frequency = 48
 		elections_allowed = no
-}
+	}
 
     set_popularities = {
         alliance = 100

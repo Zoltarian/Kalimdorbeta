@@ -59,6 +59,9 @@ set_technology = {
 
 }
 
+recruit_character = TMT_ahmo_thunderhorn
+recruit_character = TMT_adana_thunderhorn
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -74,83 +77,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Ahmo Thunderhorn"
-	desc = "POLITICS_AHMO_THUNDERHORN_DESC"
-	picture = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ahmo Thunderhorn"
-	desc = "POLITICS_AHMO_THUNDERHORN_DESC"
-	picture = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ahmo Thunderhorn"
-	desc = "POLITICS_AHMO_THUNDERHORN_DESC"
-	picture = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rissen Ahmo Thunderhorn"
-	desc = "POLITICS_AHMO_THUNDERHORN_DESC"
-	picture = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Corrupted Ahmo Thunderhorn"
-	desc = "POLITICS_AHMO_THUNDERHORN_DESC"
-	picture = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Ahmo Thunderhorn"
-	picture = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
-	traits = {  }
-	id = 67800
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Adana Thunderhorn"
-	picture = "gfx/leaders/TMT/adana_thunderhorn.dds"
-	traits = {  }
-	id = 67801
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

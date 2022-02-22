@@ -49,6 +49,8 @@ set_technology = {
 	mounted_footman_tech = 1
 }
 
+recruit_character = SOP_elder_stonespire
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -64,22 +66,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Elder Stonespire"
-	desc = "POLITICS_ELDER_STONESPIRE_DESC"
-	picture = "elder_stonespire.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

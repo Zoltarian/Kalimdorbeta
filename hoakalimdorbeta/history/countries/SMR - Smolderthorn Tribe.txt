@@ -1,8 +1,6 @@
 ﻿capital = 195
 
-oob = "000_592"
-
-set_naval_oob = "000_592_naval"
+oob = "SMR_592"
 
 set_convoys = 10
 
@@ -20,6 +18,8 @@ add_ideas = {
 
 }
 
+recruit_character = SMR_war_master_voone
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -36,72 +36,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "War Master Voone"
-	desc = "POLITICS_VOONE_DESC"
-	picture = "voone.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "War Master Voone"
-	desc = "POLITICS_VOONE_DESC"
-	picture = "voone.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "War Master Voone"
-	desc = "POLITICS_VOONE_DESC"
-	picture = "voone.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "War Master Voone"
-	desc = "POLITICS_VOONE_DESC"
-	picture = "voone.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "War Master Voone"
-	desc = "POLITICS_VOONE_DESC"
-	picture = "voone.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "War Master Voone"
-	desc = "POLITICS_VOONE_DESC"
-	picture = "voone.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

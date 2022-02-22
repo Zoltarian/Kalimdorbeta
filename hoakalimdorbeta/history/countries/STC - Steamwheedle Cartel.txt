@@ -61,6 +61,10 @@ if = {
 	}
 }
 
+recruit_character = STC_trade_prince_steamwheedle
+recruit_character = STC_the_great_pisani
+recruit_character = STC_trade_baron_silversnap
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -97,31 +101,6 @@ set_popularities = {
 		primary_religion_irreligious
 	}
 
-	set_technology = {
-		footman_weapons_tech_2 = 1
-
-		
-
-
-
-
-		naval_transport_2 = 1
-		aviary_tech = 1
-
-
-		blueprints_1 = 1
-
-
-
-
-
-
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}
-
 	set_politics = {
 		ruling_party = horde
 		last_election = "590.10.27"
@@ -130,14 +109,14 @@ set_popularities = {
 	}
 
 	set_popularities = {
-    alliance = 0
-    horde = 100
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
+		alliance = 0
+		horde = 100
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
+	}
 }
 
 617.1.1 = {
@@ -153,14 +132,14 @@ set_popularities = {
 	}
 
 	set_popularities = {
-    alliance = 0
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 100
-  }
+		alliance = 0
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 100
+	}
 
 	#Gadgetzan
 	if = {
@@ -206,79 +185,4 @@ set_popularities = {
 			puppet = EVR
 		}
 	}
-}
-
-create_country_leader = {
-	name = "Trade Prince Steamwheedle"
-	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
-	picture = "steemwheedle.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Trade Prince Steamwheedle"
-	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
-	picture = "steemwheedle.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Trade Prince Steamwheedle"
-	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
-	picture = "steemwheedle.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Trade Prince Steamwheedle"
-	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
-	picture = "steemwheedle.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Trade Prince Steamwheedle"
-	desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
-	picture = "steemwheedle.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "The Great Pisani"
-	picture = "pisani.dds"
-	traits = {  }
-	id = 60900
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-
-}
-create_navy_leader = {
-	name = "Trade Baron Silversnap"
-	picture = "silversnap.dds"
-	traits = {  }
-	id = 60901
-	skill = 3
 }

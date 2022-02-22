@@ -2,8 +2,6 @@ capital = 1905
 
 oob = "UGT_592"
 
-set_naval_oob = "UGT_592_naval"
-
 set_convoys = 10
 
 set_research_slots = 3
@@ -18,6 +16,8 @@ add_ideas = {
 
 	hozen_primary_race
 }
+
+recruit_character = UGT_chief_ingoo_ingoo
 
 set_popularities = {
 	alliance = 0
@@ -35,67 +35,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Chief Ingoo Ingoo XVII"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ingoo Ingoo XVII"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ingoo Ingoo XVII"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ingoo Ingoo XVII"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ingoo Ingoo XVII"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chief Ingoo Ingoo XVII"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = { }
-
-create_corps_commander = { }

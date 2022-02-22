@@ -30,19 +30,15 @@ set_technology = {
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 	
-	
 	catapult_equipment_tech_1 = 1
-
-	
-	
-	
-	
-	
-	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
 	
 }
+
+recruit_character = SKE_terokk
+recruit_character = SKE_kirrik_the_awakened
+recruit_character = SKE_rilak
 
 set_politics = {	
 	ruling_party = neutral
@@ -59,82 +55,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Terokk"
-	desc = "POLITICS_TEROKK_DESC"
-	picture = "gfx/leaders/SKE/terokk.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Terokk"
-	desc = "POLITICS_TEROKK_DESC"
-	picture = "gfx/leaders/SKE/terokk.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Terokk"
-	desc = "POLITICS_TEROKK_DESC"
-	picture = "gfx/leaders/SKE/terokk.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Terokk"
-	desc = "POLITICS_TEROKK_DESC"
-	picture = "gfx/leaders/SKE/terokk.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Terokk"
-	picture = "gfx/leaders/SKE/terokk.dds"
-	traits = {  }
-	id = 55500
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Kirrik the Awakened"
-	picture = "gfx/leaders/SKE/kirrik_the_awakened.dds"
-	traits = {  }
-	id = 55501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Rilak"
-	picture = "gfx/leaders/SKE/rilak.dds"
-	traits = {  }
-	id = 55502
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

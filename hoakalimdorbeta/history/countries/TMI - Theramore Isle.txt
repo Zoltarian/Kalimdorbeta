@@ -16,6 +16,8 @@ add_ideas = {
 	primary_trait_perception
 }
 
+recruit_character = TMI_jaina_proudmoore
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -32,7 +34,6 @@ set_popularities = {
 	titans = 0
 	neutral = 100
 }
-
 
 617.1.1 = {
 	# Maybe move to earlier start date
@@ -52,34 +53,4 @@ set_popularities = {
 	    titans = 0
 	    neutral = 30
 	}
-}
-
-create_country_leader = {
-	name = "Jaina Proudmoore"
-	desc = "POLITICS_JAINA_PROUDMOORE_DESC"
-	picture = "jaina.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jaina Proudmoore"
-	desc = "POLITICS_JAINA_PROUDMOORE_DESC"
-	picture = "jaina.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

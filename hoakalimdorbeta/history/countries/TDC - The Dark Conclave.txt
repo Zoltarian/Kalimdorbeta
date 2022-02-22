@@ -39,6 +39,9 @@ set_technology = {
 
 }
 
+recruit_character = TDC_asghar
+recruit_character = TDC_parshah
+
 set_politics = {
 	ruling_party = old_gods
 	last_election = "590.10.27"
@@ -54,74 +57,4 @@ set_popularities = {
     old_gods = 100
     titans = 0
     neutral = 0
-}
-
-610.1.1 = {
-	create_country_leader = {
-		name = "Asghar"
-		desc = "POLITICS_ASHGAR_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/TDC/asghar.dds"
-		expire = "1965.1.1"
-		ideology = old_gods_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Asghar"
-		desc = "POLITICS_ASHGAR_DESC_POST_SHATTERING"
-		picture = "gfx/leaders/TDC/asghar.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Asghar"
-	desc = "POLITICS_ASHGAR_DESC"
-	picture = "gfx/leaders/TDC/asghar.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Asghar"
-	desc = "POLITICS_ASHGAR_DESC"
-	picture = "gfx/leaders/TDC/asghar.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Asghar"
-	picture = "gfx/leaders/TDC/asghar.dds"
-	traits = {  }
-	id = 63900
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Parshah"
-	picture = "gfx/leaders/TDC/parshah.dds"
-	traits = {  }
-	id = 63901
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

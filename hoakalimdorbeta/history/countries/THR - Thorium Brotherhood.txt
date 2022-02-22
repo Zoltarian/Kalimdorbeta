@@ -37,6 +37,9 @@ set_technology = {
 	
 }
 
+recruit_character = THR_overseer_oilfist
+recruit_character = THR_malyfous_darkhammer
+
 set_politics = {	
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -52,61 +55,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Overseer Oilfist"
-	desc = "POLITICS_OVERSEER_OILFIST_DESC"
-	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Overseer Oilfist"
-	desc = "POLITICS_OVERSEER_OILFIST_DESC"
-	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Overseer Oilfist"
-	desc = "POLITICS_OVERSEER_OILFIST_DESC"
-	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Overseer Oilfist"
-	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-	traits = {  }
-	id = 65100
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Malyfous Darkhammer"
-	picture = "gfx/leaders/DIC/Portrait_DIC_Generic_land_4.dds"
-	traits = {  }
-	id = 65101
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

@@ -9,6 +9,8 @@ add_ideas = {
 	titan_watcher_primary_race
 }
 
+recruit_character = UDA_archaedas
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -24,14 +26,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Archaedas"
-	desc = "POLITICS_ARCHAEDAS_DESC"
-	picture = "archaedas.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
 }

@@ -92,19 +92,19 @@
 				equipment = { light_frigate_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "1st Battleship"
 				definition = battleship
 				equipment = { battleship_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "2nd Battleship"
 				definition = battleship
 				equipment = { battleship_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "3rd Battleship"
 				definition = battleship
 				equipment = { battleship_equipment_2 = { amount = 1 owner = KUL } }
@@ -116,14 +116,14 @@
 				equipment = { battleship_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-			ship = {
-				name = "Proudmoore's Flagship"
-				definition = carrier
-				equipment = { carrier_equipment_2 = { amount = 1 owner = KUL } }
-				air_wings = {
-					hoa_organic_fighter_equipment_1 =  { owner = "KUL" amount = 6 }
-				}
-			}
+			#ship = {
+			#	name = "Proudmoore's Flagship"
+			#	definition = carrier
+			#	equipment = { carrier_equipment_2 = { amount = 1 owner = KUL } }
+			#	air_wings = {
+			#		organic_fighter_equipment_1 =  { owner = "KUL" amount = 6 }
+			#	}
+			#}
 	
 		}	
 	}
@@ -152,19 +152,19 @@
 				equipment = { destroyer_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "12th Destroyer"
 				definition = destroyer
 				equipment = { destroyer_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "13th Destroyer"
 				definition = destroyer
 				equipment = { destroyer_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "7th Frigate"
 				definition = light_frigate
 				equipment = { light_frigate_equipment_2 = { amount = 1 owner = KUL } }
@@ -182,26 +182,26 @@
 				equipment = { light_frigate_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "5th Battleship"
 				definition = battleship
 				equipment = { battleship_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-					ship = {
+			ship = {
 				name = "6th Battleship"
 				definition = battleship
 				equipment = { battleship_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-			ship = {
-				name = "1st Command Ship"
-				definition = carrier
-				equipment = { carrier_equipment_1 = { amount = 1 owner = KUL } }
-				air_wings = {
-					hoa_organic_fighter_equipment_1 =  { owner = "KUL" amount = 2 }
-				}
-			}
+			#ship = {
+			#	name = "1st Command Ship"
+			#	definition = carrier
+			#	equipment = { carrier_equipment_1 = { amount = 1 owner = KUL } }
+			#	air_wings = {
+			#		organic_fighter_equipment_1 =  { owner = "KUL" amount = 2 }
+			#	}
+			#}
 	
 		}	
 	}
@@ -260,14 +260,14 @@
 				equipment = { light_frigate_equipment_2 = { amount = 1 owner = KUL } }
 			}
 			
-			ship = {
-				name = "2nd Command Ship"
-				definition = carrier
-				equipment = { carrier_equipment_1 = { amount = 1 owner = KUL } }
-				air_wings = {
-					hoa_organic_fighter_equipment_1 =  { owner = "KUL" amount = 2 }
-				}
-			}
+			#ship = {
+			#	name = "2nd Command Ship"
+			#	definition = carrier
+			#	equipment = { carrier_equipment_1 = { amount = 1 owner = KUL } }
+			#	air_wings = {
+			#		organic_fighter_equipment_1 =  { owner = "KUL" amount = 2 }
+			#	}
+			#}
 	
 		}	
 	}

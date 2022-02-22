@@ -13,12 +13,7 @@ set_technology = {
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 	
-	
 	catapult_equipment_tech_1 = 1
-	
-	
-	
-	
 	
 	naval_transport_1 = 1
 	town_hall_tech = 1
@@ -37,6 +32,9 @@ add_ideas = {
 	
 	primary_religion_followers_of_the_tidehunter
 }
+
+recruit_character = SAL_mrrgrl_the_tide_reaver
+
 set_politics = {	
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -52,96 +50,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-		aviary_tech = 1
-		
-		
-		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}	
-}
-create_country_leader = {
-	name = "Mrrgrl the Tide Reaver"
-	desc = "POLITICS_GOD_KING_RASTAKHAN_DESC"
-	picture = "Tide_Reaver.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mrrgrl the Tide Reaver"
-	desc = "POLITICS_GOD_KING_RASTAKHAN_DESC"
-	picture = "Tide_Reaver.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mrrgrl the Tide Reaver"
-	desc = "POLITICS_GOD_KING_RASTAKHAN_DESC"
-	picture = "Tide_Reaver.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mrrgrl the Tide Reaver"
-	desc = "POLITICS_GOD_KING_RASTAKHAN_DESC"
-	picture = "Tide_Reaver.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mrrgrl the Tide Reaver"
-	desc = "POLITICS_GOD_KING_RASTAKHAN_DESC"
-	picture = "Tide_Reaver.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Mrrgrl the Tide Reaver"
-	picture = "Tide_Reaver.dds"
-	traits = {  }
-	id = 51900
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

@@ -45,6 +45,9 @@ set_technology = {
 	
 }
 
+recruit_character = SRD_thrymjaris
+recruit_character = SRD_nithogg
+
 set_politics = {
 	ruling_party = titans
 	last_election = "590.10.27"
@@ -60,133 +63,4 @@ set_popularities = {
     old_gods = 0
     titans = 80
     neutral = 20
-}
-
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-
-		support_breeds = 1
-		
-		
-		
-
-		support_breeds = 1
-		
-		
-		
-
-		
-		
-		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}
-}
-
-create_country_leader = {
-	name = "Thrymjaris"
-	desc = "POLITICS_JARL_VELBRAND_DESC"
-	picture = "Thrymjaris.dds"
-	expire = "1965.1.1"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Thrymjaris"
-	desc = "POLITICS_JARL_VELBRAND_DESC"
-	picture = "Thrymjaris.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Thrymjaris"
-	desc = "POLITICS_JARL_VELBRAND_DESC"
-	picture = "Thrymjaris.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nithogg"
-	desc = "POLITICS_JARL_VELBRAND_DESC"
-	picture = "Nithogg.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nithogg"
-	desc = "POLITICS_JARL_VELBRAND_DESC"
-	picture = "Nithogg.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nithogg"
-	desc = "POLITICS_JARL_VELBRAND_DESC"
-	picture = "Nithogg.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Thrymjaris"
-	picture = "Thrymjaris.dds"
-	traits = {  }
-	id = 59400
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Nithogg"
-	picture = "Nithogg.dds"
-	traits = {  }
-	id = 59401
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

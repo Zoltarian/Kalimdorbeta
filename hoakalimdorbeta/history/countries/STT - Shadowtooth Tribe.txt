@@ -45,6 +45,8 @@ set_technology = {
 	mage_equipment_tech_1 = 1
 }
 
+recruit_character = STT_speaker_iknal
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -60,22 +62,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Speaker Ik'nal"
-	desc = "POLITICS_SPEAKER_IKNAL_DESC"
-	picture = "speaker_iknal.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

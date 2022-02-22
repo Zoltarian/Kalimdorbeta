@@ -31,21 +31,15 @@ set_technology = {
 	arch_mage_equipment_tech_1 = 1
 	arch_mage_equipment_tech_2 = 1
 	
-	
-
 	mount_taming_1 = 1
-	
 	
 	naval_transport_1 = 1
 	
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
-	
-	
-	
-	
 }
+
+recruit_character = TMB_aegwynn
 
 set_politics = {	
 	ruling_party = neutral
@@ -62,23 +56,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Aegwynn"
-	desc = "POLITICS_AEGWYNN_DESC"
-	picture = "gfx/leaders/TMB/Aegwynn.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Aegwynn"
-	picture = "gfx/leaders/TMB/Aegwynn.dds"
-	traits = {   }
-	id = 67500
-	skill = 3
 }

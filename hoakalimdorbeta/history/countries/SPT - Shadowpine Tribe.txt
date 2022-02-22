@@ -26,26 +26,17 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	pikeman_weapons_tech_1 = 1
 	archer_weapons_tech_1 = 1
-
-	
 	support_equipment_tech = 1
-	
-
 	mount_taming_1 = 1
 	knight_tech_1 = 1
-
 	catapult_equipment_tech_1 = 1
-
-	
-	
-	
-	
 	naval_transport_1 = 1
-
 	town_hall_tech = 1
 	scout_tower_1 = 1
-	
 }
+
+recruit_character = SPT_kelgash_the_wicked
+recruit_character = SPT_threshjin
 
 set_politics = {
 	ruling_party = neutral
@@ -92,40 +83,16 @@ set_popularities = {
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 0
-    horde = 100
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
-
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-		aviary_tech = 1
-		
-		
-		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
+	set_popularities = {
+		alliance = 0
+		horde = 100
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
 	}
+
 }
 
 617.1.1 = {
@@ -146,50 +113,4 @@ set_popularities = {
 	    titans = 0
 	    neutral = 100
 	}
-}
-
-create_country_leader = {
-	name = "Kel'gash the Wicked"
-	desc = "POLITICS_KELGASH_THE_WICKED_DESC"
-	picture = "gfx/leaders/AMA/amagen2.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kel'gash the Wicked"
-	desc = "POLITICS_KELGASH_THE_WICKED_DESC"
-	picture = "gfx/leaders/AMA/amagen2.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Kel'gash the Wicked"
-	picture = "gfx/leaders/AMA/amagen2.dds"
-	traits = {  }
-	id = 58500
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Thresh'jin"
-	picture = "gfx/leaders/AMA/amagen1.dds"
-	traits = {  }
-	id = 58501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

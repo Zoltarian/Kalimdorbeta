@@ -39,6 +39,8 @@ set_technology = {
 	naval_transport_1 = 1
 }
 
+recruit_character = SSM_slimeshell
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -54,76 +56,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Slimeshell"
-	desc = "POLITICS_SLIMESHELL_DESC"
-	picture = "slimeshell.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Slimeshell"
-	desc = "POLITICS_SLIMESHELL_DESC"
-	picture = "slimeshell.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Slimeshell"
-	desc = "POLITICS_SLIMESHELL_DESC"
-	picture = "slimeshell.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Slimeshell"
-	desc = "POLITICS_SLIMESHELL_DESC"
-	picture = "slimeshell.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Slimeshell"
-	desc = "POLITICS_SLIMESHELL_DESC"
-	picture = "slimeshell.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Slimeshell"
-	desc = "POLITICS_SLIMESHELL_DESC"
-	picture = "slimeshell.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Slimeshell"
-	desc = "POLITICS_SLIMESHELL_DESC"
-	picture = "slimeshell.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

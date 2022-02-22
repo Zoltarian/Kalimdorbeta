@@ -17,6 +17,8 @@ add_ideas = {
 	primary_religion_shamanism
 }
 
+recruit_character = SWT_loguhn
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -28,18 +30,7 @@ set_popularities = {
 
 }
 
-create_country_leader = {
-	name = "Loguhn"
-	desc = "POLITICS_LOGUHN_DESC"
-	picture = "loguhn.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
 set_politics = {
-
 	ruling_party = neutral
 	last_election = "590.10.27"
 	election_frequency = 48

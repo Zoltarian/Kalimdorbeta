@@ -2,8 +2,6 @@
 
 oob = "TTT_592"
 
-set_naval_oob = "TTT_592_naval"
-
 set_convoys = 10
 
 set_research_slots = 3
@@ -28,19 +26,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

@@ -2,8 +2,6 @@ capital = 1945
 
 oob = "SLI_592"
 
-set_naval_oob = "SLI_592_naval"
-
 set_convoys = 10
 
 set_research_slots = 3
@@ -36,12 +34,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	ideology = neutral_type
-	traits = { }
-}
-
-create_field_marshal = { }
-
-create_corps_commander = { }

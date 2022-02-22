@@ -31,6 +31,8 @@ set_technology = {
 	naval_transport_1 = 1
 }
 
+recruit_character = SPY_sultan_oogah
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -46,15 +48,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-596.1.1 = {}
-
-create_country_leader = {
-	name = "Sultan Oogah"
-	desc = "POLITICS_SULTAN_OOGAH_DESC"
-	picture = "sultan_oogah.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
 }

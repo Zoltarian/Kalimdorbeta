@@ -57,6 +57,8 @@ set_technology = {
 	transport_breeds_1 = 1
 }
 
+recruit_character = SCR_grenka_bloodscreech
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -72,23 +74,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Grenka Bloodscreech"
-	desc = "POLITICS_GRENKA_BLOODSCREECH_DESC"
-	picture = "grenka_bloodscreech.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

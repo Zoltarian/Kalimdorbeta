@@ -2,10 +2,6 @@
 
 oob = "THZ_592"
 
-set_naval_oob = "THZ_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -20,6 +16,8 @@ add_ideas = {
 
   	primary_religion_followers_of_the_stonemother
 }
+
+recruit_character = THZ_therazane_the_stonemother
 
 set_popularities = {
 	alliance = 0
@@ -36,62 +34,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Therazane the Stonemother"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Therazane the Stonemother"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Therazane the Stonemother"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Therazane the Stonemother"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Therazane the Stonemother"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Therazane the Stonemother"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Therazane the Stonemother"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

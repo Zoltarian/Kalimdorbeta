@@ -33,7 +33,6 @@ set_technology = {
 
 	support_equipment_tech = 1
 
-
 	mount_taming_1 = 1
 
 	naval_facilities = 1
@@ -42,6 +41,8 @@ set_technology = {
 	naval_transport_1 = 1
 
 }
+
+recruit_character = SFT_fllurlokkr
 
 set_politics = {
 	ruling_party = neutral
@@ -58,60 +59,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
-}
-
-create_country_leader = {
-	name = "Flllurlokkr"
-	desc = "POLITICS_FLLLURLOKKR_DESC"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Flllurlokkr"
-	desc = "POLITICS_FLLLURLOKKR_DESC"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Flllurlokkr"
-	desc = "POLITICS_FLLLURLOKKR_DESC"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Flllurlokkr"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc2.dds"
-	traits = {  }
-	id = 53700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Stonefin Warlord"
-	picture = "gfx/leaders/generic/BI_Murloc/murloc3.dds"
-	traits = {  }
-	id = 53701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

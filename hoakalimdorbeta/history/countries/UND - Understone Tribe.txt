@@ -35,6 +35,9 @@ add_ideas = {
 	primary_religion_disciples_of_naraxas
 }
 
+recruit_character = UND_dargrul_the_underking
+recruit_character = UND_ularogg_cragshaper
+
 set_politics = {	
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -50,104 +53,4 @@ set_popularities = {
     old_gods = 40
     titans = 0
     neutral = 60
-}
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-		
-		
-		
-		
-		
-		
-		naval_transport_2 = 1
-		aviary_tech = 1
-		
-		
-		blueprints_1 = 1
-		
-		
-		
-		
-		
-		
-		
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}	
-}
-create_country_leader = {
-	name = "Dargrul the Underking"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "Dargul.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dargrul the Underking"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "Dargul.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dargrul the Underking"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "Dargul.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dargrul the Underking"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "Dargul.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dargrul the Underking"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "Dargul.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Dargrul the Underking"
-	picture = "Dargul.dds"
-	traits = {  }
-	id = 70500
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Ularogg Cragshaper"
-	picture = "Ularogg_Cragshaper.dds"
-	traits = {  }
-	id = 70501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

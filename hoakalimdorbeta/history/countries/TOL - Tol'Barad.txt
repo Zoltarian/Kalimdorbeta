@@ -106,6 +106,9 @@ set_technology = {
 
 }
 
+recruit_character = TOL_duke_reginald_baradin
+recruit_character = TOL_marcus_johnson
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -156,78 +159,4 @@ set_popularities = {
 		encryption_1 = 1
 		decryption_1 = 1
 	}
-}
-create_country_leader = {
-	name = "Duke Reginald Baradin II"
-	desc = "POLITICS_REGINALD_BARADIN_II_DESC"
-	picture = "Reginald_Baradin.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Duke Reginald Baradin II"
-	desc = "POLITICS_REGINALD_BARADIN_II_DESC"
-	picture = "Reginald_Baradin.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Duke Reginald Baradin II"
-	desc = "POLITICS_REGINALD_BARADIN_II_DESC"
-	picture = "Reginald_Baradin.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Duke Reginald Baradin II"
-	desc = "POLITICS_REGINALD_BARADIN_II_DESC"
-	picture = "Reginald_Baradin.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Duke Reginald Baradin II"
-	desc = "POLITICS_REGINALD_BARADIN_II_DESC"
-	picture = "Reginald_Baradin.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Duke Reginald Baradin II"
-	picture = "Reginald_Baradin.dds"
-	traits = {  }
-	id = 68100
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Commander Marcus Johnson"
-	picture = "Marcus_Johnson.dds"
-	traits = {  }
-	id = 68101
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

@@ -2,10 +2,6 @@
 
 oob = "SKT_592"
 
-set_naval_oob = "SKT_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -18,6 +14,8 @@ add_ideas = {
 
 	gorlocs_primary_race
 }
+
+recruit_character = SKT_lightningcaller_soomet
 
 set_popularities = {
 	alliance = 0
@@ -34,23 +32,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Lightningcaller Soo-met"
-	desc = "POLITICS_SOOMET_DESC"
-	picture = "soo-met.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

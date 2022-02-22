@@ -17,26 +17,6 @@ add_ideas = {
 }
 
 set_technology = {
-	footman_weapons_tech_1 = 1
-	pikeman_weapons_tech_1 = 1
-	archer_weapons_tech_1 = 1
-
-	royal_guard_tech = 1
-
-	support_equipment_tech = 1
-
-
-
-	mount_taming_1 = 1
-	knight_tech_1 = 1
-
-	catapult_equipment_tech_1 = 1
-
-
-	naval_transport_1 = 1
-
-	town_hall_tech = 1
-	scout_tower_1 = 1
 
 }
 
@@ -62,15 +42,4 @@ create_faction = "The Scourge"
 #Maybe directly in 610 ? depends on when the War of the Spider ended
 613.1.1 = {
 	puppet = AZJ
-}
-
-create_country_leader = {
-	name = "The Lich King"
-	desc = "POLITICS_THE_LICH_KING_DESC"
-	picture = "gfx/leaders/FSK/Sylvanas_Windrunner.dds"
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
 }

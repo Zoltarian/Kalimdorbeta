@@ -2,8 +2,6 @@
 
 oob = "SZC_592"
 
-set_naval_oob = "SZC_592_naval"
-
 set_convoys = 10
 
 set_research_slots = 3
@@ -18,6 +16,8 @@ add_ideas = {
 
 	mogu_primary_race
 }
+
+recruit_character = SZC_shan_bu
 
 set_popularities = {
 	alliance = 0
@@ -35,22 +35,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Shan Bu"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

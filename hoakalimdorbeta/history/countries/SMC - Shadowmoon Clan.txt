@@ -47,6 +47,11 @@ set_technology = {
 
 }
 
+recruit_character = SMC_nerzhul
+recruit_character = SMC_dentarg
+recruit_character = SMC_kelidan_the_breaker
+recruit_character = SMC_sadana_bloodfury
+
 set_politics = {
 	ruling_party = fel
 	last_election = "590.10.27"
@@ -62,96 +67,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-create_country_leader = {
-	name = "Ner'zhul"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "gfx/leaders/SMC/nerzhul.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ner'zhul"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "gfx/leaders/SMC/nerzhul.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ner'zhul"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "gfx/leaders/SMC/nerzhul.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ner'zhul"
-	desc = "POLITICS_NERZHUL_DESC"
-	picture = "gfx/leaders/SMC/nerzhul.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Ner'zhul"
-	picture = "gfx/leaders/SMC/nerzhul.dds"
-	traits = {  }
-	id = 56700
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Dentarg"
-	picture = "gfx/leaders/SMC/dentarg.dds"
-	traits = {  }
-	id = 56701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Kelidan the Breaker"
-	picture = "gfx/leaders/SMC/kelidan_the_breaker.dds"
-	traits = {  }
-	id = 56702
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Sadana Bloodfury"
-	picture = "gfx/leaders/SMC/sadana_bloodfury.dds"
-	traits = {  }
-	id = 56703
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

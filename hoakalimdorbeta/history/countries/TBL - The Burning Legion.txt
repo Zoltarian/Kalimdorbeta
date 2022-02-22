@@ -16,6 +16,8 @@ add_ideas = {
 	primary_religion_the_fel
 }
 
+recruit_character = TBL_sargeras
+
 set_politics = {	
 	ruling_party = fel 
 	last_election = "590.10.27"
@@ -31,38 +33,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-create_country_leader = {
-	name = "Sargeras"
-	desc = "POLITICS_SARGERAS_DESC"
-	picture = "gfx/leaders/TBL/sargeras.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Redeemed Sargeras"
-	desc = "POLITICS_SARGERAS_DESC"
-	picture = "gfx/leaders/TBL/sargeras.dds"
-	expire = "1965.1.1"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Sargeras"
-	picture = "gfx/leaders/TBL/sargeras.dds"
-	traits = {  }
-	id = 63600
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
 }

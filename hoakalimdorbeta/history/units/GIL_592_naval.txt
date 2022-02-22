@@ -92,14 +92,14 @@
 				equipment = { battleship_equipment_1 = { amount = 1 owner = GIL  } }
 			}
 			
-			ship = {
-				name = "Greymanes Flagship"
-				definition = carrier
-				equipment = { carrier_equipment_1 = { amount = 1 owner = GIL } }
-				air_wings = {
-					hoa_organic_fighter_equipment_1 =  { owner = "GIL" amount = 2 }
-				}
-			}
+			#ship = {
+			#	name = "Greymanes Flagship"
+			#	definition = carrier
+			#	equipment = { carrier_equipment_1 = { amount = 1 owner = GIL } }
+			#	air_wings = {
+			#		organic_fighter_equipment_1 =  { owner = "GIL" amount = 2 }
+			#	}
+			#}
 			
 		}
 	}

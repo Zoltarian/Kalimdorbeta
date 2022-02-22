@@ -61,8 +61,29 @@ if = {
 	}
 	else = {
 		puppet = TOL
-		}
 	}
+}
+
+recruit_character = STR_thoras_trollbane
+recruit_character = STR_danath_trollbane
+recruit_character = STR_galen_trollbane
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    alliance = 34
+    horde = 0
+    death = 0
+    fel = 0
+    old_gods = 0
+    titans = 0
+    neutral = 66
+}
 
 596.1.1 = {
 
@@ -70,7 +91,6 @@ if = {
 	set_war_support = 0.5
 
 	add_ideas = {
-		
 		kingdom
 		limited_conscription
 		preparing_for_war
@@ -91,128 +111,14 @@ if = {
 		elections_allowed = no
 	}
 
-  set_popularities = {
-    alliance = 100
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 0
-  }
-
-	set_technology = {
-		footman_weapons_tech_2 = 1
-
-		
-
-
-
-
-		naval_transport_2 = 1
-
-		blueprints_1 = 1
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
+	set_popularities = {
+		alliance = 100
+		horde = 0
+		death = 0
+		fel = 0
+		old_gods = 0
+		titans = 0
+		neutral = 0
 	}
-}
-
-600.1.1 = {
-	create_country_leader = {
-		name = "Thoras Trollbane"
-		desc = "POLITICS_THORAS_TROLLBANE_DESC_POST_SECOND_WAR"
-		picture = "Thoras_Trollbane.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-	create_country_leader = {
-		name = "Thoras Trollbane"
-		desc = "POLITICS_THORAS_TROLLBANE_DESC_POST_SECOND_WAR"
-		picture = "Thoras_Trollbane.dds"
-		expire = "1965.1.1"
-		ideology = alliance_type
-		traits = {
-			#
-		}
-	}
-}
-
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-    alliance = 34
-    horde = 0
-    death = 0
-    fel = 0
-    old_gods = 0
-    titans = 0
-    neutral = 66
-}
-
-create_country_leader = {
-	name = "Thoras Trollbane"
-	desc = "POLITICS_THORAS_TROLLBANE_DESC"
-	picture = "Thoras_Trollbane.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Thoras Trollbane"
-	desc = "POLITICS_THORAS_TROLLBANE_DESC"
-	picture = "Thoras_Trollbane.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Thoras Trollbane"
-	picture = "Thoras_Trollbane.dds"
-	traits = {  }
-	id = 62100
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Danath Trollbane"
-	picture = "Danath_Trollbane.dds"
-	traits = {  }
-	id = 62101
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-
-}
-create_corps_commander = {
-	name = "Prince Galen Trollbane"
-	picture = "Galen_Trollbane.dds"
-	traits = {  }
-	id = 62102
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
 
 }

@@ -21,7 +21,6 @@ add_ideas = {
 	primary_religion_the_titans
 }
 
-
 set_technology = {
 
 	town_hall_tech = 1
@@ -76,8 +75,9 @@ set_technology = {
 	small_frames = 1
 	destroyer_tech_1 = 1
 	naval_transport_1 = 1
-	
 }
+
+recruit_character = ULD_rajh
 
 set_politics = {
 	ruling_party = titans
@@ -95,15 +95,3 @@ set_popularities = {
     titans = 100
     neutral = 0
 }
-
-create_country_leader = {
-	name = "Rajh"
-	desc = "POLITICS_RAJH_DESC"
-	picture = "rajh.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

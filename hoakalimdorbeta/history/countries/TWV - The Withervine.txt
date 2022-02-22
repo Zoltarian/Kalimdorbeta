@@ -30,6 +30,8 @@ set_technology = {
 	blacksmith_tech = 1
 }
 
+recruit_character = TWV_drogoth_the_roamer
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -49,19 +51,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Drogoth the Roamer"
+	name = TWV_drogoth_the_roamer
 	desc = "POLITICS_DROGOTH_THE_ROAMER_DESC"
 	picture = "drogoth_the_roamer.dds"
 	ideology = neutral_type
 	traits = {
 		#
 	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

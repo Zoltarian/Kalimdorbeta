@@ -2,10 +2,6 @@
 
 oob = "STF_592"
 
-set_naval_oob = "STF_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {
 	footman_weapons_tech_1 = 1
@@ -15,7 +11,6 @@ set_technology = {
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 	
-
 	catapult_equipment_tech_1 = 1
 
 	aviary_tech = 1
@@ -23,7 +18,6 @@ set_technology = {
 	fighter_breeds_1 = 1
 	endurance_breeds = 1
 
-	
 	naval_transport_1 = 1
 
 	town_hall_tech = 1
@@ -41,6 +35,8 @@ add_ideas = {
 	stone_dragon_primary_race
 }
 
+recruit_character = STF_aeosera
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -56,62 +52,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Aeosera"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Aeosera"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Aeosera"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Aeosera"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Aeosera"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Aeosera"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Aeosera"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

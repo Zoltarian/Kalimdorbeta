@@ -51,6 +51,8 @@ set_technology = {
 	royal_guard_equipment_tech_1 = 1
 }
 
+recruit_character = UNG_nablya
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -67,25 +69,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Nablya"
-	desc = "POLITICS_NABLYA_DESC"
-	picture = "nablya.dds"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nablya"
-	desc = "POLITICS_NABLYA_DESC"
-	picture = "nablya.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-596.1.1 = {}

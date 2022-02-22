@@ -8,7 +8,6 @@ set_technology = {
 }
 
 add_ideas = {
-	
 	clan
 	recruit_adventurers
 	peacetime_economy
@@ -16,6 +15,8 @@ add_ideas = {
 
 	frost_giant_primary_race
 }
+
+recruit_character = SOH_king_jokkum
 
 set_popularities = {
 	alliance = 0
@@ -32,72 +33,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "King Jokkum"
-	desc = ""
-	picture = "jokkum.dds"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Jokkum"
-	desc = ""
-	picture = "jokkum.dds"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Jokkum"
-	desc = ""
-	picture = "jokkum.dds"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Jokkum"
-	desc = ""
-	picture = "jokkum.dds"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Jokkum"
-	desc = ""
-	picture = "jokkum.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "King Jokkum"
-	desc = ""
-	picture = "jokkum.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

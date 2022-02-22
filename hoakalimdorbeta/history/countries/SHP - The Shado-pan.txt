@@ -2,8 +2,6 @@
 
 oob = "SHP_592"
 
-set_naval_oob = "SHP_592_naval"
-
 set_convoys = 10
 
 set_research_slots = 3
@@ -19,6 +17,9 @@ add_ideas = {
 
 	primary_religion_august_celestial
 }
+
+
+recruit_character = SHP_taran_zhu
 
 set_popularities = {
 	alliance = 0
@@ -36,22 +37,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Taran Zhu"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

@@ -34,6 +34,8 @@ set_technology = {
 	royal_guard_equipment_tech_1 = 1
 }
 
+recruit_character = TAR_gormashh
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -49,22 +51,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Gormashh"
-	desc = "POLITICS_GORMASHH_DESC"
-	picture = "gormashh.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

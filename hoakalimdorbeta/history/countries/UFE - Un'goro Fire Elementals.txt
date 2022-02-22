@@ -22,7 +22,6 @@ set_technology = {
 }
 
 add_ideas = {
-
 	tyrant
 	isolation
 	recruit_adventurers
@@ -30,8 +29,12 @@ add_ideas = {
 
 	fire_elemental_primary_race
 
+	primary_trait_embodiment_of_heat
+
 	primary_religion_followers_of_the_firelord
 }
+
+recruit_character = UFE_blazerunner
 
 set_popularities = {
 	alliance = 0
@@ -48,33 +51,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Blazerunner"
-	desc = "POLITICS_BLAZERUNNER_DESC"
-	picture = "blazerunner.dds"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Blazerunner"
-	desc = "POLITICS_BLAZERUNNER_DESC"
-	picture = "blazerunner.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

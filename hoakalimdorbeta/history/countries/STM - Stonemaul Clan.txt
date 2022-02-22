@@ -32,14 +32,13 @@ set_technology = {
 
 	catapult_equipment_tech_1 = 1
 
-	
-	
-	
-
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
 }
+
+recruit_character = STM_korgall
+recruit_character = STM_overlord_mokmorokk
 
 set_politics = {
 	ruling_party = fel
@@ -56,96 +55,4 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 0
-}
-
-610.1.1 = {
-	create_country_leader = {
-		name = "Kor'gall"
-		desc = "POLITICS_KORGALL_DESC_THIRD_WAR"
-		picture = "gfx/leaders/STM/korgall.dds"
-		expire = "1965.1.1"
-		ideology = neutral_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Kor'gall"
-		desc = "POLITICS_KORGALL_DESC_THIRD_WAR"
-		picture = "gfx/leaders/STM/korgall.dds"
-		expire = "1965.1.1"
-		ideology = fel_type
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Kor'gall"
-		desc = "POLITICS_KORGALL_DESC_THIRD_WAR"
-		picture = "gfx/leaders/STM/korgall.dds"
-		expire = "1965.1.1"
-		ideology = horde_type
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Kor'gall"
-	desc = "POLITICS_KORGALL_DESC"
-	picture = "gfx/leaders/STM/korgall.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kor'gall"
-	desc = "POLITICS_KORGALL_DESC"
-	picture = "gfx/leaders/STM/korgall.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kor'gall"
-	desc = "POLITICS_KORGALL_DESC"
-	picture = "gfx/leaders/STM/korgall.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Kor'gall"
-	picture = "gfx/leaders/STM/korgall.dds"
-	traits = {  }
-	id = 61500
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Overlord Mok'Morokk"
-	picture = "gfx/leaders/STM/overlord_mokmorokk.dds"
-	traits = {  }
-	id = 61501
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
 }

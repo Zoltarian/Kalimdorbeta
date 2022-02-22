@@ -85,6 +85,9 @@ if = {
 	}
 }
 
+recruit_character = TID_god_queen_bretta
+recruit_character = TID_thane_skovald
+
 set_politics = {
 	ruling_party = neutral
 	last_election = "590.10.27"
@@ -93,115 +96,11 @@ set_politics = {
 }
 
 set_popularities = {
-  alliance = 0
-  horde = 0
-  death = 20
-  fel = 0
-  old_gods = 0
-  titans = 20
-  neutral = 60
-}
-
-596.1.1 = {
-	set_technology = {
-		footman_weapons_tech_2 = 1
-
-		
-
-
-
-
-		naval_transport_2 = 1
-
-		blueprints_1 = 1
-
-		rogues_guild = 1
-		encryption_1 = 1
-		decryption_1 = 1
-	}
-}
-
-create_country_leader = {
-	name = "God Queen Bretta"
-	desc = "POLITICS_GOD_QUEEN_BRETTA_DESC"
-	picture = "god_queen_bretta.dds"
-	expire = "1965.1.1"
-	ideology = titans_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "God Queen Bretta"
-	desc = "POLITICS_GOD_QUEEN_BRETTA_DESC"
-	picture = "god_queen_bretta.dds"
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "God Queen Bretta"
-	desc = "POLITICS_GOD_QUEEN_BRETTA_DESC"
-	picture = "god_queen_bretta.dds"
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "God Queen Bretta"
-	desc = "POLITICS_GOD_QUEEN_BRETTA_DESC"
-	picture = "god_queen_bretta.dds"
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "God Queen Bretta"
-	desc = "POLITICS_GOD_QUEEN_BRETTA_DESC"
-	picture = "god_queen_bretta.dds"
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "God Queen Bretta"
-	desc = "POLITICS_GOD_QUEEN_BRETTA_DESC"
-	picture = "god_queen_bretta.dds"
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "God Queen Bretta"
-	picture = "god_queen_bretta.dds"
-	traits = {  }
-	id = 65700
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Thane Skovald"
-	picture = "skovald1.dds"
-	traits = {  }
-	id = 65701
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
+	alliance = 0
+	horde = 0
+	death = 20
+	fel = 0
+	old_gods = 0
+	titans = 20
+	neutral = 60
 }

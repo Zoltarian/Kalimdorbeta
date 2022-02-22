@@ -2,8 +2,6 @@
 
 oob = "SKA_592"
 
-set_naval_oob = "SKA_592_naval"
-
 set_convoys = 10
 
 set_research_slots = 3
@@ -21,6 +19,8 @@ add_ideas = {
 	primary_religion_followers_of_helya
 }
 
+recruit_character = SKA_gamel_the_cruel
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -36,78 +36,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Gamel the Cruel"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = alliance_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gamel the Cruel"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = horde_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gamel the Cruel"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = death_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gamel the Cruel"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fel_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gamel the Cruel"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = old_gods_type
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gamel the Cruel"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = neutral_type
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-
-}
-
-create_corps_commander = {
-
 }

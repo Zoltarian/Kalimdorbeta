@@ -43,6 +43,8 @@ set_technology = {
 	
 }
 
+recruit_character = COH_mistress_of_the_coldwind
+
 set_popularities = {
 	alliance = 0
 	horde = 0
@@ -58,14 +60,4 @@ set_politics = {
 	last_election = "590.10.27"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Mistress of the Coldwind"
-	desc = "POLITICS_MISTRESS_OF_THE_COLDWIND_DESC"
-	picture = "mistress_of_the_coldwind.dds"
-	ideology = neutral_type
-	traits = {
-		#
-	}
 }

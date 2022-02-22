@@ -2,8 +2,6 @@ capital = 1910
 
 oob = "AGL_592"
 
-set_naval_oob = "AGL_592_naval"
-
 set_convoys = 10
 
 set_research_slots = 3
@@ -32,7 +30,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_field_marshal = { }
-
-create_corps_commander = { }
