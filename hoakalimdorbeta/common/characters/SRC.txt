@@ -1,3 +1,73 @@
 characters={
 
+	SRC_guldan = {
+		name = SRC_guldan
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+			}
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc =  "POLITICS_GULDAN_STORMREAVER_CLAN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc =  "POLITICS_GULDAN_STORMREAVER_CLAN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SRC_shadow_lord_feldan = {
+		name = SRC_shadow_lord_feldan
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SRC_terongor = {
+		name = SRC_terongor
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,60 @@
 characters={
 
+	THC_chogall = {
+		name = THC_chogall
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/THC/Cho_Gall.dds"
+			}
+			army = {
+				large = "gfx/leaders/THC/Cho_Gall.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_CHOGALL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_CHOGALL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHOGALL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	THC_kelris = {
+		name = THC_kelris
+		portraits = {
+			army = {
+				large = "gfx/leaders/THC/kelris.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 }

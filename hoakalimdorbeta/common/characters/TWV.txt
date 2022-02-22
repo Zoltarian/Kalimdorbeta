@@ -1,24 +1,24 @@
 characters={
 
-	SGT_chief_gukgut = {
-		name = SGT_chief_gukgut
+	TWV_drogoth_the_roamer = {
+		name = TWV_drogoth_the_roamer
 		portraits = {
 			civilian = { 
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/TWV/drogoth_the_roamer.dds"
 			}
 			army = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/TWV/drogoth_the_roamer.dds"
 				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
 			}
 		}
 		country_leader = {
 			ideology = neutral_type
-			desc = "POLITICS_CHIEF_GUKGUT_DESC"
+			desc = "POLITICS_DROGOTH_THE_ROAMER_DESC"
 			traits = {}
 			id = -1
 		}
 
-		field_marshal = {
+		corps_commander = {
 			traits = {  }
 			skill = 3
 			attack_skill = 2

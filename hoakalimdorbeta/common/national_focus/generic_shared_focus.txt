@@ -75,14 +75,12 @@ shared_focus = {
 
 	#Prevent nations like Old Gods or Titan Watchers to change ideology
 	allow_branch = {
-      NOT = {
-					#Old Gods
-          tag = AHQ
-          tag = YOG
-					#Titan Watchers
-					has_government = titans
-      }
-  }
+		NOT = {
+			#Old Gods
+			tag = AHQ
+			tag = YOG
+		}
+	}
 
 	completion_reward = {
 		add_political_power = 100
@@ -1996,12 +1994,14 @@ x = 0
 y = 1
 completion_reward = {
 	army_experience = 15
-	add_tech_bonus = {
-		bonus = 1
-		uses = 1
-		category = land_doctrine
+
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 	}
-}
 }
 
 shared_focus = {
@@ -2257,10 +2257,11 @@ relative_position_id = train_heroic_units
 x = 0
 y = 1
 completion_reward = {
-	add_tech_bonus = {
-	bonus = 1
-	uses = 1
-	category = land_doctrine
+	add_doctrine_cost_reduction = {
+		name = land_doc_bonus
+		cost_reduction = 0.5
+		uses = 1
+		category = land_doctrine
 	}
 }
 }
@@ -2320,10 +2321,12 @@ x = 6
 y = 1
 completion_reward = {
 	navy_experience = 15
-	add_tech_bonus = {
-		bonus = 1
+
+	add_doctrine_cost_reduction = {
+		name = naval_doc_bonus
+		cost_reduction = 0.5
 		uses = 1
-		category = naval_technology
+		category = naval_doctrine
 	}
 }
 }
@@ -2487,8 +2490,9 @@ relative_position_id = build_dockyard_2
 x = 0
 y = 1
 completion_reward = {
-	add_tech_bonus = {
-		bonus = 0.50
+	add_doctrine_cost_reduction = {
+		name = naval_doc_bonus
+		cost_reduction = 0.5
 		uses = 1
 		category = naval_doctrine
 	}
@@ -2648,10 +2652,12 @@ shared_focus = {
 	y = 1
 	completion_reward = {
 		air_experience = 15
-		add_tech_bonus = {
-			bonus = 1
+
+		add_doctrine_cost_reduction = {
+			name = air_doc_bonus
+			cost_reduction = 0.5
 			uses = 1
-			category = air_technology
+			category = air_doctrine
 		}
 	}
 }
@@ -2849,8 +2855,9 @@ shared_focus = {
 	x = 0
 	y = 2
 	completion_reward = {
-		add_tech_bonus = {
-			bonus = 0.50
+		add_doctrine_cost_reduction = {
+			name = air_doc_bonus
+			cost_reduction = 0.5
 			uses = 1
 			category = air_doctrine
 		}
@@ -3041,8 +3048,9 @@ shared_focus = {
 	x = 0
 	y = 2
 	completion_reward = {
-		add_tech_bonus = {
-			bonus = 0.50
+		add_doctrine_cost_reduction = {
+			name = air_doc_bonus
+			cost_reduction = 0.5
 			uses = 1
 			category = air_doctrine
 		}

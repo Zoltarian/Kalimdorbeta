@@ -1,3 +1,73 @@
 characters={
 
+	SPC_vanndar_stormpike = {
+		name = SPC_vanndar_stormpike
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SPC/vanndar.dds"
+			}
+			army = {
+				large = "gfx/leaders/SPC/vanndar.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_VANNDAR_STORMPIKE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_VANNDAR_STORMPIKE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SPC_commander_duffy = {
+		name = SPC_commander_duffy
+		portraits = {
+			army = {
+				large = "gfx/leaders/SPC/commander_duffy.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SPC_commander_mortimer = {
+		name = SPC_commander_mortimer
+		portraits = {
+			army = {
+				large = "gfx/leaders/SPC/commander_mortimer.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

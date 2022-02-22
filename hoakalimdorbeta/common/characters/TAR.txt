@@ -1,3 +1,31 @@
 characters={
 
+	TAR_gormashh = {
+		name = TAR_gormashh
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/TAR/gormashh.dds"
+			}
+			army = {
+				large = "gfx/leaders/TAR/gormashh.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_GORMASHH_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

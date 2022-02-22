@@ -1,3 +1,73 @@
 characters={
 
+	STC_trade_prince_steamwheedle = {
+		name = STC_trade_prince_steamwheedle
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/STC/steemwheedle.dds"
+			}
+			army = {
+				large = "gfx/leaders/STC/steemwheedle.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_TRADE_PRINCE_STEAMWHEEDLE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STC_the_great_pisani = {
+		name = STC_the_great_pisani
+		portraits = {
+			army = {
+				large = "gfx/leaders/STC/pisani.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STC_trade_baron_silversnap = {
+		name = STC_trade_baron_silversnap
+		portraits = {
+			army = {
+				large = "gfx/leaders/STC/silversnap.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

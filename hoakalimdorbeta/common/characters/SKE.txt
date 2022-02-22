@@ -1,3 +1,67 @@
 characters={
 
+	SKE_terokk = {
+		name = SKE_terokk
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SKE/terokk.dds"
+			}
+			army = {
+				large = "gfx/leaders/SKE/terokk.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_TEROKK_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SKE_kirrik_the_awakened = {
+		name = SKE_kirrik_the_awakened
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKE/kirrik_the_awakened.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SKE_rilak = {
+		name = SKE_rilak
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKE/rilak.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

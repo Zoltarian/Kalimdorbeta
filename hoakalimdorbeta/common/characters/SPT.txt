@@ -1,3 +1,55 @@
 characters={
 
+	SPT_kelgash_the_wicked = {
+		name = SPT_kelgash_the_wicked
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/AMA/amagen2.dds"
+			}
+			army = {
+				large = "gfx/leaders/AMA/amagen2.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_KELGASH_THE_WICKED_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_KELGASH_THE_WICKED_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SPT_threshjin = {
+		name = SPT_threshjin
+		portraits = {
+			army = {
+				large = "gfx/leaders/AMA/amagen1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -202,7 +202,6 @@ leader_traits = {
 		}
 	}
 
-
 	druid_leader_trait = {
 
 		special_forces_attack_factor = 0.2
@@ -252,10 +251,10 @@ leader_traits = {
 
 	shaman_leader_trait = {
 
-    offence = 0.2
-    defence = -0.1
-    attrition = -0.1
-    out_of_supply_factor = -0.5
+		offence = 0.2
+		defence = -0.1
+		attrition = -0.1
+		out_of_supply_factor = -0.5
 
 		ai_will_do = {
 			factor = 1

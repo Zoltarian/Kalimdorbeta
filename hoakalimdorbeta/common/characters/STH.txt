@@ -1,3 +1,73 @@
 characters={
 
+	STH_archbishop_alonsus_faol = {
+		name = STH_archbishop_alonsus_faol
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/STH/alonsus.dds"
+			}
+			army = {
+				large = "gfx/leaders/STH/alonsus.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_ARCHBISHOP_ALONSUS_FAOL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_ARCHBISHOP_ALONSUS_FAOL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STH_saidan_dathrohan = {
+		name = STH_saidan_dathrohan
+		portraits = {
+			army = {
+				large = "gfx/leaders/STH/saidan.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STH_alexandros_mograine = {
+		name = STH_alexandros_mograine
+		portraits = {
+			army = {
+				large = "gfx/leaders/STH/alexandros.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

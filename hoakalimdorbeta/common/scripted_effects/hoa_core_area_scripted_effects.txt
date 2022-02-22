@@ -448,6 +448,57 @@ core_uldum = {
   }
 }
 
+#Core Uldum
+core_ungoro = {
+  custom_effect_tooltip = core_ungoro_tt
+  hidden_effect = {
+    84 = { add_core_of = ROOT }
+    528 = { add_core_of = ROOT }
+    1115 = { add_core_of = ROOT }
+    1116 = { add_core_of = ROOT }
+    1117 = { add_core_of = ROOT }
+    1118 = { add_core_of = ROOT }
+    1119 = { add_core_of = ROOT }
+    1120 = { add_core_of = ROOT }
+    1121 = { add_core_of = ROOT }
+    1122 = { add_core_of = ROOT }
+    1123 = { add_core_of = ROOT }
+    1124 = { add_core_of = ROOT }
+    1125 = { add_core_of = ROOT }
+    1126 = { add_core_of = ROOT }
+    1127 = { add_core_of = ROOT }
+    2005 = { add_core_of = ROOT }
+  }
+}
+
+#Core Felwood
+core_felwood = {
+  custom_effect_tooltip = core_felwood_tt
+  hidden_effect = {
+    1414 = { add_core_of = ROOT }
+    1415 = { add_core_of = ROOT }
+    1416 = { add_core_of = ROOT }
+    1417 = { add_core_of = ROOT }
+    1418 = { add_core_of = ROOT }
+    1419 = { add_core_of = ROOT }
+    1420 = { add_core_of = ROOT }
+    1421 = { add_core_of = ROOT }
+    1422 = { add_core_of = ROOT }
+    1423 = { add_core_of = ROOT }
+    1424 = { add_core_of = ROOT }
+    1425 = { add_core_of = ROOT }
+    1426 = { add_core_of = ROOT }
+    1427 = { add_core_of = ROOT }
+    1428 = { add_core_of = ROOT }
+    1429 = { add_core_of = ROOT }
+    1430 = { add_core_of = ROOT }
+    1431 = { add_core_of = ROOT }
+    1432 = { add_core_of = ROOT }
+    1433 = { add_core_of = ROOT }
+    2000 = { add_core_of = ROOT }
+  }
+}
+
 ####################
 # Pandaria
 ####################

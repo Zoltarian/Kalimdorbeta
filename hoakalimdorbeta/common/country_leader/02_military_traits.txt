@@ -1,480 +1,624 @@
+##############################################
+# Traits for military advisors
+##############################################
 leader_traits = {
 
-##############################################
-#military advisor traits
-##############################################
+####################
+# Land Army related traits
+####################
 
-	privateer_idea_1 = {
-		convoy_raiding_efficiency_factor = 0.1
-		
+	#Offence specialist traits (army attack)
+	offence_specialist_idea_1 = {
+		offence = 0.05
+
 		ai_will_do = {
 			factor = 1
 		}
-	
-	}
-	
-	privateer_idea_2 = {
-		convoy_raiding_efficiency_factor = 0.15
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
-	}
-	
-	privateer_idea_3 = {
-		convoy_raiding_efficiency_factor = 0.2
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
 	}
 
-	quartermaster_idea_1 = {
-		supply_consumption_factor = -0.03
-		
+	offence_specialist_idea_2 = {
+		offence = 0.1
+
 		ai_will_do = {
 			factor = 1
 		}
-	
-	}
-	
-	quartermaster_idea_2 = {
-		supply_consumption_factor = -0.06
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
-	}
-	
-	quartermaster_idea_3 = {
-		supply_consumption_factor = -0.09
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
 	}
 
+	offence_specialist_idea_3 = {
+		offence = 0.15
 
-	guardian_1 = {
-		max_dig_in = 1
-		dig_in_speed = 1
-		
 		ai_will_do = {
 			factor = 1
 		}
-	
-	}
-	
-	guardian_2 = {
-		max_dig_in = 2
-		dig_in_speed = 2
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
-	}
-	
-	guardian_3 = {
-		max_dig_in = 3
-		dig_in_speed = 3
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
 	}
 
+	#Defence specialist traits (army defence)
+	defence_specialist_idea_1 = {
+		defence = 0.05
 
-	medic_idea_1 = {
-		sprite = 5
-		land_reinforce_rate = 0.03
-		attrition = -0.03
-		
 		ai_will_do = {
 			factor = 1
 		}
-		
 	}
 
-	medic_idea_2 = {
-		sprite = 5
-		land_reinforce_rate = 0.06
-		attrition = -0.06
-		
+	defence_specialist_idea_2 = {
+		defence = 0.1
+
 		ai_will_do = {
 			factor = 1
 		}
-		
-	}
-	
-	medic_idea_3 = {
-		sprite = 5
-		land_reinforce_rate = 0.1
-		attrition = -0.1
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
 	}
 
-	trainer_idea_1 = {
-		sprite = 5
-		training_time_factor = -0.05
-		
+	defence_specialist_idea_3 = {
+		defence = 0.15
+
 		ai_will_do = {
 			factor = 1
 		}
-		
 	}
-	
-	trainer_idea_2 = {
-		sprite = 5
-		training_time_factor = -0.1
-		
-		ai_will_do = {
-			factor = 2
-		}
-		
-	}
-	
-	trainer_idea_3 = {
-		sprite = 5
-		training_time_factor = -0.15
-		
-		ai_will_do = {
-			factor = 3
-		}
-		
-	}
-	
-	recruiter_idea_1 = {
-		sprite = 5
-		conscription_factor = 0.01
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-	}
-	
-	recruiter_idea_2 = {
-		sprite = 5
-		conscription_factor = 0.02
-	
-		ai_will_do = {
-			factor = 2
-		}
-		
-	}
-	
-	recruiter_idea_3 = {
-		sprite = 5
-		conscription_factor = 0.03
-	
-		ai_will_do = {
-			factor = 3
-		}
-	
-	}
-	
-	infantry_idea_1 = {
+
+	#Infantry specialist (attack + defence to infantry)
+	infantry_specialist_idea_1 = {
 		sprite = 5
 		army_infantry_attack_factor = 0.05
-		army_infantry_defence_factor = 0.1		
-		
+		army_infantry_defence_factor = 0.1
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	infantry_idea_2 = {
+
+	infantry_specialist_idea_2 = {
 		sprite = 5
 		army_infantry_attack_factor = 0.1
 		army_infantry_defence_factor = 0.15
-		
+
 		ai_will_do = {
 			factor = 3
 		}
 	}
-	
-	infantry_idea_3 = {
+
+	infantry_specialist_idea_3 = {
 		sprite = 5
 		army_infantry_attack_factor = 0.15
 		army_infantry_defence_factor = 0.2
-		
+
 		ai_will_do = {
 			factor = 5
 		}
 	}
-	
-	
-	champion_idea_1 = { 
+
+	#Spellcaster specialist (attack + defence to spellcasters)
+	spellcaster_specialist_idea_1 = {
 		sprite = 5
-	    special_forces_defence_factor = 0.15
-		
+		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.05
+		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.1
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	champion_idea_2 = { 
+
+	#Spellcaster specialist (attack + defence to spellcasters)
+	spellcaster_specialist_idea_2 = {
 		sprite = 5
-	    special_forces_defence_factor = 0.2
-		
+		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.1
+		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.15
+
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 	}
-	
-	champion_idea_3 = {
+
+	#Spellcaster specialist (attack + defence to spellcasters)
+	spellcaster_specialist_idea_3 = {
 		sprite = 5
-	    special_forces_defence_factor = 0.25
-		
+		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.15
+		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.2
+
 		ai_will_do = {
-			factor = 3
+			factor = 1
 		}
 	}
-	
-	
-	cavalry_idea_1 = { # +5 cavalry
+
+	#Cavalry specialist (attack + defence to infantry)
+	cavalry_specialist_idea_1 = {
 		sprite = 8
 		cavalry_attack_factor = 0.05
 		cavalry_defence_factor = 0.05
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	cavalry_idea_2 = { # +10 cavalry
+
+	cavalry_specialist_idea_2 = {
 		sprite = 8
 		cavalry_attack_factor = 0.1
 		cavalry_defence_factor = 0.1
-		
+
 		ai_will_do = {
 			factor = 2
 		}
 	}
-	
-	cavalry_idea_3 = { # +15 cavalry
+
+	cavalry_specialist_idea_3 = {
 		sprite = 8
 		cavalry_attack_factor = 0.15
 		cavalry_defence_factor = 0.15
-		
+
 		ai_will_do = {
 			factor = 3
 		}
 	}
-	
+
+	#Siege expert
 	siege_expert_idea_1 = {
 		sprite = 5
-		
+
         equipment_bonus = {
             catapult_equipment = {
                 soft_attack = 0.1
                 instant = yes
             }
-        }	
-		
+        }
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	siege_expert_idea_2 = {
 		sprite = 5
-		
+
         equipment_bonus = {
             catapult_equipment = {
                 soft_attack = 0.15
                 instant = yes
             }
-        }	
-		
+        }
+
 		ai_will_do = {
 			factor = 2
 		}
 	}
-	
+
 	siege_expert_idea_3 = {
 		sprite = 5
-		
+
         equipment_bonus = {
             catapult_equipment = {
                 soft_attack = 0.2
                 instant = yes
             }
-        }	
-		
+        }
+
 		ai_will_do = {
 			factor = 3
 		}
-	}	
-	
-	cas_idea_1 = {
+	}
+
+	#Guardian (dig in speed)
+	guardian_idea_1 = {
+		max_dig_in = 1
+		dig_in_speed = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	guardian_idea_2 = {
+		max_dig_in = 2
+		dig_in_speed = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	guardian_idea_3 = {
+		max_dig_in = 3
+		dig_in_speed = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Quartermaster traits (supply consumption)
+	quartermaster_idea_1 = {
+		supply_consumption_factor = -0.03
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	quartermaster_idea_2 = {
+		supply_consumption_factor = -0.06
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	quartermaster_idea_3 = {
+		supply_consumption_factor = -0.09
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Champion trait (special force defence)
+	champion_idea_1 = {
 		sprite = 5
-		
+	    special_forces_defence_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	champion_idea_2 = {
+		sprite = 5
+	    special_forces_defence_factor = 0.2
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	champion_idea_3 = {
+		sprite = 5
+	    special_forces_defence_factor = 0.25
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	#Scout trait (recon factor)
+	scout_idea_1 = {
+		recon_factor = 0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	scout_idea_2 = {
+		recon_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	scout_idea_3 = {
+		recon_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Healer trait (reinforce rate and attrition)
+	healer_idea_1 = {
+		sprite = 5
+		land_reinforce_rate = 0.03
+		attrition = -0.03
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	healer_idea_2 = {
+		sprite = 5
+		land_reinforce_rate = 0.06
+		attrition = -0.06
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	healer_idea_3 = {
+		sprite = 5
+		land_reinforce_rate = 0.1
+		attrition = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Trainer trait (training time)
+	trainer_idea_1 = {
+		sprite = 5
+		training_time_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	trainer_idea_2 = {
+		sprite = 5
+		training_time_factor = -0.1
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	trainer_idea_3 = {
+		sprite = 5
+		training_time_factor = -0.15
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	#Recruiter trait (conscription factor)
+	recruiter_idea_1 = {
+		sprite = 5
+		conscription_factor = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	recruiter_idea_2 = {
+		sprite = 5
+		conscription_factor = 0.02
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	recruiter_idea_3 = {
+		sprite = 5
+		conscription_factor = 0.03
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	#Raider trait (non core manpower)
+	raider_idea_1 = {
+		sprite = 5
+
+		non_core_manpower = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raider_idea_2 = {
+		sprite = 5
+
+		non_core_manpower = 0.02
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raider_idea_3 = {
+		sprite = 5
+
+		non_core_manpower = 0.03
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+####################
+# Navy related traits
+####################
+
+	#Privateer traits (convoy raiding efficiency)
+	privateer_idea_1 = {
+		convoy_raiding_efficiency_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	privateer_idea_2 = {
+		convoy_raiding_efficiency_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	privateer_idea_3 = {
+		convoy_raiding_efficiency_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+####################
+# Air related traits
+####################
+
+	#Close air support specialist
+	cas_specialist_idea_1 = {
+		sprite = 5
+
 		equipment_bonus = {
 			cas_equipment = {
 				air_ground_attack = 0.05
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	cas_idea_2 = {
+
+	cas_specialist_idea_2 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			cas_equipment = {
 				air_ground_attack = 0.1
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 		}
 	}
-	
-	cas_idea_3 = {
+
+	cas_specialist_idea_3 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			cas_equipment = {
 				air_ground_attack = 0.15
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 3
 		}
 	}
-	
-	fighter_idea_1 = {
+
+	#Fighter specialist
+	fighter_specialist_idea_1 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			fighter_equipment = {
 				air_attack = 0.15
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	fighter_idea_2 = {
+
+	fighter_specialist_idea_2 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			fighter_equipment = {
 				air_attack = 0.2
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 		}
 	}
-	
-	fighter_idea_3 = {
+
+	fighter_specialist_idea_3 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			fighter_equipment = {
 				air_attack = 0.25
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 3
 		}
 	}
-	
-	bomber_idea_1 = {
+
+	#Bomber specialist
+	bomber_specialist_idea_1 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			bomber_equipment = {
 				air_bombing = 0.1
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	bomber_idea_2 = {
+
+	bomber_specialist_idea_2 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			bomber_equipment = {
 				air_bombing = 0.1
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 		}
 	}
-	
-	bomber_idea_3 = {
+
+	bomber_specialist_idea_3 = {
 		sprite = 5
-		
+
 		equipment_bonus = {
 			bomber_equipment = {
 				air_bombing = 0.1
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 3
 		}
 	}
-	
-	raider_idea_1 = {
-		sprite = 5
-		
-		non_core_manpower = 0.01
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	raider_idea_2 = {
-		sprite = 5
-		
-		non_core_manpower = 0.02
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	raider_idea_3 = {
-		sprite = 5
-		
-		non_core_manpower = 0.03
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
+
 ##############################################
-#nation specific traits
+# Nation / race specific traits
 ##############################################
-	
+
+	#Shaman trait (same as spellcaster specialist) - Shamanism / Tauren / Elves, etc...
+	shaman_advisor_idea_1 = {
+		sprite = 5
+		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.05
+		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Spellcaster specialist (attack + defence to spellcasters)
+	shaman_advisor_idea_2 = {
+		sprite = 5
+		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.1
+		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Spellcaster specialist (attack + defence to spellcasters)
+	shaman_advisor_idea_3 = {
+		sprite = 5
+		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.15
+		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 }

@@ -1,3 +1,61 @@
 characters={
 
+	TLC_fenris_wolfbrother = {
+		name = TLC_fenris_wolfbrother
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/TLC/fenris_wolfbrother.dds"
+			}
+			army = {
+				large = "gfx/leaders/TLC/fenris_wolfbrother.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_FENRIS_WOLFBROTHER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_FENRIS_WOLFBROTHER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_FENRIS_WOLFBROTHER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	TLC_malgrim_stormhand = {
+		name = TLC_malgrim_stormhand
+		portraits = {
+			army = {
+				large = "gfx/leaders/TLC/malgrim_stormhand.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

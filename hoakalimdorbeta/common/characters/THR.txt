@@ -1,3 +1,49 @@
 characters={
 
+	THR_overseer_oilfist = {
+		name = THR_overseer_oilfist
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
+			}
+			army = {
+				large = "gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_OVERSEER_OILFIST_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	THR_malyfous_darkhammer = {
+		name = THR_malyfous_darkhammer
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIC/Portrait_DIC_Generic_land_4.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

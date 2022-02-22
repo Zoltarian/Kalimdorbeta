@@ -1,3 +1,31 @@
 characters={
 
+	STP_high_chief_stillpine = {
+		name = STP_high_chief_stillpine
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/STP/high_chief_stillpine.dds"
+			}
+			army = {
+				large = "gfx/leaders/STP/high_chief_stillpine.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_HIGH_CHIEF_STILLPINE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

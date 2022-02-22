@@ -1,3 +1,55 @@
 characters={
 
+	SUR_grand_magistrix_elisande = {
+		name = SUR_grand_magistrix_elisande
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SUR/Elisande.dds"
+			}
+			army = {
+				large = "gfx/leaders/SUR/Elisande.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_GRAND_MAGISTRIX_ELISANDE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_GRAND_MAGISTRIX_ELISANDE_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SUR_arcanist_thalyssra = {
+		name = SUR_arcanist_thalyssra
+		portraits = {
+			army = {
+				large = "gfx/leaders/SUR/arcanist_thalyssra.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

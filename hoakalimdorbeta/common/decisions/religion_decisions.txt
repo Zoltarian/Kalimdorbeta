@@ -13104,12 +13104,12 @@ void_religion_decisions = {
 			}
 
 			custom_effect_tooltip = soul_sacrifice_decision_tt
-      #Kill 1/25 of the pop
-      set_temp_variable = { pop_to_kill = manpower }
-      divide_temp_variable = { pop_to_kill = 25 }
-      round_temp_variable = pop_to_kill
-      multiply_temp_variable = { pop_to_kill = -1 }
-      add_manpower = pop_to_kill
+		    #Kill 1/25 of the pop
+		    set_temp_variable = { pop_to_kill = manpower }
+		    divide_temp_variable = { pop_to_kill = 25 }
+		    round_temp_variable = pop_to_kill
+		    multiply_temp_variable = { pop_to_kill = -1 }
+		    add_manpower = pop_to_kill
 
 			add_stability = 0.025
 			add_war_support = 0.025
@@ -13491,6 +13491,363 @@ followers_of_yogg_saron_religion_decisions = {
 			army_morale_factor = 0.025
 			mobilization_speed = 0.025
 			war_support_weekly = 0.001
+		}
+
+		days_remove = 90
+	}
+}
+
+followers_of_volcanoth_religion_decisions = {
+	turtle_shell_construction_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_volcanoth
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_volcanoth
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			production_speed_buildings_factor = 0.15
+		}
+
+		days_remove = 90
+	}
+
+	sacrifice_to_the_turtle_god_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_volcanoth
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_volcanoth
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+
+			custom_effect_tooltip = soul_sacrifice_decision_tt
+		    #Kill 1/25 of the pop
+		    set_temp_variable = { pop_to_kill = manpower }
+		    divide_temp_variable = { pop_to_kill = 25 }
+		    round_temp_variable = pop_to_kill
+		    multiply_temp_variable = { pop_to_kill = -1 }
+		    add_manpower = pop_to_kill
+		}
+
+		modifier = {
+			stability_weekly_factor = 0.001
+			war_support_weekly_factor = 0.001
+		}
+
+		days_remove = 90
+	}
+
+	volcanic_might_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_volcanoth
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_volcanoth
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			offence = 0.05
+			breakthrough_factor = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	life_force_siphoning_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_volcanoth
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_war = yes
+			has_idea = primary_religion_followers_of_volcanoth
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+
+			if = {
+				limit = {
+					has_war = no
+				}
+				custom_effect_tooltip = life_force_siphoning_decision_tt
+				show_ideas_tooltip = siphoned_life_force_idea
+			}
+
+			every_enemy_country = {
+				if = {
+					limit = {
+						NOT = {
+							OR = {
+								has_idea = siphoned_life_force_idea
+							}
+						}
+					}
+					add_timed_idea = {
+						idea = siphoned_life_force_idea
+						days = 90
+					}
+				}
+			}
+		}
+
+		days_remove = 90
+	}
+}
+
+mystery_of_the_makers_religion_decisions = {
+	will_of_khazgoroth_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_mystery_of_the_makers
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_mystery_of_the_makers
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_start_efficiency_factor = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	might_of_the_shaper_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_mystery_of_the_makers
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_mystery_of_the_makers
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			production_speed_buildings_factor = 0.2
+		}
+
+		days_remove = 90
+	}
+
+	unearthing_the_past_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_mystery_of_the_makers
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_mystery_of_the_makers
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			research_speed_factor = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	might_of_the_mountain_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_mystery_of_the_makers
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_mystery_of_the_makers
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			offence = 0.1
 		}
 
 		days_remove = 90

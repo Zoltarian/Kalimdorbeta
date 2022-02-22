@@ -341,3 +341,54 @@ annex_uldum = {
     set_state_owner = 2109
   }
 }
+
+#Un'goro crater
+annex_ungoro = {
+  custom_effect_tooltip = annex_ungoro_tt
+  hidden_effect = {
+    set_state_owner = 84
+    set_state_owner = 528
+    set_state_owner = 1115
+    set_state_owner = 1116
+    set_state_owner = 1117
+    set_state_owner = 1118
+    set_state_owner = 1119
+    set_state_owner = 1120
+    set_state_owner = 1121
+    set_state_owner = 1122
+    set_state_owner = 1123
+    set_state_owner = 1124
+    set_state_owner = 1125
+    set_state_owner = 1126
+    set_state_owner = 1127
+    set_state_owner = 2005
+  }
+}
+
+#feralas
+annex_felwood = {
+  custom_effect_tooltip = annex_felwood_tt
+  hidden_effect = {
+    set_state_owner = 1414
+    set_state_owner = 1415
+    set_state_owner = 1416
+    set_state_owner = 1417
+    set_state_owner = 1418
+    set_state_owner = 1419
+    set_state_owner = 1420
+    set_state_owner = 1421
+    set_state_owner = 1422
+    set_state_owner = 1423
+    set_state_owner = 1424
+    set_state_owner = 1425
+    set_state_owner = 1426
+    set_state_owner = 1427
+    set_state_owner = 1428
+    set_state_owner = 1429
+    set_state_owner = 1430
+    set_state_owner = 1431
+    set_state_owner = 1432
+    set_state_owner = 1433
+    set_state_owner = 2000
+  }
+}

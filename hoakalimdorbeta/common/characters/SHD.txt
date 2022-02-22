@@ -1,3 +1,55 @@
 characters={
 
+	SHD_prince_tortheldrin = {
+		name = SHD_prince_tortheldrin
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SHD/prince_tortheldrin.dds"
+			}
+			army = {
+				large = "gfx/leaders/SHD/prince_tortheldrin.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_PRINCE_TORTHELDRIN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_PRINCE_TORTHELDRIN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = { organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SHD_illyanna_ravenoak = {
+		name = SHD_illyanna_ravenoak
+		portraits = {
+			army = {
+				large = "gfx/leaders/SHD/illyanna_ravenoak.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = { ranger }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

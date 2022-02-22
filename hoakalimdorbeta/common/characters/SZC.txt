@@ -1,25 +1,19 @@
 characters={
 
-	SAL_mrrgrl_the_tide_reaver = {
-		name = SAL_mrrgrl_the_tide_reaver
+	SZC_shan_bu = {
+		name = SZC_shan_bu
 		portraits = {
 			civilian = { 
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
 			}
 			army = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
 				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
 			}
 		}
 		country_leader = {
-			ideology = old_gods_type
-			desc = "POLITICS_MRRGRL_THE_TIDE_HUNTER_DESC"
-			traits = {}
-			id = -1
-		}
-		country_leader = {
 			ideology = neutral_type
-			desc = "POLITICS_MRRGRL_THE_TIDE_HUNTER_DESC"
+			desc = "POLITICS_SHAN_BU_DESC"
 			traits = {}
 			id = -1
 		}
@@ -33,5 +27,5 @@ characters={
 			logistics_skill = 2
 		}
 	}
-
+	
 }

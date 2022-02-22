@@ -1,3 +1,37 @@
 characters={
 
+	UFE_blazerunner = {
+		name = UFE_blazerunner
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/UFE/blazerunner.dds"
+			}
+			army = {
+				large = "gfx/leaders/UFE/blazerunner.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_BLAZERUNNER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_BLAZERUNNER_DESC"
+			traits = {}
+			id = -1
+		}
+
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

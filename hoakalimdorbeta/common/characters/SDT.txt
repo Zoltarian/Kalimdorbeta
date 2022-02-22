@@ -1,3 +1,49 @@
 characters={
 
+	SDT_navarrogg = {
+		name = SDT_navarrogg
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SDT/Navarrogg.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDT/Navarrogg.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_NAVARROGG_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SDT_damrul_the_stronk = {
+		name = SDT_damrul_the_stronk
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDT/Damrul.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

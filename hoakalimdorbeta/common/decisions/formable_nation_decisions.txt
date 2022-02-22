@@ -13,7 +13,6 @@ formable_category = {
 		icon = generic_form_nation
 		allowed = {
 			OR = {
-				tag = TAR
 				tag = SHT
 				tag = TWV
 				tag = TSW
@@ -31,12 +30,6 @@ formable_category = {
 
 		complete_effect = {
 			add_political_power = 150
-			if = {
-				limit = {
-					tag = TAR
-				}
-				set_cosmetic_tag = TAR_EMPIRE
-			}
 			else_if = {
 				limit = {
 					tag = SHT
@@ -2090,6 +2083,191 @@ form_keepers_of_uldum_category = {
 			core_uldum = yes
 
 			set_cosmetic_tag = ULD_KEEPERS_OF_ULDUM
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_keepers_of_ungoro_category = {
+	form_keepers_of_ungoro = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = UNG
+		}
+
+		available = {
+			is_subject = no
+
+			control_ungoro_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = UNG
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = UNG_KEEPERS_OF_UNGORO
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_ungoro = yes
+			core_ungoro = yes
+
+			set_cosmetic_tag = UNG_KEEPERS_OF_UNGORO
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_tar_tsardom_category = {
+	form_tar_tsardom_category= {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = TAR
+		}
+
+		available = {
+			is_subject = no
+
+			control_ungoro_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = TAR
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = TAR_TAR_TSARDOM
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_ungoro = yes
+			core_ungoro = yes
+
+			set_cosmetic_tag = TAR_TAR_TSARDOM
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_bloodpetal_kingdom_category = {
+	form_bloodpetal_kingdom = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = BPL
+		}
+
+		available = {
+			is_subject = no
+
+			control_ungoro_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = BPL
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = BPL_BLOODPETAL_KINGDOM
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_ungoro = yes
+			core_ungoro = yes
+
+			set_cosmetic_tag = BPL_BLOODPETAL_KINGDOM
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_hive_gorishi_category = {
+	form_hive_gorishi = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = GOI
+		}
+
+		available = {
+			is_subject = no
+
+			control_ungoro_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = GOI
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = GOI_HIVE_GORISHI
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_ungoro = yes
+			core_ungoro = yes
+
+			set_cosmetic_tag = GOI_HIVE_GORISHI
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_jadefire_kingdom_category = {
+	form_jadefire_kingdom = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = JFT
+		}
+
+		available = {
+			is_subject = no
+
+			control_felwood_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = JFT
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = JFT_JADEFIRE_KINGDOM
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_felwood = yes
+			core_felwood = yes
+
+			set_cosmetic_tag = JFT_JADEFIRE_KINGDOM
 		}
 
 		ai_will_do = {

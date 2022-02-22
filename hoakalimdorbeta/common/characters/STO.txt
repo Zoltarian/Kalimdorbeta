@@ -1,3 +1,175 @@
 characters={
 
+	STO_king_llane_wrynn = {
+		name = STO_king_llane_wrynn
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/STO/King_Llane.dds"
+			}
+			army = {
+				large = "gfx/leaders/STO/King_Llane.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_KING_LLANE_WYRNN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STO_anduin_lothar = {
+		name = STO_anduin_lothar
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/STO/Anduin_Lothar.dds"
+			}
+			army = {
+				large = "gfx/leaders/STO/Anduin_Lothar.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_REGENT_LORD_ANDUIN_LOTHAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_REGENT_LORD_ANDUIN_LOTHAR_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STO_king_varian_wrynn = {
+		name = STO_king_varian_wrynn
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/STO/Varian_Wrynn.dds"
+			}
+			army = {
+				large = "gfx/leaders/STO/Varian_Wrynn.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_VARIAN_WYRNN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_VARIAN_WYRNN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STO_anduin_wrynn_regency = {
+		name = STO_anduin_wrynn_regency
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/STO/Anduin_Wrynn_Regency.dds"
+			}
+			army = {
+				large = "gfx/leaders/STO/Anduin_Wrynn_Regency.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_ANDUIN_REGENCY_COUNCIL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_ANDUIN_REGENCY_COUNCIL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STO_gavinrad_the_dire = {
+		name = STO_gavinrad_the_dire
+		portraits = {
+			army = {
+				large = "gfx/leaders/STO/Gavinrad_the_Dire.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	STO_commander_borton = {
+		name = STO_commander_borton
+		portraits = {
+			army = {
+				large = "gfx/leaders/STO/Portrait_Stormwind_Generic_land_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

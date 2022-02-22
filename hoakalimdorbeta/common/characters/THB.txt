@@ -1,3 +1,55 @@
 characters={
 
+	THB_cairne_bloodhoof = {
+		name = THB_cairne_bloodhoof
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+			}
+			army = {
+				large = "gfx/leaders/THB/cairne_bloodhoof_thunder_bluff.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CAIRNE_BLOODHOOF_FIRST_WAR_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	THB_baine_bloodhoof = {
+		name = THB_baine_bloodhoof
+		portraits = {
+			army = {
+				large = "gfx/leaders/THB/baine_bloodhoof_thunder_bluff.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

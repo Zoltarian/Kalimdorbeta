@@ -1,3 +1,49 @@
 characters={
 
+	TMT_ahmo_thunderhorn = {
+		name = TMT_ahmo_thunderhorn
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
+			}
+			army = {
+				large = "gfx/leaders/TMT/ahmo_thunderhorn.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_AHMO_THUNDERHORN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	TMT_adana_thunderhorn = {
+		name = TMT_adana_thunderhorn
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

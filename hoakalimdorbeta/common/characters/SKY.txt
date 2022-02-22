@@ -1,3 +1,55 @@
 characters={
 
+	SKY_lasan_skyhorn = {
+		name = SKY_lasan_skyhorn
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SKY/Lasan_Skyhorn.dds"
+			}
+			army = {
+				large = "gfx/leaders/SKY/Lasan_Skyhorn.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEFTAIN_LASAN_SKYHORN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_CHIEFTAIN_LASAN_SKYHORN_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SKY_loren_stormhoof = {
+		name = SKY_loren_stormhoof
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKY/Loren_Stormhoof.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

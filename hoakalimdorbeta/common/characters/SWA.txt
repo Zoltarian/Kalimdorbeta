@@ -1,3 +1,55 @@
 characters={
 
+	SWA_fish_eye_mrlgrlrl = {
+		name = SWA_fish_eye_mrlgrlrl
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SWA/Fish_Eye.dds"
+			}
+			army = {
+				large = "gfx/leaders/SWA/Fish_Eye.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_FISH_EYE_MRLGRLRL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_FISH_EYE_MRLGRLRL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SWA_crab_rider_grmlrml = {
+		name = SWA_crab_rider_grmlrml
+		portraits = {
+			army = {
+				large = "gfx/leaders/SWA/crab_rider.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -6,7 +6,26 @@ characters={
 			civilian = {
 				large = "gfx/leaders/GRM/magatha.dds"
 			}
+            army = {
+				small = "GFX_idea_generic_female_tauren_advisor"
+			}
 		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_magatha_grimtotem_advisor
+            cost = 200
+            traits = { offence_specialist_idea_3 }
+
+            available = {
+                NOT = { is_country_leader = yes }
+            }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+
     	country_leader = {
 			ideology = neutral_type
 			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
@@ -49,9 +68,25 @@ characters={
 			}
 			army = {
 				large = "gfx/leaders/GRM/stormsong.dds"
-				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+				small = "GFX_idea_generic_male_tauren_advisor"
 			}
 		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_jevan_grimtotem_advisor
+            cost = 200
+            traits = { shaman_advisor_idea_3 }
+
+            available = {
+                NOT = { is_country_leader = yes }
+            }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+
     	country_leader = {
 			ideology = neutral_type
 			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
@@ -85,7 +120,7 @@ characters={
 			id = -1
 		}
 
-  	field_marshal = {
+      	field_marshal = {
 			traits = {  }
 			skill = 3
 			attack_skill = 2
@@ -100,7 +135,76 @@ characters={
 		portraits = {
 			army = {
 				large = "gfx/leaders/GRM/arnak_grimtotem.dds"
-				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+                small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_arnak_grimtotem_advisor
+            cost = 150
+            traits = { raider_idea_2 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+
+    	corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    GRM_cliffwatcher_longhorn = {
+		name = GRM_cliffwatcher_longhorn
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = political_advisor
+            idea_token = GRM_cliffwatcher_longhorn_advisor
+            cost = 150
+            traits = { spymaster_idea_2 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_elder_stormhoof = {
+		name = GRM_elder_stormhoof
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = political_advisor
+            idea_token = GRM_elder_stormhoof_advisor
+            cost = 150
+            traits = { elder_idea }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_gorehoof_the_black = {
+		name = GRM_gorehoof_the_black
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRM/arnak_grimtotem.dds" #TODO NEED HIS OWN
 			}
 		}
 
@@ -112,5 +216,309 @@ characters={
 			planning_skill = 2
 			logistics_skill = 2
 		}
+	}
+
+    GRM_cor_grimtotem = {
+		name = GRM_cor_grimtotem
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRM/arnak_grimtotem.dds"
+                small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_cor_grimtotem_advisor
+            cost = 150
+            traits = { siege_expert_idea_2 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+
+    	corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    GRM_gorm_grimtotem = {
+		name = GRM_gorm_grimtotem
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_gorm_grimtotem_advisor
+            cost = 100
+            traits = { champion_idea_1 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_grundig_darkcloud = {
+		name = GRM_grundig_darkcloud
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRM/arnak_grimtotem.dds"
+                small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_grundig_darkcloud_advisor
+            cost = 150
+            traits = { infantry_specialist_idea_2 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+
+    	corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    GRM_harb_foulmountain = {
+		name = GRM_harb_foulmountain
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRM/arnak_grimtotem.dds" #TODO NEED HIS OWN
+			}
+		}
+
+    	corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    GRM_helka_grimtotem = {
+		name = GRM_helka_grimtotem
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_female_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_helka_grimtotem_advisor
+            cost = 150
+            traits = { champion_idea_2 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_isha_gloomaxe = {
+		name = GRM_isha_gloomaxe
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRM/arnak_grimtotem.dds"
+                small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_isha_gloomaxe_advisor
+            cost = 100
+            traits = { offence_specialist_idea_1 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+
+    	corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    GRM_kela_grimtotem = {
+		name = GRM_kela_grimtotem
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_female_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_kela_grimtotem_advisor
+            cost = 100
+            traits = { cavalry_specialist_idea_1 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_maur_grimtotem = {
+		name = GRM_maur_grimtotem
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = political_advisor
+            idea_token = GRM_maur_grimtotem_advisor
+            cost = 100
+            traits = { merchant_idea_1 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_orno_grimtotem = {
+		name = GRM_orno_grimtotem
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRM/arnak_grimtotem.dds"
+                small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_orno_grimtotem_advisor
+            cost = 150
+            traits = { recruiter_idea_2 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+
+    	corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    GRM_rahauro = {
+		name = GRM_rahauro
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = political_advisor
+            idea_token = GRM_rahauro_advisor
+            cost = 150
+            traits = { investigator_idea_2 }
+
+            available = {
+                GRM_magatha_grimtotem = {
+                    is_country_leader = yes
+                }
+            }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_ravak_grimtotem = {
+		name = GRM_ravak_grimtotem
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_ravak_grimtotem_advisor
+            cost = 100
+            traits = { scout_idea_1 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_tarakor = {
+		name = GRM_tarakor
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = high_command
+            idea_token = GRM_tarakor_advisor
+            cost = 100
+            traits = { defence_specialist_idea_1 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
+	}
+
+    GRM_ton_windbow = {
+		name = GRM_ton_windbow
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_male_tauren_advisor"
+			}
+		}
+
+        advisor = {
+            slot = political_advisor
+            idea_token = GRM_ton_windbow_advisor
+            cost = 150
+            traits = { ambassador_idea_2 }
+
+            ai_will_do = {
+				factor = 5
+			}
+        }
 	}
 }

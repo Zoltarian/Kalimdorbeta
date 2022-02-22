@@ -1,3 +1,55 @@
 characters={
 
+	SMT_chieftain_graw = {
+		name = SMT_chieftain_graw
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SMT/Chieftain_Graw.dds"
+			}
+			army = {
+				large = "gfx/leaders/SMT/Chieftain_Graw.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEFTAIN_GRAW_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_CHIEFTAIN_GRAW_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SMT_sookh = {
+		name = SMT_sookh
+		portraits = {
+			army = {
+				large = "gfx/leaders/SMT/Sookh.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

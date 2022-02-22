@@ -1,0 +1,81 @@
+#!gfx:interface\hoa_focus.gfx
+focus_tree = {
+	id = generic_silithid_focus
+
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			OR = {
+				tag = CNT
+				tag = FGH
+				tag = GOI
+				tag = HAS
+				tag = HAZ
+				tag = HRE
+				tag = HZO
+				tag = RMH
+			}
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = {
+		x = 1300
+		y = 0
+	}
+
+	focus = {
+		id = generic_silithid_the_hive_nf
+		icon = GFX_focus_silithid_hive
+		cost = 1
+		x = 24
+		y = 0
+
+		completion_reward = {
+			country_event = generic_silithid.1
+		}
+	}
+
+	focus = {
+		id = generic_silithid_the_workers_nf
+		icon = GFX_focus_silithid_worker
+		cost = 1
+		prerequisite = {
+			focus = generic_silithid_the_hive_nf
+		}
+		relative_position_id = generic_silithid_the_hive_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			country_event = generic_silithid.2
+		}
+	}
+
+	focus = {
+		id = generic_silithid_the_soldiers_nf
+		icon = GFX_focus_silithid_soldier
+		cost = 1
+		prerequisite = {
+			focus = generic_silithid_the_workers_nf
+		}
+		relative_position_id = generic_silithid_the_workers_nf
+		x = 0
+		y = 1
+
+		completion_reward = {
+			country_event = generic_silithid.3
+
+			#Unlock other branches
+			set_country_flag = unlocked_other_branches
+			custom_effect_tooltip = unlocking_other_branches_tt
+		}
+	}
+
+	shared_focus = arming_the_nation
+	shared_focus = develop_the_country
+	shared_focus = the_path_forward
+}

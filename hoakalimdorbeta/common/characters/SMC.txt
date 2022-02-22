@@ -1,3 +1,103 @@
 characters={
 
+	SMC_nerzhul = {
+		name = SMC_nerzhul
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SMC/nerzhul.dds"
+			}
+			army = {
+				large = "gfx/leaders/SMC/nerzhul.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_NERZHUL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_NERZHUL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_NERZHUL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_NERZHUL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SMC_dentarg = {
+		name = SMC_dentarg
+		portraits = {
+			army = {
+				large = "gfx/leaders/SMC/dentarg.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SMC_kelidan_the_breaker = {
+		name = SMC_kelidan_the_breaker
+		portraits = {
+			army = {
+				large = "gfx/leaders/SMC/kelidan_the_breaker.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SMC_sadana_bloodfury = {
+		name = SMC_sadana_bloodfury
+		portraits = {
+			army = {
+				large = "gfx/leaders/SMC/sadana_bloodfury.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

@@ -1,3 +1,55 @@
 characters={
 
+	SKU_anathek_the_cruel = {
+		name = SKU_anathek_the_cruel
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SKU/ana_thek.dds"
+			}
+			army = {
+				large = "gfx/leaders/SKU/ana_thek.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_ANATHEK_THE_CRUEL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_ANATHEK_THE_CRUEL_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SKU_mogh_the_undying = {
+		name = SKU_mogh_the_undying
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKU/mogh.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

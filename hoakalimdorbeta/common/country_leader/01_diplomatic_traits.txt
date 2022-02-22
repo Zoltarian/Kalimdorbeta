@@ -1,38 +1,50 @@
+##############################################
+# Traits for non-military advisors
+##############################################
+
 leader_traits = {
 
 ##############################################
-#non tiered traits
-##############################################
-	
-	consort_idea = {
-	
-		stability_factor = 0.2
-			
-		ai_will_do = {
-			factor = 5
-		}
-	
-	}
-	
-	heir_idea = {
-	
-		war_support_factor = 0.15
-		stability_factor = 0.1
-			
-		ai_will_do = {
-			factor = 5
-		}
-	
-	}
-	
-##############################################
-#non military advisor traits
+# Non tiered traits
 ##############################################
 
-	ambassador_idea_1 = { # any npcs sent to another nation
+	consort_idea = {
+
+		stability_factor = 0.2
+
+		ai_will_do = {
+			factor = 5
+		}
+
+	}
+
+	heir_idea = {
+		war_support_factor = 0.15
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	#Elder (for nations like Taurens, Taunka, etc...)
+	elder_idea = {
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+##############################################
+# Non-military Advisor tiered traits
+##############################################
+
+	#Ambassador (political power + opinion gain)
+	ambassador_idea_1 = { # any NPCs sent to another nation / diplomat
 		political_power_gain = 0.2
 		opinion_gain_monthly_factor = 0.05
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -41,7 +53,7 @@ leader_traits = {
 	ambassador_idea_2 = { #non throw away npcs (more then 1 quest/appearance)
 		political_power_gain = 0.35
 		opinion_gain_monthly_factor = 0.075
-		
+
 		ai_will_do = {
 			factor = 3
 		}
@@ -50,282 +62,336 @@ leader_traits = {
 	ambassador_idea_3 = { #reaccuring/main character
 		political_power_gain = 0.5
 		opinion_gain_monthly_factor = 0.1
-		
+
 		ai_will_do = {
 			factor = 5
 		}
 	}
 
-	vendor_idea_1 = { #vendor
+	#Merchant trait (consumer good reduction)
+	merchant_idea_1 = { #Used for basic vendors
 		consumer_goods_factor = -0.05
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-	
+
 	}
-	
-	vendor_idea_2 = { #vendor (speicalized goods (pets/professions)
+
+	merchant_idea_2 = { #Used for Specialized Goods vendors (pets/professions)
 		consumer_goods_factor = -0.075
-		
+
 		ai_will_do = {
 			factor = 3
 		}
-	
+
 	}
-	
-	vendor_idea_3 = { #vendor (quartermaster or tier sets vendor)
+
+	merchant_idea_3 = { #Used for Quartermaster / Tier Sets vendor
 		consumer_goods_factor = -0.1
-		
+
 		ai_will_do = {
 			factor = 5
 		}
-	
+
 	}
-	
-	
+
+
+	#Investigator trait (decryption, ideology / justification defence)
 	investigator_idea_1 = {
 		decryption_factor = 0.02
 		enemy_justify_war_goal_time = 0.05
 		drift_defence_factor = 0.03
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-	
 	}
-	
+
 	investigator_idea_2 = {
 		decryption_factor = 0.04
 		enemy_justify_war_goal_time = 0.1
 		drift_defence_factor = 0.06
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-	
 	}
 
 	investigator_idea_3 = {
 		decryption_factor = 0.1
 		enemy_justify_war_goal_time = 0.15
 		drift_defence_factor = 0.1
-		
+
 		ai_will_do = {
 			factor = 1
 		}
-	
 	}
 
-	
-    architect_idea_1 = {
-        global_building_slots_factor = 0.1
-        
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-    architect_idea_2 = {
-        global_building_slots_factor = 0.15
-        
-        ai_will_do = {
-            factor = 3
-        }
-    }
-	
-    architect_idea_3 = {
-        global_building_slots_factor = 0.2
-        
-        ai_will_do = {
-            factor = 5
-        }
-    }
-	
-	tinker_idea_1 = {	
-		research_speed_factor = 0.05
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
-	}
-	
-	tinker_idea_2 = {	
-		research_speed_factor = 0.075
-		
-		ai_will_do = {
-			factor = 3
-		}
-	
-	}
-	
-	tinker_idea_3 = {	
-		research_speed_factor = 0.1
-		
-		ai_will_do = {
-			factor = 5
-		}
-	
-	}
-	
-	explorer_idea_1 = {	
-		research_speed_factor = 0.05
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
-	}
-	
-	explorer_idea_2 = {	
-		research_speed_factor = 0.075
-		
-		ai_will_do = {
-			factor = 3
-		}
-	
-	}
-	
-	explorer_idea_3 = {	
-		research_speed_factor = 0.1
-		
-		ai_will_do = {
-			factor = 5
-		}
-	
-	}
-	
-	master_of_coin_idea_1 = {
-		consumer_goods_factor = -0.01
-		
-		ai_will_do = {
-			factor = 1
-		}
-	
-	}
-	
-	master_of_coin_idea_2 = {	
-		consumer_goods_factor = -0.02
-		
-		ai_will_do = {
-			factor = 3
-		}
-	
-	}
-	
-	master_of_coin_idea_3 = {
-		consumer_goods_factor = -0.03
-		
-		ai_will_do = {
-			factor = 5
-		}
-	
-	}
-	
-    builder_idea_1 = {
-        
-        production_speed_buildings_factor = 0.05
-        
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-    builder_idea_2 = {
-        
-        production_speed_buildings_factor = 0.1
-        
-        ai_will_do = {
-            factor = 3
-        }
-    }
-	
-    builder_idea_3 = {
-        
-        production_speed_buildings_factor = 0.15
-        
-        ai_will_do = {
-            factor = 5
-        }
-    }
-	
-    foreman_idea_1 = {
-        
-        local_resources_factor = 0.05
-        
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-    foreman_idea_2 = {
-        
-        local_resources_factor = 0.1
-        
-        ai_will_do = {
-            factor = 3
-        }
-    }
-	
+
+	#Architect trait (building slot factor)
+  	architect_idea_1 = {
+      	global_building_slots_factor = 0.1
+
+      	ai_will_do = {
+          	factor = 1
+      	}
+  	}
+
+  	architect_idea_2 = {
+      	global_building_slots_factor = 0.15
+
+      	ai_will_do = {
+          	factor = 3
+      	}
+  	}
+
+  	architect_idea_3 = {
+      	global_building_slots_factor = 0.2
+
+      	ai_will_do = {
+          	factor = 5
+      	}
+  	}
+
+	#Builder trait (construction speed)
+  	builder_idea_1 = {
+      	production_speed_buildings_factor = 0.05
+
+      	ai_will_do = {
+          	factor = 1
+      	}
+  	}
+
+  	builder_idea_2 = {
+      	production_speed_buildings_factor = 0.1
+
+      	ai_will_do = {
+          	factor = 3
+      	}
+  	}
+
+  	builder_idea_3 = {
+      	production_speed_buildings_factor = 0.15
+
+      	ai_will_do = {
+          	factor = 5
+      	}
+  	}
+
+	#Foreman trait (ressource factor)
+  	foreman_idea_1 = {
+      	local_resources_factor = 0.05
+
+      	ai_will_do = {
+          	factor = 1
+      	}
+  	}
+
+  	foreman_idea_2 = {
+      	local_resources_factor = 0.1
+
+      	ai_will_do = {
+          	factor = 3
+      	}
+  	}
+
     foreman_idea_3 = {
-        
         local_resources_factor = 0.15
-        
+
         ai_will_do = {
             factor = 5
         }
     }
-	
-    noble_diplomat_idea_1 = {
-        
-        local_resources_factor = 0.05
-        
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-    noble_diplomat_idea_2 = {
-        
-        local_resources_factor = 0.1
-        
-        ai_will_do = {
-            factor = 3
-        }
-    }
-	
-    noble_diplomat_idea_3 = {
-        
-        local_resources_factor = 0.15
-        
-        ai_will_do = {
-            factor = 5
-        }
-    }
-	
+
+	#Researcher (research speed)
+	researcher_idea_1 = {
+		research_speed_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	researcher_idea_2 = {
+		research_speed_factor = 0.075
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	researcher_idea_3 = {
+		research_speed_factor = 0.1
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	#Spymaster trait (decryption + encryption)
+	spymaster_idea_1 = {
+      	decryption_factor = 0.05
+		encryption_factor = 0.05
+
+      	ai_will_do = {
+          	factor = 5
+      	}
+  	}
+
+	spymaster_idea_2 = {
+      	decryption_factor = 0.1
+		encryption_factor = 0.1
+
+      	ai_will_do = {
+          	factor = 5
+      	}
+  	}
+
+	spymaster_idea_3 = {
+ 		decryption_factor = 0.15
+		encryption_factor = 0.15
+
+      	ai_will_do = {
+          	factor = 5
+      	}
+  	}
+
+	#Influence related traits
 	horde_sympathiser = {
 		horde_drift = 0.1
 	}
-	
+
 	alliance_sympathiser = {
 		alliance_drift = 0.1
 	}
-	
+
 	nationalist_idea = {
 		neutral_drift = 0.1
 	}
-	
+
 	legion_spy_idea = {
 		fel_drift = 0.1
 	}
-	
+
 	twilight_cultist_idea = {
 		old_gods_drift = 0.1
 	}
-	
+
 	titan_herald_idea = {
 		titans_drift = 0.1
 	}
-	
+
+##############################################
+# Nation / race / religion specific traits
+# Mostly for flavor purposes, traits can be used
+# outside their intended race / nation if needed
+##############################################
+
+	#Arcanist trait (research speed) - Mage / Highborne / Arcane specific
+	arcanist_idea_1 = {
+		research_speed_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	arcanist_idea_2 = {
+		research_speed_factor = 0.075
+
+		ai_will_do = {
+			factor = 3
+		}
+
+	}
+
+	arcanist_idea_3 = {
+		research_speed_factor = 0.1
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	#Tinker trait (research speed) - Goblin / Gnome specific
+	tinker_idea_1 = {
+		research_speed_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	tinker_idea_2 = {
+		research_speed_factor = 0.075
+
+		ai_will_do = {
+			factor = 3
+		}
+
+	}
+
+	tinker_idea_3 = {
+		research_speed_factor = 0.1
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	######################
+	# OLD TRAITS
+	######################
+  	noble_diplomat_idea_1 = {
+      	local_resources_factor = 0.05
+
+      	ai_will_do = {
+          	factor = 1
+      	}
+  	}
+
+  	noble_diplomat_idea_2 = {
+      	local_resources_factor = 0.1
+
+      	ai_will_do = {
+          	factor = 3
+      	}
+  	}
+
+    noble_diplomat_idea_3 = {
+        local_resources_factor = 0.15
+
+        ai_will_do = {
+            factor = 5
+        }
+    }
+
+	explorer_idea_1 = {
+		research_speed_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	explorer_idea_2 = {
+		research_speed_factor = 0.075
+
+		ai_will_do = {
+			factor = 3
+		}
+
+	}
+
+	explorer_idea_3 = {
+		research_speed_factor = 0.1
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
 }
