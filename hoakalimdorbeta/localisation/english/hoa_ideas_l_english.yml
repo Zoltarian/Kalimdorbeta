@@ -102,10 +102,6 @@ diplomat_idea_1:0 "Diplomat"
 diplomat_idea_2:0 "§GMaster Diplomat§"
 diplomat_idea_3:0 "§MAmbassador§"
 
-architect_idea_1:0 "Architect"
-architect_idea_2:0 "§GArchitect§!"
-architect_idea_3:0 "§MLegendary Architect§"
-
 explorer_idea_1:0 "Explorer"
 explorer_idea_2:0 "§GExperinced Explorer§!"
 explorer_idea_3:0 "§MLegendary Explorer§!"
@@ -118,25 +114,14 @@ master_of_coin_idea_1:0 "Coin Keeper"
 master_of_coin_idea_2:0 "§GMaster of Coin§"
 master_of_coin_idea_3:0 "§MLegendary Master of Coin§"
 
-builder_idea_1:0 "Builder"
-builder_idea_2:0 "§GMaster Builder§"
-builder_idea_3:0 "§MLegendary Builder§"
 
-foreman_idea_1:0 "Foreman"
-foreman_idea_2:0 "§GMaster Foreman§"
-foreman_idea_3:0 "§MLegendary Foreman§"
 
-trainer_idea_1:0 "Trainer"
-trainer_idea_2:0 "§GMaster Trainer§"
-trainer_idea_3:0 "§MGrand Master Trainer§"
 #
 infantry_idea_1:0 "Captain"
 infantry_idea_2:0 "§GHigh Captain§"
 infantry_idea_3:0 "§MCaptain General§"
 #
-champion_idea_1:0 "Aspirant"
-champion_idea_2:0 "§GChampion§"
-champion_idea_3:0 "§MGrand Champion§"
+
 #
 cavalry_idea_1:0 "Knight"
 cavalry_idea_2:0 "§GKnight-Lieutenant§"
@@ -158,33 +143,10 @@ hoa_admiral_1:0 "Vice Admiral"
 hoa_admiral_2:0 "§GAdmiral§"
 hoa_admiral_3:0 "§MGrand Admiral§"
 #
-privateer_idea_1:0 "Privateer"
-privateer_idea_2:0 "§GRevered Privateer§"
-privateer_idea_3:0 "§MExalted Privateer§"
-#
-recruiter_idea_1:0 "Bounty Administrator"
-recruiter_idea_2:0 "§GRecruitment Officer§"
-recruiter_idea_3:0 "§MChief Recruitment Officer§"
-#
-medic_idea_1:0 "Expert Medic"
-medic_idea_2:0 "§GMaster Medic§"
-medic_idea_3:0 "§MGrand Master Medic§"
 #
 nationalist_idea:0 "Nationalist"
 alliance_sympathiser:0 "Alliance Sympathiser"
 titan_herald_idea: "Titan Herald"
-#
-investigator_idea_1:0 "Detective"
-investigator_idea_2:0 "§GInvestigator§"
-investigator_idea_3:0 "§MSpecial Investigator§"
-#
-guardian_1:0 "Seasoned Guardian"
-guardian_2:0 "§GVeteran Guardian§"
-guardian_3:0 "§MChampion Guardian§"
-#
-quartermaster_idea_1:0 "Novice Quartermaster"
-quartermaster_idea_2:0 "§GQuartermaster§"
-quartermaster_idea_3:0 "§MExpert Quartermaster§"
 #
 noble_diplomat_idea_1:0 "Noble"
 noble_diplomat_idea_2:0 "§GWise Noble§"
@@ -364,6 +326,8 @@ insanity_idea_desc:0 "A mysterious force is driving some of our troops insane."
 madness_idea:0 "Madness"
 madness_idea_desc:0 "A mysterious affliction is spreading through our population and institutions leading to instability within our nation."
 
+siphoned_life_force_idea:0 "Siphoned Life-Force"
+siphoned_life_force_idea_desc:0 "The enemy is using dark and forbidden witch doctor magic to drain the life-force of our troops, transforming them into mindless zombies that are absolutely useless."
 
 #############################################################
 #Nation Ideas
