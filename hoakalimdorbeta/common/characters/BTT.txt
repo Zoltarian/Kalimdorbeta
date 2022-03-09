@@ -12,7 +12,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = neutral_type
+			ideology = alliance_type
 			desc = "POLITICS_CHIEFTAN_TOROK_BLOODTOTEM_DESC"
 			traits = {}
 			id = -1
@@ -24,7 +24,31 @@ characters={
 			id = -1
 		}
 		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_CHIEFTAN_TOROK_BLOODTOTEM_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
 			ideology = fel_type
+			desc = "POLITICS_CHIEFTAN_TOROK_BLOODTOTEM_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_CHIEFTAN_TOROK_BLOODTOTEM_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_CHIEFTAN_TOROK_BLOODTOTEM_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
 			desc = "POLITICS_CHIEFTAN_TOROK_BLOODTOTEM_DESC"
 			traits = {}
 			id = -1

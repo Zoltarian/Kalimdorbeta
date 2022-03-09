@@ -4,17 +4,77 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-TKT = {
+CWT = {
 	male = {
-		names = { "Akiak" "Roanauk" "Gaur" "Tormak" "Toshe" "Akule" }
+		names = { "Akiak" "Roanauk" "Gaur" "Tormak" "Toshe" "Akule" "Alorn" "Aloke" "Toshe" "Danho" "Dorain" "Talu" }
 		surnames = { }
 		callsigns = { }
 	}
 	female = {
-		names = { }
+		names = { "Aeire" "Ankha" "Taiga" "Barah" "Tewah" "Chaska" "Mahana" "Pahu" }
 		surnames = { }
 		callsigns = { }
 	}
-	surnames = { "Icetotem" "Wintermist" "Icegale" "Frostspear" "Frosthoof" }
+	surnames = { "Icetotem" "Wintermist" "Icegale" "Frostspear" "Frosthoof" "Ashtotem" "Bristlehorn" "Coldwind" "Frozenmane" }
+	callsigns = { "Warbrave" }
+}
+
+ICM = {
+	male = {
+		names = { "Akiak" "Roanauk" "Gaur" "Tormak" "Toshe" "Akule" "Alorn" "Aloke" "Toshe" "Danho" "Dorain" "Talu" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Aeire" "Ankha" "Taiga" "Barah" "Tewah" "Chaska" "Mahana" "Pahu" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Icetotem" "Wintermist" "Icegale" "Frostspear" "Frosthoof" "Ashtotem" "Bristlehorn" "Coldwind" "Frozenmane" }
+	callsigns = { "Warbrave" }
+}
+
+OQW = {
+	male = {
+		names = { "Akiak" "Roanauk" "Gaur" "Tormak" "Toshe" "Akule" "Alorn" "Aloke" "Toshe" "Danho" "Dorain" "Talu" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Aeire" "Ankha" "Taiga" "Barah" "Tewah" "Chaska" "Mahana" "Pahu" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Icetotem" "Wintermist" "Icegale" "Frostspear" "Frosthoof" "Ashtotem" "Bristlehorn" "Coldwind" "Frozenmane" }
+	callsigns = { "Warbrave" }
+}
+
+TKT = {
+	male = {
+		names = { "Akiak" "Roanauk" "Gaur" "Tormak" "Toshe" "Akule" "Alorn" "Aloke" "Toshe" "Danho" "Dorain" "Talu" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Aeire" "Ankha" "Taiga" "Barah" "Tewah" "Chaska" "Mahana" "Pahu" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Icetotem" "Wintermist" "Icegale" "Frostspear" "Frosthoof" "Ashtotem" "Bristlehorn" "Coldwind" "Frozenmane" }
+	callsigns = { "Warbrave" }
+}
+
+TLT = {
+	male = {
+		names = { "Akiak" "Roanauk" "Gaur" "Tormak" "Toshe" "Akule" "Alorn" "Aloke" "Toshe" "Danho" "Dorain" "Talu" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Aeire" "Ankha" "Taiga" "Barah" "Tewah" "Chaska" "Mahana" "Pahu" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Icetotem" "Wintermist" "Icegale" "Frostspear" "Frosthoof" "Ashtotem" "Bristlehorn" "Coldwind" "Frozenmane" }
 	callsigns = { "Warbrave" }
 }

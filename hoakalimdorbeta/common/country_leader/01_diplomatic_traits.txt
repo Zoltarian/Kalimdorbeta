@@ -258,20 +258,24 @@ leader_traits = {
   	}
 
 	#Influence related traits
-	horde_sympathiser = {
+	horde_sympathizer_idea = {
 		horde_drift = 0.1
 	}
 
-	alliance_sympathiser = {
+	alliance_sympathizer_idea = {
 		alliance_drift = 0.1
 	}
 
-	nationalist_idea = {
+	neutrality_partisan_idea = {
 		neutral_drift = 0.1
 	}
 
-	legion_spy_idea = {
+	legion_agent_idea = {
 		fel_drift = 0.1
+	}
+
+	death_agent_idea = {
+		death_drift = 0.1
 	}
 
 	twilight_cultist_idea = {

@@ -4,12 +4,48 @@ characters={
 		name = STT_speaker_iknal
 		portraits = {
 			civilian = { 
-				large = "gfx/leaders/STS/jorkil_the_soulripper.dds"
+				large = "gfx/leaders/STT/speaker_iknal.dds"
 			}
 			army = {
-				large = "gfx/leaders/STS/jorkil_the_soulripper.dds"
+				large = "gfx/leaders/STT/speaker_iknal.dds"
 				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
 			}
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_SPEAKER_IKNAL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_SPEAKER_IKNAL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_SPEAKER_IKNAL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_SPEAKER_IKNAL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_SPEAKER_IKNAL_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_SPEAKER_IKNAL_DESC"
+			traits = {}
+			id = -1
 		}
 		country_leader = {
 			ideology = neutral_type

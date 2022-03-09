@@ -1,7 +1,7 @@
 characters={
 
 	GAR_greatmother_geyah = {
-		name = AMA_zuljin
+		name = GAR_greatmother_geyah
 		portraits = {
 			civilian = { 
 				large = "gfx/leaders/GAR/greatmother_geyah.dds"
@@ -12,7 +12,37 @@ characters={
 			}
 		}
 		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_GEYAH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
 			ideology = horde_type
+			desc = "POLITICS_GEYAH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_GEYAH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_GEYAH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_GEYAH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
 			desc = "POLITICS_GEYAH_DESC"
 			traits = {}
 			id = -1

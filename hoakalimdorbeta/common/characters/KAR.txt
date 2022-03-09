@@ -20,15 +20,13 @@ characters={
 			id = -1
 		}
 		country_leader = {
-			ideology = neutral_type
+			ideology = horde_type
 			desc = "POLITICS_MAGUS_MEDIVH_DESC"
-			traits = {
-				isolationist_leader_trait
-			}
+			traits = {}
 			id = -1
 		}
 		country_leader = {
-			ideology = horde_type
+			ideology = death_type
 			desc = "POLITICS_MAGUS_MEDIVH_DESC"
 			traits = {}
 			id = -1
@@ -37,6 +35,26 @@ characters={
 			ideology = fel_type
 			desc = "POLITICS_MAGUS_MEDIVH_DESC"
 			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_MAGUS_MEDIVH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_MAGUS_MEDIVH_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_MAGUS_MEDIVH_DESC"
+			traits = {
+				isolationist_leader_trait
+			}
 			id = -1
 		}
 

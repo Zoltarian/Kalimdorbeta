@@ -26,38 +26,63 @@ characters={
 			}
         }
 
-    	country_leader = {
-			ideology = neutral_type
+		country_leader = {
+			ideology = alliance_type
 			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
-      		traits = {
+			traits = {
         		shaman_leader_trait
       		}
 			id = -1
 		}
-    	country_leader = {
-			ideology = old_gods_type
+		country_leader = {
+			ideology = horde_type
 			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
-      		traits = {
+			traits = {
         		shaman_leader_trait
       		}
 			id = -1
 		}
-    	country_leader = {
+		country_leader = {
 			ideology = death_type
 			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
-      		traits = {
+			traits = {
         		shaman_leader_trait
       		}
 			id = -1
 		}
-    	country_leader = {
+		country_leader = {
 			ideology = fel_type
 			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
-      		traits = {
+			traits = {
         		shaman_leader_trait
       		}
 			id = -1
 		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
+			traits = {
+        		shaman_leader_trait
+      		}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
+			traits = {
+        		shaman_leader_trait
+      		}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_MAGATHA_GRIMTOTEM_DESC"
+			traits = {
+        		shaman_leader_trait
+      		}
+			id = -1
+		}
+
 	}
 
   	GRM_jevan_grimtotem = {
@@ -87,8 +112,8 @@ characters={
 			}
         }
 
-    	country_leader = {
-			ideology = neutral_type
+		country_leader = {
+			ideology = alliance_type
 			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
 			traits = {
         		shaman_leader_trait
@@ -98,23 +123,47 @@ characters={
 		country_leader = {
 			ideology = horde_type
 			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
-      		traits = {
+			traits = {
         		shaman_leader_trait
       		}
 			id = -1
 		}
-    	country_leader = {
-			ideology = alliance_type
+		country_leader = {
+			ideology = death_type
 			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
-     		traits = {
+			traits = {
         		shaman_leader_trait
       		}
 			id = -1
 		}
-    	country_leader = {
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
+			traits = {
+        		shaman_leader_trait
+      		}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
+			traits = {
+        		shaman_leader_trait
+      		}
+			id = -1
+		}
+		country_leader = {
 			ideology = titans_type
 			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
-      		traits = {
+			traits = {
+        		shaman_leader_trait
+      		}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_JEVAN_GRIMTOTEM_DESC"
+			traits = {
         		shaman_leader_trait
       		}
 			id = -1

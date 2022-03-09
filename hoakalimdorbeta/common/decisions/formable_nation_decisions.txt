@@ -30,7 +30,7 @@ formable_category = {
 
 		complete_effect = {
 			add_political_power = 150
-			else_if = {
+			if = {
 				limit = {
 					tag = SHT
 				}

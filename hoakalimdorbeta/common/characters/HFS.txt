@@ -12,6 +12,24 @@ characters={
 			}
 		}
 		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_PRINCE_KELLEN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_PRINCE_KELLEN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_PRINCE_KELLEN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
 			ideology = fel_type
 			desc = "POLITICS_PRINCE_KELLEN_DESC"
 			traits = {}
@@ -19,6 +37,12 @@ characters={
 		}
 		country_leader = {
 			ideology = old_gods_type
+			desc = "POLITICS_PRINCE_KELLEN_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
 			desc = "POLITICS_PRINCE_KELLEN_DESC"
 			traits = {}
 			id = -1

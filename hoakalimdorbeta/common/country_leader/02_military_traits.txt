@@ -10,6 +10,7 @@ leader_traits = {
 	#Offence specialist traits (army attack)
 	offence_specialist_idea_1 = {
 		offence = 0.05
+		experience_gain_army = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -18,6 +19,7 @@ leader_traits = {
 
 	offence_specialist_idea_2 = {
 		offence = 0.1
+		experience_gain_army = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -26,6 +28,7 @@ leader_traits = {
 
 	offence_specialist_idea_3 = {
 		offence = 0.15
+		experience_gain_army = 0.15
 
 		ai_will_do = {
 			factor = 1
@@ -35,6 +38,7 @@ leader_traits = {
 	#Defence specialist traits (army defence)
 	defence_specialist_idea_1 = {
 		defence = 0.05
+		experience_gain_army = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -43,6 +47,7 @@ leader_traits = {
 
 	defence_specialist_idea_2 = {
 		defence = 0.1
+		experience_gain_army = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -51,6 +56,7 @@ leader_traits = {
 
 	defence_specialist_idea_3 = {
 		defence = 0.15
+		experience_gain_army = 0.15
 
 		ai_will_do = {
 			factor = 1
@@ -59,9 +65,9 @@ leader_traits = {
 
 	#Infantry specialist (attack + defence to infantry)
 	infantry_specialist_idea_1 = {
-		sprite = 5
 		army_infantry_attack_factor = 0.05
 		army_infantry_defence_factor = 0.1
+		experience_gain_army = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -69,9 +75,9 @@ leader_traits = {
 	}
 
 	infantry_specialist_idea_2 = {
-		sprite = 5
 		army_infantry_attack_factor = 0.1
 		army_infantry_defence_factor = 0.15
+		experience_gain_army = 0.1
 
 		ai_will_do = {
 			factor = 3
@@ -79,9 +85,9 @@ leader_traits = {
 	}
 
 	infantry_specialist_idea_3 = {
-		sprite = 5
 		army_infantry_attack_factor = 0.15
 		army_infantry_defence_factor = 0.2
+		experience_gain_army = 0.15
 
 		ai_will_do = {
 			factor = 5
@@ -90,9 +96,9 @@ leader_traits = {
 
 	#Spellcaster specialist (attack + defence to spellcasters)
 	spellcaster_specialist_idea_1 = {
-		sprite = 5
 		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.05
 		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.1
+		experience_gain_army = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -101,9 +107,9 @@ leader_traits = {
 
 	#Spellcaster specialist (attack + defence to spellcasters)
 	spellcaster_specialist_idea_2 = {
-		sprite = 5
 		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.1
 		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.15
+		experience_gain_army = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -112,9 +118,9 @@ leader_traits = {
 
 	#Spellcaster specialist (attack + defence to spellcasters)
 	spellcaster_specialist_idea_3 = {
-		sprite = 5
 		modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.15
 		modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.2
+		experience_gain_army = 0.15
 
 		ai_will_do = {
 			factor = 1
@@ -123,9 +129,9 @@ leader_traits = {
 
 	#Cavalry specialist (attack + defence to infantry)
 	cavalry_specialist_idea_1 = {
-		sprite = 8
 		cavalry_attack_factor = 0.05
 		cavalry_defence_factor = 0.05
+		experience_gain_army = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -133,9 +139,9 @@ leader_traits = {
 	}
 
 	cavalry_specialist_idea_2 = {
-		sprite = 8
 		cavalry_attack_factor = 0.1
 		cavalry_defence_factor = 0.1
+		experience_gain_army = 0.1
 
 		ai_will_do = {
 			factor = 2
@@ -143,9 +149,9 @@ leader_traits = {
 	}
 
 	cavalry_specialist_idea_3 = {
-		sprite = 8
 		cavalry_attack_factor = 0.15
 		cavalry_defence_factor = 0.15
+		experience_gain_army = 0.15
 
 		ai_will_do = {
 			factor = 3
@@ -154,7 +160,7 @@ leader_traits = {
 
 	#Siege expert
 	siege_expert_idea_1 = {
-		sprite = 5
+		experience_gain_army = 0.05
 
         equipment_bonus = {
             catapult_equipment = {
@@ -169,7 +175,7 @@ leader_traits = {
 	}
 
 	siege_expert_idea_2 = {
-		sprite = 5
+		experience_gain_army = 0.1
 
         equipment_bonus = {
             catapult_equipment = {
@@ -184,7 +190,7 @@ leader_traits = {
 	}
 
 	siege_expert_idea_3 = {
-		sprite = 5
+		experience_gain_army = 0.15
 
         equipment_bonus = {
             catapult_equipment = {
@@ -253,7 +259,6 @@ leader_traits = {
 
 	#Champion trait (special force defence)
 	champion_idea_1 = {
-		sprite = 5
 	    special_forces_defence_factor = 0.15
 
 		ai_will_do = {
@@ -262,7 +267,6 @@ leader_traits = {
 	}
 
 	champion_idea_2 = {
-		sprite = 5
 	    special_forces_defence_factor = 0.2
 
 		ai_will_do = {
@@ -271,7 +275,6 @@ leader_traits = {
 	}
 
 	champion_idea_3 = {
-		sprite = 5
 	    special_forces_defence_factor = 0.25
 
 		ai_will_do = {
@@ -306,7 +309,6 @@ leader_traits = {
 
 	#Healer trait (reinforce rate and attrition)
 	healer_idea_1 = {
-		sprite = 5
 		land_reinforce_rate = 0.03
 		attrition = -0.03
 
@@ -316,7 +318,6 @@ leader_traits = {
 	}
 
 	healer_idea_2 = {
-		sprite = 5
 		land_reinforce_rate = 0.06
 		attrition = -0.06
 
@@ -326,7 +327,6 @@ leader_traits = {
 	}
 
 	healer_idea_3 = {
-		sprite = 5
 		land_reinforce_rate = 0.1
 		attrition = -0.1
 
@@ -337,7 +337,6 @@ leader_traits = {
 
 	#Trainer trait (training time)
 	trainer_idea_1 = {
-		sprite = 5
 		training_time_factor = -0.05
 
 		ai_will_do = {
@@ -346,7 +345,6 @@ leader_traits = {
 	}
 
 	trainer_idea_2 = {
-		sprite = 5
 		training_time_factor = -0.1
 
 		ai_will_do = {
@@ -355,7 +353,6 @@ leader_traits = {
 	}
 
 	trainer_idea_3 = {
-		sprite = 5
 		training_time_factor = -0.15
 
 		ai_will_do = {
@@ -365,7 +362,6 @@ leader_traits = {
 
 	#Recruiter trait (conscription factor)
 	recruiter_idea_1 = {
-		sprite = 5
 		conscription_factor = 0.01
 
 		ai_will_do = {
@@ -374,7 +370,6 @@ leader_traits = {
 	}
 
 	recruiter_idea_2 = {
-		sprite = 5
 		conscription_factor = 0.02
 
 		ai_will_do = {
@@ -383,7 +378,6 @@ leader_traits = {
 	}
 
 	recruiter_idea_3 = {
-		sprite = 5
 		conscription_factor = 0.03
 
 		ai_will_do = {
@@ -393,8 +387,6 @@ leader_traits = {
 
 	#Raider trait (non core manpower)
 	raider_idea_1 = {
-		sprite = 5
-
 		non_core_manpower = 0.01
 
 		ai_will_do = {
@@ -403,8 +395,6 @@ leader_traits = {
 	}
 
 	raider_idea_2 = {
-		sprite = 5
-
 		non_core_manpower = 0.02
 
 		ai_will_do = {
@@ -413,8 +403,6 @@ leader_traits = {
 	}
 
 	raider_idea_3 = {
-		sprite = 5
-
 		non_core_manpower = 0.03
 
 		ai_will_do = {
@@ -426,9 +414,72 @@ leader_traits = {
 # Navy related traits
 ####################
 
+	#Naval offence specialist traits (naval attack)
+	naval_offence_specialist_idea_1 = {
+		naval_damage_factor = 0.05
+		naval_critical_score_chance_factor = 0.025
+		experience_gain_navy = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_offence_specialist_idea_2 = {
+		naval_damage_factor = 0.1
+		naval_critical_score_chance_factor = 0.05
+		experience_gain_navy = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_offence_specialist_idea_3 = {
+		naval_damage_factor = 0.15
+		naval_critical_score_chance_factor = 0.075
+		experience_gain_navy = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Naval defence specialist traits (naval defence)
+	naval_defence_specialist_idea_1 = {
+		naval_defense_factor = 0.05
+		naval_detection = 0.025
+		experience_gain_navy = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_defence_specialist_idea_2 = {
+		naval_defense_factor = 0.1
+		naval_detection = 0.05
+		experience_gain_navy = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_defence_specialist_idea_3 = {
+		naval_defense_factor = 0.15
+		naval_detection = 0.075
+		experience_gain_navy = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#Privateer traits (convoy raiding efficiency)
 	privateer_idea_1 = {
 		convoy_raiding_efficiency_factor = 0.1
+		experience_gain_navy = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -437,6 +488,7 @@ leader_traits = {
 
 	privateer_idea_2 = {
 		convoy_raiding_efficiency_factor = 0.15
+		experience_gain_navy = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -445,6 +497,7 @@ leader_traits = {
 
 	privateer_idea_3 = {
 		convoy_raiding_efficiency_factor = 0.2
+		experience_gain_navy = 0.15
 
 		ai_will_do = {
 			factor = 1

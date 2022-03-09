@@ -5,62 +5,50 @@
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
 GDF = {
-	male = {
-		names = { "Tharif" "Lethl" "Aron" "Somn"}
-		surnames = { "us" "ar" "on" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Tharif" "Lethl" "Aron" "Somn" "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth"}
+		surnames = { "Us" "Ar" "On" "Ra" "Iss" "Era" }
+		callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian" }
 	}
-	female = {
-		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
-		surnames = { "ra" "iss" "era" }
-		callsigns = { }
+
+}
+
+GDD = {
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Tharif" "Lethl" "Aron" "Somn" "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth"}
+		surnames = { "Us" "Ar" "On" "Ra" "Iss" "Era" }
+		callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian" }
 	}
-	surnames = { }
-	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
+}
+
+GDS = {
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Tharif" "Lethl" "Aron" "Somn" "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth"}
+		surnames = { "Us" "Ar" "On" "Ra" "Iss" "Era" }
+		callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian" }
+	}
 }
 
 GTG = {
-	male = {
-		names = { "Tharif" "Lethl" "Aron" "Somn"}
-		surnames = { "us" "ar" "on" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Tharif" "Lethl" "Aron" "Somn" "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth"}
+		surnames = { "Us" "Ar" "On" "Ra" "Iss" "Era" }
+		callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian" }
 	}
-	female = {
-		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
-		surnames = { "ra" "iss" "era" }
-		callsigns = { }
-	}
-	surnames = { }
-	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
 }
 
 GTH = {
-	male = {
-		names = { "Tharif" "Lethl" "Aron" "Somn"}
-		surnames = { "us" "ar" "on" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Tharif" "Lethl" "Aron" "Somn" "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth"}
+		surnames = { "Us" "Ar" "On" "Ra" "Iss" "Era" }
+		callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian" }
 	}
-	female = {
-		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
-		surnames = { "ra" "iss" "era" }
-		callsigns = { }
-	}
-	surnames = { }
-	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
 }
 
 GSR = {
-	male = {
-		names = { "Tharif" "Lethl" "Aron" "Somn"}
-		surnames = { "us" "ar" "on" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Tharif" "Lethl" "Aron" "Somn" "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth"}
+		surnames = { "Us" "Ar" "On" "Ra" "Iss" "Era" }
+		callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian" }
 	}
-	female = {
-		names = { "Alys" "Merith" "Nish" "Ris" "Thess" "Verdis" "Veths" "Alth" }
-		surnames = { "ra" "iss" "era" }
-		callsigns = { }
-	}
-	surnames = { }
-	callsigns = { "The Dreamer" "Dreamwarden" "Dreamwalker" "Emerald Guardian"}
 }
-

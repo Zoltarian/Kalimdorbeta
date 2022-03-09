@@ -5,16 +5,19 @@
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
 BDF = {
-	male = {
-		names = { "Sidra" "Ere" "Berau" "Balac" "Arcana" "Indi" "Nary"}
-		surnames = { "gos" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Sidra" "Ere" "Berau" "Balac" "Arcana" "Indi" "Nary" "Dagro" "Cyani" "Karme" "Vyra" "Kaldri" "Awbee" "Halle" "Eldra" "Ala"}
+		surnames = { "Gos" "Gosa" "Agosa" "Agos" "Lygos" "Hiron" "Igos" }
+		callsigns = { "Arcane Warden" "Spellweaver" "Mage Hunter" }
 	}
-	female = {
-		names = { "Dagro" "Cyani" "Karme" "Vyra" }
-		surnames = { "gosa" }
-		callsigns = { }
+
+}
+
+MZT = {
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Sidra" "Ere" "Berau" "Balac" "Arcana" "Indi" "Nary" "Dagro" "Cyani" "Karme" "Vyra" "Kaldri" "Awbee" "Halle" "Eldra" "Ala"}
+		surnames = { "Gos" "Gosa" "Agosa" "Agos" "Lygos" "Hiron" "Igos" }
+		callsigns = { "Arcane Warden" "Spellweaver" "Mage Hunter" }
 	}
-	surnames = {  }
-	callsigns = { "Arcane Warden" "Spellweaver" "Mage Hunter" }
+
 }

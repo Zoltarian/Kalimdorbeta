@@ -6,15 +6,18 @@
 
 MLC = {
 	male = {
-		names = { "Unbound Elemental" "Bound Elemental" "Lesser Elemental" "Greater Elemental" "Revenant" }
-		surnames = { "of Fire" "of Magma" "of Flame" "Of Lava"  }
+		names = {"Hate" "Blaze" "Heat" "Flash" "Singe" "Smolder" "Volcan" "Burning" "Ash" "Charred" "Ever" "Molten" "Boil" }
+		surnames = { "Spark" "Fury" "Fire" "Slayer" "Pyre" "Ember" "Burn" }
 		callsigns = {  }
 	}
-	female = {
-		names = { }
-		surnames = { }
-		callsigns = { }
+
+}
+
+UFE = {
+	male = {
+		names = {"Hate" "Blaze" "Heat" "Flash" "Singe" "Smolder" "Volcan" "Burning" "Ash" "Charred" "Ever" "Molten" "Boil" }
+		surnames = { "Spark" "Fury" "Fire" "Slayer" "Pyre" "Ember" "Burn" }
+		callsigns = {  }
 	}
-		surnames = { }
-		callsigns = { }
+
 }

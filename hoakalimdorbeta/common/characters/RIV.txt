@@ -12,14 +12,44 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = neutral_type
+			ideology = alliance_type
 			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
 			ideology = horde_type
-			desc = "POLITICS_QUEEN_AZSHARA_DESC"
+			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_CHIEFTAIN_JALE_RIVERMANE_DESC"
 			traits = {}
 			id = -1
 		}

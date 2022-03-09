@@ -5,47 +5,28 @@
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
 BLF = {
-	male = {
-		names = { "Hemath" "Insid" "Sarthar" "Malic" "Smolder" "Magmar" "Temer" "Zarithr" "Valthar" "Abyss"}
-		surnames = { "ion" "ian" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Hemath" "Insid" "Sarthar" "Malic" "Smolder" "Magmar" "Temer" "Zarithr" "Valthar" "Abyss" "Nyxond" "Obsid" "Seldarr" "Drakk" "Sinthar" }
+		surnames = { "Ion" "Ian" "Ia" "Ra" "Rion" "Ria" }
+		callsigns = { "Scourge of Redridge" "Herald of Blackwing" "Smolderwing" "Ragefire" "Flame Incarnate" "Steelbender" "Fleshrender" }
 	}
-	female = {
-		names = { "Nyxond" "Obsid" "Seldarr" "Drakk" "Sinthar" }
-		surnames = { "ia" "ra" }
-		callsigns = { }
-	}
-	surnames = {  }
-	callsigns = { "Scourge of Redridge" "Herald of Blackwing" "Smolderwing" "Ragefire" "Flame Incarnate" "Steelbender" "Fleshrender" }
+
 }
 
 ONY = {
-	male = {
-		names = { "Hemath" "Insid" "Sarthar" "Malic" "Smolder" "Magmar" "Temer" "Zarithr" "Valthar" "Abyss"}
-		surnames = { "ion" "ian" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Hemath" "Insid" "Sarthar" "Malic" "Smolder" "Magmar" "Temer" "Zarithr" "Valthar" "Abyss" "Nyxond" "Obsid" "Seldarr" "Drakk" "Sinthar" }
+		surnames = { "Ion" "Ian" "Ia" "Ra" "Rion" "Ria" }
+		callsigns = { "Scourge of Redridge" "Herald of Blackwing" "Smolderwing" "Ragefire" "Flame Incarnate" "Steelbender" "Fleshrender" }
 	}
-	female = {
-		names = { "Nyxond" "Obsid" "Seldarr" "Drakk" "Sinthar" }
-		surnames = { "ia" "ra" }
-		callsigns = { }
-	}
-	surnames = {  }
-	callsigns = { "Scourge of Redridge" "Herald of Blackwing" "Smolderwing" "Ragefire" "Flame Incarnate" "Steelbender" "Fleshrender" }
+
 }
 
 RZB = {
-	male = {
-		names = { "Hemath" "Insid" "Sarthar" "Malic" "Smolder" "Magmar" "Temer" "Zarithr" "Valthar" "Abyss"}
-		surnames = { "ion" "ian" }
-		callsigns = { }
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Hemath" "Insid" "Sarthar" "Malic" "Smolder" "Magmar" "Temer" "Zarithr" "Valthar" "Abyss" "Nyxond" "Obsid" "Seldarr" "Drakk" "Sinthar" }
+		surnames = { "Ion" "Ian" "Ia" "Ra" "Rion" "Ria" }
+		callsigns = { "Scourge of Redridge" "Herald of Blackwing" "Smolderwing" "Ragefire" "Flame Incarnate" "Steelbender" "Fleshrender" }
 	}
-	female = {
-		names = { "Nyxond" "Obsid" "Seldarr" "Drakk" "Sinthar" }
-		surnames = { "ia" "ra" }
-		callsigns = { }
-	}
-	surnames = {  }
-	callsigns = { "Scourge of Redridge" "Herald of Blackwing" "Smolderwing" "Ragefire" "Flame Incarnate" "Steelbender" "Fleshrender" }
-}
 
+}

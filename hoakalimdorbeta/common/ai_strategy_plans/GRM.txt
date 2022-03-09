@@ -9,7 +9,7 @@ grimtotem_historical = {
 	enable = {
 		or = {
 			is_historical_focus_on = yes
-			has_country_flag = MAU_AI_GELKIS
+			has_country_flag = GRM_AI_MAGATHA
 		}
 	}
 
@@ -34,7 +34,6 @@ grimtotem_historical = {
 		GRM_strong_leading_hoof_nf
 
 	}
-
 	
 	weight = {
 		factor = 5.0
@@ -81,7 +80,6 @@ grimtotem_jeavb = {
 
 	}
 
-	
 	weight = {
 		factor = 5.0
 		modifier = {

@@ -12,7 +12,31 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = neutral_type
+			ideology = alliance_type
+			desc = "POLITICS_XIN_THE_WEAPONMASTER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_XIN_THE_WEAPONMASTER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_XIN_THE_WEAPONMASTER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_XIN_THE_WEAPONMASTER_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
 			desc = "POLITICS_XIN_THE_WEAPONMASTER_DESC"
 			traits = {}
 			id = -1
@@ -23,7 +47,12 @@ characters={
 			traits = {}
 			id = -1
 		}
-
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_XIN_THE_WEAPONMASTER_DESC"
+			traits = {}
+			id = -1
+		}
 		field_marshal = {
 			traits = {  }
 			skill = 3
