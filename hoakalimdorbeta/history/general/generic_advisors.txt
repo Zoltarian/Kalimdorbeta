@@ -2,43 +2,657 @@
 # Generate them from a generic template
 
 # Political advisors
-#every_possible_country = {
-#	limit = {
-#		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL } }
-#		# avoid generic advisors in temporary countries
-#		is_dynamic_country = no
-#		NOT = {
-#			has_allowed_idea_with_traits = { idea = communist_revolutionary characters = yes }
-#		}
-#		if = {
-#			limit = { has_dlc = "Battle for the Bosporus" }
-#			NOT = { tag = TUR tag = GRE }
-#		}
-#	}
-#	generate_character = {
-#		token_base = generic_communist_revolutionary # token will be TAG_token_base
-#		political_advisor = {
-#			slot = political_advisor
-#			traits = { communist_revolutionary }
-#			available = {
-#				if = {
-#					limit = { 
-#						original_tag = NZL
-#						has_dlc = "Together for Victory"
-#					}
-#					has_completed_focus = NZL_the_lee_affair
-#				}
-#				if = {
-#					limit = { has_dlc = "Man the Guns" }	
-#					NOT = { has_autonomy_state = autonomy_supervised_state }
-#				}
-#			}
-#			ai_will_do = {
-#				factor = 0
-#			}
-#		}
-#		portraits = { 
-#			army = { small = GFX_idea_generic_communist_revolutionary }
-#		}
-#	}
-#}
+every_possible_country = {
+	limit = {
+		NOT = {
+            OR = {
+                tag = GRM #Grimtotem
+                tag = SHD #Shen'dralar
+            }
+        }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+	}
+    ##################################
+    #Non-military Advisors
+    ##################################
+    #Ambassador
+    generate_character = {
+    	token_base = generic_ambassador
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			ambassador_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Merchant
+    generate_character = {
+    	token_base = generic_merchant
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			merchant_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Investigator
+    generate_character = {
+    	token_base = generic_investigator
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			investigator_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Architect
+    generate_character = {
+    	token_base = generic_architect
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			architect_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Builder
+    generate_character = {
+    	token_base = generic_builder
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			builder_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Foreman
+    generate_character = {
+    	token_base = generic_foreman
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			foreman_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Researcher
+    generate_character = {
+    	token_base = generic_researcher
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			researcher_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Spymaster
+    generate_character = {
+    	token_base = generic_spymaster
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			spymaster_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+
+    ##################################
+    #Military Advisors
+    ##################################
+    #Offence specialist - Army Chief
+    generate_character = {
+    	token_base = generic_offence_specialist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = army_chief
+			ledger = army
+    		traits = {
+    			offence_specialist_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Defence specialist - Army Chief
+    generate_character = {
+    	token_base = generic_defence_specialist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = army_chief
+			ledger = army
+    		traits = {
+    			defence_specialist_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Infantry specialist
+    generate_character = {
+    	token_base = generic_infantry_specialist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			infantry_specialist_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Spellcaster specialist
+    generate_character = {
+    	token_base = generic_spellcaster_specialist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			spellcaster_specialist_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Cavalry specialist
+    generate_character = {
+    	token_base = generic_cavalry_specialist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			cavalry_specialist_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Siege Expert specialist
+    generate_character = {
+    	token_base = generic_siege_expert
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			siege_expert_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Guardian
+    generate_character = {
+    	token_base = generic_guardian
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			guardian_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Quartermaster
+    generate_character = {
+    	token_base = generic_quartermaster
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			quartermaster_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Champion
+    generate_character = {
+    	token_base = generic_champion
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			champion_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Scout
+    generate_character = {
+    	token_base = generic_scout
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			scout_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Healer
+    generate_character = {
+    	token_base = generic_healer
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			healer_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Trainer
+    generate_character = {
+    	token_base = generic_trainer
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			trainer_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Recruiter
+    generate_character = {
+    	token_base = generic_recruiter
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			recruiter_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Raider
+    generate_character = {
+    	token_base = generic_raider
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = army
+    		traits = {
+    			raider_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+
+	##################################
+    #Naval advisors
+    ##################################
+
+	#Naval offence specialist - Navy Chief
+    generate_character = {
+    	token_base = generic_naval_offence_specialist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = navy_chief
+			ledger = navy
+    		traits = {
+    			naval_offence_specialist_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+	#Naval defence specialist - Navy chief
+    generate_character = {
+    	token_base = generic_naval_defence_specialist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = navy_chief
+			ledger = navy
+    		traits = {
+    			naval_defence_specialist_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+
+	#Privateer
+	generate_character = {
+    	token_base = generic_privateer
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+            slot = high_command
+			ledger = navy
+    		traits = {
+    			privateer_idea_1
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+
+    ##################################
+    #Influence advisors
+    ##################################
+    #Horde Sympathizer Advisor (horde drift)
+    generate_character = {
+    	token_base = generic_horde_sympathizer
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			horde_sympathizer_idea
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Alliance Sympathizer Advisor (alliance drift)
+    generate_character = {
+    	token_base = generic_alliance_sympathizer
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			alliance_sympathizer_idea
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Neutrality Partisan Advisor (neutral drift)
+    generate_character = {
+    	token_base = generic_neutrality_partisan
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			neutrality_partisan_idea
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Legion Agent (fel drift)
+    generate_character = {
+    	token_base = generic_legion_agent
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			legion_agent_idea
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Death Agent (death drift)
+    generate_character = {
+    	token_base = generic_death_agent
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			death_agent_idea
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Twilight Cultist (old gods drift)
+    generate_character = {
+    	token_base = generic_twilight_cultist
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			twilight_cultist_idea
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+    #Titan Herald (titan drift)
+    generate_character = {
+    	token_base = generic_titan_herald
+    	portraits = {
+    		army = {
+    			small = "GFX_idea_generic_advisor_hoa"
+    		}
+    	}
+    	advisor = {
+    		cost = 100
+    		slot = political_advisor
+    		traits = {
+    			titan_herald_idea
+    		}
+    		ai_will_do = {
+    			factor = 10
+    		}
+    	}
+    }
+}

@@ -5,30 +5,29 @@ state={
 	resources = {
 		mana=4
 		ores=3
+		wheat=5
 	}
 
 	history={
-		owner = HRE
-		add_core_of = HRE
+		owner = CNH
+		add_core_of = CNH
 		victory_points = {
 			11233 20
 		}
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 3
+			air_base = 2
 		}
 
-		617.1.1 = {
-			owner = CEN
-			controller = CEN
-			add_core_of = CEN
-		}
 	}
 
 	provinces={
 		10822 11200 11213 11233 11237 11238 11249
 	}
-	manpower=4000
+	manpower=35000
 	local_supplies=0.0
-	state_category=building_slots_2
+	state_category=building_slots_7
 }

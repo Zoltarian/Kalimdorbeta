@@ -79,14 +79,14 @@ units = {
 
 	division = {
 		name = "Cenarion Hold Infantry"
-		location = 11301
+		location = 11233
 		division_template = "Cenarion Hold Infantry"
 		start_experience_factor = 0.2
 	}
 
 	division = {
 		name = "Cenarion Hold Lancer"
-		location = 11301
+		location = 11233
 		division_template = "Cenarion Hold Lancer"
 		start_experience_factor = 0.2
 	}
@@ -100,14 +100,14 @@ units = {
 
 	division = {
 		name = "Cenarion Hold Druids"
-		location = 11282
+		location = 11233
 		division_template = "Cenarion Hold Druids"
 		start_experience_factor = 0.2
 	}
 
 	division = {
 		name = "Cenarion Hold Nightsabers"
-		location = 11296
+		location = 11233
 		division_template = "Cenarion Hold Nightsabers"
 		start_experience_factor = 0.2
 	}
@@ -115,8 +115,8 @@ units = {
 }
 
 air_wings = {
-	### valor's rest
-	1109 = {
+	### CSenarion Hold
+	1110 = {
 		organic_fighter_equipment_1 = {
 			owner = "CNH"
 			amount = 50

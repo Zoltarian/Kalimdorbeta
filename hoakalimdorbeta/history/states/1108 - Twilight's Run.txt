@@ -13,8 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 1
 
 		}
 		add_core_of = CNH
@@ -24,7 +23,7 @@ state={
 	provinces={
 		10825 11273 11279 11285 11288 11295 11301 11306 11313 11318 11324 11325
 	}
-	manpower=20000
+	manpower=5
 	local_supplies=0.0
-	state_category=building_slots_5
+	state_category=building_slots_4
 }

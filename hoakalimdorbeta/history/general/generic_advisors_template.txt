@@ -1,0 +1,35 @@
+# For minor countries where advisors are not defined
+# Generate them from a generic template
+
+# Political advisors
+#every_possible_country = {
+#	limit = {
+#		NOT = {
+#           OR = {
+#                tag = GER
+#                tag = ENG
+#           }
+#       }
+#		# avoid generic advisors in temporary countries
+#		is_dynamic_country = no
+#	}
+#	generate_character = {
+#		token_base = generic_horde_sympathiser
+#		portraits = {
+#			army = {
+#				small = "GFX_idea_generic_advisor"
+#			}
+#		}
+#		advisor = {
+#			cost = 100
+#			slot = high_command
+#			ledger = army
+#			traits = {
+#				#trait
+#			}
+#			ai_will_do = {
+#				factor = 10
+#			}
+#		}
+#	}
+#}

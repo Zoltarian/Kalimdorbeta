@@ -2,10 +2,10 @@
 
 set_research_slots = 3
 
-596.1.1 = {
+592.1.1 = {
 
-	oob = "AMA_596"
-	set_naval_oob = "AMA_596_naval"
+	oob = "AMA_592"
+	set_naval_oob = "AMA_592_naval"
 	set_convoys = 100
 
 	set_stability = 0.65
@@ -73,6 +73,9 @@ set_research_slots = 3
 }
 
 596.1.1 = {
+
+	oob = "AMA_596"
+	set_naval_oob = "AMA_596_naval"
 
 	if = {
 		limit = {
