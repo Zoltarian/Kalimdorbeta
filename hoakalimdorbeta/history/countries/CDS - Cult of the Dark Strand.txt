@@ -2,10 +2,6 @@
 
 oob = "CDS_592"
 
-set_naval_oob = "CDS_591_naval_legacy"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -17,6 +13,8 @@ add_ideas = {
 	primary_trait_human_spirit
 	primary_trait_perception
 }
+
+recruit_character = CDS_athrikus_narassin
 
 set_politics = {
 	ruling_party = neutral

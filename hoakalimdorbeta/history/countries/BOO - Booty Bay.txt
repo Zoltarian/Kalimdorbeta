@@ -9,13 +9,16 @@ set_stability = 0.5
 set_war_support = 0.25
 
 add_ideas = {
-	
+
 	city_state
 	limited_conscription
 	early_military_development
 	free_trade
 
 	goblin_primary_race
+	primary_trait_best_deals_anywhere
+	primary_trait_time_is_money
+	primary_trait_better_living_through_chemistry
 
 	primary_religion_irreligious
 }
@@ -71,7 +74,7 @@ set_popularities = {
 	set_war_support = 0.6
 
 	add_ideas = {
-		
+
 		city_state
 		extensive_conscription
 		war_economy

@@ -9083,6 +9083,12 @@ add_namespace = state_race_setup
 				value = 91
 			}
 		}
+		1110 = {
+			set_variable = {
+				var = race
+				value = 91
+			}
+		}
     	2003 = {
 			set_variable = {
 				var = race
@@ -11231,6 +11237,12 @@ add_namespace = state_race_setup
 				value = 109
 			}
 		}
+		2131 = {
+			set_variable = {
+				var = race
+				value = 109
+			}
+		}
 
 	##########################
 	#Azshara
@@ -11576,12 +11588,6 @@ add_namespace = state_race_setup
 			}
 		}
 		1107 = {
-			set_variable = {
-				var = race
-				value = 113
-			}
-		}
-		1110 = {
 			set_variable = {
 				var = race
 				value = 113

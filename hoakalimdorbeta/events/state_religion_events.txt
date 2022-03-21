@@ -2970,6 +2970,12 @@ country_event = { #FIRST WAR
 			value = 15
 		}
 	}
+	1110 = {
+		set_variable = {
+			var = religion
+			value = 15
+		}
+	}
 	2003 = {
 		set_variable = {
 			var = religion
@@ -6471,6 +6477,12 @@ country_event = { #FIRST WAR
 			value = 27
 		}
 	}
+	2131 = {
+		set_variable = {
+			var = religion
+			value = 27
+		}
+	}
 
 	##########################
 	#Azshara
@@ -6992,12 +7004,6 @@ country_event = { #FIRST WAR
 		}
 	}
 	1107 = {
-		set_variable = {
-			var = religion
-			value = 35
-		}
-	}
-	1110 = {
 		set_variable = {
 			var = religion
 			value = 35
@@ -11377,5 +11383,115 @@ country_event = { #FIRST WAR
 ###################################################################################################################################################################################################
 #IRRELIGIOUS 76
 ###################################################################################################################################################################################################
- 	}
+
+	##########################
+	#Kezan
+	##########################
+		60 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		817 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		818 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		819 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		820 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		821 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		822 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		823 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		1296 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		1297 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		1412 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+		1413 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
+
+###################################################################################################################################################################################################
+#Banana Worship 77
+###################################################################################################################################################################################################
+
+	##########################
+	#Tel'Abim
+	##########################
+		256 = {
+			set_variable = {
+				var = religion
+				value = 77
+			}
+		}
+		1479 = {
+			set_variable = {
+				var = religion
+				value = 77
+			}
+		}
+		1480 = {
+			set_variable = {
+				var = religion
+				value = 77
+			}
+		}
+		1481 = {
+			set_variable = {
+				var = religion
+				value = 77
+			}
+		}
+
+
+	}
 }

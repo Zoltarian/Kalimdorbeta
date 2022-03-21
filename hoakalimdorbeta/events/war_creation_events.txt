@@ -18,6 +18,10 @@ country_event = {
 		NOT = {
 			has_war = yes
 			is_ai = no
+			has_game_rule = {
+				rule = non_historical_wars
+				option = DISABLED
+			}
 		}
 	}
 	option = {
@@ -26,10 +30,10 @@ country_event = {
 			limit = {
 				#eligible_wargoal_receiver = yes
 				any_owned_state = {
-					is_impassable = no
+					#is_impassable = no
 					any_neighbor_state = {
 						is_owned_by = ROOT
-						is_impassable = no
+						#is_impassable = no
 						check_variable = { THIS.impassable_to@PREV = 0 }
 					}
 				}

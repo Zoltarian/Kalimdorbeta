@@ -1288,5 +1288,23 @@ country_event = {
 				}
 			}
 		}
+
+		if = {
+			limit = {
+				has_idea = primary_religion_banana_worhsip
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_idea = primary_religion_banana_worhsip
+						has_idea = secondary_religion_banana_worhsip
+					} 
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = different_religion
+				}
+			}
+		}
 	}
 }

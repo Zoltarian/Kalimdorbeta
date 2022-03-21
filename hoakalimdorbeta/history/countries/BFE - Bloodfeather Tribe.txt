@@ -2,10 +2,6 @@
 
 oob = "BFE_592"
 
-set_naval_oob = "BFE_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -19,6 +15,8 @@ add_ideas = {
 	primary_trait_masters_of_the_sky
 
 }
+
+recruit_character = BFE_fury_shelda
 
 set_politics = {
 	ruling_party = neutral
