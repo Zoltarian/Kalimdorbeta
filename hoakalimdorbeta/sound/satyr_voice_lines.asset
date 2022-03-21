@@ -7,6 +7,12 @@ category = {
         AXS_infantry_retreat
         AXS_infantry_move_out
 
+        BHS_infantry_idle
+        BHS_infantry_neutral_combat
+        BHS_infantry_positive_combat
+        BHS_infantry_retreat
+        BHS_infantry_move_out
+
         DTR_infantry_idle
         DTR_infantry_neutral_combat
         DTR_infantry_positive_combat
@@ -117,6 +123,70 @@ soundeffect = {
 }
 soundeffect = {
     name = "AXS_infantry_move_out"
+    sounds = {
+        sound = Satyr_Move_001
+        sound = Satyr_Move_002
+        sound = Satyr_Move_003
+		sound = Satyr_Move_004
+
+    }
+	volume = 1
+	max_audible = 1
+
+}
+
+########## BHS
+
+soundeffect = {
+    name = "BHS_infantry_idle"
+    sounds = {
+		sound = Satyr_Idle_001
+        sound = Satyr_Idle_002
+        sound = Satyr_Idle_003
+       	
+    }
+	volume = 1
+	max_audible = 1
+	
+}
+soundeffect = {
+    name = "BHS_infantry_neutral_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHS_infantry_positive_combat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHS_infantry_retreat"
+    sounds = {
+        sound = Satyr_Combat_001
+        sound = Satyr_Combat_002
+        sound = Satyr_Combat_003
+		sound = Satyr_Combat_004
+    }
+	volume = 1
+	max_audible = 1
+
+}
+soundeffect = {
+    name = "BHS_infantry_move_out"
     sounds = {
         sound = Satyr_Move_001
         sound = Satyr_Move_002
