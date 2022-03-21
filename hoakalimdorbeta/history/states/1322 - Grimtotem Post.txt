@@ -22,6 +22,11 @@ state={
 			owner = GRM
 			controller = GRM
 			add_core_of = GRM
+
+			set_province_name = {
+				id = 12007
+				name = "Grimtotem Post"
+			}
 		}
 	}
 
