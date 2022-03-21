@@ -3,50 +3,50 @@ characters={
 	AHQ_cthun = {
 		name = AHQ_cthun
 		portraits = {
-			civilian = { 
-				large = "gfx/leaders/AHQ/cthun.dds" 
+			civilian = {
+				large = "gfx/leaders/AHQ/cthun.dds"
 			}
 		}
 		country_leader = {
 			ideology = alliance_type
 			desc = "POLITICS_CTHUN_DESC"
-			traits = { old_gods_imprisoned_leader_trait }
+			traits = { old_god_leader_trait old_gods_imprisoned_leader_trait }
 			id = -1
 		}
 		country_leader = {
 			ideology = horde_type
 			desc = "POLITICS_CTHUN_DESC"
-			traits = { old_gods_imprisoned_leader_trait }
+			traits = { old_god_leader_trait old_gods_imprisoned_leader_trait }
 			id = -1
 		}
 		country_leader = {
 			ideology = death_type
 			desc = "POLITICS_CTHUN_DESC"
-			traits = { old_gods_imprisoned_leader_trait }
+			traits = { old_god_leader_trait old_gods_imprisoned_leader_trait }
 			id = -1
 		}
 		country_leader = {
 			ideology = fel_type
 			desc = "POLITICS_CTHUN_DESC"
-			traits = { old_gods_imprisoned_leader_trait }
+			traits = { old_god_leader_trait old_gods_imprisoned_leader_trait }
 			id = -1
 		}
 		country_leader = {
 			ideology = old_gods_type
 			desc = "POLITICS_CTHUN_DESC"
-			traits = { old_gods_imprisoned_leader_trait }
+			traits = { old_god_leader_trait old_gods_imprisoned_leader_trait }
 			id = -1
 		}
 		country_leader = {
 			ideology = titans_type
 			desc = "POLITICS_CTHUN_DESC"
-			traits = { old_gods_imprisoned_leader_trait }
+			traits = { old_god_leader_trait old_gods_imprisoned_leader_trait }
 			id = -1
 		}
 		country_leader = {
 			ideology = neutral_type
 			desc = "POLITICS_CTHUN_DESC"
-			traits = { old_gods_imprisoned_leader_trait }
+			traits = { old_god_leader_trait old_gods_imprisoned_leader_trait }
 			id = -1
 		}
 

@@ -64,6 +64,22 @@ coring_ai = {
 	}
 }
 
+non_historical_wars = {
+	name = "NON_HISTORICAL_WARS"
+	group = "RULE_GROUP_HOA_RULES"
+	default = {
+		name = DEFAULT
+		text = "RULE_NON_HISTORICAL_WARS_ENABLED"
+		desc = "RULE_NON_HISTORICAL_WARS_ENABLED_DESC"
+	}
+	option = {
+		name = DISABLED
+		text = "RULE_NON_HISTORICAL_WARS_DISABLED"
+		desc = "RULE_NON_HISTORICAL_WARS_DISABLED_DESC"
+	}
+
+}
+
 hoa_allow_achievements = {
 	name = "RULE_ALLOW_HOA_CUSTOM_ACHIEVEMENTS"
 	group = "RULE_GROUP_HOA_RULES"

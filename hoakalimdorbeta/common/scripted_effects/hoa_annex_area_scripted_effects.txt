@@ -6,6 +6,30 @@
 ###########################################################
 
 ####################
+# Great Sea
+####################
+
+#Annex Kezan
+annex_kezan = {
+  custom_effect_tooltip = annex_kezan_tt
+  hidden_effect = {
+    set_state_owner = 60
+    set_state_owner = 817
+    set_state_owner = 818
+    set_state_owner = 819
+    set_state_owner = 820
+    set_state_owner = 821
+    set_state_owner = 822
+    set_state_owner = 823
+    set_state_owner = 1296
+    set_state_owner = 1297
+    set_state_owner = 1412
+    set_state_owner = 1413
+  }
+}
+
+
+####################
 # Kalimdor
 ####################
 

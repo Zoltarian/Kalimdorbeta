@@ -1695,6 +1695,28 @@ ideas = {
 
 		}
 
+		primary_religion_banana_worhsip = {
+
+			available = {
+				always = no
+			}
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_banana_worship
+
+		}
+
 		################################################
 		#no Religion
 		################################################
@@ -3416,6 +3438,28 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_religion_way_of_the_jade_fist
+
+		}
+
+		secondary_religion_banana_worhsip = {
+
+			available = {
+				always = no
+			}
+
+			allowed = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_religion_banana_worship
 
 		}
 

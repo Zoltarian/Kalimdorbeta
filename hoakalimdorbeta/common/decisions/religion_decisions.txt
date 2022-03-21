@@ -3747,6 +3747,55 @@ religion_decisions = {
 		}
 	}
 
+	accept_banana_worship_decision = {
+
+		available = {
+			any_owned_state = {
+				check_variable = { religion = 76 }
+			}
+			NOT = {
+				check_variable = { accepted_religions^num > 4 }
+				has_country_flag = accepting_a_religion
+			}
+		}
+
+		visible = {
+			AND = {
+				any_owned_state = {
+					check_variable = { religion = 76 }
+				}
+				OR = {
+					NOT = {
+						has_idea = primary_religion_banana_worhsip
+						has_idea = secondary_religion_banana_worhsip
+						check_variable = { accepted_religions^num > 4 }
+					}
+				}
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 300
+		days_remove = 365
+		days_re_enable = 365
+
+		remove_effect = {
+			add_ideas = {
+				secondary_religion_banana_worhsip
+			}
+			add_to_array = {
+				array = accepted_religions
+				value = 76
+			}
+			clr_country_flag = accepting_a_religion
+		}
+
+		complete_effect = {
+			set_country_flag = accepting_a_religion
+		}
+	}
+
 	#########################
 	# Banish religion
 	#########################
@@ -6245,6 +6294,39 @@ religion_decisions = {
 			add_stability = -0.1
 			remove_ideas = {
 				secondary_religion_irreligious
+			}
+			remove_from_array = {
+				array = accepted_religions
+				value = 76
+			}
+			clr_country_flag = removing_a_religion
+		}
+
+		complete_effect = {
+			set_country_flag = removing_a_religion
+		}
+	}
+
+	banish_banana_worhsip_decision = {
+
+		available = {
+			has_idea = secondary_religion_banana_worhsip
+		}
+
+		visible = {
+			has_idea = secondary_religion_banana_worhsip
+		}
+
+		fire_only_once = no
+
+		cost = 300
+		days_remove = 90
+		days_re_enable = 30
+
+		remove_effect = {
+			add_stability = -0.1
+			remove_ideas = {
+				secondary_religion_banana_worhsip
 			}
 			remove_from_array = {
 				array = accepted_religions
@@ -9375,8 +9457,52 @@ religion_decisions = {
 			add_stability = -0.1
 		}
 	}
+
+	convert_to_banana_worhsip_decision = {
+
+		available = {
+			has_idea = secondary_religion_banana_worhsip
+		}
+
+		visible = {
+			has_idea = secondary_religion_banana_worhsip
+		}
+
+		fire_only_once = no
+
+		cost = 300
+		days_remove = 365
+		days_re_enable = 365
+
+		remove_effect = {
+			custom_effect_tooltip = convert_to_banana_worhsip_tt
+			hidden_effect = {
+				remove_ideas = secondary_religion_banana_worhsip
+				meta_effect = {
+					text = {
+						set_variable = { main_religion = [MAIN_RELIGION] }
+					}
+					MAIN_RELIGION = "[ROOT.GetMainReligionVariable]"
+				}
+				meta_effect = {
+					text = {
+						add_ideas = [TARGET_RELIGION_AS_SECONDARY]
+					}
+					TARGET_RELIGION_AS_SECONDARY = "[ROOT.GetSecondaryReligionIdea]"
+				}
+				add_ideas = primary_religion_banana_worhsip
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+	}
 }
 
+################################################
+#religion specific decisions
+################################################
 
 church_of_the_holy_light_decisions = {
 
@@ -13848,6 +13974,117 @@ mystery_of_the_makers_religion_decisions = {
 
 		modifier = {
 			offence = 0.1
+		}
+
+		days_remove = 90
+	}
+}
+
+goblin_atheism_decisions = {
+	defending_our_wealth_decision = {
+		icon = tur_the_constitutional_arrows
+
+		cost = 250
+
+		visible = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		modifier = {
+			monthly_population = 0.05
+			recruitable_population_factor = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	production_fervor_decision = {
+		icon = tur_the_constitutional_arrows
+
+		cost = 250
+
+		visible = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		modifier = {
+			industrial_capacity_factory = 0.05
+			industrial_capacity_dockyard = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	will_to_work_decision = {
+		icon = tur_the_constitutional_arrows
+
+		cost = 250
+
+		visible = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_start_efficiency_factor = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	political_bribes_decision = {
+		icon = tur_the_constitutional_arrows
+
+		cost = 250
+
+		visible = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_irreligious
+			has_idea = goblin_primary_race
+		}
+
+		modifier = {
+			political_power_factor = -0.05
+			stability_weekly_factor = 0.001
 		}
 
 		days_remove = 90

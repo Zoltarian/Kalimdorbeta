@@ -20,7 +20,7 @@ ideologies = {
 		color = { 25 174 28 }
 
 		rules = {
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = no

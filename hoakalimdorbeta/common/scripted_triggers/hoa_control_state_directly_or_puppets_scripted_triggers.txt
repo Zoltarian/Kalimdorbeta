@@ -19,6 +19,29 @@ owned_and_controlled_by_ROOT_or_puppets = {
 }
 
 ####################
+# Kezan
+####################
+
+#Kezan
+control_kezan_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_kezan_directly_or_puppets_tt
+    60 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    817 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    818 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    819 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    820 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    821 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    822 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    823 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1296 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1297 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1412 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1413 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+####################
 # Kalimdor
 ####################
 

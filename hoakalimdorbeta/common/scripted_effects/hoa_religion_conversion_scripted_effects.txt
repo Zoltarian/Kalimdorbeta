@@ -692,6 +692,15 @@ setup_accepted_religion_arrays = {
 			value = 76
 		}
 	}
+	if = {
+		limit = {
+			has_idea = primary_religion_banana_worhsip
+		}
+		add_to_array = {
+			array = accepted_religions
+			value = 76
+		}
+	}
 
 }
 

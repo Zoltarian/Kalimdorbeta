@@ -4,17 +4,50 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-#default = {
-#	male = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	female = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	surnames = { }
-#	callsigns = { }
-#}
+### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+TDC = { 
+	male = { #there is no female models for arrakoa and as such both names can be used under male
+		names = { 
+			"Aeryx" "Akana" "Akeeta" "Akkarai" "Akrath" "Aktar" "Alkset" "Araac" "Ashkaz" "Avruu" "Ayit" "Azik" "Brakoss" "Chakkis" "Delath" "Erekem" "Forika" "Grakis" "Grizzik" "Hazzik" "Ikalyi" "Ikiss" "Iktis" "Ikzan" "Inuz" "Irizzar" 
+			"Isfar" "Ishaal" "Iskar" "Jiklar" "Kaavu" "Kairyx" "Kalos" "Karaz" "Kariz" "Karokka" "Kasrek" "Kath" "Kayrek" "Kazu" "Kirox" "Kirrawk" "Kirrik" "Kitkar" "Kokorek" "Koreyx" "Krashyx" "Krek" "Krikka" "Krisek" "Krivin" "Kura" 
+			"Kurekk" "Kuris" "Kuro'ak" "Kuuan" "Lakka" "Lissaf" "Lithic" "Lorokeem" "Luanga" "Meshaal" "Oberyx" "Okrek" "Oloraak" "Ornekka" "Parshah" "Pindlefeather" "Raastok" "Ranjit" "Rathyx" "Reegis" "Reshad" "Rikks" "Rilak" "Roakk" 
+			"Rukaryx" "Ruuan" "Sahaak" "Sai'kkal" "Salavass" "Sar'this" "Sekara" "Sekkta" "Seress" "Sethe" "Skariss" "Skeega" "Skelak" "Skizzik" "Skraa" "Skreah" "Skreek" "Skywing" "Srikka" "Ssarbik" "Ssavra" "Syth" "Terokk" "Tesska" "Teth" 
+			"Tiklal" "Urdak" "Vadaash" "Vakora" "Valak" "Valarik" "Vallar" "Varook" "Varyx" "Vashaar" "Vayx" "Vekax" "Vekh" "Velthreek" "Veoryx" "Verroak" "Vesharr" "Viryx" "Vizrak" "Y'kish" "Yonzi" "Zekk" "Zektar" "Zelkyr" "Zellek" "Zorkra"
+		}
+		surnames = { "Darkscreecher" "Bladewing" "Bladefeather" "Shadow-Sage" "Darkfire" "Darkwing" "Skytalon" "Talonguard" "Blood-Talon" "Darkweaver" "Darkscryer" "Sharptalon" } #high arrakoa last names "Sun-Caller" "Dawn-Seeker" "Sunsage" "Sol-Shaper" "Sunscryer"
+		callsigns = { "Herald of the Old Gods" } #nation specific
+	}
+}
+
+SKE = {
+	male = {
+		names = { 
+			"Aeryx" "Akana" "Akeeta" "Akkarai" "Akrath" "Aktar" "Alkset" "Araac" "Ashkaz" "Avruu" "Ayit" "Azik" "Brakoss" "Chakkis" "Delath" "Erekem" "Forika" "Grakis" "Grizzik" "Hazzik" "Ikalyi" "Ikiss" "Iktis" "Ikzan" "Inuz" "Irizzar" 
+			"Isfar" "Ishaal" "Iskar" "Jiklar" "Kaavu" "Kairyx" "Kalos" "Karaz" "Kariz" "Karokka" "Kasrek" "Kath" "Kayrek" "Kazu" "Kirox" "Kirrawk" "Kirrik" "Kitkar" "Kokorek" "Koreyx" "Krashyx" "Krek" "Krikka" "Krisek" "Krivin" "Kura" 
+			"Kurekk" "Kuris" "Kuro'ak" "Kuuan" "Lakka" "Lissaf" "Lithic" "Lorokeem" "Luanga" "Meshaal" "Oberyx" "Okrek" "Oloraak" "Ornekka" "Parshah" "Pindlefeather" "Raastok" "Ranjit" "Rathyx" "Reegis" "Reshad" "Rikks" "Rilak" "Roakk" 
+			"Rukaryx" "Ruuan" "Sahaak" "Sai'kkal" "Salavass" "Sar'this" "Sekara" "Sekkta" "Seress" "Sethe" "Skariss" "Skeega" "Skelak" "Skizzik" "Skraa" "Skreah" "Skreek" "Skywing" "Srikka" "Ssarbik" "Ssavra" "Syth" "Terokk" "Tesska" "Teth" 
+			"Tiklal" "Urdak" "Vadaash" "Vakora" "Valak" "Valarik" "Vallar" "Varook" "Varyx" "Vashaar" "Vayx" "Vekax" "Vekh" "Velthreek" "Veoryx" "Verroak" "Vesharr" "Viryx" "Vizrak" "Y'kish" "Yonzi" "Zekk" "Zektar" "Zelkyr" "Zellek" "Zorkra"
+		}
+		surnames = { "Darkscreecher" "Bladewing" "Bladefeather" "Shadow-Sage" "Darkfire" "Darkwing" "Skytalon" "Talonguard" "Blood-Talon" "Darkweaver" "Darkscryer" "Sharptalon" }
+		callsigns = { }
+	}
+}
+
+SET = {
+	male = {
+		names = { 
+			"Aeryx" "Akana" "Akeeta" "Akkarai" "Akrath" "Aktar" "Alkset" "Araac" "Ashkaz" "Avruu" "Ayit" "Azik" "Brakoss" "Chakkis" "Delath" "Erekem" "Forika" "Grakis" "Grizzik" "Hazzik" "Ikalyi" "Ikiss" "Iktis" "Ikzan" "Inuz" "Irizzar" 
+			"Isfar" "Ishaal" "Iskar" "Jiklar" "Kaavu" "Kairyx" "Kalos" "Karaz" "Kariz" "Karokka" "Kasrek" "Kath" "Kayrek" "Kazu" "Kirox" "Kirrawk" "Kirrik" "Kitkar" "Kokorek" "Koreyx" "Krashyx" "Krek" "Krikka" "Krisek" "Krivin" "Kura" 
+			"Kurekk" "Kuris" "Kuro'ak" "Kuuan" "Lakka" "Lissaf" "Lithic" "Lorokeem" "Luanga" "Meshaal" "Oberyx" "Okrek" "Oloraak" "Ornekka" "Parshah" "Pindlefeather" "Raastok" "Ranjit" "Rathyx" "Reegis" "Reshad" "Rikks" "Rilak" "Roakk" 
+			"Rukaryx" "Ruuan" "Sahaak" "Sai'kkal" "Salavass" "Sar'this" "Sekara" "Sekkta" "Seress" "Sethe" "Skariss" "Skeega" "Skelak" "Skizzik" "Skraa" "Skreah" "Skreek" "Skywing" "Srikka" "Ssarbik" "Ssavra" "Syth" "Terokk" "Tesska" "Teth" 
+			"Tiklal" "Urdak" "Vadaash" "Vakora" "Valak" "Valarik" "Vallar" "Varook" "Varyx" "Vashaar" "Vayx" "Vekax" "Vekh" "Velthreek" "Veoryx" "Verroak" "Vesharr" "Viryx" "Vizrak" "Y'kish" "Yonzi" "Zekk" "Zektar" "Zelkyr" "Zellek" "Zorkra"
+		}
+		surnames = { "Darkscreecher" "Bladewing" "Bladefeather" "Shadow-Sage" "Darkfire" "Darkwing" "Skytalon" "Talonguard" "Blood-Talon" "Darkweaver" "Darkscryer" "Sharptalon" }
+		callsigns = { }
+	}
+}

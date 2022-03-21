@@ -1,51 +1,55 @@
 characters={
-  XAV_prince_xavian = {
-    name = XAV_prince_xavian
+  XAV_geltharis = {
+    name = XAV_geltharis
     portraits = {
       civilian = {
-        large = "gfx/leaders/XAV/prince_xavian.dds"
+        large = "gfx/leaders/XAV/geltharis.dds"
       }
+			army = {
+				large = "gfx/leaders/XAV/geltharis.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
     }
 
     country_leader = {
       ideology = alliance_type
-      desc = "POLITICS_PRINCE_XAVIAN_DESC"
+      desc = "POLITICS_GELTHARIS_DESC"
       traits = {}
       id = -1
     }
     country_leader = {
       ideology = horde_type
-      desc = "POLITICS_PRINCE_XAVIAN_DESC"
+      desc = "POLITICS_GELTHARIS_DESC"
       traits = {}
       id = -1
     }
     country_leader = {
       ideology = death_type
-      desc = "POLITICS_PRINCE_XAVIAN_DESC"
+      desc = "POLITICS_GELTHARIS_DESC"
       traits = {}
       id = -1
     }
     country_leader = {
       ideology = fel_type
-      desc = "POLITICS_PRINCE_XAVIAN_DESC"
+      desc = "POLITICS_GELTHARIS_DESC"
       traits = {}
       id = -1
     }
     country_leader = {
       ideology = old_gods_type
-      desc = "POLITICS_PRINCE_XAVIAN_DESC"
+      desc = "POLITICS_GELTHARIS_DESC"
       traits = {}
       id = -1
     }
     country_leader = {
       ideology = titans_type
-      desc = "POLITICS_PRINCE_XAVIAN_DESC"
+      desc = "POLITICS_GELTHARIS_DESC"
       traits = {}
       id = -1
     }
     country_leader = {
       ideology = neutral_type
-      desc = "POLITICS_PRINCE_XAVIAN_DESC"
+      desc = "POLITICS_GELTHARIS_DESC"
       traits = {}
       id = -1
     }

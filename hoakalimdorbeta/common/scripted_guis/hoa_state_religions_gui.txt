@@ -386,6 +386,11 @@ scripted_gui = {
 					religion = 76
 				}
 			}
+			state_religion_banana_worship_visible = {
+				check_variable = {
+					religion = 77
+				}
+			}
 
 		}
 	}

@@ -82,64 +82,22 @@ form_kezan_category = {
 				original_tag = TIN
 				original_tag = BIL
 			}
-			NOT = { has_global_flag = form_kezan_flag }
-		}
-
-		available = {
 			NOT = {
 				any_country = {
 					has_cosmetic_tag = STC_KTC
 				}
 			}
+		}
 
-			OR = {
-				#Has full control of the isle of Kezan
-				has_full_control_of_Kezan = yes
-
-				#All Goblin factions starting on Kezan are Trade Coalition Members or don't exist
-				AND = {
-					STC = {
-						IF = {
-							limit = {
-								exists = yes
-							}
-							is_puppet_of = PREV
-						}
-					}
-					TVC = {
-						IF = {
-							limit = {
-								exists = yes
-							}
-							is_puppet_of = PREV
-						}
-					}
-					TIN = {
-						IF = {
-							limit = {
-								exists = yes
-							}
-							is_puppet_of = PREV
-						}
-					}
-					BIL = {
-						IF = {
-							limit = {
-								exists = yes
-							}
-							is_puppet_of = PREV
-						}
-					}
-				}
-			}
+		available = {
+			is_subject = no
+			control_kezan_directly_or_puppets = yes
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = STC_KTC
-
+			annex_kezan = yes
 			core_kezan = yes
-
-			set_global_flag = form_kezan_flag
+			set_cosmetic_tag = STC_KTC
 		}
 
 		ai_will_do = {
@@ -2268,6 +2226,53 @@ form_jadefire_kingdom_category = {
 			core_felwood = yes
 
 			set_cosmetic_tag = JFT_JADEFIRE_KINGDOM
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_kingdom_of_satyrnaar_category = {
+	form_kingdom_of_satyrnaar = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = BHS
+				original_tag = FMC
+				original_tag = XAV
+			}
+		}
+
+		available = {
+			is_subject = no
+
+			controls_state = 1352
+			controls_state = 1353
+			controls_state = 2131
+		}
+
+		visible = {
+			OR = {
+				original_tag = BHS
+				original_tag = FMC
+				original_tag = XAV
+			}
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = KINGDOM_OF_SATYRNAAR
+				}
+			}
+		}
+
+		complete_effect = {
+			1352 = { add_core_of = ROOT }
+			1353 = { add_core_of = ROOT }
+			2131 = { add_core_of = ROOT }
+
+			set_cosmetic_tag = KINGDOM_OF_SATYRNAAR
 		}
 
 		ai_will_do = {

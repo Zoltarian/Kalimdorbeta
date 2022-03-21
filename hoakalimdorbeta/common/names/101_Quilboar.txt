@@ -4,18 +4,47 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-RZM = {
+BRI = {
 	male = {
-		names = { "Aggem" "Jargba" "Kraulshaper" "Warlord" "Lok" "Kreenig" "Hagg" "Swinegart" "Roogug" }
+		names = { "Aggem" "Jargba" "Kraulshaper" "Warlord" "Lok" "Kreenig" "Hagg" "Brutalsnout" "Swinegart" "Roogug" "Tuskbreaker" "Tuk" "Bristlemaw" "Hagg" "Ragglesnout" "Blackthorn" "Aggan" "Shagtusk" "Sabersnout" "Nak" "Orgsteen" "Crekori" "Needlemane" "Kuz" "Koral" "Grek'og" "Guff" "Gulgort" "Barrul" }
 		surnames = { }
 		callsigns = { }
 	}
 	female = {
-		names = { "Charlga" }
+		names = { "Charlga" "Tukaar" "Smagh" "Wagga" "Ratha" "Chugara" "Jargba" "Gukk'rok" "Halmgar" }
 		surnames = { }
 		callsigns = { }
 	}
-	surnames = { "Thorncurse" "Flat Tusk" "Thornmantle" "Taurensbane" "Orcbane" "Snarlsnout" "Tukarr" "Ramtusk" "Halmgar" "Razorsnout" "Bonetusk" }
+	surnames = { "Thorncurse" "Flat Tusk" "Thornmantle" "Taurensbane" "Orcbane" "Snarlsnout" "Tukarr" "Ramtusk" "Halmgar" "Razorsnout" "Bonetusk" "Spearhide" "Steelspine" "Razorspine" "Ramtusk" "Razorgnarl" "Orkas" "Bonetusk" }
+	callsigns = { "Chief" }
+}
+
+RZF = {
+	male = {
+		names = { "Aggem" "Jargba" "Kraulshaper" "Warlord" "Lok" "Kreenig" "Hagg" "Brutalsnout" "Swinegart" "Roogug" "Tuskbreaker" "Tuk" "Bristlemaw" "Hagg" "Ragglesnout" "Blackthorn" "Aggan" "Shagtusk" "Sabersnout" "Nak" "Orgsteen" "Crekori" "Needlemane" "Kuz" "Koral" "Grek'og" "Guff" "Gulgort" "Barrul" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Charlga" "Tukaar" "Smagh" "Wagga" "Ratha" "Chugara" "Jargba" "Gukk'rok" "Halmgar" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Thorncurse" "Flat Tusk" "Thornmantle" "Taurensbane" "Orcbane" "Snarlsnout" "Tukarr" "Ramtusk" "Halmgar" "Razorsnout" "Bonetusk" "Spearhide" "Steelspine" "Razorspine" "Ramtusk" "Razorgnarl" "Orkas" "Bonetusk" }
 	callsigns = { "Chief" }
 }
  
+RZM = {
+	male = {
+		names = { "Aggem" "Jargba" "Kraulshaper" "Warlord" "Lok" "Kreenig" "Hagg" "Brutalsnout" "Swinegart" "Roogug" "Tuskbreaker" "Tuk" "Bristlemaw" "Hagg" "Ragglesnout" "Blackthorn" "Aggan" "Shagtusk" "Sabersnout" "Nak" "Orgsteen" "Crekori" "Needlemane" "Kuz" "Koral" "Grek'og" "Guff" "Gulgort" "Barrul" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Charlga" "Tukaar" "Smagh" "Wagga" "Ratha" "Chugara" "Jargba" "Gukk'rok" "Halmgar" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Thorncurse" "Flat Tusk" "Thornmantle" "Taurensbane" "Orcbane" "Snarlsnout" "Tukarr" "Ramtusk" "Halmgar" "Razorsnout" "Bonetusk" "Spearhide" "Steelspine" "Razorspine" "Ramtusk" "Razorgnarl" "Orkas" "Bonetusk" }
+	callsigns = { "Chief" }
+}
