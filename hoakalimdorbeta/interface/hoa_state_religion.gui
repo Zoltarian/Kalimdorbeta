@@ -460,6 +460,12 @@ guiTypes = {
 			spriteType = GFX_idea_generic_religion_irreligious
 			pdx_tooltip = "IRRELIGIOUS_STATE_VIEW_TOOLTIP"
 		}
+		iconType = {
+			name = "state_religion_banana_worship"
+			position = {x=0 y=0}
+			spriteType = GFX_idea_generic_religion_banana_worship
+			pdx_tooltip = "BANANA_WORSHIP_STATE_VIEW_TOOLTIP"
+		}
 
 	}
 

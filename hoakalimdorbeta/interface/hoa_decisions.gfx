@@ -16,4 +16,14 @@ spriteTypes = {
 		name = "GFX_decision_category_picture_prison_of_immolthar"
 		texturefile = "gfx/interface/decisions/decision_cat_immolthar_prison.dds"
 	}
+
+	spriteType = {
+		name = "GFX_decision_category_picture_kezan"
+		texturefile = "gfx/interface/decisions/decision_cat_kezan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_gold"
+		texturefile = "gfx/interface/decisions/decision_gold.dds"
+	}
 }

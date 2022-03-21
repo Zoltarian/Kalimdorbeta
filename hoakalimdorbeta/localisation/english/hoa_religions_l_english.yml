@@ -6,102 +6,114 @@
 FAITH_POINTS_TOOLTIP:0 "You have [?faith_points] §HFaith§!\n\nFaith can be used for a various of religious activities, Every nation has a base gain of 10 faith a month multiplied by your stability. You can't have more than 500 Faith at once."
 
 #########################
-#state view
+#State view
 #########################
- CHURCH_OF_THE_HOLY_LIGHT_STATE_VIEW_TOOLTIP:0 "§HThe Church of the Holy Light§! \n\nIs part of §HThe Light§! religous group, and is the primary religion in this state."
- THE_NARUU_STATE_VIEW_TOOLTIP:0 "§HThe Naaru§! \n\nAre part of §HThe Light§! religous group, and is the primary religion in this state."
- SCARLET_CHURCH_STATE_VIEW_TOOLTIP:0 "§HThe Scarlet Curch§! \n\nIs part of §HThe Light§! religous group, and is the primary religion in this state."
- ARGENT_CHURCH_STATE_VIEW_TOOLTIP:0 "§HThe Argent Church§! \n\nIs part of §HThe Light§! religous group, and is the primary religion in this state."
- ORDER_OF_THE_BLOOD_KNIGHTS_STATE_VIEW_TOOLTIP:0 "§HThe Order of the Blood Knights§! \n\nIs part of §HThe Light§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_RUKHMAR_STATE_VIEW_TOOLTIP:0 "§HThe Disciples of Rukhmar§! \n\nIs part of §HThe Light§! religous group, and is the primary religion in this state."
+ #Light Religious Group
+ CHURCH_OF_THE_HOLY_LIGHT_STATE_VIEW_TOOLTIP:0 "§HChurch of the Holy Light§!\n§C<Light Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_NARUU_STATE_VIEW_TOOLTIP:0 "§HThe Naaru§!\n§C<Light Religious Group>§!\n\nThis religion is the primary religion within this state."
+ SCARLET_CHURCH_STATE_VIEW_TOOLTIP:0 "§HThe Scarlet Curch§!\n§C<Light Religious Group>§!\n\nThis religion is the primary religion within this state."
+ ARGENT_CHURCH_STATE_VIEW_TOOLTIP:0 "§HThe Argent Church§!\n§C<Light Religious Group>§!\n\nThis religion is the primary religion within this state."
+ ORDER_OF_THE_BLOOD_KNIGHTS_STATE_VIEW_TOOLTIP:0 "§HThe Order of the Blood Knights§!\n§C<Light Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_RUKHMAR_STATE_VIEW_TOOLTIP:0 "§HThe Disciples of Rukhmar§!\n§C<Light Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- NECROLYTES_STATE_VIEW_TOOLTIP:0 "§HNecrolytes§! \n\nAre part of §HThe Shadow§! religous group, and is the primary religion in this state."
- VOODOO_STATE_VIEW_TOOLTIP:0 "§HVoodoo§! \n\nIs part of §HThe Shadow§! religous group, and is the primary religion in this state."
- CULT_OF_THE_FORKARTEN_SHADOWS_STATE_VIEW_TOOLTIP:0 "§HCult of the Forgotten Shadows§! \n\nIs part of §HThe Shadow§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_ANZU_STATE_VIEW_TOOLTIP:0 "§HDisciples of Anzu§! \n\nIs part of §HThe Shadow§! religous group, and is the primary religion in this state."
- THE_VOID_STATE_VIEW_TOOLTIP:0 "§HThe Void§! \n\nIs part of §HThe Shadow§! religous group, and is the primary religion in this state."
+ #Shadow Religious Group
+ NECROLYTES_STATE_VIEW_TOOLTIP:0 "§HNecrolytes§!\n§C<Shadow Religious Group>§!\n\nThis religion is the primary religion within this state."
+ VOODOO_STATE_VIEW_TOOLTIP:0 "§HVoodoo§!\n§C<Shadow Religious Group>§!\n\nThis religion is the primary religion within this state."
+ CULT_OF_THE_FORKARTEN_SHADOWS_STATE_VIEW_TOOLTIP:0 "§HCult of the Forgotten Shadows§!\n§C<Shadow Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_ANZU_STATE_VIEW_TOOLTIP:0 "§HDisciples of Anzu§!\n§C<Shadow Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_VOID_STATE_VIEW_TOOLTIP:0 "§HThe Void§! \n\nIs part of §HThe Shadow§!\n§C<Shadow Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- ARCANE_STUDIES_STATE_VIEW_TOOLTIP:0 "§MArcane Studies§! \n\nIs part of the §HArcane§! religous group, and is the primary religion in this state."
- THE_SUN_WELL_STATE_VIEW_TOOLTIP:0 "§MThe Sunwell§! \n\nIs part of the §HArcane§! religous group, and is the primary religion in this state."
- THE_NIGHT_WELL_STATE_VIEW_TOOLTIP:0 "§MThe Nightwell§! \n\nIs part of the §HArcane§! religous group, and is the primary religion in this state."
+ #Arcane Religious Group
+ ARCANE_STUDIES_STATE_VIEW_TOOLTIP:0 "§HArcane Studies§!\n§C<Arcane Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_SUN_WELL_STATE_VIEW_TOOLTIP:0 "§HThe Sunwell§!\n§C<Arcane Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_NIGHT_WELL_STATE_VIEW_TOOLTIP:0 "§HThe Nightwell§!\n§C<Arcane Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- DRUIDISM_STATE_VIEW_TOOLTIP:0 "§MDruidism§! \n\nIs part of the §HNature§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_URSOC_STATE_VIEW_TOOLTIP:0 "§MThe Disciples of Ursoc§! \n\nAre part of the §HNature§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_LOGOSH_STATE_VIEW_TOOLTIP:0 "§MThe Disciples of Logosh§! \n\nAre part of the §HNature§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_AGAMAGGAN_STATE_VIEW_TOOLTIP:0 "§MThe Disciples of Agamaggan§! \n\nAre part of the §HNature§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_AVIANNA_STATE_VIEW_TOOLTIP:0 "§MThe Disciples of Avianna§! \n\nAre part of the §HNature§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_TORTOLLA_STATE_VIEW_TOOLTIP:0 "§MThe Disciples of Tortolla§! \n\nIs part of the §HNature§! religous group, and is the primary religion in this state."
- august_celestial_STATE_VIEW_TOOLTIP:0 "§MAugust Celestial§! \n\nAre part of the §HNature§! religous group, and is the primary religion in this state."
- THORNSPEAKERS_STATE_VIEW_TOOLTIP:0 "§MThornspeakers§! \n\nAre part of the §HNature§! religous group, and is the primary religion in this state."
- HARVEST_WITCHCRAFT_STATE_VIEW_TOOLTIP:0 "§MHarvest Witchcraft§! \n\nIs part of the §HNature§! religous group, and is the primary religion in this state."
- NATURAL_MAGIC_STATE_VIEW_TOOLTIP:0 "§MNatural Magic§! \n\nIs part of the §HNature§! religous group, and is the primary religion in this state."
- LOA_SPIRITS_STATE_VIEW_TOOLTIP:0 "§MLoa Spirits§! \n\nIs part of the §HNature§! religous group, and is the primary religion in this state."
+ #Nature Religious Group
+ DRUIDISM_STATE_VIEW_TOOLTIP:0 "§HDruidism§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_URSOC_STATE_VIEW_TOOLTIP:0 "§HThe Disciples of Ursoc§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_LOGOSH_STATE_VIEW_TOOLTIP:0 "§HThe Disciples of Logosh§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_AGAMAGGAN_STATE_VIEW_TOOLTIP:0 "§HThe Disciples of Agamaggan§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_AVIANNA_STATE_VIEW_TOOLTIP:0 "§HThe Disciples of Avianna§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_TORTOLLA_STATE_VIEW_TOOLTIP:0 "§HThe Disciples of Tortolla§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ august_celestial_STATE_VIEW_TOOLTIP:0 "§HAugust Celestial§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THORNSPEAKERS_STATE_VIEW_TOOLTIP:0 "§HThornspeakers§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ HARVEST_WITCHCRAFT_STATE_VIEW_TOOLTIP:0 "§HHarvest Witchcraft§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ NATURAL_MAGIC_STATE_VIEW_TOOLTIP:0 "§HNatural Magic§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
+ LOA_SPIRITS_STATE_VIEW_TOOLTIP:0 "§HLoa Spirits§!\n§C<Nature Religious Group>§!\n\nThis religion is the primary religion within this state."
 
+ #Fel Religious Group
+ THE_FEL_STATE_VIEW_TOOLTIP:0 "§HThe Fel§!\n§C<Fel Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DEMONOLOGY_STATE_VIEW_TOOLTIP:0 "§HDemonology§!\n§C<Fel Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- THE_FEL_STATE_VIEW_TOOLTIP:0 "§MThe Fel§! \n\nIs part of the §HFel§! religous group, and is the primary religion in this state."
- DEMONOLOGY_STATE_VIEW_TOOLTIP:0 "§MDemonology§! \n\nIs part of the §HFel§! religous group, and is the primary religion in this state."
+ #Death Religious Group
+ NECROMANCY_STATE_VIEW_TOOLTIP:0 "§HNecromancy§!\n§C<Death Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_THE_LICH_KING_STATE_VIEW_TOOLTIP:0 "§HNecromancy§!\n§C<Death Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_HELYA_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Helya§! \n§C<Death Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DRUST_RELIGION_STATE_VIEW_TOOLTIP:0 "§HDrust§!\n§C<Death Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- NECROMANCY_STATE_VIEW_TOOLTIP:0 "§MNecromancy§! \n\nIs part of the §HDeath§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_THE_LICH_KING_STATE_VIEW_TOOLTIP:0 "§MNecromancy§! \n\nIs part of the §HDeath§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_HELYA_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Helya§! \n\nare part of the §HDeath§! religous group, and is the primary religion in this state."
- DRUST_RELIGION_STATE_VIEW_TOOLTIP:0 "§MDrust§! \n\nIs part of the §HDeath§! religous group, and is the primary religion in this state."
+ #Old Gods Religious Group
+ FOLLOWERS_OF_YSHAARJ_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Y'Shaarj§!\n§C<Old Gods Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_NZOTH_STATE_VIEW_TOOLTIP:0 "§HThe Followers of N'Zoth§!\n§C<Old Gods Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_YOGG_SARON_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Yogg-Saron§!\n§C<Old Gods Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_CTHUN_STATE_VIEW_TOOLTIP:0 "§HThe Followers of C'thun§!\n§C<Old Gods Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_HOUR_OF_TWILIGHT_STATE_VIEW_TOOLTIP:0 "§HThe Hour of Twilight§\n§C<Old Gods Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_DARK_CONCLAVE_STATE_VIEW_TOOLTIP:0 "§HThe Dark Conclave§!\n§C<Old Gods Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_GHUUN_STATE_VIEW_TOOLTIP:0 "§HThe Followers of G'huun§!\n§C<Old Gods Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- FOLLOWERS_OF_YSHAARJ_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Y'Shaarj§! \n\nAre part of the §HOld Gods§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_NZOTH_STATE_VIEW_TOOLTIP:0 "§MThe Followers of N'Zoth§! \n\nAre part of the §HOld Gods§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_YOGG_SARON_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Yogg-Saron§! \n\nAre part of the §HOld Gods§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_CTHUN_STATE_VIEW_TOOLTIP:0 "§MThe Followers of C'thun§! \n\nAre part of the §HOld Gods§! religous group, and is the primary religion in this state."
- THE_HOUR_OF_TWILIGHT_STATE_VIEW_TOOLTIP:0 "§MThe Hour of Twilight§! \n\nIs part of the §HOld Gods§! religous group, and is the primary religion in this state."
- THE_DARK_CONCLAVE_STATE_VIEW_TOOLTIP:0 "§MThe Dark Conclave§! \n\nIs part of the §HOld Gods§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_GHUUN_STATE_VIEW_TOOLTIP:0 "§MThe Followers of G'huun§! \n\nAre part of the §HOld Gods§! religous group, and is the primary religion in this state."
+ #Titanic Religious Group
+ MYSTERY_OF_THE_MAKERS_STATE_VIEW_TOOLTIP:0 "§HThe Mystery of the Makers§!\n§C<Titanic Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_ODYN_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Odyn§!\n§C<Titanic Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_TITANS_STATE_VIEW_TOOLTIP:0 "§HThe Titans§!\n§C<Titanic Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- MYSTERY_OF_THE_MAKERS_STATE_VIEW_TOOLTIP:0 "§MThe Mystery of the Makers§! \n\nis part of the §HTitanic§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_ODYN_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Odyn§! \n\nAre part of the §HTitanic§! religous group, and is the primary religion in this state."
- THE_TITANS_STATE_VIEW_TOOLTIP:0 "§MThe Titans§! \n\nAre part of the §HTitanic§! religous group, and is the primary religion in this state."
+ #Spiritual Religious Group
+ CHI_STATE_VIEW_TOOLTIP:0 "§HChi§!\n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_ELEMENTAL_FURIES_STATE_VIEW_TOOLTIP:0 "§HThe Elemental Furies§!\n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ SHAMANISM_STATE_VIEW_TOOLTIP:0 "§HShamanism§!\n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DARK_SHAMANISM_STATE_VIEW_TOOLTIP:0 "§HDark Shamanism§!\n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_THE_FIRELORD_STATE_VIEW_TOOLTIP:0 "§HThe Followers of the Firelord§! \n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_THE_TIDEHUNTER_STATE_VIEW_TOOLTIP:0 "§HThe Followers of the Tidehunter§! \n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_THE_STONEMOTHER_STATE_VIEW_TOOLTIP:0 "§HThe Followers of the Stonemother§! \n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_THE_WINDLORD_STATE_VIEW_TOOLTIP:0 "§HThe Followers of the Windlord§! \n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ GEOMANCY_STATE_VIEW_TOOLTIP:0 "§HGeomancy§!\n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ PYROMANCY_STATE_VIEW_TOOLTIP:0 "§HPyromancy§!\n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_ORDOS_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Ordos§! \n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_GUROK_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Gurok§! \n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_THE_TIDEMOTHER_STATE_VIEW_TOOLTIP:0 "§HThe Followers of the Tidemother§! \n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
+ WATERSPEAKING_STATE_VIEW_TOOLTIP:0 "§HWaterspeaking§!\n§C<Spiritual Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- CHI_STATE_VIEW_TOOLTIP:0 "§MChi§! \n\nIs part of the §HSpiritual§! religous group, and is the primary religion in this state."
- THE_ELEMENTAL_FURIES_STATE_VIEW_TOOLTIP:0 "§MThe Elemental Furies§! \n\nIs part of the §HSpiritual§! religous group, and is the primary religion in this state."
- SHAMANISM_STATE_VIEW_TOOLTIP:0 "§MShamanism§! \n\nIs part of the §HSpiritual§! religous group, and is the primary religion in this state."
- DARK_SHAMANISM_STATE_VIEW_TOOLTIP:0 "§MDark Shamanism§! \n\nIs part of the §HSpiritual§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_THE_FIRELORD_STATE_VIEW_TOOLTIP:0 "§MThe Followers of the Firelord§! \n\nAre part of the §HSpiritual§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_THE_TIDEHUNTER_STATE_VIEW_TOOLTIP:0 "§MThe Followers of the Tidehunter§! \n\nAre part of the §HSpiritual§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_THE_STONEMOTHER_STATE_VIEW_TOOLTIP:0 "§MThe Followers of the Stonemother§! \n\nAre part of the §HSpiritual§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_THE_WINDLORD_STATE_VIEW_TOOLTIP:0 "§MThe Followers of the Windlord§! \n\nAre part of the §HSpiritual§! religous group, and is the primary religion in this state."
- GEOMANCY_STATE_VIEW_TOOLTIP:0 "§MGeomancy§! \n\nIs part of the §HSpiritual§! religous group, and is the primary religion in this state."
- PYROMANCY_STATE_VIEW_TOOLTIP:0 "§MPyromancy§! \n\nIs part of the §HSpiritual§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_ORDOS_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Ordos§! \n\nAre part of the §HSpiritual§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_GUROK_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Gurok§! \n\nAre part of the §HSpiritual§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_THE_TIDEMOTHER_STATE_VIEW_TOOLTIP:0 "§MThe Followers of the Tidemother§! \n\nAre part of the §HSpiritual§! religous group, and is the primary religion in this state."
- WATERSPEAKING_STATE_VIEW_TOOLTIP:0 "§MWaterspeaking§! \n\nIs part of the §HSpiritual§! religous group, and is the primary religion in this state."
+ #Kalimdor Religious Group
+ THE_SISTERHOOD_OF_ELUNE_STATE_VIEW_TOOLTIP:0 "§HThe Sisterhood of Elune§!\n§C<Kalimdor Religious Group>§!\n\nThis religion is the primary religion within this state."
+ TAUREM_MYTHOLOGY_STATE_VIEW_TOOLTIP:0 "§HTauren Mythology§!\n§C<Kalimdor Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- THE_SISTERHOOD_OF_ELUNE_STATE_VIEW_TOOLTIP:0 "§MThe Sisterhood of Elune§! \n\nAre part of the §HKalimdor§! religous group, and is the primary religion in this state."
- TAUREM_MYTHOLOGY_STATE_VIEW_TOOLTIP:0 "§MTauren Mythology§! \n\nis part of the §HKalimdor§! religous group, and is the primary religion in this state."
+ #Primitive Religious Group
+ PANDAREN_FOLKLORE_STATE_VIEW_TOOLTIP:0 "§HPandaren Folklore§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ MOGU_MYTHOLOGY_STATE_VIEW_TOOLTIP:0 "§HMogu Mythology§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ LUCKYDOS_STATE_VIEW_TOOLTIP:0 "§HLuckydos§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_VOLCANOTH_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Volcanoth§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_MAZU_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Mazu§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_KROS_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Kros§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ TUSKARR_MYTHOLOGY_STATE_VIEW_TOOLTIP:0 "§HTuskarr Mythology§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ ANCIENT_NERUBIAN_STATE_VIEW_TOOLTIP:0 "§HAncient Nerubian§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_GAHZRILLA_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Gahz'rilla§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ THE_WYRMCULT_STATE_VIEW_TOOLTIP:0 "§HThe Wyrmcult§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ GRONN_WORSHIP_STATE_VIEW_TOOLTIP:0 "§HGronn Worship§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ MAGNATAUR_WORSHIP_STATE_VIEW_TOOLTIP:0 "§HMagnataur Worship§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_ZARJIRA_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Zar'Jira§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ FOLLOWERS_OF_BORROK_STATE_VIEW_TOOLTIP:0 "§HThe Followers of Borrok§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ GENESAUR_WORSHIP_VIEW_TOOLTIP:0 "§HGenesaur Worship§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_NARAXAS_VIEW_TOOLTIP:0 "§HThe Disciples of Naraxas§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ DISCIPLES_OF_JORHUTTAM_VIEW_TOOLTIP:0 "§HThe Disciples of Jorhuttam§! \n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ WAY_OF_THE_JADE_FIST_STATE_VIEW_TOOLTIP:0 "§HWay of the Jade Fist§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
+ BANANA_WORSHIP_STATE_VIEW_TOOLTIP:0 "§HBanana Worship§!\n§C<Primitive Religious Group>§!\n\nThis religion is the primary religion within this state."
 
- PANDAREN_FOLKLORE_STATE_VIEW_TOOLTIP:0 "§MPandaren Folklore§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
- MOGU_MYTHOLOGY_STATE_VIEW_TOOLTIP:0 "§MMogu Mythology§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
- LUCKYDOS_STATE_VIEW_TOOLTIP:0 "§MLuckydos§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_VOLCANOTH_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Volcanoth§! \n\nare part of the §HPrimitive§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_MAZU_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Mazu§! \n\nare part of the §HPrimitive§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_KROS_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Kros§! \n\nare part of the §HPrimitive§! religous group, and is the primary religion in this state."
- TUSKARR_MYTHOLOGY_STATE_VIEW_TOOLTIP:0 "§MTuskarr Mythology§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
- ANCIENT_NERUBIAN_STATE_VIEW_TOOLTIP:0 "§MAncient Nerubian§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_GAHZRILLA_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Gahz'rilla§! \n\nare part of the §HPrimitive§! religous group, and is the primary religion in this state."
- THE_WYRMCULT_STATE_VIEW_TOOLTIP:0 "§MThe Wyrmcult§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
- GRONN_WORSHIP_STATE_VIEW_TOOLTIP:0 "§MGronn Worship§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
- MAGNATAUR_WORSHIP_STATE_VIEW_TOOLTIP:0 "§MMagnataur Worship§! \n\nIs part of the §HPrimitive§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_ZARJIRA_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Zar'Jira§! \n\nAre part of the §HPrimitive§! religous group, and is the primary religion in this state."
- FOLLOWERS_OF_BORROK_STATE_VIEW_TOOLTIP:0 "§MThe Followers of Borrok§! \n\nAre part of the §HPrimitive§! religous group, and is the primary religion in this state."
- GENESAUR_WORSHIP_VIEW_TOOLTIP:0 "§MGenesaur Worship§! \n\nIs part of the §HPrimitive§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_NARAXAS_VIEW_TOOLTIP:0 "§MThe Disciples of Naraxas§! \n\nare part of the §HPrimitive§! religous group, and is the primary religion in this state."
- DISCIPLES_OF_JORHUTTAM_VIEW_TOOLTIP:0 "§MThe Disciples of Jorhuttam§! \n\nare part of the §HPrimitive§! religous group, and is the primary religion in this state."
- WAY_OF_THE_JADE_FIST_STATE_VIEW_TOOLTIP:0 "§MWay of the Jade Fist§! \n\nis part of the §HPrimitive§! religous group, and is the primary religion in this state."
-
- IRRELIGIOUS_STATE_VIEW_TOOLTIP:0 "§MIrreligious§! \n\nis part of the §HAtheism§! religous group, and is the primary religion in this state."
+ #Atheism Religious Group
+ IRRELIGIOUS_STATE_VIEW_TOOLTIP:0 "§HIrreligious§!§C<Atheism Religious Group>§!The majority of this states' population does not follow any religion."
 
 #########################
-# primary religions
+# Primary Religions
 #########################
  primary_religion_the_church_of_the_holy_light:0 "The Church of the Holy Light"
- primary_religion_the_church_of_the_holy_light_desc:0 "The Church of the Holy Light is part of "The Light" religious group."
+ primary_religion_the_church_of_the_holy_light_desc:0 "§C<Light Religious Group>§!"
  primary_religion_the_naaru:0 "The Naaru"
  primary_religion_scarlet_church:0 "Scarlet Church"
  primary_religion_argent_church:0 "Argent Church"
@@ -177,12 +189,13 @@ FAITH_POINTS_TOOLTIP:0 "You have [?faith_points] §HFaith§!\n\nFaith can be use
  primary_religion_disciples_of_jorhuttam:0 "Disciples of Jorhuttam"
  primary_religion_way_of_the_jade_fist:0 "Way of the Jade Fist"
  primary_religion_irreligious:0 "Irreligious"
+ primary_religion_banana_worhsip:0 "Banana Worship"
 
 #########################
 # secondary religions
 #########################
  secondary_religion_the_church_of_the_holy_light:0 "The Church of the Holy Light"
- secondary_religion_the_church_of_the_holy_light_desc:0 "The Church of the Holy Light is part of "The Light" religious group."
+ secondary_religion_the_church_of_the_holy_light_desc:0 "§C<Light Religious Group>§!"
  secondary_religion_the_naaru:0 "The Naaru"
  secondary_religion_scarlet_church:0 "Scarlet Church"
  secondary_religion_argent_church:0 "Argent Church"
@@ -258,6 +271,7 @@ FAITH_POINTS_TOOLTIP:0 "You have [?faith_points] §HFaith§!\n\nFaith can be use
  secondary_religion_disciples_of_jorhuttam:0 "Disciples of Jorhuttam"
  secondary_religion_way_of_the_jade_fist:0 "Way of the Jade Fist"
  secondary_religion_irreligious:0 "Irreligious"
+ secondary_religion_banana_worhsip:0 "Banana Worship"
 
  # Changing state religion scripted effect (used in focus, decisions, etc...)
  set_state_religion_to_primary_religion_tt:0 "Changes state religion to your §Hprimary religion§!."

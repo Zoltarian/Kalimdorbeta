@@ -157,6 +157,8 @@ accept_way_of_the_jade_fist_decision:0 "Accept the Way of the Jade Fist"
 accept_way_of_the_jade_fist_decision_desc:0 ""
 accept_irreligious_decision:0 "Accept Irreligious"
 accept_irreligious_decision_desc:0 ""
+accept_banana_worship_decision:0 "Accept Banana Worship"
+accept_banana_worship_decision_desc:0 ""
 
 ###############################################
 # Banishing religion decisions
@@ -311,6 +313,8 @@ banish_way_of_the_jade_fist_decision:0 "Banish the Way of the Jade Fist"
 banish_way_of_the_jade_fist_decision_desc:0 ""
 banish_irreligious_decision:0 "Banish Irreligious"
 banish_irreligious_decision_desc:0 ""
+banish_banana_worhsip_decision:0 "Banish Banana Worship"
+banish_banana_worhsip_decision_desc:0 ""
 
 ###############################################
 # Converting to religion decisions
@@ -522,6 +526,9 @@ convert_to_way_of_the_jade_fist_tt:0 "§YWay of the Jade Fist§! will become our
 convert_to_irreligious_decision:0 "Become Irreligious"
 convert_to_irreligious_decision_desc:0 ""
 convert_to_irreligious_tt:0 "We will abandon our primary religion and mainly become §YIrreligious§!. Our current primary religion will become a secondary religion.\n"
+convert_to_banana_worhsip_decision:0 "Convert to Banana Worship"
+convert_to_banana_worhsip_decision_desc:0 ""
+convert_to_banana_worhsip_tt:0 "§YBanana Worship§! will become our primary religion. Our current primary religion will become a secondary religion.\n"
 
 ###############################################
 # Religious faith decisions
@@ -719,3 +726,11 @@ will_of_khazgoroth_decision:0 "Will of Khaz'goroth"
 might_of_the_shaper_decision:0 "Might of the Shaper"
 unearthing_the_past_decision:0 "Unearthing the Past"
 might_of_the_mountain_decision:0 "Might of the Mountain"
+
+#Goblin atheism
+goblin_atheism_decisions:0 "Goblin Atheism Decisions"
+goblin_atheism_decisions_desc:0 "While the great majority of goblins do not follow any kind of religious tradition (quite the contrary), their society and culture do contains some arguably unorthodox traditions compared to the rest of Azeroth. Most, if not all of those customs are tied to goblins' seemingly inherent attraction to wealth."
+defending_our_wealth_decision:0 "Defending our Wealth"
+production_fervor_decision:0 "Production Fervor"
+will_to_work_decision:0 "Will to Work"
+political_bribes_decision:0 "Political Bribes"
