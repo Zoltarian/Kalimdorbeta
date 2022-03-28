@@ -1,0 +1,34 @@
+
+state={
+	id=823
+	name="STATE_823"
+	resources={
+		wheat=5
+		oil=9
+		ores=7
+		gunpowder=7
+	}
+
+	history={
+		owner = TIN
+		victory_points = {
+			8316 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = TIN
+
+	}
+
+	provinces={
+		8263 8290 8295 8316 8319 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+	local_supplies=0.000
+}

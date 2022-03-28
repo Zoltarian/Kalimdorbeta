@@ -1,0 +1,33 @@
+
+state={
+	id=818
+	name="STATE_818"
+	resources={
+		ores=6.000
+		wood=22.000
+		oil=46.000
+	}
+
+	history={
+		owner = STC
+		victory_points = {
+			8305 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+
+		}
+		add_core_of = STC
+
+	}
+
+	provinces={
+		8266 8294 8305 8310 8312 8317 
+	}
+	manpower=51000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+	local_supplies=0.000
+}

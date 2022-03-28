@@ -1,32 +1,31 @@
 
 state={
-	id=827
-	name="STATE_827"
+	id=822
+	name="STATE_822"
 	resources={
-		wheat=8
+		oil=14
 		ores=5
-		wood=4
 	}
 
 	history={
-		owner = OOM
+		owner = BIL
 		victory_points = {
-			8229 20 
+			8327 10
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
 			industrial_complex = 3
 
 		}
-		add_core_of = OOM
+		add_core_of = BIL
 
 	}
 
 	provinces={
-		2728 6434 8218 8229 9002 9748 
+		8286 8287 8297 8302 8313 8327
 	}
-	manpower=32000
+	manpower=27000
 	buildings_max_level_factor=1.000
-	state_category=building_slots_6
+	state_category=building_slots_5
+	local_supplies=0.000
 }

@@ -3,23 +3,25 @@ state={
 	id=826
 	name="STATE_826"
 	resources={
-		wood=18.000
-		mounts=6.000
+		wheat=6
+		ores=4
+		wood=10
+		mounts=5
 	}
 
 	history={
-		
+		owner = OOM
 		add_core_of = OOM
 		victory_points = {
 			8203 10 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
+			dockyard = 1
 			8224 = {
 				naval_base = 1
-
 			}
 
 		}
@@ -29,7 +31,7 @@ state={
 	provinces={
 		8203 8205 8206 8224 
 	}
-	manpower=36000
+	manpower=24000
 	buildings_max_level_factor=1.000
 	state_category=building_slots_5
 }

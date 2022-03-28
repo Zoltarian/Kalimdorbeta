@@ -1,0 +1,39 @@
+
+state={
+	id=819
+	name="STATE_819"
+	resources = {
+		oil=8
+		ores=4
+		gunpowder=5
+		wheat=6
+		wood=5
+	}
+
+	history={
+		owner = TVC
+		victory_points = {
+			8318 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 4
+			8318 = {
+				naval_base = 5
+			}
+
+		}
+		add_core_of = TVC
+
+	}
+
+	provinces={
+		8257 8259 8304 8306 8307 8314 8315 8318 
+	}
+	manpower=66000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_10
+	local_supplies=0.000
+}

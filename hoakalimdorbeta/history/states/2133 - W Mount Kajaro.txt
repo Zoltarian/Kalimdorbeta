@@ -1,18 +1,18 @@
 state={
-	id=2128
-	name="STATE_2128"
+	id=2133
+	name="STATE_2133"
 	impassable = yes
 
 	history={
-		owner = OOM
+		owner = TVC
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = OOM
+		add_core_of = TVC
 	}
 
 	provinces={
-		8197
+		200
 	}
 	manpower=25
 	buildings_max_level_factor=1.000

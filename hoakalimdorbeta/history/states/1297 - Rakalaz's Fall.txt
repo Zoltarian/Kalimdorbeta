@@ -3,31 +3,30 @@ state={
 	id=1297
 	name="STATE_1297"
 	resources={
-		gunpowder=16
-		ores=16
+		gunpowder=16.000
+		ores=16.000
 	}
 
 	history={
-		
+		owner = STC
 		victory_points = {
-			8255 10
+			8261 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
-			8255 = {
-				naval_base = 1
-			}
 
 		}
 		add_core_of = STC
+
 	}
 
 	provinces={
-		8117 8254 8255 8261 8263 
+		8118 8261 8264 8265 8269 8273 8275 8278 
 	}
-	manpower=17000
-	local_supplies=0.0
+	manpower=16000
+	buildings_max_level_factor=1.000
 	state_category=building_slots_5
+	local_supplies=0.000
 }

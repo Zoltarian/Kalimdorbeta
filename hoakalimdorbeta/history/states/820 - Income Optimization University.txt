@@ -1,37 +1,32 @@
 
 state={
-	id=817
-	name="STATE_817"
+	id=820
+	name="STATE_820"
 	resources={
-		oil=10
-		wood=6
-		ores=3
-		wheat=4
+		wheat=6
+		ores=4
+		gunpowder=4
 	}
 
 	history={
-		owner = BIL
+		owner = TVC
 		victory_points = {
-			8330 15 
+			8274 10
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 5
 			arms_factory = 1
-			dockyard = 3
-			8330 = {
-				naval_base = 6
-			}
 
 		}
-		add_core_of = BIL
+		add_core_of = TVC
 
 	}
 
 	provinces={
-		8123 8324 8325 8330 
+		8274 8280 8283 8293 8300 8301 8309 
 	}
-	manpower=35000
+	manpower=32000
 	buildings_max_level_factor=1.000
 	state_category=building_slots_8
 	local_supplies=0.000
