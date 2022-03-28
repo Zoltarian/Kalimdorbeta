@@ -14090,3 +14090,335 @@ goblin_atheism_decisions = {
 		days_remove = 90
 	}
 }
+
+banana_worship_religion_decisions = {
+	feast_of_the_great_banana_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_banana_worhsip
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_banana_worhsip
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			monthly_population = 0.1
+			stability_weekly_factor = 0.001
+		}
+
+		days_remove = 90
+	}
+
+	blessing_of_kongs_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_banana_worhsip
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_banana_worhsip
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			offence = 0.1
+			defence = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	rumble_in_the_jungle_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_banana_worhsip
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_banana_worhsip
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			army_speed_factor = 0.05
+			org_loss_when_moving = -0.05
+			attrition = -0.05
+		}
+
+		days_remove = 90
+	}
+
+	grand_knuckle_ceremony_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_banana_worhsip
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_banana_worhsip
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			training_time_factor = -0.1
+			war_support_weekly_factor = 0.001
+		}
+
+		days_remove = 90
+	}
+}
+
+followers_of_zarjira_religion_decisions = {
+	boon_of_zarjira_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_zarjira
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_zarjira
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			offence = 0.05
+			modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.1
+		}
+
+		days_remove = 90
+	}
+
+	call_of_the_sea_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_zarjira
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_zarjira
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			industrial_capacity_dockyard = 0.1
+			production_speed_dockyard_factor = 0.1
+		}
+
+		days_remove = 90
+	}
+
+	blessed_by_the_waves_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_zarjira
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_zarjira
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			naval_speed_factor = 0.05
+			invasion_preparation = -0.05
+		}
+
+		days_remove = 90
+	}
+
+	worshipping_the_mistress_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_zarjira
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_zarjira
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			war_support_weekly_factor = 0.001
+		}
+
+		days_remove = 90
+	}
+}
