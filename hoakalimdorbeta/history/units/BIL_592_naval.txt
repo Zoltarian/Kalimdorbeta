@@ -3,10 +3,10 @@
 	### Naval OOB ###
 	fleet = {				
 		name = "Bilgewater Trading Fleet"			
-		naval_base = 8123
+		naval_base = 8330
 		task_force = {
 			name = "Bilgewater Trading Fleet"			
-			location = 8123
+			location = 8330
 			
 			ship = {
 				name = "1st Destroyer"
@@ -54,7 +54,6 @@
 				equipment = { light_frigate_equipment_1 = { amount = 1 owner = BIL } }
 			}
 	
-			
 		}
 	}
 }

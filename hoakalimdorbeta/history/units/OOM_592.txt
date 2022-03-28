@@ -2,65 +2,71 @@
 	name = "Oomlot Warrior"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
-		footman = { x = 0 y = 1 }
-		footman = { x = 0 y = 2 }
-		footman = { x = 1 y = 0 }
-		footman = { x = 1 y = 1 }
-		footman = { x = 1 y = 2 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
-
-division_template = {
-	name = "Oomlot Spearman"
-
-	regiments = {
-		pikeman = { x = 0 y = 0 }
-		pikeman = { x = 0 y = 1 }
-		pikeman = { x = 0 y = 2 }
-		pikeman = { x = 1 y = 0 }
-		pikeman = { x = 1 y = 1 }
-		pikeman = { x = 1 y = 2 }
-
-	}
-	priority = 1
-}
-
 
 units = {
 	
 	division = {
 		name = "Oomlot Warrior"
-		location = 8218
+		location = 8229
 		division_template = "Oomlot Warrior"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Oomlot Warrior"
-		location = 8194
+		location = 8229
 		division_template = "Oomlot Warrior"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Oomlot Warrior"
-		location = 8232
+		location = 8229
 		division_template = "Oomlot Warrior"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "Oomlot Spearman"
+		name = "Oomlot Warrior"
 		location = 8201
-		division_template = "Oomlot Spearman"
+		division_template = "Oomlot Warrior"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "Oomlot Spearman"
-		location = 766
-		division_template = "Oomlot Spearman"
+		name = "Oomlot Warrior"
+		location = 8201
+		division_template = "Oomlot Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Warrior"
+		location = 8203
+		division_template = "Oomlot Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Warrior"
+		location = 8212
+		division_template = "Oomlot Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Warrior"
+		location = 8226
+		division_template = "Oomlot Warrior"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Oomlot Warrior"
+		location = 8155
+		division_template = "Oomlot Warrior"
 		start_experience_factor = 0.2
 	}
 	
-
 }

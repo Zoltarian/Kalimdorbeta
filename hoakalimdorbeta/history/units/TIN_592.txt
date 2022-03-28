@@ -5,9 +5,26 @@
 		footman = { x = 0 y = 0 }
 		footman = { x = 0 y = 1 }
 		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 		footman = { x = 1 y = 0 }
 		footman = { x = 1 y = 1 }
-		footman = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Tinkers Rocketeers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
 
 	}
 	priority = 1
@@ -16,27 +33,27 @@
 units = {
 	
 	division = {
-		name = "1st Tinkers Bruiser"
-		location = 8299
+		name = "Tinkers Bruiser"
+		location = 8316
 		division_template = "Tinkers Bruiser"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "2nd Tinkers Bruiser"
-		location = 8299
+		name = "Tinkers Bruiser"
+		location = 8316
 		division_template = "Tinkers Bruiser"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "3rd Tinkers Bruiser"
-		location = 8314
+		name = "Tinkers Bruiser"
+		location = 8316
 		division_template = "Tinkers Bruiser"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "4th Tinkers Bruiser"
-		location = 8314
-		division_template = "Tinkers Bruiser"
+		name = "Tinkers Rocketeers"
+		location = 8316
+		division_template = "Tinkers Rocketeers"
 		start_experience_factor = 0.2
 	}
 	

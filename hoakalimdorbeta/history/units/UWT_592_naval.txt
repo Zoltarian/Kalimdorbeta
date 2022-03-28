@@ -1,0 +1,44 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Underworld Fishing Fleet"			
+		naval_base = 7381
+		task_force = {
+			name = "Underworld Fishing Fleet"			
+			location = 7381 #Central Darkspear Islands
+			
+			ship = {
+				name = "1st Underworld Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = UWT } }
+			}
+			ship = {
+				name = "2nd Underworld Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = UWT } }
+			}
+			ship = {
+				name = "3rd Underworld Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = UWT } }
+			}
+			ship = {
+				name = "4th Underworld Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = UWT } }
+			}
+			ship = {
+				name = "5th Underworld Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = UWT } }
+			}
+			ship = {
+				name = "6th Underworld Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = UWT } }
+			}
+			
+		}
+	}
+}

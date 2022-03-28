@@ -5,39 +5,26 @@
 		footman = { x = 0 y = 0 }
 		footman = { x = 0 y = 1 }
 		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 		footman = { x = 1 y = 0 }
 		footman = { x = 1 y = 1 }
-		footman = { x = 1 y = 2 }
 
 	}
 	priority = 1
 }
 
 division_template = {
-	name = "Venture Co. Pikeman"
-
-	regiments = {
-		pikeman = { x = 0 y = 0 }
-		pikeman = { x = 0 y = 1 }
-		pikeman = { x = 0 y = 2 }
-		pikeman = { x = 1 y = 0 }
-		pikeman = { x = 1 y = 1 }
-		pikeman = { x = 1 y = 2 }
-
-	}
-	priority = 1
-}
-
-division_template = {
-	name = "Venture Co. Rocketeer"
+	name = "Venture Co. Rocketeers"
 
 	regiments = {
 		archer = { x = 0 y = 0 }
 		archer = { x = 0 y = 1 }
 		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
 		archer = { x = 1 y = 0 }
 		archer = { x = 1 y = 1 }
-		archer = { x = 1 y = 2 }
 
 	}
 	priority = 1
@@ -46,65 +33,47 @@ division_template = {
 units = {
 	
 	division = {
-		name = "1st Venture Co. Enforcer"
-		location = 8280
+		name = "Venture Co. Enforcer"
+		location = 8299
 		division_template = "Venture Co. Enforcer"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "2nd Venture Co. Enforcer"
-		location = 8280
+		name = "Venture Co. Enforcer"
+		location = 8299
 		division_template = "Venture Co. Enforcer"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "3rd Venture Co. Enforcer"
-		location = 8298
+		name = "Venture Co. Enforcer"
+		location = 8318
 		division_template = "Venture Co. Enforcer"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "4th Venture Co. Enforcer"
-		location = 8298
+		name = "Venture Co. Enforcer"
+		location = 8318
 		division_template = "Venture Co. Enforcer"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "5th Venture Co. Enforcer"
-		location = 8301
+		name = "Venture Co. Enforcer"
+		location = 8274
 		division_template = "Venture Co. Enforcer"
 		start_experience_factor = 0.2
 	}
+
 	division = {
-		name = "6th Venture Co. Enforcer"
-		location = 8265
-		division_template = "Venture Co. Enforcer"
+		name = "Venture Co. Rocketeers"
+		location = 8299
+		division_template = "Venture Co. Rocketeers"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "1st Venture Co. Rocketeer"
-		location = 8298
-		division_template = "Venture Co. Rocketeer"
+		name = "Venture Co. Rocketeers"
+		location = 8318
+		division_template = "Venture Co. Rocketeers"
 		start_experience_factor = 0.2
 	}
-	division = {
-		name = "2nd Venture Co. Rocketeer"
-		location = 8259
-		division_template = "Venture Co. Rocketeer"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "1st Venture Co. Pikeman"
-		location = 8259
-		division_template = "Venture Co. Pikeman"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "2nd Venture Co. Pikeman"
-		location = 8301
-		division_template = "Venture Co. Pikeman"
-		start_experience_factor = 0.2
-	}
-	
 
 }

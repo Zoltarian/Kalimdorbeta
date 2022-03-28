@@ -2,14 +2,49 @@
 
 	### Naval OOB ###
 	fleet = {				
-		name = "Oomlot Fishing Boat"			
-		naval_base = 8154
+		name = "Oomlot Fishing Fleet"			
+		naval_base = 8224
 		task_force = {
-			name = "Oomlot Fishing Boat"			
-			location = 8154
+			name = "Oomlot Fishing Fleet"			
+			location = 8224
 			
 			ship = {
-				name = "Oomlot Fishing Vessel"
+				name = "1st Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
+			}
+			ship = {
+				name = "2nd Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
+			}
+			ship = {
+				name = "3rd Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
+			}
+			ship = {
+				name = "4th Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
+			}
+			ship = {
+				name = "5th Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
+			}
+			ship = {
+				name = "6th Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
+			}
+			ship = {
+				name = "7th Oomlot Fishing Vessel"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
+			}
+			ship = {
+				name = "8th Oomlot Fishing Vessel"
 				definition = destroyer
 				equipment = { destroyer_equipment_1 = { amount = 1 owner = OOM } }
 			}

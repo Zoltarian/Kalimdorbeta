@@ -1,6 +1,11 @@
-﻿capital = 1294
+﻿capital = 292
 
-oob = "SPY_592"
+oob = "UWT_592"
+
+set_naval_oob = "UWT_592_naval"
+
+set_convoys = 60
+
 set_research_slots = 3
 
 add_ideas = {
@@ -8,10 +13,13 @@ add_ideas = {
 	limited_conscription
 	early_military_development
 	limited_exports
-	
-	pygmies_primary_race
 
-	primary_religion_shamanism
+	murloc_primary_race
+	primary_trait_spawning_pools
+	primary_trait_mrglgl
+	primary_trait_one_with_the_sea
+
+	primary_religion_followers_of_zarjira
 }
 
 set_technology = {
@@ -23,9 +31,14 @@ set_technology = {
 	workshop_tech = 1
 	blacksmith_tech = 1
 	lumber_mill_tech = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	naval_transport_1 = 1	
 }
 
-recruit_character = SPY_sultan_oogah
+recruit_character = UWT_zarjiras_champion
 
 set_politics = {
 	ruling_party = neutral
