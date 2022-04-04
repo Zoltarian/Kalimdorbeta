@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = LOR
+		
 		victory_points = {
 			5141 20 
 		}
@@ -17,15 +17,15 @@ state={
 			arms_factory = 1
 
 		}
-		add_core_of = LOR
+		
 		596.1.1 = {
-			owner = STO
+			
 			controller = STO
-			add_core_of = STO
+			
 
 		}
 		600.1.1 = {
-			owner = LOR
+			
 			remove_core_of = STO
 
 		}

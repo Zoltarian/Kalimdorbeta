@@ -4,17 +4,17 @@ state={
 	name="STATE_365"
 
 	history={
-		owner = STO
+		
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = STO
+		
 		set_demilitarized_zone = yes
 		596.1.1 = {
-			owner = BRC
+			
 			controller = BRC
-			add_core_of = BRC
+			
 			set_demilitarized_zone = no
 
 		}

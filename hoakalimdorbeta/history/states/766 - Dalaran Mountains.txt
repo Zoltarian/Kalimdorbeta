@@ -5,28 +5,28 @@ state={
 
 	impassable = yes
 	history={
-		owner = LOR
-		add_core_of = LOR
+		
+		
 
 		buildings = {
 			infrastructure = 1
 		}
 
 		596.1.1 = {
-			owner = STO
+			
 			controller = STO
-			add_core_of = STO
+			
 		}
 
 		600.1.1 = {
-			owner = LOR
+			
 			remove_core_of = STO
 		}
 
 		617.1.1 = {
-			owner = DAL
+			
 			controller = DAL
-			add_core_of = DAL
+			
 		}
 	}
 

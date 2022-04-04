@@ -11,13 +11,13 @@
 			ship = {
 				name = "1st Destroyer"
 				definition = destroyer
-				equipment = { destroyer_equipment_1 = { amount = 1 owner = IRO } }
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
 			}
 			
 			ship = {
 				name = "2nd Destroyer"
 				definition = destroyer
-				equipment = { destroyer_equipment_1 = { amount = 1 owner = IRO } }
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
 			}
 		}
 	}

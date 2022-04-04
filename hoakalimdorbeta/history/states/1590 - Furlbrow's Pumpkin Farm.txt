@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = STO
+		
 		victory_points = {
 			2318 10 
 		}
@@ -17,7 +17,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = STO
+		
 		596.1.1 = {
 			owner = SRC
 			controller = SRC
@@ -26,7 +26,7 @@ state={
 		}
 		add_core_of = WST
 		600.1.1 = {
-			owner = STO
+			
 			controller = STO
 			remove_core_of = SRC
 

@@ -5,12 +5,12 @@ state={
 
 	impassable = yes
 	history={
-		owner = IRO
+		
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = IRO
+		
 		596.1.1 = {
 			owner = DUN
 			controller = DUN
@@ -19,9 +19,9 @@ state={
 		}
 
 		617.1.1 = {
-			owner = DIC
+			
 			controller = DIC
-			add_core_of = DIC
+			
 		}
 	}
 

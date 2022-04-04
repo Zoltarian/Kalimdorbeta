@@ -11,22 +11,22 @@
 			ship = {
 				name = "1st Destroyer"
 				definition = destroyer
-				equipment = { destroyer_equipment_1 = { amount = 1 owner = GRN } }
+				equipment = { destroyer_equipment_1 = { amount = 1  } }
 			}
 			ship = {
 				name = "2nd Frigate"
 				definition = light_frigate
-				equipment = { light_frigate_equipment_1 = { amount = 1 owner = GRN } }
+				equipment = { light_frigate_equipment_1 = { amount = 1  } }
 			}
 			ship = {
 				name = "1st Juggernaut"
 				definition = dreadnaught
-				equipment = { dreadnaught_equipment_1 = { amount = 1 owner = GRN } }
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
 			}
 			ship = {
 				name = "2nd Juggernaut"
 				definition = dreadnaught
-				equipment = { dreadnaught_equipment_1 = { amount = 1 owner = GRN } }
+				equipment = { dreadnaught_equipment_1 = { amount = 1  } }
 			}
 			
 		}

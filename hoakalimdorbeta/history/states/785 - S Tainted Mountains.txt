@@ -5,17 +5,17 @@ state={
 
 	impassable = yes
 	history={
-		owner = FWC
+		
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = FWC
+		
 		
 		596.1.1 = {
-			owner = BTG
+			
 			controller = BTG
-			add_core_of = BTG
+			
 			remove_core_of = FWC
 		}
 
@@ -26,9 +26,9 @@ state={
 		}
 
 		617.1.1 = {
-			owner = TBL
+			
 			controller = TBL
-			add_core_of = TBL
+			
 		}
 	}
 
