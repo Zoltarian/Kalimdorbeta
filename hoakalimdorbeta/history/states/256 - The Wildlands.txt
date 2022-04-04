@@ -1,0 +1,31 @@
+
+state={
+	id=256
+	name="STATE_256"
+	resources = {
+		wood=6
+		wheat=1
+	}
+
+	history={
+		owner = TAG
+		victory_points = {
+			13554 5
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = TAG
+
+	}
+
+	provinces={
+		162 5679 13554 13558 13561 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
+}

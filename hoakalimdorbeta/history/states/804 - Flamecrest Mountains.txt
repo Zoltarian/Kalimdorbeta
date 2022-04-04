@@ -5,7 +5,7 @@ state={
 
 	impassable = yes
 	history={
-		
+		owner = DIC
 		add_core_of = DIC
 
 		buildings = {
@@ -13,7 +13,7 @@ state={
 		}
 
 		596.1.1 = {
-			
+			owner = BRC
 			controller = BRC
 			add_core_of = BRC
 		}

@@ -1,0 +1,36 @@
+
+state={
+	id=1484
+	name="STATE_1484"
+	resources = {
+		wheat=6
+		ores=4
+		oil=2
+	}
+
+	history={
+		owner = TAG
+		victory_points = {
+			13562 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			13559 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = TAG
+
+	}
+
+	provinces={
+		13523 13530 13532 13546 13559 13562 13564 13565 
+	}
+	manpower=49000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+	local_supplies=0.000
+}

@@ -5,7 +5,7 @@ state={
 
 	impassable = yes
 	history={
-		
+		owner = IRO
 		buildings = {
 			infrastructure = 1
 
@@ -19,7 +19,7 @@ state={
 		}
 
 		617.1.1 = {
-			
+			owner = DMC
 			controller = DMC
 			add_core_of = DMC
 		}

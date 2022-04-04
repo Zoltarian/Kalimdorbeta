@@ -4,7 +4,7 @@ state={
 	name="STATE_35"
 
 	history={
-		
+		owner = LOR
 		victory_points = {
 			1937 20
 		}
@@ -17,13 +17,13 @@ state={
 		add_core_of = LOR
 
 		596.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 		}
 
 		600.1.1 = {
-			
+			owner = LOR
 			remove_core_of = STO
 		}
 

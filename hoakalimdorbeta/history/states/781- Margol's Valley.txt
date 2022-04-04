@@ -4,7 +4,7 @@ state={
 	name="STATE_781"
 
 	history={
-		
+		owner = DIC
 		victory_points = {
 			3929 5
 		}
@@ -15,14 +15,14 @@ state={
 		add_core_of = DIC
 		add_core_of = THR
 		596.1.1 = {
-			
+			owner = BRC
 			controller = BRC
 			add_core_of = BRC
 
 		}
 
 		617.1.1 = {
-			
+			owner = DIC
 			controller = DIC
 			add_core_of = DIC
 		}

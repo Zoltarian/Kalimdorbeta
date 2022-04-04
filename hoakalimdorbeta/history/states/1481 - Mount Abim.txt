@@ -1,0 +1,32 @@
+
+state={
+	id=1481
+	name="STATE_1481"
+	resources = {
+		ores=6
+		gunpowder=7
+		wood=4
+	}
+
+	history={
+		owner = TAG
+		victory_points = {
+			13535 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = TAG
+
+	}
+
+	provinces={
+		8311 13535 13536 13537 13538 13543 13547 13548 13557 
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
+}

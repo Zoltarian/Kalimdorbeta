@@ -4,7 +4,7 @@ state={
 	name="STATE_1262"
 
 	history={
-		
+		owner = MMH
 		add_core_of = MMH
 		buildings = {
 			infrastructure = 1
@@ -12,7 +12,7 @@ state={
 		}
 
 		620.1.1 = {
-			
+			owner = GNO
 			controller = GNO
 			add_core_of = GNO
 		}

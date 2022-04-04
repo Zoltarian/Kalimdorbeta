@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		add_core_of = STO
 		add_core_of = ELW
 
@@ -29,13 +29,13 @@ state={
 		}
 
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 		}
 
 		617.1.1 = {
-			
+			owner = STO
 			controller = STO
 		}
 	}

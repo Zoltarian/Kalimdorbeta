@@ -19,10 +19,17 @@ state={
 		}
 		add_core_of = PAL
 
+		612.1.1 = {
+			set_state_name = "Bael'Dun Digsite"
+			set_province_name = {
+				id = 10034
+				name = "Bael'Dun Digsite"
+			}
+		}
 	}
 
 	provinces={
-		9690 10014 10016 10027 10030 10034 
+		9690 10014 10016 10027 10030 10034
 	}
 	manpower=16000
 	local_supplies=0.0

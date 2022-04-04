@@ -17,13 +17,18 @@ state={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2
-			arms_factory = 1 
+			arms_factory = 1
 		}
-		
+
 		617.1.1 = {
 			owner = SFB
 			controller = SFB
 			add_core_of = SFB
+
+			set_province_name = {
+				id = 10068
+				name = "Rageroar Basecamp"
+			}
 		}
 	}
 

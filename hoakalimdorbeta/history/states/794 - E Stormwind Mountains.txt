@@ -5,7 +5,7 @@ state={
 
 	impassable = yes
 	history={
-		
+		owner = STO
 		buildings = {
 			infrastructure = 1
 
@@ -18,7 +18,7 @@ state={
 
 		}
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = SRC
 

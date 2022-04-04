@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = STO
 		victory_points = {
 			2473 5
 		}
@@ -20,13 +20,13 @@ state={
 		add_core_of = STO
 		add_core_of = ELW
 		596.1.1 = {
-			
+			owner = THC
 			controller = THC
 			add_core_of = THC
 
 		}
 		600.1.1 = {
-			
+			owner = STO
 			controller = STO
 			remove_core_of = THC
 

@@ -3,13 +3,14 @@ state={
 	id=292
 	name="STATE_292"
 	resources={
-		wood =16
-		ores=12
-		mounts=8
+		wood=4
+		wheat=3
+		oil=6
+		eggs=4
 	}
 
 	history={
-		
+		owner = UWT
 		victory_points = {
 			7385 20
 		}
@@ -32,7 +33,7 @@ state={
 			}
 
 		}
-		add_core_of = DST
+		add_core_of = UWT
 	}
 
 	provinces={

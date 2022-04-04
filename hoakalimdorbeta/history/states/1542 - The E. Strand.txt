@@ -4,7 +4,7 @@ state={
 	name="STATE_1542"
 
 	history={
-		
+		owner = LOR
 		add_core_of = LOR
 		buildings = {
 			infrastructure = 4
@@ -20,13 +20,13 @@ state={
 
 		}
 		596.1.1 = {
-			
+			owner = STO
 			controller = STO
 			add_core_of = STO
 
 		}
 		600.1.1 = {
-			
+			owner = LOR
 			remove_core_of = STO
 
 		}

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = AMA
 		victory_points = {
 			4722 5 
 		}
@@ -22,14 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = ZUL
-		596.1.1 = {
-			owner = AMA
-			controller = AMA
-			add_core_of = AMA
-			remove_core_of = ZUL
-
-		}
+		add_core_of = AMA
 
 	}
 

@@ -3,12 +3,15 @@ state={
 	id=293
 	name="STATE_293"
 	resources={
-		oil=16.000
-		ores=12.000
+		wheat=7
+		oil=6
+		ores=10
+		mana=5
+		eggs=3
 	}
 
 	history={
-		
+		owner = UWT
 		victory_points = {
 			7400 10 
 		}
@@ -23,27 +26,24 @@ state={
 			industrial_complex = 1
 			dockyard = 1
 			7400 = {
-				naval_base = 4
-
+				naval_base = 3
 			}
 			7403 = {
-				naval_base = 3
-
+				naval_base = 2
 			}
 			7395 = {
 				naval_base = 1
-
 			}
 
 		}
-		add_core_of = DST
+		add_core_of = UWT
 
 	}
 
 	provinces={
 		526 7395 7397 7400 7401 7403 
 	}
-	manpower=47000
+	manpower=37000
 	local_supplies=0.0
-	state_category=building_slots_3
+	state_category=building_slots_6
 }

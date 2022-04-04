@@ -31,6 +31,12 @@ state={
 			controller = RAT
 			add_core_of = RAT
 
+			set_state_name = "Ratchet"
+			set_province_name = {
+				id = 9701
+				name = "Ratchet"
+			}
+
 			#Should be removed at an earlier date, when the Bloodhoof Tribe is escorted by Thrall to Mulgore
 			remove_core_of = BHT
 		}

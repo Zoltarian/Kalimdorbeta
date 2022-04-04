@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		owner = DIC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -15,14 +15,14 @@ state={
 		}
 		add_core_of = DIC
 		596.1.1 = {
-			
+			owner = BBC
 			controller = BBC
 			add_core_of = BBC
 
 		}
 
 		617.1.1 = {
-			
+			owner = STC
 			controller = STC
 			add_core_of = STC
 		}
