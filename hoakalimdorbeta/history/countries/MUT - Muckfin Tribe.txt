@@ -1,11 +1,12 @@
-﻿capital = 1483
+capital = 1482
 
-oob = "GFT_592"
+oob = "MUT_592"
 
-set_convoys = 10
+set_naval_oob = "MUT_592_naval"
+
+set_convoys = 35
 
 set_research_slots = 3
-set_technology = {}
 
 add_ideas = {
 	
@@ -21,6 +22,24 @@ add_ideas = {
 
 	primary_religion_followers_of_the_tidehunter
 }
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	naval_transport_1 = 1	
+}
+
+recruit_Character = MUT_old_grmgl
 
 set_popularities = {
 	alliance = 0

@@ -1,0 +1,29 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Muckfin Fishing Fleet"			
+		naval_base = 13544
+		task_force = {
+			name = "Muckfin Fishing Fleet"			
+			location = 13544 #Muckfin Village
+			
+			ship = {
+				name = "1st Muckfin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MUT } }
+			}
+			ship = {
+				name = "2nd Muckfin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MUT } }
+			}
+			ship = {
+				name = "3rd Muckfin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MUT } }
+			}
+			
+		}
+	}
+}

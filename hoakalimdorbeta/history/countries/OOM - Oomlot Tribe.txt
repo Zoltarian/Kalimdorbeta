@@ -20,21 +20,19 @@ add_ideas = {
 
 set_research_slots = 3
 set_technology = {
-	footman_weapons_tech_1 = 1
-	pikeman_weapons_tech_1 = 1
-	archer_weapons_tech_1 = 1
-
-	mount_taming_1 = 1
-
-	catapult_equipment_tech_1 = 1
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
 
 	naval_facilities = 1
 	small_frames = 1
 	destroyer_tech_1 = 1
-	naval_transport_1 = 1
-
-	town_hall_tech = 1
-	scout_tower_1 = 1
+	naval_transport_1 = 1	
 
 }
 

@@ -1,0 +1,24 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Slitherblade Fishing Fleet"			
+		naval_base = 13531
+		task_force = {
+			name = "Slitherblade Fishing Fleet"			
+			location = 13531 #Slitherblade Village
+			
+			ship = {
+				name = "1st Slitherblade Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SLC } }
+			}
+			ship = {
+				name = "2nd Slitherblade Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SLC } }
+			}
+			
+		}
+	}
+}

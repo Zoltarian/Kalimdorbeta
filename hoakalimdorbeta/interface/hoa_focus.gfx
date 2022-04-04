@@ -19,6 +19,25 @@ spriteTypes = {
 	}
 
 ##############################
+#Gorilla focus (yes this is a thing)
+##############################
+
+SpriteType = {
+	name = "GFX_focus_gorilla"
+	texturefile = "gfx/interface/focus_tree/gorilla/focus_gorilla.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_gorilla_jungle"
+	texturefile = "gfx/interface/focus_tree/gorilla/focus_gorilla_jungle.dds"
+}
+
+SpriteType = {
+	name = "GFX_focus_gorilla_punch"
+	texturefile = "gfx/interface/focus_tree/gorilla/focus_gorilla_punch.dds"
+}
+
+##############################
 #Silithids focus
 ##############################
 

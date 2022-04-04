@@ -1,0 +1,19 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Gorilla Fishing Fleet"			
+		naval_base = 13559
+		task_force = {
+			name = "Gorilla Fishing Fleet"			
+			location = 13559 #Muckfin Village
+			
+			ship = {
+				name = "1st Gorilla Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = TAG } }
+			}
+			
+		}
+	}
+}

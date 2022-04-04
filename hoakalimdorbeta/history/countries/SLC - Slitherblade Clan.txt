@@ -1,26 +1,23 @@
-﻿capital = 1484
+capital = 1483
 
-oob = "TAG_592"
+oob = "SLC_592"
 
-set_naval_oob = "TAG_592_naval"
+set_naval_oob = "SLC_592_naval"
 
-set_convoys = 15
+set_convoys = 40
 
 set_research_slots = 3
 
 add_ideas = {
+	
 	tribe
-
 	limited_conscription
 	early_military_development
 	limited_exports
 
-	gorilla_primary_race
-	primary_trait_apes_together_strong
-	primary_trait_blessing_of_kongs
-	primary_trait_thunderstomp
+	saurok_primary_race
 
-	primary_religion_banana_worhsip
+	primary_religion_followers_of_kros
 }
 
 set_technology = {
@@ -34,20 +31,27 @@ set_technology = {
 	militia_equipment_tech_1 = 1
 	workshop_tech = 1
 	blacksmith_tech = 1
+	church_tech = 1
 	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
 
 	barracks_tech = 1
 	footman_tech = 1
+	captain_tech = 1
 	footman_weapons_tech_1 = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
 
 	naval_facilities = 1
 	small_frames = 1
 	destroyer_tech_1 = 1
 	naval_transport_1 = 1	
-
+	
 }
 
-recruit_character = TAG_king_abami
+recruit_character = SLC_hassan_the_bloody_scale
 
 set_popularities = {
 	alliance = 0

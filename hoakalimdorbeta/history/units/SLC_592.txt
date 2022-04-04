@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "Slitherblade Ironscale"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Slitherblade Oracle"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Slitherblade Ironscale"
+		location = 13531
+		division_template = "Slitherblade Ironscale"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Slitherblade Ironscale"
+		location = 13531
+		division_template = "Slitherblade Ironscale"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Slitherblade Ironscale"
+		location = 13531
+		division_template = "Slitherblade Ironscale"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Slitherblade Ironscale"
+		location = 13553
+		division_template = "Slitherblade Ironscale"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Slitherblade Oracle"
+		location = 13553
+		division_template = "Slitherblade Oracle"
+		start_experience_factor = 0.2
+	}
+
+}
