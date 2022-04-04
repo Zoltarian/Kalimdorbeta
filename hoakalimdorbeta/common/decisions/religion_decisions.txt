@@ -14422,3 +14422,173 @@ followers_of_zarjira_religion_decisions = {
 		days_remove = 90
 	}
 }
+
+followers_of_kros_religion_decisions = {
+	confidence_of_kros_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_kros
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_kros
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			offence = 0.1
+			defence = -0.1
+			army_core_attack_factor = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	offering_to_the_great_devilsaur_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_kros
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_kros
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			local_resources_factor = -0.05
+			stability_weekly_factor = 0.001
+			war_support_weekly_factor = 0.001
+		}
+
+		days_remove = 90
+	}
+
+	weapons_for_the_true_god_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_kros
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_kros
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_start_efficiency_factor = 0.05
+		}
+
+		days_remove = 90
+	}
+
+	rage_of_kros_decision = {
+		icon = tur_the_constitutional_arrows
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_faith_cost = 100 }
+			check_variable = {
+				faith_points > temp_faith_cost
+			}
+		}
+		custom_cost_text = "religious_decisions_cost_text"
+
+		visible = {
+			has_idea = primary_religion_followers_of_kros
+		}
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			has_idea = primary_religion_followers_of_kros
+			check_variable = {
+				faith_points > 100
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = faith_points
+				value = 100
+			}
+		}
+
+		modifier = {
+			army_speed_factor = 0.05
+			breakthrough_factor = 0.05
+			army_org_factor = -0.05
+		}
+
+		days_remove = 90
+	}
+}

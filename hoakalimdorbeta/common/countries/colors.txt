@@ -1069,10 +1069,6 @@ TAG = {
   color = rgb { 76 106 116 }
   color_ui = rgb { 76 106 116 }
 }
-GFT = {
-  color = rgb { 226 233 23 }
-  color_ui = rgb { 226 233 23 }
-}
 AZJ = {
   color = rgb { 15 138 32 }
   color_ui = rgb { 15 138 32 }
@@ -1482,8 +1478,8 @@ GUT = {
 	color_ui = rgb { 142 186 170 }
 }
 SKB = {
-	color = rgb { 141 116 92 }
-	color_ui = rgb { 141 116 92 }
+	color = rgb { 42 30 35 }
+	color_ui = rgb { 42 30 35 }
 }
 MBT = {
 	color = rgb { 107 151 170 }
@@ -1932,4 +1928,12 @@ THI = {
 UWT = {
 	color = rgb { 172 228 20 }
 	color_ui = rgb { 172 228 20 }
+}
+MUT = {
+	color = rgb { 121 64 42 }
+	color_ui = rgb { 121 64 42 }
+}
+SLC = {
+	color = rgb { 160 230 189 }
+	color_ui = rgb { 160 230 189 }
 }

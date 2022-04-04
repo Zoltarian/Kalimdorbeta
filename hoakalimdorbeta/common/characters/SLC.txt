@@ -1,55 +1,55 @@
 characters={
 
-	TAG_king_abami = {
-		name = TAG_king_abami
+	SLC_hassan_the_bloody_scale = {
+		name = SLC_hassan_the_bloody_scale
 		portraits = {
 			civilian = { 
-				large = "gfx/leaders/TAG/king_abami.dds"
+				large = "gfx/leaders/SLC/hassan_the_bloody_scale.dds"
 			}
 			army = {
-				large = "gfx/leaders/TAG/king_abami.dds"
+				large = "gfx/leaders/SLC/hassan_the_bloody_scale.dds"
 				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
 			}
 		}
 		country_leader = {
 			ideology = alliance_type
-			desc = "POLITICS_KING_ABAMI_DESC"
+			desc = "POLITICS_HASSAN_THE_BLOODY_SCALE_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
 			ideology = horde_type
-			desc = "POLITICS_KING_ABAMI_DESC"
+			desc = "POLITICS_HASSAN_THE_BLOODY_SCALE_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
 			ideology = death_type
-			desc = "POLITICS_KING_ABAMI_DESC"
+			desc = "POLITICS_HASSAN_THE_BLOODY_SCALE_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
 			ideology = fel_type
-			desc = "POLITICS_KING_ABAMI_DESC"
+			desc = "POLITICS_HASSAN_THE_BLOODY_SCALE_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
 			ideology = old_gods_type
-			desc = "POLITICS_KING_ABAMI_DESC"
+			desc = "POLITICS_HASSAN_THE_BLOODY_SCALE_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
 			ideology = titans_type
-			desc = "POLITICS_KING_ABAMI_DESC"
+			desc = "POLITICS_HASSAN_THE_BLOODY_SCALE_DESC"
 			traits = {}
 			id = -1
 		}
 		country_leader = {
 			ideology = neutral_type
-			desc = "POLITICS_KING_ABAMI_DESC"
+			desc = "POLITICS_HASSAN_THE_BLOODY_SCALE_DESC"
 			traits = {}
 			id = -1
 		}

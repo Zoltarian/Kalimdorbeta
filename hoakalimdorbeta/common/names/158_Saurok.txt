@@ -4,13 +4,14 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-#default = {
-#	male = {
-#		names = { "Arassaz" "Asayza" "Borokhula" "Omnis" "Hassan" "Hiss'ir" "Karsar" "Massas" "Nessos" "Siltriss" "Vassz" "Vaszash" "Sithiss" }
-#		surnames = { "Waterblade" "Wavebringer" "Moss-Scaled" "The Scale" "The Diseased" "One-Eye" "The Cold-Blooded" "Fangcaller" "Split-Tongue" }
-#		callsigns = { }
-#	}
-#
-#	surnames = { }
-#	callsigns = { }
-#}
+SLC = {
+	male = {
+		names = { 
+		"Akaridal" "Akolik" "Arassaz" "Asayza" "Borokhula" "Fangterror" "Gashasz" "Gekkan" "Gokkar" "Hackiss" "Hassan" "Healiss" "Hiss'ir" "Karsar" "Massas" "Nessos" "Noshi" "Nysis" "S'thoc" "Salyis" "Sarashas" "Sarnak" "Sarrisz" "Siakann" 
+		"Siltriss" "Sithiss" "Slovan" "Ssylis" "Tankiss" "Tomma" "Vassz" "Vaszash" "Veskan" "Visz" "Volshas"
+		}
+		surnames = { "Waterblade" "Wavebringer" "Moss-Scaled" "The Scale" "The Diseased" "One-Eye" "The Cold-Blooded" "Fangcaller" "Split-Tongue" "Forked-Tongue" "Grinlock" "Leechfingers" "Many-Fangs" "The Cursed" "Fangcaller" }
+		callsigns = { }
+	}
+
+}
