@@ -2,22 +2,15 @@
 state={
 	id=79
 	name="STATE_79"
-	resources={
-		ores=18.000
-		mana=106.000
-		mounts=18.000
-	}
 
 	history={
-		
+		owner = FAR
+		add_core_of = FAR		
 		victory_points = {
 			9436 30 
 		}
 		buildings = {
-			infrastructure = 4
-			arms_factory = 4
-			industrial_complex = 4
-			air_base = 8
+			infrastructure = 1
 
 		}
 		
@@ -27,7 +20,7 @@ state={
 	provinces={
 		9409 9413 9416 9423 9427 9429 9436 
 	}
-	manpower=79000
+	manpower=25
 	local_supplies=0.0
-	state_category=building_slots_10
+	state_category=building_slots_0
 }
