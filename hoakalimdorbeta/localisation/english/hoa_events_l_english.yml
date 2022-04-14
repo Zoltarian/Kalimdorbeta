@@ -466,3 +466,16 @@ stormwind_SendEmissaries.7.option.1:0 ""
  frostwolf_fate.4.option.2brc:0 "Gul'dan has gone behind our back for the last time. We must end him."
  frostwolf_fate.4.option.1thc:0 "We remain loyal to Gul'dan, for now..."
  frostwolf_fate.4.option.2thc:0 "Chaos beckons! Cleave the Horde in twain!"
+##############################
+# war creation events
+##############################
+war_creation.1.t:0 "Ai only"
+war_creation.1.d:0 "AI event to get claims on neighbours"
+war_creation.1.a:0 "Gain Claim"
+war_creation.2.t:0 "[From.GetNameDef] claims our territory!"
+war_creation.2.d:0 "[From.GetNameDef] has claimed one of our states as their own, they are likely preparing for war to take it from us."
+war_creation.2.a:0 "Prepare our defenses!"
+war_creation.2.a.tt:0 "[From.GetName] receives a claim on one of our states"
+war_creation.3.t:0 "AI gains claim from border disputes"
+war_creation.3.d:0 "After the target country received an event this country has now gained a claim on them"
+war_creation.3.a:0 "Claim gained on random neighbouring state"

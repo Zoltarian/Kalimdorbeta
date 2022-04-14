@@ -403,13 +403,37 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_high_elf_support_tree_bg"
+		name = "GFX_high_elf_support_techtree_bg"
 		textureFile = "gfx/interface/techtree/high_elf_support_techtree_bg.dds"
 		alwaystransparent = yes
 	}
 
 	spriteType = {
+		name = "GFX_gnoll_administration_techtree_bg"
+		textureFile = "gfx/interface/techtree/gnoll_infantry_techtree_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
 		name = "GFX_gnoll_infantry_tree_bg"
+		textureFile = "gfx/interface/techtree/gnoll_infantry_techtree_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_gnoll_cavalry_techtree_bg"
+		textureFile = "gfx/interface/techtree/gnoll_infantry_techtree_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_gnoll_siege_weapons_techtree_bg"
+		textureFile = "gfx/interface/techtree/gnoll_infantry_techtree_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_gnoll_support_tree_bg"
 		textureFile = "gfx/interface/techtree/gnoll_infantry_techtree_bg.dds"
 		alwaystransparent = yes
 	}
