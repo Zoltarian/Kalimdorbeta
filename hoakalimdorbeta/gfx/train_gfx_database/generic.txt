@@ -158,7 +158,7 @@ wagon_data = {
 }
 
 default = {
-	train_equipment_1 = {
+	caravan_equipment_1 = {
 
 		wagon_0 = train_locomotive_equipment_1_entity
 		wagon_1 = train_coal_equipment_1_entity
@@ -174,7 +174,7 @@ default = {
 		}
 	}
 	
-	train_equipment_2 = {
+	caravan_equipment_2 = {
 
 		wagon_0 = train_locomotive_1_equipment_2_entity
 		wagon_1 = train_locomotive_2_equipment_2_entity
@@ -190,7 +190,7 @@ default = {
 		}
 	}
 	
-	train_equipment_3 = {
+	caravan_equipment_3 = {
 
 		wagon_0 = train_locomotive_equipment_3_entity
 		wagon_1 = train_coal_equipment_3_entity

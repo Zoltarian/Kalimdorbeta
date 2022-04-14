@@ -53,7 +53,7 @@ country_event = {
 					set_nationality = BRC
 				}
 				every_owned_state = {
-					
+					add_core_of = BRC
 				}
 			}
 			annex_country = { target = BTG transfer_troops = yes }
@@ -114,7 +114,7 @@ country_event = {
 		transfer_state = 380
 
 		380 = {
-			
+			add_core_of = BRC
 			remove_core_of = TSC
 		}
 	}
