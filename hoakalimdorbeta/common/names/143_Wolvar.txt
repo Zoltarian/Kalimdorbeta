@@ -4,17 +4,42 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-#default = {
-#	male = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	female = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	surnames = { }
-#	callsigns = { }
-#}
+BLP = {
+	male = {
+		names = { "Ajark" "Dajik" "Gekgek" "Goregek" "Grakjek" "Harkek" "Jakjek" "Kanneg" "Kekek" "Loguhn" "Moky" "Partak" "Rakat "Rakjak "Rarkag" "Rejek" "Zartson" "Vekjik" "Tanak" "Tartek" "Vekgar" "Wolfoid" "Zepik" }
+		surnames = { "Blackfur" "Blackpaw" "Bloodpaw" "Brownfur" "Ragepaw" "The Swift" "Tornfur" }
+		callsigns = { }
+	}
+}
+
+FHT = {
+	male = {
+		names = { "Ajark" "Dajik" "Gekgek" "Goregek" "Grakjek" "Harkek" "Jakjek" "Kanneg" "Kekek" "Loguhn" "Moky" "Partak" "Rakat "Rakjak "Rarkag" "Rejek" "Zartson" "Vekjik" "Tanak" "Tartek" "Vekgar" "Wolfoid" "Zepik" }
+		surnames = { "Blackfur" "Blackpaw" "Bloodpaw" "Brownfur" "Ragepaw" "The Swift" "Tornfur" }
+		callsigns = { }
+	}
+}
+
+HLT = {
+	male = {
+		names = { "Ajark" "Dajik" "Gekgek" "Goregek" "Grakjek" "Harkek" "Jakjek" "Kanneg" "Kekek" "Loguhn" "Moky" "Partak" "Rakat "Rakjak "Rarkag" "Rejek" "Zartson" "Vekjik" "Tanak" "Tartek" "Vekgar" "Wolfoid" "Zepik" }
+		surnames = { "Blackfur" "Blackpaw" "Bloodpaw" "Brownfur" "Ragepaw" "The Swift" "Tornfur" }
+		callsigns = { }
+	}
+}
+
+RGC = {
+	male = {
+		names = { "Ajark" "Dajik" "Gekgek" "Goregek" "Grakjek" "Harkek" "Jakjek" "Kanneg" "Kekek" "Loguhn" "Moky" "Partak" "Rakat "Rakjak "Rarkag" "Rejek" "Zartson" "Vekjik" "Tanak" "Tartek" "Vekgar" "Wolfoid" "Zepik" }
+		surnames = { "Blackfur" "Blackpaw" "Bloodpaw" "Brownfur" "Ragepaw" "The Swift" "Tornfur" }
+		callsigns = { }
+	}
+}
+
+SWT = {
+	male = {
+		names = { "Ajark" "Dajik" "Gekgek" "Goregek" "Grakjek" "Harkek" "Jakjek" "Kanneg" "Kekek" "Loguhn" "Moky" "Partak" "Rakat "Rakjak "Rarkag" "Rejek" "Zartson" "Vekjik" "Tanak" "Tartek" "Vekgar" "Wolfoid" "Zepik" }
+		surnames = { "Blackfur" "Blackpaw" "Bloodpaw" "Brownfur" "Ragepaw" "The Swift" "Tornfur" }
+		callsigns = { }
+	}
+}

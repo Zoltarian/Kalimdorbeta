@@ -4,17 +4,11 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-idf = {
-	male = {
-		names = { "Deja" "Erozi" "Etern" "Epoch" "Occul" "Arazm" "And"}
-		surnames = { "ormu" }
-		callsigns = { }
+IDF = {
+	male = { #there is no female models for dragons and as such both names can be sued under male
+		names = { "Arazm" "Erozi" "Etern" "Grakkar" "Occul" "Arazm" "And" "Dal" "Ind" "Zid" "Zeph" "Alurd" "Chrom" }
+		surnames = { "Ormu" "Ormi" "Arond" "Ari" "Us"}
+		callsigns = { "Chrono-Lord" }
 	}
-	female = {
-		names = { "Dal" "Ind" "Zid" "Zeph" "Alurd" "Chrom" }
-		surnames = { "ormi" }
-		callsigns = {  }
-	}
-	surnames = {  }
-	callsigns = { "Chrono-Lord" }
+
 }

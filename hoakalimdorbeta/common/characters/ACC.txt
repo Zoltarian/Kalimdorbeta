@@ -3,8 +3,12 @@ characters={
 	ACC_archavon_the_stone_watcher = {
 		name = ACC_archavon_the_stone_watcher
 		portraits = {
-			civilian = { # no portrait
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+			civilian = { 
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
 			}
 		}
 		country_leader = {

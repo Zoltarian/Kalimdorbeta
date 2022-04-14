@@ -4,17 +4,28 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-WSH = {
+GRA = {
 	male = {
-		names = { "Snout" "Candle" "Wax" "Tunnel" "Kindle" "Snazzle" "Kipp" }
-		surnames = { "Tooth" "Whisker" "Wick" "Shovel" "Light" }
+		names = { 
+		"Dhink" "Dug" "Feeboz" "Kipp" "Kindle" "Ginnlesnik" "Grizlak" "Hamm" "Hucklemuck" "Jackie" "Krix" "Kubb" "Luglar" "Luminore" "Mire" "Narg" "Nazrim" "Ruklar" "Skullhat" "Sleeby" "Snaggle" "Snivvle" "Snorgle" "Sturmi" "Vex" "Yip" "Znort"
+		"Wick" 
+		}
+		surnames = { 
+		"Candlebeard" "Fatcandle" "Filthwhisker" "Flamelicker" "Flickerwick" "Goldsniffer" "Goldtooth" "Mudwhisker" "Onetooth" "Rat-Tail" "Steelsnout" "Stinkboot" "Tattertail" "The Candlekeeper" "Togwaggle" "Whompwhisker" 
+	 	}
 		callsigns = { }
 	}
-	female = {
-		names = { }
-		surnames = { }
-		callsigns = {  }
+}
+
+WSH = {
+	male = {
+		names = { 
+		"Dhink" "Dug" "Feeboz" "Kipp" "Kindle" "Ginnlesnik" "Grizlak" "Hamm" "Hucklemuck" "Jackie" "Krix" "Kubb" "Luglar" "Luminore" "Mire" "Narg" "Nazrim" "Ruklar" "Skullhat" "Sleeby" "Snaggle" "Snivvle" "Snorgle" "Sturmi" "Vex" "Yip" "Znort"
+		"Wick" 
+		}
+		surnames = { 
+		"Candlebeard" "Fatcandle" "Filthwhisker" "Flamelicker" "Flickerwick" "Goldsniffer" "Goldtooth" "Mudwhisker" "Onetooth" "Rat-Tail" "Steelsnout" "Stinkboot" "Tattertail" "The Candlekeeper" "Togwaggle" "Whompwhisker" 
+	 	}
+		callsigns = { }
 	}
-	surnames = { }
-	callsigns = { }
 }
