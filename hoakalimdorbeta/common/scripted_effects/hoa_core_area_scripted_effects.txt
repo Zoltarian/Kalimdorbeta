@@ -324,6 +324,36 @@ core_azshara = {
   }
 }
 
+#Core Stonetalon Mountains
+core_stonetalon = {
+  custom_effect_tooltip = core_stonetalon_tt
+  hidden_effect = {
+    71 = { add_core_of = ROOT }
+    1316 = { add_core_of = ROOT }
+    1317 = { add_core_of = ROOT }
+    1318 = { add_core_of = ROOT }
+    1319 = { add_core_of = ROOT }
+    1320 = { add_core_of = ROOT }
+    1321 = { add_core_of = ROOT }
+    1322 = { add_core_of = ROOT }
+    1323 = { add_core_of = ROOT }
+    1324 = { add_core_of = ROOT }
+    1325 = { add_core_of = ROOT }
+    1326 = { add_core_of = ROOT }
+    1327 = { add_core_of = ROOT }
+    1328 = { add_core_of = ROOT }
+    1329 = { add_core_of = ROOT }
+    1330 = { add_core_of = ROOT }
+    1331 = { add_core_of = ROOT }
+    1332 = { add_core_of = ROOT }
+    1333 = { add_core_of = ROOT }
+    1992 = { add_core_of = ROOT }
+    1993 = { add_core_of = ROOT }
+    1994 = { add_core_of = ROOT }
+    1995 = { add_core_of = ROOT }
+  }
+}
+
 #Core Mulgore
 core_mulgore = {
   custom_effect_tooltip = core_mulgore_tt
@@ -345,6 +375,7 @@ core_mulgore = {
     1038 = { add_core_of = ROOT }
     1039 = { add_core_of = ROOT }
     1040 = { add_core_of = ROOT }
+    1041 = { add_core_of = ROOT }
     1042 = { add_core_of = ROOT }
     1043 = { add_core_of = ROOT }
     1044 = { add_core_of = ROOT }
@@ -414,6 +445,15 @@ core_tanaris = {
     944 = { add_core_of = ROOT }
     945 = { add_core_of = ROOT }
     2127 = { add_core_of = ROOT }
+  }
+}
+
+#Core Zul'Farrak
+core_zul_farrak = {
+  custom_effect_tooltip = core_zul_farrak_tt
+  hidden_effect = {
+    541 = { add_core_of = ROOT }
+    724 = { add_core_of = ROOT }
   }
 }
 

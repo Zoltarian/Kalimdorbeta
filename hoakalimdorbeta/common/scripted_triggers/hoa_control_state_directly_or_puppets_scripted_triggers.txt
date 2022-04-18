@@ -161,6 +161,37 @@ control_azshara_directly_or_puppets = {
   }
 }
 
+#Stonetalon Mountains
+control_stonetalon_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_stonetalon_directly_or_puppets_tt
+
+    71 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1316 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1317 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1318 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1319 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1320 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1321 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1322 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1323 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1324 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1325 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1326 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1327 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1328 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1329 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1330 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1331 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1332 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1333 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1992 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1993 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1994 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1995 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
 #Desolace
 control_desolace_directly_or_puppets = {
   custom_trigger_tooltip = {
@@ -242,6 +273,7 @@ control_mulgore_directly_or_puppets = {
     1038 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     1039 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     1040 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1041 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     1042 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     1043 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     1044 = { owned_and_controlled_by_ROOT_or_puppets = yes }
@@ -345,6 +377,17 @@ control_tanaris_directly_or_puppets = {
     944 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     945 = { owned_and_controlled_by_ROOT_or_puppets = yes }
     2127 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+
+  }
+}
+
+#zul farak
+control_zul_farrak_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_zul_farrak_directly_or_puppets_tt
+    541 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    724 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+
   }
 }
 

@@ -1,7 +1,25 @@
 ideas = {
 
-	political_advisor = {
+	country = {
 
+		CEN_protectors_of_the_forest = {
+
+		picture = generic_religion_druidism
+
+			allowed = {
+				original_tag = CEN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {	
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+			}
+
+		}
 	}
 	
 }

@@ -2197,6 +2197,43 @@ form_hive_gorishi_category = {
 	}
 }
 
+form_blazerunners_domain_category = {
+	form_blazerunners_domain = {
+		icon = generic_form_nation
+
+		allowed = {
+			tag = UFE
+		}
+
+		available = {
+			is_subject = no
+
+			control_ungoro_directly_or_puppets = yes
+		}
+
+		visible = {
+			tag = UFE
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = UFE_BLAZERUNNERS_DOMAIN
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_ungoro = yes
+			core_ungoro = yes
+
+			set_cosmetic_tag = UFE_BLAZERUNNERS_DOMAIN
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
 form_jadefire_kingdom_category = {
 	form_jadefire_kingdom = {
 		icon = generic_form_nation
@@ -2277,6 +2314,444 @@ form_kingdom_of_satyrnaar_category = {
 
 		ai_will_do = {
 			factor = 200
+		}
+	}
+}
+
+form_kingdom_of_azshara_category = {
+	form_kingdom_of_azshara = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = HDC
+				original_tag = LEG
+			}
+		}
+
+		available = {
+			is_subject = no
+
+			control_azshara_directly_or_puppets = yes
+		}
+
+		visible = {
+			OR = {
+				original_tag = HDC
+				original_tag = LEG
+			}
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = KINGDOM_OF_AZSHARA
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_azshara = yes
+			core_azshara = yes
+
+			set_cosmetic_tag = KINGDOM_OF_AZSHARA
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_bloodfury_matriarchy_category = {
+	form_bloodfury_matriarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = BDT
+		}
+
+		available = {
+			is_subject = no
+
+			control_stonetalon_directly_or_puppets = yes
+		}
+
+		visible = {
+			original_tag = BDT
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = BDT_BLOODFURY_MATRIARCHY
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_stonetalon = yes
+			core_stonetalon = yes
+
+			set_cosmetic_tag = BDT_BLOODFURY_MATRIARCHY
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_windfury_matriarchy_category = {
+	form_windfury_matriarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = WFT
+		}
+
+		available = {
+			is_subject = no
+
+			control_mulgore_directly_or_puppets = yes
+		}
+
+		visible = {
+			original_tag = WFT
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = WFT_WINDFURY_MATRIARCHY
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_mulgore = yes
+			core_mulgore = yes
+
+			set_cosmetic_tag = WFT_WINDFURY_MATRIARCHY
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_woodpaw_clan_category = {
+	form_woodpaw_clan = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = WPT
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 1160
+			controls_state = 1161
+			controls_state = 1162
+			controls_state = 1163
+			controls_state = 1164
+			controls_state = 1165
+			controls_state = 1166
+			controls_state = 1169
+			controls_state = 1168
+			controls_state = 1170
+			controls_state = 1171
+			controls_state = 1172
+			controls_state = 1173
+			controls_state = 1174
+			controls_state = 1509
+
+		}
+
+		visible = {
+			original_tag = WPT
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = WPT_WOODPAW_CLAN
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = WPT_WOODPAW_CLAN
+
+			custom_effect_tooltip = form_country_woodpaw_clan_coring_states_tt
+			hidden_effect = {
+				1160 = { add_core_of = ROOT }
+				1161 = { add_core_of = ROOT }
+				1162 = { add_core_of = ROOT }
+				1163 = { add_core_of = ROOT }
+				1164 = { add_core_of = ROOT }
+				1165 = { add_core_of = ROOT }
+				1166 = { add_core_of = ROOT }
+				1169 = { add_core_of = ROOT }
+				1168 = { add_core_of = ROOT }
+				1170 = { add_core_of = ROOT }
+				1171 = { add_core_of = ROOT }
+				1172 = { add_core_of = ROOT }
+				1173 = { add_core_of = ROOT }
+				1174 = { add_core_of = ROOT }
+				1509 = { add_core_of = ROOT }
+
+			}
+		}
+	}
+}
+
+form_hive_zukkash_category = {
+	form_hive_zukkash = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = ZUK
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 1160
+			controls_state = 1161
+			controls_state = 1162
+			controls_state = 1163
+			controls_state = 1164
+			controls_state = 1165
+			controls_state = 1166
+			controls_state = 1169
+			controls_state = 1168
+			controls_state = 1170
+			controls_state = 1171
+			controls_state = 1172
+			controls_state = 1173
+			controls_state = 1174
+			controls_state = 1509
+
+		}
+
+		visible = {
+			original_tag = ZUK
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = ZUK_HIVE_ZUKKASH
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ZUK_HIVE_ZUKKASH
+
+			custom_effect_tooltip = form_country_hive_zukkash_coring_states_tt
+			hidden_effect = {
+				1160 = { add_core_of = ROOT }
+				1161 = { add_core_of = ROOT }
+				1162 = { add_core_of = ROOT }
+				1163 = { add_core_of = ROOT }
+				1164 = { add_core_of = ROOT }
+				1165 = { add_core_of = ROOT }
+				1166 = { add_core_of = ROOT }
+				1169 = { add_core_of = ROOT }
+				1168 = { add_core_of = ROOT }
+				1170 = { add_core_of = ROOT }
+				1171 = { add_core_of = ROOT }
+				1172 = { add_core_of = ROOT }
+				1173 = { add_core_of = ROOT }
+				1174 = { add_core_of = ROOT }
+				1509 = { add_core_of = ROOT }
+
+			}
+		}
+	}
+}
+
+form_northspring_matriarchy_category = {
+	form_northspring_matriarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = NST
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 1150
+			controls_state = 1151
+			controls_state = 1152
+			controls_state = 1153
+			controls_state = 1154
+			controls_state = 1506
+			controls_state = 2125
+
+		}
+
+		visible = {
+			original_tag = NST
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = NST_NORTHSPRING_MATRIARCHY
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = NST_NORTHSPRING_MATRIARCHY
+
+			custom_effect_tooltip = form_country_northspring_matriarchy_coring_states_tt
+			hidden_effect = {
+				1150 = { add_core_of = ROOT }
+				1151 = { add_core_of = ROOT }
+				1152 = { add_core_of = ROOT }
+				1153 = { add_core_of = ROOT }
+				1154 = { add_core_of = ROOT }
+				1506 = { add_core_of = ROOT }
+				2125 = { add_core_of = ROOT }
+
+			}
+		}
+	}
+}
+
+form_farraki_empire_category = {
+	form_farraki_empire = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FAR
+		}
+
+		available = {
+			is_subject = no
+
+			control_tanaris_directly_or_puppets = yes
+			control_zul_farrak_directly_or_puppets = yes
+			controls_state = 78
+			controls_state = 946
+			controls_state = 947
+			controls_state = 948
+			controls_state = 959
+			controls_state = 1504
+		}
+
+		visible = {
+			original_tag = FAR
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = FAR_FARRAKI_EMPIRE
+				}
+			}
+		}
+
+		complete_effect = {
+			annex_tanaris = yes
+			annex_zul_farrak = yes
+			core_tanaris = yes
+			core_zul_farrak = yes
+			78 = { add_core_of = ROOT }
+			946 = { add_core_of = ROOT }
+			947 = { add_core_of = ROOT }
+			948 = { add_core_of = ROOT }
+			959 = { add_core_of = ROOT }
+			1504 = { add_core_of = ROOT }
+
+			set_cosmetic_tag = FAR_FARRAKI_EMPIRE
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_hive_rustmaul_category = {
+	form_hive_rustmaul = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = RMH
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 78
+			controls_state = 946
+			controls_state = 947
+			controls_state = 948
+			controls_state = 959
+			controls_state = 1504
+
+		}
+
+		visible = {
+			original_tag = RMH
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = RMH_HIVE_RUSTMAUL
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = RMH_HIVE_RUSTMAUL
+
+			custom_effect_tooltip = form_country_hive_rustmaul_coring_states_tt
+			hidden_effect = {
+				78 = { add_core_of = ROOT }
+				946 = { add_core_of = ROOT }
+				947 = { add_core_of = ROOT }
+				948 = { add_core_of = ROOT }
+				959 = { add_core_of = ROOT }
+				1504 = { add_core_of = ROOT }
+
+			}
+		}
+	}
+}
+
+form_hive_fieldgiant_category = {
+	form_hive_fieldgiant = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FGH
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 962
+			controls_state = 963
+			controls_state = 964
+			controls_state = 965
+			controls_state = 966
+			controls_state = 967
+			controls_state = 972
+			controls_state = 973
+			controls_state = 974
+
+		}
+
+		visible = {
+			original_tag = FGH
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = FGH_HIVE_FIELDGIANT
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = FGH_HIVE_FIELDGIANT
+
+			custom_effect_tooltip = form_country_hive_rustmaul_coring_states_tt
+			hidden_effect = {
+				962 = { add_core_of = ROOT }
+				963 = { add_core_of = ROOT }
+				964 = { add_core_of = ROOT }
+				965 = { add_core_of = ROOT }
+				966 = { add_core_of = ROOT }
+				967 = { add_core_of = ROOT }
+				972 = { add_core_of = ROOT }
+				973 = { add_core_of = ROOT }
+				974 = { add_core_of = ROOT }
+
+			}
 		}
 	}
 }

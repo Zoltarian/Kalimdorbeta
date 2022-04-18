@@ -148,6 +148,36 @@ annex_azshara = {
   }
 }
 
+#Stonetalon Mountains
+annex_stonetalon = {
+  custom_effect_tooltip = annex_stonetalon_tt
+  hidden_effect = {
+    set_state_owner = 71
+    set_state_owner = 1316
+    set_state_owner = 1317
+    set_state_owner = 1318
+    set_state_owner = 1319
+    set_state_owner = 1320
+    set_state_owner = 1321
+    set_state_owner = 1322
+    set_state_owner = 1323
+    set_state_owner = 1324
+    set_state_owner = 1325
+    set_state_owner = 1326
+    set_state_owner = 1327
+    set_state_owner = 1328
+    set_state_owner = 1329
+    set_state_owner = 1330
+    set_state_owner = 1331
+    set_state_owner = 1332
+    set_state_owner = 1333
+    set_state_owner = 1992
+    set_state_owner = 1993
+    set_state_owner = 1994
+    set_state_owner = 1995
+  }
+}
+
 #Desolace
 annex_desolace = {
   custom_effect_tooltip = annex_desolace_tt
@@ -229,6 +259,7 @@ annex_mulgore = {
     set_state_owner = 1038
     set_state_owner = 1039
     set_state_owner = 1040
+    set_state_owner = 1041
     set_state_owner = 1042
     set_state_owner = 1043
     set_state_owner = 1044
@@ -332,6 +363,15 @@ annex_tanaris = {
     set_state_owner = 944
     set_state_owner = 945
     set_state_owner = 2127
+  }
+}
+
+#Zul Farrak
+annex_tanaris = {
+  custom_effect_tooltip = annex_zul_farrak_tt
+  hidden_effect = {
+    set_state_owner = 541
+    set_state_owner = 724
   }
 }
 

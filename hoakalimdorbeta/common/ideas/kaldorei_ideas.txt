@@ -1,7 +1,26 @@
 ideas = {
 
-	political_advisor = {
+	country = {
 
+		KAL_the_sentinels = {
+
+			picture = generic_religion_sisterhood_of_elune
+
+			allowed = {
+				original_tag = ONY
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				supply_consumption_factor = -0.1
+				training_time_factor = 0.5
+			}
+
+		}
 	}
 	
 }

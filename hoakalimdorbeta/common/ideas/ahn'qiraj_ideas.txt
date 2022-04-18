@@ -1,6 +1,43 @@
 ideas = {
 
-	political_advisor = {
+	country = {
+
+		AHQ_hive_vekniss = {
+
+			picture = generic_race_silithid
+
+			allowed = {
+				original_tag = AHQ
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				monthly_population = 0.5
+				training_time_factor = -0.25
+			}
+
+		}
+
+		AHQ_hive_zora = {
+
+			picture = generic_race_silithid
+
+			allowed = {
+				original_tag = AHQ
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				air_cas_present_factor = 0.2
+			}
+
+		}
 
 	}
 	
