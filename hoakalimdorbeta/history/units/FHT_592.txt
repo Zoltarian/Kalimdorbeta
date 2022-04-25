@@ -1,10 +1,69 @@
 ﻿division_template = {
-	name = "placeholder division"
+	name = "Saltspittle Warrior"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saltspittle Warrior"
+		location = 3738
+		division_template = "Saltspittle Warrior"
+		start_experience_factor = 0.1
+	}
+
+
+
+
+}

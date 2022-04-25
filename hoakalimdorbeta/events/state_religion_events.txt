@@ -25,6 +25,28 @@ country_event = { #FIRST WAR
 ###################################################################################################################################################################################################
 
 	##########################
+	#Grizzly Hills
+	##########################
+		1673 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1678 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		1679 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+
+	##########################
 	#Tol'barad
 	##########################
 		13 = {
@@ -2174,6 +2196,88 @@ country_event = { #FIRST WAR
 ###################################################################################################################################################################################################
 #ARCANE STUDIES 12
 ###################################################################################################################################################################################################
+
+	##########################
+	#Crystalsong Forest
+	##########################
+		53 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1627 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1628 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1629 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1630 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1631 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1632 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1633 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1634 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1635 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1980 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1981 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
+		1982 = {
+			set_variable = {
+				var = religion
+				value = 12
+			}
+		}
 
 	##########################
 	#Frostfire Ridge
@@ -7914,6 +8018,12 @@ country_event = { #FIRST WAR
 				value = 41
 			}
 		}
+		1719 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
 		1721 = {
 			set_variable = {
 				var = religion
@@ -7963,6 +8073,24 @@ country_event = { #FIRST WAR
 			}
 		}
 		1732 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1736 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1737 = {
+			set_variable = {
+				var = religion
+				value = 41
+			}
+		}
+		1738 = {
 			set_variable = {
 				var = religion
 				value = 41
@@ -8414,10 +8542,6 @@ country_event = { #FIRST WAR
 		}
 
 	##########################
-	#Twilight Highlands
-	##########################
-
-	##########################
 	#Elwynn
 	##########################
 	311 = {
@@ -8470,6 +8594,12 @@ country_event = { #FIRST WAR
 			value = 44
 		}
 	}
+	1663 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
 	1664 = {
 		set_variable = {
 			var = religion
@@ -8500,6 +8630,18 @@ country_event = { #FIRST WAR
 	##########################
 	#Stormpeaks
 	##########################
+	51 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1717 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
 	1718 = {
 		set_variable = {
 			var = religion
@@ -8536,6 +8678,178 @@ country_event = { #FIRST WAR
 	}
 
 	##########################
+	#Sholazar Bassin
+	##########################
+	1285 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1286 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1287 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1288 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1760 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1761 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1762 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1763 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1764 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1765 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1766 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1767 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1768 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1769 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1770 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1771 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1772 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1773 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1774 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1775 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1776 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1777 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1778 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1779 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1780 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1781 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1782 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+	1783 = {
+		set_variable = {
+			var = religion
+			value = 44
+		}
+	}
+
+	##########################
 	#Dragonblight
 	##########################
 	1223 = {
@@ -8562,31 +8876,7 @@ country_event = { #FIRST WAR
 			value = 44
 		}
 	}
-	1241 = {
-		set_variable = {
-			var = religion
-			value = 44
-		}
-	}
-	1242 = {
-		set_variable = {
-			var = religion
-			value = 44
-		}
-	}
-	1243 = {
-		set_variable = {
-			var = religion
-			value = 44
-		}
-	}
 	1244 = {
-		set_variable = {
-			var = religion
-			value = 44
-		}
-	}
-	1245 = {
 		set_variable = {
 			var = religion
 			value = 44
@@ -9776,6 +10066,32 @@ country_event = { #FIRST WAR
 ###################################################################################################################################################################################################
 
 	##########################
+	#Dragonblight
+	##########################
+	1252 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+	1253 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+
+	##########################
+	#Grizzly Hills
+	##########################
+	1835 = {
+		set_variable = {
+			var = religion
+			value = 48
+		}
+	}
+
+	##########################
 	#Deepholm
 	##########################
 		1786 = {
@@ -9914,57 +10230,7 @@ country_event = { #FIRST WAR
 			}
 		}
 
-	##########################
-	#Borean Tundra
-	##########################
-		1258 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
-		1274 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
-		1276 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
-		1277 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
-		1278 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
-		1281 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
-		1283 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
-		1284 = {
-			set_variable = {
-				var = religion
-				value = 51
-			}
-		}
+
 
 	##########################
 	#Thousand Needles
@@ -11308,6 +11574,30 @@ country_event = { #FIRST WAR
 	##########################
 	#Borean Toundra
 	##########################
+		1241 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1242 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1243 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1245 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
 		1256 = {
 			set_variable = {
 				var = religion
@@ -11345,6 +11635,61 @@ country_event = { #FIRST WAR
 			}
 		}
 		1280 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1626 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+
+		1258 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1274 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1276 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1277 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1278 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1281 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1283 = {
+			set_variable = {
+				var = religion
+				value = 69
+			}
+		}
+		1284 = {
 			set_variable = {
 				var = religion
 				value = 69
@@ -11416,6 +11761,16 @@ country_event = { #FIRST WAR
 ###################################################################################################################################################################################################
 #IRRELIGIOUS 76
 ###################################################################################################################################################################################################
+
+	##########################
+	#Grizzly Hills
+	##########################
+		1685 = {
+			set_variable = {
+				var = religion
+				value = 76
+			}
+		}
 
 	##########################
 	#Kezan
@@ -11501,6 +11856,12 @@ country_event = { #FIRST WAR
 		2133 = {
 			set_variable = {
 				var = religion
+				value = 76
+			}
+		}
+		2134 = {
+			set_variable = {
+				var = race
 				value = 76
 			}
 		}

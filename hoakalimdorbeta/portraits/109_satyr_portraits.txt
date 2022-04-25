@@ -12,6 +12,13 @@ AXS = {
 			"gfx/leaders/AXS/generic_2.dds"
 		}
 	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/AXS/generic_1.dds"
+			"gfx/leaders/AXS/generic_2.dds"
+		}
+	}
 }
 
 BHS = {
@@ -24,6 +31,14 @@ BHS = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/BHS/generic_1.dds"
+			"gfx/leaders/BHS/generic_2.dds"
+			"gfx/leaders/BHS/generic_3.dds"
+		}
+	}
+	
+	operative = {
 		male = {
 			"gfx/leaders/BHS/generic_1.dds"
 			"gfx/leaders/BHS/generic_2.dds"
@@ -44,6 +59,13 @@ DTR = {
 			"gfx/leaders/DTR/lord_dethryll.dds"
 		}
 	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/DTR/lord_dethryll.dds" 
+			# Need More Images
+		}
+	}
 }
 
 FMC = {
@@ -62,6 +84,14 @@ FMC = {
 			"gfx/leaders/FMC/generic_3.dds"
 		}
 	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/FMC/generic_1.dds"
+			"gfx/leaders/FMC/generic_2.dds"
+			"gfx/leaders/FMC/generic_3.dds"
+		}
+	}
 }
 
 HDC = {
@@ -74,6 +104,13 @@ HDC = {
 	navy = {
 		male = {
 			"gfx/leaders/HDC/generic_1.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/HDC/generic_1.dds"
+			# Need More Images
 		}
 	}
 }
@@ -98,6 +135,16 @@ HFS = {
 			"gfx/leaders/HFS/generic_5.dds"
 		}
 	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/HFS/generic_1.dds"
+			"gfx/leaders/HFS/generic_2.dds"
+			"gfx/leaders/HFS/generic_3.dds"
+			"gfx/leaders/HFS/generic_4.dds"
+			"gfx/leaders/HFS/generic_5.dds"
+		}
+	}
 }
 
 JFT = {
@@ -109,6 +156,13 @@ JFT = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/JFT/generic_1.dds"
+			"gfx/leaders/JFT/generic_2.dds"
+		}
+	}
+	
+	operative = {
 		male = {
 			"gfx/leaders/JFT/generic_1.dds"
 			"gfx/leaders/JFT/generic_2.dds"
@@ -130,6 +184,13 @@ LEG = {
 			"gfx/leaders/LEG/generic_2.dds"
 		}
 	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/LEG/generic_1.dds"
+			"gfx/leaders/LEG/generic_2.dds"
+		}
+	}
 }
 
 NZS = {
@@ -142,6 +203,13 @@ NZS = {
 	navy = {
 		male = {
 			"gfx/leaders/NZS/generic_1.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/LEG/generic_1.dds"
+			# Need More Images
 		}
 	}
 }
@@ -162,6 +230,14 @@ WSS = {
 			"gfx/leaders/WSS/generic_3.dds"
 		}
 	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/WSS/generic_1.dds"
+			"gfx/leaders/WSS/generic_2.dds"
+			"gfx/leaders/WSS/generic_3.dds"
+		}
+	}
 }
 
 XAV = {
@@ -174,6 +250,14 @@ XAV = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/XAV/generic_1.dds"
+			"gfx/leaders/XAV/generic_2.dds"
+			"gfx/leaders/XAV/generic_3.dds"
+		}
+	}
+	
+	operative = {
 		male = {
 			"gfx/leaders/XAV/generic_1.dds"
 			"gfx/leaders/XAV/generic_2.dds"

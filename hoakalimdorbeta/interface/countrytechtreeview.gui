@@ -8135,6 +8135,11 @@ guiTypes = {
 				vertical_alignment = center
 				format = center
 			}
+			
+			positionType = {
+				name = "tech_info_special_description_bottom_margin"
+				position = { x = 0 y = 14 }
+			}
 
 			background = {
 				name = "Background"

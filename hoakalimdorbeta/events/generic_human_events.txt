@@ -52,6 +52,7 @@ country_event = { # our_nation focus
 			}
     }
     random_owned_controlled_state = {
+	limit = {impassable = no}
       add_building_construction = {
 				type = infrastructure
 				level = 1

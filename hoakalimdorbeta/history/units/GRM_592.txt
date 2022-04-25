@@ -98,6 +98,12 @@ units = {
 		division_template = "Grimtotem Breaker"
 		start_experience_factor = 0.2
 	}
+	division = {
+		name = "Grimtotem Breaker"
+		location = 6829
+		division_template = "Grimtotem Breaker"
+		start_experience_factor = 0.2
+	}
 
 	division = {
 		name = "Grimtotem Shaman"
@@ -116,6 +122,13 @@ units = {
 	division = {
 		name = "Grimtotem Kodoriders"
 		location = 9574
+		division_template = "Grimtotem Kodoriders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Grimtotem Kodoriders"
+		location = 9556
 		division_template = "Grimtotem Kodoriders"
 		start_experience_factor = 0.2
 	}
@@ -142,12 +155,6 @@ units = {
 		division_template = "Grimtotem Breaker"
 		start_experience_factor = 0.2
 	}
-	division = {
-		name = "Grimtotem Breaker"
-		location = 11477
-		division_template = "Grimtotem Breaker"
-		start_experience_factor = 0.2
-	}
 
 	division = {
 		name = "Grimtotem Shaman"
@@ -155,13 +162,5 @@ units = {
 		division_template = "Grimtotem Shaman"
 		start_experience_factor = 0.2
 	}
-
-	division = {
-		name = "Grimtotem Kodoriders"
-		location = 11468
-		division_template = "Grimtotem Kodoriders"
-		start_experience_factor = 0.2
-	}
-
 
 }

@@ -2,10 +2,7 @@
 
 oob = "FHT_592"
 
-set_convoys = 10
-
 set_research_slots = 3
-set_technology = {}
 
 add_ideas = {
 	
@@ -17,6 +14,16 @@ add_ideas = {
 	wolvar_primary_race
 
 	primary_religion_shamanism
+}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
 }
 
 recruit_character = FHT_highshaman_rakjak
