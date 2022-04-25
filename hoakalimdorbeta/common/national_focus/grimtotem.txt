@@ -211,6 +211,10 @@ focus_tree = {
 
 		available = {
 			country_exists = RZF
+			
+			GRM = {
+			has_war = no
+			}
 		}
 
 		completion_reward = {
@@ -510,6 +514,12 @@ focus_tree = {
 		x = -1
 		y = 2
 
+		available = {
+			GRM = {
+				controls_state = 953
+			}
+		}
+
 		completion_reward = {
 			add_stability = 0.025
 			953 = {
@@ -544,6 +554,13 @@ focus_tree = {
 		relative_position_id = GRM_grimtotem_nf
 		x = 1
 		y = 2
+
+		available = {
+			GRM = {
+				controls_state = 951
+			}
+		}
+
 
 		completion_reward = {
 			add_stability = 0.025
@@ -784,6 +801,13 @@ focus_tree = {
 		x = 1
 		y = 1
 
+		available = {
+			GRM = {
+				controls_state = 955
+			}
+		}
+
+
 		completion_reward = {
 			air_experience = 25
 			955 = {
@@ -832,7 +856,11 @@ focus_tree = {
 		}
 
 		available = {
+			NOT = { country_exists = GAL }
 			country_exists = RMH
+			GRM = {
+			has_war = no
+			}
 		}
 
 		completion_reward = {
@@ -861,7 +889,11 @@ focus_tree = {
 		}
 
 		available = {
+			NOT = { country_exists = GAL }
 			country_exists = GRA
+			GRM = {
+			has_war = no
+			}
 		}
 
 		completion_reward = {
@@ -890,7 +922,11 @@ focus_tree = {
 		}
 
 		available = {
+			NOT = { country_exists = GAL }
 			country_exists = SCR
+			GRM = {
+			has_war = no
+			}
 		}
 
 		completion_reward = {
@@ -916,6 +952,12 @@ focus_tree = {
 		relative_position_id = GRM_rustmaul_silithids_nf
 		x = 0
 		y = 2
+
+		available = {
+			GRM = {
+				controls_state = 949
+			}
+		}
 
 		completion_reward = {
 			add_stability = 0.1

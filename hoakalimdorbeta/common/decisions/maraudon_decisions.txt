@@ -113,10 +113,11 @@ foreign_politics = {
 
         }
         90 = {
+		set_temp_variable = {Party = MAU.current_party_ideology_group}
           puppet = KOL
           KOL = {
             set_political_party = {
-              ideology = MAU.highest_party_ideology
+              ideology = var:MAU.Party
               popularity = 75
             }
           }

@@ -19,6 +19,8 @@ NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 3 --5
 
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.10 --Nerf defensive bonus, from -0.15
 
+NDefines.NSupply.AVAILABLE_MANPOWER_STATE_SUPPLY = 7.2 -- SUPPLY FROM STATE POPULATION (TEMP) (Default 0.18 from Vanilla - Setting to 1.0 Calculation is 0.01 Supply per 10,000 Pop)
+
 
 
 

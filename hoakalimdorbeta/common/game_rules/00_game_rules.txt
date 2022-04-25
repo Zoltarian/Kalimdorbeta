@@ -6,7 +6,7 @@
 #	name = "TEXT_KEY_FOR_NAME"
 #	required_dlc = "Name of the Required DLC"
 #	desc = "TEXT_KEY_FOR_LONG_DESC"
-#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups
 #	icon = gfx_option_token							# Optional icon
 #	option = {										# Unless other specified, the first option is the default option
 #		name = option_token
@@ -21,51 +21,11 @@
 #	}
 # }
 
- ##  ###     ###  ### #  #  ##  #   # ###  ##  ###  
-#  #  #      #  # #   #  # #  # #   #  #  #  # #  # 
+ ##  ###     ###  ### #  #  ##  #   # ###  ##  ###
+#  #  #      #  # #   #  # #  # #   #  #  #  # #  #
 ####  #      ###  ##  #### ####  # #   #  #  # ###  
-#  #  #      #  # #   #  # #  #  # #   #  #  # #  # 
-#  # ###     ###  ### #  # #  #   #   ###  ##  #  # 
-
-STO_ai_behavior = {
-	name = "STO_AI_BEHAVIOR"
-	group = "RULE_GROUP_AI_BEHAVIOR"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_AI_DESC"
-	}
-
-}
-BRC_ai_behavior = {
-	name = "BRC_AI_BEHAVIOR"
-	group = "RULE_GROUP_AI_BEHAVIOR"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_AI_DESC"
-	}
-	option = {
-		name = "WARCHIEF_BLACKHAND"
-		text = "RULE_OPTION_BLACKHAND"
-		desc = "RULE_OPTION_BLACKHAND_AI_DESC"
-	}
-	option = {
-		name = "WARCHIEF_DOOMHAMMER"
-		text = "RULE_OPTION_DOOMHAMMER"
-		desc = "RULE_OPTION_DOOMHAMMER_AI_DESC"
-	}
-}
-
-IRO_ai_behavior = {
-	name = "IRO_AI_BEHAVIOR"
-	group = "RULE_GROUP_AI_BEHAVIOR"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_AI_DESC"
-	}
-}
+#  #  #      #  # #   #  # #  #  # #   #  #  # #  #
+#  # ###     ###  ### #  # #  #   #   ###  ##  #  #
 
 #############################################
 #GAME RULES
@@ -327,11 +287,11 @@ allow_take_over_faction = {
 	}
 }
 
- ##   ##  #   # ### ###  ###      ##   ##  ### ###  ##  #  #  ## 
-#  # #  # #   # #   #  #  #      #  # #  #  #   #  #  # ## # #   
-#    #  #  # #  ##  ###   #      #### #     #   #  #  # # ##  #  
-#  # #  #  # #  #   #  #  #      #  # #  #  #   #  #  # #  #   # 
- ##   ##    #   ### #  #  #      #  #  ##   #  ###  ##  #  # ##  
+ ##   ##  #   # ### ###  ###      ##   ##  ### ###  ##  #  #  ##
+#  # #  # #   # #   #  #  #      #  # #  #  #   #  #  # ## # #
+#    #  #  # #  ##  ###   #      #### #     #   #  #  # # ##  #
+#  # #  #  # #  #   #  #  #      #  # #  #  #   #  #  # #  #   #
+ ##   ##    #   ### #  #  #      #  #  ##   #  ###  ##  #  # ##
 
 allow_coups = {
 	name = "RULE_ALLOW_COUPS"

@@ -1379,6 +1379,9 @@ shared_focus = {
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
@@ -1450,6 +1453,7 @@ shared_focus = {
 						}
 					}
 				}
+				AND = { impassable = no }
 			}
 			add_building_construction = {
 				type = infrastructure
@@ -1477,6 +1481,7 @@ shared_focus = {
 						}
 					}
 				}
+				AND = { impassable = no }
 			}
 			add_building_construction = {
 				type = infrastructure
@@ -1504,6 +1509,7 @@ shared_focus = {
 						}
 					}
 				}
+				AND = { impassable = no }
 			}
 			add_building_construction = {
 				type = infrastructure
@@ -1529,6 +1535,9 @@ shared_focus = {
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = industrial_complex
@@ -1576,24 +1585,36 @@ shared_focus = {
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = ores
 				amount = 2
 			}
 		}
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = ores
 				amount = 2
 			}
 		}
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = gunpowder
 				amount = 1
 			}
 		}
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = gunpowder
 				amount = 1
@@ -1620,24 +1641,36 @@ shared_focus = {
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = wood
 				amount = 2
 			}
 		}
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = wood
 				amount = 2
 			}
 		}
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = mana
 				amount = 1
 			}
 		}
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_resource = {
 				type = mana
 				amount = 1
@@ -1680,6 +1713,9 @@ shared_focus = {
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
@@ -1771,6 +1807,9 @@ shared_focus = {
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
+		limit = {
+					impassable = no
+				}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = industrial_complex
@@ -2341,6 +2380,13 @@ prerequisite = {
 relative_position_id = naval_ambitions
 x = 0
 y = 1
+available = {
+		has_tech = naval_facilities
+		any_state = {
+				is_controlled_by = ROOT
+				is_coastal = yes
+			}
+	}
 completion_reward = {
 	random_owned_controlled_state = {
 		limit = {
@@ -2364,6 +2410,7 @@ completion_reward = {
 					}
 				}
 			}
+			AND = { impassable = no }
 		}
 		add_extra_state_shared_building_slots = 1
 		add_building_construction = {
@@ -2426,6 +2473,13 @@ prerequisite = {
 relative_position_id = build_dockyard_1
 x = 0
 y = 2
+available = {
+		has_tech = naval_facilities
+		any_state = {
+				is_controlled_by = ROOT
+				is_coastal = yes
+			}
+	}
 completion_reward = {
 	random_owned_controlled_state = {
 		limit = {
@@ -2449,6 +2503,7 @@ completion_reward = {
 					}
 				}
 			}
+			AND = { impassable = no }
 		}
 		add_extra_state_shared_building_slots = 1
 		add_building_construction = {
@@ -2698,6 +2753,7 @@ shared_focus = {
 						}
 					}
 				}
+				AND = { impassable = no }
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -2728,6 +2784,7 @@ shared_focus = {
 						}
 					}
 				}
+				AND = { impassable = no }
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -2776,6 +2833,7 @@ shared_focus = {
 						}
 					}
 				}
+				AND = { impassable = no }
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -2806,6 +2864,7 @@ shared_focus = {
 						}
 					}
 				}
+				AND = { impassable = no }
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {

@@ -1,15 +1,15 @@
 ideas = {
-	
+
 	political_advisor = {
 
 	}
-	
+
 	country = {
-	
+
 		BHT_runetotem_tribe = {
-		
+
 			picture = generic_race_tauren
-		
+
 			allowed = {
 				original_tag = BHT
 			}
@@ -17,13 +17,13 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 		}
-		
+
 		BHT_ragetotem_tribe = {
-		
+
 			picture = generic_race_tauren
-		
+
 			allowed = {
 				original_tag = BHT
 			}
@@ -31,13 +31,13 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 		}
-		
+
 		BHT_skychaser_tribe = {
-		
+
 			picture = generic_race_tauren
-		
+
 			allowed = {
 				original_tag = BHT
 			}
@@ -45,9 +45,43 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 		}
-	
+
+		BHT_water_supplies_idea = {
+
+			picture = generic_race_tauren
+
+			allowed = {
+				original_tag = BHT
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				attrition = -0.025
+			}
+		}
+
+		BHT_abundance_of_mulgore_idea = {
+
+			picture = generic_race_tauren
+
+			allowed = {
+				original_tag = BHT
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				monthly_population = 0.05
+				local_resources_factor = 0.05
+			}
+		}
 	}
-	
 }

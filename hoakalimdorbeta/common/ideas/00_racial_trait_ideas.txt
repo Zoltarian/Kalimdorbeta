@@ -3370,6 +3370,64 @@ ideas = {
 #Kvaldir
 ########################################
 
+		primary_trait_sons_of_the_mist = {
+
+			allowed = {
+				always = no
+			}
+
+			visible = {
+				has_idea = kvaldir_primary_race
+			}
+
+			available = {
+				has_idea = kvaldir_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_kvaldir
+
+			modifier = {
+				navy_visibility = -0.25
+				spotting_chance = 0.1
+				positioning = 0.05
+			}
+		}
+
+		primary_trait_residents_of_the_depths = {
+
+			allowed = {
+				always = no
+			}
+
+			visible = {
+				has_idea = kvaldir_primary_race
+			}
+
+			available = {
+				has_idea = kvaldir_primary_race
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 2001
+
+			picture = generic_race_kvaldir
+
+			modifier = {
+				naval_attrition = -0.10
+				amphibious_invasion = 0.15
+				invasion_preparation = -0.25
+			}
+		}
+
 ########################################
 #Lashers
 ########################################
@@ -8410,6 +8468,64 @@ ideas = {
 ########################################
 #Kvaldir - Secondary Traits
 ########################################
+
+	secondary_trait_sons_of_the_mist = {
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			NOT = {
+				has_idea = primary_trait_sons_of_the_mist
+			}
+			has_idea = kvaldir_secondary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		cost = 150
+		removal_cost = 150
+
+		picture = generic_race_kvaldir
+
+		modifier = {
+			navy_visibility = -0.25
+			spotting_chance = 0.1
+			positioning = 0.05
+		}
+	}
+
+	secondary_trait_residents_of_the_depths = {
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			NOT = {
+				has_idea = primary_trait_residents_of_the_depths
+			}
+			has_idea = kvaldir_secondary_race
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		cost = 150
+		removal_cost = 150
+
+		picture = generic_race_kvaldir
+
+		modifier = {
+			naval_attrition = -0.10
+			amphibious_invasion = 0.15
+			invasion_preparation = -0.25
+		}
+	}
 
 ########################################
 #Lashers - Secondary Traits

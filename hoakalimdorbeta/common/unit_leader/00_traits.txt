@@ -1083,7 +1083,7 @@ leader_traits = {
 ########################################
 	
 	warrior_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1102,7 +1102,7 @@ leader_traits = {
 	}
 	
 	protection_warrior_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1124,7 +1124,7 @@ leader_traits = {
 	}
 	
 	arms_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1147,7 +1147,7 @@ leader_traits = {
 	}
 	
 	fury_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1169,7 +1169,7 @@ leader_traits = {
 	}
 	
 	paladin_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1188,7 +1188,7 @@ leader_traits = {
 	}
 	
 	protection_paladin_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1209,7 +1209,7 @@ leader_traits = {
 	}
 	
 	retribution_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1230,7 +1230,7 @@ leader_traits = {
 	}
 	
 	holy_paladin_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1251,7 +1251,7 @@ leader_traits = {
 	}
 	
 	death_knight_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1270,7 +1270,7 @@ leader_traits = {
 	}
 	
 	blood_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1290,7 +1290,7 @@ leader_traits = {
 	}
 	
 	frost_death_knight_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1310,7 +1310,7 @@ leader_traits = {
 	}
 	
 	unholy_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1330,7 +1330,7 @@ leader_traits = {
 	}
 	
 	hunter_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1349,7 +1349,7 @@ leader_traits = {
 	}
 	
 	marksman_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1369,7 +1369,7 @@ leader_traits = {
 	}
 	
 	beast_master_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1389,7 +1389,7 @@ leader_traits = {
 	}
 	
 	survival_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1409,7 +1409,7 @@ leader_traits = {
 	}
 	
 	shaman_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1428,7 +1428,7 @@ leader_traits = {
 	}
 	
 	elemental_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1448,7 +1448,7 @@ leader_traits = {
 	}
 	
 	enhancement_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1468,7 +1468,7 @@ leader_traits = {
 	}
 	
 	restoration_shaman_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1488,7 +1488,7 @@ leader_traits = {
 	}
 	
 	demon_hunter_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1507,7 +1507,7 @@ leader_traits = {
 	}
 	
 	havoc_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1527,7 +1527,7 @@ leader_traits = {
 	}
 	
 	vengeance_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1547,7 +1547,7 @@ leader_traits = {
 	}
 	
 	druid_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1566,7 +1566,7 @@ leader_traits = {
 	}
 	
 	guardian_druid_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1586,7 +1586,7 @@ leader_traits = {
 	}
 	
 	feral_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1606,7 +1606,7 @@ leader_traits = {
 	}
 	
 	balance_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1626,7 +1626,7 @@ leader_traits = {
 	}
 	
 	restoration_druid_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1646,7 +1646,7 @@ leader_traits = {
 	}
 	
 	rogue_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1665,7 +1665,7 @@ leader_traits = {
 	}
 	
 	assassination_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1685,7 +1685,7 @@ leader_traits = {
 	}
 	
 	outlaw_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1705,7 +1705,7 @@ leader_traits = {
 	}
 	
 	subtlety_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1725,7 +1725,7 @@ leader_traits = {
 	}
 	
 	monk_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1744,7 +1744,7 @@ leader_traits = {
 	}
 	
 	brewmaster_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1764,7 +1764,7 @@ leader_traits = {
 	}
 	
 	windwalker_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1784,7 +1784,7 @@ leader_traits = {
 	}
 	
 	mistweaver_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1804,7 +1804,7 @@ leader_traits = {
 	}
 	
 	priest_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1824,7 +1824,7 @@ leader_traits = {
 	}
 	
 	shadow_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1844,7 +1844,7 @@ leader_traits = {
 	}
 	
 	discipline_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1864,7 +1864,7 @@ leader_traits = {
 	}
 	
 	holy_priest_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1884,7 +1884,7 @@ leader_traits = {
 	}
 	
 	mage_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1903,7 +1903,7 @@ leader_traits = {
 	}
 	
 	frost_mage_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1923,7 +1923,7 @@ leader_traits = {
 	}
 	
 	fire_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1943,7 +1943,7 @@ leader_traits = {
 	}
 	
 	arcane_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1963,7 +1963,7 @@ leader_traits = {
 	}
 	
 	warlock_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -1982,7 +1982,7 @@ leader_traits = {
 	}
 	
 	destruction_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2002,7 +2002,7 @@ leader_traits = {
 	}
 	
 	affliction_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2022,7 +2022,7 @@ leader_traits = {
 	}
 	
 	demonology_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2042,7 +2042,7 @@ leader_traits = {
 	}
 
 	necromancer_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2061,7 +2061,7 @@ leader_traits = {
 	}
 
 	bonemancer_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2081,7 +2081,7 @@ leader_traits = {
 	}
 
 	lich_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2101,7 +2101,7 @@ leader_traits = {
 	}
 
 	wraith_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2121,7 +2121,7 @@ leader_traits = {
 	}
 
 	tinker_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2143,7 +2143,7 @@ leader_traits = {
 	}
 
 	mech_engineer_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2163,7 +2163,7 @@ leader_traits = {
 	}
 
 	rocketeer_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
@@ -2183,7 +2183,7 @@ leader_traits = {
 	}
 
 	field_medic_trait = { 
-		type = all
+		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
 		}
