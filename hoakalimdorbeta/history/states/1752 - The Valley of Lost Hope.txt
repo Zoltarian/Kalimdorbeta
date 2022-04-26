@@ -4,24 +4,24 @@ state={
 	name="STATE_1752"
 
 	history={
-		
-		
-
 		buildings = {
 			infrastructure = 1
-		}
 
+		}
 		617.1.1 = {
 			owner = SRG
 			controller = SRG
 			add_core_of = SRG
+
 		}
+
 	}
 
 	provinces={
-		13405
+		3148 3165 3190 3618 3634 3639 3652 3686 3690 4545 4562 4682 4895 4978 5042 5043 5071 5086 5325 5712 6026 13405 
 	}
 	manpower=25
-	local_supplies=0.0
+	buildings_max_level_factor=1.000
 	state_category=building_slots_0
+	local_supplies=0.000
 }

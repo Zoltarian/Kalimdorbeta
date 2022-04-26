@@ -4,8 +4,6 @@ state={
 	name="STATE_50"
 
 	history={
-		
-		
 		buildings = {
 			infrastructure = 4
 
@@ -14,9 +12,10 @@ state={
 	}
 
 	provinces={
-		3 45 196 6896 7240 7263 7846 7848 7849 7851 7852 7855 7856 7857 7858 7860 7862 7863 7865 7869 7874 7876 
+		3 45 196 5751 6896 7240 7263 7846 7848 7849 7851 7852 7855 7856 7857 7858 7860 7862 7863 7865 7869 7874 7876 
 	}
 	manpower=1425
-	local_supplies=0.0
+	buildings_max_level_factor=1.000
 	state_category=building_slots_2
+	local_supplies=0.000
 }
