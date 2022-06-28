@@ -2,13 +2,18 @@
 state={
 	id=1277
 	name="STATE_1277"
+	resources={
+		ores = 8.000
+		gunpowder = 2.000
+		eggs = 1.000
+	}
 
 	history={
-		
-		
+		owner = BPT
+		add_core_of = BPT
 		buildings = {
 			infrastructure = 1
-
+			industrial_complex = 1
 		}
 
 		620.1.1 = {
@@ -16,12 +21,16 @@ state={
 			controller = OGR
 			add_core_of = OGR
 		}
+
+		victory_points = {
+			7587 10
+		}
 	}
 
 	provinces={
 		6408 7548 7569 7587 7592 8242
 	}
-	manpower=25
+	manpower=10000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

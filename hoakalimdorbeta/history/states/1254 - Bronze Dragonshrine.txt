@@ -2,21 +2,35 @@
 state={
 	id=1254
 	name="STATE_1254"
+	resources = {
+		wheat = 7.000
+		mounts = 2.000
+		eggs = 13.000
+		mana = 28.000
+	}
+
 
 	history={
-		
+		owner = BRF
+		victory_points = {
+			13438 15
+		}
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 4
 
 		}
-		
+		add_core_of = BRF
 
 	}
 
 	provinces={
-		10942 13410 13412 13435 13438 13454 
+		10942 13410 13412 13435 13438 13454 15976
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_9
+	local_supplies=0.000
 }

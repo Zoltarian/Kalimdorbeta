@@ -2,21 +2,30 @@
 state={
 	id=1805
 	name="STATE_1805"
+	resources={
+		ores = 7.000
+		gunpowder = 4.000
+	}
 
 	history={
-		
-		
+		owner = JPT
+		add_core_of = JPT
 		buildings = {
 			infrastructure = 1
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			15401 10
 		}
 
 	}
 
 	provinces={
-		9166 15393 15401 15404 15409 15420 
+		9166 15393 15401 15404 15409 15420
 	}
-	manpower=25
+	manpower=13000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

@@ -2,27 +2,37 @@
 state={
 	id=1640
 	name="STATE_1640"
+	resources={
+		ores=5.000
+		wood=3.000
+		mounts=2.000
+	}
 
 	history={
-		
-		
+		owner = DFC
+		add_core_of = DFC
 		buildings = {
 			infrastructure = 1
 
 		}
-
 		620.1.1 = {
 			
 			controller = STO
 			
+
+		}
+
+		victory_points = {
+			8082 10
 		}
 
 	}
 
 	provinces={
-		386 497 8018 8061 8082 8083 8095
+		386 497 8018 8061 8082 8083 8095 16032
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

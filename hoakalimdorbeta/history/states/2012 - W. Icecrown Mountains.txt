@@ -4,11 +4,11 @@ state={
 	impassable = yes
 
 	history={
-		
+		owner = MDC
 		buildings = {
 			infrastructure = 1
 		}
-		
+		add_core_of = MDC
 	}
 
 	provinces={

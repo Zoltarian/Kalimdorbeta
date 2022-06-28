@@ -1,0 +1,39 @@
+
+state={
+	id=1745
+	name="STATE_1745"
+	resources={
+		ores = 5.000
+		wheat = 12.000
+		eggs = 2.000
+		mounts = 4.000
+	}
+
+	history={
+		owner = MDC
+		add_core_of = MDC
+		victory_points = {
+			5698 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 1
+			air_base = 4
+
+			1059 = {
+				naval_base = 3
+			}
+		}
+
+	}
+
+	provinces={
+		644 664 666 683 1059 3135 3195 3223 3234 3242 5017 5698 6115 15518
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+	local_supplies=0.000
+}

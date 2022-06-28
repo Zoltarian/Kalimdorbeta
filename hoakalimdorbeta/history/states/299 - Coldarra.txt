@@ -3,31 +3,33 @@ state={
 	id=299
 	name="STATE_299"
 	resources={
-		mana=200.000
-		mounts=30.000
+		mana=100.000
+		mounts=15.000
+		eggs = 15.000
 		ores=18.000
+		wood = 10.000
 	}
 
 	history={
-		
+		owner = BDF
 		victory_points = {
-			8912 30 
+			8912 30
 		}
 		victory_points = {
-			8917 10 
+			8902 10
 		}
 		victory_points = {
-			8932 10 
+			8932 10
 		}
 		victory_points = {
-			8924 10 
+			8906 10
 		}
 		victory_points = {
-			434 5 
+			434 5
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 6
 			arms_factory = 3
 			dockyard = 1
 			air_base = 6
@@ -37,14 +39,14 @@ state={
 			}
 
 		}
-		
+		add_core_of = BDF
 
 	}
 
 	provinces={
-		434 8895 8896 8897 8898 8901 8902 8906 8907 8910 8912 8913 8915 8917 8919 8920 8923 8924 8927 8928 8932 
+		434 8895 8896 8897 8898 8901 8902 8906 8907 8910 8912 8913 8915 8917 8919 8920 8923 8924 8927 8928 8932
 	}
 	manpower=56000
 	local_supplies=0.0
-	state_category=building_slots_10
+	state_category=building_slots_12
 }

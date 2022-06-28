@@ -2,21 +2,33 @@
 state={
 	id=1778
 	name="STATE_1778"
+	resources={
+		ores = 8.000
+		gunpowder = 4.000
+		wheat = 6.000
+		wood = 4.000
+		mana = 5.000
+	}
 
 	history={
-		
-		
+		owner = SLW
+		add_core_of = SLW
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
 
+		victory_points = {
+			8458 10
 		}
 
 	}
 
 	provinces={
-		8458 13427 13494 
+		8458 13427 13494
 	}
-	manpower=25
+	manpower=15000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_6
 }

@@ -2,20 +2,32 @@
 state={
 	id=1835
 	name="STATE_1835"
+	resources={
+		wood = 8.000
+		oil = 2.000
+		ores = 5.000
+		wheat = 7.000
+	}
 
 	history={
-		
+		owner = GHG
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
 		}
-		
+		add_core_of = GHG
 
+		victory_points = {
+			16017 10
+		}
 	}
 
 	provinces={
-		431 7581 7976 7980 7987 7990 8004 8017 8113
+		431 7581 7976 7980 7987 7990 8004 8017 8113 16016 16017
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

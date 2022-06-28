@@ -1,0 +1,33 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+	resources={
+		ores = 11.000
+		gunpowder = 5.000
+		wheat = 12.000
+	}
+
+	history={
+		owner = EAE
+		add_core_of = EAE
+		victory_points = {
+			15749 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		15692 15740 15749 15806
+	}
+	manpower=29000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+	local_supplies=0.000
+}

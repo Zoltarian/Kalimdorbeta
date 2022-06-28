@@ -4,19 +4,25 @@ state={
 	name="STATE_1706"
 
 	history={
-		
-		
+		owner = DRA
+		add_core_of = DRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			15847 10
 		}
 
 	}
 
 	provinces={
-		27 7837 7839 8914 
+		27 7837 7839 8914 15847 15848
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

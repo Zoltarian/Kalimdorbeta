@@ -2,22 +2,32 @@
 state={
 	id=1664
 	name="STATE_1664"
+	resources={
+		ores = 6
+		wood = 10
+		gunpowder = 1
+	}
 
 	history={
-		
-		
+		owner = CWT
+		add_core_of = CWT
 
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			5406 10
 		}
 
 	}
 
 	provinces={
-		210 1512 1515 5406 13308 
+		210 1512 1515 5406 13308
 	}
-	manpower=25
+	manpower=5000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

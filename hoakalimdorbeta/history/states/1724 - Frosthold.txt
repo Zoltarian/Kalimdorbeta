@@ -2,20 +2,35 @@
 state={
 	id=1724
 	name="STATE_1724"
+	resources={
+		ores = 11.000
+		gunpowder = 5.000
+		eggs = 5.000
+		wheat = 12.000
+		wood = 1.000
+	}
 
 	history={
-		
-		
-
-		buildings = {
-			infrastructure = 1
+		owner = FRB
+		add_core_of = FRB
+		victory_points = {
+			13287 10
 		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+
 	}
 
 	provinces={
-		13287
+		13287 15638 15641
 	}
-	manpower=25
+
+	manpower=32000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_6
+	local_supplies=0.000
 }

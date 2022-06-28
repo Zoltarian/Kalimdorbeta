@@ -2,21 +2,34 @@
 state={
 	id=1660
 	name="STATE_1660"
+	resources={
+		wood=10.000
+		mounts=7.000
+		mana=8.000
+		wheat=2.000
+	}
 
 	history={
-		
-		
+		owner = TTV
+		add_core_of = TTV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			16039 10
 		}
 
 	}
 
 	provinces={
-		410 1563 5386 6130 7296 7535 7558 7608 7614 7882 8135 8188 13231 
+		410 7558 7608 7614 13231 16038 16039
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=31000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

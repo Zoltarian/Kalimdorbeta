@@ -1,0 +1,33 @@
+
+state={
+	id=1030
+	name="STATE_1030"
+	resources={
+		wheat = 2.000
+		ores = 1.000
+		gunpowder = 6.000
+	}
+
+	history={
+		owner = BUT
+		add_core_of = BUT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		victory_points = {
+			329 10
+		}
+
+	}
+
+	provinces={
+		329 7759 7785 8909 8911 10998 13360
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
+}

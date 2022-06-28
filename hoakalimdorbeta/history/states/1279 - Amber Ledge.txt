@@ -2,21 +2,30 @@
 state={
 	id=1279
 	name="STATE_1279"
+	resources={
+		ores = 5.000
+		oil = 2.000
+		mana = 6.000
+	}
 
 	history={
-		
-		
+		owner = KLK
+		add_core_of = KLK
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
+		}
+
+		victory_points = {
+			7767 10
 		}
 
 	}
 
 	provinces={
-		6326 7733 7767 7769 10980 
+		6326 7733 7767 7769 10980
 	}
-	manpower=25
+	manpower=11500
 	local_supplies=0.0
 	state_category=building_slots_0
 }

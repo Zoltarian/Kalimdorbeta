@@ -2,20 +2,34 @@
 state={
 	id=1718
 	name="STATE_1718"
+	resources={
+		ores = 5.000
+		gunpowder = 1.000
+		wood = 2.000
+		wheat = 9.000
+	}
 
 	history={
-		
-		
-
+		owner = SVH
+		add_core_of = SVH
+		victory_points = {
+			13443 5
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+
 		}
+
 	}
 
 	provinces={
-		13443
+		13443 15620 15623 15624 15629 15809 15811
 	}
-	manpower=25
+
+	manpower=17000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_4
+	local_supplies=0.000
 }

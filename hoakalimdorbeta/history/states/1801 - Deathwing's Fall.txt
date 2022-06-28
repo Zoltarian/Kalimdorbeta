@@ -2,21 +2,33 @@
 state={
 	id=1801
 	name="STATE_1801"
+	resources={
+		ores = 7.000
+		gunpowder = 8.000
+		mana = 3.000
+	}
 
 	history={
-		
+		owner = BLF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 5
 
 		}
-		
+		add_core_of = BLF
+
+		victory_points = {
+			7389 10
+		}
 
 	}
 
 	provinces={
-		7389 15322 15324 15337 15340 15348 15349 15365 
+		7389 15322 15324 15337 15340 15348 15349 15365
 	}
-	manpower=25
+	manpower=47000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_9
 }

@@ -2,14 +2,23 @@
 state={
 	id=1245
 	name="STATE_1245"
+	resources = {
+		wood = 7.000
+		ores = 5.000
+		gunpowder = 1.000
+	}
 
 	history={
-		
+		owner = BRF
+		victory_points = {
+			10930 10
+		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
+			industrial_complex = 1
 
 		}
-		
+		add_core_of = BRF
 
 		620.1.1 = {
 			owner = FSK
@@ -21,7 +30,7 @@ state={
 	provinces={
 		6849 10930 13275 13296 13307 13320
 	}
-	manpower=25
+	manpower=11500
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

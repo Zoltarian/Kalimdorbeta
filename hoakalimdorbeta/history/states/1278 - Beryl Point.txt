@@ -2,21 +2,33 @@
 state={
 	id=1278
 	name="STATE_1278"
+	resources={
+		ores = 2.000
+		oil = 2.000
+		mana = 4.000
+	}
 
 	history={
-		
-		
+		owner = BPT
+		add_core_of = BPT
 		buildings = {
 			infrastructure = 1
+			10977 = {
+				naval_base = 1
+			}
+		}
 
+		victory_points = {
+			7791 10
 		}
 
 	}
 
 	provinces={
-		7735 7766 7791 10977 
+		7735 7766 7791 7833 10977 15924
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

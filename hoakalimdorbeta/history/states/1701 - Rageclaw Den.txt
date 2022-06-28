@@ -2,21 +2,33 @@
 state={
 	id=1701
 	name="STATE_1701"
+	resources={
+		wheat = 9.000
+		wood = 7.000
+		ores = 2.000
+	}
 
 	history={
-		
-		
+		owner = RGC
+		add_core_of = RGC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			15814 10
 		}
 
 	}
 
 	provinces={
-		6372 7231 7245 7531 13283 
+		6372 7231 15814 15818 15819
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=19000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

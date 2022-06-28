@@ -2,20 +2,36 @@
 state={
 	id=1743
 	name="STATE_1743"
+	resources={
+		wheat = 8.000
+		ores = 4.000
+		oil = 2.000
+	}
 
 	history={
+		owner = HRG
+		add_core_of = HRG
+		victory_points = {
+			6899 10
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 
+			6109 = {
+				naval_base = 2
+			}
 		}
 
 	}
 
 	provinces={
-		774 1786 3455 3560 5221 6109 6899 8267 
+		774 1786 3455 3560 5221 6109 6899 8267
 	}
-	manpower=25
+	manpower=19000
 	buildings_max_level_factor=1.000
-	state_category=building_slots_0
+	state_category=building_slots_5
 	local_supplies=0.000
 }

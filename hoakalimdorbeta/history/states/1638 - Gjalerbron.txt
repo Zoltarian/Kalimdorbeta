@@ -2,21 +2,34 @@
 state={
 	id=1638
 	name="STATE_1638"
+	resources={
+		ores=8.000
+		eggs=3.000
+		wheat=2.000
+		gunpowder=2.000
+	}
 
 	history={
-		
-		
+		owner = GJA
+		add_core_of = GJA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+		}
 
+		victory_points = {
+			499 10
 		}
 
 	}
 
 	provinces={
-		499 5375 8056 8077 8090 8094 8105 8107 8108 13268 
+		499 5375 8056 8077 8090 8094 8105 8107 8108 13268 16043 16044 16045 16046
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=37000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+	local_supplies=0.000
 }

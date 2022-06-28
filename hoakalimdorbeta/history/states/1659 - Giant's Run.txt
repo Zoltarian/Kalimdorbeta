@@ -2,21 +2,33 @@
 state={
 	id=1659
 	name="STATE_1659"
+	resources={
+		wood=8.000
+		ores=6.000
+		gunpowder=3.000
+		oil=1.000
+	}
 
 	history={
-		
-		
+		owner = HFD
+		add_core_of = HFD
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			7752 10
 		}
 
 	}
 
 	provinces={
-		150 259 6875 7350 7424 7675 7724 7752 
+		150 259 6875 7350 7424 7675 7724 7752 16040 16042 16047
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

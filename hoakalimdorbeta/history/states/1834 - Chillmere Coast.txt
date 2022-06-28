@@ -2,20 +2,40 @@
 state={
 	id=1834
 	name="STATE_1834"
+	resources={
+		ores=3.000
+		wheat=7.000
+		oil=5.000
+		gunpowder=3.000
+	}
 
 	history={
-		
+		owner = CMT
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			7806 = {
+				naval_base = 2
+
+			}
+
 		}
-		
+
+		victory_points = {
+			7806 10
+		}
+
+		add_core_of = CMT
 
 	}
 
 	provinces={
-		3048 3053 3056 7806
+		3048 3053 3056 7426 7806
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }

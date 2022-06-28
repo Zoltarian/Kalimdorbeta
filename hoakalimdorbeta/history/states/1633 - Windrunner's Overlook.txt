@@ -2,24 +2,31 @@
 state={
 	id=1633
 	name="STATE_1633"
+	resources={
+		ores = 3
+		wood = 1
+		mana = 2
+		gunpowder = 1
+	}
 
 	history={
-		
-		
+		owner = TUB
+		add_core_of = TUB
 		victory_points = {
 			13450 5
 		}
 		buildings = {
 			infrastructure = 1
+			arms_factory = 1
 
 		}
 
 	}
 
 	provinces={
-		264 13450 
+		264 13450
 	}
-	manpower=25
+	manpower=11000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

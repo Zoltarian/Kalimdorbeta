@@ -2,21 +2,31 @@
 state={
 	id=1652
 	name="STATE_1652"
+	resources={
+		ores=8.000
+		wood=5.000
+		oil=3.000
+	}
 
 	history={
-		
-		
+		owner = DFC
+		add_core_of = DFC
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			1447 10
+		}
+
 	}
 
 	provinces={
-		1438 1447 1509 7355 7357 8001 13249 
+		1438 1447 1509 7355 7357 8001 13249 16023
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

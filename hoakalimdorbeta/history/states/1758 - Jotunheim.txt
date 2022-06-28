@@ -2,20 +2,39 @@
 state={
 	id=1758
 	name="STATE_1758"
+	resources={
+		ores = 5.000
+		wheat = 11.000
+		mounts = 3.000
+		eggs = 7.000
+	}
 
 	history={
+		owner = MDC
+		add_core_of = MDC
+		victory_points = {
+			8894 15
+		}
+		victory_points = {
+			15542 10
+		}
+		victory_points = {
+			5964 10
+		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 5
 		}
 
 	}
 
 	provinces={
-		4891 4896 4911 4980 5012 5029 5964 8894 15527 15528 15531 15536 15538 15540 15541 15542 15543 15544 15545 15546 
+		4891 4896 4911 4980 5012 5029 5964 8894 15527 15536 15538 15540 15541 15542 15543 15544 15545 15546
 	}
-	manpower=25
+	manpower=42500
 	buildings_max_level_factor=1.000
-	state_category=building_slots_0
+	state_category=building_slots_6
 	local_supplies=0.000
 }

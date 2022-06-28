@@ -2,11 +2,17 @@
 state={
 	id=1236
 	name="STATE_1236"
+	resources={
+		ores = 7.000
+		gunpowder = 2.000
+	}
 
 	history={
-		
-		
-
+		owner = AZJ
+		add_core_of = AZJ
+		victory_points = {
+			10952 10
+		}
 		buildings = {
 			infrastructure = 1
 		}
@@ -27,7 +33,7 @@ state={
 	provinces={
 		10952 13368 13492 13500
 	}
-	manpower=25
+	manpower=12500
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_2
 }

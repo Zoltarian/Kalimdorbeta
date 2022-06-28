@@ -2,20 +2,31 @@
 state={
 	id=1738
 	name="STATE_1738"
+	resources={
+		ores = 10.000
+		gunpowder = 5.000
+		wood = 3.000
+	}
 
 	history={
-		
-		
-
+		owner = SOH
+		add_core_of = SOH
+		victory_points = {
+			15658 5
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		13448
+		13448 15650 15651 15657 15658 15666 15667
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

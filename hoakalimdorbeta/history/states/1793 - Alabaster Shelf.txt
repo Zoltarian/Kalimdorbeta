@@ -2,21 +2,31 @@
 state={
 	id=1793
 	name="STATE_1793"
+	resources={
+		ores = 8.000
+		eggs = 6.000
+		mounts = 2.000
+	}
 
 	history={
-		
+		owner = BLF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
+			industrial_complex = 1
 
 		}
-		
+		add_core_of = BLF
+
+		victory_points = {
+			15284 10
+		}
 
 	}
 
 	provinces={
-		765 15270 15272 15274 15276 15284 15285 15290 
+		765 15270 15272 15274 15276 15284 15285 15290
 	}
-	manpower=25
+	manpower=11000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

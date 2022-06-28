@@ -3,33 +3,36 @@ state={
 	id=816
 	name="STATE_816"
 	resources={
-		mana=14.000
-		ores=4.000
+		mana = 14.000
+		wheat = 6.000
+		ores = 4.000
+		oil = 2.000
 	}
 
 	history={
-		
-		
-
+		owner = SKA
+		add_core_of = SKA
 		victory_points = {
-			8245 10
+			8237 10
 		}
-
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
+			infrastructure = 2
+			arms_factory = 2
 			industrial_complex = 1
-			dockyard = 1
+			dockyard = 2
 			8239 = {
 				naval_base = 4
+
 			}
+
 		}
 	}
 
 	provinces={
-		8236 8237 8238 8239 8244 8245 8246
+		6865 8236 8237 8238 8239 8244 8245 8246
 	}
 	manpower=32000
-	local_supplies=0.0
-	state_category=building_slots_5
+	buildings_max_level_factor=1.000
+	state_category=building_slots_7
+	local_supplies=0.000
 }

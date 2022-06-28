@@ -2,21 +2,31 @@
 state={
 	id=1280
 	name="STATE_1280"
+	resources={
+		wheat = 7.000
+		mounts = 4.000
+		ores = 1.000
+		oil = 2.000
+	}
 
 	history={
-		
-		
+		owner = MMH
+		add_core_of = MMH
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			10983 10
+		}
+
 	}
 
 	provinces={
-		502 7730 7790 10983 
+		502 7730 7790 10983
 	}
-	manpower=25
+	manpower=6000
 	local_supplies=0.0
 	state_category=building_slots_0
 }

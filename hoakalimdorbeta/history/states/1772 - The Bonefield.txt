@@ -2,22 +2,32 @@
 state={
 	id=1772
 	name="STATE_1772"
+	resources={
+		ores = 4.000
+		wheat = 6.000
+		wood = 2.000
+		mounts = 1.000
+	}
 
 	history={
-		
-		
-		
+		owner = MWH
+		add_core_of = MWH
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			15901 10
+		}
+
 	}
 
 	provinces={
-		10981
+		10981 15894 15896 15899 15900 15901
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

@@ -2,22 +2,32 @@
 state={
 	id=1767
 	name="STATE_1767"
+	resources={
+		ores = 9.000
+		wood = 4.000
+		mana = 7.000
+	}
 
 	history={
-		
-		
-
+		owner = MWA
+		add_core_of = MWA
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			9322 10
 		}
 
 	}
 
 	provinces={
-		9322
+		9322 15872 15874 15876 15877 15881 15882
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

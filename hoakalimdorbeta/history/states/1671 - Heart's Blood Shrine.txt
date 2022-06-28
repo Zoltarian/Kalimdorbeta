@@ -2,21 +2,31 @@
 state={
 	id=1671
 	name="STATE_1671"
+	resources={
+		wood = 3.000
+		ores = 3.000
+		gunpowder = 1.000
+	}
 
 	history={
-		
-		
+		owner = GZM
+		add_core_of = GZM
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
+		}
+
+		victory_points = {
+			263 10
 		}
 
 	}
 
 	provinces={
-		263 7716 7723 7731 8176 
+		263 7716 7723 7731 8176 15986
 	}
-	manpower=25
-	local_supplies=0.0
+	manpower=11000
+	buildings_max_level_factor=1.000
 	state_category=building_slots_0
+	local_supplies=0.000
 }

@@ -2,22 +2,34 @@
 state={
 	id=1285
 	name="STATE_1285"
+	resources={
+		ores = 3.000
+		wheat = 3.000
+		wood = 10.000
+		mounts = 4.000
+		oil = 2.000
+	}
 
 	history={
-		
-		
+		owner = SKT
+		add_core_of = SKT
 
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			8348 10
 		}
 
 	}
 
 	provinces={
-		8348 8359 8361 10994 
+		8348 8359 8361 10994
 	}
-	manpower=25
+	manpower=13000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

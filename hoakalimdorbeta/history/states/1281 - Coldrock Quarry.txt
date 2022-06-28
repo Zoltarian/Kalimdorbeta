@@ -2,21 +2,29 @@
 state={
 	id=1281
 	name="STATE_1281"
+	resources={
+		ores = 8.000
+		mana = 4.000
+	}
 
 	history={
-		
-		
+		owner = BPT
+		add_core_of = BPT
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			7828 10
+		}
+
 	}
 
 	provinces={
-		6880 7768 7798 7828 
+		6880 7768 7798 7828
 	}
-	manpower=25
+	manpower=6500
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_2
 }

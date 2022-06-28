@@ -2,21 +2,33 @@
 state={
 	id=1663
 	name="STATE_1663"
+	resources={
+		ores=7.000
+		wheat=5.000
+		gunpowder=1.000
+	}
 
 	history={
-		
-		
+		owner = GHS
+		add_core_of = GHS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			8088 10
 		}
 
 	}
 
 	provinces={
-		294 3025 5378 8088 13252 
+		294 3025 5378 8088 13252 16041
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=37000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

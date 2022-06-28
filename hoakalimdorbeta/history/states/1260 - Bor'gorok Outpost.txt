@@ -2,27 +2,40 @@
 state={
 	id=1260
 	name="STATE_1260"
+	resources={
+		wheat = 2.000
+		ores = 6.000
+		gunpowder = 4.000
+	}
 
 	history={
-		
-		
+		owner = MMH
+		add_core_of = MMH
 		buildings = {
 			infrastructure = 1
-
+			arms_factory = 1
+			7600 = {
+				naval_base = 1
+			}
 		}
-
 		620.1.1 = {
 			owner = OGR
 			controller = OGR
 			add_core_of = OGR
+
+		}
+
+		victory_points = {
+			10988 10
 		}
 
 	}
 
 	provinces={
-		636 7565 7590 7600 10988 
+		636 7565 7590 7600 10988 15935
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

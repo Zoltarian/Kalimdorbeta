@@ -2,21 +2,35 @@
 state={
 	id=1787
 	name="STATE_1787"
+	resources={
+		ores = 4.000
+		gunpowder = 2.000
+		wheat = 10.000
+		mounts = 9.000
+		eggs = 10.000
+	}
 
 	history={
-		
-		
+		owner = STF
+		add_core_of = STF
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 5
 
+		}
+
+		victory_points = {
+			7398 10
 		}
 
 	}
 
 	provinces={
-		7398 15427 15431 15438 15446 15448 15451 15453 15457 15461 15462 15463 15464 15467 15469 15472 15474 15477 
+		7398 15427 15431 15438 15446 15448 15451 15453 15457 15461 15462 15463 15464 15467 15469 15472 15474 15477
 	}
-	manpower=25
+	manpower=28000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_6
 }

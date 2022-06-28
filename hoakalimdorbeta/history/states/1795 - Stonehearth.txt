@@ -2,21 +2,32 @@
 state={
 	id=1795
 	name="STATE_1795"
+	resources={
+		wheat = 11.000
+		ores = 14.000
+		gunpowder = 11.000
+	}
 
 	history={
-		
-		
+		owner = SHR
+		add_core_of = SHR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			15308 10
 		}
 
 	}
 
 	provinces={
-		8151 15307 15308 15318 15328 15329 15491 15492 15493 
+		8151 15307 15308 15318 15328 15329 15491 15492 15493
 	}
-	manpower=25
+	manpower=26000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_6
 }

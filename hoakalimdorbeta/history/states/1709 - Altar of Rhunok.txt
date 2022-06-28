@@ -2,21 +2,33 @@
 state={
 	id=1709
 	name="STATE_1709"
+	resources={
+		wheat = 4.000
+		mana = 9.000
+		ores = 3.000
+		gunpowder = 1.000
+	}
 
 	history={
-		
-		
+		owner = DRA
+		add_core_of = DRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			158 10
 		}
 
 	}
 
 	provinces={
-		1 46 82 158 195 316 6869 7253 7835 
+		1 46 82 158 195 316 6869 7253 7835 15844 15851 15856 15861 15863 15864
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

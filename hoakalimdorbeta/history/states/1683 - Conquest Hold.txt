@@ -2,27 +2,37 @@
 state={
 	id=1683
 	name="STATE_1683"
+	resources={
+		wood = 9.000
+		mounts = 2.000
+		wheat = 1.000
+	}
 
 	history={
-		
-		
+		owner = DRA
+		add_core_of = DRA
 		buildings = {
 			infrastructure = 1
 
 		}
-
 		620.1.1 = {
 			owner = OGR
 			controller = OGR
 			add_core_of = OGR
+
+		}
+
+		victory_points = {
+			354 10
 		}
 
 	}
 
 	provinces={
-		354 7925 7937 7944 7957 7966 13366
+		354 7925 7937 7944 7957 7966 13366 15982 15987
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

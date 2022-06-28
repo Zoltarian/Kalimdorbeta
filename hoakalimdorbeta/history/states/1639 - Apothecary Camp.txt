@@ -2,10 +2,16 @@
 state={
 	id=1639
 	name="STATE_1639"
+	resources={
+		ores = 4
+		wood = 6
+		mounts = 2
+		wheat = 1
+	}
 
 	history={
-		
-		
+		owner = DFC
+		add_core_of = DFC
 		buildings = {
 			infrastructure = 1
 
@@ -17,12 +23,16 @@ state={
 			add_core_of = FSK
 		}
 
+		victory_points = {
+			351 10
+		}
+
 	}
 
 	provinces={
 		351 8013 8023 8044 8047 13373
 	}
-	manpower=25
+	manpower=9000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_2
 }

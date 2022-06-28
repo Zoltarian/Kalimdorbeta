@@ -2,10 +2,15 @@
 state={
 	id=926
 	name="STATE_926"
+	resources={
+		wood =4.000
+		oil=14.000
+	}
 
 	history={
-		owner = FAR
-		add_core_of = FAR
+		owner = BRF
+		add_core_of = BRF
+
 		victory_points = {
 			9434 10
 		}
@@ -14,7 +19,15 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			9434 = {
+				naval_base = 3
+			}
+			9401 = {
+				naval_base = 1
+			}
 		}
 
 		617.1.1 = {
@@ -27,7 +40,7 @@ state={
 	provinces={
 		8961 9376 9384 9387 9391 9392 9393 9401 9415 9420 9431 9434 9444 9446 9455 9460
 	}
-	manpower=25
+	manpower=17000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

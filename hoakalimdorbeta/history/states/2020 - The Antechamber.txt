@@ -1,19 +1,33 @@
+
 state={
 	id=2020
 	name="STATE_2020"
+	resources={
+		mana = 7.000
+		gunpowder = 11.000
+	}
 
 	history={
-		
-		buildings = {
-			infrastructure = 1
+		owner = KOU
+		victory_points = {
+			13503 10
 		}
-		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = KOU
+
 	}
 
 	provinces={
-		13503
+		13503 15771 15772 15775 15776 15781 15783
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

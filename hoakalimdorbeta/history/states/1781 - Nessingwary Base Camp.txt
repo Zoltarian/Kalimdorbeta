@@ -2,22 +2,33 @@
 state={
 	id=1781
 	name="STATE_1781"
+	resources={
+		oil = 1.000
+		wheat = 3.000
+		wood = 8.000
+		mounts = 2.000
+	}
 
 	history={
-		
-		
+		owner = SKT
+		add_core_of = SKT
 
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			8431 10
 		}
 
 	}
 
 	provinces={
-		8431 9398 
+		8431 9398
 	}
-	manpower=25
+	manpower=16000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

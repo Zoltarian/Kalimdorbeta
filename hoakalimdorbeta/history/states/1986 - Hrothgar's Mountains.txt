@@ -4,11 +4,14 @@ state={
 	impassable = yes
 
 	history={
-		
+		owner = HRG
+		victory_points = {
+			6899 10
+		}
 		buildings = {
 			infrastructure = 1
 		}
-		
+		add_core_of = HRG
 	}
 
 	provinces={

@@ -2,22 +2,31 @@
 state={
 	id=1770
 	name="STATE_1770"
+	resources={
+		ores = 8.000
+		gunpowder = 2.000
+		wood = 3.000
+	}
 
 	history={
-		
-		
-		
+		owner = MWA
+		add_core_of = MWA
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			15891 10
+		}
+
 	}
 
 	provinces={
-		9330
+		928 7245 7856 8922 9330 15891 15895
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

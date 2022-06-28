@@ -2,21 +2,33 @@
 state={
 	id=1273
 	name="STATE_1273"
+	resources={
+		wheat = 2.000
+		ores = 1.000
+		oil = 5.000
+	}
 
 	history={
-		
-		
+		owner = SKA
+		add_core_of = SKA
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			5345 = {
+				naval_base = 2
+			}
+		}
 
+		victory_points = {
+			5345 10
 		}
 
 	}
 
 	provinces={
-		5345 7606 7799 7808 7813 8916 8921 10969 
+		5345 7606 7799 7808 7813 8916 8921 10969
 	}
-	manpower=25
+	manpower=9500
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

@@ -2,21 +2,41 @@
 state={
 	id=1686
 	name="STATE_1686"
+	resources={
+		ores = 1.000
+		wood = 3.000
+		mounts = 2.000
+		eggs = 2.000
+		wheat = 6.000
+	}
 
 	history={
-		
-		
+		owner = DFC
+		add_core_of = DFC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
 
+			7929 = {
+				naval_base = 2
+			}
+
+		}
+
+		victory_points = {
+			13306 10
 		}
 
 	}
 
 	provinces={
-		7906 7910 7911 7914 7923 7929 7932 12454 13306 
+		7906 7910 7911 7923 7929 7932 12454 13306 15980 15981
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=26000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+	local_supplies=0.000
 }

@@ -1,0 +1,32 @@
+
+state={
+	id=1028
+	name="STATE_1028"
+	resources={
+		wood=6.000
+		wheat=2.000
+	}
+
+	history={
+		owner = WIC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		victory_points = {
+			8188 10
+		}
+
+		add_core_of = WIC
+
+	}
+
+	provinces={
+		7296 7882 8188
+	}
+	manpower=11500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
+}

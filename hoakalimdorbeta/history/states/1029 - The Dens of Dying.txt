@@ -1,0 +1,32 @@
+
+state={
+	id=1029
+	name="STATE_1029"
+	resources={
+		wheat = 4.000
+		mounts = 3.000
+		ores = 5.000
+	}
+
+	history={
+		owner = MMH
+		add_core_of = MMH
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		victory_points = {
+			420 10
+		}
+
+	}
+
+	provinces={
+		404 420 7804 8114 15931 15934
+	}
+	manpower=25
+	buildings_max_level_factor=1.000
+	state_category=building_slots_0
+	local_supplies=0.000
+}

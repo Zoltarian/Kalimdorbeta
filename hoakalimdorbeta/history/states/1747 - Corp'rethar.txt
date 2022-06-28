@@ -2,10 +2,21 @@
 state={
 	id=1747
 	name="STATE_1747"
+	resources={
+		ores = 5.000
+		wheat = 1.000
+		mana = 3.000
+	}
 
 	history={
+		owner = AZJ
+		add_core_of = AZJ
+		victory_points = {
+			15566 20
+		}
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 
 		}
 		610.1.1 = {
@@ -18,10 +29,10 @@ state={
 	}
 
 	provinces={
-		476 15556 15561 15563 15566 15567 15568 15569 15570 15571 15572 15573 15574 15575 15576 15577 15591 15592 
+		476 15556 15561 15563 15566 15567 15568 15569 15570 15571 15572 15573 15574 15575 15576 15577 15591 15592
 	}
-	manpower=25
+	manpower=17000
 	buildings_max_level_factor=1.000
-	state_category=building_slots_0
+	state_category=building_slots_3
 	local_supplies=0.000
 }

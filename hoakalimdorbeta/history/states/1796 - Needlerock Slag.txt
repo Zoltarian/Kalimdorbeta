@@ -2,21 +2,31 @@
 state={
 	id=1796
 	name="STATE_1796"
+	resources={
+		ores = 8.000
+		gunpowder = 4.000
+	}
 
 	history={
-		
-		
+		owner = NDR
+		add_core_of = NDR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			15507 10
 		}
 
 	}
 
 	provinces={
-		7721 15494 15495 15496 15497 15500 15506 15507 15508 
+		7721 15494 15495 15496 15497 15500 15506 15507 15508
 	}
-	manpower=25
+	manpower=28000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_5
 }

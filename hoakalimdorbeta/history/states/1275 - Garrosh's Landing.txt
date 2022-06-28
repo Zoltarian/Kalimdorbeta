@@ -2,13 +2,20 @@
 state={
 	id=1275
 	name="STATE_1275"
+	resources={
+		wheat = 2.000
+		ores = 1.000
+		oil = 3.000
+	}
 
 	history={
-		
-		
+		owner = KLK
+		add_core_of = KLK
 		buildings = {
 			infrastructure = 1
-
+			6395 = {
+				naval_base = 1
+			}
 		}
 
 		620.1.1 = {
@@ -17,12 +24,16 @@ state={
 			add_core_of = OGR
 		}
 
+		victory_points = {
+			6395 10
+		}
+
 	}
 
 	provinces={
 		3098 6395 10971
 	}
-	manpower=25
+	manpower=4500
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_2
 }

@@ -2,10 +2,23 @@
 state={
 	id=1752
 	name="STATE_1752"
+	resources={
+		ores = 4.000
+		wood = 1.000
+		wheat = 3.000
+		mounts = 1.000
+	}
+
 
 	history={
+		owner = YHC
+		add_core_of = YHC
+		victory_points = {
+			5071 5
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
 		}
 		617.1.1 = {
@@ -18,10 +31,10 @@ state={
 	}
 
 	provinces={
-		3148 3165 3190 3618 3634 3639 3652 3686 3690 4545 4562 4682 4895 4978 5042 5043 5071 5086 5325 5712 6026 13405 
+		3148 3165 3190 3618 3634 3639 3652 3686 3690 4545 4562 4682 4895 4978 5042 5043 5071 5086 5325 5712 6026 13405
 	}
-	manpower=25
+	manpower=14000
 	buildings_max_level_factor=1.000
-	state_category=building_slots_0
+	state_category=building_slots_3
 	local_supplies=0.000
 }

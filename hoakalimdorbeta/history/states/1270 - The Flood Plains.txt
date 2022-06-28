@@ -2,21 +2,32 @@
 state={
 	id=1270
 	name="STATE_1270"
+	resources={
+		wheat = 4.000
+		mounts = 5.000
+		ores = 1.000
+		oil = 3.000
+		gunpowder = 7.000
+	}
 
 	history={
-		
-		
+		owner = KLK
+		add_core_of = KLK
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			8085 10
+		}
+
 	}
 
 	provinces={
-		496 5407 7820 7825 8059 8085 8097 8101 10973 
+		496 5407 7820 7825 8059 8085 8097 8101 10973
 	}
-	manpower=25
+	manpower=8500
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_2
 }

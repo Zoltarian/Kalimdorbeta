@@ -1,0 +1,34 @@
+
+state={
+	id=779
+	name="STATE_779"
+	resources={
+		wheat = 4.000
+		mounts = 1.000
+		gunpowder = 4.000
+	}
+
+	history={
+		owner = GBT
+		add_core_of = GBT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+		victory_points = {
+			484 10
+		}
+
+	}
+
+	provinces={
+		484 7830 10979 15929
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
+}

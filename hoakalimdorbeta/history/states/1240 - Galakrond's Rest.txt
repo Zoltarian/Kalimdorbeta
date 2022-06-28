@@ -2,21 +2,33 @@
 state={
 	id=1240
 	name="STATE_1240"
+	resources = {
+		ores = 4.000
+		mounts = 2.000
+		eggs = 2.000
+		mana = 13.000
+	}
 
 	history={
-		
+		owner = RDF
+		victory_points = {
+			13457 10
+		}
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
 
 		}
-		
+		add_core_of = RDF
 
 	}
 
 	provinces={
-		10945 13442 13445 13449 13457 13468 13472 13479 
+		10945 13442 13445 13449 13457 13468 13472 13479 15975
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }

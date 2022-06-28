@@ -2,21 +2,30 @@
 state={
 	id=1699
 	name="STATE_1699"
+	resources={
+		wheat = 8.000
+		wood = 6.000
+	}
 
 	history={
-		
-		
+		owner = DRA
+		add_core_of = DRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
+		}
+
+		victory_points = {
+			15842 10
 		}
 
 	}
 
 	provinces={
-		363 443 13235 
+		363 443 13235 15837 15842
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

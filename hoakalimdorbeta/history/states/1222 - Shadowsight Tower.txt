@@ -2,21 +2,32 @@
 state={
 	id=1222
 	name="STATE_1222"
+	resources={
+		ores = 3.000
+		wood = 2.000
+		mounts = 2.000
+	}
 
 	history={
-		
-		
+		owner = ACC
+		add_core_of = ACC
+		victory_points = {
+			15943 10
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			anti_air_building = 1
 
 		}
 
 	}
 
 	provinces={
-		8162 8433 8444 8456 8480 8488 8498 10949 
+		8162 8433 8444 8456 8480 8488 8498 10949 15939 15942 15943 15946 15947
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=13500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

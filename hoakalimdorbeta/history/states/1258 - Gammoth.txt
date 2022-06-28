@@ -2,21 +2,32 @@
 state={
 	id=1258
 	name="STATE_1258"
+	resources={
+		ores = 4.000
+		wheat = 11.000
+		mounts = 1.000
+	}
 
 	history={
-		
-		
+		owner = BPT
+		add_core_of = BPT
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 
+		}
+
+		victory_points = {
+			8086 10
 		}
 
 	}
 
 	provinces={
-		6878 7544 7557 7586 7603 7609 7611 8086 
+		6878 7544 7557 7586 7603 7609 7611 8086 15915 15916 15918
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

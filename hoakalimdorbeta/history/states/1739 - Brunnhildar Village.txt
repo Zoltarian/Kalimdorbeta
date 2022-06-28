@@ -2,20 +2,33 @@
 state={
 	id=1739
 	name="STATE_1739"
+	resources={
+		ores = 4.000
+		gunpowder = 1.000
+		wheat = 9.000
+		eggs = 4.000
+	}
 
 	history={
-		
-		
-
-		buildings = {
-			infrastructure = 1
+		owner = HYL
+		add_core_of = HYL
+		victory_points = {
+			15652 10
 		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
 	}
 
 	provinces={
-		13462
+		13462 15642 15644 15648 15649 15652
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=23000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }

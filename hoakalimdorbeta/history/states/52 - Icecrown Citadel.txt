@@ -2,10 +2,21 @@
 state={
 	id=52
 	name="STATE_52"
+	resources={
+		ores = 10.000
+		gunpowder = 3.000
+		mana = 15.000
+	}
 
 	history={
+		owner = AZJ
+		add_core_of = AZJ
+		victory_points = {
+			15560 30
+		}
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 3
 
 		}
 		610.1.1 = {
@@ -18,10 +29,10 @@ state={
 	}
 
 	provinces={
-		8930 15547 15548 15549 15550 15551 15552 15553 15554 15555 15557 15558 15559 15560 15562 15565 15588 15589 15590 
+		8930 15547 15548 15549 15550 15551 15552 15553 15554 15555 15557 15558 15559 15560 15562 15565 15588 15589 15590
 	}
-	manpower=1425
+	manpower=22000
 	buildings_max_level_factor=1.000
-	state_category=building_slots_2
+	state_category=building_slots_5
 	local_supplies=0.000
 }

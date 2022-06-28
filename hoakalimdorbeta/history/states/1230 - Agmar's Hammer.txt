@@ -2,27 +2,39 @@
 state={
 	id=1230
 	name="STATE_1230"
+	resources={
+		ores = 2.000
+		wood = 11.000
+		mounts = 4.000
+		wheat = 2.000
+	}
 
 	history={
+		victory_points = {
+			13394 15
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
 
 		}
-		
-		
-
+		owner = AZJ
+		add_core_of = AZJ
 		620.1.1 = {
 			owner = OGR
 			controller = OGR
 			add_core_of = OGR
+
 		}
 
 	}
 
 	provinces={
-		10934 13339 13340 13344 13364 13367 13394 13406 13430 13433
+		10934 13339 13340 13344 13364 13367 13394 13406 13430 13433 15973 15974
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=22500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }

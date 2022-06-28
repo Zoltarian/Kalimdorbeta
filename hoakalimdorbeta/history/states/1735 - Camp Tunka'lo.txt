@@ -2,20 +2,34 @@
 state={
 	id=1735
 	name="STATE_1735"
+	resources={
+		ores = 4.000
+		wheat = 10.000
+		eggs = 4.000
+		wood = 2.000
+	}
 
 	history={
-		
-		
-
-		buildings = {
-			infrastructure = 1
+		owner = TLT
+		add_core_of = TLT
+		victory_points = {
+			13345 10
 		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+
 	}
 
 	provinces={
-		13345
+		13345 15706
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+
+	manpower=16000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_6
+	local_supplies=0.000
 }

@@ -2,21 +2,31 @@
 state={
 	id=1242
 	name="STATE_1242"
+	resources = {
+		ores = 3.000
+		mounts = 2.000
+		wheat = 5.000
+	}
 
 	history={
+		victory_points = {
+			15969 5
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
 		}
-		
-		
+		owner = SNT
+		add_core_of = SNT
 
 	}
 
 	provinces={
-		10931 13375 13379 13417 13422 13440 13451 
+		10931 13375 13379 13417 13422 13440 13451 15969 15972
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

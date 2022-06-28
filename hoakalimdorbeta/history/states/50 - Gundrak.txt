@@ -2,20 +2,43 @@
 state={
 	id=50
 	name="STATE_50"
+	resources={
+		wood = 5.000
+		wheat = 14.000
+		mana = 8.000
+		mounts = 5.000
+		oil = 4.000
+	}
 
 	history={
+		owner = DRA
+		add_core_of = DRA
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
 
+			7862 = {
+				naval_base = 5
+			}
+			196 = {
+				naval_base = 5
+			}
+
+		}
+
+		victory_points = {
+			6896 25
 		}
 
 	}
 
 	provinces={
-		3 45 196 5751 6896 7240 7263 7846 7848 7849 7851 7852 7855 7856 7857 7858 7860 7862 7863 7865 7869 7874 7876 
+		3 45 196 5751 6896 7240 7263 7846 7848 7849 7851 7852 7855 7857 7858 7860 7862 7863 7865 7869 7874 7876 15865 15866
 	}
-	manpower=1425
+	manpower=51000
 	buildings_max_level_factor=1.000
-	state_category=building_slots_2
+	state_category=building_slots_10
 	local_supplies=0.000
 }

@@ -1,19 +1,34 @@
+
 state={
 	id=2018
 	name="STATE_2018"
+	resources={
+		mana = 2.000
+		wheat = 9.000
+		ores = 5.000
+		gunpowder = 7.000
+	}
 
 	history={
-		
-		buildings = {
-			infrastructure = 1
+		owner = KOU
+		victory_points = {
+			15767 15
 		}
-		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = KOU
+
 	}
 
 	provinces={
-		5578
+		5578 15759 15761 15762 15764 15767 15768
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }

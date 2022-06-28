@@ -2,20 +2,31 @@
 state={
 	id=1728
 	name="STATE_1728"
+	resources={
+		ores = 7.000
+		gunpowder = 5.000
+		mana = 10.000
+	}
+
 
 	history={
-		
-		
-
-		buildings = {
-			infrastructure = 1
+		owner = KOU
+		add_core_of = KOU
+		victory_points = {
+			13478 10
 		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
 	}
 
 	provinces={
-		13478
+		13478 15681 15694 15695
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

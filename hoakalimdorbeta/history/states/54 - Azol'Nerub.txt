@@ -2,20 +2,32 @@
 state={
 	id=54
 	name="STATE_54"
+	resources = {
+		wheat = 14.000
+		mounts = 2.000
+		eggs = 7.000
+		mana = 18.000
+		ores = 12.000
+	}
 
 	history={
-		
-		
-
+		owner = AZJ
+		add_core_of = AZJ
+		victory_points = {
+			13403 30
+		}
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 5
 		}
 	}
 
 	provinces={
 		13304 13371 13378 13398 13403
 	}
-	manpower=1425
+	manpower=78500
 	local_supplies=0.0
-	state_category=building_slots_2
+	state_category=building_slots_14
 }

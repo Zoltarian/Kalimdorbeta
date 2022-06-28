@@ -4,19 +4,26 @@ state={
 	name="STATE_1771"
 
 	history={
-		
-		
+		owner = MWA
+		add_core_of = MWA
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			15890 10
 		}
 
 	}
 
 	provinces={
-		459 6871 10943 
+		459 6871 10943 15887 15889 15890 15892 15893
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

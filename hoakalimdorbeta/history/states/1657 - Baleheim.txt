@@ -2,21 +2,33 @@
 state={
 	id=1657
 	name="STATE_1657"
+	resources={
+		wood = 3
+		mounts = 4
+		eggs = 3
+		wheat = 5
+	}
 
 	history={
-		
-		
+		owner = WIC
+		add_core_of = WIC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			7559 10
 		}
 
 	}
 
 	provinces={
-		5330 6874 7559 7572 7584 7593 7596 7602 9154 
+		5330 6874 7559 7572 7584 7593 7596 7602 9154
 	}
-	manpower=25
+	manpower=28000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_5
 }

@@ -2,21 +2,38 @@
 state={
 	id=1712
 	name="STATE_1712"
+	resources={
+		wood = 4.000
+		wheat = 5.000
+		mana = 10.000
+		oil = 3.000
+	}
 
 	history={
-		
-		
+		owner = DRA
+		add_core_of = DRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
 
+			7883 = {
+				naval_base = 2
+			}
+
+		}
+
+		victory_points = {
+			2 10
 		}
 
 	}
 
 	provinces={
-		2 7878 7879 7883 7889 7890 7901 7908 7916 13436 
+		2 7878 7879 7883 7889 7890 7901 7908 7916 13436 15823 15828 15834 15839
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

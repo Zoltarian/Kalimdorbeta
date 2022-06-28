@@ -2,19 +2,26 @@
 state={
 	id=613
 	name="STATE_613"
+	resources={
+		mana = 50.000
+	}
+
 
 	history={
-		
-		
+		owner = YOG
+		add_core_of = YOG
+		victory_points = {
+			5587 20
+		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 
 		}
 
 	}
 
 	provinces={
-		5587 
+		5587
 	}
 	manpower=1425
 	local_supplies=0.0

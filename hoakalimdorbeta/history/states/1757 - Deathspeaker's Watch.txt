@@ -2,10 +2,21 @@
 state={
 	id=1757
 	name="STATE_1757"
+	resources={
+		ores = 3.000
+		oil = 2.000
+		gunpowder = 1.000
+	}
 
 	history={
+		owner = YHC
+		add_core_of = YHC
+		victory_points = {
+			3232 5
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
 		}
 		617.1.1 = {
@@ -18,10 +29,10 @@ state={
 	}
 
 	provinces={
-		3167 3187 3232 5804 8252 8271 
+		3167 3187 3232 5804 8252 8271
 	}
-	manpower=25
+	manpower=17000
 	buildings_max_level_factor=1.000
-	state_category=building_slots_0
+	state_category=building_slots_3
 	local_supplies=0.000
 }

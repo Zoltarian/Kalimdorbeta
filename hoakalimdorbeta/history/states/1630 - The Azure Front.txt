@@ -2,24 +2,33 @@
 state={
 	id=1630
 	name="STATE_1630"
+	resources={
+		ores = 3
+		wood = 5
+		mana = 12
+		wheat = 2
+	}
 
 	history={
-		
-		
+		owner = CSS
+		add_core_of = CSS
 		victory_points = {
 			8428 10
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 
 		}
 
 	}
 
 	provinces={
-		8341 8356 8422 8428 13380 
+		8341 8356 8422 8428 13380 15596 15600 15602 15605
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

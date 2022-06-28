@@ -2,21 +2,41 @@
 state={
 	id=1269
 	name="STATE_1269"
+	resources={
+		wheat = 15.000
+		oil = 4.000
+		gunpowder = 3.000
+	}
 
 	history={
-		
-		
+		owner = KLK
+		add_core_of = KLK
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 2
 
+			8892 = {
+				naval_base = 5
+			}
+			10922 = {
+				naval_base = 2
+			}
+
+		}
+
+		victory_points = {
+			8892 10
 		}
 
 	}
 
 	provinces={
-		8892 8893 8899 8903 8908 8909 8911 10922 10998 13360 
+		8892 8893 8899 8903 8908 10922
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_8
+	local_supplies=0.000
 }

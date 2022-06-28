@@ -2,20 +2,34 @@
 state={
 	id=1733
 	name="STATE_1733"
+	resources={
+		ores = 4.000
+		gunpowder = 1.000
+		mana = 6.000
+		wood = 1.000
+	}
+
 
 	history={
-		
-		
-
-		buildings = {
-			infrastructure = 1
+		owner = TLT
+		add_core_of = TLT
+		victory_points = {
+			15730 10
 		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
 	}
 
 	provinces={
-		505
+		505 15712 15720 15722 15723 15730 15737
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_3
+	local_supplies=0.000
 }

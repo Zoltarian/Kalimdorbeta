@@ -2,21 +2,29 @@
 state={
 	id=1282
 	name="STATE_1282"
+	resources={
+		wheat = 5.000
+		mounts = 3.000
+	}
 
 	history={
-		
-		
+		owner = KLK
+		add_core_of = KLK
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			7761 10
+		}
+
 	}
 
 	provinces={
-		430 7729 7761 7772 7780 
+		430 7729 7761 7772 7780
 	}
-	manpower=25
+	manpower=9000
 	local_supplies=0.0
 	state_category=building_slots_0
 }

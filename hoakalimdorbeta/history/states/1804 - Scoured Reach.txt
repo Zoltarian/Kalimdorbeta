@@ -2,21 +2,33 @@
 state={
 	id=1804
 	name="STATE_1804"
+	resources={
+		ores = 4.000
+		gunpowder = 2.000
+		mana = 2.000
+		oil = 2.000
+	}
 
 	history={
-		
-		
+		owner = THZ
+		add_core_of = THZ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			15449 10
 		}
 
 	}
 
 	provinces={
-		9160 15439 15443 15444 15449 15454 15456 15460 15465 
+		9160 15439 15443 15444 15449 15454 15456 15460 15465
 	}
-	manpower=25
+	manpower=11000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_4
 }

@@ -2,21 +2,31 @@
 state={
 	id=1263
 	name="STATE_1263"
+	resources={
+		wheat = 3.000
+		mounts = 4.000
+		gunpowder = 18.000
+	}
 
 	history={
-		
-		
+		owner = KLK
+		add_core_of = KLK
 		buildings = {
 			infrastructure = 1
 
 		}
 
+		victory_points = {
+			7533 10
+		}
+
 	}
 
 	provinces={
-		485 6886 7519 7525 7526 7528 7529 7530 7533 7538 7543 7545 7547 7568 7570 7578 7605 7612 7740 
+		485 6886 7519 7525 7526 7528 7529 7530 7533 7538 7543 7545 7547 7568 7570 7578 7605 7612 7740 15925 15928 15930 15933
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=9500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_2
+	local_supplies=0.000
 }

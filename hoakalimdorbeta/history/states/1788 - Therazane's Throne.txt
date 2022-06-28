@@ -2,21 +2,34 @@
 state={
 	id=1788
 	name="STATE_1788"
+	resources={
+		wheat = 13.000
+		mana = 15.000
+		ores = 14.000
+		gunpowder = 8.000
+		eggs = 3.000
+	}
 
 	history={
-		
-		
+		owner = THZ
+		add_core_of = THZ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			15471 25
 		}
 
 	}
 
 	provinces={
-		772 15470 15471 15473 15475 15476 15478 
+		772 15470 15471 15473 15475 15476 15478
 	}
-	manpower=25
+	manpower=26000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_6
 }

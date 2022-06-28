@@ -2,21 +2,34 @@
 state={
 	id=1679
 	name="STATE_1679"
+	resources={
+		wood = 3.000
+		mounts = 4.000
+		wheat = 7.000
+		ores = 2.000
+	}
 
 	history={
-		
-		
+		owner = SVB
+		add_core_of = SVB
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
 
+		}
+
+		victory_points = {
+			7554 10
 		}
 
 	}
 
 	provinces={
-		6162 7554 7594 7599 13305 
+		6162 7554 7594 7599 13305 16009
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }

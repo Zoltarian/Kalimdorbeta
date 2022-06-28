@@ -2,13 +2,24 @@
 state={
 	id=1655
 	name="STATE_1655"
+	resources={
+		ores = 3
+		oil = 2
+	}
 
 	history={
-		
-		
+		owner = DFC
+		add_core_of = DFC
 		buildings = {
 			infrastructure = 1
+			dockyard = 1
+			7573 = {
+				naval_base = 1
+			}
+		}
 
+		victory_points = {
+			7573 10
 		}
 
 		620.1.1 = {
@@ -21,7 +32,7 @@ state={
 	provinces={
 		7573 7598 7615 13330
 	}
-	manpower=25
+	manpower=9000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_3
 }

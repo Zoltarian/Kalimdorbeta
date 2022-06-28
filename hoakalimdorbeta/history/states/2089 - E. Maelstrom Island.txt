@@ -2,21 +2,32 @@
 state={
 	id=2089
 	name="STATE_2089"
+	resources={
+		ores = 2.000
+		oil = 1.000
+		mana = 1.000
+	}
 
 	history={
-		
+		owner = BLF
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 1
+			7725 = {
+				naval_base = 1
+			}
 		}
-		
+		add_core_of = BLF
+
+		victory_points = {
+			7725 5
+		}
 
 	}
 
 	provinces={
-		7725 15498 15499 
+		7725 15498 15499
 	}
-	manpower=25
+	manpower=2000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_2
 }

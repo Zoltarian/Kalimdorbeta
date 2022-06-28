@@ -2,26 +2,38 @@
 state={
 	id=1248
 	name="STATE_1248"
+	resources = {
+		wood = 1.000
+		ores = 8.000
+		gunpowder = 2.000
+	}
 
 	history={
-		
+		owner = BRF
+		victory_points = {
+			15970 15
+		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
 
 		}
-		
-
+		add_core_of = BRF
 		620.1.1 = {
 			
 			controller = STO
 			
+
 		}
+
 	}
 
 	provinces={
-		10935 13336 13342 13350 13365 13392 13400 13414 13420
+		10935 13336 13342 13350 13365 13392 13400 13414 13420 15970 15977
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_4
+	local_supplies=0.000
 }

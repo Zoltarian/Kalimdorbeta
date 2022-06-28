@@ -2,21 +2,33 @@
 state={
 	id=1266
 	name="STATE_1266"
+	resources={
+		wheat = 15.000
+		mounts = 6.000
+		gunpowder = 1.000
+	}
 
 	history={
-		
-		
+		owner = TKT
+		add_core_of = TKT
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 
+		}
+
+		victory_points = {
+			5328 10
 		}
 
 	}
 
 	provinces={
-		5328 7580 7824 7830 7834 10979 
+		5328 7580 7824 7834
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=29500
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }

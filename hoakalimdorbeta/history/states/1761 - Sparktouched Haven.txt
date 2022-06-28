@@ -2,21 +2,34 @@
 state={
 	id=1761
 	name="STATE_1761"
+	resources={
+		ores = 6.000
+		gunpowder = 2.000
+		wheat = 14.000
+		wood = 11.000
+		mana = 8.000
+	}
 
 	history={
-		
-		
+		owner = SKT
+		add_core_of = SKT
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
 
+		}
+
+		victory_points = {
+			8347 10
 		}
 
 	}
 
 	provinces={
-		6870 8337 8347 8366 8368 8371 8517 8553 9306 
+		6870 8337 8347 8366 8368 8371 8517 8553 9306
 	}
-	manpower=25
+	manpower=25000
 	local_supplies=0.0
-	state_category=building_slots_0
+	state_category=building_slots_7
 }

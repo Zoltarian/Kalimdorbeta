@@ -2,26 +2,40 @@
 state={
 	id=1765
 	name="STATE_1765"
+	resources={
+		ores = 2.000
+		wheat = 13.000
+		wood = 8.000
+		oil = 2.000
+	}
 
 	history={
-		
-		
-
+		owner = RST
+		add_core_of = RST
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		617.1.1 = {
+			owner = FHT
+			controller = FHT
+			add_core_of = FHT
+
 		}
 
-		617.1.1 = {
-			
-			controller = FHT
-			
+		victory_points = {
+			15873 10
 		}
+
 	}
 
 	provinces={
-		9321
+		9321 15868 15870 15871 15873 15905
 	}
-	manpower=25
-	local_supplies=0.0
-	state_category=building_slots_0
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=building_slots_5
+	local_supplies=0.000
 }
