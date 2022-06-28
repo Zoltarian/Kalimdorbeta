@@ -15,6 +15,14 @@ BON = {
 			"gfx/leaders/TID/tideskorngeneric3.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/TID/tideskorngeneric1.dds"
+			"gfx/leaders/TID/tideskorngeneric2.dds"
+			"gfx/leaders/TID/tideskorngeneric3.dds"
+		}
+	}
 }
 
 DRK = {
@@ -33,6 +41,14 @@ DRK = {
 			"gfx/leaders/TID/tideskorngeneric3.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/TID/tideskorngeneric1.dds"
+			"gfx/leaders/TID/tideskorngeneric2.dds"
+			"gfx/leaders/TID/tideskorngeneric3.dds"
+		}
+	}
 }
 
 TID = {
@@ -45,6 +61,14 @@ TID = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/TID/tideskorngeneric1.dds"
+			"gfx/leaders/TID/tideskorngeneric2.dds"
+			"gfx/leaders/TID/tideskorngeneric3.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/TID/tideskorngeneric1.dds"
 			"gfx/leaders/TID/tideskorngeneric2.dds"
@@ -70,22 +94,12 @@ VAK = {
 			"gfx/leaders/TID/tideskorngeneric3.dds"
 		}
 	}
-}
 
-VAL = {
-	army = {
+	operative = {
 		male = {
-			"gfx/leaders/VAL/Portrait_valajar_Generic_land_1.dds"
-			"gfx/leaders/VAL/Portrait_valajar_Generic_land_2.dds"
-			"gfx/leaders/VAL/Portrait_valajar_Generic_land_3.dds"
-		}
-	}
-	
-	navy = {
-		male = {
-			"gfx/leaders/VAL/Portrait_valajar_Generic_land_1.dds"
-			"gfx/leaders/VAL/Portrait_valajar_Generic_land_2.dds"
-			"gfx/leaders/VAL/Portrait_valajar_Generic_land_3.dds"
+			"gfx/leaders/TID/tideskorngeneric1.dds"
+			"gfx/leaders/TID/tideskorngeneric2.dds"
+			"gfx/leaders/TID/tideskorngeneric3.dds"
 		}
 	}
 }

@@ -15,44 +15,12 @@ AER = {
 			"gfx/leaders/AER/Portrait_AER_Generic_land_3.dds"
 		}
 	}
-}
 
-DIC = {
-	army = {
+	operative = {
 		male = {
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_1.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_2.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_4.dds"
-		}
-	}
-	
-	navy = {
-		male = {
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_1.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_2.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_4.dds"
-		}
-	}
-}
-
-THR = {
-	army = {
-		male = {
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_1.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_2.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_4.dds"
-		}
-	}
-	
-	navy = {
-		male = {
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_1.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_2.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_3.dds"
-			"gfx/leaders/DIC/Portrait_DIC_Generic_land_4.dds"
+			"gfx/leaders/AER/Portrait_AER_Generic_land_1.dds"
+			"gfx/leaders/AER/Portrait_AER_Generic_land_2.dds"
+			"gfx/leaders/AER/Portrait_AER_Generic_land_3.dds"
 		}
 	}
 }
@@ -69,6 +37,16 @@ NRT = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/NRT/Portrait_NRT_Generic_land_1.dds"
+			"gfx/leaders/NRT/Portrait_NRT_Generic_land_2.dds"
+			"gfx/leaders/NRT/Portrait_NRT_Generic_land_3.dds"
+			"gfx/leaders/NRT/Portrait_NRT_Generic_land_4.dds"
+			"gfx/leaders/NRT/Portrait_NRT_Generic_land_5.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/NRT/Portrait_NRT_Generic_land_1.dds"
 			"gfx/leaders/NRT/Portrait_NRT_Generic_land_2.dds"
@@ -97,6 +75,15 @@ DUN = {
 			"gfx/leaders/IRO/IRO_generic_4.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/IRO/IRO_generic_1.dds"
+			"gfx/leaders/IRO/IRO_generic_2.dds"
+			"gfx/leaders/IRO/IRO_generic_3.dds"
+			"gfx/leaders/IRO/IRO_generic_4.dds"
+		}
+	}
 }
 
 IRO = {
@@ -117,6 +104,15 @@ IRO = {
 			"gfx/leaders/IRO/IRO_generic_4.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/IRO/IRO_generic_1.dds"
+			"gfx/leaders/IRO/IRO_generic_2.dds"
+			"gfx/leaders/IRO/IRO_generic_3.dds"
+			"gfx/leaders/IRO/IRO_generic_4.dds"
+		}
+	}
 }
 
 SPC = {
@@ -130,6 +126,15 @@ SPC = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/IRO/IRO_generic_1.dds"
+			"gfx/leaders/IRO/IRO_generic_2.dds"
+			"gfx/leaders/IRO/IRO_generic_3.dds"
+			"gfx/leaders/IRO/IRO_generic_4.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/IRO/IRO_generic_1.dds"
 			"gfx/leaders/IRO/IRO_generic_2.dds"

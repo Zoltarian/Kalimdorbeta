@@ -12,6 +12,33 @@ BLS = {
 			"gfx/leaders/BLS/generic_2.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BLS/generic_1.dds"
+			"gfx/leaders/BLS/generic_2.dds"
+		}
+	}
+}
+
+CMT = {
+	army = {
+		male = {
+			"gfx/leaders/CMT/generic_1.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/CMT/generic_1.dds"
+		}
+	}
+
+	operative = {
+		male = {
+			"gfx/leaders/CMT/generic_1.dds"
+		}
+	}
 }
 
 DFT = {
@@ -23,6 +50,13 @@ DFT = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/DFT/generic_1.dds"
+			"gfx/leaders/DFT/generic_2.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/DFT/generic_1.dds"
 			"gfx/leaders/DFT/generic_2.dds"
@@ -44,6 +78,13 @@ GMT = {
 			"gfx/leaders/GMT/generic_2.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/GMT/generic_1.dds"
+			"gfx/leaders/GMT/generic_2.dds"
+		}
+	}
 }
 
 MIR = {
@@ -55,6 +96,13 @@ MIR = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/MIR/generic_1.dds"
+			"gfx/leaders/MIR/generic_2.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/MIR/generic_1.dds"
 			"gfx/leaders/MIR/generic_2.dds"
@@ -78,6 +126,14 @@ MUT = {
 			"gfx/leaders/MUT/generic_3.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/MUT/generic_1.dds"
+			"gfx/leaders/MUT/generic_2.dds"
+			"gfx/leaders/MUT/generic_3.dds"
+		}
+	}
 }
 
 SAT = {
@@ -88,6 +144,12 @@ SAT = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/SAT/generic_1.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/SAT/generic_1.dds"
 		}
@@ -103,6 +165,13 @@ SIL = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/SIL/generic_1.dds"
+			"gfx/leaders/SIL/generic_2.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/SIL/generic_1.dds"
 			"gfx/leaders/SIL/generic_2.dds"
@@ -124,6 +193,46 @@ UWT = {
 			"gfx/leaders/UWT/generic_1.dds"
 			"gfx/leaders/UWT/generic_2.dds"
 			"gfx/leaders/UWT/generic_3.dds"
+		}
+	}
+
+	operative = {
+		male = {
+			"gfx/leaders/UWT/generic_1.dds"
+			"gfx/leaders/UWT/generic_2.dds"
+			"gfx/leaders/UWT/generic_3.dds"
+		}
+	}
+}
+
+WTF = {
+	army = {
+		male = {
+			"gfx/leaders/WTF/generic_1.dds"
+			"gfx/leaders/WTF/generic_2.dds"
+			"gfx/leaders/WTF/generic_3.dds"
+			"gfx/leaders/WTF/generic_4.dds"
+			"gfx/leaders/WTF/generic_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/WTF/generic_1.dds"
+			"gfx/leaders/WTF/generic_2.dds"
+			"gfx/leaders/WTF/generic_3.dds"
+			"gfx/leaders/WTF/generic_4.dds"
+			"gfx/leaders/WTF/generic_5.dds"
+		}
+	}
+
+	operative = {
+		male = {
+			"gfx/leaders/WTF/generic_1.dds"
+			"gfx/leaders/WTF/generic_2.dds"
+			"gfx/leaders/WTF/generic_3.dds"
+			"gfx/leaders/WTF/generic_4.dds"
+			"gfx/leaders/WTF/generic_5.dds"
 		}
 	}
 }

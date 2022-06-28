@@ -12,6 +12,13 @@ SHT = {
 			"gfx/leaders/SHT/generic_2.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/SHT/generic_1.dds"
+			"gfx/leaders/SHT/generic_2.dds"
+		}
+	}
 }
 
 TSW = {
@@ -26,6 +33,12 @@ TSW = {
 			"gfx/leaders/TSW/molt_thorn.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/TSW/molt_thorn.dds"
+		}
+	}
 }
 
 TAR = {
@@ -36,6 +49,12 @@ TAR = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/TAR/generic_1.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/TAR/generic_1.dds"
 		}
@@ -55,6 +74,12 @@ THI = {
 			"gfx/leaders/THI/generic_1.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/THI/generic_1.dds"
+		}
+	}
 }
 
 TWV = {
@@ -66,6 +91,13 @@ TWV = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/TWV/generic_1.dds"
+			"gfx/leaders/TWV/generic_2.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/TWV/generic_1.dds"
 			"gfx/leaders/TWV/generic_2.dds"

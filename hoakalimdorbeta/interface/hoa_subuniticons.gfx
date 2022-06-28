@@ -34,8 +34,36 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_captain_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_captain_icon.dds" noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_guard_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_guard_icon.dds" noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_priest_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_priest_icon.dds" noOfFrames = 1 }
+    spriteType = { name = "GFX_unit_supply_wagon_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_supply_wagon_icon.dds" noOfFrames = 1 }
 
-	spriteType = { name = "GFX_unit_supply_wagon_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_supply_wagon_icon.dds" noOfFrames = 1 }
+	### Dwarf units
+
+	spriteType = { name = "GFX_unit_dwarf_axeman_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_dwarf_axeman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_rifleman_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_rifleman_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_ram_rider_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_ram_rider_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mortar_team_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_mortar_team_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_steam_tank_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_steam_tank_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_siege_engine_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_siege_engine_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mountain_king_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_mountain_king_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_explorer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_explorer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_siege_tank_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_siege_tank_icon.dds" noOfFrames = 1 }
+
+	### Dwarf support units
+
+	spriteType = { name = "GFX_unit_craftsman_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_craftsman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_miner_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_miner_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_enforcer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_enforcer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mountaineer_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_mountaineer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_engineer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_engineer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_rune_priest_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_rune_priest_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_thane_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_thane_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mortar_team_support_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_mortar_team_support_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_steam_wagon_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_steam_wagon_icon.dds" noOfFrames = 1 }
 
 	#orc units
 	spriteType = { name = "GFX_unit_grunt_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_grunt_icon.dds" noOfFrames = 1 }
@@ -113,6 +141,21 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_paladin_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_paladin_icon.dds" noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_arch_mage_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_arch_mage_icon.dds" noOfFrames = 1 }
 
+	#dwarf units
+
+	spriteType = { name = "GFX_unit_dwarf_axeman_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dwarf_axeman_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_rifleman_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rifleman_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_ram_rider_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ram_rider_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mortar_team_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mortar_team_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_steam_tank_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_steam_tank_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_siege_engine_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_siege_engine_icon.dds" noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mountain_king_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mountain_king_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_explorer_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_explorer_icon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_siege_tank_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_siege_tank_icon.dds" noOfFrames = 1 }
+
 	#orc units
 	spriteType = { name = "GFX_unit_grunt_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_grunt_icon.dds" noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_spearman_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_spearman_icon.dds" noOfFrames = 1 }
@@ -162,7 +205,9 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_mounted_footman_icon_small"							textureFile = "gfx/texticons/unit_mounted_footman_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_knight_icon_small"									textureFile = "gfx/texticons/unit_knight_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
+	spriteType = { name = "GFX_unit_supply_wagon_icon_small"							textureFile = "gfx/texticons/unit_supply_wagon_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_catapult_icon_small"								textureFile = "gfx/texticons/unit_catapult_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_horse_drawn_catapult_icon_small"					textureFile = "gfx/texticons/unit_catapult_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
 	spriteType = { name = "GFX_unit_royal_guard_icon_small"								textureFile = "gfx/texticons/unit_royal_guard_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_paladin_icon_small"									textureFile = "gfx/texticons/unit_paladin_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }

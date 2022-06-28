@@ -10,6 +10,12 @@ AML = {
 			"gfx/leaders/AML/generic_1.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/AML/generic_1.dds"
+		}
+	}
 }
 
 BML = {
@@ -20,6 +26,12 @@ BML = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/BML/generic_1.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/BML/generic_1.dds"
 		}
@@ -36,6 +48,14 @@ BPL = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/BPL/generic_1.dds"
+			"gfx/leaders/BPL/generic_2.dds"
+			"gfx/leaders/BPL/generic_3.dds"	
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/BPL/generic_1.dds"
 			"gfx/leaders/BPL/generic_2.dds"

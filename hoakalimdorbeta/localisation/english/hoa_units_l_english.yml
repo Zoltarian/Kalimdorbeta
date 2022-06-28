@@ -39,7 +39,7 @@
  rogue_desc:0 "Rogues gather intel about our enemies before battle allowing us to catch them off-guard."
 
 ########################
-#Human infnatry tree
+#Human infantry tree
 ########################
  footman:0 "Footman"
  footman_desc:0 "Footmen are the backbone of any army. They utilize broadswords and durable shields to control the battlefield."
@@ -97,6 +97,65 @@
  arch_mage:0 "Archmage"
  arch_mage_desc:0 "Archmages wield destructive magical powers capable of leveling cities, but are vulnerable to all types of troops."
 
+###############################################################
+#Dwarf
+###############################################################
+
+########################
+#Dwarf admin tree
+########################
+craftsman:0 "Craftsman"
+craftsman_desc:0 "Craftsman"
+miner:0 "Miner"
+miner_desc:0 "Miner"
+
+########################
+#Dwarf infnatry tree
+########################
+dwarf_axeman:0 "Axeman"
+dwarf_axeman_desc:0 "Axeman"
+enforcer:0 "Enforcer"
+enforcer_desc:0 "Enforcer"
+mountaineer:0 "Mountaineer"
+mountaineer_desc:0 "Mountaineer"
+rifleman:0 "Rifleman"
+rifleman_desc:0 "Rifleman"
+engineer:0 "Engineer"
+engineer_desc:0 "Engineer"
+rune_priest:0 "Rune Priest"
+rune_priest_desc:0 "Rune Priest"
+thane:0 "Thane"
+thane_desc:0 "Thane"
+
+########################
+#Dwarf Cavalry tree
+########################
+ram_rider:0 "Ram Rider"
+ram_rider_desc:0 "Ram Rider"
+
+########################
+#Dwarf siege engine
+########################
+mortar_team:0 "Mortar Team"
+mortar_team_desc:0 "Mortar Team"
+mortar_team_support:0 "Mortar Team (Support)"
+mortar_team_support_desc:0 "Mortar Team (Support)"
+steam_tank:0 "Steam Tank"
+steam_tank_desc:0 "Steam Tank"
+steam_wagon:0 "Steam Wagon"
+steam_wagon_desc:0 "Steam Wagon"
+siege_engine:0 "Siege Engine"
+siege_engine_desc:0 "Siege Engine"
+
+########################
+#Dwarf Heroic Units
+########################
+mountain_king:0 "Mountain King"
+mountain_king_desc:0 "Mountain King"
+explorer:0 "Explorer"
+explorer_desc:0 "Explorer"
+siege_tank:0 "Siege Tank"
+siege_tank_desc:0 "Siege Tank"
 
 ###############################################################
 #Orc

@@ -1247,21 +1247,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/artillery2.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_hoa_steam_tank_1_medium"
-		texturefile = "gfx/interface/technologies/siege_tank_tech.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_hoa_steam_tank_2_medium"
-		texturefile = "gfx/interface/technologies/siege_tank_tech.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_hoa_steam_tank_3_medium"
-		texturefile = "gfx/interface/technologies/siege_tank_tech.dds"
-	}
-
 #####################################################
 #Human Support technologies
 #####################################################
@@ -4356,6 +4341,374 @@ spriteTypes = {
 	}
 
 #####################################################
+#Troll administration tech
+#####################################################
+
+SpriteType = {
+		name = "GFX_troll_encryption_1_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+SpriteType = {
+		name = "GFX_troll_encryption_2_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+SpriteType = {
+		name = "GFX_troll_encryption_3_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+SpriteType = {
+		name = "GFX_troll_encryption_4_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+SpriteType = {
+		name = "GFX_troll_decryption_1_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+SpriteType = {
+		name = "GFX_troll_decryption_2_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+SpriteType = {
+		name = "GFX_troll_decryption_3_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+SpriteType = {
+		name = "GFX_troll_decryption_4_medium"
+		texturefile = "gfx/interface/technologies/encryption.dds"
+	}
+
+#####################################################
+#Troll infantry tech
+#####################################################
+
+#####################################################
+#Troll cavalry tech
+#####################################################
+	SpriteType = {
+		name = "GFX_troll_dino_pen_tech_medium"
+		texturefile = "gfx/interface/technologies/beastiary.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_direhorn_tech_medium"
+		texturefile = "gfx/interface/technologies/direhorn.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_direhorn_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/direhorn_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_direhorn_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/direhorn_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_direhorn_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/direhorn_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raptor_tech_medium"
+		texturefile = "gfx/interface/technologies/raptor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raptor_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/raptor_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raptor_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/raptor_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raptor_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/raptor_equipment.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_raptor_rider_tech_medium"
+		texturefile = "gfx/interface/technologies/raptor_rider.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raptor_rider_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/raptor_rider_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raptor_rider_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/raptor_rider_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_raptor_rider_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/raptor_rider_equipment.dds"
+	}
+
+#####################################################
+#Troll siege works tech
+#####################################################
+
+#####################################################
+#Troll support tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_altar_of_de_loa_tech_medium"
+		texturefile = "gfx/interface/technologies/altar_of_storms.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dire_troll_tech_medium"
+		texturefile = "gfx/interface/technologies/dire_troll.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shadow_hunter_tech_medium"
+		texturefile = "gfx/interface/technologies/shadow_hunter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devilsaur_tech_medium"
+		texturefile = "gfx/interface/technologies/devilsaur.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devilsaur_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/devilsaur_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devilsaur_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/devilsaur_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_devilsaur_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/devilsaur_equipment.dds"
+	}
+
+
+#####################################################
+#Dwarf admin tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_dwarf_hovel_tech_medium"
+		texturefile = "gfx/interface/technologies/dwarf_hovel.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_hold_tech_medium"
+		texturefile = "gfx/interface/technologies/dwarf_hold.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_great_hall_tech_medium"
+		texturefile = "gfx/interface/technologies/dwarf_great_hall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_craftsman_tech_medium"
+		texturefile = "gfx/interface/technologies/craftsman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_miner_tech_medium"
+		texturefile = "gfx/interface/technologies/miner.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_sulfur_mine_tech_medium"
+		texturefile = "gfx/interface/technologies/sulfur_mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_ore_mine_tech_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mining_tools_1_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mining_tools_2_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mining_tools_3_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mining_tools_4_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mining_tools_5_medium"
+		texturefile = "gfx/interface/technologies/pick_axe_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mine_cart_1_medium"
+		texturefile = "gfx/interface/technologies/minecart.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mine_cart_2_medium"
+		texturefile = "gfx/interface/technologies/minecart_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mine_cart_3_medium"
+		texturefile = "gfx/interface/technologies/minecart_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_mine_cart_4_medium"
+		texturefile = "gfx/interface/technologies/minecart_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_miner_1_medium"
+		texturefile = "gfx/interface/technologies/miner_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_miner_2_medium"
+		texturefile = "gfx/interface/technologies/miner_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_miner_3_medium"
+		texturefile = "gfx/interface/technologies/miner_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_miner_4_medium"
+		texturefile = "gfx/interface/technologies/miner_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_tools_equipment_tech_medium"
+		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_craftsman_1_medium"
+		texturefile = "gfx/interface/technologies/craftsman_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_craftsman_2_medium"
+		texturefile = "gfx/interface/technologies/craftsman_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_craftsman_3_medium"
+		texturefile = "gfx/interface/technologies/craftsman_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_craftsman_4_medium"
+		texturefile = "gfx/interface/technologies/craftsman_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_craftsman_tools_1_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_craftsman_tools_2_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_craftsman_tools_3_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_craftsman_tools_4_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_craftsman_tools_5_medium"
+		texturefile = "gfx/interface/technologies/peasant_tools_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_workshop_tech_medium"
+		texturefile = "gfx/interface/technologies/workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_foundry_tech_medium"
+		texturefile = "gfx/interface/technologies/blacksmith.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_underground_development_1_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_underground_development_2_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_underground_development_3_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_underground_development_4_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_underground_development_5_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarven_forge_1_medium"
+		texturefile = "gfx/interface/technologies/forge_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarven_forge_2_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarven_forge_3_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarven_forge_4_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarven_forge_5_medium"
+		texturefile = "gfx/interface/technologies/forge_tech_5.dds"
+	}
+
+#####################################################
 #Dwarf infantry tech
 #####################################################
 
@@ -4370,8 +4723,413 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_enforcer_tech_medium"
+		texturefile = "gfx/interface/technologies/enforcer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_enforcer_1_medium"
+		texturefile = "gfx/interface/technologies/enforcer_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_enforcer_2_medium"
+		texturefile = "gfx/interface/technologies/enforcer_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_enforcer_3_medium"
+		texturefile = "gfx/interface/technologies/enforcer_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_enforcer_4_medium"
+		texturefile = "gfx/interface/technologies/enforcer_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_axeman_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/dwarf_axeman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_axeman_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/dwarf_axeman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_axeman_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/dwarf_axeman_equipment.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_rifleman_tech_medium"
 		texturefile = "gfx/interface/technologies/rifleman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mountaineer_tech_medium"
+		texturefile = "gfx/interface/technologies/mountaineer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_mountaineer_1_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_mountaineer_2_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_mountaineer_3_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_mountaineer_4_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rifleman_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/rifleman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rifleman_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/rifleman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rifleman_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/rifleman_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_engineer_tech_medium"
+		texturefile = "gfx/interface/technologies/engineer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_engineer_1_medium"
+		texturefile = "gfx/interface/technologies/engineer_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_engineer_2_medium"
+		texturefile = "gfx/interface/technologies/engineer_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_engineer_3_medium"
+		texturefile = "gfx/interface/technologies/engineer_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_engineer_4_medium"
+		texturefile = "gfx/interface/technologies/engineer_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_runecarvers_sanctum_tech_medium"
+		texturefile = "gfx/interface/technologies/runecarvers_sanctum.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rune_priest_tech_medium"
+		texturefile = "gfx/interface/technologies/rune_priest.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rune_priest_1_medium"
+		texturefile = "gfx/interface/technologies/rune_priest_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rune_priest_2_medium"
+		texturefile = "gfx/interface/technologies/rune_priest_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rune_priest_3_medium"
+		texturefile = "gfx/interface/technologies/rune_priest_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rune_priest_4_medium"
+		texturefile = "gfx/interface/technologies/rune_priest_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_runes_equipment_tech_medium"
+		texturefile = "gfx/interface/technologies/runes_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_thane_tech_medium"
+		texturefile = "gfx/interface/technologies/thane.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_thane_1_medium"
+		texturefile = "gfx/interface/technologies/thane_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_thane_2_medium"
+		texturefile = "gfx/interface/technologies/thane_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_thane_3_medium"
+		texturefile = "gfx/interface/technologies/thane_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_thane_4_medium"
+		texturefile = "gfx/interface/technologies/thane_4.dds"
+	}
+
+#####################################################
+#Dwarf cavalry tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_ram_stables_tech_medium"
+		texturefile = "gfx/interface/technologies/ram_stables.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_breeding_1_medium"
+		texturefile = "gfx/interface/technologies/ram_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_breeding_2_medium"
+		texturefile = "gfx/interface/technologies/ram_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_breeding_3_medium"
+		texturefile = "gfx/interface/technologies/ram_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_breeding_4_medium"
+		texturefile = "gfx/interface/technologies/ram_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_rider_tech_medium"
+		texturefile = "gfx/interface/technologies/ram_rider.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_rider_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/ram_rider_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_rider_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/ram_rider_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ram_rider_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/ram_rider_equipment.dds"
+	}
+
+#####################################################
+#Dwarf siege weapons tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_dwarf_siege_workshop_medium"
+		texturefile = "gfx/interface/technologies/siege_workshop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_team_tech_medium"
+		texturefile = "gfx/interface/technologies/mortar_team.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_team_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/mortar_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_team_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/mortar_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_team_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/mortar_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_caravan_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/caravan_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_caravan_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/caravan_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_caravan_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/caravan_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_wagon_tech_medium"
+		texturefile = "gfx/interface/technologies/steam_wagon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_tank_tech_medium"
+		texturefile = "gfx/interface/technologies/steam_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_tank_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/steam_tank_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_tank_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/steam_tank_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_tank_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/steam_tank_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_wagon_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/steam_wagon_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_steam_wagon_1_medium"
+		texturefile = "gfx/interface/technologies/steam_wagon_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_steam_wagon_2_medium"
+		texturefile = "gfx/interface/technologies/steam_wagon_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_steam_wagon_3_medium"
+		texturefile = "gfx/interface/technologies/steam_wagon_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_steam_wagon_4_medium"
+		texturefile = "gfx/interface/technologies/steam_wagon_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_siege_engine_tech_medium"
+		texturefile = "gfx/interface/technologies/siege_engine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_siege_engine_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/siege_engine_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_siege_engine_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/siege_engine_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_siege_engine_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/siege_engine_equipment.dds"
+	}
+
+#####################################################
+#Dwarf support tech
+#####################################################
+
+	SpriteType = {
+		name = "GFX_altar_of_stoneborn_kings_tech_medium"
+		texturefile = "gfx/interface/technologies/altar_of_kings.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_heroic_training_tech_1_medium"
+		texturefile = "gfx/interface/technologies/heroic_training.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_heroic_training_tech_2_medium"
+		texturefile = "gfx/interface/technologies/heroic_training.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dwarf_heroic_training_tech_3_medium"
+		texturefile = "gfx/interface/technologies/heroic_training.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mountain_king_tech_medium"
+		texturefile = "gfx/interface/technologies/mountain_king.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mountain_king_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/mountain_king_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mountain_king_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/mountain_king_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mountain_king_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/mountain_king_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_explorer_tech_medium"
+		texturefile = "gfx/interface/technologies/explorer.dds"
+	}
+	SpriteType = {
+		name = "GFX_explorer_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/explorer_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_explorer_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/explorer_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_explorer_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/explorer_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_siege_tank_tech_medium"
+		texturefile = "gfx/interface/technologies/siege_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_siege_tank_equipment_tech_1_medium"
+		texturefile = "gfx/interface/technologies/siege_tank_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_siege_tank_equipment_tech_2_medium"
+		texturefile = "gfx/interface/technologies/siege_tank_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_siege_tank_equipment_tech_3_medium"
+		texturefile = "gfx/interface/technologies/siege_tank_equipment.dds"
 	}
 
 #####################################################

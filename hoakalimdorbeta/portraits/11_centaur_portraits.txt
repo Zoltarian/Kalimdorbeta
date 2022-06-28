@@ -18,6 +18,16 @@ GAL = {
 			"gfx/leaders/GAL/generic_female.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/GAL/generic_1.dds"
+			"gfx/leaders/GAL/generic_2.dds"
+		}
+		female = {
+			"gfx/leaders/GAL/generic_female.dds"
+		}
+	}
 }
 
 GLC = {
@@ -32,6 +42,16 @@ GLC = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/GLC/generic_1.dds"
+			"gfx/leaders/GLC/generic_2.dds"
+		}
+		female = {
+			"gfx/leaders/GLC/generic_female.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/GLC/generic_1.dds"
 			"gfx/leaders/GLC/generic_2.dds"
@@ -62,6 +82,16 @@ KOL = {
 			"gfx/leaders/KOL/generic_female.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/KOL/generic_1.dds"
+			"gfx/leaders/KOL/generic_2.dds"
+		}
+		female = {
+			"gfx/leaders/KOL/generic_female.dds"
+		}
+	}
 }
 
 MAU = {
@@ -84,6 +114,16 @@ MAU = {
 			"gfx/leaders/MAU/generic_female.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/MAU/generic_1.dds"
+			"gfx/leaders/MAU/generic_2.dds"
+		}
+		female = {
+			"gfx/leaders/MAU/generic_female.dds"
+		}
+	}
 }
 
 MGC = {
@@ -97,7 +137,7 @@ MGC = {
 		}
 	}
 	
-	navy = {
+	operative = {
 		male = {
 			"gfx/leaders/MGC/generic_1.dds"
 			"gfx/leaders/MGC/generic_2.dds"

@@ -1,0 +1,254 @@
+﻿l_english:
+  RULE_OPTION_DEFAULT_MAP_SETUP_DESC:0 "The area will be unchanged."
+
+  ####################################################
+  # Northrend
+  ####################################################
+  RULE_GROUP_MAP_SETUP_NORTHREND:0 "Northrend Map Setup"
+
+  NORTHREND_GLOBAL_SETUP_GAMERULE:0 "§HNorthrend Global Setup§!"
+  RULE_OPTION_NORTHREND_GLOBAL_DISABLED:0 "Disabled"
+  RULE_OPTION_NORTHREND_GLOBAL_DISABLED_DESC:0 "The entire continent of §HNorthrend§! will be disabled.\nThis will override any other setup options in the Northrend category. \n\n§GThis should greatly improve performances.§!"
+
+  ZUL_DRAK_SETUP_GAMERULE:0 "Zul'drak Setup"
+  RULE_OPTION_ZUL_DRAK_NO_MINOR:0 "No Minor Nations"
+  RULE_OPTION_ZUL_DRAK_NO_MINOR_DESC:0 "The §Hminor nations§! of §HZul'drak§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HRageclaw Tribe§! annexed by §HDrakkari Empire§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_ZUL_DRAK_DISABLED:0 "Disabled"
+  RULE_OPTION_ZUL_DRAK_DISABLED_DESC:0 "The entirety of §HZul'drak§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  CRYSTALSONG_SETUP_GAMERULE:0 "Crystalsong Forest Setup"
+  RULE_OPTION_CRYSTALSONG_DISABLED:0 "Disabled"
+  RULE_OPTION_CRYSTALSONG_DISABLED_DESC:0 "The entirety of §HCrystalsong Forest§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  WINTERGRASP_SETUP_GAMERULE:0 "Wintergrasp Setup"
+  RULE_OPTION_WINTERGRASP_DISABLED:0 "Disabled"
+  RULE_OPTION_WINTERGRASP_DISABLED_DESC:0 "The entirety of §HWintergrasp§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  DRAGONBLIGHT_SETUP_GAMERULE:0 "Dragonblight Setup"
+  RULE_OPTION_DRAGONBLIGHT_NO_MINOR:0 "No Minor Nations"
+  RULE_OPTION_DRAGONBLIGHT_NO_MINOR_DESC:0 "The §Hminor nations§! of §HDragonblight§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HSnowplain Tribe§! annexed by §HRed Dragonflight§!\n- §HColdwind Tribe§! annexed by §HRed Dragonflight§!\n- §HCrystal Vice Giants§! annexed by §HRed Dragonflight§!\n- §HBloodpaw Tribe§! annexed by §HBronze Dragonflight§! and §HGreen Dragonflight§!\n- §HSnowfall Tribe§! annexed by §HBlue Dragonflight§!\n- §HWinter's Sisters§! annexed by §HKalu'ak§!\n- §HIcemist Tribe§! annexed by §HAzjol'Nerub§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_DRAGONBLIGHT_DRAGON_ONLY:0 "Dragon Only"
+  RULE_OPTION_DRAGONBLIGHT_DRAGON_ONLY_DESC:0 "The territories of the §Hnon-draconic§! nations in §HDragonblight§! will be annexed by the different §Hdragonflights§!.\n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_DRAGONBLIGHT_DISABLED:0 "Disabled"
+  RULE_OPTION_DRAGONBLIGHT_DISABLED_DESC:0 "The entirety of §HDragonblight§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  GRIZZLY_HILLS_SETUP_GAMERULE:0 "Grizzly Hills Setup"
+  RULE_OPTION_GRIZZLY_HILLS_NO_MAJOR:0 "No Powerful Nations"
+  RULE_OPTION_GRIZZLY_HILLS_NO_MAJOR_DESC:0 "The territories of some §Hpowerful nations§! in the §HGrizzly Hills§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HDrakkari Empire§!\n- §HDragonflayer Clan§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_GRIZZLY_HILLS_DISABLED:0 "Disabled"
+  RULE_OPTION_GRIZZLY_HILLS_DISABLED_DESC:0 "The entirety of the §HHowling Fjord§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  STORM_PEAKS_SETUP_GAMERULE:0 "Storm Peaks Setup"
+  RULE_OPTION_STORM_PEAKS_NO_MINOR:0 "No Minor Nations"
+  RULE_OPTION_STORM_PEAKS_NO_MINOR_DESC:0 "The §Hminor nations§! of the §HStorm Peaks§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HEarthen Exiles§! annexed by §HKeepers of Ulduar§!\n- §HTaunka'lo Tribe§! annexed by §HKeepers of Ulduar§!\n- §HFrostfeather Tribe§! annexed by §HValkyrion Clan§!\n- §HThe Frostborn§! annexed by §HValkyrion Clan§!\n- §HSnowblind Clan§! annexed by §HHyldnir Clan§!\n- §HSavage Hill Tribe§! annexed by §HHyldnir Clan§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_STORM_PEAKS_DISABLED:0 "Disabled"
+  RULE_OPTION_STORM_PEAKS_DISABLED_DESC:0 "The entirety of the §HStorm Peaks§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  ICECROWN_SETUP_GAMERULE:0 "Icecrown Setup"
+  RULE_OPTION_ICECROWN_DISABLED:0 "Disabled"
+  RULE_OPTION_ICECROWN_DISABLED_DESC:0 "The entirety of §HIcecrown§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  SHOLAZAR_SETUP_GAMERULE:0 "Sholazar Basin Setup"
+  RULE_OPTION_SHOLAZAR_NO_MINOR:0 "No Minor Nations"
+  RULE_OPTION_SHOLAZAR_NO_MINOR_DESC:0 "The §Hminor nations§! of the §HSholazar Basin§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HSholazar Watchers§! annexed by §HMistwhisper Tribe§! and §HMosswalker Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_SHOLAZAR_DISABLED:0 "Disabled"
+  RULE_OPTION_SHOLAZAR_DISABLED_DESC:0 "The entirety of the §HSholazar Basin§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  BOREAN_TUNDRA_SETUP_GAMERULE:0 "Borean Tundra Setup"
+  RULE_OPTION_BOREAN_TUNDRA_NO_MINOR:0 "No Minor Nations"
+  RULE_OPTION_BOREAN_TUNDRA_NO_MINOR_DESC:0 "The §Hminor nations§! of the §HBorean Tundra§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HWinterfin Tribe§! annexed by §HMagmoth Herd§!\n- §HGurgleboggle's Tribe§! annexed by §HTaunka'le Tribe§!\n- §HBurblegobble's Tribe§! annexed by §HKalu'ak§!\n- §HSkadir§! annexed by §HKalu'ak§! and §HBloodspore Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_BOREAN_TUNDRA_DISABLED:0 "Disabled"
+  RULE_OPTION_BOREAN_TUNDRA_DISABLED_DESC:0 "The entirety of the §HBorean Tundra§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  HOWLING_FJORD_SETUP_GAMERULE:0 "Howling Fjord Setup"
+  RULE_OPTION_HOWLING_FJORD_NO_MINOR:0 "No Minor Nations"
+  RULE_OPTION_HOWLING_FJORD_NO_MINOR_DESC:0 "The §Hminor nations§! of the §HHowling Fjord§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HChillmere Tribe§! annexed by §HDragonflayer Clan§!\n- §HWinterskorn Clan§! annexed by §HDragonflayer Clan§!\n- §HGjalerbron§! annexed by §HDragonflayer Clan§!\n- §HGjalerhorn Snobols§! annexed by §HCamp Winterhoof§!\n- §HThornvine§! annexed by §HCamp Winterhoof§!\n- §HHowling Fjord Dryads§! annexed by §HCamp Winterhoof§!\n- §HHowling Tribe§! annexed by §HCamp Winterhoof§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_HOWLING_FJORD_DISABLED:0 "Disabled"
+  RULE_OPTION_HOWLING_FJORD_DISABLED_DESC:0 "The entirety of the §HHowling Fjord§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  ####################################################
+  # Kalimdor
+  ####################################################
+  RULE_GROUP_MAP_SETUP_KALIMDOR:0 "Kalimdor Map Setup"
+
+  KALIMDOR_GLOBAL_SETUP_GAMERULE:0 "§HKalimdor Global Setup§!"
+  RULE_OPTION_KALIMDOR_GLOBAL_DISABLED:0 "Disabled"
+  RULE_OPTION_KALIMDOR_GLOBAL_DISABLED_DESC:0 "The entire continent of §HKalimdor§! will be disabled.\nThis will override any other setup options in the Kalimdor category. \n\n§GThis should greatly improve performances.§!"
+
+
+  AZUREMYST_SETUP_GAMERULE:0 "Azuremyst Isle Setup"
+  RULE_OPTION_AZUREMYST_DISABLED:0 "Disabled"
+  RULE_OPTION_AZUREMYST_DISABLED_DESC:0 "The entirety of §HAzuremyst Isle§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  BLOODMYST_SETUP_GAMERULE:0 "Bloodmyst Isle Setup"
+  RULE_OPTION_BLOODMYST_DISABLED:0 "Disabled"
+  RULE_OPTION_BLOODMYST_DISABLED_DESC:0 "The entirety of §HBloodmyst Isle§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  HYJAL_SETUP_GAMERULE:0 "Hyjal Setup"
+  RULE_OPTION_HYJAL_KALDOREI_HEGEMONY:0 "Kaldorei Hegemony"
+  RULE_OPTION_HYJAL_KALDOREI_HEGEMONY_DESC:0 "The entirety of §HHyjal§! will be annexed by §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_HYJAL_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_HYJAL_NO_KALDOREI_DESC:0 "§HHyjal§! will be splitted between the different minor nations inhabiting the area, leaving no states to §HThe Kaldorei§! or §HThe Watchers§!. Note that the state races, religions and cores will remains the same.\n\n"
+  RULE_OPTION_HYJAL_DISABLED:0 "Disabled"
+  RULE_OPTION_HYJAL_DISABLED_DESC:0 "The entirety of §HHyjal§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  WINTERSPRING_SETUP_GAMERULE:0 "Winterspring Setup"
+  RULE_OPTION_WINTERSPRING_KALDOREI_HEGEMONY:0 "Kaldorei Hegemony"
+  RULE_OPTION_WINTERSPRING_KALDOREI_HEGEMONY_DESC:0 "The entirety of §HWinterspring§! will be annexed by §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_WINTERSPRING_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_WINTERSPRING_NO_KALDOREI_DESC:0 "§HWinterspring§! will be splitted between the different minor nations inhabiting the area, leaving no states to §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n"
+  RULE_OPTION_WINTERSPRING_DISABLED:0 "Disabled"
+  RULE_OPTION_WINTERSPRING_DISABLED_DESC:0 "The entirety of §HWinterspring§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  MOONGLADE_SETUP_GAMERULE:0 "Moonglade Setup"
+  RULE_OPTION_MOONGLADE_KALDOREI_DIRECT_CONTROL:0 "Kaldorei Direct Control"
+  RULE_OPTION_MOONGLADE_KALDOREI_DIRECT_CONTROL_DESC:0 "The entirety of §HMoonglade§! will be annexed by §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_MOONGLADE_DISABLED:0 "Disabled"
+  RULE_OPTION_MOONGLADE_DISABLED_DESC:0 "The entirety of §HMoonglade§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  DARKSHORE_SETUP_GAMERULE:0 "Darkshore Setup"
+  RULE_OPTION_DARKSHORE_KALDOREI_HEGEMONY:0 "Kaldorei Hegemony"
+  RULE_OPTION_DARKSHORE_KALDOREI_HEGEMONY_DESC:0 "The entirety of §HDarkshore§! will be annexed by §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_DARKSHORE_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_DARKSHORE_NO_KALDOREI_DESC:0 "§HDarkshore§! will be splitted between the different minor nations inhabiting the area, leaving no states to §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n"
+  RULE_OPTION_DARKSHORE_DISABLED:0 "Disabled"
+  RULE_OPTION_DARKSHORE_DISABLED_DESC:0 "The entirety of §HDarkshore§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  FELWOOD_SETUP_GAMERULE:0 "Felwood Setup"
+  RULE_OPTION_FELWOOD_KALDOREI_HEGEMONY:0 "Kaldorei Hegemony"
+  RULE_OPTION_FELWOOD_KALDOREI_HEGEMONY_DESC:0 "The entirety of §HFelwood§! will be annexed by §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_FELWOOD_JADEFIRE_HEGEMONY:0 "Jadefire Hegemony"
+  RULE_OPTION_FELWOOD_JADEFIRE_HEGEMONY_DESC:0 "The entirety of §HFelwood§! will be annexed by the §HJadefire Tribe§!. Note that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_FELWOOD_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_FELWOOD_NO_KALDOREI_DESC:0 "§HFelwood§! will be splitted between the different minor nations inhabiting the area, leaving no states to §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n"
+  RULE_OPTION_FELWOOD_DISABLED:0 "Disabled"
+  RULE_OPTION_FELWOOD_DISABLED_DESC:0 "The entirety of §HFelwood§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  ASHENVALE_SETUP_GAMERULE:0 "Ashenvale Setup"
+  RULE_OPTION_ASHENVALE_KALDOREI_HEGEMONY:0 "Kaldorei Hegemony"
+  RULE_OPTION_ASHENVALE_KALDOREI_HEGEMONY_DESC:0 "The entirety of §HAshenvale§! will be annexed by §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_ASHENVALE_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_ASHENVALE_NO_KALDOREI_DESC:0 "§HAshenvale§! will be splitted between the different minor nations inhabiting the area, leaving no states to §HThe Kaldorei§!. Note that the state races, religions and cores will remains the same.\n\n"
+  RULE_OPTION_ASHENVALE_DISABLED:0 "Disabled"
+  RULE_OPTION_ASHENVALE_DISABLED_DESC:0 "The entirety of §HAshenvale§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  AZSHARA_SETUP_GAMERULE:0 "Azshara Setup"
+  RULE_OPTION_AZSHARA_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_AZSHARA_NO_KALDOREI_DESC:0 "§HThe Kaldorei§! will be ousted from §HAzshara§! and their territory in the region will be annexed the neighboring §HHighborne Ghosts§!. Note that the state races, religions and cores will remains the same."
+  RULE_OPTION_AZSHARA_DISABLED:0 "Disabled"
+  RULE_OPTION_AZSHARA_DISABLED_DESC:0 "The entirety of §HAzshara§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  DUROTAR_SETUP_GAMERULE:0 "Durotar Setup"
+  RULE_OPTION_DUROTAR_NO_MINOR_NATIONS:0 "No Minor Nations"
+  RULE_OPTION_DUROTAR_NO_MINOR_NATIONS_DESC:0 "The §Hminor nations§! of §HDurotar§!, including §HOrgrimmar§!, will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HSlimeshell Makruras§! annexed by §HDustwind Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_DUROTAR_DISABLED:0 "Disabled"
+  RULE_OPTION_DUROTAR_DISABLED_DESC:0 "The entirety of §HDurotar§!, including §HOrgrimmar§!, will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  NORTHERN_BARRENS_SETUP_GAMERULE:0 "Northern Barrens Setup"
+  RULE_OPTION_NORTHERN_BARRENS_NO_MINOR_NATIONS:0 "No Minor Nations"
+  RULE_OPTION_NORTHERN_BARRENS_NO_MINOR_NATIONS_DESC:0 "The §Hminor nations§! of the §HNorthern Barrens§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HSlimeshell Makruras§! annexed by §HBloodhoof Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_NORTHERN_BARRENS_DISABLED:0 "Disabled"
+  RULE_OPTION_NORTHERN_BARRENS_DISABLED_DESC:0 "The entirety of the §HNorthern Barrens§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  SOUTHERN_BARRENS_SETUP_GAMERULE:0 "Southern Barrens Setup"
+  RULE_OPTION_SOUTHERN_BARRENS_NO_MINOR_NATIONS:0 "No Minor Nations"
+  RULE_OPTION_SOUTHERN_BARRENS_NO_MINOR_NATIONS_DESC:0 "The §Hminor nations§! of the §HSouthern Barrens§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HFieldgiants Silithids§! annexed by §HRazorfen Tribe§!\n- §HStonespire Tribe§! annexed by §HRazorfen Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_SOUTHERN_BARRENS_DISABLED:0 "Disabled"
+  RULE_OPTION_SOUTHERN_BARRENS_DISABLED_DESC:0 "The entirety of the §HSouthern Barrens§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  STONETALON_SETUP_GAMERULE:0 "Stonetalon Mountains Setup"
+  RULE_OPTION_STONETALON_NO_MINOR_NATIONS:0 "No Minor Nations"
+  RULE_OPTION_STONETALON_NO_MINOR_NATIONS_DESC:0 "The §Hminor nations§! of the §HStonetalon Mountains§! will be annexed by their neighbors.\n\n§CIt concerns the following nations:§!\n- §HWindshear Tribe§! annexed by §HKolkar Clan§!\n- §HEldre'thar§! annexed by §HBloodfury Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_STONETALON_DISABLED:0 "Disabled"
+  RULE_OPTION_STONETALON_DISABLED_DESC:0 "The entirety of the §HStonetalon Mountains§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  DESOLACE_SETUP_GAMERULE:0 "Desolace Setup"
+  RULE_OPTION_DESOLACE_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_DESOLACE_NO_KALDOREI_DESC:0 "§HThe Kaldorei§! will be ousted from §HDesolace§! and their territory in the region will be annexed the neighboring nations. Note that the state races, religions and cores will remains the same."
+  RULE_OPTION_DESOLACE_DISABLED:0 "Disabled"
+  RULE_OPTION_DESOLACE_DISABLED_DESC:0 "The entirety of §HDesolace§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  MULGORE_SETUP_GAMERULE:0 "Mulgore Setup"
+  RULE_OPTION_MULGORE_NO_TAUREN:0 "No Tauren"
+  RULE_OPTION_MULGORE_NO_TAUREN_DESC:0 "The §Htauren tribes§! will be ousted from §HMulgore§! and their territory in the region will be annexed the neighboring nations. Note that the state races, religions and cores will remains the same."
+  RULE_OPTION_MULGORE_TAUREN_HAVEN:0 "Tauren Haven"
+  RULE_OPTION_MULGORE_TAUREN_HAVEN_DESC:0 "The §Hnon-tauren nations§! will be ousted from §HMulgore§! and their territory in the region will be annexed the §Htauren tribes§!. Note that the state races, religions and cores will remains the same."
+  RULE_OPTION_MULGORE_DISABLED:0 "Disabled"
+  RULE_OPTION_MULGORE_DISABLED_DESC:0 "The entirety of §HMulgore§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  DUSTWALLOW_SETUP_GAMERULE:0 "Dustwallow Marsh Setup"
+  RULE_OPTION_DUSTWALLOW_NO_MINOR_NATIONS:0 "No Minor Nations"
+  RULE_OPTION_DUSTWALLOW_NO_MINOR_NATIONS_DESC:0 "The §Hminor nations§! of the §HDustwallow Marsh§! will be annexed by their neighbors.\n\n- §HMuckshell Tribe§! annexed by §HOnyxia's Brood§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_DUSTWALLOW_DISABLED:0 "Disabled"
+  RULE_OPTION_DUSTWALLOW_DISABLED_DESC:0 "The entirety of §HDustwallow Marsh§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  FERALAS_SETUP_GAMERULE:0 "Feralas Setup"
+  RULE_OPTION_FERALAS_NO_MINOR_NATIONS:0 "No Minor Nations"
+  RULE_OPTION_FERALAS_NO_MINOR_NATIONS_DESC:0 "The §Hminor nations§! of the §HFeralas§! will be annexed by their neighbors.\n\n- §HSpirithorn Tribe§! annexed by §HGrimtotem Tribe§!\n- §HZukk'ash Silithids§! annexed by §HWoodpaw Tribe§!\n- §HWildspawn Satyrs§! annexed by §HShen'dralar§!\n- §HDarkmist Ghosts§! annexed by §HShen'dralar§!\n- §HFeral Scar Yetis§! annexed by §HShen'dralar§!\n- §HDeep Strider Giants§! annexed by §HShen'dralar§!\n- §HRage Scar Yetis§! annexed by §HShen'dralar§!\n- §HRockbiter Giants§! annexed by §HNorthspring Tribe§!\n- §HDream Bough§! annexed by §HNorthspring Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_FERALAS_NO_KALDOREI:0 "No Kaldorei"
+  RULE_OPTION_FERALAS_NO_KALDOREI_DESC:0 "§HThe Kaldorei§! will be ousted from the §Hislands§! off the shores of §HFeralas§! and their territory in the region will be annexed the §HDeep Strider Giants§!. Note that the state races, religions and cores will remains the same."
+  RULE_OPTION_FERALAS_ISLANDS_DISABLED:0 "Islands Disabled"
+  RULE_OPTION_FERALAS_ISLANDS_DISABLED_DESC:0 "The §Hislands§! off the shores of §HFeralas§! will be disabled."
+  RULE_OPTION_FERALAS_DISABLED:0 "Disabled"
+  RULE_OPTION_FERALAS_DISABLED_DESC:0 "The entirety of §HFeralas§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  THOUSAND_NEEDLES_SETUP_GAMERULE:0 "Thousand Needles Setup"
+  RULE_OPTION_THOUSAND_NEEDLES_GRIMTOTEM_SUPREMACY:0 "Grimtotem Supremacy"
+  RULE_OPTION_THOUSAND_NEEDLES_GRIMTOTEM_SUPREMACY_DESC:0 "The entirety of the §HThousand Needles§! will be annexed by the §HGrimtotem Tribe§!. \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_THOUSAND_NEEDLES_DISABLED:0 "Disabled"
+  RULE_OPTION_THOUSAND_NEEDLES_DISABLED_DESC:0 "The entirety of the §HThousand Needles§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  TANARIS_SETUP_GAMERULE:0 "Tanaris Setup"
+  RULE_OPTION_TANARIS_FARRAKI_SUPREMACY:0 "Farraki Supremacy"
+  RULE_OPTION_TANARIS_FARRAKI_SUPREMACY_DESC:0 "The entirety of §HTanaris§!, including §HZul'Farrak§!, will be annexed by the §HFarraki Tribe§!. \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_TANARIS_DISABLED:0 "Disabled"
+  RULE_OPTION_TANARIS_DISABLED_DESC:0 "The entirety of §HTanaris§!, including §HZul'Farrak§!, will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  UNGORO_SETUP_GAMERULE:0 "Un'Goro Setup"
+  RULE_OPTION_UNGORO_DISABLED:0 "Disabled"
+  RULE_OPTION_UNGORO_DISABLED_DESC:0 "The entirety of §HUn'Goro§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  ULDUM_SETUP_GAMERULE:0 "Uldum Setup"
+  RULE_OPTION_ULDUM_NO_MINOR_NATIONS:0 "No Minor Nations"
+  RULE_OPTION_ULDUM_NO_MINOR_NATIONS_DESC:0 "The §Hminor nations§! of §HUldum§! will be annexed by their neighbors.\n\n- §HSand Pygmies§! annexed by §HRamkahen Tribe§! \n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_ULDUM_DISABLED:0 "Disabled"
+  RULE_OPTION_ULDUM_DISABLED_DESC:0 "The entirety of §HUldum§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  SILITHUS_SETUP_GAMERULE:0 "Silithus Setup"
+  RULE_OPTION_SILITHUS_NO_CENARION:0 "No Cenarion Hold"
+  RULE_OPTION_SILITHUS_NO_CENARION_DESC:0 "The §HCenarion forces§! of the §HCenarion Hold§! will be ousted from §HSilithus§! and their territory will be annexed by the silithid hives.\n\nNote that the state races, religions and cores will remains the same.\n\n§GThis should slightly improve performances.§!"
+  RULE_OPTION_SILITHUS_DISABLED:0 "Disabled"
+  RULE_OPTION_SILITHUS_DISABLED_DESC:0 "The entirety of §HSilithus§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  AHNQIRAJ_SETUP_GAMERULE:0 "Ahn'Qiraj Setup"
+  RULE_OPTION_AHNQIRAJ_DISABLED:0 "Disabled"
+  RULE_OPTION_AHNQIRAJ_DISABLED_DESC:0 "The entirety of §HAhn'Qiraj§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  ####################################################
+  # Others
+  ####################################################
+  RULE_GROUP_MAP_SETUP_OTHER:0 "Other Map Setup"
+
+  KEZAN_SETUP_GAMERULE:0 "Kezan Setup"
+  RULE_OPTION_KEZAN_DISABLED:0 "Disabled"
+  RULE_OPTION_KEZAN_DISABLED_DESC:0 "The entirety of §HKezan§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  DEEPHOLM_SETUP_GAMERULE:0 "Deepholm Setup"
+  RULE_OPTION_DEEPHOLM_DISABLED:0 "Disabled"
+  RULE_OPTION_DEEPHOLM_DISABLED_DESC:0 "The entirety of §HDeepholm§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  MAELSTROM_ISLANDS_SETUP_GAMERULE:0 "Maelstrom Islands Setup"
+  RULE_OPTION_MAELSTROM_ISLANDS_DISABLED:0 "Disabled"
+  RULE_OPTION_MAELSTROM_ISLANDS_DISABLED_DESC:0 "The §HMaelstrom Islands§! will be disabled.\n\n§GThis may improve performances.§!"
+
+  DARKSPEAR_ISLANDS_SETUP_GAMERULE:0 "Darkspear Islands Setup"
+  RULE_OPTION_DARKSPEAR_ISLANDS_DISABLED:0 "Disabled"
+  RULE_OPTION_DARKSPEAR_ISLANDS_DISABLED_DESC:0 "The §HDarkspear Islands§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  LOST_ISLES_SETUP_GAMERULE:0 "Lost Isles Setup"
+  RULE_OPTION_LOST_ISLES_DISABLED:0 "Disabled"
+  RULE_OPTION_LOST_ISLES_DISABLED_DESC:0 "The entirety of the §HLost Isles§! will be disabled.\n\n§GThis should slightly improve performances.§!"
+
+  TEL_ABIM_SETUP_GAMERULE:0 "Tel'Abim Setup"
+  RULE_OPTION_TEL_ABIM_DISABLED:0 "Disabled"
+  RULE_OPTION_TEL_ABIM_DISABLED_DESC:0 "The entirety of §HTel'Abim§! will be disabled.\n\n§GThis should slightly improve performances.§!"

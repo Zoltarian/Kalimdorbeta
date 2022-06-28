@@ -16,6 +16,15 @@ ELK = {
 			"gfx/leaders/ELK/kobold_generic_4.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/ELK/kobold_generic_1.dds"
+			"gfx/leaders/ELK/kobold_generic_2.dds"
+			"gfx/leaders/ELK/kobold_generic_3.dds"
+			"gfx/leaders/ELK/kobold_generic_4.dds"
+		}
+	}
 }
 
 GRA = {
@@ -26,6 +35,12 @@ GRA = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/GRA/generic_1.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/GRA/generic_1.dds"
 		}
@@ -41,6 +56,13 @@ WSH = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/WSH/generic_1.dds"
+			"gfx/leaders/WSH/generic_2.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/WSH/generic_1.dds"
 			"gfx/leaders/WSH/generic_2.dds"

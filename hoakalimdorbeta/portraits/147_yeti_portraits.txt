@@ -12,6 +12,13 @@ FSY = {
 			"gfx/leaders/FSY/generic_2.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/FSY/generic_1.dds"
+			"gfx/leaders/FSY/generic_2.dds"
+		}
+	}
 }
 
 ITY = {
@@ -30,6 +37,14 @@ ITY = {
 			"gfx/leaders/ITY/generic_3.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/ITY/generic_1.dds"
+			"gfx/leaders/ITY/generic_2.dds"
+			"gfx/leaders/ITY/generic_3.dds"
+		}
+	}
 }
 
 RSY = {
@@ -41,6 +56,13 @@ RSY = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/RSY/generic_1.dds"
+			"gfx/leaders/RSY/generic_2.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/RSY/generic_1.dds"
 			"gfx/leaders/RSY/generic_2.dds"

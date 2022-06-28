@@ -18,6 +18,16 @@ BRC = {
 			"gfx/leaders/generic/orcshaman.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcwarlock.dds"
+			"gfx/leaders/generic/orcassassin.dds"
+		}
+	}
 }
 
 SRC = {
@@ -36,6 +46,16 @@ SRC = {
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
 			"gfx/leaders/generic/orcwarlock.dds"
+		}
+	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcwarlock.dds"
+			"gfx/leaders/generic/orcassassin.dds"
 		}
 	}
 }
@@ -61,6 +81,16 @@ TSC = {
 			"gfx/leaders/generic/orcwarlock.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/TSC/tscgeneric.dds"
+			"gfx/leaders/generic/orcassassin.dds"
+		}
+	}
 }
 
 
@@ -84,6 +114,16 @@ FWC = {
 			"gfx/leaders/FWC/fwcgeneric.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcshaman.dds"
+			"gfx/leaders/FWC/fwcgeneric.dds"
+		}
+	}
 }
 
 BBC = {
@@ -93,7 +133,6 @@ BBC = {
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
 			"gfx/leaders/generic/orcwarlock.dds"
-			"gfx/leaders/generic/orcshaman.dds"
 			"gfx/leaders/BBC/Portrait_BBC_Generic_land_1.dds"
 			
 		}
@@ -104,7 +143,16 @@ BBC = {
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
-			"gfx/leaders/generic/orcshaman.dds"
+			"gfx/leaders/BBC/Portrait_BBC_Generic_land_1.dds"
+		}
+	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcwarlock.dds"
 			"gfx/leaders/BBC/Portrait_BBC_Generic_land_1.dds"
 		}
 	}
@@ -119,7 +167,6 @@ DMC = {
 			"gfx/leaders/generic/orcwarlock.dds"
 			"gfx/leaders/generic/orcshaman.dds"
 			"gfx/leaders/DMC/dmcgeneric.dds"
-			
 		}
 	}
 	
@@ -128,6 +175,17 @@ DMC = {
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
 			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcshaman.dds"
+			"gfx/leaders/DMC/dmcgeneric.dds"
+		}
+	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcwarlock.dds"
 			"gfx/leaders/generic/orcshaman.dds"
 			"gfx/leaders/DMC/dmcgeneric.dds"
 		}
@@ -155,6 +213,17 @@ BTG = {
 			"gfx/leaders/BTG/btggeneric.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcwarlock.dds"
+			"gfx/leaders/generic/orcassassin.dds"
+			"gfx/leaders/BTG/btggeneric.dds"
+		}
+	}
 }
 
 BHC = {
@@ -178,6 +247,17 @@ BHC = {
 			"gfx/leaders/BHC/Portrait_BHC_Generic_land_1.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_1.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_2.dds"
+			"gfx/leaders/BRC/Portrait_BRC_Generic_land_3.dds"
+			"gfx/leaders/generic/orcwarlock.dds"
+			"gfx/leaders/generic/orcassassin.dds"
+			"gfx/leaders/BHC/Portrait_BHC_Generic_land_1.dds"
+		}
+	}
 }
 
 THC = {
@@ -192,6 +272,16 @@ THC = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/THC/Portrait_THC_Generic_land_1.dds"
+			"gfx/leaders/THC/Portrait_THC_Generic_land_2.dds"
+			"gfx/leaders/THC/Portrait_THC_Generic_land_3.dds"
+			"gfx/leaders/THC/Portrait_THC_Generic_land_4.dds"
+			"gfx/leaders/THC/Portrait_THC_Generic_land_5.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/THC/Portrait_THC_Generic_land_1.dds"
 			"gfx/leaders/THC/Portrait_THC_Generic_land_2.dds"
@@ -220,6 +310,15 @@ SMC = {
 			"gfx/leaders/SMC/shadowmoon_generic_4.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/SMC/shadowmoon_generic_1.dds"
+			"gfx/leaders/SMC/shadowmoon_generic_2.dds"
+			"gfx/leaders/SMC/shadowmoon_generic_3.dds"
+			"gfx/leaders/SMC/shadowmoon_generic_4.dds"
+		}
+	}
 }
 
 SHC = {
@@ -233,6 +332,15 @@ SHC = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/SMC/shadowmoon_generic_1.dds"
+			"gfx/leaders/SMC/shadowmoon_generic_2.dds"
+			"gfx/leaders/SMC/shadowmoon_generic_3.dds"
+			"gfx/leaders/SMC/shadowmoon_generic_4.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/SMC/shadowmoon_generic_1.dds"
 			"gfx/leaders/SMC/shadowmoon_generic_2.dds"
@@ -260,6 +368,15 @@ WSC = {
 			"gfx/leaders/WSC/warsong_generic_4.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/WSC/warsong_generic_1.dds"
+			"gfx/leaders/WSC/warsong_generic_2.dds"
+			"gfx/leaders/WSC/warsong_generic_3.dds"
+			"gfx/leaders/WSC/warsong_generic_4.dds"
+		}
+	}
 }
 
 BCC = {
@@ -273,6 +390,15 @@ BCC = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/BCC/bonechewer_generic_1.dds"
+			"gfx/leaders/BCC/bonechewer_generic_2.dds"
+			"gfx/leaders/BCC/bonechewer_generic_3.dds"
+			"gfx/leaders/BCC/bonechewer_generic_4.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/BCC/bonechewer_generic_1.dds"
 			"gfx/leaders/BCC/bonechewer_generic_2.dds"

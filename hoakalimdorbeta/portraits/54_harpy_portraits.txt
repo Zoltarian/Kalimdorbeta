@@ -12,6 +12,36 @@ BDT = {
 			"gfx/leaders/BDT/generic_2.dds"
 		}
 	}
+
+	operative = {
+		female = {
+			"gfx/leaders/BDT/generic_1.dds"
+			"gfx/leaders/BDT/generic_2.dds"
+		}
+	}
+}
+
+COH = {
+	army = {
+		female = {
+			"gfx/leaders/COH/generic_1.dds"
+			"gfx/leaders/COH/generic_2.dds"
+		}
+	}
+	
+	navy = {
+		female = {
+			"gfx/leaders/COH/generic_1.dds"
+			"gfx/leaders/COH/generic_2.dds"
+		}
+	}
+
+	operative = {
+		female = {
+			"gfx/leaders/COH/generic_1.dds"
+			"gfx/leaders/COH/generic_2.dds"
+		}
+	}
 }
 
 DWT = {
@@ -32,6 +62,38 @@ DWT = {
 			"gfx/leaders/DWT/generic_4.dds"
 		}
 	}
+
+	operative = {
+		female = {
+			"gfx/leaders/DWT/generic_1.dds"
+			"gfx/leaders/DWT/generic_2.dds"
+			"gfx/leaders/DWT/generic_3.dds"
+			"gfx/leaders/DWT/generic_4.dds"
+		}
+	}
+}
+
+FFT = {
+	army = {
+		female = {
+			"gfx/leaders/FFT/generic_1.dds"
+			"gfx/leaders/FFT/generic_2.dds"
+		}
+	}
+	
+	navy = {
+		female = {
+			"gfx/leaders/FFT/generic_1.dds"
+			"gfx/leaders/FFT/generic_2.dds"
+		}
+	}
+
+	operative = {
+		female = {
+			"gfx/leaders/FFT/generic_1.dds"
+			"gfx/leaders/FFT/generic_2.dds"
+		}
+	}
 }
 
 NST = {
@@ -43,6 +105,13 @@ NST = {
 	}
 	
 	navy = {
+		female = {
+			"gfx/leaders/NST/generic_1.dds"
+			"gfx/leaders/NST/generic_2.dds"
+		}
+	}
+
+	operative = {
 		female = {
 			"gfx/leaders/NST/generic_1.dds"
 			"gfx/leaders/NST/generic_2.dds"
@@ -64,6 +133,13 @@ SCR = {
 			"gfx/leaders/SCR/generic_2.dds"
 		}
 	}
+
+	operative = {
+		female = {
+			"gfx/leaders/SCR/generic_1.dds"
+			"gfx/leaders/SCR/generic_2.dds"
+		}
+	}
 }
 
 WFT = {
@@ -80,20 +156,34 @@ WFT = {
 			"gfx/leaders/WFT/generic_2.dds"
 		}
 	}
-}
 
-WOR = {
-	army = {
+	operative = {
 		female = {
 			"gfx/leaders/WFT/generic_1.dds"
 			"gfx/leaders/WFT/generic_2.dds"
 		}
 	}
+}
+
+WOR = {
+	army = {
+		female = {
+			"gfx/leaders/WOR/generic_1.dds"
+			"gfx/leaders/WOR/generic_1.dds"
+		}
+	}
 	
 	navy = {
 		female = {
-			"gfx/leaders/WFT/generic_1.dds"
-			"gfx/leaders/WFT/generic_2.dds"
+			"gfx/leaders/WOR/generic_1.dds"
+			"gfx/leaders/WOR/generic_2.dds"
+		}
+	}
+
+	operative = {
+		female = {
+			"gfx/leaders/WOR/generic_1.dds"
+			"gfx/leaders/WOR/generic_2.dds"
 		}
 	}
 }
@@ -107,6 +197,13 @@ WWT = {
 	}
 	
 	navy = {
+		female = {
+			"gfx/leaders/WWT/generic_1.dds"
+			"gfx/leaders/WWT/generic_2.dds"
+		}
+	}
+
+	operative = {
 		female = {
 			"gfx/leaders/WWT/generic_1.dds"
 			"gfx/leaders/WWT/generic_2.dds"

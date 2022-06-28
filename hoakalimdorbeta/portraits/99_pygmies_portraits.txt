@@ -14,6 +14,14 @@ OOM = {
 			"gfx/leaders/OOM/Portrait_OOM_Generic_land_3.dds"
 		}
 	}
+
+	operative = {
+		male = {
+			"gfx/leaders/OOM/Portrait_OOM_Generic_land_1.dds"
+			"gfx/leaders/OOM/Portrait_OOM_Generic_land_2.dds"
+			"gfx/leaders/OOM/Portrait_OOM_Generic_land_3.dds"
+		}
+	}
 }
 
 SPY = {
@@ -28,6 +36,16 @@ SPY = {
 	}
 	
 	navy = {
+		male = {
+			"gfx/leaders/SPY/generic_1.dds"
+			"gfx/leaders/SPY/generic_2.dds"
+			"gfx/leaders/SPY/generic_3.dds"
+			"gfx/leaders/SPY/generic_4.dds"
+			"gfx/leaders/SPY/generic_5.dds"
+		}
+	}
+
+	operative = {
 		male = {
 			"gfx/leaders/SPY/generic_1.dds"
 			"gfx/leaders/SPY/generic_2.dds"

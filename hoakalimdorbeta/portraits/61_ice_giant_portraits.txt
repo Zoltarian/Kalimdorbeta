@@ -1,3 +1,21 @@
+CRY = {
+	army = {
+		male = {
+			"gfx/leaders/CRY/generic_1.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/CRY/generic_1.dds"
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/CRY/generic_1.dds"
+		}
+	}
+}
+
 FMG = {
 	army = {
 		male = {
@@ -5,6 +23,11 @@ FMG = {
 		}
 	}
 	navy = {
+		male = {
+			"gfx/leaders/FMG/generic_1.dds"
+		}
+	}
+	operative = {
 		male = {
 			"gfx/leaders/FMG/generic_1.dds"
 		}

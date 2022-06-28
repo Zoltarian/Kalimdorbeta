@@ -1,13 +1,25 @@
-000 = {
+FAL = {
 	army = {
 		male = {
-
+			"gfx/leaders/FAL/falgeneric2.dds"
+			"gfx/leaders/FAL/falgeneric3.dds"
+			"gfx/leaders/FAL/falgeneric1.dds"
 		}
 	}
 	
 	navy = {
 		male = {
+			"gfx/leaders/FAL/falgeneric1.dds"
+			"gfx/leaders/FAL/falgeneric2.dds"
+			"gfx/leaders/FAL/falgeneric3.dds"
+		}
+	}
 
+	operative = {
+		male = {
+			"gfx/leaders/FAL/falgeneric1.dds"
+			"gfx/leaders/FAL/falgeneric2.dds"
+			"gfx/leaders/FAL/falgeneric3.dds"
 		}
 	}
 }

@@ -23,7 +23,7 @@
 
  peon_tech:0 "Peons"
  peon_tech_desc:0 "Peons"
-
+  
  orc_tools_tech_1:0 "Orc Tools I"
  orc_tools_tech_1_desc:0 "Orc Tools I"
  orc_tools_tech_2:0 "Orc Tools II"
@@ -46,6 +46,7 @@
  orc_mine_cart_4:0 "Mine Cart IV"
  orc_mine_cart_4_desc:0 "Mine Cart IV"
 
+peon_equipment_tech:0 "Peon Equipment"
  peon_equipment_1:0 "Peon Equipment"
  peon_equipment_1_desc:0 "Peon Equipment"
  improved_peon_1:0 "Improved Peons I"
@@ -231,6 +232,7 @@
 
  grunt_tech:0 "Grunts"
  grunt_tech_desc:0 "Grunts"
+ grunt_equipment_tech_1:0 "Grunt Equipment"
  grunt_equipment_1:0 "Grunt Equipment"
  grunt_equipment_1_desc:0 "Grunt Equipment"
  grunt_equipment_2:0 "Grunt Equipment II"
@@ -251,6 +253,7 @@
 
  spearman_tech:0 "Spearman"
  spearman_tech_desc:0 "Spearman"
+ spearman_equipment_tech_1:0 "Spearman Equipment"
  spearman_equipment_1:0 "Spearman Equipment"
  spearman_equipment_1_desc:0 "Spearman Equipment"
  spearman_equipment_2:0 "Spearman Equipment II"
@@ -260,6 +263,7 @@
 
  dire_orc_tech:0 "Dire Orcs"
  dire_orc_tech_desc:0 "Dire Orcs"
+ dire_orc_equipment_tech_1:0 "Dire Orc Equipment"
  dire_orc_equipment_1:0 "Dire Orc Equipment"
  dire_orc_equipment_1_desc:0 "Dire Orc Equipment"
  dire_orc_equipment_2:0 "Dire Orc Equipment II"
@@ -272,6 +276,7 @@
 
  warlock_tech:0 "Warlock"
  warlock_tech_desc:0 "Warlock"
+ warlock_equipment_tech_1:0 "Warlock Equipment"
  warlock_equipment_1:0 "Warlock Equipment"
  warlock_equipment_1_desc:0 "Warlock Equipment"
  warlock_equipment_2:0 "Warlock Equipment II"
@@ -304,6 +309,7 @@
 
  shaman_tech:0 "Shaman"
  shaman_tech_desc:0 "Shaman"
+ shaman_equipment_tech_1:0 "Shaman Equipment"
  shaman_equipment_1:0 "Shaman Equipment"
  shaman_equipment_1_desc:0 "Shaman Equipment"
  shaman_equipment_2:0 "Shaman Equipment II"
@@ -353,19 +359,37 @@
 
  dire_wolf_tech:0 "Dire Wolves"
  dire_wolf_tech_desc:0 "Dire Wolves"
+ dire_wolf_equipment_tech_1:0 "Dire Wolf Equipment"
  dire_wolf_equipment_1:0 "Dire Wolf Equipment"
  dire_wolf_equipment_1_desc:0 "Dire Wolf Equipment"
+ bite_tech:0 "Powerful Jaws"
+ bite_tech_desc:0 "Powerful Jaws"
+ iron_claws_tech:0 "Iron Claws"
+ iron_claws_tech_desc:0 "Iron Claws"
  dire_wolf_equipment_2:0 "Dire Wolf Equipment II"
  dire_wolf_equipment_2_desc:0 "Dire Wolf Equipment II"
+ pack_leader_tech:0 "Pack Leader"
+ pack_leader_tech_desc:0 "Pack Leader"
+ dash_tech:0 "Dash"
+ dash_tech_desc:0 "Dash"
  dire_wolf_equipment_3:0 "Dire Wolf Equipment III"
  dire_wolf_equipment_3_desc:0 "Dire Wolf Equipment III"
 
  raider_tech:0 "Raiders"
  raider_tech_desc:0 "Raiders"
+ raider_equipment_tech_1:0 "Raider Equipment"
  raider_equipment_1:0 "Raider Equipment"
  raider_equipment_1_desc:0 "Raider Equipment"
+ ensnare_tech:0 "Ensnare"
+ ensnare_tech_desc:0 "Ensnare"
+ pillage_tech:0 "Pillage"
+ pillage_tech_desc:0 "Pillage"
  raider_equipment_2:0 "Raider Equipment II"
  raider_equipment_2_desc:0 "Raider Equipment II"
+ raider_reinforced_armor_tech:0 "Reinforced Armor"
+ raider_reinforced_armor_tech_desc:0 "Our Forge Masters have discovered new techniques to improved the durability of our Raiders armor without sacrificing their mobility."
+ kill_command_tech:0 "Kill Command"
+ kill_command_tech_desc:0 "Kill Command"
  raider_equipment_3:0 "Raider Equipment III"
  raider_equipment_3_desc:0 "Raider Equipment III"
 
@@ -391,6 +415,7 @@
 
  demolisher_tech:0 "Demolisher"
  demolisher_tech_desc:0 "Demolisher"
+ demolisher_equipment_tech_1:0 "Demolisher Equipment"
  demolisher_equipment_1:0 "Demolisher Equipment"
  demolisher_equipment_1_desc:0 "Demolisher Equipment"
  demolisher_equipment_2:0 "Demolisher Equipment II"
@@ -400,7 +425,7 @@
 
  orc_catapult_tech:0 "Catapult"
  orc_catapult_tech_desc:0 "Catapult"
-
+ orc_catapult_equipment_tech_1:0 "Catapult Equipment"
  orc_catapult_equipment_1:0 "Catapult Equipment"
  orc_catapult_equipment_1_desc:0 "Catapult Equipment"
  orc_catapult_equipment_2:0 "Catapult Equipment II"
@@ -419,6 +444,7 @@
 
  blade_master_tech:0 "Blade Master"
  blade_master_tech_desc:0 "Blade Master"
+ blade_master_equipment_tech_1:0 "Blademaster Equipment"
  blade_master_equipment_1:0 "Blademaster Equipment"
  blade_master_equipment_1_desc:0 "Blademaster Equipment"
  blade_master_equipment_2:0 "Blademaster Equipment II"
@@ -428,6 +454,7 @@
 
  warlord_tech:0 "Warlord"
  warlord_tech_desc:0 "Warlord"
+ warlord_equipment_tech_1:0 "Warlord Equipment"
  warlord_equipment_1:0 "Warlord Equipment"
  warlord_equipment_1_desc:0 "Warlord Equipment"
  warlord_equipment_2:0 "Warlord Equipment II"
@@ -437,6 +464,7 @@
 
  orc_death_knight_tech:0 "Death Knight"
  orc_death_knight_tech_desc:0 "Death Knight"
+ orc_death_knight_equipment_tech_1:0 "Death Knight Equipment"
  orc_death_knight_equipment_1:0 "Death Knight Equipment"
  orc_death_knight_equipment_1_desc:0 "Death Knight Equipment"
  orc_death_knight_equipment_2:0 "Death Knight Equipment II"
@@ -446,6 +474,7 @@
 
  far_seer_tech:0 "Farseer"
  far_seer_tech_desc:0 "Farseer"
+ far_seer_equipment_tech_1:0 "Farseer Equipment"
  far_seer_equipment_1:0 "Farseer Equipment"
  far_seer_equipment_1_desc:0 "Farseer Equipment"
  far_seer_equipment_2:0 "Farseer Equipment II"
