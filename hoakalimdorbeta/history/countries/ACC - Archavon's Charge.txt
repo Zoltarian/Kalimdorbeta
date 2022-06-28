@@ -3,15 +3,67 @@
 oob = "ACC_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	nesting_grounds_tech = 1
+	church_tech = 1
+	wall_tech_1 = 1
+	wall_tech_2 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+	guard_tower_1 = 1
+	rogues_guild = 1
+	rogue_tech = 1
+	encryption_1 = 1
+	decryption_1 = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	captain_tech = 1
+	guard_tech = 1
+	pikeman_tech = 1
+	pikeman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+	priest_tech = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+	knight_tech = 1
+	knight_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+	paladin_tech = 1
+	paladin_equipment_tech_1 = 1
+	arch_mage_tech = 1
+	arch_mage_equipment_tech_1 = 1
+}
 
 add_ideas = {
 	tyrant
-	
-	earth_elemental_primary_race
-	
+
+	stone_giant_primary_race
+	earth_elemental_secondary_race
+	fire_elemental_secondary_race
+	wind_elemental_secondary_race
+	water_elemental_secondary_race
+	lashers_secondary_race
+
 	primary_religion_the_titans
-	
 }
 
 recruit_character = ACC_archavon_the_stone_watcher

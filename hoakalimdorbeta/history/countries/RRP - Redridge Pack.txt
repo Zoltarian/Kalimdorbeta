@@ -15,6 +15,9 @@ add_ideas = {
 	limited_exports
 	
 	gnoll_primary_race
+	primary_trait_prone_to_infighting
+	primary_trait_extreme_aggression
+	primary_trait_gruesome_tradition
 		
 	primary_religion_shamanism
 }
@@ -32,8 +35,8 @@ set_technology = {
 	catapult_equipment_tech_1 = 1
 }
 
-recruit_character = RRM_yowler
-recruit_character = RRM_ribchaser
+recruit_character = RRP_yowler
+recruit_character = RRP_ribchaser
 
 set_politics = {	
 	ruling_party = neutral

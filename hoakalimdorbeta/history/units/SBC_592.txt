@@ -1,10 +1,35 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Snowblind Snobolds"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+
+	division = {
+		name = "Snowblind Snobolds"
+		location = 15632
+		division_template = "Snowblind Snobolds"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Snowblind Snobolds"
+		location = 15632
+		division_template = "Snowblind Snobolds"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Snowblind Snobolds"
+		location = 15626
+		division_template = "Snowblind Snobolds"
+		start_experience_factor = 0.2
+	}
+}

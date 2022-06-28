@@ -1,0 +1,28 @@
+division_template = {
+	name = "Gurblegobble Gorlocs"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Gurblegobble Gorlocs"
+		location = 484
+		division_template = "Gurblegobble Gorlocs"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Gurblegobble Gorlocs"
+		location = 7830
+		division_template = "Gurblegobble Gorlocs"
+		start_experience_factor = 0.2
+	}
+}

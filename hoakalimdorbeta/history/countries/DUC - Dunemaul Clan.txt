@@ -2,10 +2,6 @@
 
 oob = "DUC_592"
 
-set_naval_oob = "DUC_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -15,6 +11,8 @@ add_ideas = {
 	primary_trait_thick_skin
 	primary_trait_stubborn
 }
+
+recruit_character = DUC_gormarok_the_ravager
 
 set_politics = {
 	ruling_party = neutral

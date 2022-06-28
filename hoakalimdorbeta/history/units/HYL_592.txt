@@ -1,10 +1,100 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Hyldnir Battle-maidens"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Hyldnir Harpooners"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Hyldnir Frostweavers"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Hyldnir Battle-maidens"
+		location = 15640
+		division_template = "Hyldnir Battle-maidens"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Hyldnir Battle-maidens"
+		location = 15652
+		division_template = "Hyldnir Battle-maidens"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Hyldnir Harpooners"
+		location = 15640
+		division_template = "Hyldnir Harpooners"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Hyldnir Frostweavers"
+		location = 15652
+		division_template = "Hyldnir Frostweavers"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Sifreldar Village
+	1740 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "HYL"
+			amount = 10
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "HYL"
+			amount = 5
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "HYL"
+			amount = 5
+		}
+	}
+}

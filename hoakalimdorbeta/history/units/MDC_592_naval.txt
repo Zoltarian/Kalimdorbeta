@@ -1,0 +1,65 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Mjordin Fleet"
+		naval_base = 1059
+		task_force = {
+			name = "Mjordin Fleet"
+			location = 1059 #Ballagarde Fortress
+
+
+			ship = {
+				name = "1st Mjordin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "2nd Mjordin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "3rd Mjordin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "4th Mjordin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "5th Mjordin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "6th Mjordin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = MDC} }
+			}
+
+			ship = {
+				name = "1st Mjordin Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "2nd Mjordin Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "3rd Mjordin Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = MDC} }
+			}
+			ship = {
+				name = "4th Mjordin Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = MDC} }
+			}
+		}
+	}
+}

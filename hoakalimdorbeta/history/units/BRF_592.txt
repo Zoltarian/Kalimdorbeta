@@ -1,63 +1,155 @@
-﻿division_template = {
+division_template = {
 	name = "Bronze Whelps"
 
 	regiments = {
 		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 1 y = 0 }
+		whelp = { x = 1 y = 1 }
+		whelp = { x = 1 y = 2 }
+		whelp = { x = 1 y = 3 }
+
+	}
+	priority = 1
+
+}
+
+division_template = {
+
+	name = "Bronze Dragonspawns"
+
+	regiments = {
+		dragonspawn = { x = 0 y = 0 }
+		dragonspawn = { x = 0 y = 1 }
+		dragonspawn = { x = 0 y = 2 }
+		dragonspawn = { x = 0 y = 3 }
+		dragonspawn = { x = 1 y = 0 }
+		dragonspawn = { x = 1 y = 1 }
+		dragonspawn = { x = 1 y = 2 }
+		dragonspawn = { x = 1 y = 3 }
 	}
 	priority = 1
 }
 
-#units = {
-#	#
-#	division = {
-#		name = "1st Bronze Guardians"
-#		location = 9436
-#		division_template = "Bronze Guardians"
-#		start_experience_factor = 0.2
-#	}
-#	division = {
-#		name = "2nd Bronze Guardians"
-#		location = 9423
-#		division_template = "Bronze Guardians"
-#		start_experience_factor = 0.2
-#	}
-#	division = {
-#		name = "1st Bronze Whelps"
-#		location = 13438
-#		division_template = "Bronze Whelps"
-#		start_experience_factor = 0.2
-#	}
-#	division = {
-#		name = "2nd Bronze Whelps"
-#		location = 9434
-#		division_template = "Bronze Whelps"
-#		start_experience_factor = 0.2
-#	}
-#	division = {
-#		name = "3rd Bronze Whelps"
-#		location = 9384
-#		division_template = "Bronze Whelps"
-#		start_experience_factor = 0.2
-#	}
-#}
+division_template = {
+	name = "Bronze Drakonids"
 
-#air_wings = {
-#	### coldara
-#	79 = {
-#
-#		bomber_equipment_1 = {
-#			owner = "BRF"
-#			amount = 28
-#		}
-#
-#		cas_equipment_1 = {
-#			owner = "BRF"
-#			amount = 28
-#		}
-#
-#		fighter_equipment_2 = {
-#			owner = "BRF"
-#			amount = 44
-#		}
-#	}
-#}
+	regiments = {
+		Drakonid = { x = 0 y = 0 }
+		Drakonid = { x = 0 y = 1 }
+		Drakonid = { x = 0 y = 2 }
+		Drakonid = { x = 1 y = 0 }
+		Drakonid = { x = 1 y = 1 }
+		Drakonid = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+
+	name = "Bronze Dragons"
+
+	regiments = {
+		dragon = { x = 0 y = 0 }
+		dragon = { x = 0 y = 1 }
+		dragon = { x = 0 y = 2 }
+		dragon = { x = 0 y = 3 }
+		dragon = { x = 1 y = 0 }
+		dragon = { x = 1 y = 1 }
+		dragon = { x = 1 y = 2 }
+		dragon = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+units = {
+	#Dragonblight
+	division = {
+		name = "Bronze Whelps"
+		location = 13438
+		division_template = "Bronze Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bronze Whelps"
+		location = 13438
+		division_template = "Bronze Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bronze Whelps"
+		location = 15970
+		division_template = "Bronze Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bronze Whelps"
+		location = 15970
+		division_template = "Bronze Whelps"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bronze Dragonspawns"
+		location = 13438
+		division_template = "Bronze Dragonspawns"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bronze Dragonspawns"
+		location = 15970
+		division_template = "Bronze Dragonspawns"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bronze Dragonspawns"
+		location = 10930
+		division_template = "Bronze Dragonspawns"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bronze Drakonids"
+		location = 13438
+		division_template = "Bronze Drakonids"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bronze Drakonids"
+		location = 10930
+		division_template = "Bronze Drakonids"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bronze Dragons"
+		location = 13438
+		division_template = "Bronze Dragons"
+		start_experience_factor = 0.2
+	}
+
+}
+
+air_wings = {
+	### Bronze Dragonshrine
+	1254 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "GDF"
+			amount = 30
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "GDF"
+			amount = 10
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "GDF"
+			amount = 20
+		}
+	}
+}

@@ -5,7 +5,27 @@ oob = "WTS_592"
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	arch_mage_tech = 1
+	arch_mage_equipment_tech_1 = 1
+}
 
 add_ideas = {
 

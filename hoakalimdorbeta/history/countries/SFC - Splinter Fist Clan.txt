@@ -2,10 +2,6 @@
 
 oob = "SFC_592"
 
-set_naval_oob = "SFC_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -24,12 +20,7 @@ add_ideas = {
 	primary_religion_arcane_studies
 }
 
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
+recruit_character = SFC_zzarcvul
 
 set_popularities = {
     alliance = 0
@@ -39,4 +30,11 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
 }

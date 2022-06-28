@@ -1,0 +1,105 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Moa'ki Fleet"
+		naval_base = 10925
+		task_force = {
+			name = "Moa'ki Fleet"
+			location = 10925 #Moa'ki Harbor
+
+
+			ship = {
+				name = "1st Moa'ki Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = KLK} }
+			}
+			ship = {
+				name = "2nd Moa'ki Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = KLK} }
+			}
+			ship = {
+				name = "3rd Moa'ki Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = KLK} }
+			}
+
+			ship = {
+				name = "1st Moa'ki Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = KLK} }
+			}
+			ship = {
+				name = "2nd Moa'ki Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = KLK} }
+			}
+		}
+	}
+
+	fleet = {
+		name = "Kaskala Fleet"
+		naval_base = 8892
+		task_force = {
+			name = "Kaskala Fleet"
+			location = 8892 #Kaskala
+
+
+			ship = {
+				name = "1st Kaskala Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = KLK} }
+			}
+			ship = {
+				name = "2nd Kaskala Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = KLK} }
+			}
+
+			ship = {
+				name = "1st Kaskala Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = KLK} }
+			}
+		}
+	}
+
+	fleet = {
+		name = "Pal'ea Fleet"
+		naval_base = 7809
+		task_force = {
+			name = "Pal'ea Fleet"
+			location = 7809 #Pal'ea
+
+
+			ship = {
+				name = "1st Pal'ea Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = KLK} }
+			}
+		}
+	}
+
+	fleet = {
+		name = "Kamagua Fleet"
+		naval_base = 7332
+		task_force = {
+			name = "Kamagua Fleet"
+			location = 7332 #Kamagua
+
+
+			ship = {
+				name = "1st Kamagua Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = KLK} }
+			}
+
+			ship = {
+				name = "1st Kamagua Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = KLK} }
+			}
+		}
+	}
+}

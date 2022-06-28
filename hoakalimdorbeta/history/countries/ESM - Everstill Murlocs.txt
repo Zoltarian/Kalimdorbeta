@@ -1,10 +1,6 @@
 ﻿capital = 10
 
-oob = "RRM_592"
-
-set_naval_oob = "RRM_592_naval"
-
-set_convoys = 10
+oob = "ESM_592"
 
 set_research_slots = 3
 set_technology = {}
@@ -20,6 +16,8 @@ add_ideas = {
 	
 	primary_religion_followers_of_the_tidehunter
 }
+
+recruit_character = ESM_squiddic
 
 set_politics = {
 	ruling_party = neutral

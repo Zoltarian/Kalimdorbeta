@@ -1,0 +1,57 @@
+﻿division_template = {
+	name = "Earthen Axemasters"
+
+	regiments = {
+		dwarf_axeman = { x = 0 y = 0 }
+		dwarf_axeman = { x = 0 y = 1 }
+		dwarf_axeman = { x = 0 y = 2 }
+		dwarf_axeman = { x = 0 y = 3 }
+		dwarf_axeman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Earthen Rifleman"
+
+	regiments = {
+		rifleman = { x = 0 y = 0 }
+		rifleman = { x = 0 y = 1 }
+		rifleman = { x = 0 y = 2 }
+		rifleman = { x = 0 y = 3 }
+		rifleman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Earthen Axemasters"
+		location = 15749
+		division_template = "Earthen Axemasters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Earthen Axemasters"
+		location = 15749
+		division_template = "Earthen Axemasters"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Earthen Rifleman"
+		location = 15749
+		division_template = "Earthen Rifleman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Earthen Rifleman"
+		location = 15749
+		division_template = "Earthen Rifleman"
+		start_experience_factor = 0.2
+	}
+
+}

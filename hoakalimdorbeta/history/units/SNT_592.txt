@@ -1,10 +1,68 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Snowplain Snobolds"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Snowplain Shamans"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Snowplain Magnataurs"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Snowplain Snobolds"
+		location = 13312
+		division_template = "Snowplain Snobolds"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Snowplain Snobolds"
+		location = 13444
+		division_template = "Snowplain Snobolds"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Snowplain Shamans"
+		location = 13417
+		division_template = "Snowplain Shamans"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Snowplain Magnataurs"
+		location = 13444
+		division_template = "Snowplain Magnataurs"
+		start_experience_factor = 0.2
+	}
+}

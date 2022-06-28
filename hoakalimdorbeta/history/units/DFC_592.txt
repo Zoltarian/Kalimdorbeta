@@ -1,10 +1,229 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Dragonflayer Berserkers"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Dragonflayer Harpooners"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonflayer Ironhelms"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonflayer Runecasters"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dragonflayer Lieutenants"
+
+	regiments = {
+		royal_guard = { x = 1 y = 0 }
+		royal_guard = { x = 1 y = 1 }
+		royal_guard = { x = 1 y = 2 }
+		royal_guard = { x = 1 y = 3 }
+		royal_guard = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Dragonflayer Berserkers"
+		location = 8063
+		division_template = "Dragonflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Berserkers"
+		location = 8063
+		division_template = "Dragonflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Berserkers"
+		location = 13306
+		division_template = "Dragonflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Berserkers"
+		location = 13306
+		division_template = "Dragonflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Berserkers"
+		location = 3003
+		division_template = "Dragonflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Berserkers"
+		location = 1447
+		division_template = "Dragonflayer Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Dragonflayer Harpooners"
+		location = 8063
+		division_template = "Dragonflayer Harpooners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Harpooners"
+		location = 7553
+		division_template = "Dragonflayer Harpooners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Harpooners"
+		location = 7741
+		division_template = "Dragonflayer Harpooners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Harpooners"
+		location = 13306
+		division_template = "Dragonflayer Harpooners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Harpooners"
+		location = 16026
+		division_template = "Dragonflayer Harpooners"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Dragonflayer Ironhelms"
+		location = 8063
+		division_template = "Dragonflayer Ironhelms"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Ironhelms"
+		location = 6398
+		division_template = "Dragonflayer Ironhelms"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Ironhelms"
+		location = 16026
+		division_template = "Dragonflayer Ironhelms"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Ironhelms"
+		location = 7684
+		division_template = "Dragonflayer Ironhelms"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Dragonflayer Runecasters"
+		location = 8063
+		division_template = "Dragonflayer Runecasters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Runecasters"
+		location = 7318
+		division_template = "Dragonflayer Runecasters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Runecasters"
+		location = 7684
+		division_template = "Dragonflayer Runecasters"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Dragonflayer Lieutenants"
+		location = 8063
+		division_template = "Dragonflayer Lieutenants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dragonflayer Lieutenants"
+		location = 7318
+		division_template = "Dragonflayer Lieutenants"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Utgarde Keep
+	1645 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "DFC"
+			amount = 50
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "DFC"
+			amount = 35
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "DFC"
+			amount = 15
+		}
+	}
+}

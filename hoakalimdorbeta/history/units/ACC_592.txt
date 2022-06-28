@@ -1,10 +1,148 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Shadowsight Lashers"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Elemental Revenants"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Raging Elementals"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Tempest Warders"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Archavon Warders"
+
+	regiments = {
+		royal_guard = { x = 1 y = 0 }
+		royal_guard = { x = 1 y = 1 }
+		royal_guard = { x = 1 y = 2 }
+		royal_guard = { x = 1 y = 3 }
+		royal_guard = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Shadowsight Lashers"
+		location = 15943
+		division_template = "Shadowsight Lashers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Shadowsight Lashers"
+		location = 15943
+		division_template = "Shadowsight Lashers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Flame Revenant"
+		location = 8376
+		division_template = "Elemental Revenants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Tempest Revenant"
+		location = 8505
+		division_template = "Elemental Revenants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Earthbound Revenant"
+		location = 8156
+		division_template = "Elemental Revenants"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Glacial Spirits"
+		location = 8439
+		division_template = "Raging Elementals"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Raging Flames"
+		location = 8528
+		division_template = "Raging Elementals"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Tempest Warders"
+		location = 8350
+		division_template = "Tempest Warders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Tempest Warders"
+		location = 15952
+		division_template = "Tempest Warders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Archavon Warders"
+		location = 452
+		division_template = "Archavon Warders"
+		start_experience_factor = 0.2
+	}
+}

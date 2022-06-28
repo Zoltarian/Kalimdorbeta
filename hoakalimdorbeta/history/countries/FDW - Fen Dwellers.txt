@@ -2,10 +2,6 @@
 
 oob = "FDW_592"
 
-set_naval_oob = "FDW_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -24,6 +20,8 @@ add_ideas = {
 
 	primary_religion_natural_magic
 }
+
+recruit_character = FDW_rethiel_the_greenwarden
 
 set_politics = {
 	ruling_party = neutral

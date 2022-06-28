@@ -2,8 +2,6 @@
 
 oob = "QLL_592"
 
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -15,9 +13,14 @@ add_ideas = {
 	limited_exports
 	
 	high_elf_primary_race
+	primary_trait_arcane_affinity
+	primary_trait_expert_trackers
+	primary_trait_expert_marksman
 	
 	primary_religion_the_sun_well
 }
+
+recruit_character = QLL_renthar_hawkspear
 
 set_politics = {
 	ruling_party = alliance

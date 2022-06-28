@@ -2,10 +2,6 @@
 
 oob = "MGC_592"
 
-set_naval_oob = "MGC_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -21,6 +17,8 @@ add_ideas = {
 	primary_trait_thick_skin
 	primary_trait_stubborn
 }
+
+recruit_character = MOG_gorkresh
 
 set_politics = {
 	ruling_party = neutral

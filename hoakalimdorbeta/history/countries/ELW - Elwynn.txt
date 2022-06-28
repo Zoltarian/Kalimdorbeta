@@ -64,22 +64,25 @@ set_technology = {
 	battleship_tech_1 = 1
 	carrier_tech_1 = 1
 }
-	set_politics = {
-		ruling_party = alliance
-		last_election = "590.10.27"
-		election_frequency = 48
-		elections_allowed = no
+
+recruit_character = ELW_marshal_dughan
+
+set_popularities = {
+	alliance = 100
+	horde = 0
+	death = 0
+	fel = 0
+	old_gods = 0
+	titans = 0
+	neutral = 0
 }
 
-    set_popularities = {
-        alliance = 100
-        horde = 0
-        death = 0
-        fel = 0
-        old_gods = 0
-        titans = 0
-        neutral = 0
-    }
+set_politics = {
+	ruling_party = alliance
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
 
 596.1.1 = {
 	set_technology = {

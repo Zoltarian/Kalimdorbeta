@@ -1,0 +1,116 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Drakkari Fleet"
+		naval_base = 196
+		task_force = {
+			name = "Drakkari Fleet"
+			location = 196 #Gundrak
+
+			ship = {
+				name = "1st Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "2nd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "3rd Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "4th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "5th Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "1st Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "2nd Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "3rd Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "1st Heavy Frigate"
+				definition = heavy_frigate
+				equipment = { heavy_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "2nd Heavy Frigate"
+				definition = heavy_frigate
+				equipment = { heavy_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "1st Juggernaught"
+				definition = juggernaught
+				equipment = { juggernaught_equipment_1 = { amount = 1 owner = DRA} }
+			}
+
+
+		}
+	}
+	fleet = {
+		name = "Drakil'jin Fleet"
+		naval_base = 8026
+		task_force = {
+			name = "Drakil'jin Fleet"
+			location = 8026 #Drakil'jin Ruins
+
+			ship = {
+				name = "1st Drakil'jin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "2nd Drakil'jin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "3nd Drakil'jin Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "1st Drakil'jin Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "2nd Drakil'jin Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "3rd Drakil'jin Light Frigate"
+				definition = light_frigate
+				equipment = { light_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+			ship = {
+				name = "1st Drakil'jin Heavy Frigate"
+				definition = heavy_frigate
+				equipment = { heavy_frigate_equipment_1 = { amount = 1 owner = DRA} }
+			}
+
+
+		}
+	}
+}

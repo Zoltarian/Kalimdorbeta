@@ -1,0 +1,19 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Hrothgar Fleet"
+		naval_base = 6109
+		task_force = {
+			name = "Hrothgar Fleet"
+			location = 6109 #Hrothgar's Landing
+
+
+			ship = {
+				name = "Hrothgar Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = HRG} }
+			}
+		}
+	}
+}

@@ -17,6 +17,19 @@ add_ideas = {
 	primary_religion_shamanism
 }
 
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+}
+
+recruit_character = MWA_high_oracle_soolaa
+
 set_popularities = {
 	alliance = 0
 	horde = 0

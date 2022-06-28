@@ -1,10 +1,136 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Mjordin Combatants"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Mjordin Archers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Mjordin Water Magus"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Mjordin Combatants"
+		location = 8894
+		division_template = "Mjordin Combatants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mjordin Combatants"
+		location = 8894
+		division_template = "Mjordin Combatants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mjordin Combatants"
+		location = 15542
+		division_template = "Mjordin Combatants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mjordin Combatants"
+		location = 5964
+		division_template = "Mjordin Combatants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mjordin Combatants"
+		location = 5698
+		division_template = "Mjordin Combatants"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Mjordin Archers"
+		location = 8894
+		division_template = "Mjordin Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mjordin Archers"
+		location = 5698
+		division_template = "Mjordin Archers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mjordin Archers"
+		location = 3651
+		division_template = "Mjordin Archers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Mjordin Water Magus"
+		location = 8894
+		division_template = "Mjordin Water Magus"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mjordin Water Magus"
+		location = 6897
+		division_template = "Mjordin Water Magus"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Jotunheim
+	1758 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "MDC"
+			amount = 20
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "MDC"
+			amount = 10
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "MDC"
+			amount = 5
+		}
+	}
+}

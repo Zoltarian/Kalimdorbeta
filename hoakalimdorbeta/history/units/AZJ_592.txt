@@ -1,10 +1,274 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Nerubian Warriors"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Nerubian Webspinners"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Nerubian Arachnathids"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Nerubian Seers"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Nerubian Guards"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		royal_guard = { x = 1 y = 0 }
+		royal_guard = { x = 1 y = 1 }
+		royal_guard = { x = 1 y = 2 }
+		royal_guard = { x = 1 y = 3 }
+		royal_guard = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Nerubian Viziers"
+
+	regiments = {
+		arch_mage = { x = 0 y = 0 }
+		arch_mage = { x = 0 y = 1 }
+		arch_mage = { x = 0 y = 2 }
+		arch_mage = { x = 0 y = 3 }
+		arch_mage = { x = 0 y = 4 }
+		arch_mage = { x = 1 y = 0 }
+		arch_mage = { x = 1 y = 1 }
+		arch_mage = { x = 1 y = 2 }
+		arch_mage = { x = 1 y = 3 }
+		arch_mage = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Nerubian Spiderlords"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 0 y = 4 }
+		paladin = { x = 1 y = 0 }
+		paladin = { x = 1 y = 1 }
+		paladin = { x = 1 y = 2 }
+		paladin = { x = 1 y = 3 }
+		paladin = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Nerubian Warriors"
+		location = 13403
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Warriors"
+		location = 13403
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Warriors"
+		location = 13403
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Warriors"
+		location = 13338
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Warriors"
+		location = 10929
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Warriors"
+		location = 15560
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Warriors"
+		location = 15560
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Warriors"
+		location = 15566
+		division_template = "Nerubian Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nerubian Webspinners"
+		location = 13403
+		division_template = "Nerubian Webspinners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Webspinners"
+		location = 13403
+		division_template = "Nerubian Webspinners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Webspinners"
+		location = 13344
+		division_template = "Nerubian Webspinners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Webspinners"
+		location = 15560
+		division_template = "Nerubian Webspinners"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nerubian Arachnathids"
+		location = 13403
+		division_template = "Nerubian Arachnathids"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Arachnathids"
+		location = 13403
+		division_template = "Nerubian Arachnathids"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Arachnathids"
+		location = 15566
+		division_template = "Nerubian Arachnathids"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nerubian Seers"
+		location = 13403
+		division_template = "Nerubian Seers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nerubian Seers"
+		location = 13403
+		division_template = "Nerubian Seers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nerubian Guards"
+		location = 13403
+		division_template = "Nerubian Guards"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nerubian Viziers"
+		location = 13403
+		division_template = "Nerubian Viziers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nerubian Spiderlords"
+		location = 13403
+		division_template = "Nerubian Spiderlords"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Azjol'Nerub
+	54 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "AZJ"
+			amount = 65
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "AZJ"
+			amount = 35
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "AZJ"
+			amount = 25
+		}
+	}
+}

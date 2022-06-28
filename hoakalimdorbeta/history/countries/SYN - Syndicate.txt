@@ -2,10 +2,6 @@
 
 oob = "SYN_592"
 
-set_naval_oob = "SYN_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -23,6 +19,8 @@ add_ideas = {
 	
 	primary_religion_irreligious
 }
+
+recruit_character = SYN_aliden_perenolde
 
 set_politics = {
 	ruling_party = neutral

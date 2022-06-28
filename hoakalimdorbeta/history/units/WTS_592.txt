@@ -1,10 +1,29 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Winter's Sisters"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		mage = { x = 1 y = 3 }
+		mage = { x = 1 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+
+	division = {
+		name = "Winter's Sisters"
+		location = 13248
+		division_template = "Winter's Sisters"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Winter's Sisters"
+		location = 13248
+		division_template = "Winter's Sisters"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,10 +1,62 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Silverbrook Trappers"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
-
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Silverbrook Defenders"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Silverbrook Hunters"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Silverbrook Trappers"
+		location = 10924
+		division_template = "Silverbrook Trappers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Silverbrook Defenders"
+		location = 6162
+		division_template = "Silverbrook Defenders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Silverbrook Hunters"
+		location = 6162
+		division_template = "Silverbrook Hunters"
+		start_experience_factor = 0.2
+	}
+}

@@ -31,7 +31,7 @@ division_template = {
 }
 
 units = {
-	
+
 	division = {
 		name = "Venture Co. Enforcer"
 		location = 8299
@@ -73,6 +73,17 @@ units = {
 		name = "Venture Co. Rocketeers"
 		location = 8318
 		division_template = "Venture Co. Rocketeers"
+		start_experience_factor = 0.2
+	}
+
+#################################
+#Grizzly Hills
+#################################
+
+	division = {
+		name = "Venture Co. Enforcer"
+		location = 13221
+		division_template = "Venture Co. Enforcer"
 		start_experience_factor = 0.2
 	}
 

@@ -1,6 +1,6 @@
-﻿capital = 1660
+capital = 1904
 
-oob = "TGD_592"
+oob = "CWO_592"
 
 set_convoys = 10
 
@@ -9,15 +9,17 @@ set_technology = {}
 
 add_ideas = {
 	
-	tribe
-	limited_conscription
-	early_military_development
+	council
+	recruit_adventurers
+	peacetime_economy
 	limited_exports
 
-	frost_nymph_primary_race
+	pandaren_primary_race
 
-	primary_religion_druidism
+	primary_religion_august_celestial
 }
+
+recruit_character = CWO_kuo_na_quillpaw
 
 set_popularities = {
 	alliance = 0
@@ -27,7 +29,6 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
-
 }
 
 set_politics = {

@@ -2,13 +2,45 @@
 
 oob = "HRG_592"
 
+set_naval_oob = "HRG_592_naval"
+
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+
+	naval_facilities = 1
+	small_frames = 1
+	destroyer_tech_1 = 1
+	light_frigate_tech_1 = 1
+	heavy_frigate_tech_1 = 1
+	naval_transport_1 = 1
+}
 
 add_ideas = {
-	
+
 	clan
 	recruit_adventurers
 	peacetime_economy

@@ -3,10 +3,28 @@
 oob = "SBC_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	harvesting_tools_1 = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	mines_tech = 1
+	mine_cart_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+}
+
 
 add_ideas = {
-
 	tribe
 	limited_conscription
 	early_military_development
@@ -16,6 +34,8 @@ add_ideas = {
 
 	primary_religion_shamanism
 }
+
+recruit_character = SBC_tomar_frostgut
 
 set_popularities = {
 	alliance = 0

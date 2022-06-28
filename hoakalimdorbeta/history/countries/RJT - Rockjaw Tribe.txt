@@ -2,10 +2,6 @@
 
 oob = "RJT_592"
 
-set_naval_oob = "RJT_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -21,6 +17,8 @@ add_ideas = {
     primary_religion_geomancy
 
 }
+
+recruit_character = RJT_boss_bruggor
 
 set_politics = {
 	ruling_party = neutral

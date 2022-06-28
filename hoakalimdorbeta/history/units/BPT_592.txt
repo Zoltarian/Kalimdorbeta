@@ -1,10 +1,74 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Bloodspore Snobolds"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Bloodspore Firestarters"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bloodspore Magnataurs"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Bloodspore Snobolds"
+		location = 7587
+		division_template = "Bloodspore Snobolds"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bloodspore Snobolds"
+		location = 8071
+		division_template = "Bloodspore Snobolds"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bloodspore Snobolds"
+		location = 7818
+		division_template = "Bloodspore Snobolds"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bloodspore Firestarters"
+		location = 7818
+		division_template = "Bloodspore Firestarters"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Bloodspore Magnataurs"
+		location = 8086
+		division_template = "Bloodspore Magnataurs"
+		start_experience_factor = 0.2
+	}
+}

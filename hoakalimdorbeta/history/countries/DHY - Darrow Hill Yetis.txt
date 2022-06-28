@@ -2,10 +2,6 @@
 
 oob = "DHY_592"
 
-set_naval_oob = "DHY_591_naval_legacy"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -20,6 +16,8 @@ add_ideas = {
 	
 	primary_religion_irreligious
 }
+
+recruit_character = DHY_skhowl
 
 set_politics = {
 	ruling_party = neutral

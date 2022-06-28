@@ -1,10 +1,237 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Drakkari Warriors"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Drakkari Axe Throwers"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+
+division_template = {
+	name = "Farraki Frostweavers"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Drakkari Battle Riders"
+
+	regiments = {
+		mounted_footman = { x = 0 y = 0 }
+		mounted_footman = { x = 0 y = 1 }
+		mounted_footman = { x = 0 y = 2 }
+		mounted_footman = { x = 0 y = 3 }
+		mounted_footman = { x = 1 y = 0 }
+		mounted_footman = { x = 1 y = 1 }
+		mounted_footman = { x = 1 y = 2 }
+		mounted_footman = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+#################################
+#Zul'Drak
+#################################
+
+units = {
+	division = {
+		name = "Drakkari Warriors"
+		location = 6896
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 6896
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 7865
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 7857
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 15862
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 1579
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 7884
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 7254
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 7631
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Drakkari Axe Throwers"
+		location = 6896
+		division_template = "Drakkari Axe Throwers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Axe Throwers"
+		location = 9518
+		division_template = "Drakkari Axe Throwers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Axe Throwers"
+		location = 267
+		division_template = "Drakkari Axe Throwers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Axe Throwers"
+		location = 7629
+		division_template = "Drakkari Axe Throwers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Axe Throwers"
+		location = 5233
+		division_template = "Drakkari Axe Throwers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Axe Throwers"
+		location = 280
+		division_template = "Drakkari Axe Throwers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Farraki Frostweavers"
+		location = 6896
+		division_template = "Farraki Frostweavers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Farraki Frostweavers"
+		location = 9521
+		division_template = "Farraki Frostweavers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Farraki Frostweavers"
+		location = 158
+		division_template = "Farraki Frostweavers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Farraki Frostweavers"
+		location = 15829
+		division_template = "Farraki Frostweavers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Drakkari Battle Riders"
+		location = 6896
+		division_template = "Drakkari Battle Riders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Battle Riders"
+		location = 7879
+		division_template = "Drakkari Battle Riders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Battle Riders"
+		location = 7254
+		division_template = "Drakkari Battle Riders"
+		start_experience_factor = 0.2
+	}
+
+#################################
+#Dragonblight
+#################################
+
+	division = {
+		name = "Drakkari Warriors"
+		location = 13470
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+
+#################################
+#Grizzly Hills
+#################################
+
+	division = {
+		name = "Drakkari Warriors"
+		location = 8026
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Drakkari Warriors"
+		location = 226
+		division_template = "Drakkari Warriors"
+		start_experience_factor = 0.2
+	}
+}

@@ -30,12 +30,8 @@ set_technology = {
 	scout_tower_1 = 1
 	
 }
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
+
+recruit_character = RTT_elder_torntusk
 
 set_popularities = {
     alliance = 0
@@ -45,6 +41,13 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 90
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 617.1.1 = {

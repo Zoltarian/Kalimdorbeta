@@ -1,62 +1,130 @@
-﻿division_template = {
-	name = "Emerald Guardians"
+division_template = {
+	name = "Green Whelps"
 
 	regiments = {
-		arch_mage = { x = 0 y = 0 }
-		arch_mage = { x = 0 y = 1 }
-		arch_mage = { x = 0 y = 2 }
-		arch_mage = { x = 1 y = 0 }
-		arch_mage = { x = 1 y = 1 }
-		arch_mage = { x = 1 y = 2 }
+		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 1 y = 0 }
+		whelp = { x = 1 y = 1 }
+		whelp = { x = 1 y = 2 }
+		whelp = { x = 1 y = 3 }
+
 	}
-	
-#	support = {
-#		hoa_spellcaster = { x = 0 y = 0 }
-#	}
-	
+	priority = 1
+
+}
+
+division_template = {
+
+	name = "Green Dragonspawns"
+
+	regiments = {
+		dragonspawn = { x = 0 y = 0 }
+		dragonspawn = { x = 0 y = 1 }
+		dragonspawn = { x = 0 y = 2 }
+		dragonspawn = { x = 0 y = 3 }
+		dragonspawn = { x = 1 y = 0 }
+		dragonspawn = { x = 1 y = 1 }
+		dragonspawn = { x = 1 y = 2 }
+		dragonspawn = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Green Drakonids"
+
+	regiments = {
+		Drakonid = { x = 0 y = 0 }
+		Drakonid = { x = 0 y = 1 }
+		Drakonid = { x = 0 y = 2 }
+		Drakonid = { x = 1 y = 0 }
+		Drakonid = { x = 1 y = 1 }
+		Drakonid = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+
+	name = "Green Dragons"
+
+	regiments = {
+		dragon = { x = 0 y = 0 }
+		dragon = { x = 0 y = 1 }
+		dragon = { x = 0 y = 2 }
+		dragon = { x = 0 y = 3 }
+		dragon = { x = 1 y = 0 }
+		dragon = { x = 1 y = 1 }
+		dragon = { x = 1 y = 2 }
+		dragon = { x = 1 y = 3 }
+	}
 	priority = 1
 }
 
 units = {
-	#
+	#Dragonblight
 	division = {
-		name = "Emerald Guardians"
-		location = 8173
-		division_template = "Emerald Guardians"
+		name = "Green Whelps"
+		location = 8170
+		division_template = "Green Whelps"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "Emerald Guardians"
-		location = 8173
-		division_template = "Emerald Guardians"
+		name = "Green Whelps"
+		location = 8170
+		division_template = "Green Whelps"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "Emerald Guardians"
-		location = 8173
-		division_template = "Emerald Guardians"
+		name = "Emerald Whelps"
+		location = 13228
+		division_template = "Green Whelps"
 		start_experience_factor = 0.2
 	}
-	
+
+	division = {
+		name = "Green Dragonspawns"
+		location = 13228
+		division_template = "Green Dragonspawns"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Green Drakonids"
+		location = 8170
+		division_template = "Green Drakonids"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Emerald Dragons"
+		location = 8170
+		division_template = "Green Dragons"
+		start_experience_factor = 0.2
+	}
+
 }
-		
-#air_wings = {
-#	### Emerald grove
-#	202 = {
-#
-#		bomber_equipment_1 = {
-#			owner = "GDF" 
-#			amount = 26
-#		}
-#		
-#		cas_equipment_1 = {
-#			owner = "GDF" 
-#			amount = 26
-#		}
-#		
-#		fighter_equipment_2 = {
-#			owner = "GDF" 
-#			amount =34
-#		}
-#	}
-#}
+
+air_wings = {
+	### Emerald Dragonshrine
+	202 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "GDF"
+			amount = 20
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "GDF"
+			amount = 5
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "GDF"
+			amount = 10
+		}
+	}
+}

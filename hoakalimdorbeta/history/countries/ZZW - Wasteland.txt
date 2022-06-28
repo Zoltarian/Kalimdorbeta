@@ -1,0 +1,37 @@
+﻿capital = 1
+
+set_research_slots = 0
+
+add_ideas = {
+	no_government
+	no_population
+	closed_economy
+	no_economy
+}
+
+set_popularities = {
+  alliance = 0
+  horde = 0
+  death = 0
+  fel = 0
+  old_gods = 0
+  titans = 0
+  neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Disabled"
+	picture = "gfx/leaders/wasteland/unknown.dds"
+	expire = "1965.1.1"
+	ideology = neutral_type
+	traits = {
+		#
+	}
+}

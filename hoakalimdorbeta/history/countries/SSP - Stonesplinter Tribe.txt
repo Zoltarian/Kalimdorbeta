@@ -2,10 +2,6 @@
 
 oob = "SPT_592"
 
-set_naval_oob = "SPT_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -22,12 +18,7 @@ add_ideas = {
 
 }
 
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
+recruit_character = SSP_boss_galgosh
 
 set_popularities = {
     alliance = 0
@@ -39,3 +30,9 @@ set_popularities = {
     neutral = 100
 }
 
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}

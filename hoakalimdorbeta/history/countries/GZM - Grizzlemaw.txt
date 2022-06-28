@@ -3,7 +3,28 @@
 oob = "GZM_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+	priest_tech = 1
+}
 
 add_ideas = {
 	tribe
@@ -18,6 +39,8 @@ add_ideas = {
 
 	primary_religion_disciples_of_ursoc
 }
+
+recruit_character = GZM_grumbald_one_eye
 
 set_popularities = {
 	alliance = 0

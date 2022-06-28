@@ -3,10 +3,49 @@
 oob = "TLT_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	blacksmith_unit_tech_1 = 1
+	farm_tech = 1
+	mines_tech = 1
+	lumber_mill_tech = 1
+	tailor_tech = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	guard_tech = 1
+	pikeman_tech = 1
+	pikeman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+	priest_tech = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+
+	siege_works = 1
+	supply_wagon_tech = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+}
 
 add_ideas = {
-	
+
 	tribe
 	recruit_adventurers
 	peacetime_economy
@@ -16,6 +55,9 @@ add_ideas = {
 
 	primary_religion_shamanism
 }
+
+recruit_character = TLT_ontak
+
 set_popularities = {
 	alliance = 0
 	horde = 0

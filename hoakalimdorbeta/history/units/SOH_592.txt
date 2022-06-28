@@ -1,10 +1,65 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Sons of Hodir"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 0 }
+		royal_guard = { x = 0 y = 1 }
+		royal_guard = { x = 0 y = 2 }
+		royal_guard = { x = 0 y = 3 }
+		royal_guard = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+
+	division = {
+		name = "Sons of Hodir"
+		location = 418
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sons of Hodir"
+		location = 418
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sons of Hodir"
+		location = 15699
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sons of Hodir"
+		location = 418
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sons of Hodir"
+		location = 15658
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sons of Hodir"
+		location = 15658
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sons of Hodir"
+		location = 15714
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sons of Hodir"
+		location = 15664
+		division_template = "Sons of Hodir"
+		start_experience_factor = 0.2
+	}
+}

@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Red Dragonkin"
+	name = "Red Drakonid"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
@@ -16,28 +16,28 @@
 units = {
 	#
 	division = {
-		name = "1st Dragonkin"
+		name = "1st Drakonid"
 		location = 1085
-		division_template = "Red Dragonkin"
+		division_template = "Red Drakonid"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "2nd Dragonkin"
+		name = "2nd Drakonid"
 		location = 1078
-		division_template = "Red Dragonkin"
+		division_template = "Red Drakonid"
 		start_experience_factor = 0.2
 	}
 	
 	division = {
-		name = "3rd Dragonkin"
+		name = "3rd Drakonid"
 		location = 4686
-		division_template = "Red Dragonkin"
+		division_template = "Red Drakonid"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "4th Dragonkin"
+		name = "4th Drakonid"
 		location = 4679
-		division_template = "Red Dragonkin"
+		division_template = "Red Drakonid"
 		start_experience_factor = 0.2
 	}
 	

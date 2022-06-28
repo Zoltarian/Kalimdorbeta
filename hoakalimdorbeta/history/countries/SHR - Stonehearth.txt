@@ -3,7 +3,36 @@
 oob = "SHR_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	dwarf_hovel_tech = 1
+	craftsman_tech = 1
+	dwarf_tools_equipment_tech = 1
+	miner_tech = 1
+	dwarf_workshop_tech = 1
+	dwarf_foundry_tech = 1
+
+	mustering_hall_tech = 1
+	dwarf_axeman_tech = 1
+	dwarf_axeman_equipment_tech_1 = 1
+	enforcer_tech = 1
+	rifleman_tech = 1
+	rifleman_equipment_tech_1 = 1
+	engineer_tech = 1
+	runecarvers_sanctum_tech = 1
+	rune_priest_tech = 1
+	runes_equipment_tech = 1
+	thane_tech = 1
+
+	dwarf_siege_workshop = 1
+	dwarf_caravan_equipment_tech_1 = 1
+	steam_wagon_tech = 1
+	steam_wagon_equipment_tech_1 = 1
+
+	altar_of_stoneborn_kings_tech = 1
+	mountain_king_tech = 1
+	mountain_king_equipment_tech_1 = 1
+}
+
 
 add_ideas = {
 	

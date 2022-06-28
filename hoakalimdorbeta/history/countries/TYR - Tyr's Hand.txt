@@ -28,25 +28,15 @@ set_technology = {
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 	
-	
 	catapult_equipment_tech_1 = 1
-	
-	
-	
-	
-	
+
 	naval_transport_1 = 1
 	town_hall_tech = 1
 	scout_tower_1 = 1
 	
 }
 
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
+recruit_character = TYR_militia_ringleader
 
 set_popularities = {
 	alliance = 0
@@ -56,4 +46,11 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
 }

@@ -1,10 +1,101 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Grizzlemaw Warriors"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Grizzlemaw Hunters"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Grizzlemaw Shamans"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Frostpaw Warriors"
+		location = 6168
+		division_template = "Grizzlemaw Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Redfang Warriors"
+		location = 10976
+		division_template = "Grizzlemaw Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Frostpaw Warriors"
+		location = 716
+		division_template = "Grizzlemaw Warriors"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Frostpaw Warriors"
+		location = 7235
+		division_template = "Grizzlemaw Warriors"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Frostpaw Hunters"
+		location = 6168
+		division_template = "Grizzlemaw Hunters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Redfang Hunters"
+		location = 716
+		division_template = "Grizzlemaw Hunters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Frostpaw Hunters"
+		location = 7962
+		division_template = "Grizzlemaw Hunters"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Frostpaw Shamans"
+		location = 15989
+		division_template = "Grizzlemaw Shamans"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Redfang Shamans"
+		location = 6168
+		division_template = "Grizzlemaw Shamans"
+		start_experience_factor = 0.2
+	}
+}

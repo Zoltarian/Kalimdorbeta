@@ -12,8 +12,14 @@ add_ideas = {
 	tribe
 	
 	gnoll_primary_race
+	primary_trait_prone_to_infighting
+	primary_trait_extreme_aggression
+	primary_trait_gruesome_tradition
+	
 	primary_religion_necromancy
 }
+
+recruit_character = RHP_snarlmane
 
 set_politics = {
 	ruling_party = neutral

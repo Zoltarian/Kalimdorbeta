@@ -16,12 +16,7 @@ add_ideas = {
 	primary_trait_perception
 }
 
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
+recruit_character = SFB_barong_longshore
 
 set_popularities = {
 	alliance = 0
@@ -31,5 +26,11 @@ set_popularities = {
 	old_gods = 0
 	titans = 0
 	neutral = 100
+}
 
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
 }

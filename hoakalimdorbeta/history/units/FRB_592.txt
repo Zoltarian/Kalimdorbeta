@@ -1,14 +1,29 @@
 ﻿division_template = {
-	name = "Frostborn Axtmasters"
+	name = "Frostborn Axemasters"
 
 	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 0 y = 3 }
-		militia = { x = 0 y = 4 }
+		dwarf_axeman = { x = 0 y = 0 }
+		dwarf_axeman = { x = 0 y = 1 }
+		dwarf_axeman = { x = 0 y = 2 }
+		dwarf_axeman = { x = 0 y = 3 }
+		dwarf_axeman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+
+	division = {
+		name = "Frostborn Axemasters"
+		location = 13287
+		division_template = "Frostborn Axemasters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Frostborn Axemasters"
+		location = 13287
+		division_template = "Frostborn Axemasters"
+		start_experience_factor = 0.2
+	}
+}

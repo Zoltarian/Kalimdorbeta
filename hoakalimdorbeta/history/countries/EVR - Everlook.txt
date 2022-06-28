@@ -2,16 +2,14 @@
 
 oob = "EVR_592"
 
-set_naval_oob = "EVR_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
 	goblin_primary_race
 }
+
+recruit_character = EVR_bronn_fitzwrench
 
 set_politics = {
 	ruling_party = neutral

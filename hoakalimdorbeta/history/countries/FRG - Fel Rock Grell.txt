@@ -2,16 +2,14 @@
 
 oob = "FRG_592"
 
-set_naval_oob = "FRG_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
 	grell_primary_race
 }
+
+recruit_character = FRG_lord_melenas
 
 set_politics = {
 	ruling_party = neutral

@@ -1,10 +1,109 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Stone Whelps"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 1 y = 0 }
+		whelp = { x = 1 y = 1 }
+		whelp = { x = 1 y = 2 }
+		whelp = { x = 1 y = 3 }
+
+	}
+	priority = 1
+
+}
+
+division_template = {
+
+	name = "Stone Dragonspawns"
+
+	regiments = {
+		dragonspawn = { x = 0 y = 0 }
+		dragonspawn = { x = 0 y = 1 }
+		dragonspawn = { x = 0 y = 2 }
+		dragonspawn = { x = 0 y = 3 }
+		dragonspawn = { x = 1 y = 0 }
+		dragonspawn = { x = 1 y = 1 }
+		dragonspawn = { x = 1 y = 2 }
+		dragonspawn = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Stone Drakonids"
+
+	regiments = {
+		Drakonid = { x = 0 y = 0 }
+		Drakonid = { x = 0 y = 1 }
+		Drakonid = { x = 0 y = 2 }
+		Drakonid = { x = 1 y = 0 }
+		Drakonid = { x = 1 y = 1 }
+		Drakonid = { x = 1 y = 2 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+
+	name = "Stone Dragons"
+
+	regiments = {
+		dragon = { x = 0 y = 0 }
+		dragon = { x = 0 y = 1 }
+		dragon = { x = 0 y = 2 }
+		dragon = { x = 0 y = 3 }
+		dragon = { x = 1 y = 0 }
+		dragon = { x = 1 y = 1 }
+		dragon = { x = 1 y = 2 }
+		dragon = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Stone Whelps"
+		location = 7398
+		division_template = "Stone Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Stone Whelps"
+		location = 7398
+		division_template = "Stone Whelps"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Stone Dragons"
+		location = 7398
+		division_template = "Stone Dragons"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### The Pale Roost
+	1787 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "STF"
+			amount = 10
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "STF"
+			amount = 4
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "STF"
+			amount = 6
+		}
+	}
+}

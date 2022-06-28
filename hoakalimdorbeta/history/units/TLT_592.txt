@@ -1,10 +1,49 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Taunka'lo Braves"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Taunka'lo Shamans"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Taunka'lo Braves"
+		location = 15730
+		division_template = "Taunka'lo Braves"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Taunka'lo Braves"
+		location = 13345
+		division_template = "Taunka'lo Braves"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Taunka'lo Shamans"
+		location = 13345
+		division_template = "Taunka'lo Shamans"
+		start_experience_factor = 0.2
+	}
+}

@@ -1,9 +1,82 @@
-﻿capital = 2020
+﻿capital = 2022
 
 oob = "KOU_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	harvesting_tools_1 = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	blacksmith_unit_tech_1 = 1
+	improved_forge_1 = 1
+	blueprints_1 = 1
+	industrial_society_1 = 1
+	farm_tech = 1
+	mines_tech = 1
+	church_tech = 1
+	wall_tech_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+	guard_tower_1 = 1
+	rogues_guild = 1
+	encryption_1 = 1
+	rogue_tech = 1
+	tailor_tech = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	captain_tech = 1
+	guard_tech = 1
+	nights_watch_1 = 1
+	pikeman_tech = 1
+	pikeman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+	priest_tech = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+	knight_tech = 1
+	knight_tech_1 = 1
+
+	siege_works = 1
+	catapult_tech = 1
+	catapult_equipment_tech_1 = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+	paladin_tech = 1
+	paladin_equipment_tech_1 = 1
+	arch_mage_tech = 1
+	arch_mage_equipment_tech_1 = 1
+
+	aviary_tech = 1
+	mechanical_flight = 1
+	small_air_frames = 1
+	large_air_frames = 1
+	support_air_frames = 1
+	fighter_air_frames_1 = 1
+	cas_air_frames_1 = 1
+	mechanical_bomber_1 = 1
+	mechanical_naval_bomber_1 = 1
+	mechanical_scout_plane_1 = 1
+	mechanical_air_transport_1 = 1
+}
 
 add_ideas = {
 	council
@@ -11,10 +84,19 @@ add_ideas = {
 	early_military_development
 
 	titan_watcher_primary_race
+	iron_dwarf_secondary_race
+	iron_vrykul_secondary_race
+	iron_giant_secondary_race
+	mecha_gnome_secondary_race
+	lashers_secondary_race
+
+
 	primary_trait_titan_forging
 
 	primary_religion_the_titans
 }
+
+recruit_character = KOU_loken
 
 set_popularities = {
 	alliance = 0

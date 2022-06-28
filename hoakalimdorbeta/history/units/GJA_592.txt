@@ -1,0 +1,94 @@
+division_template = {
+	name = "Gjalebron Combatants"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Gjalebron Spearmen"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Gjalebron Skalds"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Gjalebron Combatants"
+		location = 499
+		division_template = "Gjalebron Combatants"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Gjalebron Spearmen"
+		location = 499
+		division_template = "Gjalebron Spearmen"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Gjalebron Skalds"
+		location = 499
+		division_template = "Gjalebron Skalds"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Gjalebron
+	1638 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "WIC"
+			amount = 5
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "WIC"
+			amount = 3
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "WIC"
+			amount = 2
+		}
+	}
+}

@@ -8,13 +8,15 @@ set_stability = 0.45
 set_war_support = 0.3
 
 add_ideas = {
-	
 	tribe
 	limited_conscription
 	early_military_development
 	limited_exports
 
 	gnoll_primary_race
+	primary_trait_prone_to_infighting
+	primary_trait_extreme_aggression
+	primary_trait_gruesome_tradition
 
 	primary_religion_shamanism
 }
@@ -37,7 +39,6 @@ set_technology = {
 	footman_weapons_tech_1 = 1
 	archer_tech = 1
 	archer_weapons_tech_1 = 1
-
 }
 
 recruit_character = PAL_snagglespear

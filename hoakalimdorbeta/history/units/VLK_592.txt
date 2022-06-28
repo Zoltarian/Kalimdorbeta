@@ -1,10 +1,100 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Valkyrion Battle-maidens"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Valkyrion Harpooners"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Valkyrion Frostweavers"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Valkyrion Battle-maidens"
+		location = 15675
+		division_template = "Valkyrion Battle-maidens"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Valkyrion Battle-maidens"
+		location = 15675
+		division_template = "Valkyrion Battle-maidens"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Valkyrion Harpooners"
+		location = 15675
+		division_template = "Valkyrion Harpooners"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Valkyrion Frostweavers"
+		location = 15675
+		division_template = "Valkyrion Frostweavers"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Valkyrion
+	1725 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "HYL"
+			amount = 10
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "HYL"
+			amount = 5
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "HYL"
+			amount = 5
+		}
+	}
+}

@@ -1,10 +1,48 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Winterfin Murlocs"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+
+	division = {
+		name = "Winterfin Murlocs"
+		location = 8925
+		division_template = "Winterfin Murlocs"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Winterfin Murlocs"
+		location = 8925
+		division_template = "Winterfin Murlocs"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Winterfin Murlocs"
+		location = 8937
+		division_template = "Winterfin Murlocs"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Winterfin Murlocs"
+		location = 8926
+		division_template = "Winterfin Murlocs"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Winterfin Murlocs"
+		location = 8904
+		division_template = "Winterfin Murlocs"
+		start_experience_factor = 0.2
+	}
+
+}

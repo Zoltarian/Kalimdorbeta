@@ -1,10 +1,71 @@
 ﻿division_template = {
-	name = "placeholder division"
+	name = "Argol Axemasters"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		dwarf_axeman = { x = 0 y = 0 }
+		dwarf_axeman = { x = 0 y = 1 }
+		dwarf_axeman = { x = 0 y = 2 }
+		dwarf_axeman = { x = 0 y = 3 }
+		dwarf_axeman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Argol Rifleman"
+
+	regiments = {
+		rifleman = { x = 0 y = 0 }
+		rifleman = { x = 0 y = 1 }
+		rifleman = { x = 0 y = 2 }
+		rifleman = { x = 0 y = 3 }
+		rifleman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Argol Mountain Kings"
+
+	regiments = {
+		mountain_king = { x = 0 y = 0 }
+		mountain_king = { x = 0 y = 1 }
+		mountain_king = { x = 0 y = 2 }
+		mountain_king = { x = 0 y = 3 }
+		mountain_king = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Argol Axemasters"
+		location = 15985
+		division_template = "Argol Axemasters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Argol Axemasters"
+		location = 15985
+		division_template = "Argol Axemasters"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Argol Rifleman"
+		location = 15985
+		division_template = "Argol Rifleman"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Argol Rifleman"
+		location = 15985
+		division_template = "Argol Rifleman"
+		start_experience_factor = 0.2
+	}
+
+}

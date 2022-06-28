@@ -1,10 +1,54 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Skadir Raiders"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Skadir Mistweavers"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Skadir Raiders"
+		location = 8239
+		division_template = "Skadir Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Skadir Raiders"
+		location = 8245
+		division_template = "Skadir Raiders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Skadir Raiders"
+		location = 10969
+		division_template = "Skadir Raiders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Skadir Mistweavers"
+		location = 8921
+		division_template = "Skadir Mistweavers"
+		start_experience_factor = 0.2
+	}
+}

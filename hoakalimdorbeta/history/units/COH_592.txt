@@ -1,10 +1,59 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Coldwind Harpies"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Coldwind Windcallers"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Coldwind Harpies"
+		location = 13498
+		division_template = "Coldwind Harpies"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Coldwind Windcallers"
+		location = 13498
+		division_template = "Coldwind Windcallers"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Coldwind Heights
+	1239 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "COH"
+			amount = 10
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "COH"
+			amount = 5
+		}
+	}
+}

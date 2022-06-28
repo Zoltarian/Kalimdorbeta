@@ -1,13 +1,15 @@
-﻿division_template = {
-	name = "Onyxian Whelp"
+division_template = {
+	name = "Black Whelps"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
-		footman = { x = 0 y = 1 }
-		footman = { x = 0 y = 2 }
-		footman = { x = 1 y = 0 }
-		footman = { x = 1 y = 1 }
-		footman = { x = 1 y = 2 }
+		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 1 y = 0 }
+		whelp = { x = 1 y = 1 }
+		whelp = { x = 1 y = 2 }
+		whelp = { x = 1 y = 3 }
 
 	}
 	priority = 1
@@ -16,40 +18,222 @@
 
 division_template = {
 
-	name = "Onyxian Lair Guard"
+	name = "Black Dragonspawns"
 
 	regiments = {
-		mounted_footman = { x = 0 y = 0 }
-		mounted_footman = { x = 0 y = 1 }
-		mounted_footman = { x = 0 y = 2 }
-		mounted_footman = { x = 1 y = 0 }
-		mounted_footman = { x = 1 y = 1 }
-		mounted_footman = { x = 1 y = 2 }
+		dragonspawn = { x = 0 y = 0 }
+		dragonspawn = { x = 0 y = 1 }
+		dragonspawn = { x = 0 y = 2 }
+		dragonspawn = { x = 0 y = 3 }
+		dragonspawn = { x = 1 y = 0 }
+		dragonspawn = { x = 1 y = 1 }
+		dragonspawn = { x = 1 y = 2 }
+		dragonspawn = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Black Drakonids"
+
+	regiments = {
+		Drakonid = { x = 0 y = 0 }
+		Drakonid = { x = 0 y = 1 }
+		Drakonid = { x = 0 y = 2 }
+		Drakonid = { x = 1 y = 0 }
+		Drakonid = { x = 1 y = 1 }
+		Drakonid = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+
+	name = "Black Dragons"
+
+	regiments = {
+		dragon = { x = 0 y = 0 }
+		dragon = { x = 0 y = 1 }
+		dragon = { x = 0 y = 2 }
+		dragon = { x = 0 y = 3 }
+		dragon = { x = 1 y = 0 }
+		dragon = { x = 1 y = 1 }
+		dragon = { x = 1 y = 2 }
+		dragon = { x = 1 y = 3 }
 	}
 	priority = 1
 }
 
 units = {
-	#
+	#################################
+	#Deepholm
+	#################################
+	division = {
+		name = "Obsidian Whelps"
+		location = 260
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Whelps"
+		location = 15352
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Whelps"
+		location = 15501
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Whelps"
+		location = 7747
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Whelps"
+		location = 7725
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Whelps"
+		location = 7389
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Whelps"
+		location = 7389
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Black Whelps"
+		location = 15383
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Black Whelps"
+		location = 15421
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Black Whelps"
+		location = 15489
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Black Dragonspawns"
+		location = 7389
+		division_template = "Black Dragonspawns"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Black Dragonspawns"
+		location = 15320
+		division_template = "Black Dragonspawns"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Black Dragonspawns"
+		location = 15284
+		division_template = "Black Dragonspawns"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Black Drakonids"
+		location = 7389
+		division_template = "Black Drakonids"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Black Drakonids"
+		location = 15302
+		division_template = "Black Drakonids"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Black Drakonids"
+		location = 8203
+		division_template = "Black Drakonids"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Black Dragons"
+		location = 7389
+		division_template = "Black Dragons"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Obsidian Dragons"
+		location = 8203
+		division_template = "Black Dragons"
+		start_experience_factor = 0.2
+	}
+	#################################
+	#Dragonblight
+	#################################
+	division = {
+		name = "Obsidian Whelps"
+		location = 13459
+		division_template = "Black Whelps"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Obsidian Drakonids"
+		location = 13459
+		division_template = "Black Drakonids"
+		start_experience_factor = 0.2
+	}
 }
 
-#air_wings = {
-#	### coldara
-#	799 = {
-#
-#		bomber_equipment_1 = {
-#			owner = "BRF"
-#			amount = 28
-#		}
-#
-#		cas_equipment_1 = {
-#			owner = "BRF"
-#			amount = 28
-#		}
-#
-#		fighter_equipment_2 = {
-#			owner = "BRF"
-#			amount = 44
-#		}
-#	}
-#}
+air_wings = {
+	### Deathwing's Fall
+	1801 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "BLF"
+			amount = 40
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "BLF"
+			amount = 15
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "BLF"
+			amount = 20
+		}
+	}
+
+	### Obsidian Dragonshrine
+	112 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "BLF"
+			amount = 5
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "BLF"
+			amount = 2
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "BLF"
+			amount = 3
+		}
+	}
+}

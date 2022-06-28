@@ -1,0 +1,25 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Skadir Fleet"
+		naval_base = 8239
+		task_force = {
+			name = "Skadir Fleet"
+			location = 8239 #Riplash Ruins
+
+
+			ship = {
+				name = "1st Skadir Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SKA} }
+			}
+
+			ship = {
+				name = "2nd Skadir Destroyer"
+				definition = destroyer
+				equipment = { destroyer_equipment_1 = { amount = 1 owner = SKA} }
+			}
+		}
+	}
+}

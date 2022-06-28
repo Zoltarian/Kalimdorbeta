@@ -1,10 +1,181 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Ymirjar Berserkers"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Ymirjar Hunters"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+		archer = { x = 0 y = 3 }
+		archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+		archer = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Ymirjar Harpooners"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Ymirjar Frostbinders"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Ymirheim Defenders"
+
+	regiments = {
+		royal_guard = { x = 1 y = 0 }
+		royal_guard = { x = 1 y = 1 }
+		royal_guard = { x = 1 y = 2 }
+		royal_guard = { x = 1 y = 3 }
+		royal_guard = { x = 1 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Ymirjar Berserkers"
+		location = 4874
+		division_template = "Ymirjar Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Ymirjar Berserkers"
+		location = 5041
+		division_template = "Ymirjar Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Ymirjar Berserkers"
+		location = 3412
+		division_template = "Ymirjar Berserkers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Ymirjar Berserkers"
+		location = 5071
+		division_template = "Ymirjar Berserkers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Ymirjar Hunters"
+		location = 4874
+		division_template = "Ymirjar Hunters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Ymirjar Hunters"
+		location = 3059
+		division_template = "Ymirjar Hunters"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Ymirjar Hunters"
+		location = 5071
+		division_template = "Ymirjar Hunters"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Ymirjar Harpooners"
+		location = 3059
+		division_template = "Ymirjar Harpooners"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Ymirjar Harpooners"
+		location = 3013
+		division_template = "Ymirjar Harpooners"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Ymirjar Frostbinders"
+		location = 4874
+		division_template = "Ymirjar Frostbinders"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Ymirjar Frostbinders"
+		location = 3013
+		division_template = "Ymirjar Frostbinders"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Ymirheim Defenders"
+		location = 4874
+		division_template = "Ymirheim Defenders"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Ymirheim
+	1753 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "MDC"
+			amount = 30
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "MDC"
+			amount = 10
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "MDC"
+			amount = 15
+		}
+	}
+}

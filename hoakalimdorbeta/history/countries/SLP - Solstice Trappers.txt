@@ -3,10 +3,52 @@
 oob = "SLP_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	construction_tools_1 = 1
+	harvesting_tools_1 = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	blacksmith_unit_tech_1 = 1
+	improved_forge_1 = 1
+	blueprints_1 = 1
+	farm_tech = 1
+	nesting_grounds_tech = 1
+	mines_tech = 1
+	church_tech = 1
+	wall_tech_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	guard_tower_1 = 1
+	tailor_tech = 1
+	leather_working_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	captain_tech = 1
+	guard_tech = 1
+	nights_watch_1 = 1
+	pikeman_tech = 1
+	pikeman_weapons_tech_1 = 1
+	archer_tech = 1
+	archer_weapons_tech_1 = 1
+
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+	priest_tech = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+}
 
 add_ideas = {
-
 	city_state
 	recruit_adventurers
 	peacetime_economy
@@ -19,6 +61,8 @@ add_ideas = {
 
 	primary_religion_the_church_of_the_holy_light
 }
+
+recruit_character = SLP_tatjana
 
 set_popularities = {
 	alliance = 0

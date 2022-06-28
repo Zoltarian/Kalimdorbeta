@@ -2,10 +2,6 @@
 
 oob = "LOA_592"
 
-set_naval_oob = "LOA_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -15,6 +11,8 @@ add_ideas = {
 	primary_trait_human_spirit
 	primary_trait_perception
 }
+
+recruit_character = LOA_sir_maximus_adams
 
 set_politics = {
 	ruling_party = neutral

@@ -1,0 +1,100 @@
+division_template = {
+	name = "Winterskorn Combatants"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 1 y = 0 }
+		footman = { x = 1 y = 1 }
+		footman = { x = 1 y = 2 }
+		footman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Winterskorn Spearmen"
+
+	regiments = {
+		pikeman = { x = 0 y = 0 }
+		pikeman = { x = 0 y = 1 }
+		pikeman = { x = 0 y = 2 }
+		pikeman = { x = 0 y = 3 }
+		pikeman = { x = 1 y = 0 }
+		pikeman = { x = 1 y = 1 }
+		pikeman = { x = 1 y = 2 }
+		pikeman = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Winterskorn Skalds"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 1 y = 0 }
+		mage = { x = 1 y = 1 }
+		mage = { x = 1 y = 2 }
+		mage = { x = 1 y = 3 }
+
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Winterskorn Combatants"
+		location = 271
+		division_template = "Winterskorn Combatants"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Winterskorn Combatants"
+		location = 6874
+		division_template = "Winterskorn Combatants"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Winterskorn Spearmen"
+		location = 271
+		division_template = "Winterskorn Spearmen"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Winterskorn Skalds"
+		location = 271
+		division_template = "Winterskorn Skalds"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Skorn
+	1641 = {
+
+		organic_fighter_equipment_1 = {
+			owner = "WIC"
+			amount = 10
+		}
+
+		organic_cas_equipment_1 = {
+			owner = "WIC"
+			amount = 5
+		}
+
+		organic_bomber_equipment_1 = {
+			owner = "WIC"
+			amount = 5
+		}
+	}
+}

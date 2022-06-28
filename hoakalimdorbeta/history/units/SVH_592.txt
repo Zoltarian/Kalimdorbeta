@@ -1,10 +1,58 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Savage Hill Scavengers"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Savage Hill Brutes"
+
+	regiments = {
+		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Savage Hill Mystics"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Savage Hill Scavengers"
+		location = 13443
+		division_template = "Savage Hill Scavengers"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Savage Hill Brutes"
+		location = 13443
+		division_template = "Savage Hill Brutes"
+		start_experience_factor = 0.2
+	}
+}

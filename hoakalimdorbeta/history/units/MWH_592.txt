@@ -1,10 +1,64 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Mistwhisper Gorloc"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 15908
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 15914
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 8175
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 15901
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 15898
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 13326
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 9372
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Mistwhisper Gorloc"
+		location = 15908
+		division_template = "Mistwhisper Gorloc"
+		start_experience_factor = 0.2
+	}
+}

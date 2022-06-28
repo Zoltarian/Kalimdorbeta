@@ -1,55 +1,142 @@
-﻿division_template = {
-	name = "Nexus Guardians"
+division_template = {
+	name = "Blue Whelps"
 
 	regiments = {
-		arch_mage = { x = 0 y = 0 }
-		arch_mage = { x = 0 y = 1 }
-		arch_mage = { x = 0 y = 2 }
-		arch_mage = { x = 1 y = 0 }
-		arch_mage = { x = 1 y = 1 }
-		arch_mage = { x = 1 y = 2 }
+		whelp = { x = 0 y = 0 }
+		whelp = { x = 0 y = 1 }
+		whelp = { x = 0 y = 2 }
+		whelp = { x = 0 y = 3 }
+		whelp = { x = 1 y = 0 }
+		whelp = { x = 1 y = 1 }
+		whelp = { x = 1 y = 2 }
+		whelp = { x = 1 y = 3 }
+
 	}
+	priority = 1
 
-#	support = {
-#		hoa_spellcaster = { x = 0 y = 0 }
-#	}
+}
 
+division_template = {
+
+	name = "Blue Dragonspawns"
+
+	regiments = {
+		dragonspawn = { x = 0 y = 0 }
+		dragonspawn = { x = 0 y = 1 }
+		dragonspawn = { x = 0 y = 2 }
+		dragonspawn = { x = 0 y = 3 }
+		dragonspawn = { x = 1 y = 0 }
+		dragonspawn = { x = 1 y = 1 }
+		dragonspawn = { x = 1 y = 2 }
+		dragonspawn = { x = 1 y = 3 }
+	}
 	priority = 1
 }
 
-#units = {
-#	#
-#	division = {
-#		name = "Nexus Guardians"
-#		location = 8912
-#		division_template = "Nexus Guardians"
-#		start_experience_factor = 0.2
-#	}
-#	division = {
-#		name = "Nexus Guardians"
-#		location = 8896
-#		division_template = "Nexus Guardians"
-#		start_experience_factor = 0.2
-#	}
-#}
+division_template = {
 
-#air_wings = {
-#	### coldara
-#	299 = {
-#
-#		bomber_equipment_1 = {
-#			owner = "BDF"
-#			amount = 17
-#		}
-#
-#		cas_equipment_1 = {
-#			owner = "BDF"
-#			amount = 17
-#		}
-#
-#		fighter_equipment_2 = {
-#			owner = "BDF"
-#			amount = 36
-#		}
-#	}
-#}
+	name = "Blue Dragons"
+
+	regiments = {
+		dragon = { x = 0 y = 0 }
+		dragon = { x = 0 y = 1 }
+		dragon = { x = 0 y = 2 }
+		dragon = { x = 0 y = 3 }
+		dragon = { x = 1 y = 0 }
+		dragon = { x = 1 y = 1 }
+		dragon = { x = 1 y = 2 }
+		dragon = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+
+units = {
+
+#################################
+#Borean Tundra - Nexus
+#################################
+	division = {
+		name = "Nexus Whelps"
+		location = 8912
+		division_template = "Blue Whelps"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nexus Whelps"
+		location = 8902
+		division_template = "Blue Whelps"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nexus Dragonspawns"
+		location = 8912
+		division_template = "Blue Dragonspawns"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Nexus Dragonspawns"
+		location = 8906
+		division_template = "Blue Dragonspawns"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Nexus Dragons"
+		location = 8912
+		division_template = "Blue Dragons"
+		start_experience_factor = 0.3
+	}
+
+#################################
+#Dragonblight - Blue Dragonshrine
+#################################
+		division = {
+			name = "Blue Whelps"
+			location = 13240
+			division_template = "Blue Whelps"
+			start_experience_factor = 0.2
+		}
+
+		division = {
+			name = "Blue Dragonspawns"
+			location = 13240
+			division_template = "Blue Dragonspawns"
+			start_experience_factor = 0.2
+		}
+}
+
+air_wings = {
+	### Nexus
+	299 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "BDF"
+			amount = 20
+		}
+
+		bomber_drake_equipment_1 = {
+			owner = "BDF"
+			amount = 10
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "BDF"
+			amount = 10
+		}
+	}
+
+	### Blue Dragonshrine
+	203 = {
+
+		fighter_drake_equipment_1 = {
+			owner = "BDF"
+			amount = 10
+		}
+
+		cas_drake_equipment_1 = {
+			owner = "BDF"
+			amount = 10
+		}
+	}
+}

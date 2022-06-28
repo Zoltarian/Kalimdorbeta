@@ -5,10 +5,21 @@ oob = "GHG_592"
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+
+	altar_of_kings_tech = 1
+	royal_guard_tech = 1
+	royal_guard_equipment_tech_1 = 1
+}
 
 add_ideas = {
-
 	clan
 	recruit_adventurers
 	peacetime_economy
@@ -18,6 +29,8 @@ add_ideas = {
 
 	primary_religion_followers_of_the_stonemother
 }
+
+recruit_character = GHG_kurun
 
 set_popularities = {
 	alliance = 0

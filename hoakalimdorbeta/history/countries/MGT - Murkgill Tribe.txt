@@ -2,16 +2,14 @@
 
 oob = "MGT_592"
 
-set_naval_oob = "MGT_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
 	murloc_primary_race
 }
+
+recruit_character = MGT_gluggle
 
 set_politics = {
 	ruling_party = neutral

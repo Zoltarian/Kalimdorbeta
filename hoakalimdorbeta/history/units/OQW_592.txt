@@ -1,10 +1,43 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Oneqwah Braves"
 
 	regiments = {
 		footman = { x = 0 y = 0 }
+		footman = { x = 0 y = 1 }
+		footman = { x = 0 y = 2 }
+		footman = { x = 0 y = 3 }
+		footman = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+division_template = {
+	name = "Oneqwah Shamans"
+
+	regiments = {
+		mage = { x = 0 y = 0 }
+		mage = { x = 0 y = 1 }
+		mage = { x = 0 y = 2 }
+		mage = { x = 0 y = 3 }
+		mage = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "Oneqwah Braves"
+		location = 425
+		division_template = "Oneqwah Braves"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Oneqwah Shamans"
+		location = 425
+		division_template = "Oneqwah Shamans"
+		start_experience_factor = 0.2
+	}
+}

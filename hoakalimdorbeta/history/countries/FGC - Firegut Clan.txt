@@ -2,10 +2,6 @@
 
 oob = "FGC_592"
 
-set_naval_oob = "FGC_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -23,6 +19,8 @@ add_ideas = {
 	
 	primary_religion_arcane_studies
 }
+
+recruit_character = FGC_gortesh
 
 set_politics = {
 	ruling_party = neutral

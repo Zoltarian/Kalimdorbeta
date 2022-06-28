@@ -2,7 +2,7 @@
 
 oob = "BRF_592"
 
-set_convoys = 20
+set_convoys = 50
 
 set_research_slots = 3
 
@@ -10,7 +10,6 @@ set_stability = 0.65
 set_war_support = 0.1
 
 add_ideas = {
-	
 	council
 	limited_conscription
 	peacetime_economy
@@ -27,10 +26,35 @@ add_ideas = {
 }
 
 set_technology = {
+	dragon_roost_administration = 1
+	breeding_grounds = 1
+	dragonman_tech = 1
+	dragonman_equipment_tech = 1
+	dragon_temple_tech = 1
+	dragon_forge_tech = 1
 
+	dragon_roost_ground = 1
 	whelp_tech = 1
 	whelp_equipment_tech_1 = 1
+	dragonspawn_tech = 1
+	dragonspawn_equipment_tech_1 = 1
+	dragonspawn_lieutenant_tech = 1
+	dragonspawn_sorceress_equipment_tech_1 = 1
+	drakonid_tech = 1
+	drakonid_equipment_tech_1 = 1
+	dragon_tech = 1
+	dragon_equipment_tech_1 = 1
+	broodmother_tech = 1
 
+	dragon_roost_air = 1
+	combat_drakes = 1
+	fighter_drakes_1 = 1
+	cas_drakes_1 = 1
+	bomber_drakes_1 = 1
+	naval_bomber_drakes_1 = 1
+	support_drakes = 1
+	covert_drakes_1 = 1
+	supply_drakes_1 = 1
 }
 
 recruit_character = BRF_nozdormu

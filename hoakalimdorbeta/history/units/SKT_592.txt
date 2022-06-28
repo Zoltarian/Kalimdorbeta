@@ -1,10 +1,70 @@
-﻿division_template = {
-	name = "placeholder division"
+division_template = {
+	name = "Sparktouched Gorloc"
 
 	regiments = {
-		footman = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 
 	}
 	priority = 1
 }
 
+units = {
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 8347
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 8347
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 9327
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 8348
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 13349
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 8431
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 9414
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 8368
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sparktouched Gorloc"
+		location = 9306
+		division_template = "Sparktouched Gorloc"
+		start_experience_factor = 0.2
+	}
+}

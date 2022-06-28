@@ -24,12 +24,7 @@ add_ideas = {
 	primary_religion_the_church_of_the_holy_light
 }
 
-set_politics = {
-	ruling_party = neutral
-	last_election = "590.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
+recruit_character = HIB_magistrate_henry_maleb
 
 set_popularities = {
     alliance = 0
@@ -39,4 +34,11 @@ set_popularities = {
     old_gods = 0
     titans = 0
     neutral = 100
+}
+
+set_politics = {
+	ruling_party = neutral
+	last_election = "590.10.27"
+	election_frequency = 48
+	elections_allowed = no
 }

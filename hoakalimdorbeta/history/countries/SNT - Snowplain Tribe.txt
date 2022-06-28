@@ -5,7 +5,34 @@ oob = "SNT_592"
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+
+set_technology = {
+	town_hall_tech = 1
+	peasants_tech = 1
+	construction_tools_1 = 1
+	harvesting_tools_1 = 1
+	support_equipment_tech = 1
+	militia_tech = 1
+	militia_equipment_tech_1 = 1
+	workshop_tech = 1
+	blacksmith_tech = 1
+	mines_tech = 1
+	mine_cart_1 = 1
+	lumber_mill_tech = 1
+	scout_tower_1 = 1
+	arcane_tower_tech = 1
+
+	barracks_tech = 1
+	footman_tech = 1
+	footman_weapons_tech_1 = 1
+	mage_tower_tech = 1
+	mage_tech = 1
+	mage_equipment_tech_1 = 1
+
+	stable_tech_1 = 1
+	mount_taming_1 = 1
+	mounted_footman_tech = 1
+}
 
 add_ideas = {
 
@@ -14,8 +41,8 @@ add_ideas = {
 	early_military_development
 	limited_exports
 
-	snobold_primary_race
-	magnataur_secondary_race
+	magnataur_primary_race
+	snobold_secondary_race
 
 	primary_religion_magnataur_worship
 	secondary_religion_shamanism

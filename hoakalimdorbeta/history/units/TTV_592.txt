@@ -1,0 +1,30 @@
+division_template = {
+	name = "Thornvine Creepers"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+
+	priority = 1
+}
+
+units = {
+	#
+	division = {
+		name = "Thornvine Creepers"
+		location = 410
+		division_template = "Thornvine Creepers"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Thornvine Creepers"
+		location = 410
+		division_template = "Thornvine Creepers"
+		start_experience_factor = 0.2
+	}
+}

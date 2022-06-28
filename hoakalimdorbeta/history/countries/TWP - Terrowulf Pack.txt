@@ -2,16 +2,14 @@
 
 oob = "TWP_592"
 
-set_naval_oob = "TWP_591_naval_legacy"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
 add_ideas = {
 	worgen_primary_race
 }
+
+recruit_character = TWP_terrowulf_packlord
 
 set_politics = {
 	ruling_party = neutral

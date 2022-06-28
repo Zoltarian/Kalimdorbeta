@@ -2,10 +2,6 @@
 
 oob = "WK_592"
 
-set_naval_oob = "WK_592_naval"
-
-set_convoys = 10
-
 set_research_slots = 3
 set_technology = {}
 
@@ -23,6 +19,8 @@ add_ideas = {
 
 	primary_religion_pyromancy
 }
+
+recruit_character = DWK_geomancer_flintdagger
 
 set_politics = {
 	ruling_party = neutral
