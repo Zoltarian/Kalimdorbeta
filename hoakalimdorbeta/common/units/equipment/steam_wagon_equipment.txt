@@ -1,0 +1,44 @@
+equipments = {
+
+	steam_wagon_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_steam_wagon_equipment		
+		is_buildable = no
+		active = yes
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 12
+		reliability = 0.8
+		hardness = 0.2
+
+		breakthrough = 10
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2.5
+		resources = {
+			ores = 2
+			oil = 1
+			wood = 1
+		}
+
+		supply_truck = yes
+	}
+
+	steam_wagon_equipment_1 = {
+		year = 1936
+
+		archetype = steam_wagon_equipment
+		priority = 30			
+	}
+
+}

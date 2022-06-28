@@ -4,17 +4,21 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-#default = {
-#	male = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	female = {
-#		names = { }
-#		surnames = { }
-#		callsigns = { }
-#	}
-#	surnames = { }
-#	callsigns = { }
-#}
+default = {
+	male = { #all female nations must have the names be in both male and female slots because random generated idea names can't pull from the female name list
+		names = { 
+			"Anana" "Anilia" "Aranelle" "Avrilla" "Azalea" "Cavindra" "Daranelle" "Daranelle" "Faradrella" "Farella" "Fitia" "Halannia" "Illiyana" "Iphy" "Lalahi" "Kelnir" "Leirana" "Lilith" "Lilythwen" "Lunara" "Lurielle" "Mirin" "Mylune"
+			"Nalamya" "Raynae" "Rydyllia" "Rynthariel" "Sarendryana" "Selendra" "Seraphine" "Shael'dryn" "Syndrelle" "Tarindrella" "Taryndrella" "Therylune" "Therysil" "Zaza"
+		}
+		surnames = { "Crystalsong" "Leaf-Sister" "Forestwalker" "Gatewarden" "Life-Tender" "Leafsong" "Wild-Roamer" "Witherleaf" "Witherpetal" }
+		callsigns = { }
+	}
+	female = {
+		names = { 
+			"Anana" "Anilia" "Aranelle" "Avrilla" "Azalea" "Cavindra" "Daranelle" "Daranelle" "Faradrella" "Farella" "Fitia" "Halannia" "Illiyana" "Iphy" "Lalahi" "Kelnir" "Leirana" "Lilith" "Lilythwen" "Lunara" "Lurielle" "Mirin" "Mylune" 
+			"Nalamya" "Raynae" "Rydyllia" "Rynthariel" "Sarendryana" "Selendra" "Seraphine" "Shael'dryn" "Syndrelle" "Tarindrella" "Taryndrella" "Therylune" "Therysil" "Zaza"
+		}
+		surnames = { "Crystalsong" "Leaf-Sister" "Forestwalker" "Gatewarden" "Life-Tender" "Leafsong" "Wild-Roamer" "Witherleaf" "Witherpetal" }
+		callsigns = { "Protector of the Wilds" }
+	}
+}

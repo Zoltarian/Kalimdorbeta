@@ -8,12 +8,22 @@ technologies = {
 			level = 1
 		}
 
+		path = {
+			leads_to_tech = ram_breeding_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ram_rider_tech
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.5
 
 		start_year = 584
 		folder = {
 			name = dwarf_cavalry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 6 y = 0 }
 		}
 
 		ai_will_do = {
@@ -23,6 +33,376 @@ technologies = {
 		categories = {
 			resource_building_technology
 			stable_technology
+		}
+	}
+
+	ram_breeding_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+	
+		path = {
+			leads_to_tech = ram_breeding_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 6 y = 4 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+	}
+	
+	ram_breeding_2 = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+	
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = ram_breeding_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 6 y = 6 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+	}
+	
+	ram_breeding_3 = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+	
+		path = {
+			leads_to_tech = ram_breeding_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 6 y = 8 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+	}
+	
+	ram_breeding_4 = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 2.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 6 y = 10 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+	}
+
+	ram_rider_tech = {
+
+		enable_subunits = {
+			ram_rider
+		}
+	
+		on_research_complete = {
+			set_technology = {
+				ram_rider_equipment_tech_1 = 1
+			}
+		}
+	
+		path = {
+			leads_to_tech = ram_rider_equipment_tech_1
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = ram_rider_rider_tech
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 9 y = 0 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ram_rider_equipment_tech_1 = {
+	
+		enable_equipments = {
+			ram_rider_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = ram_rider_tier_1_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ram_rider_tier_1_upgrade_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 9 y = 2 }
+		}
+	
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ram_rider_tier_1_upgrade_1 = {
+	
+		xor = { ram_rider_tier_1_upgrade_2 }
+	
+		path = {
+			leads_to_tech = ram_rider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 8 y = 4 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	ram_rider_tier_1_upgrade_2 = {
+	
+		xor = { ram_rider_tier_1_upgrade_1 }
+	
+		path = {
+			leads_to_tech = ram_rider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 10 y = 4 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	ram_rider_equipment_tech_2 = {
+	
+		enable_equipments = {
+			ram_rider_equipment_2
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = ram_rider_tier_2_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ram_rider_tier_2_upgrade_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 9 y = 6 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ram_rider_tier_2_upgrade_1 = {
+	
+		xor = { ram_rider_tier_2_upgrade_2 }
+	
+		path = {
+			leads_to_tech = ram_rider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 8 y = 8 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	ram_rider_tier_2_upgrade_2 = {
+	
+		xor = { ram_rider_tier_2_upgrade_1 }
+	
+		path = {
+			leads_to_tech = ram_rider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 10 y = 8 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	ram_rider_equipment_tech_3 = {
+	
+		enable_equipments = {
+			ram_rider_equipment_3
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dwarf_cavalry_folder
+			position = { x = 9 y = 10 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
 		}
 	}
 

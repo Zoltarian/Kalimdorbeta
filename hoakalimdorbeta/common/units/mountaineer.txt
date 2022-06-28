@@ -1,0 +1,54 @@
+
+ sub_units = {
+
+	mountaineer = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 200
+		active = no
+		affects_speed = no
+
+		type = {
+			infantry
+			anti_air
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_all_combat_units
+			category_support_units
+		}
+		
+		combat_width = 0
+		
+		#Size Definitions
+		max_strength = 5
+		max_organisation = 6.66
+		default_morale = 0.3
+		manpower = 30
+
+		#Misc Abilities
+		training_time = 90
+		suppression = 1
+		weight = 0.1
+		
+		supply_consumption = 0.056
+
+		# Support nerfs to combat abilities
+		defense = -0.4
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.4
+
+		# Important Ability
+		reliability_factor = 0.05
+
+		need = {
+			rifleman_equipment = 17
+		}
+	}
+}

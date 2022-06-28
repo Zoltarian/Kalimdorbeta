@@ -3,12 +3,32 @@ technologies = {
 
 	troll_dino_pen_tech = {
 
+		enable_building = {
+			building = stable
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = direhorn_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dino_breeding_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = raptor_tech
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.5
 
 		start_year = 584
 		folder = {
 			name = troll_cavalry_folder
-			position = { x = 8 y = 0 }
+			position = { x = 10 y = 0 }
 		}
 
 		ai_will_do = {
@@ -16,7 +36,852 @@ technologies = {
 		}
 
 		categories = {
-			
+			cavalry_technology
+		}
+	}
+
+	direhorn_tech = {
+
+		enable_subunits = {
+			direhorn
+		}
+
+		on_research_complete = {
+			set_technology = {
+				direhorn_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = direhorn_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 7 y = 0 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	direhorn_equipment_tech_1 = {
+
+		enable_equipments = {
+			direhorn_equipment_1
+		}
+
+		path = {
+			leads_to_tech = direhorn_tier_1_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = direhorn_tier_1_upgrade_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 7 y = 2 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	direhorn_tier_1_upgrade_1 = {
+
+		xor = { direhorn_tier_1_upgrade_2 }
+
+		path = {
+			leads_to_tech = direhorn_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 6 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	direhorn_tier_1_upgrade_2 = {
+
+		xor = { direhorn_tier_1_upgrade_1 }
+
+		path = {
+			leads_to_tech = direhorn_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 8 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	direhorn_equipment_tech_2 = {
+
+		enable_equipments = {
+			direhorn_equipment_2
+		}
+
+		path = {
+			leads_to_tech = direhorn_tier_2_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = direhorn_tier_2_upgrade_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 7 y = 6 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	direhorn_tier_2_upgrade_1 = {
+
+		xor = { direhorn_tier_2_upgrade_2 }
+
+		path = {
+			leads_to_tech = direhorn_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 6 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	direhorn_tier_2_upgrade_2 = {
+
+		xor = { direhorn_tier_2_upgrade_1 }
+
+		path = {
+			leads_to_tech = direhorn_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 8 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 300
+
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	direhorn_equipment_tech_3 = {
+
+		enable_equipments = {
+			direhorn_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 7 y = 10 }
+		}
+
+		categories = {
+			cavalry_technology
+			direhorn_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dino_breeding_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dino_breeding_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 10 y = 4 }
+		}
+
+		categories = {
+			cavalry_technology
+		}
+
+	}
+
+	dino_breeding_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dino_breeding_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 595
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 10 y = 6 }
+		}
+
+		categories = {
+			cavalry_technology
+		}
+
+	}
+
+	dino_breeding_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dino_breeding_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 598
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 10 y = 8 }
+		}
+
+		categories = {
+			cavalry_technology
+		}
+
+	}
+
+	dino_breeding_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = stable
+				resource = mounts
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 2.5
+
+		start_year = 601
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 10 y = 10 }
+		}
+
+		categories = {
+			cavalry_technology
+		}
+
+	}
+
+	raptor_tech = {
+
+		enable_subunits = {
+			raptor
+		}
+
+		on_research_complete = {
+			set_technology = {
+				raptor_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = raptor_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = raptor_rider_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 13 y = 0 }
+		}
+
+		categories = {
+			cavalry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raptor_equipment_tech_1 = {
+
+		enable_equipments = {
+			raptor_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = raptor_tier_1_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = raptor_tier_1_upgrade_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 13 y = 2 }
+		}
+	
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	raptor_tier_1_upgrade_1 = {
+	
+		xor = { raptor_tier_1_upgrade_2 }
+	
+		path = {
+			leads_to_tech = raptor_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 12 y = 4 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_tier_1_upgrade_2 = {
+	
+		xor = { raptor_tier_1_upgrade_1 }
+	
+		path = {
+			leads_to_tech = raptor_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 14 y = 4 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_equipment_tech_2 = {
+	
+		enable_equipments = {
+			raptor_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = raptor_tier_2_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = raptor_tier_2_upgrade_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 13 y = 6 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	raptor_tier_2_upgrade_1 = {
+	
+		xor = { raptor_tier_2_upgrade_2 }
+	
+		path = {
+			leads_to_tech = raptor_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 12 y = 8 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_tier_2_upgrade_2 = {
+	
+		xor = { raptor_tier_2_upgrade_1 }
+	
+		path = {
+			leads_to_tech = raptor_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 14 y = 8 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_equipment_tech_3 = {
+	
+		enable_equipments = {
+			raptor_equipment_3
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 13 y = 10 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raptor_rider_tech = {
+
+		enable_subunits = {
+			raptor_rider
+		}
+
+		on_research_complete = {
+			set_technology = {
+				raptor_rider_equipment_tech_1 = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = raptor_rider_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 17 y = 0 }
+		}
+
+		categories = {
+			cavalry_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raptor_rider_equipment_tech_1 = {
+
+		enable_equipments = {
+			raptor_rider_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = raptor_rider_tier_1_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = raptor_rider_tier_1_upgrade_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 17 y = 2 }
+		}
+	
+		categories = {
+			cavalry_technology
+			dire_wolf_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	raptor_rider_tier_1_upgrade_1 = {
+	
+		xor = { raptor_rider_tier_1_upgrade_2 }
+	
+		path = {
+			leads_to_tech = raptor_rider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 16 y = 4 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_rider_tier_1_upgrade_2 = {
+	
+		xor = { raptor_rider_tier_1_upgrade_1 }
+	
+		path = {
+			leads_to_tech = raptor_rider_equipment_tech_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 18 y = 4 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_rider_equipment_tech_2 = {
+	
+		enable_equipments = {
+			raptor_rider_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = raptor_rider_tier_2_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = raptor_rider_tier_2_upgrade_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 17 y = 6 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	raptor_rider_tier_2_upgrade_1 = {
+	
+		xor = { raptor_rider_tier_2_upgrade_2 }
+	
+		path = {
+			leads_to_tech = raptor_rider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 16 y = 8 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_rider_tier_2_upgrade_2 = {
+	
+		xor = { raptor_rider_tier_2_upgrade_1 }
+	
+		path = {
+			leads_to_tech = raptor_rider_equipment_tech_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 18 y = 8 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 300
+	
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+	
+	raptor_rider_equipment_tech_3 = {
+	
+		enable_equipments = {
+			raptor_rider_equipment_3
+		}
+	
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_cavalry_folder
+			position = { x = 17 y = 10 }
+		}
+	
+		categories = {
+			cavalry_technology
+		}
+	
+		ai_will_do = {
+			factor = 1
 		}
 	}
 

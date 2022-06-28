@@ -10,9 +10,6 @@ ARK = {
 		surnames = { "Captaineater" "Deepreef" "Wavecrusher" "Murkmouth" "Tidewalker" "Shipbreaker" }
 		callsigns = { }
 	}
-	surnames = { }
-	callsigns = { }
-
 }
 
 DSG = {
@@ -21,6 +18,12 @@ DSG = {
 		surnames = { "Captaineater" "Deepreef" "Wavecrusher" "Murkmouth" "Tidewalker" "Shipbreaker" }
 		callsigns = { }
 	}
-		surnames = { }
+}
+
+SSG = {
+	male = {
+		names = { "Bodash" "Golk" "Mok'rash" "Largush" "Tidross" "Rudi" }
+		surnames = { "Captaineater" "Deepreef" "Wavecrusher" "Murkmouth" "Tidewalker" "Shipbreaker" }
 		callsigns = { }
+	}
 }

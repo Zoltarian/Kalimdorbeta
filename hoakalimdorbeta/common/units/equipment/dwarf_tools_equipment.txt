@@ -1,0 +1,37 @@
+equipments = {
+
+	dwarf_tools_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 5
+		resources = {
+			wheat = 1
+			ores = 1
+			wood = 1
+		}
+	}
+	
+	dwarf_tools_equipment_1 = {
+		year = 584
+
+		archetype = dwarf_tools_equipment
+		priority = 50
+
+	}
+
+}

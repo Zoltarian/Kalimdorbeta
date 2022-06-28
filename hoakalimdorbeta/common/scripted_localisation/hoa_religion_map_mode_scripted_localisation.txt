@@ -1,0 +1,466 @@
+defined_text = {
+	name = Get_Religion_Mapmode_Name
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 1 }
+		}
+		localization_key = "The Church of the Holy Light"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 2 }
+		}
+		localization_key = "The Naaru"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 3 }
+		}
+		localization_key = "Scarlet Church"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 4 }
+		}
+		localization_key = "Argent Church"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 5 }
+		}
+		localization_key = "Order of the Blood Knights"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 6 }
+		}
+		localization_key = "The Disciples of Rhukmar"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 7 }
+		}
+		localization_key = "Necrolytes"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 8 }
+		}
+		localization_key = "Voodoo"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 9 }
+		}
+		localization_key = "Cult of the Forgotten Shadows"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 10 }
+		}
+		localization_key = "Disciples of Anzu"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 11 }
+		}
+		localization_key = "The Void"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 12 }
+		}
+		localization_key = "Arcane Studies"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 13 }
+		}
+		localization_key = "The Sunwell"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 14 }
+		}
+		localization_key = "The Nightwell"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 15 }
+		}
+		localization_key = "Druidism"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 16 }
+		}
+		localization_key = "Disciples of Ursoc"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 17 }
+		}
+		localization_key = "Disciples of Logosh"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 18 }
+		}
+		localization_key = "Disciples of Agamaggan"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 19 }
+		}
+		localization_key = "Disciples of Avianna"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 20 }
+		}
+		localization_key = "Disciples of Tortolla"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 21 }
+		}
+		localization_key = "August Celestial"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 22 }
+		}
+		localization_key = "Thornspeakers"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 23 }
+		}
+		localization_key = "Harvest Witchcraft"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 24 }
+		}
+		localization_key = "Natural Magic"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 25 }
+		}
+		localization_key = "Loa Spirits"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 26 }
+		}
+		localization_key = "The Fel"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 27 }
+		}
+		localization_key = "Demonology"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 28 }
+		}
+		localization_key = "Necromancy"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 29 }
+		}
+		localization_key = "Disciples of the Lich King"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 30 }
+		}
+		localization_key = "Followers of Helya"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 31 }
+		}
+		localization_key = "Drust"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 32 }
+		}
+		localization_key = "Followers of Y'shaarj"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 33 }
+		}
+		localization_key = "Followers of N'zoth"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 34 }
+		}
+		localization_key = "Followers of Yogg-Saron"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 35 }
+		}
+		localization_key = "Followers of C'thun"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 36 }
+		}
+		localization_key = "The Hour of Twilight"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 37 }
+		}
+		localization_key = "The Dark Conclave"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 38 }
+		}
+		localization_key = "Followers of Gh'uun"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 39 }
+		}
+		localization_key = "Mystery of the Makers"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 40 }
+		}
+		localization_key = "Followers of Odyn"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 41 }
+		}
+		localization_key = "The Titans"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 42 }
+		}
+		localization_key = "Chi"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 43 }
+		}
+		localization_key = "The Elemental Furies"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 44 }
+		}
+		localization_key = "Shamanism"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 45 }
+		}
+		localization_key = "Dark Shamanism"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 46 }
+		}
+		localization_key = "Followers of the Firelord"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 47 }
+		}
+		localization_key = "Followers of the Tidehunter"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 48 }
+		}
+		localization_key = "Followers of the Stonemother"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 49 }
+		}
+		localization_key = "Followers of the Windlord"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 50 }
+		}
+		localization_key = "Geomancy"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 51 }
+		}
+		localization_key = "Pyromancy"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 52 }
+		}
+		localization_key = "Followers of Ordos"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 53 }
+		}
+		localization_key = "Followers of Gurok"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 54 }
+		}
+		localization_key = "Followers of the Tidemother"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 55 }
+		}
+		localization_key = "Waterspeaking"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 56 }
+		}
+		localization_key = "The Sisterhood of Elune"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 57 }
+		}
+		localization_key = "Tauren Mythology"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 58 }
+		}
+		localization_key = "Pandaren Folklore"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 59 }
+		}
+		localization_key = "Mogu Mythology"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 60 }
+		}
+		localization_key = "Luckydos"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 61 }
+		}
+		localization_key = "Followers of Volcanotht"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 62 }
+		}
+		localization_key = "Followers of Mazu"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 63 }
+		}
+		localization_key = "Followers of Kros"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 64 }
+		}
+		localization_key = "Tuskarr Mythology"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 65 }
+		}
+		localization_key = "Ancient Nerubian"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 66 }
+		}
+		localization_key = "Followers of Gahz'rilla"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 67 }
+		}
+		localization_key = "The Wyrmcult"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 68 }
+		}
+		localization_key = "Gronn Worship"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 69 }
+		}
+		localization_key = "Magnataur Worship" 
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 70 }
+		}
+		localization_key = "Followers of Zar'Jira"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 71 }
+		}
+		localization_key = "Followers of Borrok"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 72 }
+		}
+		localization_key = "Lashers"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 73 }
+		}
+		localization_key = "Genesaur Worship"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 74 }
+		}
+		localization_key = "Disciples of Jorhuttam"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 75 }
+		}
+		localization_key = "Way of the Jade Fist"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 76 }
+		}
+		localization_key = "Irreligious"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.religion = 77 }
+		}
+		localization_key = "Banana Worship"
+	}
+													
+}

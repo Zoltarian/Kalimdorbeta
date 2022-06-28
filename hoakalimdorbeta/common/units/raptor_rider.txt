@@ -1,0 +1,74 @@
+sub_units = {
+
+	raptor_rider = {
+		sprite = cavalry
+		map_icon_category = armored
+		priority = 599
+		ai_priority = 200
+		active = yes
+		cavalry = yes
+
+		type = {
+			armor
+		}
+		
+		group = mobile
+		
+		categories = {
+			category_army
+			category_all_combat_units
+			category_melee
+			category_cavalry
+			category_heavy_cavalry
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 10
+		default_morale = 0.30
+		manpower = 50
+
+		#Misc Abilities
+		training_time = 180
+		suppression = 1
+		weight = 0.1
+		supply_consumption = 0.11
+
+		# this is what moves us and sets speed
+		transport = dire_wolf_equipment
+		
+	
+		need = {
+			raptor_rider_equipment = 50
+			raptor_equipment = 50
+		}
+
+		forest = {
+			attack = -0.1
+			movement = -0.5
+		}
+		mountain = {
+			attack = -0.05
+		}
+		jungle = {
+			attack = -0.2
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.3
+		}
+		city = {
+			attack = -0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+		}
+	}
+}

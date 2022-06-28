@@ -3,12 +3,32 @@ technologies = {
 
 	altar_of_stoneborn_kings_tech = {
 
+		path = {
+			leads_to_tech = dwarf_heroic_training_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mountain_king_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = explorer_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = siege_tank_tech
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 584
 
 		folder = {
 			name = dwarf_support_folder
-			position = { x = 8 y = 0 }
+			position = { x = 11 y = 0 }
 		}
 
 		categories = {
@@ -21,4 +41,911 @@ technologies = {
 		}
 	}
 
+	dwarf_heroic_training_tech_1 = {
+
+		special_forces_cap = 0.05
+
+		path = {
+			leads_to_tech = dwarf_heroic_training_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 4 y = 4 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dwarf_heroic_training_tech_2 = {
+
+		special_forces_cap = 0.05
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dwarf_heroic_training_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 4 y = 8 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dwarf_heroic_training_tech_3 = {
+
+		special_forces_cap = 0.05
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 4 y = 12 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mountain_king_tech = {
+
+		enable_subunits = {
+			mountain_king
+		}
+
+		path = {
+			leads_to_tech = mountain_king_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				mountain_king_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 7 y = 2 }
+		}		
+		
+		categories = {
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mountain_king_equipment_tech_1 = {
+
+		enable_equipments = {
+			mountain_king_equipment_1
+		}
+
+		path = {
+			leads_to_tech = mountain_king_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mountain_king_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 7 y = 4 }
+		}		
+		
+		categories = {
+			
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mountain_king_tier_1_upgrade_placeholder_1 = {
+
+		xor = { mountain_king_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = mountain_king_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 6 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mountain_king_tier_1_upgrade_placeholder_2 = {
+
+		xor = { mountain_king_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = mountain_king_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 8 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mountain_king_equipment_tech_2 = {
+
+		enable_equipments = {
+			mountain_king_equipment_2
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = mountain_king_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mountain_king_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 7 y = 8 }
+		}		
+		
+		categories = {
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mountain_king_tier_2_upgrade_placeholder_1 = {
+
+		xor = { mountain_king_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = mountain_king_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 6 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mountain_king_tier_2_upgrade_placeholder_2 = {
+
+		xor = { mountain_king_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = mountain_king_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 8 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	mountain_king_equipment_tech_3 = {
+
+		enable_equipments = {
+			mountain_king_equipment_3
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 7 y = 12 }
+		}		
+		
+		categories = {
+			altar_technology
+			mountain_king_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+
+	explorer_tech = {
+
+		enable_subunits = {
+			explorer
+		}
+
+		path = {
+			leads_to_tech = explorer_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				explorer_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 11 y = 2 }
+		}		
+		
+		categories = {
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	explorer_equipment_tech_1 = {
+
+		enable_equipments = {
+			explorer_equipment_1
+		}
+
+		path = {
+			leads_to_tech = explorer_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = explorer_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 11 y = 4 }
+		}		
+		
+		categories = {
+			
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	explorer_tier_1_upgrade_placeholder_1 = {
+
+		xor = { explorer_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = explorer_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 10 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	explorer_tier_1_upgrade_placeholder_2 = {
+
+		xor = { explorer_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = explorer_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 12 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	explorer_equipment_tech_2 = {
+
+		enable_equipments = {
+			explorer_equipment_2
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = explorer_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = explorer_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 11 y = 8 }
+		}		
+		
+		categories = {
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	explorer_tier_2_upgrade_placeholder_1 = {
+
+		xor = { explorer_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = explorer_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 10 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	explorer_tier_2_upgrade_placeholder_2 = {
+
+		xor = { explorer_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = explorer_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 12 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	explorer_equipment_tech_3 = {
+
+		enable_equipments = {
+			explorer_equipment_3
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 11 y = 12 }
+		}		
+		
+		categories = {
+			altar_technology
+			explorer_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+
+	siege_tank_tech = {
+
+		enable_subunits = {
+			siege_tank
+		}
+
+		path = {
+			leads_to_tech = siege_tank_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				siege_tank_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 15 y = 2 }
+		}		
+		
+		categories = {
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	siege_tank_equipment_tech_1 = {
+
+		enable_equipments = {
+			siege_tank_equipment_1
+		}
+
+		path = {
+			leads_to_tech = siege_tank_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = siege_tank_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 15 y = 4 }
+		}		
+		
+		categories = {
+			
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	siege_tank_tier_1_upgrade_placeholder_1 = {
+
+		xor = { siege_tank_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = siege_tank_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 14 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	siege_tank_tier_1_upgrade_placeholder_2 = {
+
+		xor = { siege_tank_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = siege_tank_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 16 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	siege_tank_equipment_tech_2 = {
+
+		enable_equipments = {
+			siege_tank_equipment_2
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = siege_tank_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = siege_tank_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 15 y = 8 }
+		}		
+		
+		categories = {
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	siege_tank_tier_2_upgrade_placeholder_1 = {
+
+		xor = { siege_tank_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = siege_tank_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 14 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	siege_tank_tier_2_upgrade_placeholder_2 = {
+
+		xor = { siege_tank_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = siege_tank_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 16 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	siege_tank_equipment_tech_3 = {
+
+		enable_equipments = {
+			siege_tank_equipment_3
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = dwarf_support_folder
+			position = { x = 15 y = 12 }
+		}		
+		
+		categories = {
+			altar_technology
+			siege_tank_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
 }

@@ -4,7 +4,127 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
+MHT = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
+MST = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
 PAL = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
+RHP = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
+RPP = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
+RPT = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
+RRP = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
+SHA = {
+	male = {
+		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Cackle" "Gnarl" "Sage" "Bark" "Rhe" "Lyr" }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Hide" "Fang" "Eye" "Mane" "Paw" }
+	callsigns = { }
+}
+
+SVH = {
 	male = {
 		names = { "Snarl" "Bark" "Ardo" "Jango" "Meat" "Dirt" "Hackle" }
 		surnames = { }

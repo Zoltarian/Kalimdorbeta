@@ -1,4 +1,941 @@
 #!gfx:interface\hoa_Technologies.gfx
 technologies = {
 
+	altar_of_de_loa_tech = {
+
+
+		path = {
+			leads_to_tech = power_of_de_loa_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dire_troll_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = shadow_hunter_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = devilsaur_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 584
+
+		folder = {
+			name = troll_support_folder
+			position = { x = 11 y = 0 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	power_of_de_loa_tech_1 = {
+
+		special_forces_cap = 0.05
+
+		path = {
+			leads_to_tech = power_of_de_loa_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+
+		folder = {
+			name = troll_support_folder
+			position = { x = 4 y = 4 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	power_of_de_loa_tech_2 = {
+
+		special_forces_cap = 0.05
+
+		path = {
+			leads_to_tech = power_of_de_loa_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+
+		folder = {
+			name = troll_support_folder
+			position = { x = 4 y = 8 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	power_of_de_loa_tech_3 = {
+
+		special_forces_cap = 0.05
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = troll_support_folder
+			position = { x = 4 y = 12 }
+		}
+
+		categories = {
+			altar_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dire_troll_tech = {
+
+		enable_subunits = {
+			dire_troll
+		}
+
+		path = {
+			leads_to_tech = dire_troll_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				dire_troll_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_support_folder
+			position = { x = 7 y = 2 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_troll_equipment_tech_1 = {
+
+		enable_equipments = {
+			dire_troll_equipment_1
+		}
+
+		path = {
+			leads_to_tech = dire_troll_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dire_troll_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_support_folder
+			position = { x = 7 y = 4 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_troll_tier_1_upgrade_placeholder_1 = {
+
+		xor = { dire_troll_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = dire_troll_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_support_folder
+			position = { x = 6 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_troll_tier_1_upgrade_placeholder_2 = {
+
+		xor = { dire_troll_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = dire_troll_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_support_folder
+			position = { x = 8 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_troll_equipment_tech_2 = {
+
+		enable_equipments = {
+			dire_troll_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dire_troll_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dire_troll_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_support_folder
+			position = { x = 7 y = 8 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_troll_tier_2_upgrade_placeholder_1 = {
+
+		xor = { dire_troll_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = dire_troll_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_support_folder
+			position = { x = 6 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_troll_tier_2_upgrade_placeholder_2 = {
+
+		xor = { dire_troll_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = dire_troll_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_support_folder
+			position = { x = 8 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	dire_troll_equipment_tech_3 = {
+
+		enable_equipments = {
+			dire_troll_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = troll_support_folder
+			position = { x = 7 y = 12 }
+		}		
+		
+		categories = {
+			altar_technology
+			dire_troll_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+
+	shadow_hunter_tech = {
+
+		enable_subunits = {
+			shadow_hunter
+		}
+
+		path = {
+			leads_to_tech = shadow_hunter_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				shadow_hunter_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_support_folder
+			position = { x = 11 y = 2 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	shadow_hunter_equipment_tech_1 = {
+
+		enable_equipments = {
+			shadow_hunter_equipment_1
+		}
+
+		path = {
+			leads_to_tech = shadow_hunter_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = shadow_hunter_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_support_folder
+			position = { x = 11 y = 4 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	shadow_hunter_tier_1_upgrade_placeholder_1 = {
+
+		xor = { shadow_hunter_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = shadow_hunter_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_support_folder
+			position = { x = 10 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	shadow_hunter_tier_1_upgrade_placeholder_2 = {
+
+		xor = { shadow_hunter_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = shadow_hunter_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_support_folder
+			position = { x = 12 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	shadow_hunter_equipment_tech_2 = {
+
+		enable_equipments = {
+			shadow_hunter_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = shadow_hunter_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = shadow_hunter_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_support_folder
+			position = { x = 11 y = 8 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	shadow_hunter_tier_2_upgrade_placeholder_1 = {
+
+		xor = { shadow_hunter_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = shadow_hunter_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_support_folder
+			position = { x = 10 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	shadow_hunter_tier_2_upgrade_placeholder_2 = {
+
+		xor = { shadow_hunter_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = shadow_hunter_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_support_folder
+			position = { x = 12 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	shadow_hunter_equipment_tech_3 = {
+
+		enable_equipments = {
+			shadow_hunter_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = troll_support_folder
+			position = { x = 11 y = 12 }
+		}		
+		
+		categories = {
+			altar_technology
+			shadow_hunter_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+
+	devilsaur_tech = {
+
+		enable_subunits = {
+			devilsaur
+		}
+
+		path = {
+			leads_to_tech = devilsaur_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			set_technology = {
+				devilsaur_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_support_folder
+			position = { x = 15 y = 2 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	devilsaur_equipment_tech_1 = {
+
+		enable_equipments = {
+			devilsaur_equipment_1
+		}
+
+		path = {
+			leads_to_tech = devilsaur_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = devilsaur_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_support_folder
+			position = { x = 15 y = 4 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	devilsaur_tier_1_upgrade_placeholder_1 = {
+
+		xor = { devilsaur_tier_1_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = devilsaur_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_support_folder
+			position = { x = 14 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	devilsaur_tier_1_upgrade_placeholder_2 = {
+
+		xor = { devilsaur_tier_1_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = devilsaur_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_support_folder
+			position = { x = 16 y = 6 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	devilsaur_equipment_tech_2 = {
+
+		enable_equipments = {
+			devilsaur_equipment_2
+		}
+
+		dependencies = {
+			stronghold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = devilsaur_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = devilsaur_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_support_folder
+			position = { x = 15 y = 8 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	devilsaur_tier_2_upgrade_placeholder_1 = {
+
+		xor = { devilsaur_tier_2_upgrade_placeholder_2 } 
+
+		path = {
+			leads_to_tech = devilsaur_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_support_folder
+			position = { x = 14 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	devilsaur_tier_2_upgrade_placeholder_2 = {
+
+		xor = { devilsaur_tier_2_upgrade_placeholder_1 } 
+
+		path = {
+			leads_to_tech = devilsaur_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_support_folder
+			position = { x = 16 y = 10 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
+
+	devilsaur_equipment_tech_3 = {
+
+		enable_equipments = {
+			devilsaur_equipment_3
+		}
+
+		dependencies = {
+			fortress_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = troll_support_folder
+			position = { x = 15 y = 12 }
+		}		
+		
+		categories = {
+			altar_technology
+			devilsaur_technology
+		}
+		
+		ai_will_do = {
+			factor = 300
+		
+			modifier = {
+				factor = 1000
+				date > "592.1.1"
+			}
+		}
+	}
 }

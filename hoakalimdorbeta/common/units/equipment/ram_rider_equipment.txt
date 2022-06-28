@@ -1,0 +1,103 @@
+equipments = {
+
+	ram_rider_equipment = {
+		year = 584
+
+		is_archetype = yes
+		picture = archetype_ram_rider_equipment	
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		#Misc Abilities
+		reliability = 0.8 #+0.5
+		maximum_speed = 10
+
+		#Defensive Abilities
+		defense = 25 #+2.5
+		breakthrough = 6 #+2
+		hardness = 0 #same
+		armor_value = 10 #+5
+
+		#Offensive Abilities
+		soft_attack = 5 #+2
+		hard_attack = 5 #+2
+		ap_attack = 16 #+5
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 3.5 #+0.5
+		resources = {
+			wheat = 2
+			mounts = 2
+			ores = 3
+		}
+	}
+
+	ram_rider_equipment_1 = {
+		year = 591
+
+		archetype = ram_rider_equipment
+		priority = 30			
+	}
+
+	ram_rider_equipment_2 = {
+		year = 595
+	
+		archetype = ram_rider_equipment
+		parent = ram_rider_equipment_1
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.85 #+0.5
+
+		#Defensive Abilities
+		defense = 27.5 #+2.5
+		breakthrough = 8 #+2
+		hardness = 0 #same
+		armor_value = 15 #+5
+
+		#Offensive Abilities
+		soft_attack = 7 #+2
+		hard_attack = 7 #+2
+		ap_attack = 21 #+5
+		air_attack = 0
+		
+		build_cost_ic = 4 #+0.5
+
+	}
+
+	ram_rider_equipment_3 = {
+		year = 601
+	
+		archetype = ram_rider_equipment
+		parent = ram_rider_equipment_2
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9 #+0.5
+
+		#Defensive Abilities
+		defense = 30 #+2.5
+		breakthrough = 10 #+2
+		hardness = 0 #same
+		armor_value = 20 #+5
+
+		#Offensive Abilities
+		soft_attack = 9 #+2
+		hard_attack = 9 #+2
+		ap_attack = 26 #+5
+		air_attack = 0
+
+		build_cost_ic = 4.5 #+0.5
+
+	}
+
+
+}

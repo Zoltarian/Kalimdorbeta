@@ -1,0 +1,964 @@
+defined_text = {
+	name = Get_Race_Mapmode_Name
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 1 }
+		}
+		localization_key = "Ancients"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 2 }
+		}
+		localization_key = "Ankoan"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 3 }
+		}
+		localization_key = "Arrakoa"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 4 }
+		}
+		localization_key = "Black Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 5 }
+		}
+		localization_key = "Blood Elf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 6 }
+		}
+		localization_key = "Blue Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 7 }
+		}
+		localization_key = "Bog Beast"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 8 }
+		}
+		localization_key = "Botani"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 9 }
+		}
+		localization_key = "Broken"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 10 }
+		}
+		localization_key = "Bronze Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 11 }
+		}
+		localization_key = "Centaur"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 12 }
+		}
+		localization_key = "Chromatic Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 13 }
+		}
+		localization_key = "Colossus"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 14 }
+		}
+		localization_key = "Crystal Nymphs"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 15 }
+		}
+		localization_key = "Crystal Satyr"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 16 }
+		}
+		localization_key = "Dark Iron Dwarf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 17 }
+		}
+		localization_key = "Dark Troll"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 18 }
+		}
+		localization_key = "Demons"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 19 }
+		}
+		localization_key = "Draenei"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 20 }
+		}
+		localization_key = "Drogbar"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 21 }
+		}
+		localization_key = "Drust"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 22 }
+		}
+		localization_key = "Dryads"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 23 }
+		}
+		localization_key = "Dwarf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 24 }
+		}
+		localization_key = "Earth Elemental"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 25 }
+		}
+		localization_key = "Earthen"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 26 }
+		}
+		localization_key = "Ethereal"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 27 }
+		}
+		localization_key = "Ettin"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 28 }
+		}
+		localization_key = "Faceless One"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 29 }
+		}
+		localization_key = "Faerie Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 30 }
+		}
+		localization_key = "Fal'dorie"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 31 }
+		}
+		localization_key = "Fel Orc"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 32 }
+		}
+		localization_key = "Felblood Elves"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 33 }
+		}
+		localization_key = "Felborne"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 34 }
+		}
+		localization_key = "Fire Elemental"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 35 }
+		}
+		localization_key = "Aqir"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 36 }
+		}
+		localization_key = "Twilight Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 37 }
+		}
+		localization_key = "Frost Vrykul"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 38 }
+		}
+		localization_key = "Frostborn"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 39 }
+		}
+		localization_key = "Fungal Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 40 }
+		}
+		localization_key = "Fungal Monster"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 41 }
+		}
+		localization_key = "Fungarians"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 42 }
+		}
+		localization_key = "Furbolg"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 43 }
+		}
+		localization_key = "Ghost"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 44 }
+		}
+		localization_key = "Gilgoblin"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 45 }
+		}
+		localization_key = "Gnoll"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 46 }
+		}
+		localization_key = "Gnome"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 47 }
+		}
+		localization_key = "Goblin"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 48 }
+		}
+		localization_key = "Goren"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 49 }
+		}
+		localization_key = "Gorlocs"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 50 }
+		}
+		localization_key = "Green Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 51 }
+		}
+		localization_key = "Grell"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 52 }
+		}
+		localization_key = "Gronn"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 53 }
+		}
+		localization_key = "Grummle"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 54 }
+		}
+		localization_key = "Harpy"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 55 }
+		}
+		localization_key = "High Elf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 56 }
+		}
+		localization_key = "Highmountain Tauren"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 57 }
+		}
+		localization_key = "Highborne"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 58 }
+		}
+		localization_key = "Hobgoblin"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 59 }
+		}
+		localization_key = "Hozen"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 60 }
+		}
+		localization_key = "Human"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 61 }
+		}
+		localization_key = "Ice Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 62 }
+		}
+		localization_key = "Ice Troll"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 63 }
+		}
+		localization_key = "Infinite Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 64 }
+		}
+		localization_key = "Iron Dwarf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 65 }
+		}
+		localization_key = "Iron Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 66 }
+		}
+		localization_key = "Iron Vrykul"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 67 }
+		}
+		localization_key = "Jinyu"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 68 }
+		}
+		localization_key = "Jungle Troll"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 69 }
+		}
+		localization_key = "Junker Gnome" 
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 70 }
+		}
+		localization_key = "Kobold"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 71 }
+		}
+		localization_key ="Kvaldir"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 72 }
+		}
+		localization_key = "Lashers"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 73 }
+		}
+		localization_key = "Leper Gnome"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 74 }
+		}
+		localization_key = "Lightforged Draenei"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 75 }
+		}
+		localization_key = "Lobstrok"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 76 }
+		}
+		localization_key = "Lost Ones"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 77 }
+		}
+		localization_key = "Mag'har Orc"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 78 }
+		}
+		localization_key = "Magnataur"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 79 }
+		}
+		localization_key = "Makrura"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 80 }
+		}
+		localization_key = "Mana Surge"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 81 }
+		}
+		localization_key = "Mantid"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 82 }
+		}
+		localization_key = "Mechagnome"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 83 }
+		}
+		localization_key = "Mistlurker"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 84 }
+		}
+		localization_key = "Mogu"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 85 }
+		}
+		localization_key = "Mok'nathal"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 86 }
+		}
+		localization_key = "Mountain Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 87 }
+		}
+		localization_key = "Murloc"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 88 }
+		}
+		localization_key = "Naga"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 89 }
+		}
+		localization_key = "Nerubians"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 90 }
+		}
+		localization_key = "Netherwing Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 91 }
+		}
+		localization_key = "Night Elf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 92 }
+		}
+		localization_key = "Nightborne"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 93 }
+		}
+		localization_key = "Nightfallen"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 94 }
+		}
+		localization_key = "Nightmare Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 95 }
+		}
+		localization_key = "Ogre"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 96 }
+		}
+		localization_key = "Orc"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 97 }
+		}
+		localization_key = "Pale Orc"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 98 }
+		}
+		localization_key = "Pandaren"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 99 }
+		}
+		localization_key = "Pygmies"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 100 }
+		}
+		localization_key = "Qiraji"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 101 }
+		}
+		localization_key = "Quilboar"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 102 }
+		}
+		localization_key = "Ranishu"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 103 }
+		}
+		localization_key = "Red Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 104 }
+		}
+		localization_key = "Rock Flayer"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 105 }
+		}
+		localization_key = "Saberon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 106 }
+		}
+		localization_key = "San'Layn"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 107 }
+		}
+		localization_key = "Sand Gnome"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 108 }
+		}
+		localization_key = "Sand Troll"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 109 }
+		}
+		localization_key = "Satyr"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 110 }
+		}
+		localization_key = "Sea Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 111 }
+		}
+		localization_key = "Sethrak"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 112 }
+		}
+		localization_key = "Sha"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 113 }
+		}
+		localization_key = "Silithid"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 114 }
+		}
+		localization_key = "Siren"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 115 }
+		}
+		localization_key = "Snobold"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 116 }
+		}
+		localization_key = "Sporeling"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 117 }
+		}
+		localization_key = "Sprite"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 118 }
+		}
+		localization_key = "Stone Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 119 }
+		}
+		localization_key = "Stone Trogg"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 120 }
+		}
+		localization_key = "Storm Dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 121 }
+		}
+		localization_key = "Storm Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 122 }
+		}
+		localization_key = "Taunka"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 123 }
+		}
+		localization_key = "Tauren"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 124 }
+		}
+		localization_key = "Titan Watcher"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 125 }
+		}
+		localization_key = "Tolvir"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 126 }
+		}
+		localization_key = "Tortollan"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 127 }
+		}
+		localization_key = "Trogg"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 128 }
+		}
+		localization_key = "Tuskarr"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 129 }
+		}
+		localization_key = "Undead"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 130 }
+		}
+		localization_key = "Valarjar"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 131 }
+		}
+		localization_key = "Valkyr"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 132 }
+		}
+		localization_key = "Vargul"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 133 }
+		}
+		localization_key = "Virmen"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 134 }
+		}
+		localization_key = "Void Elf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 135 }
+		}
+		localization_key = "Void Walker"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 136 }
+		}
+		localization_key = "Vrykul"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 137 }
+		}
+		localization_key = "Vulpera"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 138 }
+		}
+		localization_key = "Water Elemental"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 139 }
+		}
+		localization_key = "Wendigo"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 140 }
+		}
+		localization_key = "Wildkin"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 141 }
+		}
+		localization_key = "Wind Elemental"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 142 }
+		}
+		localization_key = "Withered"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 143 }
+		}
+		localization_key = "Wolvar"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 144 }
+		}
+		localization_key = "Worgen"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 145 }
+		}
+		localization_key = "Wretched Elf"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 146 }
+		}
+		localization_key = "Yuangol"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 147 }
+		}
+		localization_key = "Yeti"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 148 }
+		}
+		localization_key = "Zandalari Troll"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 149 }
+		}
+		localization_key = "Anubisath"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 150 }
+		}
+		localization_key = "Frost Giant"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 151 }
+		}
+		localization_key = "Blood Trolls"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 152 }
+		}
+		localization_key = "Gorillas"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 153 }
+		}
+		localization_key = "Forest Troll"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 154 }
+		}
+		localization_key = "Frost Nymph"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 155 }
+		}
+		localization_key = "Ogron"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 156 }
+		}
+		localization_key = "High Arrakoa"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 157 }
+		}
+		localization_key = "Jade Statue"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 158 }
+		}
+		localization_key = "Saurok"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 159 }
+		}
+		localization_key = "Stone Dragons"
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.race = 160 }
+		}
+		localization_key = "Obsidian Statue"
+	}
+													
+}

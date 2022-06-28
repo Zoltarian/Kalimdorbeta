@@ -4,17 +4,17 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-DOY = {
+CWO = {
 	male = {
-		names = { "Teng" "Nam" "Liang" "Ang" "Haohan" "Lao"}
-		surnames = { "Yue" "Mai" "Kai" "Pan" "Li" "Lang" }
+		names = { "Teng" "Nam" "Liang" "Ang" "Haohan" "Lao" "Yun" "Kun" }
+		surnames = { }
 		callsigns = { }
 	}
 	female = {
-		names = { }
+		names = { "Cui" "Jaiayi" "Ju" "Lin" "Anji" }
 		surnames = { }
 		callsigns = { }
 	}
-		surnames = { }
+		surnames = { "Yue" "Mai" "Kai" "Pan" "Li" "Lang" }
 		callsigns = { }
 }

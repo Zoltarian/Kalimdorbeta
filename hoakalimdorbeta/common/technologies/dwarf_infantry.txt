@@ -17,7 +17,7 @@ technologies = {
 		start_year = 584
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 4 y = 0 }
+			position = { x = 7 y = 0 }
 		}
 
 		ai_will_do = {
@@ -33,7 +33,7 @@ technologies = {
 	dwarf_axeman_tech = {
 
 		enable_subunits = {
-			axeman
+			dwarf_axeman
 		}
 
 		on_research_complete = {
@@ -43,7 +43,17 @@ technologies = {
 		}
 
 		path = {
+			leads_to_tech = enforcer_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
 			leads_to_tech = dwarf_axeman_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = enforcer_tech
 			research_cost_coeff = 1
 		}
 
@@ -51,7 +61,7 @@ technologies = {
 		start_year = 584
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 2 y = 2 }
+			position = { x = 4 y = 2 }
 		}
 
 		categories = {
@@ -69,6 +79,8 @@ technologies = {
 			}
 		}
 	}
+
+
 
 	dwarf_axeman_equipment_tech_1 = {
 
@@ -90,7 +102,7 @@ technologies = {
 
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 2 y = 4 }
+			position = { x = 4 y = 4 }
 		}
 
 		categories = {
@@ -102,6 +114,154 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 
+		}
+	}
+
+	enforcer_tech = {
+
+		enable_subunits = {
+			enforcer
+		}
+	
+		path = {
+			leads_to_tech = improved_enforcer_1
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 1 y = 2 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_enforcer_1 = {
+	
+		enforcer = {
+			suppression_factor = 0.075
+		}
+	
+		path = {
+			leads_to_tech = improved_enforcer_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 1 y = 6 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_enforcer_2 = {
+	
+		enforcer = {
+			suppression_factor = 0.075
+		}
+	
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = improved_enforcer_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 1 y = 8 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_enforcer_3 = {
+	
+		enforcer = {
+			suppression_factor = 0.075
+		}
+	
+		path = {
+			leads_to_tech = improved_enforcer_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 1 y = 10 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_enforcer_4 = {
+	
+		enforcer = {
+			suppression_factor = 0.075
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 1 y = 12 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
 		}
 	}
 
@@ -118,7 +278,7 @@ technologies = {
 		start_year = 592
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 1 y = 6 }
+			position = { x = 3 y = 6 }
 		}
 
 		categories = {
@@ -150,7 +310,7 @@ technologies = {
 		start_year = 592
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 3 y = 6 }
+			position = { x = 5 y = 6 }
 		}
 
 		categories = {
@@ -175,6 +335,10 @@ technologies = {
 			dwarf_axeman_equipment_2
 		}
 
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
 		path = {
 			leads_to_tech = dwarf_axeman_tier_2_upgrade_placeholder_1
 			research_cost_coeff = 1
@@ -185,10 +349,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 584
+		start_year = 595
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 2 y = 8 }
+			position = { x = 4 y = 8 }
 		}
 
 		categories = {
@@ -212,10 +376,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 1 y = 10 }
+			position = { x = 3 y = 10 }
 		}
 
 		categories = {
@@ -244,10 +408,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 3 y = 10 }
+			position = { x = 5 y = 10 }
 		}
 
 		categories = {
@@ -272,11 +436,15 @@ technologies = {
 			dwarf_axeman_equipment_3
 		}
 
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
 		research_cost = 1.5
-		start_year = 584
+		start_year = 601
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 2 y = 12 }
+			position = { x = 4 y = 12 }
 		}
 
 		categories = {
@@ -303,7 +471,15 @@ technologies = {
 		}
 
 		path = {
+			leads_to_tech = mountaineer_tech
+			research_cost_coeff = 1
+		}
+		path = {
 			leads_to_tech = rifleman_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = engineer_tech
 			research_cost_coeff = 1
 		}
 
@@ -311,7 +487,7 @@ technologies = {
 		start_year = 584
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 6 y = 2 }
+			position = { x = 10 y = 2 }
 		}
 
 		categories = {
@@ -327,6 +503,158 @@ technologies = {
 				factor = 1000
 				date > "592.1.1"
 			}
+		}
+	}
+
+	mountaineer_tech = {
+
+		enable_subunits = {
+			mountaineer
+		}
+	
+		path = {
+			leads_to_tech = improved_mountaineer_1
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 7 y = 2 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_mountaineer_1 = {
+	
+		priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+	
+		path = {
+			leads_to_tech = improved_mountaineer_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 7 y = 6 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_mountaineer_2 = {
+	
+		mountaineer = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+	
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = improved_mountaineer_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 7 y = 8 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_mountaineer_3 = {
+	
+		mountaineer = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+	
+		path = {
+			leads_to_tech = improved_mountaineer_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 7 y = 10 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_mountaineer_4 = {
+	
+		mountaineer = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 7 y = 12 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
 		}
 	}
 
@@ -350,7 +678,7 @@ technologies = {
 
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 6 y = 4 }
+			position = { x = 10 y = 4 }
 		}
 
 		categories = {
@@ -378,7 +706,7 @@ technologies = {
 		start_year = 592
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 5 y = 6 }
+			position = { x = 9 y = 6 }
 		}
 
 		categories = {
@@ -410,7 +738,7 @@ technologies = {
 		start_year = 592
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 7 y = 6 }
+			position = { x = 11 y = 6 }
 		}
 
 		categories = {
@@ -435,6 +763,10 @@ technologies = {
 			rifleman_equipment_2
 		}
 
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
 		path = {
 			leads_to_tech = rifleman_tier_2_upgrade_placeholder_1
 			research_cost_coeff = 1
@@ -445,10 +777,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 584
+		start_year = 595
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 6 y = 8 }
+			position = { x = 10 y = 8 }
 		}
 
 		categories = {
@@ -472,10 +804,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 5 y = 10 }
+			position = { x = 9 y = 10 }
 		}
 
 		categories = {
@@ -504,10 +836,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 7 y = 10 }
+			position = { x = 11 y = 10 }
 		}
 
 		categories = {
@@ -532,11 +864,15 @@ technologies = {
 			rifleman_equipment_3
 		}
 
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
 		research_cost = 1.5
-		start_year = 584
+		start_year = 601
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 6 y = 12 }
+			position = { x = 10 y = 12 }
 		}
 
 		categories = {
@@ -550,14 +886,172 @@ technologies = {
 		}
 	}
 
+	engineer_tech = {
+
+		enable_subunits = {
+			engineer
+		}
+	
+		path = {
+			leads_to_tech = improved_engineer_1
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 13 y = 2 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_engineer_1 = {
+	
+		engineer = {
+			reliability_factor = 0.075
+		}
+	
+		path = {
+			leads_to_tech = improved_engineer_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 13 y = 6 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_engineer_2 = {
+	
+		engineer = {
+			reliability_factor = 0.075
+		}
+	
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = improved_engineer_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 13 y = 8 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_engineer_3 = {
+	
+		engineer = {
+			reliability_factor = 0.075
+		}
+	
+		path = {
+			leads_to_tech = improved_engineer_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 13 y = 10 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_engineer_4 = {
+	
+		engineer = {
+			reliability_factor = 0.075
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 13 y = 12 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+
 	runecarvers_sanctum_tech = {
 
 		research_cost = 1.5
 
+		path = {
+			leads_to_tech = rune_priest_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = thane_tech
+			research_cost_coeff = 1
+		}
+
 		start_year = 584
 		folder = {
 			name = dwarf_infantry_folder
-			position = { x = 12 y = 0 }
+			position = { x = 17 y = 0 }
 		}
 
 		ai_will_do = {
@@ -567,6 +1061,338 @@ technologies = {
 		categories = {
 			dwarf_infantry_technology
 			mustering_hall_technology
+		}
+	}
+
+	rune_priest_tech = {
+
+		enable_subunits = {
+			rune_priest
+		}
+
+		path = {
+			leads_to_tech = improved_rune_priest_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = runes_equipment_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 15 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+
+	improved_rune_priest_1 = {
+
+		rune_priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		path = {
+			leads_to_tech = improved_rune_priest_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 15 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+
+	improved_rune_priest_2 = {
+
+		rune_priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_rune_priest_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 15 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+
+	improved_rune_priest_3 = {
+
+		rune_priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		path = {
+			leads_to_tech = improved_rune_priest_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 15 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+
+	improved_rune_priest_4 = {
+
+		rune_priest = {
+			casualty_trickleback = 0.075
+			experience_loss_factor = -0.075
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 15 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+
+	runes_equipment_tech = {
+
+		enable_equipments = {
+			runes_equipment_1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 17 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			support_technology
+		}
+	}
+
+	thane_tech = {
+
+		enable_subunits = {
+			thane
+		}
+	
+		path = {
+			leads_to_tech = improved_thane_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = runes_equipment_tech
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 584
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 19 y = 2 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_thane_1 = {
+	
+		thane = {
+			recon = 1.75
+		}
+	
+		path = {
+			leads_to_tech = improved_thane_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 19 y = 6 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_thane_2 = {
+	
+		thane = {
+			recon = 1.75
+		}
+	
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = improved_thane_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 19 y = 8 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_thane_3 = {
+	
+		thane = {
+			recon = 1.75
+		}
+	
+		path = {
+			leads_to_tech = improved_thane_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 19 y = 10 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
+		}
+	}
+	
+	improved_thane_4 = {
+	
+		thane = {
+			recon = 1.75
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_infantry_folder
+			position = { x = 19 y = 12 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			infantry_technology
+			support_technology
 		}
 	}
 

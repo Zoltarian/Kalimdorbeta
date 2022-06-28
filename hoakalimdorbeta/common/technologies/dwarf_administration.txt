@@ -1,10 +1,15 @@
 #!gfx:interface\hoa_Technologies.gfx
 technologies = {
 
-	dwarven_bunker = {
+	dwarf_hovel_tech = {
 
 		path = {
-			leads_to_tech = dwarf_hold
+			leads_to_tech = dwarf_hold_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = craftsman_tech
 			research_cost_coeff = 1
 		}
 
@@ -25,13 +30,13 @@ technologies = {
 		}
 	}
 
-	dwarf_hold = {
+	dwarf_hold_tech = {
 
 		research_speed_factor = 0.025
 		global_building_slots_factor = 0.15
 
 		path = {
-			leads_to_tech = dwarf_great_hall
+			leads_to_tech = dwarf_great_hall_tech
 			research_cost_coeff = 1
 		}
 
@@ -58,7 +63,7 @@ technologies = {
 		}
 	}
 
-	dwarf_great_hall = {
+	dwarf_great_hall_tech = {
 
 		research_speed_factor = 0.025
 		global_building_slots_factor = 0.15
@@ -87,4 +92,2212 @@ technologies = {
 
 	}
 
+	craftsman_tech = {
+
+		enable_subunits = {
+			craftsman
+		}
+
+		on_research_complete = {
+			set_technology = {
+				dwarf_tools_equipment_tech = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = miner_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dwarf_tools_equipment_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = craftsman_tools_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dwarf_workshop_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 7 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	miner_tech = {
+
+		enable_subunits = {
+			miner
+		}
+
+		path = {
+			leads_to_tech = dwarf_mining_tools_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_miner_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 4 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			miner_technology
+			support_technology
+		}
+	}
+
+	dwarf_mining_tools_1 = {
+
+		local_resources_factor = 0.1
+
+
+		path = {
+			leads_to_tech = dwarf_mining_tools_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dwarf_ore_mine_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 2 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	dwarf_mining_tools_2 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = dwarf_mining_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 2 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	dwarf_mining_tools_3 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dwarf_mining_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 2 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	dwarf_mining_tools_4 = {
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = dwarf_mining_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 2 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	dwarf_mining_tools_5 = {
+
+		local_resources_factor = 0.1
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 2 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	dwarf_ore_mine_tech = {
+
+		enable_building = {
+			building = iron_mine
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = dwarf_mine_cart_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 0 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	dwarf_mine_cart_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = dwarf_mine_cart_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 0 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	dwarf_mine_cart_2 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dwarf_mine_cart_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	dwarf_mine_cart_3 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dwarf_mine_cart_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 0 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	dwarf_mine_cart_4 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = ores
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 0 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			mine_technology
+			resource_building_technology
+		}
+	}
+
+	improved_miner_1 = {
+
+		miner = {
+			entrenchment = 2
+		}
+
+		path = {
+			leads_to_tech = improved_miner_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 4 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	improved_miner_2 = {
+
+		miner = {
+			entrenchment = 2
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_miner_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 4 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	improved_miner_3 = {
+
+		miner = {
+			entrenchment = 2
+		}
+
+		path = {
+			leads_to_tech = improved_miner_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 4 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	improved_miner_4 = {
+
+		miner = {
+			entrenchment = 2
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 4 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	dwarf_tools_equipment_tech = {
+
+		enable_equipments = {
+			dwarf_tools_equipment_1
+		}
+
+		path = {
+			leads_to_tech = improved_craftsman_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 7 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			support_technology
+		}
+	}
+	
+	improved_craftsman_1 = {
+
+		craftsman = {
+			fort = {
+				defence = 0.12
+				attack = 0.12
+			}
+		}
+
+		path = {
+			leads_to_tech = improved_craftsman_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 7 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	improved_craftsman_2 = {
+
+		craftsman = {
+			river = {
+				attack = 0.12
+				defence = 0.12
+			}
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = improved_craftsman_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 7 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	improved_craftsman_3 = {
+
+		craftsman = {
+			city = {
+				attack = 0.12
+				defence = 0.12
+			}
+		}
+
+		path = {
+			leads_to_tech = improved_craftsman_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 7 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	improved_craftsman_4 = {
+
+		craftsman = {
+			gateway = {
+				attack = 0.12
+				defence = 0.12
+			}
+		}
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 7 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			craftsman_technology
+			support_technology
+		}
+	}
+
+	craftsman_tools_1 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = craftsman_tools_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = harvesting_tools_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 10 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	craftsman_tools_2 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = craftsman_tools_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 10 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	craftsman_tools_3 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = craftsman_tools_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 10 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	craftsman_tools_4 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		path = {
+			leads_to_tech = craftsman_tools_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 10 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	craftsman_tools_5 = {
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 10 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	dwarf_workshop_tech = {
+
+		enable_building = {
+			building = industrial_complex
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = dwarf_foundry_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = underground_development_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = arsenal_tech
+			research_cost_coeff = 1
+		}
+		#path = {
+		#	leads_to_tech = ale_house_tech
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = mystics_lair_tech
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = gryphon_aivary_tech
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = hall_of_mysteries_tech
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = dwarf_lumbermill_tech
+		#	research_cost_coeff = 1
+		#}
+		#wall | bunkers
+		#rogues den | explorers league
+		#guard tower | Canon tower
+		#scout tower | Scout Tower
+		#archaeology | random building that gives buffs similair tot ailor
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 18 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			workshop_technology
+		}
+	}
+
+	dwarf_foundry_tech = {
+
+		enable_building = {
+			building = arms_factory
+			level = 25
+		}
+
+		path = {
+			leads_to_tech = reinforced_iron_armor
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = reinforced_iron_plating
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dwarven_forge_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 14 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			workshop_technology
+		}
+	}
+
+	reinforced_iron_armor = {
+
+		dwarf_axeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		rifleman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		ram_rider = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mortar_team = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountain_king = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		explorer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = reinforced_mithril_armor
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 12 y = 5 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	reinforced_mithril_armor = {
+	
+		dwarf_axeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		rifleman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		ram_rider = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mortar_team = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountain_king = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		explorer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		path = {
+			leads_to_tech = reinforced_thorium_armor
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 12 y = 7 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	reinforced_thorium_armor = {
+	
+		dwarf_axeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		rifleman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		ram_rider = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mortar_team = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountain_king = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		explorer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		path = {
+			leads_to_tech = reinforced_dark_iron_armor
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 12 y = 9 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	reinforced_dark_iron_armor = {
+	
+		dwarf_axeman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		rifleman = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		ram_rider = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mortar_team = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountain_king = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		explorer = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 12 y = 11 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+
+	reinforced_iron_plating = {
+
+		steam_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_engine = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		steam_wagon = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		path = {
+			leads_to_tech = reinforced_mithril_plating
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 14 y = 5 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	reinforced_mithril_plating = {
+	
+		steam_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_engine = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		steam_wagon = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		path = {
+			leads_to_tech = reinforced_thorium_plating
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 14 y = 7 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	reinforced_thorium_plating = {
+	
+		steam_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_engine = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		steam_wagon = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		path = {
+			leads_to_tech = reinforced_dark_iron_plating
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 14 y = 9 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	reinforced_dark_iron_plating = {
+	
+		steam_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_tank = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		siege_engine = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		steam_wagon = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 14 y = 11 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+
+	dwarven_forge_1 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		path = {
+			leads_to_tech = dwarven_forge_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 16 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+
+	}
+
+	dwarven_forge_2 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		path = {
+			leads_to_tech = dwarven_forge_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 16 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+
+	}
+
+	dwarven_forge_3 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = dwarven_forge_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 16 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+
+	}
+
+	dwarven_forge_4 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		path = {
+			leads_to_tech = dwarven_forge_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 16 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+
+	}
+
+	dwarven_forge_5 = {
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.02
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 16 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+
+	}
+
+	underground_development_1 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		path = {
+			leads_to_tech = underground_development_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 18 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	underground_development_2 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		path = {
+			leads_to_tech = underground_development_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 18 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	underground_development_3 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+
+		path = {
+			leads_to_tech = underground_development_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 18 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	underground_development_4 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		path = {
+			leads_to_tech = underground_development_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 18 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	underground_development_5 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.16
+
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+
+		research_cost = 2
+
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 18 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			city_growth_technology
+		}
+	}
+
+	arsenal_tech = {
+
+		enable_building = {
+			building = farm
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = iron_axes
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = gunpowder_storage_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = iron_barrels
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 22 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+		}
+	}
+
+	iron_axes = {
+
+		dwarf_axeman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		ram_rider = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mountain_king = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = mithril_axes
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 20 y = 5 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	mithril_axes = {
+	
+		dwarf_axeman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		ram_rider = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mountain_king = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = thorium_axes
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 20 y = 7 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	thorium_axes = {
+	
+		dwarf_axeman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		ram_rider = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mountain_king = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = dark_iron_axes
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 20 y = 9 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	dark_iron_axes = {
+	
+		dwarf_axeman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		ram_rider = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mountain_king = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 20 y = 11 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+
+	gunpowder_storage_1 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+	
+		path = {
+			leads_to_tech = gunpowder_storage_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 22 y = 5 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	}
+	
+	gunpowder_storage_2 = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = gunpowder_storage_3
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 22 y = 7 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	}
+	
+	gunpowder_storage_3 = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+	
+		path = {
+			leads_to_tech = gunpowder_storage_4
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 22 y = 9 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	}
+	
+	gunpowder_storage_4 = {
+	
+		on_research_complete = {
+			modify_building_resources = {
+				building = sulfur_mine
+				resource = gunpowder
+				amount = 1
+			}
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 2
+	
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 22 y = 11 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	}
+
+	iron_barrels = {
+
+		rifleman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team_support = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		steam_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_engine = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		explorer = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = mithril_barrels
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 592
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 24 y = 5 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	mithril_barrels = {
+	
+		rifleman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team_support = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		steam_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_engine = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		explorer = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		dependencies = {
+			dwarf_hold_tech = 1
+		}
+	
+		path = {
+			leads_to_tech = thorium_barrels
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 595
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 24 y = 7 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	thorium_barrels = {
+	
+		rifleman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team_support = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		steam_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_engine = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		explorer = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = dark_iron_barrels
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 598
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 24 y = 9 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+	
+	dark_iron_barrels = {
+	
+		rifleman = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mortar_team_support = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		steam_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_engine = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		explorer = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		siege_tank = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+	
+		dependencies = {
+			dwarf_great_hall_tech = 1
+		}
+	
+		research_cost = 1.5
+	
+		start_year = 601
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 24 y = 11 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		categories = {
+			administration_technology
+		}
+	
+	}
+
+	ale_house_tech = {
+
+		enable_building = {
+			building = farm
+			level = 1
+		}
+
+		path = {
+			leads_to_tech = thunderbrew_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 26 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	mystics_lair_tech = {
+
+		enable_building = {
+			building = farm
+			level = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 28 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
+
+	gryphon_aivary_tech = {
+
+		enable_building = {
+			building = farm
+			level = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = dwarf_administration_folder
+			position = { x = 30 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			administration_technology
+			agriculture_technology
+			resource_building_technology
+		}
+	}
 }

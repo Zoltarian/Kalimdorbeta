@@ -2,12 +2,30 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
- 
+
+	#dwarf admin
 	dwarf_tier_technology
+	craftsman_technology
+	miner_technology
 
 	#dwarf infantry
 	dwarf_infantry_technology
 	mustering_hall_technology
 	axeman_technology
 	rifleman_technology
+
+
+	#dwarf cav
+
+	#dwarf siege
+	mortar_team_technology
+	steam_tank_technology
+	steam_wagon_technology
+	siege_engine_technology
+
+	#dwarf support
+	mountain_king_technology
+	explorer_technology
+	siege_tank_technology
+
 }

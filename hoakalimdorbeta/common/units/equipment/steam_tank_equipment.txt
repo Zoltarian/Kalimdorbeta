@@ -1,0 +1,107 @@
+equipments = {
+
+	steam_tank_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_steam_tank_equipment			
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+
+		#Misc Abilities
+		maximum_speed = 9
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 36
+		hardness = 0.8
+		armor_value = 15
+
+		#Offensive Abilities
+		soft_attack = 16
+		hard_attack = 6
+		ap_attack = 30
+		air_attack = 0 #static
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		build_cost_ic = 8
+		resources = {
+			ores = 2
+			oil = 2
+			gunpowder = 1
+		}
+
+	}
+
+	steam_tank_equipment_1 = {
+		year = 584
+
+		archetype = steam_tank_equipment		
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+		
+	}
+	
+	steam_tank_equipment_2 = {
+		year = 595
+		
+		archetype = steam_tank_equipment
+		parent = steam_tank_equipment_1
+		priority = 10
+		visual_level = 1
+		is_convertable = yes
+
+		#Misc Abilities
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 6 #+1
+		breakthrough = 46 #+10
+		hardness = 0.8
+		armor_value = 30 #+15
+
+		#Offensive Abilities
+		soft_attack = 22 #+6
+		hard_attack = 9 #+3
+		ap_attack = 50 #+20
+		air_attack = 0 #static
+		
+		build_cost_ic = 9 #+1
+	}
+	
+	steam_tank_equipment_3 = {
+		year = 601
+	
+		archetype = steam_tank_equipment
+		parent = steam_tank_equipment_2
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		#Misc Abilities
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 7 #+1
+		breakthrough = 56 #+10
+		hardness = 0.8
+		armor_value = 45 #+15
+
+		#Offensive Abilities
+		soft_attack = 28 #+6
+		hard_attack = 12 #+3
+		ap_attack = 70 #+20
+		air_attack = 0 #static
+		
+		build_cost_ic = 10 #+1
+	}
+	
+}

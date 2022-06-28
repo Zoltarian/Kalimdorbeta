@@ -1,0 +1,107 @@
+equipments = {
+
+	siege_tank_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_siege_tank_equipment			
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+
+		#Misc Abilities
+		maximum_speed = 7.5
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 10 #+3
+		breakthrough = 40 #+20
+		hardness = 0.4 #static
+		armor_value = 50 #+10
+
+		#Offensive Abilities
+		soft_attack = 20 #+7.5
+		hard_attack = 14 #+8
+		ap_attack = 51 #+10
+		air_attack = 0 #static
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		build_cost_ic = 13 #+1
+		resources = {
+			ores = 3
+			oil=3
+			gunpowder=3
+		}
+
+	}
+
+	siege_tank_equipment_1 = {
+		year = 584
+
+		archetype = siege_tank_equipment		
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+		
+	}
+	
+	siege_tank_equipment_2 = {
+		year = 595
+		
+		archetype = siege_tank_equipment
+		parent = siege_tank_equipment_1
+		priority = 10
+		visual_level = 1
+		is_convertable = yes
+
+		#Misc Abilities
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 13 #+3
+		breakthrough = 60 #+20
+		hardness = 0.4 #static
+		armor_value = 60 #+10
+
+		#Offensive Abilities
+		soft_attack = 27.5 #+7.5
+		hard_attack = 22 #+8
+		ap_attack = 61 #+10
+		air_attack = 0 #static
+		
+		build_cost_ic = 14 #+1
+	}
+	
+	siege_tank_equipment_3 = {
+		year = 601
+	
+		archetype = siege_tank_equipment
+		parent = siege_tank_equipment_2
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 16 #+3
+		breakthrough = 80 #+20
+		hardness = 0.4 #static
+		armor_value = 70 #+10
+
+		#Offensive Abilities
+		soft_attack = 35 #+7.5
+		hard_attack = 30 #+8
+		ap_attack = 71 #+10
+		air_attack = 0 #static
+		
+		build_cost_ic = 15 #+1
+	}
+	
+}

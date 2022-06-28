@@ -4,52 +4,7 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-GUR = {
-	male = {
-		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
-		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
-		callsigns = { }
-	}
-	female = {
-		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
-		surnames = { "Shi" "Mith" "Hai" "So" }
-		callsigns = {  }
-	}
-	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
-	callsigns = { "Shadow Hunter" }
-}
-
 BLO = {
-	male = {
-		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
-		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
-		callsigns = { }
-	}
-	female = {
-		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
-		surnames = { "Shi" "Mith" "Hai" "So" }
-		callsigns = {  }
-	}
-	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
-	callsigns = { "Shadow Hunter" }
-}
-
-SKU = {
-	male = {
-		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
-		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
-		callsigns = { }
-	}
-	female = {
-		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
-		surnames = { "Shi" "Mith" "Hai" "So" }
-		callsigns = {  }
-	}
-	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
-	callsigns = { "Shadow Hunter" }
-}
-
-LAP = {
 	male = {
 		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
 		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
@@ -79,6 +34,21 @@ DST = {
 	callsigns = { "Shadow Hunter" }
 }
 
+GUR = {
+	male = {
+		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
+		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
+		callsigns = { }
+	}
+	female = {
+		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
+		surnames = { "Shi" "Mith" "Hai" "So" }
+		callsigns = {  }
+	}
+	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
+	callsigns = { "Shadow Hunter" }
+}
+
 HAK = {
 	male = {
 		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" }
@@ -93,3 +63,85 @@ HAK = {
 	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" }
 	callsigns = { "Shadow Hunter" "Atal'Hakkar" "Hakkar's Servant" "Soulbinder" "Blood God's Wrath" "Hakkari Zealot" "Bloodlord" "Great Hexer"}
 }
+
+LAP = {
+	male = {
+		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
+		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
+		callsigns = { }
+	}
+	female = {
+		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
+		surnames = { "Shi" "Mith" "Hai" "So" }
+		callsigns = {  }
+	}
+	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
+	callsigns = { "Shadow Hunter" }
+}
+
+SKU = {
+	male = {
+		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
+		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
+		callsigns = { }
+	}
+	female = {
+		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
+		surnames = { "Shi" "Mith" "Hai" "So" }
+		callsigns = {  }
+	}
+	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
+	callsigns = { "Shadow Hunter" }
+}
+
+STS = {
+	male = {
+		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
+		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
+		callsigns = { }
+	}
+	female = {
+		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
+		surnames = { "Shi" "Mith" "Hai" "So" }
+		callsigns = {  }
+	}
+	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
+	callsigns = { "Shadow Hunter" }
+}
+
+ZAU = {
+	male = {
+		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
+		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
+		callsigns = { }
+	}
+	female = {
+		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
+		surnames = { "Shi" "Mith" "Hai" "So" }
+		callsigns = {  }
+	}
+	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
+	callsigns = { "Shadow Hunter" }
+}
+
+ZNZ = {
+	male = {
+		names = { "Zul'" "Atal'" "Vol" "Ros" "Mig" "Gal" "Ken" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'" "Taz"}
+		surnames = { "Vol" "Ros" "Mig" "Gal" "Dingo"}
+		callsigns = { }
+	}
+	female = {
+		names = { "Shi" "Mith" "Hai" "So" "Atal'" "Geba'" "Fu" "Mai" "Ja'" "Kul'" "Ki'" "Miao'" "Ta'" "T'"}
+		surnames = { "Shi" "Mith" "Hai" "So" }
+		callsigns = {  }
+	}
+	surnames = { "'Jai" "'li" "Ros" "'ah" "Ron" "De" "Ta" "Zan" "Zinni" "Kelah" }
+	callsigns = { "Shadow Hunter" }
+}
+
+
+
+
+
+
+

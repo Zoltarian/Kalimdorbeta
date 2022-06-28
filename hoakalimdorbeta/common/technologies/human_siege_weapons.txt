@@ -140,7 +140,6 @@ technologies = {
 			keep_tech = 1
 		}
 
-
 		research_cost = 1.5
 		start_year = 595
 
@@ -258,8 +257,13 @@ technologies = {
 			caravan_equipment_2
 		}
 
+		dependencies = {
+			keep_tech = 1
+		}
+
+
 		research_cost = 1.5
-		start_year = 584
+		start_year = 595
 
 		folder = {
 			name = human_siege_weapons_folder
@@ -288,8 +292,12 @@ technologies = {
 			caravan_equipment_3
 		}
 
+		dependencies = {
+			castle_tech = 1
+		}
+
 		research_cost = 1.5
-		start_year = 584
+		start_year = 601
 
 		folder = {
 			name = human_siege_weapons_folder

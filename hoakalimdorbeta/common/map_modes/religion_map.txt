@@ -1,0 +1,508 @@
+scripted_map_modes = {
+	religion_map_mode = { #
+		top = {
+			type = state
+
+			color = {
+				set_temp_variable = { red = 0.0 }
+				set_temp_variable = { blue = 0.0 }
+				set_temp_variable = { green = 0.0 }
+				set_temp_variable = { alpha = 1.0 }
+
+				if = {
+					limit = {
+						FROM = { check_variable = { religion > 0 } }
+					}
+
+					if = {
+						limit = { check_variable = { FROM.religion = 1 } } #The Church of the Holy Light
+						set_temp_variable = { red = 1 }
+						set_temp_variable = { green = 0.996 }
+						set_temp_variable = { blue = 0.502 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 2 } } #The Naaru
+						set_temp_variable = { red = 1 }
+						set_temp_variable = { green = 0.988 }
+						set_temp_variable = { blue = 0.141 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 3 } } #Scarlet Church
+						set_temp_variable = { red = 0.933 }
+						set_temp_variable = { green = 0.043 }
+						set_temp_variable = { blue = 0.043 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 4 } } #Argent Church
+						set_temp_variable = { red = 0.8 }
+						set_temp_variable = { green = 0.792 }
+						set_temp_variable = { blue = 0.722 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 5 } } #Order of the Blood Knights
+						set_temp_variable = { red = 0.4 }
+						set_temp_variable = { green = 0.039 }
+						set_temp_variable = { blue = 0.039 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 6 } } #The Disciples of Rhukmar
+						set_temp_variable = { red = 0.659 }
+						set_temp_variable = { green = 0.537 }
+						set_temp_variable = { blue = 0.05 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 7 } } #Necrolytes
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 8 } } #Voodoo
+						set_temp_variable = { red = 0.161 }
+						set_temp_variable = { green = 0.075 }
+						set_temp_variable = { blue = 0.239 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 9 } } #Cult of the Forgotten Shadows
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 10 } } #Disciples of Anzu
+						set_temp_variable = { red = 0.251 }
+						set_temp_variable = { green = 0.05 }
+						set_temp_variable = { blue = 0.659 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 11 } } #the void
+						set_temp_variable = { red = 0.702 }
+						set_temp_variable = { green = 0.663 }
+						set_temp_variable = { blue = 0.051 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 12 } } #Arcane Studies
+						set_temp_variable = { red = 0.647 }
+						set_temp_variable = { green = 0.898 }
+						set_temp_variable = { blue = 1 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 13 } } #The Sunwell
+						set_temp_variable = { red = 0.313 }
+						set_temp_variable = { green = 0.094 }
+						set_temp_variable = { blue = 0.639}
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 14 } } #The Nightwell
+						set_temp_variable = { red = 0.172 }
+						set_temp_variable = { green = 0.172 }
+						set_temp_variable = { blue = 0.172 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 15 } } #Druidism
+						set_temp_variable = { red = 0.42 }
+						set_temp_variable = { green = 0.349 }
+						set_temp_variable = { blue = 0.286 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 16 } } #Disciples of Ursoc
+						set_temp_variable = { red = 0.78 }
+						set_temp_variable = { green = 0.557 }
+						set_temp_variable = { blue = 0.376 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 17 } } #Disciples of Logosh
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 18 } } #Disciples of Agamaggan
+						set_temp_variable = { red = 0.918 }
+						set_temp_variable = { green = 0.733 }
+						set_temp_variable = { blue = 0.6 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 19 } } #Disciples of Avianna
+						set_temp_variable = { red = 0.867 }
+						set_temp_variable = { green = 0.675 }
+						set_temp_variable = { blue = 0.875 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 20 } } #Disciples of Tortolla
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 21 } } #August Celestial
+						set_temp_variable = { red = 0.702 }
+						set_temp_variable = { green = 0.663 }
+						set_temp_variable = { blue = 0.051 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 22 } } #Thornspeakers
+						set_temp_variable = { red = 0.396 }
+						set_temp_variable = { green = 0.729 }
+						set_temp_variable = { blue = 0.941 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 23 } } #Harvest Witchcraft
+						set_temp_variable = { red = 0.313 }
+						set_temp_variable = { green = 0.094 }
+						set_temp_variable = { blue = 0.639}
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 24 } } #Natural Magic
+						set_temp_variable = { red = 0.643 }
+						set_temp_variable = { green = 1 }
+						set_temp_variable = { blue = 0.694 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 25 } } #Loa Spirits
+						set_temp_variable = { red = 0.682 }
+						set_temp_variable = { green = 0.878 }
+						set_temp_variable = { blue = 0.216 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 26 } } #The Fel
+						set_temp_variable = { red = 0.07 }
+						set_temp_variable = { green = 0.725 }
+						set_temp_variable = { blue = 0.118 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 27 } } #Demonology
+						set_temp_variable = { red = 0.149 }
+						set_temp_variable = { green = 0.455 }
+						set_temp_variable = { blue = 0.169 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 28 } } #Necromancy
+						set_temp_variable = { red = 0.459 }
+						set_temp_variable = { green = 0.388 }
+						set_temp_variable = { blue = 0.502 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 29 } } #Disciples of the Lich King
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 30 } } #Followers of Helya
+						set_temp_variable = { red = 0.157 }
+						set_temp_variable = { green = 0.188 }
+						set_temp_variable = { blue = 0.506 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 31 } } #Drust
+						set_temp_variable = { red = 0.702 }
+						set_temp_variable = { green = 0.663 }
+						set_temp_variable = { blue = 0.051 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 32 } } #Followers of Y'shaarj
+						set_temp_variable = { red = 0.396 }
+						set_temp_variable = { green = 0.729 }
+						set_temp_variable = { blue = 0.941 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 33 } } #Followers of N'zoth
+						set_temp_variable = { red = 0.325 }
+						set_temp_variable = { green = 0.07 }
+						set_temp_variable = { blue = 0.333}
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 34 } } #Followers of Yogg-Saron
+						set_temp_variable = { red = 0.172 }
+						set_temp_variable = { green = 0.172 }
+						set_temp_variable = { blue = 0.172 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 35 } } #Followers of C'thun
+						set_temp_variable = { red = 0.525 }
+						set_temp_variable = { green = 0.251 }
+						set_temp_variable = { blue = 0.537 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 36 } } #The Hour of Twilight
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 37 } } #The Dark Conclave
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 38 } } #Followers of Gh'uun
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 39 } } #Mystery of the Makers
+						set_temp_variable = { red = 0.996 }
+						set_temp_variable = { green = 0.898 }
+						set_temp_variable = { blue = 0.239 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 40 } } #Followers of Odyn
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 41 } } #The Titans
+						set_temp_variable = { red = 0.204 }
+						set_temp_variable = { green = 0.612 }
+						set_temp_variable = { blue = 0.78 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 42 } } #Chi
+						set_temp_variable = { red = 0.396 }
+						set_temp_variable = { green = 0.729 }
+						set_temp_variable = { blue = 0.941 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 43 } } #The Elemental Furies
+						set_temp_variable = { red = 0.463 }
+						set_temp_variable = { green = 0.361 }
+						set_temp_variable = { blue = 0.298 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 44 } } #Shamanism
+						set_temp_variable = { red = 0.659 }
+						set_temp_variable = { green = 0.05 }
+						set_temp_variable = { blue = 0.05 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 45 } } #Dark Shamanism
+						set_temp_variable = { red = 0.467 }
+						set_temp_variable = { green = 0.05 }
+						set_temp_variable = { blue = 0.659 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 46 } } #Followers of the Firelord
+						set_temp_variable = { red = 0.765 }
+						set_temp_variable = { green = 0.227 }
+						set_temp_variable = { blue = 0.082 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 47 } } #Followers of the Tidehunter
+						set_temp_variable = { red = 0.106 }
+						set_temp_variable = { green = 0.643 }
+						set_temp_variable = { blue = 0.663 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 48 } } #Followers of the Stonemother
+						set_temp_variable = { red = 0.518 }
+						set_temp_variable = { green = 0.498 }
+						set_temp_variable = { blue = 0.533 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 49 } } #Followers of the Windlord
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 50 } } #Geomancy
+						set_temp_variable = { red = 0.78 }
+						set_temp_variable = { green = 0.557 }
+						set_temp_variable = { blue = 0.376 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 51 } } #Pyromancy
+						set_temp_variable = { red = 0.965 }
+						set_temp_variable = { green = 0.357 }
+						set_temp_variable = { blue = 0.216 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 52 } } #Followers of Ordos
+						set_temp_variable = { red = 0.396 }
+						set_temp_variable = { green = 0.729 }
+						set_temp_variable = { blue = 0.941 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 53 } } #Followers of Gurok
+						set_temp_variable = { red = 0.313 }
+						set_temp_variable = { green = 0.094 }
+						set_temp_variable = { blue = 0.639}
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 54 } } #Followers of the Tidemother
+						set_temp_variable = { red = 0.172 }
+						set_temp_variable = { green = 0.172 }
+						set_temp_variable = { blue = 0.172 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 55 } } #Waterspeaking
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 56 } } #The Sisterhood of Elune
+						set_temp_variable = { red = 0.659 }
+						set_temp_variable = { green = 0.118 }
+						set_temp_variable = { blue = 0.85 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 57 } } #Tauren Mythology
+						set_temp_variable = { red = 0.769 }
+						set_temp_variable = { green = 0.42 }
+						set_temp_variable = { blue = 0.165 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 58 } } #Pandaren Folklore
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 59 } } #Mogu Mythology
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 60 } } #Luckydos
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 61 } } #Followers of Volcanoth
+						set_temp_variable = { red = 0.894 }
+						set_temp_variable = { green = 0.62 }
+						set_temp_variable = { blue = 0.137 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 62 } } #Followers of Mazu
+						set_temp_variable = { red = 0.396 }
+						set_temp_variable = { green = 0.729 }
+						set_temp_variable = { blue = 0.941 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 63 } } #Followers of Kros
+						set_temp_variable = { red = 0.141 }
+						set_temp_variable = { green = 0.831 }
+						set_temp_variable = { blue = 0.566 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 64 } } #Tuskarr Mythology
+						set_temp_variable = { red = 0.769 }
+						set_temp_variable = { green = 0.714 }
+						set_temp_variable = { blue = 0.627 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 65 } } #Ancient Nerubian
+						set_temp_variable = { red = 0.62 }
+						set_temp_variable = { green = 0.663 }
+						set_temp_variable = { blue = 0.267 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 66 } } #Followers of Gahz'rilla
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 67 } } #The Wyrmcult
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 68 } } #Gronn Worship
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 69 } } #Magnataur Worship
+						set_temp_variable = { red = 0.07 }
+						set_temp_variable = { green = 0.333 }
+						set_temp_variable = { blue = 0.255 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 70 } } #Followers of Zar'Jira
+						set_temp_variable = { red = 0.808 }
+						set_temp_variable = { green = 0.188 }
+						set_temp_variable = { blue = 0.58 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 71 } } #Followers of Borrok
+						set_temp_variable = { red = 0.702 }
+						set_temp_variable = { green = 0.663 }
+						set_temp_variable = { blue = 0.051 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 72 } } #Genesaur Worship
+						set_temp_variable = { red = 0.396 }
+						set_temp_variable = { green = 0.729 }
+						set_temp_variable = { blue = 0.941 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 73 } } #Disciples of Naraxas
+						set_temp_variable = { red = 0.313 }
+						set_temp_variable = { green = 0.094 }
+						set_temp_variable = { blue = 0.639}
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 74 } } #Disciples of Jorhuttam
+						set_temp_variable = { red = 0.172 }
+						set_temp_variable = { green = 0.172 }
+						set_temp_variable = { blue = 0.172 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 75 } } #Way of the Jade Fist
+						set_temp_variable = { red = 0.792 }
+						set_temp_variable = { green = 0.125 }
+						set_temp_variable = { blue = 0.125 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 76 } } #Irreligious
+						set_temp_variable = { red = 0.235 }
+						set_temp_variable = { green = 0.235 }
+						set_temp_variable = { blue = 0.235 }
+					}
+					else_if = {
+						limit = { check_variable = { FROM.religion = 77 } } #Banana Worship
+						set_temp_variable = { red = 0.902 }
+						set_temp_variable = { green = 0.882 }
+						set_temp_variable = { blue = 0.639 }
+					}
+																											
+					else={
+						set_temp_variable = { red = 1.0 }
+						set_temp_variable = { green = 0.75 }
+						set_temp_variable = { blue = 0.75 }
+					}
+
+				}
+
+				#set_temp_variable = { thickness = 1 }
+				set_temp_variable = { highlighted = 0 }
+
+				#always = yes
+			}
+
+			targets = {
+
+			}
+
+			thickness = no
+		}
+
+		bottom = {
+			type = none
+		}
+
+		update_daily = no
+	}
+
+}

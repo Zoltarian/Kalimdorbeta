@@ -1,0 +1,1633 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			######################
+			# Northrend
+			######################
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = northrend_global_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_borean_tundra = yes
+					annex_sholazar = yes
+					annex_wintergrasp = yes
+					annex_dragonblight = yes
+					annex_crystalsong = yes
+					annex_icecrown = yes
+					annex_storm_peaks = yes
+					annex_zul_drak = yes
+					annex_grizzly_hills = yes
+					annex_howling_fjord = yes
+				}
+
+				else = {
+					######################
+					# Zul'drak
+					######################
+					#Zul'drak setup - No Minor
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = zul_dark_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						DRA = {
+							annex_country = {
+							    target = RGC
+							}
+						}
+					}
+					#Zul'drak setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = zul_dark_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_zul_drak = yes
+						}
+					}
+
+					######################
+					# Crystalsong Forest
+					######################
+					#Crystalsong Forest setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = crystalsong_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_crystalsong = yes
+						}
+					}
+
+					######################
+					# Wintergrasp
+					######################
+					#Wintergrasp setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = wintergrasp_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_wintergrasp = yes
+						}
+					}
+
+					######################
+					# Dragonblight
+					######################
+					#Dragonblight setup - No Minor
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = dragonblight_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						RDF = {
+							annex_country = {
+							    target = COH
+							}
+							annex_country = {
+							    target = CRY
+							}
+							annex_country = {
+							    target = SNT
+							}
+						}
+						GDF = {
+							transfer_state = 1244
+							transfer_state = 1246
+						}
+						BRF = {
+							transfer_state = 1247
+						}
+						BDF = {
+							annex_country = {
+							    target = SWT
+							}
+						}
+						KLK = {
+							annex_country = {
+							    target = WTS
+							}
+						}
+						AZJ = {
+							annex_country = {
+							    target = ICM
+							}
+						}
+					}
+					#Dragonblight setup - Dragon Only
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = dragonblight_setup_gamerule
+								option = DRAGON_ONLY
+							}
+						}
+						RDF = {
+							annex_country = {
+							    target = COH
+							}
+							annex_country = {
+							    target = CRY
+							}
+							annex_country = {
+							    target = SNT
+							}
+							transfer_state = 1230
+						}
+						GDF = {
+							transfer_state = 1244
+							transfer_state = 1246
+						}
+						BDF = {
+							annex_country = {
+							    target = SWT
+							}
+							annex_country = {
+							    target = WTS
+							}
+							annex_country = {
+							    target = ICM
+							}
+							transfer_state = 54
+							transfer_state = 1228
+							transfer_state = 1229
+							transfer_state = 1232
+							transfer_state = 1233
+						}
+						BRF = {
+							transfer_state = 1225
+							transfer_state = 1247
+							transfer_state = 1249
+							transfer_state = 1250
+							transfer_state = 1251
+						}
+						BLF = {
+							transfer_state = 1235
+							transfer_state = 1236
+							transfer_state = 1237
+							transfer_state = 1238
+						}
+					}
+					#Dragonblight setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = dragonblight_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_dragonblight = yes
+						}
+					}
+
+					######################
+					# Grizzly Hills
+					######################
+					#Grizzly Hills setup - No Major
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = grizzly_hills_setup_gamerule
+								option = NO_MAJOR
+							}
+						}
+						SVB = {
+							transfer_state = 1680
+						}
+						GZM = {
+							transfer_state = 1677
+							transfer_state = 1681
+							transfer_state = 1683
+							transfer_state = 1684
+							transfer_state = 1686
+						}
+						THM = {
+							transfer_state = 1667
+							transfer_state = 1668
+						}
+						DAR = {
+							transfer_state = 1669
+						}
+					}
+					#Howling Fjord setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = grizzly_hills_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_grizzly_hills = yes
+						}
+					}
+
+					######################
+					# Storm Peaks
+					######################
+					#Storm Peaks setup - No Minor
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = storm_peaks_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						KOU = {
+							annex_country = {
+							    target = EAE
+								transfer_troops = yes
+							}
+							annex_country = {
+							    target = TLT
+							}
+						}
+						VLK = {
+							annex_country = {
+							    target = FFT
+							}
+							annex_country = {
+							    target = FRB
+							}
+						}
+						HYL = {
+							annex_country = {
+							    target = SBC
+							}
+							annex_country = {
+							    target = SVH
+							}
+						}
+					}
+					#Storm Peaks setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = storm_peaks_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_storm_peaks = yes
+						}
+					}
+
+					######################
+					# Icecrown
+					######################
+					#Icecrown setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = icecrown_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_icecrown = yes
+						}
+					}
+
+					######################
+					# Sholazar Basin
+					######################
+					#Sholazar Basin setup - No Minor
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = sholazar_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						MWA = {
+							transfer_state = 56
+						}
+						MWH = {
+							transfer_state = 1778
+						}
+					}
+					#Sholazar Basin setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = sholazar_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_sholazar = yes
+						}
+					}
+
+					######################
+					# Borean Tundra
+					######################
+					#Borean Tundra setup - No Minor
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = borean_tundra_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						KLK = {
+							transfer_state = 816
+							annex_country = {
+							    target = BUT
+							}
+						}
+						BPT = {
+							transfer_state = 1273
+						}
+						TKT = {
+							annex_country = {
+							    target = GBT
+							}
+						}
+						MMH = {
+							annex_country = {
+							    target = WTF
+							}
+						}
+					}
+					#Borean Tundra setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = borean_tundra_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_borean_tundra = yes
+						}
+					}
+
+					######################
+					# Howling Fjord
+					######################
+					#Howling Fjord setup - No Minor
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = howling_fjord_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						DFC = {
+							annex_country = {
+							    target = WIC
+								transfer_troops = yes
+							}
+							annex_country = {
+							    target = GJA
+								transfer_troops = yes
+							}
+							annex_country = {
+							    target = CMT
+							}
+						}
+						CWT = {
+							transfer_state = 1028
+							annex_country = {
+							    target = GHS
+							}
+							annex_country = {
+							    target = TTV
+							}
+							annex_country = {
+							    target = HFD
+							}
+							annex_country = {
+							    target = HLT
+							}
+						}
+					}
+					#Howling Fjord setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = howling_fjord_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_howling_fjord = yes
+						}
+					}
+				}
+			}
+
+			############################################
+
+			######################
+			# Kalimdor
+			######################
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = kalimdor_global_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_bloodmyst = yes
+					annex_azuremyst = yes
+					annex_moonglade = yes
+					annex_darkshore = yes
+					annex_felwood = yes
+					annex_hyjal = yes
+					annex_winterspring = yes
+					annex_azshara = yes
+					annex_ashenvale = yes
+					annex_durotar = yes
+					annex_orgrimmar = yes
+					annex_northern_barrens = yes
+					annex_southern_barrens = yes
+					annex_stonetalon = yes
+					annex_desolace = yes
+					annex_mulgore = yes
+					annex_dustwallow = yes
+					annex_feralas = yes
+					annex_thousand_needles = yes
+					annex_tanaris = yes
+					annex_zul_farrak = yes
+					annex_ungoro = yes
+					annex_uldum = yes
+					annex_silithus = yes
+					annex_ahnqiraj = yes
+				}
+
+				else = {
+					######################
+					# Azuremyst
+					######################
+					#Azuremyst setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = azuremyst_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_azuremyst = yes
+						}
+					}
+
+					######################
+					# Bloodmyst
+					######################
+					#Bloodmyst setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = bloodmyst_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_bloodmyst = yes
+						}
+					}
+
+					######################
+					# Moonglade
+					######################
+					#Moonglade setup - Kaldorei Direct Control
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = moonglade_setup_gamerule
+								option = KALDOREI_DIRECT_CONTROL
+							}
+						}
+						KAL = {
+							annex_moonglade = yes
+						}
+					}
+					#Moonglade setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = moonglade_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_moonglade = yes
+						}
+					}
+
+					######################
+					# WINTERSPRING
+					######################
+					#Winterspring setup - Kaldorei Hegemony
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = winterspring_setup_gamerule
+								option = KALDOREI_HEGEMONY
+							}
+						}
+						KAL = {
+							annex_country = {
+							    target = TIM
+							}
+							annex_country = {
+							    target = KTG
+							}
+							annex_country = {
+							    target = MZT
+							}
+							annex_country = {
+							    target = MNT
+							}
+							annex_country = {
+							    target = WNT
+							}
+							annex_country = {
+							    target = ITY
+							}
+							annex_country = {
+							    target = OWT
+							}
+							annex_country = {
+							    target = FMG
+							}
+						}
+					}
+					#Winterspring setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = winterspring_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						TIM = {
+							transfer_state = 1444
+						}
+						MNT = {
+							transfer_state = 1438
+							transfer_state = 1446
+							transfer_state = 1447
+						}
+						KTG = {
+							transfer_state = 1439
+						}
+						ITY = {
+							transfer_state = 63
+						}
+						OWT = {
+							transfer_state = 1454
+						}
+						FMG = {
+							transfer_state = 2110
+						}
+					}
+					#Winterspring setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = winterspring_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_winterspring = yes
+						}
+					}
+
+					######################
+					# HYJAL
+					######################
+					#Hyjal setup - Kaldorei Hegemony
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = hyjal_setup_gamerule
+								option = KALDOREI_HEGEMONY
+							}
+						}
+						KAL = {
+							annex_country = {
+							    target = WAR
+							}
+							annex_country = {
+							    target = WOR
+							}
+							annex_country = {
+							    target = BST
+							}
+							annex_country = {
+							    target = STT
+							}
+						}
+					}
+					#Hyjal setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = hyjal_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						WOR = {
+							transfer_state = 64
+							transfer_state = 1485
+							transfer_state = 1486
+							transfer_state = 1487
+							transfer_state = 1488
+							transfer_state = 1489
+							transfer_state = 1491
+							transfer_state = 1492
+							transfer_state = 1493
+							transfer_state = 1494
+							transfer_state = 1495
+							transfer_state = 1505
+						}
+						BST = {
+							transfer_state = 1496
+						}
+						STT = {
+							transfer_state = 1498
+							transfer_state = 1501
+							transfer_state = 1502
+							transfer_state = 1503
+							transfer_state = 1999
+							transfer_state = 2126
+						}
+					}
+					#Hyjal setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = hyjal_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_hyjal = yes
+						}
+					}
+
+					######################
+					# FELWOOD
+					######################
+					#Felwood setup - Kaldorei Hegemony
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = felwood_setup_gamerule
+								option = KALDOREI_HEGEMONY
+							}
+						}
+						KAL = {
+							annex_country = {
+							    target = JFT
+							}
+							annex_country = {
+							    target = DDW
+							}
+						}
+					}
+					#Felwood setup - Jadefire Hegemony
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = felwood_setup_gamerule
+								option = JADEFIRE_HEGEMONY
+							}
+						}
+						JFT = {
+							transfer_state = 1416
+							transfer_state = 1417
+							transfer_state = 1418
+							transfer_state = 1422
+							transfer_state = 1423
+							transfer_state = 1424
+							transfer_state = 1425
+							transfer_state = 1426
+							transfer_state = 1427
+							transfer_state = 1429
+							transfer_state = 1430
+							transfer_state = 1431
+							transfer_state = 1432
+							transfer_state = 1433
+						}
+					}
+					#Felwood setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = felwood_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						JFT = {
+							transfer_state = 1422
+							transfer_state = 1423
+							transfer_state = 1424
+							transfer_state = 1425
+							transfer_state = 1426
+							transfer_state = 1427
+							transfer_state = 1429
+						}
+						DDW = {
+							transfer_state = 1416
+							transfer_state = 1417
+							transfer_state = 1430
+							transfer_state = 1431
+							transfer_state = 1432
+						}
+					}
+					#Felwood setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = felwood_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_felwood = yes
+						}
+					}
+
+					######################
+					# DARKSHORE
+					######################
+					#Darkshore setup - Kaldorei Hegemony
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = darkshore_setup_gamerule
+								option = KALDOREI_HEGEMONY
+							}
+						}
+						KAL = {
+							transfer_state = 1404
+							transfer_state = 1405
+							annex_country = {
+							    target = GMT
+							}
+							annex_country = {
+							    target = BWT
+							}
+							annex_country = {
+							    target = AME
+							}
+							annex_country = {
+							    target = DSM
+							}
+							annex_country = {
+							    target = DTR
+							}
+							annex_country = {
+							    target = STS
+							}
+						}
+					}
+					#Darkshore setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = darkshore_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						STS = {
+							transfer_state = 1391
+							transfer_state = 1392
+						}
+						BWT = {
+							transfer_state = 1393
+							transfer_state = 1395
+							transfer_state = 1407
+						}
+						AME = {
+							transfer_state = 1402
+							transfer_state = 1401
+						}
+						DSM = {
+							transfer_state = 1399
+						}
+						DTR = {
+							transfer_state = 1396
+							transfer_state = 1397
+						}
+					}
+					#Darkshore setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = darkshore_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_darkshore = yes
+						}
+					}
+
+					######################
+					# ASHENVALE
+					######################
+					#Ashenvale setup - Kaldorei Hegemony
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = ashenvale_setup_gamerule
+								option = KALDOREI_HEGEMONY
+							}
+						}
+						KAL = {
+							annex_country = {
+							    target = SAT
+							}
+							annex_country = {
+							    target = THT
+							}
+							annex_country = {
+							    target = SHT
+							}
+							annex_country = {
+							    target = FWT
+							}
+							annex_country = {
+							    target = BTR
+							}
+							annex_country = {
+							    target = FMC
+							}
+							annex_country = {
+							    target = XAV
+							}
+							annex_country = {
+							    target = BHS
+							}
+							annex_country = {
+							    target = GDS
+							}
+						}
+					}
+					#Ashenvale setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = ashenvale_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						SAT = {
+							transfer_state = 1334
+							transfer_state = 1335
+							transfer_state = 1336
+							transfer_state = 1340
+							transfer_state = 1341
+							transfer_state = 1363
+							transfer_state = 1364
+						}
+						THT = {
+							transfer_state = 1337
+							transfer_state = 1338
+							transfer_state = 1342
+							transfer_state = 1343
+							transfer_state = 1365
+						}
+						FWT = {
+							transfer_state = 1347
+						}
+						SHT = {
+							transfer_state = 1349
+						}
+						FMC = {
+							transfer_state = 1350
+							transfer_state = 1351
+							transfer_state = 1357
+							transfer_state = 1366
+						}
+						BTR = {
+							transfer_state = 1358
+							transfer_state = 1359
+							transfer_state = 1360
+							transfer_state = 1362
+						}
+						BHS = {
+							transfer_state = 66
+							transfer_state = 593
+							transfer_state = 1354
+							transfer_state = 1356
+							transfer_state = 1361
+						}
+					}
+					#Ashenvale setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = ashenvale_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_ashenvale = yes
+						}
+					}
+
+					######################
+					# AZSHARA
+					######################
+					#Azshara setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = azshara_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						HIG = {
+							transfer_state = 1367
+							transfer_state = 1370
+						}
+					}
+					#Azshara setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = azshara_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_azshara = yes
+						}
+					}
+
+					######################
+					# DUROTAR
+					######################
+					#Durotar setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = durotar_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						DWT = {
+							transfer_state = 595
+							transfer_state = 1006
+							transfer_state = 1624
+						}
+					}
+					#Durotar setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = durotar_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_orgrimmar = yes
+							annex_durotar = yes
+						}
+					}
+
+					######################
+					# Northern Barrens
+					######################
+					#Northern Barrens setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = northern_barrens_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						BHT = {
+							transfer_state = 996
+						}
+					}
+					#Northern Barrens setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = northern_barrens_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_northern_barrens = yes
+						}
+					}
+
+					######################
+					# Southern Barrens
+					######################
+					#Southern Barrens setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = southern_barrens_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						RZF = {
+							annex_country = {
+							    target = FGH
+							}
+							annex_country = {
+							    target = SOP
+							}
+						}
+					}
+					#Southern Barrens setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = southern_barrens_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_southern_barrens = yes
+						}
+					}
+
+					######################
+					# Stonetalon Mountains
+					######################
+					#Stonetalon setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = stonetalon_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						BDT = {
+							annex_country = {
+							    target = ELD
+							}
+						}
+						KOL = {
+							annex_country = {
+							    target = WSH
+							}
+						}
+					}
+					#Stonetalon setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = stonetalon_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_stonetalon = yes
+						}
+					}
+
+					######################
+					# Desolace
+					######################
+					#Desolace setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = desolace_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						WIL = {
+							transfer_state = 1197
+							transfer_state = 1198
+						}
+						HFS = {
+							transfer_state = 1178
+							transfer_state = 1195
+							transfer_state = 1196
+						}
+					}
+					#Desolace setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = desolace_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_desolace = yes
+						}
+					}
+
+					######################
+					# Mulgore
+					######################
+					#Mulgore setup - No Tauren
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = mulgore_setup_gamerule
+								option = NO_TAUREN
+							}
+						}
+						WFT = {
+							annex_country = {
+							    target = EAG
+							}
+							annex_country = {
+							    target = DWN
+							}
+							annex_country = {
+							    target = TMT
+							}
+						}
+						PAL = {
+							annex_country = {
+							    target = WIN
+							}
+							annex_country = {
+							    target = HWT
+							}
+						}
+					}
+					#Mulgore setup - Tauren Haven
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = mulgore_setup_gamerule
+								option = TAUREN_HAVEN
+							}
+						}
+						HWT = {
+							transfer_state = 998
+							transfer_state = 1001
+							transfer_state = 1033
+							transfer_state = 1039
+						}
+						WIN = {
+							transfer_state = 997
+							transfer_state = 1036
+							transfer_state = 1037
+						}
+						DWN = {
+							transfer_state = 999
+							transfer_state = 1000
+							transfer_state = 1002
+						}
+						TMT = {
+							transfer_state = 81
+							transfer_state = 1034
+							transfer_state = 1040
+							transfer_state = 1047
+							transfer_state = 1048
+						}
+						EAG = {
+							transfer_state = 1031
+							transfer_state = 1035
+							transfer_state = 1044
+							transfer_state = 1045
+							transfer_state = 1046
+							transfer_state = 1994
+						}
+					}
+					#Mulgore setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = mulgore_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_mulgore = yes
+						}
+					}
+
+					######################
+					# Dustwallow Marsh
+					######################
+					#Dustwallow Marsh setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = dustwallow_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						ONY = {
+							annex_country = {
+							    target = MKT
+							}
+						}
+					}
+					#Dustwallow Marsh setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = dustwallow_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_dustwallow = yes
+						}
+					}
+
+					######################
+					# Feralas
+					######################
+					#Feralas setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = feralas_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						SHD = {
+							annex_country = {
+							    target = WSS
+							}
+							annex_country = {
+							    target = FSY
+							}
+							annex_country = {
+							    target = DMG
+							}
+							annex_country = {
+							    target = DSG
+							}
+							annex_country = {
+							    target = RSY
+							}
+						}
+						GRM = {
+							annex_country = {
+							    target = SPH
+								transfer_troops = yes
+							}
+						}
+						WPT = {
+							annex_country = {
+							    target = ZUK
+							}
+						}
+						NST = {
+							annex_country = {
+							    target = RBG
+							}
+							annex_country = {
+							    target = GDD
+							}
+						}
+					}
+					#Feralas setup - No Kaldorei
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = feralas_setup_gamerule
+								option = NO_KALDOREI
+							}
+						}
+						DSG = {
+							transfer_state = 1146
+							transfer_state = 1147
+							transfer_state = 1148
+							transfer_state = 2108
+						}
+					}
+					#Feralas setup - Island Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = feralas_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							transfer_state = 1146
+							transfer_state = 1147
+							transfer_state = 1148
+							transfer_state = 2108
+						}
+					}
+					#Feralas setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = feralas_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_feralas = yes
+						}
+					}
+
+					######################
+					# Thousand Needles
+					######################
+					#Thousand Needles setup - Grimtotem Supremacy
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = thousand_needles_setup_gamerule
+								option = GRIMTOTEM_SUPREMACY
+							}
+						}
+						GRM = {
+							annex_country = {
+							    target = GAL
+							}
+							annex_country = {
+							    target = SCR
+							}
+							annex_country = {
+							    target = GRA
+							}
+							annex_country = {
+							    target = RMH
+							}
+						}
+					}
+					#Thousand Needles setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = thousand_needles_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_thousand_needles = yes
+						}
+					}
+
+					######################
+					# Tanaris
+					######################
+					#Tanaris setup - Farraki Supremacy
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = tanaris_setup_gamerule
+								option = FARRAKI_SUPREMACY
+							}
+						}
+						FAR = {
+							annex_country = {
+							    target = CNT
+							}
+							annex_country = {
+							    target = THI
+							}
+							annex_country = {
+							    target = HAZ
+							}
+							transfer_state = 79
+							transfer_state = 925
+							transfer_state = 926
+						}
+					}
+					#Tanaris setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = tanaris_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_tanaris = yes
+							annex_zul_farrak = yes
+						}
+					}
+
+					######################
+					# Un'goro
+					######################
+					#Un'goro setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = ungoro_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_ungoro = yes
+						}
+					}
+
+					######################
+					# Uldum
+					######################
+					#Uldum setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = uldum_setup_gamerule
+								option = NO_MINOR
+							}
+						}
+						RKH = {
+							annex_country = {
+							    target = SPY
+							}
+						}
+					}
+					#Uldum setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = uldum_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_uldum = yes
+						}
+					}
+
+					######################
+					# Silithus
+					######################
+					#Silithus setup - No Minor Nations
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = silithus_setup_gamerule
+								option = NO_CENARION
+							}
+						}
+						HAS = {
+							transfer_state = 1108
+							transfer_state = 1110
+							transfer_state = 2003
+						}
+						HRE = {
+							transfer_state = 1109
+						}
+					}
+					#Silithus setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = silithus_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_silithus = yes
+						}
+					}
+
+					######################
+					# Ahn'Qiraj
+					######################
+					#Ahn'Qiraj setup - Disabled
+					if = {
+						limit = {
+							has_game_rule = {
+								rule = ahnqiraj_setup_gamerule
+								option = DISABLED
+							}
+						}
+						ZZW = {
+							annex_ahnqiraj = yes
+						}
+					}
+				}
+			}
+
+			######################
+			# Kezan
+			######################
+			#Kezan setup - Disabled
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = kezan_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_kezan = yes
+				}
+			}
+
+			######################
+			# Deepholm
+			######################
+			#Deepholm setup - Disabled
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = deepholm_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_deepholm = yes
+				}
+			}
+
+			######################
+			# Maelstrom Islands
+			######################
+			#Maelstrom Islands setup - Disabled
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = maelstrom_islands_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_maelstrom_islands = yes
+				}
+			}
+
+			######################
+			# Darkspear Islands
+			######################
+			#Darkspear Islands setup - Disabled
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = darkspear_islands_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_darkspear_islands = yes
+				}
+			}
+
+			######################
+			# Lost Isles
+			######################
+			#Lost Isles setup - Disabled
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = lost_isles_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_lost_isles = yes
+				}
+			}
+
+			######################
+			# Tel'abim
+			######################
+			#Tel'abim setup - Disabled
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = tel_abim_setup_gamerule
+						option = DISABLED
+					}
+				}
+				ZZW = {
+					annex_tel_abim = yes
+				}
+			}
+
+			#Core every state owned by ZZW (Disabled Lands) to prevent them from having to
+			#do Resistance / Compliance calculations in order to save performance.
+			ZZW = {
+				every_owned_state = {
+					add_core_of = PREV
+				}
+			}
+		}
+	}
+}

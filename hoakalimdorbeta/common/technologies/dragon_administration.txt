@@ -2685,6 +2685,16 @@ technologies = {
 	dragon_wood_working = {
 
 		on_research_complete = {
+			hidden_effect = {
+			set_technology = {
+			wood_working_1 = 1
+			}
+			modify_building_resources = {
+				building = lumber_mill
+				resource = wood
+				amount = -1
+			}
+			}
 			modify_building_resources = {
 				building = lumber_mill
 				resource = wood

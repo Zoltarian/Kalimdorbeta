@@ -663,6 +663,7 @@ is_troll_tech = {
 		has_idea = blood_troll_primary_race
 	}
 	NOT = {
+		tag = DRA
 		tag = FAR
 		tag = STS
 		tag = STT
@@ -702,6 +703,7 @@ is_gnoll_tech = {
 	has_idea = gnoll_primary_race
 	NOT = {
 		tag = PAL
+		tag = SVH
 		tag = WPT
 	}
 }

@@ -3,9 +3,37 @@
 
 technology_categories = {
 
+####
+#Troll Admin
+####
+	troll_tier_technology
+	labourer_technology
+	troll_support_technology
+	village_technology
+	hunting_technology
+	troll_craftsman_technology
+	artisan_craftsman_unit_technology
+####
+#Troll Infanty
+####
 	troll_barracks_technology
 	troll_axeman_technology
 	head_hunter_technology
 	troll_spirit_lodge_technology
+####
+#Troll Cavalry
+####
+	direhorn_technology
+
+####
+#Troll Siege
+####
+
+####
+#Troll Support
+####
+	dire_troll_technology
+	shadow_hunter_technology
+	devilsaur_technology
 
 }

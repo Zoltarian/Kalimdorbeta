@@ -6,6 +6,360 @@
 ###########################################################
 
 ####################
+# Northrend
+####################
+
+#Annex Zul'drak
+annex_zul_drak = {
+  custom_effect_tooltip = annex_zul_drak_tt
+  hidden_effect = {
+    transfer_state = 50
+    transfer_state = 1693
+    transfer_state = 1694
+    transfer_state = 1695
+    transfer_state = 1696
+    transfer_state = 1697
+    transfer_state = 1698
+    transfer_state = 1699
+    transfer_state = 1700
+    transfer_state = 1701
+    transfer_state = 1702
+    transfer_state = 1703
+    transfer_state = 1704
+    transfer_state = 1705
+    transfer_state = 1706
+    transfer_state = 1707
+    transfer_state = 1708
+    transfer_state = 1709
+    transfer_state = 1710
+    transfer_state = 1711
+    transfer_state = 1712
+    transfer_state = 1713
+    transfer_state = 1714
+    transfer_state = 1715
+    transfer_state = 1716
+  }
+}
+
+#Annex Crystalsong Forest
+annex_crystalsong = {
+  custom_effect_tooltip = annex_crystalsong_tt
+  hidden_effect = {
+    transfer_state = 53
+    transfer_state = 1627
+    transfer_state = 1628
+    transfer_state = 1629
+    transfer_state = 1630
+    transfer_state = 1631
+    transfer_state = 1632
+    transfer_state = 1633
+    transfer_state = 1634
+    transfer_state = 1635
+    transfer_state = 1980
+    transfer_state = 1981
+    transfer_state = 1982
+  }
+}
+
+#Annex Wintergrasp
+annex_wintergrasp = {
+  custom_effect_tooltip = annex_wintergrasp_tt
+  hidden_effect = {
+    transfer_state = 55
+    transfer_state = 1215
+    transfer_state = 1217
+    transfer_state = 1218
+    transfer_state = 1219
+    transfer_state = 1220
+    transfer_state = 1221
+    transfer_state = 1222
+    transfer_state = 2092
+  }
+}
+
+#Annex Dragonblight
+annex_dragonblight = {
+  custom_effect_tooltip = annex_dragonblight_tt
+  hidden_effect = {
+    transfer_state = 54
+    transfer_state = 112
+    transfer_state = 202
+    transfer_state = 203
+    transfer_state = 204
+    transfer_state = 205
+    transfer_state = 1216
+    transfer_state = 1223
+    transfer_state = 1224
+    transfer_state = 1225
+	transfer_state = 1226
+	transfer_state = 1227
+    transfer_state = 1228
+    transfer_state = 1229
+    transfer_state = 1230
+    transfer_state = 1231
+    transfer_state = 1232
+    transfer_state = 1233
+    transfer_state = 1234
+    transfer_state = 1235
+    transfer_state = 1236
+    transfer_state = 1237
+    transfer_state = 1238
+	transfer_state = 1239
+    transfer_state = 1240
+    transfer_state = 1241
+    transfer_state = 1242
+    transfer_state = 1243
+    transfer_state = 1244
+    transfer_state = 1245
+	transfer_state = 1246
+	transfer_state = 1247
+    transfer_state = 1248
+    transfer_state = 1249
+    transfer_state = 1250
+    transfer_state = 1251
+    transfer_state = 1252
+	transfer_state = 1253
+    transfer_state = 1254
+    transfer_state = 1626
+  }
+}
+
+#Annex Grizzly Hills
+annex_grizzly_hills = {
+  custom_effect_tooltip = annex_grizzly_hills_tt
+  hidden_effect = {
+    transfer_state = 49
+    transfer_state = 1666
+    transfer_state = 1667
+    transfer_state = 1668
+    transfer_state = 1669
+    transfer_state = 1670
+    transfer_state = 1671
+    transfer_state = 1672
+    transfer_state = 1673
+  	transfer_state = 1674
+  	transfer_state = 1675
+  	transfer_state = 1676
+    transfer_state = 1677
+    transfer_state = 1678
+    transfer_state = 1679
+    transfer_state = 1680
+    transfer_state = 1681
+    transfer_state = 1682
+    transfer_state = 1683
+    transfer_state = 1684
+    transfer_state = 1685
+    transfer_state = 1686
+    transfer_state = 1687
+  	transfer_state = 1688
+  	transfer_state = 1689
+  	transfer_state = 1690
+  	transfer_state = 1691
+    transfer_state = 1692
+    transfer_state = 1835
+  }
+}
+
+#Annex Storm Peaks
+annex_storm_peaks = {
+  custom_effect_tooltip = annex_storm_peaks_tt
+  hidden_effect = {
+    transfer_state = 51
+    transfer_state = 613
+    transfer_state = 780
+    transfer_state = 1053
+    transfer_state = 1054
+    transfer_state = 1717
+	transfer_state = 1718
+    transfer_state = 1719
+    transfer_state = 1720
+    transfer_state = 1721
+    transfer_state = 1722
+    transfer_state = 1723
+  	transfer_state = 1724
+    transfer_state = 1725
+    transfer_state = 1726
+    transfer_state = 1727
+    transfer_state = 1728
+    transfer_state = 1729
+    transfer_state = 1730
+    transfer_state = 1731
+    transfer_state = 1732
+    transfer_state = 1733
+    transfer_state = 1735
+    transfer_state = 1736
+    transfer_state = 1737
+    transfer_state = 1738
+    transfer_state = 1739
+    transfer_state = 1740
+    transfer_state = 1741
+    transfer_state = 2018
+    transfer_state = 2019
+    transfer_state = 2020
+    transfer_state = 2021
+    transfer_state = 2022
+    transfer_state = 2023
+    transfer_state = 2024
+  }
+}
+
+#Annex Icecrown
+annex_icecrown = {
+  custom_effect_tooltip = annex_icecrown_tt
+  hidden_effect = {
+    transfer_state = 52
+    transfer_state = 1742
+    transfer_state = 1743
+    transfer_state = 1744
+  	transfer_state = 1745
+  	transfer_state = 1746
+    transfer_state = 1747
+  	transfer_state = 1748
+  	transfer_state = 1749
+  	transfer_state = 1750
+  	transfer_state = 1751
+  	transfer_state = 1752
+  	transfer_state = 1753
+  	transfer_state = 1754
+  	transfer_state = 1755
+  	transfer_state = 1756
+  	transfer_state = 1757
+  	transfer_state = 1758
+  	transfer_state = 1759
+    transfer_state = 1986
+  	transfer_state = 2012
+  	transfer_state = 2013
+  	transfer_state = 2014
+  	transfer_state = 2015
+  	transfer_state = 2016
+  	transfer_state = 2017
+  }
+}
+
+#Annex Sholazar Basin
+annex_sholazar = {
+  custom_effect_tooltip = annex_sholazar_tt
+  hidden_effect = {
+    transfer_state = 56
+    transfer_state = 1285
+  	transfer_state = 1286
+  	transfer_state = 1287
+  	transfer_state = 1288
+  	transfer_state = 1760
+  	transfer_state = 1761
+  	transfer_state = 1762
+  	transfer_state = 1763
+  	transfer_state = 1764
+  	transfer_state = 1765
+  	transfer_state = 1766
+  	transfer_state = 1767
+  	transfer_state = 1768
+  	transfer_state = 1769
+  	transfer_state = 1770
+  	transfer_state = 1771
+  	transfer_state = 1772
+  	transfer_state = 1773
+  	transfer_state = 1774
+  	transfer_state = 1775
+  	transfer_state = 1776
+  	transfer_state = 1777
+  	transfer_state = 1778
+  	transfer_state = 1779
+  	transfer_state = 1780
+  	transfer_state = 1781
+  	transfer_state = 1782
+  	transfer_state = 1783
+  }
+}
+
+#Annex Borean Tundra
+annex_borean_tundra = {
+  custom_effect_tooltip = annex_borean_tundra_tt
+  hidden_effect = {
+    transfer_state = 57
+    transfer_state = 299
+    transfer_state = 346
+    transfer_state = 779
+    transfer_state = 816
+    transfer_state = 1029
+    transfer_state = 1030
+	transfer_state = 1255
+    transfer_state = 1256
+    transfer_state = 1257
+    transfer_state = 1258
+    transfer_state = 1259
+    transfer_state = 1260
+    transfer_state = 1261
+    transfer_state = 1262
+    transfer_state = 1263
+    transfer_state = 1264
+	transfer_state = 1265
+	transfer_state = 1266
+	transfer_state = 1267
+    transfer_state = 1268
+    transfer_state = 1269
+    transfer_state = 1270
+    transfer_state = 1271
+    transfer_state = 1272
+    transfer_state = 1273
+    transfer_state = 1274
+    transfer_state = 1275
+    transfer_state = 1276
+    transfer_state = 1277
+    transfer_state = 1278
+    transfer_state = 1279
+    transfer_state = 1280
+    transfer_state = 1281
+    transfer_state = 1282
+    transfer_state = 1283
+    transfer_state = 1284
+    transfer_state = 1833
+  }
+}
+
+#Annex Howling Fjord
+annex_howling_fjord = {
+  custom_effect_tooltip = annex_howling_fjord_tt
+  hidden_effect = {
+    transfer_state = 48
+    transfer_state = 1027
+    transfer_state = 1028
+    transfer_state = 1636
+	transfer_state = 1637
+	transfer_state = 1638
+	transfer_state = 1639
+	transfer_state = 1640
+	transfer_state = 1641
+	transfer_state = 1642
+	transfer_state = 1643
+	transfer_state = 1644
+	transfer_state = 1645
+	transfer_state = 1646
+	transfer_state = 1647
+	transfer_state = 1648
+    transfer_state = 1649
+	transfer_state = 1650
+	transfer_state = 1651
+	transfer_state = 1652
+	transfer_state = 1653
+	transfer_state = 1654
+	transfer_state = 1655
+	transfer_state = 1656
+	transfer_state = 1657
+	transfer_state = 1658
+    transfer_state = 1659
+    transfer_state = 1660
+    transfer_state = 1661
+	transfer_state = 1662
+	transfer_state = 1663
+	transfer_state = 1664
+	transfer_state = 1665
+    transfer_state = 1834
+    transfer_state = 2135
+  }
+}
+
+####################
 # Great Sea
 ####################
 
@@ -13,49 +367,80 @@
 annex_kezan = {
   custom_effect_tooltip = annex_kezan_tt
   hidden_effect = {
-    set_state_owner = 60
-    set_state_owner = 817
-    set_state_owner = 818
-    set_state_owner = 819
-    set_state_owner = 820
-    set_state_owner = 821
-    set_state_owner = 822
-    set_state_owner = 823
-    set_state_owner = 1296
-    set_state_owner = 1297
-    set_state_owner = 1412
-    set_state_owner = 1413
+    transfer_state = 60
+    transfer_state = 817
+    transfer_state = 818
+    transfer_state = 819
+    transfer_state = 820
+    transfer_state = 821
+    transfer_state = 822
+    transfer_state = 823
+    transfer_state = 1296
+    transfer_state = 1297
+    transfer_state = 1412
+    transfer_state = 1413
+    transfer_state = 2132
+    transfer_state = 2133
+    transfer_state = 2134
   }
 }
-
 
 ####################
 # Kalimdor
 ####################
 
+#Azuremyst Isle
+annex_azuremyst = {
+  custom_effect_tooltip = annex_azuremyst_tt
+  hidden_effect = {
+    transfer_state = 87
+    transfer_state = 1457
+    transfer_state = 1458
+    transfer_state = 1459
+    transfer_state = 1460
+    transfer_state = 1461
+    transfer_state = 1462
+    transfer_state = 1463
+    transfer_state = 1464
+    transfer_state = 1465
+    transfer_state = 1466
+    transfer_state = 1467
+    transfer_state = 1468
+    transfer_state = 1469
+    transfer_state = 1470
+    transfer_state = 1471
+    transfer_state = 1472
+    transfer_state = 1473
+    transfer_state = 1474
+    transfer_state = 1475
+    transfer_state = 1476
+    transfer_state = 1477
+  }
+}
+
 #Bloodmyst Isle
 annex_bloodmyst = {
   custom_effect_tooltip = annex_bloodmyst_tt
   hidden_effect = {
-    set_state_owner = 88
-    set_state_owner = 1545
-    set_state_owner = 1546
-    set_state_owner = 1547
-    set_state_owner = 1548
-    set_state_owner = 1549
-    set_state_owner = 1550
-    set_state_owner = 1551
-    set_state_owner = 1552
-    set_state_owner = 1553
-    set_state_owner = 1554
-    set_state_owner = 1555
-    set_state_owner = 1556
-    set_state_owner = 1557
-    set_state_owner = 1558
-    set_state_owner = 1559
-    set_state_owner = 1560
-    set_state_owner = 1561
-    set_state_owner = 1562
+    transfer_state = 88
+    transfer_state = 1545
+    transfer_state = 1546
+    transfer_state = 1547
+    transfer_state = 1548
+    transfer_state = 1549
+    transfer_state = 1550
+    transfer_state = 1551
+    transfer_state = 1552
+    transfer_state = 1553
+    transfer_state = 1554
+    transfer_state = 1555
+    transfer_state = 1556
+    transfer_state = 1557
+    transfer_state = 1558
+    transfer_state = 1559
+    transfer_state = 1560
+    transfer_state = 1561
+    transfer_state = 1562
   }
 }
 
@@ -63,27 +448,70 @@ annex_bloodmyst = {
 annex_darkshore = {
   custom_effect_tooltip = annex_darkshore_tt
   hidden_effect = {
-    set_state_owner = 68
-    set_state_owner = 1390
-    set_state_owner = 1391
-    set_state_owner = 1392
-    set_state_owner = 1393
-    set_state_owner = 1394
-    set_state_owner = 1395
-    set_state_owner = 1396
-    set_state_owner = 1397
-    set_state_owner = 1398
-    set_state_owner = 1399
-    set_state_owner = 1400
-    set_state_owner = 1401
-    set_state_owner = 1402
-    set_state_owner = 1403
-    set_state_owner = 1404
-    set_state_owner = 1405
-    set_state_owner = 1406
-    set_state_owner = 1407
-    set_state_owner = 1408
-    set_state_owner = 1409
+    transfer_state = 68
+    transfer_state = 1390
+    transfer_state = 1391
+    transfer_state = 1392
+    transfer_state = 1393
+    transfer_state = 1394
+    transfer_state = 1395
+    transfer_state = 1396
+    transfer_state = 1397
+    transfer_state = 1398
+    transfer_state = 1399
+    transfer_state = 1400
+    transfer_state = 1401
+    transfer_state = 1402
+    transfer_state = 1403
+    transfer_state = 1404
+    transfer_state = 1405
+    transfer_state = 1406
+    transfer_state = 1407
+    transfer_state = 1408
+    transfer_state = 1409
+    transfer_state = 1410
+  }
+}
+
+#Moonglade
+annex_moonglade = {
+  custom_effect_tooltip = annex_moonglade_tt
+  hidden_effect = {
+    transfer_state = 65
+    transfer_state = 1434
+    transfer_state = 1435
+    transfer_state = 1436
+    transfer_state = 1437
+  }
+}
+
+#Winterspring
+annex_winterspring = {
+  custom_effect_tooltip = annex_winterspring_tt
+  hidden_effect = {
+    transfer_state = 63
+    transfer_state = 67
+    transfer_state = 1438
+    transfer_state = 1439
+    transfer_state = 1440
+    transfer_state = 1441
+    transfer_state = 1442
+    transfer_state = 1443
+    transfer_state = 1444
+    transfer_state = 1445
+    transfer_state = 1446
+    transfer_state = 1447
+    transfer_state = 1448
+    transfer_state = 1449
+    transfer_state = 1450
+    transfer_state = 1451
+    transfer_state = 1452
+    transfer_state = 1453
+    transfer_state = 1454
+    transfer_state = 1455
+    transfer_state = 1456
+    transfer_state = 2006
+    transfer_state = 2110
   }
 }
 
@@ -91,30 +519,31 @@ annex_darkshore = {
 annex_hyjal = {
   custom_effect_tooltip = annex_hyjal_tt
   hidden_effect = {
-    set_state_owner = 64
-    set_state_owner = 1485
-    set_state_owner = 1486
-    set_state_owner = 1487
-    set_state_owner = 1488
-    set_state_owner = 1489
-    set_state_owner = 1491
-    set_state_owner = 1492
-    set_state_owner = 1493
-    set_state_owner = 1494
-    set_state_owner = 1495
-    set_state_owner = 1496
-    set_state_owner = 1497
-    set_state_owner = 1498
-    set_state_owner = 1499
-    set_state_owner = 1500
-    set_state_owner = 1501
-    set_state_owner = 1502
-    set_state_owner = 1503
-    set_state_owner = 1505
-    set_state_owner = 1997
-    set_state_owner = 1998
-    set_state_owner = 1999
-    set_state_owner = 2126
+    transfer_state = 64
+    transfer_state = 1485
+    transfer_state = 1486
+    transfer_state = 1487
+    transfer_state = 1488
+    transfer_state = 1489
+    transfer_state = 1490
+    transfer_state = 1491
+    transfer_state = 1492
+    transfer_state = 1493
+    transfer_state = 1494
+    transfer_state = 1495
+    transfer_state = 1496
+    transfer_state = 1497
+    transfer_state = 1498
+    transfer_state = 1499
+    transfer_state = 1500
+    transfer_state = 1501
+    transfer_state = 1502
+    transfer_state = 1503
+    transfer_state = 1505
+    transfer_state = 1997
+    transfer_state = 1998
+    transfer_state = 1999
+    transfer_state = 2126
   }
 }
 
@@ -122,29 +551,32 @@ annex_hyjal = {
 annex_azshara = {
   custom_effect_tooltip = annex_azshara_tt
   hidden_effect = {
-    set_state_owner = 62
-    set_state_owner = 1370
-    set_state_owner = 1371
-    set_state_owner = 1372
-    set_state_owner = 1373
-    set_state_owner = 1374
-    set_state_owner = 1375
-    set_state_owner = 1376
-    set_state_owner = 1377
-    set_state_owner = 1378
-    set_state_owner = 1379
-    set_state_owner = 1380
-    set_state_owner = 1381
-    set_state_owner = 1382
-    set_state_owner = 1383
-    set_state_owner = 1384
-    set_state_owner = 1385
-    set_state_owner = 1386
-    set_state_owner = 1387
-    set_state_owner = 1388
-    set_state_owner = 1389
-    set_state_owner = 2111
-    set_state_owner = 2112
+    transfer_state = 62
+    transfer_state = 1367
+    transfer_state = 1368
+    transfer_state = 1369
+    transfer_state = 1370
+    transfer_state = 1371
+    transfer_state = 1372
+    transfer_state = 1373
+    transfer_state = 1374
+    transfer_state = 1375
+    transfer_state = 1376
+    transfer_state = 1377
+    transfer_state = 1378
+    transfer_state = 1379
+    transfer_state = 1380
+    transfer_state = 1381
+    transfer_state = 1382
+    transfer_state = 1383
+    transfer_state = 1384
+    transfer_state = 1385
+    transfer_state = 1386
+    transfer_state = 1387
+    transfer_state = 1388
+    transfer_state = 1389
+    transfer_state = 2111
+    transfer_state = 2112
   }
 }
 
@@ -152,29 +584,29 @@ annex_azshara = {
 annex_stonetalon = {
   custom_effect_tooltip = annex_stonetalon_tt
   hidden_effect = {
-    set_state_owner = 71
-    set_state_owner = 1316
-    set_state_owner = 1317
-    set_state_owner = 1318
-    set_state_owner = 1319
-    set_state_owner = 1320
-    set_state_owner = 1321
-    set_state_owner = 1322
-    set_state_owner = 1323
-    set_state_owner = 1324
-    set_state_owner = 1325
-    set_state_owner = 1326
-    set_state_owner = 1327
-    set_state_owner = 1328
-    set_state_owner = 1329
-    set_state_owner = 1330
-    set_state_owner = 1331
-    set_state_owner = 1332
-    set_state_owner = 1333
-    set_state_owner = 1992
-    set_state_owner = 1993
-    set_state_owner = 1994
-    set_state_owner = 1995
+    transfer_state = 71
+    transfer_state = 1316
+    transfer_state = 1317
+    transfer_state = 1318
+    transfer_state = 1319
+    transfer_state = 1320
+    transfer_state = 1321
+    transfer_state = 1322
+    transfer_state = 1323
+    transfer_state = 1324
+    transfer_state = 1325
+    transfer_state = 1326
+    transfer_state = 1327
+    transfer_state = 1328
+    transfer_state = 1329
+    transfer_state = 1330
+    transfer_state = 1331
+    transfer_state = 1332
+    transfer_state = 1333
+    transfer_state = 1992
+    transfer_state = 1993
+    transfer_state = 1994
+    transfer_state = 1995
   }
 }
 
@@ -182,31 +614,32 @@ annex_stonetalon = {
 annex_desolace = {
   custom_effect_tooltip = annex_desolace_tt
   hidden_effect = {
-    set_state_owner = 83
-    set_state_owner = 1176
-    set_state_owner = 1177
-    set_state_owner = 1178
-    set_state_owner = 1179
-    set_state_owner = 1180
-    set_state_owner = 1181
-    set_state_owner = 1182
-    set_state_owner = 1183
-    set_state_owner = 1184
-    set_state_owner = 1185
-    set_state_owner = 1187
-    set_state_owner = 1188
-    set_state_owner = 1189
-    set_state_owner = 1190
-    set_state_owner = 1191
-    set_state_owner = 1192
-    set_state_owner = 1193
-    set_state_owner = 1194
-    set_state_owner = 1195
-    set_state_owner = 1196
-    set_state_owner = 1197
-    set_state_owner = 1198
-    set_state_owner = 1295
-    set_state_owner = 1996
+    transfer_state = 83
+    transfer_state = 1176
+    transfer_state = 1177
+    transfer_state = 1178
+    transfer_state = 1179
+    transfer_state = 1180
+    transfer_state = 1181
+    transfer_state = 1182
+    transfer_state = 1183
+    transfer_state = 1184
+    transfer_state = 1185
+    transfer_state = 1186
+    transfer_state = 1187
+    transfer_state = 1188
+    transfer_state = 1189
+    transfer_state = 1190
+    transfer_state = 1191
+    transfer_state = 1192
+    transfer_state = 1193
+    transfer_state = 1194
+    transfer_state = 1195
+    transfer_state = 1196
+    transfer_state = 1197
+    transfer_state = 1198
+    transfer_state = 1295
+    transfer_state = 1996
   }
 }
 
@@ -214,27 +647,28 @@ annex_desolace = {
 annex_durotar = {
   custom_effect_tooltip = annex_durotar_tt
   hidden_effect = {
-    set_state_owner = 61
-    set_state_owner = 588
-    set_state_owner = 589
-    set_state_owner = 590
-    set_state_owner = 591
-    set_state_owner = 592
-    set_state_owner = 594
-    set_state_owner = 595
-    set_state_owner = 596
-    set_state_owner = 597
-    set_state_owner = 599
-    set_state_owner = 600
-    set_state_owner = 608
-    set_state_owner = 609
-    set_state_owner = 610
-    set_state_owner = 611
-    set_state_owner = 612
-    set_state_owner = 1005
-    set_state_owner = 1006
-    set_state_owner = 1623
-    set_state_owner = 1624
+    transfer_state = 61
+    transfer_state = 584
+    transfer_state = 588
+    transfer_state = 589
+    transfer_state = 590
+    transfer_state = 591
+    transfer_state = 592
+    transfer_state = 594
+    transfer_state = 595
+    transfer_state = 596
+    transfer_state = 597
+    transfer_state = 599
+    transfer_state = 600
+    transfer_state = 608
+    transfer_state = 609
+    transfer_state = 610
+    transfer_state = 611
+    transfer_state = 612
+    transfer_state = 1005
+    transfer_state = 1006
+    transfer_state = 1623
+    transfer_state = 1624
   }
 }
 
@@ -242,31 +676,31 @@ annex_durotar = {
 annex_mulgore = {
   custom_effect_tooltip = annex_mulgore_tt
   hidden_effect = {
-    set_state_owner = 81
-    set_state_owner = 997
-    set_state_owner = 998
-    set_state_owner = 999
-    set_state_owner = 1000
-    set_state_owner = 1001
-    set_state_owner = 1002
-    set_state_owner = 1031
-    set_state_owner = 1032
-    set_state_owner = 1033
-    set_state_owner = 1034
-    set_state_owner = 1035
-    set_state_owner = 1036
-    set_state_owner = 1037
-    set_state_owner = 1038
-    set_state_owner = 1039
-    set_state_owner = 1040
-    set_state_owner = 1041
-    set_state_owner = 1042
-    set_state_owner = 1043
-    set_state_owner = 1044
-    set_state_owner = 1045
-    set_state_owner = 1046
-    set_state_owner = 1047
-    set_state_owner = 1048
+    transfer_state = 81
+    transfer_state = 997
+    transfer_state = 998
+    transfer_state = 999
+    transfer_state = 1000
+    transfer_state = 1001
+    transfer_state = 1002
+    transfer_state = 1031
+    transfer_state = 1032
+    transfer_state = 1033
+    transfer_state = 1034
+    transfer_state = 1035
+    transfer_state = 1036
+    transfer_state = 1037
+    transfer_state = 1038
+    transfer_state = 1039
+    transfer_state = 1040
+    transfer_state = 1041
+    transfer_state = 1042
+    transfer_state = 1043
+    transfer_state = 1044
+    transfer_state = 1045
+    transfer_state = 1046
+    transfer_state = 1047
+    transfer_state = 1048
   }
 }
 
@@ -274,24 +708,25 @@ annex_mulgore = {
 annex_northern_barrens = {
   custom_effect_tooltip = annex_northern_barrens_tt
   hidden_effect = {
-    set_state_owner = 979
-    set_state_owner = 980
-    set_state_owner = 981
-    set_state_owner = 982
-    set_state_owner = 983
-    set_state_owner = 984
-    set_state_owner = 985
-    set_state_owner = 986
-    set_state_owner = 987
-    set_state_owner = 988
-    set_state_owner = 989
-    set_state_owner = 990
-    set_state_owner = 991
-    set_state_owner = 992
-    set_state_owner = 993
-    set_state_owner = 994
-    set_state_owner = 995
-    set_state_owner = 996
+    transfer_state = 69
+    transfer_state = 979
+    transfer_state = 980
+    transfer_state = 981
+    transfer_state = 982
+    transfer_state = 983
+    transfer_state = 984
+    transfer_state = 985
+    transfer_state = 986
+    transfer_state = 987
+    transfer_state = 988
+    transfer_state = 989
+    transfer_state = 990
+    transfer_state = 991
+    transfer_state = 992
+    transfer_state = 993
+    transfer_state = 994
+    transfer_state = 995
+    transfer_state = 996
   }
 }
 
@@ -299,15 +734,15 @@ annex_northern_barrens = {
 annex_orgrimmar = {
   custom_effect_tooltip = annex_orgrimmar_tt
   hidden_effect = {
-    set_state_owner = 587
-    set_state_owner = 598
-    set_state_owner = 602
-    set_state_owner = 604
-    set_state_owner = 605
-    set_state_owner = 606
-    set_state_owner = 607
-    set_state_owner = 1003
-    set_state_owner = 1004
+    transfer_state = 587
+    transfer_state = 598
+    transfer_state = 602
+    transfer_state = 604
+    transfer_state = 605
+    transfer_state = 606
+    transfer_state = 607
+    transfer_state = 1003
+    transfer_state = 1004
   }
 }
 
@@ -315,24 +750,121 @@ annex_orgrimmar = {
 annex_southern_barrens = {
   custom_effect_tooltip = annex_southern_barrens_tt
   hidden_effect = {
-    set_state_owner = 70
-    set_state_owner = 962
-    set_state_owner = 963
-    set_state_owner = 964
-    set_state_owner = 965
-    set_state_owner = 966
-    set_state_owner = 967
-    set_state_owner = 968
-    set_state_owner = 969
-    set_state_owner = 970
-    set_state_owner = 971
-    set_state_owner = 972
-    set_state_owner = 973
-    set_state_owner = 974
-    set_state_owner = 975
-    set_state_owner = 976
-    set_state_owner = 977
-    set_state_owner = 978
+    transfer_state = 70
+    transfer_state = 962
+    transfer_state = 963
+    transfer_state = 964
+    transfer_state = 965
+    transfer_state = 966
+    transfer_state = 967
+    transfer_state = 968
+    transfer_state = 969
+    transfer_state = 970
+    transfer_state = 971
+    transfer_state = 972
+    transfer_state = 973
+    transfer_state = 974
+    transfer_state = 975
+    transfer_state = 976
+    transfer_state = 977
+    transfer_state = 978
+  }
+}
+
+#Dustwallow Marsh
+annex_dustwallow = {
+  custom_effect_tooltip = annex_dustwallow_tt
+  hidden_effect = {
+    transfer_state = 77
+    transfer_state = 97
+    transfer_state = 105
+    transfer_state = 291
+    transfer_state = 582
+    transfer_state = 583
+    transfer_state = 585
+    transfer_state = 586
+    transfer_state = 725
+    transfer_state = 726
+    transfer_state = 797
+    transfer_state = 799
+    transfer_state = 864
+    transfer_state = 865
+    transfer_state = 866
+    transfer_state = 867
+    transfer_state = 868
+    transfer_state = 869
+    transfer_state = 870
+    transfer_state = 1511
+  }
+}
+
+#Feralas
+annex_feralas = {
+  custom_effect_tooltip = annex_feralas_tt
+  hidden_effect = {
+      transfer_state = 82
+      transfer_state = 1146
+      transfer_state = 1147
+      transfer_state = 1148
+      transfer_state = 1149
+      transfer_state = 1150
+      transfer_state = 1151
+      transfer_state = 1152
+      transfer_state = 1153
+      transfer_state = 1154
+      transfer_state = 1155
+      transfer_state = 1156
+      transfer_state = 1157
+      transfer_state = 1158
+      transfer_state = 1159
+      transfer_state = 1160
+      transfer_state = 1161
+      transfer_state = 1162
+      transfer_state = 1163
+      transfer_state = 1164
+      transfer_state = 1165
+      transfer_state = 1166
+      transfer_state = 1167
+      transfer_state = 1168
+      transfer_state = 1169
+      transfer_state = 1170
+      transfer_state = 1171
+      transfer_state = 1172
+      transfer_state = 1173
+      transfer_state = 1174
+      transfer_state = 1292
+      transfer_state = 1293
+      transfer_state = 1506
+      transfer_state = 1507
+      transfer_state = 1508
+      transfer_state = 1509
+      transfer_state = 1510
+      transfer_state = 2108
+      transfer_state = 2125
+  }
+}
+
+#Thousand Needles
+annex_thousand_needles = {
+  custom_effect_tooltip = annex_thousand_needles_tt
+  hidden_effect = {
+    transfer_state = 78
+    transfer_state = 946
+    transfer_state = 947
+    transfer_state = 948
+    transfer_state = 949
+    transfer_state = 950
+    transfer_state = 951
+    transfer_state = 952
+    transfer_state = 953
+    transfer_state = 954
+    transfer_state = 955
+    transfer_state = 956
+    transfer_state = 957
+    transfer_state = 958
+    transfer_state = 959
+    transfer_state = 960
+    transfer_state = 1504
   }
 }
 
@@ -340,29 +872,30 @@ annex_southern_barrens = {
 annex_tanaris = {
   custom_effect_tooltip = annex_tanaris_tt
   hidden_effect = {
-    set_state_owner = 79
-    set_state_owner = 925
-    set_state_owner = 926
-    set_state_owner = 927
-    set_state_owner = 928
-    set_state_owner = 929
-    set_state_owner = 930
-    set_state_owner = 931
-    set_state_owner = 932
-    set_state_owner = 933
-    set_state_owner = 934
-    set_state_owner = 935
-    set_state_owner = 936
-    set_state_owner = 937
-    set_state_owner = 938
-    set_state_owner = 939
-    set_state_owner = 940
-    set_state_owner = 941
-    set_state_owner = 942
-    set_state_owner = 943
-    set_state_owner = 944
-    set_state_owner = 945
-    set_state_owner = 2127
+    transfer_state = 79
+    transfer_state = 925
+    transfer_state = 926
+    transfer_state = 927
+    transfer_state = 928
+    transfer_state = 929
+    transfer_state = 930
+    transfer_state = 931
+    transfer_state = 932
+    transfer_state = 933
+    transfer_state = 934
+    transfer_state = 935
+    transfer_state = 936
+    transfer_state = 937
+    transfer_state = 938
+    transfer_state = 939
+    transfer_state = 940
+    transfer_state = 941
+    transfer_state = 942
+    transfer_state = 943
+    transfer_state = 944
+    transfer_state = 945
+    transfer_state = 961
+    transfer_state = 2127
   }
 }
 
@@ -370,8 +903,8 @@ annex_tanaris = {
 annex_zul_farrak = {
   custom_effect_tooltip = annex_zul_farrak_tt
   hidden_effect = {
-    set_state_owner = 541
-    set_state_owner = 724
+    transfer_state = 541
+    transfer_state = 724
   }
 }
 
@@ -379,30 +912,30 @@ annex_zul_farrak = {
 annex_uldum = {
   custom_effect_tooltip = annex_uldum_tt
   hidden_effect = {
-    set_state_owner = 80
-    set_state_owner = 569
-    set_state_owner = 1128
-    set_state_owner = 1129
-    set_state_owner = 1130
-    set_state_owner = 1131
-    set_state_owner = 1132
-    set_state_owner = 1133
-    set_state_owner = 1134
-    set_state_owner = 1135
-    set_state_owner = 1136
-    set_state_owner = 1137
-    set_state_owner = 1138
-    set_state_owner = 1139
-    set_state_owner = 1140
-    set_state_owner = 1141
-    set_state_owner = 1142
-    set_state_owner = 1143
-    set_state_owner = 1144
-    set_state_owner = 1145
-    set_state_owner = 1294
-    set_state_owner = 2001
-    set_state_owner = 2002
-    set_state_owner = 2109
+    transfer_state = 80
+    transfer_state = 569
+    transfer_state = 1128
+    transfer_state = 1129
+    transfer_state = 1130
+    transfer_state = 1131
+    transfer_state = 1132
+    transfer_state = 1133
+    transfer_state = 1134
+    transfer_state = 1135
+    transfer_state = 1136
+    transfer_state = 1137
+    transfer_state = 1138
+    transfer_state = 1139
+    transfer_state = 1140
+    transfer_state = 1141
+    transfer_state = 1142
+    transfer_state = 1143
+    transfer_state = 1144
+    transfer_state = 1145
+    transfer_state = 1294
+    transfer_state = 2001
+    transfer_state = 2002
+    transfer_state = 2109
   }
 }
 
@@ -410,49 +943,215 @@ annex_uldum = {
 annex_ungoro = {
   custom_effect_tooltip = annex_ungoro_tt
   hidden_effect = {
-    set_state_owner = 84
-    set_state_owner = 528
-    set_state_owner = 1115
-    set_state_owner = 1116
-    set_state_owner = 1117
-    set_state_owner = 1118
-    set_state_owner = 1119
-    set_state_owner = 1120
-    set_state_owner = 1121
-    set_state_owner = 1122
-    set_state_owner = 1123
-    set_state_owner = 1124
-    set_state_owner = 1125
-    set_state_owner = 1126
-    set_state_owner = 1127
-    set_state_owner = 2005
+    transfer_state = 84
+    transfer_state = 528
+    transfer_state = 1115
+    transfer_state = 1116
+    transfer_state = 1117
+    transfer_state = 1118
+    transfer_state = 1119
+    transfer_state = 1120
+    transfer_state = 1121
+    transfer_state = 1122
+    transfer_state = 1123
+    transfer_state = 1124
+    transfer_state = 1125
+    transfer_state = 1126
+    transfer_state = 1127
+    transfer_state = 2005
   }
 }
 
-#feralas
+#Silithus
+annex_silithus = {
+  custom_effect_tooltip = annex_silithus_tt
+  hidden_effect = {
+    transfer_state = 85
+    transfer_state = 193
+    transfer_state = 1103
+    transfer_state = 1104
+    transfer_state = 1105
+    transfer_state = 1106
+    transfer_state = 1107
+    transfer_state = 1108
+    transfer_state = 1109
+    transfer_state = 1110
+    transfer_state = 1111
+    transfer_state = 1112
+    transfer_state = 1113
+    transfer_state = 1114
+    transfer_state = 2003
+    transfer_state = 2004
+  }
+}
+
+#Ahn'Qiraj
+annex_ahnqiraj = {
+  custom_effect_tooltip = annex_ahnqiraj_tt
+  hidden_effect = {
+    transfer_state = 86
+    transfer_state = 555
+    transfer_state = 1097
+    transfer_state = 1098
+    transfer_state = 1099
+    transfer_state = 1100
+    transfer_state = 1101
+    transfer_state = 1102
+    transfer_state = 1291
+  }
+}
+
+#Felwood
 annex_felwood = {
   custom_effect_tooltip = annex_felwood_tt
   hidden_effect = {
-    set_state_owner = 1414
-    set_state_owner = 1415
-    set_state_owner = 1416
-    set_state_owner = 1417
-    set_state_owner = 1418
-    set_state_owner = 1419
-    set_state_owner = 1420
-    set_state_owner = 1421
-    set_state_owner = 1422
-    set_state_owner = 1423
-    set_state_owner = 1424
-    set_state_owner = 1425
-    set_state_owner = 1426
-    set_state_owner = 1427
-    set_state_owner = 1428
-    set_state_owner = 1429
-    set_state_owner = 1430
-    set_state_owner = 1431
-    set_state_owner = 1432
-    set_state_owner = 1433
-    set_state_owner = 2000
+    transfer_state = 1414
+    transfer_state = 1415
+    transfer_state = 1416
+    transfer_state = 1417
+    transfer_state = 1418
+    transfer_state = 1419
+    transfer_state = 1420
+    transfer_state = 1421
+    transfer_state = 1422
+    transfer_state = 1423
+    transfer_state = 1424
+    transfer_state = 1425
+    transfer_state = 1426
+    transfer_state = 1427
+    transfer_state = 1428
+    transfer_state = 1429
+    transfer_state = 1430
+    transfer_state = 1431
+    transfer_state = 1432
+    transfer_state = 1433
+    transfer_state = 2000
+  }
+}
+
+#Ashenvale
+annex_ashenvale = {
+  custom_effect_tooltip = annex_ashenvale_tt
+  hidden_effect = {
+    transfer_state = 66
+    transfer_state = 593
+    transfer_state = 1334
+    transfer_state = 1335
+    transfer_state = 1336
+    transfer_state = 1337
+    transfer_state = 1338
+    transfer_state = 1339
+    transfer_state = 1340
+    transfer_state = 1341
+    transfer_state = 1342
+    transfer_state = 1343
+    transfer_state = 1344
+    transfer_state = 1345
+    transfer_state = 1346
+    transfer_state = 1347
+    transfer_state = 1348
+    transfer_state = 1349
+    transfer_state = 1350
+    transfer_state = 1351
+    transfer_state = 1352
+    transfer_state = 1353
+    transfer_state = 1354
+    transfer_state = 1355
+    transfer_state = 1356
+    transfer_state = 1357
+    transfer_state = 1358
+    transfer_state = 1359
+    transfer_state = 1360
+    transfer_state = 1361
+    transfer_state = 1362
+    transfer_state = 1363
+    transfer_state = 1364
+    transfer_state = 1365
+    transfer_state = 1366
+    transfer_state = 1512
+    transfer_state = 2131
+  }
+}
+
+#Deepholm
+annex_deepholm = {
+  custom_effect_tooltip = annex_deepholm_tt
+  hidden_effect = {
+      transfer_state = 1786
+      transfer_state = 1787
+      transfer_state = 1788
+      transfer_state = 1789
+      transfer_state = 1790
+      transfer_state = 1791
+      transfer_state = 1792
+      transfer_state = 1793
+      transfer_state = 1794
+      transfer_state = 1795
+      transfer_state = 1796
+      transfer_state = 1797
+      transfer_state = 1798
+      transfer_state = 1799
+      transfer_state = 1800
+      transfer_state = 1801
+      transfer_state = 1802
+      transfer_state = 1803
+      transfer_state = 1804
+      transfer_state = 1805
+      transfer_state = 1806
+  }
+}
+
+#Maelstrom Islands
+annex_maelstrom_islands = {
+  custom_effect_tooltip = annex_maelstrom_islands_tt
+  hidden_effect = {
+      transfer_state = 1784
+      transfer_state = 1785
+      transfer_state = 2087
+      transfer_state = 2088
+      transfer_state = 2089
+      transfer_state = 2090
+      transfer_state = 2091
+  }
+}
+
+#Darkspear Islands
+annex_darkspear_islands = {
+  custom_effect_tooltip = annex_darkspear_islands_tt
+  hidden_effect = {
+      transfer_state = 292
+      transfer_state = 293
+      transfer_state = 294
+      transfer_state = 295
+  }
+}
+
+#Lost Isles
+annex_lost_isles = {
+  custom_effect_tooltip = annex_lost_isles_tt
+  hidden_effect = {
+      transfer_state = 255
+      transfer_state = 824
+      transfer_state = 825
+      transfer_state = 826
+      transfer_state = 827
+      transfer_state = 828
+      transfer_state = 2128
+      transfer_state = 2129
+      transfer_state = 2130
+  }
+}
+
+#Tel'Abim
+annex_tel_abim = {
+  custom_effect_tooltip = annex_tel_abim_tt
+  hidden_effect = {
+      transfer_state = 256
+      transfer_state = 1479
+      transfer_state = 1480
+      transfer_state = 1481
+      transfer_state = 1482
+      transfer_state = 1483
+      transfer_state = 1484
   }
 }

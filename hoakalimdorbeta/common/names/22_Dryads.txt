@@ -5,16 +5,22 @@
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
 #default = {
-#	male = {
-#		names = { "Ani" "Faran" "Kel" "Sera" "Selen" }
-#		surnames = { "Lune" "Illa" "Drella" "Dryn" "Dra" }
-#		callsigns = { }
-#	}
-#	female = {
-#		names = { }
+#	male = {#keeper of the groves
+#		names = { 
+#			"Albagorm" "Antelarion" "Anubris" "Aros" "Bandalar" "Barthis" "Califax" "Celebras" "Centrius" "Ceredwyn" "Dagda" "Ealdis" "Gholbine" "Kardilos" "Karithus" "Kordurus" "Krothis" "Larodar" "Marandis" "Nandieb" "Nuada" "Oghma"  
+#			"Olvarius" "Ordanus" "Orremin" "Taldros" "Undarius" "Varethos" "Zaetar"
+#		}
 #		surnames = { }
 #		callsigns = { }
 #	}
-#	surnames = { }
-#	callsigns = { }
+#	female = {
+#	names = { 
+#	"Anana" "Anilia" "Aranelle" "Avrilla" "Azalea" "Cavindra" "Daranelle" "Daranelle" "Faradrella" "Farella" "Fitia" "Halannia" "Illiyana" "Iphy" "Lalahi" "Kelnir" "Leirana" "Lilith" "Lilythwen" "Lunara" "Lurielle" "Mirin" "Mylune" 
+#	"Nalamya" "Raynae" "Rydyllia" "Rynthariel" "Sarendryana" "Selendra" "Seraphine" "Shael'dryn" "Syndrelle" "Tarindrella" "Taryndrella" "Therylune" "Therysil" "Zaza"
+#	}
+#	surnames = { "Leaf-Sister" }
+#		callsigns = { }
+#	}
+#	surnames = { "Forestwalker" "Gatewarden" "Life-Tender" "Leafsong" "Wild-Roamer" "Witherleaf" "Witherpetal" }
+#	callsigns = { "Protector of the Wilds" }
 #}

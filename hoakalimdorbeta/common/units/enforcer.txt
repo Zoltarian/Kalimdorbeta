@@ -1,0 +1,47 @@
+sub_units = {
+
+	enforcer = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_all_combat_units
+			category_support_units
+		}
+		
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 0	
+		default_morale = 0.3
+		manpower = 50
+		training_time = 180
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		# Important Ability
+		suppression_factor = 0.20
+		
+		need = {
+			dwarf_axeman_equipment = 40
+		}
+	}
+	
+}
+
+
