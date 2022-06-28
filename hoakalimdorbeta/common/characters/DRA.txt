@@ -1,3 +1,67 @@
 characters={
 
+	DRA_frost_king_malakk = {
+		name = DRA_frost_king_malakk
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/DRA/frost_king_malakk.dds"
+			}
+			army = {
+				large = "gfx/leaders/DRA/frost_king_malakk.dds"
+				small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+			}
+		}
+		country_leader = {
+			ideology = alliance_type
+			desc = "POLITICS_FROST_KING_MALAKK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = horde_type
+			desc = "POLITICS_FROST_KING_MALAKK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = death_type
+			desc = "POLITICS_FROST_KING_MALAKK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = fel_type
+			desc = "POLITICS_FROST_KING_MALAKK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = old_gods_type
+			desc = "POLITICS_FROST_KING_MALAKK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = titans_type
+			desc = "POLITICS_FROST_KING_MALAKK_DESC"
+			traits = {}
+			id = -1
+		}
+		country_leader = {
+			ideology = neutral_type
+			desc = "POLITICS_FROST_KING_MALAKK_DESC"
+			traits = {}
+			id = -1
+		}
+
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }

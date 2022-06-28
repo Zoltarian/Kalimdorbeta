@@ -1,11 +1,15 @@
 characters={
   ZAN_rastakhan = {
     name = ZAN_rastakhan
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/ZAN/rastakhan.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/ZAN/rastakhan.dds"
+		}
+		army = {
+			large = "gfx/leaders/ZAN/rastakhan.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

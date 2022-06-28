@@ -2,10 +2,14 @@ characters={
   VAK_queen_ashildir = {
     name = VAK_queen_ashildir
     portraits = {
-      civilian = {
-        large = "gfx/leaders/VAK/Queen Ashildir.dds"
-      }
-    }
+		civilian = { 
+			large = "gfx/leaders/VAK/Queen Ashildir.dds"
+		}
+		army = {
+			large = "gfx/leaders/VAK/Queen Ashildir.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

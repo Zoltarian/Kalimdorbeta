@@ -1,11 +1,15 @@
 characters={
   WNT_high_chief_winterfall = {
     name = WNT_high_chief_winterfall
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WNT/high_chief_winterfall.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WNT/high_chief_winterfall.dds"
+		}
+		army = {
+			large = "gfx/leaders/WNT/high_chief_winterfall.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

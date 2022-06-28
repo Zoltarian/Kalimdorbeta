@@ -1,11 +1,15 @@
 characters={
   WBT_zalas_witherbark = {
     name = WBT_zalas_witherbark
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/VIL/vilegeneric1.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/VIL/vilegeneric1.dds"
+		}
+		army = {
+			large = "gfx/leaders/VIL/vilegeneric1.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

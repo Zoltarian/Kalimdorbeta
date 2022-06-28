@@ -2613,6 +2613,13 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			
+			#Stops Female Operatives
+			modifier = {
+				hidden_modifier = {
+				female_random_operative_chance = 0.0
+				}
+            }
 
 			removal_cost = -1
 

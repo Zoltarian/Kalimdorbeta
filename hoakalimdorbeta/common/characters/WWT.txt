@@ -1,11 +1,15 @@
 characters={
   WWT_serena_bloodfeather = {
     name = WWT_serena_bloodfeather
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WWT/serena_bloodfeather.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/generic/generic_human_1.dds" # no portrait
+		}
+		army = {
+			large = "gfx/leaders/generic/generic_human_1.dds" # no portrait
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

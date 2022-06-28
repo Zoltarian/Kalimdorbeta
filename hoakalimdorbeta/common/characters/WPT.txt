@@ -1,11 +1,15 @@
 characters={
   WPT_greasefang = {
     name = WPT_greasefang
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WPT/greasefang.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WPT/greasefang.dds"
+		}
+		army = {
+			large = "gfx/leaders/WPT/greasefang.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

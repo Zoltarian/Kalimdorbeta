@@ -2,10 +2,14 @@ characters={
   WAR_maiev_shadowsong = {
     name = WAR_maiev_shadowsong
     portraits = {
-      civilian = {
-        large = "gfx/leaders/WAR/maiev_shadowsong.dds"
-      }
-    }
+		civilian = { 
+			large = "gfx/leaders/WAR/maiev_shadowsong.dds"
+		}
+		army = {
+			large = "gfx/leaders/WAR/maiev_shadowsong.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type
@@ -64,7 +68,7 @@ characters={
     name = WAR_naisha
     portraits = {
       civilian = {
-        large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
+        large = "gfx/leaders/generic/generic_human_1.dds" # no portrait
       }
     }
 

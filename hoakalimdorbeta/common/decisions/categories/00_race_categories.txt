@@ -1,5 +1,15 @@
 race_accept_decisions = {
 
+	allowed = {
+		#To prevent disabled areas to access the decisions to save performance
+		NOT = {
+			original_tag = ZZD
+			original_tag = ZZO
+			original_tag = ZZT
+			original_tag = ZZW
+		}
+	}
+
 	icon = generic_propaganda
 
 }

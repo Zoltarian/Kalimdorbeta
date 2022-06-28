@@ -1,11 +1,15 @@
 characters={
   WSH_nott_candle_extinguisher = {
     name = WSH_nott_candle_extinguisher
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WSH/nott_candle_extinguisher.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WSH/nott_candle_extinguisher.dds"
+		}
+		army = {
+			large = "gfx/leaders/WSH/nott_candle_extinguisher.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

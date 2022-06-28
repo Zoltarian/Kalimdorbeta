@@ -1,11 +1,15 @@
 characters={
   WFT_sister_hatelash = {
     name = WFT_sister_hatelash
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WFT/sister_hatelash.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WFT/sister_hatelash.dds"
+		}
+		army = {
+			large = "gfx/leaders/WFT/sister_hatelash.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

@@ -1,0 +1,330 @@
+ideas = {
+
+	political_advisor = {
+
+	    HEA_karanda_fordring = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+
+		}
+
+	    HEA_lady_illucia_barov = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+			
+			available = {
+				has_completed_focus = HEA_appease_the_house_of_barov
+			}
+			
+			modifier = {
+				war_support_factor = 0.1
+				stability_factor = -0.05
+			}
+
+		}
+
+	    HEA_grand_inquisitor_isillien = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+			
+			available = {
+				has_completed_focus = HEA_hearthglen_priests
+			}
+			
+			modifier = {
+				war_support_factor = 0.1
+				stability_factor = -0.05
+			}
+
+		}
+
+	    HEA_farmer_dalson = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+			
+			available = {
+				has_completed_focus = HEA_develope_dalsons_farm
+			}
+
+		}
+
+	    HEA_outfitter_mendelev = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_morris_vant = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_foreman_jerris = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+			
+			available = {
+				has_completed_focus = HEA_turn_the_cave_into_a_mine
+			}
+
+		}
+		
+	    HEA_del_gahrron = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+			
+			available = {
+				has_completed_focus = HEA_rebuild_gahrrons_withering
+			}
+
+		}
+
+	}
+
+	high_command = {
+	# Military Adviser
+	
+	    HEA_jandice_barov = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+			
+			available = {
+				has_completed_focus = HEA_appease_the_house_of_barov
+			}
+			
+			modifier = {
+				 modifier_army_sub_unit_hoa_spellcaster_attack_factor = 0.05
+				 modifier_army_sub_unit_hoa_spellcaster_defence_factor = 0.05
+			}
+
+		}
+
+	    HEA_galvar_pureblood = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_nathaniel_dumah = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_lieutenant_myer = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_officer_pureheart = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_hunstman_radley = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_cavalier_durgen = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	    HEA_protector_lorik = {
+
+			picture = generic_race_human
+
+			allowed = {
+				original_tag = HEA
+			}
+
+		}
+
+	}
+	country = {
+
+	    HEA_era_of_peace_idea = {
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+				original_tag = HEA
+			}
+
+			modifier = {
+				conscription = -0.0125
+			}
+
+		}
+
+	    HEA_farms_pillaged_idea = {
+
+			picture = generic_agrarian_reform
+			
+			allowed = {
+				original_tag = HEA
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = -0.30
+			}
+
+		}
+		
+	    HEA_supply_lines_raided_1_idea = {
+
+			picture = generic_race_gnoll
+
+			allowed = {
+				original_tag = HEA
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.25
+			}
+
+		}
+		
+	    HEA_supply_lines_raided_2_idea = {
+
+			picture = generic_race_gnoll
+
+			allowed = {
+				original_tag = HEA
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.40
+			}
+
+		}
+
+	    HEA_barov_family_fortune_idea = {
+
+			picture = generic_foreign_capital
+
+			allowed = {
+				original_tag = HEA
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+		}
+
+		HEA_construct_frigates_idea = {
+		
+			picture = generic_coastal_defense_ships2
+
+			allowed = {
+				original_tag = HEA
+			}
+
+			equipment_bonus = {
+				light_frigate_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+		
+		HEA_farming_militias_idea = {
+		
+			picture = chi_army_corruption2
+
+			allowed = {
+				original_tag = HEA
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.1
+				training_time_factor = -0.1
+			}
+		}
+		
+		HEA_call_of_the_crusade_idea = {
+		
+			picture = the_war_to_end_all_wars
+
+			allowed = {
+				original_tag = HEA
+			}
+
+			modifier = {
+				conscription = 0.025
+				army_morale_factor = 0.1
+			}
+		}
+
+	}
+}

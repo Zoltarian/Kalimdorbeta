@@ -2,10 +2,14 @@ characters={
   VIL_vile_priestess_hexx = {
     name = VIL_vile_priestess_hexx
     portraits = {
-      civilian = {
-        large = "gfx/leaders/VIL/hexx.dds"
-      }
-    }
+		civilian = { 
+			large = "gfx/leaders/VIL/hexx.dds"
+		}
+		army = {
+			large = "gfx/leaders/VIL/hexx.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

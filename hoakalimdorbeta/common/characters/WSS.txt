@@ -1,11 +1,15 @@
 characters={
   WSS_alzzin = {
     name = WSS_alzzin
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WSS/alzzin_the_wildshaper.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WSS/alzzin_the_wildshaper.dds"
+		}
+		army = {
+			large = "gfx/leaders/WSS/alzzin_the_wildshaper.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

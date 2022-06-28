@@ -1,11 +1,15 @@
 characters={
   WIN_bena_winterhoof = {
     name = WIN_bena_winterhoof
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WIN/bena_winterhoof.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WIN/bena_winterhoof.dds"
+		}
+		army = {
+			large = "gfx/leaders/WIN/bena_winterhoof.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

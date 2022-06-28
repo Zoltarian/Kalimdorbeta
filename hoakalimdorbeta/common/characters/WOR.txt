@@ -1,11 +1,15 @@
 characters={
   WOR_marion_wormwing = {
     name = WOR_marion_wormwing
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WOR/marion_wormwing.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WOR/marion_wormwing.dds"
+		}
+		army = {
+			large = "gfx/leaders/WOR/marion_wormwing.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

@@ -1,11 +1,15 @@
 characters={
   WSC_grom_hellscream = {
     name = WSC_grom_hellscream
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/WSC/grommash_hellscream.dds"
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/WSC/grommash_hellscream.dds"
+		}
+		army = {
+			large = "gfx/leaders/WSC/grommash_hellscream.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

@@ -1,11 +1,15 @@
 characters={
   YGQ_shonuf = {
     name = YGQ_shonuf
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" # no portrait
-      }
-    }
+	portraits = {
+		civilian = { 
+			large = "gfx/leaders/generic/generic_human_1.dds" # no portrait
+		}
+		army = {
+			large = "gfx/leaders/generic/generic_human_1.dds" # no portrait
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type

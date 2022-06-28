@@ -1,11 +1,15 @@
 characters={
   VAL_odyn = {
     name = VAL_odyn
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/VAL/odyn.dds"
-      }
-    }
+   	portraits = {
+		civilian = { 
+			large = "gfx/leaders/VAL/odyn.dds"
+		}
+		army = {
+			large = "gfx/leaders/VAL/odyn.dds"
+			small = "gfx/interface/ideas/idea_ENG_william_slim.dds" #need portrait
+		}
+	}
 
     country_leader = {
       ideology = alliance_type
