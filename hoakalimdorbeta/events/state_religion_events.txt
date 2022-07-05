@@ -680,6 +680,12 @@ country_event = { #FIRST WAR
 				value = 1
 			}
 		}
+		722 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
 		762 = {
 			set_variable = {
 				var = religion
@@ -947,6 +953,12 @@ country_event = { #FIRST WAR
 			}
 		}
 		115 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		116 = {
 			set_variable = {
 				var = religion
 				value = 1
@@ -1241,6 +1253,12 @@ country_event = { #FIRST WAR
 	#Arathi Highlands
 	##########################
 		12 = {
+			set_variable = {
+				var = religion
+				value = 1
+			}
+		}
+		121 = {
 			set_variable = {
 				var = religion
 				value = 1
@@ -2740,6 +2758,12 @@ country_event = { #FIRST WAR
 				value = 13
 			}
 		}
+		185 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
 		186 = {
 			set_variable = {
 				var = religion
@@ -2818,6 +2842,12 @@ country_event = { #FIRST WAR
 				value = 13
 			}
 		}
+		1522 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
 		1523 = {
 			set_variable = {
 				var = religion
@@ -2837,6 +2867,12 @@ country_event = { #FIRST WAR
 			}
 		}
 		2101 = {
+			set_variable = {
+				var = religion
+				value = 13
+			}
+		}
+		2102 = {
 			set_variable = {
 				var = religion
 				value = 13
@@ -3673,12 +3709,6 @@ country_event = { #FIRST WAR
 			value = 19
 		}
 	}
-	1724 = {
-		set_variable = {
-			var = religion
-			value = 19
-		}
-	}
 
 	##########################
 	#Dragonblight
@@ -4252,6 +4282,12 @@ country_event = { #FIRST WAR
 			}
 		}
 		1828 = {
+			set_variable = {
+				var = religion
+				value = 21
+			}
+		}
+		1829 = {
 			set_variable = {
 				var = religion
 				value = 21
@@ -5546,6 +5582,12 @@ country_event = { #FIRST WAR
 			}
 		}
 		190 = {
+			set_variable = {
+				var = religion
+				value = 25
+			}
+		}
+		1525 = {
 			set_variable = {
 				var = religion
 				value = 25
@@ -7751,6 +7793,16 @@ country_event = { #FIRST WAR
 			}
 		}
 		1692 = {
+			set_variable = {
+				var = religion
+				value = 39
+			}
+		}
+
+	##########################
+	#Storm Peaks
+	##########################
+		1724 = {
 			set_variable = {
 				var = religion
 				value = 39
@@ -10659,6 +10711,12 @@ country_event = { #FIRST WAR
 				value = 52
 			}
 		}
+		1970 = {
+			set_variable = {
+				var = religion
+				value = 52
+			}
+		}
 		1971 = {
 			set_variable = {
 				var = religion
@@ -12237,7 +12295,7 @@ country_event = { #FIRST WAR
 		}
 		2134 = {
 			set_variable = {
-				var = race
+				var = religion
 				value = 76
 			}
 		}
