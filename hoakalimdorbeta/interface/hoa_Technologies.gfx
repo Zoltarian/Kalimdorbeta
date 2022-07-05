@@ -4344,7 +4344,20 @@ spriteTypes = {
 #Troll administration tech
 #####################################################
 
-SpriteType = {
+	SpriteType = {
+		name = "GFX_troll_hut_tech_medium"
+		texturefile = "gfx/interface/technologies/troll_hut.dds"
+	}
+	SpriteType = {
+		name = "GFX_troll_lodge_tech_medium"
+		texturefile = "gfx/interface/technologies/troll_lodge.dds"
+	}
+	SpriteType = {
+		name = "GFX_troll_temple_tech_medium"
+		texturefile = "gfx/interface/technologies/troll_temple.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_troll_encryption_1_medium"
 		texturefile = "gfx/interface/technologies/encryption.dds"
 	}

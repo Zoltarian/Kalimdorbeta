@@ -5,9 +5,13 @@ oob = "FTT_592"
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
+
+	tribe
 
 	forest_troll_primary_race
 	primary_trait_path_finders

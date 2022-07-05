@@ -1,13 +1,15 @@
 ﻿capital = 10
 
-oob = "DRM_592"
+#oob = "DRM_592"
 
-set_naval_oob = "DRM_592_naval"
+#set_naval_oob = "DRM_592_naval"
 
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	

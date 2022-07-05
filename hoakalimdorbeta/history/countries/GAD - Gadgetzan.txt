@@ -1,13 +1,13 @@
 ﻿capital = 943
 
-oob = "GAD_592"
-
-set_naval_oob = "GAD_592_naval"
-
-set_convoys = 10
+#oob = "GAD_592"
+#set_naval_oob = "GAD_592_naval"
+#set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	
@@ -17,6 +17,9 @@ add_ideas = {
 	free_trade
 
 	goblin_primary_race
+	primary_trait_best_deals_anywhere
+	primary_trait_time_is_money
+	primary_trait_better_living_through_chemistry
 
 	primary_religion_irreligious
 }

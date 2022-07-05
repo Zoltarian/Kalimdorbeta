@@ -5,9 +5,13 @@ oob = "ASG_592"
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
+	sea_giants_primary_race
+	primary_trait_imposing_size
 }
 
 recruit_character = ASG_sea_king_tidross

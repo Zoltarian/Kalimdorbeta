@@ -1,8 +1,11 @@
 ﻿capital = 992
 
-oob = "SRG_592"
+#oob = "SRG_592"
 
 set_research_slots = 3
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	
@@ -16,9 +19,7 @@ add_ideas = {
 	primary_religion_disciples_of_the_lich_king
 }
 
-set_technology = {
 
-}
 
 recruit_character = SRG_the_lich_king
 

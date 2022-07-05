@@ -3,9 +3,13 @@
 oob = "CLO_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
+	ghost_primary_race
+	primary_trait_masters_of_infiltration
 }
 
 recruit_character = CLO_lady_challiane

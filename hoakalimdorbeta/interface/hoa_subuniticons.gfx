@@ -225,6 +225,30 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_guard_icon_small"									textureFile = "gfx/texticons/unit_guard_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 	spriteType = { name = "GFX_unit_priest_icon_small"									textureFile = "gfx/texticons/unit_priest_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
+	#dwarf units
+
+	spriteType = { name = "GFX_unit_craftsman_icon_small"  								texturefile = "gfx/texticons/unit_craftsman_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_miner_icon_small"  									texturefile = "gfx/texticons/unit_miner_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_dwarf_axeman_icon_small"  							texturefile = "gfx/texticons/unit_dwarf_axeman_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_enforcer_icon_small"  								texturefile = "gfx/texticons/unit_enforcer_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_rifleman_icon_small"  								texturefile = "gfx/texticons/unit_rifleman_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mountaineer_icon_small"  							texturefile = "gfx/texticons/unit_mountaineer_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_engineer_icon_small"  								texturefile = "gfx/texticons/unit_engineer_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_rune_priest_icon_small"  							texturefile = "gfx/texticons/unit_rune_priest_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_thane_icon_small"  									texturefile = "gfx/texticons/unit_thane_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_ram_rider_icon_small"  								texturefile = "gfx/texticons/unit_ram_rider_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mortar_team_icon_small"  							texturefile = "gfx/texticons/unit_mortar_team_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_mortar_team_support_icon_small"  					texturefile = "gfx/texticons/unit_mortar_team_support_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_steam_tank_icon_small"  							texturefile = "gfx/texticons/unit_steam_tank_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_steam_wagon_icon_small"  							texturefile = "gfx/texticons/unit_steam_wagon_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_siege_engine_icon_small"  							texturefile = "gfx/texticons/unit_siege_engine_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+
+	spriteType = { name = "GFX_unit_mountain_king_icon_small"  							texturefile = "gfx/texticons/unit_mountain_king_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_explorer_icon_small"  								texturefile = "gfx/texticons/unit_explorer_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
+	spriteType = { name = "GFX_unit_siege_tank_icon_small"  							texturefile = "gfx/texticons/unit_siege_tank_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }
 
 	#orc units
 	spriteType = { name = "GFX_unit_grunt_icon_small"									textureFile = "gfx/texticons/unit_grunt_icon_small.dds" legacy_lazy_load = no noOfFrames = 1 }

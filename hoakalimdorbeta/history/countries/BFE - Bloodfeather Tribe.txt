@@ -1,19 +1,21 @@
-﻿capital = 10
+﻿capital = 1411
 
-oob = "BFE_592"
+###oob = "BFE_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	all_female_nation
 
 	harpy_primary_race
-
 	primary_trait_death_from_above
 	primary_trait_daughters_of_aviana
 	primary_trait_masters_of_the_sky
 
+	primary_religion_disciples_of_avianna
 }
 
 recruit_character = BFE_fury_shelda

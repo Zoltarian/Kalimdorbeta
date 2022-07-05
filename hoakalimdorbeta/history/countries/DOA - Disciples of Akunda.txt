@@ -3,10 +3,13 @@
 oob = "DOA_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	troll_hut_tech = 1
+}
 
 add_ideas = {
 	zandalari_troll_primary_race
+	primary_trait_regeneration
 }
 
 recruit_character = DOA_akunda_the_exalted

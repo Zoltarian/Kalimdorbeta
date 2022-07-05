@@ -1,5 +1,4 @@
-﻿set_research_slots = 3
-
+﻿capital = 390
 592.1.1 = {
 
 	capital = 390
@@ -9,6 +8,8 @@
 
 	set_stability = 0.5
 	set_war_support = 0.80
+
+	set_research_slots = 3
 
 	add_ideas = {
 		
@@ -97,6 +98,9 @@
 		war_economy
 
 		orc_primary_race
+		primary_trait_axe_specialization
+		primary_trait_hardness	
+		primary_trait_bloodfury
 		ogre_secondary_race
 
 		primary_religion_necrolytes

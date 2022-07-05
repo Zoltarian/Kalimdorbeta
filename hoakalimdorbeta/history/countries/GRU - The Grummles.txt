@@ -3,10 +3,15 @@
 oob = "GRU_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	grummle_primary_race
+	primary_trait_supply_the_walls
+	primary_trait_luck_of_the_lucky_do
+	primary_trait_the_burlap_trail
 }
 
 recruit_character = GRU_lucky_eightcoins

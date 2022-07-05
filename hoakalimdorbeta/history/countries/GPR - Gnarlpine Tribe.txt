@@ -1,10 +1,12 @@
 ﻿capital = 10
 
-oob = "GPR_592"
+#oob = "GPR_592"
 
 set_research_slots = 3
 
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	tribe

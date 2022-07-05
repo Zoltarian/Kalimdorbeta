@@ -1,9 +1,11 @@
-﻿capital = 10
+﻿capital = 1529
 
-oob = "ESM_592"
+###oob = "ESM_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	

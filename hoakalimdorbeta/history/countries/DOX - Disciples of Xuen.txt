@@ -5,7 +5,9 @@ oob = "DOX_592"
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	
@@ -15,6 +17,9 @@ add_ideas = {
 	limited_exports
 
 	pandaren_primary_race
+	primary_trait_epicurean
+	primary_trait_bouncy
+	primary_trait_inner_peace
 
 	primary_religion_august_celestial
 }

@@ -1,16 +1,20 @@
 ﻿capital = 602
 
-oob = "OGR_592"
-
-set_naval_oob = "OGR_592_naval"
+#oob = "OGR_592"
+#set_naval_oob = "OGR_592_naval"
 
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	orc_primary_race
+	primary_trait_axe_specialization
+	primary_trait_hardness	
+	primary_trait_bloodfury
 }
 
 recruit_character = OGR_warchief_thrall

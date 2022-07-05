@@ -1,16 +1,19 @@
 ﻿capital = 10
 
-oob = "WRT_592"
-
-set_naval_oob = "WRT_592_naval"
-
-set_convoys = 10
+#oob = "WRT_592"
+#set_naval_oob = "WRT_592_naval"
+#set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+  troll_hut_tech = 1
+}
 
 add_ideas = {
 	ice_troll_primary_race
+  primary_trait_regeneration
+	primary_trait_icy_skin
+	primary_trait_aggressive_hostility
 }
 
 set_politics = {

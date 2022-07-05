@@ -1,9 +1,11 @@
 ﻿capital = 10
 
-oob = "SYN_592"
+#oob = "SYN_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	

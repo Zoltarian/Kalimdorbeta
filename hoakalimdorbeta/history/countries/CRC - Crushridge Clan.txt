@@ -1,16 +1,15 @@
-﻿capital = 10
+﻿capital = 11
 
-oob = "CRC_592"
-
-set_naval_oob = "CRC_592_naval"
-
-set_convoys = 10
+###oob = "CRC_592"
+###set_naval_oob = "CRC_592_naval"
+###set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
-	
 	clan
 	limited_conscription
 	early_military_development

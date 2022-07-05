@@ -9,6 +9,9 @@
 ##################################
  troll_administration_folder:0 "Troll Administration"
  troll_administration_folder_desc:0 ""
+ ADMIN_TITLE_TROLL_HUT:0 "Troll Hut"
+ ADMIN_TITLE_TROLL_LABOURERS:0 "Labourers"
+ ADMIN_TITLE_TROLL_CRAFTSMAN:0 "Craftsman"
 
  troll_hut_tech:0 "Troll Hut"
  troll_hut_tech_desc:0 ""
@@ -31,8 +34,10 @@
  village_development_5:0 "Village Development V"
  village_development_5_desc:0 ""
 
- labourer_equipment_tech:0 "Labourer Equipment"
- labourer_equipment_tech_desc:0 ""
+ troll_support_equipment:0 "Support Equipment"
+ troll_support_equipment_desc:0 ""
+ troll_support_equipment_1:0 "Support Equipment"
+ troll_support_equipment_desc_1:0 ""
  improved_labourer_1:0 "Improved Labourers I"
  improved_labourer_1_desc:0 ""
  improved_labourer_2:0 "Improved Labourers II"
@@ -93,8 +98,8 @@
  troll_fur_tech_4:0 "Fur Armors IV"
  troll_fur_tech_4_desc:0 ""
 
- troll_blueprints_tech_1:0 "Blueprints I"
- troll_blueprints_tech_1_desc:0 ""
+ troll_blueprints_tech:0 "Blueprints I"
+ troll_blueprints_tech_desc:0 ""
  troll_blueprints_tech_2:0 "Blueprints II"
  troll_blueprints_tech_2_desc:0 ""
  troll_blueprints_tech_3:0 "Blueprints III"
@@ -207,8 +212,12 @@
 ##################################
  troll_infantry_folder:0 "Troll Infantry"
  troll_infantry_folder_desc:0 ""
+ INFANTRY_TITLE_FIGHTERS_DEN:0 "Fighters Den"
+ INFANTRY_TITLE_AXEMAN:0 "Troll Axeman"
+ INFANTRY_TITLE_HEAD_HUNTER:0 "Head Hunters"
+ INFANTRY_TITLE_SPIRIT_LODGE:0 "Spirit Lodge"
 
- troll_barracks_tech:0 "Troll Barracks"
+ troll_barracks_tech:0 "Fighters Den"
  troll_barracks_tech_desc:0 ""
 
  troll_axeman_tech:0 "Troll Axemen"
@@ -245,12 +254,92 @@
  head_hunter_equipment_tech_3:0 "Head Hunter Equipment III"
  head_hunter_equipment_tech_3_desc:0 ""
 
+ ravager_tech_1:0 "Ravager"
+ ravager_tech_1_desc:0 "Smaller raptors though not as powerful as their older siblings, are adept at chasing criminals and other dissidents into areas where we would not fit"
+ ravager_tech_2:0 "Improved Ravager 1"
+ ravager_tech_2_desc:0 ""
+ ravager_tech_3:0 "Improved Ravager 2"
+ ravager_tech_3_desc:0 ""
+ ravager_tech_4:0 "Improved Ravager 3"
+ ravager_tech_4_desc:0 ""
+ ravager_tech_5:0 "Improved Ravager 4"
+ ravager_tech_5_desc:0 ""
+
+ troll_berserker_tech_1:0 "Berserkers"
+ troll_berserker_tech_1_desc:0 ""
+ troll_berserker_tech_2:0 "Improved Berserkers 1"
+ troll_berserker_tech_2_desc:0 ""
+ troll_berserker_tech_3:0 "Improved Berserkers 2"
+ troll_berserker_tech_3_desc:0 ""
+ troll_berserker_tech_4:0 "Improved Berserkers 3"
+ troll_berserker_tech_4_desc:0 ""
+ troll_berserker_tech_5:0 "Improved Berserkers 4"
+ troll_berserker_tech_5_desc:0 ""
+
+ troll_pathfinder_tech_1:0 "Pathfinders"
+ troll_pathfinder_tech_1_desc:0 ""
+ troll_pathfinder_tech_2:0 "Improved Pathfinders 1"
+ troll_pathfinder_tech_2_desc:0 ""
+ troll_pathfinder_tech_3:0 "Improved Pathfinders 2"
+ troll_pathfinder_tech_3_desc:0 ""
+ troll_pathfinder_tech_4:0 "Improved Pathfinders 3"
+ troll_pathfinder_tech_4_desc:0 ""
+ troll_pathfinder_tech_5:0 "Improved Pathfinders 4"
+ troll_pathfinder_tech_5_desc:0 ""
+
+ heightened_senses_1:0 "Heightened Senses 1"
+ heightened_senses_1_desc:0 ""
+ heightened_senses_2:0 "Heightened Senses 2"
+ heightened_senses_2_desc:0 ""
+ heightened_senses_3:0 "Heightened Senses 3"
+ heightened_senses_3_desc:0 ""
+
  troll_spirit_lodge_tech:0 "Spirit Lodge"
  troll_spirit_lodge_tech_desc:0 ""
+
+ troll_fetishes_1:0 "Troll Fetishes 1"
+ troll_fetishes_1_desc:0 ""
+ troll_fetishes_2:0 "Troll Fetishes 2"
+ troll_fetishes_2_desc:0 ""
+ troll_fetishes_3:0 "Troll Fetishes 3"
+ troll_fetishes_3_desc:0 ""
+
+ hexer_tech:0 "Hexers"
+ hexer_tech_desc:0 ""
+ hexer_equipment_tech_1:0 "Hexer Equipment I"
+ hexer_equipment_tech_1_desc:0 ""
+ hex_tech:0 "Hex"
+ hex_tech_desc:0 ""
+ voodoo_idol_tech:0 "Voodoo Idols"
+ voodoo_idol_tech_desc:0 ""
+ hexer_equipment_tech_2:0 "Hexer Equipment II"
+ hexer_equipment_tech_2_desc:0 ""
+ wrath_of_de_spirits_tech:0 "Wrath Of De Spirits"
+ wrath_of_de_spirits_tech_desc:0 ""
+ hexer_tier_2_upgrade_placeholder_2:0 "PLACEHOLDER"
+ hexer_tier_2_upgrade_placeholder_2_desc:0 ""
+ hexer_equipment_tech_3:0 "Hexer Equipment III"
+ hexer_equipment_tech_3_desc:0 ""
+
+ witch_doctor_tech_1:0 "Witch Doctor"
+ witch_doctor_tech_1_desc:0 ""
+ witch_doctor_tech_2:0 "Improved Witch Doctor 1"
+ witch_doctor_tech_2_desc:0 ""
+ witch_doctor_tech_3:0 "Improved Witch Doctor 2"
+ witch_doctor_tech_3_desc:0 ""
+ witch_doctor_tech_4:0 "Improved Witch Doctor 3"
+ witch_doctor_tech_4_desc:0 ""
+ witch_doctor_tech_5:0 "Improved Witch Doctor 4"
+ witch_doctor_tech_5_desc:0 ""
 
 ##################################
 # Cavalry
 ##################################
+ CAVALRY_TITLE_DIREHORN:0 "Direhorn"
+ CAVALRY_TITLE_RAPTORS:0 "Raptors"
+ CAVALRY_TITLE_RAPTOR_RIDER:0 "Raptor Riders"
+ CAVALRY_TITLE_DINO_PEN:0 "Dino Pen"
+
  troll_cavalry_folder:0 "Troll Cavalry"
  troll_cavalry_folder_desc:0 ""
 
@@ -259,6 +348,8 @@
 
  direhorn_tech:0 "Direhorns"
  direhorn_tech_desc:0 ""
+ direhorn_equipment:0 "Direhorn Equipment"
+ direhorn_equipment_desc:0 ""
  direhorn_equipment_tech_1:0 "Direhorn Equipment"
  direhorn_equipment_1:0 "Direhorn Equipment I"
  direhorn_equipment_1_desc:0 ""
@@ -286,6 +377,8 @@
 
  raptor_tech:0 "Raptors"
  raptor_tech_desc:0 ""
+ raptor_equipment:0 "Raptor Equipment"
+ raptor_equipment_desc:0 ""
  raptor_equipment_tech_1:0 "Raptor Equipment"
  raptor_equipment_1:0 "Raptor Equipment I"
  raptor_equipment_1_desc:0 ""
@@ -304,8 +397,8 @@
 
  raptor_rider_tech:0 "Raptor Riders"
  raptor_rider_tech_desc:0 ""
- raptor_rider_tech:0 "Raptors"
- raptor_rider_tech_desc:0 ""
+ raptor_rider_equipment:0 "Raptor Rider Equipment"
+ raptor_rider_equipment_desc:0 ""
  raptor_rider_equipment_tech_1:0 "Raptor Rider Equipment"
  raptor_rider_equipment_1:0 "Raptor Rider Equipment I"
  raptor_rider_equipment_1_desc:0 ""
@@ -327,12 +420,43 @@
 ##################################
  troll_siege_weapons_folder:0 "Troll Siege Weapons"
  troll_siege_weapons_folder_desc:0 ""
+ troll_siege_works:0 "Troll Siege Works"
+ troll_siege_works_desc:0 ""
+ SIEGE_TITLE_TROLL_BALLISTA:0 "Troll Ballista"
+
+ troll_supply_wagon_tech:0 "Supply Wagon"
+ troll_supply_wagon_tech_desc:0 ""
+ troll_supply_wagon_equipment_tech_1:0 "Supply Wagon"
+ troll_supply_wagon_equipment_tech_1_desc:0 ""
+ improved_troll_supply_wagon_1:0 "Improved Supply Wagon 1"
+ improved_troll_supply_wagon_1_desc:0 ""
+ improved_troll_supply_wagon_2:0 "Improved Supply Wagon 2"
+ improved_troll_supply_wagon_2_desc:0 ""
+ improved_troll_supply_wagon_3:0 "Improved Supply Wagon 3"
+ improved_troll_supply_wagon_3_desc:0 ""
+
+ troll_ballista_tech:0 "Troll Ballista"
+ troll_ballista_tech_desc:0 ""
+ raptor_rider_tech:0 "Raptors"
+ raptor_rider_tech_desc:0 ""
+ troll_ballista_equipment_tech_1:0 "Troll Ballista Equipment 1"
+ troll_ballista_equipment_tech_1_desc:0 "Troll Ballista Equipment 1"
+ troll_ballista_tier_1_upgrade_placeholder_1:0 "PLACEHOLDER"
+ troll_ballista_tier_1_upgrade_placeholder_1_desc:0 ""
+ troll_ballista_tier_1_upgrade_placeholder_2:0 "PLACEHOLDER"
+ troll_ballista_tier_1_upgrade_placeholder_2_desc:0 ""
+ troll_ballista_tier_2_upgrade_placeholder_1:0 "PLACEHOLDER"
+ troll_ballista_tier_2_upgrade_placeholder_1_desc:0 ""
+ troll_ballista_tier_2_upgrade_placeholder_2:0 "PLACEHOLDER"
+ troll_ballista_tier_2_upgrade_placeholder_2_desc:0 ""
+ 
 
 ##################################
 # Support
 ##################################
  troll_support_folder:0 "Troll Support"
  troll_support_folder_desc:0 ""
+ TROLL_TITLE_HEROIC_UNITS:0 "Heroic Units"
 
  altar_of_de_loa_tech:0 "Altar of da Loas"
  altar_of_de_loa_tech_desc:0 ""

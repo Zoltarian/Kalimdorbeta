@@ -1,13 +1,15 @@
-﻿capital = 10
+﻿capital = 965
 
-oob = "BAM_592"
+###oob = "BAM_592"
 
-set_naval_oob = "BAM_592_naval"
+###set_naval_oob = "BAM_592_naval"
 
-set_convoys = 10
+###set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	dwarf_hovel_tech = 1
+}
 
 add_ideas = {
 	dwarf_primary_race

@@ -2159,6 +2159,45 @@ guiTypes = {
 
 			}
 
+			instantTextBoxType = {
+				name = "troll_admin_subtitle_troll_hut"
+				position = { x = 220 y = 100 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 0}
+				text = "ADMIN_TITLE_TROLL_HUT"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "troll_admin_subtitle_troll_labourers"
+				position = { x = 450 y = 100 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 0}
+				text = "ADMIN_TITLE_TROLL_LABOURERS"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "troll_admin_subtitle_troll_craftsman"
+				position = { x = 930 y = 100 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 0}
+				text = "ADMIN_TITLE_TROLL_CRAFTSMAN"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
 			containerWindowType = {
 				name = "troll_administration_years"
 				position = { x=100 y=40 }
@@ -2180,7 +2219,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_left_year2"
-					position = { x = 0 y = 440 }
+					position = { x = 0 y = 380 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 6}
@@ -2193,7 +2232,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_left_year3"
-					position = { x = 0 y = 560 }
+					position = { x = 0 y = 500 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 8}
@@ -2206,7 +2245,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_left_4"
-					position = { x = 0 y = 680 }
+					position = { x = 0 y = 610 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 10}
@@ -2219,7 +2258,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_left_5"
-					position = { x = 0 y = 800 }
+					position = { x = 0 y = 730 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 12}
@@ -2232,7 +2271,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_right_year1"
-					position = { x = 3480 y = 140 }
+					position = { x = 2400 y = 140 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2245,7 +2284,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_right_year2"
-					position = { x = 3480 y = 440 }
+					position = { x = 2400 y = 380 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 6}
@@ -2258,7 +2297,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_right_year3"
-					position = { x = 3480 y = 560 }
+					position = { x = 2400 y = 500 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 8}
@@ -2271,7 +2310,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_right_4"
-					position = { x = 3480 y = 680 }
+					position = { x = 2400 y = 610 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 10}
@@ -2284,7 +2323,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_administration_right_5"
-					position = { x = 3480 y = 800 }
+					position = { x = 2400 y = 730 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 12}
@@ -2343,12 +2382,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "troll_infantry_subtitle_weapons"
-					position = { x = 500 y = 100 }
+					name = "troll_infantry_subtitle_fighters_den"
+					position = { x = 575 y = 100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_WEAPONS"
+					text = "INFANTRY_TITLE_FIGHTERS_DEN"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -2356,12 +2395,38 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "troll_infantry_subtitle_support"
-					position = { x = 1500 y = 100 }
+					name = "troll_infantry_subtitle_axeman"
+					position = { x = 301 y = 200 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_SUPPORT_EQUIPMENT"
+					text = "INFANTRY_TITLE_AXEMAN"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "troll_infantry_subtitle_head_hunter"
+					position = { x = 850 y = 200 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_HEAD_HUNTER"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "troll_infantry_subtitle_spirit_lodge"
+					position = { x = 1700 y = 100 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_SPIRIT_LODGE"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -2370,7 +2435,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_left_1"
-					position = { x = -100 y = 140 }
+					position = { x = -100 y = 175 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2383,7 +2448,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_left_2"
-					position = { x = -100 y = 560 }
+					position = { x = -100 y = 600 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 4}
 					text = "592"
@@ -2395,7 +2460,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_left_3"
-					position = { x = -100 y = 700 }
+					position = { x = -100 y = 750 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 4}
 					text = "595"
@@ -2407,7 +2472,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_left_4"
-					position = { x = -100 y = 840 }
+					position = { x = -100 y = 880 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 4}
 					text = "598"
@@ -2419,7 +2484,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_left_5"
-					position = { x = -100 y = 980 }
+					position = { x = -100 y = 1020 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 4}
 					text = "601"
@@ -2431,7 +2496,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_right_1"
-					position = { x = 2200 y = 140 }
+					position = { x = 2000 y = 175 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2444,7 +2509,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_right_2"
-					position = { x = 2200 y = 560 }
+					position = { x = 2000 y = 600 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2457,7 +2522,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_right_3"
-					position = { x = 2200 y = 700 }
+					position = { x = 2000 y = 750 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2470,7 +2535,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_right_4"
-					position = { x = 2200 y = 840 }
+					position = { x = 2000 y = 880 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2483,7 +2548,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_infantry_year_right_5"
-					position = { x = 2200 y = 980 }
+					position = { x = 2000 y = 1020 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2556,12 +2621,12 @@ guiTypes = {
 					orientation = upper_left
 
 					instantTextBoxType = {
-						name = "troll_cavalry_subtitle_mounts"
-						position = { x = 207 y = -100 }
+						name = "troll_cavalry_subtitle_raptors"
+						position = { x = 900 y = -50 }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
-						text = "CAVALRY_TITLE_MOUNTS"
+						text = "CAVALRY_TITLE_RAPTORS"
 						maxWidth = 200
 						maxHeight = 62
 						format = center
@@ -2569,24 +2634,36 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "troll_cavalry_subtitle_knight"
-						position = { x = 550 y = -100  }
+						name = "troll_cavalry_subtitle_raptor_rider"
+						position = { x = 1175 y = -50  }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
-						text = "CAVALRY_TITLE_KNIGHT"
+						text = "CAVALRY_TITLE_RAPTOR_RIDER"
 						maxWidth = 200
 						maxHeight = 62
 						format = center
 						Orientation = "UPPER_LEFT"
 					}
 					instantTextBoxType = {
-						name = "troll_cavalry_subtitle_lancer"
-						position = { x = -150 y = -100  }
+						name = "troll_cavalry_subtitle_direhorn"
+						position = { x = 475 y = -50  }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
-						text = "CAVALRY_TITLE_LANCER"
+						text = "CAVALRY_TITLE_DIREHORN"
+						maxWidth = 200
+						maxHeight = 62
+						format = center
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "troll_cavalry_subtitle_dino_pen"
+						position = { x = 690 y = -50  }
+						textureFile = ""
+						font = "hoi_33"
+						borderSize = {x = 0 y = 4}
+						text = "CAVALRY_TITLE_DINO_PEN"
 						maxWidth = 200
 						maxHeight = 62
 						format = center
@@ -2595,7 +2672,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_left_1"
-						position = { x = 60 y = 2 }
+						position = { x = 300 y = 40 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2608,7 +2685,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_left_2"
-						position = { x = 60 y = 140 }
+						position = { x = 300 y = 320 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2621,7 +2698,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_left_3"
-						position = { x = 60 y = 278 }
+						position = { x = 300 y = 460 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2634,7 +2711,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_left_4"
-						position = { x = 60 y = 420 }
+						position = { x = 300 y = 600 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2647,7 +2724,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_left_5"
-						position = { x = 60 y = 560 }
+						position = { x = 300 y = 740 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2660,7 +2737,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_right_1"
-						position = { x = 1750 y = 2 }
+						position = { x = 1600 y = 40 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2673,7 +2750,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_right_2"
-						position = { x = 1750 y = 140 }
+						position = { x = 1600 y = 320 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2686,7 +2763,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_right_3"
-						position = { x = 1750 y = 278 }
+						position = { x = 1600 y = 460 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2699,7 +2776,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_right_4"
-						position = { x = 1750 y = 420 }
+						position = { x = 1600 y = 600 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2712,7 +2789,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_cavalry_year_right_5"
-						position = { x = 1750 y = 560 }
+						position = { x = 1600 y = 740 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2794,50 +2871,24 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "artillery_subtitle_supply_wagons"
-						position = { x = -300 y = 150 }
+						position = { x = -55 y = 130 }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
 						text = "SIEGE_TITLE_SUPPLY_WAGONS"
-						maxWidth = 210
+						maxWidth = 180
 						maxHeight = 22
 						format = center
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
-						name = "artillery_subtitle_battering_ram"
-						position = { x = -10 y = 150 }
+						name = "artillery_subtitle_troll_ballista"
+						position = { x = 470 y = 150 }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
-						text = "SIEGE_TITLE_BATTERING_RAM"
-						maxWidth = 210
-						maxHeight = 22
-						format = center
-						Orientation = "UPPER_LEFT"
-					}
-
-					instantTextBoxType = {
-						name = "artillery_subtitle_catapults"
-						position = { x = 410 y = 150 }
-						textureFile = ""
-						font = "hoi_33"
-						borderSize = {x = 0 y = 4}
-						text = "SIEGE_TITLE_CATAPULT"
-						maxWidth = 210
-						maxHeight = 22
-						format = center
-						Orientation = "UPPER_LEFT"
-					}
-
-					instantTextBoxType = {
-						name = "artillery_subtitle_moving_mechanism"
-						position = { x = 680 y = 130 }
-						textureFile = ""
-						font = "hoi_33"
-						borderSize = {x = 0 y = 4}
-						text = "SIEGE_TITLE_MOVING_MECHANISM"
+						text = "SIEGE_TITLE_TROLL_BALLISTA"
 						maxWidth = 210
 						maxHeight = 22
 						format = center
@@ -2846,85 +2897,73 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_left_1"
-						position = { x = -600 y = 140 }
+						position = { x = -300 y = 270 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "584"
 						maxWidth = 170
 						maxHeight = 32
-						format = left
+						format = right
 						Orientation = "UPPER_LEFT"
 					}
 
+
 					instantTextBoxType = {
 						name = "troll_siege_weapon_left_2"
-						position = { x = -600 y = 280 }
+						position = { x = -300 y = 550 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "591"
+						text = "592"
 						maxWidth = 170
 						maxHeight = 32
-						format = left
+						format = right
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_left_3"
-						position = { x = -600 y = 420 }
+						position = { x = -300 y = 690 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "594"
+						text = "595"
 						maxWidth = 170
 						maxHeight = 32
-						format = left
+						format = right
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_left_4"
-						position = { x = -600 y = 560 }
+						position = { x = -300 y = 830 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "597"
+						text = "598"
 						maxWidth = 170
 						maxHeight = 32
-						format = left
+						format = right
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_left_5"
-						position = { x = -600 y = 700 }
+						position = { x = -300 y = 970 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "600"
+						text = "601"
 						maxWidth = 170
 						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-
-					instantTextBoxType = {
-						name = "troll_siege_weapon_left_6"
-						position = { x = -600 y = 840 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "605"
-						maxWidth = 170
-						maxHeight = 32
-						format = left
+						format = right
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_right_1"
-						position = { x = 1150 y = 140 }
+						position = { x = 900 y = 270 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -2937,11 +2976,11 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_right_2"
-						position = { x = 1150 y = 280 }
+						position = { x = 900 y = 550 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "591"
+						text = "592"
 						maxWidth = 170
 						maxHeight = 32
 						format = left
@@ -2950,11 +2989,11 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_right_3"
-						position = { x = 1150 y = 420 }
+						position = { x = 900 y = 690 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "594"
+						text = "595"
 						maxWidth = 170
 						maxHeight = 32
 						format = left
@@ -2963,11 +3002,11 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_right_4"
-						position = { x = 1150 y = 560 }
+						position = { x = 900 y = 830 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "597"
+						text = "598"
 						maxWidth = 170
 						maxHeight = 32
 						format = left
@@ -2976,35 +3015,21 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "troll_siege_weapon_right_5"
-						position = { x = 1150 y = 700 }
+						position = { x = 900 y = 970 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "600"
+						text = "601"
 						maxWidth = 170
 						maxHeight = 32
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
-
-					instantTextBoxType = {
-						name = "troll_siege_weapon_right_6"
-						position = { x = 1150 y = 840 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "605"
-						maxWidth = 170
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-
 				}
 			}
 
 			gridboxtype = {
-				name = "siege_works_tree"
+				name = "troll_siege_works_tree"
 				position = { x = 10% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
@@ -3048,12 +3073,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "troll_infantry_subtitle_weapons"
-					position = { x = 300 y = 100 }
+					name = "troll_infantry_subtitle_heroic_units"
+					position = { x = 800 y = 100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "SUPPORT_TITLE_HEROIC_UNITS"
+					text = "TROLL_TITLE_HEROIC_UNITS"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -3062,7 +3087,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_left_1"
-					position = { x = -100 y = 140 }
+					position = { x = -100 y = 175 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -3075,11 +3100,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_left_2"
-					position = { x = -100 y = 280 }
+					position = { x = -100 y = 600 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "591"
+					text = "592"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -3088,11 +3113,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_left_3"
-					position = { x = -100 y = 420 }
+					position = { x = -100 y = 740 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "594"
+					text = "595"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -3101,11 +3126,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_left_4"
-					position = { x = -100 y = 560 }
+					position = { x = -100 y = 880 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "597"
+					text = "598"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -3114,11 +3139,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_left_5"
-					position = { x = -100 y = 700 }
+					position = { x = -100 y = 1020 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "600"
+					text = "601"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -3127,7 +3152,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_right_1"
-					position = { x = 1925 y = 140 }
+					position = { x = 1400 y = 175 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -3140,11 +3165,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_right_2"
-					position = { x = 1925 y = 280 }
+					position = { x = 1400 y = 600 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "591"
+					text = "592"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -3153,11 +3178,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_right_3"
-					position = { x = 1925 y = 420 }
+					position = { x = 1400 y = 740 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "594"
+					text = "595"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -3166,11 +3191,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_tight_4"
-					position = { x = 1925 y = 560 }
+					position = { x = 1400 y = 880 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "597"
+					text = "598"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -3179,11 +3204,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "troll_support_year_right_5"
-					position = { x = 1925 y = 700 }
+					position = { x = 1400 y = 1020 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "600"
+					text = "601"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -7479,7 +7504,20 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "generic_airtech_left_year2"
-				position = { x = 25 y = 716 }
+				position = { x = 25 y = 610 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "592"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "generic_airtech_left_year3"
+				position = { x = 25 y = 750 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -7491,8 +7529,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "generic_airtech_left_year3"
-				position = { x = 25 y = 854 }
+				name = "generic_airtech_left_year4"
+				position = { x = 25 y = 890 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -7518,7 +7556,20 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "generic_airtech_right_year2"
-				position = { x = 3450 y = 716 }
+				position = { x = 3450 y = 610 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "592"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "generic_airtech_right_year3"
+				position = { x = 3450 y = 750 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -7530,8 +7581,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "generic_airtech_right_year3"
-				position = { x = 3450 y = 854 }
+				name = "generic_airtech_right_year4"
+				position = { x = 3450 y = 890 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}

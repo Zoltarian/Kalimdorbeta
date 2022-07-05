@@ -1,6 +1,6 @@
 ﻿capital = 901
 
-oob = "DRW_592"
+#oob = "DRW_592"
 
 set_research_slots = 3
 
@@ -17,6 +17,11 @@ set_technology = {
 }
 add_ideas = {
 	night_elf_primary_race
+	primary_trait_touch_of_elune
+	primary_trait_shadowmeld
+	primary_trait_nightsong
+
+	primary_religion_druidism
 }
 
 recruit_character = DRW_archdruid_rensar_greathoof

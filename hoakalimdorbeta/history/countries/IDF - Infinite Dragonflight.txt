@@ -1,14 +1,16 @@
 ﻿capital = 10
 
-oob = "IDF_592"
-
-set_convoys = 10
+#oob = "IDF_592"
+#set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	infinite_dragon_primary_race
+	primary_trait_masters_of_the_sky
 }
 
 recruit_character = IDF_murozond

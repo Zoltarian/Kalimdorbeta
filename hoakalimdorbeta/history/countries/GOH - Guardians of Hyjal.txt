@@ -1,9 +1,11 @@
 ﻿capital = 64
 
-oob = "GOH_592"
+#oob = "GOH_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 
@@ -13,7 +15,6 @@ add_ideas = {
 	limited_exports
 
 	night_elf_primary_race
-
 	primary_trait_touch_of_elune
 	primary_trait_shadowmeld
 	primary_trait_nightsong

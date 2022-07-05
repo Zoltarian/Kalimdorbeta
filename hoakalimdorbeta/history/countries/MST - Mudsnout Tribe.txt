@@ -1,13 +1,13 @@
 ﻿capital = 10
 
-oob = "MST_592"
-
-set_naval_oob = "MST_591_naval_legacy"
-
-set_convoys = 10
+#oob = "MST_592"
+#set_naval_oob = "MST_591_naval_legacy"
+#set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	gnoll_primary_race

@@ -3,10 +3,17 @@
 oob = "DKG_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	gorilla_primary_race
+	primary_trait_apes_together_strong
+	primary_trait_blessing_of_kongs
+	primary_trait_thunderstomp
+
+	primary_religion_banana_worhsip
 }
 
 recruit_character = DKG_grong

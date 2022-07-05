@@ -1,9 +1,11 @@
-﻿capital = 10
+﻿capital = 1314
 
-oob = "FRG_592"
+#oob = "FRG_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	grell_primary_race

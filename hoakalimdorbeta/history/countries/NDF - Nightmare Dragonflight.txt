@@ -1,10 +1,12 @@
 ﻿capital = 10
 
-oob = "NDF_592"
-
-set_convoys = 60
+#oob = "NDF_592"
+#set_convoys = 60
 
 set_research_slots = 3
+set_technology = {
+	town_hall_tech = 1
+}
 
 set_stability = 0.6
 set_war_support = 0.25
@@ -17,11 +19,12 @@ add_ideas = {
 	export_focus
 	
 	nightmare_dragon_primary_race
+	primary_trait_masters_of_the_sky
 	
 	primary_religion_followers_of_nzoth
 	
 }
-set_technology = {}
+
 
 recruit_character = NDF_corrupted_ysera
 

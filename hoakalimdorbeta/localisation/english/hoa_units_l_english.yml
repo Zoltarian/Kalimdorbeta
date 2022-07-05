@@ -157,9 +157,9 @@ explorer_desc:0 "Explorer"
 siege_tank:0 "Siege Tank"
 siege_tank_desc:0 "Siege Tank"
 
-###############################################################
+##############
 #Orc
-###############################################################
+##############
 
 ########################
 #orc admin tree
@@ -218,9 +218,9 @@ siege_tank_desc:0 "Siege Tank"
  far_seer:0 "Farseer"
  far_seer_desc:0 "Farseer"
 
-###############################################################
+##############
 #Dragon
-###############################################################
+##############
 
 ########################
 #dragon admin tree
@@ -254,6 +254,133 @@ jade_tiger_tech_desc:0 ""
 #hoa_faceless_ones_desc:0 "The N'raqi, sometimes called 'Faceless Ones', are a ancient, shambling race of monstrosities birthed from the very flesh of the old gods: They are powerful fighters and will crush anything in their way."
 #hoa_summoned_demons:0 "Summoned Demons"
 #hoa_summoned_demons_desc:0 "Ered'ruin, Aranasi, Mo'arg and countless other species make up what are referred to as 'demons'. Stronger than an average mortal and effectively immortal, these creatures can turn the tide of a battle in the name of the Legion."
+
+##########
+#Troll Admin
+##########
+
+labourer:0 "Labourer"
+labourer_desc:0 "Labourer"
+artisan_craftsman_unit:0 "Artisan Craftsman"
+artisan_craftsman_unit_desc:0 "Artisan Craftsman"
+
+##########
+#Troll Infantry
+##########
+
+troll_axeman:0 "Troll Axeman"
+troll_axeman_desc:0 "Troll Axeman"
+troll_axeman_equipment:0 "Troll Axeman Equipment"
+troll_axeman_equipment_desc:0 "Troll Axeman Equipment"
+troll_axeman_equipment_1:0 "Troll Axeman Equipment 1"
+troll_axeman_equipment_1_desc:0 "Troll Axeman Equipment 1"
+troll_axeman_equipment_2:0 "Troll Axeman Equipment 2"
+troll_axeman_equipment_2_desc:0 "Troll Axeman Equipment 2"
+troll_axeman_equipment_3:0 "Troll Axeman Equipment 3"
+troll_axeman_equipment_3_desc:0 "Troll Axeman Equipment 3"
+
+head_hunter:0 "Head Hunter"
+head_hunter_desc:0 "Head Hunter"
+head_hunter_support:0 "Head Hunter (Support)"
+head_hunter_support_desc:0 "Head Hunter (Support)"
+head_hunter_equipment:0 "Head Hunter Equipment"
+head_hunter_equipment_desc:0 "Head Hunter Equipment"
+head_hunter_equipment_1:0 "Head Hunter Equipment 1"
+head_hunter_equipment_1_desc:0 "Head Hunter Equipment 1"
+head_hunter_equipment_2:0 "Head Hunter Equipment 2"
+head_hunter_equipment_2_desc:0 "Head Hunter Equipment 2"
+head_hunter_equipment_3:0 "Head Hunter Equipment 3"
+head_hunter_equipment_3_desc:0 "Head Hunter Equipment 3"
+
+hexer:0 "Hexer"
+hexer_desc:0 "Hexer"
+hexer_support:0 "Hexer (Support)"
+hexer_support_desc:0 "Hexer (Support)"
+hexer_equipment:0 "Hexer Equipment"
+hexer_equipment_desc:0 "Hexer Equipment"
+hexer_equipment_1:0 "Hexer Equipment 1"
+hexer_equipment_1_desc:0 "Hexer Equipment 1"
+hexer_equipment_2:0 "Hexer Equipment 2"
+hexer_equipment_2_desc:0 "Hexer Equipment 2"
+hexer_equipment_3:0 "Hexer Equipment 3"
+hexer_equipment_3_desc:0 "Hexer Equipment 3"
+
+pathfinder:0 "Pathfinder"
+pathfinder_desc:0 "Pathfinder"
+berserker:0 "Berserker"
+berserker_desc:0 "Berserker"
+ravager:0 "Ravager"
+ravager_desc:0 "Ravager"
+witch_doctor:0 "Witch Doctor"
+witch_doctor_desc:0 "Witch Doctor"
+
+##########
+#Troll Cavalry
+##########
+
+direhorn:0 "Direhorn"
+direhorn_desc:0 ""
+raptor:0 "Raptor"
+raptor_desc:0 ""
+raptor_rider:0 "Raptor Rider"
+raptor_rider_desc:0 ""
+
+##########
+#Troll Siege
+##########
+
+troll_ballista:0 "Troll Ballista"
+troll_ballista_desc:0 "Troll Ballista"
+troll_ballista_support:0 "Troll Ballista (Support)"
+troll_ballista_support_desc:0 "Troll Ballista (Support)"
+beast_drawn_ballista:0 "Beast Drawn Ballista"
+beast_drawn_ballista_desc:0 "Beast Drawn Ballista"
+troll_ballista_equipment:0 "Troll Ballista Equipment"
+troll_ballista_equipment_desc:0 "Troll Ballista Equipment"
+troll_ballista_equipment_1:0 "Troll Ballista Equipment 1"
+troll_ballista_equipment_1_desc:0 "Troll Ballista Equipment 1"
+troll_ballista_equipment_2:0 "Troll Ballista Equipment 2"
+troll_ballista_equipment_2_desc:0 "Troll Ballista Equipment 2"
+troll_ballista_equipment_3:0 "Troll Ballista Equipment 3"
+troll_ballista_equipment_3_desc:0 "Troll Ballista Equipment 3"
+
+##########
+#Troll Heroic Units
+##########
+
+shadow_hunter:0 "Shadow Hunter"
+shadow_hunter_desc:0 ""
+shadow_hunter_equipment:0 "Shadow Hunter Equipment"
+shadow_hunter_equipment_desc:0 ""
+shadow_hunter_equipment_1:0 "Shadow Hunter Equipment 1"
+shadow_hunter_equipment_1_desc:0 ""
+shadow_hunter_equipment_2:0 "Shadow Hunter Equipment 2"
+shadow_hunter_equipment_2_desc:0 ""
+shadow_hunter_equipment_3:0 "Shadow Hunter Equipment 3"
+shadow_hunter_equipment_3_desc:0 ""
+
+dire_troll:0 "Dire Troll"
+dire_troll_desc:0 "Dire Troll"
+dire_troll_equipment:0 "Dire Troll Equipment"
+dire_troll_equipment_desc:0 ""
+dire_troll_equipment_1:0 "Dire Troll Equipment 1"
+dire_troll_equipment_1_desc:0 ""
+dire_troll_equipment_2:0 "Dire Troll Equipment 2"
+dire_troll_equipment_2_desc:0 ""
+dire_troll_equipment_3:0 "Dire Troll Equipment 3"
+dire_troll_equipment_3_desc:0 ""
+
+devilsaur:0 "Devilsaur"
+devilsaur_desc:0 ""
+devilsaur_equipment:0 "Devilsaur Equipment"
+devilsaur_equipment_desc:0 ""
+devilsaur_equipment_1:0 "Devilsaur Equipment 1"
+devilsaur_equipment_1_desc:0 ""
+devilsaur_equipment_2:0 "Devilsaur Equipment 2"
+devilsaur_equipment_2_desc:0 ""
+devilsaur_equipment_3:0 "Devilsaur Equipment 3"
+devilsaur_equipment_3_desc:0 ""
+
 
 #######################
 #ships

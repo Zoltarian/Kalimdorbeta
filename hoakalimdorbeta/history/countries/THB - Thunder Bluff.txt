@@ -1,8 +1,7 @@
 ﻿capital = 992
 
-oob = "THB_592"
-
-set_naval_oob = "THB_592_naval"
+#oob = "THB_592"
+#set_naval_oob = "THB_592_naval"
 
 set_research_slots = 3
 
@@ -27,19 +26,15 @@ set_technology = {
 
 	support_equipment_tech = 1
 
-
-
 	mount_taming_1 = 1
 	knight_tech_1 = 1
 
 	catapult_equipment_tech_1 = 1
 
-
 	naval_transport_1 = 1
 
 	town_hall_tech = 1
 	scout_tower_1 = 1
-
 }
 
 recruit_character = THB_cairne_bloodhoof

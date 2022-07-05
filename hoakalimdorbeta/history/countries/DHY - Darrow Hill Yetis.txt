@@ -1,9 +1,11 @@
 ﻿capital = 10
 
-oob = "DHY_592"
+#oob = "DHY_592"
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	
@@ -13,6 +15,9 @@ add_ideas = {
 	limited_exports
 	
 	yeti_primary_race
+	primary_trait_arctic_fur
+	primary_trait_bestial_wrath
+	primary_trait_feral
 	
 	primary_religion_irreligious
 }

@@ -1,13 +1,14 @@
 ﻿capital = 10
 
-oob = "MRP_592"
-
-set_naval_oob = "MRP_591_naval_legacy"
+#oob = "MRP_592"
+#set_naval_oob = "MRP_591_naval_legacy"
 
 set_convoys = 10
 
 set_research_slots = 3
-set_technology = {}
+set_technology = {
+	town_hall_tech = 1
+}
 
 add_ideas = {
 	

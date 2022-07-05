@@ -1,11 +1,14 @@
-﻿capital = 10
+﻿capital = 885
 
-oob = "BWK_592"
+#oob = "BWK_592"
 
 set_research_slots = 3
 
 add_ideas = { 
 	kobold_primary_race
+	primary_trait_dig_tunnel_mine
+	primary_trait_you_no_take_candel
+	primary_trait_flee_scurry_run
 }
 
 set_technology = {  
