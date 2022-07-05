@@ -141,7 +141,7 @@ ideas = {
 			modifier = {
 				trait_engineer_xp_gain_factor = 0.25
 				dig_in_speed_factor = 0.1
-				railway_gun_bombardment_factor = 0.05
+				#railway_gun_bombardment_factor = 0.05
 			}
 			ai_will_do = {
 				factor = 1
@@ -186,7 +186,7 @@ ideas = {
 			ledger = army
 			modifier = {
 				pocket_penalty = -0.2
-				weekly_manpower = 500
+				weekly_manpower = 25
 			}
 			ai_will_do = {
 				factor = 1
@@ -204,28 +204,28 @@ ideas = {
 			}
 		}
 
-		mobile_warfare_army_spirit = {
-			visible = { has_tech = mobile_warfare }
-			ledger = army
-			modifier = {
-				#experience_gain_motorized_combat_factor = 0.1
-				#experience_gain_mechanized_combat_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		#mobile_warfare_army_spirit = {
+		#	visible = { has_tech = mobile_warfare }
+		#	ledger = army
+		#	modifier = {
+		#		experience_gain_motorized_combat_factor = 0.1
+		#		experience_gain_mechanized_combat_factor = 0.1
+		#	}
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
 
-		superior_firepower_army_spirit = {
-			visible = { has_tech = superior_firepower  }
-			ledger = army
-			modifier = {
-				#experience_gain_artillery_combat_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		#superior_firepower_army_spirit = {
+		#	visible = { has_tech = superior_firepower  }
+		#	ledger = army
+		#	modifier = {
+		#		experience_gain_artillery_combat_factor = 0.1
+		#	}
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
 
 		grand_battleplan_army_spirit = {
 			visible = { has_tech = trench_warfare }
@@ -241,16 +241,16 @@ ideas = {
 			}
 		}
 
-		mass_assault_army_spirit = {
-			ledger = army
-			visible = { has_tech = mass_assault }
-			modifier = {
-				#experience_gain_infantry_combat_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		#mass_assault_army_spirit = {
+		#	ledger = army
+		#	visible = { has_tech = mass_assault }
+		#	modifier = {
+		#		experience_gain_infantry_combat_factor = 0.1
+		#	}
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
 	}
 
 	division_command_spirit = {

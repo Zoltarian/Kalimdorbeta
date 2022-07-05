@@ -359,6 +359,46 @@ annex_howling_fjord = {
   }
 }
 
+#Annex Howling Fjord (minus islands off coast)
+annex_mainland_howling_fjord = {
+  custom_effect_tooltip = annex_mainland_howling_fjord_tt
+  hidden_effect = {
+    transfer_state = 1027
+    transfer_state = 1028
+    transfer_state = 1636
+	transfer_state = 1637
+	transfer_state = 1638
+	transfer_state = 1639
+	transfer_state = 1640
+	transfer_state = 1641
+	transfer_state = 1642
+	transfer_state = 1643
+	transfer_state = 1644
+	transfer_state = 1645
+	transfer_state = 1646
+	transfer_state = 1647
+	transfer_state = 1648
+	transfer_state = 1650
+	transfer_state = 1651
+	transfer_state = 1652
+	transfer_state = 1653
+	transfer_state = 1654
+	transfer_state = 1655
+	transfer_state = 1656
+	transfer_state = 1657
+	transfer_state = 1658
+    transfer_state = 1659
+    transfer_state = 1660
+    transfer_state = 1661
+	transfer_state = 1662
+	transfer_state = 1663
+	transfer_state = 1664
+	transfer_state = 1665
+    transfer_state = 1834
+    transfer_state = 2135
+  }
+}
+
 ####################
 # Great Sea
 ####################

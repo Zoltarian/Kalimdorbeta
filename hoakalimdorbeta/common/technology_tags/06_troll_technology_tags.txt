@@ -7,33 +7,51 @@ technology_categories = {
 #Troll Admin
 ####
 	troll_tier_technology
-	labourer_technology
 	troll_support_technology
-	village_technology
-	hunting_technology
+	troll_village_technology
+	troll_hunting_technology
 	troll_craftsman_technology
-	artisan_craftsman_unit_technology
+	troll_weapon_technology
+	troll_armour_technology
+	troll_fur_technology
+	troll_blueprint_technology
+	troll_workbench_technology
+	troll_wood_technology
+	troll_barricade_technology
+	troll_egg_technology
+	troll_ore_technology
+	troll_gunpowder_technology
 ####
 #Troll Infanty
 ####
 	troll_barracks_technology
 	troll_axeman_technology
+	troll_ravager_technology
 	head_hunter_technology
+	troll_berserker_technology
+	heightened_senses_technology
+	troll_pathfinder_technology
 	troll_spirit_lodge_technology
+	troll_hexer_technology
+	troll_witch_doctor_technology
+	troll_fetishes_technology
 ####
 #Troll Cavalry
 ####
 	direhorn_technology
-
+	raptor_technology
+	raptor_rider_technology
 ####
 #Troll Siege
 ####
-
+	troll_siege_works_technology
+	troll_supply_wagon_technology
+	troll_caravan_technology
+	troll_ballista_technology
 ####
 #Troll Support
 ####
 	dire_troll_technology
 	shadow_hunter_technology
 	devilsaur_technology
-
 }

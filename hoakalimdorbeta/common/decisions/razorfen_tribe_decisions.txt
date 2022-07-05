@@ -10,16 +10,19 @@ government_decisions = {
 		}
 
 		visible = {
+			NOT = { has_war_with = FGH}
 			country_exists = FGH
 		}
 
 		available = {
       has_completed_focus = arming_the_nation
 		}
-
-    highlight_states = {
+	
+	highlight_states = {
+		highlight_state_targets = {
 			state = 966
 		}
+	}
 
     remove_effect = {
       declare_war_on = {
@@ -50,8 +53,10 @@ government_decisions = {
       has_completed_focus = arming_the_nation
 		}
 
-    highlight_states = {
-			state = 965
+		highlight_states = {
+			highlight_state_targets = {
+				state = 965
+			}
 		}
 
     remove_effect = {

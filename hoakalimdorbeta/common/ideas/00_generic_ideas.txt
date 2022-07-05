@@ -862,8 +862,7 @@ ideas = {
 			picture = generic_race_silithid
 
 			modifier = {
-				local_manpower = 0.1
-				recruitable_population_factor = 0.05
+				conscription_factor = 0.1
 				attrition = -0.05
 			}
 		}
@@ -1428,6 +1427,44 @@ ideas = {
 
 			modifier = {
 				monthly_population = -0.05
+			}
+		}
+
+		#Starting idea for KAL / CEN
+		preservation_of_nature_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_religion_druidism
+
+			modifier = {
+				monthly_population = 0.05
+				production_speed_buildings_factor = -0.05
+				local_resources_factor = -0.05
+			}
+		}
+
+		#Starting idea for titan nations
+		arcane_technology_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			cancel_if_invalid = no
+
+			removal_cost = -1
+
+			picture = generic_religion_mystery_of_the_makers
+
+			modifier = {
+				encryption_factor = 0.5
 			}
 		}
 	}

@@ -43,7 +43,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1375
+			highlight_state_targets = {
+				state = 1375
+			}
 		}
 
 		complete_effect = {
@@ -120,7 +122,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1382
+			highlight_state_targets = {
+				state = 1382
+			}
 		}
 
 		complete_effect = {
@@ -145,7 +149,7 @@ construction_decisions = {
 					level = 1
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 
 	      		set_state_name = "Arkkoran"
 			}
@@ -192,7 +196,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1378
+			highlight_state_targets = {
+				state = 1378
+			}
 		}
 
 		complete_effect = {
@@ -269,7 +275,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1324
+			highlight_state_targets = {
+				state = 1324
+			}
 		}
 
 		complete_effect = {
@@ -347,7 +355,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1421
+			highlight_state_targets = {
+				state = 1421
+			}
 		}
 
 		complete_effect = {
@@ -381,6 +391,309 @@ construction_decisions = {
 	      		set_state_name = "Constellas"
 			}
     	}
+	}
+
+	rebuild_vashjelan_decision = {
+		icon = GFX_decision_category_generic_industry
+	
+		allowed = {
+			always = yes
+		}
+	
+		fire_only_once = yes
+	
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 825
+			controls_state = 825
+		}
+	
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 825
+			controls_state = 825
+		}
+	
+		days_remove = 90
+	
+		cost = 100
+	
+		highlight_states = {
+			highlight_state_targets = {
+				state = 825
+			}
+		}
+	
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+	
+			1421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+	
+			}
+		}
+	}
+
+	rebuild_moonrest_gardens_decision = {
+		icon = GFX_decision_category_generic_industry
+	
+		allowed = {
+			always = yes
+		}
+	
+		fire_only_once = yes
+	
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1228
+			controls_state = 1228
+		}
+	
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1228
+			controls_state = 1228
+		}
+	
+		days_remove = 90
+	
+		cost = 100
+	
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1228
+			}
+		}
+	
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+	
+			1421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+	
+			}
+		}
+	}
+
+	rebuild_stars_rest_decision = {
+		icon = GFX_decision_category_generic_industry
+	
+		allowed = {
+			always = yes
+		}
+	
+		fire_only_once = yes
+	
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1229
+			controls_state = 1229
+		}
+	
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1229
+			controls_state = 1229
+		}
+	
+		days_remove = 90
+	
+		cost = 100
+	
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1229
+			}
+		}
+	
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+	
+			1421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+	
+			}
+		}
+	}
+
+	rebuild_shandaral_decision = {
+		icon = GFX_decision_category_generic_industry
+	
+		allowed = {
+			always = yes
+		}
+	
+		fire_only_once = yes
+	
+		visible = {
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			owns_state = 1229
+			controls_state = 1229
+		}
+	
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = night_elf_primary_race
+				has_idea = highborne_primary_race
+				has_idea = nightborne_primary_race
+				has_idea = high_elf_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1229
+			controls_state = 1229
+		}
+	
+		days_remove = 90
+	
+		cost = 100
+	
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1229
+			}
+		}
+	
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+	
+			1421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+	
+				set_state_name = "Shandaral"
+			}
+		}
 	}
 
 	#troll ruins
@@ -431,7 +744,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 2127
+			highlight_state_targets = {
+				state = 2127
+			}
 		}
 
 		complete_effect = {
@@ -515,7 +830,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 940
+			highlight_state_targets = {
+				state = 940
+			}
 		}
 
 		complete_effect = {
@@ -599,7 +916,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 939
+			highlight_state_targets = {
+				state = 939
+			}
 		}
 
 		complete_effect = {
@@ -683,7 +1002,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 934
+			highlight_state_targets = {
+				state = 934
+			}
 		}
 
 		complete_effect = {
@@ -720,6 +1041,178 @@ construction_decisions = {
     	}
 	}
 
+	rebuild_drakiljin_decision = {
+		icon = GFX_decision_category_generic_industry
+	
+		allowed = {
+			always = yes
+		}
+	
+		fire_only_once = yes
+	
+		visible = {
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			owns_state = 1667
+			controls_state = 1667
+		}
+	
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1667
+			controls_state = 1667
+		}
+	
+		days_remove = 90
+	
+		cost = 100
+	
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1667
+			}
+		}
+	
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+	
+			1667 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = church
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+	
+				  set_state_name = "Drakil'jin"
+			}
+		}
+	}
+
+	rebuild_drakzin_decision = {
+		icon = GFX_decision_category_generic_industry
+	
+		allowed = {
+			always = yes
+		}
+	
+		fire_only_once = yes
+	
+		visible = {
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			owns_state = 1684
+			controls_state = 1684
+		}
+	
+		available = {
+			NOT = {
+				has_country_flag = ongoing_construction_project_flag
+			}
+			OR = {
+				has_idea = sand_troll_primary_race
+				has_idea = blood_troll_primary_race
+				has_idea = dark_troll_primary_race
+				has_idea = ice_troll_primary_race
+				has_idea = jungle_troll_primary_race
+				has_idea = forest_troll_primary_race
+				has_idea = zandalari_troll_primary_race
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		
+			owns_state = 1684
+			controls_state = 1684
+		}
+	
+		days_remove = 90
+	
+		cost = 100
+	
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1684
+			}
+		}
+	
+		complete_effect = {
+			set_country_flag = ongoing_construction_project_flag
+		}
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		remove_effect = {
+			clr_country_flag = ongoing_construction_project_flag
+	
+			1684 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+	
+				  set_state_name = "Drakil'Zin"
+			}
+		}
+	}
+
 	#tol'vir ruins
 	rebuild_amthul_decision = {
 		icon = GFX_decision_category_generic_industry
@@ -752,7 +1245,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1139
+			highlight_state_targets = {
+				state = 1139
+			}
 		}
 
 		complete_effect = {
@@ -820,7 +1315,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1138
+			highlight_state_targets = {
+				state = 1138
+			}
 		}
 
 		complete_effect = {
@@ -888,7 +1385,9 @@ construction_decisions = {
 		cost = 100
 
 		highlight_states = {
-			state = 1129
+			highlight_state_targets = {
+				state = 1129
+			}
 		}
 
 		complete_effect = {

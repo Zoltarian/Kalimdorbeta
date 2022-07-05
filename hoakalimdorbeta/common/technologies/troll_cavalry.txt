@@ -12,19 +12,16 @@ technologies = {
 			leads_to_tech = direhorn_tech
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = dino_breeding_1
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = raptor_tech
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_cavalry_folder
@@ -128,12 +125,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 300
-
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -159,12 +151,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 300
-
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -172,6 +159,10 @@ technologies = {
 
 		enable_equipments = {
 			direhorn_equipment_2
+		}
+
+		dependencies = {
+			troll_lodge_tech = 1
 		}
 
 		path = {
@@ -184,7 +175,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 584
+		start_year = 595
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 7 y = 6 }
@@ -210,7 +201,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 6 y = 8 }
@@ -222,12 +213,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 300
-
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -241,7 +227,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 8 y = 8 }
@@ -253,12 +239,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 300
-
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -268,8 +249,12 @@ technologies = {
 			direhorn_equipment_3
 		}
 
+		dependencies = {
+			troll_temple_tech = 1
+		}
+
 		research_cost = 1.5
-		start_year = 584
+		start_year = 601
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 7 y = 10 }
@@ -301,7 +286,6 @@ technologies = {
 		}
 
 		research_cost = 2.5
-
 		start_year = 592
 		folder = {
 			name = troll_cavalry_folder
@@ -325,7 +309,7 @@ technologies = {
 		}
 
 		dependencies = {
-			stronghold_tech = 1
+			troll_lodge_tech = 1
 		}
 
 		path = {
@@ -334,7 +318,6 @@ technologies = {
 		}
 
 		research_cost = 2.5
-
 		start_year = 595
 		folder = {
 			name = troll_cavalry_folder
@@ -363,7 +346,6 @@ technologies = {
 		}
 
 		research_cost = 2.5
-
 		start_year = 598
 		folder = {
 			name = troll_cavalry_folder
@@ -387,11 +369,10 @@ technologies = {
 		}
 
 		dependencies = {
-			fortress_tech = 1
+			troll_temple_tech = 1
 		}
 
 		research_cost = 2.5
-
 		start_year = 601
 		folder = {
 			name = troll_cavalry_folder
@@ -435,6 +416,7 @@ technologies = {
 
 		categories = {
 			cavalry_technology
+			raptor_technology
 		}
 
 		ai_will_do = {
@@ -466,7 +448,7 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
-			dire_wolf_technology
+			raptor_technology
 		}
 	
 		ai_will_do = {
@@ -492,15 +474,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -522,15 +500,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -538,6 +512,10 @@ technologies = {
 	
 		enable_equipments = {
 			raptor_equipment_2
+		}
+
+		dependencies = {
+			troll_lodge_tech = 1
 		}
 	
 		path = {
@@ -550,7 +528,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 584
+		start_year = 595
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 13 y = 6 }
@@ -558,6 +536,7 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_technology
 		}
 	
 		ai_will_do = {
@@ -575,7 +554,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 12 y = 8 }
@@ -583,15 +562,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -605,7 +580,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 14 y = 8 }
@@ -613,15 +588,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -630,9 +601,13 @@ technologies = {
 		enable_equipments = {
 			raptor_equipment_3
 		}
+
+		dependencies = {
+			troll_temple_tech = 1
+		}
 	
 		research_cost = 1.5
-		start_year = 584
+		start_year = 601
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 13 y = 10 }
@@ -640,6 +615,7 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_technology
 		}
 	
 		ai_will_do = {
@@ -673,6 +649,7 @@ technologies = {
 
 		categories = {
 			cavalry_technology
+			raptor_rider_technology
 		}
 
 		ai_will_do = {
@@ -704,7 +681,7 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
-			dire_wolf_technology
+			raptor_rider_technology
 		}
 	
 		ai_will_do = {
@@ -730,15 +707,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_rider_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -760,15 +733,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_rider_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -776,6 +745,10 @@ technologies = {
 	
 		enable_equipments = {
 			raptor_rider_equipment_2
+		}
+
+		dependencies = {
+			troll_lodge_tech = 1
 		}
 	
 		path = {
@@ -788,7 +761,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 584
+		start_year = 595
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 17 y = 6 }
@@ -796,6 +769,7 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_rider_technology
 		}
 	
 		ai_will_do = {
@@ -813,7 +787,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 16 y = 8 }
@@ -821,15 +795,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_rider_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -843,7 +813,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 18 y = 8 }
@@ -851,15 +821,11 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_rider_technology
 		}
 	
 		ai_will_do = {
-			factor = 300
-	
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -868,9 +834,13 @@ technologies = {
 		enable_equipments = {
 			raptor_rider_equipment_3
 		}
+
+		dependencies = {
+			troll_temple_tech = 1
+		}
 	
 		research_cost = 1.5
-		start_year = 584
+		start_year = 601
 		folder = {
 			name = troll_cavalry_folder
 			position = { x = 17 y = 10 }
@@ -878,6 +848,7 @@ technologies = {
 	
 		categories = {
 			cavalry_technology
+			raptor_rider_technology
 		}
 	
 		ai_will_do = {

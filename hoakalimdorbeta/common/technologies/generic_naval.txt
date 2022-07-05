@@ -7,7 +7,6 @@ technologies = {
 			building = dockyard
 			level = 25
 		}
-
 		enable_building = {
 			building = naval_base
 			level = 10
@@ -64,10 +63,6 @@ technologies = {
 				destroyer_tech_1 = 1
 				naval_transport_1 = 1
 			}
-		}
-
-		dependencies = {
-			wood_working_1 = 1
 		}
 
 		path = {

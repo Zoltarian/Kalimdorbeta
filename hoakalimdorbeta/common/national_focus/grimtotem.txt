@@ -318,6 +318,7 @@ focus_tree = {
 			add_to_variable = { faith_points = 150 }
 
 			add_tech_bonus = {
+				name = religion_technology
 				bonus = 0.5
 				uses = 1
 				category = religion_technology
@@ -824,11 +825,13 @@ focus_tree = {
 			}
 
 			add_tech_bonus = {
+				name = organic_air_technology
 				bonus = 0.5
 				uses = 2
 				category = organic_air_technology
 			}
 			add_tech_bonus = {
+				name = nesting_ground_technology
 				bonus = 0.5
 				uses = 1
 				category = nesting_ground_technology

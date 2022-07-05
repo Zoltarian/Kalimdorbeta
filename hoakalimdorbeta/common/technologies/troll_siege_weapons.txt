@@ -1,4 +1,581 @@
 #!gfx:interface\hoa_Technologies.gfx
 technologies = {
 
+	troll_siege_works = {
+	
+		path = {
+			leads_to_tech = troll_supply_wagon_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = troll_caravan_equipment_tech_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = troll_ballista_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 584
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			troll_siege_works_technology
+		}
+	}
+	
+	######
+	###Supply Wagon (Trucks)
+	######
+	troll_supply_wagon_tech = {
+
+		enable_subunits = {
+			supply_wagon
+		}
+
+		on_research_complete = {
+			set_technology = {
+				troll_supply_wagon_equipment_tech_1 = 1
+			}
+		}
+
+		research_cost = 2
+		start_year = 584
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = -4 y = 2 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = troll_supply_wagon_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	troll_supply_wagon_equipment_tech_1 = {
+
+		enable_equipments = {
+			supply_wagon_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = -4 y = 4 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = improved_troll_supply_wagon_1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	improved_troll_supply_wagon_1 = {
+
+		supply_wagon = {
+			supply_consumption_factor = -0.1
+		}
+
+		path = {
+			leads_to_tech = improved_troll_supply_wagon_2
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = -4 y = 6 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_supply_wagon_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_troll_supply_wagon_2 = {
+
+		supply_wagon = {
+			supply_consumption_factor = -0.1
+		}
+	
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_troll_supply_wagon_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = -4 y = 8 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_supply_wagon_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_troll_supply_wagon_3 = {
+
+		supply_wagon = {
+			supply_consumption_factor = -0.1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = -4 y = 10 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_supply_wagon_technology
+		}
+
+		path = {
+			leads_to_tech = improved_troll_supply_wagon_4
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improved_troll_supply_wagon_4 = {
+
+		supply_wagon = {
+			supply_consumption_factor = -0.1
+		}
+	
+		dependencies = {
+			troll_temple_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = -4 y = 12 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_supply_wagon_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	######
+	###Caravan Tech (Trains)
+	######
+	troll_caravan_equipment_tech_1 = {
+
+		enable_equipments = {
+			caravan_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_caravan_technology
+		}
+
+		path = {
+			leads_to_tech = troll_caravan_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	troll_caravan_equipment_tech_2 = {
+
+		enable_equipments = {
+			caravan_equipment_2
+		}
+
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_caravan_technology
+		}
+
+		path = {
+			leads_to_tech = troll_caravan_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	troll_caravan_equipment_tech_3 = {
+
+		enable_equipments = {
+			caravan_equipment_3
+		}
+
+		dependencies = {
+			troll_temple_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_caravan_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	######
+	###Troll Ballista
+	######
+
+	troll_ballista_tech = {
+
+		enable_subunits = {
+			troll_ballista
+			troll_ballista_support
+		}
+
+		on_research_complete = {
+			set_technology = {
+				troll_ballista_equipment_tech_1 = 1
+			}
+		}
+		path = {
+			leads_to_tech = troll_ballista_equipment_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 4 y = 2 }
+		}		
+		
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	troll_ballista_equipment_tech_1 = {
+
+		enable_equipments = {
+			troll_ballista_equipment_1
+		}
+
+		path = {
+			leads_to_tech = troll_ballista_tier_1_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = troll_ballista_tier_1_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = beast_drawn_ballista
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 584
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 4 y = 4 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	troll_ballista_tier_1_upgrade_placeholder_1 = {
+
+		xor = { troll_ballista_tier_1_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = troll_ballista_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 3 y = 6 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	troll_ballista_tier_1_upgrade_placeholder_2 = {
+
+		xor = { troll_ballista_tier_1_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = troll_ballista_equipment_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 5 y = 6 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	troll_ballista_equipment_tech_2 = {
+
+		enable_equipments = {
+			troll_ballista_equipment_2
+		}
+
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
+		path = {
+			leads_to_tech = troll_ballista_tier_2_upgrade_placeholder_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = troll_ballista_tier_2_upgrade_placeholder_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 595
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 4 y = 8 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	troll_ballista_tier_2_upgrade_placeholder_1 = {
+
+		xor = { troll_ballista_tier_2_upgrade_placeholder_2 }
+
+		path = {
+			leads_to_tech = troll_ballista_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 3 y = 10 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	troll_ballista_tier_2_upgrade_placeholder_2 = {
+
+		xor = { troll_ballista_tier_2_upgrade_placeholder_1 }
+
+		path = {
+			leads_to_tech = troll_ballista_equipment_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 598
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 5 y = 10 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	troll_ballista_equipment_tech_3 = {
+
+		enable_equipments = {
+			troll_ballista_equipment_3
+		}
+
+		dependencies = {
+			troll_temple_tech = 1
+		}
+
+		research_cost = 1.5
+		start_year = 601
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 4 y = 12 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	beast_drawn_ballista = {
+	
+		enable_subunits = {
+			beast_drawn_ballista
+		}
+		
+		dependencies = {
+			dino_breeding_1 = 1
+		}
+
+		research_cost = 1.5
+		start_year = 592
+
+		folder = {
+			name = troll_siege_weapons_folder
+			position = { x = 7 y = 4 }
+		}
+
+		categories = {
+			troll_siege_works_technology
+			troll_ballista_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

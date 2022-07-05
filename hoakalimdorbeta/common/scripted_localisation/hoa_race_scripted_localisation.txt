@@ -3776,25 +3776,73 @@ defined_text = {
 }
 
 defined_text = { #No Female Tolvir
-	#max 1
+	#max 5	
 	name = Get_Tolvir_Name
 	text = {
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "Abari"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Abasi"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Ahmos"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Amenophis"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Amet"
 	}
 
 }
 
 defined_text = {
-	#max 1
+	#max 5
 	name = Get_Tolvir_Surname
 	text = {
 		trigger = {
 			state = 1
 		}
-		localization_key = "placeholder"
+		localization_key = "Djosa"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "Fangtalker"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "Sandstalker"
+	}
+	text = {
+		trigger = {
+			state = 4
+		}
+		localization_key = "Sand-Touched"
+	}
+	text = {
+		trigger = {
+			state = 5
+		}
+		localization_key = "Sunkeeper"
 	}
 }
 
@@ -4976,5 +5024,28 @@ defined_text = {
 			state = 3
 		}
 		localization_key = "GFX_CEN_generic_ancient_1"
+	}
+}
+
+defined_text = {
+	#max 3
+	name = Get_ULD_tolvir_portrait
+	text = {
+		trigger = {
+			state = 1
+		}
+		localization_key = "GFX_AHQ_generic_silithid_1"
+	}
+	text = {
+		trigger = {
+			state = 2
+		}
+		localization_key = "GFX_AHQ_generic_silithid_2"
+	}
+	text = {
+		trigger = {
+			state = 3
+		}
+		localization_key = "GFX_AHQ_generic_silithid_3"
 	}
 }

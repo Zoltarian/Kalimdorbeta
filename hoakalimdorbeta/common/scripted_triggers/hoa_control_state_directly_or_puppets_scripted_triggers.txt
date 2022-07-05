@@ -19,6 +19,142 @@ owned_and_controlled_by_ROOT_or_puppets = {
 }
 
 ####################
+# Northrend
+####################
+
+#Crystalong Forest
+control_crystalsong_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_crystalsong_directly_or_puppets_tt
+    53 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1627 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1628 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1629 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1630 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1631 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1632 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1633 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1634 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1635 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1980 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1981 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1982 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Sholazar
+control_sholazar_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_sholazar_directly_or_puppets_tt
+    56 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1285 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1286 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1287 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1288 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1760 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1761 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1762 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1763 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1764 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1765 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1766 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1767 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1768 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1769 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1770 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1771 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1772 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1773 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1774 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1775 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1776 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1777 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1778 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1779 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1780 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1781 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1782 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  	1783 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Grizzly Hills
+control_grizzly_hills_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_grizzly_hills_directly_or_puppets_tt
+    49 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1666 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1667 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1668 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1669 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1670 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1671 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1672 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1673 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1674 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1675 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1676 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1677 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1678 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1679 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1680 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1681 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1682 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1683 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1684 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1685 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1686 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1687 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1688 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1689 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1690 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1691 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1692 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1835 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+#Mainland Howling fjord
+control_mainland_howling_fjord_directly_or_puppets = {
+  custom_trigger_tooltip = {
+    tooltip = control_mainland_howling_fjord_directly_or_puppets_tt
+    1027 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1028 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1636 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1637 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1638 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1639 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1640 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1641 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1642 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1643 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1644 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1645 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1646 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1647 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1648 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1650 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1651 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1652 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1653 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1654 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1655 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1656 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1657 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1658 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1659 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1660 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1661 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1662 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1663 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1664 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+	1665 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    1834 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+    2135 = { owned_and_controlled_by_ROOT_or_puppets = yes }
+  }
+}
+
+####################
 # Kezan
 ####################
 

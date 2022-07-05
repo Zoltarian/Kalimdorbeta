@@ -281,3 +281,33 @@ set_unit_leader_to_ancient_CEN = {
 	#} removed as its part of an else bracket that isnt needed
 
 }
+
+set_unit_leader_to_tolvir_ULD = {
+	
+		set_temp_variable = {
+			name_idx = 5 #number of first name for this race in the scirpted loc list
+		}
+		get_random_name_idx = yes
+		set_temp_variable = {
+			surname_idx = 5 #number of last name for this race in the scirpted loc list
+		}
+		get_random_surname_idx = yes
+		meta_effect = {
+			text = {
+				set_leader_name = "[NAME] [SURNAME]"
+			}
+			NAME = "[?name_idx.Get_Tolvir_Name]"
+			SURNAME = "[?surname_idx.Get_Tolvir_Surname]"
+		}
+			set_temp_variable = {
+				name_idx = 3 # this is the number of portraits in the scirpted loc list
+			}
+			get_random_name_idx = yes
+			meta_effect = {
+				text = {
+					set_leader_portrait = "[PORTRAIT]"
+				}
+				PORTRAIT = "[?name_idx.Get_ULD_tolvir_portrait]"
+			}
+
+}

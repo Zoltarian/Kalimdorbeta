@@ -1794,7 +1794,7 @@ form_bloodmyst_kingdom_category = {
 
 			swap_ideas = {
 				remove_idea = clan
-		    add_idea = kingdom
+		    	add_idea = kingdom
 			}
 
 			set_cosmetic_tag = BLO_KINGDOM
@@ -2752,6 +2752,196 @@ form_hive_fieldgiant_category = {
 				974 = { add_core_of = ROOT }
 
 			}
+		}
+	}
+}
+
+form_kingdom_of_utgarde_category = {
+	form_kingdom_of_utgarde = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = DFC
+				original_tag = WIC
+				original_tag = GJA
+			}
+		}
+
+		available = {
+			is_subject = no
+			control_mainland_howling_fjord_directly_or_puppets = yes
+		}
+
+		visible = {
+			OR = {
+				original_tag = DFC
+				original_tag = WIC
+				original_tag = GJA
+			}
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = KINGDOM_UTGARDE
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = KINGDOM_UTGARDE
+
+			annex_mainland_howling_fjord = yes
+		}
+	}
+}
+
+form_realm_of_the_north_category = {
+	form_realm_of_the_north = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = SVB
+				original_tag = SLP
+			}
+		}
+
+		available = {
+			is_subject = no
+			control_grizzly_hills_directly_or_puppets = yes
+		}
+
+		visible = {
+			OR = {
+				original_tag = SVB
+				original_tag = SLP
+			}
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = REALM_NORTH
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = REALM_NORTH
+
+			swap_ideas = {
+				remove_idea = city_state
+		    	add_idea = kingdom
+			}
+
+			annex_grizzly_hills = yes
+		}
+	}
+}
+
+form_keepers_of_sholazar_category = {
+	form_keepers_of_sholazar = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = SLW
+		}
+
+		available = {
+			is_subject = no
+			control_sholazar_directly_or_puppets = yes
+		}
+
+		visible = {
+			original_tag = SLW
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = SHOLAZAR_KEEPER
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SHOLAZAR_KEEPER
+
+			annex_sholazar = yes
+		}
+	}
+}
+
+form_sholazar_tribe_category = {
+	form_sholazar_tribe = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = MWA
+				original_tag = RST
+				original_tag = MWH
+				original_tag = SKT
+			}
+		}
+
+		available = {
+			is_subject = no
+			control_sholazar_directly_or_puppets = yes
+		}
+
+		visible = {
+			OR = {
+				original_tag = MWA
+				original_tag = RST
+				original_tag = MWH
+				original_tag = SKT
+			}
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = SHOLAZAR_TRIBE
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SHOLAZAR_TRIBE
+
+			annex_sholazar = yes
+		}
+	}
+}
+
+form_crystalsong_kingdom_category = {
+	form_crystalsong_kingdom = {
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CSS
+				original_tag = TUB
+			}
+		}
+
+		available = {
+			is_subject = no
+			control_crystalsong_directly_or_puppets = yes
+		}
+
+		visible = {
+			OR = {
+				original_tag = CSS
+				original_tag = TUB
+			}
+
+			NOT = {
+				any_country = {
+					has_cosmetic_tag = CRYSTALSONG_KINGDOM
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = CRYSTALSONG_KINGDOM
+
+			annex_crystalsong = yes
 		}
 	}
 }

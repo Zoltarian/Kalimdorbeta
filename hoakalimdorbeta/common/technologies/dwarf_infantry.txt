@@ -537,9 +537,8 @@ technologies = {
 	
 	improved_mountaineer_1 = {
 	
-		priest = {
-			casualty_trickleback = 0.075
-			experience_loss_factor = -0.075
+		mountaineer = {
+			recon = 1.7
 		}
 	
 		path = {
@@ -568,8 +567,7 @@ technologies = {
 	improved_mountaineer_2 = {
 	
 		mountaineer = {
-			casualty_trickleback = 0.075
-			experience_loss_factor = -0.075
+			recon = 1.7
 		}
 	
 		dependencies = {
@@ -602,8 +600,7 @@ technologies = {
 	improved_mountaineer_3 = {
 	
 		mountaineer = {
-			casualty_trickleback = 0.075
-			experience_loss_factor = -0.075
+			recon = 1.7
 		}
 	
 		path = {
@@ -632,8 +629,7 @@ technologies = {
 	improved_mountaineer_4 = {
 	
 		mountaineer = {
-			casualty_trickleback = 0.075
-			experience_loss_factor = -0.075
+			recon = 1.7
 		}
 	
 		dependencies = {
@@ -1280,7 +1276,7 @@ technologies = {
 	improved_thane_1 = {
 	
 		thane = {
-			recon = 1.75
+			initiative = 0.1
 		}
 	
 		path = {
@@ -1309,7 +1305,7 @@ technologies = {
 	improved_thane_2 = {
 	
 		thane = {
-			recon = 1.75
+			initiative = 0.1
 		}
 	
 		dependencies = {
@@ -1342,7 +1338,7 @@ technologies = {
 	improved_thane_3 = {
 	
 		thane = {
-			recon = 1.75
+			initiative = 0.1
 		}
 	
 		path = {
@@ -1371,7 +1367,7 @@ technologies = {
 	improved_thane_4 = {
 	
 		thane = {
-			recon = 1.75
+			initiative = 0.1
 		}
 	
 		dependencies = {

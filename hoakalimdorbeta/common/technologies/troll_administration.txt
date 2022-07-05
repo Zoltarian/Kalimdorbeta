@@ -19,7 +19,6 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
@@ -53,8 +52,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
-		start_year = 594
+		start_year = 595
 		folder = {
 			name = troll_administration_folder
 			position = { x = -2 y = 6 }
@@ -82,8 +80,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
-		start_year = 600
+		start_year = 601
 		folder = {
 			name = troll_administration_folder
 			position = { x = -2 y = 10 }
@@ -99,32 +96,32 @@ technologies = {
 		}
 
 	}
+	
 	######
 	###Labourer Tech
 	######
 	labourer_tech = {
 
-		###enable_subunits = {
-		###labourer
-		###}
+		enable_subunits = {
+		labourer
+		}
 
 		on_research_complete = {
 			set_technology = {
-				labourer_equipment_tech = 1
+				troll_support_equipment = 1
 			}
 		}
 
 		path = {
-			leads_to_tech = labourer_equipment_tech
+			leads_to_tech = troll_support_equipment
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 2 y = 0 }
+			position = { x = 3 y = 0 }
 		}
 
 		ai_will_do = {
@@ -132,16 +129,16 @@ technologies = {
 		}
 
 		categories = {
-			labourer_technology
+			administration_technology
 			troll_support_technology
 		}
 	}
 	
-	labourer_equipment_tech = {
+	troll_support_equipment = {
 
-		###enable_equipments = {
-		###	labourer_equipment_1
-		###}
+		enable_equipments = {
+			troll_support_equipment_1
+		}
 
 		path = {
 			leads_to_tech = improved_labourer_1
@@ -157,11 +154,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 2 y = 2 }
+			position = { x = 3 y = 2 }
 		}
 
 		ai_will_do = {
@@ -169,21 +165,21 @@ technologies = {
 		}
 
 		categories = {
-			labourer_technology
+			administration_technology
 			troll_support_technology
 		}
 	}
 	
 	improved_labourer_1 = {
 
-		###labourer = {
-		###	supply_consumption_factor = -0.075
-		###	entrenchment  = 0.75
-		###	fort = {
-		###		defence = 0.075
-		###		attack = 0.075
-		###	}
-		###}
+		labourer = {
+		supply_consumption_factor = -0.075
+		entrenchment  = 0.75
+		fort = {
+			defence = 0.075
+			attack = 0.075
+		}
+		}
 
 		path = {
 			leads_to_tech = improved_labourer_2
@@ -191,11 +187,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 2 y = 4 }
+			position = { x = 3 y = 4 }
 		}
 
 		ai_will_do = {
@@ -203,21 +198,21 @@ technologies = {
 		}
 
 		categories = {
-			labourer_technology
+			administration_technology
 			troll_support_technology
 		}
 	}
 	
 	improved_labourer_2 = {
 
-		###labourer = {
-		###	supply_consumption_factor = -0.075
-		###	entrenchment  = 0.75
-		###	river = {
-		###		defence = 0.075
-		###		attack = 0.075
-		###	}
-		###}
+		labourer = {
+		supply_consumption_factor = -0.075
+		entrenchment  = 0.75
+		river = {
+			defence = 0.075
+			attack = 0.075
+		}
+		}
 
 		dependencies = {
 			troll_lodge_tech = 1
@@ -229,11 +224,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 2 y = 6 }
+			position = { x = 3 y = 6 }
 		}
 
 		ai_will_do = {
@@ -241,21 +235,21 @@ technologies = {
 		}
 
 		categories = {
-			labourer_technology
+			administration_technology
 			troll_support_technology
 		}
 	}
 	
 	improved_labourer_3 = {
 
-		###labourer = {
-		###	supply_consumption_factor = -0.075
-		###	entrenchment  = 0.75
-		###	city = {
-		###		defence = 0.075
-		###		attack = 0.075
-		###	}
-		###}
+		labourer = {
+		supply_consumption_factor = -0.075
+		entrenchment  = 0.75
+		city = {
+			defence = 0.075
+			attack = 0.075
+		}
+		}
 
 		path = {
 			leads_to_tech = improved_labourer_4
@@ -263,11 +257,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 2 y = 8 }
+			position = { x = 3 y = 8 }
 		}
 
 		ai_will_do = {
@@ -275,32 +268,31 @@ technologies = {
 		}
 
 		categories = {
-			labourer_technology
+			administration_technology
 			troll_support_technology
 		}
 	}
 	
 	improved_labourer_4 = {
 
-		###labourer = {
-		###	supply_consumption_factor = -0.075
-		###	entrenchment  = 0.75
-		###	city = {
-		###		defence = 0.075
-		###		attack = 0.075
-		###	}
-		###}
+		labourer = {
+		supply_consumption_factor = -0.075
+		entrenchment  = 0.75
+		city = {
+			defence = 0.075
+			attack = 0.075
+		}
+		}
 
 		dependencies = {
 			troll_temple_tech = 1
 		}
 
 		research_cost = 1.5
-
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 2 y = 10 }
+			position = { x = 3 y = 10 }
 		}
 
 		ai_will_do = {
@@ -308,16 +300,18 @@ technologies = {
 		}
 
 		categories = {
-			labourer_technology
+			administration_technology
 			troll_support_technology
 		}
 	}
+	
 	######
 	###Village Development
 	######
 	village_development_1 = {
 
 		global_building_slots_factor = 0.15
+		production_speed_buildings_factor = 0.05
 
 		path = {
 			leads_to_tech = village_development_2
@@ -325,7 +319,6 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
@@ -338,13 +331,14 @@ technologies = {
 
 		categories = {
 			administration_technology
-			village_technology
+			troll_village_technology
 		}
 	}
 	
 	village_development_2 = {
 	
 		global_building_slots_factor = 0.15
+		production_speed_buildings_factor = 0.05
 
 		path = {
 			leads_to_tech = village_development_3
@@ -352,7 +346,6 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
@@ -365,13 +358,14 @@ technologies = {
 
 		categories = {
 			administration_technology
-			village_technology
+			troll_village_technology
 		}
 	}
 	
 	village_development_3 = {
 
 		global_building_slots_factor = 0.15
+		production_speed_buildings_factor = 0.05
 
 		dependencies = {
 			troll_lodge_tech = 1
@@ -383,7 +377,6 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
@@ -396,13 +389,14 @@ technologies = {
 
 		categories = {
 			administration_technology
-			village_technology
+			troll_village_technology
 		}
 	}
 	
 	village_development_4 = {
 
 		global_building_slots_factor = 0.15
+		production_speed_buildings_factor = 0.05
 
 		path = {
 			leads_to_tech = village_development_5
@@ -410,7 +404,6 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
@@ -423,20 +416,20 @@ technologies = {
 
 		categories = {
 			administration_technology
-			village_technology
+			troll_village_technology
 		}
 	}
 	
 	village_development_5 = {
 
 		global_building_slots_factor = 0.15
+		production_speed_buildings_factor = 0.05
 
 		dependencies = {
 			troll_temple_tech = 1
 		}
 
 		research_cost = 2
-
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
@@ -449,9 +442,10 @@ technologies = {
 
 		categories = {
 			administration_technology
-			village_technology
+			troll_village_technology
 		}
 	}
+	
 	######
 	###Food Tech
 	######
@@ -468,11 +462,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 4 y = 2 }
+			position = { x = 6 y = 2 }
 		}
 
 		ai_will_do = {
@@ -481,7 +474,7 @@ technologies = {
 
 		categories = {
 			administration_technology
-			hunting_technology
+			troll_hunting_technology
 		}
 	}
 	
@@ -505,11 +498,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 4 y = 4 }
+			position = { x = 6 y = 4 }
 		}
 
 		ai_will_do = {
@@ -518,7 +510,7 @@ technologies = {
 
 		categories = {
 			administration_technology
-			hunting_technology
+			troll_hunting_technology
 		}
 	}
 	
@@ -546,11 +538,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 4 y = 6 }
+			position = { x = 6 y = 6 }
 		}
 
 		ai_will_do = {
@@ -559,7 +550,7 @@ technologies = {
 
 		categories = {
 			administration_technology
-			hunting_technology
+			troll_hunting_technology
 		}
 	}
 	
@@ -583,11 +574,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 4 y = 8 }
+			position = { x = 6 y = 8 }
 		}
 
 		ai_will_do = {
@@ -596,7 +586,7 @@ technologies = {
 
 		categories = {
 			administration_technology
-			hunting_technology
+			troll_hunting_technology
 		}
 	}
 	
@@ -619,11 +609,10 @@ technologies = {
 		###}
 
 		research_cost = 1.5
-
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 4 y = 10 }
+			position = { x = 6 y = 10 }
 		}
 
 		ai_will_do = {
@@ -632,9 +621,10 @@ technologies = {
 
 		categories = {
 			administration_technology
-			hunting_technology
+			troll_hunting_technology
 		}
 	}
+	
 	######
 	###Craftsman Tech
 	######
@@ -704,11 +694,10 @@ technologies = {
 		}
 		
 		research_cost = 1
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 10 y = 0 }
+			position = { x = 12 y = 0 }
 		}
 
 		ai_will_do = {
@@ -723,9 +712,9 @@ technologies = {
 	
 	troll_craftsman_unit_tech_1 = {
 
-		###enable_subunits = {
-		###	artisan_craftsman_unit
-		###}
+		enable_subunits = {
+			artisan_craftsman_unit
+		}
 
 		path = {
 			leads_to_tech = troll_craftsman_unit_tech_2
@@ -733,11 +722,10 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 6 y = 2 }
+			position = { x = 8 y = 2 }
 		}
 
 		ai_will_do = {
@@ -746,33 +734,27 @@ technologies = {
 
 		categories = {
 			administration_technology
-			artisan_craftsman_unit_technology
 			troll_craftsman_technology
 		}
 	}
 	
 	troll_craftsman_unit_tech_2 = {
 
-		###artisan_craftsman_unit = {
-		###	reliability_factor = 0.05
-		###	equipment_capture_factor = 0.05
-		###}
+		artisan_craftsman_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
 
 		path = {
 			leads_to_tech = troll_craftsman_unit_tech_3
 			research_cost_coeff = 1
 		}
-		
-		dependencies = {
-			troll_lodge_tech = 1
-		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 6 y = 4 }
+			position = { x = 8 y = 4 }
 		}
 
 		ai_will_do = {
@@ -781,17 +763,16 @@ technologies = {
 
 		categories = {
 			administration_technology
-			artisan_craftsman_unit_technology
 			troll_craftsman_technology
 		}
 	}
 	
 	troll_craftsman_unit_tech_3 = {
 
-		###artisan_craftsman_unit = {
-		###	reliability_factor = 0.05
-		###	equipment_capture_factor = 0.05
-		###}
+		artisan_craftsman_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
 
 		dependencies = {
 			troll_lodge_tech = 1
@@ -803,11 +784,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 6 y = 6 }
+			position = { x = 8 y = 6 }
 		}
 
 		ai_will_do = {
@@ -816,17 +796,16 @@ technologies = {
 
 		categories = {
 			administration_technology
-			artisan_craftsman_unit_technology
 			troll_craftsman_technology
 		}
 	}
 	
 	troll_craftsman_unit_tech_4 = {
 
-		###artisan_craftsman_unit = {
-		###	reliability_factor = 0.05
-		###	equipment_capture_factor = 0.05
-		###}
+		artisan_craftsman_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
 
 		path = {
 			leads_to_tech = troll_craftsman_unit_tech_5
@@ -834,11 +813,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 6 y = 8 }
+			position = { x = 8 y = 8 }
 		}
 
 		ai_will_do = {
@@ -847,24 +825,26 @@ technologies = {
 
 		categories = {
 			administration_technology
-			artisan_craftsman_unit_technology
 			troll_craftsman_technology
 		}
 	}
 	
 	troll_craftsman_unit_tech_5 = {
 
-		###artisan_craftsman_unit = {
-		###	reliability_factor = 0.05
-		###	equipment_capture_factor = 0.05
-		###}
+		artisan_craftsman_unit = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
 		research_cost = 1.5
-
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 6 y = 10 }
+			position = { x = 8 y = 10 }
 		}
 
 		ai_will_do = {
@@ -873,7 +853,6 @@ technologies = {
 
 		categories = {
 			administration_technology
-			artisan_craftsman_unit_technology
 			troll_craftsman_technology
 		}
 	}
@@ -899,11 +878,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 8 y = 4 }
+			position = { x = 10 y = 4 }
 		}
 
 		ai_will_do = {
@@ -913,6 +891,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_weapon_technology
 		}
 	}
 	
@@ -937,11 +916,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 8 y = 6 }
+			position = { x = 10 y = 6 }
 		}
 
 		ai_will_do = {
@@ -951,6 +929,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_weapon_technology
 		}
 	}
 	
@@ -971,11 +950,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 8 y = 8 }
+			position = { x = 10 y = 8 }
 		}
 
 		ai_will_do = {
@@ -985,6 +963,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_weapon_technology
 		}
 	}
 	
@@ -1004,11 +983,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 8 y = 10 }
+			position = { x = 10 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1018,6 +996,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_weapon_technology
 		}
 	}
 	######
@@ -1041,11 +1020,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 10 y = 4 }
+			position = { x = 12 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1055,6 +1033,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_armour_technology
 		}
 	}
 	
@@ -1079,11 +1058,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 10 y = 6 }
+			position = { x = 12 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1093,6 +1071,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_armour_technology
 		}
 	}
 	
@@ -1113,11 +1092,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 10 y = 8 }
+			position = { x = 12 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1127,6 +1105,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_armour_technology
 		}
 	}
 	
@@ -1141,12 +1120,15 @@ technologies = {
 		###	breakthrough = 0.07
 		###}
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 10 y = 10 }
+			position = { x = 12 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1156,6 +1138,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_armour_technology
 		}
 	}
 	
@@ -1181,11 +1164,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 12 y = 4 }
+			position = { x = 14 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1195,6 +1177,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_fur_technology
 		}
 	}
 	
@@ -1220,11 +1203,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 12 y = 6 }
+			position = { x = 14 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1234,6 +1216,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_fur_technology
 		}
 	}
 	
@@ -1255,11 +1238,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 12 y = 8 }
+			position = { x = 14 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1269,6 +1251,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_fur_technology
 		}
 	}
 	
@@ -1284,12 +1267,15 @@ technologies = {
 		acclimatization_cold_climate_gain_factor = 0.05
 		acclimatization_hot_climate_gain_factor = 0.075
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 12 y = 10 }
+			position = { x = 14 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1299,6 +1285,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_fur_technology
 		}
 	}
 	######
@@ -1316,11 +1303,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 14 y = 2 }
+			position = { x = 16 y = 2 }
 		}
 
 		ai_will_do = {
@@ -1330,6 +1316,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_blueprint_technology
 		}
 	}
 	
@@ -1345,11 +1332,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 14 y = 4 }
+			position = { x = 16 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1359,6 +1345,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_blueprint_technology
 		}
 	}
 	
@@ -1378,11 +1365,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 14 y = 6 }
+			position = { x = 16 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1392,6 +1378,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_blueprint_technology
 		}
 	}
 	
@@ -1407,11 +1394,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 14 y = 8 }
+			position = { x = 16 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1421,6 +1407,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_blueprint_technology
 		}
 	}
 	
@@ -1430,12 +1417,15 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.04
 		equipment_conversion_speed = 0.2
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 14 y = 10 }
+			position = { x = 16 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1445,6 +1435,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_blueprint_technology
 		}
 	}
 	######
@@ -1463,11 +1454,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 16 y = 2 }
+			position = { x = 18 y = 2 }
 		}
 
 		ai_will_do = {
@@ -1477,6 +1467,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_workbench_technology
 		}
 	}
 	
@@ -1493,11 +1484,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 16 y = 4 }
+			position = { x = 18 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1507,6 +1497,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_workbench_technology
 		}
 	}
 	
@@ -1527,11 +1518,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 16 y = 6 }
+			position = { x = 18 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1541,6 +1531,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_workbench_technology
 		}
 	}
 	
@@ -1557,11 +1548,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 16 y = 8 }
+			position = { x = 18 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1571,6 +1561,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_workbench_technology
 		}
 	}
 	
@@ -1581,12 +1572,15 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.02
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 16 y = 10 }
+			position = { x = 18 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1596,8 +1590,10 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_workbench_technology
 		}
 	}
+	
 	######
 	###Wood Resources
 	######
@@ -1608,6 +1604,9 @@ technologies = {
 				lumber_mill_tech_global = 1
 			}
 		}
+
+		industrial_capacity_factory = 0.025
+		production_speed_buildings_factor = 0.05
 
 		enable_building = {
 			building = lumber_mill
@@ -1620,11 +1619,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 18 y = 2 }
+			position = { x = 20 y = 2 }
 		}
 
 		ai_will_do = {
@@ -1634,12 +1632,14 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_wood_technology
 		}
 	}
 	
 		troll_wood_carvers_tech_2 = {
 
 		industrial_capacity_factory = 0.025
+		production_speed_buildings_factor = 0.05
 
 		on_research_complete = {
 			modify_building_resources = {
@@ -1655,11 +1655,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 18 y = 4 }
+			position = { x = 20 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1669,12 +1668,14 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_wood_technology
 		}
 	}
 	
 		troll_wood_carvers_tech_3 = {
 
 		industrial_capacity_factory = 0.025
+		production_speed_buildings_factor = 0.05
 
 		on_research_complete = {
 			modify_building_resources = {
@@ -1683,22 +1684,21 @@ technologies = {
 				amount = 1
 			}
 		}
+
+		dependencies = {
+			troll_lodge_tech = 1
+		}
 		
 		path = {
 			leads_to_tech = troll_wood_carvers_tech_4
 			research_cost_coeff = 1
 		}
-		
-		dependencies = {
-			troll_lodge_tech = 1
-		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 18 y = 6 }
+			position = { x = 20 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1708,12 +1708,14 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_wood_technology
 		}
 	}
 	
 		troll_wood_carvers_tech_4 = {
 
 		industrial_capacity_factory = 0.025
+		production_speed_buildings_factor = 0.05
 
 		on_research_complete = {
 			modify_building_resources = {
@@ -1729,11 +1731,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 18 y = 8 }
+			position = { x = 20 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1743,12 +1744,14 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_wood_technology
 		}
 	}
 	
 	troll_wood_carvers_tech_5 = {
 
 		industrial_capacity_factory = 0.025
+		production_speed_buildings_factor = 0.05
 
 		on_research_complete = {
 			modify_building_resources = {
@@ -1758,12 +1761,15 @@ technologies = {
 			}
 		}
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 18 y = 10 }
+			position = { x = 20 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1773,12 +1779,13 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_wood_technology
 		}
 	}
+	
 	######
 	###Bunkers
 	######
-	
 	barricade_tech = {
 
 		enable_building = {
@@ -1792,11 +1799,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 20 y = 2 }
+			position = { x = 22 y = 2 }
 		}
 
 		ai_will_do = {
@@ -1806,6 +1812,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_barricade_technology
 		}
 	}
 	
@@ -1822,11 +1829,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 20 y = 4 }
+			position = { x = 22 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1836,6 +1842,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_barricade_technology
 		}
 	}
 	
@@ -1846,17 +1853,20 @@ technologies = {
 			level = 6
 		}
 
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
 		path = {
 			leads_to_tech = improved_barricades_3
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-
-		start_year = 592
+		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 20 y = 6 }
+			position = { x = 22 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1866,6 +1876,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_barricade_technology
 		}
 	}
 	
@@ -1882,11 +1893,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
-		start_year = 592
+		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 20 y = 8 }
+			position = { x = 22 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1896,6 +1906,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_barricade_technology
 		}
 	}
 	
@@ -1906,12 +1917,15 @@ technologies = {
 			level = 10
 		}
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
-		start_year = 592
+		research_cost = 1.5
+		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 20 y = 10 }
+			position = { x = 22 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1921,12 +1935,13 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_barricade_technology
 		}
 	}
+	
 	######
 	###Egg Building
 	######
-	
 	bat_caves_tech_1 = {
 
 		enable_building = {
@@ -1940,11 +1955,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 22 y = 2 }
+			position = { x = 24 y = 2 }
 		}
 
 		ai_will_do = {
@@ -1954,6 +1968,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_egg_technology
 		}
 	}
 	
@@ -1973,11 +1988,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 22 y = 4 }
+			position = { x = 24 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1987,6 +2001,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_egg_technology
 		}
 	}
 	
@@ -2000,17 +2015,20 @@ technologies = {
 			}
 		}
 
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
 		path = {
 			leads_to_tech = bat_caves_tech_4
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 22 y = 6 }
+			position = { x = 24 y = 6 }
 		}
 
 		ai_will_do = {
@@ -2020,6 +2038,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_egg_technology
 		}
 	}
 	
@@ -2039,11 +2058,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 22 y = 8 }
+			position = { x = 24 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2053,6 +2071,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_egg_technology
 		}
 	}
 	
@@ -2066,12 +2085,15 @@ technologies = {
 			}
 		}
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 22 y = 10 }
+			position = { x = 24 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2081,12 +2103,13 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_egg_technology
 		}
 	}
+	
 	######
 	###Ore Mines
 	######
-	
 	troll_mine_tech = {
 
 		enable_building = {
@@ -2100,11 +2123,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 24 y = 2 }
+			position = { x = 26 y = 2 }
 		}
 
 		ai_will_do = {
@@ -2114,6 +2136,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_ore_technology
 		}
 	}
 	
@@ -2135,11 +2158,10 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 24 y = 4 }
+			position = { x = 26 y = 4 }
 		}
 
 		ai_will_do = {
@@ -2149,6 +2171,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_ore_technology
 		}
 	}
 	
@@ -2164,17 +2187,20 @@ technologies = {
 			}
 		}
 
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
 		path = {
 			leads_to_tech = troll_mine_cart_3
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 24 y = 6 }
+			position = { x = 26 y = 6 }
 		}
 
 		ai_will_do = {
@@ -2184,6 +2210,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_ore_technology
 		}
 	}
 	
@@ -2205,11 +2232,10 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 24 y = 8 }
+			position = { x = 26 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2219,6 +2245,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_ore_technology
 		}
 	}
 	
@@ -2234,12 +2261,15 @@ technologies = {
 			}
 		}
 
-		research_cost = 2
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 2
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 24 y = 10 }
+			position = { x = 26 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2249,13 +2279,13 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_ore_technology
 		}
 	}
 	
 	######
 	###Gunpower Resource
 	######
-	
 	mojo_pool_tech = {
 
 		enable_building = {
@@ -2269,11 +2299,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 26 y = 2 }
+			position = { x = 28 y = 2 }
 		}
 
 		ai_will_do = {
@@ -2283,6 +2312,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_gunpowder_technology
 		}
 	}
 	
@@ -2304,11 +2334,10 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 26 y = 4 }
+			position = { x = 28 y = 4 }
 		}
 
 		ai_will_do = {
@@ -2318,6 +2347,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_gunpowder_technology
 		}
 	}
 	
@@ -2333,17 +2363,20 @@ technologies = {
 			}
 		}
 
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
 		path = {
 			leads_to_tech = troll_improved_mixture_3
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 26 y = 6 }
+			position = { x = 28 y = 6 }
 		}
 
 		ai_will_do = {
@@ -2353,6 +2386,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_gunpowder_technology
 		}
 	}
 	
@@ -2374,11 +2408,10 @@ technologies = {
 		}
 
 		research_cost = 2
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 26 y = 8 }
+			position = { x = 28 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2388,6 +2421,7 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_gunpowder_technology
 		}
 	}
 	
@@ -2403,12 +2437,15 @@ technologies = {
 			}
 		}
 
-		research_cost = 2
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 2
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 26 y = 10 }
+			position = { x = 28 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2418,12 +2455,13 @@ technologies = {
 		categories = {
 			administration_technology
 			troll_craftsman_technology
+			troll_gunpowder_technology
 		}
 	}
+	
 	######
 	###Watch Towers
 	######
-	
 	troll_towers_tech_1 = {
 
 		enable_building = {
@@ -2443,11 +2481,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 28 y = 2 }
+			position = { x = 30 y = 2 }
 		}
 
 		ai_will_do = {
@@ -2479,11 +2516,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 28 y = 4 }
+			position = { x = 30 y = 4 }
 		}
 
 		ai_will_do = {
@@ -2506,6 +2542,10 @@ technologies = {
 			building = anti_air_building
 			level = 3
 		}
+
+		dependencies = {
+			troll_lodge_tech = 1
+		}
 		
 		industry_air_damage_factor = -0.02
 
@@ -2515,11 +2555,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 28 y = 6 }
+			position = { x = 30 y = 6 }
 		}
 
 		ai_will_do = {
@@ -2551,11 +2590,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 28 y = 8 }
+			position = { x = 30 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2578,15 +2616,18 @@ technologies = {
 			building = anti_air_building
 			level = 5
 		}
+
+		dependencies = {
+			troll_temple_tech = 1
+		}
 		
 		industry_air_damage_factor = -0.02
 
 		research_cost = 1.5
-
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 28 y = 10 }
+			position = { x = 30 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2598,10 +2639,10 @@ technologies = {
 			troll_craftsman_technology
 		}
 	}
+	
 	######
 	###Spy Agency
 	######
-	
 	shadow_lodge_tech = {
 
 		path = {
@@ -2617,7 +2658,7 @@ technologies = {
 		start_year = 584
 		folder = {
 			name = troll_administration_folder
-			position = { x = 30 y = 2 }
+			position = { x = 32 y = 2 }
 		}
 
 		ai_will_do = {
@@ -2640,11 +2681,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 30 y = 4 }
+			position = { x = 32 y = 4 }
 		}
 
 		ai_will_do = {
@@ -2661,17 +2701,20 @@ technologies = {
 
 		encryption = 1
 
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
 		path = {
 			leads_to_tech = troll_encryption_3
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 30 y = 6 }
+			position = { x = 32 y = 6 }
 		}
 
 		ai_will_do = {
@@ -2694,11 +2737,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 30 y = 8 }
+			position = { x = 32 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2715,12 +2757,15 @@ technologies = {
 
 		encryption = 1
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 30 y = 10 }
+			position = { x = 32 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2743,11 +2788,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 592
 		folder = {
 			name = troll_administration_folder
-			position = { x = 32 y = 4 }
+			position = { x = 34 y = 4 }
 		}
 
 		ai_will_do = {
@@ -2764,17 +2808,20 @@ technologies = {
 
 		decryption = 1
 
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
 		path = {
 			leads_to_tech = troll_decryption_3
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-
 		start_year = 595
 		folder = {
 			name = troll_administration_folder
-			position = { x = 32 y = 6 }
+			position = { x = 34 y = 6 }
 		}
 
 		ai_will_do = {
@@ -2797,11 +2844,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
 		start_year = 598
 		folder = {
 			name = troll_administration_folder
-			position = { x = 32 y = 8 }
+			position = { x = 34 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2818,12 +2864,15 @@ technologies = {
 
 		decryption = 1
 
-		research_cost = 1.5
+		dependencies = {
+			troll_temple_tech = 1
+		}
 
+		research_cost = 1.5
 		start_year = 601
 		folder = {
 			name = troll_administration_folder
-			position = { x = 32 y = 10 }
+			position = { x = 34 y = 10 }
 		}
 
 		ai_will_do = {

@@ -8,17 +8,14 @@ technologies = {
 			leads_to_tech = power_of_de_loa_tech_1
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = dire_troll_tech
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = shadow_hunter_tech
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = devilsaur_tech
 			research_cost_coeff = 1
@@ -26,7 +23,6 @@ technologies = {
 
 		research_cost = 2
 		start_year = 584
-
 		folder = {
 			name = troll_support_folder
 			position = { x = 11 y = 0 }
@@ -38,7 +34,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 		}
 	}
 
@@ -53,7 +48,6 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 584
-
 		folder = {
 			name = troll_support_folder
 			position = { x = 4 y = 4 }
@@ -72,6 +66,10 @@ technologies = {
 
 		special_forces_cap = 0.05
 
+		dependencies = {
+			troll_lodge_tech = 1
+		}
+
 		path = {
 			leads_to_tech = power_of_de_loa_tech_3
 			research_cost_coeff = 1
@@ -79,7 +77,6 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 595
-
 		folder = {
 			name = troll_support_folder
 			position = { x = 4 y = 8 }
@@ -98,9 +95,12 @@ technologies = {
 
 		special_forces_cap = 0.05
 
+		dependencies = {
+			troll_temple_tech = 1
+		}
+
 		research_cost = 1.5
 		start_year = 601
-
 		folder = {
 			name = troll_support_folder
 			position = { x = 4 y = 12 }
@@ -145,12 +145,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -182,12 +177,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -213,12 +203,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -244,12 +229,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -260,14 +240,13 @@ technologies = {
 		}
 
 		dependencies = {
-			stronghold_tech = 1
+			troll_lodge_tech = 1
 		}
 
 		path = {
 			leads_to_tech = dire_troll_tier_2_upgrade_placeholder_1
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = dire_troll_tier_2_upgrade_placeholder_2
 			research_cost_coeff = 1
@@ -286,12 +265,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -317,12 +291,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -348,12 +317,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -364,7 +328,7 @@ technologies = {
 		}
 
 		dependencies = {
-			fortress_tech = 1
+			troll_temple_tech = 1
 		}
 
 		research_cost = 1.5
@@ -380,12 +344,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -420,12 +379,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -457,12 +411,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -488,12 +437,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -519,12 +463,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -535,7 +474,7 @@ technologies = {
 		}
 
 		dependencies = {
-			stronghold_tech = 1
+			troll_lodge_tech = 1
 		}
 
 		path = {
@@ -561,12 +500,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -592,12 +526,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -623,12 +552,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -639,7 +563,7 @@ technologies = {
 		}
 
 		dependencies = {
-			fortress_tech = 1
+			troll_temple_tech = 1
 		}
 
 		research_cost = 1.5
@@ -655,12 +579,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -695,12 +614,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -732,12 +646,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -763,12 +672,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -794,12 +698,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -810,7 +709,7 @@ technologies = {
 		}
 
 		dependencies = {
-			stronghold_tech = 1
+			troll_lodge_tech = 1
 		}
 
 		path = {
@@ -836,12 +735,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -867,12 +761,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -898,12 +787,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 
@@ -914,7 +798,7 @@ technologies = {
 		}
 
 		dependencies = {
-			fortress_tech = 1
+			troll_temple_tech = 1
 		}
 
 		research_cost = 1.5
@@ -930,12 +814,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 300
-		
-			modifier = {
-				factor = 1000
-				date > "592.1.1"
-			}
+			factor = 1
 		}
 	}
 }

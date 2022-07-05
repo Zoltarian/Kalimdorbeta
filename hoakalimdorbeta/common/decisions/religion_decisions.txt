@@ -1060,7 +1060,7 @@ religion_decisions = {
 			}
 			NOT = {
 				check_variable = { accepted_religions^num > 4 }
-				has_country_flag = accepting_a_hornspeakers
+				has_country_flag = accepting_a_religion
 			}
 		}
 
@@ -8081,7 +8081,7 @@ religion_decisions = {
 		days_re_enable = 365
 
 		remove_effect = {
-			custom_effect_tooltip = convert_to_elemental_furies_tt
+			custom_effect_tooltip = convert_to_the_elemental_furies_tt
 			hidden_effect = {
 				remove_ideas = secondary_religion_the_elemental_furies
 				meta_effect = {
@@ -9545,7 +9545,7 @@ church_of_the_holy_light_decisions = {
 
 		modifier = {
 			stability_weekly = 0.003
-			war_support_weekly = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -9571,11 +9571,11 @@ church_of_the_holy_light_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_the_church_of_the_holy_light
 			check_variable = {
 				faith_points > 100
 			}
-			ROOT = { has_war = yes }
 		}
 
 		complete_effect = {
@@ -9613,11 +9613,11 @@ church_of_the_holy_light_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_the_church_of_the_holy_light
 			check_variable = {
 				faith_points > 100
 			}
-			ROOT = { has_war = yes }
 		}
 
 		complete_effect = {
@@ -9655,11 +9655,11 @@ church_of_the_holy_light_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_the_church_of_the_holy_light
 			check_variable = {
 				faith_points > 100
 			}
-			ROOT = { has_war = yes }
 		}
 
 		complete_effect = {
@@ -9904,6 +9904,7 @@ followers_of_cthun_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_cthun
 			check_variable = {
 				faith_points > 100
@@ -9987,6 +9988,7 @@ druidism_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_druidism
 			check_variable = {
 				faith_points > 100
@@ -10149,6 +10151,8 @@ natural_magic_decisions = {
 		}
 
 		available = {
+			has_war = yes
+			has_war = yes
 			has_idea = primary_religion_natural_magic
 			check_variable = {
 				faith_points > 100
@@ -10271,6 +10275,7 @@ natural_magic_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_natural_magic
 			check_variable = {
 				faith_points > 100
@@ -10477,6 +10482,7 @@ shamanism_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_shamanism
 			check_variable = {
 				faith_points > 100
@@ -10687,6 +10693,7 @@ loa_spirits_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_loa_spirits
 			check_variable = {
 				faith_points > 100
@@ -10728,6 +10735,7 @@ loa_spirits_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_loa_spirits
 			check_variable = {
 				faith_points > 100
@@ -10853,6 +10861,7 @@ tauren_mythology_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_tauren_mythology
 			check_variable = {
 				faith_points > 100
@@ -10947,7 +10956,7 @@ tauren_mythology_decisions = {
 		}
 
 		modifier = {
-			recruitable_population_factor = 0.05
+			conscription_factor = 0.05
 		}
 
 		days_remove = 90
@@ -11321,7 +11330,8 @@ followers_of_the_tidehunter_decisions = {
 
 		modifier = {
 			invasion_preparation = -0.1
-			naval_invasion_penalty = -0.1
+			#naval_invasion_penalty = -0.1 (I Think this is the State Scope)
+			amphibious_invasion_defence = 0.1
 		}
 
 		days_remove = 90
@@ -11486,6 +11496,7 @@ demonology_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_demonology
 			check_variable = {
 				faith_points > 100
@@ -11700,7 +11711,7 @@ sisterhood_of_elune_decisions = {
 		}
 
 		modifier = {
-			recruitable_population = 0.05
+			conscription_factor = 0.05
 		}
 
 		days_remove = 90
@@ -11741,7 +11752,7 @@ sisterhood_of_elune_decisions = {
 		}
 
 		modifier = {
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -11809,6 +11820,7 @@ disciples_of_agamaggan_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_disciples_of_agamaggan
 			check_variable = {
 				faith_points > 100
@@ -11852,6 +11864,7 @@ disciples_of_agamaggan_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_disciples_of_agamaggan
 			check_variable = {
 				faith_points > 100
@@ -11945,7 +11958,7 @@ disciples_of_agamaggan_decisions = {
 		}
 
 		modifier = {
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -11973,6 +11986,7 @@ followers_of_nzoth_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_nzoth
 			check_variable = {
 				faith_points > 100
@@ -12095,6 +12109,7 @@ followers_of_nzoth_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_nzoth
 			check_variable = {
 				faith_points > 100
@@ -12139,6 +12154,7 @@ disciples_of_ursoc_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_disciples_of_ursoc
 			check_variable = {
 				faith_points > 100
@@ -12180,6 +12196,7 @@ disciples_of_ursoc_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_disciples_of_ursoc
 			check_variable = {
 				faith_points > 100
@@ -12319,7 +12336,7 @@ followers_of_the_stonemother_decisions = {
 		}
 
 		modifier = {
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -12345,6 +12362,7 @@ followers_of_the_stonemother_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_the_stonemother
 			check_variable = {
 				faith_points > 100
@@ -12533,6 +12551,7 @@ geomancy_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_geomancy
 			check_variable = {
 				faith_points > 100
@@ -13023,6 +13042,7 @@ fel_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_the_fel
 			check_variable = {
 				faith_points > 100
@@ -13179,7 +13199,7 @@ fel_religion_decisions = {
 		}
 
 		modifier = {
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -13207,6 +13227,7 @@ void_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_the_void
 			check_variable = {
 				faith_points > 100
@@ -13449,7 +13470,7 @@ hour_of_twilight_religion_decisions = {
 		}
 
 		modifier = {
-			recruitable_population_factor = 0.05
+			conscription_factor = 0.05
 		}
 
 		days_remove = 90
@@ -13614,6 +13635,7 @@ followers_of_yogg_saron_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_yogg_saron
 			check_variable = {
 				faith_points > 100
@@ -13785,7 +13807,7 @@ followers_of_yogg_saron_religion_decisions = {
 		modifier = {
 			army_morale_factor = 0.025
 			mobilization_speed = 0.025
-			war_support_weekly = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -13875,8 +13897,8 @@ followers_of_volcanoth_religion_decisions = {
 		}
 
 		modifier = {
-			stability_weekly_factor = 0.001
-			war_support_weekly_factor = 0.001
+			stability_weekly_factor = 0.01
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -13902,6 +13924,7 @@ followers_of_volcanoth_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_volcanoth
 			check_variable = {
 				faith_points > 100
@@ -14128,6 +14151,7 @@ mystery_of_the_makers_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_mystery_of_the_makers
 			check_variable = {
 				faith_points > 100
@@ -14171,7 +14195,7 @@ goblin_atheism_decisions = {
 
 		modifier = {
 			monthly_population = 0.05
-			recruitable_population_factor = 0.05
+			conscription_factor = 0.05
 		}
 
 		days_remove = 90
@@ -14322,6 +14346,7 @@ banana_worship_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_banana_worhsip
 			check_variable = {
 				faith_points > 100
@@ -14420,7 +14445,7 @@ banana_worship_religion_decisions = {
 
 		modifier = {
 			training_time_factor = -0.1
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -14448,6 +14473,7 @@ followers_of_zarjira_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_zarjira
 			check_variable = {
 				faith_points > 100
@@ -14585,7 +14611,7 @@ followers_of_zarjira_religion_decisions = {
 		}
 
 		modifier = {
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -14613,6 +14639,7 @@ followers_of_kros_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_kros
 			check_variable = {
 				faith_points > 100
@@ -14671,7 +14698,7 @@ followers_of_kros_religion_decisions = {
 		modifier = {
 			local_resources_factor = -0.05
 			stability_weekly_factor = 0.001
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -14739,6 +14766,7 @@ followers_of_kros_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_kros
 			check_variable = {
 				faith_points > 100
@@ -14840,7 +14868,8 @@ followers_of_helya_religion_decisions = {
 		modifier = {
 			attrition = -0.05
 			naval_attrition = -0.05
-			naval_accidents_chance = -0.15
+			#naval_accidents_chance = -0.15 (I think this can only be applied to Individual Ships)
+			naval_defense_factor = 0.15
 		}
 
 		days_remove = 90
@@ -14866,6 +14895,7 @@ followers_of_helya_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_helya
 			check_variable = {
 				faith_points > 100
@@ -14908,6 +14938,7 @@ followers_of_helya_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_followers_of_helya
 			check_variable = {
 				faith_points > 100
@@ -15034,6 +15065,7 @@ tuskarr_mythology_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_tuskarr_mythology
 			check_variable = {
 				faith_points > 100
@@ -15181,7 +15213,7 @@ magnataur_worship_religion_decisions = {
 
 		modifier = {
 			training_time_factor = -0.1
-			war_support_weekly_factor = 0.001
+			war_support_weekly = 0.01
 		}
 
 		days_remove = 90
@@ -15207,6 +15239,7 @@ magnataur_worship_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_magnataur_worship
 			check_variable = {
 				faith_points > 100
@@ -15374,6 +15407,7 @@ ancient_nerubian_religion_decisions = {
 		}
 
 		available = {
+			has_war = yes
 			has_idea = primary_religion_ancient_nerubian
 			check_variable = {
 				faith_points > 100

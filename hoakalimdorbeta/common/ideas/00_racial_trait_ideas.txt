@@ -2032,9 +2032,11 @@ ideas = {
 
 			picture = generic_race_drust
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
-			#needs custom tooltip
 		}
 
 		primary_trait_goraktuls_wrath = {
@@ -2405,8 +2407,11 @@ ideas = {
 
 			picture = generic_race_furbolg
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
 		}
 
 ########################################
@@ -2435,9 +2440,11 @@ ideas = {
 
 			picture = generic_race_ghost
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+			
 			#religion modifier +25%
-			#set in on actions
-			#needs custom tooltip
 		}
 
 		#masters of infiltration
@@ -4279,9 +4286,11 @@ ideas = {
 
 		picture = generic_race_ghost
 
+		modifier = {
+			custom_modifier_tooltip = religion_trait
+		}
+
 		#religion modifier +25%
-		#set in on actions
-		#needs custom tooltip
 	}
 
 	primary_trait_heightened_minds = {
@@ -5012,8 +5021,11 @@ ideas = {
 
 			picture = generic_race_wildkin
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
 		}
 
 
@@ -7762,9 +7774,11 @@ ideas = {
 
 			picture = generic_race_drust
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
-			#needs custom tooltip
 		}
 
 		secondary_trait_goraktuls_wrath = {
@@ -8206,8 +8220,11 @@ ideas = {
 
 			picture = generic_race_furbolg
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
 		}
 
 ########################################
@@ -8243,9 +8260,11 @@ ideas = {
 
 			picture = generic_race_ghost
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
-			#needs custom tooltip
 		}
 
 		#masters of infiltration
@@ -10464,9 +10483,11 @@ ideas = {
 
 			picture = generic_race_ghost
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
-			#needs custom tooltip
 		}
 
 		secondary_trait_heightened_minds = {
@@ -11336,8 +11357,11 @@ ideas = {
 
 			picture = generic_race_wildkin
 
+			modifier = {
+				custom_modifier_tooltip = religion_trait
+			}
+
 			#religion modifier +25%
-			#set in on actions
 		}
 
 
