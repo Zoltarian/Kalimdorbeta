@@ -1,0 +1,106 @@
+equipments = {
+
+	dire_troll_equipment = {
+		year = 584
+
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_dire_troll_equipment			
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+
+		#Misc Abilities
+		maximum_speed = 5
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 20 
+		breakthrough = 24 
+		hardness = 0.2 
+		armor_value = 35 
+
+		#Offensive Abilities
+		soft_attack = 14.5 
+		hard_attack = 11.5
+		ap_attack = 38.5 
+		air_attack = 0 
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		build_cost_ic = 6.5
+		resources = {
+			wheat = 5
+			mana = 2
+		}
+
+	}
+
+	dire_troll_equipment_1 = {
+		year = 584
+
+		archetype = dire_troll_equipment		
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+		
+	}
+	
+	dire_troll_equipment_2 = {
+		year = 595
+		
+		archetype = dire_troll_equipment
+		parent = dire_troll_equipment_1
+		priority = 10
+		visual_level = 1
+		is_convertable = yes
+
+		#Misc Abilities
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 24 
+		breakthrough = 35 
+		hardness = 0.2 
+		armor_value = 38.5
+
+		#Offensive Abilities
+		soft_attack = 19.75 
+		hard_attack = 17
+		ap_attack = 46 
+		air_attack = 0 #static
+		
+		build_cost_ic = 7.25
+	}
+	
+	dire_troll_equipment_3 = {
+		year = 601
+	
+		archetype = dire_troll_equipment
+		parent = dire_troll_equipment_2
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 28
+		breakthrough = 46 
+		hardness = 0.2
+		armor_value = 50
+
+		#Offensive Abilities
+		soft_attack = 25.5 #+7.5
+		hard_attack = 23 
+		ap_attack = 53.5 
+		air_attack = 0 #static
+		
+		build_cost_ic = 8
+	}
+	
+}

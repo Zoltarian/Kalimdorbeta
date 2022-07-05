@@ -1,5 +1,5 @@
 sub_units = {
-	witch_doctor = {
+	berserker = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -16,13 +16,14 @@ sub_units = {
 		
 		categories = {
 			category_army
+			category_all_combat_units
 			category_support_units
 		}
 
 		combat_width = 0
 	
 		#Size Definitions
-		max_strength = 2
+		max_strength = 1
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 50
@@ -30,17 +31,28 @@ sub_units = {
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.05
+		supply_consumption = 0.02
 		can_be_parachuted = yes
 
-		# Important Ability
-		casualty_trickleback = 0.20
-		experience_loss_factor = -0.10
+		# Support nerfs to combat abilities
+		defense = -0.5
+		breakthrough = -0.5
+		soft_attack = -0.9
+		hard_attack = -0.9
 		
-		need = {
-			troll_support_equipment = 30
+		# Important Ability
+		initiative = 0.20
+		
+		essential = {
+			troll_support_equipment
+			troll_axeman_equipment
 		}
+
+		need = {
+			troll_support_equipment = 20
+			troll_axeman_equipment = 10
+		}
+
 	}
 }
-
 

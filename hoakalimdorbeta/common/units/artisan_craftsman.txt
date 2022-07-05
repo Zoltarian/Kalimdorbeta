@@ -1,12 +1,12 @@
 sub_units = {
-	witch_doctor = {
+	artisan_craftsman_unit = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
 		active = no
 		affects_speed = no
-
+		
 		type = {
 			infantry
 			support
@@ -18,29 +18,28 @@ sub_units = {
 			category_army
 			category_support_units
 		}
-
+	
 		combat_width = 0
 	
 		#Size Definitions
-		max_strength = 2
-		max_organisation = 20
+		max_strength = 1
+		max_organisation = 20	
 		default_morale = 0.3
 		manpower = 50
 		training_time = 120
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.05
+		supply_consumption = 0.03
 		can_be_parachuted = yes
-
+		
 		# Important Ability
-		casualty_trickleback = 0.20
-		experience_loss_factor = -0.10
+		reliability_factor = 0.05
+		equipment_capture_factor = 0.05
 		
 		need = {
-			troll_support_equipment = 30
+			troll_support_equipment = 25
 		}
+
 	}
 }
-
-

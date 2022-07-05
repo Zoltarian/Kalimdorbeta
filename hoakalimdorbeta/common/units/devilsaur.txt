@@ -1,6 +1,6 @@
 sub_units = {
 
-	steam_tank = {
+	devilsaur = {
 		sprite = cavalry
 		map_icon_category = armored
 		special_forces = yes
@@ -26,10 +26,10 @@ sub_units = {
 			category_special_forces
 		}
 
-		combat_width = 2
+		combat_width = 4
 
 		need = {
-			steam_tank_equipment = 50
+			devilsaur_equipment = 50
 		}
 		
 		manpower = 50
@@ -68,4 +68,3 @@ sub_units = {
 		}
 	}
 }
-
